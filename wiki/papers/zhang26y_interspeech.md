@@ -1,29 +1,61 @@
 ---
 id: zhang26y_interspeech
-category: dataset
+category: asr
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1625
 pdf: https://www.isca-archive.org/interspeech_2026/zhang26y_interspeech.pdf
 ---
 
 # SoniSpeech: A Large-Scale Open-Vocabulary Tri-Modal Dataset for Wearable Silent Speech Interfaces
 
+*Ruidong Zhang, Jiacheng Liu, François Guimbretière, Cheng Zhang*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26y_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26y_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1625)
 
-**TL;DR** — SoniSpeech introduces the first large-scale, open-vocabulary tri-modal dataset for minimally-obtrusive wearable silent speech interfaces, achieving a 26.3% word error rate using a ResNet-34 baseline.
+**TL;DR** — SoniSpeech is the first large-scale, open-vocabulary, trimodal dataset for wearable silent speech interfaces using acoustic-sensing eyewear, achieving a 26.3% word error rate (WER) on open-vocabulary silent speech recognition with a ResNet-34 CTC baseline.
+
+## Key contributions
+
+- Presents the first open-vocabulary, trimodal silent speech dataset using minimally-obtrusive acoustic-sensing eyewear: 34.1 hours, 18,000 utterances, and synchronized ultrasound, audio, and video modalities.
+- Constructs a contemporary conversational English corpus drawn from the SODA social dialogue dataset, covering 5,356 unique words, full phoneme coverage, and colloquial expressions.
+- Establishes the first open-vocabulary baseline for acoustic-sensing wearable SSI using a CTC-based ResNet-34, achieving 26.3% WER on silent speech and proving task tractability.
+- Provides parallel voiced and silent utterance pairs to study cross-modal transfer and domain adaptation challenges between speaking modes.
 
 ## Problem
 
-Wearable silent speech interfaces have been limited to small, closed vocabularies because existing open-vocabulary datasets require obtrusive hardware like facial electrodes or chin-mounted probes. Conversely, non-invasive wearable form factors like acoustic-sensing eyewear lack large-scale foundational corpora, preventing open-vocabulary conversational research. This dataset bridges that gap by providing synchronized multi-modal data in a natural conversational format.
+Wearable silent speech interfaces (SSIs) are currently caught in a trade-off where open-vocabulary systems rely on obtrusive hardware like facial electrodes or chin-mounted probes, while minimally-obtrusive form factors such as acoustic eyewear or depth-sensing devices are confined to small, closed command sets. This vocabulary bottleneck persists largely due to a critical scarcity of large-scale public data for unobtrusive wearable sensors. Without foundational open datasets, the speech community cannot adequately investigate whether continuous, natural language recognition is computationally tractable in lightweight wearable form factors.
 
 ## Method
 
-The SoniSpeech dataset is collected using custom acoustic-sensing eyewear equipped with two speakers emitting FMCW chirps (18-28 kHz and 29-39 kHz) and two ultrasound microphones sampling at 100 kHz, alongside a synchronized laptop camera. The corpus adapts 34.1 hours of contemporary social dialogues from the SODA dataset into 18,000 parallel voiced and silent utterances across 360 sessions. The baseline model is a modified ResNet-34 sequence encoder that processes 4-channel differential echo profiles (cropped to 80 range bins at 200 Hz), uses Group Normalization, and maps 512-dimensional temporal embeddings via CTC loss. It employs a SentencePiece unigram tokenizer with a 1,000-unit vocabulary and is trained for 200 epochs using Adam with data augmentation.
+The sensing hardware consists of modified eyeglass frames equipped with two Ole Wolff speakers and two Syntiant ultrasound microphones. Speakers transmit inaudible FMCW chirps (18-28 kHz and 29-39 kHz) that capture millimeter-level facial deformations as echo profiles, sampled at 100 kHz via a Teensy 4.0 microcontroller. Frontal video is captured concurrently at 1920x1080 resolution and 30 fps, with all modalities temporally synchronized using a clapping procedure.
+
+The baseline architecture adapts a ResNet-34 for sequence modeling, taking 4-channel differential echo profiles (80 range bins covering ~27.2 cm) sampled at 200 Hz as input. The standard stem max-pool layer is removed, and temporal downsampling is handled via strided convolutions in the stem and residual stages 2-4, yielding a total 16x temporal reduction. Frequency-wise global average pooling collapses 2D feature maps to 1D sequences (512 dimensions per time step), followed by a linear projection to output logits. A SentencePiece Unigram tokenizer with a 1,000-unit vocabulary handles text.
+
+Models are trained using Connectionist Temporal Classification (CTC) loss via the Adam optimizer (learning rate 2x10^-4, weight decay 10^-4) with an exponential decay scheduler and linear warm-up for 200 epochs at batch size 16. Data augmentations include SpecAugment (2 frequency masks, 3 time masks) and utterance concatenation (up to 3 utterances or 15 seconds per sample).
+
+## Experimental setup
+
+The dataset contains 34.1 hours of session-level data across 18,000 utterances (8,000 training sentences and 1,000 test sentences per mode) collected from a single speaker across 360 sessions (180 voiced, 180 silent). Baselines compare voiced-only, silent-only, and combined voiced+silent training configurations evaluated via Word Error Rate (WER) using greedy decoding without an external language model. Implementation uses Group Normalization (32 groups) and trains on the first 140 sessions of each mode.
 
 ## Results
 
-Evaluated on a test set comprising 1,000 sentences (1,684 unique words, 242 out-of-vocabulary words), the CTC-based ResNet-34 baseline achieves a 26.3% word error rate on open-vocabulary silent speech recognition when trained on both voiced and silent data. Training exclusively on silent data yields a higher word error rate of 33.7%, demonstrating that parallel voiced data provides a crucial complementary training signal. The corpus features 100% ARPABET phoneme coverage across 39 phonemes and 5,356 unique word types.
+The silent-only model achieves 33.7% WER on silent speech evaluation, while the voiced-only model achieves 16.9% WER on voiced evaluation. Combining voiced and silent training data improves the silent evaluation WER down to 26.3%, demonstrating that audible data provides a complementary training signal. A severe cross-modal mismatch exists when evaluating a voiced-trained model on silent speech (>50% WER), driven by different articulation dynamics and ultrasonic acoustic energy overlap.
+
+| Training Data | Eval: Voiced WER | Eval: Silent WER |
+|---|---|---|
+| Voiced only | 16.9% | 78.4% |
+| Silent only | 55.7% | 33.7% |
+| Voiced + Silent | 15.8% | 26.3% |
+
+## Limitations
+
+The dataset is collected from a single non-native speaker in a controlled, quiet environment, leaving inter-speaker variability and environmental noise robustness for future work. The baseline system intentionally omits external language models, pretrained representations, or advanced contrastive learning objectives, serving purely as a raw lower bound.
+
+## Why read this
+
+Speech and machine learning researchers building wearable, unobtrusive silent speech interfaces will find this paper essential as a foundational dataset release and benchmark for open-vocabulary speech reconstruction from acoustic facial echoes.
 
 ## Code
 
@@ -31,11 +63,7 @@ Evaluated on a test set comprising 1,000 sentences (1,684 unique words, 242 out-
 
 ## Applications
 
-Speech and ML engineers developing private, low-latency, and hands-free wearable communication devices or silent speech recognition systems.
-
-## Limitations
-
-Data is collected from a single non-native yet fluent English speaker, and hardware issues during collection resulted in minor channel dropouts in a subset of sessions.
+Accessible and private hands-free communication devices, silent dictation for smart eyewear, and cross-modal speech enhancement or voice conversion.
 
 ## Related
 

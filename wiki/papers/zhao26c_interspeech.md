@@ -3,39 +3,67 @@ id: zhao26c_interspeech
 category: speech-enhancement
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-601
 pdf: https://www.isca-archive.org/interspeech_2026/zhao26c_interspeech.pdf
 ---
 
 # HALO: Half-Frame-Rate Adaptive Learnable Operator for Lightweight STFT-Based Speech Enhancement
 
+*Jiadong Zhao, Dahan Wang, Yu Sun, Leyan Yang, Xiaobin Rong, Shiruo Sun, Yuxiang Hu, Jing Lu*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/zhao26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhao26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-601)
 
-**TL;DR** — The paper introduces HALO, a causal plug-in module that halves the internal frame rate of STFT-based speech enhancement models to eliminate temporal redundancy, improving PESQ by 0.1 and SI-SNR by 0.5 dB on the DNS3 dataset under matched compute.
+**TL;DR** — HALO is a causal plug-in module that halves the internal frame rate of STFT-based speech enhancement backbones via adaptive dynamic convolutions, recovering compute budget for channel widening and improving PESQ on DNS3 by up to 0.1.
+
+## Key contributions
+
+- Proposes a causal plug-in framework (HALO) that reduces overlap-induced temporal redundancy in STFT-based speech enhancement without altering the input/output STFT/ISTFT grid or adding algorithmic latency.
+- Implements adaptive learnable rate-reduction and restoration operators using lightweight dynamic convolutions with T-F-dependent gating functions instead of hard frame decimation.
+- Demonstrates consistent performance gains across diverse lightweight enhancement backbones (GTCRN, DPCRN, LiSenNet, UL-UNAS) under matched computational complexity on the DNS3 dataset.
 
 ## Problem
 
-Traditional STFT-based speech enhancement relies on overlapping analysis frames to ensure stable signal reconstruction, but high overlap rates cause strong temporal correlation and redundant computations between adjacent frames. While lightweight neural architectures have reduced per-frame computation, they remain bottlenecked by this overlap-induced redundancy. Standard approaches like discarding alternate frames or naive decimation degrade speech quality because they fail to preserve crucial temporal dynamics and rapidly varying speech components.
+Traditional STFT-based speech enhancement models process heavily overlapping analysis frames (50% to 75% overlap) to prevent boundary artifacts during overlap-add synthesis, introducing massive temporal redundancy. Prior lightweight network designs like DPCRN, GTCRN, LiSenNet, and UL-UNAS focus strictly on per-frame computation reduction while leaving this underlying STFT frame-rate redundancy unaddressed. Directly dropping frames or using non-adaptive multi-frame prediction degrades speech quality because adjacent frames contain vital, rapidly changing temporal details that hard-decimation destroys.
 
 ## Method
 
-HALO acts as a causal plug-in module consisting of a rate reduction operator before the backbone and a restoration operator afterward, running the backbone at half the frame rate while preserving the original full-rate STFT grid resolution. The reduction module groups adjacent frames and fuses them using a lightweight dynamic convolution conditioned on local time-frequency features via an attention-like gating branch (K=5 kernels, 8 hidden channels). The restoration module symmetrically reconstructs the two adjacent output frames from each half-rate frame without accessing future inputs, thereby preserving the original algorithmic latency. The computational budget saved by halving the internal sequence length is reallocated toward widening backbone channels for a cost-matched comparison.
+HALO operates as a pre- and post-backbone sandwich wrapper around any standard STFT-based speech enhancement backbone without modifying its per-frame interface or future-frame lookahead. Given a real/imaginary complex spectrum representation $X \in \mathbb{R}^{2 \times T \times F}$, the rate-reduction operator $D(\cdot)$ concatenates adjacent time frames on the original grid into a 4-channel vector per frequency bin, $X_\tilde{}(\cdot, l, f) = \text{cat}(X(:, 2l-1, f), X(:, 2l, f)) \in \mathbb{R}^4$. This reduced sequence is mapped to half-rate features via a dynamic convolution bank of $K=5$ kernels ($W_k \in \mathbb{R}^{2 \times 4}$) combined with T-F-dependent mixture weights $\alpha_k(l, f)$ produced by a lightweight gating network $g_d(\cdot)$ consisting of two point-wise convolutions, a PReLU, and a softmax.
+
+The backbone $f_\theta(\cdot)$ processes this halved temporal sequence ($T/2$ frames). Subsequently, the restoration operator $U(\cdot)$ applies a structural counterpart architecture using a bank of $K=5$ restoration kernels ($V_k \in \mathbb{R}^{4 \times 2}$) and gating weights $\beta_k(l, f)$ to expand each half-rate frame back into two consecutive full-rate frames on the original grid. Training utilizes an Adam optimizer starting at learning rate 0.001 (halved if validation loss stalls for 10 epochs), a batch size of 8, and the standard loss function inherited from GTCRN.
+
+## Experimental setup
+
+Evaluated primarily on the 3rd Deep Noise Suppression (DNS3) dataset and the DiDiSpeech Mandarin corpus, comprising 72,000 training pairs (10 seconds each, 16 kHz sampling rate) mixed with RIRs and noise at SNR ranging from -5 to 15 dB, plus 840 validation and 800 test pairs. Baselines include GTCRN, DPCRN (ultralight, light, middle, large), LiSenNet, and UL-UNAS. Metrics include PESQ, ESTOI, SI-SNR, and DNSMOS P.835 (OVRL, SIG, BAK). STFT uses a 32 ms square-root Hann window, 16 ms hop length (50% overlap), and 512-point FFT.
 
 ## Results
 
-Evaluated on the 3rd Deep Noise Suppression (DNS3) test set using 16 kHz audio, with models trained on 72,000 noisy-clean pairs. When applied to the GTCRN baseline under matched complexity (~32-33M MAC/s), HALO improves PESQ from 2.101 to 2.198, ESTOI from 0.754 to 0.769, and SI-SNR from 11.390 dB to 11.900 dB. Ablation studies demonstrate that replacing learnable adaptive operators with fixed-kernel convolutions or simple frame decimation leads to inferior PESQ (2.086 and 2.104 versus 2.198). HALO also yields consistent performance gains when integrated into various lightweight backbones including DPCRN variants, LiSenNet, and UL-UNAS.
+On the DNS3 test set with GTCRN, baseline GTCRN achieves 2.101 PESQ, 0.754 ESTOI, and 11.390 dB SI-SNR at 33.83M MAC/s. When HALO is integrated with channel widening to match compute (46.87k params, 32.85M MAC/s), PESQ rises to 2.198 (+0.097), ESTOI to 0.769, and SI-SNR to 11.900 dB (+0.51 dB). Ablating adaptive gating and learnable operators drops PESQ down to 2.118 (FixedRed + FixedRest) and 2.104 (Decimate + FixedRest). Across larger backbones like DPCRN-large and UL-UNAS, the performance gains diminish because larger networks already possess sufficient capacity where redundant frame compute is less of a bottleneck.
 
-## Code
-
-- https://github.com/dddaniel-z/HALO
-
-## Applications
-
-Real-time, resource-constrained speech enhancement on edge devices and mobile hardware where computational complexity is bottlenecked by STFT frame processing.
+| System | Params (k) | MAC/s (M) | PESQ | ESTOI | SI-SNR (dB) |
+|---|---|---|---|---|---|
+| Noisy Input | - | - | 1.406 | 0.669 | 5.610 |
+| GTCRN (Baseline) | 23.67 | 33.83 | 2.101 | 0.754 | 11.390 |
+| GTCRN + HALO (w/ widening) | 46.87 | 32.85 | 2.198 | 0.769 | 11.900 |
+| DPCRN-ultralight | 27.92 | 31.80 | 2.025 | 0.750 | 11.070 |
+| DPCRN-ultralight + HALO | 55.03 | 31.34 | 2.212 | 0.771 | 11.920 |
+| UL-UNAS + HALO | 205.16 | 31.26 | 2.261 | 0.777 | 12.240 |
 
 ## Limitations
 
-HALO reduces the average computational cost but does not lower the peak per-step computation because the frame-rate restoration operator must generate two adjacent frames within a single inference step.
+HALO reduces average MAC/s by halving the internal backbone sequence length, but it does not reduce peak per-step computation because the restoration operator synthesizes two frames within a single inference step. The marginal benefits shrink when applied to already over-parameterized backbones or models heavily optimized via neural architecture search (e.g., UL-UNAS). Evaluation is limited to simulated acoustic environments using DNS3 and DiDiSpeech datasets without real-world hardware latency benchmarks.
+
+## Why read this
+
+Speech and ML researchers building edge-deployable real-time speech enhancement models should read this to learn how to exploit STFT overlap-induced temporal redundancy as a orthogonal optimization dimension to network architecture search and channel pruning.
+
+## Code
+
+- https://github.com/dddaniel-z/HALO/
+
+## Applications
+
+Real-time edge speech enhancement for mobile phones, hearables, communication platforms, and hearing aids.
 
 ## Related
 

@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-1224
 isca_url: https://www.isca-archive.org/interspeech_2026/yang26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26g_interspeech.pdf
 session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
-topics: [speech-enhancement, low-resource, self-supervised]
+topics: [tts, speech-llm, low-resource]
 code:
     url: https://github.com/Jie-shiang/Pitch-Injected-Residual-Adapter
     license: ""

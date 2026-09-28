@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-753
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26j_interspeech.pdf
 session: Speech Production and Perception 1
-topics: [tts, evaluation, prosody]
+topics: [tts, phonetics, prosody]
 code:
-    url: ""
+    url: https://www.vocaltractlab.de/index.php?page=birkholz-supplements
     license: ""
 open_to_collaboration: false

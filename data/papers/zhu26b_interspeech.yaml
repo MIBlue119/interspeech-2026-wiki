@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-2148
 isca_url: https://www.isca-archive.org/interspeech_2026/zhu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhu26b_interspeech.pdf
 session: Generative and Self-Supervised Speech Enhancement
-topics: [speech-enhancement, self-supervised]
+topics: [speech-enhancement, speaker-verification, self-supervised]
 code:
     url: https://github.com/Hello3orld/G-MaP-SE
     license: ""

@@ -3,27 +3,64 @@ id: yang26n_interspeech
 category: tts
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2398
 pdf: https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.pdf
 ---
 
 # U-Codec: Neural Speech Codec under Extreme Temporal Compression for Fast High-Fidelity Speech Generation
 
+*Xusheng Yang, Long Zhou, Wenfu Wang, Kai Hu, Zixiang Wan, Yushen Chen, Shulin Feng, Chenxing Li, Meng Yu, Dong Yu, Yuexian Zou*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2398)
 
-**TL;DR** — U-Codec is an ultra-low frame-rate neural speech codec operating at 5Hz that achieves up to 3× faster LLM-based text-to-speech inference while maintaining competitive reconstruction and generation quality.
+**TL;DR** — U-Codec is an ultra-low frame-rate (5Hz) neural speech codec that compresses speech into discrete tokens to accelerate LLM-based TTS by up to 3× while preserving SOTA naturalness and intelligibility.
+
+## Key contributions
+
+- Proposes U-Codec, the first 5Hz ultra-low frame-rate neural speech codec designed specifically for efficient speech-text LLM modeling.
+- Introduces a Transformer-based inter-frame long-term dependency bottleneck and factorized residual vector quantization (FRVQ) to prevent spectral and intelligibility collapse under extreme temporal compression.
+- Employs a hierarchical global-local CodecFormer Transformer architecture to decouple inter-frame and intra-frame token generation, enabling scalable sequence modeling up to 32-100 RVQ layers.
+- Demonstrates up to 3× faster inference speed (RTF 0.52) in zero-shot TTS compared to high-frame-rate baselines like SoundStream while maintaining comparable subjective and objective quality.
 
 ## Problem
 
-State-of-the-art neural speech codecs operate at high frame rates of 50 to 75 FPS using residual vector quantization, leading to long token sequences and inefficient autoregressive inference in LLM-based speech generation. Reducing the frame rate shortens sequences and accelerates inference, but extreme temporal compression like 5Hz typically causes severe intelligibility and spectral detail loss. Overcoming this trade-off is critical for enabling fast, high-fidelity speech generation models.
+State-of-the-art neural speech codecs like SoundStream, EnCodec, and DAC operate at high frame rates (50-75 FPS), resulting in extremely long token sequences that cause a quadratic computational bottleneck and slow down autoregressive LLM-based text-to-speech inference. While reducing frame rates is desirable, prior attempts drop performance drastically (e.g., PESQ dropping to ~2.0 at 12.5Hz) due to severe losses in spectral details and phonetic pronunciation. Extreme temporal compression down to 5Hz has not been systematically explored or successfully optimized until now.
 
 ## Method
 
-The encoder utilizes strided 1D convolutions to downsample 16kHz audio to 5Hz, followed by an 8-layer Transformer bottleneck with RoPE position embeddings and 512 hidden dimensions to capture long-term inter-frame dependencies. Latent features are quantized using factorized residual vector quantization (FRVQ) with extensive codebook explorations (ranging from 8 to 100 layers and codebook sizes from 4 to 16,384). A hierarchical global-local CodecFormer Transformer architecture explicitly decouples inter-frame and intra-frame correlations to manage multi-layer token dependencies without quadratic complexity scaling. The system is trained on 115k hours of multilingual speech using Multi-Period Discriminators, multi-scale STFT discriminators, and standard reconstruction, adversarial, and commitment losses.
+The encoder downsamples a 16kHz waveform via five residual convolutional blocks with strided convolutions (strides [8, 5, 5, 4, 4] for 5Hz) starting from 64 channels and doubling width, followed by an 8-layer contextual Transformer bottleneck (hidden size 512, MLP 2048, 8 heads, RoPE) to model inter-frame dependencies over 200ms windows. Latent representations are quantized using factorized residual vector quantization (FRVQ) with configurations ranging from 8 to 32+ layers and codebook sizes from 256 to 16,384 at ~1kbps bitrate. The decoder mirrors the encoder structure with upsampling factors [4, 4, 5, 5, 8] and starts from 2048 channels to reconstruct high-fidelity audio.
+
+For downstream LLM speech generation, a hierarchical global-local CodecFormer architecture decouples sequence generation: a global Transformer (24 layers, 1536 dim, 12 heads, 6144 MLP) models long-range dependencies across patch-aggregated frames, reducing sequence length from T×N to T. A local Transformer (8 layers) then autoregressively decodes the N intra-frame RVQ tokens per patch. The codec training uses a combination of multi-scale mel-spectrogram L1 loss (weight 15), LSGAN adversarial loss with Multi-Period Discriminators and MS-STFT discriminators (weight 1), feature matching loss (weight 1), and VQ commitment loss (weight 0.25).
+
+The models are trained using 16 H20 GPUs with a batch size of 16 for 600k steps with a 1×10^-4 learning rate and a 1000-step warmup. The TTS models utilize Libriheavy (50k hours) trained for 4 epochs with max 15k sequence length, max learning rate 6×10^-4, and multinomial Top-k sampling (k=5, temperature=1.0) during inference.
+
+## Experimental setup
+
+The codec is trained on 115k hours of multilingual speech (LibriLight 60k, GigaSpeech 10k, MLS 45k) and evaluated on LibriSpeech test-clean (2620 utterances). TTS models are trained on Libriheavy (50k hours) and evaluated on a LibriSpeech test-clean subset (4 hours). Metrics include Word Error Rate (WER), STOI, PESQ (WB/NB), Speaker Similarity (SPK-SIM / SIM-r / SIM-o), UTMOS, MOS, SMOS, Real-Time Factor (RTF), and MACs. Baselines include BigCodec, EnCodec, WavTokenizer, DAC, SpeechTokenizer, X-codec, StableCodec, SemantiCodec, Mimi, DualCodec, UniAudio, VoiceBox, and VALL-E.
 
 ## Results
 
-Evaluated on LibriSpeech test-clean, U-Codec with 32 RVQ layers at 5Hz achieves a Word Error Rate (WER) of 3.44, PESQ of 3.20, and STOI of 0.93. When integrated into an autoregressive TTS framework, U-Codec achieves speaker similarity scores (SIM-r of 0.6757, SIM-o of 0.600) and naturalness Mean Opinion Scores (NMOS up to 4.19) comparable or superior to baseline high-frame-rate systems like UniAudio and VoiceBox. Complexity analysis demonstrates a Real-Time Factor (RTF) of 0.52 and a total MAC reduction to 0.89G for the 32RVQ configuration, delivering a 2–3× inference speedup over baseline 50Hz codecs.
+U-Codec at 5Hz with 32 RVQ layers achieves a WER of 3.44, STOI of 0.92, wideband PESQ of 3.20, and speaker similarity of 0.87, closely matching or beating high-frame-rate codecs like BigCodec while operating at a fraction of the frame rate. In zero-shot TTS evaluations, the 32RVQ-c256 configuration achieves a speaker similarity SIM-r of 0.676, SIM-o of 0.600, and WER of 1.8, rivaling VoiceBox and outperforming UniAudio. Ablation studies prove that replacing the contextual Transformer with a convolution module causes significant drops in intelligibility (WER jumps from 3.44 to 5.40), confirming that global attention is necessary to handle information-dense vs sparse segments at 5Hz.
+
+Regarding inference efficiency, U-Codec-8RVQ-c16384 reduces the RTF to 0.52 (a 2-3× speedup over UniAudio's SoundStream baseline), and total MACs are slashed to as low as 0.89G (U-Codec-32RVQ-c256). However, ultra-deep RVQ stacks like 100 layers increase local autoregressive steps, driving up RTF (4.68) despite low total MACs, showing that extreme local depth without careful tuning hurts decoding speed.
+
+| System / Condition | Frame Rate (Hz) | WER (↓) | PESQ-WB (↑) | SPK-SIM (↑) | RTF (↓) |
+|---|---|---|---|---|---|
+| EnCodec | 75 | 2.15 | 2.77 | 0.89 | - |
+| DAC | 50 | 2.00 | 4.01 | 0.95 | - |
+| Mimi | 12.5 | 2.96 | 2.25 | 0.73 | - |
+| UniAudio (Baseline) | 50 | - | - | - | 1.40 |
+| U-Codec (12.5Hz, 8 RVQ) | 12.5 | 2.96 | 2.49 | 0.85 | 1.33 |
+| U-Codec (5Hz, 32 RVQ) | 5 | 3.44 | 3.20 | 0.87 | 1.60 |
+
+## Limitations
+
+While U-Codec narrows the gap, its reconstruction PESQ (max 3.20 at 5Hz) still lags behind high-bitrate/high-frame-rate codecs like DAC (4.15 PESQ), indicating a residual fidelity ceiling imposed by extreme temporal loss. Extremely deep RVQ variants (e.g., 100 layers) suffer from severe inference slowdowns (RTF 4.68) due to heavy local autoregressive decoding overhead despite low MAC counts. Evaluation is predominantly restricted to English-centric corpora (LibriSpeech/Libriheavy) for TTS downstream tests despite multilingual pretraining.
+
+## Why read this
+
+Speech LLM and TTS researchers should read this paper to learn how to break the high frame-rate bottleneck using a 5Hz tokenization scheme coupled with hierarchical global-local Transformers, achieving up to 3× inference speedups without sacrificing speech naturalness.
 
 ## Code
 
@@ -31,11 +68,7 @@ Evaluated on LibriSpeech test-clean, U-Codec with 32 RVQ layers at 5Hz achieves 
 
 ## Applications
 
-Speech and ML engineers building large language model-based text-to-speech systems, zero-shot voice cloning, and real-time speech generation applications.
-
-## Limitations
-
-Extremely deep RVQ stacks (such as 100 layers) can increase sequential local decoding overhead and raise the real-time factor despite low total MACs.
+Extremely fast and lightweight zero-shot text-to-speech (TTS) systems, unified speech-text large language models, and on-device conversational speech generation agents.
 
 ## Related
 

@@ -3,27 +3,62 @@ id: yang26m_interspeech
 category: source-separation
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2035
 pdf: https://www.isca-archive.org/interspeech_2026/yang26m_interspeech.pdf
 ---
 
 # Multi-View Based Audio Visual Target Speaker Extraction
 
+*Peijun Yang, Zhan Jin, Juan Liu, Ming Li*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2035)
 
-**TL;DR** — The paper introduces Multi-View Tensor Fusion (MVTF), a framework that leverages synchronized multi-perspective lip videos during training to learn robust audio-visual target speaker extraction, achieving 15.836 dB SI-SDR on single-view frontal testing.
+**TL;DR** — The paper introduces Multi-View Tensor Fusion (MVTF), an audio-visual target speaker extraction framework that leverages synchronized multi-perspective lip videos during training via tensor outer products to learn robust representations, yielding an average SI-SDR of 15.718 dB for single-view testing (a 1.616 dB gain over frontal-only baselines).
+
+## Key contributions
+
+- Proposes the Multi-View Tensor Fusion (MVTF) module to capture multiplicative cross-view articulatory interactions through pairwise tensor outer products.
+- Formulates a multi-view training strategy that boosts single-view and multi-view inference performance without requiring multiple cameras at test time.
+- Demonstrates superior robustness to continuous real-world head rotations and pose changes compared to traditional face frontalization pipelines.
+- Achieves state-of-the-art performance on the MEAD dataset, outperforming previous pose-invariant methods like PIAVE by over 2.6 dB in average SDR.
 
 ## Problem
 
-Audio-Visual Target Speaker Extraction systems predominantly assume the availability of frontal facial views, causing performance degradation when speakers exhibit head rotations or non-frontal angles in real-world scenarios. Prior attempts rely on face frontalization, which discards original visual details and fails when correction breaks down. Addressing this by requiring multi-camera setups at test time is impractical, necessitating a method that leverages multi-view complementary cues during training while supporting flexible single-view inference.
+Most audio-visual target speaker extraction (AVTSE) systems rely exclusively on frontal-view videos (e.g., from datasets like LRS3 and VoxCeleb2), assuming stable face visibility. In real-world scenarios, head rotations and non-frontal camera angles severely degrade the extraction performance of these models. Prior attempts to correct this via face frontalization or pose-invariant generation often fail and discard critical non-frontal articulatory information, while multi-camera methods demand rigid hardware setups during both training and inference.
 
 ## Method
 
-The framework builds on a TF-GridNet audio separation backbone and a pre-trained lipreading network for visual feature extraction, paired with a Multi-View Tensor Fusion (MVTF) module. Lip embeddings from different angles are processed through a shared LSTM, and pairwise outer products explicitly model unimodal and bimodal multiplicative interactions between views. The resulting interaction tensors are flattened, flattened and projected back via LayerNorm and linear layers, and averaged across view pairs to construct a view-invariant representation. The model is trained from scratch using Scale-Invariant Signal-to-Distortion Ratio (SI-SDR) loss on 10,000 utterances from the MEAD dataset with random multi-view sampling.
+The architecture builds upon the TF-GridNet audio separation backbone. Mixture audio is processed via STFT and mapped to complex spectrograms with real and imaginary channels concatenated. Visual inputs consist of video frames containing lip regions of interest (ROIs) from multiple camera views, which are passed through a pre-trained ResNet-18 lipreading encoder to obtain 512-dimensional spatiotemporal embeddings. Because audio and video frames operate at different temporal resolutions, linear interpolation upsamples the visual sequence to match the audio time frames (Ta), followed by a 1D convolution layer to project them into a common subspace of dimension F.
+
+To fuse features across views while mitigating noise, the MVTF module processes each view's feature sequence through a shared single-layer LSTM. It then computes pairwise outer products across the LSTM outputs, augmented with constant bias terms to model both unimodal and bimodal interactions. The resulting high-dimensional tensor for each view pair is flattened, projected back to dimension F via LayerNorm and linear layers, and averaged across all available pairs. During training, the model uses 3 distinct camera views out of 7 per batch; during inference, it seamlessly accepts single-view inputs (by repeating the single view) or multi-view inputs symmetrically, without altering camera configurations.
+
+The system is optimized end-to-end using the Scale-Invariant Signal-to-Distortion Ratio (SI-SDR) loss function.
+
+## Experimental setup
+
+Experiments are conducted on the MEAD emotional audio-visual dataset using exclusively neutral-emotion videos across 7 camera views (front, top, down, left/right 30°, left/right 60°). The dataset is split into 10,000 training mixtures, 1,000 validation mixtures, and 1,000 test mixtures with no speaker overlap, mixed at random SNRs between -10 dB and 10 dB at 16 kHz audio and 25 FPS video. Baselines include single-view GridNet (front or random) and alternative fusion strategies like Projected Addition and Attention Fusion. Models are trained using the Adam optimizer with an initial learning rate of 1e-3, gradient clipping (L2-norm max 1), and early stopping for up to 100 epochs on PyTorch.
 
 ## Results
 
-Evaluated on the neutral-emotion MEAD dataset comprising 1,000 test mixtures, MVTF-GridNet (trained with random 3 out of 7 views) achieves an average SI-SDR of 15.836 dB on frontal view inputs, outperforming baseline GridNet trained on random views (15.107 dB) and frontal-only views (13.321 dB). Alternative fusion strategies such as Projected Addition and Attention Fusion achieved average SI-SDRs of 14.588 dB and 14.591 dB respectively, underperforming compared to MVTF. Ablations show that training with random multi-view selection consistently surpasses repeat-view or single-view training strategies.
+MVTF-GridNet trained with random multi-view data achieves an average SI-SDR of 15.718 dB across all 7 test views, outperforming the frontal-only GridNet baseline (12.406 dB) by 3.312 dB and the random single-view GridNet baseline (15.089 dB). Under challenging top-view test inputs, MVTF-GridNet scores 15.196 dB SI-SDR compared to 7.731 dB for frontal-only GridNet. In robustness tests simulating continuous head rotations with mixed view segments, MVTF-GridNet maintains an SI-SDR of 15.834 dB, whereas frontal-only GridNet drops to 10.425 dB. Compared to alternative fusion strategies, MVTF outperforms Projected Addition (14.591 dB) and Attention Fusion (13.938 dB) while introducing minimal parameter overhead (7.561M vs 7.235M parameters and 471.8 GFLOPs vs 470.7 GFLOPs for the base model).
+
+| System | Training Strategy | Front SI-SDR | Top SI-SDR | AVG(7) SI-SDR |
+|---|---|---|---|---|
+| Mixture | – | – | – | -0.191 |
+| GridNet | Front | 13.290 | 7.731 | 12.406 |
+| GridNet | Random | 15.259 | 14.765 | 15.089 |
+| Projected Addition | Random | 14.733 | 14.191 | 14.591 |
+| Attention Fusion | Random | 13.938 | 13.931 | 13.938 |
+| MVTF-GridNet (Ours) | Random (3/7 views) | **15.836** | **15.196** | **15.718** |
+
+## Limitations
+
+The evaluation is restricted to clean neutral-emotion settings from a single dataset (MEAD) with simulated head movements, meaning real-world extremes like severe illumination changes, occlusions, or extreme head pitch/yaw outside the 7 discrete camera angles remain untested. The framework assumes that multi-view data or single-view approximations are available during training, and scaling to dozens of unconstrained in-the-wild camera angles has not been evaluated.
+
+## Why read this
+
+Researchers and engineers working on audio-visual speech separation or target speaker extraction facing real-world head movement challenges should read this to learn how tensor outer products can effectively model cross-view articulatory interactions without multi-camera inference overhead.
 
 ## Code
 
@@ -31,11 +66,7 @@ Evaluated on the neutral-emotion MEAD dataset comprising 1,000 test mixtures, MV
 
 ## Applications
 
-Speech engineers and developers building robust target speaker extraction systems, hearing aids, and speech recognition pipelines deployed in unconstrained environments with head movement.
-
-## Limitations
-
-Evaluated exclusively on neutral-emotion segments of the MEAD dataset to isolate viewpoint variations from emotional changes.
+Real-time hearing aids, robust video conferencing systems, and automated transcription tools operating under unconstrained head motion.
 
 ## Related
 

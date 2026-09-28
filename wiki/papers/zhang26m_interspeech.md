@@ -3,27 +3,62 @@ id: zhang26m_interspeech
 category: tts
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-930
 pdf: https://www.isca-archive.org/interspeech_2026/zhang26m_interspeech.pdf
 ---
 
 # Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions
 
+*Junhui Zhang, Qianhui Xu, Qingxiang Guo, Dawei Yang, Ling Miao, Qiangqiang Wang, Yang Song*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-930)
 
-**TL;DR** — Poly-InstructTTS is an open-ended instruction-following text-to-speech framework trained on a newly curated 1,000-hour in-the-wild cinematic dataset, delivering state-of-the-art role-play and stylistic expression adherence.
+**TL;DR** — Poly-InstructTTS is a text-to-speech model that follows open-ended natural language instructions for expressive speech synthesis, trained on a newly curated 1,000-hour in-the-wild cinematic dataset. It achieves competitive instruction adherence and high role-play performance on the InstructTTSEval benchmark.
+
+## Key contributions
+
+- Constructed a scalable 1,000-hour multi-modal instruction-annotated dataset covering over 1,000 fine-grained emotions, styles, and paralinguistic behaviors sourced from cinematic media.
+- Proposed a prompt-free GPT architecture guided by compact, attribute-based thinking tokens (gender, emotion intensity, style, accent) coupled with a flow-matching acoustic module.
+- Developed an instruction-conditioned speaker fine-tuning (SFT) scheme that transfers instruction control to specific speakers while preserving their personal identity.
+- Expanded the InstructTTSEval benchmark testset with 200 challenging samples covering extreme emotions, spontaneous disfluencies, diverse accents, and in-the-wild acoustics.
 
 ## Problem
 
-Current instruction-based TTS systems struggle to generate subtle emotional shifts or extreme speaking styles like whispering, hesitation, or screaming because they rely on clean reading corpora like audiobooks that lack natural language descriptions. Furthermore, mainstream zero-shot architectures depend on prompt audio, causing style conflicts between the reference timbre and the requested instruction. Poly-InstructTTS addresses this scarcity by harvesting expressive conversational interactions from cinematic media and decoupling prompt-free style guidance from timbre injection.
+Current text-to-speech (TTS) systems struggle to interpret complex natural language instructions and capture fine-grained emotional shifts, hesitation, whispering, or screaming. Mainstream zero-shot systems rely on prompt audio references, which frequently introduce style and acoustic conflicts with the target instructions. Furthermore, open-source training datasets like LibriTTS or MLS are dominated by neutral reading tones, lacking the extreme expressive variations found in real-world conversational contexts.
 
 ## Method
 
-The system features a multi-modal data processing pipeline using video-audio subtitle alignment, Demucs/ClearerVoice denoising, ElevenLabs ASR/diarization/paralinguistic tagging, and Gemini 2.5 Pro to synthesize rich instruction-audio pairs. The architecture utilizes a prompt-free auto-regressive GPT model initialized from Qwen2.5-0.5B-Instruct that takes instruction text, content text, and compact attribute-based thinking tokens (gender, emotion intensity, style, and accent) to generate discrete speech tokens. A downstream Flow-Matching acoustic model derived from CosyVoice injects speaker timbre from a reference audio without causing style leakage, followed by a HiFi-Net vocoder. Additionally, an instruction-conditioned speaker fine-tuning scheme incorporates speaker ID tags to transfer expressive style variance to target voices.
+The pipeline starts with 2,500 hours of cinematic and television audiovisual media, segmented via subtitle timestamps and voice activity detection. Audio is centered-channel extracted and cleaned using Demucs and ClearerVoice, while a commercial STT API handles ASR, speaker diarization, and paralinguistic tagging, complemented by a rule-based subtitle fuzzy matching check. Gemini 2.5 Pro API then analyzes multi-modal inputs (720p video plus audio) across a three-stage pipeline (content summary, transcript analysis, and instruction generation) to yield 1,000 hours of instruction-audio pairs containing over 1.1M utterances.
+
+The model architecture utilizes a GPT-FM framework based on the Qwen2.5-0.5B-Instruct backbone. The auto-regressive GPT takes content text, instruction text, and attribute-based thinking tokens (<gender>, <high/low intensity>, <style>, <accent>) as input to predict discrete speech tokens at 25 Hz extracted via CosyVoice2 tokenizers. By excluding pitch and emotion from the explicit thinking tokens, the GPT is forced to map the raw instruction directly to the target prosody. A prompt-free design feeds these discrete tokens into a flow-matching (FM) module (adapted from CosyVoice3) which injects timbre conditioned solely on a reference audio, avoiding style leakage from the prompt. A HiFi-Net vocoder finally reconstructs the waveform.
+
+For adaptation, an Instruction-Conditioned Speaker Fine-Tuning (SFT) procedure prepends speaker ID tags (e.g., <spk_01>) to the content text while treating cinematic data with an <Unknown> tag. This allows specific speakers to learn the mapping from instructions to stylistic ranges while maintaining persona alignment.
+
+## Experimental setup
+
+Trained on 1,000 hours of in-the-wild expressive speech data (split 99% train, 1% validation) plus 200 hours of SFT data across 10 speakers. The GPT backbone is initialized from Qwen2.5-0.5B-Instruct, trained on 8 NVIDIA A800 GPUs for 30 epochs using the AdamW optimizer with a learning rate of 1e-4 and a batch duration of 300 seconds. Evaluated against closed-source APIs (Gemini-Pro/Flash, GPT-4o-mini) and open-source models (Qwen3-TTS, OV-InstructTTS, Mimo-Audio, VoxInstruct, Parler-tts, PromptTTS, PromptStyle) on the InstructTTSEval base and expanded test sets using WER, APS, DSD, RP, and MOS metrics.
 
 ## Results
 
-Trained on 1,000 hours of expressive speech covering over 200 accents, 800 emotions, and 400 styles using 8 NVIDIA A800 GPUs, Poly-InstructTTS was evaluated on the InstructTTSEval base benchmark and an expanded 200-sample testset covering diverse accents and extreme emotions. Evaluated against baselines like GPT-4o-mini TTS, Qwen3-TTS, and VoxInstruct, Poly-InstructTTS achieves superior performance particularly in Role-Play (RP) capability and instruction-following MOS (I-MOS). Ablations demonstrate that the compact attribute-based thinking token design stabilizes training and outperforms alternative text encoders such as Flan-T5 or Instructor.
+On the base InstructTTSEval benchmark, Poly-InstructTTS achieves a Role-Play (RP) score of 88.7 (outperforming all open-source baselines and rivaling Gemini-Flash's 80.1), an APS of 91.1, a DSD of 79.2, and an I-MOS of 3.81 with a WER of 4.42%. On the expanded test set, it scores 77.1 (APS), 84.5 (DSD), 90.1 (RP), and 3.96 (I-MOS). Ablations demonstrate that removing attribute-based thinking tokens drops subjective scores and degrades instruction alignment, while freezing external text encoders (FlanT5, Instructor, GTR-base) offers no advantage over raw text input. The system exhibits an expressiveness-stability trade-off: longer training epochs improve style metrics (APS/DSD/RP) at the cost of higher WER due to disruptions in monotonic alignment.
+
+| System | WER ↓ | APS ↑ | DSD ↑ | RP ↑ | I-MOS ↑ | N-MOS ↑ |
+|---|---|---|---|---|---|---|
+| Gemini-Flash TTS | 2.75 | 92.3 | 93.8 | 80.1 | 3.71 | 4.26 |
+| Qwen3-TTS-12Hz-1.7B | 2.09 | 82.9 | 82.4 | 68.4 | 3.76 | 4.16 |
+| OV-InstructTTS | 17.47 | 78.3 | 77.8 | 61.3 | 3.05 | 3.13 |
+| Parler-tts-large | 15.67 | 60.0 | 45.9 | 31.2 | 2.47 | 2.87 |
+| PromptTTS | 2.50 | 64.3 | 47.2 | 31.4 | 2.34 | 3.43 |
+| Poly-InstructTTS (Ours) | 4.42 | 91.1 | 79.2 | 88.7 | 3.81 | 3.88 |
+
+## Limitations
+
+The system suffers from performance degradation under challenging acoustic conditions such as heavy background noise and echoes, stemming primarily from limitations in the flow-matching module rather than the GPT instruction pathway. Training on extreme emotional expressions introduces an expressiveness-stability trade-off that raises the Word Error Rate over longer training horizons. Furthermore, the raw cinematic dataset cannot be publicly distributed due to commercial copyright restrictions.
+
+## Why read this
+
+Speech and ML researchers building instruction-controllable TTS models should read this paper to understand how to design multi-modal data pipelines from cinematic media and how compact attribute-based thinking tokens can bridge language instructions and acoustic tokens without complex text generation burdens.
 
 ## Code
 
@@ -31,11 +66,7 @@ Trained on 1,000 hours of expressive speech covering over 200 accents, 800 emoti
 
 ## Applications
 
-Engineers building virtual assistants, video game characters, audiobooks, and dubbing systems requiring fine-grained emotional control and extreme paralinguistic behaviors through natural language prompts.
-
-## Limitations
-
-The model exhibits higher Word Error Rate (WER) compared to clean reading corpora due to challenging acoustic dynamics and label noise present in in-the-wild cinematic training data.
+Generating highly expressive, emotionally nuanced, and stylized speech voices for conversational agents, video game characters, audiobooks, and interactive media via open-ended natural language descriptions.
 
 ## Related
 

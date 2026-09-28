@@ -17,7 +17,7 @@ doi: 10.21437/Interspeech.2026-2177
 isca_url: https://www.isca-archive.org/interspeech_2026/zhou26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26g_interspeech.pdf
 session: Audio-Visual Grounding, Synchronization & Video Understanding
-topics: [evaluation, self-supervised, dataset]
+topics: [self-supervised, evaluation, multimodal]
 code:
     url: https://fgt7t6g.github.io/AV-SyncBench
     license: ""

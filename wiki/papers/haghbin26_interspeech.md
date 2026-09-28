@@ -57,7 +57,7 @@ Researchers and engineers building clinical AI tools will learn how to design mu
 
 ## Code
 
-- https://github.com
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

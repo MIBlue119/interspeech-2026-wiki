@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2384
 isca_url: https://www.isca-archive.org/interspeech_2026/yadav26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yadav26_interspeech.pdf
 session: Translation
-topics: [speech-translation, multilingual, low-resource]
+topics: [speech-translation, low-resource, multilingual]
 code:
     url: https://sites.google.com/view/artist-demo/
     license: ""

@@ -15,7 +15,7 @@ doi: 10.21437/Interspeech.2026-2941
 isca_url: https://www.isca-archive.org/interspeech_2026/ye26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ye26d_interspeech.pdf
 session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
-topics: [speech-enhancement, self-supervised, dataset]
+topics: [tts, self-supervised, speech-llm]
 code:
     url: https://github.com/winlaic/ZipCodec
     license: ""

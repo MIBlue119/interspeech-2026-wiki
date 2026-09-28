@@ -3,27 +3,63 @@ id: yerpude26_interspeech
 category: paralinguistics
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2355
 pdf: https://www.isca-archive.org/interspeech_2026/yerpude26_interspeech.pdf
 ---
 
 # Attention-Based Multiple Instance Learning with Tabular Stacking for Ambulatory Detection of PVH and NPVH
 
+*Kiran Yerpude, Seung Gyu Jeong, Seong-Eun Kim*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/yerpude26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yerpude26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2355)
 
-**TL;DR** — This paper proposes a dual-branch stacked architecture combining a tabular CatBoost model and a deep multiple instance learning model for ambulatory detection of vocal hyperfunction disorders, achieving rank 3 for PVH (AUC 0.891) and rank 1 for NPVH (AUC 0.861) on the NeckVibe Challenge 2026.
+**TL;DR** — A dual-branch stacking architecture combining a subject-level CatBoost model on day-aggregated distributional statistics and a deep multiple-instance learning (MIL) model with gated attention pooling achieves official test AUCs of 0.891 for PVH and 0.861 for NPVH on the NeckVibe Challenge 2026.
+
+## Key contributions
+
+- Robust ambulatory preprocessing pipeline selecting voiced, non-singing, device-on frames while explicitly encoding missingness and sensor dropout.
+- Dual-branch architecture pairing a tabular CatBoost model on day-level statistics with a deep MIL branch using SE-ResNet encoders and gated attention pooling.
+- Stacked ensemble combining rank-normalized probabilities via logistic regression to reconcile fold-wise calibration drift.
+- Comprehensive empirical validation demonstrating complementary strengths across transient phonatory events (PVH) and sustained inefficiencies (NPVH).
 
 ## Problem
 
-Phonotraumatic (PVH) and nonphonotraumatic vocal hyperfunction (NPVH) result from excessive laryngeal muscle activity, but clinical assessment typically relies on limited laboratory recordings rather than ecological daily voice monitoring. While ambulatory accelerometers capture real-world voice behavior, the data is noisy and variable, and prior approaches mostly rely on hand-crafted summary features and shallow models with subject-level labels. Developing robust multi-scale methods that can effectively isolate informative segments and handle long-term distributional statistics is critical for early detection.
+Clinical assessment of vocal hyperfunction traditionally relies on limited laboratory recordings that fail to capture real-world vocal behavior. Prior ambulatory monitoring approaches depend on hand-crafted summary features and shallow models, operating at the subject level despite underlying data splitting into short, highly variable segments where informative parts are difficult to isolate under weak supervision. Detecting phonotraumatic vocal hyperfunction (PVH) and nonphonotraumatic vocal hyperfunction (NPVH) accurately from multi-day, noisy neck-surface accelerometer (ACC) recordings is critical for early diagnosis.
 
 ## Method
 
-The system employs a stacked two-branch architecture combining a day-level tabular model and a deep multiple instance learning (MIL) model over short windows. The tabular branch uses CatBoost trained on day-aggregated robust statistics, interaction features, and explicitly encoded missingness indicators across multi-channel neck-surface accelerometer data. The MIL branch processes 12-second windows of 50 ms frames using a 1D residual network with squeeze-and-excitation modules, pooled via gated attention into subject-level representations. A logistic regression metaclassifier fuses rank-normalized probability outputs from both branches using 5-fold stratified GroupKFold cross-validation.
+The preprocessing pipeline filters 50 ms ACC frames to retain only voiced, non-singing, device-on segments, removes amplitude outliers via robust z-scores, and appends binary missingness indicators to distinguish true zeros from sensor dropout.
+
+The tabular branch utilizes CatBoost trained on day-level robust statistics (mean, variance, skewness, kurtosis, IQR, MAD, tail percentiles, Gini coefficients, frame-to-frame differences) aggregated across days via mean, min, and max. For NPVH, extra interaction features such as phonation efficiency (CPP/f0), closure-periodicity ratios, and harmonic stability ratios are engineered. Hyperparameters include depth, learning rate ~0.01, iterations ~1500, L2 regularization, and class weighting.
+
+The MIL branch models each subject as a bag of fixed-length windows (24 sampled windows of 12 s each). For PVH, each frame contains 12 raw acoustic channels, energy, a global missingness flag, and 117 auxiliary broadcasted day-level stats (131 channels total). Windows pass through a 1D convolutional stem and four residual blocks with squeeze-and-excitation (SE) modules, outputting 256-dimensional embeddings. Gated attention pooling aggregates window embeddings, followed by a 3-layer MLP with LayerNorm and dropout (0.3), trained with class-weighted cross-entropy and focal loss.
+
+The stacking ensemble applies quantile transformers to normalize OOF probabilistic predictions and builds a 4-dimensional meta-feature vector (base probabilities, absolute difference, product). A logistic regression meta-classifier with balanced class weights yields the final decision.
+
+## Experimental setup
+
+Evaluated on the NeckVibe Challenge dataset containing long-term neck-surface accelerometer recordings from 582 individuals (213 PVH patients, 169 matched controls, 116 NPVH patients, 84 matched controls). Evaluated using 5-fold stratified GroupKFold cross-validation with subject ID grouping. The primary metric is subject-level area under the ROC curve (AUC), supplemented by accuracy, F1-score, precision, sensitivity, and specificity.
 
 ## Results
 
-Evaluated on the NeckVibe Challenge 2026 dataset containing multi-day accelerometer recordings from 582 individuals, the method achieves an official test AUC of 0.891 for PVH and 0.861 for NPVH. In internal 5-fold cross-validation, the stacked ensemble achieves an OOF AUC of 0.886 for PVH and 0.756 for NPVH, consistently outperforming individual CatBoost and MIL branches. Ablations confirm that removing the MIL branch drops PVH AUC by 0.010, while omitting interaction features or day-level stats hurts NPVH performance.
+The proposed system achieved an official test AUC of 0.891 for PVH (rank 3) and 0.861 for NPVH (rank 1). In internal 5-fold cross-validation, the stacked ensemble obtained an OOF AUC of 0.885 [0.850, 0.917] for PVH, outperforming MIL-only (0.835) and CatBoost-only (0.875). For NPVH, the stacked OOF AUC was 0.757 [0.697, 0.810], marginally outperforming CatBoost-only (0.751) and MIL-only (0.717). Ablations show that removing the MIL branch drops PVH AUC by 0.010, while dropping interaction features hurts PVH by 0.027 and NPVH by 0.027.
+
+| System / Condition | PVH AUC | NPVH AUC |
+|---|---|---|
+| CNN-LSTM baseline | 0.764 | 0.673 |
+| MIL only (no stacking) | 0.871 | 0.718 |
+| CatBoost only | 0.885 | 0.751 |
+| w/o quantile normalization | 0.874 | 0.739 |
+| **Full system (proposed)** | **0.886** | **0.753** |
+
+## Limitations
+
+The study relies on a single dataset (NeckVibe Challenge) with specific device form-factors and recording conditions, leaving cross-dataset generalization unproven. NPVH classification remains challenging due to high intra-class diversity and severe class imbalance, resulting in underconfident probability calibrations. The deep branch yields only marginal AUC gains over the optimized tabular baseline, indicating potential redundancy or optimization limits in the temporal modeling.
+
+## Why read this
+
+Speech and machine learning researchers working on multi-day biomedical time-series or weakly supervised audio classification should read this paper to learn how to effectively combine global distributional tabular models with attention-based multiple-instance learning.
 
 ## Code
 
@@ -31,11 +67,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Clinicians and speech-language pathologists can use this system for automated, continuous, privacy-preserving ambulatory monitoring and early detection of vocal hyperfunction disorders from wearable accelerometer sensors.
-
-## Limitations
-
-NPVH predictions exhibit notable undercalibration due to greater intra-class diversity and severe class imbalance.
+Automated ambulatory health monitoring systems for early detection and continuous tracking of vocal hyperfunction disorders.
 
 ## Related
 

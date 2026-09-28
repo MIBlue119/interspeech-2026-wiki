@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-3545
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26ha_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26ha_interspeech.pdf
 session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
-topics: [keyword-spotting, on-device, self-supervised]
+topics: [keyword-spotting, self-supervised, on-device]
 code:
     url: ""
     license: ""

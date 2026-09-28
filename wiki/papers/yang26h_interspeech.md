@@ -3,27 +3,64 @@ id: yang26h_interspeech
 category: asr
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1503
 pdf: https://www.isca-archive.org/interspeech_2026/yang26h_interspeech.pdf
 ---
 
 # Robust Streaming ASR with Decoupled Separation and Recognition
 
+*Yufeng Yang, Cheng Yu, Vahid A. Kalkhorani, DeLiang Wang*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1503)
 
-**TL;DR** — A decoupled robust streaming ASR framework combining an online speech separation frontend with a clean-trained ASR backend consistently outperforms multi-condition training baselines without degrading clean speech performance.
+**TL;DR** — The paper proposes a decoupled framework for robust streaming ASR that pairs an online speech separation frontend with a clean-trained streaming ASR backend, outperforming standard multi-condition training baselines without degrading clean speech performance. It also introduces FastMambaformer, a novel streaming ASR model integrating Mamba into a FastConformer backbone.
+
+## Key contributions
+
+- Establishes a rigorous benchmark for robust streaming ASR evaluating multiple online speech separation frontends and streaming ASR architectures under zero-lookahead constraints.
+- Proposes FastMambaformer, a new streaming ASR architecture that replaces convolutional modules in FastConformer with Mamba selective state-space blocks for superior long-context modeling.
+- Demonstrates that a decoupled architecture using a strong online speech separation frontend and a clean-trained ASR backend outperforms multi-condition training (MCT) models in streaming conditions.
+- Shows that the decoupled benefits are architecture-agnostic, successfully integrating various frontends with pre-trained models like NeMo FastConformer and SimulStreaming.
 
 ## Problem
 
-Real-world automatic speech recognition deployed in streaming scenarios suffers from background noise, room reverberation, and interfering speakers. While multi-condition training helps generalize to noisy environments, it demands massive datasets and degrades word error rates on clean speech. Conversely, combining speech separation frontends with ASR backends often introduces a mismatch effect where separated speech deviates from the backend's training distribution.
+Real-world speech applications require streaming ASR with low latency, but existing systems struggle with background noise, room reverberation, and interfering speakers due to limited future context. The standard mitigation, multi-condition training (MCT), degrades transcription accuracy on clean speech and demands massive data scaling. Alternatively, speech separation frontends often suffer from a domain mismatch where separated audio artifacts deviate from clean ASR training distributions.
 
 ## Method
 
-The framework pairs an online speech separation frontend (zero lookahead) with a streaming ASR backend trained exclusively on clean speech, completely eliminating multi-condition training. The authors evaluate two frontends: DPDFNet (an extension of DeepFilterNet2 with dual-path blocks, 3.54M parameters) and oTF-CrossNet (a causal, zero-lookahead modification of TF-CrossNet using complex spectral mapping, 7.95M parameters). For the ASR backend, they introduce FastMambaformer—a novel 130M-parameter architecture replacing the convolutional modules in FastConformer with Mamba selective state-space blocks (SSM state expansion factor 16, local conv width 4). They also test large pretrained backends including NeMo FastConformer (114M parameters) and SimulStreaming based on Whisper large-v3 (1.5B parameters). All models are trained on LibriSpeech data.
+The decoupled framework separates the speech enhancement and recognition tasks: an online speech separation frontend cleans the noisy input, and a streaming ASR backend processes the output using parameters trained exclusively on clean speech. For the frontend, the authors investigate DPDFNet (utilizing dual-path blocks in DeepFilterNet2 with 3.54M parameters) and oTF-CrossNet (an online adaptation of TF-CrossNet with causal attention and convolution masks, containing 7.95M parameters and trained for 50 epochs on complex spectral mapping predicting real/imaginary STFT components). 
+
+For the ASR backend, the novel FastMambaformer (130M parameters) replaces the convolutional blocks of a FastConformer with Mamba selective state-space model (SSM) blocks, utilizing an SSM state expansion factor of 16, a local convolution width of 4, and a block expansion factor of 2. All backends employ an RNN-T decoder. Additionally, large-scale pre-trained models such as NeMo FastConformer (114M parameters) and SimulStreaming (1.5B parameters based on Whisper) are evaluated as backends.
+
+Training uses LibriSpeech data (960 hours) mixed dynamically with 10k non-sound effects at SNRs uniformly sampled from [-5, 0] and [0, 10] dB. Backends are trained for 600 epochs using 8 NVIDIA H100 GPUs.
+
+## Experimental setup
+
+Evaluated on LibriSpeech (test-other mixed with ADTBabble/ADTCafeteria noises at -5 to 10 dB SNRs), CHiME-4 (1-channel track, 1320 simulated and 1320 real utterances), and LibriCSS (utterance-wise evaluation with overlap ratios from 0% to 40%). Baselines include clean-trained and noisy-trained (MCT) FastMambaformer, NeMo pre-trained FastConformer, and SimulStreaming. Metrics are Word Error Rate (WER), Short-Time Objective Intelligibility (STOI), and Perceptual Evaluation of Speech Quality (PESQ).
 
 ## Results
 
-Evaluated on LibriSpeech (test-other mixed with ADTBabble and ADTCafeteria noises from -5 to 10 dB SNR), CHiME-4, and LibriCSS datasets using word error rate (%WER). On LibriSpeech, a noisy-trained FastMambaformer baseline achieves 36.9% average WER, whereas the clean-trained FastMambaformer coupled with the oTF-CrossNet frontend achieves a superior 36.1% average WER. When utilizing oTF-CrossNet with larger backends like NeMo pre-trained and SimulStreaming, average WERs improve further to 30.9% and 25.4% respectively, outperforming standard multi-condition training counterparts. Un-causal offline TF-CrossNet frontends provide theoretical upper bounds (e.g., 26.6% average WER with SimulStreaming).
+On LibriSpeech noisy conditions, the clean-trained FastMambaformer coupled with oTF-CrossNet achieves an average WER of 36.1%, outperforming the noisy-trained MCT baseline (36.9% WER). On the CHiME-4 real test set, the oTF-CrossNet + NeMo pre-trained system achieves 13.66% WER, significantly improving over the standalone NeMo pre-trained model (29.86% WER) and beating the noisy-trained baseline (26.17% WER). 
+
+In ablation comparisons, online frontends (oTF-CrossNet) lag slightly behind offline counterparts (TF-CrossNet, which achieves 25.4% average WER on LibriSpeech when paired with NeMo pre-trained vs 30.9% for oTF-CrossNet), illustrating the fundamental difficulty of zero-lookahead streaming constraints. The framework struggles most when frontend artifacts introduce severe processing distortions, such as DPDFNet on LibriCSS where certain speaker overlap conditions suffer from structural degradation.
+
+| SS Frontend | ASR Backend | LibriSpeech Avg WER | CHiME-4 Real Test | LibriCSS Avg WER |
+|---|---|---|---|---|
+| - | Clean-trained | 76.8% | 57.35% | 26.51% |
+| - | Noisy-trained (MCT) | 36.9% | 26.17% | 25.88% |
+| - | SimulStreaming | 45.8% | 16.36% | 23.06% |
+| oTF-CrossNet | Clean-trained | 36.1% | 24.56% | 22.93% |
+| oTF-CrossNet | NeMo Pre-trained | 30.9% | 13.66% | 20.09% |
+| oTF-CrossNet | SimulStreaming | 33.5% | 13.79% | 20.75% |
+
+## Limitations
+
+The approach is bounded by the compounding latency and computational cost of chaining two large neural networks (frontend separation plus ASR decoding) for on-device real-time deployment. Frontend separation artifacts can occasionally hurt ASR performance when speech separation removes high-frequency harmonics or introduces musical noise, as observed with DPDFNet on LibriCSS. Evaluation is limited to English corpora (LibriSpeech, WSJ/CHiME-4, LibriCSS), leaving cross-lingual generalizability unverified.
+
+## Why read this
+
+Speech and ML researchers building real-time audio systems should read this to understand how to bypass the limitations of multi-condition training by leveraging modular, decoupled online speech separation frontends that preserve clean-speech accuracy.
 
 ## Code
 
@@ -31,11 +68,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech and ML engineers building real-time voice assistants, live captioning tools, and spoken dialogue systems operating in acoustically harsh environments.
-
-## Limitations
-
-Performance heavily relies on the quality and separation capability of the online speech separation frontend, meaning weak frontends can still cause distribution mismatch for clean-trained backends.
+Real-time voice assistants, live captioning, multi-talker meeting transcription, and streaming spoken dialogue systems operating in noisy acoustic environments.
 
 ## Related
 

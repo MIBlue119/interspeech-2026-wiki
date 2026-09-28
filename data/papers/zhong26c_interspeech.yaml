@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-1138
 isca_url: https://www.isca-archive.org/interspeech_2026/zhong26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhong26c_interspeech.pdf
 session: Speech and Language Technologies in Healthcare
-topics: [dysarthria, self-supervised, evaluation]
+topics: [paralinguistics, speech-enhancement, self-supervised]
 code:
     url: https://github.com/Kanelmis/PED
     license: ""

@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-2031
 isca_url: https://www.isca-archive.org/interspeech_2026/yu26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yu26f_interspeech.pdf
 session: Speech Emotion Recognition and Representation 3
-topics: [emotion-recognition, speech-llm, evaluation]
+topics: [emotion-recognition, speech-llm, self-supervised]
 code:
     url: ""
     license: ""

@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2970
 isca_url: https://www.isca-archive.org/interspeech_2026/yang26o_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26o_interspeech.pdf
 session: Multimodal Speech Processing and Speech LLM Systems
-topics: [asr, speech-llm, dataset]
+topics: [asr, speech-llm, evaluation]
 code:
     url: ""
     license: ""

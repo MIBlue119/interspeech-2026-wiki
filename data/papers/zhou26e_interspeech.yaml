@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-1696
 isca_url: https://www.isca-archive.org/interspeech_2026/zhou26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26e_interspeech.pdf
 session: Emotional Speech Synthesis
-topics: [tts, emotion-recognition, multilingual]
+topics: [tts, self-supervised, evaluation]
 code:
     url: https://37integer.github.io/Beyond-One-Size-Fits-All/
     license: ""

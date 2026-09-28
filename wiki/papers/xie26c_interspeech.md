@@ -14,48 +14,50 @@ pdf: https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1757)
 
-**TL;DR** — VoiceTTA introduces a reinforcement learning-based test-time adaptation (TTA) framework that optimizes lightweight learnable prefixes for zero-shot text-to-speech models using group relative preference optimization (GRPO). It improves style imitation and voice-matching on uncommon speech prompts (such as dialects and slurred speech) while preserving intelligibility, achieving a state-of-the-art speaker similarity of 0.64.
+**TL;DR** — VoiceTTA introduces a reinforcement learning-based test-time adaptation (TTA) framework that optimizes lightweight learnable prefixes via group relative preference optimization (GRPO) to improve zero-shot text-to-speech imitation on uncommon speaking styles, achieving a 0.64 speaker similarity while maintaining a 3.12 WER.
 
 ## Key contributions
 
-- Proposes a test-time adaptation (TTA) framework for zero-shot TTS that optimizes lightweight learnable prefixes during inference using only a few seconds of target speech prompt.
-- Formulates a composite reward function integrating coefficient-of-variation differences of F0 and energy, speaker cosine similarity (S-SIM), and ASR-derived Word Error Rate (WER) to balance acoustic stylization and clarity.
-- Applies group relative preference optimization (GRPO) to flow-matching-based TTS models by treating the flow-matching loss as a probability proxy for policy updates without requiring a value network.
-- Demonstrates consistent gains across five challenging test scenarios (accented, children, slurred, Chinese sketches, and dialects), storing only a lightweight 16 KB adapted prefix per speaker.
+- Proposes a reinforcement learning-based test-time adaptation (TTA) framework for zero-shot TTS models that operates using only seconds of target speaker audio during inference.
+- Introduces auxiliary style rewards based on the coefficient of variation of F0 (F0-CV) and energy (Energy-CV) alongside speaker similarity (S-SIM) and an intelligibility reward (WER from Whisper).
+- Employs group relative preference optimization (GRPO) without a value model to optimize a small set of learnable prefixes prepended to a flow matching-based DiT architecture.
+- Demonstrates robust performance improvements across five challenging zero-shot scenarios (accented, children, slurred speech, Chinese sketches, and regional dialects).
 
 ## Problem
 
-Pretrained zero-shot text-to-speech models are predominantly trained on common, curated datasets like audiobooks and podcasts, leading to domain shift when encountering uncommon speaking styles, accents, regional dialects, or exaggerated prosody. Traditional speaker adaptation relies either on speaker embeddings (which struggle with dramatic stylistic variations) or full parameter fine-tuning (which demands large-scale target-speaker data and extensive compute). This creates a bottleneck for rapidly personalizing deployment systems to out-of-domain or corner-case prompts.
+Pretrained zero-shot text-to-speech models are predominantly trained on large datasets from standard domains like podcasts and audiobooks, causing a severe domain shift when processing uncommon or corner-case speaking styles such as dialects, slurred speech, or crosstalk. Traditional speaker adaptation methods rely either on embedding extraction (which struggles with dramatic prosodic shifts) or full-model fine-tuning (which is data-hungry, computationally expensive, and requires large target-speaker corpora). This creates a bottleneck for rapidly personalizing or adapting deployed TTS systems to unseen user environments without extensive retraining datasets.
 
 ## Method
 
-VoiceTTA operates as an online adaptation step during inference by prepending four learnable prefixes to the first DiT layer of a flow-matching-based backbone (specifically F5-TTS). Given an unseen speech prompt and text content, the model samples $k=4$ diverse candidate mel-spectrograms by drawing temperature parameters $T$ uniformly from $U(0.5, 1.5)$ to control stochasticity. These candidates are converted to waveforms via a vocoder, and four complementary rewards are computed: an F0-CV reward measuring pitch dynamics, an Energy-CV reward capturing energy contour variations, an S-SIM reward via cosine distance of speaker embeddings, and an intelligibility reward using a pretrained Whisper-Large-V3 model to compute Word Error Rate (WER).
+VoiceTTA adapts a pretrained flow matching-based zero-shot TTS model (specifically built on F5-TTS) at inference time by optimizing lightweight learnable prefixes via Group Relative Preference Optimization (GRPO). Given an unseen speech prompt and text input, the model samples $k=4$ diverse candidates by drawing the temperature $T$ from a uniform distribution $U(0.5, 1.5)$ across a diffusion Transformer (DiT) architecture. For each generated candidate, a composite reward function is computed, consisting of an intelligibility reward ($r_{\text{Intel}}$ based on Whisper-Large-V3 Word Error Rate) and three style rewards: F0 coefficient of variation ($r_{\text{F0-CV}}$), energy coefficient of variation ($r_{\text{Energy-CV}}$), and speaker embedding cosine similarity ($r_{\text{S-SIM}}$). 
 
-The optimization leverages group relative preference optimization (GRPO), treating the prefixes as a stochastic policy and normalizing rewards into the range $[0, 1]$ with weighting coefficients $\lambda_1 = \lambda_2 = 0.2$ for F0/energy variations, $\lambda_3 = 1.0$ for S-SIM, and $\lambda_4 = 1.5$ for WER. Because flow-matching models directly regress mel-spectrograms rather than token probabilities, the authors use the negative flow-matching loss as a probability proxy ratio to compute policy updates without training an auxiliary value model. Adaptation runs for $G=50$ steps using an Adam-like setup with a learning rate of $5 \times 10^{-4}$ and a 5% warmup on an NVIDIA RTX 6000 Ada GPU. Prefixes are randomly reinitialized between different test samples to prevent cross-contamination.
+Each reward type is normalized into $[0, 1]$ and combined with hyperparameters $\lambda_1=0.2$, $\lambda_2=0.2$, $\lambda_3=1.0$, and $\lambda_4=1.5$ to form the total reward $r_i$. Because the method adapts lightweight prefixes instead of the full model, the standard GRPO formulation is adapted by dropping the KL-divergence term and utilizing the underlying flow matching loss as a probability density proxy to compute the policy ratio term $\pi_\theta(o_i) / \pi_{\theta_{\text{old}}}(o_i)$. The adaptation process runs for $G=50$ GRPO steps with a learning rate of $5 \times 10^{-4}$ and a 5% warmup ratio using an NVIDIA RTX 6000 Ada GPU.
+
+Only 4 learnable prefixes are prepended to the first layer of the DiT backbone, resulting in a minimal footprint of approximately 16 KB per adapted speaker. After the $G$ adaptation steps, the optimized prefixes guide final high-fidelity waveform generation via a vocoder. Crucially, prefixes are randomly reinitialized between different target utterances to prevent cross-sample update accumulation, rendering the approach fully compatible with rapid online deployment.
 
 ## Experimental setup
 
-Experiments are conducted on an internal dataset of 200 samples (90 accented, 40 children, 30 slurred, 40 Chinese sketches) plus 160 dialect utterances from KeSpeech covering eight Chinese variants. The backbone model is F5-TTS, compared against SOTA baselines CosyVoice, MaskGCT, and Vevo. Evaluation metrics include Word Error Rate (WER) via Whisper-Large-V3, Speaker Similarity (S-SIM) via speaker embedding cosine distance, and subjective MOS evaluations for naturalness (N-MOS) and style similarity (S-MOS) rated by 24 participants.
+Evaluated on an internal dataset of 200 uncommon speech samples (90 accented, 40 children's, 30 slurred, 40 Chinese sketches) and 160 utterances spanning 8 Chinese dialects from KeSpeech. Compared against state-of-the-art baselines including CosyVoice, MaskGCT, Vevo, and base F5-TTS. Metrics include objective Word Error Rate (WER via Whisper-Large-V3) and Speaker Similarity (S-SIM), alongside subjective Naturalness MOS (N-MOS) and Similarity MOS (S-MOS) rated by 24 human evaluators.
 
 ## Results
 
-On the averaged five test-time scenarios, VoiceTTA achieves a WER of 3.12, outperforming F5-TTS (3.19), MaskGCT (3.26), CosyVoice (4.57), and Vevo (12.41). For speaker similarity, VoiceTTA reaches an S-SIM of 0.64, beating F5-TTS (0.57), MaskGCT (0.62), CosyVoice (0.54), and Vevo (0.34), alongside a top subjective S-MOS of 3.27. Ablations show that optimizing exclusively with style rewards (F0-CV + Energy-CV + S-SIM) maximizes S-SIM to 0.67 but severely harms intelligibility, driving WER up to 7.04, confirming that the WER reward is critical to maintain stability.
+VoiceTTA achieves an averaged WER of 3.12 and an S-SIM of 0.64, outperforming base F5-TTS (3.19 WER, 0.57 S-SIM), MaskGCT (3.26 WER, 0.62 S-SIM), CosyVoice (4.57 WER, 0.54 S-SIM), and Vevo (12.41 WER, 0.34 S-SIM). In subjective evaluations, it attains an averaged S-MOS of 3.27, edging out CosyVoice (3.25) and F5-TTS (3.07), while maintaining a competitive N-MOS of 3.35. Ablation studies confirm that relying solely on style rewards collapses intelligibility (WER jumping to 7.04), whereas using all four rewards harmonizes clarity and acoustic alignment.
 
-| System | WER ($\downarrow$) | S-SIM ($\uparrow$) | S-MOS ($\uparrow$) | N-MOS ($\uparrow$) |
+| System | WER (\u2193) | S-SIM (\u2191) | S-MOS (\u2191) | N-MOS (\u2191) |
 |---|---|---|---|---|
-| CosyVoice | 4.57 | 0.54 | 3.25 | 3.58 |
-| MaskGCT | 3.26 | 0.62 | 3.14 | 3.14 |
-| Vevo | 12.41 | 0.34 | 2.05 | 1.91 |
-| F5-TTS (Baseline) | 3.19 | 0.57 | 3.07 | 3.36 |
-| VoiceTTA (Ours) | 3.12 | 0.64 | 3.27 | 3.35 |
+| CosyVoice [22] | 4.57 | 0.54 | 3.25 | **3.58** |
+| MaskGCT [23] | 3.26 | 0.62 | 3.14 | 3.14 |
+| Vevo [24] | 12.41 | 0.34 | 2.05 | 1.91 |
+| F5-TTS [21] | 3.19 | 0.57 | 3.07 | 3.36 |
+| VoiceTTA (Ours) | **3.12** | **0.64** | **3.27** | 3.35 |
 
 ## Limitations
 
-The framework requires running 50 steps of GRPO inference-time adaptation per speaker prompt, which increases latency before final generation compared to zero-shot inference. The evaluation is focused primarily on Chinese dialects and specialized internal stylized styles, leaving multi-lingual western dialect adaptation unexplored at scale. Furthermore, extreme high temperatures during candidate generation collapse intelligibility entirely.
+The framework requires running 50 GRPO optimization iterations at inference time per reference prompt, introducing computational latency prior to synthesis. The evaluation scope is restricted primarily to Chinese dialects and curated uncommon English/Chinese styles, leaving open its scaling behavior on extremely low-resource languages with zero existing ASR supervision. Furthermore, extreme sampling temperatures during candidate generation can degrade phoneme clarity even with WER regulation.
 
 ## Why read this
 
-Read this paper if you work on zero-shot TTS personalization or test-time adaptation and want to learn how to apply group relative preference optimization (GRPO) to flow-matching models without requiring large target corpora or value networks.
+Speech researchers and ML engineers looking to bridge the gap between static zero-shot TTS and online speaker adaptation without massive retraining corpora should read this paper to see how reinforcement learning test-time adaptation can be efficiently layered onto flow-matching models.
 
 ## Code
 
@@ -63,7 +65,7 @@ Read this paper if you work on zero-shot TTS personalization or test-time adapta
 
 ## Applications
 
-Personalized conversational agents, voice cloning for regional dialects and expressive uncommon styles, and interactive on-device speech assistants.
+Personalized on-device text-to-speech assistants, real-time dialect conversion, and conversational agents handling diverse, noisy, or accented user voice prompts.
 
 ## Related
 

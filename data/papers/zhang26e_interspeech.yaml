@@ -19,8 +19,8 @@ doi: 10.21437/Interspeech.2026-481
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26e_interspeech.pdf
 session: Singing Voice and Music Generation
-topics: [voice-conversion, singing-voice, self-supervised]
+topics: [tts, voice-conversion, self-supervised]
 code:
-    url: ""
+    url: https://ziyu6.github.io/UniSinger/
     license: ""
 open_to_collaboration: false

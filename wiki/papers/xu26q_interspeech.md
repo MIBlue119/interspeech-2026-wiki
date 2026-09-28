@@ -14,52 +14,50 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26q_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2614)
 
-**TL;DR** — This paper introduces an acoustic-specific Continual Generalized Category Discovery (C-GCD) framework utilizing instance-adaptive entropy regularization, Gaussian Mixture Model (GMM) adaptive thresholding, and an EMA-updated dynamic teacher, achieving 74.14% cumulative average accuracy on the ShipsEar underwater dataset.
+**TL;DR** — This paper introduces an audio-oriented Continual Generalized Category Discovery (C-GCD) framework that uses instance-adaptive regularization and a GMM-driven dynamic teacher to discover novel sound classes in streaming unlabeled data while preventing catastrophic forgetting. On the ShipsEar underwater acoustic benchmark, it achieves a cumulative average accuracy of 74.14%, outperforming vision-centric baselines by 4.84 percentage points.
 
 ## Key contributions
 
-- An acoustic-specific C-GCD framework designed to tackle spectral entanglement and polyphony in unlabelled streams.
-- A GMM-driven adaptive pseudo-label thresholding strategy that handles noise and uncertainty in non-stationary audio streams.
-- An EMA-based dynamic teacher guidance module with selective classifier updating to mitigate base-class bias and representation drift.
-- State-of-the-art performance across LibriSpeech and ShipsEar benchmarks, yielding a +4.84% cumulative accuracy improvement on ShipsEar over baseline Happy.
+- Acoustic-specific C-GCD framework tailored to handle spectro-temporal overlap, polyphony, and base-class bias in a rehearsal-free setting.
+- GMM-driven adaptive thresholding strategy that dynamically models confidence distributions to partition high- and low-confidence unlabelled acoustic streams.
+- EMA-based dynamic teacher guidance module with selective updates to mitigate semantic drift and stabilize pseudo-label generation.
+- State-of-the-art empirical validation showing robust performance gains across both LibriSpeech speech streams and ShipsEar underwater soundscapes.
 
 ## Problem
 
-Acoustic perception systems operate in non-stationary, open-ended environments where novel sound categories emerge continuously without supervision. While Continual Generalized Category Discovery (C-GCD) has been studied in computer vision (using frameworks like SimGCD, MetaGCD, PromptCCD, and Happy), transferring these vision-centric methods directly to audio results in severe performance collapse. This occurs because audio signals exhibit complex spectrotemporal structures, strong semantic overlap, and polyphony, causing novel acoustic events to be mistakenly absorbed into visually-similar seen classes. Solving this is critical for deploying robust unsupervised acoustic monitoring systems without historical raw data access.
+Real-world acoustic systems frequently encounter open-ended, non-stationary environments where new sound categories emerge continuously without supervision. While Continual Generalized Category Discovery (C-GCD) has been studied in computer vision (e.g., Happy, SimGCD, MetaGCD), transferring these image-centric models directly to audio results in marked performance degradation. This failure stems from the unique properties of acoustic signals—specifically spectro-temporal entanglement, harmonic overlap, and severe base-class bias that cause novel sounds to be erroneously swallowed by existing categories.
 
 ## Method
 
-The framework utilizes an AudioMAE backbone in a student-teacher setup. To partition unlabelled streaming data into potential-seen and potential-unseen subsets without human supervision, the method uses Instance-Adaptive Entropy Regularization (IAER) paired with a (t+1)-component Gaussian Mixture Model (GMM) applied to predictive confidence scores. The intersection of GMM component means defines an initial threshold, which is further modulated by a density ratio to handle heavy spectral overlap.
+The framework employs an AudioMAE backbone within a student-teacher architecture, operating under a rehearsal-free streaming setup. For each incremental session, Instance-Adaptive Entropy Regularization (IAER) partitions unlabelled batches into potential-seen and potential-unseen subsets using confidence scores derived from the previous model.
 
-To prevent semantic drift, a dynamic teacher model is updated via an Exponential Moving Average (EMA) with a cosine schedule (alpha_e annealing from 0.999 to 0.8). Selective updates are applied where the feature extractor is fully updated, but the classifier weights are restricted to old-class weights (phi_old). A feature-level distillation loss ensures representation integrity.
+To establish robust decision boundaries without static thresholds, a (t+1)-component Gaussian Mixture Model (GMM) models the confidence score distribution. The intersection of the low- and high-confidence GMM components determines the adaptive threshold, which is further modulated by a local density ratio to handle heavy spectral overlap. Low-confidence samples undergo hierarchical entropy maximization to explicitly encourage novel class discovery and intra-group diversity.
 
-The global training objective integrates self-distillation, unsupervised contrastive learning, and hierarchical entropy maximization (combining inter-group separation and intra-group diversity) on low-confidence subsets to discover novel classes while preserving legacy knowledge under rehearsal-free constraints.
+To counteract semantic drift, the teacher model is updated via an Exponential Moving Average (EMA) with a cosine-scheduled momentum coefficient ranging from 0.999 down to 0.8. Crucially, update rules are selective: feature extractors are fully updated, while classifier weight updates are restricted to old-class parameters. A feature-level distillation loss aligns student and teacher representations to preserve legacy knowledge.
 
 ## Experimental setup
 
-Evaluated on LibriSpeech (using 50/10 and 80/10 incremental splits) and ShipsEar (using a 5/1 split with 5 base classes and 3 incremental sessions). Compared against baselines SimGCD, MetaGCD, PromptCCD, and Happy. Metrics include overall accuracy (Acc), old-class accuracy (OldAcc), new-class accuracy (NewAcc), and cumulative average accuracy (CAA). Implemented with an AudioMAE backbone, batch size 64, 0.1 time/frequency masking, fine-tuning only the 12th Transformer block and later layers via SGD (momentum 0.9, weight decay 5e-5, initial learning rate 0.1).
+Evaluated on LibriSpeech (using 50/10 and 80/10 incremental splits) and ShipsEar (using a 5/1 split). Evaluated against baselines SimGCD, MetaGCD, PromptCCD, and the vision-centric Happy framework using overall accuracy (Acc), old class accuracy (OldAcc), novel class accuracy (NewAcc), and Cumulative Average Accuracy (CAA). Implemented with an AudioMAE backbone, batch size 64, time/frequency masking of 0.1, fine-tuning only the 12th Transformer block and later layers, optimized via SGD with momentum 0.9, weight decay 5e-5, and an initial learning rate of 0.1.
 
 ## Results
 
-On the ShipsEar underwater dataset (5/1 protocol), the proposed w/GMM+EMA method achieves a headline Cumulative Average Accuracy (CAA-All) of 74.14%, outperforming the vision baseline Happy (69.30%) by 4.84 percentage points, largely driven by a strong old-class retention CAA-Old of 75.00% compared to Happy's 66.27%. However, its novel-class discovery CAA-New reached 63.92% compared to Happy's 71.56%, indicating an trade-off where consolidation outweighs exploration under low-SNR conditions.
+On the ShipsEar underwater dataset, the proposed w/GMM+EMA method achieves a headline Cumulative Average Accuracy (CAA-All) of 74.14%, outperforming Happy (69.30%) by 4.84 percentage points and substantially improving old-class retention (CAA-Old 75.00% vs 66.27%). On LibriSpeech under the 80/10 protocol, it reaches a CAA-All of 86.51% (+6.63% over Happy), achieving 87.64% on old classes and 74.73% on novel classes. Ablation studies confirm that adding the EMA dynamic teacher increases partitioning accuracy from 80.32% to 90.41% by polarizing confidence distributions. However, the method does not uniformly dominate novel-class metrics everywhere; on ShipsEar, its novel-class discovery score (CAA-New 63.92%) trails the vision baseline Happy (71.56%), showing that discovery-consolidation tradeoffs remain challenging under extreme low-SNR conditions.
 
-On the large-scale LibriSpeech dataset under the 80/10 protocol, w/GMM+EMA achieves superior balance and state-of-the-art results: CAA-All of 86.51% (+6.63% vs Happy), CAA-Old of 87.64% (+6.41%), and CAA-New of 74.73% (+10.98%). In the final incremental stage (S2, C90-C99), the proposed method outperforms Happy by +15.14% in overall accuracy and +18.25% in novel-class accuracy, demonstrating the critical stabilization role of the EMA teacher.
-
-| Dataset | Method | CAA-All (%) | CAA-Old (%) | CAA-New (%) |
+| Dataset | Method | CAA (All) | CAA (Old) | CAA (New) |
 |---|---|---|---|---|
-| ShipsEar | SimGCD [20] | 64.35 | 70.70 | 24.41 |
-| ShipsEar | MetaGCD [10] | 30.64 | 33.14 | 27.14 |
-| ShipsEar | PromptCCD [21] | 42.95 | 44.07 | 33.56 |
-| ShipsEar | Happy [19] | 69.30 | 66.27 | 71.56 |
-| ShipsEar | w/GMM+EMA (Ours) | 74.14 | 75.00 | 63.92 |
+| ShipsEar | SimGCD | 64.35% | 70.70% | 24.41% |
+| ShipsEar | Happy | 69.30% | 66.27% | 71.56% |
+| ShipsEar | w/GMM+EMA | 74.14% | 75.00% | 63.92% |
+| LibriSpeech (80/10) | Happy | 79.88% | 81.22% | 63.75% |
+| LibriSpeech (80/10) | w/GMM+EMA | 86.51% | 87.64% | 74.73% |
 
 ## Limitations
 
-The method shows a slight imbalance in certain low-SNR scenarios where old-class retention improves at the expense of novel-class discovery (e.g., lower CAA-New on ShipsEar compared to Happy). The evaluation scope is limited to two acoustic domains (speech via LibriSpeech and underwater acoustic streams via ShipsEar) and requires an independent clustering heuristic to estimate the cardinality of novel classes at each step.
+The framework assumes that the cardinality of novel classes in each session can be pre-estimated via independent clustering heuristics, which may be difficult in completely unconstrained environments. While old-class retention improves significantly, novel-class discovery on certain challenging low-SNR datasets like ShipsEar lags behind specific vision-centric baselines, pointing to persistent difficulties in unravelling severe spectral entanglement. The evaluation is currently restricted to speech and underwater acoustic domains, leaving open-world music, environmental soundscapes, and multi-channel audio largely untested.
 
 ## Why read this
 
-Read this paper if you are building streaming audio classifiers that must adapt to unlabelled open-world data without catastrophic forgetting. It provides a blueprint for adapting vision-centric Category Discovery methods to acoustic data by addressing spectral overlap through GMM thresholding and EMA teacher stabilization.
+Speech and ML researchers working on open-world streaming audio or continual learning should read this paper to understand how to adapt Generalized Category Discovery to acoustically entangled, rehearsal-free environments. It provides concrete architectural recipes—specifically GMM-driven adaptive thresholding and selective EMA teacher distillation—to mitigate base-class bias without catastrophically forgetting legacy classes.
 
 ## Code
 
@@ -67,7 +65,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Open-world speech recognition pipelines, underwater acoustic surveillance systems, and automated environmental sound monitoring in non-stationary streams.
+Open-vocabulary acoustic monitoring, underwater surveillance, autonomous vehicle audio perception, and incremental speech recognition systems.
 
 ## Related
 

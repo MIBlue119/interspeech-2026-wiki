@@ -3,27 +3,60 @@ id: yang26l_interspeech
 category: tts
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2018
 pdf: https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.pdf
 ---
 
 # CraftTTS: Fine-Grained Prosody Control for Text-to-Speech
 
+*Wenbing Yang, Qihang Lu, Bingsong Bai, Zihan Sun, Yueran Hou, Peilei Jia, Yingming Gao, Ya Li, Jun Gao*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2018)
 
-**TL;DR** — CraftTTS introduces a three-stage alignment framework combining preference construction, SFT, DPO, and GRPO to achieve stable word-level prosody control in zero-shot text-to-speech without sacrificing global naturalness.
+**TL;DR** — CraftTTS introduces a three-stage alignment framework (compute-driven data generation, SFT+DPO, and GRPO with multi-dimensional prosody rewards) to achieve stable word-level prosody and tempo control in LLM-based zero-shot text-to-speech models without sacrificing global fluency or speaker identity. It achieves a state-of-the-art prosodic naturalness MOS (NMOS) of 3.87 and speed matching MOS (SPMOS) of 3.35.
+
+## Key contributions
+
+- A scalable, compute-driven zero-shot data pipeline leveraging DeepSeek-V3 and an external teacher model (Indextts2) to automatically construct large-scale prosody preference pairs without human annotation.
+- A systematic audio alignment paradigm (SFT followed by DPO) adapted for discrete audio tokens to establish localized tag controllability without corrupting pre-trained autoregressive priors.
+- A multi-dimensional reinforcement learning reward mechanism using GRPO that decouples intelligibility, intensity contrast, and rhythm/tempo regularization to prevent acoustic artifacts.
+- Demonstrated ability to perform precise word-level prosody adjustments (strong, weak, fast, slow) while preserving the zero-shot voice cloning capabilities of the CosyVoice 2 backbone.
 
 ## Problem
 
-Modern LLM-based TTS models excel at zero-shot voice cloning but struggle with fine-grained word-level prosodic control, such as local intensity or tempo instructions. Enforcing these strict local instructions typically disrupts autoregressive acoustic priors, causing artifacts, unnatural pauses, or emotional leakage due to data scarcity and conflicting objectives.
+Modern large language model-based text-to-speech (TTS) systems excel at zero-shot voice cloning and global prosody transfer, but they fail when required to perform fine-grained, word-level intensity and tempo control. Enforcing strict local acoustic instructions via heuristic prompting typically introduces severe acoustic artifacts, unnatural pauses, unnatural emotional leakage, and disrupted global fluency. This failure is primarily caused by two critical bottlenecks: a severe scarcity of precisely aligned expressive speech data lacking human annotation, and an inherent architectural conflict in autoregressive LLMs where aggressive local conditioning shatters the global acoustic prior.
 
 ## Method
 
-The framework operates in three stages using CosyVoice 2 as the backbone. In Stage 1, DeepSeek-V3 annotates plain text with word-level tags (strong, weak, fast, slow), and an external Indextts2 teacher generates multi-round preference pairs via best-of-N selection and token-level overlapping continuations. In Stage 2, the model undergoes joint Supervised Fine-Tuning and Direct Preference Optimization to enhance local tag sensitivity. In Stage 3, Group Relative Policy Optimization (GRPO) is applied using a multi-dimensional reward system comprising a pause-aware ASR reward, a decoupled emotion reward for intensity contrast, and a length penalty for tempo regularization.
+CraftTTS operates as a three-stage training pipeline built upon the CosyVoice 2 backbone. In Stage 1, plain text is annotated with four discrete span-level prosody tags (strong, weak, fast, slow) using DeepSeek-V3. An external teacher model (Indextts2) uses multi-round autoregressive inference—propagating terminal acoustic tokens of previous segments as prefixes—to generate tag-consistent speech candidates. A best-of-N selection strategy filters these candidates based on speaker embedding cosine similarity for timbre preservation and length heuristics for speed control, yielding contrastive preference pairs (preferred multi-round stylized audio vs. rejected plain audio).
+
+In Stage 2, the CosyVoice 2 backbone undergoes joint Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO). SFT minimizes negative log-likelihood on the winning samples, while DPO maximizes the preference margin between tag-consistent audio and baseline audio using an implicit reward derived from the log-likelihood ratio between the active policy and a frozen reference model.
+
+In Stage 3, to resolve the trade-off between strict local control and global naturalness, the model is optimized via Group Relative Policy Optimization (GRPO) without a value network. For each input text, G=8 candidate outputs are sampled and evaluated using a multi-dimensional prosodic reward: (1) a pause-aware ASR reward mapping punctuation to a boundary token '|' via Whisper to preserve phrasing; (2) a decoupled emotion reward that anchors generated speech toward a neutral emotional baseline while retaining non-neutral reference affect to prevent global emotional leakage; and (3) a tempo regularization reward that compares generated duration against text-derived base duration using a smoothly scaled directional factor. Group-wise Z-score normalization and a token-level KL divergence penalty constrain policy deviation.
+
+## Experimental setup
+
+The framework was evaluated using Chinese datasets: texts sourced from AISHELL-3 and THCHS-30, style prompts from StoryTTS, and evaluation subsets from InstructTTSEval and seed-tts-eval. Stage 2 training utilized 9,330 generated utterances; Stage 3 utilized 3,224 text prompts. Experiments were conducted on 8 NVIDIA A100 GPUs. Stage 2 trained for 13 epochs with Adam (lr 1e-5, beta=0.1, max norm 5.0). Stage 3 optimized via GRPO with G=8, temperature 1.0, lr 1e-6, clipping epsilon 0.2, KL penalty coefficient 0.01, and reward weights set to 0.6 (ASR), 0.15 (emotion), and 0.25 (tempo). Baselines included the original CosyVoice 2 backbone, intermediate SFT, and SFT+DPO models, evaluated via Word Error Rate (CER), speaker similarity (Sim), and 5-point MOS metrics (SMOS, NMOS, STMOS, SPMOS).
 
 ## Results
 
-Evaluated on Chinese subsets of InstructTTSEval and seed-tts-eval using 8 NVIDIA A100 GPUs, CraftTTS achieves superior performance across subjective 5-point MOS metrics, reaching 3.73 in SMOS, 3.87 in NMOS, 3.41 in STMOS, and 3.35 in SPMOS, outperforming baseline CosyVoice 2 and intermediate SFT/DPO variants. Objective evaluations show a character error rate of 7.01% and speaker similarity of 0.6820. Ablations demonstrate that progressive training through Stage 3 successfully resolves trade-offs between local control and global naturalness.
+CraftTTS achieves superior subjective prosodic quality compared to the CosyVoice 2 baseline, raising NMOS from 3.67 to 3.87 and SPMOS from 3.09 to 3.35, while achieving an SMOS of 3.73. Speaker similarity remains tightly preserved at 0.6820 (vs 0.6999 baseline), and CER changes marginally from 6.36% to 7.01%, which is attributed to the pause-aware ASR reward penalizing unnatural pauses rather than pure lexical errors. Stage-wise ablations demonstrate that SFT alone improves stress matching (STMOS 3.43) but harms naturalness due to rigid behavioral imitation, whereas the full Stage 3 GRPO pipeline serves as the decisive turning point that suppresses acoustic artifacts and recovers overall naturalness. Acoustic deviation analysis confirms that 'strong' tags increase pitch standard deviation (+6.48) and range (+13.37), while 'fast' tags successfully increase characters per second (+0.54 CPS).
+
+| Method | CER (↓) | Sim. (↑) | SMOS (↑) | NMOS (↑) | STMOS (↑) | SPMOS (↑) |
+|---|---|---|---|---|---|---|
+| Baseline (CosyVoice 2) | 6.36% | 0.6999 | 3.61±0.14 | 3.67±0.14 | 3.18±0.19 | 3.09±0.16 |
+| + SFT | 7.34% | 0.6841 | 3.62±0.17 | 3.57±0.14 | 3.43±0.22 | 3.15±0.17 |
+| + Stage 2 (SFT+DPO) | 7.38% | 0.6873 | 3.64±0.15 | 3.57±0.15 | 3.30±0.19 | 3.22±0.18 |
+| CraftTTS (full model) | 7.01% | 0.6820 | 3.73±0.15 | 3.87±0.13 | 3.41±0.21 | 3.35±0.21 |
+
+## Limitations
+
+The current evaluation is restricted strictly to the Chinese language, leaving multilingual and cross-lingual generalization unverified. The pipeline relies heavily on external teacher models (Indextts2 and DeepSeek-V3) for data generation, which may bottleneck performance or inherit biases from those models. Furthermore, evaluation was conducted on short-to-medium sentences, and long-form document stability under intensive prosody tagging requires further scaling analysis.
+
+## Why read this
+
+Researchers and audio engineers working on controllable speech synthesis, LLM-based TTS alignment, or RLHF for discrete acoustic tokens should read this paper to understand how decoupled multi-dimensional rewards can stabilize localized prosody control without breaking global autoregressive priors.
 
 ## Code
 
@@ -31,11 +64,7 @@ Evaluated on Chinese subsets of InstructTTSEval and seed-tts-eval using 8 NVIDIA
 
 ## Applications
 
-Engineers and developers building expressive conversational agents, audiobook narrators, or virtual assistants requiring precise word-level cadence and emotion control.
-
-## Limitations
-
-Evaluated exclusively on Chinese datasets and language corpora.
+Expressive audiobook narration, conversational AI avatars, dynamic character voice acting in video games, and fine-grained emotional text-to-speech generation.
 
 ## Related
 

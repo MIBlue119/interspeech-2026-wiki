@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-901
 isca_url: https://www.isca-archive.org/interspeech_2026/xue26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xue26b_interspeech.pdf
 session: Speech Emotion Recognition and Representation 3
-topics: [speech-llm, emotion-recognition, on-device]
+topics: [speech-llm, paralinguistics, emotion-recognition]
 code:
     url: ""
     license: ""

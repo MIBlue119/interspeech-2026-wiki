@@ -3,27 +3,64 @@ id: zorila26_interspeech
 category: speech-llm
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-3291
 pdf: https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.pdf
 ---
 
 # From Noisy Speech to Accurate APIs: LLM-driven Embedding Steering for Resilient Tool Retrieval
 
+*Catalin Zorilă, Qingxiuxiong Dong, Rama Doddipatla*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3291)
 
-**TL;DR** — A training-free embedding-steering method uses LLM-generated synthetic user queries to enrich API descriptions, improving speech-to-API tool retrieval accuracy across noisy and clean acoustic conditions.
+**TL;DR** — The paper introduces a training-free, offline embedding-steering method that uses LLMs to generate diverse synthetic queries per API, enriching tool representations to drastically improve speech-to-API retrieval under noisy conditions. Across multiple models and datasets, embedding steering yields consistent NDCG gains, such as raising average N@1 from 52.7 to 60.5 on clean queries using bge-large-en-v1.5.
+
+## Key contributions
+
+- A training-free embedding-steering (EMBS) framework that averages the embeddings of LLM-synthesized use-case scenarios to construct robust, semantically enriched API representations.
+- A comprehensive speech-to-API evaluation benchmark built by combining three major tool-use datasets (Gorilla-HF, Ultratool, ToolACE) with a pipeline involving WhisperSpeech TTS and noise/reverberation augmentation.
+- Systematic analysis demonstrating that moderate steering weights (alpha = 0.5) and query pool sizes (K = 10) significantly boost retrieval robustness against both unstructured tool descriptors and ASR transcription errors.
+- Demonstration of model-agnostic effectiveness, improving baseline models (BERT-base, ToolRetriever) as well as state-of-the-art general embedding encoders (bge-base-en-v1.5, bge-large-en-v1.5).
 
 ## Problem
 
-API descriptors are often non-standardized, noisy, and poorly aligned with the training distributions of text embedding models, creating retrieval bottlenecks. In speech-driven interfaces, these issues are severely amplified by ASR transcription errors resulting from environmental noise and reverberation. Existing document and query expansion techniques are primarily built for static text corpora and fail to handle complex functional argument schemas or severe input corruptions.
+Modern conversational systems rely on retrieving appropriate APIs from natural language queries, but embedding-based retrieval frequently fails because raw API descriptors are unstructured, inconsistent, and poorly aligned with standard embedding spaces. This mismatch is severely compounded in speech-driven interfaces, where environmental noise and reverberation introduce high automatic speech recognition (ASR) word error rates. Prior query expansion techniques are tailored to static text corpora and fail to handle complex function-calling schemas, overlapping tool functionalities, or dual-sided noise from both bad documentation and faulty ASR transcriptions.
 
 ## Method
 
-The approach utilizes the Qwen3-8B LLM to offline generate up to 10 diverse user-style queries, use-case scenarios, and task fragments (3–12 words) for each API descriptor. The embeddings of these synthetic queries are averaged to produce a representative steering vector, which is then blended with the original API description embedding using a weighted interpolation parameter alpha. Experiments evaluate text-to-API benchmarks using four different embedding backbones: bert-base-uncased (110M), ToolRetriever (110M), bge-base-en-v1.5 (109M), and bge-large-en-v1.5 (335M). Speech queries are synthesized using WhisperSpeech TTS, augmented with random room reverberation via Pedalboard and speech-shaped noise at -5 to 5 dB SNR, and transcribed using Whisper base ASR.
+The proposed speech-to-API pipeline takes a spoken query s(t), transcribes it using an ASR system, and encodes the text into a query vector using a pre-trained model f. To bridge the semantic gap caused by unstructured tool documentation, an offline module leverages the Qwen3-8B LLM. For each tool definition, the LLM is prompted to output up to 10 short, actionable use cases or user queries (3 to 12 words long) reflecting diverse expert and non-expert behaviors.
+
+These synthetic queries are mapped into the embedding space and averaged to form a representative steering vector for the API. The final tool representation is computed by blending the original API description embedding with the synthesized steering vector using a hyperparameter alpha (set to 0.5 based on held-out validation data). Cosine similarity is then utilized to match the user query embedding against these steered tool representations.
+
+To construct the evaluation benchmark, clean text queries are synthesized into audio via the WhisperSpeech TTS model. Realistic acoustic distortion is simulated in two stages: first, clean audio is passed through a Pedalboard reverberation effect with room parameters drawn from uniform distributions (room size U(0.1, 0.9), damping U(0.0, 0.7), wet level U(0.3, 0.5)); second, speech-shaped noise (SSN)—generated by passing white noise through a 12-order linear predictive filter—is added at SNRs uniformly sampled from U(-5, 5) dB. Whisper base ASR transcribes these degraded audio signals for evaluation.
+
+## Experimental setup
+
+Evaluations utilize three public text-to-API datasets: Gorilla-HF (500 queries, 393 single-tool APIs), Ultratool (500 multi-tool task queries, 287 APIs), and ToolACE (1,000 multi-tool queries, 1,360 APIs). Four embedding encoders are tested: bert-base-uncased (110M params), ToolRetriever (110M params fine-tuned for APIs), bge-base-en-v1.5 (109M params), and bge-large-en-v1.5 (335M params). Performance is evaluated using Normalized Discounted Cumulative Gain at ranks 1, 3, and 5 (N@1, N@3, N@5), with ASR transcription quality measured by Word Error Rate (WER ranging from 10.1% to 21.9% on clean TTS q_c and 70.5% to 80.3% on noisy speech q_n).
 
 ## Results
 
-Evaluated on Gorilla-HF, Ultratool, and ToolACE datasets using Normalized Discounted Cumulative Gain (NDCG@1, @3, @5). Across all models and datasets, setting alpha=0.5 yields consistent retrieval gains for clean text (q0), clean ASR transcripts (qc), and noisy ASR transcripts (qn). For instance, with bge-large-en-v1.5, average N@1/N@3/N@5 on clean text improves from 52.7/56.8/60.3 to 60.5/64.9/68.3, and on clean ASR transcripts from 47.6/51.8/55.3 to 55.0/59.3/62.8. Even under severe noise conditions where baseline ASR word error rates exceed 70%, embedding steering delivers robust improvements, such as lifting bge-large-en-v1.5 noisy average N@1 from 19.3 to 20.5.
+Embedding steering (EMBS, alpha = 0.5, K = 10) provides consistent NDCG gains across all tested models and datasets. For the weakest baseline, bert-base-uncased, clean query (q_0) average N@1/N@3/N@5 jump from 5.0/6.6/7.9 up to 21.0/25.0/27.9. With the high-capacity bge-large-en-v1.5 model, clean average scores improve from 52.7/56.8/60.3 to 60.5/64.9/68.3, and clean-transcribed audio (q_c) scores rise from 47.6/51.8/55.3 to 55.0/59.3/62.8. Under severe ASR noise (q_n, WER up to 80.3%), bge-large-en-v1.5 with EMBS maintains robustness, lifting average N@1/N@3/N@5 from 19.3/20.9/22.8 to 20.5/23.0/24.9.
+
+Ablations on the number of synthetic queries K show that performance scales up smoothly from K = 1 (e.g., bge-base-en-v1.5 q_0 N@1 at 58.8) to K = 10 (N@1 at 66.2 on Ultratool), after which gains saturate due to semantic redundancy. Weight ablations confirm that moderate steering (alpha in [0.25, 0.5]) is optimal, whereas extreme values (alpha = 0 or 1) degrade retrieval accuracy.
+
+| System | q_0 N@1 | q_0 N@3 | q_0 N@5 | q_c N@1 | q_c N@3 | q_c N@5 |
+|---|---|---|---|---|---|---|
+| bge-large-en-v1.5 (Baseline) | 52.7 | 56.8 | 60.3 | 47.6 | 51.8 | 55.3 |
+| bge-large-en-v1.5 + EMBS (alpha=0.5) | 60.5 | 64.9 | 68.3 | 55.0 | 59.3 | 62.8 |
+| ToolRetriever (Baseline) | 43.8 | 47.7 | 52.0 | 37.0 | 42.0 | 45.7 |
+| ToolRetriever + EMBS (alpha=0.5) | 52.0 | 57.0 | 61.1 | 45.7 | 50.7 | 54.8 |
+| Bert-base-uncased (Baseline) | 5.0 | 6.6 | 7.9 | 4.7 | 5.7 | 6.8 |
+| Bert-base-uncased + EMBS (alpha=0.5) | 21.0 | 25.0 | 27.9 | 19.4 | 22.5 | 25.7 |
+
+## Limitations
+
+The method relies entirely on offline LLM generations, meaning dynamically evolving APIs require re-running synthetic query generation and embedding updates. The evaluation is limited to English-language datasets and synthetic speech generated via a single TTS model (WhisperSpeech), which may not capture all real-world acoustic phenomena or conversational disfluencies. Additionally, while EMBS helps under high ASR word error rates, performance still drops sharply when transcription degradation is extreme.
+
+## Why read this
+
+Speech and ML engineers building voice-controlled agents or API retrieval systems should read this paper to learn how a simple, training-free LLM embedding-steering trick can fix messy tool documentation and mitigate ASR errors without expensive model retraining.
 
 ## Code
 
@@ -31,11 +68,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Conversational AI assistants, voice-controlled agents, and automated reasoning systems that need to accurately map spoken user commands to modular software APIs and function-calling tools.
-
-## Limitations
-
-Performance gains eventually saturate as the number of generated steering queries K grows large due to semantic redundancy.
+Voice assistants, conversational function-calling agents, and speech-driven software integration tools.
 
 ## Related
 

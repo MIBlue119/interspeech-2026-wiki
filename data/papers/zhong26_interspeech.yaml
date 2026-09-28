@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-692
 isca_url: https://www.isca-archive.org/interspeech_2026/zhong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhong26_interspeech.pdf
 session: Pathological Speech Assessment 4
-topics: [dysarthria-assessment, self-supervised, evaluation]
+topics: [paralinguistics, self-supervised, evaluation]
 code:
     url: https://github.com/Kanelmis/UDS
     license: ""

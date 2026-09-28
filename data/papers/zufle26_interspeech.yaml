@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-685
 isca_url: https://www.isca-archive.org/interspeech_2026/zufle26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zufle26_interspeech.pdf
 session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
-topics: [dataset, evaluation, speech-llm]
+topics: [speech-llm, evaluation, multilingual]
 code:
     url: https://github.com/MaikeZuefle/DOWIS
     license: ""
