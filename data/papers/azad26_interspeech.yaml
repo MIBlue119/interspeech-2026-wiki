@@ -15,7 +15,7 @@ doi: 10.21437/Interspeech.2026-3472
 isca_url: https://www.isca-archive.org/interspeech_2026/azad26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/azad26_interspeech.pdf
 session: Pathological Speech Assessment 4
-topics: [asr, paralinguistics, evaluation]
+topics: [asr, speech-language-therapy, evaluation]
 code:
     url: https://github.com/Iqra-Eval/MSA_phonetiser
     license: ""

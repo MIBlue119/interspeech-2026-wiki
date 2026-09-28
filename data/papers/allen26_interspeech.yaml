@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2391
 isca_url: https://www.isca-archive.org/interspeech_2026/allen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/allen26_interspeech.pdf
 session: Pronunciation Diversity
-topics: [paralinguistics, multilingual, evaluation]
+topics: [multilingual, self-supervised, evaluation]
 code:
     url: ""
     license: ""

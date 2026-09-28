@@ -1,29 +1,60 @@
 ---
 id: altwlkany26_interspeech
-category: dataset
-updated: 2026-09-28
+category: self-supervised
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1436
 pdf: https://www.isca-archive.org/interspeech_2026/altwlkany26_interspeech.pdf
 ---
 
 # Leveraging Discriminative Capabilities of Self-Supervised Neural Audio Fingerprinting for Efficient Speech Data Annotation
 
+*Kemal Altwlkany, Elmedin Selmanovic*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/altwlkany26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/altwlkany26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1436)
 
-**TL;DR** — This paper demonstrates that self-supervised neural audio fingerprinting models trained purely on music can effectively deduplicate speech datasets and optimize annotation efficiency via farthest point sampling.
+**TL;DR** — This paper demonstrates that self-supervised neural audio fingerprinting models, despite being trained on music, produce embeddings that capture speech acoustic properties better than WavLM, enabling a 50% reduction in annotation workload via deduplication and farthest point sampling.
+
+## Key contributions
+
+- Applies pre-trained neural audio fingerprinting (PTC) to industry voicemail data, discovering that 50% of the dataset (24,983 out of 50,000 files) consists of duplicate entries following a power-law distribution.
+- Demonstrates deduplication on public robocalls (FTC dataset), revealing that 64.8% (928 out of 1,432) are near-duplicates.
+- Proposes a strategic subsampling pipeline using farthest point sampling (FPS) in the neural fingerprint embedding space to maximize acoustic diversity when human annotation budgets are strictly limited.
+- Shows via linear probing that off-the-shelf music-trained audio fingerprint embeddings (PTC) outperform speech-specific models (WavLM) in capturing speaker identity (F1 97.00% vs 85.37%) and gender, while achieving comparable performance on accents.
 
 ## Problem
 
-Industry-specific speech datasets—such as telephony voicemails and robocalls—face severe privacy constraints, legal limitations preventing external crowdsourcing, and high costs associated with expert annotator time. Furthermore, real-world audio datasets often follow a power-law distribution containing massive amounts of duplicates, while random subsampling fails to capture acoustic diversity and overrepresents redundant entries.
+Modern speech AI projects face severe bottleneck constraints in data collection, cleaning, and labeling, particularly in industry domains like telephony where strict privacy regulations prevent crowdsourcing or data sharing with external annotators. Furthermore, specialized speech datasets often contain massive internal redundancy (due to recurring voicemails or automated robocalls) that wastes expensive senior engineer annotation time, while naive random subsampling heavily favors overrepresented common clips over rare, diverse audio samples. Prior speech self-supervised models like WavLM are optimized for invariant phoneme transcription rather than speaker-identifying acoustic characteristics, leaving a gap in efficiently curating and balancing annotation subsets.
 
 ## Method
 
-The authors apply a lightweight, pre-trained conformer (PTC) neural audio fingerprinting model containing 26.2M parameters, which was originally trained via contrastive learning for music retrieval. First, exact and near-duplicates are filtered out using the fingerprinting representations. Second, to select a diverse subset for manual annotation under strict budget limits, the authors employ farthest-point sampling directly within the PTC embedding space to maximize acoustic variability.
+The approach leverages a lightweight pre-trained conformer (PTC) neural audio fingerprinting architecture consisting of 26.2M parameters, which uses a self-supervised contrastive learning framework originally designed for robust music retrieval against noise, reverberation, and playback rate distortions.
+
+For dataset pruning, raw audio files are passed through the PTC encoder to extract compact embedding vectors. Exact and near-duplicates are identified and stripped using similarity thresholds, removing redundant entries without altering unique information coverage. When the annotation budget forces extreme subsampling (e.g., selecting 1,000 out of 50,000 files), random sampling is replaced by farthest point sampling (FPS) operating directly in the PTC embedding space. FPS initializes with a random data point and iteratively selects subsequent points that maximize the minimum Euclidean distance to all previously chosen points, forcing the selected annotation batch to uniformly span the acoustic manifold rather than clustering densely around frequent, repeated audio patterns.
+
+To evaluate representation quality, the authors extract embeddings from the VCTK speech corpus using both PTC and WavLM, then train multi-class logistic regression linear probes with Bonferroni correction for speaker gender, accent, and speaker identity, comparing classification metrics and McNemar's test statistics.
+
+## Experimental setup
+
+Evaluated on three primary datasets: a proprietary industry dataset of 50,000 anonymized telephony voicemails from Infobip, a public FTC robocalls dataset of 1,432 samples, and the multi-speaker VCTK speech corpus used for synthetic duplication and linear probing evaluations. Baseline models include WavLM for speech embedding comparisons. Evaluation metrics encompass classification accuracy, precision, recall, F1-score evaluated at a 95% confidence interval via logistic regression probing, McNemar's test statistic, Cohen's g effect size, and odds ratios.
 
 ## Results
 
-Evaluated on a proprietary industry dataset of 50 000 voicemails and a public FTC robocall dataset of 1 432 calls, PTC successfully reduced the voicemail annotation workload by nearly 50% (cutting samples down to 25 017) and revealed that 64.8% of robocalls are near-duplicates. On a synthetic VCTK replica dataset injected with noise and codecs, PTC accurately tracked duplication levels within 7.9%. When evaluating acoustic property representation on VCTK using logistic regression, PTC significantly outperformed the speech-specific WavLM baseline, achieving F1-scores of 97.00% vs 85.37% for speaker identification and 99.73% vs 99.30% for gender classification, supported by McNemar's tests (p < 0.001).
+On the proprietary voicemail dataset, PTC deduplication eliminated exactly 24,983 duplicate recordings, halving the annotation burden to 25,017 unique items. On the public FTC robocalls, PTC identified 928 out of 1,432 calls (64.8%) as near-duplicates. In linear probing on VCTK, PTC significantly outperformed WavLM on speaker identification, yielding an F1-score of 97.00 ± 0.37% compared to WavLM's 85.37 ± 0.79% (odds ratio 6.35, p < 1e-10, Cohen's g = 0.36), and on gender classification (99.73% vs 99.30%, odds ratio 2.67, p = 0.000082). PTC did not win on accent classification, where WavLM achieved superior average accuracy and an odds ratio of 1.25 favoring its error profile.
+
+| System / Model | Gender F1 (%) | Accent F1 (%) | Speaker F1 (%) |
+|---|---|---|---|
+| WavLM [23] | 99.29 ± 0.19 | 74.87 ± 2.25 | 82.28 ± 1.16 |
+| PTC [33] (Ours) | 99.73 ± 0.12 | 81.34 ± 1.34 | 96.36 ± 0.56 |
+
+## Limitations
+
+The deduplication and subsampling methodology was validated primarily on telephony domains (voicemails and robocalls) and clean read speech (VCTK), leaving open how well it scales to multi-speaker conversational dialogue, singing, or noisy acoustic environments with extreme domain shift. The evaluation relies on linear probing of static embeddings rather than end-to-end downstream speech recognition or intent classification fine-tuning. Furthermore, compute overhead for farthest point sampling scales quadratically with dataset size before greedy approximation.
+
+## Why read this
+
+Speech data engineers and researchers dealing with massive, redundant telephony or domain-specific audio corpora will learn how to bypass expensive manual audits by repurposing lightweight music fingerprinting models for zero-shot deduplication and diversity-aware dataset subsampling.
 
 ## Code
 
@@ -31,11 +62,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech and machine learning engineers working on privacy-sensitive domains (like telephony, voicemail detection, and fraud/robocall analysis) who need to optimize limited data annotation budgets.
-
-## Limitations
-
-The deduplication approach primarily targets data sources that naturally contain repeated entries or automated generation artifacts.
+Efficient telephony dataset curation, privacy-compliant enterprise data cleaning, automated robocall/voicemail filtering pipeline preparation, and active learning subset selection.
 
 ## Related
 

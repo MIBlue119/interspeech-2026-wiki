@@ -7,7 +7,7 @@ doi: 10.21437/Interspeech.2026-840
 isca_url: https://www.isca-archive.org/interspeech_2026/arai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/arai26_interspeech.pdf
 session: Speech Production and Perception 2
-topics: [phonetics, speech-enhancement, evaluation]
+topics: [phonetics, speech-production, tts]
 code:
     url: ""
     license: ""

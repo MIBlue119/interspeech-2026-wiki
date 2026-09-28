@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-3055
 isca_url: https://www.isca-archive.org/interspeech_2026/bhattacharya26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bhattacharya26b_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
-topics: [speaker-verification, speech-enhancement, evaluation]
+topics: [speech-enhancement, speaker-verification, self-supervised]
 code:
     url: https://github.com/VCBSL/DAC-GAN
     license: ""

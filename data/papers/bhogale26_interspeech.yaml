@@ -19,7 +19,7 @@ doi: 10.21437/Interspeech.2026-3189
 isca_url: https://www.isca-archive.org/interspeech_2026/bhogale26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bhogale26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
-topics: [asr, dataset, evaluation]
+topics: [asr, multilingual, dataset]
 code:
     url: https://github.com/JoshTalks/voice-of-india
     license: ""

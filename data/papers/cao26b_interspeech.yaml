@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-1737
 isca_url: https://www.isca-archive.org/interspeech_2026/cao26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cao26b_interspeech.pdf
 session: Efficient Inference for ASR and Speech LMs
-topics: [asr, tts, speech-llm]
+topics: [speech-llm, asr, tts]
 code:
     url: ""
     license: ""

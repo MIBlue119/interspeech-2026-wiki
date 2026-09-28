@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-2047
 isca_url: https://www.isca-archive.org/interspeech_2026/beck26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/beck26_interspeech.pdf
 session: Long-form Audio & New Attention Approaches
-topics: [asr, multilingual, dataset]
+topics: [asr, evaluation, dataset]
 code:
     url: https://huggingface.co/datasets/apptek-com
     license: ""

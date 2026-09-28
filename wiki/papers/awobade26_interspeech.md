@@ -1,29 +1,61 @@
 ---
 id: awobade26_interspeech
 category: asr
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-3140
 pdf: https://www.isca-archive.org/interspeech_2026/awobade26_interspeech.pdf
 ---
 
 # AfriVox-v2: A Domain-Verticalized Benchmark for In-the-Wild African Speech Recognition
 
+*Busayo Awobade, Gabrial Ashungafac, Oluwatoni Otokiti, Tobi Olatunji*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/awobade26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/awobade26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3140)
 
-**TL;DR** — AfriVox-v2 is a comprehensive domain-verticalized benchmark suite containing unscripted, in-the-wild audio across 14 African languages, revealing that region-optimized models substantially outperform larger global speech models and multimodal LLMs under realistic deployment conditions.
+**TL;DR** — AfriVox-v2 is a domain-verticalized, in-the-wild benchmark for African speech recognition covering 14+ languages across conversational datasets and 10 vertical sectors, demonstrating that region-optimized models (Sahara-v2) outperform massive multimodal speech LLMs (Gemini 3 Flash).
+
+## Key contributions
+
+- Introduces Intron-YT, a new unscripted conversational dataset collected from public multimedia sources with rigorous VAD segmentation and native-speaker crowdsourced transcription.
+- Aggregates large-scale conversational corpora (Africa Next Voices and Waxal) across over 20 African languages, providing realistic acoustic variability and background noise.
+- Establishes a unified domain-verticalized evaluation taxonomy spanning 10 distinct sectors (including Agriculture, Finance, Health, Telecommunications) plus numbers and named entities.
+- Conducts the first independent benchmark of Omni-CTC models (300M, 1B, 7B), Gemini 3 Flash, and Sahara-v2 under identical deployment-like conditions.
 
 ## Problem
 
-Current speech benchmarks suffer from a read-speech bias, shallow domain coverage, and outdated model profiles, failing to capture the acoustic and phonetic diversity of spontaneous African speech. This gap leaves developers without reliable ways to evaluate voice AI deployment in specialized sectors like finance, health, and government, where models often experience massive performance degradation.
+Prior African speech benchmarks suffer from read-speech bias by relying heavily on clean, scripted audio that fails to capture spontaneous conversational complexity. Furthermore, general models exhibit surface-level domain coverage, resulting in catastrophic error rates on verticalized sectors like finance, telecommunications, and named entities. Global leaderboards report low WERs on Western datasets, but this hides a 5x to 10x degradation when models encounter the rich phonetic, prosodic, and acoustic diversity of African linguistic environments.
 
 ## Method
 
-The AfriVox-v2 benchmark aggregates conversational data from sources like Africa Next Voices (AFN), Waxal, and a novel YouTube-derived corpus (Intron-YT) totaling over multiple languages and hundreds of hours, annotated with a 10-domain taxonomy plus numerical and named entity tags using an LLM-assisted pipeline validated by humans. The authors benchmark recent model architectures under identical conditions, including Omni-CTC models (300M, 1B, and 7B parameters), Gemini 3 Flash, and the region-optimized Sahara-v2 ASR system. Evaluation metrics include standard Word Error Rate (WER), Entity Error Rate (EWER), and Numeric Error Rate (NWER).
+The benchmark evaluates five model families with distinct architectures: Omni-ASR v2 CTC models scaled at 300M, 1B, and 7B parameters (chosen for fast inference compared to auto-regressive LLMs), Gemini 3 Flash (a multimodal speech LLM), and Sahara-v2 (a region-optimized ASR model). All models use their default preprocessing pipelines and hyperparameters, with language hints provided where supported to mitigate cross-language confusion. Evaluation spans both traditional Word Error Rate (WER) and deployment-specific metrics like Entity Error Rate (EWER) and Numeric Error Rate (NWER).
+
+Because source datasets lacked consistent domain metadata, the authors constructed a multilabel tagging pipeline utilizing Gemini-3 to automatically annotate transcripts across 10 functional domains. Human validation on high-volume language subsets yielded a precision of 42% and recall of 70%, establishing an acceptable signal for macro-level trend analysis despite moderate label noise.
+
+## Experimental setup
+
+Evaluations encompass over 20 African languages using aggregated corpora including Waxal (~69.5 hours across 6 languages), Africa Next Voices (~100+ hours across 15 languages), and Intron-YT (10 hours across 7 languages). Models are compared against previous AfriVox-v1 read-speech baselines and across multiple architectural tiers using Word Error Rate (WER) as the primary metric, supplemented by sector-specific error rates on numbers and named entities.
 
 ## Results
 
-Across evaluations on AfriVox-v2, Sahara-v2 achieves the lowest average WER of 20.49%, outperforming all multilingual CTC models and multimodal LLMs. Scaling benefits are evident within the Omni-CTC family, where average WER drops from 36.82% (300M) down to 31.73% (1B) and 27.85% (7B). Gemini 3 Flash lags behind specialized ASR models, highlighting a weakness in exact acoustic decoding. Domain analysis shows high error rates in Telecommunications and Sports (exceeding 30-35% WER), alongside persistent challenges with numbers (20.32% WER) and named entities (23.11% WER).
+On the in-the-wild AfriVox-v2 benchmark, Sahara-v2 achieves the lowest average WER overall at 20.49, outperforming the Omni-CTC 7B model (27.85 average WER) and Gemini 3 Flash (26.59 average WER). Model scaling within the Omni-CTC family shows clear gains, with average WER dropping from 36.82 (300M) to 31.73 (1B) and 27.85 (7B). However, multimodal LLMs like Gemini 3 Flash lag behind speech-native counterparts. Across domains, Telecommunications and Sports exhibit the highest error rates (>30-35% WER), while specialized numbers and named entities remain challenging failure modes with average error rates of 20.32% and 23.11% respectively, even for the top-performing models.
+
+| Model | General | Health | Finance | Telecom | Numbers | Entity |
+|---|---|---|---|---|---|---|
+| Omni-CTC 300M | 44.58 | 43.75 | 45.94 | 48.23 | 42.66 | 45.23 |
+| Omni-CTC 1B | 33.68 | 34.28 | 32.40 | 36.18 | 32.80 | 33.70 |
+| Omni-CTC 7B | 28.54 | 28.52 | 26.95 | 30.96 | 27.19 | 27.87 |
+| Gemini 3 Flash | 32.82 | 29.93 | 32.88 | 35.11 | 31.14 | 31.72 |
+| Sahara-v2 | 16.12 | 16.12 | 17.00 | 25.38 | 20.32 | 23.11 |
+
+## Limitations
+
+The benchmark covers only a fraction of Africa's immense linguistic diversity, leaving many languages underrepresented. Conversational dataset sizes for certain languages are small, limiting statistical power. Furthermore, automated LLM-assisted domain labeling introduced label noise (42% precision, 70% recall), meaning domain-level findings should be interpreted as indicative trends rather than absolute precision figures.
+
+## Why read this
+
+Speech researchers and engineers building localized voice AI for low-resource or African markets should read this to understand why global multimodal LLMs fail on unscripted, domain-specific regional speech, and why specialized regional ASR architectures are necessary.
 
 ## Code
 
@@ -31,11 +63,7 @@ Across evaluations on AfriVox-v2, Sahara-v2 achieves the lowest average WER of 2
 
 ## Applications
 
-Speech engineers and developers building localized voice AI applications for African markets across sectors such as healthcare, agriculture, and finance will use this benchmark to rigorously evaluate and select robust ASR foundation models.
-
-## Limitations
-
-The benchmark covers only a fraction of Africa's linguistic diversity, some datasets feature small conversational sample sizes, and the LLM-assisted domain annotation pipeline introduces label noise with roughly 42% precision and 70% recall.
+Localized conversational agents, voice-enabled healthcare documentation, automated customer support intent detection, and financial inclusion applications across Africa.
 
 ## Related
 

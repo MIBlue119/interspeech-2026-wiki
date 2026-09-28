@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-3462
 isca_url: https://www.isca-archive.org/interspeech_2026/aheibam26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/aheibam26_interspeech.pdf
 session: Cross-Linguistic and L2 Phonetic Studies
-topics: [phonetics, evaluation, self-supervised]
+topics: [speech-translation, self-supervised, multilingual]
 code:
     url: ""
     license: ""

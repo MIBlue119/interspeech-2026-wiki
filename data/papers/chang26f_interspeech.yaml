@@ -15,8 +15,8 @@ doi: 10.21437/Interspeech.2026-2367
 isca_url: https://www.isca-archive.org/interspeech_2026/chang26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chang26f_interspeech.pdf
 session: Datasets
-topics: [dataset, evaluation, multimodal]
+topics: [multilingual, self-supervised, dataset]
 code:
-    url: ""
+    url: https://doi.org/10.5281/zenodo.20670131
     license: ""
 open_to_collaboration: false

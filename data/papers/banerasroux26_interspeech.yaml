@@ -18,7 +18,7 @@ doi: 10.21437/Interspeech.2026-3383
 isca_url: https://www.isca-archive.org/interspeech_2026/banerasroux26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/banerasroux26_interspeech.pdf
 session: Multimodal Speech Processing and Speech LLM Systems
-topics: [asr, speech-llm, low-resource]
+topics: [asr, self-supervised, speech-llm]
 code:
     url: https://github.com/idiap/llm-asr-text-only-adaptation
     license: ""

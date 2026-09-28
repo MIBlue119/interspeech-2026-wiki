@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-1246
 isca_url: https://www.isca-archive.org/interspeech_2026/boo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/boo26_interspeech.pdf
 session: Spoofing and Deepfake Detection 2
-topics: [deepfake-detection, speaker-verification, evaluation]
+topics: [deepfake-detection, self-supervised, speaker-verification]
 code:
     url: https://github.com/ewha-mmai/referee
     license: ""

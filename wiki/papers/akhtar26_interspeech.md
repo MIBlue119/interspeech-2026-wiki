@@ -1,29 +1,63 @@
 ---
 id: akhtar26_interspeech
-category: paralinguistics
-updated: 2026-09-28
+category: speech-llm
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2704
 pdf: https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.pdf
 ---
 
 # From Signals to Patterns: Non-Invasive Tuberculosis Detection from Cough Audio using Bandit Weighted Hyperbolic Prototypes
 
+*Mohd Mujtaba Akhtar, Girish, Sanjam Wadhwa, Muskaan Singh, Ning Ma*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2704)
 
-**TL;DR** — COBALT fuses speech foundation models with spectral descriptors using codebook-aligned hyperbolic prototypes and bandit-style reliability weighting, establishing a new state-of-the-art on the CODA TB benchmark for cough-based tuberculosis screening.
+**TL;DR** — COBALT is a novel multimodal fusion framework that combines self-supervised speech foundation models with classical spectral features using codebook-aligned hyperbolic prototypes and bandit-style reliability weighting for cough-based tuberculosis screening, establishing a new state-of-the-art of 88.93% accuracy and 89.07% AUC on the CODA TB benchmark.
+
+## Key contributions
+
+- Comprehensive benchmark evaluation of diverse pretrained speech foundation models alongside classical spectral descriptors (MFCC/LFCC) for cough-based tuberculosis screening (CBTS) under a unified cross-validation protocol.
+- Proposed COBALT, a fusion framework that maps heterogeneous streams into a shared hyperbolic prototype space using vector quantization and learns bandit-based reliability weights to suppress unstable evidence.
+- Demonstrated that fusing spectral descriptors (MFCC) with spectrogram transformers (PaSST) within COBALT substantially outperforms individual representations and naive concatenation baselines across multiple datasets.
 
 ## Problem
 
-Cough-based tuberculosis screening (CBTS) offers a rapid, low-cost alternative to sputum testing, but single-stream models struggle with cross-device variability, environmental artifacts, and the challenge of capturing both fine-grained acoustic details and higher-level temporal patterns. While individual pretrained audio models and spectral descriptors have shown promise, systematic methods for fusing these heterogeneous representations remain largely unexplored. Addressing this gap is critical for building robust, deployable acoustic triage tools that rely on true pathological cues rather than spurious recording artifacts.
+Tuberculosis (TB) triage relies heavily on symptom-led pathways with highly variable diagnostic yields, forcing reliance on operationalizing demanding and unscalable confirmatory sputum tests. While automated cough analysis using audio foundation models shows promise, existing studies focus almost exclusively on single-stream backbones or naive concatenation, ignoring how to systematically handle cross-representation complementarity and cross-device/environment variability. Furthermore, models often risk learning environmental or device artifacts rather than true pathological cough patterns, necessitating principled multi-representation fusion strategies.
 
 ## Method
 
-The COBALT framework extracts dual streams from heterogeneous encoders (e.g., PaSST, Whisper, WavLM, x-vector, MFCC, LFCC), adapts them via 1D CNNs, and tokenizes the sequences. These tokens are mapped into a Poincaré ball hyperbolic space and softly aligned via a shared hyperbolic prototype codebook using vector quantization. A multi-armed bandit mechanism learns reliability weights for each prototype to emphasize informative evidence while suppressing unstable artifacts. The reweighed evidence vectors and their agreement term are concatenated and fed into an MLP classifier, trained end-to-end with cross-entropy, vector-quantization losses, and entropy regularization.
+The framework takes two heterogeneous sequence representations extracted from pretrained models or spectral estimators, denoted as X^(1) and X^(2), and passes them through lightweight 1D CNN adapters followed by tokenization operators to yield K tokens per stream. These tokens are projected into a d_h-dimensional hyperbolic space using the Poincaré ball model B_c^{d_h} via the exponential map at the origin. Both streams are softly assigned to a shared hyperbolic codebook C = {c_1, ..., c_M} through hyperbolic vector quantization distances, aligning them into a common prototype vocabulary and forming prototype evidence vectors p^(m).
+
+A multi-armed bandit mechanism maintains scores Q_j for each prototype j to learn a reliability weight vector w, which is used to reweight the evidence vectors p_tilde^(m) to suppress noisy or artifact-prone evidence. The bandit updates its scores using an exponential moving average rule driven by a reward function measuring performance gains relative to a baseline loss, modulated by a confidence margin and batch usage statistics. Finally, the reweighted evidence vectors and their agreement are concatenated into a fused representation f = [p_tilde^(1); p_tilde^(2); agreement] and fed into a lightweight MLP classifier (dense layer plus softmax) to produce the final classification.
+
+The model is trained end-to-end using a standard cross-entropy task loss combined with hyperbolic vector quantization (HVQ) losses and an entropy regularization term H(w) to encourage selective prototype usage. The entire system has a compact parameter overhead of 3M to 6M trainable parameters depending on the chosen PTM backbone pair.
+
+## Experimental setup
+
+Evaluated on the CODA TB DREAM Challenge benchmark, which contains solicited cough audio from adult participants across seven countries (India, Madagascar, the Philippines, South Africa, Tanzania, Uganda, Vietnam) using official subject-disjoint splits under 5-fold cross-validation. Compared against individual pretrained encoders (PaSST-S [87M], Whisper-Base [74M], WavLM-Base [94M], x-vector [4.2M]), handcrafted features (MFCC, LFCC), naive feature concatenation, Euclidean fusion (COBALT-E), and Möbius-addition fusion. Models were trained for 50 epochs with a batch size of 32 using the Adam optimizer and cross-entropy loss.
 
 ## Results
 
-Evaluated on the CODA TB DREAM Challenge benchmark of solicited cough audio from seven countries using subject-disjoint five-fold cross-validation. Individual representation experiments show PaSST outperforms Whisper, WavLM, and x-vector, while MFCC leads the spectral features. A Euclidean ablation (COBALT-E) demonstrates that structured geometric fusion consistently beats naive feature concatenation. The best-performing configuration fuses MFCC with PaSST, achieving top-tier accuracy, F1-score, and AUC compared to all baseline pairs and individual encoders.
+The best-performing individual representation is the PaSST (PST) spectrogram transformer, achieving 78.92% accuracy and 72.20% AUC with an FCN backend, and 79.29% accuracy with a CNN backend. Naive feature concatenation peaks with MFCC + PaSST at 81.67% accuracy and 81.27% AUC. The proposed full COBALT framework combining MFCC and PaSST achieves the overall best performance with 88.93% accuracy, 87.26% F1-score, and 89.07% AUC. Hyperbolic ablations show that COBALT outperforms its Euclidean counterpart (COBALT-E, which peaks at 85.97% accuracy for MF+PST) and Möbius-addition fusion (peaks at 88.26% accuracy for WAL+PST), proving the specific utility of the bandit-weighted prototype codebook.
+
+| System / Condition | Accuracy (%) | F1-Score (%) | AUC (%) |
+|---|---|---|---|
+| PaSST (Standalone, CNN) | 79.29 | 77.57 | 72.68 |
+| MFCC + PaSST (Concat) | 81.67 | 79.88 | 81.27 |
+| MFCC + PaSST (COBALT-E) | 85.97 | 83.54 | 85.06 |
+| WavLM + PaSST (Möbius) | 86.92 | 85.49 | 84.27 |
+| WavLM + PaSST (COBALT) | 88.26 | 87.52 | 86.11 |
+| MFCC + PaSST (COBALT) | 88.93 | 87.26 | 89.07 |
+
+## Limitations
+
+The evaluation is restricted to the specific cough acoustic distributions and collection protocols of the CODA TB dataset, leaving cross-dataset generalization to unseen microphones and recording environments unverified. The framework's reliance on fixed frozen foundation features may limit adaptation capacity compared to full fine-tuning, and the multi-armed bandit reliability weighting introduces hyperparameter sensitivity requiring careful tuning of reward margins and step sizes.
+
+## Why read this
+
+Researchers working on multimodal fusion, hyperbolic representation learning, or computational respiratory healthcare should read this paper to see how bandit-driven prototype weighting in non-Euclidean spaces can effectively align and denature mismatched audio foundation embeddings.
 
 ## Code
 
@@ -31,11 +65,7 @@ Evaluated on the CODA TB DREAM Challenge benchmark of solicited cough audio from
 
 ## Applications
 
-Engineers and healthcare researchers developing non-invasive, automated acoustic screening tools for respiratory diseases like tuberculosis.
-
-## Limitations
-
-The framework's performance depends on the quality of alignment between heterogeneous streams, and the approach is evaluated exclusively on solicited cough audio datasets.
+Automated non-invasive screening for tuberculosis and respiratory pathologies via smartphone or clinical microphone recordings in decentralized health settings.
 
 ## Related
 

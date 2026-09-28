@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-2620
 isca_url: https://www.isca-archive.org/interspeech_2026/boeddeker26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/boeddeker26_interspeech.pdf
 session: Source Separation 2
-topics: [source-separation, self-supervised, speaker-verification]
+topics: [speech-separation, self-supervised, speaker-verification]
 code:
     url: https://github.com/merlresearch/sis_sep
     license: ""

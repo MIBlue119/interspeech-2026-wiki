@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-130
 isca_url: https://www.isca-archive.org/interspeech_2026/park26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26_interspeech.pdf
 session: Audio Coding and Signal Analysis
-topics: [health, audio-captioning]
+topics: [sound-event-detection, speech-enhancement, health]
 code:
-    url: ""
+    url: https://github.com/honeysleep/sed
     license: ""
 open_to_collaboration: false

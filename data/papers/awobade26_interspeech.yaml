@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-3140
 isca_url: https://www.isca-archive.org/interspeech_2026/awobade26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/awobade26_interspeech.pdf
 session: Translation
-topics: [asr, multilingual, dataset]
+topics: [asr, multilingual, low-resource]
 code:
     url: https://huggingface.co/datasets/intronhealth/afrivox-v2
     license: ""

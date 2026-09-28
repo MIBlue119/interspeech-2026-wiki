@@ -9,10 +9,11 @@ authors:
     - Naoaki Sumida
     - Kazuhiro Nakadai
 year: 2026
+doi: 10.21437/Interspeech.2026-1956
 isca_url: https://www.isca-archive.org/interspeech_2026/asaka26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/asaka26_interspeech.pdf
 session: Speaker Diarization 2
-topics: []
+topics: [speaker-diarization, self-supervised, multilingual]
 code:
     url: ""
     license: ""

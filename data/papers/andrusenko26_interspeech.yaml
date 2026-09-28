@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1195
 isca_url: https://www.isca-archive.org/interspeech_2026/andrusenko26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/andrusenko26_interspeech.pdf
 session: New Training Methods for ASR
-topics: [asr, self-supervised]
+topics: [asr, self-supervised, streaming-inference]
 code:
     url: https://huggingface.co/nvidia/parakeet-unified-en-0.6b
     license: ""

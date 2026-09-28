@@ -4,11 +4,12 @@ authors:
     - Jeonghyeon Joo
     - Jiyoung Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-1163
 isca_url: https://www.isca-archive.org/interspeech_2026/joo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/joo26_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 1
-topics: []
+topics: [asr, multilingual, self-supervised]
 code:
-    url: ""
+    url: https://github.com/ewha-mmai/CoCoVSR
     license: ""
 open_to_collaboration: false

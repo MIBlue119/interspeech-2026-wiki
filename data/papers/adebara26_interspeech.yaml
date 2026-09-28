@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-3519
 isca_url: https://www.isca-archive.org/interspeech_2026/adebara26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/adebara26_interspeech.pdf
 session: Multilingual Speech 1
-topics: [asr, dataset, multilingual]
+topics: [asr, multilingual, dataset]
 code:
     url: ""
     license: ""

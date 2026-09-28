@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-3405
 isca_url: https://www.isca-archive.org/interspeech_2026/berdo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/berdo26_interspeech.pdf
 session: Language-Model and Codec-Token Speech Enhancement
-topics: [speech-enhancement, self-supervised, evaluation]
+topics: [speech-enhancement, self-supervised, speech-llm]
 code:
     url: ""
     license: ""

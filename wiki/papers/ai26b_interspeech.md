@@ -1,34 +1,69 @@
 ---
 id: ai26b_interspeech
 category: tts
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2875
+pdf: https://www.isca-archive.org/interspeech_2026/ai26b_interspeech.pdf
 ---
 
 # Beyond Two-stage Diffusion TTS: Joint Structure and Content Refinement via Jump Diffusion
 
-**TL;DR** — A jump-diffusion TTS model folds discrete duration modeling and continuous spectral refinement into a single diffusion process, cutting WER while enabling more natural adaptive pacing.
+*Jiabao Ai, Minghui Zhao, Anton Ragni*
+
+[PDF](https://www.isca-archive.org/interspeech_2026/ai26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ai26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2875)
+
+**TL;DR** — This paper proposes a jump-diffusion framework for text-to-speech that unifies discrete temporal alignment jumps and continuous spectral diffusion, achieving a 3.37% WER compared to 4.38% for Grad-TTS on LJSpeech.
+
+## Key contributions
+
+- A joint jump-diffusion framework that integrates discrete temporal structural changes and continuous spectral modeling in a unified iterative process.
+- An Upsample-Diffuse-Downsample (UDD) strategy that reconciles variable-length structural jumps with fixed-dimensional pretrained U-Net diffusion backbones without retraining.
+- A classification-based Location Predictor for duration modeling that replaces MSE regression, capturing multi-modal speech timing and avoiding mean prosody collapse.
+- Empirical demonstration of adaptive prosody generation (autonomous silence insertion) in out-of-distribution slow speech without uniform mechanical stretching.
 
 ## Problem
 
-Diffusion and flow-matching TTS models face a tradeoff: two-stage designs diffuse over fixed alignments and tend to flatten prosody, while single-stage designs skip explicit durations but suffer alignment instability.
+Diffusion and flow-matching TTS models struggle with a fundamental tension: discrete temporal structure (alignment/rhythm) versus continuous spectral modeling. Two-stage models predict phone durations and upsample frames first, leading to mean collapse and mechanical uniform stretching under length constraints. Single-stage attention-based models forgo explicit alignment entirely but suffer from training and inference instability. Trans-Dimensional Diffusion (TDD) directly alters network dimensionality at each step, causing severe learning instability and poor performance due to architectural limitations.
 
 ## Method
 
-The authors propose a jump-diffusion framework where discrete jumps model temporal/duration structure and a continuous diffusion process refines spectral content within the same generative process, unifying both stages.
+The framework models speech generation by coupling structural corruption (frame deletion based on forced alignments) and spectral corruption (Gaussian noise addition relative to encoder outputs) in the forward process. The reverse process interleaves structural jumps (using a Location Predictor and a Content Predictor) with continuous spectral diffusion steps. The Location Predictor is a 4-layer Transformer encoder that scores insertion slots using cross-entropy loss over possible deletion positions, while the Content Predictor is an 8-layer bidirectional Transformer encoder that predicts residual content for newly inserted frames given in-place masked inputs.
+
+To bridge variable-length states and standard fixed-dimensional networks, the UDD strategy expands the sequence to a target length canvas via location and content predictors, runs a reverse diffusion step on the full-length representation, and then downsamples by retaining original columns before the next iteration. In its one-shot degenerate form, UDD reduces to an upsample-and-diffuse operation where all structural expansion occurs at the start, entirely replacing Grad-TTS's duration regression with categorical classification.
+
+## Experimental setup
+
+Evaluated on LJSpeech using standard partitions from Grad-TTS. Baselines include Grad-TTS, Trans-Dimensional Diffusion (TDD) variants, and UDD variants (evaluated via sampling or argmax). Metrics include Word Error Rate (WER) using Whisper medium, UTMOSv2 for naturalness, Mel-Cepstral Distortion (MCD), and Log-F0 RMSE. Jump predictors are optimized using the Adam optimizer with a learning rate of 1e-4, freezing the pretrained Grad-TTS text encoder and U-Net diffusion backbone.
 
 ## Results
 
-Even a simplified one-shot variant reaches 3.37% WER versus 4.38% for Grad-TTS with better UTMOSv2 on LJSpeech, and the full iterative variant inserts natural pauses for out-of-distribution slow speech rather than uniformly stretching audio.
+The one-shot variant achieves a 3.37% WER and 4.050 UTMOSv2, outperforming the Grad-TTS baseline (4.38% WER, 4.024 UTMOSv2) and proving the superiority of classification-based duration modeling over regression. TDD performs poorly with high WERs (6.31% to 7.66%) due to unstable dimensionality changes and lack of scale invariance in convolutions. The iterative UDD (Argmax) achieves the best MCD (5.830) and competitive Log-F0 RMSE (0.332). In out-of-distribution slow speech evaluation (0.75x speed), UDD (Argmax) adaptively inserts pauses, reaching a 9.63% silence ratio and 4.09% WER, compared to 6.38% silence and 4.29% WER for Grad-TTS.
+
+| System | WER (%) ↓ | MCD ↓ | Log-F0 RMSE ↓ | UTMOSv2 ↑ |
+|---|---|---|---|---|
+| Grad-TTS | 4.38 | 5.872 | 0.330 | 4.024 |
+| One-shot | 3.37 | 5.914 | 0.332 | 4.050 |
+| TDD (Sample) | 6.31 | 6.057 | 0.341 | 3.867 |
+| UDD (Sample) | 4.55 | 5.860 | 0.344 | 3.989 |
+| UDD (Argmax) | 4.71 | 5.830 | 0.332 | 4.003 |
+
+## Limitations
+
+Evaluated exclusively on single-speaker read speech (LJSpeech) and lacks multi-speaker or spontaneous conversational evaluation. Jumps currently operate only on the temporal/structural domain, leaving spectral refinement purely to continuous diffusion without discrete spectral corrections. The approach relies on external forced alignments during training.
+
+## Why read this
+
+Speech researchers and developers working on generative TTS, prosody modeling, or alignment-free diffusion will find this a compelling bridge between explicit duration control and continuous diffusion. It offers a clear blueprint for replacing regression-based duration predictors with classification-based jump processes that prevent mean collapse.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://anonymousinterpseech.github.io/TTS_Demo/
 
 ## Applications
 
-Useful for TTS systems that need both accurate word-level timing and expressive, non-uniform prosody, such as audiobook narration or dubbing where pacing must adapt to content.
+Expressive text-to-speech synthesis, speech generation under varying time constraints, and audiobook narration requiring natural adaptive pausing.
 
 ## Related
 

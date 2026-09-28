@@ -4,10 +4,11 @@ authors:
     - Puneet Singh Bhooi
     - Vinayak Abrol
 year: 2026
+doi: 10.21437/Interspeech.2026-2229
 isca_url: https://www.isca-archive.org/interspeech_2026/bhooi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bhooi26_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
-topics: []
+topics: [asr, speech-llm, self-supervised]
 code:
     url: ""
     license: ""

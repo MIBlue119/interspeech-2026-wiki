@@ -7,7 +7,7 @@ doi: 10.21437/Interspeech.2026-734
 isca_url: https://www.isca-archive.org/interspeech_2026/azzouz26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/azzouz26_interspeech.pdf
 session: Speech Production and Perception 2
-topics: [phonetics, evaluation, self-supervised]
+topics: [phonetics, speech-enhancement, dataset]
 code:
     url: ""
     license: ""

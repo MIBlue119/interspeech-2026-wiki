@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-3390
 isca_url: https://www.isca-archive.org/interspeech_2026/bui26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bui26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
-topics: [asr, speech-llm, multilingual]
+topics: [code-switching, asr, evaluation]
 code:
     url: https://github.com/vincentbui-ai/CSER-Benchmark/
     license: ""
