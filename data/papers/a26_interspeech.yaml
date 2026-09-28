@@ -6,10 +6,11 @@ authors:
     - Jiang Li
     - Feilong Bao
 year: 2026
+doi: 10.21437/Interspeech.2026-266
 isca_url: https://www.isca-archive.org/interspeech_2026/a26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/a26_interspeech.pdf
 session: Robust Audio-Visual Speech Recognition
-topics: []
+topics: [asr, speech-translation, multilingual]
 code:
     url: ""
     license: ""
