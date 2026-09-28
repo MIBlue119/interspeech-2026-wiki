@@ -4,19 +4,19 @@ Project: interspeech-2026-wiki
 
 Notebook: .agentflow/devlog.md — root.
 
-Current commit: skeleton commit c3ed096 plus this closeout record commit, pushed to origin/main.
+Current commit: data import 8714b83 plus this closeout record commit, pushed to origin/main.
 
-Tests/scenarios: go build/vet; iswiki validate; README regeneration idempotence; live ISCA index parse (1379 papers); stub generation round-trip.
+Tests/scenarios: iswiki validate on 1379 files; README regeneration idempotence; reviewer spot-checks vs live ISCA pages.
 
 Configuration: ag.json — schema v8; validated for claude-code this round.
 
-Proven: repo skeleton complete, independently reviewed (3×PASS after blocker fix), pushed to github.com/MIBlue119/interspeech-2026-wiki.
+Proven: all 1379 Interspeech 2026 paper metadata files imported, independently reviewed (PASS), and pushed.
 
 Open: none.
 
 Next: await the owner.
 
-Artifacts: .agentflow/artifacts/A-001-interspeech-wiki-skeleton/ (tracker.md, review-001.md).
+Artifacts: data/papers/ (1379 yaml files); .agentflow/artifacts/A-002-paper-import/review-002.md.
 
 Archived eras: none.
 
@@ -101,5 +101,51 @@ Streams: none.
 ---
 
 # → Ask / A-002 (miblue119)
+
++ 請跑 我需要你把1379篇匯入 我目前看覺得很空虛
+
+---
+
+## [RUN-001] Event — 2026-09-28 23:13:47 +0800 (A-002)
+
+- Imported all 1379 Interspeech 2026 papers from the live ISCA index into data/papers/*.yaml (1378 new stubs + the existing barreiros26 example); each stub carries title, authors, session, isca_url, pdf_url.
+
+- `iswiki validate` passes on all 1379 files; `iswiki readme` regenerated the README count/table (1379 papers indexed, 0 with code links yet).
+
+## [RUN-002] Event — 2026-09-28 23:17:01 +0800 (A-002)
+
+- Data import committed as 8714b83; independent reviewer (same read-only subagent, fresh round) verified the data-only commit: file count 1379 matches the ISCA index, titles spot-checked word-for-word against live archive pages, validate/readme re-run clean, no copyrighted text in any yaml — Verdict PASS, Outcome/Minimality/Conformance all PASS (report: .agentflow/artifacts/A-002-paper-import/review-002.md).
+
+# ← Reply / A-002
+
+* _2026-09-28 23:17:01 +0800 (claude-code/unknown)_
+
+## [SUMMARY]
+
+- 1379 篇 Interspeech 2026 論文的 metadata 已全部匯入 data/papers/，README 計數同步更新，獨立複核通過後 push 上 GitHub。
+
+- 每篇都有標題、作者、session、ISCA 連結與 PDF 連結；topics 與 code 連結是空的，等社群（或下一輪）補。
+
+## [FINAL REPORT]
+
+1. 把 1379 篇匯入
+
+   - 成功。`iswiki index --insecure` 從 ISCA live index 建立 1378 個新 YAML stub（加上原有的 barreiros26 範例共 1379 篇，與 index 頁計數一致）；`iswiki validate` 全數通過；`iswiki readme` 重新生成 README（顯示 1379 papers indexed）。實作 commit：8714b83。
+
+   - 獨立 reviewer 針對這個 data-only commit 做了 targeted review：確認只動了 data/papers/ 與 README、抽查 3 篇標題逐字對照 ISCA 官網一致、重跑 validate/readme 乾淨、抽查 yaml 無版權文字或注入式指令——Verdict PASS。
+
+   - 已 push 到 origin/main。repo 現在不空了：data/papers/ 有完整一屆的論文 metadata，agent 可以直接 grep 標題／作者／session。
+
+   - 限制：stub 的 topics、DOI、code.url 為空——ISCA index 頁只有標題／作者／session，DOI 要進各論文頁才有；補齊屬後續工作（可用 fetch 或社群 PR）。
+
+
+## Questions (batched — each with a suggested default)
+
+- None.
+
+
+---
+
+# → Ask / A-003 (miblue119)
 
 +
