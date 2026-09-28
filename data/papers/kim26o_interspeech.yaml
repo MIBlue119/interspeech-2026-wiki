@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-1828
 isca_url: https://www.isca-archive.org/interspeech_2026/kim26o_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26o_interspeech.pdf
 session: Acoustic Signal Analysis and Generation
-topics: [source-separation, evaluation, dataset]
+topics: [tts, speech-enhancement, self-supervised]
 code:
     url: https://dabinkim0.github.io/adatt/
     license: ""

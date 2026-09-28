@@ -7,7 +7,7 @@ doi: 10.21437/Interspeech.2026-153
 isca_url: https://www.isca-archive.org/interspeech_2026/kagoshima26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kagoshima26_interspeech.pdf
 session: Acoustic Event Detection 3
-topics: [few-shot, sound-event-detection, audio-classification]
+topics: [few-shot, sound-event-detection, self-supervised]
 code:
     url: ""
     license: ""

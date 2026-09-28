@@ -1,29 +1,64 @@
 ---
 id: kumar26f_interspeech
 category: audio-deepfake
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2442
 pdf: https://www.isca-archive.org/interspeech_2026/kumar26f_interspeech.pdf
 ---
 
 # Who Synthesized This? Joint Deepfake Detection and Generative Source Attribution
 
+*Vishal Kumar, Vinayak Abrol, Mathew Magimai Doss*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/kumar26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kumar26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2442)
 
-**TL;DR** — The authors propose a few-shot, open-set framework for joint deepfake detection and generative source attribution using a LoRA-adapted WavLM-Large backbone and hierarchical metric learning, achieving 0.49% EER and 99% attribution accuracy.
+**TL;DR** — A few-shot, open-set framework for joint deepfake detection and generative source attribution uses a LoRA-adapted WavLM-Large backbone trained with dual-tier hierarchical metric learning, achieving 0.49% EER on ASVspoof 5.0 and 99% accuracy in tracing speech to its source.
+
+## Key contributions
+
+- Dual-Tier Hierarchical Metric Learning: Joint optimization of dynamically conditioned AAM-Softmax margins and EMA-anchored Center Loss to resolve both broad synthesis families and fine-grained synthesizer fingerprints.
+- Dynamic Prototype Anchoring: A few-shot prototype mechanism for inference-time attribution of emergent, zero-day generative architectures using K=36 support samples without parameter updates.
+- Gender-Conditioned Bonafide Prototyping: Partitioning the real speech manifold into three gender-conditioned subregions (male, female, mixed) to model nonisotropic intra-speaker variance.
+- Empirical State-of-the-Art: Establishing a new benchmark on ASVspoof Track 1 open condition with a 0.49% EER and 0.09 minDCF.
 
 ## Problem
 
-Modern speech synthesis systems like neural codecs, diffusion, and flow-matching models continuously evolve and bypass legacy discriminators by masking spectro-temporal artifacts. Furthermore, binary detection is no longer sufficient; forensic pipelines must perform open-world source attribution to identify novel, zero-day generators without requiring periodic retraining of static classifiers.
+Modern speech synthesis methods like autoregressive models, diffusion pipelines, and flow-matching frameworks directly optimize latent manifolds under perceptual losses, suppressing legacy spectral and phase artifacts. This escalation turns zero-shot cloning into a severe threat against automatic speaker verification (ASV). Furthermore, legacy detectors assume a closed world and fail categorically when encountering zero-day generative models, requiring continuous retraining that static systems cannot accommodate.
 
 ## Method
 
-The framework utilizes a WavLM-Large backbone adapted via Low-Rank Adaptation (LoRA, rank 8, alpha 16) applied to feature and attention output projections. It employs a two-stage hierarchical training curriculum combining conditional Additive Angular Margin (AAM) Softmax with dynamically trainable margins and Exponential Moving Average (EMA) anchored center loss. For inference, it registers emergent synthesis models as embedding centroids using few-shot support sets (K ≈ 36 samples) and performs parameter-free nearest-neighbor retrieval via cosine similarity.
+The framework utilizes a WavLM-Large backbone, chosen for its denoising pretraining objective that preserves fine-grained generative fingerprints under acoustic perturbation. To prevent catastrophic forgetting, Low-Rank Adaptation (LoRA) is applied exclusively to the feature projection and attention output projection layers with rank r = 8 and scaling factor alpha = 16.0.
+
+The embedding space topology is optimized using a joint geometric objective combining Conditional AAM-Softmax with dynamically trainable margins (my) and an Exponential Moving Average (EMA) stabilized Center Loss to mitigate gradient noise from class-imbalanced mini-batches. Training follows a two-stage hierarchical curriculum: Stage 1 separates broad architectural families (LLM-Codec, Diffusion, Flow-Matching, FastSpeech, VITS), while Stage 2 refines intra-family synthesizer identities.
+
+During Phase 2, zero-day models from Set 2 are registered into a prototype store without parameter updates by computing mean embedding centroids over K approx 36 support samples. Bonafide prototypes are registered using VoxCeleb 2 via three gender-conditioned centroids (male, female, mixed). During Phase 3 inference, test utterances are mapped through the frozen backbone and classified via cosine similarity nearest-neighbor retrieval against the prototype registry, eliminating class-specific threshold calibration.
+
+## Experimental setup
+
+The system evaluates on MLAAD v9 (partitioned temporally into Set 1 pre-2025 for training and Set 2 post-2025 for open-set registration), VoxCeleb 2 for bonafide prototypes, and ASVspoof 5 Track 1 (open condition) for zero-shot evaluation. Performance is measured via Equal Error Rate (EER), Minimum Detection Cost Function (minDCF), Actual Detection Cost Function (actDCF), and accuracy. Implementation uses PyTorch on three NVIDIA RTX 3090 GPUs (24GB VRAM each) and 512GB system RAM.
 
 ## Results
 
-Evaluated on the ASVspoof 5 Track 1 open-condition benchmark and the MLAAD v9 dataset, the system achieves an EER of 0.49% and a minDCF of 0.09. It attains up to 99% accuracy in tracing generated speech to its specific source model when utilizing gender-conditioned real prototypes across progressive incremental testing stages.
+The proposed single system achieves an EER of 0.49% and a minDCF of 0.09 on the ASVspoof 5 Track 1 open-condition evaluation, outperforming the best challenge ensemble submission (T45: minDCF = 0.07, EER = 2.59%) in EER and the best single system submission (T31: minDCF = 0.14, EER = 5.56%). Progressive evaluation with Set 2 models scaling from 30% to 100% shows EER dropping from 2.31% to 0.69% (reaching 0.49% with 3-way gender conditioning), while family-level and model-level accuracies scale up to 92.0%/90.3% (reaching 99.0%/97.0% fully configured). The primary weakness is an elevated actual DCF (actDCF = 0.97), reflecting score clustering near the unit hypersphere boundary characteristic of metric learning spaces, which requires post-hoc calibration.
+
+| System | minDCF | actDCF | EER (%) |
+|---|---|---|---|
+| B01 (Baseline) | 0.8266 | 0.9922 | 36.04 |
+| T47 (Ensemble) | 0.26 | 0.33 | 9.18 |
+| T31 (Single) | 0.14 | 0.22 | 5.56 |
+| T27 (Ensemble) | 0.09 | 0.13 | 3.42 |
+| T45 (Ensemble) | 0.07 | 1.00 | 2.59 |
+| Ours (Single) | 0.09 | 0.97 | 0.49 |
+
+## Limitations
+
+The framework exhibits score calibration gaps resulting in an elevated actDCF (0.97) due to hypersphere boundary clustering, necessitating post-hoc normalization like Platt scaling. The evaluation relies on MLAAD v9 and ASVspoof 5 partitioning, meaning broader real-world in-the-wild acoustic variability and cross-lingual robustness remain bound by the scope of these datasets. Furthermore, the system assumes access to K=36 clean support samples for registering zero-day generators, which may be unfeasible in extremely data-constrained forensic scenarios.
+
+## Why read this
+
+Researchers and engineers building scalable deepfake detection and attribution systems should read this to learn how to combine self-supervised representations with hierarchical metric learning and zero-shot prototype registration to handle evolving generative architectures.
 
 ## Code
 
@@ -31,11 +66,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech engineers and forensic analysts building automated audio security systems, voice biometric protections, and zero-day deepfake tracing tools.
-
-## Limitations
-
-The system exhibits an elevated actual DCF (actDCF of 0.97) due to a score calibration gap inherent to hyperspherical metric spaces where cosine similarity scores cluster near the unit boundary.
+Open-world synthetic speech detection, forensic speaker attribution, audio deepfake monitoring for automated speaker verification security, and zero-day model auditing.
 
 ## Related
 

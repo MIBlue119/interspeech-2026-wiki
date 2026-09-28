@@ -1,29 +1,64 @@
 ---
 id: koluguri26_interspeech
 category: asr
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-728
 pdf: https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.pdf
 ---
 
 # Preference-ASR: A Preference-Aware Test Set for Benchmarking ASR in the Era of Speech LLMs
 
+*Nithin Rao Koluguri, Sasha Meister, Nikolay Karpov, Piotr Żelasko, Desh Raj, Jagadeesh Balam, Boris Ginsburg*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-728)
 
-**TL;DR** — Preference-ASR is a 3,210-sample English ASR test set paired with a preference-aware normalizer that evaluates speech LLMs on following natural-language style instructions, exposing quality differences and hallucination failure modes invisible to standard WER.
+**TL;DR** — Preference-ASR is a new benchmark and preference-aware normalizer that evaluates speech LLMs on following natural-language instructions for ASR formatting across normalization, entities, disfluencies, and casing. Benchmarking four systems reveals that standard WER masks major instruction-following capabilities and failure modes, such as prompt-driven entity hallucination.
+
+## Key contributions
+
+- Introduces Preference-ASR: a 3,210-sample English test set spanning four preference categories (normalization, entities, disfluencies, case) built from seven open-source corpora.
+- Proposes a two-stage LLM-assisted construction pipeline (using Qwen3-30B) with human verification for accurate instruction and reference generation.
+- Develops a preference-aware normalizer that selectively skips specific normalization/disfluency steps matching active instructions to enable fair WER evaluation.
+- Demonstrates that current SpeechLLMs exhibit distinct failure modes—such as Qwen3-Omni's entity hallucination under biasing prompts and Canary-Qwen's instruction blindness.
 
 ## Problem
 
-Popular ASR benchmarks exhibit inconsistent conventions for numbers, entities, disfluencies, and casing, while standard evaluation normalizers erase the precise format distinctions users care about. Current test sets therefore cannot measure whether modern speech-augmented LLMs actually follow natural-language user instructions for transcription style.
+Traditional ASR benchmarks enforce rigid, undocumented evaluation conventions (like stripping disfluencies or forcing inverse text normalization) and apply blanket post-processing normalizers that erase formatting choices users actually care about. Furthermore, as speech models evolve into Speech-augmented LLMs (SpeechLLMs) capable of following natural-language formatting instructions, existing evaluation metrics cannot measure whether a model correctly obeys user directives. This mismatch causes rankings to reflect dataset annotation quirks rather than genuine system capabilities in handling diverse real-world formatting requirements.
 
 ## Method
 
-The benchmark draws 3,545 verified audio samples from seven open-source corpora and passes them through a two-stage LLM-assisted pipeline (using Qwen3-30B-Instruct) for preference categorization, instruction generation, and reference creation, yielding 3,210 deduplicated triples. It covers four categories: normalization (numbers, symbols, links), entities (company, product, people, location, etc.), disfluencies (fillers, repetitions, false starts), and case. The paper also introduces a preference-aware normalizer that selectively skips specific processing steps (e.g., text normalization, lowercasing) matching the active instruction to prevent penalizing correct formatting behavior.
+Preference-ASR was constructed using 3,545 manually verified base samples drawn from seven open-source corpora (AMI, Common Voice, Earnings-22, GigaSpeech, LibriSpeech, SPGISpeech, VoxPopuli). In Stage 1 of the dataset pipeline, Qwen3-30B-A3B-Instruct classifies each sample into four mutually exclusive preference categories (prioritized as: normalization, entities, disfluencies, case). In Stage 2, the model generates task-specific instructions and reference transcripts (handling directional variations like Text Normalization vs. Inverse Text Normalization, or keep/remove for disfluencies), followed by human verification to yield 3,210 preference-annotated triples.
+
+Evaluation is performed using a custom preference-aware normalizer designed to prevent standard WER pipelines from penalizing correct instruction-following behavior. When evaluating normalization preferences, the normalizer skips its own TN/ITN steps so spoken vs. written forms are compared directly; for disfluencies, it preserves or strips filler words/repetitions based on the directive and normalizes all fillers to 'um'; for case preferences, lowercasing suppression is applied. Entities are evaluated with standard normalization because WER already captures entity accuracy.
+
+Experiments benchmark four distinct architectures: Parakeet-TDT-0.6B-v3 (a non-LLM FastConformer-TDT baseline), Canary-Qwen-2.5B (a FastConformer encoder with a Qwen 2.5 LLM backend via LoRA, trained without preference alignment), Phi-4-Multimodal (5.6B, modality-specific LoRA experts), and Qwen3-Omni-30B (natively multimodal with contextual biasing). Inference was executed on two 48GB NVIDIA A6000 GPUs.
+
+## Experimental setup
+
+Evaluated on the newly released Preference-ASR dataset comprising 3,210 instruction-reference-audio triples derived from 7 open-source corpora (AMI, Common Voice, Earnings-22, GigaSpeech, LibriSpeech, SPGISpeech, VoxPopuli), alongside 335 non-preference baseline samples. Systems compared include Parakeet-TDT-0.6B-v3, Canary-Qwen-2.5B, Phi-4-Multimodal (5.6B), and Qwen3-Omni-30B. Metrics reported include standard Word Error Rate (Std WER) and Preference-Aware Word Error Rate (Pref WER) across default and instructed prompt settings.
 
 ## Results
 
-Evaluated on four models (Parakeet-TDT-0.6B-v3, Canary-Qwen-2.5B, Phi-4-Multimodal at 5.6B, and Qwen3-Omni-30B) using standard vs. preference-aware WER. Qwen3-Omni achieved strong instruction compliance for normalization (5.25% standard WER) and case, but suffered from prompt-driven entity hallucination, where entity WER spiked from 5.12% to 12.85% when prompted with biasing terms absent from audio. Canary-Qwen showed flat responses to instructions overall (5.64% to 5.84%), proving that an LLM backbone without preference alignment is insufficient for instruction following.
+Under standard normalization, Canary-Qwen and Qwen3-Omni achieve nearly identical default WERs (5.64% and 5.66%), but their responses to instructions diverge wildly. Qwen3-Omni's entity WER spikes from 5.12% to 12.85% when instructed, highlighting severe prompt-driven hallucination where it inserts entity names from the prompt even when absent from the audio. Conversely, Canary-Qwen shows total instruction blindness, remaining completely invariant to preference prompts (5.64% default vs. 5.84% instructed overall). Phi-4 exhibits aggressive default disfluency removal (50.18% default WER, dropping to 10.46% when instructed), but its case instructions backfire catastrophically, worsening its case WER from 3.93% to 19.76%.
+
+Using the preference-aware normalizer, underlying formatting discrepancies are exposed: Canary-Qwen's case WER jumps to 10.08% even in default mode, revealing poor native formatting adherence. In normalization, Qwen3-Omni (I) achieves a superior 9.84% Pref WER compared to Canary-Qwen (I) at 11.32% and Parakeet at 11.16%, a performance gap entirely invisible under standard normalization. However, Qwen3-Omni does not win everywhere, failing significantly on entity grounding when acoustic evidence conflicts with textual prompts.
+
+| System | Setting | Norm (Pref) | Entities (Pref) | Disfluency (Pref) | Case (Pref) | Overall (Pref) |
+|---|---|---|---|---|---|---|
+| Parakeet-TDT-0.6B | Default | 11.16 | 4.97 | 10.93 | 9.40 | 8.35 |
+| Canary-Qwen-2.5B | Default / Instructed | 10.56 / 11.32 | 4.78 / 4.90 | 10.49 / 10.63 | 10.08 / 10.04 | 8.16 / 8.36 |
+| Phi-4-Multimodal | Default / Instructed | 10.76 / 11.10 | 5.26 / 5.28 | 49.88 / 10.79 | 5.88 / 27.23 | 15.11 / 12.64 |
+| Qwen3-Omni-30B | Default / Instructed | 10.90 / 9.84 | 4.84 / 12.68 | 10.83 / 9.90 | 10.01 / 9.82 | 8.30 / 10.34 |
+
+## Limitations
+
+The dataset is currently restricted to English audio, lacks multi-speaker preference scenarios, and relies on LLM generation that necessitates intensive manual verification (especially for normalization tasks where text alone cannot resolve ambiguous acoustic contexts). Furthermore, tested SpeechLLMs struggle heavily with conflicting multi-modal contexts, consistently trading off acoustic grounding to satisfy textual prompt constraints during entity biasing.
+
+## Why read this
+
+Speech researchers and engineers building instruction-following speech LLMs should read this paper to understand why standard WER and blanket normalizers fail to evaluate modern formatting capabilities. It provides a concrete blueprint and benchmark dataset for measuring true instruction compliance and exposing critical multi-modal hallucinations.
 
 ## Code
 
@@ -31,11 +66,7 @@ Evaluated on four models (Parakeet-TDT-0.6B-v3, Canary-Qwen-2.5B, Phi-4-Multimod
 
 ## Applications
 
-Speech engineers and developers evaluating speech-augmented LLMs on instruction-following, formatting control, contextual biasing, and rich transcription style requirements.
-
-## Limitations
-
-The benchmark is currently limited to English, omits multi-speaker preference interactions, and its construction pipeline requires substantial manual verification especially for normalization.
+Developing reliable instruction-aware speech transcription pipelines for diverse downstream use cases like database ITN ingestion, broadcast script TN formatting, verbatim pronunciation coaching, and clean meeting summarization.
 
 ## Related
 

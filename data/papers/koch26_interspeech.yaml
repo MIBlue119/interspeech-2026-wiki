@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-2417
 isca_url: https://www.isca-archive.org/interspeech_2026/koch26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/koch26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
-topics: [paralinguistics, evaluation, dataset]
+topics: [paralinguistic, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/Timo-Ko/prosody_in_the_wild
     license: ""
 open_to_collaboration: false

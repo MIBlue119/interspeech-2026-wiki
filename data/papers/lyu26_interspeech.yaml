@@ -12,8 +12,8 @@ doi: 10.21437/Interspeech.2026-995
 isca_url: https://www.isca-archive.org/interspeech_2026/lyu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lyu26_interspeech.pdf
 session: Acoustic Event Detection 1
-topics: [dataset, speech-enhancement, evaluation]
+topics: [speech-enhancement, dataset, self-supervised]
 code:
-    url: ""
+    url: https://github.com/huanxian/TriA
     license: ""
 open_to_collaboration: false

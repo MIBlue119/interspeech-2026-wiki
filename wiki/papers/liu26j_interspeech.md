@@ -1,29 +1,62 @@
 ---
 id: liu26j_interspeech
 category: speech-enhancement
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1259
 pdf: https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.pdf
 ---
 
 # Text-Annotated Noisy Speech as Supervision: A Dual-Learning Framework for Target-Domain Clean-Free Speech Enhancement
 
+*Xin Liu, Shulin He, Xueliang Zhang*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1259)
 
-**TL;DR** — SwitchSE is a clean-free target-domain adaptation framework for speech enhancement that utilizes real noisy-transcript pairs via a switch-conditioned dual-mode learning mechanism to improve target-domain acoustic quality and ASR-friendliness.
+**TL;DR** — SwitchSE is a clean-free domain adaptation framework that uses a switch-conditioned dual-learning mechanism to fine-tune speech enhancement models on real noisy speech with text transcriptions. It achieves substantial target-domain improvements using only 2.9 hours of CHiME-3 data while preserving source-domain performance.
+
+## Key contributions
+
+- Target-domain clean-free adaptation leveraging real noisy-transcript pairs (e.g., CHiME-3) where aligned clean references are missing.
+- A switch-conditioned dual-mode learning mechanism that alternates between enhancement and ASR objectives per batch using a learnable mode embedding.
+- Data-efficient target-domain model updating that improves acoustic quality and WER on real data using only 2.9 hours of training material while keeping VCTK benchmark scores intact.
 
 ## Problem
 
-Deep learning-based speech enhancement models are predominantly trained on synthetic noisy-clean speech pairs, leading to poor generalization in real-world acoustic environments where paired clean references are unavailable. While real noisy data is increasingly accessible via ASR corpora, utilizing it effectively without clean targets remains challenging. Standard fine-tuning strategies often struggle with trade-offs between perceptual enhancement quality and downstream ASR performance.
+Deep learning speech enhancement models are predominantly trained on synthetic noisy-clean pairs, which fail to generalize to real acoustic environments characterized by unmodeled noise, room acoustics, and device variations. Standard target-domain adaptation is bottlenecked by the unavailability of clean target speech in real-world deployments. While self-supervised methods or noise-to-noise setups exist, they either ignore textual supervision or struggle to balance perceptual enhancement with downstream ASR friendliness.
 
 ## Method
 
-The framework utilizes a Gated Convolutional Recurrent Network (GCRN) backbone for complex spectral mapping, extended with a learnable switch embedding prepended to the input spectrogram along the temporal dimension to indicate the operational mode. During training, the model alternates between standard enhancement batches using synthetic clean-noisy pairs (activated with an L1 time-frequency loss) and ASR batches using real noisy-transcript pairs (activated with a frozen ASR model and CTC loss). Only one mode-specific loss is active per batch, scaled with a fixed weighting factor. At inference time, the switch token enables controllable output biasing toward either perceptual quality or ASR-friendliness.
+SwitchSE employs a GCRN enhancement backbone and alternates between two batch types: synthetic enhancement batches (noisy-clean pairs) and target-domain ASR batches (noisy-transcript pairs). A learnable mode indicator embedding zs in R^(1 x F x 2) representing real/imaginary spectral components is prepended along the temporal axis to the input spectrogram, serving as a switch token (s=0 for enhancement, s=1 for ASR). 
+
+For s=0, a multi-domain enhancement loss LEnh is computed using both time-domain and frequency-domain representations of the enhanced waveform against clean references. For s=1, a CTC loss LASR is computed using a frozen pre-trained U2++ acoustic model to guide the enhancement toward recognizer-friendly outputs. A fixed scalar weighting factor alpha = 0.8 scales the loss, though exactly one loss is active per batch due to the alternating data type.
+
+During inference, the switch token enables controllable output biasing, allowing users to toggle between a perceptual quality-oriented mode (SEnh) and an ASR-friendly mode (SASR).
+
+## Experimental setup
+
+The evaluation uses VCTK (99 training speakers, 10 test speakers; online SNR -10 to 10 dB) for synthetic baseline training and preservation testing, combined with CHiME-3 real noisy speech (2.9 hours for training, 1640 validation utterances, 1320 test utterances) for target domain adaptation. The enhancement backbone is a GCRN with a grouped LSTM encoder-decoder (group size 2, hidden size 1024). The ASR guidance model is an English GigaSpeech-trained U2++ from WeNet with the attention decoder omitted. Models are optimized using Adam at 4e-4 with a 10,000-step warmup.
 
 ## Results
 
-Evaluated on synthetic VCTK data and real CHiME-3 data (using 2.9 hours for training), SwitchSE substantially improves real-world target-domain performance. On CHiME-3, the enhancement-oriented mode (SEnh) achieves a P.808 MOS of 3.23 (compared to 2.34 for noisy speech and 2.77 for baseline GCRN), while the ASR-oriented mode (SASR) reduces Word Error Rate (WER) to 20.27% (compared to 63.66% for standard GCRN). On VCTK, the model preserves strong source-domain performance with a WER of 35.53% and PESQ of 1.70. Ablation studies show that increasing the switch token length further biases the model toward lower WER at a slight cost to perceptual MOS.
+On CHiME-3, the baseline GCRN achieves a P.808 MOS of 2.77 and a WER of 63.66, demonstrating poor transfer from synthetic VCTK data. SwitchSE (GCRNpro) improves CHiME-3 P.808 MOS to 3.23 in enhancement mode (SEnh) and lowers WER to 20.27 in ASR mode (SASR). In ablations, increasing the switch embedding length to 4 drives CHiME WER down to 18.09 (rivaling unprocessed noisy speech at 18.38), though at the cost of a slightly reduced P.808 MOS (3.17). On the source VCTK test set, SwitchSE maintains strong performance, with PESQ remaining around 1.70 and WER staying stable near 35.53.
+
+| Methods | Switch | VCTK WER | VCTK PESQ | CHiME WER | CHiME P.808 MOS |
+|---|---|---|---|---|---|
+| Noisy | - | 37.51 | 1.19 | 18.38 | 2.34 |
+| GCRN | - | 36.93 | 1.68 | 63.66 | 2.77 |
+| GCRN_CTC | - | 35.33 | 1.25 | 18.35 | 2.36 |
+| GCRN_pro (SEnh) | SEnh | 35.53 | 1.70 | 23.63 | 3.23 |
+| GCRN_pro (SASR) | SASR | 35.24 | 1.68 | 20.27 | 3.19 |
+
+## Limitations
+
+The evaluation is restricted to a single enhancement backbone (GCRN) and an internal ASR model (U2++) configuration, leaving cross-architecture and cross-ASR generalization unproven. The training data scale for the target domain is limited to 2.9 hours of CHiME-3, and WER evaluations rely primarily on the same ASR model used for training supervision rather than universal external decoders.
+
+## Why read this
+
+Researchers and engineers tackling real-world speech enhancement without clean target labels should read this to learn how to inject ASR supervision into acoustic enhancement models via simple input-level switch embeddings.
 
 ## Code
 
@@ -31,11 +64,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech and ML engineers working on robust speech enhancement, front-ends for robust automatic speech recognition, and domain adaptation for acoustic environments lacking clean target references.
-
-## Limitations
-
-Validation is currently restricted to a single enhancement backbone (GCRN) and an internal ASR model setup, leaving broader architectural testing for future work.
+Robust speech enhancement for robust automatic speech recognition, mobile communications, and hearing aids operating in unobserved real-world acoustic environments.
 
 ## Related
 

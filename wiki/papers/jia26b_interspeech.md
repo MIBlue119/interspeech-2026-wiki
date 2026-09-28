@@ -1,29 +1,61 @@
 ---
 id: jia26b_interspeech
 category: evaluation
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-3176
 pdf: https://www.isca-archive.org/interspeech_2026/jia26b_interspeech.pdf
 ---
 
 # Interpretable Audio Editing Evaluation via Chain-of-Thought Difference-Commonality Reasoning with Multimodal LLMs
 
+*Yuhang Jia, Xu Zhang, Yang Chen, Hui Wang, Enzhi Wang, Yong Qin*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/jia26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jia26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3176)
 
-**TL;DR** — The paper introduces a natural language-based automated evaluation framework built on Qwen2-Audio for audio editing systems, achieving strong alignment with human expert judgments through difference-commonality reasoning and Chain-of-Thought prompting.
+**TL;DR** — This paper introduces a natural language-based automated evaluation framework for audio editing built on Qwen2-Audio, using difference-commonality reasoning and a 7-step Chain-of-Thought prompting strategy to align with human judgments.
+
+## Key contributions
+
+- Proposed two dedicated caption-based fine-tuning tasks (Audio Difference Captioning and Audio Commonality Captioning) to boost multi-audio joint reasoning in Qwen2-Audio.
+- Formulated two composite metrics, Edit_score and Faith_score, derived from captioning correlations that match or exceed traditional MOS predictors in evaluating editing effectiveness.
+- Designed a 7-step Chain-of-Thought prompting strategy paired with instruction-tuning mechanisms (attention-leakage minimization via batch shuffling and reference repetition) for stable, interpretable audio editing evaluation.
+- Curated a high-quality dataset of 30,000 pseudo-paired audio editing samples and a 40-sample instruction tuning set.
 
 ## Problem
 
-Evaluating generative audio editing is challenging because it requires joint perception of paired audio samples alongside textual instructions without ground-truth references, while conventional objective metrics or simple 1-5 scale MOS prediction models fail to provide comprehensive, interpretable feedback on editing effectiveness, acoustic preservation, and overall quality. This makes scalable model selection and reinforcement learning optimization for audio editing difficult.
+Evaluating automated audio editing (such as addition, deletion, replacement, inpainting, or super-resolution based on instructions) is exceptionally difficult because standard text-to-audio metrics require ground-truth references that are unavailable in editing scenarios. Existing systems struggle because they lack joint perception of paired audio samples alongside user text instructions. Furthermore, prior automatic MOS prediction models fail to provide interpretable, fine-grained textual critiques that diagnose both the precision of targeted modifications and the faithful preservation of unedited background regions.
 
 ## Method
 
-The framework builds on Qwen2-Audio-7B-Instruct using LoRA (rank=8, alpha=32) across four RTX 4090 GPUs. It introduces two caption-based fine-tuning tasks—Audio Difference Captioning and Audio Commonality Captioning—trained on 30,000 pseudo-paired audio editing samples. A 7-step Chain-of-Thought (CoT) prompting strategy is designed, incorporating an attention-leakage mitigation process (randomly shuffling ground-truth captions in batches during training) and reference-repetition steps. Additionally, 40 curated samples are used for lightweight instruction tuning to enhance step-by-step reasoning, and two composite metrics (Edit score and Faith score) are derived via sigmoid-transformed combinations of captioning metrics weighted by linear correlation coefficients.
+The framework utilizes Qwen2-Audio-7B-Instruct as the backbone multimodal large language model (MLLM). To bridge its limitation in multi-audio reasoning, the model is fine-tuned on 30,000 paired edited audio samples using two specialized tasks: Audio Difference Captioning (predicting modifications) and Audio Commonality Captioning (predicting preserved regions based on addition, deletion, or replacement rules).
+
+For inference and evaluation, a 7-step Chain-of-Thought (CoT) prompting strategy is enforced. The steps direct the model to: (1) analyze actual difference, (2) analyze actual commonality, (3) restate expected difference, (4) restate expected commonality, (5) compare actual vs expected difference for editing effectiveness, (6) compare actual vs expected commonality for preservation, and (7) synthesize an overall quality assessment. Two composite metrics, Edit_score and Faith_score, are constructed by weighting captioning metrics (e.g., FENSE, CIDEr-d, SPICE) proportional to their linear correlation coefficients with human ratings.
+
+To prevent catastrophic forgetting and trivial copying during training, an attention-leakage mitigation strategy is applied by randomly shuffling ground-truth captions within each batch. Additionally, explicit reference repetition steps are integrated into the prompt to prevent the model from overriding expected targets after generating its own observations.
+
+## Experimental setup
+
+Experiments use the AuditScore dataset comprising 318 test samples evaluated across 23 audio editing systems, alongside a 30,000-sample pseudo-paired fine-tuning set (~80 hours) split 8:1:1. Baselines include AuditEval-ssl (a specialized 1-5 scale MOS predictor), raw Qwen2-Audio, and Qwen2.5-Omni used as an A/B test judge. Training employs four NVIDIA RTX 4090 GPUs, LoRA (rank=8, alpha=32, dropout=0.05), effective batch size of 16, maximum sequence length of 2048, and a learning rate of 1e-4.
 
 ## Results
 
-Evaluated on the AuditScore dataset (covering 23 audio editing systems and 6,300 annotated instances), the proposed Edit score achieves a Linear Correlation Coefficient (LCC) of 0.7652 and Spearman's Rho of 0.7312 for editing effectiveness, outperforming the specialized supervised baseline AuditEval-ssl (0.6196 LCC). For multi-audio captioning fine-tuning, the FENSE score improved from near-zero baseline capability to 0.83 for difference captioning and 0.69 for commonality captioning. Faith score reaches a correlation of 0.5908 with human-rated faithfulness. Ablation studies confirm that removing multi-audio fine-tuning, attention-leakage mitigation, or ground-truth repetition substantially degrades the evaluation performance.
+The fine-tuned model achieved significant captioning improvements, raising the Difference FENSE score from 0.2633 to 0.8370 and Commonality FENSE from 0.2664 to 0.6929 compared to the base Qwen2-Audio model. In correlation tests, the proposed Edit_score achieved a higher Linear Correlation Coefficient (LCC) of 0.7652 for editing effectiveness compared to AuditEval-ssl's 0.6196, closely tracking expert human ratings. However, Faith_score achieved an LCC of 0.3799 for preservation, underperforming relative to AuditEval-ssl (0.8460) because capturing subtle acoustic constraints like prosody and volume remains challenging for MLLMs.
+
+| System / Condition | LCC (Edit.) | SRCC (Edit.) | LCC (Presv.) | SRCC (Presv.) |
+|---|---|---|---|---|
+| AuditEval-ssl | 0.6196 | 0.6472 | 0.8460 | 0.8809 |
+| Edit_score (Ours) | 0.7652 | 0.7312 | 0.3799 | 0.3501 |
+| Faith_score (Ours) | 0.4260 | 0.1532 | 0.5908 | 0.4605 |
+
+## Limitations
+
+The framework relies heavily on semantic text generation metrics and exhibits weaker performance in capturing low-level acoustic consistency (such as micro-prosody, phase artifacts, and fine-grained volume blending) required for the Faith_score. The evaluation scope is bounded by the scale and diversity of the 30k training samples, and the model's heavy reliance on instruction-following means it can struggle if prompt compliance or reference repetition steps are omitted.
+
+## Why read this
+
+Speech and ML researchers focusing on generative evaluation and MLLM-as-a-judge paradigms should read this paper to learn how to structure multi-audio joint reasoning via difference-commonality captioning and chain-of-thought prompting.
 
 ## Code
 
@@ -31,11 +63,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech and machine learning engineers developing generative audio editing models can use this framework for automated benchmarking, model selection, and reinforcement learning-based optimization.
-
-## Limitations
-
-The Faith score is less effective at capturing low-level acoustic consistency (such as subtle variations in prosody, volume, and noise) compared to high-level semantic consistency, representing a current boundary in multimodal LLM perception.
+Automated evaluation, model selection, and reinforcement learning reward modeling for generative audio editing systems.
 
 ## Related
 

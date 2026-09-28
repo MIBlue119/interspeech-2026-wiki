@@ -15,7 +15,7 @@ doi: 10.21437/Interspeech.2026-2021
 isca_url: https://www.isca-archive.org/interspeech_2026/jeon26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jeon26d_interspeech.pdf
 session: Paralinguistics
-topics: [evaluation, paralinguistics, speech-llm]
+topics: [evaluation, self-supervised, paralinguistics]
 code:
     url: https://github.com/jsujeon/ParaPairAudioBench
     license: ""

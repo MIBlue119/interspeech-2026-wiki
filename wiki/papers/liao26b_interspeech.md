@@ -1,29 +1,60 @@
 ---
 id: liao26b_interspeech
-category: prosodic-boundary
-updated: 2026-09-28
+category: prosody
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-209
 pdf: https://www.isca-archive.org/interspeech_2026/liao26b_interspeech.pdf
 ---
 
 # High-Precision Prosodic Boundary Anchors from Acoustic Cues under Weak Supervision
 
+*Hanyu Liao, Xiaoluan Liu*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/liao26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liao26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-209)
 
-**TL;DR** — This paper presents a weakly supervised framework that uses acoustic evidence and positive-unlabeled learning to infer continuous prosodic boundary strength scores without relying on manual annotations.
+**TL;DR** — This paper presents a weakly supervised framework that uses acoustic cues and positive-unlabeled (PU) learning to predict continuous prosodic boundary strengths without requiring manual ToBI labels, achieving a Prec@1% of 0.956 against punctuation proxies on Japanese speech.
+
+## Key contributions
+
+- A weakly supervised approach for identifying high-confidence prosodic boundary anchors from raw acoustic cues without manual label dependencies.
+- A hierarchical anchor design (B1 and B2) that explicitly controls the precision-coverage trade-off using data-driven quantile thresholds.
+- The application of non-negative positive-unlabeled (nnPU) learning to infer graded, continuous prosodic boundary strength scores over all candidate junctures.
+- Comprehensive validation combining anchor statistics, acoustic cue-score consistency analyses, transcript punctuation enrichment, and a blinded perceptual audit (Fleiss' kappa of 0.657).
 
 ## Problem
 
-Traditional prosodic boundary detection relies heavily on labor-intensive manual labeling frameworks like ToBI, which require expert knowledge and are absent in many large speech corpora. Developing automated alternatives is difficult because reliable negative boundaries are ambiguous and context-dependent, making standard supervised training impractical.
+Traditional prosodic boundary detection relies heavily on manual annotations like ToBI labels, which require extensive expert knowledge, are labor-intensive, and are completely absent in most speech corpora. Existing learning-based models typically assume fully labeled datasets or resort to rigid, dataset-specific heuristic rules combining acoustic and linguistic features. Furthermore, defining reliable negative "no-boundary" examples is fundamentally difficult because non-boundary cases are highly ambiguous and context-dependent. This paper addresses this gap by showing how reliable positive anchors can be automatically derived from acoustic evidence to enable principled weak supervision.
 
 ## Method
 
-The authors propose a hierarchical anchor construction pipeline and positive-unlabeled (PU) learning model. First, conservative positive boundaries (B1) are extracted from a Japanese corpus of 164,323 word junctures using a 200 ms pause duration threshold. Second, these anchors are refined using quantile-based thresholds on pitch reset ($|\Delta F_0| \ge Q_{0.85}$) and energy change ($\Delta \text{RMS} \le Q_{0.15}$) under a voicing gate, producing loose ($B2_{base}$) and strict ($B2_{strict}$) positive sets. Finally, a lightweight 1-layer MLP (32 hidden units) is trained via non-negative PU learning with logistic loss using $B2_{base}$ as positives and remaining candidates as unlabeled.
+The framework operates on 164,323 word junctures extracted from a Japanese speech corpus, focusing on a pitch-valid subset of 132,031 instances where robust F0 is available. Stage 1 constructs a conservative positive anchor set (B1) using long pauses where pause duration $P \ge 200\text{ ms}$. Stage 2 refines B1 using data-driven quantile thresholds on pitch reset magnitude ($|\Delta F_0| \ge Q_{0.85}(|\Delta F_0|)$, yielding 5.58 semitones) and optional energy reduction ($\Delta \text{RMS} \le Q_{0.15}(\Delta \text{RMS})$, yielding $-7.71\text{ dB}$), producing a looser positive set ($B2_{base}$, 1,161 items) and a stricter subset ($B2_{strict}$, 250 items). A voicing gate requires at least 15 voiced frames (ratio $\ge 0.5$) in both pre- and post-boundary 0.3-second windows.
+
+The system frames boundary detection as a strength estimation problem using the non-negative PU (nnPU) risk estimator with logistic loss. The classifier is a lightweight 1-layer MLP with 32 hidden units, ReLU activation, and a sigmoid output mapping to a continuous boundary strength score. Input features consist of five standardized cue variables: pause duration ($z_P$), pitch reset times voicing ($z_{F0} \times v$), energy change ($z_{RMS}$), and pre/post voicing ratios. The model is optimized using AdamW (learning rate $10^{-3}$, weight decay $10^{-4}$) for up to 4,000 steps with early stopping (patience 8), treating $B2_{base}$ as the positive set and the remaining candidates as unlabeled, with class prior $\pi = 0.01$.
+
+## Experimental setup
+
+Experiments are conducted on a large-scale Japanese speech corpus derived from the JVS corpus containing studio-quality read speech from 100 native speakers, yielding 164,323 total word junctures. The dataset is split speaker-disjointly into 80% training and 20% development sets. Evaluation metrics include class prior sensitivity ($\pi \in \{0.005, 0.01, 0.02\}$), transcript punctuation proxy enrichment (Precision@1% = 0.956, Prec@5% = 0.926, AUC = 0.740), and a blinded perceptual audit involving 60 high-score and 60 low-score samples judged by three raters.
 
 ## Results
 
-Evaluated on a large-scale Japanese speech corpus derived from JVS (132,031 pitch-valid candidates), the model produces graded boundary strength scores that align with expected acoustic and linguistic patterns. Score distributions exhibit clear monotonic separation across hierarchical strata from unlabeled candidates to $B2_{strict}$. Punctuation proxy analysis shows high boundary enrichment rates (97.2% to 98.9% for anchor sets versus 12.4% for unlabeled), confirming that acoustic features alone successfully recover meaningful prosodic boundaries.
+The nnPU model achieves strong alignment with external proxies, yielding a Prec@1% of 0.956, a Prec@5% of 0.926, and an AUC of 0.740 against transcript punctuation marks. In a blinded perceptual audit, high-confidence $B2_{strict}$ anchors secured a perceived break rate of 0.467 compared to just 0.033 for low-score unlabeled candidates, with substantial inter-rater reliability (Fleiss' $\kappa = 0.657$). Sensitivity analysis over class priors $\pi \in \{0.005, 0.01, 0.02\}$ demonstrates stable ranking capability with Spearman correlations between $\rho \approx 0.89$ and $0.97$.
+
+| System / Condition | Count | Punctuation Rate | Perceived Break Rate |
+|---|---|---|---|
+| Unlabeled (U) / Low-Score | 116,833 | 0.124 | 0.033 |
+| B1 (Pause $\ge 200$ms) | 12,482 | 0.989 | - |
+| B2_base (Voice + $\Delta F_0$) | 898 | 0.972 | - |
+| B2_strict (Voice + $\Delta F_0$ + $\Delta$RMS) | 243 | 0.975 | 0.467 |
+
+## Limitations
+
+The study is currently restricted to read speech in a single language (Japanese), leaving cross-linguistic generalization and spontaneous speech adaptation unverified. The framework relies heavily on reliable automatic word alignments and stable F0 extraction, which can degrade in noisy acoustic environments or dense conversational dialogue. Additionally, the approach currently omits lexical, syntactic, and higher-level semantic contexts that often govern natural prosodic phrasing.
+
+## Why read this
+
+Speech researchers and engineers working on prosody, text-to-speech, or punctuation restoration will find this paper a practical blueprint for bypassing manual ToBI annotation bottlenecks using positive-unlabeled learning.
 
 ## Code
 
@@ -31,11 +62,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech and language engineers building text-to-speech, automatic speech recognition, punctuation restoration, or spoken language understanding systems for languages lacking manual prosodic annotations.
-
-## Limitations
-
-The approach is evaluated on a single read-speech Japanese corpus, and performance depends on robust acoustic feature extraction like pitch tracking and pause segmentation.
+Improving prosodic phrasing in text-to-speech (TTS) synthesis, automatic punctuation restoration, and acoustic modeling for spoken language understanding.
 
 ## Related
 

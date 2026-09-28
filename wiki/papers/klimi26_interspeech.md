@@ -1,29 +1,64 @@
 ---
 id: klimi26_interspeech
 category: asr
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2567
 pdf: https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.pdf
 ---
 
 # Beyond Standard Greek: Adapting Whisper for Greek Dialects through Curriculum Multitask Learning
 
+*Antigoni Klimi, Dimitrios Damianos, Stavros Bompolas, Vivian Stamou, Stella Markantonatou, Vassilis Katsouros, Georgios Paraskevopoulos*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2567)
 
-**TL;DR** — This paper proposes a staged multitask curriculum framework for adapting Whisper to low-resource Greek dialects, consistently outperforming standard fine-tuning across multiple model scales.
+**TL;DR** — This paper proposes a staged multitask curriculum framework for adapting Whisper to low-resource Greek dialects, progressively shifting training from standard-language speech translation to dialect-specific ASR and achieving significant error reductions over standard fine-tuning.
+
+## Key contributions
+
+- A unified four-stage curriculum framework combining domain adaptation (Standard Greek to dialect) and task adaptation (speech translation to ASR).
+- Empirical demonstration of consistent WER and CER improvements across three distinct Greek dialects (Cypriot, Cretan, Messenian) and three Whisper model scales (small, medium, large-v3).
+- Comprehensive ablation studies isolating the critical role of joint translation-ASR multitasking and donor-language pre-alignment data.
+- Release of open-source fine-tuned models and datasets for Greek dialectal speech processing.
 
 ## Problem
 
-Adapting Automatic Speech Recognition systems to regional dialects results in extreme Word Error Rates due to orthographic variations, dialectal distances, and language-contact effects, creating a significant "dialectal tax" compared to standard language models. Standard fine-tuning under low-resource conditions is prone to overfitting and instability because dialects represent distinct acoustic-linguistic domains rather than minor variations. Addressing this requires robust training strategies that handle severe data scarcity while bridging the domain gap.
+Adapting Automatic Speech Recognition (ASR) to regional dialects results in extremely high zero-shot Word Error Rates (>100% for highly divergent varieties) and a persistent "dialectal tax" where error rates double compared to Standard Modern Greek (SMG) due to orthographic variation and language-contact effects. Prior approaches like naive supervised fine-tuning, pseudo-labeling, or standard multi-task learning fail to control the adaptation trajectory under extreme data scarcity, causing optimization instability. This matters because robust speech technology must support non-standard linguistic varieties rather than exclusively high-resource standard languages.
 
 ## Method
 
-The framework integrates donor-language data augmentation, joint speech recognition and translation multitask learning, and a staged curriculum. The curriculum progresses from Stage 0 (donor-language Standard Greek-to-English translation), through Stage 1 (mixed domain using Standard Greek ASR and dialect speech translation), Stage 2 (dialect domain transition shifting toward dialect ASR while retaining translation regularization), to Stage 3 (target domain specialized entirely on dialect ASR). The approach is evaluated using Whisper-small, Whisper-medium, and Whisper-large-v3, with the encoder frozen except for the convolutional feature extractor during training.
+The proposed approach structures adaptation across task space (translation to ASR) and domain space (Standard Greek to dialect) using a sequential four-stage curriculum. Stage 0 (Foundation Warm-up) trains exclusively on Standard Greek-to-English speech translation (GST) using the Greek Podcast Corpus (GPC-5h subset) to establish stable multilingual acoustic-semantic representations. Stage 1 (Mixed Domain) introduces dialectal speech through a mixed-domain sampling strategy where data are drawn with probability alpha from Standard Greek ASR and 1-alpha from Dialect Speech Translation (DST). Stage 2 (Adaptation Specialization) shifts supervision entirely within the dialect domain, sampling Dialect ASR with probability beta and Dialect ST with probability 1-beta to provide regularizing signals. Stage 3 (Target Domain Convergence) specializes exclusively on Dialect ASR data.
+
+Experiments evaluate Whisper-small, Whisper-medium, and Whisper-large-v3 models. The encoder is frozen during fine-tuning while keeping the convolutional feature extractor trainable. Stage-specific learning rates are decayed progressively across stages S0-S3 (e.g., from 5e-5 down to 5e-6 for Whisper-small). Training uses fixed budgets of 8,000 samples per stage for Cypriot and Cretan, and 2,000 samples for the lower-resource Messenian setting. All transcripts are paired with English translations generated by Llama-Krikri-8B-Instruct and manually reviewed to support the speech-to-text translation auxiliary objectives.
+
+## Experimental setup
+
+Evaluated on three Greek dialects: Cypriot Greek (12.9 hours across 1,284 clips from Mozilla Common Voice v23.0), Cretan Greek (1h 21m across 2,589 utterances from archival radio broadcasts), and Messenian Greek (37m across 590 utterances). Baselines include zero-shot Whisper and conventional fine-tuning (FT) with a frozen encoder for a maximum of 2,048 update steps. Metrics reported are Word Error Rate (WER) and Character Error Rate (CER).
 
 ## Results
 
-Evaluated on Cypriot, Cretan, and Messenian Greek dialect corpora using Word Error Rate (WER) and Character Error Rate (CER), the proposed curriculum consistently beats zero-shot and standard fine-tuning baselines across all model sizes. For instance, with Whisper-large-v3, the curriculum reduces Cypriot WER down to 14.56% (compared to 24.89% for standard fine-tuning and 58.33% zero-shot), and Messenian WER to 5.66% (compared to 12.14% for fine-tuning). Ablation studies confirm that both the auxiliary donor-language data and the joint translation-ASR supervision are critical for stable and effective adaptation.
+On Cypriot Greek with the Whisper-small model, the proposed curriculum reduces WER from 81.27% (zero-shot) and 52.38% (fine-tuned) down to 35.61%. For Whisper-large-v3 on Cypriot Greek, WER drops from 58.33% zero-shot and 33.93% fine-tuned to 24.89%. In the extremely low-resource Messenian setting, Whisper-small improves from 67.49% zero-shot to 30.25% with the curriculum.
+
+Ablations on task supervision demonstrate that removing the joint translation task increases WER significantly (e.g., rising from 35.61% to 47.84% for Whisper-small on Cypriot Greek). Ablations on donor language data show that omitting Standard Greek pre-alignment data (GPC) causes performance degradation primarily in lower-resource settings like Messenian.
+
+| Model | Setting | Cypriot WER | Cypriot CER | Cretan WER | Cretan CER | Messenian WER | Messenian CER |
+|---|---|---|---|---|---|---|---|
+| Whisper-small | Zero-Shot | 81.27 | 49.21 | 93.88 | 65.69 | 67.49 | 46.69 |
+| Whisper-small | Fine-Tuned | 52.38 | 32.33 | 51.37 | 18.75 | 41.97 | 19.74 |
+| Whisper-small | Curriculum | 35.61 | 21.09 | 29.51 | 8.53 | 30.25 | 12.94 |
+| Whisper-large-v3 | Zero-Shot | 58.33 | 31.42 | 60.46 | 37.08 | 22.31 | 15.42 |
+| Whisper-large-v3 | Fine-Tuned | 33.93 | 21.15 | 33.93 | 12.14 | 15.31 | 6.87 |
+| Whisper-large-v3 | Curriculum | 24.89 | 15.39 | 17.69 | 5.04 | 14.56 | 5.66 |
+
+## Limitations
+
+The evaluation is restricted to three southern Greek dialects, leaving highly divergent contact-influenced varieties (such as Griko or Cappadocian) and Northern Greek varieties unexplored. The approach requires parallel English translations for the curriculum's speech-translation stages, which may increase annotation overhead for new low-resource languages lacking machine translation or LLM support.
+
+## Why read this
+
+Speech researchers and engineers tackling low-resource dialect adaptation should read this to see how combining task-level translation supervision with domain-progressive curricula stabilizes large encoder-decoder models like Whisper.
 
 ## Code
 
@@ -31,11 +66,7 @@ Evaluated on Cypriot, Cretan, and Messenian Greek dialect corpora using Word Err
 
 ## Applications
 
-Speech engineers and developers building robust automatic speech recognition systems for low-resource regional dialects and under-represented linguistic varieties.
-
-## Limitations
-
-The method is tested exclusively on southern Greek dialect varieties under low-resource data budgets.
+Building robust regional speech recognition systems for low-resource or dialectal languages where standard ASR models suffer from severe domain mismatch.
 
 ## Related
 

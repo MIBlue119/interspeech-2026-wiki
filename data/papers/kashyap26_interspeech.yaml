@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-1654
 isca_url: https://www.isca-archive.org/interspeech_2026/kashyap26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kashyap26_interspeech.pdf
 session: Speech and Language Representation
-topics: [evaluation, paralinguistic, self-supervised]
+topics: [self-supervised, evaluation, speech-llm]
 code:
     url: https://github.com/avrpixel-design/P1
     license: ""

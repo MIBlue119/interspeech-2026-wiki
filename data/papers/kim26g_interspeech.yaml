@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-817
 isca_url: https://www.isca-archive.org/interspeech_2026/kim26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26g_interspeech.pdf
 session: Real-Time, Low-Latency and Edge Speech Enhancement
-topics: [speech-enhancement, streaming, low-resource]
+topics: [speech-enhancement, self-supervised, on-device]
 code:
     url: https://github.com/yskim3271/LaCo-SENet
     license: ""

@@ -1,29 +1,66 @@
 ---
 id: kwak26_interspeech
-category: source-separation
-updated: 2026-09-28
+category: speech-separation
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-706
 pdf: https://www.isca-archive.org/interspeech_2026/kwak26_interspeech.pdf
 ---
 
 # Plug-and-Steer: Decoupling Separation and Selection in Audio-Visual Target Speaker Extraction
 
+*Doyeop Kwak, Suyeon Lee, Joon Son Chung*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/kwak26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kwak26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-706)
 
-**TL;DR** — Plug-and-Steer decouples audio separation and visual target selection in audio-visual target speaker extraction by keeping a high-fidelity audio separation backbone frozen and applying a minimalist linear transformation (Latent Steering Matrix) guided by lip motion to anchor the target speaker.
+**TL;DR** — Plug-and-Steer decouples audio-visual target speaker extraction by freezing a high-fidelity audio-only separation backbone and using a minimalist linear Latent Steering Matrix (LSM) controlled by a visual module to route the target speaker to a designated channel, achieving comparable perceptual quality to studio-trained models without fidelity degradation.
+
+## Key contributions
+
+- Analyzed the latent structural properties of diverse AOSS architectures, demonstrating that speaker identity is permutable via a simple linear transformation at the feature level.
+- Proposed Plug-and-Steer to decouple separation from selection, preserving the high-fidelity acoustic priors of frozen AOSS models trained on clean data.
+- Introduced the Latent Steering Matrix (LSM) as a C x C residual feature-level transformation to re-route latent features across output channels.
+- Demonstrated that internal feature-level steering achieves 99.93% routing accuracy with lower computational overhead (256.82 GFLOPs, RTF 0.147) than post-hoc SyncNet-based selection.
 
 ## Problem
 
-Conventional audio-visual target speaker extraction systems deeply integrate audio and visual features via joint optimization to re-learn the entire separation process. Because large-scale audio-visual datasets are often noisy and reverberant, full-parameter training acts as a fidelity ceiling that underperforms compared to pure audio-only separation models trained on clean studio data. Decoupling high-fidelity separation from target selection preserves pre-trained acoustic priors while eliminating the permutation ambiguity of audio-only systems.
+Conventional audio-visual target speaker extraction (AV-TSE) systems deeply integrate audio and visual features via cross-attention, concatenation, or joint multi-modal fusion to learn separation and target selection simultaneously. However, large-scale audio-visual datasets collected in the wild (such as LRS2 and VoxCeleb2) contain intrinsic noise and reverberation, causing full-parameter training to act as a fidelity ceiling that degrades acoustic output quality compared to studio-trained audio-only speech separation (AOSS) models. Furthermore, audio-only models suffer from permutation ambiguity because they are blind to the target speaker's identity. This work addresses the gap by asking whether forcing visual cues to refine acoustic separation—a task AOSS models already perform proficiently—always yields a net gain, and proposes decoupling the two tasks.
 
 ## Method
 
-The framework utilizes a frozen audio-only speech separation (AOSS) backbone (such as Conv-TasNet, DPRNN, TF-GridNet, or MossFormer2) combined with a minimalist C x C Latent Steering Matrix (LSM) applied residual-style via a binary gate. A lightweight visual steering module—comprising a lip-reading visual encoder, temporal interpolation, a two-block modified Temporal Convolutional Network (TCN), and a sigmoid-activated gate head—processes visual lip embeddings and latent audio features to predict a frame-wise gate value. Training occurs in two frozen-backbone stages: first optimizing the LSM under a forced-swap condition using negative SI-SNR loss, and second training the visual steering module using a combined binary cross-entropy loss for the gate and signal-level SI-SNR loss.
+The methodology treats the pre-trained AOSS backbone as a frozen high-fidelity engine steered by visual cues. Given an intermediate audio feature $f_i \in \mathbb{R}^{C \times T_a}$ from the $i$-th separator block, a residual Latent Steering Matrix $W \in \mathbb{R}^{C \times C}$ is applied via the operation $f_i' = f_i + g \cdot W f_i$, where $g \in \{0, 1\}$ is a binary gate. When $g=1$, $W$ induces a latent speaker swap. The LSM is first trained under a forced-swap condition ($g=1$) using the negative Scale-Invariant Signal-to-Noise Ratio (SI-SNR) loss against permuted reference signals for 10k steps on NVIDIA RTX 4090 GPUs.
+
+To control the gate dynamically based on visual cues, a lightweight visual steering module is learned while keeping the AOSS backbone and LSM frozen. Video frames are processed by a visual lip encoder to produce embeddings $v \in \mathbb{R}^{T_v \times C_v}$, which are temporally interpolated to match $T_a$ and concatenated with $f_i$ along the channel dimension. A modified Temporal Convolutional Network (TCN) consisting of 2 blocks (each with 3 convolutional layers) processes the joint feature, followed by a sigmoid-activated gate head that predicts frame-wise gate values $g_t \in [0, 1]$. For 2D latent spaces (DPRNN, TF-GridNet), channels are projected to a reduced space $C_r = 16$ and non-temporal dimensions are flattened.
+
+The visual steering module is trained for 100k steps (with 1k warmup steps) using a combined loss: $\mathcal{L}_{total} = \mathcal{L}_{BCE} + \lambda \mathcal{L}_{SI-SNR}$, where $\lambda = 0.1$, $\mathcal{L}_{BCE}$ is binary cross-entropy against pseudo-labels derived from backbone permutations, and $\mathcal{L}_{SI-SNR}$ is the negative total SI-SNR between steered outputs and reference signals. During inference, a threshold $\tau = 0.5$ is applied to the averaged gate value.
+
+## Experimental setup
+
+Experiments are conducted on LRS2-2mix, a two-speaker dataset partitioned into 20k training samples (~23 hours), 5k validation, and 3k test samples, created by mixing utterances with random SNRs in [-5, 5] dB. Audio is sampled at 16 kHz in mono (3-second random crops during training), and visual inputs are 25 FPS grayscale sequences center-cropped from 224x224 to 112x112. Baselines include Conv-TasNet (5.1M params), DPRNN (2.6M params), TF-GridNet (14.4M params), and MossFormer2 (55.7M params), alongside established AV-TSE counterparts (AV-ConvTasNet, AV-DPRNN, AV-TFGridNet, AV-MossFormer2). Metrics include SI-SDRi (dB), DNSMOS, and NISQA for perceptual quality. Models are optimized using Adam with a cosine annealing scheduler.
 
 ## Results
 
-Evaluated on the LRS2-2mix benchmark dataset using metrics including SI-SDRi, DNSMOS, and NISQA, the method achieves perceptual quality comparable to original audio-only backbones while outperforming or matching full-parameter AV-TSE baselines. When pre-trained on clean Libri2Mix, the plug-and-steer versions of TF-GridNet and MossFormer2 achieve SI-SDRi scores of 14.79 dB and 15.54 dB, respectively. Layer-wise analysis demonstrates that applying the LSM at the final separator block yields performance preservation rates of 96.22% for Conv-TasNet, 99.67% for DPRNN, 99.91% for TF-GridNet, and 99.43% for MossFormer2.
+When pre-trained on clean Libri2Mix data (~58 hours) and evaluated on LRS2-2mix, applying LSM at the final layer preserves 96.22% performance for Conv-TasNet (6.82 dB SI-SDRi), 99.67% for DPRNN (7.74 dB SI-SDRi), 99.91% for TF-GridNet (14.79 dB SI-SDRi, 2.79 DNSMOS, 4.29 NISQA), and 99.43% for MossFormer2 (12.65 dB SI-SDRi, 2.79 DNSMOS, 3.47 NISQA). In contrast, conventional residual fine-tuning improves SI-SDRi (e.g., 11.72 dB for Conv-TasNet) but harms perceptual metrics like DNSMOS and NISQA due to noisy AV ground-truth supervision.
+
+When integrated with a powerful MossFormer2 backbone pre-trained on a 107-hour high-fidelity corpus (VCTK, LibriTTS, internal TTS), Plug-and-Steer achieves 15.40 dB SI-SDRi with high perceptual quality (2.88 DNSMOS, 3.87 NISQA), whereas conventional fine-tuning boosts SI-SDRi to 17.11 dB but degrades DNSMOS to 2.53 and NISQA to 3.28.
+
+| System | SI-SDRi (dB) | DNSMOS | NISQA |
+|---|---|---|---|
+| Libri2Mix GT (Clean) | - | 3.16 | 3.93 |
+| LRS2-2mix GT (Wild) | - | 2.38 | 3.19 |
+| TF-GridNet (AO Baseline) | 14.81 | 2.80 | 4.32 |
+| TF-GridNet + Residual (Unfrozen) | 13.38 | 2.36 | 3.17 |
+| TF-GridNet + LSM (Ours, Frozen) | 14.79 | 2.79 | 4.29 |
+| AV-TFGridNet (Jointly Trained) | 15.10 | 2.51 | 3.53 |
+
+## Limitations
+
+The framework assumes the pre-trained audio-only backbone is already capable of clean separation, meaning backbone separation quality acts as both a performance floor and ceiling. The evaluation is restricted to 2-speaker mixtures in English using the LRS2-2mix benchmark, leaving multi-speaker (>2) scenarios, diverse acoustic environments, and multilingual generalization unexplored. The visual steering module relies on clean lip motion tracking and resolution alignment, which could degrade under severe visual occlusion or extreme head poses.
+
+## Why read this
+
+Speech and ML researchers working on speech separation or multi-modal extraction should read this paper to learn how to adapt frozen studio-quality audio backbones into target speaker extractors without suffering the perceptual degradation caused by noisy audio-visual training sets.
 
 ## Code
 
@@ -31,11 +68,7 @@ Evaluated on the LRS2-2mix benchmark dataset using metrics including SI-SDRi, DN
 
 ## Applications
 
-Speech engineers and developers building real-world multi-speaker extraction systems, hearing aids, or video conferencing tools where clean target speaker isolation is required from noisy visual-audio recordings.
-
-## Limitations
-
-The current framework is demonstrated primarily on two-speaker mixtures and relies on accurate visual lip motion tracking.
+Real-time audiovisual target speaker extraction for video conferencing, hearing aids, and smart devices operating in noisy cocktail-party environments.
 
 ## Related
 

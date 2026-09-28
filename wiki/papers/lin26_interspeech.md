@@ -1,29 +1,60 @@
 ---
 id: lin26_interspeech
-category: evaluation
-updated: 2026-09-28
+category: self-supervised
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-147
 pdf: https://www.isca-archive.org/interspeech_2026/lin26_interspeech.pdf
 ---
 
 # Progressive Learnable Counterfactual Attention for Music Classification
 
+*Yi-Xing Lin, Wen-Li Wei, Jia-Ching Wang, Jen-Chun Lin*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-147)
 
-**TL;DR** — The paper introduces Progressive Learnable Counterfactual Attention (P-LCA), a multi-stage framework that refines attention via stage-wise representation projections to eliminate residual biases in music classification, improving song-level F1 score on Artist20 to 0.94.
+**TL;DR** — Progressive Learnable Counterfactual Attention (P-LCA) extends counterfactual attention learning into a multi-stage framework using stage-wise representation projection, improving music classification accuracy by systematically uncovering and removing residual latent biases.
+
+## Key contributions
+
+- Proposes P-LCA, a multi-stage extension of Learnable Counterfactual Attention that refines attention via sequential representation projections across multiple latent spaces.
+- Introduces stage-wise representation projection as a perspective-shifting mechanism to make residual, entangled attention biases separable across stages.
+- Inaugurates fixed sinusoidal stage embeddings to provide stage-awareness to attention computations without adding stage-specific attention parameters.
+- Demonstrates consistent gains across three core music tasks: artist identification, musical genre classification, and musical emotion recognition.
 
 ## Problem
 
-Standard attention mechanisms in deep learning models are typically trained under weak supervision using only final classification losses, making them vulnerable to spurious correlations and dataset-specific biases. While single-stage Learnable Counterfactual Attention (LCA) mitigates this by introducing a learnable counterfactual branch, it operates within a single representation space, leaving complex residual biases entangled with the main attention.
+Weakly supervised attention mechanisms in music classification are vulnerable to spurious correlations and background interference because they lack explicit causal guidance. While Counterfactual Attention Learning (CAL) uses random attention interventions and Learnable Counterfactual Attention (LCA) employs a learnable counterfactual branch, both operate within a single representation space. This single-space constraint leaves complex and residual bias patterns entangled with task-relevant cues, limiting further debiasing capability.
 
 ## Method
 
-The proposed P-LCA framework extends single-stage LCA into a K-stage sequential architecture using genreMERT and Short-chunk ResNet backbones. After each counterfactual training stage, the main-branch attention-conditioned features are reprojected into a new latent space via a shared projection module, allowing subsequent stages to examine biases from transformed perspectives. Fixed sinusoidal stage embeddings are injected as contextual conditioning to provide stage awareness without adding extra stage-specific attention parameters. The overall training objective aggregates specialized losses across all K stages, including classification, counterfactual effect, entropy, and discrepancy losses.
+P-LCA builds upon genreMERT (and Short-chunk ResNet architectures) by organizing counterfactual refinement into $K$ sequential stages (found optimal at $K=3$). Each stage computes temporal attention weights over the current stage representation $H^{(k)}$ via a main (factual) attention branch and a counterfactual attention branch, producing predictions $y^{(k)}$ and $	ilde{y}^{(k)}$ respectively. The counterfactual branch explicitly targets plausible bias-related cues to force the main branch away from misleading regions.
+
+Following each stage's counterfactual supervision, the main attention-conditioned feature representation is pushed through a shared stage-wise representation projection module that preserves dimensionality while reshaping the latent feature distribution. This structural projection transforms the perspective under which subsequent stages examine attention biases, making previously inseparable residual biases tractable. Additionally, fixed sinusoidal positional stage embeddings are injected into the attention computation to guarantee stage-awareness while sharing attention parameters. The final objective sums the composite LCA losses (cross-entropy classification, effect loss, counterfactual entropy, attention discrepancy, and main entropy) across all $K$ stages, optimized jointly.
+
+## Experimental setup
+
+Evaluated on three datasets: Artist20 for Singer Identification (SID), GTZAN for Musical Genre Classification (MGC), and EMOPIA for Musical Emotion Recognition (MER). Models are compared against baseline MERT, genreMERT, genreMERT with CAL, capacity-matched LCA with enlarged FC layers, and capacity-ablated P-LCA without representation projection. Trained using the Adam optimizer with a learning rate of $1 \times 10^{-4}$, dropout, up to 300 epochs for Artist20 and GTZAN, and up to 100 epochs for EMOPIA.
 
 ## Results
 
-Evaluated on Artist20 for singer identification, GTZAN for musical genre classification, and EMOPIA for musical emotion recognition. On the Artist20 dataset, P-LCA achieves an average song-level F1 score of 0.91 and a best song-level F1 score of 0.94 with K=3 refinement stages, outperforming single-stage baselines. Ablation studies on refinement depth K demonstrate that performance peaks around K=3 or K=4 stages before plateauing. Attention visualizations confirm that P-LCA successfully focuses the main branch on stable, task-relevant regions while suppressing bias cues.
+On the Artist20 SID task, genreMERT (with P-LCA at $K=3$) achieves an average frame-level F1 of 0.70 and song-level F1 of 0.88 (best 0.94), outperforming standard LCA (0.66 frame / 0.84 song average F1) and capacity-matched LCA (0.66 frame / 0.83 song average F1). On the GTZAN MGC task, P-LCA achieves 0.91 frame-level accuracy and 0.94 song-level accuracy, surpassing LCA's 0.89 and 0.92 respectively. On the EMOPIA MER task using Short-chunk ResNet, P-LCA reaches 0.78 4Q accuracy, 0.92 arousal accuracy, and 0.84 valence accuracy, beating LCA (0.76, 0.92, 0.82). Ablations confirm that removing the stage-wise representation projection drops SID performance back to baseline levels (0.64 frame / 0.82 song), verifying that gains stem from the projection mechanism rather than mere parameter scaling.
+
+| System | SID Frame F1 (Avg) | SID Song F1 (Avg) | MGC Song Acc | MER 4Q Acc |
+|---|---|---|---|---|
+| Baseline (MERT / ResNet) | 0.64 | 0.81 | 0.88 | 0.68 |
+| with CAL | 0.64 | 0.83 | 0.88 | - |
+| with LCA | 0.66 | 0.84 | 0.92 | 0.76 |
+| with P-LCA (Ours) | 0.70 | 0.88 | 0.94 | 0.78 |
+
+## Limitations
+
+The evaluation is restricted to music classification tasks (artist, genre, emotion) and validated primarily on small-to-medium benchmark datasets (Artist20, GTZAN, EMOPIA). The multi-stage sequential projection increases architectural complexity and depth, and performance peaks at $K=3$ with degradation or stagnation observed beyond $K=4$, indicating sensitivity to stage hyperparameters.
+
+## Why read this
+
+Speech and ML researchers working on attention debiasing, causal representation learning, or music information retrieval will find this a compelling blueprint for turning single-step debiasing into an iterative, multi-space refinement process.
 
 ## Code
 
@@ -31,11 +62,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Audio and machine learning engineers building robust music information retrieval systems, including artist identification, genre classification, and musical emotion recognition models.
-
-## Limitations
-
-The text does not explicitly state computational overhead limits or specific operational failure modes.
+Automated music tagging, music recommendation systems, artist identification, and music emotion recognition tools.
 
 ## Related
 

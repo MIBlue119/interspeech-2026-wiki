@@ -17,7 +17,7 @@ doi: 10.21437/Interspeech.2026-88
 isca_url: https://www.isca-archive.org/interspeech_2026/liu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
-topics: [speech-enhancement, dataset, health]
+topics: [speech-llm, paralinguistics, dataset]
 code:
     url: ""
     license: ""

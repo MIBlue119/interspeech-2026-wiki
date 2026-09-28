@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-1409
 isca_url: https://www.isca-archive.org/interspeech_2026/huang26h_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26h_interspeech.pdf
 session: 'Spoken Language Processing: Evaluation and Metrics'
-topics: [asr, evaluation, self-supervised]
+topics: [asr, multilingual, evaluation]
 code:
     url: https://github.com/HartmannPsi/Reliability-Aware-Score
     license: ""

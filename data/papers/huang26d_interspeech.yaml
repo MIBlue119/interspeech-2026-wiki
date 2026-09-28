@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-1243
 isca_url: https://www.isca-archive.org/interspeech_2026/huang26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26d_interspeech.pdf
 session: Turn-taking
-topics: [evaluation, dataset]
+topics: [speech-llm, dataset, evaluation]
 code:
     url: https://github.com/Dawn2745/MCBF
     license: ""

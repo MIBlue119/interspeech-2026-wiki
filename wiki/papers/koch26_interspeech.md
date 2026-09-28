@@ -1,41 +1,65 @@
 ---
 id: koch26_interspeech
-category: paralinguistics
-updated: 2026-09-28
+category: paralinguistic
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2417
 pdf: https://www.isca-archive.org/interspeech_2026/koch26_interspeech.pdf
 ---
 
 # Collecting Prosody in the Wild: A Content-Controlled, Privacy-First Smartphone Protocol and Empirical Evaluation
 
+*Timo K. Koch, Florian Bemmann, Ramona Schoedel, Markus Buehner, Clemens Stachl*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/koch26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koch26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2417)
 
-**TL;DR** — This paper presents a smartphone-based ecological momentary assessment protocol that uses standardized read-aloud sentences to collect privacy-first prosodic data in the wild, instantly deleting raw audio and transmitting only local openSMILE features.
+**TL;DR** — This paper introduces a privacy-first smartphone protocol that standardizes semantic content via read-aloud sentences and extracts prosodic features on-device before immediately deleting raw audio, successfully evaluated on 9,877 in-the-wild recordings from 560 participants. The extracted features achieve strong speaker sex classification (92% balanced accuracy) but weak momentary affect prediction.
+
+## Key contributions
+
+- A field-ready, smartphone-based ecological momentary assessment (EMA) protocol that controls for the prosody-semantics confound using validated valence-balanced read-aloud sentences.
+- A privacy-preserving on-device audio pipeline using openSMILE embedded as an Android native library that deletes raw LPCM audio immediately after feature extraction.
+- An empirical evaluation of participant compliance and data quality using 9,877 real-world voice samples from a quota-matched sample of 560 participants.
+- Diagnostic prediction tasks showing high accuracy for speaker sex classification but weak out-of-sample prediction for momentary valence and arousal.
 
 ## Problem
 
-Real-world speech collection typically suffers from a confound between lexical semantics and prosodic delivery, making it difficult to isolate vocal affect. Furthermore, collecting raw audio in the wild creates severe privacy risks and regulatory hurdles under data protection laws like the GDPR. Solving both problems is critical for conducting large-scale, ecologically valid behavioral and mental health research using mobile devices.
+Everyday speech research using smartphones suffers from two core bottlenecks: the confounding of prosody with lexical semantics and severe privacy restrictions regarding the collection of raw audio under regulations like the GDPR. Prior in-the-wild approaches typically collect unconstrained diary-style speech and store raw recordings, raising legal and ethical barriers while failing to isolate prosodic variations. Resolving this is critical to scaling ecological momentary assessment of speech without compromising participant privacy or muddying acoustic signals with semantic noise.
 
 ## Method
 
-The protocol was integrated into an Android EMA application and deployed in a panel study where participants read three valence-controlled sentences (positive, neutral, negative) drawn randomly from a set of 54 validated German sentences. Audio was captured uncompressed at 16-bit depth and 44.1 kHz via smartphone microphones. An on-device openSMILE Android native executable extracted the 88-feature eGeMAPS set and the 6,373-feature ComParE 2016 set locally. Raw audio files and local CSV outputs were deleted immediately after extraction, and feature vectors were securely synced to a server via SSL encryption.
+The protocol was integrated into the PhoneStudy Android app as part of an ecological momentary assessment (EMA) procedure prompting participants up to four times daily. Participants read three sentences aloud per recording session, drawn from a set of 54 validated German sentences split evenly across positive, negative, and neutral lexical valence conditions. Recording durations were bounded between 4 and 12 seconds, utilizing linear pulse-code modulation (LPCM) at 16-bit depth and 44.1 kHz. Immediately following recording, an Android ARM executable of the openSMILE algorithm extracted 88 eGeMAPS features and 6,373 ComParE 2016 features locally on the device. Once features were saved to a local CSV, the raw WAV file and CSV were wiped from local storage, and feature vectors were securely synced via SSL and a three-way handshake when Wi-Fi and idle states were detected.
+
+Data filtering relied on openSMILE-derived descriptors: clips with a mean voicing probability below 0.5, zero voiced segments per second, or non-positive harmonic-to-noise ratio (HNR <= 0 dB) were dropped, leaving 9,877 valid samples. Downstream evaluation utilized random forest classifiers (1000 trees) for speaker sex prediction and random forest regressors for momentary valence and arousal, evaluated via participant-blocked ten-fold cross-validation to prevent data leakage across folds.
+
+## Experimental setup
+
+The dataset comprised 9,877 recordings from 3,513 EMA instances across 560 participants (46% female, mean age 41.80 years) gathered over two two-week phases in Germany. Baselines included comparisons across positive, neutral, and negative sentence-valence conditions using linear mixed-effects models and random forest predictive models on eGeMAPS versus ComParE feature sets. Metrics evaluated include participant compliance rates, intraclass correlation (ICC_p) for speaker-level stability, Benjamini-Hochberg FDR-corrected p-values, balanced accuracy for sex classification, and median Spearman correlation (rho_md) along with mean absolute error (MAE) for affect prediction.
 
 ## Results
 
-Evaluated on a quota-matched sample of 560 participants yielding 9,877 retained recordings, the protocol showed strong participant compliance with a 67.8% initiation rate and a 96.9% completion rate once started. Feature-based filtering removed 232 non-speech clips and 1,108 clips with non-positive harmonic-to-noise ratios. Linear mixed-effects models revealed high speaker-level stability with intraclass correlations ranging from 0.325 to 0.693 across prosodic metrics, alongside minor condition-specific shifts in HNR, voicing rate, and loudness. Downstream random forest classifiers trained on the extracted features predicted self-reported speaker sex with a balanced accuracy of 91.77% using eGeMAPS.
+Participant compliance showed that prompts were initiated in 67.8% of cases, and once initiated, all three valence recordings were completed 96.9% of the time. Condition effects on prosodic metrics were modest: F0 range variability showed no reliable difference across valence conditions (p >= 0.348), whereas HNR and voiced segments per second shifted slightly (|beta| ≈ 0.06–0.13 SD, p < 0.001) and mean loudness decreased marginally in emotional prompts (beta = -0.036 and -0.034 SD, p < 0.05). Speaker-level stability (ICC_p) was substantial, accounting for 32.5% to 69.3% of variance across metrics.
 
-## Code
+For downstream prediction, speaker sex classification performed exceptionally well using both eGeMAPS (balanced accuracy_md = 91.77%) and ComParE (92.04%). However, prediction of momentary affective states was weak: arousal achieved rho_md = 0.12 (eGeMAPS) and 0.13 (ComParE), while valence yielded near-zero predictive validity (rho_md = 0.02 to 0.03), with no significant differences across sentence-valence conditions.
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
-
-## Applications
-
-Behavioral scientists, psychologists, and speech researchers deploying large-scale ecological momentary assessment studies on smartphones to analyze naturalistic prosody without violating user privacy.
+| System / Feature Set | Target Task | Metric | Performance | | :--- | :--- | :--- | :--- | | eGeMAPS | Speaker Sex Classification | Balanced Accuracy (Median) | 91.77% | | ComParE 2016 | Speaker Sex Classification | Balanced Accuracy (Median) | 92.04% | | eGeMAPS | Momentary Arousal | Spearman Correlation (Median) | 0.12 | | ComParE 2016 | Momentary Arousal | Spearman Correlation (Median) | 0.13 | | eGeMAPS | Momentary Valence | Spearman Correlation (Median) | 0.02 |
 
 ## Limitations
 
-The protocol relies on scripted read-aloud material rather than spontaneous speech, constraining linguistic content and potentially missing completely unconstrained prosodic expressions.
+The protocol cannot guarantee verbatim compliance with read-aloud text because raw audio is deleted immediately, meaning occasional paraphrasing or disfluencies cannot be caught post-hoc. The reliance on engineered acoustic features (eGeMAPS/ComParE) limits representational capacity compared to modern self-supervised audio embeddings. Furthermore, naturalistic variations in device placement, microphone characteristics, and background noise create acoustic noise that dilutes affective signal.
+
+## Why read this
+
+Researchers building smartphone-based speech collection apps or studying everyday prosody will find this paper essential for its blueprint on balancing ecological validity with GDPR-compliant data minimization. It provides realistic empirical baselines proving that while on-device extraction is viable for speaker profiling, predicting fine-grained momentary affect from prosody alone in the wild remains extremely challenging.
+
+## Code
+
+- https://github.com/Timo-Ko/prosody_in_the_wild
+
+## Applications
+
+Privacy-preserving ecological momentary assessment of vocal biomarkers, large-scale remote mental health monitoring, and longitudinal field studies of speaker traits.
 
 ## Related
 

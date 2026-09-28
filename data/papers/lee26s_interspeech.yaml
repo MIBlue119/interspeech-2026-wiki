@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1975
 isca_url: https://www.isca-archive.org/interspeech_2026/lee26s_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26s_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
-topics: [speech-enhancement, self-supervised, evaluation]
+topics: [speech-enhancement, self-supervised, on-device]
 code:
     url: ""
     license: ""

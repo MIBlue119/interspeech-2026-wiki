@@ -18,7 +18,7 @@ doi: 10.21437/Interspeech.2026-695
 isca_url: https://www.isca-archive.org/interspeech_2026/li26k_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26k_interspeech.pdf
 session: Multilingual Speech 2
-topics: [speech-translation, multilingual, speech-llm]
+topics: [speech-translation, multilingual, self-supervised]
 code:
     url: https://github.com/Sslnon/POTSA
     license: ""

@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-248
 isca_url: https://www.isca-archive.org/interspeech_2026/im26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/im26_interspeech.pdf
 session: Streaming Speech Synthesis
-topics: [tgen, self-supervised, multimodal]
+topics: [speech-llm, self-supervised, dataset]
 code:
     url: https://jakeoneijk.github.io/pfd2m_project
     license: ""

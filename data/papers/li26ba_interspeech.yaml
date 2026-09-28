@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1823
 isca_url: https://www.isca-archive.org/interspeech_2026/li26ba_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26ba_interspeech.pdf
 session: Audio Foundation Models and Generation
-topics: [audio-captioning, evaluation]
+topics: [tts, self-supervised, dataset]
 code:
     url: https://github.com/xiquan-li/Resonate
     license: ""

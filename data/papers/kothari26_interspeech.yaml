@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-3330
 isca_url: https://www.isca-archive.org/interspeech_2026/kothari26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kothari26_interspeech.pdf
 session: Multilingual Speech 2
-topics: [speech-enhancement, multilingual, self-supervised]
+topics: [tts, multilingual, self-supervised]
 code:
     url: https://github.com/UnitBigVGAN
     license: ""

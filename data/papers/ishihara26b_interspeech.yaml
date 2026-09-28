@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-1028
 isca_url: https://www.isca-archive.org/interspeech_2026/ishihara26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ishihara26b_interspeech.pdf
 session: Speaker-Specific, Forensic and Segmental Characteristics of Typical and Atypical Speech
-topics: [speaker-verification, evaluation, dataset]
+topics: [speaker-verification, forensic-voice-comparison, evaluation]
 code:
     url: ""
     license: ""

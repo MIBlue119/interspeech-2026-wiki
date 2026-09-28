@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1338
 isca_url: https://www.isca-archive.org/interspeech_2026/lin26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lin26d_interspeech.pdf
 session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
-topics: [speech-enhancement, self-supervised, evaluation]
+topics: [speech-coding, self-supervised, low-resource]
 code:
     url: https://thuhcsi.github.io/interspeech2026-BridgeCodec/
     license: ""

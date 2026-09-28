@@ -1,29 +1,61 @@
 ---
 id: jasinski26_interspeech
 category: asr
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-338
 pdf: https://www.isca-archive.org/interspeech_2026/jasinski26_interspeech.pdf
 ---
 
 # From Text Metrics to Model Internals: A Study of Whisper ASR Hallucination Detection
 
+*Jan Jasiński, Mateusz Barański, Julitta Bartolewska, Marcin Witkowski, Konrad Kowalczyk*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/jasinski26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jasinski26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-338)
 
-**TL;DR** — This paper evaluates and improves ASR hallucination detection paradigms for Whisper large v3 using human-annotated real speech, demonstrating that a late-fusion meta-classifier combining text features and decoder internal states achieves the strongest detection performance.
+**TL;DR** — This paper evaluates automatic speech recognition (ASR) hallucination detection across text-based, LLM-based, and decoder internal-state probing paradigms using Whisper large v3. It demonstrates that probing intermediate decoder states yields strong reference-free detection (F1 62.1%), which can be further boosted to an F1 of 68.3% via a late-fusion meta-classifier combining text and internal signals.
+
+## Key contributions
+
+- Comprehensive evaluation of oracle vs. reference-free text features, showing tree-based ensembles (XGBoost) heavily outperform linear baselines but collapse without a ground-truth reference.
+- Demonstration that out-of-the-box LLMs struggle with detection, and while prompt engineering with domain-specific pathology data improves precision, they remain outperformed by lightweight text models.
+- Discovery that probing intermediate layers of the Whisper decoder (specifically layers 14-24 using sequence mean-pooling or BLSTM) provides strong reference-free hallucination detection without requiring ground-truth text.
+- A lightweight late-fusion Logistic Regression meta-classifier combining text and internal-state probabilities that achieves a state-of-the-art F1 score of 68.3% and ROC AUC of 90.0%.
 
 ## Problem
 
-Automatic Speech Recognition (ASR) models trained via weak supervision frequently hallucinate fluent, highly plausible text that has no acoustic grounding, posing critical safety and reliability risks for downstream NLP applications. Existing detection methods rely heavily on oracle text metrics requiring ground-truth reference transcripts, non-speech synthetic data, or unverified zero-shot LLM prompts. This leaves a gap in robust, reference-free hallucination detection for spontaneous, real-world speech.
+Large-scale ASR models trained on weakly supervised data frequently generate fluent transcriptions that lack any phonetic connection to the audio input, posing severe safety and cascading error risks for downstream NLP applications. Existing detection approaches rely either on oracle text metrics (WER, CER, BERTScore) requiring ground-truth transcripts, or zero-shot heuristics and generic LLMs that fail to robustly separate hallucinations from standard acoustic mishearings. The lack of reliable reference-free detection limits the deployment of safeguards in streaming or real-world speech processing applications.
 
 ## Method
 
-The study investigates three detection paradigms on the Whisper large v3 model using the human-annotated HALAS dataset: (1) text-based classifiers (Logistic Regression, Random Forest, XGBoost) trained on oracle and reference-free features selected via Recursive Feature Elimination; (2) LLM-based zero-shot detectors (GPT-4o-mini, Gemini 2.0/3.0 Flash) enhanced with domain-specific pathology prompts and few-shot examples; and (3) decoder internal state probing using linear probes and BLSTM classifiers across self-attention, cross-attention, and MLP representations in intermediate layers. A late-fusion meta-classifier is subsequently introduced to combine text and internal-state outputs.
+The study investigates three detection paths: text metrics, LLMs, and decoder internal probes. Text features are split into oracle (BERT, CER, IER, WER, SeMaScore, Length Ratio, Common Hallucinated Phrase) and reference-free (Characters Per Second, Perplexity, wav2vec Alignment confidence, 5-gram repetition rate), fed into Logistic Regression, Random Forest, and XGBoost classifiers optimized via Recursive Feature Elimination. LLM detection tests GPT-4o-mini, Gemini 2.0 Flash, and Gemini 3.0 Flash with iterative prompt enhancements including Whisper-specific error taxonomies and few-shot examples.
+
+For internal state probing, hidden representations from Whisper's decoder (858 hallucinated vs 2753 non-hallucinated utterances from the HALAS dataset based on Whisper large v3) are extracted at three block levels: Self-Attention (SA), Cross-Attention (CA), and Multi-Layer Perceptron output (D). A Bidirectional LSTM (BLSTM) processes the entire token-by-token decoding sequence embeddings across layers (optimized via 5-fold CV). Finally, a late-fusion Logistic Regression meta-classifier combines XGBoost text probabilities, BLSTM internal probabilities, and audio duration to produce the final decision.
+
+## Experimental setup
+
+Evaluated on the HALAS dataset using predictions from Whisper large v3 on Earnings-22 audio data (total 3,611 predictions, with 858 marked as hallucinations). Evaluated using ROC AUC, Accuracy, Precision, Recall, and F1 score via 5-fold stratified cross-validation.
 
 ## Results
 
-Evaluated on the HALAS dataset (containing 858 hallucinations out of 3611 predictions for Whisper large v3) using 5-fold cross-validation and ROC AUC/F1 metrics. XGBoost on text features achieves an F1 score of 62.8% (Recall: 74.1%) in the oracle setting, but collapses to an F1 score of 37.7% without reference texts. Domain-specific prompt engineering improves Flash 3.0 LLM performance up to an F1 of 58.7%, but still underperforms lightweight text classifiers while incurring high latency. Probing Whisper's decoder layers reveals that mean-pooled sequence deltas reach an ROC AUC of 82% at layer 15, and a late-fusion meta-classifier combining text and internal states yields the best overall detection results.
+The XGBoost text classifier using all features achieves an F1 of 62.8% and Recall of 74.1%, but its reference-free variant collapses to an F1 of 37.7%. Prompt-engineered LLMs peak at an F1 of 58.7% with high computational overhead. In contrast, the BLSTM classifier operating on Whisper decoder internal states achieves an F1 of 65.5% and an AUC of 87.6% entirely reference-free (notably optimal around layers 21-24 for MLP output). Combining text and internal states via the late-fusion Logistic Regression meta-classifier yields the headline F1 of 68.3% and ROC AUC of 90.0%.
+
+| System / Condition | Acc [%] | Prec [%] | Rec [%] | F1 [%] | AUC [%] |
+|---|---|---|---|---|---|
+| XGBoost (All Text Features) | - | - | 74.1 | 62.8 | 87.8 |
+| XGBoost (Reference-Free Text) | - | - | - | 37.7 | - |
+| LLM (Gemini 3.0 + Pathology Prompt) | 88.4 | - | - | 58.7 | - |
+| BLSTM (Decoder Internal States, D) | 83.7 | 67.9 | 64.8 | 66.1 | 87.0 |
+| LR Meta-Classifier (Late Fusion) | 90.7 | 71.0 | 65.7 | 68.3 | 90.0 |
+
+## Limitations
+
+The study focuses exclusively on a single model architecture (Whisper large v3) and a single dataset (HALAS derived from Earnings-22), leaving cross-model generalization untested. The late-fusion meta-classifier and oracle text methods forfeit reference-free usability, while internal probing requires low-level model access that commercial black-box APIs do not expose.
+
+## Why read this
+
+Researchers and engineers building safety filters for deployment of speech foundation models will learn how to bypass the reliance on ground-truth transcripts by probing intermediate decoder representations.
 
 ## Code
 
@@ -31,11 +63,7 @@ Evaluated on the HALAS dataset (containing 858 hallucinations out of 3611 predic
 
 ## Applications
 
-Speech engineers and developers building production ASR deployment pipelines or downstream conversational AI frontends can use these reference-free internal state probes to safely filter out fabricated or untrustworthy transcriptions.
-
-## Limitations
-
-The detectors are evaluated specifically on Whisper large v3 utterances and utterance-level span annotations from a single benchmark dataset (HALAS).
+Real-time speech-to-text safety filtering, ASR error mitigation, and hallucination detection for downstream conversational agents.
 
 ## Related
 

@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2437
 isca_url: https://www.isca-archive.org/interspeech_2026/li26fa_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26fa_interspeech.pdf
 session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
-topics: [speaker-verification, self-supervised, multilingual]
+topics: [speaker-verification, multilingual, self-supervised]
 code:
     url: https://github.com/ZXHY-82/LI-MSV-TidyVoice2026
     license: ""

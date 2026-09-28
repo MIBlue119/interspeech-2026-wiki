@@ -7,7 +7,7 @@ doi: 10.21437/Interspeech.2026-207
 isca_url: https://www.isca-archive.org/interspeech_2026/kim26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26b_interspeech.pdf
 session: Speaker-Specific, Forensic and Segmental Characteristics of Typical and Atypical Speech
-topics: [phonetics, evaluation, dataset]
+topics: [phonetics, prosody, dataset]
 code:
     url: ""
     license: ""

@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-2313
 isca_url: https://www.isca-archive.org/interspeech_2026/koudounas26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/koudounas26_interspeech.pdf
 session: Pathological Speech Assessment 3
-topics: [speech-enhancement, self-supervised, dataset]
+topics: [speech-enhancement, self-supervised, health]
 code:
     url: https://github.com/koudounasalkis/Pathology-F5TTS
     license: ""

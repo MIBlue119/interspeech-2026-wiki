@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-2445
 isca_url: https://www.isca-archive.org/interspeech_2026/kheir26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kheir26b_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
-topics: [asr, dataset, evaluation]
+topics: [low-resource, multilingual, self-supervised]
 code:
     url: ""
     license: ""

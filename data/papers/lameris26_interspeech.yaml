@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-736
 isca_url: https://www.isca-archive.org/interspeech_2026/lameris26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lameris26_interspeech.pdf
 session: 'Audio & Speech Language Models: Evaluation, Representations, and Emerging Capabilities'
-topics: [paralinguistics, speech-llm, evaluation]
+topics: [speech-llm, paralinguistics, emotion-recognition]
 code:
     url: https://shreeharsha-bs.github.io/Lost-in-phonation/
     license: ""

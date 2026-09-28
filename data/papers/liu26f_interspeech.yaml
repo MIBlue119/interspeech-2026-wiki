@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-731
 isca_url: https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.pdf
 session: Acoustic Event Detection 2
-topics: [sound-enhancement, evaluation, self-supervised]
+topics: [speech-llm, self-supervised, multilingual]
 code:
     url: ""
     license: ""

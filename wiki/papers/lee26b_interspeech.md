@@ -1,29 +1,61 @@
 ---
 id: lee26b_interspeech
-category: dataset
-updated: 2026-09-28
+category: speech-llm
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-140
 pdf: https://www.isca-archive.org/interspeech_2026/lee26b_interspeech.pdf
 ---
 
 # An Approach to Simultaneous Acquisition of Real-Time MRI Video, EEG, and Surface EMG for Articulatory, Brain, and Muscle Activity During Speech Production
 
+*Jihwan Lee, Parsa Razmara, Kevin Huang, Sean Foley, Aditya Kommineni, Haley Hsu, Woojae Jeong, Prakash Kumar, Xuan Shi, Yoonjeong Lee, Tiantian Feng, Takfarinas Medani, Ye Tian, Sudarsana Reddy Kadiri, Krishna Nayak, Dani Byrd, Louis Goldstein, Richard M. Leahy, Shrikanth Narayanan*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-140)
 
-**TL;DR** — This paper demonstrates the first simultaneous acquisition of real-time MRI video, EEG, and surface EMG during speech production, overcoming electromagnetic and myogenic artifacts via a multi-stage denoising pipeline.
+**TL;DR** — This paper presents the first simultaneous acquisition framework for real-time MRI, EEG, and surface EMG during speech production, capturing the full speech chain from neural planning to physical articulation. A multi-stage artifact suppression pipeline successfully mitigates MRI gradient switching, cardiac, and myogenic artifacts, achieving an average temporal ERP correlation of 0.66 between inside- and outside-scanner conditions.
+
+## Key contributions
+
+- First simultaneous recording of real-time magnetic resonance imaging (rtMRI), electroencephalography (EEG), and surface electromyography (EMG) during speech production tasks.
+- A multi-stage artifact correction pipeline combining sliding-window template subtraction for gradient and BCG artifacts with reference-based canonical correlation analysis (CCA) for myogenic/ocular artifacts.
+- Demonstration of negligible impact from MRI-compatible EEG/EMG equipment on rtMRI image quality (tongue region SNR of 10.15 dB).
+- Observation and documentation of involuntary micro-articulatory movements (e.g., velum motion) during imagined speech tasks via synchronized rtMRI.
 
 ## Problem
 
-While acoustic speech output is easily accessible, it is only the end product of a complex causal chain spanning neural planning, motor control, muscle activation, and articulatory kinematics. Prior studies have combined subsets of these modalities, but capturing brain activity, muscle movements, and vocal tract dynamics simultaneously has been impeded by severe technical challenges like MRI-induced electromagnetic interference, cardiac pulse artifacts, and myogenic contamination. Solving these issues is critical to obtaining a complete empirical picture of speech neurophysiology and advancing brain-computer interfaces.
+Understanding speech production requires tracking the causal cascade from neural planning down to motor execution and articulatory movement, but prior work has only acquired subsets of these modalities (e.g., EEG-EMA or EMG-EMA). Concurrently recording EEG, EMG, and rtMRI introduces severe technical hurdles including MRI-induced electromagnetic gradient switching artifacts, cardiac-driven ballistocardiogram (BCG) interference, and heavy speech-induced myogenic contamination. Overcoming these artifacts is critical for advancing brain-computer interfaces (BCIs) and physiological speech models that rely on clean biosignals.
 
 ## Method
 
-The authors utilize a 0.55T MRI scanner equipped with a custom 8-channel upper airway coil running a spiral bSSFP sequence at 99 fps (TR = 5.05 ms) alongside an MR-compatible BrainVision electrophysiology system sampling at 5 kHz via fiber-optic trigger synchronization. The setup records 16 electrodes (9 EEG, 2 EOG, 3 EMG, 1 ECG). To mitigate signal contamination, the authors deploy a multi-stage denoising pipeline: template-based average artifact subtraction for gradient switching artifacts, an ECG-informed average artifact subtraction for ballistocardiogram pulse artifacts, and reference-based canonical correlation analysis (CCA) utilizing EMG and EOG channels to remove residual myogenic and ocular artifacts by projecting out components with canonical correlation rho > 0.4.
+Data is acquired inside a 0.55T MRI scanner using a custom 8-channel upper airway coil with a spiral bSSFP sequence (TR = 5.05 ms, 99 fps). Electrophysiology is captured using an MR-compatible BrainVision system with 16 electrodes (9 EEG channels: C3, C4, F3, F4, FPz, O1, O2, M1, M2; 2 EOG; 3 EMG on the chin corner, underneath the chin, and near Adam's apple; 1 ECG) sampled at 5 kHz and synchronized via fiber-optic trigger.
+
+The denoising pipeline operates in stages. First, gradient artifacts (GA) are suppressed using average artifact subtraction based on sliding-window averaging of detected periodic voltage transients. Second, ballistocardiogram (BCG) pulse artifacts are mitigated using an ECG-informed average artifact subtraction approach driven by R-peak detection from the low-pass filtered ECG channel (15 Hz cut-off).
+
+Finally, residual myogenic and ocular artifacts are removed via reference-based canonical correlation analysis (CCA) jointly decomposing the 9 EEG channels and 5 reference channels (3 EMG, 2 EOG). Components with a canonical correlation exceeding a threshold of rho > 0.4 are projected out and removed (typically 2 to 5 components per recording), uncovering underlying left-lateralized cortical speech processing topographies.
+
+## Experimental setup
+
+Pilot data from a single male American English native speaker in his thirties performing fully phonated, silent, and imagined speech tasks across 18 disyllabic VCV nonce words (e.g., apa, ata, aka) repeated 12 times per condition. Systems compared include inside-scanner uncorrected, inside-scanner denoised, and outside-scanner reference recordings. Evaluation metrics include signal-to-noise ratio (SNR) for rtMRI tongue regions, temporal correlation of event-related potentials (ERPs), frequency magnitude spectra, and scalp topographies.
 
 ## Results
 
-Evaluating data from a pilot experiment involving a native American English speaker across phonated, silent, and imagined speech tasks, the authors demonstrate successful temporal alignment with an average duration difference of 8.3 ms/s between MRI video and EEG triggers. Region of interest analysis on the tongue confirms that the EEG/EMG setup causes negligible interference, yielding a high rtMRI SNR of 10.148. Magnetic artifact correction effectively eliminates high-frequency harmonic spectral peaks in EEG, resulting in an average temporal ERP correlation of 0.66 between inside-scanner denoised and outside-scanner reference conditions, with frontal pole and language channels (FPz, C3, F3) reaching correlations between 0.78 and 0.82.
+The rtMRI tongue region achieves an SNR of 10.15 ± 0.58 dB with the EEG/EMG cap attached, showing no significant degradation compared to uninstrumented scans. After magnetic artifact correction, the high-frequency harmonic peaks inside the scanner are successfully suppressed, matching the frequency magnitude spectra of outside-scanner reference recordings. Pre-articulation ERP windows exhibit an average temporal correlation of 0.66 (sigma = 0.17) between inside- and outside-scanner conditions, with frontal pole and language-production channels (FPz, C3, F3) reaching correlations of 0.82, 0.81, and 0.78, respectively. Application of the CCA pipeline reduces peak trial amplitudes from roughly 60 uV down to 20 uV, mitigating broad frontal myogenic contamination and revealing expected left-lateralized cortical activity.
+
+| Condition / Pipeline Stage | Tongue rtMRI SNR (dB) | Pre-Articulation ERP Correlation | Peak EEG Amplitude (uV) |
+|---|---|---|---|
+| Uncorrected Inside Scanner | 10.15 | N/A (Harmonic Contamination) | ~60+ |
+| Denoised Inside Scanner | 10.15 | 0.66 (vs Outside) | ~20 |
+| Outside Scanner Reference | N/A | 1.0 (Baseline) | ~20 |
+
+## Limitations
+
+The study is restricted to a single-subject pilot dataset, limiting generalizability across diverse speakers and accents. The setup uses passive MR-compatible EEG electrodes which exhibit higher noise floors than active alternatives, and a non-speech-optimized electrode cap layout with limited spatial resolution. Furthermore, scanner acoustic noise and visual stimuli introduce confounding sensory processing components into the recorded neural signals.
+
+## Why read this
+
+Speech and BCI researchers tackling multimodal biosignal integration, artifact suppression, and silent speech decoding will find this a foundational blueprint for combining high-speed rtMRI with dense electrophysiology inside an operating MRI scanner.
 
 ## Code
 
@@ -31,11 +63,7 @@ Evaluating data from a pilot experiment involving a native American English spea
 
 ## Applications
 
-Speech scientists, neuroscientists, and BCI engineers studying the neurophysiological substrates of spoken language and building advanced silent speech or brain-to-speech decoders.
-
-## Limitations
-
-The current evaluation is restricted to a pilot study featuring a single participant performing a limited vocabulary of disyllabic VCV nonce words.
+Development of robust silent/imagined speech brain-computer interfaces (BCIs), neuromuscular speech decoders, and physiological investigations of speech motor control and speech disorders like stuttering or apraxia.
 
 ## Related
 

@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-2713
 isca_url: https://www.isca-archive.org/interspeech_2026/lentz26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lentz26_interspeech.pdf
 session: Acoustic Signal Analysis and Generation
-topics: [speech-enhancement, evaluation, dataset]
+topics: [source-separation, speech-enhancement, evaluation]
 code:
-    url: ""
+    url: https://www.ika.ruhr-uni-bochum.de/ika/demos/beatgain
     license: ""
 open_to_collaboration: false

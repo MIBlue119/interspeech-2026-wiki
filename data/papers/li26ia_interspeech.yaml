@@ -22,7 +22,7 @@ doi: 10.21437/Interspeech.2026-3080
 isca_url: https://www.isca-archive.org/interspeech_2026/li26ia_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26ia_interspeech.pdf
 session: Pathological Speech Assessment 2
-topics: [health, paralinguistics, dataset]
+topics: [speech-llm, health, evaluation]
 code:
     url: https://anonymous.4open.science/r/HASS-890D
     license: ""

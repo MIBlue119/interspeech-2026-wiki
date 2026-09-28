@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2382
 isca_url: https://www.isca-archive.org/interspeech_2026/lamba26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lamba26_interspeech.pdf
 session: Benchmarking Foundation Models
-topics: [evaluation, speech-enhancement, self-supervised]
+topics: [speech-enhancement, evaluation, paralinguistics]
 code:
     url: ""
     license: ""

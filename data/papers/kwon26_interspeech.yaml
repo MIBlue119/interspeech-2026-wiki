@@ -11,7 +11,7 @@ doi: 10.21437/Interspeech.2026-898
 isca_url: https://www.isca-archive.org/interspeech_2026/kwon26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kwon26_interspeech.pdf
 session: Speaker Diarization 2
-topics: [speaker-diarization, online-processing, evaluation]
+topics: [speaker-diarization, self-supervised, evaluation]
 code:
     url: ""
     license: ""

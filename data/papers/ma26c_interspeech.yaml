@@ -15,7 +15,7 @@ doi: 10.21437/Interspeech.2026-1961
 isca_url: https://www.isca-archive.org/interspeech_2026/ma26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ma26c_interspeech.pdf
 session: Streaming Speech Synthesis
-topics: [voice-conversion, zero-shot, streaming]
+topics: [voice-conversion, streaming, self-supervised]
 code:
     url: https://aslp-lab.github.io/MeanVC2/
     license: ""

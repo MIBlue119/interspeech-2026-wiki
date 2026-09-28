@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-1938
 isca_url: https://www.isca-archive.org/interspeech_2026/lee26r_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26r_interspeech.pdf
 session: Articulatory, EMG, and Visual Speech Generation
-topics: [speech-synthesis, self-supervised, evaluation]
+topics: [speech-enhancement, self-supervised, dataset]
 code:
     url: https://jiwonlee-0218.github.io/GETS_demo-page/
     license: ""

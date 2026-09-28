@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-1662
 isca_url: https://www.isca-archive.org/interspeech_2026/kawamura26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kawamura26_interspeech.pdf
 session: Speech and Audio Quality Assessment
-topics: [tts, speech-enhancement, self-supervised]
+topics: [tts, speech-quality-estimation, self-supervised]
 code:
     url: https://github.com/lycorp-jp/PASQA
     license: ""

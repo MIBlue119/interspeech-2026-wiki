@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-1684
 isca_url: https://www.isca-archive.org/interspeech_2026/lee26o_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26o_interspeech.pdf
 session: Acoustic Event Detection 4
-topics: [speech-llm, evaluation, dataset]
+topics: [speech-llm, evaluation, self-supervised]
 code:
     url: https://github.com/alm-evaluation/multi-event
     license: ""

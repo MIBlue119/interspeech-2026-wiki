@@ -1,29 +1,66 @@
 ---
 id: jiang26e_interspeech
-category: speech-llm
-updated: 2026-09-28
+category: health
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1724
 pdf: https://www.isca-archive.org/interspeech_2026/jiang26e_interspeech.pdf
 ---
 
 # Cognitive-Heuristic Guided Multimodal Data Augmentation for Alzheimer’s Disease Detection Using LLM and TTS
 
+*Yu Jiang, Cheng Gong, Bin Wen, Ruihao Jing, Tianrui Wang, Shansong Liu, Boyu Zhu, Yuheng Lu, Xuanchen Li, Xiao Wei, Chunyu Qiang, Xiao-Lei Zhang, Longbiao Wang, Jianwu Dang*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/jiang26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jiang26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1724)
 
-**TL;DR** — A cognitive-heuristic guided multimodal generative augmentation framework using RAG-enhanced LLMs and attribute-guided TTS is proposed to alleviate data scarcity in speech-based Alzheimer's disease detection, improving test accuracy on ADReSSo from 0.789 to 0.831 using CogniAlign.
+**TL;DR** — This paper proposes a cognitive-heuristic guided multimodal data augmentation framework for speech-based Alzheimer's disease (AD) detection, combining RAG-enhanced text generation with attribute-guided TTS to reproduce authentic clinical markers of cognitive decline. On the ADReSSo benchmark, integrating this augmented data improves the accuracy of the CogniAlign model from 0.789 to 0.831.
+
+## Key contributions
+
+- Multimodal cognitive alignment framework that maps real-world patient behavioral statistics to anchor both text and speech synthesis.
+- Dual-source RAG-enhanced text generation pipeline using clinical expert knowledge bases and exemplary corpora to constrain LLMs against unconstrained hallucination.
+- Attribute-guided TTS system (built on CosyVoice2) driven by cognitive latent vectors to reproduce AD-specific acoustic pauses, fillers, and speech rate irregularities.
+- Comprehensive validation demonstrating consistent performance gains across multiple AD detection architectures (ERNIE, MM-AD, and CogniAlign) on standard benchmarks.
 
 ## Problem
 
-Speech-based Alzheimer's disease (AD) detection suffers from severe data scarcity due to privacy constraints and limited public corpora. Existing data augmentation techniques in text and speech typically rely on unconstrained single-modality perturbations or generation, failing to maintain multimodal alignment and neglecting critical cognitive markers of AD such as abnormal pauses, fillers, and reduced lexical diversity. This leads to augmented samples that lack clinical validity and fail to enhance downstream detection robustness effectively.
+Speech-based Alzheimer's disease detection is severely constrained by data scarcity due to patient privacy and ethical restrictions, leaving publicly available datasets small and poorly annotated. Existing single-modality data augmentation strategies—such as traditional text synonym replacement, back-translation, acoustic perturbations, or standard voice conversion—fail to preserve the intricate alignment between speech and text. Furthermore, they ignore clinical cognitive decline signatures like linguistic disfluencies, reduced lexical diversity, and abnormal pause patterns, yielding insufficient training data for robust clinical generalization.
 
 ## Method
 
-The framework operates in three stages: cognitive-heuristic data annotation to build a behavioral profile (lexical complexity MATTR, non-lexical fillers, and pause-to-speech ratios); knowledge-constrained text generation using a Dual-Source Retrieval-Augmented Generation (RAG) strategy combined with Qwen2.5-Omni/LLMs guided by hierarchical instruction mapping; and attribute-guided speech synthesis using a fine-tuned CosyVoice2 model conditioned on the generated text scripts containing explicit temporal and disfluency markers. The TTS model is fine-tuned for 10 epochs on the DementiaBank Pitt Corpus using a single NVIDIA H100 GPU. The augmented data is mixed at a 1:1 ratio with the original training set.
+The framework operates in three sequential stages: data annotation, knowledge-constrained text generation, and attribute-guided speech synthesis. First, real-world AD characteristics are quantified into a 3D cognitive attribute vector c = [f_flu, f_lex, f_aco] scaling linguistic fluency (non-lexical fillers like "uh"/"um"), lexical complexity (Moving-Average Type-Token Ratio / MATTR), and acoustic fluency (pause-to-speech ratio and speech rate fluctuations).
+
+Second, a dual-source Retrieval-Augmented Generation (RAG) strategy queries an Expert Knowledge Base (K_exp) and Exemplary Corpora (K_exe). Through a Hierarchical Instruction Mapping mechanism, the vector c translates into behavioral constraint prompts via semantic constrainment (Φ_lex mapping lexical scores to deictic substitutions), rhythmic perturbation (Φ_flu mapping disfluency scores to filler insertions and self-repairs), and temporal anchoring (Φ_aco mapping acoustic scores to <pause> tags). This allows an LLM to generate AD-styled scripts T_syn that preserve cognitive markers without hallucination.
+
+Third, an attribute-guided text-to-speech system based on CosyVoice2 is fine-tuned to condition audio generation on both speaker identity embeddings s_j and a cognitive latent representation z_i derived directly from T_syn. This forces the TTS engine to explicitly render acoustic silences and hesitations corresponding to textual markers, prioritizing real-world clinical distributional realism over pristine vocal reconstruction.
+
+## Experimental setup
+
+Experiments utilize the ADReSSo dataset (237 samples for detection training and testing) and the DementiaBank Pitt Corpus (for fine-tuning the attribute-guided TTS model). Raw audio is preprocessed via Demucs for noise separation and WhisperX for sentence-level segmentation and 30-second slicing, yielding ~80,000 training samples. Evaluated baseline architectures include CogniAlign, MM-AD, and ERNIE (Yuan), compared against traditional text augmentations (deletion/insertion, back-translation, fine-tuned GPT-2) and speech augmentations (acoustic perturbations, SeedVC, raw TTS). Models are evaluated using Accuracy, F1-score, Recall, and Precision. Text generation is additionally evaluated via Perplexity (PPL), MATTR, Distinct-2, and SBERT similarity. CosyVoice2 is fine-tuned for 10 epochs on a single NVIDIA H100 GPU.
 
 ## Results
 
-Evaluated primarily on the ADReSSo dataset (237 samples) and DementiaBank Pitt Corpus, using Accuracy, F1-score, Recall, and Precision. Across three downstream detection architectures (ERNIE, MM-AD, and CogniAlign), the proposed augmentation consistently improves performance. For CogniAlign, accuracy increases from 0.789 to 0.831 and F1 from 0.783 to 0.833. Text-only augmentation outperforms back-translation and fine-tuned GPT-2, achieving an accuracy of 0.857 and F1 of 0.853. Audio augmentation ablation demonstrates that explicitly conditioning TTS on cognitive labels (Accuracy 0.831, F1 0.833) outperforms acoustic perturbations, voice conversion, and unconditioned TTS. Data-scale analysis shows optimal performance at 1.0× to 2.0× expansion ratios.
+Incorporating the proposed multimodal augmentation at a 1:1 ratio boosts the Accuracy of the ERNIE model from 0.718 to 0.747 (F1 from 0.630 to 0.735), MM-AD from 0.732 to 0.803 (F1 from 0.708 to 0.821), and CogniAlign from 0.789 to 0.831 (F1 from 0.783 to 0.833). In text-only evaluations, the proposed LLM+RAG text augmentation achieves an accuracy of 0.857 and F1 of 0.853, outperforming back-translation (0.829 Acc) and fine-tuned GPT-2 (0.829 Acc). In speech-only evaluations, adding cognitive labels to the attribute-guided TTS improves CogniAlign's F1 to 0.833 compared to raw-data TTS (0.817) and voice conversion (0.806).
+
+Data-scale sensitivity analysis reveals that expanding the training data beyond 2.0× to 2.5× leads to performance degradation (dropping CogniAlign accuracy back to 0.789), showing that over-augmentation induces overfitting or redundancy.
+
+| System / Condition | Accuracy | F1-Score | Recall | Precision |
+|---|---|---|---|---|
+| ERNIE (ADReSSo baseline) | 0.718 | 0.630 | 0.486 | 0.895 |
+| ERNIE + Ours | 0.747 | 0.735 | 0.714 | 0.758 |
+| MM-AD (ADReSSo baseline) | 0.732 | 0.708 | 0.657 | 0.767 |
+| MM-AD + Ours | 0.803 | 0.821 | 0.914 | 0.744 |
+| CogniAlign (ADReSSo baseline) | 0.789 | 0.783 | 0.771 | 0.794 |
+| CogniAlign + Ours | 0.831 | 0.833 | 0.857 | 0.811 |
+
+## Limitations
+
+The framework's scope is bounded by its reliance on English-language dementia corpora (ADReSSo and DementiaBank Pitt Corpus), limiting direct multilingual generalization without re-indexing culturally and linguistically specific cognitive markers. The evaluation scale is restricted to relatively small benchmark datasets (237 samples in ADReSSo), and scaling up synthetic data beyond 2.0× introduces diminishing returns or overfitting. Furthermore, synthesizing extreme pathological speech features can occasionally trade off precision for recall in specific neural backbones.
+
+## Why read this
+
+Speech and ML researchers tackling data scarcity in clinical health monitoring will find this paper essential reading for its principled approach to grounding generative LLM and TTS pipelines in medical cognitive heuristics. Readers will take away a concrete blueprint for enforcing linguistic-acoustic consistency in synthetic health data.
 
 ## Code
 
@@ -31,11 +68,7 @@ Evaluated primarily on the ADReSSo dataset (237 samples) and DementiaBank Pitt C
 
 ## Applications
 
-Speech and machine learning engineers developing non-invasive, digital health screening tools for early detection and monitoring of neurodegenerative disorders like Alzheimer's disease.
-
-## Limitations
-
-Excessive augmentation scaling beyond 2.0x yields diminishing returns and potential overfitting, indicating a sensitivity to data volume.
+Non-invasive early screening and continuous remote monitoring of Alzheimer's disease and related neurodegenerative cognitive disorders.
 
 ## Related
 

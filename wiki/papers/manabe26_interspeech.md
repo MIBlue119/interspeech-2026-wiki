@@ -1,29 +1,62 @@
 ---
 id: manabe26_interspeech
-category: audio-captioning
-updated: 2026-09-28
+category: self-supervised
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-845
 pdf: https://www.isca-archive.org/interspeech_2026/manabe26_interspeech.pdf
 ---
 
 # ProLAP: Probabilistic Language-Audio Pre-Training
 
+*Toranosuke Manabe, Yuchi Ishikawa, Hokuto Munakata, Yoshimitsu Aoki, Tatsuya Komatsu*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/manabe26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/manabe26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-845)
 
-**TL;DR** — ProLAP extends contrastive language-audio pre-training by representing inputs as probability distributions with a hierarchical inclusion loss, improving semantic hierarchy capture while maintaining retrieval performance.
+**TL;DR** — ProLAP introduces probabilistic language-audio pre-training using Gaussian embeddings and hierarchical inclusion losses to capture many-to-many semantic hierarchies without hurting retrieval performance. It significantly outperforms deterministic CLAP baselines on a new audio traversal diagnostic dataset.
+
+## Key contributions
+
+- Formulates language-audio representation learning using probabilistic distributions (Gaussian random variables with diagonal covariance) rather than deterministic points.
+- Proposes a hierarchical inclusion loss via recursive masking for both audio and text encoders to explicitly encode coarse-to-fine semantic hierarchies.
+- Introduces two diagnostic datasets, AudioCaps-HC (Hierarchical Captions with 4 abstraction levels) and AudioCaps-EC (Event-level Captions).
+- Demonstrates robust open-vocabulary audio-text retrieval on AudioCaps and ClothoV2 alongside intuitive uncertainty estimation linked to input text length.
 
 ## Problem
 
-Standard language-audio models assume a simplistic one-to-one mapping between audio and text, ignoring the inherently many-to-many and hierarchical nature of real-world sound and language. Capturing this data hierarchy is non-trivial in audio due to complex sound source superposition, unlike in the vision-language domain. Without hierarchical modeling, models fail to process multi-granular descriptions or filter ambiguous audio-text samples effectively.
+Standard contrastive language-audio pre-training (CLAP) assumes a rigid one-to-one correspondence between audio clips and text captions, ignoring real-world many-to-many relationships where an audio clip can be described at multiple levels of specificity. Unlike vision-language domains, extending hierarchical modeling to audio is complicated by the complex superposition of overlapping sound sources in acoustic signals. Failing to capture this hierarchy restricts models from filtering ambiguous samples, performing coarse-to-fine retrieval, and capturing underlying data structures.
 
 ## Method
 
-ProLAP models each audio and text input as a Gaussian random variable with a diagonal covariance parameterized by a mean vector and variance vector. It employs a Probabilistic Pairwise Contrastive Loss (PPCL) using a closed-form sampled distance metric alongside cross-modal and intra-modal inclusion losses. To handle fine-grained semantics, the authors propose a hierarchical inclusion loss that recursively applies random masking (using 75% masking probability on the first 12.5% of batches) across multiple abstraction levels ($L=1$ for audio, $L=2$ for text). The framework initializes encoders from pretrained CLAP—specifically using HTS-AT for audio (averaging only unmasked tokens to prevent representation collapse) and GPT-2 for text—and is trained for 50 epochs with the Adam optimizer.
+ProLAP models each audio or text input as a Gaussian random variable with a diagonal covariance matrix, parameterized by a mean vector $\mu$ and variance vector $\sigma^2$. Following ProLIP, it utilizes the probabilistic pairwise contrastive loss (PPCL), replacing cosine similarity with a corrected similarity metric derived from closed-form sampled distance to align audio and text distributions.
+
+To capture semantic hierarchy, the framework leverages intra-modal and cross-modal inclusion losses based on asymmetric inclusion scores mapped via a logistic link. For hierarchical learning, it applies recursive masking ($M_0$ to $M_{L+1}$) where tokens are masked with binomial probability $q$ (masking probability set to 0.75), ensuring that masked inputs (representing more abstract or incomplete contexts) are correctly encompassed by unmasked inputs in the embedding space. A variational information bottleneck regularizer ($L_VIB$) prevents variance collapse.
+
+For implementation, ProLAP initializes from pretrained CLAP weights, using HTS-AT (Swin Transformer-based) for the audio encoder and GPT-2 for the text encoder. Since HTS-AT prevents token dropping, uncertainty and mask handling are implemented by adding an uncertainty head and a learnable [MASK] token, while averaging only unmasked tokens in the final adaptive average pooling layer to avoid representation collapse.
+
+## Experimental setup
+
+Evaluated on AudioCaps and ClothoV2 for audio-text retrieval, plus the newly introduced diagnostic datasets AudioCaps-HC and AudioCaps-EC. Compared against deterministic CLAP baselines trained with InfoNCE and SigLIP losses. Models are fine-tuned for 50 epochs with a batch size of 256 using the Adam optimizer, a cosine learning rate scheduler with 1 warm-up epoch, and a maximum learning rate of $1 \times 10^{-5}$. Hyperparameters include loss weights $\lambda_1 = 5 \times 10^{-3}$, $\lambda_2 = 5 \times 10^{-7}$, $\gamma = 1 \times 10^{-5}$, with text hierarchical level $L=2$ and audio hierarchical level $L=1$.
 
 ## Results
 
-Evaluated on AudioCaps and ClothoV2, ProLAP achieves competitive audio-text retrieval performance (e.g., 42.70 R@1 and 57.40 mAP@10 on AudioCaps when using hierarchical inclusion). On the newly introduced AudioCaps-HC diagnostic dataset for audio traversal, ProLAP with hierarchical inclusion substantially improves precision (26.83 vs 12.77 for standard CLAP InfoNCE) and top-level R@1 (11.43 vs 8.48). Inclusion tests on AudioCaps-EC demonstrate that 83.5% to 91.7% of samples satisfy the hierarchical inclusion hypothesis. Furthermore, the model yields intuitive uncertainty estimations, showing a negative correlation ($r = -0.43$) between text input context length and uncertainty.
+On AudioCaps audio-text retrieval, ProLAP with hierarchical inclusion achieves competitive R@1 (42.70 for text-to-audio, 42.13 for audio-to-text) and mAP@10 (57.40 and 56.66), slightly outperforming or matching InfoNCE and SigLIP baselines. On the audio traversal task using AudioCaps-HC, ProLAP with $L_{inc}^h$ achieves a precision of 26.83% and R@1 of 15.67% (and 11.43% on the most abstract Level 1), vastly outperforming deterministic CLAP InfoNCE (12.77 precision, 13.46 R@1). Furthermore, the hierarchical inclusion loss successfully enforces an intuitive negative correlation between text length and uncertainty ($r_{TLU} = -0.43$).
+
+| System | AC T->A R@1 | AC T->A mAP@10 | AC A->T R@1 | AC A->T mAP@10 |
+|---|---|---|---|---|
+| CLAP (InfoNCE) | 41.90 | 57.30 | 39.75 | 55.84 |
+| CLAP (SigLIP) | 41.45 | 56.22 | 40.88 | 56.22 |
+| ProLAP (Ours) | 42.70 | 57.37 | 41.22 | 56.36 |
+| ProLAP w/ $L_{inc}^h$ (Ours) | 42.70 | 57.40 | 42.13 | 56.66 |
+
+## Limitations
+
+The evaluation relies heavily on synthetic hierarchical and event-level extensions derived via LLMs (GPT-oSS and Ministral 3) rather than entirely human-annotated hierarchies. The approach inherits the compute and architectural constraints of underlying heavy backbone models (HTS-AT and GPT-2) and has only been validated on English-centric audio-captioning benchmarks.
+
+## Why read this
+
+Speech and ML researchers working on multi-modal audio representation learning should read this paper to learn how to transition deterministic embedding spaces into probabilistic distribution spaces that cleanly capture acoustic and semantic hierarchies.
 
 ## Code
 
@@ -31,7 +64,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Engineers and researchers building open-vocabulary audio understanding systems, coarse-to-fine audio retrieval search engines, and multi-granular audio captioning applications.
+Open-vocabulary audio-text retrieval, hierarchical dataset curation, filtering ambiguous samples, and robust multi-granular audio understanding.
 
 ## Related
 

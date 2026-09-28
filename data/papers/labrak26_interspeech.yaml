@@ -20,8 +20,8 @@ doi: 10.21437/Interspeech.2026-2901
 isca_url: https://www.isca-archive.org/interspeech_2026/labrak26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/labrak26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
-topics: [speech-llm, dataset, evaluation]
+topics: [speech-llm, dataset, spoken-language-understanding]
 code:
-    url: ""
+    url: https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo
     license: ""
 open_to_collaboration: false

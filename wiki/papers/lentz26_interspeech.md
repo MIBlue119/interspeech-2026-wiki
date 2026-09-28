@@ -1,41 +1,70 @@
 ---
 id: lentz26_interspeech
-category: speech-enhancement
-updated: 2026-09-28
+category: source-separation
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2713
 pdf: https://www.isca-archive.org/interspeech_2026/lentz26_interspeech.pdf
 ---
 
 # BeatGain - A Rhythmic Pattern Enhancement Algorithm for Music Listening with Cochlear Implants
 
+*Benjamin Lentz, Theresa Hartmann, Anil Nagathil, Ian Bruce, Rainer Martin*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/lentz26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lentz26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2713)
 
-**TL;DR** — The BeatGain algorithm enhances music perception for cochlear implant users by selectively amplifying metrically strong beats and eighth-note subdivisions while attenuating off-grid sixteenth notes, significantly improving rhythmic clarity over baseline remixing approaches.
+**TL;DR** — BeatGain is a rhythmic pattern enhancement algorithm for cochlear implant music listening that amplifies metrically strong beats and suppresses weak off-beat events, achieving significant improvements in perceived rhythmic clarity over standard stem remixing baselines.
+
+## Key contributions
+
+- Proposes a rhythm-aware music pre-processing framework integrating neural stem separation, harmonic-percussive sound separation (HPSS), and beat tracking.
+- Introduces metrically guided temporal modulation that amplifies quarter and eighth-note percussive positions while attenuating off-grid sixteenth notes to reduce rhythmic complexity.
+- Formulates a gain-scaling mechanism applied specifically to the percussive components of bass, drum, and secondary stems.
+- Demonstrates through a 2AFC listening experiment with 17 vocoder-simulated normal-hearing participants that BeatGain significantly outperforms uniform percussive amplification in rhythmic clarity.
 
 ## Problem
 
-Cochlear implant (CI) users experience limited music perception due to reduced spectral resolution and current spread, though their temporal envelope cues remain well preserved. While prior music enhancement methods adjust spectral balance or globally amplify percussive stems, they fail to explicitly target the internal rhythmic structure and metrical hierarchy of music. This lack of metrically guided temporal shaping leaves complex syncopation and off-beat events to interfere with concurrent spectral components, reducing clarity for listeners with impaired spectral hearing.
+Cochlear implant (CI) users suffer from severely limited spectral resolution and pitch perception due to current spread and place-frequency mismatches, making complex music unenjoyable. While prior mixing approaches like stem extraction and harmonic-percussive sound separation improve spectral balance, they fail to explicitly target the temporal organization and intrinsic rhythmic complexity of music. Because CI listeners rely heavily on temporal envelope cues, unstructured percussive events can cause harmful acoustic overlap, necessitating an explicit rhythm-focused processing strategy.
 
 ## Method
 
-The BeatGain pipeline first decomposes input music into vocal, bass, drums, and other stems using the pretrained Spleeter neural network. Each stem is separated into harmonic and percussive components using directional median filtering, after which harmonic components of bass, drums, and others are discarded while vocals are fully retained. Pretrained BeatThis! neural beat tracking extracts quarter-note timings and metrical positions, which are linearly interpolated to sixteenth-note grids and modulated via Hann-windowed gain signals. In this proof-of-concept setup, quarter and eighth notes are amplified by a factor of two while intermediate sixteenth notes are attenuated to zero.
+The BeatGain pipeline takes an input audio track $x(n)$ and decomposes it into vocals $v(n)$, bass $b(n)$, drums $d(n)$, and other instruments $o(n)$ using the pretrained Spleeter neural network. Each stem is subsequently split into harmonic and percussive components using vertical and horizontal median filtering (HPSS). Harmonic components of the bass, drums, and other stems are entirely discarded ($\beta_{bh}=\beta_{dh}=\beta_{oh}=0$), while vocals are preserved unmodulated ($\beta_{vh}=\beta_{vp}=1$).
+
+Simultaneously, the pretrained BeatThis! DNN estimates quarter-note beat positions, which are linearly interpolated to sixteenth-note timings $t(k)$ with metrical positions $w(k) \in \{1, \dots, 16\}$. A Hann window centered around each discrete timing $n_k$ with a local sixteenth-note duration scaling factor $R = 0.9$ builds a prototypical beat-adaptive gain signal via a 16-entry gain table $G$. In this proof-of-concept, quarter and eighth notes are multiplied by a gain factor of 2, and intermediate sixteenth notes are attenuated to zero.
+
+This gain signal is scaled by stem-specific factors $g_u$ (applied exclusively to percussive bass, drums, and others where $g_{bp}=g_{dp}=g_{op}=1$, and zero elsewhere) to produce the final modified components. All processed stems and components are then summed to yield the enhanced output mix $y(n)$, designed specifically to reinforce metrically salient pulses and suppress syncopated complexity.
+
+## Experimental setup
+
+Evaluated on the IKA CI Pop Music Dataset comprising 15 pop/rock excerpts. Comparisons include the unprocessed signal and baseline remixing strategies (V+P and V+2P where percussive stems are uniformly amplified by $\alpha=1$ or $\alpha=2$ without metrical gain modulation). Metrics comprise estimated instrumental complexity (Buyens et al.) and Scale-Invariant Signal-to-Distortion Ratio (SI-SDR). A listening experiment with 17 normal-hearing participants used an 8-channel noise-excited band-pass vocoder (Greenwood scale, 100 Hz to 8 kHz) to simulate CI perception, loudness-normalized to -27 LUFS, evaluated via a two-alternative forced-choice (2AFC) paradigm.
 
 ## Results
 
-Evaluated on the IKA CI Pop Music Dataset containing 15 rock and pop excerpts, the proposed method was tested against unprocessed signals and baseline remixing conditions (V+P, V+2P) using a noise-excited band-pass vocoder to simulate CI perception with 17 normal-hearing participants in a 2AFC listening experiment. Objective instrumental complexity scores (Buyens et al.) decreased more sharply for BeatGain at higher amplification parameters while maintaining stable scale-invariant SI-SDR distortion bounds. In subjective evaluations, BeatGain was significantly preferred over unprocessed audio and standard stem remixing in rhythmic clarity and overall impression. Furthermore, BeatGain achieved a statistically significant preference over uniform percussive amplification (V+2P) specifically for rhythmic clarity.
+BeatGain consistently achieved lower estimated instrumental complexity scores than uniform percussive remixing baselines across all amplification factors $\alpha$, dropping complexity below the unprocessed mixture's 27% baseline. In terms of SI-SDR, BeatGain introduced only minor additional structural distortions compared to standard V+P mixing while delivering superior temporal sparsification. In the 2AFC listening tests, BeatGain secured a statistically significant preference over V+2P in rhythmic clarity (59.4% preference score, $p<0.01$) and outperformed the unamplified V+P baseline significantly in both overall impression (71.2%) and rhythmic clarity (71.2%).
 
-## Code
-
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
-
-## Applications
-
-Cochlear implant sound processors and music pre-processing software for listening devices to enhance rhythm and overall enjoyment of music.
+| System | SI-SDR (dB) vs Unprocessed | Estimated Complexity (%) | Rhythmic Clarity Pref (%) |
+|---|---|---|---|
+| Unprocessed | 0.0 | 27.0 | Reference |
+| V+P (\alpha=1) | Higher | Moderate | Baseline |
+| V+2P (\alpha=2) | Comparable | Lower | 52.4 (vs BeatGain) |
+| BeatGain (Proposed) | Slightly Lower | Lowest | 59.4 (vs V+2P) |
 
 ## Limitations
 
-The current framework is restricted to 4/4 meter music and relies on a fixed, simple proof-of-concept gain pattern without listener-specific parameterization.
+Tested exclusively on 4/4 time signature rock and pop music excerpts, leaving meter structures like 3/4 or odd meters unexplored. The evaluation relied on normal-hearing subjects listening through an 8-channel vocoder simulation rather than actual cochlear implant users. The fixed binary gain pattern (amplifying on-beat, zeroing off-beat sixteenths) is a rigid proof-of-concept that may over-sparsify complex rhythmic genres like jazz or Latin music if not adapted.
+
+## Why read this
+
+Speech and audio engineers working on auditory prostheses or music enhancement algorithms should read this to see how integrating beat-tracking metrical hierarchies into source-separation pipelines successfully reduces perceptual complexity for electric hearing.
+
+## Code
+
+- https://www.ika.ruhr-uni-bochum.de/ika/demos/beatgain
+
+## Applications
+
+Cochlear implant sound processors, real-time music enhancement apps for hearing-impaired listeners, and rhythm-guided speech pre-processing algorithms.
 
 ## Related
 

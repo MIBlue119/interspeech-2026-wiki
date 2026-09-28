@@ -1,29 +1,60 @@
 ---
 id: jabeen26_interspeech
 category: phonetics
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-707
 pdf: https://www.isca-archive.org/interspeech_2026/jabeen26_interspeech.pdf
 ---
 
 # The (non-)universality of prominence and Intonation Phrases: German and Hungarian listeners'' perception of an unfamiliar language
 
+*Farhat Jabeen, Ákos Buza, Ella Reimann*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/jabeen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jabeen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-707)
 
-**TL;DR** — This study evaluates the non-universality of prosodic perception by showing that German and Hungarian listeners rely on distinct L1-influenced F0 contours and scaling patterns to identify prominence and Intonation Phrase boundaries in unfamiliar Urdu speech.
+**TL;DR** — This study investigates cross-linguistic perception of prosodic prominence and Intonation Phrase (IP) boundaries by presenting spoken Urdu extracts to native German and Hungarian listeners. The findings challenge the alleged universality of acoustic cues, demonstrating that listener L1 backgrounds and speaker variability significantly shape how pitch contours and boundaries are interpreted.
+
+## Key contributions
+
+- Challenges the prevailing assumption of cue universality in IP boundary perception by testing typologically diverse listener groups (West Germanic German, Finno-Hungarian Hungarian) on an unknown language (Indo-Aryan Urdu).
+- Employs Rapid Prosody Transcription (RPT) coupled with Generalized Additive Mixed Models (GAMMs) to precisely map time-normalized F0 contours of perceived prominent words.
+- Reveals that German listeners identify a markedly higher percentage of words as prominent (84-97%) compared to Hungarian listeners (49-64%), tied to language-specific F0 expectations.
+- Demonstrates a significant three-way interaction between prominence perception, listener L1, and individual stimuli speakers, confirming that speaker-based acoustic differences modulate cross-linguistic perception.
 
 ## Problem
 
-Prior literature claims that high inter-rater agreement by listeners identifying Intonation Phrase (IP) boundaries in unknown languages proves the universality of acoustic cues. The authors argue this is an analytical fallacy caused by listeners applying their native (L1) cue sets rather than responding to universal properties. Testing typologically diverse listeners on an unfamiliar language provides a cleaner experimental framework to isolate language-specific versus universal aspects of prosody perception.
+Prior research claiming the universality of acoustic cues for Intonation Phrase (IP) boundaries often compares listeners' L1 performance against unfamiliar languages or relies heavily on negative agreement (agreement on where boundaries do not occur). Such methodologies fail to isolate whether high agreement stems from true universal cues or listeners uniformly applying their native language strategies. Furthermore, while most work emphasizes IP boundaries, the perception of prosodic prominence remains under-explored cross-linguistically. This paper addresses these gaps by evaluating both prominence and IP boundary identification in an unfamiliar language across listeners from typologically distinct backgrounds.
 
 ## Method
 
-The experiment used Rapid Prosody Transcription (RPT) with 26 German and 21 Hungarian listeners who annotated 4 Urdu speech extracts (each ~18 seconds, read by 2 male and 2 female speakers) presented orthographically without punctuation. Listeners first marked IP boundaries with slashes and then underlined prominent words, listening to each audio up to five times. The authors computed Fleiss' Kappa for inter-rater agreement, fitted Generalized Linear (Mixed) Models to analyze speaker effects, and applied Generalised Additive Mixed Models (GAMMs) with tensor smooths on time-normalized, speaker-mean-normalized F0 contours to evaluate prominence perception differences.
+The study utilized four Urdu speech extracts (~18 seconds each, 5-8 syntactic clauses per extract) read by two male and two female native Urdu speakers. Transliterated text without punctuation was provided to 26 German listeners and 21 Hungarian listeners who completed a Rapid Prosody Transcription task, listening up to five times to mark IP boundaries with slashes and underline prominent words. Word boundaries were manually annotated in PRAAT to extract time-normalised F0 values relative to each speaker's mean F0.
+
+To analyze the time series data, Generalised Additive Mixed Models (GAMMs) were implemented in R, incorporating stimuli speakers and listeners' L1 as fixed factors alongside random smooths for listeners. Non-linear tensor smooths checked for interactions between prosodic prominence, speakers, and L1 backgrounds, with autocorrelation accounted for via Rho values and model selection determined by comparing AIC scores.
+
+## Experimental setup
+
+The evaluation dataset consists of four Urdu audio extracts totaling approximately 72 seconds of speech from 4 speakers, evaluated by 26 German speakers (ages 19-60) and 21 Hungarian speakers (ages 22-60). Metrics include Fleiss' Kappa for inter-rater agreement (within- and between-group) and estimated differences in F0 curves derived from GAMM difference curves. The experiment was conducted via worksheets with written instructions in the respective L1s, averaging 15 minutes per participant.
 
 ## Results
 
-Aggregated Fleiss' Kappa values for IP boundaries showed weak to moderate agreement between listener groups (ranging from 0.47 to 0.63 across speakers), while prominence agreement was minimal to none (Fleiss' Kappa 0.16 to 0.28). Germans perceived a much higher percentage of words as prominent (49% to 97% across speakers) compared to Hungarians (36% to 44%). GAMM analyses revealed a significant three-way interaction (F = 55.2, p = 0.001) demonstrating that Hungarian listeners associated falling F0 contours (HL) with prominence, whereas German listeners associated rising F0 contours (LH) with prominence, reflecting their distinct L1 intonational strategies.
+Aggregated Fleiss' Kappa values for IP boundary identification showed weak to moderate agreement between German and Hungarian groups across speakers (ranging from k=0.47 to k=0.63). GLMER analysis indicated a significant interaction between listeners' L1 and speakers (chi-squared(3) = 90.9, p < 0.0001). For prosodic prominence, aggregated Kappa values showed minimal to no agreement (k=0.16 to k=0.28), with German listeners marking 84-97% of words as prominent versus 49-64% for Hungarians. GAMM analysis confirmed a significant three-way interaction between prominence perception, L1, and speakers (F = 55.2, p = 0.001), showing that German listeners associated prominence with rising F0 contours while Hungarian listeners favored falling F0 contours.
+
+| System / Condition | IP Boundary Agreement (Fleiss' k) | Prominence Agreement (Fleiss' k) | Prominence % (German / Hungarian) |
+|---|---|---|---|
+| Female Speaker 1 | 0.52 | 0.26 | 86% / 64% |
+| Female Speaker 2 | 0.56 | 0.25 | 84% / 49% |
+| Male Speaker 1 | 0.63 | 0.16 | 89% / 55% |
+| Male Speaker 2 | 0.47 | 0.28 | 97% / 61% |
+
+## Limitations
+
+The study is constrained by a small stimulus set consisting of only four short Urdu passages and four speakers, limiting broad acoustic generalizability. Only two listener L1 backgrounds (German and Hungarian) were tested, omitting a wider typological spectrum of tonal and non-tonal languages. Additionally, the between-participant design precluded random effects for L1 in the primary regression models.
+
+## Why read this
+
+Phoneticians and speech researchers studying cross-linguistic prosody should read this paper to understand how native language phonology biases the perception of prominence and phrasing in unknown tongues. It provides a methodological blueprint using GAMMs and RPT to disentangle universal acoustic properties from language-specific perceptual filters.
 
 ## Code
 
@@ -31,11 +62,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech scientists, phoneticians, and computational linguists building cross-lingual speech understanding, prosody modeling, or text-to-speech systems that must account for cross-linguistic variations in prominence perception.
-
-## Limitations
-
-The study uses a limited stimulus set of only four Urdu extracts and does not explicitly address the cross-linguistic comparability of different levels within the prosodic hierarchy between German and Hungarian.
+Cross-lingual speech understanding, multilingual text-to-speech prosody transfer, and acoustic modeling for under-documented languages.
 
 ## Related
 

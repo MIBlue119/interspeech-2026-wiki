@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-1548
 isca_url: https://www.isca-archive.org/interspeech_2026/kim26n_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26n_interspeech.pdf
 session: Multi-Channel Processing and Specialized Acquisition (UAV, Radar, Hearables)
-topics: [speech-enhancement, evaluation]
+topics: [speech-enhancement, multilingual, on-device]
 code:
     url: https://github.com/KYE-Postech/CCAP
     license: ""

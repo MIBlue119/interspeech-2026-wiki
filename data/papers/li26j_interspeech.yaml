@@ -15,7 +15,7 @@ doi: 10.21437/Interspeech.2026-666
 isca_url: https://www.isca-archive.org/interspeech_2026/li26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26j_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 1
-topics: [speech-llm, health, paralinguistics]
+topics: [speech-llm, paralinguistics, emotion-recognition]
 code:
     url: ""
     license: ""

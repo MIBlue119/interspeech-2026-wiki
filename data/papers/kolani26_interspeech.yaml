@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-604
 isca_url: https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.pdf
 session: Text Processing for Speech Synthesis
-topics: [tts, low-resource, evaluation]
+topics: [tts, asr, low-resource]
 code:
     url: https://phonikud.github.io
     license: ""

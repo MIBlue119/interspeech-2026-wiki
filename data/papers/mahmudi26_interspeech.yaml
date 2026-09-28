@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2781
 isca_url: https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.pdf
 session: Corpus Creation, Summarization and Understanding
-topics: [asr, low-resource, evaluation]
+topics: [asr, low-resource, self-supervised]
 code:
     url: https://github.com/Aso-UniMelb/Easper
     license: ""

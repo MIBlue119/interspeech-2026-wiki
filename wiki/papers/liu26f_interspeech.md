@@ -1,29 +1,65 @@
 ---
 id: liu26f_interspeech
-category: sound-enhancement
-updated: 2026-09-28
+category: speech-llm
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-731
 pdf: https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.pdf
 ---
 
 # A Semantic-Anchor-based Method for Open-Vocabulary Sound Event Detection
 
+*Jun Liu, Pengfei Cai, Yanfeng Shi, Qing Gu, Nan Jiang, Lirong Dai, Yan Song*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-731)
 
-**TL;DR** — This paper proposes a semantic-anchor-based framework for open-vocabulary sound event detection, achieving a headline novel-class PSDSr of 32.3 on AudioSet-Strong and a zero-shot PSDS1 of 44.1 on DESED.
+**TL;DR** — A semantic-anchor-based framework for open-vocabulary sound event detection uses learnable reference tokens and bidirectional attention to robustly detect novel sound classes. It achieves a state-of-the-art 34.9 PSDS_r on rare classes of AudioSet-Strong and 44.1 zero-shot PSDS1 on DESED.
+
+## Key contributions
+
+- Introduces learnable semantic anchor vectors as semantic-level reference tokens to help the model interpret arbitrary or unseen sound events as combinations of known references.
+- Proposes a bidirectional cross-attention decoder mechanism (query-to-audio and audio-to-query) to strengthen query-feature interaction and mitigate text-audio modality mismatch.
+- Designs an LLM-based textual augmentation strategy combined with random sampling during training to enrich event descriptions and improve generalization.
+- Demonstrates superior open-vocabulary and cross-dataset generalization, outperforming prior open-vocabulary SED models on AudioSet-Strong and beating supervised baselines zero-shot on DESED.
 
 ## Problem
 
-Most existing sound event detection methods rely on a closed-set assumption, restricting detection to predefined classes and failing to recognize unseen events in real-world scenarios. While open-vocabulary methods have emerged, they depend purely on similarity matching between text queries and audio features without deep semantic understanding, rendering them vulnerable to cross-modal mismatch and poor generalization on novel categories.
+Most existing sound event detection (SED) models follow a closed-set assumption, restricting detection to predefined classes and failing in real-world acoustic scenarios with unseen events. While open-vocabulary SED approaches have emerged (such as FlexSED and DASM), they rely entirely on pre-trained dual-stream CLAP representations without internal semantic understanding of events, making them vulnerable to cross-modal mismatch and weak at generalizing to novel or rare classes. This limitation prevents audio-language models and smart systems from reliably interpreting arbitrary acoustic events described via text or audio prompts.
 
 ## Method
 
-The architecture combines a pre-trained audio encoder (PaSST or HTS-AT), a CLAP-based query encoder for text/audio inputs, 400 learnable semantic anchor vectors (dimension 384) acting as semantic reference tokens, an anchor-guided bidirectional decoder, and a Conformer-based context network for temporal localization. During training, ChatGPT generates diverse textual descriptions for LLM-based query augmentation, and models are trained using asymmetric focal loss combined with a codebook diversity regularization term. The model uses a tailored self-attention mask to force event queries to attend exclusively to the semantic anchors.
+The architecture takes an audio clip (processed into a mel-spectrogram) and a set of event queries (text or audio). The audio encoder uses pre-trained spectrogram transformer backbones (PaSST or HTS-AT) to extract a temporal feature sequence F of dimension T x D. The query encoder uses a pre-trained MGA-CLAP encoder to extract event query vectors Q. To provide semantic reference, K learnable semantic anchor vectors S (where K=400, D=384) are concatenated with Q as [S, Q]. During training, text queries are augmented using ChatGPT to generate diverse 5-10 word descriptions, and one is randomly sampled per instance.
+
+The anchor-guided bidirectional decoder stacks two bidirectional-attention blocks. In the query self-attention layer, a tailored mask forces event query vectors to be mutually invisible and attend only to the semantic anchor vectors, preventing information leakage and forcing anchors to act as stable reference tokens. Next, query-to-audio cross-attention aggregates event-relevant audio features into refined query vectors, while audio-to-query cross-attention uses the refined query vectors as keys/values to update the audio feature sequence F_refined. A context network composed of two Conformer layers models temporal dependencies. Final clip-level predictions use a 2-layer MLP (MLP_cl) and frame-level predictions are generated by combining classifier vectors from a 3-layer MLP (MLP_map) with the context network outputs, modulated by clip-level probabilities via dot-product scoring.
+
+The model is optimized using an objective combining clip-level loss (L_cl), frame-level loss (L_fr)—both employing asymmetric focal loss—and a diversity regularization term (L_div) based on cosine similarity to prevent anchor collapse and promote codebook diversity among semantic anchors. Weighting coefficients alpha and beta are set to 0.5 and 0.1 respectively. Training runs for 40K steps per epoch with a batch size of 32, freezing the audio encoder for the first 20K steps, using AdamW with learning rates of 1.5e-5 (audio encoder) and 2e-4 (remaining layers).
+
+## Experimental setup
+
+Experiments use AudioSet-Strong (407 classes split into 308 common classes for training and 99 rare classes with <6 minutes total duration for open-vocabulary evaluation) and DESED (10 classes) for cross-dataset generalization. Performance is evaluated using PSDS1 (omitting class-variance penalty) and rare-class PSDSr. Backbone models include HTS-AT and PaSST, with query types evaluated in both text and audio modalities.
 
 ## Results
 
-Evaluated on AudioSet-Strong under an open-vocabulary setting (trained on 308 common classes, tested on 99 unseen rare classes), the method achieves 34.9 PSDS overall and 32.3 PSDSr with text queries, outperforming prior models like DASM (23.3-32.7). In zero-shot cross-dataset evaluation on DESED, it attains 44.1 PSDS1, surpassing the DESED-supervised DCASE baseline (36.4). Ablations confirm that removing semantic anchors causes a massive drop in PSDSr (from 32.3 down to 12.6), while removing bidirectional attention or textual augmentation also degrades performance.
+Under the open-vocabulary setting on AudioSet-Strong with HTS-AT and audio queries, the method achieves 50.5 overall PSDS and 34.9 PSDSr (rare classes), outperforming DASM (33.9). With text queries, it achieves 50.1 overall PSDS and 32.3 PSDSr, substantially beating DASM (30.1) and FlexSED (27.8), and shrinking the text-audio performance gap to just 2.9 points. Ablation studies confirm that removing semantic anchors causes a catastrophic drop in PSDSr down to 12.6, removing bidirectional attention drops PSDSr to 30.8, and removing textual augmentation drops it to 31.1.
+
+In cross-dataset evaluation on DESED under zero-shot conditions, the method achieves a PSDS1 score of 44.1 with text queries, outperforming DASM (42.2) and even surpassing the DESED-supervised DCASE baseline (36.4). When fine-tuned on DESED using a mean-teacher semi-supervised strategy, it reaches 59.7 PSDS1 with text queries, outperforming prior open-set and closed-set baselines.
+
+| Model | Backbone | Query | PSDS (AudioSet) | PSDSr (AudioSet) | Zero-shot PSDS1 (DESED) |
+|---|---|---|---|---|---|
+| DASM [15] | HTS-AT | Audio | 49.0 | 33.9 | 37.8 |
+| DASM [15] | HTS-AT | Text | 48.8 | 30.1 | 42.2 |
+| FlexSED [14] | Dasheng | Text | 44.8 | 27.8 | 35.3 |
+| Ours | HTS-AT | Audio | 50.5 | 34.9 | 38.7 |
+| Ours | HTS-AT | Text | 50.1 | 32.3 | 44.1 |
+
+## Limitations
+
+The evaluation is constrained to English sound event classes and standard benchmarks (AudioSet and DESED), leaving multilingual and in-the-wild acoustic robustness under extreme noise unverified. The framework relies heavily on offline pre-computed query vectors and an external LLM (ChatGPT) to generate synthetic text descriptions during training, making training reliant on commercial generative API outputs. Additionally, the fixed number of semantic anchors (K=400) is determined empirically via ablation, and scaling behavior across drastically larger anchor codebooks or broader class ontologies is not explored.
+
+## Why read this
+
+Speech and audio engineers building open-vocabulary sound event detectors or audio LLMs should read this to see how learnable semantic anchor tokens and bidirectional cross-attention effectively bridge the text-audio modality gap and boost zero-shot generalization.
 
 ## Code
 
@@ -31,7 +67,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Engineers and researchers building smart home assistants, automotive safety systems, or multimodal large language models requiring robust open-vocabulary acoustic event awareness.
+Smart home monitoring systems, acoustic anomaly detection in intelligent driving, and environmental perception modules for multimodal audio-language LLMs.
 
 ## Related
 

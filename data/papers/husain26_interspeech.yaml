@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-786
 isca_url: https://www.isca-archive.org/interspeech_2026/husain26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/husain26_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
-topics: [asr, low-resource, evaluation]
+topics: [asr, self-supervised, low-resource]
 code:
     url: ""
     license: ""

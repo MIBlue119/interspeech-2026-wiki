@@ -1,29 +1,63 @@
 ---
 id: li26aa_interspeech
 category: asr
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1767
 pdf: https://www.isca-archive.org/interspeech_2026/li26aa_interspeech.pdf
 ---
 
 # Weakly Masked Residual Reliability Learning for Unsupervised Domain Adaptation in Speech Models
 
+*Yuan Li, Yonghe Wang, Zhenjie Gao, Feilong Bao, Xiaodong Yang, Bo Pang, Yandong Guo*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/li26aa_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26aa_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1767)
 
-**TL;DR** — The paper introduces Weakly Masked Residual Reliability Learning (WMR2L), an unsupervised domain adaptation framework that combines confidence modeling and residual dispersion to weight pseudo-labels, achieving relative WER reductions of up to 25.0% on cross-domain speech tasks.
+**TL;DR** — The paper introduces Weakly Masked Residual Reliability Learning (WMR²L), an unsupervised domain adaptation framework that couples token-level residual dispersion confidence weighting with weak confidence masking and multi-perturbation consistency regularization to improve speech models in unseen domains. It achieves relative WER reductions of 13.8% on CHiME-4, 25.0% on SLURP, and 15.7% on CORAAL.
+
+## Key contributions
+
+- Proposed WMR²L, combining prediction confidence and non-maximum class residual dispersion to assign token-level weights that separate reliable predictions from overconfident ones.
+- Introduced a weak confidence masking strategy that mildly masks high-confidence tokens to prevent supervision bias and encourage contextual learning in complex regions.
+- Designed a multi-perturbation consistency regularization approach incorporating time-frequency masking, random resize crop, and parametric equalization to filter low-quality pseudo-labels via hypothesis diversity and WER scoring.
 
 ## Problem
 
-Unendowed end-to-end speech recognition models degrade significantly when exposed to unseen acoustic domains like noise or accents, but acquiring target-domain transcripts is expensive and privacy-constrained. While self-training and pseudo-labeling offer an alternative, standard confidence thresholds struggle under domain shift due to model overconfidence, leading to biased supervision or noisy updates. Simply filtering out uncertain predictions also removes critical training signals near complex decision boundaries.
+End-to-end ASR models suffer severe performance degradation when exposed to unseen domain shifts such as acoustic noise, human-machine interaction scenarios, or regional accents. While pseudo-labeling and consistency regularization are common remedies, standard methods rely on fixed thresholds or simple confidence scores that fail under model overconfidence, causing models to collapse onto overly confident tokens while neglecting complex decision boundaries. Prior consistency techniques also rely mostly on model-level perturbations (e.g., Gaussian noise) rather than comprehensive speech-level transformations.
 
 ## Method
 
-The WMR2L framework jointly calculates maximum token confidence and residual dispersion (the variance across non-maximum class probabilities) at the utterance level, feeding them into a Gaussian kernel to weight reliable pseudo-labels while dampening overconfident tokens. A weak confidence masking strategy then applies mild loss down-weighting to high-confidence regions rather than full removal, encouraging contextual learning in complex zones. Additionally, a multi-perturbation consistency regularization scheme filters pseudo-labels by evaluating transcription variance across diverse speech perturbations including spectral masking, temporal cropping, and parametric equalization. Experiments fine-tune Whisper-medium (and Whisper-large-v3) with Adam using a learning rate of 1e-5, batch size 1, gradient accumulation of 16, and 2 epochs.
+The framework operates on unlabeled target speech inputs $x_i \in \mathbb{R}^T$ with pseudo-labels $\hat{y} \in \mathbb{R}^{L \times V}$. For each token position $i$, the maximum prediction confidence $c_i = \max_v p_i(v)$ is computed, alongside the mean non-maximum class probability $d_i = \frac{1}{V-1} \sum_{v \neq \text{argmax}} p_i(v)$, which acts as the residual dispersion to reveal the structural spread of alternative classes. Both metrics are utterance-level normalized into $\mu_c, \sigma_c$ and $\mu_d, \sigma_d$, and combined via a Gaussian kernel controlled by smoothness parameter $\alpha = 2$ to yield token reliability weights.
+
+To address the risk of starving decision boundaries of training signals, a weak confidence masking strategy applies a random masking variable $R_i$ with masking ratio $r = 0.6$ on high-confidence regions, scaling down their loss contribution by factor $\lambda = 0.2$ instead of dropping them entirely. For consistency regularization, $K = M \times n$ trials are generated using $M = 3$ speech perturbation types (time-frequency masking, random resize crop, and parametric EQ) with $n = 3$ trials each. A consistency score $S$ combining hypothesis count $l$ and Word Error Rate is used to select the top $\tau = 80\%$ cleanest pseudo-labels for training.
+
+The models are optimized using the Adam optimizer with a learning rate of $1 \times 10^{-5}$, batch size 1, gradient accumulation of 16, and trained for 2 epochs. The primary base architecture evaluated is Whisper-medium, with additional scalability tests performed on Whisper-Large-v3.
+
+## Experimental setup
+
+Evaluated on CHiME-4 (noisy channel 1 train set; evaluated on real/simulated dev/test), CORAAL (3,000 African American English utterances split 2000/500/500), SLURP (spoken human-machine interaction commands), and CoVoST2 (multilingual speech translation for Estonian, Indonesian, and Welsh). Compared against baselines including unadapted Whisper, self-training, STAR, Confidence+MP, Margin+MP, Entropy+MP, and various WMR²L variants utilizing sampling, beam search, or lightweight neural uncertainty estimators (UA). Metrics used are Word Error Rate (WER % $\downarrow$) and BLEU ($\uparrow$). Models are implemented on Whisper-medium and Whisper-Large-v3.
 
 ## Results
 
-Evaluated on CHiME-4 (noisy), SLURP (human-machine interaction), and CORAAL (accented) datasets, WMR2L consistently outperforms baseline methods, yielding relative Word Error Rate (WER) reductions of 13.8% on CHiME-4, 25.0% on SLURP, and 15.7% on CORAAL. On multilingual speech translation using CoVoST2, the method improves BLEU scores (e.g., reaching 41.8 on Indonesian), closely approaching fully supervised performance. Scalability tests demonstrate consistent gains when applied to Whisper Large-v3. Ablation studies confirm that combining time-frequency masking, random resizing/cropping, and parametric equalization (m-r-eq) achieves the lowest test WER.
+WMR²L+MP consistently outperforms all baselines, achieving a relative WER reduction of 13.8% on CHiME-4 real-test (8.1% vs 9.4% baseline), 25.0% on SLURP test (12.6% vs 16.8% baseline), and 15.7% on CORAAL test (15.0% vs 17.8% baseline). When scaled to Whisper-Large-v3 on SLURP test, it lowers WER from 14.9% (zero-shot) and 13.5% (self-train) down to 12.0%. On the CoVoST2 speech translation task, WMR²L+MP achieves BLEU scores of 10.5 on Estonian, 41.8 on Indonesian, and 13.6 on Welsh. Ablations demonstrate that strong masking (SMR²L) hurts performance, while weak masking (WMR²L) combined with multi-perturbations (time-frequency masking, random resize crop, and EQ) yields the optimal WER.
+
+| System / Condition | CHiME-4 (real-test) | SLURP (test) | CORAAL (test) |
+|---|---|---|---|
+| Base: Whisper-medium | 9.4 | 16.8 | 17.8 |
+| Self-train | 9.4 | 15.7 | 17.2 |
+| STAR [24] | 8.9 | 15.1 | 16.8 |
+| Margin+MP [26] | 8.5 | 13.6 | 15.9 |
+| Entropy+MP [31] | 8.3 | 13.2 | 16.5 |
+| WMR²L+MP (Ours) | **8.1** | **12.6** | **15.0** |
+
+## Limitations
+
+The framework relies on offline pseudo-label generation stages requiring multi-perturbation decoding passes which add upfront computational overhead during data preparation. The hyperparameter choices (such as masking ratio $r$, threshold $\tau$, and loss scale $\lambda$) were tuned on specific corpora and may require recalibration for highly domain-divergent extreme acoustic environments or tonal languages.
+
+## Why read this
+
+Speech and ML researchers working on unsupervised domain adaptation will appreciate how WMR²L mathematically separates true confidence from overconfidence via residual dispersion, serving as a blueprint for robust pseudo-labeling without manual target annotations.
 
 ## Code
 
@@ -31,11 +65,7 @@ Evaluated on CHiME-4 (noisy), SLURP (human-machine interaction), and CORAAL (acc
 
 ## Applications
 
-Speech engineers and researchers adapting pretrained end-to-end speech recognition and speech translation models to target domains with limited unlabeled data.
-
-## Limitations
-
-The framework relies on multi-inferencing steps during the initial consistency scoring phase and requires hyperparameter tuning for masking ratios and smoothing coefficients.
+Unsupervised domain adaptation for robust automatic speech recognition in noisy environments, accented speech, and voice-controlled human-machine interaction systems.
 
 ## Related
 

@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1641
 isca_url: https://www.isca-archive.org/interspeech_2026/huang26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26l_interspeech.pdf
 session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
-topics: [speech-coding, self-supervised]
+topics: [speech-coding, self-supervised, multilingual]
 code:
     url: ""
     license: ""

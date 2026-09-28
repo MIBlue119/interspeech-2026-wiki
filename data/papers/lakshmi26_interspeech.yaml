@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-2368
 isca_url: https://www.isca-archive.org/interspeech_2026/lakshmi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lakshmi26_interspeech.pdf
 session: Queer and Trans Speech Science and Technology
-topics: [dataset, multilingual, spoken-language-understanding]
+topics: [speech-llm, paralinguistics, dataset]
 code:
     url: ""
     license: ""

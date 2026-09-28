@@ -1,29 +1,53 @@
 ---
 id: louro26_interspeech
 category: asr
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1595
 pdf: https://www.isca-archive.org/interspeech_2026/louro26_interspeech.pdf
 ---
 
 # ‘I have to talk proper white ways’: Australian Aboriginal English Speakers’ Experiences with Voice Technologies
 
+*Celeste Rodríguez Louro, Glenys Dale Collard, Hope Narrier, Katrina Cox, Lily Hayward, Daniel Colbung, Ben Hutchinson*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/louro26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/louro26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1595)
 
-**TL;DR** — This qualitative study investigates Australian Aboriginal English speakers' lived experiences with voice technologies, revealing widespread ASR failures that lead users to alter their voices to sound non-Indigenous.
+**TL;DR** — This study presents the first empirical investigation into the experiences of Australian Aboriginal English speakers using voice technologies, revealing that systemic ASR failures force users to modify their speech to sound non-Indigenous.
+
+## Key contributions
+
+- Conducted the first empirical study exploring how speakers of an indigenised local variety of a global language interact with voice technologies.
+- Provided qualitative evidence that ASR-powered systems frequently fail for Australian Aboriginal English speakers, who associate performance with race.
+- Documented how virtual assistants extend public pressures of linguistic assimilation into private spaces, requiring users to adopt a 'white voice' to gain accurate transcriptions.
+- Employed an Indigenous-led research methodology involving First Nations Research Assistants from the Nyungar Nation to ensure cultural safety and collaborative data interpretation.
 
 ## Problem
 
-Automated speech recognition systems are rapidly expanding globally, yet they frequently fail for minoritised language varieties, creating negative psychological impacts and forcing users to code-switch. While prior research has examined biases against African American English and other groups, the user experiences of Australian Aboriginal English speakers remain entirely unexplored. Because this contact variety is an important marker of ethno-cultural identity that is poorly supported by commercial technologies, understanding how users interact with voice assistants is vital for addressing systemic technological exclusion.
+Automated speech recognition technologies promise universal inclusion, yet commercial systems consistently perform poorly for minoritised language varieties like African American English or Native American speech. In Australia, colonisation has left Australian Aboriginal English as the primary communicative mode for most Indigenous people, yet this vibrant contact variety remains unsupported by mainstream language technologies. When ASR systems fail to recognise Aboriginal English, users experience frustration, anger, and self-blame regarding their intelligence, which reinforces historical colonial hierarchies and psychological harm.
 
 ## Method
 
-The study adopts an Indigenous-led qualitative research framework, partnering closely with an Indigenous Advisory Committee and First Nations research assistants from the Nyungar Nation. Semi-structured interviews, utilizing culturally appropriate conversational methods known as yarning, were conducted individually or in pairs. A total of 39 Indigenous participants aged 16 to 92, representing over 25 First Nations across Western Australia and the Northern Territory, were recruited based on their regular use of speech-enabled devices. The recorded data were transcribed and subjected to inductive and deductive thematic analysis.
+The study adopted a qualitative research design built on semi-structured, in-person interviews and written responses administered by Indigenous Research Assistants. A total of 39 participants aged 16 to 92 (median age 33, predominantly from the Nyungar Nation alongside over 25 other First Nations groups across Western Australia and the Northern Territory) were interviewed in private homes and relaxed environments. Interviews relied on culturally appropriate conversational styles, such as 'yarning', to accommodate pragmatic norms like avoiding direct questions and mitigating gratuitous concurrence.
+
+Recorded audio data was transcribed, filtering out non-technology topics to protect participant privacy, and evaluated via thematic analysis following inductive and deductive coding procedures. The analytical process involved recurring collaborative discussions between the academic investigators and the Indigenous Research Assistants to review, refine, and contextualize emerging themes within broader frameworks of linguistic minoritisation and decolonial technology development.
+
+## Experimental setup
+
+The dataset comprised audio-recorded interviews from 39 Indigenous participants representing over 25 First Nations across Western Australia and the Northern Territory, with a median interview duration of 38 minutes. Qualitative thematic analysis was performed on the resulting transcripts following institutional review board approval and regular consultations with an Indigenous Advisory Committee. The study compared user perceptions across various commercial voice-enabled devices, virtual assistants, in-car navigation systems, and automated telephone lines like Centrelink.
 
 ## Results
 
-Participant interviews revealed that ASR technologies frequently fail to handle the unique phonological, grammatical, and lexical features of Australian Aboriginal English. These technical failures induce strong feelings of frustration, anger, and self-blame, with users questioning their own intelligence or education and ultimately abandoning voice technology features. Furthermore, users associate ASR performance directly with race, reporting that the systems work better for white speakers and experiencing significant pressure to modify their speech patterns to sound non-Indigenous to achieve successful recognition.
+Participants reported widespread frustration and system abandonment due to ASR failing to handle local vocabulary (such as 'dardy') and phonological differences inherent to Australian Aboriginal English. Users frequently blamed themselves for the technology's shortcomings, questioning their intelligence or education level, and reported adopting linguistic code-switching strategies—such as putting on a 'proper white voice' or speaking 'white way'—to achieve accurate performance. The study did not evaluate baseline quantitative word error rates across automated systems, focusing instead on capturing the lived emotional, psychological, and social impacts of misrecognition.
+
+## Limitations
+
+The research is geographically bound to Australia and reflects the specific historical legacy of settler colonialism and language loss in that region. Distrust of academic institutions within Indigenous communities may have self-selected participants who felt comfortable engaging with the research team. Because Aboriginal English lacks a standardized orthography, reliance on qualitative thematic analysis of transcribed oral interactions introduces interpretive challenges inherent to re-contextualizing spoken contact varieties.
+
+## Why read this
+
+Speech and ML engineers building spoken language technologies and voice assistants should read this paper to understand the real-world psychological and social harms inflicted by algorithmic bias on minoritised language communities. It challenges technical assumptions about universal coverage and highlights the necessity of community-governed dataset curation.
 
 ## Code
 
@@ -31,11 +55,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech engineers, user experience designers, and policymakers seeking to build more equitable, inclusive voice technologies and evaluate bias in speech recognition.
-
-## Limitations
-
-The study relies on a qualitative sample of 39 participants predominantly from Western Australia and the Nyungar group, meaning findings may not fully capture the entire spectrum of Aboriginal English varieties across the country.
+Development of inclusive, community-governed speech recognition systems and culturally safe voice technologies for minoritised indigenous language varieties.
 
 ## Related
 

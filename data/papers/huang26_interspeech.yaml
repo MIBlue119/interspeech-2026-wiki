@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-267
 isca_url: https://www.isca-archive.org/interspeech_2026/huang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26_interspeech.pdf
 session: Spoken Language Understanding
-topics: [spoken-language-understanding, multimodal, evaluation]
+topics: [spoken-language-understanding, self-supervised, multilingual]
 code:
     url: ""
     license: ""

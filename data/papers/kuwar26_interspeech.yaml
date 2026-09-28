@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-2262
 isca_url: https://www.isca-archive.org/interspeech_2026/kuwar26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kuwar26_interspeech.pdf
 session: Audio-Visual Grounding, Synchronization & Video Understanding
-topics: [multilingual, self-supervised, evaluation]
+topics: [speech-llm, multilingual, self-supervised]
 code:
     url: https://bhavin-19.github.io/vinayaka-interspeech26/
     license: ""

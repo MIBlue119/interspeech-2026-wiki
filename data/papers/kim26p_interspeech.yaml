@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-2055
 isca_url: https://www.isca-archive.org/interspeech_2026/kim26p_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26p_interspeech.pdf
 session: Text Processing for Speech Synthesis
-topics: [tts, low-resource, phonetics]
+topics: [tts, low-resource, self-supervised]
 code:
     url: ""
     license: ""

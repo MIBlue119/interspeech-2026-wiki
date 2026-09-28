@@ -1,29 +1,61 @@
 ---
 id: huo26_interspeech
 category: self-supervised
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2676
 pdf: https://www.isca-archive.org/interspeech_2026/huo26_interspeech.pdf
 ---
 
 # Do speech foundation models really learn words?
 
+*Robin Huo, Ewan Dunbar*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/huo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2676)
 
-**TL;DR** — By using residualization to remove phonemic information from speech foundation models, the authors demonstrate that HuBERT and wav2vec 2.0 independently encode word identities in their middle-to-late transformer layers, which enhances unsupervised word discovery performance.
+**TL;DR** — This paper investigates whether speech foundation models genuinely learn word-level representations or merely encode local phonetic form. Using a ridge regression residualization technique on LibriSpeech, the authors show that HuBERT and wav2vec 2.0 encode word identity independently of local phonemes in their later transformer layers, and that removing phonemic information improves unsupervised word discovery.
+
+## Key contributions
+
+- Applies linear ridge regression residualization to isolate and subtract out phoneme, diphone, and triphone information from speech foundation model embeddings.
+- Demonstrates that HuBERT and wav2vec 2.0 retain high frame-level word classification accuracy (>90%) even after residualizing out phonemes, diphones, and triphones.
+- Shows that removing phonemic information via residualization improves normalized edit distance (NED) and F1-score in unsupervised word discovery tasks.
+- Highlights that standardization (zero mean, unit variance) of representations prior to residualization is strictly necessary to prevent distribution-shape artifacts from dominating linear classifiers.
 
 ## Problem
 
-Self-supervised speech models successfully pass word-level probing tasks, but it remains unclear whether they truly represent abstract word identity or simply encode fine-grained phonemic form (diphones and triphones) from which words can be trivially recognized. Because standard cosine similarity and probing methods conflate phonological form with lexical meaning, existing evaluations fail to determine if these representations possess independent word-level properties. Resolving this ambiguity is critical for understanding what linguistic structures speech foundation models actually capture.
+Prior probing studies claiming that self-supervised speech models encode word identity and semantic features suffer from a confounding factor: words are bundles of phonemes, and models are already highly discriminative of phonemes. Because cosine similarities and standard linear probes can be driven by local phonological form (the signifier) rather than independent lexical properties (the signified), it remains unclear whether these models actually learn form-independent word tokens. This ambiguity hinders progress in understanding why speech foundation models lag behind text-based models in semantic and lexicon discovery tasks.
 
 ## Method
 
-The study applies a linear residualization technique using ridge regression to subtract phoneme, diphone, and triphone variations from the standardized hidden representations of base-size HuBERT and wav2vec 2.0 models trained on the LibriSpeech dev-clean dataset. The regularization weight alpha is log-searched between 1 and 0.0001 to estimate factor-level means without full-word contamination, and standardized frame embeddings are evaluated using five-fold cross-validation with softmax linear probes. Additionally, the authors test the residualized representations on an unsupervised word discovery pipeline consisting of boundary detection and k-means clustering (fixing k=13,967 on Layer 9 of HuBERT).
+The study analyzes base variants of HuBERT and wav2vec 2.0 using pre-trained fairseq checkpoints, evaluating representations from the final convolutional layer and all 12 transformer layers on the LibriSpeech dev-clean split. Features are first standardized to zero mean and unit variance. To remove local phonetic context, a ridge regression model with weight decay alpha (tuned logarithmically between 1 and 0.0001) is trained to predict individual representation frames from one-hot encodings of phonemes, left diphones, right diphones, or triphones; the predicted components are then subtracted to yield residualized embeddings.
+
+To avoid inadvertently scrubbing true word representations, any training instances where a phoneme, diphone, or triphone completely contains the corresponding gold word are excluded from the regression fit. A five-fold cross-validated softmax linear probe is then trained on these residualized frames to evaluate word identity classification. For word discovery, HuBERT layer 9 features are passed through an adjacent-frame dissimilarity peak detection algorithm (using a window size of 3-8 and prominence threshold of 0-1) followed by k-means clustering with k = 13,967.
+
+## Experimental setup
+
+Evaluated on the dev-clean split of the LibriSpeech dataset (English), using gold alignments to map frames to 42 phoneme categories and 8,217 word types. Compared across HuBERT-base and wav2vec 2.0-base across raw representations, phoneme-residualized, diphone-residualized, and triphone-residualized conditions. Metrics include frame-level word classification accuracy, phoneme validation accuracy, normalized edit distance (NED), token F1-score, and R-value for word discovery with a 20 ms boundary tolerance.
 
 ## Results
 
-Across models, residualizing out phonemes drops phoneme classification accuracy significantly while preserving robust word-identity classification in middle-to-late transformer layers (peaking at over 90% accuracy in layers 9-10 for HuBERT and layers 7-8 for wav2vec 2.0). Even after removing triphone information, word classification performance remains well above baseline length and triphone expectations, particularly for words of lengths 3 to 6. For unsupervised word discovery using HuBERT layer 9, removing phoneme targets consistently improves normalized edit distance (NED), token F1-score, and R-values across multiple boundary detection hyperparameter settings.
+After phoneme residualization, word classification accuracy in later layers (peaking at layers 9-10 for HuBERT and 7-8 for wav2vec 2.0) remains robust, exceeding 90% for longer words, proving that models encode word identity beyond local triphone sequences. In unsupervised word discovery using HuBERT layer 9, removing phoneme information improves the best NED from 0.443 to 0.439 and token F1 from 0.175 to 0.178 across baseline hyperparameter configurations. Conversely, residualizing out triphones harms word segmentation performance, as local phoneme transition probabilities inherently assist boundary detection.
+
+| System / Condition | NED (↓) | F1 (↑) | R (↑) |
+|---|---|---|---|
+| Raw (Malan et al. baseline) | 0.508 | 0.162 | 0.513 |
+| − Phoneme | 0.463 | 0.169 | 0.513 |
+| − Diphone-L | 0.490 | 0.162 | 0.506 |
+| − Diphone-R | 0.474 | 0.160 | 0.502 |
+| − Triphone | 0.556 | 0.136 | 0.474 |
+
+## Limitations
+
+The primary practical limitation is the reliance on precise gold phonemic alignments for residualization, which are unavailable in low-resource or unsupervised settings. Additionally, the exclusion of monophonemic words from the regression training data prevents complete eradication of linear phoneme information (leaving phoneme probe accuracies above chance level). The evaluation is currently restricted to English LibriSpeech, leaving multilingual and cross-lingual generalizability unverified.
+
+## Why read this
+
+Speech and ML researchers investigating interpretability and self-supervised representation geometry will find this a definitive methodological blueprint for disentangling low-level acoustics from higher-order lexical properties. It provides critical insight into what foundation models actually learn inside their middle-to-late transformer layers.
 
 ## Code
 
@@ -31,11 +63,7 @@ Across models, residualizing out phonemes drops phoneme classification accuracy 
 
 ## Applications
 
-Speech researchers and machine learning engineers analyzing or interpreting self-supervised speech representations, as well as developers working on low-resource unsupervised speech segmentation and lexicon discovery.
-
-## Limitations
-
-The linear residualization approach falls slightly short of reducing phoneme probe classification accuracy to true chance level, and the technique only verifies word-identity encoding rather than full semantic or syntactic understanding.
+Unsupervised lexicon discovery, low-resource spoken language processing, and representation engineering for textless language models.
 
 ## Related
 

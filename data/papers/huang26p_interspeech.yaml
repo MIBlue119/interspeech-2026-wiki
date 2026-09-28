@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-3532
 isca_url: https://www.isca-archive.org/interspeech_2026/huang26p_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26p_interspeech.pdf
 session: Speech Emotion Recognition and Representation 2
-topics: [emotion-recognition, self-supervised, multimodal]
+topics: [paralinguistics, emotion-recognition, self-supervised]
 code:
     url: ""
     license: ""

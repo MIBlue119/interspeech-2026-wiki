@@ -1,29 +1,63 @@
 ---
 id: im26_interspeech
-category: tgen
-updated: 2026-09-28
+category: speech-llm
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-248
 pdf: https://www.isca-archive.org/interspeech_2026/im26_interspeech.pdf
 ---
 
 # PF-D2M: A Pose-free Diffusion Model for Universal Dance-to-Music Generation
 
+*Jaekwon Im, Natalia Polouliakh, Taketo Akama*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/im26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/im26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-248)
 
-**TL;DR** — PF-D2M is a pose-free diffusion model for universal dance-to-music generation that uses video visual features and progressive training to achieve state-of-the-art alignment and audio quality across diverse scenarios.
+**TL;DR** — PF-D2M is a pose-free diffusion model for universal dance-to-music generation that uses video visual features and a progressive multi-stage training recipe, achieving state-of-the-art performance on rhythm alignment and music quality.
+
+## Key contributions
+
+- Proposes a pose-free universal dance-to-music generation framework (PF-D2M) capable of handling multiple and non-human dancers without brittle keypoint extractors.
+- Incorporates a pre-trained Synchformer visual encoder to extract rich temporal visual features directly from raw dance frames.
+- Introduces a progressive three-stage training strategy (Text-to-Audio initialization, VGGSound alignment, and multimodal fine-tuning) to combat severe data scarcity.
+- Curates a filtered 191-hour text-to-music and video-to-audio training diet using automated source separation and Voice Activity Detection.
 
 ## Problem
 
-Traditional dance-to-music systems rely heavily on motion features or 2D keypoints extracted from a single human dancer, which causes performance bottlenecks for multiple performers or non-human characters and leads to jitter. Furthermore, public dance-to-music datasets like AIST++ are extremely scarce, containing only 60 unique songs with simple backgrounds, causing severe overfitting and poor generalization to in-the-wild videos. These limitations prevent existing models from producing studio-quality, diverse musical accompaniments for real-world creative workflows.
+Prior dance-to-music generation models rely heavily on motion features extracted from a single human dancer via 3D SMPL models or 2D keypoints (e.g., HRNet), making them fail on multiple performers, animated characters, or complex in-the-wild camera angles. Furthermore, existing public datasets like AIST++ provide only 60 unique songs, causing extreme overfitting and memorization in deep generative models. Overcoming this data bottleneck is critical for producing musically diverse, studio-quality, synchronized audio for real-world creative workflows.
 
 ## Method
 
-PF-D2M adopts a Diffusion Transformer (DiT) architecture initialized with Stable Audio Open weights, leveraging a pre-trained VAE to compress stereo audio into latents. Instead of joint poses, it extracts global video representations using Synchformer, upsampling and conditioning the DiT via 1D convolutions and adaptive layer normalization (AdaLN) timestep summations alongside T5-based text prompt cross-attention. To overcome data scarcity, the model employs a three-step progressive training recipe: Stage 0 initializes text-to-audio weights; Stage 1 trains on VGGSound (500 hours) for raw audio-visual synchronization; and Stage 2 fine-tunes on a mixed dataset ratio of 2:4:1 combining AIST++ (dance-to-music), FMA and MoisesDB (text-to-music), and VGGSound using Qwen2-Audio generated tags. Classifier-free guidance with DPM-Solver++ is utilized during 100-step inference.
+PF-D2M adopts the Stable Audio Open architecture utilizing a DiT backbone and a pre-trained VAE that compresses 44.1 kHz stereo audio into latent representations. The model conditions on three sources: text captions via a T5-base cross-attention mechanism, diffusion timesteps via sinusoidal embeddings, and dense visual features extracted from video frames (at 25 fps) via Synchformer.
+
+The visual features are upsampled via nearest-neighbor interpolation, projected using 1D convolutions to match channel dimensions, and concatenated directly with the DiT input. Simultaneously, they are projected via linear layers and injected into every DiT layer using frame-wise scales and biases in adaptive layer normalization (AdaLN) alongside timestep embeddings. Both text and visual conditioning are dropped out with a 10% probability for classifier-free guidance.
+
+The training recipe is split into three progressive stages: Stage 0 initializes weights from Stable Audio Open while zero-initializing new modules. Stage 1 trains on 500 hours of VGGSound for general audio-visual synchronization using Qwen-Audio captions. Stage 2 fine-tunes on a multi-modal mixture of AIST++ (dance-to-music), filtered FMA and MoisesDB (text-to-music), and VGGSound in a 2:4:1 dataset ratio. Text prompts are constructed stochastically from tags generated by Qwen2-Audio. Inference employs DPM-Solver++ with 100 steps and a guidance scale of 5.0.
+
+## Experimental setup
+
+Evaluated on the AIST++ test set (reserving specific unseen tracks mBR0, mMH0, mLO2, and mJB5) and an in-the-wild benchmark of 20 challenging videos spanning single/multiple human and non-human dancers. Compared against CDCD, LORIS, and Text-Inv using objective rhythm metrics (BCS, CSD, BHS, HSD, F1) and subjective 5-point Likert scale listening tests administered to 20 participants. Implemented with batch size 128 using AdamW optimizer.
 
 ## Results
 
-Evaluated on the AIST++ test set using LORIS benchmark splits (BCS, CSD, BHS, HSD, and F1), PF-D2M outperforms baselines like CDCD, LORIS, and Text-Inv, achieving a Beat Hit Score (BHS) of 99.8, Hit Standard Deviation (HSD) of 1.9, and F1 score of 94.3. Subjective listening tests across 20 challenging in-the-wild video samples (encompassing single/multiple human and non-human dancers) rated by 20 participants show that PF-D2M significantly surpasses competing models in both dance-music alignment and perceived music quality. Ablations confirm that Stage 2 fine-tuning is crucial for resolving the abrupt structural transitions and environmental noise present in Stage 1 outputs.
+On the AIST++ test set, PF-D2M (Stage 2) achieves state-of-the-art results across key rhythm metrics, yielding a Beat Hit Score (BHS) of 99.8% (vs 95.3% for LORIS and 80.9% for Text-Inv) and an F1 score of 94.3%. In subjective evaluations across in-the-wild categories, PF-D2M significantly outperforms baselines in both perceptual music quality and dance-music alignment, showing exceptional robustness on multi-cut and multi-dancer videos.
+
+| Method | BCS↑ | CSD↓ | BHS↑ | HSD↓ | F1↑ |
+|---|---|---|---|---|---|
+| CDCD | 89.2 | 9.0 | 93.8 | 10.0 | 91.5 |
+| LORIS | 89.9 | 8.9 | 95.3 | 8.9 | 92.5 |
+| Textual-Inv | 90.6 | 11.1 | 80.9 | 28.3 | 85.5 |
+| PF-D2M (S1) | 90.5 | 13.1 | 91.2 | 18.6 | 90.9 |
+| PF-D2M (S2) | 89.4 | 8.1 | 99.8 | 1.9 | 94.3 |
+
+## Limitations
+
+The generated audio clips are restricted to relatively short durations (7.98-second training clips, 5.12-second evaluation windows) due to underlying diffusion architecture constraints, preventing the generation of full-length, structurally progressive musical tracks. The lack of standardized, large-scale dance-to-music evaluation benchmarks also limits comprehensive objective validation.
+
+## Why read this
+
+Researchers and audio-video engineers should read this paper to see how replacing brittle pose estimation with raw-video visual transformers (Synchformer) and multi-stage progressive training dramatically expands the domain generality of audio generation models.
 
 ## Code
 
@@ -31,11 +65,7 @@ Evaluated on the AIST++ test set using LORIS benchmark splits (BCS, CSD, BHS, HS
 
 ## Applications
 
-Choreographers, performers, and digital content creators generating synchronized background music from arbitrary dance videos, including multi-dancer routines and animated character performances.
-
-## Limitations
-
-The generated music clips are relatively short compared to real-world use cases, and standard objective rhythm metrics struggle to comprehensively evaluate perceived audio fidelity.
+Automated choreography sound-tracking, video content creation tools, and real-time interactive performance systems for digital avatars and human dancers.
 
 ## Related
 

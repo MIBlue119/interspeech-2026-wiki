@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-1480
 isca_url: https://www.isca-archive.org/interspeech_2026/kovalev26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kovalev26_interspeech.pdf
 session: Audio Understanding and Representation Learning
-topics: [paralinguistics, self-supervised, on-device]
+topics: [speech-llm, self-supervised, evaluation]
 code:
     url: https://github.com/vsevolod-kovalev/seam
     license: ""

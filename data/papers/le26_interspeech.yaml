@@ -11,7 +11,7 @@ doi: 10.21437/Interspeech.2026-497
 isca_url: https://www.isca-archive.org/interspeech_2026/le26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/le26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
-topics: [speaker-anonymization, self-supervised, speech-synthesis]
+topics: [speaker-anonymization, self-supervised, voice-conversion]
 code:
     url: https://submission.netlify.app/
     license: ""

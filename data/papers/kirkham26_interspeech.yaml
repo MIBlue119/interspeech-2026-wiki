@@ -7,7 +7,7 @@ doi: 10.21437/Interspeech.2026-1804
 isca_url: https://www.isca-archive.org/interspeech_2026/kirkham26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kirkham26_interspeech.pdf
 session: Modeling Articulation
-topics: [phonetics, prosody, evaluation]
+topics: [speech-production, prosody, self-supervised]
 code:
     url: https://github.com/samkirkham/PyPhonPlan
     license: ""

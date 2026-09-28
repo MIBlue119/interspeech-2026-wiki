@@ -1,29 +1,63 @@
 ---
 id: lugo26_interspeech
 category: speech-enhancement
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2337
 pdf: https://www.isca-archive.org/interspeech_2026/lugo26_interspeech.pdf
 ---
 
 # DiffVQE: Hybrid Diffusion Voice Quality Enhancement Under Acoustic Echo and Noise
 
+*Haljan Lugo, Ernst Seidel, Pejman Mowlaee, Ziyue Zhao, Tim Fingscheidt*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/lugo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lugo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2337)
 
-**TL;DR** — DiffVQE is a hybrid score-based diffusion model for simultaneous acoustic echo control and denoising that outperforms the state-of-the-art DeepVQE in most voice quality metrics while using fewer parameters and lower computational complexity.
+**TL;DR** — DiffVQE is the first fully reproducible, single-step hybrid diffusion-based acoustic echo control and noise reduction model, outperforming Microsoft's discriminative DeepVQE in speech quality and intelligibility while using significantly less computational complexity (4.32 GFLOPS).
+
+## Key contributions
+
+- Introduces the first fully reproducible hybrid diffusion-based AEC and denoising model (DiffVQE) with publicly accessible training data.
+- Applies a single-step score-based diffusion formulation adapted from EffDiffSE to drastically reduce inference computational load.
+- Proposes architectural modifications to U-Net backbones, replacing strided convolutions with subpixel convolutions to mitigate aliasing.
+- Achieves superior near-end speech quality, intelligibility, and lower model complexity/size compared to the state-of-the-art DeepVQE baseline.
 
 ## Problem
 
-Discriminative mask-based deep neural networks for acoustic echo control (AEC) often introduce audible artifacts in non-stationary environments and struggle to balance aggressive echo suppression with near-end speech preservation during double-talk scenarios. Meanwhile, generative diffusion models have excelled in noise reduction and speech enhancement, but adapting them to joint AEC tasks has been largely unexplored, non-reproducible, or computationally prohibitive. Providing a fully reproducible, high-performance hybrid diffusion architecture trained on diverse public data is therefore a critical step forward for hands-free communication systems.
+Joint acoustic echo control (AEC) and noise reduction in hands-free speakerphones require suppressing far-end reference signals nonlinearly distorted by loudspeakers and room acoustics while preserving near-end speech quality. Classical DSP methods combined with small neural networks or purely discriminative deep models (like DeepVQE) often struggle to balance aggressive echo suppression with preserving natural speech details, frequently introducing artifacts during double-talk scenarios. Furthermore, prior generative diffusion approaches for AEC lacked public reproducibility, clear mathematical formulations for reference signal fusion, or relied on private datasets.
 
 ## Method
 
-The system employs a dual-stage hybrid architecture featuring a conditional discriminative U-Net (Cond DNN) for robust early echo suppression and feature conditioning, paired with a generative U-Net (Score DNN) operating via a variance-exploding stochastic differential equation. The far-end reference signal is concatenated early with the microphone input in the Cond DNN, and single-step diffusion training is conducted using compressed complex mean squared error loss combined with a denoising score matching objective. The U-Net encoder-decoder backbones use DSBlock and USBlock building blocks with subpixel convolutions instead of transposed convolutions to mitigate aliasing, alongside Karras preconditioning for training stability. The model is trained on approximately 600 hours of data curated from the Interspeech 2025 URGENT Challenge speech/noise corpora and the ICASSP 2023 AEC Challenge, augmented via simulated room impulse responses.
+DiffVQE uses a hybrid two-stage architecture comprising a discriminative Cond DNN and a generative Score DNN sharing a U-Net backbone. The Cond DNN takes early-fused microphone signal Y and far-end reference signal X as inputs via channel concatenation to perform robust initial echo suppression, yielding intermediate estimate S^_cond and condition C. The Score DNN then operates in the frequency domain via a single-step variance-exploding (VE) stochastic differential equation (SDE) score-matching framework, solving the reverse diffusion process using noise-consistent Langevin dynamics at a fixed diffusion time t~ = T = 0.3.
+
+The training loss combines the compressed complex mean squared error (CCMSE) applied to both the conditional and final score outputs along with a denoising score-matching loss weighted by hyperparameter alpha = 0.005. The network architecture replaces standard transposed convolutions with subpixel convolutions to eliminate aliasing, and includes specialized DSBlock/USBlock modules. Base and small variants adjust channel dimensions across layers (e.g., base channels {11, 16, 23, 33, 50}).
+
+During inference, the non-causal pipeline processes 16 kHz audio through a K-point STFT (frame length 512, hop size 128, square-root Hann window, frequency bins padded from K=257 to 260) with far-end delay compensation via GCC-PHAT, running efficiently as a single-step model.
+
+## Experimental setup
+
+Models were trained on ~600 hours of synthetic data (71,777 samples, 30s each) generated using the Interspeech 2025 URGENT Challenge corpora, filtered via DNSMOS, SigMOS, UTMOS, NISQA, and SQUIM SDR, plus 23 hours from the ICASSP 2023 AEC Challenge. Validation used D_val (TIMIT, ETSI noise, Aachen impulse responses) and testing used the reverberant blind test set D_test from the ICASSP 2023 AEC Challenge. Baselines included unprocessed signals, clean references, and a retrained DeepVQE model. Evaluation metrics encompassed AECMOS (DT/ST Echo, DT/ST Other), DNSMOS (OVRL, SIG, BAK), PESQ, LPS (Levenshtein phone similarity), and ESTOI, alongside parameter count, FLOPS, and RTF measured on an AMD EPYC 9575F CPU.
 
 ## Results
 
-Evaluated on the synthetic Dval validation set and the ICASSP 2023 AEC Challenge blind test set (Dtest ), DiffVQE is compared against unprocessed audio, clean signals, and Microsoft's DeepVQE baseline. On Dval , the full DiffVQE model achieves an average rank of 1.3 across metrics, outperforming DeepVQE (rank 2.5) and a smaller variant DiffVQE-S (rank 2.0) across speech quality (PESQ), intelligibility (ESTOI, LPS), and non-intrusive AECMOS/DNSMOS scores. Specifically, on Dval , DiffVQE reaches a DT PESQ of 2.63 (vs 2.30 for DeepVQE) and STNE PESQ of 3.14 (vs 2.58), while utilizing 5.13 million parameters and 5.37 GFLOPS (compared to DeepVQE's 5.29 million parameters and 42.24 GFLOPS). On the Dtest blind set, DiffVQE secures the top average rank of 1.17, leading in nearly all metrics except for a slight margin in DT Echo where DeepVQE scores marginally higher.
+On the validation set D_val, DeepVQE achieved slightly better echo suppression (DT Echo 4.66 vs 4.65 for DiffVQE), but DiffVQE consistently outperformed it across quality and intelligibility metrics, achieving a top average rank of 1.3 compared to DeepVQE's 2.5. Specifically, DiffVQE reached a PESQ of 2.63 (vs 2.30 for DeepVQE) and ESTOI of 0.68 (vs 0.60). Similar gains appeared on the ICASSP 2023 D_test blind set, where DiffVQE secured an average rank of 1.17. Notably, the smaller variant DiffVQE-S achieved these gains with only 3.43M parameters and 4.32 GFLOPS (an RTF of 0.172), consuming roughly 10.3% of the computational complexity of DeepVQE (42.24 GFLOPS).
+
+| Method | # Param. | # FLOPS | RTF | DT Echo | DT Other | PESQ | ESTOI | Avg. Rank ↓ |
+|---|---|---|---|---|---|---|---|---|
+| Unprocessed | — | — | — | 1.70 | 4.01 | 1.62 | 0.41 | — |
+| Clean | — | — | — | 4.58 | 4.21 | 4.64 | 1.00 | — |
+| DeepVQE | 5.29M | 42.24G | 0.317 | **4.66** | 3.83 | 2.30 | 0.60 | 2.5 |
+| DiffVQE-S | **3.43M** | **4.32G** | **0.172** | 4.63 | 4.05 | 2.50 | 0.65 | 2.0 |
+| DiffVQE | 5.13M | 5.37G | 0.185 | 4.65 | **4.10** | **2.63** | **0.68** | **1.3** |
+
+## Limitations
+
+The model is currently non-causal, which precludes real-time deployment on ultra-low-latency edge applications without buffering adjustments. The evaluation relies primarily on simulated acoustic echo datasets and synthetic room impulse responses rather than complex real-world recorded dual-talk scenarios with severe unmodelled hardware distortions. Language coverage and generalization are bounded by the underlying English-dominated training corpora (TIMIT and URGENT challenge datasets).
+
+## Why read this
+
+Speech and audio researchers building generative enhancement pipelines should read this paper to see how single-step score-based diffusion can match or exceed discriminative state-of-the-art AEC models while drastically reducing computational overhead. It provides a blueprint for reproducible hybrid diffusion architectures complete with data preprocessing recipes.
 
 ## Code
 
@@ -31,11 +65,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Engineers building hands-free communication systems, speakerphones, and voice communication devices requiring robust background noise reduction and acoustic echo control.
-
-## Limitations
-
-The proposed approach is currently non-causal.
+Hands-free communication systems, smart speakers, automotive speakerphones, and teleconferencing software requiring simultaneous acoustic echo cancellation and background noise suppression.
 
 ## Related
 

@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-2931
 isca_url: https://www.isca-archive.org/interspeech_2026/lee26v_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26v_interspeech.pdf
 session: Articulatory, EMG, and Visual Speech Generation
-topics: [asr, speech-synthesis, evaluation]
+topics: [tts, speech-enhancement, dataset]
 code:
     url: https://github.com/jiwonlee-0218/SVAETS
     license: ""

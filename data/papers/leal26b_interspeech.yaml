@@ -11,7 +11,7 @@ doi: 10.21437/Interspeech.2026-742
 isca_url: https://www.isca-archive.org/interspeech_2026/leal26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/leal26b_interspeech.pdf
 session: Clinically Useful Speech Representations 2
-topics: [paralinguistics, emotion-recognition, self-supervised]
+topics: [paralinguistics, speech-llm, self-supervised]
 code:
     url: ""
     license: ""
