@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-743
 isca_url: https://www.isca-archive.org/interspeech_2026/tanner26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tanner26_interspeech.pdf
 session: Tools and Techniques for Phonetic Analysis
-topics: [phonetics, asr]
+topics: [phonetics, dataset, evaluation]
 code:
-    url: ""
+    url: https://github.com/james-tanner/wav2VOT
     license: ""
 open_to_collaboration: false

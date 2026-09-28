@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2165
 isca_url: https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tse26_interspeech.pdf
 session: Audio Watermarking and Source Verification
-topics: [tts, evaluation]
+topics: [tts, evaluation, self-supervised]
 code:
     url: ""
     license: ""

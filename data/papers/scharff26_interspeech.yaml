@@ -4,11 +4,12 @@ authors:
     - Gabriel Scharff
     - Megha Sundara
 year: 2026
+doi: 10.21437/Interspeech.2026-2920
 isca_url: https://www.isca-archive.org/interspeech_2026/scharff26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/scharff26_interspeech.pdf
 session: Modeling L1 Acquisition
-topics: []
+topics: [phonetics, evaluation, low-resource]
 code:
-    url: ""
+    url: https://doi.org/10.5281/zenodo.20767608
     license: ""
 open_to_collaboration: false

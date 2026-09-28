@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-124
 isca_url: https://www.isca-archive.org/interspeech_2026/stanek26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/stanek26b_interspeech.pdf
 session: 'Safeguards for Synthetic Speech: Ethical, Technical, and Legal Perspectives'
-topics: [dataset, evaluation]
+topics: [evaluation, dataset, audio-deepfake]
 code:
-    url: ""
+    url: https://security-fit.github.io/deepfake_speech_datasets_app/
     license: ""
 open_to_collaboration: false

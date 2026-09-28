@@ -1,26 +1,29 @@
 ---
 id: sun26c_interspeech
 category: prosody
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1062
+pdf: https://www.isca-archive.org/interspeech_2026/sun26c_interspeech.pdf
 ---
 
 # Non-linear Effects of Semantic Relevance on Word Duration in Spontaneous Speech
 
-**TL;DR** — Modeling word duration non-linearly reveals that semantic relevance to local context predicts spoken word duration independently of frequency and length, generally speeding production but lengthening highly context-central low-frequency words.
+[PDF](https://www.isca-archive.org/interspeech_2026/sun26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1062)
+
+**TL;DR** — Semantic relevance significantly predicts word duration in spontaneous speech through a non-linear U-shaped effect, improving AIC fit compared to standard linear controls.
 
 ## Problem
 
-Word duration in spontaneous speech reflects lexical access, predictability, and speech planning, but semantic context's effect on duration is typically approximated indirectly and modeled linearly, potentially missing more complex patterns.
+Traditional measures of word predictability like lexical frequency and n-gram probability only capture surface-level transitions and model context linearly, overlooking deeper semantic relationships. This limitation obscures how contextual semantic support modulates lexical retrieval ease, articulatory preparation, and speech timing in spontaneous conversation.
 
 ## Method
 
-Using the Buckeye Corpus, the authors analyze word-level timing data with generalized additive mixed models (GAMMs) to capture potential non-linear effects of semantic relevance (a metric quantifying relatedness between a target word and its local context) on word duration, while accounting for speaker variability and standard linguistic controls.
+The study uses 262,342 word tokens from the Buckeye Corpus of Conversational Speech, analyzing timing data with Generalized Additive Mixed Models (GAMMs) implemented via the mgcv package. Semantic relevance is quantified using a recency-weighted sum of cosine similarities between 300-dimensional pretrained fastText embeddings of a target word and its three preceding context words (using decay weights 0.9, 0.6, and 0.3). Control predictors include word length, log word frequency, phrase rate, phonological deletions, and speaker identity as a random effect.
 
 ## Results
 
-Semantic relevance is a significant predictor of word duration independent of word frequency and length; increased semantic relevance generally speeds production, but highly context-central words show longer durations, particularly for low-frequency items, and the effect appears frequency-dependent.
+Model comparisons via AIC show that including semantic relevance (Model M1, AIC -471,129.9) provides a superior fit compared to removing it (Model M4, delta AIC = 23.2). Semantic relevance exhibits a significant non-linear (U-shaped) relationship with word duration (p < 0.001), showing facilitation (shorter durations) at low-to-moderate levels and lengthening at high levels. Stratified analyses reveal this semantic relevance effect is strong for low-frequency words (F = 18.90, p < 0.0001) but absent for high-frequency items (F = 1.29, p = 0.256).
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Informs psycholinguistic models of speech production/timing and could improve duration modeling in TTS prosody systems.
+Speech and language engineers can use these cognitively grounded timing predictors to improve human-like prosody generation and speech synthesis models that currently rely purely on next-token prediction.
+
+## Limitations
+
+The analysis is restricted to monologic spontaneous speech from English sociolinguistic interviews and excludes utterance-initial words with fewer than three preceding context words.
 
 ## Related
 

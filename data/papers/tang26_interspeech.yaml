@@ -5,10 +5,11 @@ authors:
     - Chaoyi Sun
     - Chao Cai
 year: 2026
+doi: 10.21437/Interspeech.2026-493
 isca_url: https://www.isca-archive.org/interspeech_2026/tang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tang26_interspeech.pdf
 session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
-topics: []
+topics: [keyword-spotting, self-supervised, multilingual]
 code:
     url: ""
     license: ""

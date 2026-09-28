@@ -12,8 +12,8 @@ doi: 10.21437/Interspeech.2026-2600
 isca_url: https://www.isca-archive.org/interspeech_2026/sanchez26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sanchez26_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
-topics: [tts, evaluation]
+topics: [speech-enhancement, evaluation, low-resource]
 code:
-    url: ""
+    url: https://minixc.github.io/sap/
     license: ""
 open_to_collaboration: false

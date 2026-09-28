@@ -23,7 +23,7 @@ doi: 10.21437/Interspeech.2026-2698
 isca_url: https://www.isca-archive.org/interspeech_2026/someki26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/someki26_interspeech.pdf
 session: Robust and Real-World ASR Systems
-topics: [evaluation, dataset]
+topics: [asr, self-supervised, dataset]
 code:
     url: ""
     license: ""

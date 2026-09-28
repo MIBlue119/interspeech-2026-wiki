@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-1381
 isca_url: https://www.isca-archive.org/interspeech_2026/qi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/qi26_interspeech.pdf
 session: LLMs and Conversational Interaction
-topics: [spoken-language-understanding]
+topics: [turn-taking, multimodal, active-speaker-detection]
 code:
-    url: ""
+    url: https://github.com/Haotian-Qi/MuVAP
     license: ""
 open_to_collaboration: false

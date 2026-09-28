@@ -4,10 +4,11 @@ authors:
     - Subrina Sultana
     - Donald S. Williamson
 year: 2026
+doi: 10.21437/Interspeech.2026-1607
 isca_url: https://www.isca-archive.org/interspeech_2026/sultana26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sultana26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
-topics: []
+topics: [evaluation, self-supervised, speech-enhancement]
 code:
     url: ""
     license: ""

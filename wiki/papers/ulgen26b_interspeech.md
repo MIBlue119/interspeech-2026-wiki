@@ -1,34 +1,41 @@
 ---
 id: ulgen26b_interspeech
 category: voice-conversion
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1331
+pdf: https://www.isca-archive.org/interspeech_2026/ulgen26b_interspeech.pdf
 ---
 
 # DiffAnon: Diffusion-based Prosody Control for Voice Anonymization
 
-**TL;DR** — A diffusion-based voice anonymizer with classifier-free guidance lets you dial prosody preservation up or down continuously at inference time, instead of being locked into one fixed privacy-utility trade-off.
+[PDF](https://www.isca-archive.org/interspeech_2026/ulgen26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ulgen26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1331)
+
+**TL;DR** — DiffAnon introduces a diffusion-based voice anonymization framework with classifier-free guidance that enables continuous inference-time control over prosody preservation while maintaining competitive privacy and utility.
 
 ## Problem
 
-Whether to preserve prosody in voice anonymization is a central open question — prosody conveys meaning and affect but is tightly coupled to speaker identity — and existing methods either discard prosody entirely for privacy or lack a principled mechanism to control the utility-privacy trade-off, operating only at fixed design points.
+Voice anonymization faces a fundamental tension where stripping speaker identity often destroys prosody and expressiveness, whereas retaining prosody risks identity leakage via characteristic acoustic patterns. Existing systems typically operate at fixed design points by either discarding prosody entirely or applying heuristic perturbations, lacking a principled mechanism to adjust the utility-privacy trade-off dynamically. This limitation hinders flexible deployment in scenarios requiring fine-grained control over emotional and paralinguistic fidelity.
 
 ## Method
 
-The authors propose DiffAnon, a diffusion-based anonymization method with classifier-free guidance (CFG) that provides explicit, continuous inference-time control over prosody preservation, refining acoustic detail over semantic embeddings of an RVQ codec to enable smooth interpolation between anonymization strength and prosodic fidelity within a single model.
+The framework models anonymization as an iterative denoising process built on a denoising diffusion probabilistic model, refining acoustic details on top of semantic representations derived from a residual vector quantization speech codec. First-level codec embeddings from SpeechTokenizer act as a speaker-agnostic semantic prior, while frame-level latent features from a masked prosody model and utterance-level speaker embeddings from FreeVC provide auxiliary conditioning. Classifier-free guidance is leveraged during inference to regulate the contribution of source prosody and pseudo-speaker identity without external classifiers. The architecture incorporates 40 WaveNet-style residual blocks with 1024 channels, trained on LibriTTS using DDPM objectives with condition dropout rates of 50% for full conditioning, 30% for dropped prosody, and 20% for dropped prosody and speaker.
 
 ## Results
 
-Experiments demonstrate structured trade-off behavior, achieving strong utility while maintaining competitive privacy across a range of controllable operating points — reportedly the first voice anonymization framework offering structured, interpolatable inference-time prosody control.
+Evaluated under the VoicePrivacy Challenge 2024 protocol, DiffAnon demonstrates systematic navigation of the utility-privacy trade-off by adjusting the prosody guidance weight from 1 down to 0. At full prosody preservation, it achieves an F0 correlation of 76.67 and an emotion recognition recall of 52.32 on libri-dev, which smoothly scales down as prosody guidance decreases. Privacy is measured via equal error rates against speaker verification attacks, confirming strong resistance across operating points while preserving linguistic content with low word error rates.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/rsmlgen/diffanon
 
 ## Applications
 
-Voice anonymization for sharing sensitive recordings where the desired privacy-utility (prosody-preservation) trade-off varies by use case.
+Speech engineers and privacy-conscious application developers building speech communication systems, voice assistants, or telecommunication tools that require adjustable speaker anonymization while retaining emotional expression.
+
+## Limitations
+
+The framework relies on pre-trained components such as a speech codec, masked prosody model, and speaker encoder, meaning its performance is bounded by the quality and domain adaptation of these upstream representations.
 
 ## Related
 

@@ -1,34 +1,41 @@
 ---
 id: qi26_interspeech
-category: spoken-language-understanding
-updated: 2026-09-28
-confidence: abstract-only
+category: turn-taking
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1381
+pdf: https://www.isca-archive.org/interspeech_2026/qi26_interspeech.pdf
 ---
 
 # MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the wild
 
-**TL;DR** — A causal audiovisual model that predicts multiparty turn-taking from just one camera and a single microphone by grounding voice activity projection in face tracks, plus a new 31-hour unedited multiparty conversation dataset.
+[PDF](https://www.isca-archive.org/interspeech_2026/qi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/qi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1381)
+
+**TL;DR** — MuVAP is a causal multimodal framework for multiparty turn-taking prediction that uses a single camera and monaural audio stream, outperforming strong baselines on Shift-Hold and next-speaker prediction tasks.
 
 ## Problem
 
-Existing multiparty turn-taking models typically need complex microphone arrays or multi-camera setups, which limits their use in practical human-robot interaction, and existing audiovisual datasets have editing cuts that break causal tracking.
+Traditional Voice Activity Projection models are predominantly restricted to dyadic (two-party) interactions and monomodal speech inputs, while existing multiparty turn-taking and active speaker detection models either depend on complex microphone arrays, multi-camera setups, or suffer from editing artifacts like jump cuts in training data. This makes them impractical for unconstrained human-robot interaction scenarios where a robot must fluidly predict turn shifts and speaker identities from a single viewpoint without spatial audio separation.
 
 ## Method
 
-MuVAP extends Voice Activity Projection by grounding acoustic predictions in face tracks from a single camera, and introduces Role-Relative Projection to map any N-speaker interaction onto a fixed current-vs-next floor-holder representation, avoiding combinatorial blowup; the authors also release the Audio-Visual Conversation Corpus, 31 hours of unedited single-camera multiparty conversation.
+The framework introduces Role-Relative Projection to abstract arbitrary N-speaker interactions onto a fixed current versus next floor-holder state, avoiding combinatorial explosions in the label space. It utilizes a modular training recipe combining a 1,960-hour telephone corpus for acoustic turn-taking, 140 hours of active speaker detection data, and the newly introduced Audio-Visual Conversation Corpus (AVCC). The architecture is strictly causal, taking a monaural audio stream and synchronized face tracks to jointly predict GlobalVAP (GVAP) and SpeakerVAP (SVAP) distributions without utilizing spatial audio cues or multi-view geometry.
 
 ## Results
 
-MuVAP outperforms strong baselines on Shift-Hold and next-speaker prediction tasks across two- and three-speaker settings.
+Evaluated on the AVCC dataset comprising roughly 31 hours of unedited, continuous two- and three-speaker conversations from web videos. MuVAP is assessed on Shift-Hold and next-speaker prediction tasks against strong baselines, demonstrating superior performance in capturing natural conversational dynamics like overlaps, pauses, and gaps.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/Haotian-Qi/MuVAP
 
 ## Applications
 
-Turn-taking and floor-management prediction for social robots and conversational agents operating with simple monaural-audio-plus-single-camera setups.
+Social robots and conversational agents operating in unconstrained multiparty environments that require real-time, speaker-aware turn-taking and active speaker prediction from standard single-camera and monaural hardware.
+
+## Limitations
+
+Evaluated primarily on two- and three-speaker settings derived from unscripted web video streams.
 
 ## Related
 

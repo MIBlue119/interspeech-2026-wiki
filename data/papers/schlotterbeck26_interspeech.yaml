@@ -5,11 +5,12 @@ authors:
     - Alessandro Huaman
     - Juan Gomez
 year: 2026
+doi: 10.21437/Interspeech.2026-2946
 isca_url: https://www.isca-archive.org/interspeech_2026/schlotterbeck26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/schlotterbeck26_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
-topics: []
+topics: [self-supervised-learning, multilingual, dataset]
 code:
-    url: ""
+    url: https://github.com/dannersm/ups-continuous-pretraining
     license: ""
 open_to_collaboration: false

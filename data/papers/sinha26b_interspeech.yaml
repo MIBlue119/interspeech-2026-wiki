@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2666
 isca_url: https://www.isca-archive.org/interspeech_2026/sinha26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sinha26b_interspeech.pdf
 session: 'Robust ASR: Hallucinations and Biases'
-topics: [asr, low-resource]
+topics: [asr, self-supervised, low-resource]
 code:
     url: ""
     license: ""

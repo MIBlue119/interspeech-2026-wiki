@@ -1,26 +1,29 @@
 ---
 id: rubenchik26_interspeech
-category: source-separation
-updated: 2026-09-28
-confidence: abstract-only
+category: speech-enhancement
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1401
+pdf: https://www.isca-archive.org/interspeech_2026/rubenchik26_interspeech.pdf
 ---
 
 # Latent Flow Matching Based Speech Separation Using Speaker Diarization
 
-**TL;DR** — Combining a speaker-diarization model's speaker representations with latent flow-matching generation, plus an adversarial guidance mechanism conditioned on mixture-derived speaker attractors, produces high-quality speech separation while training only a small generative U-Net.
+[PDF](https://www.isca-archive.org/interspeech_2026/rubenchik26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rubenchik26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1401)
+
+**TL;DR** — This paper presents a generative single-channel speech separation framework combining end-to-end speaker diarization with latent flow matching, utilizing an Adversarial Speaker Guidance mechanism to reduce speaker confusion.
 
 ## Problem
 
-Discriminative DNN-based speech separation performs well, and generative models are emerging as strong perceptual-quality competitors, but combining the two — leveraging diarization-style speaker representations with a generative separator, while avoiding speaker confusion — remained an open design question.
+Traditional discriminative speech separation models often suffer from over-smoothing and perceptual artifacts due to pointwise regression under ambiguous conditions. Meanwhile, generative approaches and target extraction methods frequently experience speaker confusion—extracting the wrong speaker or duplicating voices—when conditioning signals are weak or derived from imperfect diarization segmentation.
 
 ## Method
 
-The authors propose a framework combining a speaker diarization model's representational strength with latent-space Flow Matching's high-fidelity generation, training only the latent generative U-Net component, plus a novel Adversarial Speaker Guidance (ASG) mechanism that conditions on mixture-derived speaker attractors rather than traditional enrollment signals to mitigate speaker confusion.
+The architecture integrates a frozen End-to-End Neural Diarization with Encoder-Decoder-Based Attractors (EEND-EDA) model to extract per-speaker activity probabilities and attractors from mixtures. These condition a trainable latent-space Flow Matching U-Net via Feature-wise Linear Modulation (FiLM), operating over mel-spectrogram latents produced by a frozen VAE and synthesized via BigVGAN. Permutation Invariant Training (PIT) is employed during training to resolve speaker permutation ambiguities. Additionally, an Adversarial Speaker Guidance (ASG) strategy leverages the estimated vector field of the interfering speaker during inference to actively push the generative process away from the undesired source without requiring retraining.
 
 ## Results
 
-The method achieves high-quality single-channel speech separation while requiring only the U-Net component to be trained, and the ASG mechanism improves intelligibility and reduces speaker confusion relative to using enrollment-based conditioning.
+The evaluation utilizes mixtures dynamically generated from the LibriSpeech corpus. The proposed method is compared against baseline architectures including ECAPA-TDNN-conditioned variants and traditional systems, demonstrating superior separation quality and intelligibility. The inclusion of Adversarial Speaker Guidance and permutation-aware training yields notable reductions in speaker confusion and improvements in objective perceptual metrics.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-High-fidelity speech separation for meeting transcription, hearing aids, and other multi-speaker audio processing pipelines.
+Speech and audio engineers building robust communication, transcription, or multi-talker meeting analysis systems that require high-fidelity separation of overlapping speech without prior speaker enrollment.
+
+## Limitations
+
+The framework relies on pre-trained and frozen VAE, vocoder, and diarization components, meaning separation performance remains bounded by the quality of the upstream diarization estimates.
 
 ## Related
 

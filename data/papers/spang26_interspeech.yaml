@@ -11,11 +11,12 @@ authors:
     - Lana Mohr
     - Sebastian Möller
 year: 2026
+doi: 10.21437/Interspeech.2026-3523
 isca_url: https://www.isca-archive.org/interspeech_2026/spang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/spang26_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 1
-topics: []
+topics: [paralinguistics, dataset, evaluation]
 code:
-    url: ""
+    url: https://osf.io/k4z2v/
     license: ""
 open_to_collaboration: false

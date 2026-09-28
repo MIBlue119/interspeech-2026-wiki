@@ -11,7 +11,7 @@ doi: 10.21437/Interspeech.2026-2487
 isca_url: https://www.isca-archive.org/interspeech_2026/variani26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/variani26_interspeech.pdf
 session: Audio Coding and Signal Analysis
-topics: [evaluation, self-supervised]
+topics: [speech-llm, self-supervised, evaluation]
 code:
     url: ""
     license: ""

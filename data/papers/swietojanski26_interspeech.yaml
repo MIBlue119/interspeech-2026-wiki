@@ -8,10 +8,11 @@ authors:
     - Dogan Can
     - Xiaodan Zhuang
 year: 2026
+doi: 10.21437/Interspeech.2026-341
 isca_url: https://www.isca-archive.org/interspeech_2026/swietojanski26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/swietojanski26_interspeech.pdf
 session: Long-form Audio & New Attention Approaches
-topics: []
+topics: [asr, self-supervised, evaluation]
 code:
     url: ""
     license: ""

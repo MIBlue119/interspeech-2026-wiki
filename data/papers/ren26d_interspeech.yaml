@@ -8,11 +8,12 @@ authors:
     - Chao Zhang
     - Xuenan Xu
 year: 2026
+doi: 10.21437/Interspeech.2026-1180
 isca_url: https://www.isca-archive.org/interspeech_2026/ren26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ren26d_interspeech.pdf
 session: Long-Form Speech Synthesis
-topics: []
+topics: [speech-llm, tts, audio-captioning]
 code:
-    url: ""
+    url: https://github.com/Riddae/AuDirector
     license: ""
 open_to_collaboration: false

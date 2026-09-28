@@ -1,26 +1,29 @@
 ---
 id: ryu26_interspeech
 category: emotion-recognition
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1399
+pdf: https://www.isca-archive.org/interspeech_2026/ryu26_interspeech.pdf
 ---
 
 # Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition
 
-**TL;DR** — Modeling how much each modality (text/speech/visual) matters as it changes moment-to-moment, via GRU-based emotion-query gating, beats static fusion by 9 points and outperforms Transformer fusion with fewer parameters.
+[PDF](https://www.isca-archive.org/interspeech_2026/ryu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ryu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1399)
+
+**TL;DR** — This paper models multimodal emotion recognition as a dynamic decision process by introducing an emotion-query gating mechanism that adapts modality importance over time, achieving a 57.31% Macro-F1 on IEMOCAP.
 
 ## Problem
 
-Multimodal emotion recognition is inherently dynamic since the relative importance of text, speech, and visual signals shifts over time, but most existing systems use static fusion that implicitly assumes time-invariant modality contribution.
+Standard multimodal emotion recognition systems rely on static, time-invariant fusion strategies that assume constant modality contributions across conversational turns. This practice ignores the inherently temporal and context-dependent nature of human emotion expression, where the relative importance of text, speech, and visual cues shifts dynamically over dialogue history. Failing to account for this temporal variation limits both predictive accuracy and interpretability in dialogue settings.
 
 ## Method
 
-The authors present a temporal fusion framework modeling modality importance as a time-varying, class-conditional distribution, using a GRU-based module with emotion-query gating to adapt modality weights across dialogue context.
+The framework decouples unimodal representation learning from temporal fusion. Unimodal features are extracted using frozen GPT-2 for text, HuBERT (hubert-base-ls960) for speech, and VideoMAE (videomae-base) with partially unfrozen blocks for video. A GRU-based temporal backbone processes a context window of length K=8. To dynamically weight modalities without circular dependency, an emotion-query gate computes class-conditional, time-dependent modality distributions using a previous hidden state query and modality projection matrices.
 
 ## Results
 
-Under 6-class IEMOCAP leave-one-speaker-out evaluation, temporal modeling improves over static fusion by +9.01 in mean(F1, UA), gating adds a further +1.63 over temporal modeling without gating, and the approach outperforms Transformer-based fusion with fewer parameters; perturbation-based occlusion analysis confirms modality importance is non-stationary over time.
+Evaluated on the 6-class IEMOCAP dataset using 5-fold leave-one-session-out (LOSO) cross-validation, the proposed temporal emotion-query gating model achieves 0.5731 Macro-F1 and 0.5734 unweighted accuracy (UA), outperforming a static logits MLP (0.4821 Macro-F1) and a non-gated temporal GRU (0.5568 Macro-F1). It also surpasses sequence-modeling baselines such as Transformer, MulT, and MMER while utilizing significantly fewer parameters (0.076M versus 0.452M to 1.939M). Perturbation-based Area Over the Perturbation Curve (AOPC) analysis confirms the faithfulness and non-stationary nature of the learned temporal modality dynamics.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-More accurate, compact multimodal emotion recognition systems for dialogue and conversational AI that need to track shifting modality reliability over a conversation.
+Speech and machine learning engineers working on conversational AI agents, affective computing systems, and multimodal dialogue understanding platforms.
+
+## Limitations
+
+Evaluated primarily on the partially scripted IEMOCAP corpus; further testing on more naturalistic, unscripted conversational datasets is required.
 
 ## Related
 

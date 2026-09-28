@@ -4,11 +4,12 @@ authors:
     - Hoyeol Sohn
     - Juhan Nam
 year: 2026
+doi: 10.21437/Interspeech.2026-2984
 isca_url: https://www.isca-archive.org/interspeech_2026/sohn26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sohn26_interspeech.pdf
 session: Audio Coding and Signal Analysis
-topics: []
+topics: [speech-coding, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/hoyso48/DTM-Codec
     license: ""
 open_to_collaboration: false

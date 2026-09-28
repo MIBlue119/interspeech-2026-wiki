@@ -7,10 +7,11 @@ authors:
     - Weicong Li
     - Paola Escudero
 year: 2026
+doi: 10.21437/Interspeech.2026-3213
 isca_url: https://www.isca-archive.org/interspeech_2026/tran26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tran26b_interspeech.pdf
 session: 'CHILDSPACE: Child Home Interaction & Language Dynamics: Speech, Psychology, Affect, Computation, and Environments'
-topics: []
+topics: [evaluation, multilingual, dataset]
 code:
     url: ""
     license: ""

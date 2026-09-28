@@ -9,10 +9,11 @@ authors:
     - Emmanuel Vincent
     - Tahar Chouihed
 year: 2026
+doi: 10.21437/Interspeech.2026-1265
 isca_url: https://www.isca-archive.org/interspeech_2026/stasica26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/stasica26_interspeech.pdf
 session: Speech and Language Technologies in Healthcare
-topics: []
+topics: [paralinguistics, emotion-recognition, evaluation]
 code:
     url: ""
     license: ""

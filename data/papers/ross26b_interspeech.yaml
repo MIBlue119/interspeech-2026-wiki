@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-2411
 isca_url: https://www.isca-archive.org/interspeech_2026/ross26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ross26b_interspeech.pdf
 session: Queer and Trans Speech Science and Technology
-topics: [evaluation, tts]
+topics: [evaluation, paralinguistic, tts]
 code:
-    url: ""
+    url: https://ariadnasc.github.io/synth-personas
     license: ""
 open_to_collaboration: false

@@ -6,11 +6,12 @@ authors:
     - Sergiu Nisioi
     - Bogdan Alexe
 year: 2026
+doi: 10.21437/Interspeech.2026-3454
 isca_url: https://www.isca-archive.org/interspeech_2026/sirbu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sirbu26_interspeech.pdf
 session: Multilingual Speech 2
-topics: []
+topics: [asr, dataset, evaluation]
 code:
-    url: ""
+    url: https://github.com/RoITN
     license: ""
 open_to_collaboration: false

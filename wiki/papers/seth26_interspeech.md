@@ -1,34 +1,41 @@
 ---
 id: seth26_interspeech
 category: speech-llm
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2448
+pdf: https://www.isca-archive.org/interspeech_2026/seth26_interspeech.pdf
 ---
 
 # Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models
 
-**TL;DR** — A new attack suite shows that state-of-the-art large audio language models can be tricked into confidently reporting sounds that were never in the audio at attack success rates above 79%, and a targeted post-alignment dataset cuts that rate substantially.
+[PDF](https://www.isca-archive.org/interspeech_2026/seth26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/seth26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2448)
+
+**TL;DR** — The paper introduces Audio Hallucination Attacks (AHA), revealing that state-of-the-art Large Audio Language Models achieve attack success rates up to 95.35% under implicit queries and audio prompts, and proposes the AHA-Guard alignment dataset to mitigate this vulnerability.
 
 ## Problem
 
-Large audio language models perform well on standard benchmarks, but their real-world reliability — whether they genuinely ground responses in the audio rather than hallucinating — remains underexplored, and standard benchmarks hide this gap.
+Large Audio Language Models often bypass the crucial grounding step of verifying whether a sound actually exists in an audio stream before reasoning about it. While prior work examined explicit queries, models remain highly vulnerable to implicit queries and audio-based cues that presuppose non-existent sounds. This creates a severe reliability gap hidden by standard benchmark performance.
 
 ## Method
 
-The authors introduce Audio Hallucination Attacks (AHA) with an evaluation suite, AHA-Eval, of 6.5K QA pairs targeting two attack surfaces: query-based attacks that exploit question phrasing to induce hallucinations about absent sounds, and audio-based attacks that inject synthetic speech describing non-existent events into the audio stream.
+The authors introduce AHA-Eval (6.5K QA pairs) and AHA-Guard (120K DPO preference pairs), derived from AudioCaps, Clotho, and MusicCaps using an LLM consistency filter. The attack suite uses query-based attacks (explicit vs. implicit questions) and audio-based attacks (TTS-synthesized utterances prepended to streams) targeting adversarial and random sounds. Qwen2.5-Omni is fine-tuned via LoRA using Direct Preference Optimization on 8 A100 GPUs with a rank of 6 for 5 epochs.
 
 ## Results
 
-State-of-the-art LALMs including Audio Flamingo 3 and Gemini 3 Pro show high attack success rates of 95.35% and 79.65% respectively, revealing a reliability gap hidden by standard benchmarks; a proposed 120K QA post-alignment dataset, AHA-Guard, reduces attack success rates by up to 49%.
+Evaluated on models including Audio Flamingo 3, Gemini 3 Pro, and Qwen2.5-Omni, measuring Attack Success Rate via an LLM-as-Judge verified by human study (92.4% agreement). Audio-based attacks prove substantially more effective than text-based ones (e.g., Audio Flamingo 3 random explicit ASR rises from 1.90% to 53.40%). DPO training on AHA-Guard reduces random implicit ASR for Qwen2.5-Omni from 68.74% to 39.01% in text space and 59.59% to 40.62% in audio space, whereas Chain-of-Thought prompting fails on implicit attacks.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://cs20s030.github.io/AHA-website/
 
 ## Applications
 
-Stress-testing and hardening audio-language assistants before deployment in settings where hallucinated audio claims could cause harm.
+Speech engineers and researchers developing robust Large Audio Language Models and conversational agents requiring genuine audio grounding.
+
+## Limitations
+
+Evaluated primarily on audio-caption datasets (AudioCaps, Clotho, MusicCaps) and selected frontier models.
 
 ## Related
 

@@ -1,26 +1,29 @@
 ---
 id: singh26e_interspeech
-category: paralinguistics
-updated: 2026-09-28
-confidence: abstract-only
+category: asr
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3451
+pdf: https://www.isca-archive.org/interspeech_2026/singh26e_interspeech.pdf
 ---
 
 # ProSarc: Prosody-Aware Sarcasm Recognition Framework via Temporal Prosodic Incongruity
 
-**TL;DR** — An audio-only sarcasm detector that scores the mismatch between an utterance's moment-to-moment prosody and its overall emotional baseline, beating prior audio-only methods and generalizing across spontaneous and cross-lingual speech.
+[PDF](https://www.isca-archive.org/interspeech_2026/singh26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/singh26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3451)
+
+**TL;DR** — ProSarc is an audio-only sarcasm detection framework that models temporal prosodic incongruity and achieves an F1 score of 75.3 on MUStARD++.
 
 ## Problem
 
-Detecting sarcasm from audio alone is hard because it requires capturing subtle temporal mismatches between local prosodic dynamics and the overall emotional tone of an utterance, which prior audio-only methods do not explicitly model.
+Prior audio-only sarcasm detection systems predominantly rely on static utterance-level acoustic statistics or implicit temporal representations, ignoring the local prosodic dynamics through which sarcasm is actually realized. Multimodal models, on the other hand, tend to be dominated by textual or visual cues while treating audio merely as an auxiliary signal. Explicitly capturing the mismatch between fine-grained local prosodic changes and the global emotional baseline is crucial for robust, unimodal speech understanding under ambiguity.
 
 ## Method
 
-ProSarc uses a Global Emotion Encoder and a Temporal Prosody Encoder (BiLSTM plus multi-head attention) feeding a Prosodic Incongruity Analyzer that outputs a scalar incongruity score, with Monte Carlo dropout for uncertainty estimation and an attention mechanism that localizes sarcastic onset without frame-level labels.
+ProSarc uses a dual-path architecture combining a Global Emotion Encoder (extracting a 10-dimensional prosodic feature vector via librosa processed through a 3-layer MLP) and a Temporal Prosody Encoder (employing a partially fine-tuned self-supervised speech model like Wav2Vec 2.0, HuBERT, or WavLM, followed by a bidirectional LSTM and multi-head self-attention). A Prosodic Incongruity Analyzer computes an explicit scalar incongruity score via an MLP and sigmoid, acting as a gating mechanism to adaptively fuse local and the global representations. The framework uses Monte Carlo dropout at inference for uncertainty estimation and an attention-based mechanism for weakly supervised temporal onset localisation.
 
 ## Results
 
-ProSarc outperforms prior audio-only methods on MUStARD++ (F1=75.3) and generalizes to spontaneous podcast speech (PodSarc, F1=62.9) and cross-lingual speech (MuSaG, F1=65.6); ten-run validation confirms incongruity modeling's contribution (p=0.002, d=1.51), and human evaluation shows model uncertainty tracks perceptual ambiguity.
+Evaluated across four benchmarks using 5-fold cross-validation, ProSarc achieves an F1 score of 75.3 on MUStARD++, 74.4 on MUStARD, 62.9 on PodSarc, and 65.6 on MuSaG. Statistical validation via a 10-run evaluation confirms the effectiveness of incongruity modelling with a Wilcoxon p-value of 0.002 and a Cohen's d of 1.51. Human evaluations verify that model uncertainty successfully tracks perceptual ambiguity and predicted onset windows align with human annotations.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Audio-only sarcasm and irony detection for content moderation, sentiment analysis of podcasts/calls, and cross-lingual affective computing.
+Speech engineers and affective computing researchers building on-device or audio-first spoken language understanding applications for content moderation, conversational agents, and media analysis.
 
 ## Related
 

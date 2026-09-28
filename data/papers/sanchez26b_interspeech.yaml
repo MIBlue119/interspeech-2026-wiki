@@ -11,10 +11,11 @@ authors:
     - Vikram Ramanarayanan
     - Jordan Green
 year: 2026
+doi: 10.21437/Interspeech.2026-3022
 isca_url: https://www.isca-archive.org/interspeech_2026/sanchez26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sanchez26b_interspeech.pdf
 session: Multimodal and Non-Speech Healthcare Applications
-topics: []
+topics: [evaluation, phonetics, health]
 code:
     url: ""
     license: ""

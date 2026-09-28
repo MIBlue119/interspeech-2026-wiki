@@ -1,34 +1,41 @@
 ---
 id: sung26_interspeech
 category: speech-enhancement
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1947
+pdf: https://www.isca-archive.org/interspeech_2026/sung26_interspeech.pdf
 ---
 
 # fMRI Decoding of Speech Conditions Across Brain Regions of Interest for Neural Evaluation of Speech Enhancement
 
-**TL;DR** — Decodes clean-vs-noisy-vs-enhanced speech listening conditions directly from fMRI brain activity, then uses this decoder as a novel neural metric that ranks DNN-based speech enhancement as sounding closer to clean speech than classical enhancement.
+[PDF](https://www.isca-archive.org/interspeech_2026/sung26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sung26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1947)
+
+**TL;DR** — The paper introduces NeuroPAS-Net, a three-phase transfer learning framework that decodes clean versus noisy speech from fMRI data with a peak accuracy of 79.3% in the right precentral gyrus.
 
 ## Problem
 
-Decoding Clean versus Noisy speech from fMRI is challenging due to high-dimensional multivoxel patterns and cross-subject variability, yet understanding how the brain represents enhanced speech matters for evaluating speech enhancement systems.
+Decoding clean versus noisy speech from high-dimensional fMRI multivoxel patterns is hindered by high cross-subject variability and complex functional organization. Furthermore, existing decoding methods are rarely translated into continuous, objective metrics that can evaluate and rank speech enhancement (SE) algorithms against behavioral intelligibility.
 
 ## Method
 
-Develops NeuroPAS-Net, a three-phase fMRI decoding framework, evaluated on 25 participants listening to sentences under Clean, Noisy, DNN-based enhancement, and classical enhancement conditions across 12 speech-related brain regions of interest, then derives the Neuro-Perceptual Assessment Score (NeuroPAS) from the decoder.
+The framework, NeuroPAS-Net, relies on a three-phase training recipe using a CNN encoder: self-supervised learning (SSL) via masked reconstruction on unlabeled data (Phase 1), task-incremental learning (IL) with replay for binary condition classification (Phase 2), and supervised fine-tuning (SFT) on target subject data (Phase 3). It was evaluated on 25 participants listening to 96 sentences across clean, noisy (-3 dB speech-shaped noise), and enhanced conditions (using SEMamba for DNN-SE and MMSE for Classic-SE). The model leverages up to 11,669 voxels per region of interest (ROI).
 
 ## Results
 
-The framework consistently outperforms SVM and CNN baselines, reaching a peak accuracy of 79% in the Right Precentral Gyrus; the resulting NeuroPAS metric correlates with intelligibility and ranks DNN-based enhancement closer to the Clean neural pattern than classical enhancement.
+Evaluated across 12 bilateral speech-related ROIs using leave-one-run-out cross-validation, NeuroPAS-Net consistently outperformed L2-regularized SVM and standard CNN baselines. The right precentral gyrus (R PreCG) achieved the highest decoding accuracy of 79.3%. An ablation study across five top ROIs showed that adding SSL and IL progressively improved performance over SFT alone (e.g., L PreCG rising from 66.5% to 69.3%). The derived NeuroPAS metric correlated with subjective intelligibility (Spearman rho = 0.43) and showed that DNN-SE elicits neural patterns closer to clean speech (mean score 0.60) than Classic-SE (0.41).
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/JohnSung0501/fMRI-Decoding
 
 ## Applications
 
-Neuroscience-grounded evaluation metrics for speech enhancement systems, and basic research into brain representations of speech in noise.
+Speech and ML engineers evaluating or designing neural speech enhancement algorithms using brain imaging data.
+
+## Limitations
+
+Evaluated on a relatively small cohort of 25 normal-hearing young adults listening to Mandarin sentences.
 
 ## Related
 

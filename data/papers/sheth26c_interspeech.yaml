@@ -9,8 +9,8 @@ year: 2026
 isca_url: https://www.isca-archive.org/interspeech_2026/sheth26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sheth26c_interspeech.pdf
 session: Speech and Language Processing for Health and Accessibility
-topics: [dataset, low-resource]
+topics: [dataset, evaluation, speaker-diarization]
 code:
-    url: ""
+    url: https://elsi-lscp.ddns.net
     license: ""
 open_to_collaboration: false

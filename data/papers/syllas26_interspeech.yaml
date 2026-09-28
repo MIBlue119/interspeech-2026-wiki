@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-2481
 isca_url: https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.pdf
 session: Text Processing for Speech Synthesis
-topics: [tts]
+topics: [tts, low-resource, multilingual]
 code:
-    url: ""
+    url: https://github.com/gsyllas/greek-stable-tts/tree/main/scripts/data
     license: ""
 open_to_collaboration: false

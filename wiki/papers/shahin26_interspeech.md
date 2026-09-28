@@ -1,26 +1,29 @@
 ---
 id: shahin26_interspeech
 category: health
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://www.isca-archive.org/interspeech_2026/shahin26_interspeech.html
+pdf: https://www.isca-archive.org/interspeech_2026/shahin26_interspeech.pdf
 ---
 
 # SayCheck: Gamified Speech Practice and Attribute-Based Speech Analysis for Children
 
-**TL;DR** — A speech-therapy platform pairs a Mario-style speech game for kids with automatic phoneme- and attribute-level pronunciation analysis for therapists and caregivers.
+[PDF](https://www.isca-archive.org/interspeech_2026/shahin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shahin26_interspeech.html)
+
+**TL;DR** — SayCheck combines a Mario-style gamified home speech therapy application with an automatic phonological attribute analysis tool to provide clinicians and caregivers with detailed diagnostic pronunciation feedback.
 
 ## Problem
 
-Children's speech therapy needs engaging ways to motivate home practice while also giving therapists and caregivers detailed, actionable diagnostic feedback on pronunciation.
+Children undergoing speech therapy often struggle with consistency and engagement during repetitive home practice exercises. Traditional digital tools typically rely on coarse, correctness-based phoneme scoring that fails to offer clinicians deep insight into the specific articulatory and phonological features causing pronunciation errors.
 
 ## Method
 
-SayCheck combines "Say Bananas," a Mario-style speech therapy game that motivates home practice, with "PhoneAid," an automatic speech analysis system that evaluates children's speech at both the phoneme and phonological attribute level, letting therapists configure targeted exercises and receive detailed articulatory/phonological feedback beyond standard phoneme-level assessment.
+The platform consists of two integrated pieces: Say Bananas, a side-scrolling adventure game that triggers target word recording tasks upon collecting in-game stars, and PhoneAid, an automated assessment engine. PhoneAid leverages a wav2vec2 feature extractor coupled with a separable connectionist temporal classification (SCTC-SB) multi-label sequence prediction framework. This architecture maps audio directly into binary phonological attribute sequences covering vowel features, consonant features, articulatory placement, manner, temporal properties, and vowel structure. The underlying models are trained specifically on Australian child speech data to accommodate developmental variations.
 
 ## Results
 
-As a demo/system paper, the abstract reports no formal accuracy evaluation; it describes the working pipeline from gameplay-based speech elicitation to automatic assessment and summary reporting.
+The system evaluates children's speech at both the phoneme level—detecting substitutions, insertions, deletions, and correct productions—and the phonological attribute level. It computes summary statistics across multiple recordings including overall phoneme accuracy, percentage consonants correct (PCC), percentage vowels correct (PVC), and grouped attribute-level accuracy measures. Specific quantitative baseline error reductions or comparative test set metrics are not reported in the provided text.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Pediatric speech-language therapy, supporting both engaging home practice for children and detailed diagnostic reporting for clinicians and caregivers.
+Speech-language pathologists and caregivers managing pediatric speech therapy and home-practice regimens.
+
+## Limitations
+
+The text does not state any explicit limitations or scope boundaries.
 
 ## Related
 

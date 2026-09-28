@@ -4,11 +4,12 @@ authors:
     - Samir Sadok
     - Xavier Alameda-Pineda
 year: 2026
+doi: 10.21437/Interspeech.2026-733
 isca_url: https://www.isca-archive.org/interspeech_2026/sadok26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sadok26_interspeech.pdf
 session: Speech Representations and Alignment
-topics: []
+topics: [self-supervised, evaluation, phonetics]
 code:
-    url: ""
+    url: https://insideSSL.github.io/
     license: ""
 open_to_collaboration: false

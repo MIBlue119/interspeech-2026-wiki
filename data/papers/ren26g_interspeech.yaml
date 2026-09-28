@@ -7,10 +7,11 @@ authors:
     - Kaize Tan
     - Wei-Qiang Zhang
 year: 2026
+doi: 10.21437/Interspeech.2026-1915
 isca_url: https://www.isca-archive.org/interspeech_2026/ren26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ren26g_interspeech.pdf
 session: Multilingual & Low-Resource ASR
-topics: []
+topics: [asr, multilingual, low-resource]
 code:
     url: ""
     license: ""

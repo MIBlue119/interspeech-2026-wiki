@@ -1,26 +1,29 @@
 ---
 id: tran26c_interspeech
 category: emotion-recognition
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3458
+pdf: https://www.isca-archive.org/interspeech_2026/tran26c_interspeech.pdf
 ---
 
 # From Single to Multi-Label SER: Dataset and Mamba-Based Fusion Model
 
-**TL;DR** — Builds a reproducible multi-label speech-emotion-recognition benchmark from MSP-Podcast crowdsourced votes and pairs it with a lightweight Mamba-based fusion model that gets competitive accuracy while staying far smaller than heavier baselines.
+[PDF](https://www.isca-archive.org/interspeech_2026/tran26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tran26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3458)
+
+**TL;DR** — This paper introduces a reproducible multi-label speech emotion recognition benchmark derived from MSP-Podcast along with an efficient dual-branch Mamba fusion model, achieving a micro-F1 around 0.50.
 
 ## Problem
 
-Speech emotion recognition is usually framed as single-label classification, but real emotional expression is often multi-label, and there was no reproducible multi-label SER benchmark with controlled ambiguity and sparsity.
+Most existing speech emotion recognition datasets and models assume a single dominant emotion per utterance, which discards natural perceptual ambiguity and subjective annotator disagreement. While recent multi-label annotations exist, public benchmarks lack standardized construction protocols, and modern Transformer- or SSL-based models are computationally heavy for long audio sequences.
 
 ## Method
 
-The authors convert MSP-Podcast V2.0 crowdsourced emotion votes into multi-hot labels via reliability filtering, deterministic vote-to-label construction, and lightweight time-shift augmentation, then build a compact Mamba-based fusion baseline over MFCC and log-mel features using linear-time state-space modeling for efficient long-audio processing.
+The authors construct multi-hot emotion labels from MSP-Podcast V2.0 using quality gates, deterministic vote-to-label rules, and train-only long-tail pruning that yields an 18-combination space. The proposed model uses parallel Mamba state-space encoders for 100-dim LogMel spectrograms and 40-dim MFCC features to achieve linear-time sequence modeling. Utterance-level embeddings are obtained via masked mean pooling, integrated through a gated fusion module or late logit fusion, and trained with binary focal loss and an inverse-frequency weighted sampler.
 
 ## Results
 
-Using validation-only threshold selection and fixed test-time thresholds, the fusion model attains roughly 0.50 micro-F1 on two MSP-Podcast test partitions while being substantially lighter than heavier baselines and recent methods; dataset splits, code, and training recipes are released.
+Evaluated on two MSP-Podcast test partitions (Test1 and Test2) using a fixed decision threshold of 0.45, the proposed Fusion-Gate model achieves a micro-F1 of 0.510 on Test1 and 0.510 on Test2, with macro-F1 scores of 0.305 and 0.283 respectively. Compared against reimplemented baselines such as VQF-DNN, MFCC-LSTM, ViT-LogMel, and multimodal transformers like MulT and WavLM, the Mamba-based models deliver competitive accuracy while remaining lightweight.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Scalable multi-label speech emotion recognition research, with the released benchmark and lightweight baseline usable for affective computing applications needing efficient long-audio modeling.
+Speech and machine learning engineers building resource-efficient, naturalistic speech emotion recognition systems that capture concurrent emotional states.
 
 ## Related
 

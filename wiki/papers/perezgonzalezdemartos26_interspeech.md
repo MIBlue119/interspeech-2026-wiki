@@ -1,34 +1,41 @@
 ---
 id: perezgonzalezdemartos26_interspeech
-category: tts
-updated: 2026-09-28
-confidence: abstract-only
+category: speech-translation
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1407
+pdf: https://www.isca-archive.org/interspeech_2026/perezgonzalezdemartos26_interspeech.pdf
 ---
 
 # Not Quite My Tempo: Voice Activity-aware Speech Synthesis for Lip-Synchronous Dubbing
 
-**TL;DR** — A dubbing TTS model that matches the target language's speech timing to the source video by conditioning on a simple, optional binary voice-activity signal instead of raw lip-movement video.
+[PDF](https://www.isca-archive.org/interspeech_2026/perezgonzalezdemartos26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/perezgonzalezdemartos26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1407)
+
+**TL;DR** — This paper proposes a voice activity-conditioned text-to-speech framework for lip-synchronous dubbing that matches source temporal patterns with high accuracy while maintaining natural prosody.
 
 ## Problem
 
-Lip-synchronous dubbing requires TTS output whose voice/silence timing precisely matches the source clip, but prior work conditions synthesis directly on lip movements extracted from video, which is heavier and less flexible.
+Automatic dubbing requires target speech to precisely match the temporal pause and speech patterns of a source video clip to ensure audio-visual coherence. Traditional methods rely on complex video-based lip-movement encoders that are brittle in out-of-domain scenarios like cartoons or multi-speaker scenes, and standard text-to-speech models fail to align pause structures across different languages without explicit temporal constraints.
 
 ## Method
 
-Conditions speech generation on a lightweight binary voice-activity signal (producible in multiple ways), and randomly masks this condition during training so the feature becomes entirely optional at inference, letting editors enforce or relax lip-sync constraints as desired.
+The architecture builds on F5-TTS, replacing filler-token upsampling with average upsampling and using explicit speaker encoders (FACodec and ERes2NetV2) alongside Global Style Tokens for timbre and style transfer. A pretrained SoundStream vocoder maps waveforms to scalar-quantized latents, while frame-level binary voice activity masks—extracted via Silero VAD—are embedded and added to the encoder representations to condition an 18-layer Diffusion Transformer decoder trained with optimal-transport Conditional Flow Matching. During training, voice activity conditioning is randomly masked with a 20% drop probability for classifier-free guidance, making the feature entirely optional at inference time.
 
 ## Results
 
-Objective and subjective evaluations show the model follows the voice-activity signal with high accuracy while maintaining natural prosody and semantically appropriate pause placement within sentences.
+Evaluated on a 291-sample multilingual TEDx test set covering Greek, French, Portuguese, and Russian, the VAD-conditioned model achieves an average frame-level VAD alignment accuracy of ~91.5% to ~96.2% (compared to ~71% to ~72% for unconditioned models operating at chance level). Subjective evaluation via Mean Opinion Scores (MOS) from 40 participants shows no statistically significant degradation in pause placement (3.73 vs 3.82) or overall prosody naturalness (3.68 vs 3.81) when VAD conditioning is enabled.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://alexdemartos.github.io/NQMT_IS26
 
 ## Applications
 
-Automatic dubbing pipelines for film, TV, and video localization that need timing-accurate, lip-synchronous speech in a target language.
+Engineers and media localization professionals building automated video dubbing pipelines, post-editing suites, and cross-lingual speech synthesis systems.
+
+## Limitations
+
+Slightly lower VAD alignment accuracy is observed in multilingual settings due to non-speech acoustic events like laughter, hesitations, and varied voice modes.
 
 ## Related
 

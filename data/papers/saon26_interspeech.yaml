@@ -12,8 +12,8 @@ doi: 10.21437/Interspeech.2026-2680
 isca_url: https://www.isca-archive.org/interspeech_2026/saon26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/saon26_interspeech.pdf
 session: Search Methods and Inference Algorithms
-topics: [asr, speech-llm]
+topics: [asr, speech-llm, evaluation]
 code:
-    url: ""
+    url: https://ibm.biz/˜5pwn29DW4
     license: ""
 open_to_collaboration: false

@@ -1,34 +1,41 @@
 ---
 id: srirag26_interspeech
-category: health
-updated: 2026-09-28
-confidence: abstract-only
+category: spoken-language-understanding
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-819
+pdf: https://www.isca-archive.org/interspeech_2026/srirag26_interspeech.pdf
 ---
 
 # TriageSim: A Conversational Emergency Triage Simulation Framework from Structured Electronic Health Records
 
-**TL;DR** — TriageSim generates realistic synthetic nurse-patient triage conversations (text and audio) directly from structured electronic health records, working around the regulatory barriers that normally block emergency-triage research.
+[PDF](https://www.isca-archive.org/interspeech_2026/srirag26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/srirag26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-819)
+
+**TL;DR** — TriageSim is a framework that generates persona-conditioned, multi-turn emergency department triage dialogues with aligned audio and transcripts from structured electronic health records, producing a corpus of 814 simulated conversations.
 
 ## Problem
 
-Research into emergency triage conversation is largely restricted to structured electronic health records because regulatory constraints limit access to real nurse-patient interactions, leaving conversational aspects of triage understudied.
+Clinical datasets for emergency triage are largely restricted to structured electronic health records or post-hoc notes because regulatory and privacy constraints prevent the recording of real nurse-patient interactions. Consequently, existing conversational models fail to incorporate spoken dialogue, acoustic variations, accent diversity, or explicit triage decision frameworks. Overcoming this gap is critical for developing and evaluating speech-enabled clinical decision support systems.
 
 ## Method
 
-TriageSim is a simulation framework that generates persona-conditioned, multi-turn triage conversations from structured EHR records with explicit control over disfluency and decision behavior, producing roughly 800 synthetic transcripts and matching audio, evaluated with automated linguistic/behavioral/acoustic analysis plus manual medical-fidelity review of 50 conversations.
+The framework uses a multi-agent LLM architecture comprising a dialogue master, a nurse agent, and a patient agent, seeded with clinical vignettes from MIMIC-IV-ED, the ESI Handbook, and the ETEK manual. Nurse agents are governed by standard triage algorithms (Australasian Triage Scale or Emergency Severity Index) and structured personas controlling experience level and risk tolerance, while patient agents simulate demographics, language proficiency, and disfluency rates. Individual utterances are annotated for phrase boundaries to guide prosodic control, followed by zero-shot voice cloning using Qwen-3-TTS across four accent groups (Australian, Chinese, Indian, Middle Eastern). The resulting audio is mixed with ESC-50 background emergency department soundscapes (ambient beds at -32 dB and events between -14 dB and -26 dB).
 
 ## Results
 
-The generated corpus supports conversational triage classification experiments, and the authors observe modest agreement on acuity levels across the three tested modalities — synthetic text, ASR transcripts, and direct audio input; code is released.
+The generated corpus contains 814 conversations (totaling ~280K tokens and 26.14 hours) balanced across acuity levels 1 through 5. Linguistic evaluation shows positive correlation between intended and realized patient disfluency (Spearman's rho = 0.57), and nurse experience predictably scales final triage confidence. Acoustic evaluation reveals an overall Word Error Rate of 10.8% using Whisper-Large-V3-Turbo (nurse utterances at 5.7 WER, patient utterances at 16.0 WER), high speaker consistency (99.98), and an average UTMOSv2 perceptual quality score of 3.42. Medical fidelity evaluated by an expert clinician shows a mean cosine similarity of 0.83 for chief complaints and 0.94 precision / 0.96 recall for red-flag identification. Downstream conversational triage classification across text, ASR outputs, and direct audio yields modest quadratic weighted Cohen's kappa scores (ranging roughly from 0.19 to 0.39 across models like Nemotron, Qwen, Grok, and Voxtral), indicating that clinical reasoning complexity is the primary bottleneck rather than transcription noise.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/dipankarsrirag/triage-sim.git
 
 ## Applications
 
-Training and evaluating conversational triage and clinical dialogue systems without needing direct access to real patient conversations.
+Speech and ML engineers can use this framework and corpus to evaluate conversational speech recognition robustness, spoken dialogue systems, and automated clinical triage models under realistic acoustic and linguistic variations.
+
+## Limitations
+
+Conversational triage performance remains intrinsically challenging with low-to-modest agreement scores across modalities, and synthetic patient speech exhibits higher error rates for specific accents such as Middle Eastern and Indian English.
 
 ## Related
 

@@ -8,11 +8,12 @@ authors:
     - Yanfu Zhang
     - Ye Gao
 year: 2026
+doi: 10.21437/Interspeech.2026-1613
 isca_url: https://www.isca-archive.org/interspeech_2026/shi26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shi26d_interspeech.pdf
 session: Emotional Speech Synthesis
-topics: []
+topics: [tts, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://jiachengqaq.github.io/emo-bpo/
     license: ""
 open_to_collaboration: false

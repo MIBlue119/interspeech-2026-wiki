@@ -7,10 +7,11 @@ authors:
     - Peter J Keegan
     - C. I. Watson
 year: 2026
+doi: 10.21437/Interspeech.2026-1456
 isca_url: https://www.isca-archive.org/interspeech_2026/shields26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shields26_interspeech.pdf
 session: 'Pacific Voices: Speech Science and Technology for the Languages of the Pacific Ocean'
-topics: []
+topics: [phonetics, evaluation, low-resource]
 code:
     url: ""
     license: ""

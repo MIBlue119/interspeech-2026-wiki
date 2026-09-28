@@ -4,10 +4,11 @@ authors:
     - Neelam Saini
     - Sourav Ghosh
 year: 2026
+doi: 10.21437/Interspeech.2026-912
 isca_url: https://www.isca-archive.org/interspeech_2026/saini26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/saini26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
-topics: []
+topics: [paralinguistics, evaluation, asr]
 code:
     url: ""
     license: ""

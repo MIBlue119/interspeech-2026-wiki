@@ -8,11 +8,12 @@ authors:
     - Wooseok Han
     - Eunho Yang
 year: 2026
+doi: 10.21437/Interspeech.2026-1126
 isca_url: https://www.isca-archive.org/interspeech_2026/seo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/seo26_interspeech.pdf
 session: 'Spoken Language Processing: Evaluation and Metrics'
-topics: []
+topics: [asr, multilingual, evaluation]
 code:
-    url: ""
+    url: https://github.com/aitrics-ronaldo/Interspeech_MultiClin
     license: ""
 open_to_collaboration: false

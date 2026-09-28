@@ -18,8 +18,8 @@ doi: 10.21437/Interspeech.2026-2381
 isca_url: https://www.isca-archive.org/interspeech_2026/tu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tu26b_interspeech.pdf
 session: Challenge - Audio Reasoning Challenge
-topics: [speech-llm]
+topics: [spoken-language-understanding, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://audio-reasoning-challenge.github.io/
     license: ""
 open_to_collaboration: false

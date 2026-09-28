@@ -7,10 +7,11 @@ authors:
     - Ron Hoory
     - Yossi Adi
 year: 2026
+doi: 10.21437/Interspeech.2026-2743
 isca_url: https://www.isca-archive.org/interspeech_2026/turetzky26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/turetzky26_interspeech.pdf
 session: Text Processing for Speech Synthesis
-topics: []
+topics: [tts, prosody, evaluation]
 code:
     url: ""
     license: ""

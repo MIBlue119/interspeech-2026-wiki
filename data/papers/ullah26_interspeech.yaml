@@ -5,11 +5,12 @@ authors:
     - Hyun-Chul Choi
     - Zied Bouraoui
 year: 2026
+doi: 10.21437/Interspeech.2026-2618
 isca_url: https://www.isca-archive.org/interspeech_2026/ullah26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ullah26_interspeech.pdf
 session: Audio Understanding and Representation Learning
-topics: []
+topics: [audio-captioning, speech-llm, evaluation]
 code:
-    url: ""
+    url: https://github.com/uu95/MAC
     license: ""
 open_to_collaboration: false

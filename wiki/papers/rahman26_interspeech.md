@@ -1,34 +1,41 @@
 ---
 id: rahman26_interspeech
-category: low-resource
-updated: 2026-09-28
-confidence: abstract-only
+category: asr
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1432
+pdf: https://www.isca-archive.org/interspeech_2026/rahman26_interspeech.pdf
 ---
 
 # Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language
 
-**TL;DR** — A multi-year community effort grew the first open Pashto speech corpus from 1.5 hours to 147 hours across 1,483 speakers, and fine-tuning Whisper on it slashes WER from 99% to 13.4%.
+[PDF](https://www.isca-archive.org/interspeech_2026/rahman26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rahman26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1432)
+
+**TL;DR** — This paper presents the Pashto Common Voice corpus—the first large-scale open speech resource for Pashto—enabling fine-tuned Whisper Base to achieve a 13.4% word error rate.
 
 ## Problem
 
-Pashto has over 60 million native speakers but is largely absent from open speech technology, with no large-scale, openly licensed speech resource existing before this work.
+Pashto lacks open speech datasets despite having over 60 million native speakers, largely due to script and keyboard gaps that omit unique retroflex and fricative consonants. This absence of freely licensed data has historically blocked the development and training of competitive automated speech recognition systems for the language. Consequently, pre-trained multilingual models perform poorly out-of-the-box on Pashto speech.
 
 ## Method
 
-The authors describe building the Pashto Common Voice corpus over a community effort spanning 2022-2025 through Mozilla Common Voice, covering interface localization, Wikipedia-based sentence extraction with automated filtering, phonemically targeted contributions for frequently dropped Pashto characters, and multi-channel community outreach (including a VOA Pashto broadcast campaign).
+The corpus was constructed through interface localization, automated Wikipedia sentence extraction, and phonemically targeted contributions specifically designed to cover the eight Pashto characters missing from standard keyboards. Community growth was driven by social media outreach and a high-impact Voice of America broadcast media campaign. The authors fine-tuned Whisper Base (72.6M parameters) on the MCV20 subset using consumer hardware for 4,900 steps with linear learning rate warmup and decay.
 
 ## Results
 
-The corpus grew from 1.5 hours/5 contributors to 147 total hours and 1,483 unique speakers across ten releases (CV14-CV23), with speaker participation jumping ~108x after the VOA campaign; MCV23 contains 107,781 clips (82.33 validated hours); fine-tuning Whisper Base on MCV20 yields 13.4% WER versus the published Whisper Base zero-shot WER of 99.0% on Pashto.
+The final MCV23 release includes 147.07 total hours (82.33 validated hours) across 107,781 clips from 1,483 unique speakers and 13 content domains. Fine-tuning Whisper Base on MCV20 drops the word error rate to 13.4% on the MCV20 test split, compared to a published zero-shot baseline of 99.0% on Fleurs. Speaker participation exhibited a massive 108-fold surge between consecutive releases following broadcast media coverage.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://huggingface.co/ihanif/ps_base_l1
 
 ## Applications
 
-Foundation dataset for building Pashto ASR, TTS, and other speech technology, and a case study for community-driven low-resource corpus building.
+Speech engineers and researchers can use this corpus to train, fine-tune, and evaluate automatic speech recognition models and self-supervised speech representations for Pashto.
+
+## Limitations
+
+The dataset is restricted to prompted read speech rather than spontaneous conversation, lacks controlled dialectal representation, and suffers from an almost complete lack of reported gender metadata.
 
 ## Related
 

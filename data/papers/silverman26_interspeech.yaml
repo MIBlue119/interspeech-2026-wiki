@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-641
 isca_url: https://www.isca-archive.org/interspeech_2026/silverman26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/silverman26_interspeech.pdf
 session: Spatial Audio 4
-topics: [self-supervised, source-separation]
+topics: [self-supervised, speech-enhancement, evaluation]
 code:
-    url: ""
+    url: https://github.com/Yotamsil/SAC_Alignment
     license: ""
 open_to_collaboration: false

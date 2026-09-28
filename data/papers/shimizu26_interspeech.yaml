@@ -5,11 +5,12 @@ authors:
     - Xilin Jiang
     - Nima Mesgarani
 year: 2026
+doi: 10.21437/Interspeech.2026-109
 isca_url: https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.pdf
 session: Audio-Visual and Generative Target Speaker Extraction
-topics: []
+topics: [source-separation, self-supervised, speaker-verification]
 code:
-    url: ""
+    url: https://github.com/rikishimizu/MeanFlow-TSE
     license: ""
 open_to_collaboration: false

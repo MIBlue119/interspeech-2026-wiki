@@ -1,34 +1,37 @@
 ---
 id: rathore26_interspeech
-category: multilingual
-updated: 2026-09-28
-confidence: abstract-only
+category: asr
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-291
+pdf: https://www.isca-archive.org/interspeech_2026/rathore26_interspeech.pdf
 ---
 
 # SᴜTRA: Structurally-Unified Tokenization with Root Awareness
 
-**TL;DR** — A morphology-aware tokenizer for Indic languages that stops splitting roots and affixes apart mid-word, improving both morphological alignment and downstream machine translation quality.
+[PDF](https://www.isca-archive.org/interspeech_2026/rathore26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rathore26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-291)
+
+**TL;DR** — SuTRA is a root-aware, morphology-guided subword tokenization framework for Indic languages that reduces morphological shattering, achieving up to +14.7% boundary alignment and an average +8.08 chrF2 improvement in machine translation over standard BPE.
 
 ## Problem
 
-Existing subword tokenizers optimize statistical compression but ignore morphological structure, causing "Morphological Shattering" — arbitrary splitting of roots and affixes — that is especially harmful for morphologically rich Indic languages built on complex orthographic syllables (aksharas).
+Standard subword tokenizers like BPE, WordPiece, and Unigram act purely as statistical compression tools, ignoring morphological structures and script properties. In morphologically rich Indic languages using abugida scripts, this causes morphological shattering by arbitrarily splitting orthographic syllables (aksharas) and fusing prefixes with roots. Consequently, language models suffer from semantic blindness, where root semantics become hard to recover from subword embeddings.
 
 ## Method
 
-SᴜTRA is a morphology-aware tokenization algorithm that preserves akshara indivisibility and penalizes merges crossing morphological boundaries, accompanied by a new morphological segmentation dataset for Hindi, Marathi, and Gujarati.
+SuTRA operates in two phases: pre-tokenization and morphology-aware merging. Phase 1 applies script-aware orthographic rules to group akshara units and utilizes a gold morphological lexicon alongside a fine-tuned seq2seq model to flag forbidden morpheme boundaries for both vocabulary and out-of-vocabulary words. Phase 2 modifies the BPE scoring function to penalize candidate merges crossing these forbidden boundaries using a morphological validity probability weighted by an exponentially decayed rigidity curriculum. The authors also construct and release an LLM-verified gold standard morphological segmentation dataset of approximately 560,000 words across Hindi, Marathi, and Gujarati.
 
 ## Results
 
-Reduces shattering with peak gains of +14.7% in morphological alignment (Boundary F1) and +34% in semantic recoverability for Hindi over BPE, translating to an average +8.08 chrF2 improvement in machine translation.
+Evaluated across Hindi, Marathi, and Gujarati, SuTRA achieves peak Boundary F1 alignment scores of 0.586 for Hindi and 0.617 for Marathi while maintaining controlled fertility. In semantic recoverability tests using Word2Vec embeddings, SuTRA yields a +34% relative gain in linear R2 for Hindi over standard BPE and stronger structural recovery with deeper MLP probes in Marathi and Gujarati. In machine translation tasks on the BhasaAnuvaad corpus using a 3-layer Transformer, SuTRA achieves top results such as 38.84 chrF2 (0.6554 COMET) on Marathi-to-Hindi translation.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://mo-vaibhavr-43300.github.io/SuTRA/
 
 ## Applications
 
-Better tokenization for NLP and speech-text pipelines (ASR text normalization, translation, TTS text frontends) in morphologically rich Indic languages.
+Speech and NLP engineers working on large language models and machine translation for morphologically rich or low-resource Indic languages can use this tokenizer to improve subword semantic integrity.
 
 ## Related
 

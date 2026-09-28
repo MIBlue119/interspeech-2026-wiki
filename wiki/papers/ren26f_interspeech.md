@@ -1,26 +1,29 @@
 ---
 id: ren26f_interspeech
 category: phonetics
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1807
+pdf: https://www.isca-archive.org/interspeech_2026/ren26f_interspeech.pdf
 ---
 
 # Can Hands Articulate? Kinematic, Acoustic, and Perceptual Analyses of Vowel Production via External Resonators in Kaxi
 
-**TL;DR** — Studies Kaxi, a Chinese folk art where cupped hands act as an external vocal-tract resonator for a reed sound source, and finds that hand postures can produce reasonably intelligible vowels, suggesting the vocal tract is not the only viable speech filter.
+[PDF](https://www.isca-archive.org/interspeech_2026/ren26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ren26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1807)
+
+**TL;DR** — This study investigates Kaxi, a Chinese folk art where a reed serves as a sound source and hand movements act as an external resonator, demonstrating that hands can articulate intelligible vowels with an overall perceptual accuracy of 83.7%.
 
 ## Problem
 
-The source-filter model assumes the vocal tract is the filter shaping speech sounds, but whether an entirely external, non-anatomical filter could substitute for it and still produce intelligible vowels was unexplored.
+The classical source-filter model assumes speech is shaped internally by the vocal tract, leaving the capacity of external tools to replicate vocal filtering underexplored. High fundamental frequencies typically degrade formant estimation and vowel intelligibility, presenting a challenge for external acoustic modulation. Investigating alternative external speech filters informs speech plasticity theories and inspires non-invasive communication strategies for individuals with severe speech impairments.
 
 ## Method
 
-The authors perform kinematic tracking of hand postures, acoustic analysis of formant patterns, and perceptual intelligibility tests with 24 listeners on five vowels produced in Kaxi, where a reed provides the sound source and hand movements form the resonating cavity.
+The authors recorded a 22-year-old male native Mandarin speaker producing 197 monosyllabic words with a (C)V structure in both normal speech and Kaxi. Hand motion tracking was performed on right-hand videos using MediaPipe to capture 21 3D anatomical landmarks per frame, followed by principal component analysis (PCA) on normalized coordinates. Acoustic analysis utilized Praat and VoiceSauce to measure fundamental frequency (f0) and the first three formants, with outliers removed via Mahalanobis distance. Random Forest classifiers with 500 trees were trained on formant profiles to evaluate acoustic separability. A perceptual evaluation was conducted with 24 native Mandarin listeners performing a 5-way forced-choice vowel identification task using PSOLA-lengthened audio tokens, analyzed via mixed-effects logistic regression and linear mixed-effects models.
 
 ## Results
 
-Hand postures create a distinct spatial map analogous to tongue-based vowel articulation, Kaxi performers use a staircase-like formant tuning strategy to keep vowels distinct despite a high source pitch, and listeners perceived the vowels with relatively robust intelligibility.
+PCA revealed that the first two principal components accounted to 60.83% of the total variance, mapping hand shapes into a spatial configuration mirroring tongue height and advancement. Acoustically, Kaxi exhibited a staircase-like formant tuning strategy where formants periodically aligned with harmonics rather than rising continuously. Random Forest classification accuracy across the five vowels declined from 96.4% in normal speech to 84.1% in Kaxi. Perceptual identification accuracy reached 83.7% overall for Kaxi items, with vowel 'a' achieving near-perfect recognition (99.6%), though listeners experienced confusions between phonetically close vowels like 'o' and 'e'.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Insights for speech plasticity research and a potential non-invasive external-articulator tool for clinical speech rehabilitation when the natural vocal tract is impaired.
+Speech engineers, phoneticians, and clinical rehabilitation specialists working on non-invasive assistive communication devices for individuals with vocal tract impairments such as glossectomies.
+
+## Limitations
+
+The study analyzed a single professional performer and focused exclusively on isolated monosyllabic vowels rather than continuous speech or consonants.
 
 ## Related
 

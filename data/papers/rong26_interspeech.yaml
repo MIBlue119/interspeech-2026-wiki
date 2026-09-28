@@ -8,11 +8,12 @@ authors:
     - Kamil Wojcicki
     - Jing Lu
 year: 2026
+doi: 10.21437/Interspeech.2026-837
 isca_url: https://www.isca-archive.org/interspeech_2026/rong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/rong26_interspeech.pdf
 session: Language-Model and Codec-Token Speech Enhancement
-topics: []
+topics: [speech-enhancement, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://xiaobin-rong.github.io/stupasemo/
     license: ""
 open_to_collaboration: false

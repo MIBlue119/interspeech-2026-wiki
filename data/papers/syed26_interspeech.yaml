@@ -9,8 +9,8 @@ year: 2026
 isca_url: https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf
 session: Speech Analysis, Data Resources and Research Tools
-topics: [dataset, low-resource, multilingual]
+topics: [dataset, tts, asr]
 code:
-    url: ""
+    url: https://github.com/jemsbhai/corpusgen
     license: ""
 open_to_collaboration: false

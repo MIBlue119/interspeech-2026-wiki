@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-2966
 isca_url: https://www.isca-archive.org/interspeech_2026/subedi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/subedi26_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
-topics: [self-supervised, multilingual]
+topics: [self-supervised, multilingual, speaker-verification]
 code:
     url: ""
     license: ""

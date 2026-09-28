@@ -4,10 +4,11 @@ authors:
     - Akanksha Singh
     - Vinod Kumar Kurmi
 year: 2026
+doi: 10.21437/Interspeech.2026-3349
 isca_url: https://www.isca-archive.org/interspeech_2026/singh26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/singh26d_interspeech.pdf
 session: Spoken Language Understanding
-topics: []
+topics: [asr, spoken-language-understanding, self-supervised]
 code:
     url: ""
     license: ""

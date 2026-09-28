@@ -8,11 +8,12 @@ authors:
     - Petra Wagner
     - Christine Mooshammer
 year: 2026
+doi: 10.21437/Interspeech.2026-2247
 isca_url: https://www.isca-archive.org/interspeech_2026/schade26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/schade26_interspeech.pdf
 session: Perception and Appraisal of Prosody
-topics: []
+topics: [phonetics, evaluation, dataset]
 code:
-    url: ""
+    url: https://osf.io/gtajk
     license: ""
 open_to_collaboration: false

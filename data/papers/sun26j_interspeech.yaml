@@ -15,8 +15,8 @@ doi: 10.21437/Interspeech.2026-3344
 isca_url: https://www.isca-archive.org/interspeech_2026/sun26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sun26j_interspeech.pdf
 session: Spoken Language Understanding
-topics: [spoken-language-understanding, speech-llm, evaluation]
+topics: [speech-llm, evaluation, multilingual]
 code:
-    url: ""
+    url: https://github.com/ASLP-lab/MSU-Bench
     license: ""
 open_to_collaboration: false

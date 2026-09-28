@@ -1,26 +1,29 @@
 ---
 id: song26b_interspeech
 category: emotion-recognition
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-951
+pdf: https://www.isca-archive.org/interspeech_2026/song26b_interspeech.pdf
 ---
 
 # MSMC: Multi-Scale Masked Convolution network for Robust Speech Emotion Recognition
 
-**TL;DR** — A compact masked-convolution architecture matches heavy SSL models like HuBERT/WavLM on speech emotion recognition accuracy while being lightweight enough for real-time edge deployment.
+[PDF](https://www.isca-archive.org/interspeech_2026/song26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/song26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-951)
+
+**TL;DR** — MSMC introduces a multi-scale masked convolution network for speech emotion recognition that matches heavy SSL performance while requiring significantly fewer computational resources, achieving 76.0% weighted accuracy on IEMOCAP.
 
 ## Problem
 
-Self-supervised learning models (HuBERT, WavLM) give strong speech emotion recognition (SER) accuracy but are too computationally heavy for real-time edge deployment, while lighter mel-spectrogram-based CNNs traditionally can't match SSL representation quality.
+While large self-supervised learning foundation models excel at speech emotion recognition, their immense parameter counts and computational overhead render them impractical for real-time edge deployment. Conversely, lightweight spectrogram-based CNNs are efficient but lack the capacity to model long-range global dependencies and suffer from information leakage when processing masked spectral regions. This creates a trade-off between recognition accuracy and computational efficiency in interactive speech applications.
 
 ## Method
 
-MSMC (Multi-Scale Masked Convolution) uses a masked convolution encoder to extract sparse spectral features without information leakage, combined with a mean teacher framework that enforces multi-scale consistency to distill global semantic context and micro-prosodic detail into a compact model.
+The architecture uses a parallel dual-branch mean teacher framework where a lightweight student processes heavily time-masked 128-band log-Mel spectrograms (60% mask ratio) and a teacher processes the clean unmasked view via exponential moving average updates. A leak-free Masked Convolution Encoder (MCE) dynamically renormalizes convolutions using partial convolution principles to extract local micro-prosodic features without boundary contamination. Conditional Positional Encoding and physical token dropping route only visible tokens into a lightweight Transformer block to eliminate quadratic attention overhead. The student is jointly optimized via multi-scale feature reconstruction loss and global cosine distillation loss, while a supervised cross-entropy loss is applied exclusively to the teacher's classification head.
 
 ## Results
 
-On IEMOCAP, MSMC achieves state-of-the-art accuracy among lightweight models (76.0% WA), matching heavy SSL baselines while using significantly fewer parameters and less compute.
+Evaluated on the improvised subset of the IEMOCAP dataset using a 10-fold Leave-One-Speaker-Out (LOSO) cross-validation protocol across four emotion classes (angry, happy, neutral, sad). MSMC achieves 76.0% Weighted Accuracy (WA) and 68.8% Unweighted Accuracy (UA) with 6.77M parameters and 0.9G MACs. It outperforms lightweight baselines like ResNet-18 (58.5% WA) and matches heavyweight SSL models like WavLM-base (67.2% WA, 21.5G MACs) while requiring roughly 16x fewer parameters and 23x fewer MACs. Ablations confirm that combining MCE, conditional positional encoding, and the full multi-scale distillation teacher framework boosts vanilla CNN accuracy from 58.5% to 76.0% WA.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Real-time, on-device speech emotion recognition for wearables and mobile applications where SSL-model compute cost is prohibitive.
+Real-time speech dialogue systems, call center monitoring, educational software, and on-device affective computing assistants.
 
 ## Related
 

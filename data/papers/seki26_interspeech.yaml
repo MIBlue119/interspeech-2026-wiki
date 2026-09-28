@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-1833
 isca_url: https://www.isca-archive.org/interspeech_2026/seki26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/seki26_interspeech.pdf
 session: Language-Model and Codec-Token Speech Enhancement
-topics: [speech-enhancement]
+topics: [speech-enhancement, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/goombalab/hydra
     license: ""
 open_to_collaboration: false

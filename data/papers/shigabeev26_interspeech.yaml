@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-809
 isca_url: https://www.isca-archive.org/interspeech_2026/shigabeev26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shigabeev26_interspeech.pdf
 session: Datasets
-topics: [dataset]
+topics: [tts, dataset, multilingual]
 code:
-    url: ""
+    url: https://huggingface.co/datasets/langswap
     license: ""
 open_to_collaboration: false

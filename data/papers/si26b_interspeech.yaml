@@ -6,11 +6,12 @@ authors:
     - Sen Huang
     - Beibei Liu
 year: 2026
+doi: 10.21437/Interspeech.2026-1250
 isca_url: https://www.isca-archive.org/interspeech_2026/si26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/si26b_interspeech.pdf
 session: Acoustic Event Detection 2
-topics: []
+topics: [audio-classification, few-shot-learning, incremental-learning]
 code:
-    url: ""
+    url: https://github.com/YongjieSi/ACL
     license: ""
 open_to_collaboration: false

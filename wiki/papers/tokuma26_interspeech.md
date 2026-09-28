@@ -1,26 +1,29 @@
 ---
 id: tokuma26_interspeech
 category: phonetics
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-211
+pdf: https://www.isca-archive.org/interspeech_2026/tokuma26_interspeech.pdf
 ---
 
 # Perception of English /iː/–/ɪ/ by Japanese Listeners under Silent-Centre and Devoiced Vowel Conditions
 
-**TL;DR** — Japanese listeners' perception of the English /iː/-/ɪ/ contrast under vowel-devoicing and silent-centre conditions is driven mainly by duration- and clipping-related cues from their native phonology, not by the spectral cues from devoicing or aspiration that were expected to help.
+[PDF](https://www.isca-archive.org/interspeech_2026/tokuma26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tokuma26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-211)
+
+**TL;DR** — This study investigates how Japanese listeners perceive the English /iː/–/ɪ/ contrast under silent-centre and vowel devoicing conditions, revealing that native phonological knowledge heavily constrains L2 perception rather than spectral cues.
 
 ## Problem
 
-How Japanese listeners perceive the English /iː/-/ɪ/ vowel contrast under 'silent-centre' and vowel-devoicing conditions had not been examined together, despite devoicing and aspiration potentially carrying useful spectral cues.
+Second-language vowel perception often relies on acoustic cues distinct from those used by native listeners, but it remains unclear how native phonological patterns—such as Japanese vowel devoicing and gemination constraints—interact with English silent-centre and devoiced vowel stimuli. Understanding these perceptual biases is essential for explaining why intermediate L2 learners persistently confuse English high front vowels.
 
 ## Method
 
-The authors extend prior silent-centre perception research by adding vowel devoicing and aspiration conditions, testing Japanese listeners' identification accuracy on the English /iː/-/ɪ/ contrast under these manipulations.
+The experiment used American English /CVC/ target words representing /iː/ and /ɪ/ ('teat'/'tit' and 'peace'/'piss') recorded by a male native speaker of General American English at 44,100 Hz. Two main manipulation paradigms were implemented using Praat: Silent-Centre (SC) stimuli, which removed the vowel nucleus and left transitions of 10 to 40 ms with manipulated aspiration (Aspiration Edited vs. Aspiration Not Edited), and Devoiced Vowel (DEV) stimuli, which replaced the vowel nucleus with an extension of the final 20 ms aspiration segment across a six-stimulus voiced-duration continuum (0 to 80 ms). Fourteen Japanese university students (mean TOEIC score 665, CEFR B1 equivalent) participated in a forced-choice identification task, and responses were analyzed using a Generalized Estimating Equation model for repeated measures logistic regression.
 
 ## Results
 
-L2 vowel perception is strongly shaped by Japanese L1 phonological knowledge, particularly duration-based and clipping/gemination-linked effects; contrary to expectation, high-frequency components of devoiced vowels and the presence of aspiration did not improve identification accuracy, especially for listeners with lower English proficiency.
+Evaluated on identification accuracy across 120 randomized stimulus presentations per participant using a repeated measures logistic regression. Results showed a significant effect of vowel type (Wald chi-square = 37.402, p < 0.001), aspiration type (Wald chi-square = 19.675, p < 0.001), and transition duration (Wald chi-square = 13.857, p < 0.001) for SC tokens. For DEV tokens, significant effects were found for vowel type (Wald chi-square = 57.136, p < 0.001) and voiced-part duration (Wald chi-square = 80.631, p < 0.001). Contrary to expectations, DEV stimuli and aspiration-preserved tokens did not yield higher identification accuracy, as intermediate listeners failed to exploit spectral information associated with devoicing or aspiration.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Informs L2 English pronunciation and listening instruction design for Japanese learners, particularly around vowel duration cues.
+Speech scientists and language educators designing computer-assisted pronunciation training systems or targeted listening curricula for Japanese learners of English.
+
+## Limitations
+
+The study is limited to fourteen intermediate (CEFR B1) Japanese listeners evaluating a restricted set of American English high front vowel minimal pairs.
 
 ## Related
 
