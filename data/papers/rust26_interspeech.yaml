@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2356
 isca_url: https://www.isca-archive.org/interspeech_2026/rust26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/rust26_interspeech.pdf
 session: 'CHILDSPACE: Child Home Interaction & Language Dynamics: Speech, Psychology, Affect, Computation, and Environments'
-topics: [paralinguistic, prosody, dataset]
+topics: [prosody, phonetics, dataset]
 code:
     url: ""
     license: ""

@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-612
 isca_url: https://www.isca-archive.org/interspeech_2026/shi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shi26_interspeech.pdf
 session: Post-Training of Speech Foundation Models
-topics: [asr, speech-llm, source-separation]
+topics: [asr, speech-llm, self-supervised]
 code:
     url: ""
     license: ""

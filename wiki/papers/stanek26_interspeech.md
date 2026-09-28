@@ -3,27 +3,57 @@ id: stanek26_interspeech
 category: audio-deepfake
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-123
 pdf: https://www.isca-archive.org/interspeech_2026/stanek26_interspeech.pdf
 ---
 
 # What Do Deepfake Speech Detectors Actually Hear?
 
+*Vojtěch Staněk, Veronika Jirmusová, Anton Firc, Kamil Malinka, Jakub Reš, Martin Perešíni*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/stanek26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/stanek26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-123)
 
-**TL;DR** — The paper investigates the decision logic of self-supervised deepfake speech detectors using an audio-native adaptation of Integrated Gradients, revealing that models with similar performance rely on entirely different acoustic cues.
+**TL;DR** — This paper presents an audio-native explainability pipeline using Integrated Gradients on time-aligned self-supervised WavLM representations to uncover what deepfake speech detectors actually learn. The authors discover that detectors with similar performance rely on fundamentally distinct cues—such as non-speech noise, localized phonemes, or spectral integrity—while sharing a common vulnerability to lossy audio compression.
+
+## Key contributions
+
+- Introduces an audio-native adaptation of Integrated Gradients (IG) to explain self-supervised deepfake speech detectors and localize evidence in time.
+- Performs a structured manual semantic analysis of three detectors (AASIST, CA-MHFA, SLS) on ASVspoof 5 using 100 curated recordings.
+- Conducts causal validation of primary detector cues via targeted masking experiments (silence, phoneme, spectral, compressor).
 
 ## Problem
 
-Modern deepfake speech detectors built on self-supervised learning pipelines typically output a single black-box score without explaining which parts of the audio signal or what cues drive their decisions. This opacity makes it difficult for forensic analysts to justify scores, diagnose system failures, or design robust counter-measures against advanced synthetic speech.
+Modern self-supervised deepfake speech detectors output a single score without explaining why a sample is flagged, where the evidence lies, or what cues drive the decision. Prior post-hoc explanations for speech remain mostly qualitative or rely on speculative visualization rather than axiomatic attribution. Addressing this opacity is critical for forensic accountability, anticipating deployment failures, and designing better detector architectures.
 
 ## Method
 
-The authors propose an audio-native explainability pipeline using Integrated Gradients (IG) to localize decision evidence over time across transformer layers of WavLM Base+-based detectors. To construct a meaningful attribution path, they compute a model-specific baseline using the bona fide feature centroid averaged across training samples and timesteps, avoiding out-of-distribution artifacts or attack-specific dataset biases. They evaluate three representative architectures—AASIST, CA-MHFA, and SLS—fine-jointly trained on ASVspoof 5 with stochastic data augmentations, and analyze a curated subset of 100 recordings through a structured human annotation protocol.
+The pipeline analyzes hidden representations H from a fine-tuned WavLM Base+ model with dimensions L (layers) x T (time frames) x D (features), where T corresponds to ~20 ms frames at 16 kHz. The detector function F maps H to a scalar spoofing logit z. Integrated Gradients computes attributions along the straight-line path from a bona fide centroid baseline H' to the input H using a Riemann sum via the Captum library. The bona fide centroid H' is computed by averaging token features across all bona fide training samples and broadcasting across time, avoiding the distribution mismatch of zero or global noise vectors.
+
+To yield a temporal attribution map At, the raw IG scores are summed across all L layers and D feature dimensions, and then smoothed using a 6-frame (approx. 120 ms) sliding window. A structured human annotation protocol across 100 carefully selected ASVspoof 5 evaluation recordings assigns semantic labels (such as local glitches, phonemes, silences, or breaths), locality scores (Likert scale 1-5), and qualitative descriptions. Causal validation is performed by applying targeted modifications across the entire evaluation set, including Wav2Vec2 forced-aligned silence masking, high-energy phoneme smoothing, 1000-1600 Hz spectral band reduction, and compressor simulations.
+
+## Experimental setup
+
+Evaluated on the ASVspoof 5 dataset using Equal Error Rate (EER) and minDCF metrics. Compares three modern architectures utilizing pretrained WavLM Base+ backbones: AASIST, Context-Aware MHFA (CA-MHFA), and Sensitive Layer Selection (SLS), alongside a logistic regression score fusion baseline. Systems are fine-tuned jointly for 10 epochs using AdamW (WavLM lr=1e-6, classifier lr=1e-3, batch size 16) with 30% stochastic data augmentations (time masking, mu-law, RawBoost, noise, and various filters).
 
 ## Results
 
-Evaluated on the ASVspoof 5 dataset where individual detectors achieve Equal Error Rates between 3.98% and 5.26%, the attribution analysis shows distinct specialization among models: AASIST predominantly relies on non-speech and environmental cues (such as flagging clean silence and abrupt noise changes), CA-MHFA focuses on highly localized phonemes, sibilants, and articulation bursts, while SLS concentrates on global spectral integrity and word boundaries. High-confidence errors across all models were heavily dominated by aggressive compression artifacts and the A28 YourTTS attack. Causal masking of the identified primary cue regions confirmed performance degradation corresponding to each detector's assigned semantics.
+On the ASVspoof 5 evaluation set, individual baseline EERs are 4.06% for AASIST, 5.26% for CA-MHFA, and 3.98% for SLS, while logistic regression score fusion achieves an EER of 3.77% and minDCF of 0.0970. Manual annotation and causal masking reveal that AASIST relies heavily on non-speech and environmental silence (silence masking causes its bona fide false-acceptance rate FAR_b to surge to 99.99%), CA-MHFA focuses on localized phoneme articulation and sibilants, and SLS targets global spectral integrity and word boundaries. All three models exhibit a shared vulnerability to heavy audio compression, where dynamic range compression boosts background noise and flattens energy dynamics, causing false rejection rates (FRR_b) to spike between 8.38% and 11.93%.
+
+| System | EER (%) | minDCF |
+|---|---|---|
+| AASIST | 4.06 | 0.1015 |
+| CA-MHFA | 5.26 | 0.1330 |
+| SLS | 3.98 | 0.1040 |
+| LR Fusion | 3.77 | 0.0970 |
+
+## Limitations
+
+The analysis focuses exclusively on WavLM-based architectures and is evaluated primarily on the ASVspoof 5 dataset and specific attack types like YourTTS. The human annotation subset is constrained to 100 recordings due to the high manual labor cost (~40 person-hours). Furthermore, the interpretability pipeline relies on a bona fide centroid baseline which assumes availability of clean canonical speech distributions.
+
+## Why read this
+
+Audio forensics researchers and speech security engineers should read this to understand the true decision logic of modern SSL deepfake detectors and learn how to construct complementary ensembles that avoid shared failure modes.
 
 ## Code
 
@@ -31,11 +61,7 @@ Evaluated on the ASVspoof 5 dataset where individual detectors achieve Equal Err
 
 ## Applications
 
-Speech forensic analysts and machine learning engineers working on audio security, deepfake detection, and model interpretability.
-
-## Limitations
-
-The analysis is scoped specifically to self-supervised learning models operating on time-frame representations using WavLM backbones.
+Explainable audio forensics, trustworthy deepfake speech detection, and informed multimodal or ensemble anti-spoofing system design.
 
 ## Related
 

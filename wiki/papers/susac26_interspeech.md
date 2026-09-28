@@ -3,27 +3,62 @@ id: susac26_interspeech
 category: paralinguistics
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1091
 pdf: https://www.isca-archive.org/interspeech_2026/susac26_interspeech.pdf
 ---
 
 # Stuttering Classification and Segmentation with Attention-Based Multiple Instance Learning
 
+*Petar Sušac, Sebastian P. Bayerl, Hrvoje Džapo*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/susac26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/susac26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1091)
 
-**TL;DR** — This paper presents a multiple instance learning neural network that utilizes clip-level labels to achieve frame-level stuttering segmentation and classification without requiring frame-level training data, yielding up to a 23% improvement in frame-level F1 score.
+**TL;DR** — This paper presents a Multiple Instance Neural Network (MINN) architecture that leverages weakly-supervised instance-based and attention-based embedding multiple instance learning (MIL) with fine-tuned speech foundation encoders to perform accurate frame-level stuttering segmentation using only clip-level labels. It achieves a state-of-the-art 0.70 frame-level F1 score on the CASA dataset, outperforming previous segmentation baselines by 23%.
+
+## Key contributions
+
+- Generalizes the weakly-supervised multiple-instance learning paradigm to multi-label stuttering classification and segmentation.
+- Applies attention-based embedding MIL and HConv feature pooling to stuttering detection for the first time.
+- Achieves state-of-the-art clip-level multi-label classification results on the SEP-28k-E dataset using fine-tuned wav2vec 2.0, WavLM, and Whisper encoders.
+- Attains state-of-the-art frame-level stuttering classification performance on the CASA annotations of the FluencyBank dataset without requiring pre-training on frame-based datasets.
 
 ## Problem
 
-Standardized clinical stuttering severity assessments require precise knowledge of the duration of individual dysfluencies, but most available stuttering datasets only provide clip-level labels due to the high cost of expert frame-level annotation. Previous deep learning attempts either require expensive frame-level pretraining or rely solely on instance-based pooling strategies that lack embedding-level modeling capacity. This paper addresses the gap by formulating clip-to-frame stuttering detection under a weakly-supervised multi-label multiple instance learning framework.
+Assessing stuttering severity clinically using instruments like the SSI-4 and SES requires knowing the exact duration and timestamps of individual dysfluencies (blocks, prolongations, repetitions). However, the vast majority of available stuttering datasets (e.g., SEP-28k) provide only cheaper, more practical clip-level labels rather than frame-level timestamps. Prior deep learning methods treat stuttering classification purely at the clip level, whereas existing frame-level segmentation methods like YOLO-Stutter or StutterCut rely on artificial datasets, object detection formulations, or graph clustering, and struggle with end-to-end processing.
 
 ## Method
 
-The architecture comprises a pretrained foundation speech encoder (comparing wav2vec2-large, WavLM-large, and Whisper-medium with ~300M parameters and 1024 embedding size) combined with an HConv multi-layer pooling interface. The temporal outputs are smoothed using a 4-layer bidirectional LSTM (512 units) and passed through a projection network (256 and 128 fully connected neurons with leaky ReLU). The system explores both an instance-based model using max-pooling and an embedding-based model utilizing MIL attention pooling (with two fully-connected layers and a tanh/softmax structure). Models are optimized using binary cross-entropy loss augmented with positive-class sample weighting and annotator-agreement batch weighting factors.
+The architecture operates on 3-second audio clips segmented into 20 ms frames (yielding $T = 150$ frames). It starts with a pretrained foundation encoder (wav2vec2-large, whisper-medium, or wavlm-large, all having ~300M parameters and 1024 embedding dimensions), pooling outputs across multiple layers via the HConv interface. These representations pass through a 4-layer bidirectional LSTM (512 units) for temporal smoothing, followed by a projector (two fully connected layers of 256 and 128 neurons with leaky ReLU).
+
+Two variants are evaluated: an instance-based model and an embedding-based model. The instance-based model uses a multi-label classification head with sigmoid activation to output per-instance probabilities, aggregating them via max-pooling for clip-level results. The embedding-based model utilizes a MIL attention pooling mechanism (adapted from Ilse et al., using two fully connected layers of 128 and $T$ neurons with tanh and softmax) to compute bag representations. For inference, frame-level segmentation is performed by thresholding ($\theta = 0.5$) either instance scores or unnormalized attention weights (before softmax) to prevent prolonged dysfluencies from diluting the weights.
+
+Models are trained using binary cross-entropy (BCE) loss averaged across labels, incorporating positive sample weighting for class imbalance and an annotator-agreement weighting factor (0.25 penalty for non-unanimous votes on the 'No stuttered words' label, normalized per batch). Training proceeds in two phases using the Adam optimizer (batch size 16, initial learning rate $5 \times 10^{-5}$): encoders are first frozen until validation loss plateaus, then unfrozen and fine-tuned at an LR of $1 \times 10^{-5}$.
+
+## Experimental setup
+
+Evaluated on the SEP-28k-E dataset (28,000 clips of 3 seconds), the FluencyBank clip-level dataset (4,144 clips), and the CASA consensus test set of FluencyBank (8 variable-length recordings containing 732 dysfluencies). Baselines include Miyahara et al., Haas et al., Shih et al., YOLO-Stutter, and StutterCut. Metrics include F1 score, precision, and recall.
 
 ## Results
 
-Evaluated on the SEP-28k-E dataset for clip-level classification and the FluencyBank CASA gold standard annotations (732 dysfluencies across 8 recordings) for frame-level segmentation. The proposed models achieve state-of-the-art results, showing a 23% improvement in frame-level F1 score and a 2% to 9% improvement in clip-level F1 score over baseline multi-label configurations. The approach demonstrates that models trained exclusively on clip-level labels can successfully perform zero-shot frame-level segmentation.
+On the SEP-28k-E multi-label clip-level task, the Whisper + max/attn pool and WavLM + max/attn pool configurations achieve top F1 scores of 0.35 for blocks, up to 0.53 for sound repetitions, and 0.82–0.83 for interjections, matching or exceeding prior baselines. On the cross-dataset FluencyBank single-label classification task, Whisper with attention pooling establishes a new state-of-the-art F1 score of 0.90 (vs 0.85 for Shih et al. and 0.88 for WavLM max pool), proving the benefit of unfreezing and fine-tuning foundation encoder weights. On the CASA frame-level segmentation benchmark, the Whisper embedding-based attention model achieves the highest F1 score of 0.70 (precision 0.71, recall 0.69), outperforming YOLO-Stutter (F1 0.47), StutterCut (F1 0.45), and its max-pooling counterpart (F1 0.66).
+
+| Model | F1 | Precision | Recall |
+|---|---|---|---|
+| YOLO-Stutter [21] | 0.47 | 0.47 | 0.49 |
+| StutterCut [22] | 0.45 | 0.39 | 0.58 |
+| WavLM + max. pool | 0.46 | 0.53 | 0.41 |
+| WavLM + attn. pool | 0.56 | 0.53 | 0.59 |
+| Whisper + max. pool | 0.66 | 0.76 | 0.59 |
+| Whisper + attn. pool | 0.70 | 0.71 | 0.69 |
+
+## Limitations
+
+The models occasionally struggle with long-lasting blocks because the 3-second context window lacks sufficient acoustic context for dysfluencies spanning multiple windows. Evaluation is currently restricted to single-label frame-level performance on the CASA dataset, leaving multi-label frame-level segmentation for future work.
+
+## Why read this
+
+Researchers building automated speech pathology and stuttering severity assessment tools will find this digest a blueprint for turning cheap clip-level labels into precise frame-level segmentations without requiring expensive frame-annotated datasets.
 
 ## Code
 
@@ -31,11 +66,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech-language pathologists and clinical researchers automating stuttering severity assessment (such as SSI-4 or SES metrics), as well as developers improving speech recognition interfaces for people who stutter.
-
-## Limitations
-
-Performance relies on the quality of clip-level weak annotations and requires threshold tuning for frame-level timestamp extraction.
+Automated clinical stuttering severity assessment, speech therapy monitoring tools, and improving speech recognition (ASR) robustness for people who stutter.
 
 ## Related
 

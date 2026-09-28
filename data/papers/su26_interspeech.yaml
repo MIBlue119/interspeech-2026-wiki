@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1277
 isca_url: https://www.isca-archive.org/interspeech_2026/su26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/su26_interspeech.pdf
 session: Robust Audio-Visual Speech Recognition
-topics: [asr, speech-llm]
+topics: [asr, speech-llm, multilingual]
 code:
     url: https://github.com/yakumo72/AVUR-LLM
     license: ""

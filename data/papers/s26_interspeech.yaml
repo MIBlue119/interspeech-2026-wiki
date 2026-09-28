@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-3047
 isca_url: https://www.isca-archive.org/interspeech_2026/s26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/s26_interspeech.pdf
 session: 'Robust ASR: Hallucinations and Biases'
-topics: [asr, evaluation, self-supervised]
+topics: [asr, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://asr.iitm.ac.in/models
     license: ""
 open_to_collaboration: false

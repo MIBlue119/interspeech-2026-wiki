@@ -3,27 +3,58 @@ id: sadok26_interspeech
 category: self-supervised
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-733
 pdf: https://www.isca-archive.org/interspeech_2026/sadok26_interspeech.pdf
 ---
 
 # InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective
 
+*Samir Sadok, Xavier Alameda-Pineda*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/sadok26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sadok26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-733)
 
-**TL;DR** — The paper introduces INSIDE SSL, a model-centric, task-agnostic evaluation framework that tracks entropy, curvature, robustness, and cross-layer generative compatibility across self-supervised speech representations.
+**TL;DR** — INSIDESSL is a task-agnostic, model-centric framework that analyzes speech self-supervised learning (SSL) models across layer depth using entropy, manifold curvature, perturbation robustness, and a novel Generative Compatibility Matrix (GCM), uncovering distinct optimization regimes like Wav2Vec2's deep-layer entropy collapse.
+
+## Key contributions
+
+- Introduces per-layer intrinsic evaluation metrics spanning matrix-based von Neumann entropy (compression), token trajectory curvature (geometry), and InfoNCE-based invariance to augmentations (robustness).
+- Proposes the cross-layer Generative Compatibility Matrix (GCM) using Continuous Flow Matching decoders to map functional transferability and information flow between different Transformer depths.
+- Exposes a structural divergence between HuBERT-style masked prediction models (which maintain stable entropy and invariance) and Wav2Vec2/Data2Vec (which exhibit late-stage compression/entropy collapse and invariance spikes).
+- Bridges intrinsic representation topology to downstream performance via linear probes, revealing that paralinguistic tasks thrive on early high-entropy/high-curvature states while phoneme recognition benefits from mid-to-deep layer manifold linearization and compression.
 
 ## Problem
 
-While self-supervised learning (SSL) speech models like Wav2Vec2, HuBERT, and WavLM are ubiquitous, their internal layer-wise dynamics and representation geometry remain poorly understood through task-agnostic lenses. Without a systematic model-centric understanding of how information is compressed and organized across layers, designing more interpretable and task-aligned architectures relies on trial and error.
+Despite the foundational success of speech SSL models like Wav2Vec2, HuBERT, and WavLM across downstream applications, understanding their internal layer-wise dynamics remains an ongoing challenge. Prior analyses rely heavily on task-specific external labels (probing correlations with predefined attributes) rather than intrinsic properties, failing to systematically track how information is compressed, geometrically organized, or robustly preserved across the network hierarchy. Without a task-agnostic, model-centric perspective, designing interpretable, task-aligned architectures remains largely trial-and-error.
 
 ## Method
 
-The framework analyzes representations via three per-layer perspectives: matrix-based von Neumann entropy for compression, token trajectory curvature for geometry, and InfoNCE mutual information bounds for input perturbation robustness. Additionally, it introduces the Generative Compatibility Matrix (GCM), using decoders trained on one layer and evaluated on another to measure cross-layer functional transferability. The paper evaluates several BASE, PLUS, and LARGE model variants (Wav2Vec2, HuBERT, WavLM, UniSpeech, and Data2Vec-Audio) using LibriSpeech test-clean and train-clean-100 subsets.
+For a given input signal, layer representations are extracted as token embedding matrices across Transformer layers. Compression is quantified via matrix-based von Neumann entropy using normalized Gram matrix eigenvalues, avoiding explicit probability density estimation while measuring spectral spread and effective dimensionality. Geometry is evaluated through the average curvature of token transition vectors between adjacent layers, distinguishing abrupt local acoustic details from smoother, linearized abstract manifolds deeper in the network. Robustness is assessed via an InfoNCE-based mutual information lower bound between augmented pairs (using additive noise, pitch shifts, gain adjustments, and time masking with probability p=0.7 and temperature tau=0.1).
+
+To map inter-layer relationships, the Generative Compatibility Matrix (GCM) trains Continuous Flow Matching (CFM) decoders—implemented as 6-layer Diffusion Transformers (DiT) with a 512 hidden dimension connected to a frozen HiFi-GAN vocoder—on one model layer and evaluates them across all other layers using metrics like SpeechBERTScore, Resemblyzer speaker similarity, STOI, and L1 loss. This decoupled setup runs for 400 epochs on train-clean-100. Linear probing is further applied to frozen representations to link intrinsic topological properties (entropy, curvature, invariance) to downstream phoneme classification, pitch regression (F0 via CREPE), and speaker identification.
+
+## Experimental setup
+
+Intrinsic layer-wise metrics are evaluated on the LibriSpeech test-clean subset (2,620 utterances). Generative decoders and linear task probes are trained on the train-clean-100 subset. Investigated models include BASE (12 layers, 768 hidden dim, 95M params, pretrained on 960h LibriSpeech) and LARGE/PLUS variants (24 layers, 1024 hidden dim, 315M params, pretrained on >=60k to 94k hours) across Wav2Vec2, HuBERT, WavLM, UniSpeech-SAT, and Data2Vec-Audio.
 
 ## Results
 
-Experiments reveal distinct optimization regimes, such as late-stage entropy collapse in Wav2Vec2 compared to the geometric stability of WavLM. Task-specific linear probes show that phoneme classification correlates negatively with entropy (avg -0.46) and curvature (-0.57), benefiting from deep-layer compression and linearization. Conversely, paralinguistic tasks like pitch regression and speaker classification correlate positively with entropy (0.77 and 0.84) and curvature (0.82 and 0.74), depending heavily on early high-entropy states.
+Most models (HuBERT, WavLM, UniSpeech) sustain high normalized entropy (~0.82 to ~0.75) and smoothly decreasing curvature (~1.4 down to ~1.2) across layers, indicating preserved informational density and manifold unfolding. In contrast, Wav2Vec2-base and Data2Vec exhibit an entropy collapse near the final layer alongside a sharp spike in InfoNCE loss (rising to ~3.0 for Wav2Vec2), signaling a deep-layer representation breakdown likely linked to quantization or projection heads. GCM heatmaps reveal strict hierarchical pruning (asymmetric lower-triangular structure), where deep decoders generalize to preceding layers but early decoders cannot decode abstract representations, with a stable phonetic core residing in layers 1–10 for Wav2Vec2 and two distinct sub-blocks (1–6, 6–12) for WavLM. Downstream task correlations show that pitch and speaker classification correlate positively with entropy and curvature (Pearson ~0.77 to ~0.84), whereas phoneme classification correlates negatively (Avg entropy -0.46, curvature -0.57, invariance -0.54), proving that linguistic tasks benefit from deep-layer compression and linearization.
+
+| System / Condition | Phoneme Acc (Peak Layer) | Pitch F0 Corr | Speaker Acc | InfoNCE Final Layer |
+|---|---|---|---|---|
+| Wav2Vec2-Base | Mid Layers (7-8) | Moderate (Attenuates) | High (Early Layers) | ~3.0 (Spike) |
+| WavLM-Base | Mid Layers (7-8) | Stable Preservation | High (Early Layers) | Low Stable Plateau |
+| HuBERT-Base | Mid Layers (7-8) | Stable Preservation | High (Early Layers) | Low Stable Plateau |
+| Data2Vec-Audio-Base | Early Layers (Layer 4) | Sharp Decline (>L3) | High (Early Layers) | ~3.0 (Spike) |
+
+## Limitations
+
+The study focuses primarily on English via the LibriSpeech corpus, leaving multilingual cross-lingual transferability unexplored. The framework provides robust empirical correlations but lacks formal causal proofs for architectural anomalies like Wav2Vec2's deep-layer entropy collapse. Furthermore, analyses are restricted to standard unidirectional/bidirectional Transformer-based SSL backbones and standard augmentation recipes.
+
+## Why read this
+
+Speech researchers and model designers seeking a rigorous, task-agnostic diagnostic toolbox to understand internal SSL layer dynamics, representation geometry, and cross-layer functional compatibility will find this essential reading. It replaces trial-and-error architecture tuning with principled insights into how pre-training objectives shape compression and downstream task alignment.
 
 ## Code
 
@@ -31,11 +62,7 @@ Experiments reveal distinct optimization regimes, such as late-stage entropy col
 
 ## Applications
 
-Speech engineers and researchers designing, pruning, or distilling self-supervised speech recognition, speaker verification, and paralinguistic models.
-
-## Limitations
-
-The framework provides an empirical foundation without yet establishing formal causal links to isolate the exact mechanisms driving phenomena like extreme deep-layer compression.
+Guiding the design of next-generation speech SSL architectures, multi-task layer selection, and efficient on-device model pruning based on intrinsic layer-wise topology.
 
 ## Related
 

@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-912
 isca_url: https://www.isca-archive.org/interspeech_2026/saini26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/saini26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
-topics: [paralinguistics, evaluation, asr]
+topics: [speech-recognition, paralinguistics, multilingual]
 code:
-    url: ""
+    url: https://neelam472.github.io/MusicJudge/Supp.pdf
     license: ""
 open_to_collaboration: false

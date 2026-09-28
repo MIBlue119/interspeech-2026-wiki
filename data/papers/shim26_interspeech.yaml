@@ -14,8 +14,8 @@ doi: 10.21437/Interspeech.2026-3075
 isca_url: https://www.isca-archive.org/interspeech_2026/shim26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shim26_interspeech.pdf
 session: Prominence, Stress and Focus
-topics: [tts, evaluation, paralinguistics]
+topics: [tts, prosody, evaluation]
 code:
-    url: ""
+    url: https://osf.io/8ka5y
     license: ""
 open_to_collaboration: false

@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2573
 isca_url: https://www.isca-archive.org/interspeech_2026/shah26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shah26_interspeech.pdf
 session: Singing Voice and Music Generation
-topics: [audio-deepfake, multilingual, dataset]
+topics: [speech-enhancement, evaluation, dataset]
 code:
     url: https://github.com/Arth-Shah/SingFox
     license: ""

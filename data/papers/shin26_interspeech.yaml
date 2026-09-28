@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-595
 isca_url: https://www.isca-archive.org/interspeech_2026/shin26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shin26_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
-topics: [speech-enhancement, source-separation, self-supervised]
+topics: [target-speech-extraction, self-supervised, evaluation]
 code:
     url: https://github.com/argaaw/TRUST-TSE
     license: ""

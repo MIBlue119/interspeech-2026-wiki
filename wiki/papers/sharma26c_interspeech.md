@@ -3,27 +3,63 @@ id: sharma26c_interspeech
 category: speech-enhancement
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2839
 pdf: https://www.isca-archive.org/interspeech_2026/sharma26c_interspeech.pdf
 ---
 
 # LavaSR: Fast and Flexible Audio Bandwidth Extension via Vocos
 
+*Yatharth Sharma*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/sharma26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sharma26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2839)
 
-**TL;DR** — LavaSR is a Vocos-based bandwidth extension model that reconstructs 8-48 kHz audio with an NVIDIA A100 real-time factor of 0.0001 while achieving competitive log-spectral distance.
+**TL;DR** — LavaSR is a Vocos-based neural bandwidth extension system that recovers 48 kHz audio from low-rate inputs (8-48 kHz) using a single ConvNeXt backbone and a Linkwitz-Riley crossover refiner. It matches competitive spectral quality while reaching an extreme throughput of 0.0001 real-time factor on an NVIDIA A100 GPU and 0.0053 on an 8-core CPU.
+
+## Key contributions
+
+- Adapts the Vocos Fourier-domain neural vocoder architecture for bandwidth extension, predicting complex STFT coefficients in a single unified head.
+- Introduces a Linkwitz-Riley-inspired frequency-domain crossover refiner that smoothly stitches original low-band anchors with generated high-frequency content without magnitude spikes.
+- Demonstrates zero-shot generalization to arbitrary out-of-domain input sample rates by casting bandwidth extension as a fixed-grid spectral completion task after 48 kHz resampling.
+- Achieves orders-of-magnitude faster inference than diffusion (AudioSR) and multi-scale GAN baselines (AP-BWE), running at 12,549x real-time at batch size 32 on an A100.
 
 ## Problem
 
-Traditional signal processing methods for bandwidth extension fail to recover convincing high-frequency details, while state-of-the-art diffusion models are too computationally expensive for real-time applications. Existing efficient GAN-based approaches either rely on fixed input-output sample-rate pairs or intricate multi-scale networks, restricting their flexibility. This work bridges the gap by offering a unified, single-stream architecture supporting arbitrary input rates at extreme throughput.
+Legacy recordings and telephony audio often suffer from severe bandwidth limitations that traditional DSP interpolation and spectral shaping fail to realistically reconstruct. While recent diffusion models like AudioSR achieve high generative quality, their iterative sampling is prohibitively slow for real-time or large-scale cloud applications. Conversely, existing high-throughput GAN approaches like AP-BWE rely on rigid, ratio-specific architectures or intricate multi-scale pipelines that restrict sampling flexibility. LavaSR addresses this gap by providing a unified, lightweight model capable of handling arbitrary input sample rates at extreme processing speeds.
 
 ## Method
 
-The model first resamples input audio to 48 kHz using sinc interpolation and extracts an 80-bin mel-spectrogram conditioning representation. The backbone consists of 8 residual ConvNeXt-style blocks with a model dimension of 512 and feed-forward intermediate expansion to 1536 channels. A linear output head predicts complex STFT coefficients simultaneously, converted to waveforms via iSTFT. A lightweight Linkwitz-Riley-inspired frequency refiner then constructs a polynomial crossover mask to smoothly blend the original low-band anchor with the generated high-frequency content. Training utilizes multi-resolution STFT loss, L1 mel-spectrogram loss, Multi-Resolution Discriminator adversarial loss, and feature matching loss with the AdamW optimizer.
+The input audio at rate r (8-48 kHz) is first resampled to 48 kHz via sinc interpolation to establish a consistent baseband representation, avoiding ratio-specific sub-networks. A mel-spectrogram with 80 bins, n_fft = 2048, and hop length 512 is extracted from the 48 kHz resampled waveform and fed into a generator initialized from scratch. The backbone consists of 8 residual ConvNeXt-style blocks with a model dimension of C = 512, employing 7x1 depthwise convolutions for temporal modeling and feed-forward expansions to 1536 channels with LayerNorm and GELU activations. A linear output head predicts complex-valued STFT coefficients which are converted to a waveform via inverse STFT (iSTFT).
+
+To correct minor inconsistencies where the input already contains reliable information, a lightweight frequency-domain refiner applies a polynomial crossover mask M(f) inspired by Linkwitz-Riley filters. This mask merges the original low-frequency anchor Y(f) with the generated high-frequency content X~(f) using a squared-magnitude response, ensuring a flat summation and suppressing phase discontinuities at the cutoff frequency fc without creating artificial magnitude spikes. The final waveform is produced via inverse real FFT (iRFFT).
+
+The network is optimized using a combination of Multi-Resolution STFT loss (n_fft in {512, 1024, 2048}), L1 mel-spectrogram loss (128 mel bins, n_fft = 2048), a Multi-Resolution Discriminator (MRD) operating on complex STFTs, and a feature matching loss. Training uses the AdamW optimizer with a learning rate of 10^-4, weight decay of 10^-2, batch size of 16, and an exponential learning rate scheduler scaling by 0.99 every 64 steps on roughly 44 hours of VCTK speech data.
+
+## Experimental setup
+
+Models are trained on the VCTK corpus (~44 hours of speech split into segments of 1.28, 2.56, or 3.2 seconds) with random downsampling to 8, 12, and 16 kHz using sinc, zero-order hold, or linear interpolation alongside optional quantization noise. Baselines include standard sinc upsampling, AudioSR (diffusion-based), NVSR (neural GAN vocoder), and AP-BWE (APNet2-inspired GAN). Evaluation metrics comprise Log-Spectral Distance (LSD), ViSQOL (perceptual quality scale 1-4.75), and Scale-Invariant Signal-to-Distortion Ratio (SI-SDR in dB) over a fixed 4-second duration.
 
 ## Results
 
-Evaluated on the 44-hour VCTK corpus with inputs randomly downsampled to 8, 12, or 16 kHz, the model achieves a Log-Spectral Distance (LSD) of 0.85 at 8→48 kHz, outperforming AudioSR (1.61) and NVSR (1.22), and matching AP-BWE's LSD of 0.74 at 16→48 kHz. It attains a ViSQOL perceptual score of 3.51 at 8→48 kHz (competitive with AP-BWE's 3.51) and an SI-SDR of 18.02 dB. Ablations confirm that the Linkwitz-Riley refiner achieves the best LSD (0.850) compared to raw outputs (0.897) or standard Butterworth filters. Efficiency benchmarks show an NVIDIA A100 RTF of 0.0001 at batch size 32 (12,500x real-time) and an 8-core CPU RTF of 0.0053 with a 15M parameter footprint.
+On the VCTK test set for 8 to 48 kHz bandwidth extension, the proposed model achieves an LSD of 0.85 (outperforming AudioSR at 1.61, NVSR at 1.22, and tying AP-BWE at 0.87). For ViSQOL perceptual scoring, it ties AP-BWE at 3.51 for 8 to 48 kHz and achieves 3.69 at 16 to 48 kHz. In time-domain waveform fidelity measured by SI-SDR, the proposed model obtains 18.02 dB, trailing AP-BWE's dual-backbone architecture (18.77 dB) but significantly beating NVSR (14.68 dB).
+
+Ablations on spectral merging confirm the superiority of the Linkwitz-Riley-inspired refiner, yielding an LSD of 0.850 compared to 0.897 for no refiner, 0.865 for naive HP/LP cutoff, and 0.861 for a standard 4th-order Butterworth filter. While it trades away a minor phase optimization delta versus heavily engineered dual-stream GANs, it achieves an inference speed of 0.0053 RTF on an 8-core CPU (190.5x speed) and 0.0001 RTF at batch size 32 on an NVIDIA A100 GPU (12,549x speed), drastically outperforming AP-BWE's 0.0023 RTF under identical batching.
+
+| Method | 8->48 kHz (LSD ↓) | 8->48 kHz (ViSQOL ↑) | 8->48 kHz (SI-SDR dB ↑) | GPU RTF (BS=1) |
+|---|---|---|---|---|
+| Sinc upsampling | 3.52 | 2.10 | - | - |
+| AudioSR | 1.61 | 3.15 | - | 2.1175 |
+| NVSR | 1.22 | 2.97 | 14.68 | 0.0103 |
+| AP-BWE | 0.87 | 3.51 | 18.77 | 0.0034 |
+| Proposed Model | 0.85 | 3.51 | 18.02 | 0.0006 |
+
+## Limitations
+
+The evaluation is restricted solely to clean and degraded English speech data from the VCTK corpus, leaving music, singing voices, and noisy acoustic conditions untested. The model relies on an initial sinc resampling step to 48 kHz, which may bake interpolation artifacts into the baseband before neural processing. Furthermore, out-of-domain sample rates were only evaluated via synthetic degradation profiles rather than diverse real-world telephony or legacy hardware recordings.
+
+## Why read this
+
+Speech and ML engineers building real-time, low-latency audio enhancement or telephony pipelines should read this paper to learn how to adapt the Vocos paradigm for high-throughput bandwidth extension. It provides a blueprint for replacing heavy diffusion or multi-stage GAN architectures with a single lightweight ConvNeXt stream and a Linkwitz-Riley crossover refiner.
 
 ## Code
 
@@ -31,11 +67,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech engineers and developers deploying real-time speech enhancement, telephony super-resolution, or cloud-based audio processing pipelines on resource-constrained edge devices or high-throughput servers.
-
-## Limitations
-
-Evaluated primarily on clean speech datasets (VCTK), with future work needed for music and noisy acoustic environments.
+Real-time telephony enhancement, legacy audio restoration, and high-throughput cloud-based speech preprocessing pipelines.
 
 ## Related
 

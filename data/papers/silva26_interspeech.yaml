@@ -11,7 +11,7 @@ doi: 10.21437/Interspeech.2026-1120
 isca_url: https://www.isca-archive.org/interspeech_2026/silva26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/silva26_interspeech.pdf
 session: Target Speaker Extraction, Speech Separation and Audio Understanding
-topics: [speech-enhancement, source-separation, health]
+topics: [source-separation, speech-enhancement, self-supervised]
 code:
     url: ""
     license: ""

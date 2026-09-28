@@ -1,41 +1,71 @@
 ---
 id: saini26_interspeech
-category: paralinguistics
+category: speech-recognition
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-912
 pdf: https://www.isca-archive.org/interspeech_2026/saini26_interspeech.pdf
 ---
 
 # Listening Like a Judge: A Music-Aware Framework for Automatic Singing Performance Evaluation
 
+*Neelam Saini, Sourav Ghosh*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/saini26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/saini26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-912)
 
-**TL;DR** — MUSICJUDGE is a block-aligned multimodal framework for automated singing quality assessment that jointly evaluates lyric correctness and pitch-rhythm fidelity, achieving a Spearman correlation of 0.683 with human expert judgments.
+**TL;DR** — MUSICJUDGE is a block-aligned multimodal framework for automated singing quality assessment that jointly evaluates lyric correctness and pitch-rhythm fidelity using a fine-tuned ASR model with Modality-Guided LoRA, achieving a Spearman correlation of 0.683 with human expert judgments.
+
+## Key contributions
+
+- Proposed the first block-aligned multimodal singing quality assessment (SQA) framework that couples semantic lyric grounding with pitch-rhythm fidelity for interpretable scoring.
+- Introduced a multi-signal lyric alignment mechanism integrating semantic embeddings, fuzzy lexical matching, and phonetic similarity to handle ASR errors and melismatic singing.
+- Developed Modality-Guided LoRA (MG-LoRA) for Whisper fine-tuning, incorporating duration stability, fundamental frequency smoothness, monotonic alignment, and vocal onset cues.
+- Curated SWARALYRICS, a new evaluation dataset comprising 420 multi-genre singing performances, authoritative playback audio, and native-script reference lyrics.
 
 ## Problem
 
-Existing singing quality assessment methods evaluate either acoustic properties or lyrics exclusively, failing to holistically capture human expert judgments. Furthermore, combining these modalities is difficult because standard ASR systems struggle with singing-specific phenomena such as melisma, vibrato, tempo elasticity, and pronunciation variations.
+Computational singing quality assessment has historically relied on isolated acoustic metrics or decoupled lyric transcription via automatic speech recognition (ASR). Prior systems struggle because singing features complex acoustic variations such as melisma, vibrato, tempo elasticity, and intentional creative improvisations that standard acoustic signal measures penalize and rigid text-matching ignores. This lack of holistic integration limits automated evaluation systems from mirroring human expert judgments, which simultaneously weigh lyrical pronunciation accuracy and adherence to melodic-rhythmic structures.
 
 ## Method
 
-The framework utilizes Demucs for source separation and a fine-tuned Whisper-large-v3 model using a novel Modality-Guided LoRA (MG-LoRA) strategy that incorporates pitch, timing, and alignment regularization terms. It employs sliding windows and multi-signal matching combining semantic embeddings, fuzzy lexical matching, and phonetic similarity to detect temporal song blocks under structural uncertainty. Pitch and rhythm fidelity are measured via pYIN contour tracking against the global key and onset-to-beat deviations, respectively. The system combines these content and musical scores using weighted aggregation and leverages an LLM to generate section-aware natural-language feedback.
+The framework processes an input singing waveform by first separating vocal and accompaniment streams using Demucs. Accompaniment yields beat sequences and a global performance-intrinsic key estimated via chroma-based tonal profiling, while the vocal stream is transcribed using `whisper-large-v3` adapted via Modality-Guided LoRA (MG-LoRA). MG-LoRA is trained using a composite objective combining cross-entropy with four regularization losses: duration stability penalizing token stretching, fundamental frequency smoothness discouraging token boundaries in smooth regions, monotonic alignment consistency, and onset guidance matching token boundaries to vocal onsets, using coefficients lambda_d=0.10, lambda_p=0.15, lambda_a=0.10, and lambda_o=0.05. 
+
+Because live singing features structural uncertainties and non-uniform phrase boundaries, the system generates overlapping sliding windows (length L=28s, stride 10s) over ASR proto-segments and matches them against reference lyrics using a multi-signal approach combining sentence-level semantic embeddings, normalized fuzzy edit-distance lexical matching, and grapheme-to-phoneme phonetic similarity with weights 0.55, 0.20, and 0.25 respectively. Selected blocks undergo sequential line-level ordered matching to measure coverage, correctness, and flow.
+
+Meteorological musical quality is assessed block-by-block by extracting pitch contours via pYIN and vocal onsets against accompaniment beats. Pitch deviation aggregates scale-in-key distance, stability, and voiced-frame ratio, while rhythmic deviation combines absolute timing error, signed bias, and stability. Content fidelity (Ck) and musical fidelity (Mk) are combined using empirical weights gamma_C=0.55 and gamma_M=0.45, with block durations acting as structural weights for global aggregation. Natural language feedback is generated by supplying block score sequences and transcripts to a language model.
+
+## Experimental setup
+
+Experiments use the curated SWARALYRICS dataset (420 samples split 70/15/15 for train/val/test) alongside Jamendo and SingMOS-Pro datasets. Baselines include UTMOS, SingMOS, DNSMOS, base Whisper models, and traditional pitch extractors (SWIPE, CREPE, pYIN). Models are trained on a workstation with 2x NVIDIA Tesla V100-SXM2 GPUs (32 GB) using Whisper-large-v3 with LoRA rank r=16, alpha=32, dropout=0.05 on projection layers for 10 epochs at a learning rate of 1e-4. Evaluation metrics include Spearman correlation (rho), Kendall's tau (tau), Mean Squared Error (MSE), Mean Absolute Error (MAE), and Median Absolute Error (MedAE).
 
 ## Results
 
-Evaluated on the curated SWARALYRICS dataset (420 samples) and SingMOS-Pro, MUSICJUDGE achieves a Spearman correlation of 0.683 (a 32% improvement) and Kendall's tau of 0.499 (a 41% improvement) against human expert rankings. MG-LoRA reduces Word Error Rate (WER) across diverse singing genres by an average of 20.1% and across five test languages by 27.7% compared to base Whisper. Ablation studies confirm that coupling content and musical modalities yields over 9.1% more reliable assessment than single-modality baselines.
+MUSICJUDGE achieves a Spearman correlation of 0.683 and Kendall's tau of 0.499 on SWARALYRICS, outperforming content-only (rho=0.626) and music-only (rho=0.495) configurations and substantially beating base Whisper (rho=0.518, MSE 0.00960 vs 0.00564). On SingMOS-Pro, MUSICJUDGE achieves rho=0.483 and tau=0.379. MG-LoRA reduces singing ASR word error rate (WER) and character error rate (CER) across genres and languages, yielding an average 29.87% transcription improvement over second-best alternatives. Ablations confirm that combining content and musical scores yields superior correlation compared to using either modality in isolation.
 
-## Code
-
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
-
-## Applications
-
-Assistive training tools for vocalists, automated evaluation of synthetic music generation, and scalable judging support for music competitions.
+| System / Condition | Spearman (rho) | Kendall (tau) | MSE | MAE | MedAE |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Whisper (Base) | 0.518 | 0.350 | 0.00960 | 0.08010 | 0.06250 |
+| Whisper + MG-LoRA | 0.626 | 0.459 | 0.00685 | 0.06073 | 0.04250 |
+| pYIN (Music-only) | 0.495 | 0.354 | 0.00836 | 0.06673 | 0.03600 |
+| MUSICJUDGE (Full) | 0.683 | 0.499 | 0.00564 | 0.05514 | 0.03633 |
+| SingMOS-Pro (MUSICJUDGE) | 0.483 | 0.379 | 0.04275 | 0.15129 | 0.10799 |
 
 ## Limitations
 
-Evaluation is currently limited to solo singing performances, with multi-singer scenarios left for future work.
+The current framework is constrained by the scale and stylistic scope of SWARALYRICS, which is heavily oriented toward solo Indian music genres and specific regional languages, potentially limiting zero-shot generalization to Western polyphonic or operatic choral arrangements. Furthermore, performance relies heavily on source separation quality via Demucs; heavy acoustic interference, instrumental bleed, or multi-singer overlapping vocals can degrade downstream pitch extraction and ASR block alignment.
+
+## Why read this
+
+Speech and ML researchers working on multimodal audio evaluation, singing processing, or domain adaptation of large speech models will find this paper essential for its novel Modality-Guided LoRA formulation and rigorous multi-signal block alignment strategy.
+
+## Code
+
+- https://neelam472.github.io/MusicJudge/Supp.pdf
+
+## Applications
+
+Automated music education systems, interactive singing tutoring software, scalable judging support for talent competitions, and synthetic singing evaluation.
 
 ## Related
 

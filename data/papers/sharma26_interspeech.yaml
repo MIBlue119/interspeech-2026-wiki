@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2502
 isca_url: https://www.isca-archive.org/interspeech_2026/sharma26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sharma26_interspeech.pdf
 session: Language and Dialect Recognition
-topics: [asr, multilingual, self-supervised]
+topics: [asr, low-resource, multilingual]
 code:
     url: https://github.com/HeisenBug-07/Interspeech2026_SpCL
     license: ""

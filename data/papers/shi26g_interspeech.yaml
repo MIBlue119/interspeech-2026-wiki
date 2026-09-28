@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-3135
 isca_url: https://www.isca-archive.org/interspeech_2026/shi26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shi26g_interspeech.pdf
 session: Audio segmentation
-topics: [self-supervised, speech-llm, evaluation]
+topics: [speech-llm, self-supervised, evaluation]
 code:
     url: https://github.com/Alexuan/codec_probing_release
     license: ""

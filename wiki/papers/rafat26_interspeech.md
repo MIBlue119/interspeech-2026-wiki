@@ -14,55 +14,54 @@ pdf: https://www.isca-archive.org/interspeech_2026/rafat26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rafat26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rafat26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3334)
 
-**TL;DR** — This paper introduces a Dynamic Block-Online streaming ASR framework for low-resource, agglutinative intra-sentential Bangla-English code-switching, achieving an Eroot of 0.29 and Emorph of 0.35 via VAD-aligned global attention and script-anchored loanword injection.
+**TL;DR** — This paper introduces a Dynamic Block-Online streaming ASR framework for low-resource, agglutinative intra-sentential Bangla-English code-switching, achieving an Eroot error of 0.29 and Emorph of 0.35 by combining VAD-aligned global attention with Script-Anchored Loanword Injection.
 
 ## Key contributions
 
-- Dynamic Block-Online Processing: A VAD-triggered streaming strategy utilizing offline global attention models to resolve agglutinative code-switching dependencies.
-- Script-Anchored Loanword Injection: A synthetic augmentation technique embedding 750 high-frequency English loanwords into colloquial monolingual corpora to model phonotactic transitions.
-- CS-WER Metric: A fine-grained evaluation framework decomposing error rates across switch points, embedded English roots, and agglutinative suffixes.
-- Domain Generalization: Successful zero-shot and fine-tuned adaptation to specialized, high-perplexity menstrual and menopausal health domains.
+- Dynamic Block-Online Processing: A VAD-triggered streaming strategy utilizing offline global attention models to resolve long-form agglutinative code-switching dependencies.
+- Script-Anchored Loanword Injection: A synthetic augmentation technique embedding 750 high-frequency English loanwords into monolingual corpora to model phonotactic transitions.
+- Fine-Grained CS-WER Metric: A decomposed evaluation metric tracking Switch-Point (Eswitch), Loanword Root (Eroot), and Morphological Boundary (Emorph) errors.
+- Domain Generalization: Successful zero-shot or adapted transfer to high-perplexity menstrual and menopausal health terminology.
 
 ## Problem
 
-Low-resource agglutinative languages like colloquial Bengali frequently incorporate English loanwords (code-switching) and complex pre-base vowel/suffix orderings, creating severe challenges for low-latency ASR. Standard causal streaming models rely on fixed-size lookahead windows and causal masks that arbitrarily truncate morphemic suffixes and fail to handle long-range morphological dependencies or abrupt language switches. This causes alignment drift, structural deletion errors, and semantic degradation that breaks downstream natural language understanding pipelines.
+Low-resource agglutinative languages challenge low-latency streaming ASR because fixed-window causal attention truncates dependent vowel signs, prefixes, and suffixes that cross code-switch boundaries. Standard causal streaming cannot look back from a future suffix to correct an earlier root embedding, leading to alignment drift and high deletion rates. Existing open datasets lack intra-sentential code-switching coverage, causing models to fail when colloquial Bangla mixes with English loanwords.
 
 ## Method
 
-The architecture is built on a Non-Autoregressive (NAR) Paraformer backbone featuring a SAN-M (Self-Attention Network with Memory) encoder and a Continuous Integrate-and-Fire (CIF) predictor that emits attention weights to integrate acoustic embeddings into target token representations. While standard streaming uses causal-masked unidirectional attention (limiting context windows to 2.4s-3.0s), the proposed Dynamic Block-Online paradigm deploys a Voice Activity Detection (VAD) model to strip audio at natural communicative pauses (>200ms) up to a 3-second macro-block limit. Within each dynamic block, the system employs an unmasked offline encoder trained with global bidirectional attention, allowing hindsight resolution where the model re-evaluates early frames (roots) in light of later frames (suffixes). To tackle data scarcity, Script-Anchored Loanword Injection maps 750 high-frequency English semantic equivalents into a 750-hour composite monolingual Bengali corpus (Common Voice, OpenSLR 53, IndicVoices, KathBath) plus 250h of English Gigaspeech, yielding roughly 20% synthetic intra-sentential code-switched training instances without disrupting syntactic structures.
+The architecture is built on a Non-Autoregressive Paraformer backbone utilizing Self-Attention Network with Memory (SAN-M) blocks and a Continuous Integrate-and-Fire (CIF) predictor that maps acoustic frames to target tokens using emission weights alpha. While offline training uses global bidirectional attention, standard streaming restricts receptive fields using causal chunk masks (lambda <= 2.4s to 3.0s). To eliminate this future-blindness bottleneck without suffering from high latency, the proposed Dynamic Block-Online framework uses a Voice Activity Detector (VAD) to segment audio at natural communicative pauses (>200ms) into semantic macro-blocks up to 3 seconds long. Within each dynamic block, the unmasked offline encoder is deployed to restore global bidirectional attention, allowing hindsight resolution where early frames (roots) are reevaluated against later frames (suffixes). To combat data scarcity, the model uses Script-Anchored Loanword Injection, mapping a lexicon of 750 semantic equivalents (rbn, ren) onto a 750-hour composite Bengali corpus plus 250 hours of English Gigaspeech to yield roughly 20% code-switched sentences.
 
 ## Experimental setup
 
-Evaluated on a 750-hour composite Bangla corpus plus 250h English Gigaspeech for training, tested on a conversational Common Voice CS test set and a specialized menstrual health dataset. Baselines include offline Whisper (Large-v2/v3), MBNSpeech, MMS, and a standard causal Paraformer streaming model with chunk-masked attention evaluated across 600ms, 800ms, 2s, 2.4s, and 3s windows. Metrics include Character Error Rate (CER), Word Error Rate (WER), and Fine-Grained CS-WER (Eswitch/Eroot/Emorph).
+Experiments use a composite 750-hour Bangla corpus (Common Voice Bengali ~75h, OpenSLR 53 ~215h, IndicVoices ~122h, KathBath ~84h) plus 250h of English Gigaspeech, evaluated on Common Voice conversational splits with injected loanwords and a high-perplexity Menstrual Health dataset. Baselines include offline Whisper (Large v2/v3), MBNSpeech, MMS, and standard offline/streaming Paraformer variants with varying context windows (600ms to 3s) and explicit LID tags. Metrics include Character Error Rate (CER), Word Error Rate (WER), and the fine-grained CS-WER tuple (Eswitch / Eroot / Emorph).
 
 ## Results
 
-On the conversational test set, the standard causal streaming model saturates at a morphological error rate (Emorph) of 0.42 and loanword root error (Eroot) of 0.35, whereas the proposed Dynamic Block Paraformer achieves an Eroot of 0.29 and Emorph of 0.35, matching the precision of offline models (Eroot 0.29, Emorph 0.36) while maintaining a global WER of 38.73%. Error topology analysis demonstrates that the Dynamic Block model successfully shifts error distributions away from fatal structural deletions (<2%) toward phonetic substitutions. For domain adaptation on menstrual health, fine-tuning the block-online model on a synthetic TTS-generated corpus drops Eroot from 78 down to 22 and WER to 27%.
+The standard streaming Paraformer baseline saturates at an Mroot of 0.35 and Mmorph of 0.42 even when extending the causal window to 3.0s (Global WER 37.20%), driven primarily by high deletion rates (~7%). In contrast, the proposed Dynamic Block-Online model matches offline morphological precision, achieving a Global WER of 38.73% and significantly lowering structural errors to an Eswitch/Eroot/Emorph of .53/.29/.35, while dropping deletions to under 2% by converting errors into substitutions. In the menstrual health domain adaptation task, fine-tuning on synthetic-to-real data drops the Eroot from 78 down to 22 and achieves a 27% WER.
 
-| System | w | CER | Comm. WER | CS-WER (E_switch / E_root / E_morph) |
-|---|---|---|---|---|
-| Whisper Large-v3 | Full | - | 40.30 | 0.94 / 0.96 / 0.97 |
-| MBNSpeech | Full | 11.44 | 42.30 | 1.00 / 1.00 / 1.00 |
-| Paraformer Offline (+ aug) | Full | 11.05 | 31.14 | 0.46 / 0.25 / 0.31 |
-| Paraformer Streaming (+ aug) | 2.4s | 14.67 | 39.45 | 0.60 / 0.36 / 0.43 |
-| Paraformer Streaming (+ aug) | 3s | 14.27 | 37.20 | 0.58 / 0.35 / 0.42 |
-| Dynamic Block Paraformer (+ aug) | 3s | 15.62 | 38.73 | 0.53 / 0.29 / 0.35 |
+| Model | Data | w | CER | Comm Voice WER | CS-WER (Eswitch/Eroot/Emorph) |
+|---|---|---|---|---|---|
+| Paraformer Offline (+ aug) | B+E+C | Full | 11.05 | 31.14 | .46 / .25 / .31 |
+| Paraformer Streaming (600ms) | B+E+C | 600ms | 27.97 | 61.44 | .72 / .61 / .67 |
+| Paraformer Streaming (+ aug) | B+E+C | 2.4s | 14.67 | 39.45 | .60 / .36 / .43 |
+| Paraformer Streaming (+ aug) | B+E+C | 3s | 14.27 | 37.20 | .58 / .35 / .42 |
+| Dynamic Block Paraformer (+ aug) | B+E+C | 3s | 15.62 | 38.73 | .53 / .29 / .35 |
 
 ## Limitations
 
-The framework's primary operational limitation is its dependency on a robust VAD model to accurately segment audio at natural communicative pauses. The synthetic data augmentation relies on a curated set of 750 common loanwords rather than an exhaustive dictionary of all possible loanwords. Furthermore, the approach requires significant compute and training hours to adapt streaming checkpoints onto pretrained offline models.
+The framework relies heavily on a high-performing VAD model to accurately segment audio at natural communicative pauses. The synthetic loanword injection corpus is limited to 750 high-frequency loanwords rather than exhaustive dialectal variations. The approach is evaluated primarily on Bangla-English code-switching, leaving open its generalization to other low-resource agglutinative language pairs.
 
 ## Why read this
 
-Speech and ML researchers working on low-resource, morphologically complex, or code-switched audio should read this to understand how flexible, VAD-driven latency budgets can overcome the structural performance plateaus of strict causal streaming architectures.
+Speech and ML researchers working on streaming ASR for low-resource agglutinative languages or code-switching will find this a blueprint for bypassing the structural plateau of causal attention. It demonstrates how to trade rigid fixed-window streaming for VAD-aligned dynamic latency blocks to preserve morphological integrity.
 
 ## Code
 
-- https://github.com/apurbatech/Dynamic-ASR
+- https://github.com/Dynamic-ASR
 
 ## Applications
 
-Real-time speech recognition for bilingual conversational assistants, automated voice transcription in low-resource code-switched markets, and front-end acoustic processing for domain-specific small language models in specialized healthcare settings.
+Real-time speech recognition for bilingual conversational agents, localized voice assistants, and medical transcription systems handling domain-specific code-switched terminology.
 
 ## Related
 

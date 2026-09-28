@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-109
 isca_url: https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.pdf
 session: Audio-Visual and Generative Target Speaker Extraction
-topics: [source-separation, self-supervised, speaker-verification]
+topics: [target-speaker-extraction, speech-enhancement, self-supervised]
 code:
     url: https://github.com/rikishimizu/MeanFlow-TSE
     license: ""

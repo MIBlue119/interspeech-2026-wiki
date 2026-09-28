@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-2320
 isca_url: https://www.isca-archive.org/interspeech_2026/shin26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shin26b_interspeech.pdf
 session: Audio-Visual Grounding, Synchronization & Video Understanding
-topics: [source-separation, evaluation, self-supervised]
+topics: [audio-captioning, self-supervised, evaluation]
 code:
     url: ""
     license: ""

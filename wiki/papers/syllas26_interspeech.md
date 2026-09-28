@@ -3,27 +3,59 @@ id: syllas26_interspeech
 category: tts
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2481
 pdf: https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.pdf
 ---
 
 # Deterministic Prompting for Speaker-Stable Low-Resource Greek TTS
 
+*Georgios Syllas, Efthymios Georgiou, Kosmas Kritsis, Alexandros Potamianos*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2481)
 
-**TL;DR** — This paper presents a two-stage adaptation recipe combining multilingual full fine-tuning, deterministic prompting, and speaker-specific LoRA to achieve stable low-resource Modern Greek text-to-speech with a 10.7% WER and near-human speaker consistency.
+**TL;DR** — This paper proposes a two-stage adaptation recipe combining full fine-tuning on curated multilingual data with speaker-specific LoRA and deterministic prompting to build a high-quality Modern Greek text-to-speech model from limited data. The best configuration achieves a 10.7% word error rate and near-human speaker consistency (MOS-C 4.24).
+
+## Key contributions
+
+- A reusable data curation pipeline that cleans raw Greek audio and audiobooks via WhisperX alignment and aggressive acoustic filtering.
+- A two-stage adaptation recipe for prompt-conditioned codec models (Parler-TTS): full multi-speaker fine-tuning followed by speaker-specific LoRA.
+- Identification of LLM-generated style prompts as a cause of speaker timbre drift, resolved by replacing them with deterministic quantile-binned prompts.
+- Empirical evidence that robust single-speaker Modern Greek TTS is achievable using only 3.5 hours of target speaker data.
 
 ## Problem
 
-Modern neural TTS architectures approach human quality in high-resource settings but degrade severely when clean, curated training data is scarce, an issue especially prominent for Modern Greek due to its rich morphology and limited clean corpora. Public multi-speaker datasets like Common Voice exhibit high acoustic noise, speaker variability, and transcription errors, leading fine-tuning procedures to drift into speaker-averaged, unstable voices. Additionally, standard prompt-conditioned TTS models rely on stochastic LLM-generated style prompts that induce generation-to-generation timbre instability.
+State-of-the-art neural TTS architectures demand large, clean, single-speaker corpora that are largely unavailable for low-resource languages like Modern Greek. Existing public Greek resources consist either of tiny clean sets (CSS10) or noisy multi-speaker collections (Common Voice) with fragmentary supervision, causing model training to collapse into a diffuse, speaker-averaged voice with severe timbre drift, prosody degradation, and articulation errors. Prior standard models such as VITS fail to deliver intelligible prosody under these constraints, and stochastic LLM-based style conditioning introduces unpredictable generation-to-generation variability.
 
 ## Method
 
-The authors propose a data curation pipeline utilizing WhisperX forced alignment, duration constraints (1.5–10 s), and strict acoustic/transcription filtering on audiobook and Common Voice recordings to build standardized TTS clips and a clean 3.5 h single-speaker male dataset. They adopt Parler-TTS (an 880M-parameter multilingual codec language model with a frozen Flan-T5 text encoder and a 500M-parameter Transformer decoder) and execute a two-stage training recipe: first, full fine-tuning on a 23.0 h multi-speaker pool (Common Voice, CSS10, and audiobook data) using the AdamW optimizer for 50 epochs; second, a parameter-efficient LoRA stage targeting attention projection matrices (rank r=16, alpha=32, updating ~5% or 25M parameters) trained for 2 epochs on the 3.5 h single-speaker corpus. To fix prompt-induced variance, they replace stochastic LLM-generated style attributes with deterministic quantile-binned style descriptions.
+The authors adopt Parler-TTS (880M parameters), leveraging its pretrained cross-lingual phonetic and prosodic priors transferred from phonetically similar languages like Spanish. The pipeline first executes full multi-speaker fine-tuning on ~23 hours of data (Common Voice filtered to 15.5h + CSS10 + Audiobook-1) using the AdamW optimizer with a learning rate of 1e-4 for 50 epochs on the entire 500M-parameter decoder. To mitigate speaker averaging and timbre drift, a second stage applies Low-Rank Adaptation (LoRA) specifically to attention projection matrices (rank r=16, alpha=32, dropout=0.05) over 2 additional epochs using 3.5 hours of a single verified male speaker's data, updating only ~25M parameters (~5% of the decoder). Stochastic LLM-generated style prompts are replaced with deterministic prompts formed by discretizing scalar attributes (speaking rate, pitch, SNR, reverberation) into five quantile bins and concatenating fixed labels (e.g., "male, slightly low pitch, moderate speed, very clear"). Inference utilizes greedy decoding with a single canonical deterministic prompt (median bins).
+
+For data preparation, raw audiobooks and Common Voice clips undergo WhisperX forced alignment, duration trimming (1.5–10 s segments), and SNR/transcription confidence filtering. An automatically filtered 7.5h audiobook corpus was dropped due to ASR hallucination propagation, proving that transcription accuracy supersedes sheer data volume.
+
+## Experimental setup
+
+Evaluated on a 50-utterance held-out Common Voice test set for intelligibility and 20 held-out audiobook utterances for speaker similarity. Datasets include CSS10 (4.0h), Common Voice Greek (15.5h filtered out of 32h), and a verified Audiobook-1 single-speaker corpus (3.5h). Baselines include ground-truth human speech, a pretrained Greek VITS checkpoint, multi-speaker Parler-TTS with LLM prompts or deterministic prompts, and LLM+LoRA. Metrics comprise ASR-based WER/CER (via WhisperX v3), Mel-Cepstral Distortion (MCD), ECAPA-TDNN speaker similarity (SIM-S), and listener-based MOS for naturalness (MOS-N), intelligibility (MOS-I), and vocal consistency (MOS-C) evaluated by 29 native speakers. Hardware used includes an A100 40GB for full fine-tuning (~20h wall time) and a T4 16GB GPU for LoRA (~2h wall time).
 
 ## Results
 
-Evaluated on a 50-utterance held-out Common Voice test set and 20 audiobook utterances, the proposed deterministic prompting combined with LoRA adaptation achieves a word error rate (WER) of 10.7% (only 2.9 percentage points above the 7.8% ASR floor) and a character error rate (CER) of 3.7%. In listening studies with 29 native Greek speakers, the deterministic LoRA system attains near-human speaker consistency with a MOS-C of 4.24 (compared to 4.30 for human speech), substantially outperforming the LLM-prompted LoRA baseline (MOS-C 3.56). Ablations reveal that while LLM prompts yield lower initial WER without LoRA, deterministic prompts are essential for stabilizing identity during the speaker-specific LoRA adaptation stage.
+The deterministic LoRA configuration achieves a word error rate (WER) of 10.7% and character error rate (CER) of 3.7%, closely approaching the human ASR floor of 7.8% WER and 2.3% CER. Without LoRA, deterministic multi-speaker models lag in WER (18.8%), and pairing LoRA with stochastic LLM prompts yields a worse WER of 21.1%. In subjective evaluations, the deterministic LoRA system attains near-human voice consistency with a MOS-C of 4.24 (vs 4.30 for human speech, outperforming LLM+LoRA's 3.56). Naturalness MOS-N reaches 3.68 (vs 3.47 for human Common Voice clips which contained background noise and variable microphone quality). Subjective intelligibility MOS-I reaches 4.00. Across ablations, deterministic prompting consistently improves stability when combined with LoRA, whereas fully automated LLM prompts induce severe timbre drift across utterances. Primary limitations observed are lexical-stress errors and minor residual syllable hallucinations.
+
+| System | Spk. | WER ↓ | CER ↓ | MOS-I ↑ | MOS-C ↑ |
+|---|---|---|---|---|---|
+| Ground Truth | Ref. | 7.8% | 2.3% | 4.36 | 4.30 |
+| Parler-TTS (LLM) | MS | 15.2% | 6.2% | 3.83 | – |
+| Parler-TTS (Det.) | MS | 18.8% | 8.0% | 4.11 | – |
+| LLM + LoRA | SS | 21.1% | 7.6% | 3.92 | 3.56 |
+| Det. + LoRA | SS | 10.7% | 3.7% | 4.00 | 4.24 |
+
+## Limitations
+
+The work is restricted to Modern Greek, a single male LoRA speaker, and a single reading style, leaving multi-speaker and expressive style scaling for future investigation. The evaluation relies heavily on ASR-based metrics which can misestimate perceptual error rates for morphologically complex languages. Additionally, absolute speaker-similarity vector scores remain modest (SIM-S ~0.60), and the subjective study relies on a relatively small listening cohort (n=25–27).
+
+## Why read this
+
+Speech researchers and engineers tackling low-resource TTS will learn how to effectively adapt large multilingual prompt-conditioned codec models using parameter-efficient LoRA and deterministic prompt engineering. It provides a concrete blueprint for overcoming speaker drift and data scarcity in non-English languages.
 
 ## Code
 
@@ -31,11 +63,7 @@ Evaluated on a 50-utterance held-out Common Voice test set and 20 audiobook utte
 
 ## Applications
 
-Speech engineers and developers building high-quality, voice-consistent, and controllable single-speaker TTS systems for low-resource languages using imperfect or limited audio data.
-
-## Limitations
-
-Absolute speaker similarity scores remain modest (SIM-S around 0.60), and residual errors like lexical-stress misplacement persist occasionally.
+Low-resource synthetic voice generation, audiobook narration, and localized speech assistants for Modern Greek.
 
 ## Related
 

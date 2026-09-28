@@ -1,29 +1,64 @@
 ---
 id: shimizu26_interspeech
-category: source-separation
+category: target-speaker-extraction
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-109
 pdf: https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.pdf
 ---
 
 # MeanFlow-TSE: One-Step Generative Target Speaker Extraction with Mean Flow
 
+*Riki Shimizu, Xilin Jiang, Nima Mesgarani*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-109)
 
-**TL;DR** — MeanFlow-TSE achieves one-step generative target speaker extraction using mean-flow objectives, outperforming existing diffusion and multi-step flow matching baselines on Libri2Mix with an SI-SDR of 12.85 dB on the clean set.
+**TL;DR** — MeanFlow-TSE is a one-step generative target speaker extraction framework that uses mean-flow objectives and mixing-ratio-aware initialization, achieving state-of-the-art SI-SDR (18.80 dB on Libri2Mix Clean) in a single inference step.
+
+## Key contributions
+
+- Adapts the mean-flow and alpha-flow objectives to target speaker extraction for direct one-step generation from mixture to target speech.
+- Implements a mixing-ratio-aware initialization strategy that skips noise-dominant trajectory segments by starting inference at the estimated mixing ratio t = λ.
+- Employs an alpha curriculum training schedule transitioning smoothly from trajectory flow matching to mean-flow identity, avoiding Jacobian-vector product overhead.
+- Outperforms multi-step diffusion and standard flow-matching baselines in speech quality and intelligibility (PESQ, ESTOI, SI-SDR) with a real-time factor of 0.018.
 
 ## Problem
 
-Generative target speaker extraction (TSE) models based on diffusion and standard flow matching provide high perceptual quality but require costly iterative sampling (multiple function evaluations), restricting their deployment in real-time and low-latency environments like hearing aids. Although adaptive deterministic flow matching (AD-FlowTSE) attempts to start from a mixture mixing-ratio initialization to reduce steps, it still relies on objectives designed for multi-step ODE integration. This work adapts mean-flow principles to TSE to bypass multi-step refinement entirely.
+Traditional target speaker extraction (TSE) uses discriminative mask estimation (e.g., ConvTasNet, SepFormer) which struggles with unseen acoustic conditions and artifacts. Recent generative diffusion and flow-matching models (like DiffSep+SV, DDTSE, FlowTSE) produce high perceptual quality but require 10 to 50 function evaluations (NFEs), prohibiting their use in low-latency real-time applications such as hearing aids. While AD-FlowTSE reduced steps using mixing ratios, it relied on standard rectified flow objectives designed for multi-step sampling, leaving performance gains on the table for one-step inference.
 
 ## Method
 
-MeanFlow-TSE models the average velocity across trajectories conditioned on a speaker enrollment cue to jump directly from the input mixture to the target speech in a single inference step. It adopts a U-Net style Diffusion Transformer (UDiT) backbone with 16 transformer layers, 16 attention heads, and a hidden dimension of 768. The training recipe incorporates the $\alpha$-Flow curriculum strategy (transitioning from trajectory flow matching to mean-flow identity via a sigmoid schedule) and an auxiliary mixing ratio predictor using an ECAPA-TDNN feature extractor and MLP. The model is trained for 2,000 epochs on Libri2Mix using AdamW with a cosine annealing learning rate schedule and 16-bit mixed precision on eight NVIDIA L40 GPUs.
+MeanFlow-TSE models the average velocity across trajectories rather than instantaneous velocities, enabling direct one-step jumps from the mixture to the target speaker. The neural backbone is a UDiT (U-Net style Diffusion Transformer) with 16 transformer layers, 16 attention heads, and a hidden dimension of 768, operating on complex STFT representations (hop size 128, window 510). 
+
+During training, an alpha curriculum strategy shifts the objective from standard trajectory flow matching (alpha = 1) to mean-flow identity (alpha -> 0.005) using a sigmoid schedule across epochs, accompanied by an adaptive loss weight to stabilize training without requiring costly Jacobian-vector products. 
+
+At inference, an auxiliary network comprising an ECAPA-TDNN feature extractor and an MLP estimates the mixing ratio lambda from the mixture and enrollment cues. This estimate sets the starting time t_start = lambda_hat on the trajectory, allowing the Euler solver to extract the clean target spectrum in precisely one function evaluation (NFE = 1).
+
+## Experimental setup
+
+Evaluated on the Libri2Mix corpus (combining train-360 and train-100 subsets for training, evaluated on dev and test sets) at 16 kHz using 6-second segments (3s mixture + 3s enrollment). Compared against baselines including DiffSep+SV, DDTSE, DiffTSE, FlowTSE, SR-SSL, SoloSpeech, and AD-FlowTSE. Evaluated using PESQ, ESTOI, SI-SDR, DNSMOS, OVRL, and SIM. Implemented on 8 NVIDIA L40 GPUs using AdamW (weight decay 0.01, cosine learning rate schedule from 1e-4 to 1e-5), trained for 2,000 epochs with a batch size of 32 and 16-bit mixed precision.
 
 ## Results
 
-Evaluated on the Libri2Mix clean and noisy benchmark datasets, MeanFlow-TSE is compared against generative baselines including DiffSep+SV, DDTSE, DiffTSE, FlowTSE, SR-SSL, SoloSpeech, and AD-FlowTSE. On Libri2Mix clean, MeanFlow-TSE achieves an SI-SDR of 12.85 dB, PESQ of 3.83, and ESTOI of 0.95. On Libri2Mix noisy, it achieves an SI-SDR of 11.28 dB, PESQ of 3.48, ESTOI of 0.83, and speaker similarity (SIM) of 0.82, outperforming AD-FlowTSE and previous multi-step diffusion models while operating in a single inference step.
+On the Libri2Mix Clean set, MeanFlow-TSE achieves an SI-SDR of 18.80 dB and a PESQ of 3.26, outperforming the direct AD-FlowTSE baseline by 1.31 dB in SI-SDR and 0.37 in PESQ. On the Libri2Mix Noisy set, it reaches an SI-SDR of 12.85 dB and a PESQ of 2.21, establishing new state-of-the-art results for intrusive metrics among generative TSE models.
+
+NFE analysis confirms that performance peaks strictly at NFE = 1, as additional Euler steps degrade results due to accumulated discretization errors. Non-intrusive metrics (OVRL, DNSMOS) show competitive performance (OVRL 3.17 vs FlowTSE's 3.30), reflecting a mild trade-off where intrusive extraction fidelity is heavily prioritized over absolute subjective naturalness.
+
+| System | PESQ (Clean) | ESTOI (Clean) | SI-SDR (Clean) | PESQ (Noisy) | SI-SDR (Noisy) |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| Mixture | 1.15 | 0.54 | 0.00 | 1.08 | -1.93 |
+| FlowTSE [15] | 2.58 | 0.84 | - | 1.86 | - |
+| AD-FlowTSE [10] | 2.89 | 0.90 | 17.49 | 2.15 | 12.69 |
+| **MeanFlow-TSE** | **3.26** | **0.93** | **18.80** | **2.21** | **12.85** |
+
+## Limitations
+
+Evaluated exclusively on simulated anechoic two-speaker mixtures from Libri2Mix, leaving real-world reverberation and multi-speaker overlapping scenarios untested. The auxiliary mixing ratio predictor adds a small estimation dependency, and non-intrusive perceptual scores (OVRL/DNSMOS) lag slightly behind specialized multi-step generative models.
+
+## Why read this
+
+Researchers and audio engineers building real-time, low-latency speech extraction systems on edge hardware will find this paper essential reading for how to eliminate multi-step sampling bottlenecks in flow-matching models without sacrificing extraction performance.
 
 ## Code
 
@@ -31,7 +66,7 @@ Evaluated on the Libri2Mix clean and noisy benchmark datasets, MeanFlow-TSE is c
 
 ## Applications
 
-Speech engineers and developers building real-time communication systems, hearing aids, and robust automatic speech recognition front-ends that require low-latency target speaker extraction.
+Real-time hearing aids, live telecommunications, and robust front-ends for downstream automatic speech recognition in noisy environments.
 
 ## Related
 

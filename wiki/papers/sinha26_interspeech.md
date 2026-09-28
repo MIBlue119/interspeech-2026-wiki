@@ -3,27 +3,58 @@ id: sinha26_interspeech
 category: low-resource
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2634
 pdf: https://www.isca-archive.org/interspeech_2026/sinha26_interspeech.pdf
 ---
 
 # Collection and Curation of a Spontaneous Multilingual Speech Corpus for Low-Resource Himalayan Languages
 
+*Abhijit Sinha, Subham Kutum, Udara Laxman Kumar, Paban Sapkota, Hemant Kumar Kathania*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/sinha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sinha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2634)
 
-**TL;DR** — This paper presents a 146-hour spontaneous speech corpus across four under-resourced Eastern Himalayan languages and validates its utility via speaker-independent language identification achieving up to 92.95% accuracy.
+**TL;DR** — The paper introduces a 146-hour spontaneous speech corpus across four under-resourced Eastern Himalayan languages (Bodo, Dzongkha, Gorkhali, and Sherpa) from 320 native speakers, achieving up to 92.95% accuracy in speaker-independent language identification through multi-feature acoustic fusion.
+
+## Key contributions
+
+- Collection and structured organization of 146 hours of spontaneous, unscripted speech across four under-resourced Himalayan languages spanning Tibeto-Burman and Indo-Aryan families.
+- Documentation of a practical recording and metadata framework designed for natural indoor environments without acoustically treated studios.
+- Acoustic characterization of language-level pitch (F0), energy, and temporal dynamics across the corpus.
+- Empirical validation demonstrating robust speaker-independent language discrimination (up to 92.95% accuracy) using spectral, pitch, intensity, and loudness features.
 
 ## Problem
 
-Speech technology development for Eastern Himalayan languages is severely constrained by a lack of structured, high-quality spontaneous speech corpora. Collecting data in these regions is challenging due to variable acoustic environments, diverse speaker demographics, and the impracticality of large-scale transcription. Consequently, systematic resources to support computational modeling and linguistic documentation for these communities are urgently needed.
+Speech technology development heavily relies on curated corpora, but many linguistically diverse regions like the Eastern Himalayan corridor remain severely underrepresented due to a lack of systematically collected data. Existing datasets are often small, lack recording consistency, or are difficult to transcribe at scale due to dialectal variations and high annotation costs. Building datasets in these settings requires dealing with acoustically variable environments, diverse speaker demographics, and limited technical infrastructure, motivating structured unscripted data collection strategies.
 
 ## Method
 
-The corpus contains 146 hours of spontaneous unscripted monologues from 320 verified native speakers (80 per language) across Bodo, Dzongkha, Gorkhali (Nepali), and Sherpa, collected via portable recorders and headphone-microphones in indoor environments. To validate the data, frame-level pitch (F0 via YIN), intensity, RMS loudness, and 40-dimensional MFCCs were extracted from 10-second speech chunks after WebRTC voice activity detection. Speaker-independent language identification experiments (using an 80/20 speaker-disjoint split) were performed using SVM and CNN classifiers with individual and incrementally fused acoustic features.
+The corpus comprises 146 hours of spontaneous monologues collected from 320 speakers (80 per language: Bodo, Dzongkha, Gorkhali, Sherpa), with each speaker contributing five ~5.5-minute unscripted utterances (roughly 27-28 minutes per speaker). Audio was captured in natural indoor environments (e.g., schools and colleges) using portable digital recorders at 44.1 kHz or headphone-microphones at 16 kHz. For validation, audio was standardized to 16 kHz mono, voice activity detected via WebRTC (aggressiveness level 3), and framed into non-overlapping 10-second chunks under a strict speaker-independent 80/20 train/test split to prevent speaker memorization.
+
+Feature extraction includes 40-dimensional MFCCs, fundamental frequency (F0) via the YIN algorithm, RMS loudness, and intensity. Classifiers evaluated include Support Vector Machines (SVM) and Convolutional Neural Networks (CNN). Incremental feature fusion experiments are performed to measure complementarity between spectral representations, prosody, and energy cues, demonstrating that combining MFCCs, loudness, intensity, and pitch maximizes cross-language separability.
+
+## Experimental setup
+
+The dataset contains 146 hours total across 320 speakers (Bodo: 80, Dzongkha: 80, Gorkhali: 80, Sherpa: 80). Baselines evaluated are SVM and CNN classifiers operating on single acoustic features (MFCC, Pitch, Intensity, Loudness) and fused representations under a speaker-independent 80/20 split. Metrics reported include overall accuracy, balanced accuracy, precision, recall, and F1-score.
 
 ## Results
 
-Baseline MFCC features yielded 78.47% accuracy with SVM and 85.95% with CNN. Incorporating loudness and prosodic features via feature fusion improved CNN performance, with the full combination of MFCC, loudness, intensity, and pitch achieving a headline accuracy of 92.95% (92.41% balanced accuracy). Individual acoustic analyses revealed systematic differences in mean F0, ranging from 173.7 Hz for Bodo down to 141.9 Hz for Sherpa.
+Using single-feature CNNs, MFCCs achieve 85.95% accuracy, loudness reaches 76.09%, intensity yields 66.30%, and pitch provides 56.86%. Incremental feature fusion significantly improves performance: combining MFCCs with loudness raises accuracy to 91.97%, MFCC + pitch + intensity hits 92.85%, and the complete feature set (MFCC + loudness + intensity + pitch) achieves a headline accuracy of 92.95% with a balanced accuracy of 92.41%. Preliminary experiments using unadapted representations from multilingual pre-trained speech models failed to yield competitive results without task-specific fine-tuning.
+
+| Systems / Conditions | Acc (%) | Bal. Acc (%) | Prec | Rec | F1 |
+|---|---|---|---|---|---|
+| CNN (MFCC only) | 85.95 | 84.93 | 0.87 | 0.85 | 0.85 |
+| CNN (MFCC + Loudness) | 91.97 | 90.76 | 0.91 | 0.91 | 0.91 |
+| CNN (MFCC + Pitch + Intensity) | 92.85 | 92.34 | 0.92 | 0.92 | 0.92 |
+| CNN (MFCC + Loudness + Intensity + Pitch) | 92.95 | 92.41 | 0.92 | 0.92 | 0.92 |
+
+## Limitations
+
+The dataset lacks manual transcriptions, limiting its direct utility for end-to-end ASR training without supplementary annotation work. Demographic imbalances exist across language subsets (e.g., Sherpa includes 74 males and only 6 females, while Bodo has 52 females), driven by practical field recruitment constraints rather than balanced sampling. Recordings were captured in uncontrolled indoor environments with varying background noise rather than acoustic booths.
+
+## Why read this
+
+Researchers building speech technologies or data collection pipelines for low-resource, multilingual environments will find a blueprint for curating unscripted corpora and validating them via acoustic analysis and language identification.
 
 ## Code
 
@@ -31,11 +62,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech engineers and linguists working on low-resource speech technology, language identification, and computational documentation for Himalayan or underrepresented multilingual speech communities.
-
-## Limitations
-
-The dataset exhibits demographic gender imbalances across specific language subsets due to practical field recruitment constraints, and raw recordings contain natural background noise from indoor field settings.
+Computational documentation, language identification, and downstream acoustic modeling for low-resource and Himalayan speech communities.
 
 ## Related
 

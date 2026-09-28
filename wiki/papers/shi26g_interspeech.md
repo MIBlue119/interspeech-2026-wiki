@@ -1,29 +1,64 @@
 ---
 id: shi26g_interspeech
-category: self-supervised
+category: speech-llm
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-3135
 pdf: https://www.isca-archive.org/interspeech_2026/shi26g_interspeech.pdf
 ---
 
 # Speech Codec Probing from Semantic and Phonetic Perspectives
 
+*Xuan Shi, Chang Zeng, Tiantian Feng, Shih-Heng Wang, Jianbo Ma, Shrikanth Narayanan*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/shi26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shi26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3135)
 
-**TL;DR** — This paper systematically probes four representative neural speech codecs from semantic and phonetic perspectives, demonstrating that current tokenizers primarily capture phonetic and articulatory structure rather than lexical-semantic meaning.
+**TL;DR** — A systematic probing study of four representative speech codecs (EnCodec, DAC, MIMI, MIMO) reveals that current speech tokenizers predominantly encode phonetic and articulatory information rather than lexical-semantic meaning, exhibiting very weak cross-modal alignment with text. This challenges the common practice of calling SSL-distilled codec layers 'semantic tokens' and highlights the need for explicit semantic objectives in speech MLLMs.
+
+## Key contributions
+
+- Extended proxy-task probing using WordNet synonyms and CMU-Levenshtein near-homophones to neural codecs, demonstrating that feature distance patterns reflect phonetic rather than lexical-semantic clustering.
+- Conducted physiological articulatory probing using Vocal Tract Distance (VTD) features extracted from real-time MRI (rt-MRI) 75-Speaker datasets, proving that codec latent spaces strongly correlate with actual speech production mechanisms.
+- Evaluated cross-modal semantic alignment between speech codecs (MIMI, MIMO) and text token spaces using Centered Kernel Alignment (CKA), revealing near-chance structural similarity.
+- Uncovered that distilling WavLM features into MIMI's first codebook layer injects robust phonetic priors rather than true lexical semantics.
 
 ## Problem
 
-Modern multimodal LLMs increasingly rely on speech tokenizers to bridge audio waveforms and text representations, often assuming that discrete speech tokens encode high-level lexical semantics. However, emerging evidence suggests that speech models exhibit phonetic rather than true semantic clustering (e.g., grouping near-homophones closer than synonyms). This modality mismatch between phonetic speech tokens and semantic text tokens can degrade downstream MLLM performance, making it critical to systematically probe what information is actually preserved across codec codebook layers.
+Modern multimodal large language models (MLLMs) like GPT-4o, Qwen2.5-Omni, and Moshi rely on discrete speech tokenizers to unify speech and text into a shared autoregressive modeling framework. However, the field frequently mislabels self-supervised learning (SSL) or distilled speech representations as 'semantic,' even though prior work shows SSL features group near-homophones ('accept'/'except') closer than true synonyms ('big'/'large'). This linguistic-semantic versus phonetic mismatch creates an unquantified bottleneck that likely drives the performance drops observed in speech-understanding MLLMs. The authors address this by systematically probing how four major neural audio codecs encode semantic, phonetic, and articulatory properties across their RVQ codebook layers.
 
 ## Method
 
-The study evaluates four representative speech codecs with diverse architectures: EnCodec, DAC, MIMI, and MIMO. It employs three complementary probing tasks: (1) synonym vs. near-homophone distance analysis using WordNet and MFA/CMU dictionary alignments on LibriSpeech; (2) articulatory phonetic probing via Vocal Tract Distance (VTD) extracted from real-time MRI (rt-MRI) mid-sagittal sequences across the 75-Speaker dataset and Annot-16 subset using Projection Weighted Canonical Correlation Analysis (PWCCA); and (3) cross-modal semantic alignment measurement using Centered Kernel Alignment (CKA) between speech and text token spaces in MLLMs.
+The study evaluates four diverse speech tokenizers: EnCodec (SEANet convolutional encoder-decoder with RVQ, 12 kbps), DAC (RVQ with factorized/L2-normalized codebooks, snake activations, and quantizer dropout, 24 kbps), MIMI (Moshi's codec with first-layer WavLM distillation and acoustic residual RVQ, 4.4 kbps), and MIMO (Transformer codec jointly trained with an LLM for reconstruction and ASR, 1.55 kbps). All models operate on 24 kHz audio input.
+
+Three complementary probing methodologies are deployed. First, semantic-phonetic proxy analysis constructs word pairs from LibriSpeech using Montreal Forced Aligner timestamps, extracting WordNet cognitive synonyms and CMU/Levenshtein-distance (<0.4 normalized distance) near-homophones. Euclidean distances across accumulated codebook layers evaluate feature distance trends against random baselines. Second, articulatory probing uses mid-sagittal rt-MRI sequences from the 75-Speaker corpus and its Annot-16 subset (16 expert-annotated speakers) to extract 120-dimensional Vocal Tract Distance (VTD) features at 83 Hz. Projection Weighted Canonical Correlation Analysis (PWCCA) measures the correlation between VTD sequences and upsampled codec latent representations. Third, cross-modal semantic alignment is quantified via Centered Kernel Alignment (CKA) between text-space and speech-space decodings on LibriSpeech word segments, utilizing a random-permutation baseline to correct for intrinsic geometry artifacts.
+
+Key design choices include examining accumulated decoded features (summing current and preceding residual codebook layers) to track information accumulation depth, and performing separate ablation probing on MIMI's first WavLM-distilled layer versus its subsequent acoustic RVQ layers to isolate the exact source of phonetic bias.
+
+## Experimental setup
+
+Experiments utilize the LibriSpeech dataset (word segments extracted via MFA timestamps), WordNet for synonyms, CMU Pronouncing Dictionary for phonemes, and the 75-Speaker / 75-Speaker Annot-16 rt-MRI corpora. Codecs evaluated are EnCodec (24k Hz input, 12k bps), DAC (24k Hz input, 24k bps), MIMI (24k Hz input, 4.4k bps), and MIMO (24k Hz input, 1.55k bps). Evaluation metrics include Euclidean distance ratios against random baselines, PWCCA for VTD-codec correlation (120 gridlines, 83 Hz), and Centered Kernel Alignment (CKA) with random-permutation difference deltas.
 
 ## Results
 
-Across all models, speech codecs preserve substantially more phonetic information than lexical-semantic information, with synonym distance curves frequently overlapping or exceeding random baselines. Articulatory analysis confirms that EnCodec and DAC exhibit a fading of phonetic information across deeper layers, whereas MIMI and MIMO progressively accumulate phonetic and speaker-related information. Probing MIMI reveals that its WavLM-distilled first codebook layer primarily injects phonetic bias rather than true semantic understanding. CKA evaluation shows weak structural alignment between speech and text modalities, with MIMI scoring 0.329 and MIMO scoring 0.122 (showing minimal gains over random permutation baselines of delta 0.087 and 0.054 respectively).
+Across functional probing, EnCodec exhibits erratic layer fluctuations while DAC shows a gradual fading of semantic distance curves toward the random baseline as codebook depth increases. Conversely, MIMI and MIMO demonstrate clear accumulation of phonetic and speaker information as codebook indices grow. In articulatory probing, EnCodec and DAC show decreasing VTD correlation curves (fading phonetic information), whereas MIMI and MIMO show strong upward phonetic correlation trends, confirming that phonetic dominance stems from real physiological vocal tract configurations rather than acoustic artifacts. MIMI's separate layer analysis reveals that its WavLM-distilled first layer alone injects a massive phonetic correlation peak.
+
+For cross-modal alignment, MIMI and MIMO yield raw CKA scores of 0.329 and 0.122 respectively against text representations. Baseline-corrected gains over random permutations are marginal (delta = +0.087 for MIMI; delta = +0.054 for MIMO), proving that current speech tokens lack true lexical-semantic structure.
+
+| Speech Tokenizer | Input SR (Hz) | Output SR (bps) | CKA vs Text | Random-Corr CKA Delta ($\Delta$) |
+|---|---|---|---|---|
+| EnCodec | 24,000 | 12,000 | N/A | N/A |
+| DAC | 24,000 | 24,000 | N/A | N/A |
+| MIMI | 24,000 | 4,400 | 0.329 | +0.087 |
+| MIMO | 24,000 | 1,550 | 0.122 | +0.054 |
+
+## Limitations
+
+The linguistic-semantic evaluations are restricted to English due to reliance on WordNet and the CMU Pronouncing Dictionary, though the authors note prior work demonstrates similar cross-lingual trends. The rt-MRI articulatory dataset (Annot-16) is limited to 16 speakers, potentially constraining generalizability across diverse accents and speaking styles. The study evaluates only four discrete architectures, omitting emerging continuous-latent speech LLM interfaces.
+
+## Why read this
+
+Speech and MLLM researchers should read this paper to dispel the common misconception that SSL-distilled or neural codec tokens carry genuine lexical-semantic structure, providing a rigorous empirical roadmap for designing future tokenizers with explicit text-semantic objectives.
 
 ## Code
 
@@ -31,11 +66,7 @@ Across all models, speech codecs preserve substantially more phonetic informatio
 
 ## Applications
 
-Speech and ML engineers building multimodal conversational AI systems, speech LLMs, and unified speech-text architectures will benefit from these insights to design better speech tokenizers.
-
-## Limitations
-
-The evaluation is primarily restricted to English datasets due to the availability of well-characterized lexical and articulatory resources.
+Guiding the architectural design of next-generation speech tokenizers and multimodal large language models for conversational AI, speech-to-speech translation, and spoken language understanding.
 
 ## Related
 

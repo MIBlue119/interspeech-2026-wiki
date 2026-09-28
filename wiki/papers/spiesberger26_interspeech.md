@@ -3,27 +3,58 @@ id: spiesberger26_interspeech
 category: paralinguistics
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1878
 pdf: https://www.isca-archive.org/interspeech_2026/spiesberger26_interspeech.pdf
 ---
 
 # Predicting Menstrual Cycle Phases from Speech: A Paralinguistic Approach
 
+*Anika A. Spiesberger, Andreas Triantafyllopoulos, Melanie Weirich, Bjoern Schuller*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/spiesberger26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/spiesberger26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1878)
 
-**TL;DR** — This paper investigates whether machine learning models can predict individual menstrual cycle phases (ovulation versus luteal) from speech, achieving a peak accuracy of 62.5% using handcrafted acoustic features.
+**TL;DR** — This paper investigates computational paralinguistics to predict menstrual cycle phases (ovulation vs. luteal) from read speech, achieving a maximum accuracy of 62.5% using handcrafted acoustic features while learned embeddings perform at chance level.
+
+## Key contributions
+
+- Evaluates and compares handcrafted EGEMAPS acoustic features and deep WAV2VEC2.0 embeddings for menstrual cycle phase classification.
+- Analyzes a German read speech dataset of 76 naturally cycling participants across ovulation and luteal phases (2,277 audio files, ~84 minutes total).
+- Explores correlations between speaker-level classification accuracy and physiological variables including absolute hormone levels, inter-phase hormonal changes, and age.
+- Demonstrates that classification difficulty stems primarily from speaker-specific characteristics rather than the choice of machine learning classifier.
 
 ## Problem
 
-Prior research on vocal changes across the menstrual cycle has produced inconsistent results, largely due to reliance on small, predefined acoustic subsets and univariate statistical tests that miss complex multivariate patterns. Moreover, most work focuses on group-level means rather than individual-level prediction, leaving the practical feasibility of automated cycle tracking from voice unproven. Addressing this gap is important for non-invasive health monitoring and understanding hormone-speech interactions.
+Hormones fluctuate systematically across the menstrual cycle and interact with sex hormone receptors on vocal folds, yet prior literature reports conflicting acoustic findings. Traditional studies rely on univariate inferential statistics over small predefined acoustic parameter sets, which fail to capture subtle, multivariate acoustic variations or evaluate predictability at the individual speaker level. Overcoming these limitations is necessary to determine whether speech can serve as a non-invasive marker for physiological states like hormonal tracking.
 
 ## Method
 
-The study analyzes a German read speech dataset comprising 76 naturally cycling participants speaking 15 fixed sentences across ovulation and luteal phases, totaling 2,277 audio files (84.35 minutes). Two contrasting feature sets are evaluated: the interpretable 88-dimensional handcrafted eGeMAPS set extracted via openSMILE, and 1024-dimensional embeddings extracted from the penultimate layer of a wav2vec2-large-robust model fine-tuned for speech emotion recognition. Four standard classifiers—XGBoost, Support Vector Machines (SVM), Random Forest (RF), and Logistic Regression (LR)—are trained using nested cross-validation with leave-one-group-out outer loops and 3-fold group k-fold inner loops. Hyperparameters are tuned via grid search, and speaker-level predictions are generated via majority voting alongside Pearson correlation analyses against age and salivary hormone levels (estradiol, progesterone, testosterone).
+The study extracts two distinct acoustic representations from the speech data: the 88-dimensional handcrafted EGEMAPS feature set via the openSMILE toolkit, and 1024-dimensional embeddings extracted from the penultimate layer of a WAV2VEC2.0-large-robust model fine-tuned for speech emotion recognition. Features are standardized prior to classification. Four standard machine learning classifiers—eXtreme Gradient Boosting (XGBoost), Support Vector Machines (SVM), Random Forests (RF), and Logistic Regression (LR)—are trained and evaluated using a nested cross-validation scheme with a leave-one-group-out outer loop and a group k-fold (k=3) inner loop for grid-search hyperparameter tuning.
+
+Inference relies on majority voting across each participant's 15 sentence-level utterances per phase to yield a single prediction per person per phase. Comparative statistical analysis is performed using Wilcoxon signed-rank tests with Bonferroni-Holm correction and rank-biserial effect sizes. Speaker-level accuracies are subsequently correlated with salivary hormone measurements (estradiol, progesterone, testosterone) and age using Pearson's r to investigate inter-individual performance variance.
+
+## Experimental setup
+
+The dataset consists of read German speech from 76 female participants aged 18-44 years with regular cycles and no hormonal contraceptive use, yielding 2,277 sentence-level audio files (~84.35 minutes). Models are evaluated using classification accuracy and 95% confidence intervals derived from bootstrap resampling (1,000 iterations). Baselines include four distinct classifiers (XGBoost, SVM, RF, LR) compared across two modalities (EGEMAPS vs. WAV2VEC2.0), with chance performance at 50%.
 
 ## Results
 
-Wilcoxon signed-rank tests with Bonferroni-Holm correction revealed no statistically significant individual features, though 25 eGeMAPS features showed small effect sizes (|r| > 0.2), with loudness, spectral flux, and formant amplitudes showing higher values in the luteal phase. For classification of ovulation versus luteal phases (50% chance baseline), eGeMAPS features achieved accuracies of 59.2% for XGBoost, 61.2% for SVM, 62.5% for RF, and 62.5% for LR. Conversely, wav2vec2-large-robust embeddings performed at chance level across all classifiers, yielding accuracies between 52.6% and 57.2% with confidence intervals spanning 50%. Speaker-level prediction accuracies showed strong internal consistency across classifiers (r between 0.64 and 0.98) but exhibited no significant correlations with age, absolute hormone levels, or inter-phase hormonal changes.
+Handcrafted EGEMAPS features achieve headline accuracies of 59.2% for XGBoost, 61.2% for SVM, and 62.5% for both Random Forest and Logistic Regression. Conversely, WAV2VEC2.0 embeddings fail to exceed chance, yielding accuracies between 52.6% and 57.2% with confidence intervals overlapping 50%. Wilcoxon signed-rank tests show no features passing Bonferroni-Holm significance, though 25 EGEMAPS features (including loudness, formant amplitudes F1-F3, spectral flux, and H1-H2) exhibit small effects (|r| > 0.2), generally showing higher values in the luteal phase. Speaker-level accuracies correlate strongly across classifiers (r = 0.64 to 0.98), but show no significant linear correlation with age, mean hormone levels, or inter-phase hormonal deltas.
+
+| System / Condition | EGEMAPS Accuracy (%) | WAV2VEC2.0 Accuracy (%) |
+|---|---|---|
+| XGBoost | 59.2 [51.3; 66.4] | 55.9 [48.0; 63.2] |
+| SVM | 61.2 [53.9; 68.4] | 52.6 [44.1; 60.5] |
+| Random Forest | 62.5 [54.6; 69.7] | 57.2 [48.7; 64.5] |
+| Logistic Regression | 62.5 [54.6; 69.7] | 52.6 [44.7; 60.5] |
+
+## Limitations
+
+The study is restricted to read speech in a single language (German) from a modest cohort of 76 participants, potentially limiting generalizability to spontaneous or conversational speech and diverse populations. Loudness was not strictly controlled during recording, introducing potential technical confounds. Furthermore, the analysis uses binary phase approximations and linear correlation methods (Pearson's r) that may obscure non-linear relationships with age or hormonal sensitivity.
+
+## Why read this
+
+Researchers in computational paralinguistics and digital health should read this paper to understand the limits of standard speech embeddings versus handcrafted acoustic features for subtle physiological state detection. It provides a realistic benchmark for menstrual cycle phase classification and highlights the necessity of speaker personalization.
 
 ## Code
 
@@ -31,11 +62,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Health-tech engineers and researchers developing non-invasive, voice-based digital biomarkers for women's health and menstrual cycle tracking.
-
-## Limitations
-
-The study is limited to only two cycle phases (ovulation and luteal) in German-speaking participants not using hormonal contraceptives, yielding modest classification accuracies that highlight the need for personalization and multi-phase tracking.
+Non-invasive digital health tools for menstrual cycle tracking, continuous hormonal monitoring, and paralinguistic speaker state analysis.
 
 ## Related
 

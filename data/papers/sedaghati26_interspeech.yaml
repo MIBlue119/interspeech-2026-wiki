@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-1771
 isca_url: https://www.isca-archive.org/interspeech_2026/sedaghati26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sedaghati26_interspeech.pdf
 session: Audio Watermarking and Source Verification
-topics: [evaluation, dataset, audio-deepfake]
+topics: [audio-deepfake, evaluation, self-supervised]
 code:
     url: https://github.com/wailywang/VoxWatermark
     license: ""

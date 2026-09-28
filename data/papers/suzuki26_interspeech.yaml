@@ -12,8 +12,8 @@ doi: 10.21437/Interspeech.2026-914
 isca_url: https://www.isca-archive.org/interspeech_2026/suzuki26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/suzuki26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
-topics: [evaluation, dataset, source-separation]
+topics: [evaluation, self-supervised, speech-llm]
 code:
-    url: ""
+    url: https://elsa-projectpage.pages.dev/
     license: ""
 open_to_collaboration: false

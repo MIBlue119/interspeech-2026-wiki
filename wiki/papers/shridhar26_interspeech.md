@@ -1,29 +1,63 @@
 ---
 id: shridhar26_interspeech
-category: health
+category: paralinguistics
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-550
 pdf: https://www.isca-archive.org/interspeech_2026/shridhar26_interspeech.pdf
 ---
 
 # Lung-SRAD: Spectral-Aware Regularized Audio DASS with Dual-Axis Patch-Mix Contrastive Learning for Respiratory Sound Classification
 
+*Hemansh Shridhar, Miika Toikkanen, June-Woo Kim*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/shridhar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shridhar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-550)
 
-**TL;DR** — This paper proposes Lung-SRAD, a state space model architecture for respiratory sound classification that uses spectral-aware regularization and dual-axis patch-mix contrastive learning to achieve an ICBHI score of 64.48%, outperforming the AST baseline by 5%.
+**TL;DR** — Lung-SRAD adapts a distilled audio state space model (DASS) for respiratory sound classification, using spectral-aware layer regularization and dual-axis patch-mix contrastive learning to achieve a 64.48% score on the ICBHI benchmark.
+
+## Key contributions
+
+- First application of a distilled State Space Model (DASS) as an efficient alternative to Transformers for respiratory sound classification.
+- Identification of low-pass vs. mid-to-high frequency feature behavior in SSMs via Fourier-domain spectral response curves.
+- Introduction of spectral-aware layer regularization via separable depthwise Gaussian convolution on selected intermediate blocks.
+- Design of Dual-Axis Patch-Mix supervised contrastive learning tailored specifically to 2D Selective State Space (SS2D) traversal directions.
 
 ## Problem
 
-Audio Spectrogram Transformers (AST) rely on global self-attention with a CLS token, which behaves as a low-pass filter that suppresses mid-to-high spatial frequencies and reduces sensitivity to localized abnormal respiratory events like crackles and wheezes. Additionally, the quadratic time and memory complexity of self-attention makes Transformers computationally expensive for long audio sequences. Preserving these fine-grained spectro-temporal variations while maintaining efficiency is critical for accurate respiratory disease diagnosis.
+Respiratory anomalies such as crackles and wheezes manifest as short-duration, localized spectro-temporal structures. Popular Transformer backbones like the Audio Spectrogram Transformer (AST) rely on softmax self-attention, which acts as a low-pass filter that suppresses high-frequency inter-token variations and creates an attention sink on the CLS token. This spectral bias causes Transformers to miss sparse, localized abnormalities buried in normal breathing patterns, motivating the exploration of State Space Models that preserve mid-to-high spatial-frequency components.
 
 ## Method
 
-The method builds on the Distilled Audio State Space (DASS) model utilizing a 2D Selective State Space (SS2D) backbone, initialized with AudioSet-distilled weights from Transformer teachers and fine-tuned on 8-second, 16 kHz mel-spectrograms. To overcome the spectral limitations of attention, the authors analyze intermediate layer filter responses and introduce spectral-aware layer regularization using depthwise separable 1D Gaussian convolutions applied to Stage 2 blocks (Blocks 2 and 3) to dampen dominant spectral peaks. Furthermore, they propose a Dual-Axis Patch-Mix supervised contrastive learning strategy tailored to 2D state space scanning paths by replacing consecutive temporal or frequency segments using Beta distribution ratios. All models are optimized using the Adam optimizer with a learning rate of 5 × 10−5 and a batch size of 16.
+The architecture utilizes DASS, a hierarchical audio state space model built upon VMamba that processes melspectrograms through 2D Selective State Space (SS2D) scanning blocks across four stages. SS2D converts 2D feature maps into four directional sequences (row-wise, column-wise, and their reverses) processed independently by selective SSMs and merged, ensuring linear complexity while capturing multi-directional context. Pretrained weights are transferred from an AudioSet-distilled ensemble of AST and HTS-AT teachers.
+
+To prevent intermediate layers from overfitting to excessive local variations, spectral-aware regularization applies depthwise separable 1D Gaussian kernels (kernel size K=5, sigma=3) specifically to Stage 2 blocks (Blocks 2 and 3) that exhibit prominent mid-to-high frequency peaks. This attenuates dominant spectral peaks while preserving harmonic structure, improving specificity.
+
+For representation learning, Dual-Axis Patch-Mix contrastive learning replaces flat random patches with axis-aligned temporal and frequency mixing ratios sampled from a Beta distribution (beta=1.0). An asymmetric gradient strategy with stop-gradients on mixed samples prevents collapse of structured state-space dynamics. The objective function combines standard cross-entropy with time-only and frequency-only InfoNCE contrastive losses (temperature tau=0.20).
+
+## Experimental setup
+
+Evaluated on the ICBHI dataset comprising 5.5 hours of audio and 6,898 breathing cycles, using the official 60% train and 40% test patient-independent split (4,142 train cycles, 2,756 test cycles). Cycles are standardized to 8 seconds, resampled to 16 kHz, and augmented with SpecAugment (max mask length 160 frames, 48 frequency bins). Models are trained using the Adam optimizer with a learning rate of 5e-5 and batch size 16 over five random seeds. Metrics include Sensitivity (Se), Specificity (Sp), and the official ICBHI Score (Sc = (Se + Sp) / 2).
 
 ## Results
 
-Evaluated on the ICBHI benchmark containing 5.5 hours of recordings across 6,898 breathing cycles, the approach is assessed using Sensitivity, Specificity, and the official ICBHI Score as the mean over five random seeds. The proposed DASS model with simple fine-tuning achieves 61.06% score, while the full Lung-SRAD system integrating Gaussian regularization and dual-axis patch-mix contrastive learning reaches 64.48% score. This represents a 5% absolute improvement over the Audio Spectrogram Transformer (AST) baseline.
+On the 4-class ICBHI task, baseline DASS fine-tuning achieves a 61.06% Score (Sp: 74.68%, Se: 47.43%). Adding spectral-aware regularization raises the Score to 62.22% (Sp: 76.72%, Se: 47.72%). Combining regularization with Dual-Axis Patch-Mix contrastive learning (Lung-SRAD) pushes the Score to 64.48% (Sp: 79.53%, Se: 49.42%), outperforming the AST baseline by 5%. In the 2-class normal vs. abnormal setting (derived from 4-class weights), Lung-SRAD reaches a 72.57% Score, outperforming prior published benchmarks.
+
+| System / Condition | Sp (%) | Se (%) | Score (%) |
+| --- | --- | --- | --- |
+| AST Baseline (Fine-tuning) [8] | 77.14 | 41.97 | 59.55 |
+| AST + Patch-Mix CL [8] | 81.66 | 43.07 | 62.37 |
+| DASS Fine-tuning (Ours) | 74.68 | 47.43 | 61.06 |
+| DASS + Spectral-Aware Reg. (Ours) | 76.72 | 47.72 | 62.22 |
+| Lung-SRAD [DASS + Reg + Dual-Axis CL] | 79.53 | 49.42 | 64.48 |
+
+## Limitations
+
+The evaluation is restricted to a single benchmark dataset (ICBHI) of limited duration (5.5 hours), leaving open questions regarding cross-dataset generalization to unseen hospital recording devices and acoustic environments. The approach relies heavily on AudioSet distillation and requires careful hyperparameter tuning of the Gaussian kernel size and temperature to avoid degrading sensitivity.
+
+## Why read this
+
+Researchers and engineers working on bioacoustic classification or efficient non-Transformer architectures should read this paper to see how to adapt State Space Models for spectrogram processing by diagnosing and regularizing their spectral response profiles.
 
 ## Code
 
@@ -31,11 +65,7 @@ Evaluated on the ICBHI benchmark containing 5.5 hours of recordings across 6,898
 
 ## Applications
 
-Engineers and researchers working on automated respiratory disease screening, health monitoring systems, and computer-aided auscultation tools can use this approach for more sensitive detection of abnormal lung sounds.
-
-## Limitations
-
-The text does not explicitly state notable limitations or scope bounds.
+Automated respiratory disease screening, smart stethoscope diagnostics, and on-device continuous health monitoring for conditions like asthma, COPD, and pneumonia.
 
 ## Related
 

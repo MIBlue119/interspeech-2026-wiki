@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-747
 isca_url: https://www.isca-archive.org/interspeech_2026/seebauer26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/seebauer26_interspeech.pdf
 session: Speech Synthesis Evaluation 1
-topics: [evaluation, tts, dataset]
+topics: [tts, evaluation, spoken-language-understanding]
 code:
     url: ""
     license: ""

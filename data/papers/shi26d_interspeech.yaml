@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1613
 isca_url: https://www.isca-archive.org/interspeech_2026/shi26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shi26d_interspeech.pdf
 session: Emotional Speech Synthesis
-topics: [tts, self-supervised, evaluation]
+topics: [tts, self-supervised, emotion-recognition]
 code:
     url: https://jiachengqaq.github.io/emo-bpo/
     license: ""
