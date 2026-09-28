@@ -5,10 +5,11 @@ authors:
     - Umberto Cappellazzo
     - Mirco Ravanelli
 year: 2026
+doi: 10.21437/Interspeech.2026-1522
 isca_url: https://www.isca-archive.org/interspeech_2026/ali26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ali26b_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 1
-topics: []
+topics: [asr, multilingual]
 code:
     url: ""
     license: ""

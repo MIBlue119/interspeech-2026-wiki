@@ -7,10 +7,11 @@ authors:
     - Luis Fernando D'Haro
     - Kiran Chandra Dahal
 year: 2026
+doi: 10.21437/Interspeech.2026-322
 isca_url: https://www.isca-archive.org/interspeech_2026/dahal26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dahal26_interspeech.pdf
 session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
-topics: []
+topics: [asr, phonetics]
 code:
     url: ""
     license: ""

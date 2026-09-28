@@ -9,10 +9,11 @@ authors:
     - Zhao Ren
     - Bjoern Schuller
 year: 2026
+doi: 10.21437/Interspeech.2026-1716
 isca_url: https://www.isca-archive.org/interspeech_2026/sun26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sun26e_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
-topics: []
+topics: [health]
 code:
     url: ""
     license: ""

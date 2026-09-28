@@ -7,10 +7,11 @@ authors:
     - Mykola Pechenizkiy
     - Aaqib Saeed
 year: 2026
+doi: 10.21437/Interspeech.2026-2235
 isca_url: https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.pdf
 session: Multimodal and Non-Speech Healthcare Applications
-topics: []
+topics: [health, low-resource]
 code:
     url: ""
     license: ""

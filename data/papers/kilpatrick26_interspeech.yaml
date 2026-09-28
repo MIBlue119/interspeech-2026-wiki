@@ -4,10 +4,11 @@ authors:
     - Alexander Kilpatrick
     - Rikke Bundgaard-Nielsen
 year: 2026
+doi: 10.21437/Interspeech.2026-1551
 isca_url: https://www.isca-archive.org/interspeech_2026/kilpatrick26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kilpatrick26_interspeech.pdf
 session: Modeling L1 Acquisition
-topics: []
+topics: [phonetics]
 code:
     url: ""
     license: ""

@@ -11,10 +11,11 @@ authors:
     - Zeerak Talat
     - Hanan Aldarmaki
 year: 2026
+doi: 10.21437/Interspeech.2026-1704
 isca_url: https://www.isca-archive.org/interspeech_2026/toyin26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/toyin26b_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
-topics: []
+topics: [health]
 code:
     url: ""
     license: ""

@@ -8,10 +8,11 @@ authors:
     - Simon See
     - Timothy Liu
 year: 2026
+doi: 10.21437/Interspeech.2026-951
 isca_url: https://www.isca-archive.org/interspeech_2026/song26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/song26b_interspeech.pdf
 session: Speech Emotion Recognition and Representation 1
-topics: []
+topics: [emotion-recognition, on-device]
 code:
     url: ""
     license: ""

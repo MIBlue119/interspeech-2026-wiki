@@ -7,10 +7,11 @@ authors:
     - Chao Zhang
     - Baoxiang Li
 year: 2026
+doi: 10.21437/Interspeech.2026-1117
 isca_url: https://www.isca-archive.org/interspeech_2026/ren26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ren26c_interspeech.pdf
 session: 'Speaker Verification: Architectures, Losses, and LLMs'
-topics: []
+topics: [speaker-verification, speech-llm]
 code:
     url: ""
     license: ""

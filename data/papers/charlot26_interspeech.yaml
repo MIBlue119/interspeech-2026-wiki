@@ -8,10 +8,11 @@ authors:
     - Emmanuel Dupoux
     - Marvin Lavechin
 year: 2026
+doi: 10.21437/Interspeech.2026-2772
 isca_url: https://www.isca-archive.org/interspeech_2026/charlot26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/charlot26_interspeech.pdf
 session: 'CHILDSPACE: Child Home Interaction & Language Dynamics: Speech, Psychology, Affect, Computation, and Environments'
-topics: []
+topics: [self-supervised, multilingual, low-resource]
 code:
     url: ""
     license: ""

@@ -8,10 +8,11 @@ authors:
     - Xin Fang
     - Jian-Qing Gao
 year: 2026
+doi: 10.21437/Interspeech.2026-2312
 isca_url: https://www.isca-archive.org/interspeech_2026/mou26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mou26b_interspeech.pdf
 session: Long-Form Speech Synthesis
-topics: []
+topics: [tts]
 code:
     url: ""
     license: ""

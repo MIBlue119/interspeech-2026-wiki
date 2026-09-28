@@ -12,10 +12,11 @@ authors:
     - Yu Tsao
     - Hsin-Min Wang
 year: 2026
+doi: 10.21437/Interspeech.2026-1882
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26t_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26t_interspeech.pdf
 session: Beyond Speech Technologies in Healthcare
-topics: []
+topics: [voice-conversion, health]
 code:
     url: ""
     license: ""

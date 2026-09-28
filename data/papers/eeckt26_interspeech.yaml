@@ -4,10 +4,11 @@ authors:
     - Steven Vander Eeckt
     - Hugo Van hamme
 year: 2026
+doi: 10.21437/Interspeech.2026-3169
 isca_url: https://www.isca-archive.org/interspeech_2026/eeckt26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/eeckt26_interspeech.pdf
 session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
-topics: []
+topics: [asr]
 code:
     url: ""
     license: ""

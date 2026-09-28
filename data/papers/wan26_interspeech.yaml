@@ -3,10 +3,11 @@ title: 'Enhancing Visual Paralinguistics: Motion-Guided Spatial Denoising for No
 authors:
     - Junjie Wan
 year: 2026
+doi: 10.21437/Interspeech.2026-868
 isca_url: https://www.isca-archive.org/interspeech_2026/wan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wan26_interspeech.pdf
 session: Multimodal Emotion Recognition
-topics: []
+topics: [paralinguistics]
 code:
     url: ""
     license: ""

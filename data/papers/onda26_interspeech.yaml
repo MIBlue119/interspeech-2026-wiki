@@ -6,10 +6,11 @@ authors:
     - Daisuke Saito
     - Nobuaki Minematsu
 year: 2026
+doi: 10.21437/Interspeech.2026-1668
 isca_url: https://www.isca-archive.org/interspeech_2026/onda26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/onda26_interspeech.pdf
 session: Self-supervised Speech Representation Learning
-topics: []
+topics: [self-supervised, asr]
 code:
     url: ""
     license: ""

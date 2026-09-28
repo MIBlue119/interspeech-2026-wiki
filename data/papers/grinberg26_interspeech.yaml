@@ -4,10 +4,11 @@ authors:
     - Petr Grinberg
     - Hassan Shahmohammadi
 year: 2026
+doi: 10.21437/Interspeech.2026-759
 isca_url: https://www.isca-archive.org/interspeech_2026/grinberg26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/grinberg26_interspeech.pdf
 session: Speech Representations and Alignment
-topics: []
+topics: [speech-llm]
 code:
     url: ""
     license: ""

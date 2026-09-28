@@ -3,10 +3,11 @@ title: Robust Audio-Visual Emotion Recognition via Conditional Transformer U-Net
 authors:
     - Hanwook Chung
 year: 2026
+doi: 10.21437/Interspeech.2026-2770
 isca_url: https://www.isca-archive.org/interspeech_2026/chung26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chung26b_interspeech.pdf
 session: Speech Emotion Recognition and Representation 3
-topics: []
+topics: [emotion-recognition]
 code:
     url: ""
     license: ""

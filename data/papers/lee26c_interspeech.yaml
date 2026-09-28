@@ -7,10 +7,11 @@ authors:
     - Heeseung Kim
     - Sungroh Yoon
 year: 2026
+doi: 10.21437/Interspeech.2026-540
 isca_url: https://www.isca-archive.org/interspeech_2026/lee26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26c_interspeech.pdf
 session: Multilingual Speech 1
-topics: []
+topics: [speech-translation]
 code:
     url: ""
     license: ""
