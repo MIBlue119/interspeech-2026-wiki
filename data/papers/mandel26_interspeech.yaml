@@ -4,10 +4,11 @@ authors:
     - Moshe Mandel
     - Shlomi E. Chazan
 year: 2026
+doi: 10.21437/Interspeech.2026-1663
 isca_url: https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.pdf
 session: Voice Conversion
-topics: []
+topics: [voice-conversion, multilingual]
 code:
     url: ""
     license: ""

@@ -3,10 +3,11 @@ title: 'Benchmarking Large Language Models for Grapheme-to-Phoneme Conversion: A
 authors:
     - Tomoki Koriyama
 year: 2026
+doi: 10.21437/Interspeech.2026-1800
 isca_url: https://www.isca-archive.org/interspeech_2026/koriyama26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/koriyama26_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
-topics: []
+topics: [tts, evaluation, multilingual]
 code:
     url: ""
     license: ""

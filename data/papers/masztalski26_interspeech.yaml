@@ -5,10 +5,11 @@ authors:
     - Michał K. Grzeszczyk
     - Olaf Sikorski
 year: 2026
+doi: 10.21437/Interspeech.2026-763
 isca_url: https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.pdf
 session: Audio Foundation Models and Generation
-topics: []
+topics: [speech-llm, on-device]
 code:
     url: ""
     license: ""

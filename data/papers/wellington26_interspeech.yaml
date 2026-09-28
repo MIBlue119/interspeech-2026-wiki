@@ -6,10 +6,11 @@ authors:
     - Damien Coyle
     - Benjamin Metcalfe
 year: 2026
+doi: 10.21437/Interspeech.2026-2683
 isca_url: https://www.isca-archive.org/interspeech_2026/wellington26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wellington26_interspeech.pdf
 session: Assistive Technologies 2
-topics: []
+topics: [phonetics, dataset]
 code:
     url: ""
     license: ""

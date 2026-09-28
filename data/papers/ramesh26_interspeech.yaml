@@ -5,10 +5,11 @@ authors:
     - Meka Nani
     - Sri Rama Murty Kodukula
 year: 2026
+doi: 10.21437/Interspeech.2026-2568
 isca_url: https://www.isca-archive.org/interspeech_2026/ramesh26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ramesh26_interspeech.pdf
 session: Speech signal analysis
-topics: []
+topics: [phonetics]
 code:
     url: ""
     license: ""

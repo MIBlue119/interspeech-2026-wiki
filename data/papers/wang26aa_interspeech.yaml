@@ -15,10 +15,11 @@ authors:
     - Shinji Watanabe
     - Yanmin Qian
 year: 2026
+doi: 10.21437/Interspeech.2026-1671
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26aa_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26aa_interspeech.pdf
 session: Speech and Audio Quality Assessment
-topics: []
+topics: [evaluation]
 code:
     url: ""
     license: ""

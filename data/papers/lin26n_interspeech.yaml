@@ -11,10 +11,11 @@ authors:
     - Jingdong Chen
     - Jacob Benesty
 year: 2026
+doi: 10.21437/Interspeech.2026-3228
 isca_url: https://www.isca-archive.org/interspeech_2026/lin26n_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lin26n_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
-topics: []
+topics: [self-supervised, evaluation]
 code:
     url: ""
     license: ""

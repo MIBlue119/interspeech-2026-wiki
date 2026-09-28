@@ -4,10 +4,11 @@ authors:
     - Hamid Mojarad
     - Kevin Tang
 year: 2026
+doi: 10.21437/Interspeech.2026-808
 isca_url: https://www.isca-archive.org/interspeech_2026/mojarad26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mojarad26_interspeech.pdf
 session: Pronunciation Diversity
-topics: []
+topics: [asr, phonetics]
 code:
     url: ""
     license: ""

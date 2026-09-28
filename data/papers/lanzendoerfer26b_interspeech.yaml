@@ -6,10 +6,11 @@ authors:
     - Florian Grötschla
     - Roger Wattenhofer
 year: 2026
+doi: 10.21437/Interspeech.2026-2864
 isca_url: https://www.isca-archive.org/interspeech_2026/lanzendoerfer26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lanzendoerfer26b_interspeech.pdf
 session: Speaker Diarization 1
-topics: []
+topics: [source-separation, speaker-diarization]
 code:
     url: ""
     license: ""

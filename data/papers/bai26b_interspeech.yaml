@@ -8,10 +8,11 @@ authors:
     - Yannan Wang
     - Haizhou Li
 year: 2026
+doi: 10.21437/Interspeech.2026-1056
 isca_url: https://www.isca-archive.org/interspeech_2026/bai26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bai26b_interspeech.pdf
 session: Pronunciation Diversity
-topics: []
+topics: [voice-conversion]
 code:
     url: ""
     license: ""

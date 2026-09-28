@@ -9,10 +9,11 @@ authors:
     - Thushara D. Abhayapala
     - Hongdong Li
 year: 2026
+doi: 10.21437/Interspeech.2026-702
 isca_url: https://www.isca-archive.org/interspeech_2026/xu26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26c_interspeech.pdf
 session: Spatial Audio 1
-topics: []
+topics: [evaluation]
 code:
     url: ""
     license: ""

@@ -7,10 +7,11 @@ authors:
     - CuiCui Zhu
     - Hao Huang
 year: 2026
+doi: 10.21437/Interspeech.2026-2090
 isca_url: https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.pdf
 session: Singing Voice and Music Generation
-topics: []
+topics: [singing-voice, voice-conversion]
 code:
     url: ""
     license: ""

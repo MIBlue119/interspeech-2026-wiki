@@ -22,10 +22,11 @@ authors:
     - Daxin Jiang
     - Gang Yu
 year: 2026
+doi: 10.21437/Interspeech.2026-256
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26b_interspeech.pdf
 session: Post-Training of Speech Foundation Models
-topics: []
+topics: [speech-llm, evaluation]
 code:
     url: ""
     license: ""
