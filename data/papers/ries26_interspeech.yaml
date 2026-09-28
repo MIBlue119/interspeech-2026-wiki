@@ -5,10 +5,11 @@ authors:
     - Debasmita Bhattacharya
     - Julia Hirschberg
 year: 2026
+doi: 10.21437/Interspeech.2026-2492
 isca_url: https://www.isca-archive.org/interspeech_2026/ries26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ries26_interspeech.pdf
 session: Entrainment and Dialogue Coordination
-topics: []
+topics: [prosody, multilingual]
 code:
     url: ""
     license: ""

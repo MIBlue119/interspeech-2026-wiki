@@ -5,10 +5,11 @@ authors:
     - JiHyun Jeong
     - Jihoon Ryoo
 year: 2026
+doi: 10.21437/Interspeech.2026-2197
 isca_url: https://www.isca-archive.org/interspeech_2026/garnaik26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/garnaik26_interspeech.pdf
 session: LLMs and Conversational Interaction
-topics: []
+topics: [speech-llm, tts]
 code:
     url: ""
     license: ""

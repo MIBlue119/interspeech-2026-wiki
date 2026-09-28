@@ -7,10 +7,11 @@ authors:
     - Lu Gan
     - Liming Shi
 year: 2026
+doi: 10.21437/Interspeech.2026-366
 isca_url: https://www.isca-archive.org/interspeech_2026/huang26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26b_interspeech.pdf
 session: Spatial Audio 3
-topics: []
+topics: [evaluation]
 code:
     url: ""
     license: ""

@@ -8,10 +8,11 @@ authors:
     - Emmanuel Chemla
     - Emmanuel Dupoux
 year: 2026
+doi: 10.21437/Interspeech.2026-2791
 isca_url: https://www.isca-archive.org/interspeech_2026/poli26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/poli26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
-topics: []
+topics: [phonetics, self-supervised, multilingual, evaluation]
 code:
     url: ""
     license: ""

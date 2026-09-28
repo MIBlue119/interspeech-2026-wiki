@@ -5,10 +5,11 @@ authors:
     - Yu-Chun Lin
     - Xiaodong Cui
 year: 2026
+doi: 10.21437/Interspeech.2026-1738
 isca_url: https://www.isca-archive.org/interspeech_2026/chien26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chien26b_interspeech.pdf
 session: New Training Methods for ASR
-topics: []
+topics: [asr, self-supervised]
 code:
     url: ""
     license: ""

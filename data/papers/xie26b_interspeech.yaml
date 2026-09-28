@@ -15,10 +15,11 @@ authors:
     - Xianrong Wang
     - Lei Xie
 year: 2026
+doi: 10.21437/Interspeech.2026-1692
 isca_url: https://www.isca-archive.org/interspeech_2026/xie26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xie26b_interspeech.pdf
 session: Streaming Speech Synthesis
-topics: []
+topics: [tts]
 code:
     url: ""
     license: ""

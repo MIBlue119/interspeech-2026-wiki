@@ -5,10 +5,11 @@ authors:
     - Tal Peer
     - Timo Gerkmann
 year: 2026
+doi: 10.21437/Interspeech.2026-2597
 isca_url: https://www.isca-archive.org/interspeech_2026/oliveira26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/oliveira26b_interspeech.pdf
 session: Quality, Intelligibility and Evaluation of Speech and Codecs
-topics: []
+topics: [speech-enhancement, evaluation, asr]
 code:
     url: ""
     license: ""

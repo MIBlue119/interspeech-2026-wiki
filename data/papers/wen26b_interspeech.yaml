@@ -9,10 +9,11 @@ authors:
     - Julia Hirschberg
     - Bolei Ma
 year: 2026
+doi: 10.21437/Interspeech.2026-289
 isca_url: https://www.isca-archive.org/interspeech_2026/wen26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wen26b_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
-topics: []
+topics: [multilingual, low-resource, dataset, evaluation]
 code:
     url: ""
     license: ""

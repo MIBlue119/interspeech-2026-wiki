@@ -5,10 +5,11 @@ authors:
     - Paris Smaragdis
     - Minje Kim
 year: 2026
+doi: 10.21437/Interspeech.2026-3031
 isca_url: https://www.isca-archive.org/interspeech_2026/bralios26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bralios26_interspeech.pdf
 session: Neural Audio Codec Architectures
-topics: []
+topics: [speech-enhancement, self-supervised]
 code:
     url: ""
     license: ""

@@ -10,10 +10,11 @@ authors:
     - Gerard Medioni
     - David Harwath
 year: 2026
+doi: 10.21437/Interspeech.2026-1760
 isca_url: https://www.isca-archive.org/interspeech_2026/zheng26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zheng26c_interspeech.pdf
 session: Controllable and Expressive Speech Synthesis
-topics: []
+topics: [tts, prosody]
 code:
     url: ""
     license: ""

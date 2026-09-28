@@ -11,10 +11,11 @@ authors:
     - David Poeppel
     - Dustin Freeman
 year: 2026
+doi: 10.21437/Interspeech.2026-2367
 isca_url: https://www.isca-archive.org/interspeech_2026/chang26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chang26f_interspeech.pdf
 session: Datasets
-topics: []
+topics: [dataset, paralinguistics]
 code:
     url: ""
     license: ""

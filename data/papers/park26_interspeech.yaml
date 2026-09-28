@@ -4,10 +4,11 @@ authors:
     - Chanwoo Park
     - Chanwoo Kim
 year: 2026
+doi: 10.21437/Interspeech.2026-130
 isca_url: https://www.isca-archive.org/interspeech_2026/park26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26_interspeech.pdf
 session: Audio Coding and Signal Analysis
-topics: []
+topics: [health, audio-captioning]
 code:
     url: ""
     license: ""

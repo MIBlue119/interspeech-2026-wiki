@@ -7,10 +7,11 @@ authors:
     - David C. Vergano
     - Anomadarshi Barua
 year: 2026
+doi: 10.21437/Interspeech.2026-506
 isca_url: https://www.isca-archive.org/interspeech_2026/islam26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/islam26_interspeech.pdf
 session: Multi-Channel Processing and Specialized Acquisition (UAV, Radar, Hearables)
-topics: []
+topics: [speech-enhancement, on-device]
 code:
     url: ""
     license: ""

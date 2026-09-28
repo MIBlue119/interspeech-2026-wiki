@@ -6,10 +6,11 @@ authors:
     - Candy Olivia Mawalim
     - Shogo Okada
 year: 2026
+doi: 10.21437/Interspeech.2026-751
 isca_url: https://www.isca-archive.org/interspeech_2026/chan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chan26_interspeech.pdf
 session: Speaker Privacy and Anonymization
-topics: []
+topics: [speaker-verification, evaluation]
 code:
     url: ""
     license: ""

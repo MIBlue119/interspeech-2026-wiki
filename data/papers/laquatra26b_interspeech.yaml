@@ -5,10 +5,11 @@ authors:
     - Alkis Koudounas
     - Sabato Marco Siniscalchi
 year: 2026
+doi: 10.21437/Interspeech.2026-2369
 isca_url: https://www.isca-archive.org/interspeech_2026/laquatra26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/laquatra26b_interspeech.pdf
 session: Information Extraction and Retrieval
-topics: []
+topics: [self-supervised, audio-captioning]
 code:
     url: ""
     license: ""

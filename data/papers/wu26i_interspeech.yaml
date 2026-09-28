@@ -7,10 +7,11 @@ authors:
     - Haojun Fei
     - Qing Yang
 year: 2026
+doi: 10.21437/Interspeech.2026-2029
 isca_url: https://www.isca-archive.org/interspeech_2026/wu26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26i_interspeech.pdf
 session: Multi-Speaker Processing, Personalization, and Adaptation
-topics: []
+topics: [asr, speech-llm]
 code:
     url: ""
     license: ""

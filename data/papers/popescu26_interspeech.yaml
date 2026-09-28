@@ -8,7 +8,7 @@ year: 2026
 isca_url: https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.pdf
 session: Speech and Language Learning Technologies
-topics: []
+topics: [low-resource, dataset]
 code:
     url: ""
     license: ""

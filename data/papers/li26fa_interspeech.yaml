@@ -6,10 +6,11 @@ authors:
     - Juan Liu
     - Ming Li
 year: 2026
+doi: 10.21437/Interspeech.2026-2437
 isca_url: https://www.isca-archive.org/interspeech_2026/li26fa_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26fa_interspeech.pdf
 session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
-topics: []
+topics: [speaker-verification, multilingual]
 code:
     url: ""
     license: ""

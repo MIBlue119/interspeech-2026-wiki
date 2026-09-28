@@ -5,10 +5,11 @@ authors:
     - Jean-Luc Rouas
     - Pierre Philip
 year: 2026
+doi: 10.21437/Interspeech.2026-777
 isca_url: https://www.isca-archive.org/interspeech_2026/martin26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/martin26_interspeech.pdf
 session: Clinically Useful Speech Representations 2
-topics: []
+topics: [health, paralinguistics]
 code:
     url: ""
     license: ""

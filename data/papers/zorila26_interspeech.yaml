@@ -5,10 +5,11 @@ authors:
     - Qingxiuxiong Dong
     - Rama Doddipatla
 year: 2026
+doi: 10.21437/Interspeech.2026-3291
 isca_url: https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.pdf
 session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
-topics: []
+topics: [speech-llm, asr]
 code:
     url: ""
     license: ""

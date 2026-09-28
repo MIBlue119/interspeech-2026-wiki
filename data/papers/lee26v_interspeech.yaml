@@ -8,10 +8,11 @@ authors:
     - Dongyub Han
     - Kyogu Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-2931
 isca_url: https://www.isca-archive.org/interspeech_2026/lee26v_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26v_interspeech.pdf
 session: Articulatory, EMG, and Visual Speech Generation
-topics: []
+topics: [health, self-supervised]
 code:
     url: ""
     license: ""

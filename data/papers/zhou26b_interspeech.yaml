@@ -9,10 +9,11 @@ authors:
     - Xurong Xie
     - Hui Chen
 year: 2026
+doi: 10.21437/Interspeech.2026-996
 isca_url: https://www.isca-archive.org/interspeech_2026/zhou26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26b_interspeech.pdf
 session: Phonetic Aspects of TTS and ASR Systems
-topics: []
+topics: [tts, prosody, voice-conversion]
 code:
     url: ""
     license: ""

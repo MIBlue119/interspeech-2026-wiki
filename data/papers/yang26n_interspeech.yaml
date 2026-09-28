@@ -13,10 +13,11 @@ authors:
     - Dong Yu
     - Yuexian Zou
 year: 2026
+doi: 10.21437/Interspeech.2026-2398
 isca_url: https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.pdf
 session: Neural Audio Codec Architectures
-topics: []
+topics: [tts]
 code:
     url: ""
     license: ""

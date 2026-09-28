@@ -6,10 +6,11 @@ authors:
     - Yiya Chen
     - Johanneke Caspers
 year: 2026
+doi: 10.21437/Interspeech.2026-3530
 isca_url: https://www.isca-archive.org/interspeech_2026/reitsema26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/reitsema26_interspeech.pdf
 session: Perception and Appraisal of Prosody
-topics: []
+topics: [prosody]
 code:
     url: ""
     license: ""

@@ -8,10 +8,11 @@ authors:
     - Wenwu Wang
     - Philip J.B. Jackson
 year: 2026
+doi: 10.21437/Interspeech.2026-1357
 isca_url: https://www.isca-archive.org/interspeech_2026/xiang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xiang26_interspeech.pdf
 session: Spatial Audio 4
-topics: []
+topics: [evaluation]
 code:
     url: ""
     license: ""

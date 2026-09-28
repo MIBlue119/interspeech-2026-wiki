@@ -4,10 +4,11 @@ authors:
     - Yilan Wei
     - Qi Wang
 year: 2026
+doi: 10.21437/Interspeech.2026-46
 isca_url: https://www.isca-archive.org/interspeech_2026/wei26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wei26_interspeech.pdf
 session: Pathological Speech Assessment 3
-topics: []
+topics: [health, phonetics]
 code:
     url: ""
     license: ""

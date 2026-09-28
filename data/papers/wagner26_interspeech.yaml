@@ -3,10 +3,11 @@ title: 'Transcription Policy as a Latent Variable: Activating Controllable Verba
 authors:
     - Laurin Wagner
 year: 2026
+doi: 10.21437/Interspeech.2026-2792
 isca_url: https://www.isca-archive.org/interspeech_2026/wagner26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wagner26_interspeech.pdf
 session: Robust and Efficient ASR
-topics: []
+topics: [asr, evaluation]
 code:
     url: ""
     license: ""

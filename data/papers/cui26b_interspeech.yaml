@@ -10,10 +10,11 @@ authors:
     - Chao Deng
     - Junlan Feng
 year: 2026
+doi: 10.21437/Interspeech.2026-2881
 isca_url: https://www.isca-archive.org/interspeech_2026/cui26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cui26b_interspeech.pdf
 session: SE Architectures, Adaptation and Audio Front-Ends
-topics: []
+topics: [speech-enhancement]
 code:
     url: ""
     license: ""

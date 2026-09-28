@@ -7,10 +7,11 @@ authors:
     - Magdalena Krycha
     - Michal Krecichwost
 year: 2026
+doi: 10.21437/Interspeech.2026-799
 isca_url: https://www.isca-archive.org/interspeech_2026/miodonska26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/miodonska26_interspeech.pdf
 session: Gender- and Age-Related Speech Characteristics
-topics: []
+topics: [phonetics]
 code:
     url: ""
     license: ""

@@ -5,10 +5,11 @@ authors:
     - Pauline Bolin Liu
     - Yufeng Chen
 year: 2026
+doi: 10.21437/Interspeech.2026-1215
 isca_url: https://www.isca-archive.org/interspeech_2026/li26v_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26v_interspeech.pdf
 session: Tones
-topics: []
+topics: [phonetics, prosody]
 code:
     url: ""
     license: ""

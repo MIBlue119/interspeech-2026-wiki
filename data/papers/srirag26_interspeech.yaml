@@ -7,10 +7,11 @@ authors:
     - Padmanesan Narasimhan
     - Salil Kanhere
 year: 2026
+doi: 10.21437/Interspeech.2026-819
 isca_url: https://www.isca-archive.org/interspeech_2026/srirag26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/srirag26_interspeech.pdf
 session: Speech and Language Technologies in Healthcare
-topics: []
+topics: [health, dataset, spoken-language-understanding]
 code:
     url: ""
     license: ""

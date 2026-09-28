@@ -7,10 +7,11 @@ authors:
     - Wei-Ping Huang
     - Hung-yi Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-645
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26e_interspeech.pdf
 session: Post-Training of Speech Foundation Models
-topics: []
+topics: [speech-llm]
 code:
     url: ""
     license: ""

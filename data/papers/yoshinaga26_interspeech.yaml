@@ -5,10 +5,11 @@ authors:
     - Takeshi Ikuma
     - Brad H. Story
 year: 2026
+doi: 10.21437/Interspeech.2026-559
 isca_url: https://www.isca-archive.org/interspeech_2026/yoshinaga26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yoshinaga26_interspeech.pdf
 session: Speech Production and Perception 1
-topics: []
+topics: [phonetics]
 code:
     url: ""
     license: ""

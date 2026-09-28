@@ -6,10 +6,11 @@ authors:
     - Jonathan Le Roux
     - Zheng-Hua Tan
 year: 2026
+doi: 10.21437/Interspeech.2026-177
 isca_url: https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.pdf
 session: Acoustic Event Detection 1
-topics: []
+topics: [evaluation]
 code:
     url: ""
     license: ""

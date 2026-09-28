@@ -7,10 +7,11 @@ authors:
     - Yeeun Kim
     - Yoonyoung Chung
 year: 2026
+doi: 10.21437/Interspeech.2026-3119
 isca_url: https://www.isca-archive.org/interspeech_2026/song26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/song26g_interspeech.pdf
 session: Real-Time, Low-Latency and Edge Speech Enhancement
-topics: []
+topics: [speech-enhancement, on-device]
 code:
     url: ""
     license: ""

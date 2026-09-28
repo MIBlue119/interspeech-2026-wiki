@@ -7,10 +7,11 @@ authors:
     - Chenxing Li
     - Yuexian Zou
 year: 2026
+doi: 10.21437/Interspeech.2026-531
 isca_url: https://www.isca-archive.org/interspeech_2026/liang26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liang26b_interspeech.pdf
 session: Spatial Audio 2
-topics: []
+topics: [audio-captioning, dataset]
 code:
     url: ""
     license: ""

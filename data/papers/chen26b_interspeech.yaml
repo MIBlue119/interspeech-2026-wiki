@@ -10,10 +10,11 @@ authors:
     - Hung-yi Lee
     - Jian-Jiun Ding
 year: 2026
+doi: 10.21437/Interspeech.2026-66
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26b_interspeech.pdf
 session: Speech Synthesis Evaluation 1
-topics: []
+topics: [tts, evaluation]
 code:
     url: ""
     license: ""

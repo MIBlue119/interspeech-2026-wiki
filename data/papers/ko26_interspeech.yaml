@@ -5,10 +5,11 @@ authors:
     - You-Cyuan Jhuo
     - Chung-Hsien Wu
 year: 2026
+doi: 10.21437/Interspeech.2026-891
 isca_url: https://www.isca-archive.org/interspeech_2026/ko26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ko26_interspeech.pdf
 session: Speech, Voice and Language Disorders
-topics: []
+topics: [asr, health]
 code:
     url: ""
     license: ""
