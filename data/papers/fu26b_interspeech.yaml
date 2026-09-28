@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-2465
 isca_url: https://www.isca-archive.org/interspeech_2026/fu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/fu26b_interspeech.pdf
 session: 'Neural Speech Enhancement: Survey, Diffusion and Flow Matching'
-topics: [speech-enhancement, self-supervised, evaluation]
+topics: [speech-enhancement, self-supervised, on-device]
 code:
     url: ""
     license: ""

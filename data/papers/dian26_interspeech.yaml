@@ -12,6 +12,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/dian26_interspeech.pdf
 session: Tools and Techniques for Phonetic Analysis
 topics: [prosody, evaluation, phonetics]
 code:
-    url: ""
+    url: https://doi.org/10.5281/zenodo.20734758
     license: ""
 open_to_collaboration: false

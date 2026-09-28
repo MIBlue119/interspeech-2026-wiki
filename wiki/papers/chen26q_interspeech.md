@@ -1,29 +1,64 @@
 ---
 id: chen26q_interspeech
 category: keyword-spotting
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1676
 pdf: https://www.isca-archive.org/interspeech_2026/chen26q_interspeech.pdf
 ---
 
 # Streaming Open-Vocabulary Keyword Spotting via Role Swapping in Cross-Attention
 
+*Xi Chen, Haichuan Bai, Liming Song*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1676)
 
-**TL;DR** — This paper introduces a streaming open-vocabulary keyword spotting model using role-swapped cross-attention, achieving 6.82% EER on easy negatives and 28.21% EER on hard negatives on LibriPhrase.
+**TL;DR** — This paper presents a streaming open-vocabulary keyword spotting (KWS) framework using a novel cross-attention data flow where streaming speech acts as the Query and text enrollment as the Key/Value. Evaluated on LibriPhrase, the 0.8M-parameter model achieves an EER of 28.21% and AUC of 79.19% on hard negatives.
+
+## Key contributions
+
+- Redesigns cross-attention data flow for streaming open-vocabulary KWS by assigning streaming speech as Query and text enrollment as Key/Value for frame-by-frame processing.
+- Introduces a two-stage training strategy for the Pattern Discriminator using attention outputs initially and affinity-based inputs subsequently.
+- Applies online hard negative generation via time-domain masking (masking the first 600 ms) to improve robustness against false alarms.
+- Eliminates explicit CTC alignment requirements and heuristic post-processing, yielding an end-to-end trainable streaming architecture with an RTF of 0.065 on a single CPU thread.
+- Incorporates multi-task learning combining frame-level binary classification, phone matching loss, and bidirectional InfoNCE contrastive loss.
 
 ## Problem
 
-Traditional open-vocabulary keyword spotting systems either rely on CTC alignment which struggles with mismatched text-speech pairs and requires special tuning, or similarity-based methods that depend on heuristic postprocessing. Furthermore, conventional cross-attention designs assume complete utterance availability, making low-latency streaming deployment difficult. This gap matters because practical on-device voice wake-up applications require real-time processing and robust performance under complex acoustic interference.
+Traditional multi-modal open-vocabulary keyword spotting frameworks rely on segment-level cross-attention that requires full-utterance speech context, violating streaming constraints. Prior streaming work either uses Connectionist Temporal Classification (CTC), which suffers confidence drops on mismatched text-speech pairs and demands extra tuning, or similarity-based approaches relying on heuristic post-processing. These shortcomings lead to high false alarm rates and degraded performance under complex acoustic conditions, making them unsuitable for robust on-device deployment.
 
 ## Method
 
-The model features a lightweight 0.8M parameter architecture comprising a causal audio encoder (two causal convolutional layers and two GRU layers operating at 50 Hz) and a pretrained text encoder. To enable streaming without sacrificing semantic richness, the data flow of cross-attention is redesigned: streaming speech serves as the Query and registered text acts as Key/Value. Training employs a multi-task framework with an audio-text contrastive InfoNCE loss, a token-level phone match loss, and a frame-level binary classification loss. A two-stage learning scheme is utilized for the pattern discriminator, where the first stage trains on attention outputs combined with text embeddings to establish correct decision boundaries, and the second stage continues training on an affinity matrix concatenated with speech embeddings. Additionally, online hard negative samples are generated via time-frequency masking.
+The architecture instantiates a text-registered model with approximately 0.8M parameters. The audio encoder consists of two causal convolutional layers (filter sizes 128 and 256, kernel size 5, stride 2 and 1 respectively) followed by two GRU layers with hidden dimensions of 128, processing 100 Hz filterbank features down to 50 Hz. The pre-trained text encoder extracts token embeddings that project to Key/Value vectors. 
+
+To bridge the streaming data flow mismatch where audio provides local frames while text holds global semantics, the affinity matrix $A$ is computed frame-by-frame via dot products between projected audio Query vectors $Q_s(t)$ and text Key vectors $K_t(i)$, ensuring zero algorithmic latency in the attention stage. Training uses a multi-task objective combining frame-level binary classification loss ($L_f$), token-level phone matching loss ($L_p$), and bidirectional InfoNCE contrastive loss ($L_c$) computed over sequence-level GRU embeddings. 
+
+A two-stage training strategy governs the Pattern Discriminator (a GRU and Dense layer): Phase I trains the discriminator on attention-based inputs (concatenating attention outputs $O$ and text embeddings $E_t$) to establish correct semantic alignment patterns, while Phase II continues training on affinity-based inputs (concatenating the affinity matrix row $A(t,:)$ and raw speech embeddings $E_s(t)$) for decision optimization. Hard negatives are generated online by masking the first 600 ms of audio features, and ambient noise is simulated using MS-SNSD babble noise at SNRs ranging from -5 dB to 15 dB alongside time-frequency masking.
+
+## Experimental setup
+
+Evaluated on the LibriPhrase dataset, with training sets extracted from LibriSpeech train-clean-100/360 and test sets from train-others-500, divided into easy negative (LPE) and hard negative (LPH) subsets. Compared against baseline streaming models CTCAT (0.2M params) and SYNASPOT-AT (0.9M params). Performance is measured using Equal Error Rate (EER %) and Area Under Curve (AUC %). Implemented in TensorFlow using the Adam optimizer, with latency profiled on an AMD EPYC 9654 CPU single-thread platform.
 
 ## Results
 
-Evaluated on the LibriPhrase dataset using easy negative (LPE) and hard negative (LPH) subsets, the model is compared against SYNASPOT-AT and CTCAT baselines. On the LPE subset, it achieves an EER of 6.82% and an AUC of 97.95%, while on the LPH subset it records an EER of 28.21% and an AUC of 79.19%. Compared to the best baseline (SYNASPOT-AT), the model reduces LPH EER by 0.48% and improves LPH AUC by 1.84%. Ablation studies confirm that removing hard negative generation, the staged strategy, or phone matching leads to noticeable drops in both LPE and LPH performance, with original ablations without hard negatives dropping to 7.45% EER on LPE and 29.04% EER on LPH.
+The 0.8M model achieves an EER of 6.82% (AUC 97.95%) on LPE and an EER of 28.21% (AUC 79.19%) on LPH. Compared to SYNASPOT-AT, it improves LPH EER by 0.48% and AUC by 1.84%, while outperforming CTCAT on the hard negative subset (CTCAT yields 29.63% EER on LPH vs. ours 28.21%). 
+
+Ablation studies confirm the importance of each component: removing hard negative generation increases LPH EER from 28.21% to 29.04%, dropping the staged training strategy raises LPH EER to 30.24%, and omitting phone matching loss degrades LPH EER to 30.73%. The system does not win on the easy negative subset (LPE), where CTCAT achieves a slightly better EER of 6.06% compared to the proposed model's 6.82%.
+
+| System | Params (M) | EER LPE (%) | EER LPH (%) | AUC LPE (%) | AUC LPH (%) |
+|---|---|---|---|---|---|
+| SYNASPOT-AT | 0.9 | 7.07 | 28.69 | 97.17 | 77.35 |
+| CTCAT | 0.2 | 6.06 | 29.63 | 98.32 | 77.10 |
+| Ours | 0.8 | 6.82 | 28.21 | 97.95 | 79.19 |
+
+## Limitations
+
+The evaluation is restricted to a text-registered instantiation on the LibriPhrase dataset, leaving multi-modal enrollment modalities (e.g., audio-registered KWS) untested in this streaming setup. The model's performance was validated primarily on simulated babble noise and time-frequency masked conditions, which may not capture all real-world acoustic variations. Furthermore, the 0.8M parameter footprint and float32 RTF of 0.065 require further edge-specific compression (like quantization or pruning) for ultra-low-power microcontrollers.
+
+## Why read this
+
+Speech and ML engineers building resource-constrained, on-device keyword spotters should read this to see how redesigning cross-attention data flow eliminates CTC and heuristic post-processing. It provides a concrete blueprint for implementing staged discriminator training and online hard sample generation to drastically improve robustness against false alarms.
 
 ## Code
 
@@ -31,7 +66,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech and ML engineers building on-device voice assistants, smart home devices, and mobile applications requiring personalized, open-vocabulary keyword spotting and streaming voice wake-up.
+On-device voice wake-up and hands-free voice interaction systems for smartphones, wearables, and IoT appliances requiring open-vocabulary personalization.
 
 ## Related
 

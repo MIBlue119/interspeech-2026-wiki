@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-2608
 isca_url: https://www.isca-archive.org/interspeech_2026/franz26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/franz26_interspeech.pdf
 session: Pathological Speech Assessment 2
-topics: [speech-enhancement, paralinguistics, evaluation]
+topics: [paralinguistics, speech-enhancement, evaluation]
 code:
-    url: ""
+    url: https://svenfranz.github.io/Room-Acoustics-and-Objective-Voice-Quality-in-SLT/
     license: ""
 open_to_collaboration: false

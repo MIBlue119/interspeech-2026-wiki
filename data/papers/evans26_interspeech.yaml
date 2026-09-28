@@ -11,7 +11,7 @@ doi: 10.21437/Interspeech.2026-1561
 isca_url: https://www.isca-archive.org/interspeech_2026/evans26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/evans26_interspeech.pdf
 session: 'Pacific Voices: Speech Science and Technology for the Languages of the Pacific Ocean'
-topics: [phonetics, evaluation, low-resource]
+topics: [low-resource, evaluation, phonetics]
 code:
     url: ""
     license: ""

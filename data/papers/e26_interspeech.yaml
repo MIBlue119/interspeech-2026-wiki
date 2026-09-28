@@ -20,7 +20,7 @@ doi: 10.21437/Interspeech.2026-3255
 isca_url: https://www.isca-archive.org/interspeech_2026/e26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/e26_interspeech.pdf
 session: Medical Dialogue and Conversational Understanding
-topics: [asr, speaker-diarization, spoken-language-understanding]
+topics: [asr, speaker-diarization, dataset]
 code:
     url: https://www.codabench.org/competitions/13833/?secret_key=1b714e64-0f0d-4e0f-8a3c-be9b3d10f00c#
     license: ""

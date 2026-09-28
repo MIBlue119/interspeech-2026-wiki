@@ -1,29 +1,55 @@
 ---
 id: chongwhite26_interspeech
-category: evaluation
-updated: 2026-09-28
+category: paralinguistics
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://www.isca-archive.org/interspeech_2026/chongwhite26_interspeech.html
 pdf: https://www.isca-archive.org/interspeech_2026/chongwhite26_interspeech.pdf
 ---
 
 # An Immersive VR System for Experiencing Spatial Speech-in-Noise Challenges in Clinical Audiology
 
+*Nicky Chong-White, Thomas Ho*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/chongwhite26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chongwhite26_interspeech.html)
 
-**TL;DR** — The paper presents a portable virtual reality demonstration system built on Apple Vision Pro to simulate spatial speech-in-noise listening challenges for clinical audiology counselling, though formal evaluation is limited to informal feedback from eight professionals.
+**TL;DR** — An immersive VR demonstration system built for the Apple Vision Pro that recreates spatial speech-in-noise challenges for clinical audiology counseling, evaluated via initial feedback from 8 clinicians. It allows clinicians to configure difficulty presets (signal-to-noise ratio, source count, and spatial separation) across three 3D environments (café, train station, living room) without requiring a sound-treated booth or loudspeaker array.
+
+## Key contributions
+
+- Developed a portable, booth-free spatial listening demonstration tool on Apple Vision Pro (using SwiftUI, RealityKit, AVFoundation, and Apple Speech framework) for clinical audiology counselling.
+- Implemented three 3D environments (café, train station, living room) with 360° visual models and RealityKit spatial audio to anchor target and competing sound sources to physical coordinates.
+- Integrated a clinician-configurable difficulty progression framework (Easy, Medium, Hard) that varies source number, position, and distance-based attenuation.
+- Incorporated voice-based interaction via Apple's Speech framework to enable hands-free quiz responses for older adults or VR-unfamiliar users.
 
 ## Problem
 
-Standard audiological assessments like pure-tone thresholds and speech scores often fail to convey real-world listening struggles to patients and their families, leading to reduced engagement in hearing rehabilitation. Without a shared experiential reference of everyday communication barriers, clinical counseling and discussions about hearing devices become less effective. Bridging this gap requires an immersive yet portable system that allows patients to experience spatialized background noise and competing speakers firsthand within standard clinical rooms.
+Standard clinical audiology assessments provide essential diagnostic information like hearing thresholds and speech perception scores, but they fail to convey why everyday listening in complex acoustic scenes remains difficult. Patients and families often struggle to connect these abstract test results with real-world communication breakdowns, leading to lowered counselling effectiveness and patient disengagement. Prior approaches using VR have primarily focused on formal assessment, rehabilitation, or hearing-device fine-tuning rather than functioning as portable demonstration and counselling tools that bridge the gap between clinical tests and lived experience.
 
 ## Method
 
-The system is implemented on the Apple Vision Pro using visionOS, SwiftUI, RealityKit, AVFoundation, and Apple's Speech framework. It features three 3D environments (café, train station, living room) constructed from 360-degree models, incorporating targeted speech and competing audio sources spatially anchored via RealityKit. Clinicians use presets (Easy, Medium, Hard) to manipulate the number, position, and distance of competing noise sources, modulating the signal-to-noise ratio through distance attenuation. Users interact through voice responses powered by the Apple Speech framework—avoiding complex headset gestures—alongside optional gaze and pinch controls, followed by brief comprehension questions.
+The system is implemented as an application for visionOS using SwiftUI for interface design, RealityKit for spatial audio rendering and 3D environment management, AVFoundation for media playback, and the Apple Speech framework for voice-based question answering. Three everyday environments (café, train station, living room) are constructed from 360° 3D models where visual characters and audio sources are co-located. Target dialogues (20-30 seconds) and competing maskers/environmental noises are attached to distinct 3D entities in the scene, leveraging Apple Vision Pro's head tracking to maintain spatial anchoring as the user moves.
+
+Before each listening task, clinicians select an environment and a difficulty preset (Easy, Medium, Hard). The difficulty levels vary the number of competing sources, their azimuthal/spatial separation, and their proximity to the user. Because RealityKit applies distance-based attenuation, placing competing sources closer to the listener increases acoustic masking and lowers the local signal-to-noise ratio (SNR) dynamically. After listening to the spatial audio scene, users answer multiple-choice comprehension questions to structure post-task clinical discussions.
+
+To ensure accessibility for older adults and individuals unfamiliar with XR hardware, the system implements voice-based response capture via Apple's Speech framework, bypassing the need for complex hand gestures or precise eye-tracking calibration. Alternative input methods such as gaze-based selection and pinch gestures remain available.
+
+## Experimental setup
+
+The system was demonstrated to an initial qualitative evaluation group of N = 8 clinicians and industry professionals who completed workflows across all three virtual environments. No large-scale datasets, quantitative baseline comparisons, or automated model training loops are applicable, as this is an application and systems paper. The hardware platform used is the Apple Vision Pro headset running visionOS.
 
 ## Results
 
-The prototype was demonstrated to a small pilot group of eight clinicians and industry professionals who completed the workflow across all three virtual environments. Participants qualitatively noted increased listening difficulty as the preset levels became more demanding. Initial feedback indicated positive usability and engagement, but formal evaluation with hearing-impaired users, systematic testing of perceptual differences across difficulty presets, and quantitative clinical utility assessments have not yet been conducted.
+The paper does not report quantitative accuracy metrics, signal-to-noise ratios in decibels, or formal user-study statistics because the work is a system prototype description and proof-of-concept. Initial qualitative demonstrations with a small cohort of N = 8 clinicians and industry professionals showed that users successfully noticed increased listening difficulty as the preset levels became more demanding. Participant feedback regarding system usability, audiovisual engagement, and workflow viability was reported as positive, though formal evaluation of perceived clinical utility with hearing-impaired patients remains unconducted.
+
+## Limitations
+
+The system prototype has only been demonstrated to a small, informal group of N = 8 clinicians and industry professionals, lacking formal empirical evaluation with hearing-impaired patients. The perceptual differences between the Easy, Medium, and Hard difficulty presets have not been formally validated or psychometrically calibrated. Furthermore, the application is currently locked to Apple Vision Pro hardware and has not been adapted to more widely accessible or lower-cost VR platforms like Meta Quest.
+
+## Why read this
+
+Speech and ML engineers building spatial audio applications, XR-based health tools, or assistive listening interfaces should read this paper to understand how modern mixed-reality frameworks (RealityKit and visionOS) can be packaged into portable clinical workflows for audiology.
 
 ## Code
 
@@ -31,11 +57,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Clinicians and audiologists use this system as a portable counselling and demonstration tool to help patients and families understand real-world listening difficulties and the need for hearing devices.
-
-## Limitations
-
-The system is designed purely as an uncalibrated clinical demonstration and counselling tool rather than a diagnostic assessment, and it has not yet been evaluated with hearing-impaired patients.
+Clinical audiology counselling, hearing rehabilitation patient education, and spatial audio demonstration tools for hearing-aid and cochlear-implant candidates.
 
 ## Related
 

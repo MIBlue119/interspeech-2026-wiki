@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2542
 isca_url: https://www.isca-archive.org/interspeech_2026/cox26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cox26_interspeech.pdf
 session: Post-Training of Speech Foundation Models
-topics: [self-supervised, speaker-verification, dataset]
+topics: [self-supervised, speaker-verification, keyword-spotting]
 code:
     url: https://github.com/mjukus/interventional-post-training-speech
     license: ""

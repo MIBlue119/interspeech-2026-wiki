@@ -1,29 +1,64 @@
 ---
 id: chen26z_interspeech
 category: tts
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2447
 pdf: https://www.isca-archive.org/interspeech_2026/chen26z_interspeech.pdf
 ---
 
 # DiaMoE-TTS: A Unified IPA-Based Dialect TTS Framework with Parameter-Efficient Adaptation and Reward-Driven Optimization
 
+*Ziqi Chen, Gongyu Chen, Yihua Wang, Zihao Chen, Wei-Qiang Zhang*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26z_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26z_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2447)
 
-**TL;DR** — DiaMoE-TTS is a unified, IPA-frontended text-to-speech framework built on F5-TTS that utilizes dialect-aware Mixture-of-Experts, parameter-efficient fine-tuning, and Flow-GRPO reinforcement learning to achieve robust zero-shot multi-dialect synthesis with only ~1.1k hours of training data.
+**TL;DR** — DiaMoE-TTS is a unified, low-resource dialect text-to-speech framework built on F5-TTS that utilizes a shared IPA front-end, a dialect-aware Mixture-of-Experts text encoder, parameter-efficient fine-tuning, and Flow-GRPO reinforcement learning. It enables high-quality speech generation across diverse Chinese dialects using only 1.1k hours of total training data.
+
+## Key contributions
+
+- Constructs a unified International Phonetic Alphabet (IPA) front-end to eliminate pronunciation ambiguities inherent in pinyin or character representations across Chinese dialects.
+- Introduces a residual Mixture-of-Experts (MoE) module in the text embedding layer with an auxiliary classification loss to mitigate style averaging during joint multi-dialect training.
+- Proposes a scalable parameter-efficient fine-tuning (PEFT) strategy combining LoRA and conditioning adapters with pitch/time-scale audio augmentation to adapt to new dialects using under 3 hours of speech.
+- Applies Flow-GRPO reinforcement learning with an external ASR-based reward model to leverage high-quality dialect data, improving phonetic consistency and reducing WER across both target and related dialects.
 
 ## Problem
 
-Building unified multi-dialect text-to-speech systems remains difficult due to scarce, heterogeneous speech data, inconsistent orthographic conventions, and pronunciation ambiguity caused by shared characters across disparate dialects. Without structural guidance, joint training suffers from style averaging and phonological interference, while expanding to low-resource dialects with only a few hours of data typically causes severe overfitting or catastrophic forgetting.
+Building unified multi-dialect TTS models is hindered by data scarcity, inconsistent orthographic conventions, and dialect interference (style averaging) during joint training. Existing systems rely heavily on character or pinyin inputs, which introduce phonetic ambiguity when the same character maps to multiple regional pronunciations. Furthermore, low-resource dialects often have only a few hours of audio, causing standard fine-tuning to suffer from catastrophic forgetting or severe overfitting.
 
 ## Method
 
-The framework builds upon the non-autoregressive F5-TTS architecture using an Optimal Transport Conditional Flow Matching (OT-CFM) and Diffusion Transformer (DiT) backbone, initialized from a pre-trained Mandarin-English checkpoint (Stage 0). Stage 1 and 2 perform joint multidialect training using a standardized International Phonetic Alphabet (IPA) front-end to eliminate character ambiguity, combined with a residual dialect-style Mixture-of-Experts (MoE) module inserted after the text embedding layer and guided by an auxiliary dialect classification loss. Stage 3 adapts to new low-resource dialects using parameter-efficient fine-tuning (PEFT) via LoRA (rank 16, alpha 1) on query-value attention projections and Conditioning Adapters while freezing the main model, accompanied by pitch/time-scale audio augmentations (factors 0.85 to 1.15). Finally, high-quality data integration is explored via Flow-GRPO reinforcement learning, optimizing a word error rate (WER) reward derived from an external ASR model while updating only the DiT backbone.
+DiaMoE-TTS builds upon the F5-TTS architecture, which uses Optimal Transport Conditional Flow Matching (OT-CFM) and a Diffusion Transformer (DiT) backbone with ConvNeXt V2 text encoder blocks. The framework operates in four stages. Stage 0 initializes from a pre-trained F5-TTS checkpoint trained on Mandarin and English. Stages 1 and 2 perform joint training on a unified IPA phoneme space covering Mandarin and multiple dialects; Stage 2 introduces the dialect-style residual MoE module after text embedding. The MoE consists of multiple expert networks routed by a learnable gating mechanism driven by an auxiliary dialect classification loss (cross-entropy with lambda = 0.1). 
+
+Stage 3 adapts to extremely low-resource dialects by freezing the backbone and MoE while applying LoRA (rank=16, alpha=1) to query and value projections in attention layers, alongside conditioning adapters. Training data for new dialects are augmented using pitch and time-scale modification factors (0.85, 0.9, 0.95, 1.05, 1.1, 1.15). For high-quality data integration, the paper applies Flow-GRPO reinforcement learning (group size 8, effective group number 12, KL weight 0.1, noise level alpha=0.4, SDE window steps 2-6, 10 diffusion steps, learning rate 1e-7) optimizing an ASR transcription consistency reward using Qwen3-ASR.
+
+During training, AdamW is used with a peak learning rate of 7.5e-5, 2k warmup steps, and linear decay over 200k steps with 28k frames per GPU batch size. PEFT modules are trained for 100k steps at a 1e-5 learning rate.
+
+## Experimental setup
+
+Evaluated on Common Voice Cantonese, Emilia Mandarin, KeSpeech corpus, a Southern Min dataset, and commercial Shanghai and Tianjin datasets, plus 3 hours of Peking Opera (Jingbai/Yunbai) and Nanjing dialect for low-resource testing. The model is trained on roughly 0.7k hours of Mandarin and 0.4k hours of dialect data. Baselines include Edge TTS, CosyVoice2, and Qwen-TTS. Metrics include Word Error Rate (WER) using Qwen3-ASR, UTMOSv2 for speech naturalness, and subjective Mean Opinion Score (MOS) evaluated by native speakers and linguistics experts.
 
 ## Results
 
-Evaluated across multiple Chinese dialects (YUE, SH, CD, XA, ZZ, TJ, NAN, SJZ, NJ, Jingbai, and Yunbai) using ~0.7k hours of Mandarin and ~0.4k hours of dialect data, comparing against Edge TTS, CosyVoice2, and Qwen-TTS. Ablation studies confirm that replacing the IPA front-end with pinyin causes catastrophic failure (WER spiking from ~33% to over 90%), and removing the dialect MoE degrades both MOS and WER. Furthermore, Flow-GRPO optimization on high-quality Chengdu (CD) dialect data improves UTMOSv2 to 3.15 and reduces WER to 23.93%, outperforming standard continued training (29.15% WER).
+DiaMoE-TTS achieves competitive performance despite being trained on only 1.1k total hours compared to commercial systems trained on 150k to 3M hours. For instance, on Chengdu (CD) dialect, it achieves a WER of 29.25% and MOS of 2.22, while handling complex stylized registers like Yunbai (Peking Opera) with a WER of 61.30% and MOS of 1.75 (dialects entirely absent from commercial baselines). Ablation studies confirm that replacing IPA with pinyin causes catastrophic failure with WER exceeding 90% (e.g., CD WER jumps from 29.25% to 93.29%), and removing the MoE degrades both MOS and WER across all tested dialects.
+
+In optimization comparisons for incorporating high-quality Chengdu dialect data, Flow-GRPO outperforms continued training by reducing WER from 29.25% (pretrained only) down to 23.93% and improving UTMOSv2 to 2.87, whereas continued training yields negligible or negative WER improvements on related cross-dialects.
+
+| System | YUE (WER) | SH (WER) | CD (WER) | XA (WER) | ZZ (WER) | TJ (WER) |
+|---|---|---|---|---|---|---|
+| Ours | 34.01% | 51.48% | 29.25% | 37.85% | 33.83% | 21.94% |
+| Edge TTS | 8.66% | - | 5.77% | 7.49% | 7.27% | - |
+| CosyVoice2 | 23.23% | 22.48% | 8.06% | - | 7.72% | 7.68% |
+| Qwen TTS | - | 12.44% | 9.55% | - | - | - |
+
+## Limitations
+
+The evaluation is restricted to Chinese dialects and specialized theatrical registers (Peking Opera), leaving cross-lingual and non-Chinese dialect generalization unverified. The model exhibits higher absolute WER than massive commercial systems, primarily constrained by training data scale (1.1k hours vs. up to 3M hours). Furthermore, the RL reward function relies exclusively on ASR transcription accuracy, omitting explicit multi-objective optimization for prosodic naturalness and fine-grained expressive style transfer.
+
+## Why read this
+
+Speech researchers and engineers working on low-resource and multi-dialect TTS will find this paper essential for its practical recipe combining IPA front-ends, dialect-aware MoE routing, and Flow-GRPO reinforcement learning to mitigate style interference and data scarcity.
 
 ## Code
 
@@ -31,11 +66,7 @@ Evaluated across multiple Chinese dialects (YUE, SH, CD, XA, ZZ, TJ, NAN, SJZ, N
 
 ## Applications
 
-Speech engineers and developers building culturally diverse, low-resource, or multi-dialect text-to-speech systems and regional voice cloning applications.
-
-## Limitations
-
-The model exhibits higher absolute word error rates on phonologically distant or stylized varieties like Southern Min (74.39% WER) and Yunbai Peking Opera (61.30% WER), and current reinforcement learning reward signals rely strictly on pronunciation accuracy rather than prosody or naturalness.
+Regional language preservation, localized voice assistants, cultural heritage speech synthesis (e.g., regional opera generation), and low-resource multilingual conversational interfaces.
 
 ## Related
 

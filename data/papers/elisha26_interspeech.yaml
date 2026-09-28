@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-453
 isca_url: https://www.isca-archive.org/interspeech_2026/elisha26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/elisha26_interspeech.pdf
 session: Speaker Identity, States, and Traits in Paralinguistics
-topics: [paralinguistics, evaluation, dataset]
+topics: [speech-paralinguistics, dataset, evaluation]
 code:
     url: https://github.com/spotify-research/audiobook-narrations-interspeech
     license: ""

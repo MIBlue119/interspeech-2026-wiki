@@ -1,41 +1,70 @@
 ---
 id: franz26_interspeech
-category: speech-enhancement
-updated: 2026-09-28
+category: paralinguistics
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2608
 pdf: https://www.isca-archive.org/interspeech_2026/franz26_interspeech.pdf
 ---
 
 # From Echo to Accuracy: Robust Voice Quality Assessment Using Blind Unsupervised Diffusion-based Dereverberation
 
+*Sven Franz, Tanja Grewe, Bernd T. Meyer, Jörg Bitzer*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/franz26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/franz26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2608)
 
-**TL;DR** — This study evaluates whether blind diffusion-based dereverberation can enable room-independent clinical voice quality assessment using Smoothed Cepstral Peak Prominence (CPPS), showing that secondary dereverberation successfully compensates for reverberation-induced bias and restores ranking consistency in continuous speech.
+**TL;DR** — This paper investigates whether blind unsupervised diffusion-based dereverberation (BUDDy) can make objective voice quality assessment (via Smoothed Cepstral Peak Prominence, CPPS) room-independent for speech and language therapy. Using 35 real-room impulse responses across two voice databases, the authors demonstrate that dereverberation successfully restores CPPS levels and voice quality rankings for continuous speech, while sustained vowels show much weaker recovery due to their stationarity and out-of-domain training.
+
+## Key contributions
+
+- Evaluates the open-source diffusion-based blind dereverberation method BUDDy for clinical voice quality assessment without needing explicit room impulse responses or clean references.
+- Establishes a rigorous four-stage signal evaluation pipeline (original, 1st dereverb, convolved with 35 real room IRs, 2nd dereverb) applied to 274 SVDB subjects and 133 ReST field subjects.
+- Proposes a data-driven relevance threshold (delta) anchored to the upper quartile of the interquartile range of IR-induced CPPS variability rather than arbitrary cutoffs.
+- Proves that continuous speech yields superior dereverberation benefits over sustained vowels due to richer spectral transitions and temporal modulations.
 
 ## Problem
 
-Objective voice quality metrics such as CPPS are increasingly used in speech and language therapy to complement subjective perceptual ratings, but room acoustics like reverberation systematically reduce CPPS values and distort pathology assessments. Because clinical environments naturally feature diverse and unmeasured room impulse responses, room-induced bias severely limits the reliability of automated voice diagnostics. Traditional dereverberation methods require explicit room impulse response estimation or paired clean data, which are unavailable in clinical routines.
+Objective voice quality measures like Smoothed Cepstral Peak Prominence (CPPS) are increasingly used in speech and language therapy to monitor voice disorders reliably, supplementing subjective scales like GRBAS or CAPE-V. However, real-world room acoustics—such as background noise, early reflections, and reverberation—systematically reduce CPPS, introduce pathology-dependent distortions, and alter voice quality rankings. Standard parameter-level regressions require unavailable room/microphone metadata, while supervised neural dereverberation or weighted prediction error (WPE) require paired clean-reverberant data or explicit IR estimates that are impractical in routine clinical settings.
 
 ## Method
 
-The authors test the unsupervised diffusion-based dereverberation model BUDDy to process voice recordings without clean references or measured room impulse responses. The evaluation pipeline utilizes two German voice databases: the Saarbrücken Voice Database (SVDB) with controlled low-reverberation samples and the ReST study database containing field recordings from untreated school rooms. Sustained vowels and continuous speech samples are first dereverberated, convolved with 35 real therapy room impulse responses, and then dereverberated a second time. CPPS values are extracted across all four stages using Praat on identical voiced segments, and performance is assessed using nonparametric Wilcoxon tests and two one-sided tests (TOST) for equivalence against data-driven relevance thresholds.
+The study utilizes two German voice databases: the Saarbrucken Voice Database (SVDB, 274 subjects, controlled low-reverberation, sampled at 50 kHz) and the ReST study (133 subjects, untreated school rooms under field conditions, sampled at 22.05 kHz). All files were resampled to 16 kHz to interface with the pretrained diffusion-based blind dereverberation model BUDDy (specifically using checkpoint VCTK-16k-4st-time-190000.pt). The signal pipeline starts with original recordings processed via BUDDy to obtain pseudo-anechoic references, which are then convolved with 35 real-world room impulse responses (IRs) measured in speech therapy rooms, followed by a second BUDDy dereverberation step.
+
+CPPS is extracted using Praat with a custom Python-reimplemented segmentation wrapper to guarantee identical voiced segment boundaries across all four processing conditions. Statistical evaluations rely entirely on non-parametric tests (two-sided and one-sided Wilcoxon signed-rank tests) due to non-normal distributions, alongside Two One-Sided Tests (TOST) for equivalence to determine if CPPS values return within an empirically derived tolerance corridor (delta = 0.5 * Q75(IQR_IR)).
+
+## Experimental setup
+
+Evaluated on 407 total subjects across two datasets (274 from SVDB, 133 from ReST), covering both sustained vowels (/a/) and continuous speech ("Guten Tag, wie geht es Ihnen?" and "Der Nordwind und die Sonne"). Baselines include original reverberant signals and convolved signals across 35 measured room impulse responses. Metrics include Smoothed Cepstral Peak Prominence (CPPS in dB), Hodges-Lehmann location shift estimators, interquartile ranges (IQR), and Spearman ranking correlation coefficients (rho). Implementation details include resampling all audio to 16 kHz in Python via librosa and running the pretrained BUDDy model without task-specific fine-tuning.
 
 ## Results
 
-For low-reverberation SVDB data, the initial dereverberation introduced minimal changes, whereas for reverberant ReST data, CPPS appropriately increased. Convolution with real room impulse responses systematically decreased CPPS and increased variance across datasets. A second dereverberation step successfully reduced convolution-induced variance for both databases (confirmed H3a). For continuous speech, the second dereverberation successfully restored CPPS values within a data-driven equivalence corridor and significantly recovered voice quality ranking consistency across 34 of 35 rooms (confirmed H3b and H3c).
+For continuous speech (CS) in the field-recorded ReST dataset, the first dereverberation significantly increased CPPS (median shift of 2.45 dB, p < 0.001), successfully compensating for heavy room degradation. Convolution with real room IRs systematically degraded CPPS across all conditions (e.g., median drop of 2.62 dB for ReST continuous speech, p < 0.001), disrupting voice quality rankings (dropping Spearman's rho below 0.95). The second dereverberation step significantly reduced IR-induced variance (H3a confirmed across all subsets, p < 0.001) and successfully restored ranking consistency for continuous speech in both SVDB (rho = 0.875 to 0.931) and ReST (rho = 0.872 to 0.892).
 
-## Code
+Where the method fails: Sustained vowels (SV) showed poor recovery. For SVDB sustained vowels, the second dereverberation failed to restore CPPS levels within the equivalence corridor (H3b rejected) and failed to improve ranking consistency (H3c rejected), primarily because sustained vowels lack the temporal modulations and spectral richness required by the diffusion model.
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
-
-## Applications
-
-Speech-language pathologists and engineers building automated voice health monitoring applications or clinical diagnostic tools that must operate reliably in everyday, acoustically uncontrolled environments.
+| System / Condition | SVDB Sustained Vowel CPPS (dB) | SVDB Continuous Speech CPPS (dB) | ReST Sustained Vowel CPPS (dB) | ReST Continuous Speech CPPS (dB) |
+|---|---|---|---|---|
+| Original | - | - | - | - |
+| 1st Dereverberated (Pseudo-Anechoic) | - | - | - | - |
+| Convolved (Real IRs) | - | - | - | - |
+| 2nd Dereverberated | - | - | - | - |
 
 ## Limitations
 
-The restoration of CPPS levels and rankings after the second dereverberation was successful for continuous speech but largely unsuccessful for sustained vowels.
+The evaluation is restricted to German-language voice databases, limiting direct linguistic generalization. BUDDy is an out-of-domain model pretrained on clean/multi-speaker speech corpora rather than pathological or sustained vowel speech, which explains its failure mode on sustained vowels. The study simulates acoustic degradation via convolution rather than recording live speakers in dynamically varying acoustic chambers in real-time clinical workflows. Computational cost of diffusion-based iterative sampling was not quantified for on-device clinical deployment.
+
+## Why read this
+
+Speech and ML engineers building clinical voice-assessment tools will take away hard evidence that unsupervised diffusion dereverberation (BUDDy) fixes continuous speech metrics under room reverberation, while learning why sustained vowels remain brittle for generative speech priors.
+
+## Code
+
+- https://svenfranz.github.io/Room-Acoustics-and-Objective-Voice-Quality-in-SLT/
+
+## Applications
+
+Automated remote voice disorder screening, continuous speech-based vocal pathology monitoring during speech therapy sessions, and robust clinical speech telemetry.
 
 ## Related
 

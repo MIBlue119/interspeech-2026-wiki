@@ -1,29 +1,63 @@
 ---
 id: chowdhury26_interspeech
 category: paralinguistics
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-3052
 pdf: https://www.isca-archive.org/interspeech_2026/chowdhury26_interspeech.pdf
 ---
 
 # Predicting Cognitive Load from Speech and Interaction Dynamics in Dyadic Conversations
 
+*Tahiya Chowdhury*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/chowdhury26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chowdhury26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3052)
 
-**TL;DR** — This paper investigates predicting continuous perceived cognitive load from speech and interaction dynamics in dyadic collaborative conversations using a two-head GRU regression model, achieving a dyad-level Concordance Correlation Coefficient (CCC) of up to 0.42 for temporal demand.
+**TL;DR** — This paper investigates predicting continuous perceived cognitive load in dyadic conversations using speech acoustics and interaction dynamics, achieving a dyad-level CCC of 0.51 for temporal demand.
+
+## Key contributions
+
+- Formulates cognitive load estimation in collaborative conversations as a regression task rather than multi-class classification.
+- Systematically evaluates static acoustic (eGeMAPS), temporally dynamic (deltas), and conversational interaction features.
+- Uses a Leave-One-Dyad-Out (LODO) cross-validation protocol on 53 diverse dyads across 9 tasks to ensure cross-dyad generalizability.
+- Demonstrates that combining turn-taking interaction features with acoustic features significantly boosts predictive performance.
 
 ## Problem
 
-Estimating cognitive load from speech has traditionally relied on controlled laboratory environments, discrete multi-class classification, and random train-test splits that risk data leakage and poor out-of-sample generalization. Furthermore, prior studies rarely examine multi-task remote collaboration settings or the specific contribution of conversational interaction and temporal dynamics. Addressing these gaps is crucial for reliable, real-time workload monitoring in remote and hybrid work environments.
+Estimating cognitive load from speech has traditionally relied on controlled laboratory settings and single-task evaluations, treating load as discrete classification classes. Prior approaches often use random data splits that risk data leakage and fail to generalize to unseen conversational partners (out-of-sample dyads). Furthermore, most works focus purely on individual vocal acoustics while ignoring conversational interaction dynamics and temporal coordination, which are crucial in remote collaborative work environments.
 
 ## Method
 
-The authors utilize the AVCAffe dataset containing 53 dyads performing nine collaborative tasks, extracting single-channel audio partitioned into 30-second non-overlapping windows and filtered via Silero VAD. They extract 88 static acoustic features using openSMILE's eGeMAPSv02 set, 88 temporally dynamic first-order difference features, and turn-taking interaction features like speaker switches and overlap fractions. A shared Gated Recurrent Unit (GRU) encoder processes paired participant sequences using mean pooling and a joint mean squared error loss across a two-head architecture. Evaluation is performed strictly via Leave-One-Dyad-Out cross-validation across 10 random seeds to ensure robust cross-dyad generalization.
+The dataset is pre-processed by splitting audio into non-overlapping 30-second windows and applying Silero VAD to filter out silence and extract speaking activity. Static acoustic features (88-dimensional eGeMAPS) and temporally dynamic features (first-order differences over consecutive windows) are extracted using OpenSMILE. In addition, 10 conversational interaction features—such as speaking fractions, dominance differences, turn switches, and overlap rates—are computed from VAD timing.
+
+For sequence modeling, the paper uses a shared Gated Recurrent Unit (GRU) encoder. Paired participant sequences are processed, mean-pooled across time steps, concatenated, and fed into a fully connected layer with 128 hidden units, ReLU activation, and 0.2 dropout. Training uses a joint mean squared error (MSE) loss summed across both participants, optimized with Adam (learning rate 10^-3) for 25 epochs. A Random Forest regression baseline (300 estimators, minimum leaf size 2) is used alongside GRU variants with and without attention.
+
+## Experimental setup
+
+Evaluated on the AVCAffe dataset consisting of 53 dyads (106 participants from 18 countries) performing 9 diverse collaborative tasks ranging from open discussions to complex problem solving, totaling 475 task-level paired samples. Evaluated using Leave-One-Dyad-Out (LODO) cross-validation across 10 random seeds. Primary metrics include Concordance Correlation Coefficient (CCC), Pearson Correlation Coefficient (PCC), and Root Mean Squared Error (RMSE).
 
 ## Results
 
-Evaluated on the AVCAffe dataset using Concordance Correlation Coefficient (CCC), Pearson correlation (PCC), and RMSE, the baseline Random Forest and GRU models show that temporal and mental demand contain generalizable workload signals. For temporal demand, the GRU model achieves a dyad-level CCC of 0.42 and PCC of 0.46. Combining static acoustic and temporal features yields improvements across several dimensions, such as mental demand CCC reaching 0.32 and effort CCC reaching 0.34. Ablations indicate that conversational interaction features (such as turn-taking dynamics and speaker switch rates) capture distinct aspects of temporal demand, while participation imbalances reflect mental demand.
+For temporal demand, the baseline Random Forest achieved a dyad-level CCC of 0.33, while the GRU model reached 0.41. Incorporating interaction features alongside acoustic features elevated the dyad-level CCC to 0.51 for temporal demand and improved mental demand prediction from 0.22 to 0.32. Permutation feature importance revealed that temporal demand is primarily driven by turn-taking dynamics, overlap, and switching rates, whereas mental demand is linked to speaking-time imbalances and conversational dominance.
+
+Notably, Wilcoxon signed-rank tests with Holm-Bonferroni correction showed no statistically significant performance difference between the GRU model and the Random Forest baseline (p = 0.21, corrected p = 0.41), indicating that sequence modeling offers limited gains over aggregated features at this data scale. Performance also showed extreme heterogeneity across individual dyads, with CCC ranging from highly positive (0.6 to 0.9) to inverse (negative) values for certain pairs.
+
+| Model & Features | Temporal (CCC) | Mental (CCC) | Effort (CCC) | Performance (CCC) |
+|---|---|---|---|---|
+| Acoustic (A) - RF | 0.33 | 0.22 | - | - |
+| Acoustic (A) - GRU | 0.42 | 0.22 | 0.20 | 0.19 |
+| Temporal (T) - GRU | 0.35 | 0.27 | 0.15 | 0.21 |
+| Interaction (I) - GRU | 0.51 | 0.28 | 0.13 | 0.16 |
+| Acoustic + Interaction (A+I) | 0.46 | 0.32 | 0.34 | 0.31 |
+
+## Limitations
+
+The study relies on a relatively small dataset of 53 dyads and 475 samples, which restricts the capacity of sequence models like attention-based GRUs. Cognitive load ground truth labels are collected only at the end of each task via NASA-TLX, missing fine-grained within-task temporal variations. The evaluation is restricted to voice-activity-derived interaction and acoustic features, omitting richer multimodal signals such as video, gaze, and lexical content.
+
+## Why read this
+
+Read this paper if you are building collaborative speech interfaces, meeting assistants, or affective computing models that need to quantify remote worker workload. It provides a sobering evaluation of cross-dyad generalization and demonstrates why conversational turn-taking features outperform raw vocal acoustics alone.
 
 ## Code
 
@@ -31,11 +65,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech engineers and researchers designing real-time cognitive load monitors, remote collaboration software, and ecologically valid affective computing systems for distributed teams.
-
-## Limitations
-
-The dataset size is relatively small and limits the effectiveness of more complex attention-based sequence models, and physical demand or frustration dimensions yielded near-null predictive signals.
+Real-time cognitive load monitoring for remote meeting platforms, adaptive voice-mediated collaboration tools, and safety-critical communication systems.
 
 ## Related
 

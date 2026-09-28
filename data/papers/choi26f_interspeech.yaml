@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2221
 isca_url: https://www.isca-archive.org/interspeech_2026/choi26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/choi26f_interspeech.pdf
 session: Corpus Creation, Summarization and Understanding
-topics: [asr, speech-llm, dataset]
+topics: [asr, tts, dataset]
 code:
     url: ""
     license: ""

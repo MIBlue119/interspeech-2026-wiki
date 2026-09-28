@@ -1,29 +1,56 @@
 ---
 id: curetti26_interspeech
 category: paralinguistics
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2534
 pdf: https://www.isca-archive.org/interspeech_2026/curetti26_interspeech.pdf
 ---
 
 # Towards an understanding of prosodic cue weighting for turn-end classification in older adults with varying hearing abilities
 
+*Lorenza Zaira Curetti, Hae-Sung Jeon, Lauren V. Hadley*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/curetti26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/curetti26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2534)
 
-**TL;DR** — Older adults with hearing loss and typical hearing both perform above chance on turn-end classification, but rely on fundamentally different prosodic cue-weighting strategies.
+**TL;DR** — This exploratory study investigates how older adults with and without hearing loss use prosodic cues to judge turn completion in declarative questions, finding that typical hearing listeners rely on duration and intensity while listeners with hearing loss rely on pitch movement. Both groups successfully classified utterance ends above chance despite overall modest accuracy.
+
+## Key contributions
+
+- Demonstrated that older adults with hearing loss achieve above-chance turn-end classification based solely on prosody, with sensitivity comparable to listeners with typical hearing.
+- Uncovered a cue-weighting shift: typical hearing listeners integrate word-final duration and intensity, whereas listeners with hearing loss rely primarily on pitch movement metrics.
+- Identified a significant interaction for typical hearing listeners where short word durations make high intensity detrimental to turn-end accuracy, while long durations buffer against intensity variations.
+- Provided empirical evidence that sensorineural hearing loss restructures the perceptual dimensions used for real-time conversational turn-taking rather than simply causing a uniform loss of prosodic sensitivity.
 
 ## Problem
 
-Sensorineural hearing loss can limit access to prosodic cues or alter their perceptual weighting, leading to conversational timing differences. However, the exact perceptual basis of how hearing-impaired listeners judge utterance completion remains unclear, leaving a gap in understanding real-time spoken interaction difficulties.
+Smooth conversational turn-taking relies on a listener's ability to predict when a speaker's turn is ending through phrase boundary prosody, yet individuals with sensorineural hearing loss often exhibit more variable turn-taking timing. Prior research establishes that hearing loss degrades spectral resolution and dynamic range, limiting access to pitch and intensity cues, while temporal-envelope sensitivity is often preserved. However, it remains unclear whether these sensory limitations cause poorer turn-end identification or drive a strategic reweighting of acoustic cues. This study addresses this gap by testing how hearing ability alters the perceptual reliance on temporal, amplitude, and pitch-related dimensions for turn-end categorization.
 
 ## Method
 
-The study evaluated 112 older adults (55 with typical hearing, 57 with hearing loss based on online Digit Triplet Test scores) performing a forced-choice classification task on 40 items across 80 recorded declarative question stimuli (finished vs. continuing). Four acoustic measures were extracted to capture boundary strength and pitch movement: target word duration, mean intensity, rise duration, and pitch rise excursion. Rank-based regression models with backward elimination were fitted separately for each listener group and stimulus version to predict accuracy from z-standardized prosodic measures and their interactions.
+The experiment evaluated 112 online participants aged 55 to 75 split evenly into typical hearing (TH) and hearing loss (HL) groups based on the online Digit Triplet Test (DTT threshold of -17.1 dB SNR). Stimuli comprised 40 item pairs (80 total recordings) of declarative questions spoken by a male native speaker of Standard Southern British English, featuring finished items ending at intonational phrase (IP) boundaries and continuing items truncated at intermediate phrase (ip) boundaries. All stimuli were loudness-normalized to -23 LUFS and 5 ms-gated. Four acoustic features were extracted: target word duration (Ttw), mean target word intensity (dBtw), final rise duration (Trise), and final rise pitch excursion in semitones (STrise). Rank-based robust regression models (Rfit package) with backward elimination were fitted independently for each listener group and stimulus condition, using z-transformed predictors to evaluate accuracy interactions and main effects.
+
+## Experimental setup
+
+The study utilized 80 natural speech stimuli derived from 40 item pairs evaluated by 55 TH and 57 HL participants recruited via Prolific. Hearing status was screened via an online Digit Triplet Test (DTT) with adaptive SNR across 25 trials. Performance metrics included d-prime sensitivity, response bias (C), and item-level rank-based regression coefficients. Implementation utilized R v4.5.2, ProsodyPro in Praat, psycho, and Rfit packages.
 
 ## Results
 
-Sensitivity did not significantly differ between groups (p = 0.12), and all groups performed above chance. For finished stimuli, typical hearing listeners relied on boundary strength cues, showing a significant interaction between intensity and duration where higher intensity hindered performance on shorter words (R² = 0.28). In contrast, hearing-impaired listeners ignored duration and intensity, relying instead on pitch movement metrics (rise duration and excursion) to determine completion (R² = 0.24). Continuing stimuli models yielded no reliable predictors for either group (R² = 0.07 to 0.09).
+Both groups performed significantly above chance (TH mean accuracy 61%, d'=0.28, p<0.001; HL mean accuracy 54%, d'=0.10, p=0.03) with no significant difference in overall sensitivity (p=0.12) or response bias (C=-0.08 vs -0.09). For continuing stimuli, prosodic predictors failed to reach significance for either group (R²=0.07 to 0.09). For finished stimuli, TH listeners showed a significant interaction between intensity and duration (dBtw × Ttw, β=0.036, p=0.007) alongside a negative main effect of intensity (β=-0.033, p=0.023), indicating that high intensity harmed accuracy only when target words were short (-1 SD). In contrast, HL listeners' accuracy for finished items was predicted exclusively by pitch rise metrics (Trise: β=-0.032, p=0.015; STrise: β=-0.028, p=0.029), reflecting a reliance on direct fundamental frequency trajectories rather than internalised durational expectations.
+
+| System / Condition | d' Sensitivity | Accuracy (%) | Primary Cue Predictors | R² (Finished) |
+|---|---|---|---|---|
+| Typical Hearing (TH) | 0.28 | 61% | Intensity × Duration | 0.28 |
+| Hearing Loss (HL) | 0.10 | 54% | Pitch Rise Duration & Excursion | 0.24 |
+
+## Limitations
+
+The study was conducted online without strict acoustic environment control, limiting precise sound pressure level calibration. Hearing groups were categorized using a threshold cutoff on a speech-in-noise test rather than continuous pure-tone audiograms, which may obscure graded severity effects. Overall task accuracy was modestly above chance (~54-61%), potentially reducing statistical power for subtle higher-order interactions.
+
+## Why read this
+
+Speech researchers and hearing scientists should read this to understand how sensory deficits drive adaptive cue-weighting shifts in real-time conversational processing rather than simple performance deficits. It highlights that rehabilitation and speech technology should account for altered perceptual weights during communicative interventions.
 
 ## Code
 
@@ -31,11 +58,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech and hearing researchers, audiologists, and developers of hearing assistive technologies aiming to model conversational dynamics and improve speech perception interventions for older adults.
-
-## Limitations
-
-The study was conducted online with uncontrolled listening environments, participants were categorized using a threshold rather than continuous metric, and overall task accuracy was only modestly above chance.
+Improving hearing aid processing strategies, designing conversational agents that adapt prosodic feedback for hearing-impaired users, and developing targeted auditory training for turn-taking dynamics.
 
 ## Related
 

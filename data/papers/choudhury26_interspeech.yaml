@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-3500
 isca_url: https://www.isca-archive.org/interspeech_2026/choudhury26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/choudhury26_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
-topics: [security, self-supervised, evaluation]
+topics: [self-supervised, evaluation, dataset]
 code:
     url: ""
     license: ""

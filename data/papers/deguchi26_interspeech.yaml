@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2971
 isca_url: https://www.isca-archive.org/interspeech_2026/deguchi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/deguchi26_interspeech.pdf
 session: Search Methods and Inference Algorithms
-topics: [asr, evaluation, self-supervised]
+topics: [asr, self-supervised, evaluation]
 code:
     url: ""
     license: ""

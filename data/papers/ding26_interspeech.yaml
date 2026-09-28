@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-258
 isca_url: https://www.isca-archive.org/interspeech_2026/ding26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ding26_interspeech.pdf
 session: Audio segmentation
-topics: [keyword-spotting, self-supervised, evaluation]
+topics: [keyword-spotting, self-supervised, on-device]
 code:
     url: https://github.com/dhyzy123/ImKWS
     license: ""

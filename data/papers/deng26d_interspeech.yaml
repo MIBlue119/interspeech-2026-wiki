@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-2212
 isca_url: https://www.isca-archive.org/interspeech_2026/deng26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/deng26d_interspeech.pdf
 session: Multi-Channel, Beamforming and Spatial Speech Enhancement
-topics: [speech-enhancement, evaluation]
+topics: [speech-enhancement, source-separation, self-supervised]
 code:
     url: ""
     license: ""

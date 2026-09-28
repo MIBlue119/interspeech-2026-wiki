@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-966
 isca_url: https://www.isca-archive.org/interspeech_2026/dong26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dong26b_interspeech.pdf
 session: Model of Speech Perception
-topics: [speech-llm, evaluation, multilingual]
+topics: [speech-llm, evaluation, low-resource]
 code:
     url: ""
     license: ""

@@ -1,29 +1,63 @@
 ---
 id: diecidue26_interspeech
 category: asr
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2026
 pdf: https://www.isca-archive.org/interspeech_2026/diecidue26_interspeech.pdf
 ---
 
 # The silence of the weights: a structural pruning strategy for Attention-based audio signal architectures with second-order metrics
 
+*Andrea Diecidue, Carlo Alberto Barbano, Piero Fraternali, Mathieu Fontaine, Enzo Tartaglione*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/diecidue26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/diecidue26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2026)
 
-**TL;DR** — A novel structured channel-pruning technique combined with Fisher information scoring successfully reduces attention-block parameters by 50% in speech models with minimal performance loss.
+**TL;DR** — This paper introduces a structured per-head channel pruning strategy combined with Fisher information scoring for attention-based audio architectures, preserving performance within 1% even at 50% sparsity.
+
+## Key contributions
+
+- Proposes a per-head (PH) channel-wise structured pruning scheme that independently selects channels to prune per head under matrix dimension constraints ($W_q/W_k$ and $W_v/W_o$).
+- Adopts a linear-cost Fisher information (FI) second-order scoring metric to overcome parameter magnitude scale biases across layers.
+- Compares global (G) and local (L) thresholding strategies across diverse tasks using Audio Spectrogram Transformer (AST) and Whisper models.
+- Demonstrates that 50% parameter removal in attention blocks maintains competitive accuracy (e.g., 97.71% on SpeechCommands) compared to whole head-wise pruning.
 
 ## Problem
 
-Large transformer models in machine listening require excessive memory and compute for training and execution, limiting their deployment on constrained devices. Existing structured pruning methods primarily target entire attention heads or tokens while ignoring finer-grained channel redundancies across query, key, value, and output matrices. This gap matters because coarse head-wise pruning lacks flexibility and can prematurely degrade model capabilities.
+Standard transformer models used in machine listening scale up to billions of parameters, resulting in high energy, memory, and inference latency requirements. Traditional structured pruning methods focus heavily on coarse whole-head pruning (EH) or token dropping, while unstructured approaches like PARP fail to deliver actual wall-clock speedups. Furthermore, simple magnitude-based pruning metrics suffer from cross-layer scale disparities, disproportionately damaging earlier layers unless carefully managed. Addressing fine-grained channel pruning within attention blocks for audio transformers remains largely underexplored.
 
 ## Method
 
-The authors propose a per-head channel pruning (PH) scheme that independently selects channels to prune per head within attention blocks, constrained only by matrix dimension compatibility for Q/K and V/O. They pair this with Fisher Information (FI) as a second-order parameter importance metric, avoiding the layer-scale bias inherent in magnitude-based (MAG) scoring. The strategy uses iterative pruning over 10 steps (10% per step) paired with global (G) or local (L) thresholding. Evaluations test the Audio Spectrogram Transformer (AST) on audio classification and the medium Whisper model on transcription/translation, with AST fine-tuned via LoRA and Whisper fine-tuned on a 33k-hour multilingual audio mix using SGD.
+The proposed method focuses on the four self-attention weight matrices: $W_q \in \mathbb{R}^{d_q \times d}$, $W_k \in \mathbb{R}^{d_q \times d}$, $W_v \in \mathbb{R}^{d_v \times d}$, and $W_o \in \mathbb{R}^{d \times d_v}$. Pruning maintains two strict dimensional constraints: $W_q$ and $W_k$ must share an equal output dimension, and $W_v$'s output dimension must match $W_o$'s input dimension. Unlike standard Entire Head (EH) pruning that removes entire attention heads, the Per-Head (PH) channel-wise approach independently allocates a sparsity budget per head to eliminate redundant channels while preserving crucial subspaces.
+
+To score parameters without being misled by magnitude variations across layers, the method computes the Fisher Information (FI) using a log-likelihood loss over a sample dataset $X$. Unlike the full Hessian matrix which scales quadratically, Fisher information provides second-order sensitivity information in linear time. For thresholding, the framework investigates global (G) strategies—which pool all channels across layers to allocate a flexible sparsity per layer—and local (L) strategies, which enforce uniform sparsity across all layers.
+
+During training, AST models are fine-tuned iteratively using LoRA for 3 epochs per sparsity step with AdamW ($lr=10^{-4}$), while Whisper medium models are fine-tuned across a 33k-hour multilingual audio corpus (LibriSpeech, MLS, CommonVoice, VoxPopuli, FLEURS, CoVoST) using SGD ($lr=10^{-4}$).
+
+## Experimental setup
+
+Evaluated on AudioSet (balanced subset) and SpeechCommands v2 for AST classification, alongside Whisper medium evaluated on LibriSpeech (English), CommonVoice (Italian, French), and CoVoST (German-to-English translation). Pruning is executed iteratively across 10 steps, removing 10% of attention parameters per iteration up to 50-60% sparsity. Baselines include Entire Head (EH) pruning, magnitude-based (MAG) scoring, and local vs. global thresholding variants.
 
 ## Results
 
-Tested on AudioSet and SpeechCommands with AST, and LibriSpeech, CommonVoice, and CoVoST with Whisper (medium). Fisher information scoring consistently outperforms magnitude metrics, achieving 97.71% accuracy on SpeechCommands and 30.86 mAP on AudioSet at 60% attention sparsity (compared to 97.51% and 31.10% for head-wise Fisher). For magnitude metrics, local thresholding (97.49% SpeechCommands, 29.85% AudioSet) drastically outperforms global thresholding (65.4% SpeechCommands, 25.90% AudioSet) by avoiding scale discrepancies across layers. Whisper models pruned with the proposed method maintain word error rates within 1% of the original unpruned baselines across English, French, and Italian evaluations.
+At 60% sparsity on SpeechCommands, the proposed Fisher-guided per-head approach achieved 97.71% accuracy (vs. 97.51% for head-wise Fisher), and 30.86 mAP on AudioSet (vs. 31.10 mAP for head-wise Fisher). Magnitude-based pruning required local thresholding (97.49% on SpeechCommands) to avoid collapse, whereas Fisher information excelled under global thresholding due to its scale invariance. In terms of latency, head-wise pruning yielded slightly faster inference (1-2 ms faster than per-head) because it completely removes scaled dot-product operations from the computation graph. Machine translation tasks (CoVoST DE-EN) showed larger performance drops due to small domain-specific fine-tuning sets (~1000 samples).
+
+| System / Condition | Sparsity | SpeechCommands Acc (%) | AudioSet mAP | LibriSpeech WER |
+|---|---|---|---|---|
+| Baseline (Unpruned) | 0% | ~98.0 | ~32.0 | Baseline |
+| PH | G | FI | 60% | 97.71 | 30.86 | Competitive |
+| EH | G | FI | 60% | 97.51 | 31.10 | Competitive |
+| PH | L | MAG | 60% | 97.49 | 29.85 | Higher error |
+| EH | G | MAG | 60% | 96.54 | 25.90 | Degraded |
+
+## Limitations
+
+The study is restricted to attention blocks, omitting feed-forward networks (FFNs) from the pruning loop. Fine-tuning datasets for low-resource translation tasks were relatively small (~1000-1500 samples), exacerbating performance degradation at higher sparsities. Per-head channel pruning yields lesser raw hardware speedups compared to full head-removal because inner dimension contractions do not entirely eliminate structural operators.
+
+## Why read this
+
+Speech and machine learning engineers seeking to compress large audio transformer architectures (like Whisper or AST) without retraining from scratch should read this to understand how second-order Fisher metrics and per-head channel pruning outperform naive magnitude scoring.
 
 ## Code
 
@@ -31,11 +65,7 @@ Tested on AudioSet and SpeechCommands with AST, and LibriSpeech, CommonVoice, an
 
 ## Applications
 
-Engineers and researchers deploying large audio transformers like Whisper and AST on edge devices or resource-constrained environments to reduce model size and latency.
-
-## Limitations
-
-Head-wise pruning yields slightly faster inference speeds (1-2 ms faster) than per-head channel pruning because removing entire heads eliminates entire dot-product structures from the computational graph.
+Deploying resource-constrained automatic speech recognition (ASR) and audio classification models on edge or on-device hardware.
 
 ## Related
 

@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-2296
 isca_url: https://www.isca-archive.org/interspeech_2026/dinh26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dinh26_interspeech.pdf
 session: Source Separation 2
-topics: [speech-separation, self-supervised, codec]
+topics: [speech-separation, self-supervised, speech-llm]
 code:
-    url: ""
+    url: https://phuongdnm.github.io/rvqgrid
     license: ""
 open_to_collaboration: false

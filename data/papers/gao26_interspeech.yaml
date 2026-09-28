@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-64
 isca_url: https://www.isca-archive.org/interspeech_2026/gao26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gao26_interspeech.pdf
 session: 'Speaker Verification: Advances in Speaker Embeddings'
-topics: [speaker-verification, self-supervised, evaluation]
+topics: [speaker-verification, self-supervised, speech-enhancement]
 code:
     url: https://github.com/peter112231/NoiseLoRA-SV
     license: ""

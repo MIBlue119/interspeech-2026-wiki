@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-3393
 isca_url: https://www.isca-archive.org/interspeech_2026/gangwar26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gangwar26_interspeech.pdf
 session: Streaming Speech Synthesis
-topics: [self-supervised, speech-llm, evaluation]
+topics: [speech-llm, self-supervised, speech-translation]
 code:
     url: ""
     license: ""

@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2506
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26ba_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26ba_interspeech.pdf
 session: Evaluation, Benchmarking, and Reliability of Audio Systems
-topics: [evaluation, self-supervised, dataset]
+topics: [self-supervised, evaluation, speaker-diarization]
 code:
     url: https://github.com/chuyangchencd/SARL
     license: ""

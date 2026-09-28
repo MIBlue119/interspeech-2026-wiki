@@ -7,7 +7,7 @@ doi: 10.21437/Interspeech.2026-1508
 isca_url: https://www.isca-archive.org/interspeech_2026/dang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dang26_interspeech.pdf
 session: Perception and Appraisal of Prosody
-topics: [phonetics, prosody, evaluation]
+topics: [phonetics, prosody, dataset]
 code:
     url: ""
     license: ""

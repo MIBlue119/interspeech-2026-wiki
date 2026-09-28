@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-814
 isca_url: https://www.isca-archive.org/interspeech_2026/ding26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ding26b_interspeech.pdf
 session: Spoofing, Deepfake Detection and Watermarking
-topics: [evaluation, audio-deepfake]
+topics: [speech-enhancement, evaluation, self-supervised]
 code:
     url: https://adaptiveaudiowmattack.github.io/
     license: ""

@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-2813
 isca_url: https://www.isca-archive.org/interspeech_2026/fortier26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/fortier26_interspeech.pdf
 session: Speaker Diarization and Recognition
-topics: [speech-llm, evaluation, multimodal]
+topics: [speech-llm, self-supervised, evaluation]
 code:
     url: ""
     license: ""

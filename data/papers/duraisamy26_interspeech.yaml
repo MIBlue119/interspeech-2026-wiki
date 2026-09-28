@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2884
 isca_url: https://www.isca-archive.org/interspeech_2026/duraisamy26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/duraisamy26_interspeech.pdf
 session: Neurophysiology of Speech
-topics: [speech-llm, evaluation, self-supervised]
+topics: [asr, self-supervised, health]
 code:
     url: ""
     license: ""

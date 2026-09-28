@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1827
 isca_url: https://www.isca-archive.org/interspeech_2026/fang26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/fang26b_interspeech.pdf
 session: Voice Conversion
-topics: [voice-conversion, speech-enhancement, multilingual]
+topics: [speech-enhancement, voice-conversion, multilingual]
 code:
     url: https://whispear-demo.github.io/
     license: ""

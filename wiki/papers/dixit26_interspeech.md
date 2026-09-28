@@ -1,29 +1,64 @@
 ---
 id: dixit26_interspeech
-category: spoken-language-understanding
-updated: 2026-09-28
+category: evaluation
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-3185
 pdf: https://www.isca-archive.org/interspeech_2026/dixit26_interspeech.pdf
 ---
 
 # AURA Score: A Metric for Holistic Audio Question Answering Evaluation
 
+*Satvik Dixit, Soham Deshmukh, Bhiksha Raj*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/dixit26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dixit26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3185)
 
-**TL;DR** — The paper introduces AURA, an evaluation metric for audio question answering that combines LLM reasoning with audio grounding to achieve state-of-the-art correlation with human ratings.
+**TL;DR** — The paper introduces AQEval, a 10k-sample human-annotated benchmark for Audio Question Answering (AQA) evaluation, and proposes AURA, a metric combining LLM reasoning with CLAP audio entailment that outperforms traditional n-gram and captioning metrics.
+
+## Key contributions
+
+- Introduces AQEval, the first human-annotated benchmark specifically for evaluating AQA metrics, containing roughly 10k model responses annotated across 5 human raters for absolute correctness and partial correctness.
+- Performs a comprehensive evaluation of legacy NLP and audio captioning metrics (BLEU, METEOR, ROUGE-L, CIDER, SPICE, SPIDER, MACE, FENSE) on AQEval, proving they fail on longer, more complex free-form answers.
+- Proposes AURA (Audio Response Assessment), a metric that combines few-shot LLM reasoning with chain-of-thought and an audio entailment module.
+- Demonstrates state-of-the-art correlation with human ratings, exceeding the best baseline metric by a factor of 2.2 and outperforming a plain LLM-as-judge baseline by 9.1% overall.
 
 ## Problem
 
-Current audio question answering (AQA) evaluation metrics primarily rely on surface similarity, n-gram overlap, or text-only embedding matching borrowed from NLP and captioning tasks. These legacy metrics fail to account for contextual reasoning, partial correctness, and whether responses are actually grounded in the audio clip, resulting in poor correlation with human judgments especially for longer answers.
+As Audio-Language Models (ALMs) shift from closed-form classification to open-ended Audio Question Answering (AQA), researchers have relied on text-based NLG metrics (BLEU, METEOR, ROUGE-L, BERTScore) and audio captioning metrics (FENSE, MACE). These prior approaches fail because they measure mere lexical overlap or surface embedding similarity, remaining entirely question-agnostic. They cannot judge whether a response contextually answers a specific question or aligns with actual audio content, particularly for nuanced, partially correct, or long-form generations.
 
 ## Method
 
-The proposed AURA score combines a correctness score derived from a few-shot, chain-of-thought prompted Large Language Model with an audio entailment component. The LLM evaluates the model response against the question and reference text on a three-point scale after generating an explanatory rationale. Simultaneously, the question and response are converted into a declarative hypothesis, and a CLAP model computes audio-text entailment similarity against the source audio. These two terms are linearly combined using a weighted sum and min-max normalized to produce the final score.
+AURA computes a holistic score by combining an LLM-based contextual correctness evaluation with an audio grounding module. For the textual component, an LLM (such as Llama 3.1-8B, Gemini 2.5 Pro, Claude Sonnet 3.5, or GPT-4o) is prompted with the question, reference answer, and candidate response, instructed to first output a natural language rationale (Chain-of-Thought) and then rate the answer on a 3-point scale (1 = incorrect, 2 = ambiguous/partially correct, 3 = correct). This category score S_LLM is mapped to 0, 0.5, and 1.
+
+Simultaneously, for audio grounding, the question and response are rewritten into a declarative hypothesis text (h) using an LLM prompt. The hypothesis is embedded via the CLAP text encoder (Et), while the source audio (a) is embedded via the CLAP audio encoder (Ea). The cosine similarity between these embeddings produces an audio entailment score S_AE, thresholded at 0.35.
+
+The final AURA score is calculated as a weighted sum of the normalized LLM score and the audio entailment score: S_AURA = Normalised(S_LLM + w * S_AE), where the entailment weight w is set to 0.1 based on validation ablations. Best configuration uses 3-shot in-context learning with rationalization.
+
+## Experimental setup
+
+Evaluations are conducted on the newly proposed AQEval benchmark, comprising 9,974 entries (8k test, 2k validation) synthesized from ClothoAQA and OpenAQA, utilizing audio clips from Clotho and AudioCaps. Candidate responses are generated by four distinct ALMs: Qwen AudioChat, Audio Flamingo, GAMA, and Qwen2 Audio. Alignment with human judgment is measured via Pearson's rank correlation coefficient (rho). Baselines include BLEU, ROUGE-L, METEOR, CIDER, SPICE, SPIDER, MACE, FENSE, and a zero-shot LLM-as-judge without demonstrations or CoT.
 
 ## Results
 
-Evaluated on the newly introduced AQEval benchmark comprising nearly 10k human-annotated model responses from systems like Qwen2-Audio, Audio Flamingo, GAMA, and Qwen Audio. AURA achieves superior Pearson's rank correlation with human ratings compared to traditional baselines like BLEU, METEOR, ROUGE-L, CIDER, SPICE, SPIDER, MACE, and FENSE. AURA outperforms a vanilla LLM-only judge baseline by an overall 9.1%, with notable gains of 16.02% on ClothoAQA and 4.31% on OpenAQA. Ablations demonstrate that performance scales positively with up to three-shot demonstrations and benefits directly from chain-of-thought rationalization.
+On aggregate ClothoAQA, AURA achieves a correlation of 72.62 compared to 62.59 for the plain LLM baseline and 31.00 for BLEU. On aggregate OpenAQA, AURA scores 45.44 vs 43.56 for the plain LLM and 17.05 for BLEU. In question-type breakdowns, traditional metrics plummet on medium and long responses (e.g., BLEU drops from 36.92 on words to 17.02 on long responses), whereas AURA maintains high correlation across all lengths, peaking at 61.80 overall. Ablations show that utilizing advanced frontier models like GPT-4o as the core judge pushes overall correlation up to 65.88.
+
+| System / Metric | ClothoAQA Correlation | OpenAQA Correlation | Overall Correlation |
+|---|---|---|---|
+| BLEU | 31.00 | 17.05 | 23.91 |
+| METEOR | 31.65 | 22.64 | 27.86 |
+| ROUGE-L | 33.74 | 19.06 | 27.34 |
+| FENSE | 23.73 | 21.76 | 17.52 |
+| LLM Baseline | 62.59 | 43.56 | 56.64 |
+| AURA (Proposed) | 72.62 | 45.44 | 61.80 |
+
+## Limitations
+
+The current audio entailment component relies on zero-shot CLAP models that achieve only around 50% accuracy on standard audio entailment tasks, limiting the marginal gain of the grounding term (w = 0.1). The evaluation is bounded by English-centric datasets (Clotho and AudioCaps) and does not explore multilingual AQA robustness. Furthermore, utilizing frontier LLMs like GPT-4o or Claude Sonnet as the backbone introduces significant computational inference overhead compared to traditional n-gram metrics.
+
+## Why read this
+
+Researchers and engineers building Audio-Language Models or evaluating open-ended audio tasks should read this to adopt a rigorous, human-aligned evaluation metric that goes beyond lexical overlap. It exposes the severe failure modes of traditional NLP metrics on complex audio answers and provides a reproducible blueprint for combining LLM reasoning with audio grounding.
 
 ## Code
 
@@ -31,11 +66,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech engineers and researchers developing and benchmarking audio-language models for open-ended audio question answering tasks.
-
-## Limitations
-
-Performance gains over vanilla LLM baselines can vary on specific subsets, such as short responses where simple prompt baselines occasionally score marginally higher.
+Automated benchmarking of audio-language models, continuous evaluation pipelines for conversational speech assistants, and data quality filtering for speech-text dataset curation.
 
 ## Related
 
