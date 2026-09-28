@@ -1,0 +1,15 @@
+id: yano26_interspeech
+title: Adapting Text LLMs to Speech via Multimodal Depth Up-Scaling
+authors:
+    - Kazuki Yano
+    - Jun Suzuki
+    - Shinji Watanabe
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yano26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yano26_interspeech.pdf
+session: Post-Training of Speech Foundation Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

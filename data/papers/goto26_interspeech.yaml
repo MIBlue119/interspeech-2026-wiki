@@ -1,0 +1,18 @@
+id: goto26_interspeech
+title: Online Predictive Coding for Dual-Mode Self-Supervised Speech Models
+authors:
+    - Keita Goto
+    - Takashi Maekaku
+    - Jin Sakuma
+    - Jinchuan Tian
+    - Yusuke Shinohara
+    - Shinji Watanabe
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/goto26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/goto26_interspeech.pdf
+session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

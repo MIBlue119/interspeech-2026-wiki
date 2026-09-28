@@ -1,0 +1,16 @@
+id: s26_interspeech
+title: 'Gender Bias in ASR: A Controlled Study of Gender Composition Across Training Paradigms'
+authors:
+    - Seshan S
+    - Murali Kadambi
+    - Amartya Veer
+    - Prasanta Kumar Ghosh
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/s26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/s26_interspeech.pdf
+session: 'Robust ASR: Hallucinations and Biases'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

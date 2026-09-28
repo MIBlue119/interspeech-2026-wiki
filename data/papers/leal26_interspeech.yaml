@@ -1,0 +1,19 @@
+id: leal26_interspeech
+title: 'Tarsila-ASR: A Multi-Domain Test Suite for Benchmarking Brazilian Portuguese Speech Recognition'
+authors:
+    - Sidney Leal
+    - Ariadne Matos
+    - Edresson Casanova
+    - Frederico Gonçalves
+    - Renato Moraes Silva
+    - Arnaldo Cândido Jr
+    - Sandra Aluísio
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/leal26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/leal26_interspeech.pdf
+session: Speech Benchmarks, Evaluation, and Resources
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

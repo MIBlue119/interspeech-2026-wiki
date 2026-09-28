@@ -1,0 +1,15 @@
+id: gao26c_interspeech
+title: 'UD-ASD: A Unified Diffusion Model for Anomalous Sound Detection'
+authors:
+    - Pengxiang Gao
+    - Yu Qiu
+    - Yanzhi Song
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/gao26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/gao26c_interspeech.pdf
+session: Acoustic Event Detection 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

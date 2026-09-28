@@ -1,0 +1,24 @@
+id: li26k_interspeech
+title: 'POTSA: A Cross-Lingual Speech Alignment Framework for Speech-to-Text Translation'
+authors:
+    - Xuanchen Li
+    - Chenrui Cui
+    - Tianrui Wang
+    - Meng Ge
+    - Zikang Huang
+    - Yizhou Peng
+    - Jin Li
+    - Yuheng Lu
+    - Yu Jiang
+    - Nyima Tashi
+    - Longbiao Wang
+    - Jianwu Dang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26k_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26k_interspeech.pdf
+session: Multilingual Speech 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

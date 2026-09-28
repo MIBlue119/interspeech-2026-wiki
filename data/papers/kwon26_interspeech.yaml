@@ -1,0 +1,17 @@
+id: kwon26_interspeech
+title: Delayed-Commitment Online Speaker Tracking for Robust Many-Speaker Diarization
+authors:
+    - Youngki Kwon
+    - Hee-Soo Heo
+    - Minjae Lee
+    - Han-Gyu Kim
+    - Bong-Jin Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kwon26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kwon26_interspeech.pdf
+session: Speaker Diarization 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

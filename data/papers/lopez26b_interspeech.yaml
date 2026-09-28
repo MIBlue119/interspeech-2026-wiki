@@ -1,0 +1,19 @@
+id: lopez26b_interspeech
+title: 'S-DiverSe: Spanish Diverse Speech'
+authors:
+    - Fernando López
+    - Fernando Ibañez
+    - Ana Martínez
+    - Iván Alonso
+    - Pablo Gómez
+    - Santosh Kesiraju
+    - Jordi Luque
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lopez26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lopez26b_interspeech.pdf
+session: Speech and Language Technologies for Health Applications 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

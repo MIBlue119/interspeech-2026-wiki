@@ -1,0 +1,16 @@
+id: zhou26d_interspeech
+title: 'BiSASV: Bidirectional Feature Modulation with Dual-Granularity Fusion for Spoofing-Robust ASV'
+authors:
+    - Yiqun Zhou
+    - Kong Aik Lee
+    - Ji Liu
+    - Longbiao Wang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhou26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26d_interspeech.pdf
+session: Speaker Verification and Anti-Spoofing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,16 @@
+id: kaneko26_interspeech
+title: 'MeanVoiceFlow2: Joint Optimization of Mean Flow and Content Encoder for Fast One-Step Zero-Shot Voice Conversion'
+authors:
+    - Takuhiro Kaneko
+    - Hirokazu Kameoka
+    - Kou Tanaka
+    - Yuto Kondo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kaneko26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kaneko26_interspeech.pdf
+session: Voice Conversion
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,16 @@
+id: mahmudi26_interspeech
+title: 'Easper: An Accessible ASR Pipeline for Language Documentation'
+authors:
+    - Aso Mahmudi
+    - Ting Dang
+    - Ekaterina Vylomova
+    - Nick Thieberger
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.pdf
+session: Corpus Creation, Summarization and Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

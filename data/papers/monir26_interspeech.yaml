@@ -1,0 +1,15 @@
+id: monir26_interspeech
+title: Time–Frequency Weighted Losses for Phoneme Reconstruction in DNN-Based Speech Enhancement
+authors:
+    - Nasser-Eddine Monir
+    - Paul Magron
+    - Romain Serizel
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/monir26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/monir26_interspeech.pdf
+session: SE Architectures, Adaptation and Audio Front-Ends
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

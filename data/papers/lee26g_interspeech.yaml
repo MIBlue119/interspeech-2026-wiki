@@ -1,0 +1,16 @@
+id: lee26g_interspeech
+title: 'AccentDrift: Real-time Streaming Accent Conversion via Sparse Speech Tokenization'
+authors:
+    - Sang-Hoon Lee
+    - Heejin Choi
+    - Joun Yeop Lee
+    - Sangjun Park
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lee26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lee26g_interspeech.pdf
+session: Domain Adaptation & Accented ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

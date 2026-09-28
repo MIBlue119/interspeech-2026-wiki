@@ -1,0 +1,17 @@
+id: le26_interspeech
+title: 'VerAno: Speaker Anonymization via Self-Supervised Tokenization and Conditional Flow Matching'
+authors:
+    - Ngoc Hung Le
+    - Thien-Phuc Doan
+    - Thien An Nguyen
+    - Kyujin Kim
+    - Souhwan Jung
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/le26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/le26_interspeech.pdf
+session: Speaker Privacy Preservation and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

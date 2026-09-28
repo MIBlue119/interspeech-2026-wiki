@@ -1,0 +1,19 @@
+id: xie26_interspeech
+title: 'FakeSound2: A Benchmark for Explainable, Traceable, and Generalizable Deepfake Sound Detection'
+authors:
+    - Zeyu Xie
+    - Yaoyun Zhang
+    - Xuenan Xu
+    - Yongkang Yin
+    - Chenxing Li
+    - Mengyue Wu
+    - Yuexian Zou
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xie26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xie26_interspeech.pdf
+session: Spoofing and Deepfake Detection 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

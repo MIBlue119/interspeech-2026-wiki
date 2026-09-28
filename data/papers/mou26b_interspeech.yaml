@@ -1,0 +1,18 @@
+id: mou26b_interspeech
+title: Dynamic Prosody Prediction in LLM-based TTS for Improving Speaker Similarity
+authors:
+    - Zhenwei Mou
+    - Liping Chen
+    - Yajun Hu
+    - Zhen-Hua Ling
+    - Xin Fang
+    - Jian-Qing Gao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mou26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mou26b_interspeech.pdf
+session: Long-Form Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

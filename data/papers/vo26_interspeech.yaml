@@ -1,0 +1,15 @@
+id: vo26_interspeech
+title: 'SETEAB: Multiscale approach with Squeeze-and-Excitation Temporal Enhanced Aware Block for Speech Emotion Recognition'
+authors:
+    - Duy Vo
+    - Kiet Anh Hoang
+    - Hao Do
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/vo26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/vo26_interspeech.pdf
+session: Speech Emotion Recognition and Representation 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

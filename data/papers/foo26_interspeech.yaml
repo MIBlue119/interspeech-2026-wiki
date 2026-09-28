@@ -1,0 +1,17 @@
+id: foo26_interspeech
+title: 'All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation'
+authors:
+    - Leonardo Haw-Yang Foo
+    - Chih-Kai Yang
+    - Chen-An Li
+    - Ke-Han Lu
+    - Hung-yi Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/foo26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/foo26_interspeech.pdf
+session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

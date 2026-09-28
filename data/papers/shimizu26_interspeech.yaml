@@ -1,0 +1,15 @@
+id: shimizu26_interspeech
+title: 'MeanFlow-TSE: One-Step Generative Target Speaker Extraction with Mean Flow'
+authors:
+    - Riki Shimizu
+    - Xilin Jiang
+    - Nima Mesgarani
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.pdf
+session: Audio-Visual and Generative Target Speaker Extraction
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

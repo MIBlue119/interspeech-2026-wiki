@@ -1,0 +1,32 @@
+id: peng26e_interspeech
+title: A Unified and Reproducible Experimentation Framework for Speech Understanding
+authors:
+    - Jing Peng
+    - Junhao Du
+    - Chenghao Wang
+    - Hanqi Li
+    - Yi Yang
+    - Xiaoyu Gu
+    - Guanyu Chen
+    - Yixuan Wang
+    - Haoyu Li
+    - Zhangjie Zhao
+    - Li Jiang
+    - Haoran Wang
+    - Wenming Tu
+    - Yucheng Wang
+    - Jiaqi Guo
+    - Hui Zhang
+    - Shuai Fan
+    - Wenbin Jiang
+    - Shuai Wang
+    - Kai Yu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/peng26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/peng26e_interspeech.pdf
+session: Corpus Creation, Summarization and Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

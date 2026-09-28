@@ -1,0 +1,18 @@
+id: wang26e_interspeech
+title: Predictive Directional Selective Fixed-Filter Active Noise Control for Moving Sources via a Convolutional Recurrent Neural Network
+authors:
+    - Boxiang Wang
+    - Zhengding Luo
+    - Dongyuan Shi
+    - Junwei Ji
+    - Xiruo Su
+    - Woon-Seng Gan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26e_interspeech.pdf
+session: Active Noise and Echo Control, Sound Zones and Packet-Loss Concealment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,19 @@
+id: wang26i_interspeech
+title: 'ES-3DF: Editable Speech-Driven 3D Face Reconstruction via Geometry Texture Disentanglement'
+authors:
+    - Jianrong Wang
+    - Kaibin Bi
+    - Jinghui Li
+    - Ju Zhang
+    - Qi Li
+    - Ying Guo
+    - Jing Zhao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26i_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26i_interspeech.pdf
+session: Articulatory, EMG, and Visual Speech Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

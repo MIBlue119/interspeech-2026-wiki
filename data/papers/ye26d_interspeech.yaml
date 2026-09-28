@@ -1,0 +1,21 @@
+id: ye26d_interspeech
+title: 'ZipCodec: Simple and Pretrained-Model-Free Speech Tokenizer via Flow-Matching'
+authors:
+    - Lingxuan Ye
+    - Han Zhu
+    - Liyong Guo
+    - Zengwei Yao
+    - Wei Kang
+    - Fangjun Kuang
+    - Zhifeng Han
+    - Long Lin
+    - Daniel Povey
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ye26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ye26d_interspeech.pdf
+session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,16 @@
+id: liu26m_interspeech
+title: 'MultiEmoVec: Learning Generalised Multimodal Emotion Representation by Momentum Contrast and Multi-task Reconstruction'
+authors:
+    - Junchen Liu
+    - Jesin James
+    - Karan Nathwani
+    - Michael Witbrock
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26m_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26m_interspeech.pdf
+session: Multimodal Speech Processing and Speech LLM Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

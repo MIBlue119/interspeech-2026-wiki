@@ -1,0 +1,17 @@
+id: dahal26_interspeech
+title: Mixture of Phonetic Experts Based Low-Rank Adaptation of Conformer Models for Accented English Speech Recognition
+authors:
+    - Santosh Dahal
+    - Anmol Guragain
+    - Tianchi Liu
+    - Luis Fernando D'Haro
+    - Kiran Chandra Dahal
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/dahal26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/dahal26_interspeech.pdf
+session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

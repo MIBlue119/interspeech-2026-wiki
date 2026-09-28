@@ -1,0 +1,15 @@
+id: yeo26_interspeech
+title: 'Pushing the Limits of Compression: Sub-1-Bit Conformer via Variable-Rank Binary Decomposition'
+authors:
+    - Jinsu Yeo
+    - Banseok Lee
+    - Youngmin Kim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yeo26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yeo26_interspeech.pdf
+session: Resource Constrained Speech Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

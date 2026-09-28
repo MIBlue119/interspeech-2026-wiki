@@ -1,0 +1,14 @@
+id: kuznetsov26_interspeech
+title: 'FastWave: Optimized Diffusion Model for Audio Super-Resolution'
+authors:
+    - Nikita Kuznetsov
+    - Maksim Kaledin
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kuznetsov26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kuznetsov26_interspeech.pdf
+session: Dereverberation, Bandwidth Extension and Restoration
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

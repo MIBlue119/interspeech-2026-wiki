@@ -1,0 +1,21 @@
+id: li26m_interspeech
+title: 'GenTSE: Enhancing Target Speaker Extraction via a Coarse-to-Fine Generative Language Model'
+authors:
+    - Haoyang Li
+    - Xuyi Zhuang
+    - Azmat Adnan
+    - Ye Ni
+    - Wei Rao
+    - Shreyas Gopal
+    - Eng Siong Chng
+    - Boon Siew Han
+    - Yuanjin Zheng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26m_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26m_interspeech.pdf
+session: Audio-Visual and Generative Target Speaker Extraction
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

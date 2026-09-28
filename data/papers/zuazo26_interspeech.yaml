@@ -1,0 +1,18 @@
+id: zuazo26_interspeech
+title: MEG-to-MEG Transfer Learning and Cross-Task Speech/Silence Detection with Limited Data
+authors:
+    - Xabier de Zuazo
+    - Vincenzo Verbeni
+    - Eva Navas
+    - Ibon Saratxaga
+    - Mathieu Bourguignon
+    - Nicola Molinaro
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zuazo26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zuazo26_interspeech.pdf
+session: Brain Studies and Speech
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

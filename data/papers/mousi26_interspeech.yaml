@@ -1,0 +1,17 @@
+id: mousi26_interspeech
+title: 'Said Aloud, Read Different: Cross-Modal Instability in Multimodal Models'
+authors:
+    - Basel Mousi
+    - Fahim Dalvi
+    - Shammur Absar Chowdhury
+    - Firoj Alam
+    - Nadir Durrani
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mousi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mousi26_interspeech.pdf
+session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

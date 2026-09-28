@@ -1,0 +1,17 @@
+id: narasinghe26_interspeech
+title: 'Causal Redundancy in Speech Representations: The Hydra Effect and Limits of Sparse Disentanglement in WavLM'
+authors:
+    - Patalee Narasinghe
+    - Kasindu Bandara
+    - Vilash Nawagamuwa
+    - Janak Senevirathne
+    - Uthayasanker Thayasivam
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/narasinghe26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/narasinghe26_interspeech.pdf
+session: Self-supervised Speech Representation Learning
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

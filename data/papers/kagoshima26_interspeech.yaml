@@ -1,0 +1,13 @@
+id: kagoshima26_interspeech
+title: 'POP-SED: Prototype Orthogonal Projection for Robust Few-shot Sound Event Detection'
+authors:
+    - Takehiko Kagoshima
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kagoshima26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kagoshima26_interspeech.pdf
+session: Acoustic Event Detection 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

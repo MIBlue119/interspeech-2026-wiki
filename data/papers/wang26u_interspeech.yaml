@@ -1,0 +1,22 @@
+id: wang26u_interspeech
+title: Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention
+authors:
+    - Cong Wang
+    - Yizhong Geng
+    - Yuhua Wen
+    - Qifei Li
+    - Yingming Gao
+    - Ruimin Wang
+    - Chunfeng Wang
+    - Hao Li
+    - Wei Chen
+    - Ya Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26u_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26u_interspeech.pdf
+session: Speech Emotion Recognition and Representation 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

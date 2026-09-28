@@ -1,0 +1,15 @@
+id: kumar26c_interspeech
+title: Overcoming Decoder Inconsistencies in Whisper for Dravidian and Low-Resource Languages
+authors:
+    - Chowdam Venkata Kumar
+    - Kumud Tripathi
+    - Pankaj Wasnik
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kumar26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26c_interspeech.pdf
+session: Multilingual, Cross-lingual & Low-Resource ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

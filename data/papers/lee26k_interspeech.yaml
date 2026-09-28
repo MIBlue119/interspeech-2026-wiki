@@ -1,0 +1,19 @@
+id: lee26k_interspeech
+title: 'Spatial-Magnifier: Spatial upsampling for multichannel speech enhancement'
+authors:
+    - Dongheon Lee
+    - Ashutosh Pandey
+    - Sanjeel Parekh
+    - Daniel Wong
+    - Jacob Donley
+    - Buye Xu
+    - Juan Azcarreta
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lee26k_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lee26k_interspeech.pdf
+session: Multi-Channel, Beamforming and Spatial Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

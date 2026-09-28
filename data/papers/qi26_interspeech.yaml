@@ -1,0 +1,14 @@
+id: qi26_interspeech
+title: 'MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the wild'
+authors:
+    - Haotian Qi
+    - Gabriel Skantze
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/qi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/qi26_interspeech.pdf
+session: LLMs and Conversational Interaction
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

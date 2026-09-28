@@ -1,0 +1,16 @@
+id: chen26w_interspeech
+title: 'T-ORR: Text-Anchored Orthogonal Residual Rectification for Robust Multimodal Sarcasm Detection'
+authors:
+    - Qi Chen
+    - Junyi Chen
+    - Jiabin Han
+    - Hongjiao Yang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26w_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26w_interspeech.pdf
+session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

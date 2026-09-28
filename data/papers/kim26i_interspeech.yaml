@@ -1,0 +1,17 @@
+id: kim26i_interspeech
+title: Revisiting Label-Free Speaker Embedding Enhancement with vMF Profile Likelihood
+authors:
+    - Seunghwan Kim
+    - Jinyong Kim
+    - Sooyoung Yang
+    - Youngjin Ko
+    - Myungjoo Kang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kim26i_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kim26i_interspeech.pdf
+session: 'Speaker Verification: Advances in Speaker Embeddings'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

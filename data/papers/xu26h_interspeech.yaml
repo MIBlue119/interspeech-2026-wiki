@@ -1,0 +1,19 @@
+id: xu26h_interspeech
+title: Towards Data-free and Training-free Compression for Speech Foundation Models Using Parameter Clustering
+authors:
+    - Haoning Xu
+    - Zhaoqing Li
+    - Huimeng Wang
+    - Youjun Chen
+    - Chengxi Deng
+    - Mengzhe Geng
+    - Xunying Liu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xu26h_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xu26h_interspeech.pdf
+session: Efficient Inference for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

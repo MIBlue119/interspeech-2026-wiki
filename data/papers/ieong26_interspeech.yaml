@@ -1,0 +1,18 @@
+id: ieong26_interspeech
+title: 'Nudging Hidden States: Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models'
+authors:
+    - Lok-Lam Ieong
+    - Chia-Chien Chen
+    - Chih-Kai Yang
+    - Yu-Han Huang
+    - An-Yu Cheng
+    - Hung-yi Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ieong26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ieong26_interspeech.pdf
+session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

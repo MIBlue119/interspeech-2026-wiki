@@ -1,0 +1,18 @@
+id: lee26s_interspeech
+title: Comparing Self-Supervised and Domain-Invariant Features for Cross-Domain Voice Phishing Detection
+authors:
+    - Jeongmin Lee
+    - Seung Yun
+    - Minkyu Lee
+    - Ran Han
+    - Yoonkyu Woo
+    - Jinxia Huang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lee26s_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lee26s_interspeech.pdf
+session: Spoofing and Deepfake Detection 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

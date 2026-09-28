@@ -1,0 +1,16 @@
+id: tse26_interspeech
+title: 'AudioNoisePrints: Model-free audio watermarking using spatial correlation in flow matching TTS'
+authors:
+    - Timothy Tin-Long Tse
+    - Jian Zhu
+    - Aidan Pine
+    - Mengzhe Geng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tse26_interspeech.pdf
+session: Audio Watermarking and Source Verification
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

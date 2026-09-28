@@ -1,0 +1,18 @@
+id: deng26d_interspeech
+title: Joint Learning of Covariance Estimation and White Noise Gain for Robust MVDR Beamforming
+authors:
+    - Yongyi Deng
+    - Hanchen Pei
+    - Jianbo Ma
+    - Gongping Huang
+    - Jingdong Chen
+    - Jacob Benesty
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/deng26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/deng26d_interspeech.pdf
+session: Multi-Channel, Beamforming and Spatial Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

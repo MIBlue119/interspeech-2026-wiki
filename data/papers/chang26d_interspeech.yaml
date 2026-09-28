@@ -1,0 +1,24 @@
+id: chang26d_interspeech
+title: 'TaigiSpeech: A Low-Resource Real-World Speech Intent Dataset with Scalable Data Mining In-the-Wild'
+authors:
+    - Kai-Wei Chang
+    - Yi-Cheng Lin
+    - Huang-Cheng Chou
+    - Wenze Ren
+    - Yu-Han Huang
+    - Yun-Shao Tsai
+    - Chien-Cheng Chen
+    - Yu Tsao
+    - Yuan-Fu Liao
+    - Shrikanth Narayanan
+    - James Glass
+    - Hung-yi Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chang26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chang26d_interspeech.pdf
+session: Benchmarking Foundation Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

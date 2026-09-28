@@ -1,0 +1,21 @@
+id: burdisso26_interspeech
+title: Avoiding Catastrophic Forgetting in Text-Only Adaptation of LLM-based ASR via Multi-View Text Denoising
+authors:
+    - Sergio Burdisso
+    - Esaú Villatoro-Tello
+    - Thibault Bañeras-Roux
+    - Shashi Kumar
+    - Srikanth Madikeri
+    - Pradeep Rangappa
+    - Manjunath K E
+    - Petr Motlicek
+    - Andreas Stolcke
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/burdisso26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/burdisso26_interspeech.pdf
+session: Multi-Speaker Processing, Personalization, and Adaptation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

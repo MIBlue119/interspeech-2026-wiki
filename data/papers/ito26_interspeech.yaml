@@ -1,0 +1,17 @@
+id: ito26_interspeech
+title: Unified Prosody Restoration Using Diffusion Models for Controllable Text-to-Speech Synthesis
+authors:
+    - Yuki Ito
+    - Junki Ohmura
+    - Hayato Futami
+    - Toshiyuki Sekiya
+    - Toshiyuki Kumakura
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ito26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ito26_interspeech.pdf
+session: 'Speech Synthesis: Speech Features, Codec and Representations'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

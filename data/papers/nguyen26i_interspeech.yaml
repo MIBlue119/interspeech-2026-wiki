@@ -1,0 +1,18 @@
+id: nguyen26i_interspeech
+title: Contrastive Training with LLM-generated Near-Misses for Robust Code-Switching Speech Recognition
+authors:
+    - Tung X. Nguyen
+    - Hieu Minh Truong
+    - Giang Son Nguyen
+    - Nhu Vo
+    - Wray Buntine
+    - Dung D. Le
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/nguyen26i_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/nguyen26i_interspeech.pdf
+session: Cross-Lingual and Multilingual Speech Recognition 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

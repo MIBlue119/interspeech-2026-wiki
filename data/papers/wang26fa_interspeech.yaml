@@ -1,0 +1,20 @@
+id: wang26fa_interspeech
+title: 'StanceBench: A Benchmark for Audio LLM-Based Interpersonal Stance Evaluation from Speech'
+authors:
+    - Yuzhe Wang
+    - Thomas Thebaud
+    - Jennifer Hu
+    - Jesús Villalba-Lopez
+    - Venkatesh Ravichandran
+    - Georgi Tinchev
+    - Najim Dehak
+    - Laureano Moro-Velázquez
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26fa_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26fa_interspeech.pdf
+session: Benchmarking Foundation Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

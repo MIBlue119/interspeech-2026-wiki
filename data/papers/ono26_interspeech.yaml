@@ -1,0 +1,16 @@
+id: ono26_interspeech
+title: Fast Multichannel Nonnegative Matrix Factorization with Directivity Regularization for DOA-Informed Speech Separation
+authors:
+    - Ryosuke Ono
+    - Aditya Arie Nugraha
+    - Yoshiaki Bando
+    - Kazuyoshi Yoshii
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ono26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ono26_interspeech.pdf
+session: Spatial Audio 4
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

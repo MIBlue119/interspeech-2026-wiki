@@ -1,0 +1,17 @@
+id: ulgen26b_interspeech
+title: 'DiffAnon: Diffusion-based Prosody Control for Voice Anonymization'
+authors:
+    - Ismail Rasim Ulgen
+    - Zexin Cai
+    - Nicholas Andrews
+    - Philipp Koehn
+    - Berrak Sisman
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ulgen26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ulgen26b_interspeech.pdf
+session: Speaker Privacy and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,19 @@
+id: turavecino26_interspeech
+title: Learnable Classifier-Free Guidance Null Embeddings for Enhanced Controllable Speech Synthesis
+authors:
+    - Biel Tura-Vecino
+    - Yoach Lacombe
+    - Julian Weber
+    - Zbigniew Latka
+    - Haitong Zhang
+    - Logan Hart
+    - Eren Golge
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/turavecino26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/turavecino26_interspeech.pdf
+session: Controllable and Expressive Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

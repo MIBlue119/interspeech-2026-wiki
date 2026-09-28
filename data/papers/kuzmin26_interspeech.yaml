@@ -1,0 +1,15 @@
+id: kuzmin26_interspeech
+title: 'StreamVoiceAnon+: Emotion-Preserving Streaming Speaker Anonymization via Frame-Level Acoustic Distillation'
+authors:
+    - Nikita Kuzmin
+    - Kong Aik Lee
+    - Eng Siong Chng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kuzmin26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kuzmin26_interspeech.pdf
+session: Speaker Privacy Preservation and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

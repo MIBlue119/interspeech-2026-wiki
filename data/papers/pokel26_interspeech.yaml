@@ -1,0 +1,16 @@
+id: pokel26_interspeech
+title: Data-Efficient ASR Personalization for Non-Normative Speech Using an Uncertainty-Based Phoneme Difficulty Score for Guided Sampling
+authors:
+    - Niclas Pokel
+    - Pehuén Moure
+    - Roman Böehringer
+    - Yingqiang Gao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/pokel26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/pokel26_interspeech.pdf
+session: Assistive Technologies 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

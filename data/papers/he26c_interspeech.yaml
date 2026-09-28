@@ -1,0 +1,18 @@
+id: he26c_interspeech
+title: 'LLM-HB: Language-Aware LLM-Guided Hotword Biasing for Code-Switching ASR'
+authors:
+    - Yuxuan He
+    - Genshun Wan
+    - Pengcheng Li
+    - Gongping Huang
+    - Jian-Qing Gao
+    - Yanmin Qian
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/he26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/he26c_interspeech.pdf
+session: Code-Switching ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

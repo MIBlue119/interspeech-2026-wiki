@@ -1,0 +1,16 @@
+id: shao26_interspeech
+title: 'Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes'
+authors:
+    - Yanda Shao
+    - Mengke Zhang
+    - Zhixin Lin
+    - Tianyi Yang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shao26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shao26_interspeech.pdf
+session: Audio Watermarking and Source Verification
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

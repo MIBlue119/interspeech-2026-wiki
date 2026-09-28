@@ -1,0 +1,15 @@
+id: im26_interspeech
+title: 'PF-D2M: A Pose-free Diffusion Model for Universal Dance-to-Music Generation'
+authors:
+    - Jaekwon Im
+    - Natalia Polouliakh
+    - Taketo Akama
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/im26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/im26_interspeech.pdf
+session: Streaming Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

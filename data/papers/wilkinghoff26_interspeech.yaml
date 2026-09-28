@@ -1,0 +1,16 @@
+id: wilkinghoff26_interspeech
+title: 'Mind the Gap: Detecting Cluster Exits for Robust Local Density-Based Score Normalization in Anomalous Sound Detection'
+authors:
+    - Kevin Wilkinghoff
+    - Gordon Wichern
+    - Jonathan Le Roux
+    - Zheng-Hua Tan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.pdf
+session: Acoustic Event Detection 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,20 @@
+id: yi26_interspeech
+title: 'Exploring the Scale and Diversity of Speech Anti-spoofing Datasets: Experiments and Analysis'
+authors:
+    - Zhuolin Yi
+    - Jun Xue
+    - Yanzhen Ren
+    - Yihuan Huang
+    - Yi Chai
+    - Daixian Li
+    - Guanxiang Feng
+    - Jiajun Liu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yi26_interspeech.pdf
+session: Spoofing and Deepfake Detection 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

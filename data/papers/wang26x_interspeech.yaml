@@ -1,0 +1,21 @@
+id: wang26x_interspeech
+title: Eliminating Stability Hallucinations in LLM-based TTS models via Attention Guidance
+authors:
+    - Shiming Wang
+    - Zhihao Du
+    - Yang Xiang
+    - Tianyu Zhao
+    - Han Zhao
+    - Qian Chen
+    - Xiangang Li
+    - Hanjie Guo
+    - Zhen-Hua Ling
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26x_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26x_interspeech.pdf
+session: LLM Based Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

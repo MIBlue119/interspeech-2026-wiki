@@ -1,0 +1,15 @@
+id: magoshi26_interspeech
+title: Refining Pseudo-Audio Prompts with Speech-Text Alignment for Text-Only Domain Adaptation in LLM-Based ASR
+authors:
+    - Ryo Magoshi
+    - Takashi Maekaku
+    - Yusuke Shinohara
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/magoshi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/magoshi26_interspeech.pdf
+session: Cross-Lingual and Multilingual Speech Recognition 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

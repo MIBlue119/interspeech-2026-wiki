@@ -1,0 +1,15 @@
+id: murugaiyan26_interspeech
+title: 'WhiSSDapt: Adaptive Fusion of Whisper Layer Embeddings for Sentence Stress Detection'
+authors:
+    - Someshwaran Murugaiyan
+    - Jhansi Mallela
+    - Chiranjeevi Yarra
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/murugaiyan26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/murugaiyan26_interspeech.pdf
+session: Prosody, Pronunciation and Specialized Speech Processing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

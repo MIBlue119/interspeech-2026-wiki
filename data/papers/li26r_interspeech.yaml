@@ -1,0 +1,14 @@
+id: li26r_interspeech
+title: 'INSPIRE: A Benchmark for Instruction-Aware Speech Retrieval'
+authors:
+    - Chen-An Li
+    - Hung-yi Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26r_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26r_interspeech.pdf
+session: Benchmarking Foundation Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

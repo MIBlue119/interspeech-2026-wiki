@@ -1,0 +1,21 @@
+id: spang26_interspeech
+title: 'GADVOX: The German Anxiety and Depression Voice Examination Dataset'
+authors:
+    - Robert P. Spang
+    - Wafaa Wardah
+    - Hritik Sauw
+    - Ole Möller-Nilsson
+    - Etleva Gjoni
+    - Stefan Brandenburg
+    - Maria Kreußlein
+    - Lana Mohr
+    - Sebastian Möller
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/spang26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/spang26_interspeech.pdf
+session: Speech and Language Technologies for Health Applications 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

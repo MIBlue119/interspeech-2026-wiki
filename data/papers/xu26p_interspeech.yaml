@@ -1,0 +1,16 @@
+id: xu26p_interspeech
+title: Room Impulse Response Completion Using Signal-Prediction Diffusion Models Conditioned on Simulated Early Reflections
+authors:
+    - Zeyu Xu
+    - Andreas Brendel
+    - Albert G. Prinn
+    - Emanuël A. P. Habets
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xu26p_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xu26p_interspeech.pdf
+session: Spatial Audio 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

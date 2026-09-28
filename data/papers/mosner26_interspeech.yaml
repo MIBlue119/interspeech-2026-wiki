@@ -1,0 +1,18 @@
+id: mosner26_interspeech
+title: Effectiveness of Language Variability Compensation in Speaker Verification
+authors:
+    - Ladislav Mošner
+    - Sara Barahona
+    - Sandro Cumani
+    - Johan Rohdin
+    - Jin Li
+    - Oldřich Plchot
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mosner26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mosner26_interspeech.pdf
+session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

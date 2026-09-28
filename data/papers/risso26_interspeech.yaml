@@ -1,0 +1,15 @@
+id: risso26_interspeech
+title: 'OnDA: On-device Channel Pruning for Efficient Personalized Keyword Spotting'
+authors:
+    - Matteo Risso
+    - Alessio Burrello
+    - Daniele Jahier Pagliari
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/risso26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/risso26_interspeech.pdf
+session: Efficient Inference for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

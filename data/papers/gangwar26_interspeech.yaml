@@ -1,0 +1,14 @@
+id: gangwar26_interspeech
+title: 'HybridCodec: Fast Dual-Stream, Semantically Enhanced Neural Audio Codec'
+authors:
+    - Arjun Gangwar
+    - S Umesh
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/gangwar26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/gangwar26_interspeech.pdf
+session: Streaming Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

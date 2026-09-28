@@ -1,0 +1,20 @@
+id: kim26c_interspeech
+title: Mixture Consistency Learning for Robust Speaker Verification in Noisy Environments
+authors:
+    - Seung-bin Kim
+    - Chan-yeong Lim
+    - Jungwoo Heo
+    - Hyun-seo Shin
+    - Kyo-Won Koo
+    - Jisoo Son
+    - Kyung-Wha Kim
+    - Ha-Jin Yu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kim26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kim26c_interspeech.pdf
+session: 'Speaker Verification: Architectures, Losses, and LLMs'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

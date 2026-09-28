@@ -1,0 +1,14 @@
+id: koguchi26_interspeech
+title: Instantaneous Pitch Estimation via Wave-U-Net-Based Fundamental Waveform Enhancement
+authors:
+    - Junya Koguchi
+    - Tomoki Koriyama
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/koguchi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/koguchi26_interspeech.pdf
+session: Audio signal analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

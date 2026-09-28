@@ -1,0 +1,23 @@
+id: yang26n_interspeech
+title: 'U-Codec: Neural Speech Codec under Extreme Temporal Compression for Fast High-Fidelity Speech Generation'
+authors:
+    - Xusheng Yang
+    - Long Zhou
+    - Wenfu Wang
+    - Kai Hu
+    - Zixiang Wan
+    - Yushen Chen
+    - Shulin Feng
+    - Chenxing Li
+    - Meng Yu
+    - Dong Yu
+    - Yuexian Zou
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.pdf
+session: Neural Audio Codec Architectures
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

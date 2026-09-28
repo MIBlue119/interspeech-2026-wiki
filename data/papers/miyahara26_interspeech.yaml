@@ -1,0 +1,15 @@
+id: miyahara26_interspeech
+title: Evaluating Zero-Shot Cross-Lingual Stuttering Detection Based on Self-Attention Weights of Temporal Acoustic Vector Sequence
+authors:
+    - Genzo Miyahara
+    - Tsuneo Kato
+    - Akihiro Tamura
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/miyahara26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/miyahara26_interspeech.pdf
+session: Speech and Language Technologies in Healthcare
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

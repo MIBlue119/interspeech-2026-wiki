@@ -1,0 +1,18 @@
+id: lyu26_interspeech
+title: 'TriA Pipeline: A Large-Scale Automatic Audio Annotation Pipeline For Audio Classification In Specific Scenarios'
+authors:
+    - Hong Lyu
+    - Mingru Yang
+    - Qianhua He
+    - Yanxiong Li
+    - Jinxin Huang
+    - Zhengyu Pei
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lyu26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lyu26_interspeech.pdf
+session: Acoustic Event Detection 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

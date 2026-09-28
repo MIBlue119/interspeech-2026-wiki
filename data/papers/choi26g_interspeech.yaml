@@ -1,0 +1,15 @@
+id: choi26g_interspeech
+title: 'SpkGuideDOA: Speaker-wise Representation Guidance for Multiple Moving Speaker Localization'
+authors:
+    - Yongseok Choi
+    - Davin Kim
+    - Joon-Hyuk Chang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/choi26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/choi26g_interspeech.pdf
+session: Spatial Audio 4
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

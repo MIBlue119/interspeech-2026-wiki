@@ -1,0 +1,16 @@
+id: otani26_interspeech
+title: Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data
+authors:
+    - Yuto Otani
+    - Shun Sawada
+    - Hidefumi Ohmura
+    - Kouichi Katsurada
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/otani26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/otani26_interspeech.pdf
+session: Articulatory, EMG, and Visual Speech Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

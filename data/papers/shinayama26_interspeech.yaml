@@ -1,0 +1,16 @@
+id: shinayama26_interspeech
+title: Upcycling Pretrained Transformers into Mixture-of-Experts for Multilingual Speech Recognition
+authors:
+    - Kentaro Shinayama
+    - Kohei Matsuura
+    - Jaeyoung Lee
+    - Masato Mimura
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shinayama26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shinayama26_interspeech.pdf
+session: Cross-Lingual and Multilingual Speech Recognition 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

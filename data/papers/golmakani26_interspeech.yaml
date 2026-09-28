@@ -1,0 +1,17 @@
+id: golmakani26_interspeech
+title: Acoustic token admixture for joint speaker and content anonymization
+authors:
+    - Ali Golmakani
+    - Seyed Ahmad Hosseini
+    - Omar Manil Bendali
+    - Emmanuel Vincent
+    - Brij Mohan Lal Srivastava
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/golmakani26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/golmakani26_interspeech.pdf
+session: Speaker Privacy and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

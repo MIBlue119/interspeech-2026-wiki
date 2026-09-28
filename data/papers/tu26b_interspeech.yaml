@@ -1,0 +1,24 @@
+id: tu26b_interspeech
+title: 'VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track'
+authors:
+    - Wenming Tu
+    - Jian Gao
+    - Yanru Huo
+    - Yixuan Wang
+    - Jing Peng
+    - Bohan Li
+    - Ziyang Ma
+    - Tao Liu
+    - Shuai Fan
+    - Kai Yu
+    - Xie Chen
+    - Zilong Zheng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tu26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tu26b_interspeech.pdf
+session: Challenge - Audio Reasoning Challenge
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

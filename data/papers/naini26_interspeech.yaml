@@ -1,0 +1,17 @@
+id: naini26_interspeech
+title: 'Comparative Reasoning: Making an Audio Language Model Better at Comparing Emotions'
+authors:
+    - Abinay Reddy Naini
+    - Jaeyeon Kim
+    - Chao-Han Huck Yang
+    - Shinji Watanabe
+    - Carlos Busso
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/naini26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/naini26_interspeech.pdf
+session: Multimodal Emotion Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

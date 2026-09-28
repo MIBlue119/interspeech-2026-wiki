@@ -1,0 +1,17 @@
+id: ren26c_interspeech
+title: Adapting Audio Large Language Models for Speaker Verification
+authors:
+    - Yiming Ren
+    - Xuenan Xu
+    - Shuai Wang
+    - Chao Zhang
+    - Baoxiang Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ren26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ren26c_interspeech.pdf
+session: 'Speaker Verification: Architectures, Losses, and LLMs'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

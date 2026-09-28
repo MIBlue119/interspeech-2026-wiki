@@ -1,0 +1,17 @@
+id: mahapatra26_interspeech
+title: 'ProSDD: Learning Prosodic Representations for Speech Deepfake Detection against Expressive and Emotional Attacks'
+authors:
+    - Aurosweta Mahapatra
+    - Ismail Rasim Ulgen
+    - Kong Aik Lee
+    - Nicholas Andrews
+    - Berrak Sisman
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mahapatra26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mahapatra26_interspeech.pdf
+session: Spoofing and Deepfake Detection 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

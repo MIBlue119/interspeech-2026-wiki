@@ -1,0 +1,18 @@
+id: song26b_interspeech
+title: 'MSMC: Multi-Scale Masked Convolution network for Robust Speech Emotion Recognition'
+authors:
+    - Haoyu Song
+    - Ian McLoughlin
+    - Xiaoxiao Miao
+    - Aik Beng Ng
+    - Simon See
+    - Timothy Liu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/song26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/song26b_interspeech.pdf
+session: Speech Emotion Recognition and Representation 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

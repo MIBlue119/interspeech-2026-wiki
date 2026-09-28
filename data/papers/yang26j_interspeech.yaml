@@ -1,0 +1,20 @@
+id: yang26j_interspeech
+title: A Fusion-Aware Two-Stage Framework for Mispronunciation Detection and Diagnosis in Low-Resource Modern Standard Arabic
+authors:
+    - Jing Yang
+    - Shuqing Zhang
+    - Yongyi Deng
+    - Pan Li
+    - Ting Dang
+    - Gongping Huang
+    - Jingdong Chen
+    - Jacob Benesty
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26j_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26j_interspeech.pdf
+session: Grand Special Challenges Poster Showcase
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

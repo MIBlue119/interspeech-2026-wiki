@@ -1,0 +1,25 @@
+id: wang26aa_interspeech
+title: 'URGENT-MOS: Unified Multi-Metric and Preference Learning for Robust Speech Quality Assessment'
+authors:
+    - Wei Wang
+    - Wangyou Zhang
+    - Chenda Li
+    - Jiahe Wang
+    - Samuele Cornell
+    - Marvin Sach
+    - Kohei Saijo
+    - Yihui Fu
+    - Zhaoheng Ni
+    - Mengxiao Bi
+    - Tim Fingscheidt
+    - Shinji Watanabe
+    - Yanmin Qian
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26aa_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26aa_interspeech.pdf
+session: Speech and Audio Quality Assessment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

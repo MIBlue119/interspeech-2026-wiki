@@ -1,0 +1,14 @@
+id: zhao26e_interspeech
+title: Decoding Order Matters in Autoregressive Speech Synthesis
+authors:
+    - Minghui Zhao
+    - Anton Ragni
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhao26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26e_interspeech.pdf
+session: LLM Based Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

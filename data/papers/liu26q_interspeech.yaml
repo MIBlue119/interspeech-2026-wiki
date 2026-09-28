@@ -1,0 +1,19 @@
+id: liu26q_interspeech
+title: Reducing Speaker Residual by Considering Pinhole Effect in Voice Anonymization
+authors:
+    - Zeyan Liu
+    - Weili Jiang
+    - Liping Chen
+    - Kong Aik Lee
+    - Boyu Zhao
+    - Kai Gao
+    - Zhen-Hua Ling
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26q_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26q_interspeech.pdf
+session: Speaker Privacy Preservation and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: liu26b_interspeech
+title: 'LMPAN: A Lightweight Multi-Path Alignment Network for Joint Full-Duplex Acoustic Echo Cancellation and Noise Suppression'
+authors:
+    - Chengwei Liu
+    - Shaofei Xue
+    - Haoyin Yan
+    - Xiaotao Liang
+    - Zheng Xue
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26b_interspeech.pdf
+session: Active Noise and Echo Control, Sound Zones and Packet-Loss Concealment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: mallik26_interspeech
+title: 'MAC-VAD: A Modality-Aligned Cross-Attentive Framework for Robust Voice Activity Detection'
+authors:
+    - Bruhanth Mallik
+    - Chintan Tundia
+    - Kumud Tripathi
+    - Shreyas Nagoor
+    - Pankaj Wasnik
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mallik26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mallik26_interspeech.pdf
+session: Audio Understanding and Representation Learning
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

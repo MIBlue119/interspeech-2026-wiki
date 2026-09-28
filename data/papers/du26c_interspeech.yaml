@@ -1,0 +1,22 @@
+id: du26c_interspeech
+title: Orthogonal Feature Projection and Manifold-Constrained Neural PLDA for the TidyVoice2026 Cross-Lingual Speaker Verification Challenge
+authors:
+    - Yuxuan Du
+    - Xing He
+    - Jingwen Yang
+    - Xupeng Jia
+    - Yankai Wang
+    - Weili Jiang
+    - Kai Gao
+    - Boyu Zhao
+    - Rong Zheng
+    - Jing Deng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/du26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/du26c_interspeech.pdf
+session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

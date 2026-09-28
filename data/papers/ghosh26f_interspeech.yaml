@@ -1,0 +1,19 @@
+id: ghosh26f_interspeech
+title: 'MagpieTTS-LF: Inference-Time Long-Form Speech Generation Without Training on Long-Form data'
+authors:
+    - Subhankar Ghosh
+    - Jason Li
+    - Paarth Neekhara
+    - Shehzeen Hussain
+    - Ryan Langman
+    - Xuesong Yang
+    - Roy Fejgin
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ghosh26f_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ghosh26f_interspeech.pdf
+session: Long-Form Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: wang26l_interspeech
+title: An All-neural Distributed Filtering Algorithm for Speech Extraction in Wireless Acoustic Sensor Networks
+authors:
+    - Jiawei Wang
+    - Xiaoqing Hu
+    - Feiran Yang
+    - Jianfei Tong
+    - Guohua Sun
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26l_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26l_interspeech.pdf
+session: Multi-Channel, Beamforming and Spatial Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

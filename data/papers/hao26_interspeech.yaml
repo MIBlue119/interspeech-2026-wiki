@@ -1,0 +1,21 @@
+id: hao26_interspeech
+title: 'YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance'
+authors:
+    - Chunbo Hao
+    - Junjie Zheng
+    - Guobin Ma
+    - Yuepeng Jiang
+    - Huakang Chen
+    - Wenjie Tian
+    - Gongyu Chen
+    - Zihao Chen
+    - Lei Xie
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hao26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hao26_interspeech.pdf
+session: Singing Voice and Music Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

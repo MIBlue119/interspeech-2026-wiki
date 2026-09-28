@@ -1,0 +1,17 @@
+id: tran26_interspeech
+title: Deepfake Word Detection by Next-token Prediction using Fine-tuned Whisper
+authors:
+    - Hoan My Tran
+    - Xin Wang
+    - Wanying Ge
+    - Xuechen Liu
+    - Junichi Yamagishi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tran26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tran26_interspeech.pdf
+session: 'Speech Deepfake Detection: Robustness, Generalization, Attribution'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

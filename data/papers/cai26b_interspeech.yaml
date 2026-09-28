@@ -1,0 +1,18 @@
+id: cai26b_interspeech
+title: Enhancing Temporal Prediction Consistency for Short-Duration Acoustic Scene Classification via Semantic Adversarial Training
+authors:
+    - Yiqiang Cai
+    - Yizhou Tan
+    - Peihong Zhang
+    - Yuxuan Liu
+    - Shengchen Li
+    - Xi Shao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/cai26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/cai26b_interspeech.pdf
+session: Acoustic Event Detection 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

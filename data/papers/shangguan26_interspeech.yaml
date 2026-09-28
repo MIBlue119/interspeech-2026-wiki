@@ -1,0 +1,20 @@
+id: shangguan26_interspeech
+title: 'Dual-LoRA: Parameter-Efficient Adversarial Disentanglement for Cross-Lingual Speaker Verification'
+authors:
+    - Qituan Shangguan
+    - Junhao Du
+    - Kunyang Peng
+    - Feng Xue
+    - Hui Zhang
+    - Xinsheng Wang
+    - Kai Yu
+    - Shuai Wang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shangguan26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shangguan26_interspeech.pdf
+session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

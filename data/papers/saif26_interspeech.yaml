@@ -1,0 +1,16 @@
+id: saif26_interspeech
+title: 'BELLA: Efficient Bilevel Learning with LoRA for Multilingual ASR'
+authors:
+    - A F M Saif
+    - Xiaodong Cui
+    - Brian Kingsbury
+    - Tianyi Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/saif26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/saif26_interspeech.pdf
+session: Multilingual, Cross-lingual & Low-Resource ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

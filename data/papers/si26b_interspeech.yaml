@@ -1,0 +1,16 @@
+id: si26b_interspeech
+title: Cross Domain Few-Shot Class-Incremental Audio Classification Via Adversarial Contrastive Learning
+authors:
+    - Yongjie Si
+    - Yanxiong Li
+    - Sen Huang
+    - Beibei Liu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/si26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/si26b_interspeech.pdf
+session: Acoustic Event Detection 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

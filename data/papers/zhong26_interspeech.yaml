@@ -1,0 +1,19 @@
+id: zhong26_interspeech
+title: Uncovering Dimension-Specific Layer Preferences in Wav2Vec2 for Fine-Grained Perceptual Assessment of Dysarthric Speech
+authors:
+    - Zihan Zhong
+    - Qianli Wang
+    - Satwinder Singh
+    - Clarion Mendes
+    - Mark Hasegawa-Johnson
+    - Waleed Abdulla
+    - Seyed Reza Shahamiri
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhong26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhong26_interspeech.pdf
+session: Pathological Speech Assessment 4
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

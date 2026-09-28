@@ -1,0 +1,19 @@
+id: chen26i_interspeech
+title: 'G2PO: A Lightweight Lexicon-enhanced Framework for Open-Vocabulary Mandarin Polyphone Disambiguation'
+authors:
+    - Feifan Chen
+    - Chunhui Lu
+    - Rui Zhou
+    - Liming Song
+    - Hongjun Kil
+    - YoonChoon Hwang
+    - Junkwang Oh
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26i_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26i_interspeech.pdf
+session: Text Processing for Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

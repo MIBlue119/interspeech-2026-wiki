@@ -1,0 +1,15 @@
+id: tuncay26_interspeech
+title: 'BEST-RQ-2: Contextualize-Then-Predict, a Two-Step Approach for Self-Supervised Audio Representations'
+authors:
+    - Ludovic Tuncay
+    - Étienne Labbé
+    - Thomas Pellegrini
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tuncay26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tuncay26_interspeech.pdf
+session: Grand Special Challenges Poster Showcase
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

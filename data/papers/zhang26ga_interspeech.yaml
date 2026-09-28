@@ -1,0 +1,16 @@
+id: zhang26ga_interspeech
+title: A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization
+authors:
+    - Boyang Zhang
+    - Yechang Huang
+    - Xuerui Yang
+    - Ziyue Jiang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.pdf
+session: Neural Audio Codec Architectures
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: lu26b_interspeech
+title: Alignment-Aware Continued Pre-training for Multilingual Speech Representation Learning
+authors:
+    - Xun Lu
+    - Xuyang Wang
+    - Fan Feng
+    - Gaofeng Cheng
+    - Pengyuan Zhang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lu26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lu26b_interspeech.pdf
+session: Multilingual, Cross-lingual & Low-Resource ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

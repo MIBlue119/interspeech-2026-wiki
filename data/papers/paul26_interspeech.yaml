@@ -1,0 +1,19 @@
+id: paul26_interspeech
+title: 'PROGRESS: Coverage-guided RL to Train Search-augmented LLM Agent'
+authors:
+    - Sudipta Paul
+    - Vijay Srinivasan
+    - Vivek Kulkarni
+    - Aounon Kumar
+    - Yashas Malur Saidutta
+    - Wenbo Li
+    - Srinivas Chappidi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/paul26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/paul26_interspeech.pdf
+session: Spoken Language Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

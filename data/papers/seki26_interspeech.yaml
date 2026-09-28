@@ -1,0 +1,15 @@
+id: seki26_interspeech
+title: Improving DF-Conformer using Hydra for high-fidelity generative speech enhancement on discrete codec token
+authors:
+    - Shogo Seki
+    - Shaoxiang Dang
+    - Li Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/seki26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/seki26_interspeech.pdf
+session: Language-Model and Codec-Token Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

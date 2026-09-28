@@ -1,0 +1,19 @@
+id: joshi26_interspeech
+title: 'IndicContextEval: A Benchmark for Evaluating Context Utilisation in Audio Large Language Models Across 8 Indic Languages'
+authors:
+    - Sakshi Joshi
+    - Dhruv Subhash Rathi
+    - Sanskar Singh
+    - Eldho Ittan George
+    - R J Hari
+    - Kaushal Bhogale
+    - Mitesh M Khapra
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/joshi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/joshi26_interspeech.pdf
+session: Audio Language Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

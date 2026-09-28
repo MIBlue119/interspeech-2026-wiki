@@ -1,0 +1,16 @@
+id: karani26_interspeech
+title: mmWave Radar Aware Dual-Conditioned GAN for Speech Reconstruction of Signals With Low SNR
+authors:
+    - JASH KARANI
+    - Adithya Chittem
+    - Deepan Roy
+    - Sandeep Joshi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/karani26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/karani26_interspeech.pdf
+session: Multi-Channel Processing and Specialized Acquisition (UAV, Radar, Hearables)
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

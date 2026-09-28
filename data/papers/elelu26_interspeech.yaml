@@ -1,0 +1,18 @@
+id: elelu26_interspeech
+title: 'ConformalMOS: Uncertainty-Aware MOS Prediction with Conformal Intervals and Ordinal Modeling'
+authors:
+    - Kehinde Elelu
+    - Joshua E. Siegel
+    - Mohammadali Saffary
+    - Tashfain Ahmed
+    - Simeon Babatunde
+    - Ebuka Okpala
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/elelu26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/elelu26_interspeech.pdf
+session: Speech Synthesis Evaluation and Benchmarking
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

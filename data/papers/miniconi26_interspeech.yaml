@@ -1,0 +1,15 @@
+id: miniconi26_interspeech
+title: 'TDScore: Learning Synthetic Speech Quality Predictors from TTS Training Dynamics without Human annotation'
+authors:
+    - Natacha Miniconi
+    - Meysam Shamsi
+    - Anthony Larcher
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/miniconi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/miniconi26_interspeech.pdf
+session: Speech Synthesis Evaluation 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: lin26h_interspeech
+title: Improving Cross-Dataset Speech Intelligibility Prediction for Hearing-Impaired Listeners with Few-Shot Adaptation
+authors:
+    - Guojian Lin
+    - Xuefei Wang
+    - Ryandhimas E. Zezario
+    - Yu Tsao
+    - Fei Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lin26h_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lin26h_interspeech.pdf
+session: Quality, Intelligibility and Evaluation of Speech and Codecs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

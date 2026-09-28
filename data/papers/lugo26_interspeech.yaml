@@ -1,0 +1,17 @@
+id: lugo26_interspeech
+title: 'DiffVQE: Hybrid Diffusion Voice Quality Enhancement Under Acoustic Echo and Noise'
+authors:
+    - Haljan Lugo
+    - Ernst Seidel
+    - Pejman Mowlaee
+    - Ziyue Zhao
+    - Tim Fingscheidt
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lugo26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lugo26_interspeech.pdf
+session: Active Noise and Echo Control, Sound Zones and Packet-Loss Concealment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

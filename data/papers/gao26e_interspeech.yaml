@@ -1,0 +1,17 @@
+id: gao26e_interspeech
+title: 'PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement'
+authors:
+    - Jun Gao
+    - Xiaobin Rong
+    - Yu Sun
+    - Dahan Wang
+    - Jing Lu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/gao26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/gao26e_interspeech.pdf
+session: Generative and Self-Supervised Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

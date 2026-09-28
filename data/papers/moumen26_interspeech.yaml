@@ -1,0 +1,15 @@
+id: moumen26_interspeech
+title: Measuring the Redundancy of Decoder Layers in SpeechLLMs
+authors:
+    - Adel Moumen
+    - Guangzhi Sun
+    - Philip C Woodland
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/moumen26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/moumen26_interspeech.pdf
+session: Cross-Lingual and Multilingual Speech Recognition 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

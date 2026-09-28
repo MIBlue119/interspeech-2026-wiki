@@ -1,0 +1,18 @@
+id: polok26b_interspeech
+title: Grounding Spoken LLMs in Multi-Speaker Audio via Diarization Conditioning
+authors:
+    - Alexander Polok
+    - Samuele Cornell
+    - Sathvik Udupa
+    - Honza Černocký
+    - Shinji Watanabe
+    - Lukáš Burget
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/polok26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/polok26b_interspeech.pdf
+session: Multi-Talker ASR & Speaker Diarization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

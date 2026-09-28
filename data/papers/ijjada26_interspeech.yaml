@@ -1,0 +1,22 @@
+id: ijjada26_interspeech
+title: 'WaveNorm: A Low-Complexity Time-Domain Neural Adaptive Gain Control for Real-Time Speech Applications'
+authors:
+    - Deepika Ijjada
+    - Charan Kumar Reddy B
+    - Ashwini Hanaganti
+    - Priyanka Devrao Jadhav
+    - Varsha Uppalanchi
+    - Balaji Padmanaban
+    - Nivedita Chennupati
+    - Karunakar Reddy Pucchakayala
+    - Harish Rajamani
+    - Naveen Ambati
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.pdf
+session: Generative and Self-Supervised Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

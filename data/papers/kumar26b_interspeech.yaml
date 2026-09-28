@@ -1,0 +1,14 @@
+id: kumar26b_interspeech
+title: 'ML-KD-DRI-GAN: Teacher-Guided Denoising and Triplet-Adversarial Training for Robust Spoken Language Understanding'
+authors:
+    - Ankit Kumar
+    - Munir Georges
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kumar26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26b_interspeech.pdf
+session: 'Audio & Speech Language Models: Evaluation, Representations, and Emerging Capabilities'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: seo26b_interspeech
+title: Hard Positive-targeted Training for Robust Audio Deepfake Detection under Neural Codec Processing
+authors:
+    - Jiwon Seo
+    - Inho Kim
+    - Seongkyu Han
+    - Thien-Phuc Doan
+    - Souhwan Jung
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/seo26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/seo26b_interspeech.pdf
+session: 'Speech Deepfake Detection: Robustness, Generalization, Attribution'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

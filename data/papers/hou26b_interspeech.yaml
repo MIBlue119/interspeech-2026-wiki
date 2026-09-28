@@ -1,0 +1,19 @@
+id: hou26b_interspeech
+title: 'Correct Then Detect: Zero-Shot FVMC Annotation for Child Language Sample Analysis'
+authors:
+    - Shuwei Hou
+    - Wei Bo
+    - Varun Shijo
+    - Chuhui Liu
+    - Manav Kanaganapalli
+    - Ling-Yu Guo
+    - Wenyao Xu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hou26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hou26b_interspeech.pdf
+session: Child Speech and Health
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

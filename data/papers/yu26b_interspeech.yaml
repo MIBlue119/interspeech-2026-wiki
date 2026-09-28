@@ -1,0 +1,20 @@
+id: yu26b_interspeech
+title: Enhancing Flow Matching with A Unified Guidance Framework for Efficient and Robust Speech Synthesis
+authors:
+    - Zuda Yu
+    - Qianhui Xu
+    - Ting Chen
+    - Junhui Zhang
+    - Tao Fu
+    - Hongjiang Yu
+    - Qiangqiang Wang
+    - Yang Song
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yu26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yu26b_interspeech.pdf
+session: Flow Matching for Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

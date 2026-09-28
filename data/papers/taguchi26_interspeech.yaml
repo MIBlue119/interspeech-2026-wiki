@@ -1,0 +1,19 @@
+id: taguchi26_interspeech
+title: Pretrained self-supervised speech models can recognize unseen consonants
+authors:
+    - Chihiro Taguchi
+    - Éric Le Ferrand
+    - Hirosi Nakagawa
+    - Hitomi Ono
+    - Kanji Kato
+    - Emily Prud'hommeaux
+    - David Chiang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/taguchi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/taguchi26_interspeech.pdf
+session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

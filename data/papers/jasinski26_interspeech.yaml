@@ -1,0 +1,17 @@
+id: jasinski26_interspeech
+title: 'From Text Metrics to Model Internals: A Study of Whisper ASR Hallucination Detection'
+authors:
+    - Jan Jasiński
+    - Mateusz Barański
+    - Julitta Bartolewska
+    - Marcin Witkowski
+    - Konrad Kowalczyk
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/jasinski26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/jasinski26_interspeech.pdf
+session: 'Robust ASR: Hallucinations and Biases'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

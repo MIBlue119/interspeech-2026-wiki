@@ -1,0 +1,18 @@
+id: lin26j_interspeech
+title: 'First-to-Spike: An Early-Exit Framework for Rapid and Energy-Efficient Spiking Neural Networks'
+authors:
+    - Zheyuan Lin
+    - Sirui Li
+    - Zeyang Song
+    - Zhiqi Zhang
+    - Siqi Cai
+    - Haizhou Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lin26j_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lin26j_interspeech.pdf
+session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

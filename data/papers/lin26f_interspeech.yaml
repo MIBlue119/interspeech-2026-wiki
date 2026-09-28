@@ -1,0 +1,21 @@
+id: lin26f_interspeech
+title: Improving Streaming Speaker Diarization for LLM Based Multi-talker Speech Understanding
+authors:
+    - Ju Lin
+    - Ruizhi Li
+    - Ruizhe Huang
+    - Jing Pan
+    - Xuan Zhang
+    - Zili Huang
+    - Jing Zheng
+    - Ming Sun
+    - Florian Metze
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lin26f_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lin26f_interspeech.pdf
+session: Multimodal Speech Processing and Speech LLM Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

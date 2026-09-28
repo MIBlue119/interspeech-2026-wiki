@@ -1,0 +1,15 @@
+id: bralios26_interspeech
+title: 'Elastic Time: Dynamic Frame Rate Bottlenecks for Neural Audio Coding'
+authors:
+    - Dimitrios Bralios
+    - Paris Smaragdis
+    - Minje Kim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/bralios26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/bralios26_interspeech.pdf
+session: Neural Audio Codec Architectures
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

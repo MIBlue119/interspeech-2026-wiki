@@ -1,0 +1,18 @@
+id: li26s_interspeech
+title: Training-Free Intelligibility-Guided Observation Addition for Noisy ASR
+authors:
+    - Haoyang Li
+    - Changsong Liu
+    - Wei Rao
+    - Hao Shi
+    - Sakriani Sakti
+    - Eng Siong Chng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26s_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26s_interspeech.pdf
+session: 'Robust ASR: Uncertainty and Confidence'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

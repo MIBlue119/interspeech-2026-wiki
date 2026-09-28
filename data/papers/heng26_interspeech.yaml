@@ -1,0 +1,21 @@
+id: heng26_interspeech
+title: Improving Code-Switching ASR with Code-Mixing Guided Synthetic Speech
+authors:
+    - Yeo Yue Heng
+    - Haoyang Li
+    - Yizhou Peng
+    - Shreyas Gopal
+    - Hexin Liu
+    - Leibny Paola Garcia-Perera
+    - Sailor Hardik
+    - Jeremy H. M. Wong
+    - Eng Siong Chng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/heng26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/heng26_interspeech.pdf
+session: Code-Switching ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

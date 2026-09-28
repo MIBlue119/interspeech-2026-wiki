@@ -1,0 +1,22 @@
+id: gonzalez26d_interspeech
+title: 'Minimum Token Thresholds and Stabilisation for Reliable Automatic Vowel Alignment: Empirical Study on TIMIT Vowels and MFA'
+authors:
+    - Simon Gonzalez
+    - Jason Littlefield
+    - Tao Hoang
+    - Chloe Dean
+    - Hayden Ooi
+    - Myung Kim
+    - Bradley Donnelly
+    - Latchman Singh
+    - Jennifer Biggs
+    - Tim Cawley
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/gonzalez26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/gonzalez26d_interspeech.pdf
+session: Tools and Techniques for Phonetic Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,14 @@
+id: sun26f_interspeech
+title: 'Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades'
+authors:
+    - Shinyoung Sun
+    - Taehoon Kim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.pdf
+session: Robust and Real-World ASR Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

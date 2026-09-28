@@ -1,0 +1,14 @@
+id: ojha26_interspeech
+title: 'Bridging Self-Supervised Learning and Speech Enhancement: A Wav2Vec2-Conditioned Framework'
+authors:
+    - Shuubham Ojha
+    - Carol Espy-Wilson
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ojha26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ojha26_interspeech.pdf
+session: Generative and Self-Supervised Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

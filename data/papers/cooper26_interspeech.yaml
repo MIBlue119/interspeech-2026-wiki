@@ -1,0 +1,18 @@
+id: cooper26_interspeech
+title: A Large-Scale Dataset of Listener Impressions of Emotional TTS
+authors:
+    - Erica Cooper
+    - Xiaoxue Gao
+    - Takuma Okamoto
+    - Tomoki Toda
+    - Nancy Chen
+    - Hisashi Kawai
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/cooper26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/cooper26_interspeech.pdf
+session: Emotional Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: wang26ga_interspeech
+title: 'Clinically-Supervised Hierarchical LoRA-MoE: A Parameter-Efficient Framework for Severity-Aware Dysarthric Speech Assessment'
+authors:
+    - Jiaqi Wang
+    - Guanghua Xu
+    - Hongjie Zhou
+    - Shuwen Bai
+    - Sicong Zhang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26ga_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26ga_interspeech.pdf
+session: Pathological Speech Assessment 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

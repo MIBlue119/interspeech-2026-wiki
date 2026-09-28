@@ -1,0 +1,21 @@
+id: yang26l_interspeech
+title: 'CraftTTS: Fine-Grained Prosody Control for Text-to-Speech'
+authors:
+    - Wenbing Yang
+    - Qihang Lu
+    - Bingsong Bai
+    - Zihan Sun
+    - Yueran Hou
+    - Peilei Jia
+    - Yingming Gao
+    - Ya Li
+    - Jun Gao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.pdf
+session: Long-Form Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

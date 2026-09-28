@@ -1,0 +1,16 @@
+id: aparin26_interspeech
+title: Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders
+authors:
+    - Georgii Aparin
+    - Vadim Popov
+    - Tasnima Sadekova
+    - Assel Yermekova
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/aparin26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/aparin26_interspeech.pdf
+session: Robust and Efficient ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

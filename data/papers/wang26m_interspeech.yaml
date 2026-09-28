@@ -1,0 +1,16 @@
+id: wang26m_interspeech
+title: 'Position-Aware Target Speaker Extraction for Long-Form Multi-Party Conversations: A Diarization-Free Framework for ASR'
+authors:
+    - Yichi Wang
+    - Junzhe Chen
+    - Wangjin Zhou
+    - Tatsuya Kawahara
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26m_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26m_interspeech.pdf
+session: Audio Understanding and Representation Learning
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

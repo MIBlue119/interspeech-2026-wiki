@@ -1,0 +1,15 @@
+id: ramonda26_interspeech
+title: 'Readability Does Not Predict Speech Recognition Errors: Contrasting Human and Machine Perception.'
+authors:
+    - Baptiste Ramonda
+    - Laurianne Sitbon
+    - Julien Pinquier
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ramonda26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ramonda26_interspeech.pdf
+session: New Architecture and Analyses for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

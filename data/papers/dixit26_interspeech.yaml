@@ -1,0 +1,15 @@
+id: dixit26_interspeech
+title: 'AURA Score: A Metric for Holistic Audio Question Answering Evaluation'
+authors:
+    - Satvik Dixit
+    - Soham Deshmukh
+    - Bhiksha Raj
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/dixit26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/dixit26_interspeech.pdf
+session: Evaluation of Speech and Audio Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

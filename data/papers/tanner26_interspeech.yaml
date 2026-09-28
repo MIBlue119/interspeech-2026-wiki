@@ -1,0 +1,17 @@
+id: tanner26_interspeech
+title: 'wav2VOT: automatic estimation of voice onset time, closure duration, and burst realisation with wav2vec2'
+authors:
+    - James Tanner
+    - Morgan Sonderegger
+    - Jane Stuart-Smith
+    - Tyler Kendall
+    - Jeff Mielke
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tanner26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tanner26_interspeech.pdf
+session: Tools and Techniques for Phonetic Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

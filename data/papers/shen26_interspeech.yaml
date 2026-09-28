@@ -1,0 +1,17 @@
+id: shen26_interspeech
+title: 'CoDeTT: A Context-Aware Decision Benchmark for Turn-Taking Evaluation'
+authors:
+    - Huan Shen
+    - Yingao Wang
+    - Shangkun Huang
+    - Wei Zou
+    - Yunzhang Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shen26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shen26_interspeech.pdf
+session: Turn-taking
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,19 @@
+id: wang26b_interspeech
+title: 'FoleyGenEx: Unified Video-to-Audio Generation with Multi-Modal Control, Temporal Alignment, and Semantic Precision'
+authors:
+    - Shiyao Wang
+    - Xijuan Zeng
+    - Hui Wang
+    - Shiwan Zhao
+    - Feng Deng
+    - Chen Zhang
+    - Yong Qin
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26b_interspeech.pdf
+session: Generative Audio and Music
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,15 @@
+id: ai26b_interspeech
+title: 'Beyond Two-stage Diffusion TTS: Joint Structure and Content Refinement via Jump Diffusion'
+authors:
+    - Jiabao Ai
+    - Minghui Zhao
+    - Anton Ragni
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ai26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ai26b_interspeech.pdf
+session: Instruction-following and Controllable Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

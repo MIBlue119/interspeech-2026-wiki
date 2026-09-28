@@ -1,0 +1,19 @@
+id: xu26q_interspeech
+title: Continual Generalized Category Discovery for Acoustic Signals via Instance-Adaptive Regularization and Dynamic Teacher Guidance
+authors:
+    - Qisheng Xu
+    - Shanhao Han
+    - Hui Geng
+    - Yulu Fang
+    - Yunsheng Xiong
+    - Yutao Dou
+    - Kele Xu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xu26q_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xu26q_interspeech.pdf
+session: Acoustic Event Detection 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

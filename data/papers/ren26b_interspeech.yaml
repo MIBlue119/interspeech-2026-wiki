@@ -1,0 +1,17 @@
+id: ren26b_interspeech
+title: 'CoSTALA: Compositional Spatio-Temporal Audio-Language Alignment via Multi-Grain Hierarchical Contrastive Learning'
+authors:
+    - Peiwei Ren
+    - Jinbo Hu
+    - Fang Kang
+    - Shan Liang
+    - Yin Cao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ren26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ren26b_interspeech.pdf
+session: Spatial Audio 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

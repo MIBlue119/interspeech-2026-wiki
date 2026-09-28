@@ -1,0 +1,17 @@
+id: baik26_interspeech
+title: 'DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition'
+authors:
+    - Jaeeun Baik
+    - Ui-Hyeop Shin
+    - Jiwon Lee
+    - Woocheol Jeong
+    - Hyung-Min Park
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/baik26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/baik26_interspeech.pdf
+session: 'Robust ASR: Uncertainty and Confidence'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

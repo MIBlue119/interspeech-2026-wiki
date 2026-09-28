@@ -1,0 +1,16 @@
+id: yan26c_interspeech
+title: Probing and Mitigating Hallucinations in Speech-augmented Language Models for Automatic Speech Recognition via Small Language Models
+authors:
+    - Bi-Cheng Yan
+    - Jhih-Rong Guo
+    - Fu-An Chao
+    - Berlin Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yan26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yan26c_interspeech.pdf
+session: 'Robust ASR: Uncertainty and Confidence'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

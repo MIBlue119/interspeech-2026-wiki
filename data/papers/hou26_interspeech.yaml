@@ -1,0 +1,15 @@
+id: hou26_interspeech
+title: 'UGPCB: Uncertainty-Gated Phonetic Contextual Biasing for Improving Hotword Recognition in Large Speech Models'
+authors:
+    - Yong-Jie Hou
+    - Yun-Fei Shao
+    - Wei-Qiang Zhang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hou26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hou26_interspeech.pdf
+session: 'Robust ASR: Uncertainty and Confidence'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

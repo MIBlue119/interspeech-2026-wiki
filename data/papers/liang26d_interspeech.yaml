@@ -1,0 +1,16 @@
+id: liang26d_interspeech
+title: 'ContextCodec: Content-Focused Context Guidance for Ultra-Low Bitrate Speech Coding'
+authors:
+    - Chengbin Liang
+    - Wenqi Guo
+    - Hao Cao
+    - Zhijin Qin
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liang26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liang26d_interspeech.pdf
+session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

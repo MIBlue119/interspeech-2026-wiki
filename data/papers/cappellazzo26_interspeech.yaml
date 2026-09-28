@@ -1,0 +1,15 @@
+id: cappellazzo26_interspeech
+title: 'Dr. SHAP-AV: Decoding Relative Modality Contributions via Shapley Attribution in Audio-Visual Speech Recognition'
+authors:
+    - Umberto Cappellazzo
+    - Stavros Petridis
+    - Maja Pantic
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/cappellazzo26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/cappellazzo26_interspeech.pdf
+session: Audio-Visual and Multimodal Perception
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

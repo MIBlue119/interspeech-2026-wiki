@@ -1,0 +1,15 @@
+id: li26y_interspeech
+title: 'KFC-KWS: Keyframe Fusion with CTC for User-Defined Keyword Spotting'
+authors:
+    - Jin Li
+    - Wenbin Jiang
+    - Ji Hu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26y_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26y_interspeech.pdf
+session: Multi-Speaker Processing, Personalization, and Adaptation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,14 @@
+id: yue26_interspeech
+title: 'G2C-NET: A Grid-to-Continuous Neural Network for Sound Source Localization in Distributed Microphone Arrays'
+authors:
+    - Zhiyuan Yue
+    - De Hu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yue26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yue26_interspeech.pdf
+session: Spatial Audio 4
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

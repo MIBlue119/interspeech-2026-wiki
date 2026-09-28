@@ -1,0 +1,17 @@
+id: eom26_interspeech
+title: Transcript-Free Flow-Matching Text-to-Speech via Speech Feature Conditioning
+authors:
+    - SooHwan Eom
+    - Hee Suk Yoon
+    - Eunseop Yoon
+    - Mark Hasegawa-Johnson
+    - Chang D. Yoo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/eom26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/eom26_interspeech.pdf
+session: 'Speech Synthesis: Speech Features, Codec and Representations'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

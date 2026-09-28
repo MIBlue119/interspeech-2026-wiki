@@ -1,0 +1,16 @@
+id: yu26d_interspeech
+title: 'Sweep-RSE: Streaming Region-of-Interest Speech Extraction in Multi-Talker Scenarios via Explicit Spatial Sweeping'
+authors:
+    - Hogeon Yu
+    - SeongHun Noh
+    - Hyunsik Choi
+    - Sihyun Joo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yu26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yu26d_interspeech.pdf
+session: Source Separation 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

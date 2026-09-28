@@ -1,0 +1,20 @@
+id: ren26_interspeech
+title: 'MOS-Bias: From Hidden Gender Bias to Gender-Aware Speech Quality Assessment'
+authors:
+    - Wenze Ren
+    - Yi-Cheng Lin
+    - Wen-Chin Huang
+    - Erica Cooper
+    - Ryandhimas Zezario
+    - Hsin-Min Wang
+    - Hung-yi Lee
+    - Yu Tsao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ren26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ren26_interspeech.pdf
+session: Speech Synthesis Evaluation 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

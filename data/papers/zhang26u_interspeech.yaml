@@ -1,0 +1,15 @@
+id: zhang26u_interspeech
+title: 'Learning to Wait: Real Streaming Speech-to-Text Translation with an LLM'
+authors:
+    - Shucong Zhang
+    - Titouan Parcollet
+    - Rogier van Dalen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26u_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26u_interspeech.pdf
+session: Multilingual Speech 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,19 @@
+id: niu26b_interspeech
+title: 'MCA-DCF-DS: An Adaptive Framework for Unified Diarization and Separation with Spatial Information'
+authors:
+    - Shutong Niu
+    - Ruo-Yu Wang
+    - Gao-Bin Yang
+    - Ya Jiang
+    - Tian Gao
+    - Jia Pan
+    - Jun Du
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/niu26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/niu26b_interspeech.pdf
+session: Audio Understanding and Representation Learning
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

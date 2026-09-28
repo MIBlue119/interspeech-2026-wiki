@@ -1,0 +1,14 @@
+id: hanif26_interspeech
+title: 'ZEBRA: Zero-Shot Entropy-Regularized Prompt Learning for Base-to-Novel Generalization in Audio-Language Models'
+authors:
+    - Asif Hanif
+    - Mohammad Yaqub
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hanif26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hanif26_interspeech.pdf
+session: Multimodal Speech Processing and Speech LLM Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

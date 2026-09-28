@@ -1,0 +1,22 @@
+id: deng26_interspeech
+title: 'Decoding while Adapting: Zero-Shot Online Speaker Adaptation via Audio-Textual Prompts for Elderly Speech Recognition'
+authors:
+    - Chengxi Deng
+    - Xurong Xie
+    - Shujie Hu
+    - Mengzhe Geng
+    - Tianzi Wang
+    - Youjun Chen
+    - Huimeng Wang
+    - Haoning Xu
+    - Jiajun Deng
+    - Xunying Liu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/deng26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/deng26_interspeech.pdf
+session: Speech and Language Technologies in Healthcare
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

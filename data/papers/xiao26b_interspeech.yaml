@@ -1,0 +1,20 @@
+id: xiao26b_interspeech
+title: 'WSG: Clinically-Informed Weighted Speech Graphs for Dementia Detection'
+authors:
+    - Yao Xiao
+    - Fritz Peters
+    - Madhurananda Pahar
+    - Dorota A Braun
+    - Caitlin H Illingworth
+    - Stefan Goetze
+    - Daniel Blackburn
+    - Heidi Christensen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xiao26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xiao26b_interspeech.pdf
+session: Speech and Language Technologies for Health Applications 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

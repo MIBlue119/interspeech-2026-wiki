@@ -1,0 +1,19 @@
+id: liu26f_interspeech
+title: A Semantic-Anchor-based Method for Open-Vocabulary Sound Event Detection
+authors:
+    - Jun Liu
+    - Pengfei Cai
+    - Yanfeng Shi
+    - Qing Gu
+    - Nan Jiang
+    - Lirong Dai
+    - Yan Song
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.pdf
+session: Acoustic Event Detection 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

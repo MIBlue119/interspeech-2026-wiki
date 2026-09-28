@@ -1,0 +1,17 @@
+id: wang26p_interspeech
+title: 'SAGE: Switch-Aware EEG-Guided Soft Gating for Target Speaker Extraction with In-Trial Switching'
+authors:
+    - Xuefei Wang
+    - Ximin Chen
+    - Yuting Ding
+    - Chunlin Li
+    - Fei Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26p_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26p_interspeech.pdf
+session: Brain Studies and Speech
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

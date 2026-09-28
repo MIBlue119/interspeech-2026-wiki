@@ -1,0 +1,17 @@
+id: yamauchi26_interspeech
+title: 'QC-GAN: A Parameter-Efficient Quaternion Conformer GAN for High-Fidelity Speech Enhancement'
+authors:
+    - Shogo Yamauchi
+    - Hideaki Tamori
+    - Makoto Sakai
+    - Yosuke Yamano
+    - Tohru Nitta
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yamauchi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yamauchi26_interspeech.pdf
+session: Speech Enhancement and Restoration
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

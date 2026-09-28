@@ -1,0 +1,16 @@
+id: firc26_interspeech
+title: The Hidden Cost of Pairwise Verification in Synthetic Speech Source Tracing
+authors:
+    - Anton Firc
+    - Zbyněk Lička
+    - Vojtěch Staněk
+    - Kamil Malinka
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/firc26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/firc26_interspeech.pdf
+session: Audio Watermarking and Source Verification
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

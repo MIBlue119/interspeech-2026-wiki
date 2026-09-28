@@ -1,0 +1,15 @@
+id: tang26_interspeech
+title: 'ADALA: A Wake-up Word Detection Framework Based on Adaptive Semi-supervised learning and Large Language Model'
+authors:
+    - Nianhang Tang
+    - Chaoyi Sun
+    - Chao Cai
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tang26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tang26_interspeech.pdf
+session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

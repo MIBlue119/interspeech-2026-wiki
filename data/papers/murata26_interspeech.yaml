@@ -1,0 +1,16 @@
+id: murata26_interspeech
+title: Exploring Pre-training Benefits on Phoneme Addition through Fine-tuning in Speech Synthesis
+authors:
+    - Masato Murata
+    - Koichi Miyazaki
+    - Tomoki Koriyama
+    - Tomoki Toda
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/murata26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/murata26_interspeech.pdf
+session: Articulatory, EMG, and Visual Speech Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

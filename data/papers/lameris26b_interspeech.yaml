@@ -1,0 +1,15 @@
+id: lameris26b_interspeech
+title: 'VoiceQualityGUI: A Tool for Word-Level Voice Quality Modifications'
+authors:
+    - Harm Lameris
+    - Alan Villamil
+    - Nigel G. Ward
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lameris26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lameris26b_interspeech.pdf
+session: Speech Synthesis, Voice Conversion and Audio Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

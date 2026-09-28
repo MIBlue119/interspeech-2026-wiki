@@ -1,0 +1,15 @@
+id: choi26e_interspeech
+title: 'SISER: Speaker-Invariant Speech Emotion Recognition with Entropy-Based Adversarial Training'
+authors:
+    - Eunseo Choi
+    - Hyunku Kang
+    - Chanwoo Kim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/choi26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/choi26e_interspeech.pdf
+session: Speech Emotion Recognition and Representation 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

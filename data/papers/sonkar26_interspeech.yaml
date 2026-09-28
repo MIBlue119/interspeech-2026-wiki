@@ -1,0 +1,17 @@
+id: sonkar26_interspeech
+title: 'Tongue2Speech: Real-Time Speech Synthesis from Tongue Ultrasound Videos via Spatiotemporal Transformers'
+authors:
+    - Yash Sonkar
+    - Yasaswi Kilaru
+    - Sudheera Yelimeli
+    - Neil Shah
+    - Vineet Gandhi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/sonkar26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/sonkar26_interspeech.pdf
+session: Beyond Speech Technologies in Healthcare
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

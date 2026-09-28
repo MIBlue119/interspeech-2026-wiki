@@ -1,0 +1,21 @@
+id: neumann26_interspeech
+title: 'Reducing Measurement Noise in Digital Speech Biomarkers: Interpretable Composite Index Scores for Longitudinal ALS Monitoring in Clinical Trials'
+authors:
+    - Michael Neumann
+    - Hardik Kothare
+    - Diego Cadavid
+    - Robert H. Scannevin
+    - Anil Tarachandani
+    - Ines Hoffmann
+    - Tara Haley
+    - Shane Raines
+    - Vikram Ramanarayanan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/neumann26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/neumann26_interspeech.pdf
+session: Clinically Useful Speech Representations 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

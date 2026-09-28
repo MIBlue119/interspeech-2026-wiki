@@ -1,0 +1,16 @@
+id: nguyen26c_interspeech
+title: 'MamTra: A Hybrid Mamba-Transformer Backbone for Speech Synthesis'
+authors:
+    - Tan Dat Nguyen
+    - Sangmin Bae
+    - Joon Son Chung
+    - Ji-Hoon Kim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/nguyen26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/nguyen26c_interspeech.pdf
+session: LLM Based Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

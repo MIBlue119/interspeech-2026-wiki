@@ -1,0 +1,24 @@
+id: xue26c_interspeech
+title: 'NVV-SuperBench: Beyond Words, Beyond Quality—Benchmarking Nonverbal Vocalizations in Speech Generation'
+authors:
+    - Liumeng Xue
+    - Weizhen Bian
+    - Jiahao Pan
+    - Wenxuan Wu
+    - Yilin Ren
+    - Boyi Kang
+    - Jingbin Hu
+    - Ziyang Ma
+    - Shuai Wang
+    - Xinyuan Qian
+    - Hung-yi Lee
+    - Yike Guo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xue26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xue26c_interspeech.pdf
+session: Benchmarking Foundation Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

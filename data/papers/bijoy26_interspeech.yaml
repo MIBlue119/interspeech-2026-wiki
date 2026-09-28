@@ -1,0 +1,16 @@
+id: bijoy26_interspeech
+title: 'Mixture-of-Accent-Adapters for Robust ASR: Injecting Accent Cues into Pretrained Whisper'
+authors:
+    - Mehedi Hasan Bijoy
+    - Yaroslav Getman
+    - Tamás Grósz
+    - Mikko Kurimo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/bijoy26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/bijoy26_interspeech.pdf
+session: Domain Adaptation & Accented ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

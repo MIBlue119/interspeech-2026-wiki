@@ -1,0 +1,15 @@
+id: chien26_interspeech
+title: 'Attentive Mamba: Channel-wise Local Attention for Speech Recognition'
+authors:
+    - Jen-Tzung Chien
+    - Fan-Che Feng
+    - Ching-Hsien Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chien26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chien26_interspeech.pdf
+session: Long-form Audio & New Attention Approaches
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

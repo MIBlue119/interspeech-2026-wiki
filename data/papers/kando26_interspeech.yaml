@@ -1,0 +1,16 @@
+id: kando26_interspeech
+title: On the Effect of Segmentation Width and Cluster Size on Speech Resynthesis and Continuation in Generative Spoken Language Models
+authors:
+    - Shunsuke Kando
+    - Wataru Nakata
+    - Shinnosuke Takamichi
+    - Yusuke Miyao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kando26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kando26_interspeech.pdf
+session: Speech Synthesis Evaluation and Benchmarking
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

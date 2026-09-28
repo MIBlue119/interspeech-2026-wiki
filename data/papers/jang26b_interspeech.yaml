@@ -1,0 +1,15 @@
+id: jang26b_interspeech
+title: 'DP-BCT: A Dual-Path model for predicting BackChannel Timing'
+authors:
+    - Jin Yea Jang
+    - Saim Shin
+    - Gahgene Gweon
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/jang26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/jang26b_interspeech.pdf
+session: Spoken Dialogue Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

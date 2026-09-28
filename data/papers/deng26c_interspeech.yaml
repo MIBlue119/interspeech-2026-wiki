@@ -1,0 +1,22 @@
+id: deng26c_interspeech
+title: Confidence Score Guided Incremental and Speaker Adaptive Pseudo-Labeling for Semi-Supervised Elderly Speech Recognition
+authors:
+    - Chengxi Deng
+    - Xurong Xie
+    - Shujie Hu
+    - Jiajun Deng
+    - Mengzhe Geng
+    - Youjun Chen
+    - Huimeng Wang
+    - Haoning Xu
+    - Guinan Li
+    - Xunying Liu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.pdf
+session: Speech and Language Technologies for Health Applications 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

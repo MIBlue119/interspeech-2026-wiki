@@ -1,0 +1,17 @@
+id: mehendale26_interspeech
+title: 'Indic DiarBench: A Multilingual Joint Diarization and ASR Benchmark for Indian Languages'
+authors:
+    - Deovrat Mehendale
+    - Aditya Mehndiratta
+    - Dhruv Subhash Rathi
+    - Kaushal Bhogale
+    - Mitesh M Khapra
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mehendale26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mehendale26_interspeech.pdf
+session: Speaker Diarization 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

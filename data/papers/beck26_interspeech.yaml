@@ -1,0 +1,19 @@
+id: beck26_interspeech
+title: 'AppTek Call-Center Dialogues: A Multi-Accent Long-Form Benchmark for English ASR'
+authors:
+    - Eugen Beck
+    - Sarah Beranek
+    - Uma Moothiringote
+    - Daniel Mann
+    - Wilfried Michel
+    - Katie Nguyen
+    - Taylor Tragemann
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/beck26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/beck26_interspeech.pdf
+session: Long-form Audio & New Attention Approaches
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

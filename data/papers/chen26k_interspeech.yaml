@@ -1,0 +1,15 @@
+id: chen26k_interspeech
+title: Causal Tracing of Audio-Text Fusion in Large Audio Language Models
+authors:
+    - Wei-Chih Chen
+    - Chien-yu Huang
+    - Hung-yi Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26k_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26k_interspeech.pdf
+session: Explainability for Compliance and Trust in Speech AI
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

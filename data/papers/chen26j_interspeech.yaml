@@ -1,0 +1,17 @@
+id: chen26j_interspeech
+title: 'Spiking Vocos: An Energy-Efficient Neural Vocoder'
+authors:
+    - Yukun Chen
+    - Zhaoxi Mu
+    - Andong Li
+    - Peilin Li
+    - Xingyu Yang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26j_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26j_interspeech.pdf
+session: Instruction-following and Controllable Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

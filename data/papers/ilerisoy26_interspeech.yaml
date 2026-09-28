@@ -1,0 +1,17 @@
+id: ilerisoy26_interspeech
+title: Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment
+authors:
+    - Mustafa Talha İlerisoy
+    - Hung Manh Pham
+    - Mathias Funk
+    - Mykola Pechenizkiy
+    - Aaqib Saeed
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.pdf
+session: Multimodal and Non-Speech Healthcare Applications
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

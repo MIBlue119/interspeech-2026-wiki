@@ -1,0 +1,14 @@
+id: sharma26b_interspeech
+title: 'VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion'
+authors:
+    - Aastha Sharma
+    - Guangjing Wang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/sharma26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/sharma26b_interspeech.pdf
+session: Spoofing and Deepfake Detection 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

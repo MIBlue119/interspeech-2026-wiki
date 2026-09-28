@@ -1,0 +1,18 @@
+id: rong26_interspeech
+title: 'StuPASE: Towards Low-Hallucination Studio-Quality Generative Speech Enhancement'
+authors:
+    - Xiaobin Rong
+    - Jun Gao
+    - Zheng Wang
+    - Mansur Yesilbursa
+    - Kamil Wojcicki
+    - Jing Lu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/rong26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/rong26_interspeech.pdf
+session: Language-Model and Codec-Token Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

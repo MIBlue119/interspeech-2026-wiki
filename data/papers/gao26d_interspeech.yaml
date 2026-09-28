@@ -1,0 +1,18 @@
+id: gao26d_interspeech
+title: Uncovering Latent Depression Severity for Binary Depression Detection via Advantage-weighting Ranking
+authors:
+    - Manning Gao
+    - Tingyi Liu
+    - Leheng Zhang
+    - Haifeng Hu
+    - Yuncheng Jiang
+    - Sijie Mai
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/gao26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/gao26d_interspeech.pdf
+session: Multimodal and Non-Speech Healthcare Applications
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

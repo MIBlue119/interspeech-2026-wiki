@@ -1,0 +1,17 @@
+id: hu26g_interspeech
+title: Singing Voice Conversion via Shared Speaker Space and Min-Pooling Adversarially Enhanced Flow Matching
+authors:
+    - Yuye Hu
+    - Ayiduosi Tuohan
+    - Tianqi Ning
+    - CuiCui Zhu
+    - Hao Huang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.pdf
+session: Singing Voice and Music Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

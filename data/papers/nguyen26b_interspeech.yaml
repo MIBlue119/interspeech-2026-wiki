@@ -1,0 +1,23 @@
+id: nguyen26b_interspeech
+title: 'Revisiting Active Speaker Detection: An In-the-Wild Benchmark for Generalization and Robustness'
+authors:
+    - Le Thien Phuc Nguyen
+    - Zhuoran Yu
+    - Khoa Quang Nhat Cao
+    - Yuwei Guo
+    - Tu Ho Manh Pham
+    - Tuan Tai Nguyen
+    - Toan Ngo Duc Vo
+    - Lucas Poon
+    - Tuan Khai Nguyen
+    - Soochahn Lee
+    - Yong Jae Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/nguyen26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/nguyen26b_interspeech.pdf
+session: LLMs and Conversational Interaction
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

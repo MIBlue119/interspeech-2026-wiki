@@ -1,0 +1,16 @@
+id: thai26_interspeech
+title: Contrastive Regularization for Accent-Robust ASR
+authors:
+    - Van-Phat Thai
+    - Aradhya Dhruv
+    - Duc-Thinh Pham
+    - Sameer Alam
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/thai26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/thai26_interspeech.pdf
+session: Domain Adaptation & Accented ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

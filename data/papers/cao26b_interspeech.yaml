@@ -1,0 +1,19 @@
+id: cao26b_interspeech
+title: 'Audio-NSP: Data-Centric Semi-Autoregressive Generation for Large Audio-Language Models'
+authors:
+    - Liang Cao
+    - Xize Cheng
+    - Dongjie Fu
+    - Weihao Wu
+    - Fuming You
+    - Zhiyong Wu
+    - Haifeng Hu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/cao26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/cao26b_interspeech.pdf
+session: Efficient Inference for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

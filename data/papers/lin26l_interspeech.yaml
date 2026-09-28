@@ -1,0 +1,19 @@
+id: lin26l_interspeech
+title: 'Decoding the Ear (DeEAR): A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment'
+authors:
+    - Zhiyu Lin
+    - Jingwen Yang
+    - Jiale Zhao
+    - Meng Liu
+    - Sunzhu Li
+    - Zhengjun Yue
+    - Benyou Wang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lin26l_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lin26l_interspeech.pdf
+session: Speech Synthesis Evaluation 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

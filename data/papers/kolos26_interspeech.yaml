@@ -1,0 +1,15 @@
+id: kolos26_interspeech
+title: Controlled Generation of Synthetic Speaker Vectors for Voice Anonymization
+authors:
+    - Ekaterina Kolos
+    - Sarina Meyer
+    - Ngoc Thang Vu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kolos26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kolos26_interspeech.pdf
+session: Speaker Privacy Preservation and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

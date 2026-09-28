@@ -1,0 +1,16 @@
+id: ravi26_interspeech
+title: Rank-Distance Based Confidence Estimation for ASR
+authors:
+    - Nagarathna Ravi
+    - Madduri Aiswarya Lakshmi
+    - Ragesh M
+    - Rajalakshmi Elangovan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ravi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ravi26_interspeech.pdf
+session: 'Robust ASR: Uncertainty and Confidence'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

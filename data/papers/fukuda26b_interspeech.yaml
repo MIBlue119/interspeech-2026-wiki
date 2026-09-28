@@ -1,0 +1,22 @@
+id: fukuda26b_interspeech
+title: Evaluating Large Language Models Abilities for Addressee, Turn-change, and Next Speaker Prediction in Meetings
+authors:
+    - Ryo Fukuda
+    - Takatomo Kano
+    - Siddhant Arora
+    - Marc Delcroix
+    - Naohiro Tawara
+    - Atsunori Ogawa
+    - Yuya Chiba
+    - Atsushi Ando
+    - William Chen
+    - Shinji Watanabe
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/fukuda26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/fukuda26b_interspeech.pdf
+session: LLMs and Conversational Interaction
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,14 @@
+id: makarov26_interspeech
+title: Repurposing a Speech Classifier for Guided Diffusion-Based Speech Generation
+authors:
+    - Rostislav Makarov
+    - Timo Gerkmann
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.pdf
+session: Acoustic Signal Analysis and Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

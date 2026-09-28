@@ -1,0 +1,14 @@
+id: kim26_interspeech
+title: 'ZipL-Dialog: Memory-Efficient Long-Form Spoken Dialog Synthesis via Latent Flow Matching'
+authors:
+    - Jihwan Kim
+    - Nam Soo Kim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kim26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kim26_interspeech.pdf
+session: Long-Form Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

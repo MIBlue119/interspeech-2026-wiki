@@ -1,0 +1,17 @@
+id: lemerle26_interspeech
+title: Low-Framerate Speech Tokenization via Two-Stage Latent Patch Modeling
+authors:
+    - Théodor Lemerle
+    - Diego Torres
+    - Téo Guichoux
+    - Nicolas Obin
+    - Axel Roebel
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lemerle26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lemerle26_interspeech.pdf
+session: 'Speech Synthesis: Speech Features, Codec and Representations'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

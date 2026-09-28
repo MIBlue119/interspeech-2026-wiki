@@ -1,0 +1,21 @@
+id: azad26_interspeech
+title: 'Harf-Speech: A Clinically Aligned Framework for Arabic Phoneme-Level Speech Assessment'
+authors:
+    - Asif Azad
+    - MD Sadik Hossain Shanto
+    - Mohammad Sadat Hossain
+    - Bdour Alwuqaysi
+    - Sabri Boughorbel
+    - Yahya Bokhari
+    - Abdulrhman Aljouie
+    - Ayah Othman Sindi
+    - Ehsan Hoque
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/azad26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/azad26_interspeech.pdf
+session: Pathological Speech Assessment 4
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

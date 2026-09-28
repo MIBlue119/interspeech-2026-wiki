@@ -1,0 +1,23 @@
+id: niu26_interspeech
+title: 'Semantic-VAE: Semantic-Alignment Latent Representation for Better Speech Synthesis'
+authors:
+    - Zhikang Niu
+    - Shujie Hu
+    - Jeongsoo Choi
+    - Yushen Chen
+    - Peining Chen
+    - Pengcheng Zhu
+    - Yunting Yang
+    - Bowen Zhang
+    - Jian Zhao
+    - Chunhui Wang
+    - Xie Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/niu26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/niu26_interspeech.pdf
+session: 'Speech Synthesis: Speech Features, Codec and Representations'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

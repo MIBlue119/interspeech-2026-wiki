@@ -1,0 +1,22 @@
+id: yang26c_interspeech
+title: 'MUGEN: Evaluating and Improving Multi-audio Understanding of Large Audio-Language Models'
+authors:
+    - Chih-Kai Yang
+    - Yun-Shao Tsai
+    - Yu-Kai Guo
+    - Ping-Le Tsai
+    - Yen-Ting Piao
+    - Hung-Wei Chen
+    - Ting-Lin Hsiao
+    - Yun-Man Hsu
+    - Ke-Han Lu
+    - Hung-yi Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26c_interspeech.pdf
+session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

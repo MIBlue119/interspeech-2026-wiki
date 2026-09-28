@@ -1,0 +1,17 @@
+id: wang26ca_interspeech
+title: 'FreqGuard: Leveraging Frequency-Domain Feature Priors for Universal Proactive Voice Defense'
+authors:
+    - Yankai Wang
+    - Zhipeng Chen
+    - Yuxuan Du
+    - Rong Zheng
+    - Jing Deng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26ca_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26ca_interspeech.pdf
+session: Spoofing and Deepfake Detection 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

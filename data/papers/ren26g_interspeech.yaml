@@ -1,0 +1,17 @@
+id: ren26g_interspeech
+title: 'Unified Gradient Projection: Language-Balanced Continual Learning for Multilingual Low-Resource ASR'
+authors:
+    - Ziang Ren
+    - Guodong Lin
+    - Yuchen Ai
+    - Kaize Tan
+    - Wei-Qiang Zhang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ren26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ren26g_interspeech.pdf
+session: Multilingual & Low-Resource ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

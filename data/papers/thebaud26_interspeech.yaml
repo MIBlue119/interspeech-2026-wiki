@@ -1,0 +1,17 @@
+id: thebaud26_interspeech
+title: 'Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation'
+authors:
+    - Thomas Thebaud
+    - Yuzhe Wang
+    - Laureano Moro-Velázquez
+    - Jesús Villalba-Lopez
+    - Najim Dehak
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/thebaud26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/thebaud26_interspeech.pdf
+session: 'Speaker Verification: Architectures, Losses, and LLMs'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: lee26n_interspeech
+title: 'DroFiT: A Lightweight Band-Fused Frequency Attention Toward Real-Time UAV Speech Enhancement'
+authors:
+    - Jeongmin Lee
+    - Chanhong Jeon
+    - Hyungjoo Seo
+    - Kyuhong Shim
+    - Taewook Kang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lee26n_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lee26n_interspeech.pdf
+session: Multi-Channel Processing and Specialized Acquisition (UAV, Radar, Hearables)
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

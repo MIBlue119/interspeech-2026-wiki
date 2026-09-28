@@ -1,0 +1,21 @@
+id: hoang26_interspeech
+title: Towards Efficient Simultaneous Inverse Text Normalization with Pretrained Text-to-Text Language Model and Read-Tag-Write Policy
+authors:
+    - Kiet Anh Hoang
+    - Khanh Le
+    - Bao Nguyen
+    - Linh Pham
+    - Dung Vo
+    - Thai Tran
+    - Mai Nguyen
+    - Tri Nguyen
+    - Vu Le
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hoang26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hoang26_interspeech.pdf
+session: Robust and Efficient ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

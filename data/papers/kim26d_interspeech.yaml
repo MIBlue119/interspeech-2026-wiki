@@ -1,0 +1,15 @@
+id: kim26d_interspeech
+title: Privacy-Preserving Speaker Verification with Multi-Granularity Feature Obfuscation
+authors:
+    - Hanseul Kim
+    - Nam In Park
+    - Chanjun Chun
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kim26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kim26d_interspeech.pdf
+session: Speaker Privacy Preservation and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

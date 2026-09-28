@@ -1,0 +1,19 @@
+id: yang26i_interspeech
+title: A Dynamic Knowledge Distillation Framework for Mitigating Spatial Ambiguity in Lightweight Dual-Channel Speech Enhancement
+authors:
+    - Yifei Yang
+    - Zheng Wang
+    - Yu Sun
+    - Wentao Hua
+    - Xiaobin Rong
+    - Kai Chen
+    - Jing Lu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26i_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26i_interspeech.pdf
+session: Multi-Channel, Beamforming and Spatial Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

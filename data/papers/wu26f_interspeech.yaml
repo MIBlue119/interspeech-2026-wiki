@@ -1,0 +1,21 @@
+id: wu26f_interspeech
+title: 'EmoInstruct-TTS: Dual-Path Instruction-Guided Emotional Speech Synthesis'
+authors:
+    - Minghui Wu
+    - Ganjun Liu
+    - Zikun Fang
+    - Ting Meng
+    - Hongchuan Wu
+    - Bingao Xu
+    - Yonglong Cai
+    - Jiasheng Chen
+    - Jun Du
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wu26f_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wu26f_interspeech.pdf
+session: Emotional Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

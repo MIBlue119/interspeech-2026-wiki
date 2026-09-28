@@ -1,0 +1,14 @@
+id: zhang26s_interspeech
+title: 'DASR-CPO: Reference-Free Contrastive Preference Optimization for Correcting Mandarin Semantic Drift in Low-Resource Chinese Dialect ASR'
+authors:
+    - Tao Zhang
+    - haiyang Zhang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26s_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26s_interspeech.pdf
+session: Language and Dialect Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

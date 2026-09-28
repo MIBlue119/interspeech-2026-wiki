@@ -1,0 +1,16 @@
+id: ok26_interspeech
+title: 'Towards Privacy-Preserving ASR: Speaker-Level Machine Unlearning'
+authors:
+    - Seaone Ok
+    - Seungu Han
+    - Eungbeom Kim
+    - Kyogu Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ok26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ok26_interspeech.pdf
+session: Speaker Privacy Preservation and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

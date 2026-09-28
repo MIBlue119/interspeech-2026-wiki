@@ -1,0 +1,17 @@
+id: chen26z_interspeech
+title: 'DiaMoE-TTS: A Unified IPA-Based Dialect TTS Framework with Parameter-Efficient Adaptation and Reward-Driven Optimization'
+authors:
+    - Ziqi Chen
+    - Gongyu Chen
+    - Yihua Wang
+    - Zihao Chen
+    - Wei-Qiang Zhang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26z_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26z_interspeech.pdf
+session: Text Processing for Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

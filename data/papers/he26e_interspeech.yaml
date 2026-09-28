@@ -1,0 +1,21 @@
+id: he26e_interspeech
+title: 'Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models'
+authors:
+    - Xiang He
+    - Chenxing Li
+    - Jinting Wang
+    - Yan Rong
+    - Tianxin Xie
+    - Zeyu Xie
+    - Wenfu Wang
+    - Li Liu
+    - Dong Yu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/he26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/he26e_interspeech.pdf
+session: Challenge - Audio Reasoning Challenge
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,20 @@
+id: yu26g_interspeech
+title: 'SDR-LLM: Speech-LLM Based End-to-End Speaker Diarization and Recognition with Sentence-Level Temporal Modeling'
+authors:
+    - Renjie Yu
+    - Yixuan Zhou
+    - Shun Lei
+    - Xiang Li
+    - Runchuan Ye
+    - Yikai Huang
+    - Guoyang Zeng
+    - Zhiyong Wu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yu26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yu26g_interspeech.pdf
+session: Speaker Diarization and Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,13 @@
+id: song26_interspeech
+title: 'CFLOW-VC: An unsupervised cycle training strategy based on normalizing flows for Voice Conversion'
+authors:
+    - FeiBao Song
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/song26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/song26_interspeech.pdf
+session: Voice Conversion
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

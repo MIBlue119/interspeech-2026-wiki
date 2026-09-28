@@ -1,0 +1,16 @@
+id: a26_interspeech
+title: 'MTC-AVSR: Compressed-Token-based Audio-Visual Speech Recognition and Translation with Contrastive Language Alignment'
+authors:
+    - Lusi A
+    - Zhiyong Duan
+    - Jiang Li
+    - Feilong Bao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/a26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/a26_interspeech.pdf
+session: Robust Audio-Visual Speech Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

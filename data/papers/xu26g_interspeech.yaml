@@ -1,0 +1,17 @@
+id: xu26g_interspeech
+title: 'Whisper-Aware LLM: Self-Supervised Uncertainty Learning for Robust Whispered Speech Recognition'
+authors:
+    - Gaopeng Xu
+    - Zhenyu Wang
+    - Zheng Xue
+    - Yinfeng Xia
+    - Haitao Yao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xu26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xu26g_interspeech.pdf
+session: 'Robust ASR: Uncertainty and Confidence'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

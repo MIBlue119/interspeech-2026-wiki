@@ -1,0 +1,18 @@
+id: geng26_interspeech
+title: 'Beyond Acoustic Sparsity and Linguistic Bias: A Prompt-Free Paradigm for Mispronunciation Detection and Diagnosis'
+authors:
+    - Haopeng Geng
+    - Longfei Yang
+    - Xi Chen
+    - Haitong Sun
+    - Daisuke Saito
+    - Nobuaki Minematsu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/geng26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/geng26_interspeech.pdf
+session: Pronunciation Diversity
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

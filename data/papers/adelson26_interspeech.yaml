@@ -1,0 +1,15 @@
+id: adelson26_interspeech
+title: 'Beyond Deep Learning: Speech Segmentation and Phone Classification with Neural Assemblies'
+authors:
+    - Trevor Adelson
+    - Vidhyasaharan Sethu
+    - Ting Dang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/adelson26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/adelson26_interspeech.pdf
+session: Audio Coding and Signal Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

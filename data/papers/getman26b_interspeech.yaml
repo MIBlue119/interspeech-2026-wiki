@@ -1,0 +1,15 @@
+id: getman26b_interspeech
+title: Do Learned Layer Weights Reflect Pretrained Information Structure in Self-Supervised Speech Models?
+authors:
+    - Yaroslav Getman
+    - Tamás Grósz
+    - Mikko Kurimo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/getman26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/getman26b_interspeech.pdf
+session: Explainability for Compliance and Trust in Speech AI
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

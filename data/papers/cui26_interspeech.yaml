@@ -1,0 +1,19 @@
+id: cui26_interspeech
+title: 'TurnGuide: Enhancing Meaningful Full Duplex Spoken Interactions via Dynamic Turn-Level Text-Speech Interleaving'
+authors:
+    - Wenqian Cui
+    - Lei Zhu
+    - Xiao-Hui Li
+    - Zhihan Guo
+    - Haoli Bai
+    - Lu Hou
+    - Irwin King
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/cui26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/cui26_interspeech.pdf
+session: LLMs and Conversational Interaction
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

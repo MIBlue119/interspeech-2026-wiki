@@ -1,0 +1,15 @@
+id: masztalski26_interspeech
+title: 'Samsone: A Family of Open Small Audio Language Models for On-Device Inference'
+authors:
+    - Piotr Masztalski
+    - Michał K. Grzeszczyk
+    - Olaf Sikorski
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.pdf
+session: Audio Foundation Models and Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

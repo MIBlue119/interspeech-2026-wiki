@@ -1,0 +1,17 @@
+id: pal26_interspeech
+title: 'Two-stage semi-supervised learning with pseudo-labels: A case study on Northern Sámi ASR'
+authors:
+    - Priyanshi Pal
+    - Yaroslav Getman
+    - Kristiina Ojala
+    - Tamás Grósz
+    - Mikko Kurimo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/pal26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/pal26_interspeech.pdf
+session: Indigenous Voices in Speech Science and Technology
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

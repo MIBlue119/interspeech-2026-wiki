@@ -1,0 +1,18 @@
+id: shi26d_interspeech
+title: 'Emo-BPO: Emotion Bidirectional Preference Optimization for Diffusion-based Emotional TTS'
+authors:
+    - Jiacheng Shi
+    - Hongfei Du
+    - Xinyuan Song
+    - Y. Alicia Hong
+    - Yanfu Zhang
+    - Ye Gao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shi26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shi26d_interspeech.pdf
+session: Emotional Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

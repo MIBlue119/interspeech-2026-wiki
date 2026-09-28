@@ -1,0 +1,16 @@
+id: huang26c_interspeech
+title: Rethinking Entropy Minimization in Test-Time Adaptation for Autoregressive Models
+authors:
+    - Wei-Ping Huang
+    - Chee-En Yu
+    - Guan-Ting Lin
+    - Hung-yi Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/huang26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/huang26c_interspeech.pdf
+session: Robust and Efficient ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

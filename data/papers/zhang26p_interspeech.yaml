@@ -1,0 +1,18 @@
+id: zhang26p_interspeech
+title: 'MultiAPI Spoof: A Multi-API Dataset and Local-Attention Network for Speech Anti-spoofing Detection'
+authors:
+    - Xueping Zhang
+    - Zhenshan Zhang
+    - Yechen Wang
+    - Linxi Li
+    - Liwei Jin
+    - Ming Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26p_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26p_interspeech.pdf
+session: Spoofing and Deepfake Detection 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

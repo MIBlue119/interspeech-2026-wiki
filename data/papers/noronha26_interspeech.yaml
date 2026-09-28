@@ -1,0 +1,15 @@
+id: noronha26_interspeech
+title: 'Structured Prompting vs. Self-Training for Audio Reasoning Under Limited Data and Compute: Lessons from Interspeech Audio Reasoning Challenge 2026'
+authors:
+    - Sujit Noronha
+    - Steven Au
+    - Kaushlendra Tripathi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/noronha26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/noronha26_interspeech.pdf
+session: Challenge - Audio Reasoning Challenge
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

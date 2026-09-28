@@ -1,0 +1,18 @@
+id: zheng26_interspeech
+title: 'CycleCodec: Distillation-Free Factorized Neural Speech Codec via Cycle-Consistent Speaker Swapping'
+authors:
+    - Rui-Chen Zheng
+    - Nicholas Sanders
+    - Jinzuomu Zhong
+    - Yang Ai
+    - Zhen-Hua Ling
+    - Korin Richmond
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zheng26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zheng26_interspeech.pdf
+session: 'Speech Synthesis: Speech Features, Codec and Representations'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

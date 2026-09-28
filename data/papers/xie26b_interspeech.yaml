@@ -1,0 +1,25 @@
+id: xie26b_interspeech
+title: 'FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation'
+authors:
+    - Hanke Xie
+    - Xiaming Ren
+    - Dake Guo
+    - Ruonan You
+    - Wenhao Li
+    - Jingbin Hu
+    - Guobin Ma
+    - Huakang Chen
+    - Kejie Xu
+    - Rui Huang
+    - Weiguo Tan
+    - Xianrong Wang
+    - Lei Xie
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xie26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xie26b_interspeech.pdf
+session: Streaming Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

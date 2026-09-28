@@ -1,0 +1,18 @@
+id: shi26c_interspeech
+title: 'Entropy-Aware Domain-Routed Mixture-of-Experts Speech-LLM Framework: A Case Study of Multi-Domain Child-Adult ASR'
+authors:
+    - Mohan Shi
+    - Kaiyuan Zhang
+    - Zilai Wang
+    - Natarajan Balaji Shankar
+    - Eray Eren
+    - Abeer Alwan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shi26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shi26c_interspeech.pdf
+session: 'CHILDSPACE: Child Home Interaction & Language Dynamics: Speech, Psychology, Affect, Computation, and Environments'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

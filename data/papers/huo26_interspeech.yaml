@@ -1,0 +1,14 @@
+id: huo26_interspeech
+title: Do speech foundation models really learn words?
+authors:
+    - Robin Huo
+    - Ewan Dunbar
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/huo26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/huo26_interspeech.pdf
+session: New Architecture and Analyses for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

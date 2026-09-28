@@ -1,0 +1,16 @@
+id: mao26_interspeech
+title: Neural Multichannel Distant Speaker Diarization and Source Separation with Beta Speaker Activity Prior
+authors:
+    - Sicheng Mao
+    - Mathieu Fontaine
+    - Anthony Larcher
+    - Roland Badeau
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mao26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mao26_interspeech.pdf
+session: Speaker Diarization 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

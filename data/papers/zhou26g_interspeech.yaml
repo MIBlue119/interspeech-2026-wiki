@@ -1,0 +1,23 @@
+id: zhou26g_interspeech
+title: 'AV-SyncBench: Decoupled Benchmarking of Temporal and Semantic Audio-Visual Synchronization'
+authors:
+    - Tianhong Zhou
+    - Mingyang Han
+    - Boyu Li
+    - Yuxuan Jiang
+    - Jiaxin Ye
+    - Dongxiao Wang
+    - Haoxiang Shi
+    - Kunpeng Wang
+    - Jun Song
+    - Cheng Yu
+    - Bo Zheng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhou26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26g_interspeech.pdf
+session: Audio-Visual Grounding, Synchronization & Video Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

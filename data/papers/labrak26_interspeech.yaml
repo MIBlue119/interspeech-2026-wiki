@@ -1,0 +1,26 @@
+id: labrak26_interspeech
+title: Generating Synthetic Doctor-Patient Conversations for Long-form Audio Summarization
+authors:
+    - Yanis Labrak
+    - David Grünert
+    - Severin Baroudi
+    - Jiyun Chun
+    - Pawel Cyrta
+    - Sergio Burdisso
+    - Ahmed Hassoon
+    - David Liu
+    - Adam Rothschild
+    - Reed Van Deusen
+    - Petr Motlicek
+    - Andrew Perrault
+    - Ricard Marxer
+    - Thomas Schaaf
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/labrak26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/labrak26_interspeech.pdf
+session: Challenges in Speech Data Collection, Curation, and Annotation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,19 @@
+id: xu26c_interspeech
+title: 'HRIR-Former: Grid-Free Time-Domain Reconstruction of Head-Related Impulse Responses with a Spatially Encoded Transformer'
+authors:
+    - Shaoheng Xu
+    - Chunyi Sun
+    - Jihui Zhang
+    - Amy Bastine
+    - Prasanga N. Samarasinghe
+    - Thushara D. Abhayapala
+    - Hongdong Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xu26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xu26c_interspeech.pdf
+session: Spatial Audio 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

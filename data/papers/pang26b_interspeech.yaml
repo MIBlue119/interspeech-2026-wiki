@@ -1,0 +1,16 @@
+id: pang26b_interspeech
+title: 'ERM-MinMaxGAP: Benchmarking and Mitigating Gender Bias in Multilingual Multimodal Speech-LLM Emotion Recognition'
+authors:
+    - Zi Haur Pang
+    - Xiaoxue Gao
+    - Tatsuya Kawahara
+    - Nancy Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/pang26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/pang26b_interspeech.pdf
+session: Cross-Lingual and Multilingual Speech Recognition 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

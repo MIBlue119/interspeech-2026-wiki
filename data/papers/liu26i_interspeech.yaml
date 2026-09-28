@@ -1,0 +1,17 @@
+id: liu26i_interspeech
+title: Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input
+authors:
+    - Changsong Liu
+    - Tianrui Wang
+    - Ye Ni
+    - Yizhou Peng
+    - Eng Siong Chng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26i_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26i_interspeech.pdf
+session: Streaming Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

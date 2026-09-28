@@ -1,0 +1,16 @@
+id: dao26_interspeech
+title: Linguistic Bias Mitigation for Spoofing Detection via Gradient Reversal and A Variational Information Bottleneck
+authors:
+    - Anh-Tuan DAO
+    - Driss Matrouf
+    - Mickael Rouvier
+    - Nicholas Evans
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/dao26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/dao26_interspeech.pdf
+session: Speaker Verification and Anti-Spoofing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

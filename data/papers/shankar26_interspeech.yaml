@@ -1,0 +1,17 @@
+id: shankar26_interspeech
+title: 'GC-LoRA: Gated Convolutional LoRA for Parameter-Efficient Acoustic Adaptation'
+authors:
+    - Natarajan Balaji Shankar
+    - Zilai Wang
+    - Kaiyuan Zhang
+    - Mohan Shi
+    - Abeer Alwan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shankar26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shankar26_interspeech.pdf
+session: Cross-Lingual and Multilingual Speech Recognition 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

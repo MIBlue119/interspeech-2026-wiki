@@ -1,0 +1,16 @@
+id: feng26_interspeech
+title: 'MMGenre: Benchmarking Singing Voice Synthesis across Multiple Musical Genres'
+authors:
+    - Wenhao Feng
+    - Yuxun Tang
+    - Jiatong Shi
+    - Qin Jin
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/feng26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/feng26_interspeech.pdf
+session: Speech Synthesis Evaluation 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,18 @@
+id: liu26l_interspeech
+title: 'Decoupling Search and Evaluation: Efficient Beam Decoding for Language Model-Based Text-to-Speech Synthesis'
+authors:
+    - Chenlin Liu
+    - Jie Gao
+    - Wei Zhou
+    - Guangyan Zhang
+    - Minghui Fang
+    - Jiqing Han
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26l_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26l_interspeech.pdf
+session: LLM Based Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

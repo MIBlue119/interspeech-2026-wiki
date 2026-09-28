@@ -1,0 +1,18 @@
+id: wiesner26_interspeech
+title: Modeling Overlapped Speech with Shuffles
+authors:
+    - Matthew Wiesner
+    - Samuele Cornell
+    - Alexander Polok
+    - Lucas Ondel-Yang
+    - Lukáš Burget
+    - Sanjeev Khudanpur
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wiesner26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wiesner26_interspeech.pdf
+session: Speaker Diarization and Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

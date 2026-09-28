@@ -1,0 +1,16 @@
+id: rautenberg26_interspeech
+title: Hierarchical Conditional Continuous Normalizing Flows for Creaky Voice Editing under Speaker Identity Preservation
+authors:
+    - Frederik Rautenberg
+    - Fritz Seebauer
+    - Petra Wagner
+    - Reinhold Haeb-Umbach
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/rautenberg26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/rautenberg26_interspeech.pdf
+session: Flow Matching for Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,16 @@
+id: wang26w_interspeech
+title: An Efficient vLLM-Based Inference Pipeline for Unified Audio Understanding and Generation
+authors:
+    - Haoran Wang
+    - Jinchuan Tian
+    - Siddhant Arora
+    - Shinji Watanabe
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26w_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26w_interspeech.pdf
+session: Efficient Inference for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

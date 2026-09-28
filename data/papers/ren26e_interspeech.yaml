@@ -1,0 +1,18 @@
+id: ren26e_interspeech
+title: 'Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards'
+authors:
+    - Yong Ren
+    - Jiangyan Yi
+    - Jianhua Tao
+    - Tao Wang
+    - Le Xu
+    - Zhengqi Wen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ren26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ren26e_interspeech.pdf
+session: Voice Editing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

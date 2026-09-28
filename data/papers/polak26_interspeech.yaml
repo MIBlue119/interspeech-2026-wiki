@@ -1,0 +1,16 @@
+id: polak26_interspeech
+title: 'Better Late Than Never: Meta-Evaluation of Latency Metrics for Simultaneous Speech-to-Text Translation'
+authors:
+    - Peter Polák
+    - Sara Papi
+    - Luisa Bentivogli
+    - Ondřej Bojar
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/polak26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/polak26_interspeech.pdf
+session: Multilingual Speech 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

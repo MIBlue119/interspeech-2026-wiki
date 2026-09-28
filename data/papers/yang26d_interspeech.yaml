@@ -1,0 +1,15 @@
+id: yang26d_interspeech
+title: 'K-DIALECT : Korean Dialect-Aware Face-Based Speech Synthesis'
+authors:
+    - Seongyeon Yang
+    - Juyeob Lee
+    - Eunil Park
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26d_interspeech.pdf
+session: Articulatory, EMG, and Visual Speech Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

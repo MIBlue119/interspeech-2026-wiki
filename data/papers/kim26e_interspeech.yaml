@@ -1,0 +1,15 @@
+id: kim26e_interspeech
+title: Temporal Transition-Aware Multi-Head Modeling for Partially Spoofed Audio Detection and Localization
+authors:
+    - Yunsu Kim
+    - Juyeob Lee
+    - Eunil Park
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kim26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kim26e_interspeech.pdf
+session: Spoofing, Deepfake Detection and Watermarking
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

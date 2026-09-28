@@ -1,0 +1,19 @@
+id: lu26_interspeech
+title: 'PolyBench: Benchmarking LLM-based TTS Systems for Chinese Polyphone Disambiguation'
+authors:
+    - Chunhui Lu
+    - Rui Zhou
+    - Feifan Chen
+    - Liming Song
+    - YoonChoon Hwang
+    - Junkwang Oh
+    - Gunu Jho
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lu26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lu26_interspeech.pdf
+session: Speech Synthesis Evaluation and Benchmarking
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

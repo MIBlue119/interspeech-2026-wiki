@@ -1,0 +1,16 @@
+id: syllas26_interspeech
+title: Deterministic Prompting for Speaker-Stable Low-Resource Greek TTS
+authors:
+    - Georgios Syllas
+    - Efthymios Georgiou
+    - Kosmas Kritsis
+    - Alexandros Potamianos
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.pdf
+session: Text Processing for Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

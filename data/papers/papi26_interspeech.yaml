@@ -1,0 +1,17 @@
+id: papi26_interspeech
+title: Cross-Attention is Half Explanation in Speech-to-Text Models
+authors:
+    - Sara Papi
+    - Dennis Fucci
+    - Marco Gaido
+    - Matteo Negri
+    - Luisa Bentivogli
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/papi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/papi26_interspeech.pdf
+session: Speech Representations and Alignment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

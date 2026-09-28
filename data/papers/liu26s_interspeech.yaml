@@ -1,0 +1,18 @@
+id: liu26s_interspeech
+title: Bridging the Distribution Gap in Real-World Far-Field Speech Enhancement via Lightweight Latent Representation Alignment
+authors:
+    - Biao Liu
+    - Haoyuan Xie
+    - Zengqiang Shang
+    - Mou Wang
+    - Xin Liu
+    - Pengyuan Zhang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26s_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26s_interspeech.pdf
+session: SE Architectures, Adaptation and Audio Front-Ends
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

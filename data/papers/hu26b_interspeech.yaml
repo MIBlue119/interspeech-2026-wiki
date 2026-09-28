@@ -1,0 +1,25 @@
+id: hu26b_interspeech
+title: 'OmniCodec: Low Frame Rate Universal Audio Codec with Semantic–Acoustic Disentanglement'
+authors:
+    - Jingbin Hu
+    - Haoyu Zhang
+    - Dake Guo
+    - Qirui Zhan
+    - Wenhao Li
+    - Huakang Chen
+    - Guobin Ma
+    - Hanke Xie
+    - Chengyou Wang
+    - Pengyuan Xie
+    - Chuan Xie
+    - Qiang Zhang
+    - Lei Xie
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hu26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hu26b_interspeech.pdf
+session: Neural Audio Codec Architectures
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

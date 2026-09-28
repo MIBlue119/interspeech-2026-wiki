@@ -1,0 +1,20 @@
+id: chen26u_interspeech
+title: 'Latent-Mark: An Audio Watermark Robust to Neural Codec Compression'
+authors:
+    - Yen-Shan Chen
+    - Shih-Yu Lai
+    - Ying-Jung Tsou
+    - Yi-Cheng Lin
+    - Bing-Yu Chen
+    - Yun-Nung Chen
+    - Hung-yi Lee
+    - Shang-Tse Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26u_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26u_interspeech.pdf
+session: Spoofing, Deepfake Detection and Watermarking
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

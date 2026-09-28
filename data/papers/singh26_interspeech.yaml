@@ -1,0 +1,19 @@
+id: singh26_interspeech
+title: Low-Burden Data Augmentation for Dysarthric ASR via Zero-Shot Voice Cloning
+authors:
+    - Satwinder Singh
+    - Qianli Wang
+    - Zihan Zhong
+    - Clarion Mendes
+    - Mark Hasegawa-Johnson
+    - Waleed Abdulla
+    - Seyed Reza Shahamiri
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/singh26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/singh26_interspeech.pdf
+session: Beyond Speech Technologies in Healthcare
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

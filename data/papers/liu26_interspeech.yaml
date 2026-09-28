@@ -1,0 +1,23 @@
+id: liu26_interspeech
+title: 'CoSTA: Cognitive-State-Conditioned TTS Data Augmentation Using ASR Transcripts for Alzheimer’s Disease Detection'
+authors:
+    - Yin-Long Liu
+    - Yuanchao Li
+    - Yiming Wang
+    - Yue Li
+    - Rui Feng
+    - Jiaxin Chen
+    - Shaobo Liu
+    - Liu He
+    - Yuang Chen
+    - Jiahong Yuan
+    - Zhen-Hua Ling
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26_interspeech.pdf
+session: Speech and Language Technologies for Health Applications 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

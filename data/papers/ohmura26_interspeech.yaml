@@ -1,0 +1,17 @@
+id: ohmura26_interspeech
+title: 'LibriTTS-VI: A Public Corpus and Novel Methods for Efficient Voice Impression Control'
+authors:
+    - Junki Ohmura
+    - Yuki Ito
+    - Emiru Tsunoo
+    - Toshiyuki Sekiya
+    - Toshiyuki Kumakura
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ohmura26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ohmura26_interspeech.pdf
+session: Controllable and Expressive Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

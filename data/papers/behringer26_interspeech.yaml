@@ -1,0 +1,17 @@
+id: behringer26_interspeech
+title: Assessing the Impact of Noise and Speech Enhancement on the Intelligibility of Speech Codecs
+authors:
+    - Lyonel Behringer
+    - Anna Leschanowsky
+    - Anjana Rajasekhar
+    - Emily Kratsch
+    - Guillaume Fuchs
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/behringer26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/behringer26_interspeech.pdf
+session: Quality, Intelligibility and Evaluation of Speech and Codecs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

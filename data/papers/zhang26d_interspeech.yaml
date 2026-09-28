@@ -1,0 +1,18 @@
+id: zhang26d_interspeech
+title: Dual-Encoder Fusion with Explicit and Implicit Injection for the Interspeech 2026 Audio Encoder Capability Challenge
+authors:
+    - Yucong Zhang
+    - Zhang Chen
+    - Juan Liu
+    - Wei Ju
+    - Hongbin Suo
+    - Ming Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26d_interspeech.pdf
+session: SE Architectures, Adaptation and Audio Front-Ends
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

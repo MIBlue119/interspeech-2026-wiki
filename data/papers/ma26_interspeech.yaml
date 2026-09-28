@@ -1,0 +1,24 @@
+id: ma26_interspeech
+title: 'The Interspeech 2026 Audio Reasoning Challenge: Evaluating Reasoning Process Quality for Audio Reasoning Models and Agents'
+authors:
+    - Ziyang Ma
+    - Ruiyang Xu
+    - Yinghao Ma
+    - Chao-Han Huck Yang
+    - Bohan Li
+    - Jaeyeon Kim
+    - Jin Xu
+    - Jinyu Li
+    - Carlos Busso
+    - Kai Yu
+    - Eng Siong Chng
+    - Xie Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ma26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ma26_interspeech.pdf
+session: Challenge - Audio Reasoning Challenge
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

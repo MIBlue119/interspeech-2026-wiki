@@ -1,0 +1,16 @@
+id: shen26c_interspeech
+title: Parallel Time-Band Mixing with Learned Observation-Adding for Robust ASR Front-Ends
+authors:
+    - Xingyu Shen
+    - Runze Wang
+    - Wei-Ping Zhu
+    - Benoit Champagne
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shen26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shen26c_interspeech.pdf
+session: SE Architectures, Adaptation and Audio Front-Ends
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

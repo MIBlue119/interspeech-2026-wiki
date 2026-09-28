@@ -1,0 +1,15 @@
+id: lopez26_interspeech
+title: Robustness Assessment of Large Audio Language Models in Multiple-choice Evaluation
+authors:
+    - Fernando López
+    - Santosh Kesiraju
+    - Jordi Luque
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lopez26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lopez26_interspeech.pdf
+session: 'Audio & Speech Language Models: Evaluation, Representations, and Emerging Capabilities'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

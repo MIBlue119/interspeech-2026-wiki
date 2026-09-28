@@ -1,0 +1,21 @@
+id: kheir26_interspeech
+title: 'DeepFense: A Unified, Modular, and Extensible Framework for Robust Audio Deepfake Detection'
+authors:
+    - Yassine El Kheir
+    - Arnab Das
+    - Yixuan Xiao
+    - Xin Wang
+    - Feidi Kallel
+    - Enes Erdem Erdogan
+    - Ngoc Thang Vu
+    - Tim Polzehl
+    - Sebastian Möller
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kheir26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kheir26_interspeech.pdf
+session: Spoofing, Deepfake Detection and Watermarking
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

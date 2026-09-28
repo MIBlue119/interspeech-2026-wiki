@@ -1,0 +1,19 @@
+id: ding26b_interspeech
+title: 'Learning to Evade: Adaptive Attacks on Audio Watermarking'
+authors:
+    - Weikang Ding
+    - Hanqing Guo
+    - Rui Duan
+    - Guangjing Wang
+    - Yuanda Wang
+    - Mingzhe Chen
+    - Qiben Yan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ding26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ding26b_interspeech.pdf
+session: Spoofing, Deepfake Detection and Watermarking
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

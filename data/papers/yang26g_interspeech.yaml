@@ -1,0 +1,15 @@
+id: yang26g_interspeech
+title: Pitch-Injected Residual Adapter for Tonal Language in Neural Audio Codec
+authors:
+    - Jie-Shiang Yang
+    - Ya-Tse Wu
+    - Chi-Chun Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26g_interspeech.pdf
+session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

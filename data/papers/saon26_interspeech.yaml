@@ -1,0 +1,18 @@
+id: saon26_interspeech
+title: Self-Speculative Decoding for LLM-based ASR with CTC Encoder Drafts
+authors:
+    - George Saon
+    - Samuel Thomas
+    - Takashi Fukuda
+    - Tohru Nagano
+    - Avihu Dekel
+    - Luis Lastras
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/saon26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/saon26_interspeech.pdf
+session: Search Methods and Inference Algorithms
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

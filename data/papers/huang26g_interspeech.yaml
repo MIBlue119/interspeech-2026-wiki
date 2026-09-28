@@ -1,0 +1,19 @@
+id: huang26g_interspeech
+title: 'MSR-HuBERT: Self-supervised Pre-training for Adaptation to Multiple Sampling Rates'
+authors:
+    - Zikang Huang
+    - Meng Ge
+    - Tianrui Wang
+    - Xuanchen Li
+    - Xiaobao Wang
+    - Longbiao Wang
+    - Jianwu Dang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/huang26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/huang26g_interspeech.pdf
+session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

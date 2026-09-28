@@ -1,0 +1,22 @@
+id: jiang26_interspeech
+title: 'DiffRhythm 2: Efficient and High Fidelity Song Generation via Block Flow Matching'
+authors:
+    - Yuepeng Jiang
+    - Huakang Chen
+    - Ziqian Ning
+    - Jixun Yao
+    - zerui Han
+    - Di Wu
+    - Meng Meng
+    - Jian Luan
+    - Zhonghua Fu
+    - Lei Xie
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/jiang26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26_interspeech.pdf
+session: Generative Audio and Music
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

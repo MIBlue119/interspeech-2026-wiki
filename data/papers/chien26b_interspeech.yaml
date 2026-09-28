@@ -1,0 +1,15 @@
+id: chien26b_interspeech
+title: 'From Bilevel to Trilevel: Joint Training for Speech Recognition'
+authors:
+    - Jen-Tzung Chien
+    - Yu-Chun Lin
+    - Xiaodong Cui
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chien26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chien26b_interspeech.pdf
+session: New Training Methods for ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

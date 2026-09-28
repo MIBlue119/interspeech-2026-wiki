@@ -1,0 +1,16 @@
+id: issam26_interspeech
+title: 'Cross-Modal Robustness Transfer (CMRT): Training Robust Speech Translation Models Using Adversarial Text'
+authors:
+    - Abderrahmane Issam
+    - Yusuf Can Semerci
+    - Jan Scholtes
+    - Gerasimos Spanakis
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/issam26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/issam26_interspeech.pdf
+session: Multilingual Speech 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

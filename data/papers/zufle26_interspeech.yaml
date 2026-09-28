@@ -1,0 +1,20 @@
+id: zufle26_interspeech
+title: 'Do What I Say: A Spoken Prompt Dataset for Instruction-Following'
+authors:
+    - Maike Züfle
+    - Sara Papi
+    - Fabian Retkowski
+    - Szymon Mazurek
+    - Marek Kasztelnik
+    - Alexander Waibel
+    - Luisa Bentivogli
+    - Jan Niehues
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zufle26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zufle26_interspeech.pdf
+session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

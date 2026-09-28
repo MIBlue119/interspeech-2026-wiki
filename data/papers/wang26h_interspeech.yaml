@@ -1,0 +1,19 @@
+id: wang26h_interspeech
+title: 'GMOD: Voice-Face Association Learning via Graph Mining and Orthogonal Disentanglement'
+authors:
+    - Jianrong Wang
+    - Kaibin Bi
+    - Jinghui Li
+    - Ju Zhang
+    - Qi Li
+    - Ying Guo
+    - Jing Zhao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26h_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26h_interspeech.pdf
+session: Speech and Language Representation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

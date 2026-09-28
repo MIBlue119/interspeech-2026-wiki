@@ -1,0 +1,20 @@
+id: shen26d_interspeech
+title: 'Iterate to Differentiate: Enhancing Discriminability and Reliability in Zero-Shot TTS Evaluation'
+authors:
+    - Shengfan Shen
+    - Di Wu
+    - Xingchen Song
+    - Dinghao Zhou
+    - Liumeng Xue
+    - Meng Meng
+    - Jian Luan
+    - Shuai Wang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shen26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shen26d_interspeech.pdf
+session: Text-to-Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

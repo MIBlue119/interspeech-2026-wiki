@@ -1,0 +1,19 @@
+id: lee26_interspeech
+title: 'AdaLTM: Adaptive Layer-wise Task Vector Merging for Categorical Speech Emotion Recognition with ASR Knowledge Integration'
+authors:
+    - Chia-Yu Lee
+    - Huang-Cheng Chou
+    - Tzu-Quan Lin
+    - Yuanchao Li
+    - Ya-Tse Wu
+    - Shrikanth Narayanan
+    - Chi-Chun Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lee26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lee26_interspeech.pdf
+session: Speech Emotion Recognition and Representation 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

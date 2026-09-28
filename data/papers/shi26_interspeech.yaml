@@ -1,0 +1,19 @@
+id: shi26_interspeech
+title: Distilling LLM Semantic Priors into Encoder-Only Multi-Talker ASR with Talker-Count Routing
+authors:
+    - Hao Shi
+    - Yusuke Fujita
+    - Roman Koshkin
+    - Mengjie Zhao
+    - Yuan Gao
+    - Lianbo Liu
+    - Yui Sudo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shi26_interspeech.pdf
+session: Post-Training of Speech Foundation Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

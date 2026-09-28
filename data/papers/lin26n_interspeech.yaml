@@ -1,0 +1,21 @@
+id: lin26n_interspeech
+title: 'WQ-Fusion: Dynamic Gated Attention for Cross-Domain Audio Representation'
+authors:
+    - Mingda Lin
+    - Lei Ding
+    - Xinyue Zhou
+    - Tiantian Xiong
+    - Hanchen Pei
+    - Gongping Huang
+    - Hao Zhang
+    - Jingdong Chen
+    - Jacob Benesty
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lin26n_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lin26n_interspeech.pdf
+session: Grand Special Challenges Poster Showcase
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,27 @@
+id: xu26j_interspeech
+title: 'GLAD-CSpeech: A Dialectologically Comprehensive Benchmark for Genuine Chinese Dialect Speech'
+authors:
+    - Ke Xu
+    - Lihan Xu
+    - Jiayi Lin
+    - Bin Zhang
+    - Yunfei Chu
+    - Shuting Yuan
+    - Ruiye Lv
+    - Guangxuan Zheng
+    - Qi Han
+    - Jin Xu
+    - Bing Zhao
+    - Hu Wei
+    - Yang Bai
+    - Ziyi Cheng
+    - Qibin Ran
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.pdf
+session: Datasets
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

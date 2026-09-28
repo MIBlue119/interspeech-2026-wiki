@@ -1,0 +1,16 @@
+id: kolani26_interspeech
+title: 'Phonikud: Overcoming Phonetic Underspecification for Hebrew Text-To-Speech'
+authors:
+    - Yakov Kolani
+    - Maxim Melichov
+    - Cobi Calev
+    - Morris Alper
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.pdf
+session: Text Processing for Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

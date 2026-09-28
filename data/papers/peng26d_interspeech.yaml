@@ -1,0 +1,26 @@
+id: peng26d_interspeech
+title: 'MAC-SLU: Multi-Intent Automotive Cabin Spoken Language Understanding Benchmark'
+authors:
+    - Yuezhang Peng
+    - Chonghao Cai
+    - Ziang Liu
+    - Shuai Fan
+    - Sheng Jiang
+    - Hua Xu
+    - Yuxin Liu
+    - Sheng Wang
+    - Qiguang Chen
+    - Yao Li
+    - Kele Xu
+    - Kai Yu
+    - Libo Qin
+    - Xie Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.pdf
+session: Spoken Language Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

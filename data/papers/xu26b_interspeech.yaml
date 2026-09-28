@@ -1,0 +1,18 @@
+id: xu26b_interspeech
+title: Enhancing BEST-RQ Pseudo-Label Quality Through Online Refinement for Automatic Speech Recognition
+authors:
+    - Jingjing Xu
+    - Zijian Yang
+    - Mohammad Zeineldeen
+    - Eugen Beck
+    - Ralf Schlüter
+    - Hermann Ney
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xu26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xu26b_interspeech.pdf
+session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

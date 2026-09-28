@@ -1,0 +1,16 @@
+id: li26c_interspeech
+title: 'MSR-Codec: A Low-Bitrate Multi-Stream Residual Codec for High-Fidelity Speech Generation with Information Disentanglement'
+authors:
+    - Jingyu Li
+    - Guangyan Zhang
+    - Zhen Ye
+    - Yiwen Guo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26c_interspeech.pdf
+session: Neural Audio Codec Architectures
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

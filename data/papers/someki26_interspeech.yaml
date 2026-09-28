@@ -1,0 +1,29 @@
+id: someki26_interspeech
+title: 'ESPnet3: Infrastructure for Scalable Speech and Audio Research in the Foundation Model Era'
+authors:
+    - Masao Someki
+    - Alexander Polok
+    - Carlos Carvalho
+    - Chyi-Jiunn Lin
+    - Da-Hee Yang
+    - Jiatong Shi
+    - Jinchuan Tian
+    - Nelson Enrique Yalta Soplin
+    - Samuele Cornell
+    - Siddhant Arora
+    - Francisco Teixeira
+    - Wei Wang
+    - William Chen
+    - Alberto Abad
+    - Chenda Li
+    - Shinji Watanabe
+    - Wangyou Zhang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/someki26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/someki26_interspeech.pdf
+session: Robust and Real-World ASR Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

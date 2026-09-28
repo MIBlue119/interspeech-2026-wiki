@@ -1,0 +1,16 @@
+id: li26la_interspeech
+title: Spatially-Augmented Sequence-to-Sequence Neural Diarization for Meetings
+authors:
+    - Li Li
+    - Ming Cheng
+    - Juan Liu
+    - Ming Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26la_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26la_interspeech.pdf
+session: Speaker Diarization 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

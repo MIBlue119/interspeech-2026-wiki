@@ -1,0 +1,15 @@
+id: moon26b_interspeech
+title: When Does Quality-Aware Multimodal Fusion Matter? A Leakage-Safe Diagnostic for Decision-Level Dependence
+authors:
+    - Jaden Moon
+    - Arvind Pillai
+    - Andrew Campbell
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/moon26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/moon26b_interspeech.pdf
+session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

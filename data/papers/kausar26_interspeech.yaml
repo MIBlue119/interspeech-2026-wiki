@@ -1,0 +1,17 @@
+id: kausar26_interspeech
+title: 'DisenEEG-Net: Disentangling EEG features via sufficient information bottleneck and adversarial learning for cross-subject auditory attention detection'
+authors:
+    - Tasleem Kausar
+    - Yuan Liao
+    - Haoqi Hu
+    - Siqi Cai
+    - Haizhou Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kausar26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kausar26_interspeech.pdf
+session: Neurophysiology of Speech
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,15 @@
+id: zhou26_interspeech
+title: 'Ouroboros: Self-Referential Backdoor Attacks on Speech Enhancement via Clean Audio Triggers'
+authors:
+    - Yunjie Zhou
+    - Yuheng Huang
+    - Diqun Yan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhou26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26_interspeech.pdf
+session: Spoofing and Deepfake Detection 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

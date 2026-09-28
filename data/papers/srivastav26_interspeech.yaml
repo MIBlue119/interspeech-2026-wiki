@@ -1,0 +1,21 @@
+id: srivastav26_interspeech
+title: 'Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation'
+authors:
+    - Vaibhav Srivastav
+    - Steven Zheng
+    - Eric Bezzam
+    - Eustache Le Bihan
+    - Nithin Rao Koluguri
+    - Piotr Żelasko
+    - Somshubra Majumdar
+    - Adel Moumen
+    - Sanchit Gandhi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/srivastav26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/srivastav26_interspeech.pdf
+session: Speech Benchmarks, Evaluation, and Resources
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

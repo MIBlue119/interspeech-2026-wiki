@@ -1,0 +1,14 @@
+id: futami26_interspeech
+title: Merging the Knowledge of LLMs for Automatic Speech Recognition
+authors:
+    - Hayato Futami
+    - Tatsuya Kawahara
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/futami26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/futami26_interspeech.pdf
+session: Efficient Inference for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

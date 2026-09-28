@@ -1,0 +1,20 @@
+id: tsai26_interspeech
+title: 'The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation'
+authors:
+    - Yun-Shao Tsai
+    - Yi-Cheng Lin
+    - Huang-Cheng Chou
+    - Tzu-Wen Hsu
+    - Yun-Man Hsu
+    - Chun Wei Chen
+    - Shrikanth Narayanan
+    - Hung-yi Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tsai26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tsai26_interspeech.pdf
+session: Speech Synthesis Evaluation and Benchmarking
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

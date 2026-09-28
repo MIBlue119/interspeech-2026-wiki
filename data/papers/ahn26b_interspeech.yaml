@@ -1,0 +1,16 @@
+id: ahn26b_interspeech
+title: 'Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding'
+authors:
+    - Hoseong Ahn
+    - Jeongyun Chae
+    - Yoonji Park
+    - Kyuhong Shim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ahn26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ahn26b_interspeech.pdf
+session: Search Methods and Inference Algorithms
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

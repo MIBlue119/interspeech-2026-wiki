@@ -1,0 +1,14 @@
+id: banerjee26_interspeech
+title: 'wav2tok 2.0: Scalable Audio Tokenization Maintaining Explicit Pairwise Token Alignment for Efficient Audio Retrieval'
+authors:
+    - Adhiraj Banerjee
+    - Vipul Arora
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/banerjee26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/banerjee26_interspeech.pdf
+session: Information Extraction and Retrieval / Survey Talk
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

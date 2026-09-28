@@ -1,0 +1,15 @@
+id: ling26_interspeech
+title: 'TGTSE: Token-Guided Target Speaker Extraction with Visual Cue'
+authors:
+    - Tongtao Ling
+    - Shulin He
+    - Zhong-Qiu Wang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ling26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ling26_interspeech.pdf
+session: Target Speaker Extraction, Speech Separation and Audio Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

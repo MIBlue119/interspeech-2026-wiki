@@ -1,0 +1,15 @@
+id: baumann26_interspeech
+title: 'PhonLLM: Joint Phone Recognition and Phonological Process Inference for Child Speech'
+authors:
+    - Ilja Baumann
+    - Korbinian Riedhammer
+    - Tobias Bocklet
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/baumann26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/baumann26_interspeech.pdf
+session: Prosody, Pronunciation and Specialized Speech Processing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

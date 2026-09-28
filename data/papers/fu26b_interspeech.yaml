@@ -1,0 +1,15 @@
+id: fu26b_interspeech
+title: Learnable Schrödinger Bridge and Activations for Efficient Diffusion-based Speech Enhancement
+authors:
+    - Yihui Fu
+    - Wouter Tirry
+    - Tim Fingscheidt
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/fu26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/fu26b_interspeech.pdf
+session: 'Neural Speech Enhancement: Survey, Diffusion and Flow Matching'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

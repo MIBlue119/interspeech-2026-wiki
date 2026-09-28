@@ -1,0 +1,17 @@
+id: maxwell26_interspeech
+title: 'Pronunciation and Intonation Structured Markup (PRISM): A Dataset for Australian English Pronunciation Feedback'
+authors:
+    - Olga Maxwell
+    - Uy Thinh Quang
+    - Debbie Loakes
+    - Adele Gregory
+    - Robert Turnbull
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/maxwell26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/maxwell26_interspeech.pdf
+session: Challenges in Speech Data Collection, Curation, and Annotation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,14 @@
+id: sapkota26_interspeech
+title: 'IACC-HuBERT: Intelligibility-Aware Channel Conditioning of HuBERT Frontend for Dysarthric Speech Conformer ASR'
+authors:
+    - Paban Sapkota
+    - Hemant Kumar Kathania
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/sapkota26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/sapkota26_interspeech.pdf
+session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

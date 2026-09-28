@@ -1,0 +1,23 @@
+id: angus26_interspeech
+title: 'Argmax Pro: Frontier-level Real-time Speech-to-text with Speakers and Custom Vocabulary on Mobile Devices'
+authors:
+    - Dylan Angus
+    - Chen Cen
+    - Berkin Durmus
+    - Arda Ibis
+    - Brian Keene
+    - Andrey Leonov
+    - Blaise Munyampirwa
+    - Zach Nagengast
+    - Arda Okan
+    - Atila Orhon
+    - Eduardo Pacheco
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/angus26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/angus26_interspeech.pdf
+session: Speech Recognition, Enhancement and Real-Time Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

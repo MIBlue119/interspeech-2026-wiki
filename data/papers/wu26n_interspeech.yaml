@@ -1,0 +1,17 @@
+id: wu26n_interspeech
+title: Quantizer-Aware Hierarchical Neural Codec Modeling for Speech Deepfake Detection
+authors:
+    - Jinyang Wu
+    - Zihan Pan
+    - Qiquan Zhang
+    - Sailor Hardik
+    - Soumik Mondal
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wu26n_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wu26n_interspeech.pdf
+session: Spoofing and Deepfake Detection 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

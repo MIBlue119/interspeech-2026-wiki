@@ -1,0 +1,16 @@
+id: kamel26_interspeech
+title: 'Spectral Masking and Interpolation Attack (SMIA): A Black-box Adversarial Attack against Voice Authentication and Anti-Spoofing Systems'
+authors:
+    - Kamel Kamel
+    - Hridoy Sankar Dutta
+    - Keshav Sood
+    - Sunil Aryal
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kamel26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kamel26_interspeech.pdf
+session: Speaker Verification and Anti-Spoofing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

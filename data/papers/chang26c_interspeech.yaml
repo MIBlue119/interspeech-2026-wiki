@@ -1,0 +1,19 @@
+id: chang26c_interspeech
+title: 'USAD 2.0: Scaling Representation Distillation for Universal Audio Understanding'
+authors:
+    - Heng-Jui Chang
+    - Alexander Liu
+    - Saurabhchand Bhati
+    - Mrudula Athi
+    - Anton Ratnarajah
+    - Amit Chhetri
+    - James Glass
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chang26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chang26c_interspeech.pdf
+session: Target Speaker Extraction, Speech Separation and Audio Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

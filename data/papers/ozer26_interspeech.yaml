@@ -1,0 +1,17 @@
+id: ozer26_interspeech
+title: A Training-Free Proactive Defense Against Partial Speech Manipulation via Self-Embedding Steganography
+authors:
+    - Yigitcan Özer
+    - Zhe Zhang
+    - Wanying Ge
+    - Xin Wang
+    - Junichi Yamagishi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ozer26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ozer26_interspeech.pdf
+session: Spoofing and Deepfake Detection 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

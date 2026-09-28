@@ -1,0 +1,15 @@
+id: park26k_interspeech
+title: 'MeloDISinger: Melody-Aware & Duration-Preserving Singing Voice Editing with Audio Infilling'
+authors:
+    - Yoonjeong Park
+    - Jaekwon Im
+    - Juhan Nam
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/park26k_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/park26k_interspeech.pdf
+session: Singing Voice and Music Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

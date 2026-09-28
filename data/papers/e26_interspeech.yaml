@@ -1,0 +1,26 @@
+id: e26_interspeech
+title: 'Benchmarking Speech Systems for Frontline Health Conversations: The DISPLACE-M Challenge'
+authors:
+    - Dhanya E
+    - Ankita Meena
+    - Manas Nanivadekar
+    - Noumida A
+    - Victor Azad
+    - Ashwini Nagaraj Shenoy
+    - Pratik Roy Chowdhuri
+    - Shobhit Banga
+    - Vanshika Chhabra
+    - Chitralekha Bhati
+    - Shareef babu Kalluri
+    - Srikanth Raj Chetupalli
+    - Deepu Vijayasenan
+    - Sriram Ganapathy
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/e26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/e26_interspeech.pdf
+session: Medical Dialogue and Conversational Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: kumar26e_interspeech
+title: Lightweight Cross-Lingual Speaker Adaptation for Indic TTS
+authors:
+    - Tarun Kumar
+    - Keshav Agarwal
+    - Pawan Goyal
+    - Laxmidhar Behera
+    - Hema A. Murthy
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kumar26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26e_interspeech.pdf
+session: Low-Resource Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

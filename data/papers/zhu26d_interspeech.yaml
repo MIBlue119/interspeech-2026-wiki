@@ -1,0 +1,16 @@
+id: zhu26d_interspeech
+title: 'DASM: Detecting AI-Synthetic Music via Authentic Manifold Deviation Modeling'
+authors:
+    - Xinya Zhu
+    - Mengyu Qiao
+    - Wenqiang Li
+    - Zhihui Yang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhu26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhu26d_interspeech.pdf
+session: Evaluation, Benchmarking, and Reliability of Audio Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

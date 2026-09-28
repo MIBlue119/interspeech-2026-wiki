@@ -1,0 +1,27 @@
+id: hernandez26_interspeech
+title: Adapting Self-Supervised Speech Representations for Cross-Lingual Dysarthria Detection in Parkinson's Disease
+authors:
+    - Abner Hernandez
+    - Eunjung Yeo
+    - Kwanghee Choi
+    - Chin-Jou Li
+    - Zhengjun Yue
+    - Rohan Kumar Das
+    - Jan Rusz
+    - Mathew Magimai Doss
+    - Juan Rafael Orozco-Arroyave
+    - Tomás Arias-Vergara
+    - Andreas Maier
+    - Elmar Nöth
+    - David R. Mortensen
+    - David Harwath
+    - Paula Andrea Pérez-Toro
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hernandez26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hernandez26_interspeech.pdf
+session: Pathological Speech Assessment 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

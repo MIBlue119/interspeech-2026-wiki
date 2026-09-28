@@ -1,0 +1,16 @@
+id: lee26x_interspeech
+title: 'AGENT: A Black-box Adversarial Attack Exposing the Achilles'' Heel of SASV Systems'
+authors:
+    - Yowon Lee
+    - Seongkyu Han
+    - Thien-Phuc Doan
+    - Souhwan Jung
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lee26x_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lee26x_interspeech.pdf
+session: Speaker Verification and Anti-Spoofing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

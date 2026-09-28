@@ -1,0 +1,19 @@
+id: wen26b_interspeech
+title: 'YUE-PUB-Speech: A Speech-based Pragmatic Understanding Benchmark for Cantonese'
+authors:
+    - Yajie Wen
+    - Ziwei Gong
+    - Chengyan Wu
+    - Xiyun Gong
+    - Yun Xue
+    - Julia Hirschberg
+    - Bolei Ma
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wen26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wen26b_interspeech.pdf
+session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

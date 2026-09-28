@@ -1,0 +1,14 @@
+id: lay26_interspeech
+title: A Fast Solver for Interpolating Stochastic Differential Equation Diffusion Models for Speech Restoration
+authors:
+    - Bunlong Lay
+    - Timo Gerkmann
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lay26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lay26_interspeech.pdf
+session: Speech Enhancement and Restoration
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

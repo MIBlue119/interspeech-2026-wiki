@@ -1,0 +1,15 @@
+id: kim26h_interspeech
+title: Attention-Guided Reliability Scaling for Contrastive Decoding in Robust Audio-Visual Speech Recognition
+authors:
+    - YoungChae Kim
+    - Da-Hee Yang
+    - Joon-Hyuk Chang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kim26h_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kim26h_interspeech.pdf
+session: Long-form Audio & New Attention Approaches
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

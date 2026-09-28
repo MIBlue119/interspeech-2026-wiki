@@ -1,0 +1,18 @@
+id: fortier26_interspeech
+title: Where Do Backdoors Live? A Component-Level Analysis of Backdoor Propagation in Speech Language Models
+authors:
+    - Alexandrine Fortier
+    - Thomas Thebaud
+    - Jesús Villalba-Lopez
+    - Najim Dehak
+    - Patrick Cardinal
+    - Peter West
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/fortier26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/fortier26_interspeech.pdf
+session: Speaker Diarization and Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: zhang26_interspeech
+title: 'AURA: Audio-Geometry Conditioned U-Net Refinement with Flow Matching for High-Fidelity Monaural-to-Binaural Synthesis'
+authors:
+    - Wenjie Zhang
+    - Changjun He
+    - Yinghan Cao
+    - Shiyun Xu
+    - Mingjiang Wang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26_interspeech.pdf
+session: Spatial Audio 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

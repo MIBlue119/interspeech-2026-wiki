@@ -1,0 +1,21 @@
+id: geng26b_interspeech
+title: Stabilizing Instruction Supervision for Instruct-TTS via Controllable Diversification and Drift Filtering
+authors:
+    - Yizhong Geng
+    - Kecan Mao
+    - Qifei Li
+    - Cong Wang
+    - Yingming Gao
+    - Ruimin Wang
+    - Chunfeng Wang
+    - Hao Li
+    - Ya Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/geng26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/geng26b_interspeech.pdf
+session: Instruction-following and Controllable Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,14 @@
+id: bhooi26_interspeech
+title: 'Refining the Latent Bridge: Superior ASR Performance via Adapter-Only Alignment with Diffusion LLMs'
+authors:
+    - Puneet Singh Bhooi
+    - Vinayak Abrol
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/bhooi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/bhooi26_interspeech.pdf
+session: 'Robust ASR: Uncertainty and Confidence'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

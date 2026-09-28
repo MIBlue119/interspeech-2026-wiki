@@ -1,0 +1,18 @@
+id: zhang26f_interspeech
+title: 'CoRE: Contrastive Evidence-Aware Rescoring for Multiple-Choice Audio Question Answering'
+authors:
+    - Peihong Zhang
+    - Zhixin Li
+    - Yuxuan Liu
+    - Yiqiang Cai
+    - Yizhou Tan
+    - Shengchen Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26f_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26f_interspeech.pdf
+session: Reasoning with Speech/Audio Language Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

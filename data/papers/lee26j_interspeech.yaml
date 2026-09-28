@@ -1,0 +1,16 @@
+id: lee26j_interspeech
+title: 'WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models'
+authors:
+    - Hanna Lee
+    - Tan Dat Nguyen
+    - Jaehoon Kang
+    - Kyuhong Shim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lee26j_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lee26j_interspeech.pdf
+session: Scaling and Zero-Shot Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

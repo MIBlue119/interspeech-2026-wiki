@@ -1,0 +1,15 @@
+id: li26e_interspeech
+title: Noisy Environment Adaptation of Neural Speech Codec via Focal Mask and Noise Feature Separation
+authors:
+    - Shaokai Li
+    - Weiping Tu
+    - Yuhong Yang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26e_interspeech.pdf
+session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

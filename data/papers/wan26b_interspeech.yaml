@@ -1,0 +1,18 @@
+id: wan26b_interspeech
+title: Continuous Time-Varying Emotion Control Zero-Shot Text-To-Speech With Emotion Orthogonal LoRA
+authors:
+    - Chenchen Wan
+    - Minchuan Chen
+    - Yan Shi
+    - Peng Qi
+    - Shaojun Wang
+    - Jing Xiao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wan26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wan26b_interspeech.pdf
+session: Emotional Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

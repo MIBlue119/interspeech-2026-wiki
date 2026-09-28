@@ -1,0 +1,19 @@
+id: jiang26h_interspeech
+title: An Ultra-Low-Bitrate Neural Speech Codec with Plain-to-Pseudo Synergistic Vector Quantization
+authors:
+    - Xiao-Hang Jiang
+    - Yang Ai
+    - Fei Liu
+    - Rui-Chen Zheng
+    - Jian-Qing Gao
+    - Zhen-Hua Ling
+    - Ji Wu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/jiang26h_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26h_interspeech.pdf
+session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

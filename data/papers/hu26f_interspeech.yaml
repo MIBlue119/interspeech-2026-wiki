@@ -1,0 +1,16 @@
+id: hu26f_interspeech
+title: 'ABSE-NET: A Lightweight Neural Model for Active Binaural Speech Enhancement in Open-Fit Hearing Aids'
+authors:
+    - De Hu
+    - Xue Du
+    - Qingying Zhao
+    - Qintuya Si
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hu26f_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hu26f_interspeech.pdf
+session: Speech Enhancement and Restoration
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

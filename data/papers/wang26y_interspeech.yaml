@@ -1,0 +1,25 @@
+id: wang26y_interspeech
+title: 'AugCodec: A Low-Bitrate Disentangled Neural Speech Codec via Data Augmentation'
+authors:
+    - Dongmei Wang
+    - Xiaohang Sun
+    - Yang Liu
+    - Fanjie Kong
+    - Abhishek Yanamandra
+    - Abhinav Jain
+    - Daniel Tompkins
+    - Woohyun Kang
+    - Najmeh Sadoughi
+    - Sunil Hadap
+    - Xiang Hao
+    - Zhu Liu
+    - Caren Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26y_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26y_interspeech.pdf
+session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,20 @@
+id: lin26k_interspeech
+title: 'BG-CRNN: Boundary-Guided Dynamic Attention for Sound Event Detection in Complex Scenarios'
+authors:
+    - Zongmu Lin
+    - Zhongxin Bai
+    - Jisheng Bai
+    - Zhenru Li
+    - Ting Dang
+    - Gongping Huang
+    - Jingdong Chen
+    - Jacob Benesty
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lin26k_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lin26k_interspeech.pdf
+session: Acoustic Event Detection 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

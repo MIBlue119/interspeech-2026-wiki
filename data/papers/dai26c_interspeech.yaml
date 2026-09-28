@@ -1,0 +1,20 @@
+id: dai26c_interspeech
+title: One-Step Token-to-Waveform Generation with MeanFlow in Latent Space
+authors:
+    - Zheqi Dai
+    - Guangyan Zhang
+    - Zhen Ye
+    - Jingyu Li
+    - Haolin He
+    - Chunyat Wu
+    - Yiwen Guo
+    - Qiuqiang Kong
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/dai26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/dai26c_interspeech.pdf
+session: 'Speech Synthesis: Speech Features, Codec and Representations'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

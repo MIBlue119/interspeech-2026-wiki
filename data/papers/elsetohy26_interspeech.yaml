@@ -1,0 +1,17 @@
+id: elsetohy26_interspeech
+title: 'ArFake: A Robust Framework for Multi-Dialect Arabic Speech Spoofing Detection Benchmark'
+authors:
+    - Mohamed Elsetohy
+    - Alhassan Ehab
+    - Ali Mekky
+    - Besher Hassan
+    - Shady Shehata
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/elsetohy26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/elsetohy26_interspeech.pdf
+session: Spoofing and Deepfake Detection 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

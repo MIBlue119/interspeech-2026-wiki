@@ -1,0 +1,17 @@
+id: ko26b_interspeech
+title: 'SCOLoRA: Similarity Conditioned Signed Orthogonal LoRA for Continual Speaker Adaptation'
+authors:
+    - Ye-Eun Ko
+    - Jae-Hong Lee
+    - Dong-Hyun Kim
+    - Jin-Seong Choi
+    - Joon-Hyuk Chang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ko26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ko26b_interspeech.pdf
+session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

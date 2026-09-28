@@ -1,0 +1,17 @@
+id: xu26l_interspeech
+title: Audio-Language Prompt Learning for Few-Shot Audio Classification
+authors:
+    - Qisheng Xu
+    - Xiaoyi Tan
+    - Wuyang Chen
+    - Yutao Dou
+    - Kele Xu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xu26l_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xu26l_interspeech.pdf
+session: Audio Understanding and Representation Learning
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

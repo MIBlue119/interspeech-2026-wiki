@@ -1,0 +1,21 @@
+id: sun26j_interspeech
+title: 'MSU-Bench: Towards Understanding the Conversational Multi-Speaker Scenarios'
+authors:
+    - Zhaokai Sun
+    - Shuai Wang
+    - Zhennan Lin
+    - Chengyou Wang
+    - Dehui Gao
+    - Yuang Cao
+    - Chunjiang He
+    - Pan Zhou
+    - Lei Xie
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/sun26j_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/sun26j_interspeech.pdf
+session: Spoken Language Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,16 @@
+id: oh26_interspeech
+title: 'L-Proto: Language-Aware Episodic Prototypical Training for Multilingual Speaker Verification'
+authors:
+    - Hyung-Seok Oh
+    - Deok-Hyeon Cho
+    - Seung-Bin Kim
+    - Seong-Whan Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/oh26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/oh26_interspeech.pdf
+session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

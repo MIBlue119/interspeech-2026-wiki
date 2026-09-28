@@ -1,0 +1,17 @@
+id: juvekar26_interspeech
+title: 'Vividh-ASR: A Complexity-Tiered Benchmark and Optimization Dynamics for Robust Indic Speech Recognition'
+authors:
+    - Kush Juvekar
+    - Kavya Manohar
+    - Aditya Srinivas Menon
+    - Arghya Bhattacharya
+    - Kumarmanas Nethil
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/juvekar26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/juvekar26_interspeech.pdf
+session: Multilingual & Low-Resource ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

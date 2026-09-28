@@ -1,0 +1,16 @@
+id: ulgen26_interspeech
+title: 'Rethinking Speaker Embeddings for Speech Generation: Sub-Center Modeling for Capturing Intra-Speaker Diversity'
+authors:
+    - Ismail Rasim Ulgen
+    - John Hansen
+    - Carlos Busso
+    - Berrak Sisman
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ulgen26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ulgen26_interspeech.pdf
+session: 'Speaker Verification: Advances in Speaker Embeddings'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

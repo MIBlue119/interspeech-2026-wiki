@@ -1,0 +1,16 @@
+id: kawamura26_interspeech
+title: 'PASQA: Pitch-Accent-Focused Speech Quality Assessment Model Trained on Synthetic Speech with Accent Errors'
+authors:
+    - Masaya Kawamura
+    - Yuma Shirahata
+    - Kentaro Mitsui
+    - Reo Shimizu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kawamura26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kawamura26_interspeech.pdf
+session: Speech and Audio Quality Assessment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

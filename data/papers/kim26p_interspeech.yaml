@@ -1,0 +1,15 @@
+id: kim26p_interspeech
+title: 'SALT: Selective Allophone-Level Tokenization for Korean Text-to-Speech Synthesis'
+authors:
+    - Kwangsung Kim
+    - Cellik Adams
+    - EunKyoung Jo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kim26p_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kim26p_interspeech.pdf
+session: Text Processing for Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

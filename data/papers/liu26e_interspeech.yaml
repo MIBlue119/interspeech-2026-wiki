@@ -1,0 +1,16 @@
+id: liu26e_interspeech
+title: 'CTC-TTS: LLM-Based Dual-Streaming Text-to-Speech with CTC Alignment'
+authors:
+    - Hanwen Liu
+    - Saierdaer Yusuyin
+    - Hao Huang
+    - Zhijian Ou
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26e_interspeech.pdf
+session: Streaming Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

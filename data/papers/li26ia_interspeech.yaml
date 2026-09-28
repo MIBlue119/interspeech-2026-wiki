@@ -1,0 +1,28 @@
+id: li26ia_interspeech
+title: 'HASS: Hierarchical Simulation of Logopenic Aphasic Speech for Scalable PPA Detection'
+authors:
+    - Harrison Li
+    - Kevin Wang
+    - Cheol Jun Cho
+    - Jiachen Lian
+    - Rabab Rangwala
+    - Chenxu Guo
+    - Emma Yang
+    - Lynn Kurteff
+    - Zoe Ezzes
+    - Willa Keegan-Rodewald
+    - Jet Vonk
+    - Siddarth Ramkrishnan
+    - Giada Antonicelli
+    - Zachary Miller
+    - Marilu Gorno Tempini
+    - Gopala Anumanchipalli
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26ia_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26ia_interspeech.pdf
+session: Pathological Speech Assessment 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

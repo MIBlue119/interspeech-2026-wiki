@@ -1,0 +1,21 @@
+id: tian26_interspeech
+title: 'Bagpiper-TTS: Natural Language Guided Universal Speech Synthesis'
+authors:
+    - Jinchuan Tian
+    - Haoran Wang
+    - Siddhant Arora
+    - Takashi Maekaku
+    - Keita Goto
+    - Jin Sakuma
+    - Yusuke Shinohara
+    - Chao-Han Huck Yang
+    - Shinji Watanabe
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tian26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tian26_interspeech.pdf
+session: LLM Based Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

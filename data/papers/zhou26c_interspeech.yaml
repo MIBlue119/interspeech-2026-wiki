@@ -1,0 +1,21 @@
+id: zhou26c_interspeech
+title: 'UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models'
+authors:
+    - Jiaming Zhou
+    - Haoqin Sun
+    - Hui Wang
+    - Jinghua Zhao
+    - Yuhang Jia
+    - Shiyao Wang
+    - Enzhi Wang
+    - Shiwan Zhao
+    - Yong Qin
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhou26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26c_interspeech.pdf
+session: Evaluation of Speech and Audio Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

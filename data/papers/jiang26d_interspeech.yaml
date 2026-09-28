@@ -1,0 +1,27 @@
+id: jiang26d_interspeech
+title: 'FreeSonic: Training-Free Temporal-Aware Decoupled Attention for Precise Audio Editing'
+authors:
+    - Yuxuan Jiang
+    - Mingyang Han
+    - Yusheng Dai
+    - Andong Wang
+    - Tianhong Zhou
+    - Jiaxin Ye
+    - Dongxiao Wang
+    - Haoxiang Shi
+    - Boyu Li
+    - Jun Song
+    - Cheng Yu
+    - Bo Zheng
+    - Weibei Dou
+    - Zehua Chen
+    - Jun Zhu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/jiang26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26d_interspeech.pdf
+session: Audio Foundation Models and Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

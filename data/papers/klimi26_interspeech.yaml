@@ -1,0 +1,19 @@
+id: klimi26_interspeech
+title: 'Beyond Standard Greek: Adapting Whisper for Greek Dialects through Curriculum Multitask Learning'
+authors:
+    - Antigoni Klimi
+    - Dimitrios Damianos
+    - Stavros Bompolas
+    - Vivian Stamou
+    - Stella Markantonatou
+    - Vassilis Katsouros
+    - Georgios Paraskevopoulos
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.pdf
+session: Multilingual & Low-Resource ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

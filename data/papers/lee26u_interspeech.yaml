@@ -1,0 +1,16 @@
+id: lee26u_interspeech
+title: 'LLM-as-Joiner: Decoupling Alignment from Language Modeling in Label-synchronous ASR'
+authors:
+    - Jaeyoung Lee
+    - Masato Mimura
+    - Ryo Magoshi
+    - Tatsuya Kawahara
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lee26u_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lee26u_interspeech.pdf
+session: New Training Methods for ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

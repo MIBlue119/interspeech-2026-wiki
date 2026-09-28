@@ -1,0 +1,15 @@
+id: susac26_interspeech
+title: Stuttering Classification and Segmentation with Attention-Based Multiple Instance Learning
+authors:
+    - Petar Sušac
+    - Sebastian P. Bayerl
+    - Hrvoje Džapo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/susac26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/susac26_interspeech.pdf
+session: Speech and Language Technologies in Healthcare
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

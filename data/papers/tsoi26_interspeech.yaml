@@ -1,0 +1,20 @@
+id: tsoi26_interspeech
+title: 'Next-Turn: Duration-Aware Streaming Endpoint Detection via Time-to-Next-Speech-Onset Prediction'
+authors:
+    - Tristan Tsoi
+    - Jiajun Deng
+    - Yingke Zhu
+    - Huu Quyen Dang
+    - Tianxiang Cao
+    - Nikita Kuzmin
+    - Tao Zhong
+    - Simon Lui
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tsoi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tsoi26_interspeech.pdf
+session: Audio segmentation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

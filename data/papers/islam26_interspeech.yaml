@@ -1,0 +1,17 @@
+id: islam26_interspeech
+title: 'CAPS: A Cascaded Reconstruction Model to Power Saving in Hearables Using Sub-Nyquist Sampling with Bandwidth Extension'
+authors:
+    - Tarikul Islam
+    - Sajid F. Dipto
+    - Luke B. Baja-Ricketts
+    - David C. Vergano
+    - Anomadarshi Barua
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/islam26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/islam26_interspeech.pdf
+session: Multi-Channel Processing and Specialized Acquisition (UAV, Radar, Hearables)
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

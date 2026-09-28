@@ -1,0 +1,15 @@
+id: baek26_interspeech
+title: 'SPARK: Efficient Audio-Text Matching for User-Defined Keyword Spotting via Spiking Neural Networks'
+authors:
+    - Seung-Yeop Baek
+    - Sangho Han
+    - Joon-Hyuk Chang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/baek26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/baek26_interspeech.pdf
+session: Information Extraction and Retrieval
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

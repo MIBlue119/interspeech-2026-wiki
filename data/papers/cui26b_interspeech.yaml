@@ -1,0 +1,20 @@
+id: cui26b_interspeech
+title: Dictionary-Free Discrete Key-Value Attention for Improving Speech Enhancement
+authors:
+    - Zihao Cui
+    - Jinwei Huang
+    - Tao Li
+    - Rongxiu Zhong
+    - Yingying Gao
+    - Shilei Zhang
+    - Chao Deng
+    - Junlan Feng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/cui26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/cui26b_interspeech.pdf
+session: SE Architectures, Adaptation and Audio Front-Ends
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

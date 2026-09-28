@@ -1,0 +1,14 @@
+id: mojarad26_interspeech
+title: Layer-wise Probing of wav2vec 2.0 and Whisper for Consonant Cluster Reduction in African American English
+authors:
+    - Hamid Mojarad
+    - Kevin Tang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mojarad26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mojarad26_interspeech.pdf
+session: Pronunciation Diversity
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,15 @@
+id: park26b_interspeech
+title: Accurate Source-Free Speech Classification via Meta-Learned Target-Centric Model Merging
+authors:
+    - Ka Hyun Park
+    - Junghun Kim
+    - U Kang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/park26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/park26b_interspeech.pdf
+session: New Training Methods for ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

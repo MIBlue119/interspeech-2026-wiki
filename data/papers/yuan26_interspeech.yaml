@@ -1,0 +1,17 @@
+id: yuan26_interspeech
+title: 'STSR: High-Fidelity Speech Super-Resolution via Spectral-Transient Context Modeling'
+authors:
+    - Jiajun Yuan
+    - Xiaochen Wang
+    - Yulin Wu
+    - Chenhao Hu
+    - Xueyang Lv
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yuan26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yuan26_interspeech.pdf
+session: Dereverberation, Bandwidth Extension and Restoration
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

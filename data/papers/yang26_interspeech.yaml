@@ -1,0 +1,24 @@
+id: yang26_interspeech
+title: Multi-Channel Differential ASR for Robust Wearer Speech Recognition on Smart Glasses
+authors:
+    - Yufeng Yang
+    - Yiteng Huang
+    - Yong Xu
+    - Li Wan
+    - Suwon Shon
+    - Yang Liu
+    - Yifeng Fan
+    - Zhaojun Yang
+    - Olivier Siohan
+    - Yue Liu
+    - Ming Sun
+    - Florian Metze
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26_interspeech.pdf
+session: Robust and Real-World ASR Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

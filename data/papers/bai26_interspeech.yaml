@@ -1,0 +1,19 @@
+id: bai26_interspeech
+title: 'Towards Chinese Yue Opera Singing Voice Synthesis: A Benchmark with Dataset, Data Augmentation and Baseline Model'
+authors:
+    - Peng Bai
+    - Chenyang Lyu
+    - Yue Zhou
+    - Wujin Sun
+    - Longyue Wang
+    - Weihua Luo
+    - Xiaodong Shi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/bai26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/bai26_interspeech.pdf
+session: Singing Voice and Music Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

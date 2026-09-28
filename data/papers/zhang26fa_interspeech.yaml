@@ -1,0 +1,17 @@
+id: zhang26fa_interspeech
+title: 'MPA-KWS: Multi-Modal Phoneme-Level Alignment for Streaming Open-Vocabulary Keyword Spotting'
+authors:
+    - Jue Zhang
+    - Guibin Zheng
+    - Jiarui Zhang
+    - Jiqing Han
+    - Chenhao Jing
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26fa_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26fa_interspeech.pdf
+session: Information Extraction and Retrieval
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,18 @@
+id: chen26y_interspeech
+title: Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance
+authors:
+    - Minchuan Chen
+    - Chenchen Wan
+    - Junjie Li
+    - Peng Qi
+    - Shaojun Wang
+    - Jing Xiao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26y_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26y_interspeech.pdf
+session: Flow Matching for Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

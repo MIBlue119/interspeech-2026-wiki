@@ -1,0 +1,18 @@
+id: chen26o_interspeech
+title: 'CE-CoT: A Contrastive Empathetic Chain-of-Thought Training Strategy for Improving Emotion Consensus in Empathetic Speech LLMs'
+authors:
+    - Jing-Han Chen
+    - Ya-Tse Wu
+    - Bo-Hao Su
+    - Xin-Yu Chen
+    - Krishna Somandepalli
+    - Chi-Chun Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26o_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26o_interspeech.pdf
+session: Empathetic Dialogue and Interaction Dynamics
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

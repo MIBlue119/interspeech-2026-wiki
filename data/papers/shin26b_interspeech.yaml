@@ -1,0 +1,15 @@
+id: shin26b_interspeech
+title: 'EchoLoc: Audio-Aware Object Grounding via Joint Heatmap and Box-Level Localization'
+authors:
+    - Junghwa Shin
+    - Yeonwoo Kim
+    - HyungJune Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shin26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shin26b_interspeech.pdf
+session: Audio-Visual Grounding, Synchronization & Video Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,16 @@
+id: gachot26_interspeech
+title: A Generalized Formalism of Auto-Regressive Decoding for Speech Processing
+authors:
+    - Julia Gachot
+    - Philipp Allgeuer
+    - Marie S. Bauer
+    - Stefan Wermter
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/gachot26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/gachot26_interspeech.pdf
+session: Search Methods and Inference Algorithms
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

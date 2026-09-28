@@ -1,0 +1,15 @@
+id: liang26c_interspeech
+title: Text-Independent Speaker Verification Using Discrete Audio Tokens
+authors:
+    - Zheng Liang
+    - Junjie Li
+    - Kong Aik Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liang26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liang26c_interspeech.pdf
+session: 'Speaker Verification: Architectures, Losses, and LLMs'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

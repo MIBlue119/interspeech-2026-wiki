@@ -1,0 +1,18 @@
+id: arefeen26_interspeech
+title: 'DAST: A Dual-Stream Voice Anonymization Attacker with Staged Training'
+authors:
+    - Ridwan Arefeen
+    - Xiaoxiao Miao
+    - Rong Tong
+    - Timothy Liu
+    - Aik Beng Ng
+    - Simon See
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/arefeen26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/arefeen26_interspeech.pdf
+session: Speaker Privacy Preservation and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

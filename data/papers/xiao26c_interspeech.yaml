@@ -1,0 +1,20 @@
+id: xiao26c_interspeech
+title: 'Evidence Subspace Projection: Measuring How Much Evidence Explains Deepfake Detection in Self-Supervised Speech Models'
+authors:
+    - Yixuan Xiao
+    - Cheng-Wei Lin
+    - Xin Wang
+    - Yassine El Kheir
+    - Arnab Das
+    - Tim Polzehl
+    - Sebastian Möller
+    - Ngoc Thang Vu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xiao26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xiao26c_interspeech.pdf
+session: Spoofing and Deepfake Detection 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

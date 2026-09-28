@@ -1,0 +1,16 @@
+id: choi26_interspeech
+title: Systematic PTQ Study of Integer and Floating-Point Formats for On-Device Whisper ASR
+authors:
+    - Woosuk Choi
+    - Dohyeon Lee
+    - Taehyung Kim
+    - Hyukjun Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/choi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/choi26_interspeech.pdf
+session: Resource Constrained Speech Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

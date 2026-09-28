@@ -1,0 +1,15 @@
+id: hayden26_interspeech
+title: Accent-Emotion Entanglement in LM-Based Text-to-Speech Systems
+authors:
+    - Matthew Hayden
+    - Jinzuomu Zhong
+    - Korin Richmond
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hayden26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hayden26_interspeech.pdf
+session: Instruction-following and Controllable Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

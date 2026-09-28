@@ -1,0 +1,16 @@
+id: nkouanga26_interspeech
+title: Mitigating Speaker Leakage in Cascaded Multi-talker ASR with Diarization-based Transcript Correction
+authors:
+    - Hermann Yepdjio Nkouanga
+    - Minwei Luo
+    - Maggie Wigness
+    - Suresh Singh
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/nkouanga26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/nkouanga26_interspeech.pdf
+session: Multi-Speaker Processing, Personalization, and Adaptation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

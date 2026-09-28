@@ -1,0 +1,14 @@
+id: jeon26c_interspeech
+title: 'Not All Frames Are Equal: Difference-Aware Quantization for Ultra-Low-Bit ASR'
+authors:
+    - Woori Jeon
+    - Jungmin So
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/jeon26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/jeon26c_interspeech.pdf
+session: Resource Constrained Speech Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

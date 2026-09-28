@@ -1,0 +1,16 @@
+id: gao26_interspeech
+title: 'NoiseLoRA-SV: Hierarchical Noise-Conditioned Adaptation with Embedding Distillation for Robust Speaker Verification'
+authors:
+    - Dai Gao
+    - Chen Jiang
+    - Sizhe Liu
+    - Peng Zhang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/gao26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/gao26_interspeech.pdf
+session: 'Speaker Verification: Advances in Speaker Embeddings'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

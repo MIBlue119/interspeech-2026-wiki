@@ -1,0 +1,15 @@
+id: zhang26x_interspeech
+title: 'VoxEffects: A Speech-Oriented Audio Effects Dataset and Benchmark'
+authors:
+    - Zhe Zhang
+    - Yigitcan Özer
+    - Junichi Yamagishi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26x_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26x_interspeech.pdf
+session: Evaluation of Speech and Audio Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: hao26b_interspeech
+title: Can Large Language Models Reliably Correct Errors in Low-Resource ASR? A Contamination-Aware Case Study on West Frisian
+authors:
+    - Yun Hao
+    - Reihaneh Amooie
+    - Wietse de Vries
+    - Rik van Noord
+    - Martijn Wieling
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hao26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hao26b_interspeech.pdf
+session: Cross-Lingual and Multilingual Speech Recognition 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

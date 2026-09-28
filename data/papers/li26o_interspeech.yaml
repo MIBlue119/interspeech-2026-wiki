@@ -1,0 +1,20 @@
+id: li26o_interspeech
+title: 'Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models'
+authors:
+    - Longhao Li
+    - Hongjie Chen
+    - Zehan Li
+    - Qihan Hu
+    - Jian Kang
+    - Jie Li
+    - Lei Xie
+    - Yongxiang Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26o_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26o_interspeech.pdf
+session: Challenge - Audio Reasoning Challenge
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

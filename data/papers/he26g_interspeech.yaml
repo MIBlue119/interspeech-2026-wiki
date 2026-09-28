@@ -1,0 +1,18 @@
+id: he26g_interspeech
+title: 'MOV-AAD: A Large-Scale Multimodal Dataset for Auditory Attention Decoding During Moving Conversations'
+authors:
+    - Xiaomin He
+    - Vishal Choudhari
+    - Tristan J. Spratt
+    - Aarya Raghavan
+    - Richard T. Lee
+    - Nima Mesgarani
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/he26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/he26g_interspeech.pdf
+session: Audio-Visual and Multimodal Perception
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

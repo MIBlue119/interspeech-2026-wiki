@@ -1,0 +1,17 @@
+id: borodin26b_interspeech
+title: 'When Spoof Detectors Travel: Evaluation Across 66 Languages in the Low-Resource Language Spoofing Corpus'
+authors:
+    - Kirill Borodin
+    - Vasiliy Kudryavtsev
+    - Maxim Maslov
+    - Mikhail Gorodnichev
+    - Grach Mkrtchian
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/borodin26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/borodin26b_interspeech.pdf
+session: Spoofing and Deepfake Detection 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,15 @@
+id: weller26_interspeech
+title: 'HaessigDB: A Database of Irritable Speech with Intensity Grading'
+authors:
+    - Niklas Weller
+    - Marc Grau
+    - Ivo Blohm
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/weller26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/weller26_interspeech.pdf
+session: Datasets
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

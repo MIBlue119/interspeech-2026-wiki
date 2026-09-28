@@ -1,0 +1,19 @@
+id: fan26b_interspeech
+title: Robust Multi-Tier Infant-Centered Audio Understanding with Whisper via Structured Speaker Conditioning
+authors:
+    - Xulin Fan
+    - Jialu Li
+    - Mohammad Nur Hossain Khan
+    - Kexin Hu
+    - Bashima Islam
+    - Mark Hasegawa-Johnson
+    - Nancy L. McElwain
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/fan26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/fan26b_interspeech.pdf
+session: 'CHILDSPACE: Child Home Interaction & Language Dynamics: Speech, Psychology, Affect, Computation, and Environments'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

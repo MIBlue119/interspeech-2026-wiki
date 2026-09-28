@@ -1,0 +1,15 @@
+id: sannigrahi26_interspeech
+title: 'AdaTS: Adaptive Token Sampling for Efficient Speech Language Models'
+authors:
+    - Sonal Sannigrahi
+    - Giuseppe Attanasio
+    - André F. T. Martins
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/sannigrahi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/sannigrahi26_interspeech.pdf
+session: Efficient Inference for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

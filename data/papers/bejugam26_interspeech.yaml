@@ -1,0 +1,15 @@
+id: bejugam26_interspeech
+title: 'UFL-GAN: A Multi-Discriminator GAN for Unsupervised Speech Enhancement'
+authors:
+    - Satvik Bejugam
+    - Venkatesh Parvathala
+    - Sri Rama Murty Kodukula
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/bejugam26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/bejugam26_interspeech.pdf
+session: Generative and Self-Supervised Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

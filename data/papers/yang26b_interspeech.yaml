@@ -1,0 +1,16 @@
+id: yang26b_interspeech
+title: 'Enroll-on-Wakeup: A First Comparative Study of Target Speech Extraction for Seamless Interaction in Real Noisy Human-Machine Dialogue Scenarios'
+authors:
+    - Yiming Yang
+    - Guangyong Wang
+    - Haixin Guan
+    - Yanhua Long
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26b_interspeech.pdf
+session: Target Speaker Extraction, Speech Separation and Audio Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

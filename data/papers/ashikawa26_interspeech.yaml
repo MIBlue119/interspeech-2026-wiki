@@ -1,0 +1,16 @@
+id: ashikawa26_interspeech
+title: Audio-KWS-Gated Error Memory Retrieval for Incremental ASR Post-Correction
+authors:
+    - Taira Ashikawa
+    - Daichi Hayakawa
+    - Takehiko Kagoshima
+    - Tomoki Watanabe
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ashikawa26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ashikawa26_interspeech.pdf
+session: Robust and Real-World ASR Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

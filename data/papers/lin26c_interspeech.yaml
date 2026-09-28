@@ -1,0 +1,18 @@
+id: lin26c_interspeech
+title: 'Hearing the Order: Investigating Position Bias in Large Audio-Language Models'
+authors:
+    - Yu-Xiang Lin
+    - Chen-An Li
+    - Sheng-Lun Wei
+    - Po-Chun Chen
+    - Hsin-Hsi Chen
+    - Hung-yi Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lin26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lin26c_interspeech.pdf
+session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

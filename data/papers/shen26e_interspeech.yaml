@@ -1,0 +1,15 @@
+id: shen26e_interspeech
+title: Adaptive Hard-Pair Sampling via Curriculum Learning for Speech Separation
+authors:
+    - Pengjie Shen
+    - Xueliang Zhang
+    - Zhong-Qiu Wang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shen26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shen26e_interspeech.pdf
+session: Source Separation 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

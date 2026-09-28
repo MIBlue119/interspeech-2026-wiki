@@ -1,0 +1,19 @@
+id: zhao26d_interspeech
+title: Speech-Worthy Alignment for Japanese SpeechLLMs via Direct Preference Optimization
+authors:
+    - Mengjie Zhao
+    - Lianbo Liu
+    - Yusuke Fujita
+    - Hao Shi
+    - Yuan Gao
+    - Roman Koshkin
+    - Yui Sudo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhao26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26d_interspeech.pdf
+session: Text Processing for Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

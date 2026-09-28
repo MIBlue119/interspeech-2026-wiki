@@ -1,0 +1,17 @@
+id: li26h_interspeech
+title: 'SRF-SVB: Style-Consistent Singing Voice Beautifying via Rectified Flow'
+authors:
+    - Wenhui Li
+    - Biao Dong
+    - Liwei Hu
+    - Jiqing Han
+    - Yongjun He
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26h_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26h_interspeech.pdf
+session: Singing Voice and Music Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

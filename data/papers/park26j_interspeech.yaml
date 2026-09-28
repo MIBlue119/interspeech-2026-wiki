@@ -1,0 +1,15 @@
+id: park26j_interspeech
+title: 'From Masking to Merging: Rethinking SpecAugment for Efficient Audio Spectrogram Transformer'
+authors:
+    - Minhee Park
+    - Hyowon Ahn
+    - Chanwoo Kim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/park26j_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/park26j_interspeech.pdf
+session: Acoustic Event Detection 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

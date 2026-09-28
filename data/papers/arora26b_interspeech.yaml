@@ -1,0 +1,17 @@
+id: arora26b_interspeech
+title: 'VIB-AVSR: Variational Information Bottleneck for Noise-Robust LLM-Based Audio-Visual Speech Recognition'
+authors:
+    - Piyush Arora
+    - Navlika Singh
+    - Umberto Cappellazzo
+    - Stavros Petridis
+    - Maja Pantic
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/arora26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/arora26b_interspeech.pdf
+session: Robust Audio-Visual Speech Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

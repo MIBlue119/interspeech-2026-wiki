@@ -1,0 +1,16 @@
+id: kumar26_interspeech
+title: 'Listening with Attention: Entropy-Guided Explainability for Transformer-Based Audio Models'
+authors:
+    - Ravi Kumar
+    - Utkarsh Grover
+    - Xiaomin Lin
+    - Agoritsa Polyzou
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kumar26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26_interspeech.pdf
+session: Long-form Audio & New Attention Approaches
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

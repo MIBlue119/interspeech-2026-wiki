@@ -1,0 +1,16 @@
+id: carvalho26_interspeech
+title: Exploring the potential and limitations of Model Merging for Multi-Domain Adaptation in ASR
+authors:
+    - Carlos Carvalho
+    - Francisco Teixeira
+    - Thomas Rolland
+    - Alberto Abad
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/carvalho26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/carvalho26_interspeech.pdf
+session: Domain Adaptation & Accented ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,21 @@
+id: shen26b_interspeech
+title: 'LaS-LCA: Layer-Selected Latent Cross-Attention Adapters and Margin-Mixup for Robust Cross-Lingual Speaker Verification'
+authors:
+    - Xu Shen
+    - Yihao Zhao
+    - Xinwei Wu
+    - Hao Liang
+    - Yujie Zhu
+    - Yujin Wang
+    - Wei Liu
+    - Gongping Huang
+    - Shoji Makino
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/shen26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/shen26b_interspeech.pdf
+session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

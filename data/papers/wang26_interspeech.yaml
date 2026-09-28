@@ -1,0 +1,17 @@
+id: wang26_interspeech
+title: 'WildElder: A Chinese Elderly Speech Dataset from the Wild with Fine-Grained Manual Annotations'
+authors:
+    - Hui Wang
+    - Jiaming Zhou
+    - Jiabei He
+    - Haoqin Sun
+    - Yong Qin
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26_interspeech.pdf
+session: 'Robust ASR: Hallucinations and Biases'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

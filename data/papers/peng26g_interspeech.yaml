@@ -1,0 +1,19 @@
+id: peng26g_interspeech
+title: Cross-modal Consistency Guidance for Robust Emotion Control in Auto-Regressive TTS Models
+authors:
+    - Yizhou Peng
+    - Yukun Ma
+    - Chong Zhang
+    - Yi-Wen Chao
+    - Chongjia Ni
+    - Bin Ma
+    - Eng Siong Chng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/peng26g_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/peng26g_interspeech.pdf
+session: Emotional Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

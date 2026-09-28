@@ -1,0 +1,14 @@
+id: kim26v_interspeech
+title: 'SDP-Codec: A Speaker-Decoupled Speech Codec with Pitch Injection for Low-Bitrate Coding and Zero-Shot Voice Conversion'
+authors:
+    - Hounsu Kim
+    - Juhan Nam
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kim26v_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kim26v_interspeech.pdf
+session: Neural Audio Codec Architectures
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

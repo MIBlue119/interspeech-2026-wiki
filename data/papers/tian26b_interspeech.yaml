@@ -1,0 +1,17 @@
+id: tian26b_interspeech
+title: 'DDSN: A Physics-Aware Decoupled Dual-Stream Network for Speech Packet Loss Concealment'
+authors:
+    - Hao Tian
+    - Yonghui Liu
+    - Jianbing Liu
+    - Kai Niu
+    - Zhiqiang He
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tian26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tian26b_interspeech.pdf
+session: Active Noise and Echo Control, Sound Zones and Packet-Loss Concealment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

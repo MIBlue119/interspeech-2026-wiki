@@ -1,0 +1,16 @@
+id: berdo26_interspeech
+title: Post-Training Speech Enhancement Language Models with Perceptual Rewards
+authors:
+    - Frédéric Berdoȥ
+    - Luca A. Lanzendöerfer
+    - Antonis Asonitis
+    - Roger Wattenhofer
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/berdo26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/berdo26_interspeech.pdf
+session: Language-Model and Codec-Token Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

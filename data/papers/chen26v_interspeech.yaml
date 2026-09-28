@@ -1,0 +1,22 @@
+id: chen26v_interspeech
+title: 'SARA: A Dual-Stream VAE for High-Fidelity Speech Generation via Integrating Semantic and Acoustic Representations'
+authors:
+    - Peijie Chen
+    - Wenhao Guan
+    - Weijie Wu
+    - Kaidi Wang
+    - Daiyu Huang
+    - Zhuanling Zha
+    - Junbo Li
+    - Jun Fang
+    - Qingyang Hong
+    - Lin Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26v_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26v_interspeech.pdf
+session: Acoustic Signal Analysis and Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

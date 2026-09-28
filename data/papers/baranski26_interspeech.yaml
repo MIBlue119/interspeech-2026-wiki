@@ -1,0 +1,17 @@
+id: baranski26_interspeech
+title: 'HALAS: A Human-Annotated Dataset of Hallucinations of Modern ASR Systems'
+authors:
+    - Mateusz Barański
+    - Jan Jasiński
+    - Julitta Bartolewska
+    - Marcin Witkowski
+    - Konrad Kowalczyk
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/baranski26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/baranski26_interspeech.pdf
+session: Speech Benchmarks, Evaluation, and Resources
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

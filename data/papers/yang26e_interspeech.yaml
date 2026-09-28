@@ -1,0 +1,17 @@
+id: yang26e_interspeech
+title: Schrödinger Bridge Mamba for One-Step Speech Enhancement
+authors:
+    - Jing Yang
+    - Sirui Wang
+    - Chao Wu
+    - Lei Guo
+    - Fan Fan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26e_interspeech.pdf
+session: 'Neural Speech Enhancement: Survey, Diffusion and Flow Matching'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

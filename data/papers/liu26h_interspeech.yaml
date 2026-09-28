@@ -1,0 +1,17 @@
+id: liu26h_interspeech
+title: Confidence-Gated Mean-Teacher Consistency Regularization for Low-Resource Multilingual ASR with Shared–Private Fusion-LoRA
+authors:
+    - Jie Liu
+    - Liang He
+    - Longwei Li
+    - Qingyuan Ma
+    - Xuejian Zhao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26h_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26h_interspeech.pdf
+session: Cross-Lingual and Multilingual Speech Recognition 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

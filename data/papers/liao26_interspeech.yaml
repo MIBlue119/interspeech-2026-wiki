@@ -1,0 +1,17 @@
+id: liao26_interspeech
+title: Role-Aware Semi-Supervised Domain Adaptation for Teacher-Student Speaker Diarization
+authors:
+    - Zhen Liao
+    - Gaole Dai
+    - Weiwei Jiang
+    - Mengting Wang
+    - Wei Xu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liao26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liao26_interspeech.pdf
+session: Speaker Diarization 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

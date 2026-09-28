@@ -1,0 +1,17 @@
+id: annamdevula26_interspeech
+title: 'CrossAccent-TTS: Cross-Lingual Accent-Intensity Controllable Text-to-Speech via Disentangled Speaker and Accent Representations'
+authors:
+    - Ram Annamdevula
+    - Ankit Tatawat
+    - Ashishkumar P. Gudmalwar
+    - Nirmesh J. Shah
+    - Pankaj Wasnik
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/annamdevula26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/annamdevula26_interspeech.pdf
+session: Controllable and Expressive Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

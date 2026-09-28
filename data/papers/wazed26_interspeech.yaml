@@ -1,0 +1,16 @@
+id: wazed26_interspeech
+title: 'CLEAR: Clinical LLM Embedding and Attention-based Reconstruction'
+authors:
+    - Eashita Wazed
+    - Hieyong Jeong
+    - Choonsung Shin
+    - Shima Okada
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wazed26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wazed26_interspeech.pdf
+session: Acoustic Event Detection 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

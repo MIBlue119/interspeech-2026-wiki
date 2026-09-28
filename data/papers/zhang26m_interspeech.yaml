@@ -1,0 +1,19 @@
+id: zhang26m_interspeech
+title: 'Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions'
+authors:
+    - Junhui Zhang
+    - Qianhui Xu
+    - Qingxiang Guo
+    - Dawei Yang
+    - Ling Miao
+    - Qiangqiang Wang
+    - Yang Song
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26m_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26m_interspeech.pdf
+session: Instruction-following and Controllable Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

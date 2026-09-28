@@ -1,0 +1,16 @@
+id: naveriani26_interspeech
+title: Diffusion Language Models for Speech Recognition
+authors:
+    - Davyd Naveriani
+    - Albert Zeyer
+    - Ralf Schlüter
+    - Hermann Ney
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/naveriani26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/naveriani26_interspeech.pdf
+session: New Architecture and Analyses for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

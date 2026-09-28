@@ -1,0 +1,17 @@
+id: camara26c_interspeech
+title: Acoustic Landmark Detector based on Conformer and HuBERT
+authors:
+    - Mateo Cámara
+    - José Luis Blanco
+    - Juan Ignacio Godino-Llorente
+    - Jeung-Yoon Choi
+    - Stefanie Shattuck-Hufnagel
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.pdf
+session: Acoustic Event Detection 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

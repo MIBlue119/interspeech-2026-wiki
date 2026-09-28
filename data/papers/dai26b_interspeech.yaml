@@ -1,0 +1,24 @@
+id: dai26b_interspeech
+title: Joint Learning Global-Local Speaker Classification to Enhance End-to-End Speaker Diarization and Recognition
+authors:
+    - Yuhang Dai
+    - Haopeng Lin
+    - Jiale Qian
+    - Ruiqi Yan
+    - Hao Meng
+    - Hanke Xie
+    - Hanlin Wen
+    - Shunshun Yin
+    - Ming Tao
+    - Xie Chen
+    - Lei Xie
+    - Xinsheng Wang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/dai26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/dai26b_interspeech.pdf
+session: Speaker Diarization 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,19 @@
+id: chao26_interspeech
+title: 'RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation'
+authors:
+    - Rong Chao
+    - Sung-Feng Huang
+    - Moreno La Quatra
+    - Sabato Marco Siniscalchi
+    - Wen-Huang Cheng
+    - Szu-Wei Fu
+    - Yu Tsao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chao26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chao26_interspeech.pdf
+session: Real-Time, Low-Latency and Edge Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

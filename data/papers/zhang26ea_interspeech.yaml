@@ -1,0 +1,16 @@
+id: zhang26ea_interspeech
+title: 'AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning'
+authors:
+    - Liyun Zhang
+    - Xuanmeng Sha
+    - Shuqiong Wu
+    - Fengkai Liu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26ea_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26ea_interspeech.pdf
+session: Speech Emotion Recognition and Representation 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

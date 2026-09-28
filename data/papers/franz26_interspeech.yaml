@@ -1,0 +1,16 @@
+id: franz26_interspeech
+title: 'From Echo to Accuracy: Robust Voice Quality Assessment Using Blind Unsupervised Diffusion-based Dereverberation'
+authors:
+    - Sven Franz
+    - Tanja Grewe
+    - Bernd T. Meyer
+    - Jörg Bitzer
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/franz26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/franz26_interspeech.pdf
+session: Pathological Speech Assessment 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

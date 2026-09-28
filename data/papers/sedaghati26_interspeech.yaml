@@ -1,0 +1,16 @@
+id: sedaghati26_interspeech
+title: 'VoxWatermark: A Large-Scale Benchmark for Audio Watermark Detection under Perturbations'
+authors:
+    - Farnaz Sedaghati
+    - Yuxi Wang
+    - Zicheng Weng
+    - Wei Rao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/sedaghati26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/sedaghati26_interspeech.pdf
+session: Audio Watermarking and Source Verification
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

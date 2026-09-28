@@ -1,0 +1,13 @@
+id: yang26r_interspeech
+title: A Compact Fully-Open Cache-Aware Streaming Model for Japanese ASR
+authors:
+    - Yinchang Yang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26r_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26r_interspeech.pdf
+session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

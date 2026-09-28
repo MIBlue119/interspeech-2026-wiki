@@ -1,0 +1,19 @@
+id: rao26_interspeech
+title: A Causal Reference-Enhanced Keep-Speech Active Noise Control Method
+authors:
+    - Li Rao
+    - Xiaobin Rong
+    - Yu Sun
+    - Yiming He
+    - Kai Chen
+    - Haishan Zou
+    - Jing Lu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/rao26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/rao26_interspeech.pdf
+session: Active Noise and Echo Control, Sound Zones and Packet-Loss Concealment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,25 @@
+id: ye26_interspeech
+title: Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation
+authors:
+    - Zhen Ye
+    - Xu Tan
+    - Yiming Li
+    - Guangyan Zhang
+    - Chimin Chan
+    - Haohe Liu
+    - Zhengxi Liu
+    - Hongzhan Lin
+    - Zheqi Dai
+    - Xinshen Zhang
+    - Peiwen Sun
+    - Qiuqiang Kong
+    - Wei Xue
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ye26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ye26_interspeech.pdf
+session: Speech Representations and Alignment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,19 @@
+id: koluguri26_interspeech
+title: 'Preference-ASR: A Preference-Aware Test Set for Benchmarking ASR in the Era of Speech LLMs'
+authors:
+    - Nithin Rao Koluguri
+    - Sasha Meister
+    - Nikolay Karpov
+    - Piotr Żelasko
+    - Desh Raj
+    - Jagadeesh Balam
+    - Boris Ginsburg
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.pdf
+session: Speech Benchmarks, Evaluation, and Resources
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,15 @@
+id: zorila26_interspeech
+title: 'From Noisy Speech to Accurate APIs: LLM-driven Embedding Steering for Resilient Tool Retrieval'
+authors:
+    - Catalin Zorilă
+    - Qingxiuxiong Dong
+    - Rama Doddipatla
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.pdf
+session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

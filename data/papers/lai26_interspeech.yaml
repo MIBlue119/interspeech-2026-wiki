@@ -1,0 +1,17 @@
+id: lai26_interspeech
+title: 'Lung-CL: Spectrum-aware Distillation and Generative Replay for Continual Learning based buffer-free Respiratory Sound Classification'
+authors:
+    - Qinben Lai
+    - Lukui Shi
+    - Jiaxin Zhao
+    - Wenjuan Wang
+    - Shuai Liu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lai26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lai26_interspeech.pdf
+session: Pathological Speech Assessment 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

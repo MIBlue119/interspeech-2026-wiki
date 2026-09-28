@@ -1,0 +1,15 @@
+id: vaaras26_interspeech
+title: 'TSExplorer: An interactive data annotation and exploration tool for time-series data'
+authors:
+    - Einari Vaaras
+    - Manu Airaksinen
+    - Okko Räsänen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/vaaras26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/vaaras26_interspeech.pdf
+session: Speech Analysis, Data Resources and Research Tools
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,15 @@
+id: metzger26_interspeech
+title: Scaling Human and G2P Supervision for Robust Phonetic Transcription
+authors:
+    - Alexander Metzger
+    - Aruna Srivastava
+    - Ruslan Mukhamedvaleev
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/metzger26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/metzger26_interspeech.pdf
+session: Tools and Techniques for Phonetic Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,16 @@
+id: hu26_interspeech
+title: 'ArtNet: A JEPA-Like Articulatory Predictive Framework for Robust Zero-Shot Phoneme Recognition'
+authors:
+    - Zeqian Hu
+    - Fuliang Weng
+    - Shu Shang
+    - Yaqian Zhou
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/hu26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/hu26_interspeech.pdf
+session: Tools and Techniques for Phonetic Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

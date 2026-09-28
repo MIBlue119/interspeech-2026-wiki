@@ -1,0 +1,18 @@
+id: suzuki26_interspeech
+title: 'ELSA: Acoustic Event-Level Semantic Alignment for Fine-Grained Reference-Free Text-to-Audio Evaluation'
+authors:
+    - Shuntaro Suzuki
+    - Kento Tokura
+    - Daichi Yashima
+    - Kanon Amemiya
+    - Komei Sugiura
+    - Shinnosuke Takamichi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/suzuki26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/suzuki26_interspeech.pdf
+session: Evaluation of Speech and Audio Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

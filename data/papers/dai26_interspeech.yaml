@@ -1,0 +1,19 @@
+id: dai26_interspeech
+title: Consistency-Regularized Dual-Branch Network with Performance-Aware Mean Teacher for Sound Event Detection
+authors:
+    - Lipeng Dai
+    - Qing Wang
+    - Wu Guo
+    - Peng Gao
+    - Zhijun Zhang
+    - Kuiliang Li
+    - Jinjie Fu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/dai26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/dai26_interspeech.pdf
+session: Acoustic Event Detection 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

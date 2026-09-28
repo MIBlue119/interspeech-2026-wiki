@@ -1,0 +1,14 @@
+id: fan26_interspeech
+title: 'PrefSQA: Pairwise Preference Prediction for Speech Quality Assessment and the Critical Role of High Quality Datasets'
+authors:
+    - Junyi Fan
+    - Donald S. Williamson
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/fan26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/fan26_interspeech.pdf
+session: Evaluation of Speech and Audio Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,16 @@
+id: li26d_interspeech
+title: 'CAQA-Net: Continual Audio Quality Assessment Across Speech and Music Domains'
+authors:
+    - Naiyuan Li
+    - Xiaoxun Wu
+    - Yuheng Huang
+    - Diqun Yan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26d_interspeech.pdf
+session: Evaluation, Benchmarking, and Reliability of Audio Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

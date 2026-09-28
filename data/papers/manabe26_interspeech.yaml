@@ -1,0 +1,17 @@
+id: manabe26_interspeech
+title: 'ProLAP: Probabilistic Language-Audio Pre-Training'
+authors:
+    - Toranosuke Manabe
+    - Yuchi Ishikawa
+    - Hokuto Munakata
+    - Yoshimitsu Aoki
+    - Tatsuya Komatsu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/manabe26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/manabe26_interspeech.pdf
+session: Acoustic Signal Analysis and Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

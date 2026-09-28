@@ -1,0 +1,24 @@
+id: wu26j_interspeech
+title: 'AuscuTSLM: Patient-Level Multimodal Question Answering from Multi-Site Auscultation Recordings'
+authors:
+    - Fan Wu
+    - Tsai-Ning Wang
+    - Nicolas Zumarraga
+    - Ning Wang
+    - Markus Kreft
+    - Kevin O'Sullivan
+    - Paula Manso Zorrilla
+    - Elgar Fleisch
+    - Oliver Aalami
+    - Paul Schmiedmayer
+    - Robert Jakob
+    - Patrick Langer
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wu26j_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wu26j_interspeech.pdf
+session: Medical Dialogue and Conversational Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

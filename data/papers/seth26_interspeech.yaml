@@ -1,0 +1,20 @@
+id: seth26_interspeech
+title: 'Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models'
+authors:
+    - Ashish Seth
+    - Sonal Kumar
+    - Ramaneswaran Selvakuma
+    - Nishit Anand
+    - Utkarsh Tyagi
+    - Prem Seetharaman
+    - Ramani Duraiswami
+    - Dinesh Manocha
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/seth26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/seth26_interspeech.pdf
+session: Speech and Audio Quality Assessment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

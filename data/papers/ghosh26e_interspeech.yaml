@@ -1,0 +1,18 @@
+id: ghosh26e_interspeech
+title: 'AnySimLite: A Lightweight Few-Shot Similarity Encoder for On-Device Speech-Adjacent Classification'
+authors:
+    - Sourav Ghosh
+    - Yash Bhatia
+    - Keshav Goyal
+    - Sahil Singh Bagri
+    - Mohamed Akram Ulla Shariff
+    - Saravana Balaji Shanmugam
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ghosh26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ghosh26e_interspeech.pdf
+session: Information Extraction and Retrieval / Survey Talk
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

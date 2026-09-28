@@ -1,0 +1,18 @@
+id: li26n_interspeech
+title: Online Audio-Visual Target Speaker Extraction with Viseme-Guided Lightweight Visual Pretraining
+authors:
+    - Zixuan Li
+    - Xueliang Zhang
+    - Lei Miao
+    - Zhipeng Yan
+    - Ying Sun
+    - Chong Zhu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26n_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26n_interspeech.pdf
+session: Audio-Visual and Generative Target Speaker Extraction
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

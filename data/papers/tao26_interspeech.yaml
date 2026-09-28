@@ -1,0 +1,16 @@
+id: tao26_interspeech
+title: 'ANCHOR: Autoregressive Non-intrusive Chunk-Ordered Refinement for Joint Multi-Resolution Speech Quality Modeling'
+authors:
+    - Zhuoyan Tao
+    - Jiatong Shi
+    - Hye-jin Shim
+    - Shinji Watanabe
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tao26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tao26_interspeech.pdf
+session: Speech and Audio Quality Assessment
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

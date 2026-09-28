@@ -1,0 +1,15 @@
+id: liu26j_interspeech
+title: 'Text-Annotated Noisy Speech as Supervision: A Dual-Learning Framework for Target-Domain Clean-Free Speech Enhancement'
+authors:
+    - Xin Liu
+    - Shulin He
+    - Xueliang Zhang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.pdf
+session: Generative and Self-Supervised Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

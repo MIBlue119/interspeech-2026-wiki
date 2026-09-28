@@ -1,0 +1,14 @@
+id: ahn26_interspeech
+title: Context-Adaptive Automated Audio Captioning with Symmetric Dual-MoE and Dynamic Reward Routing
+authors:
+    - Seyun Ahn
+    - Joon-Hyuk Chang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ahn26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ahn26_interspeech.pdf
+session: Audio Understanding and Representation Learning
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

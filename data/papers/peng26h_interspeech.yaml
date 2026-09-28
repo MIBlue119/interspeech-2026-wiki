@@ -1,0 +1,17 @@
+id: peng26h_interspeech
+title: 'Discrete vs. Continuous: A Comprehensive Study of Unified Audio Understanding in LALMs'
+authors:
+    - Jing Peng
+    - Zichao Nie
+    - Zhisheng Zhang
+    - Jingran Xie
+    - Zhiyong Wu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/peng26h_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/peng26h_interspeech.pdf
+session: 'Audio & Speech Language Models: Evaluation, Representations, and Emerging Capabilities'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,18 @@
+id: park26e_interspeech
+title: 'Pushing the Boundaries of Streaming Multi-Speaker ASR: A Systematic Study of Architectural Trade-offs'
+authors:
+    - Taejin Park
+    - Ivan Medennikov
+    - Kunal Dhawan
+    - Weiqing Wang
+    - Jagadeesh Balam
+    - Boris Ginsburg
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/park26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/park26e_interspeech.pdf
+session: Multi-Talker ASR & Speaker Diarization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

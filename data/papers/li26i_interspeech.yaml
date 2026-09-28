@@ -1,0 +1,17 @@
+id: li26i_interspeech
+title: 'DAR-Boost: A Differentiable and Adaptive Raw Data Augmentation Framework for Robust Anti-Spoofing'
+authors:
+    - Yingdong Li
+    - Chengxin Chen
+    - Nanli Zeng
+    - Jianguo Hu
+    - Kun Zeng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26i_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26i_interspeech.pdf
+session: Spoofing and Deepfake Detection 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,17 @@
+id: bae26_interspeech
+title: 'Something from Nothing: Data Augmentation for Robust Severity Level Estimation of Dysarthric Speech'
+authors:
+    - Jaesung Bae
+    - Xiuwen Zheng
+    - Minje Kim
+    - Chang D. Yoo
+    - Mark Hasegawa-Johnson
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/bae26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/bae26_interspeech.pdf
+session: Clinical and Inclusive Speech Technology
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

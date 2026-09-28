@@ -1,0 +1,19 @@
+id: pahwa26_interspeech
+title: 'Audio2Tool: Speak, Call, Act - A Dataset for Benchmarking Speech Tool Use'
+authors:
+    - Ramit Pahwa
+    - Apoorva Beedu
+    - Parivesh Priye
+    - Rutu Gandhi
+    - Saloni Takawale
+    - Aruna Baijal
+    - Zengli Yang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/pahwa26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/pahwa26_interspeech.pdf
+session: 'Audio & Speech Language Models: Evaluation, Representations, and Emerging Capabilities'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

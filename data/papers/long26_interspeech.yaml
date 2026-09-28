@@ -1,0 +1,15 @@
+id: long26_interspeech
+title: Benchmarking Language Modeling for Lossless Compression of Full-Fidelity Audio
+authors:
+    - Phillip Long
+    - Zachary Novack
+    - Chris Donahue
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/long26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/long26_interspeech.pdf
+session: Evaluation, Benchmarking, and Reliability of Audio Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

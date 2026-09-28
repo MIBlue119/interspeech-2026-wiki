@@ -1,0 +1,22 @@
+id: zhang26t_interspeech
+title: 'EChO-Agent: Evidence Chain Orchestration Agent for Audio Reasoning'
+authors:
+    - Siyuan Zhang
+    - Jian Zong
+    - Junyu Wang
+    - Peiyuan Jiang
+    - Jiahao Yan
+    - Jingyu Zhang
+    - Tianrui Wang
+    - Xiaobao Wang
+    - Longbiao Wang
+    - Jianwu Dang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26t_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26t_interspeech.pdf
+session: Challenge - Audio Reasoning Challenge
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,20 @@
+id: le26b_interspeech
+title: 'ViP-VL: Vietnamese Self-supervised Speech Pretraining Model with Vector-Quantization Learning'
+authors:
+    - Khanh Le
+    - Kiet Anh Hoang
+    - Bao Nguyen
+    - Duy Vo
+    - Dung Vo
+    - Thai Tran
+    - Linh Pham
+    - Khoa D Doan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/le26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/le26b_interspeech.pdf
+session: Multilingual & Low-Resource ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

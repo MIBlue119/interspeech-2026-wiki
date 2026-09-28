@@ -1,0 +1,18 @@
+id: yu26f_interspeech
+title: Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction
+authors:
+    - Xiaofeng Yu
+    - Jiaheng Dong
+    - Jean Honorio
+    - Abhirup Ghosh
+    - Hong Jia
+    - Ting Dang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yu26f_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yu26f_interspeech.pdf
+session: Speech Emotion Recognition and Representation 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

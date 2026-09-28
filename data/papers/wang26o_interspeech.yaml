@@ -1,0 +1,17 @@
+id: wang26o_interspeech
+title: 'Gumbel-BEARD: Automatic Layer Selection for Self-Supervised Adaptation of Whisper in Low-Resource Domains'
+authors:
+    - Zilai Wang
+    - Natarajan Balaji Shankar
+    - Mohan Shi
+    - Kaiyuan Zhang
+    - Abeer Alwan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26o_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26o_interspeech.pdf
+session: Self-supervised Speech Representation Learning
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

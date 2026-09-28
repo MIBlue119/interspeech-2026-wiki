@@ -1,0 +1,16 @@
+id: visser26_interspeech
+title: 'ZeroSyl: Simple Zero-Resource Syllable Tokenization for Spoken Language Modeling'
+authors:
+    - Nicol Visser
+    - Simon Malan
+    - Danel Slabbert
+    - Herman Kamper
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/visser26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/visser26_interspeech.pdf
+session: Efficient Inference for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

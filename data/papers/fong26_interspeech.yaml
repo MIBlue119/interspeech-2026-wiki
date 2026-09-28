@@ -1,0 +1,25 @@
+id: fong26_interspeech
+title: 'Ada-Mic: Orientation-Adaptive and Robust Close-to-Mic Speech Detection on Smartphone Using Generalized Cross-Correlation Features'
+authors:
+    - Stuart Fong
+    - Sky Qiao
+    - Xuecong Sun
+    - Seyed Shahabeddin Nabavi
+    - Huanzhang Zhu
+    - Jinran Zhu
+    - Siqi Zhang
+    - Amirhossein Hajavi
+    - Rasoul Mohammadi Nasiri
+    - Shuangliang Sun
+    - Longshuai Xiao
+    - Yuanhao Yu
+    - Irina Kezele
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/fong26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/fong26_interspeech.pdf
+session: Spatial Audio 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

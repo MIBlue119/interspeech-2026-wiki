@@ -1,0 +1,18 @@
+id: lu26d_interspeech
+title: 'Speech-to-See: End-to-End Speech-Driven Open-Set Object Detection'
+authors:
+    - Wenhuan Lu
+    - Xinyue Song
+    - Wenjun Ke
+    - Zhizhi Yu
+    - Wenhao Yang
+    - Jianguo Wei
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lu26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lu26d_interspeech.pdf
+session: Audio-Visual Grounding, Synchronization & Video Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

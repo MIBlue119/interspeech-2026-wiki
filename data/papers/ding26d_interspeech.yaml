@@ -1,0 +1,17 @@
+id: ding26d_interspeech
+title: 'SGAD: A State-Guided Adaptive Decision Framework for Robust EEG-Based Auditory Attention Switch Decoding'
+authors:
+    - Yuting Ding
+    - Xuefei Wang
+    - Ximin Chen
+    - Chunlin Li
+    - Fei Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ding26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ding26d_interspeech.pdf
+session: Speech Production and Perception 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

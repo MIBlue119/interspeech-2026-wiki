@@ -1,0 +1,18 @@
+id: ye26b_interspeech
+title: Refining Emphasis Control in Flow-Matching TTS via Preference Alignment and Reinforcement Learning
+authors:
+    - Jiangnan Ye
+    - Jiawei Jin
+    - Pengfei Tan
+    - Chao Yan
+    - Xuerui Yang
+    - Zhiyong Wu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ye26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ye26b_interspeech.pdf
+session: Long-Form Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

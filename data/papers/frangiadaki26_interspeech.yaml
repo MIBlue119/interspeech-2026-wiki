@@ -1,0 +1,16 @@
+id: frangiadaki26_interspeech
+title: 'Automatic Lyric Transcription for Greek Songs: Scaling and Task Composition Effects in Whisper Adaptation'
+authors:
+    - Maria Frangiadaki
+    - Dimitrios Damianos
+    - Kosmas Kritsis
+    - Vassilis Katsouros
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/frangiadaki26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/frangiadaki26_interspeech.pdf
+session: Multilingual, Cross-lingual & Low-Resource ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

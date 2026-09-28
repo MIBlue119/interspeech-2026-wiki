@@ -1,0 +1,19 @@
+id: yadav26b_interspeech
+title: 'I''ll Keep an Ear Out: Teaching AudioLLMs Proactive Audio Assistance'
+authors:
+    - Amit Kumar Singh Yadav
+    - Ritvik Shrivastava
+    - Xuan Zhang
+    - Seungwhan Moon
+    - Shashank Jain
+    - Pinar Donmez
+    - Babak Damavandi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yadav26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yadav26b_interspeech.pdf
+session: Acoustic Event Detection 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

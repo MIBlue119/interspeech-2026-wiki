@@ -1,0 +1,17 @@
+id: tsukagoshi26_interspeech
+title: Distilling Structured Reasoning into SpeechLLMs for Spoken Language Understanding
+authors:
+    - Toshihiro Tsukagoshi
+    - Natsuo Yamashita
+    - Kota Dohi
+    - Hiroaki Kokubo
+    - Masaaki Yamamoto
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tsukagoshi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tsukagoshi26_interspeech.pdf
+session: Spoken Language Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

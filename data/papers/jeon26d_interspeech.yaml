@@ -1,0 +1,21 @@
+id: jeon26d_interspeech
+title: 'ParaPairAudioBench: Paralinguistic Pairwise Audio Benchmark for LALM-as-a-Judge'
+authors:
+    - Jisu Jeon
+    - Seungyeon Jwa
+    - Joosung Lee
+    - Jinhyeon Kim
+    - Woojin Chung
+    - Hwiyeol Jo
+    - Jeonghoon Kim
+    - Jonghyun Choi
+    - Soyoon Kim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/jeon26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/jeon26d_interspeech.pdf
+session: Paralinguistics
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

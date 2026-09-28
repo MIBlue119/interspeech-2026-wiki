@@ -1,0 +1,20 @@
+id: zheng26c_interspeech
+title: 'CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis'
+authors:
+    - Zhisheng Zheng
+    - Xiaohang Sun
+    - Zhu Liu
+    - Caren Chen
+    - Rohith Kumar
+    - Manoj Aggarwal
+    - Gerard Medioni
+    - David Harwath
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zheng26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zheng26c_interspeech.pdf
+session: Controllable and Expressive Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

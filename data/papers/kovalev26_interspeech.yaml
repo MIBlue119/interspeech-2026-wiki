@@ -1,0 +1,14 @@
+id: kovalev26_interspeech
+title: 'SEAM: Shortcut-Aware Real-Time Detection of Scripted vs. Spontaneous Speech for Interview Guardrails'
+authors:
+    - Vsevolod Kovalev
+    - Pranay Manocha
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kovalev26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kovalev26_interspeech.pdf
+session: Audio Understanding and Representation Learning
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

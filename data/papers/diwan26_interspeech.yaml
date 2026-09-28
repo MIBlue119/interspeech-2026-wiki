@@ -1,0 +1,15 @@
+id: diwan26_interspeech
+title: 'ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining'
+authors:
+    - Anuj Diwan
+    - Eunsol Choi
+    - David Harwath
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/diwan26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/diwan26_interspeech.pdf
+session: Multimodal Emotion Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

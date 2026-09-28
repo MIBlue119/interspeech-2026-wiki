@@ -1,0 +1,16 @@
+id: mboungou26_interspeech
+title: Audio-visual Contrastive Alignment for Diffusion-based Visual-conditioned Speech Enhancement
+authors:
+    - Colombe Mboungou
+    - Mostafa Sadeghi
+    - Jean-Eudes Ayilo
+    - Romain Serizel
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mboungou26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mboungou26_interspeech.pdf
+session: Audio-Visual and Generative Target Speaker Extraction
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

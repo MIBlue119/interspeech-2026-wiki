@@ -1,0 +1,16 @@
+id: yang26k_interspeech
+title: 'HARP: Harmonic-Aware Residual Partitioning for Neural Audio Codecs'
+authors:
+    - Qiaoyu Yang
+    - Lixing He
+    - Binyue Deng
+    - Weifeng Zhao
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yang26k_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yang26k_interspeech.pdf
+session: Audio Coding and Signal Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

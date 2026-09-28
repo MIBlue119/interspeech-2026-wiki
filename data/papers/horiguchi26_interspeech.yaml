@@ -1,0 +1,17 @@
+id: horiguchi26_interspeech
+title: Tight Boundary Prediction in Speaker Diarization Using Causal-Anticausal Consistency
+authors:
+    - Shota Horiguchi
+    - Marc Delcroix
+    - Naohiro Tawara
+    - Takanori Ashihara
+    - Atsushi Ando
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/horiguchi26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/horiguchi26_interspeech.pdf
+session: Speaker Diarization and Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,15 @@
+id: huang26f_interspeech
+title: 'CodecMOS-Accent: A MOS Benchmark of Resynthesized and TTS Speech from Neural Codecs Across English Accents'
+authors:
+    - Wen-Chin Huang
+    - Nicholas Sanders
+    - Erica Cooper
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/huang26f_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/huang26f_interspeech.pdf
+session: Speech Synthesis Evaluation 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

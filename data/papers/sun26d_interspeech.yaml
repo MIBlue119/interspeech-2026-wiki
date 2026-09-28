@@ -1,0 +1,14 @@
+id: sun26d_interspeech
+title: Automated Gradient-Driven Parameter Sharing for Low-Resource Multilingual Speech-to-Text Translation
+authors:
+    - Ruiyan Sun
+    - Satoshi Nakamura
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/sun26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/sun26d_interspeech.pdf
+session: Multilingual Speech 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

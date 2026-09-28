@@ -1,0 +1,15 @@
+id: libera26_interspeech
+title: 'WavSLM: Single-Stream Speech Language Modeling via WavLM Distillation'
+authors:
+    - Luca Della Libera
+    - Cem Subakan
+    - Mirco Ravanelli
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/libera26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/libera26_interspeech.pdf
+session: Streaming Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

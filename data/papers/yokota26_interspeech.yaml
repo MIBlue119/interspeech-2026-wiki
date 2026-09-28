@@ -1,0 +1,17 @@
+id: yokota26_interspeech
+title: Physics-Informed Neural Operator for Speech Production Analysis
+authors:
+    - Kazuya Yokota
+    - Xinmeng Luan
+    - Debasish Ray Mohapatra
+    - Gary Scavone
+    - Sidney Fels
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yokota26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yokota26_interspeech.pdf
+session: Modeling Articulation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

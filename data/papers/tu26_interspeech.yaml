@@ -1,0 +1,17 @@
+id: tu26_interspeech
+title: Duration-aware self-attention for speech deepfake detection
+authors:
+    - Youzhi Tu
+    - Xin Fang
+    - Liping Chen
+    - Zhen-Hua Ling
+    - Kong Aik Lee
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tu26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tu26_interspeech.pdf
+session: Speech Deepfake Detection, Attribution and Characterization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,19 @@
+id: tran26c_interspeech
+title: 'From Single to Multi-Label SER: Dataset and Mamba-Based Fusion Model'
+authors:
+    - Vu Long Tran
+    - Long Duc Do
+    - Vinh Quang Nguyen
+    - Ngoc Minh Nguyen
+    - Quang Minh Le Pham
+    - Hieu Trung Nguyen
+    - Trang Thu Thi Nguyen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/tran26c_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/tran26c_interspeech.pdf
+session: Speech Emotion Recognition and Representation 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

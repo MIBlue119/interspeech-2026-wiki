@@ -1,0 +1,22 @@
+id: gonzalez26b_interspeech
+title: 'Probing Linguistic Information in Speech Embeddings: A Diagnostic Analysis across Acoustic and Structural Domains'
+authors:
+    - Simon Gonzalez
+    - Tao Hoang
+    - Hayden Ooi
+    - Chloe Dean
+    - Bradley Donnelly
+    - Myung Kim
+    - Latchman Singh
+    - Jason Littlefield
+    - Tim Cawley
+    - Jennifer Biggs
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/gonzalez26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/gonzalez26b_interspeech.pdf
+session: New Architecture and Analyses for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,15 @@
+id: khan26_interspeech
+title: Dual-Branch Gated Fusion for Open-Set Audio Deepfake Source Tracing
+authors:
+    - Awais Khan
+    - Kutub Uddin
+    - Khalid Malik
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/khan26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/khan26_interspeech.pdf
+session: 'Speech Deepfake Detection: Robustness, Generalization, Attribution'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

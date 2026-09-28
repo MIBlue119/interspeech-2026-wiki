@@ -1,0 +1,18 @@
+id: vendrame26_interspeech
+title: Joint Speech And Text Training For LLM-based End-To-End Spoken Dialogue State Tracking
+authors:
+    - Katia Vendrame
+    - Bolaji Yusuf
+    - Santosh Kesiraju
+    - Šimon Sedláček
+    - Oldřich Plchot
+    - Honza Černocký
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/vendrame26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/vendrame26_interspeech.pdf
+session: Spoken Language Understanding
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

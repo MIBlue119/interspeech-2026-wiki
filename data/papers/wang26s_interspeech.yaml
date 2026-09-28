@@ -1,0 +1,18 @@
+id: wang26s_interspeech
+title: 'FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech'
+authors:
+    - Haoxu Wang
+    - Biao Tian
+    - Weiqing Li
+    - Xiang Lv
+    - Han Zhao
+    - Xiangang Li
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26s_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26s_interspeech.pdf
+session: Text-to-Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

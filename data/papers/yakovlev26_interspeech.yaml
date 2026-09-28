@@ -1,0 +1,14 @@
+id: yakovlev26_interspeech
+title: 'ReDimNet2: Scaling Speaker Verification via Time-Pooled Dimension Reshaping'
+authors:
+    - Ivan Yakovlev
+    - Anton Okhotnikov
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yakovlev26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yakovlev26_interspeech.pdf
+session: 'Speaker Verification: Architectures, Losses, and LLMs'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

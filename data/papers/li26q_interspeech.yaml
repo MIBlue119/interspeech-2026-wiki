@@ -1,0 +1,16 @@
+id: li26q_interspeech
+title: Few-shot Class-variable Incremental Audio Classification via Prototype Adaptation and Pseudo Class-variable Training
+authors:
+    - Yanxiong Li
+    - Guoqing Chen
+    - Qianqian Li
+    - Sen Huang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26q_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26q_interspeech.pdf
+session: Acoustic Event Detection 3
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

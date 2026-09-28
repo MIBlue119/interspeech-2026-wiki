@@ -1,0 +1,14 @@
+id: xu26e_interspeech
+title: 'SCNet: Enhancing GAN-based Speech Generation with Subband Condition Network and Magnitude-aware Phase Loss'
+authors:
+    - Nan Xu
+    - Mingxue Yang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xu26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xu26e_interspeech.pdf
+session: Speech Enhancement and Restoration
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

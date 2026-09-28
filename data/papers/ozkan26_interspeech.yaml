@@ -1,0 +1,16 @@
+id: ozkan26_interspeech
+title: 'Automatic pitch prediction from speech articulation: Where does the f0 information come from?'
+authors:
+    - Beliz Ozkan
+    - Jonas Michael
+    - Thomas Hueber
+    - Olivier Perrotin
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ozkan26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ozkan26_interspeech.pdf
+session: Articulatory, EMG, and Visual Speech Generation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

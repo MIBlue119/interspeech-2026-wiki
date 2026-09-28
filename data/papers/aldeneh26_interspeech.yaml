@@ -1,0 +1,23 @@
+id: aldeneh26_interspeech
+title: Which Data Matter? Embedding-Based Data Selection for Speech Recognition
+authors:
+    - Zakaria Aldeneh
+    - Skyler Seto
+    - Maureen de Seyssel
+    - Jie Chi
+    - Zijin Gu
+    - Takuya Higuchi
+    - Jee-weon Jung
+    - Shinji Watanabe
+    - David Grangier
+    - Barry-John Theobald
+    - Tatiana Likhomanenko
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/aldeneh26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/aldeneh26_interspeech.pdf
+session: Robust and Efficient ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

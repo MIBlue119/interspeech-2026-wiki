@@ -1,0 +1,18 @@
+id: lin26i_interspeech
+title: 'RAISE: Resolving Ambiguity in Audio Understanding with Imagination and Selective Extraction'
+authors:
+    - Yueqian Lin
+    - Qinsi Wang
+    - Yudong Liu
+    - Hancheng Ye
+    - Hai Li
+    - Yiran Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lin26i_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lin26i_interspeech.pdf
+session: Acoustic Event Detection 4
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

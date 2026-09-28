@@ -1,0 +1,18 @@
+id: chen26aa_interspeech
+title: 'PolyBench: A Benchmark for Compositional Reasoning in Polyphonic Audio'
+authors:
+    - Yuanjian Chen
+    - Yang Xiao
+    - Han Yin
+    - Xubo Liu
+    - Jinjie Huang
+    - Ting Dang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26aa_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26aa_interspeech.pdf
+session: Post-Training of Speech Foundation Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

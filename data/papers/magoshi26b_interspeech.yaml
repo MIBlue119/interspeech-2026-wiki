@@ -1,0 +1,16 @@
+id: magoshi26b_interspeech
+title: Improving Zero-Shot Phonetic Classification through Language-Agnostic Articulatory Features
+authors:
+    - Ryo Magoshi
+    - Jaeyoung Lee
+    - Shinsuke Sakai
+    - Tatsuya Kawahara
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/magoshi26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/magoshi26b_interspeech.pdf
+session: Low-Resource & Endangered Language Speech Processing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

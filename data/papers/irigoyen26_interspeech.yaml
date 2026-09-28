@@ -1,0 +1,15 @@
+id: irigoyen26_interspeech
+title: 'Pruning as Regularization: Sensitivity-Aware One-Shot Pruning in ASR'
+authors:
+    - Julian Irigoyen
+    - Arthur Söhler
+    - Andreas Søeborg Kirkedal
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/irigoyen26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/irigoyen26_interspeech.pdf
+session: Resource Constrained Speech Recognition
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

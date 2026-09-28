@@ -1,0 +1,19 @@
+id: sun26h_interspeech
+title: Activation Steering for Accent Adaptation in Large Audio Language Models
+authors:
+    - Jinuo Sun
+    - Yang Xiao
+    - Sung Kyun Chung
+    - Qiuchi Hu
+    - Gongping Huang
+    - Eun-Jung Holden
+    - Ting Dang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/sun26h_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/sun26h_interspeech.pdf
+session: Domain Adaptation & Accented ASR
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

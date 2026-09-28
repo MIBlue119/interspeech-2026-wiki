@@ -1,0 +1,17 @@
+id: kumar26d_interspeech
+title: 'Search-GRT: Guided Retrieval Training of Search Agents to Optimize for Complex Question Answering'
+authors:
+    - Aounon Kumar
+    - Sudipta Paul
+    - Vivek Kulkarni
+    - Vijay Srinivasan
+    - Srinivas Chappidi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kumar26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26d_interspeech.pdf
+session: Reasoning with Speech/Audio Language Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

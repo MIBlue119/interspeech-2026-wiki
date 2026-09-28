@@ -1,0 +1,17 @@
+id: ni26_interspeech
+title: 'NV-Bench: Benchmark of Nonverbal Vocalization Synthesis for Expressive Text-to-Speech Generation'
+authors:
+    - Qinke Ni
+    - Huan Liao
+    - Dekun Chen
+    - Yuxiang Wang
+    - Zhizheng Wu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ni26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ni26_interspeech.pdf
+session: Speech Synthesis Evaluation 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

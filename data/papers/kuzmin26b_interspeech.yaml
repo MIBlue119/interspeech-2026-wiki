@@ -1,0 +1,21 @@
+id: kuzmin26b_interspeech
+title: Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models
+authors:
+    - Nikita Kuzmin
+    - Tao Zhong
+    - Jiajun Deng
+    - Yingke Zhu
+    - Tristan Tsoi
+    - Tianxiang Cao
+    - Simon Lui
+    - Kong Aik Lee
+    - Eng Siong Chng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kuzmin26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kuzmin26b_interspeech.pdf
+session: Speaker Privacy and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

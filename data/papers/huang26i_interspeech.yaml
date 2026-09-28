@@ -1,0 +1,14 @@
+id: huang26i_interspeech
+title: 'Align-Consistency: Improving Non-autoregressive and Semi-supervised ASR with Consistency Regularization'
+authors:
+    - Wanting Huang
+    - Weiran Wang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/huang26i_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/huang26i_interspeech.pdf
+session: 'Robust ASR: Uncertainty and Confidence'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

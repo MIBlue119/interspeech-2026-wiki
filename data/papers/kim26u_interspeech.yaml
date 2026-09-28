@@ -1,0 +1,15 @@
+id: kim26u_interspeech
+title: 'ETC-TTS: Emotion Trajectory Learning for Controllable Emotional Text-to-Speech'
+authors:
+    - Gaeun Kim
+    - Jaeuk Lee
+    - Joon-Hyuk Chang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/kim26u_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/kim26u_interspeech.pdf
+session: Emotional Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

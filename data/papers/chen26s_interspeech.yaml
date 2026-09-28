@@ -1,0 +1,18 @@
+id: chen26s_interspeech
+title: LLM-Guided Reinforcement Learning for Audio-Visual Speech Enhancement
+authors:
+    - Chih-Ning Chen
+    - Jen-Cheng Hou
+    - Hsin-Min Wang
+    - Shao-Yi Chien
+    - Yu Tsao
+    - Fan-Gang Zeng
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/chen26s_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/chen26s_interspeech.pdf
+session: Audio-Visual and Generative Target Speaker Extraction
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,26 @@
+id: jiang26e_interspeech
+title: Cognitive-Heuristic Guided Multimodal Data Augmentation for Alzheimer’s Disease Detection Using LLM and TTS
+authors:
+    - Yu Jiang
+    - Cheng Gong
+    - Bin Wen
+    - Ruihao Jing
+    - Tianrui Wang
+    - Shansong Liu
+    - Boyu Zhu
+    - Yuheng Lu
+    - Xuanchen Li
+    - Xiao Wei
+    - Chunyu Qiang
+    - Xiao-Lei Zhang
+    - Longbiao Wang
+    - Jianwu Dang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/jiang26e_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26e_interspeech.pdf
+session: Challenges in Speech Data Collection, Curation, and Annotation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

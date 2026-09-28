@@ -1,0 +1,16 @@
+id: han26_interspeech
+title: A Transcript-anchored Pipeline With Large Language Models For Detecting Inappropriate Pauses In Dysarthric Speech
+authors:
+    - Minsu Han
+    - Insung Lee
+    - Taeyoung Jeong
+    - Myoung-Wan Koo
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/han26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/han26_interspeech.pdf
+session: Speech, Voice and Language Disorders
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

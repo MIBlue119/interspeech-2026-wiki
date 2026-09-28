@@ -1,0 +1,14 @@
+id: mandel26_interspeech
+title: 'From A to B to A: Palindromic Zero-Shot Voice Conversion with Non-Parallel Data'
+authors:
+    - Moshe Mandel
+    - Shlomi E. Chazan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.pdf
+session: Voice Conversion
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

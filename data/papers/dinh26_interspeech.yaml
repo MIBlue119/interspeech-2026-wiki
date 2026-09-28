@@ -1,0 +1,15 @@
+id: dinh26_interspeech
+title: Improving Audio Codec-based Speech Separation By Stacking Residual Vector Quantization Layers
+authors:
+    - Nhu Minh Phuong Dinh
+    - Roland Hartanto
+    - Koichi Shinoda
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/dinh26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/dinh26_interspeech.pdf
+session: Source Separation 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,16 @@
+id: huang26j_interspeech
+title: 'SignMatch: Aligning Pose Latent Diffusion via Multi-dimensional Rewards for Sign Language Video Generation'
+authors:
+    - Rongjie Huang
+    - Weidong Chen
+    - Helen Meng
+    - Xixin Wu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/huang26j_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/huang26j_interspeech.pdf
+session: Prosody, Pronunciation and Specialized Speech Processing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

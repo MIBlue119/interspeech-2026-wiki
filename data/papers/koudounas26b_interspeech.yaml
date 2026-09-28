@@ -1,0 +1,17 @@
+id: koudounas26b_interspeech
+title: Hallucination Benchmark for Speech Foundation Models
+authors:
+    - Alkis Koudounas
+    - Moreno La Quatra
+    - Manuel Giollo
+    - Sabato Marco Siniscalchi
+    - Elena Baralis
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/koudounas26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/koudounas26b_interspeech.pdf
+session: Benchmarking Foundation Models
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

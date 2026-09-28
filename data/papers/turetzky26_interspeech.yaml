@@ -1,0 +1,17 @@
+id: turetzky26_interspeech
+title: 'Knowing What to Stress: A Discourse-Conditioned Text-to-Speech Benchmark'
+authors:
+    - Arnon Turetzky
+    - Avihu Dekel
+    - Hagai Aronowitz
+    - Ron Hoory
+    - Yossi Adi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/turetzky26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/turetzky26_interspeech.pdf
+session: Text Processing for Speech Synthesis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

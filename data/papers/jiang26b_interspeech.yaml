@@ -1,0 +1,18 @@
+id: jiang26b_interspeech
+title: 'VoCodec: A Low-bitrate Streamable Neural Speech Codec with Voicing-driven Quantization'
+authors:
+    - Xiao-Hang Jiang
+    - Yang Ai
+    - Rui-Chen Zheng
+    - Lirong Dai
+    - Zhen-Hua Ling
+    - Ji Wu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/jiang26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26b_interspeech.pdf
+session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

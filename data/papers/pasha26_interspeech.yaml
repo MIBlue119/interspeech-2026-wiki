@@ -1,0 +1,16 @@
+id: pasha26_interspeech
+title: A Novel Transfer Learning Approach for Room Impulse Response Estimation and Speech Dereverberation Across Geometrically Diverse and Data-Scarce Environments
+authors:
+    - Shahab Pasha
+    - Jiahong Zhao
+    - Hualin Ren
+    - Christian Ritz
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/pasha26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/pasha26_interspeech.pdf
+session: Dereverberation, Bandwidth Extension and Restoration
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

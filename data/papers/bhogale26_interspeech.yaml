@@ -1,0 +1,25 @@
+id: bhogale26_interspeech
+title: 'Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India'
+authors:
+    - Kaushal Bhogale
+    - Manas Dhir
+    - Amritansh Walecha
+    - Manmeet Kaur
+    - Vanshika Chhabra
+    - Aaditya Pareek
+    - Hanuman Sidh
+    - Sagar Jain
+    - Bhaskar Singh
+    - Utkarsh Singh
+    - Tahir Javed
+    - Shobhit Banga
+    - Mitesh M Khapra
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/bhogale26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/bhogale26_interspeech.pdf
+session: Challenges in Speech Data Collection, Curation, and Annotation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

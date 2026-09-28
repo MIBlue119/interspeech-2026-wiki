@@ -1,0 +1,17 @@
+id: xu26d_interspeech
+title: Speech Enhancement Based on Drifting Models
+authors:
+    - Liang Xu
+    - Diego Caviedes-Nozal
+    - W. Bastiaan Kleijn
+    - Longfei Felix Yan
+    - Rasmus Kongsgaard Olsson
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/xu26d_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/xu26d_interspeech.pdf
+session: 'Neural Speech Enhancement: Survey, Diffusion and Flow Matching'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

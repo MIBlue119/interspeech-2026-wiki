@@ -1,0 +1,15 @@
+id: wang26k_interspeech
+title: Does Fine-tuning by Reinforcement Learning Improve Generalization in Binary Speech Deepfake Detection?
+authors:
+    - Xin Wang
+    - Wanying Ge
+    - Junichi Yamagishi
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/wang26k_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/wang26k_interspeech.pdf
+session: Speech Deepfake Detection, Attribution and Characterization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

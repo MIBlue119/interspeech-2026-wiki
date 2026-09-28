@@ -1,0 +1,20 @@
+id: anand26_interspeech
+title: 'ParA-LLM: A Unified Approach to Paralinguistic and Acoustic Speech Understanding'
+authors:
+    - Nishit Anand
+    - Jiaqi Su
+    - Ke Chen
+    - Yunyun Wang
+    - Dinesh Manocha
+    - Ramani Duraiswami
+    - Rithesh Kumar
+    - Zeyu Jin
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/anand26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/anand26_interspeech.pdf
+session: Paralinguistics
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

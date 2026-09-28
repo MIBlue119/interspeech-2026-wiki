@@ -1,0 +1,18 @@
+id: stergaard26_interspeech
+title: 'Don''t Listen to Me: A Lightweight, Low-Latency Model for Own-Voice Cancellation in Far-Field Speech Enhancement'
+authors:
+    - Mads Østergaard
+    - Alexander Neergaard Zahid
+    - Karl Ulbæk
+    - Andreas Bagge
+    - Kenny Falkær Olsen
+    - Rasmus Lindrup
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/stergaard26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/stergaard26_interspeech.pdf
+session: Source Separation 2
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

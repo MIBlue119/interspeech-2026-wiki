@@ -1,0 +1,22 @@
+id: ijjada26b_interspeech
+title: 'WaveNorm: Real-Time Neural AGC for Noise-Robust Speech Enhancement on Resource-Constrained Edge Devices'
+authors:
+    - Deepika Ijjada
+    - Charan Kumar Reddy B
+    - Ashwini Hanaganti
+    - Priyanka Devrao Jadhav
+    - Varsha Uppalanchi
+    - Nivedita Chennupati
+    - Karunakar Reddy Pucchakayala
+    - Balaji Padmanaban
+    - Harish Rajamani
+    - Naveen Ambati
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ijjada26b_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ijjada26b_interspeech.pdf
+session: Speech Recognition, Enhancement and Real-Time Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

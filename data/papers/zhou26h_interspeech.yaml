@@ -1,0 +1,19 @@
+id: zhou26h_interspeech
+title: 'FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech'
+authors:
+    - Shuoyi Zhou
+    - Yixuan Zhou
+    - Peiji Yang
+    - Yifan Hu
+    - Yicheng Zhong
+    - Zhisheng Wang
+    - Zhiyong Wu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhou26h_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26h_interspeech.pdf
+session: Voice Editing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

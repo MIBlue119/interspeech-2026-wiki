@@ -1,0 +1,17 @@
+id: yin26_interspeech
+title: 'The First Environmental Sound Deepfake Detection Challenge: Benchmarking Robustness, Evaluation, and Insights'
+authors:
+    - Han Yin
+    - Yang Xiao
+    - Rohan Kumar Das
+    - Jisheng Bai
+    - Ting Dang
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/yin26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/yin26_interspeech.pdf
+session: Evaluation, Benchmarking, and Reliability of Audio Systems
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

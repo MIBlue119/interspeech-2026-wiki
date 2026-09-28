@@ -1,0 +1,14 @@
+id: lee26q_interspeech
+title: 'PhonePrune: One-shot Phoneme-Aware Pruning for Large-scale ASR Models via Phoneme Set Generation and Calibration'
+authors:
+    - Minsik Lee
+    - Jihie Kim
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lee26q_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lee26q_interspeech.pdf
+session: Cross-Lingual and Multilingual Speech Recognition 1
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

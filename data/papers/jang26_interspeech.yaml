@@ -1,0 +1,16 @@
+id: jang26_interspeech
+title: End-to-End Model Compression for Personalized Neural Speech Codecs
+authors:
+    - Inseon Jang
+    - Minje Kim
+    - Wootaek Lim
+    - Seungkwon Beack
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/jang26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/jang26_interspeech.pdf
+session: Quality, Intelligibility and Evaluation of Speech and Codecs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

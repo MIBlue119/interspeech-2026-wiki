@@ -1,0 +1,17 @@
+id: diecidue26_interspeech
+title: 'The silence of the weights: a structural pruning strategy for Attention-based audio signal architectures with second-order metrics'
+authors:
+    - Andrea Diecidue
+    - Carlo Alberto Barbano
+    - Piero Fraternali
+    - Mathieu Fontaine
+    - Enzo Tartaglione
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/diecidue26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/diecidue26_interspeech.pdf
+session: Acoustic Event Detection 4
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

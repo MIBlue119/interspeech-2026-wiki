@@ -1,0 +1,20 @@
+id: ferreira26_interspeech
+title: 'CAL-MOS: Bridging Layers with Adapters for Robust MOS Prediction Across Speech Foundation Models'
+authors:
+    - Alef Iury Ferreira
+    - Pedro Botelho
+    - Fernanda Silva
+    - Daniel Casanova
+    - Rafael Faustino
+    - Frederico Oliveira
+    - Arlindo Galvão Filho
+    - Anderson da Silva Soares
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/ferreira26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/ferreira26_interspeech.pdf
+session: Evaluation of Speech and Audio Analysis
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

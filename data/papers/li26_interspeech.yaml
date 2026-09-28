@@ -1,0 +1,18 @@
+id: li26_interspeech
+title: XAI-Grounded Explanation Generation for Speech Deepfake Detection with Training-Free Multimodal Large Language Models
+authors:
+    - Yupei Li
+    - Qiyang Sun
+    - Xiaoliang Wu
+    - Chenxi Wang
+    - Berrak Sisman
+    - Bjoern Schuller
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/li26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/li26_interspeech.pdf
+session: Explainability for Compliance and Trust in Speech AI
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

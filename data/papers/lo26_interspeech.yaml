@@ -1,0 +1,18 @@
+id: lo26_interspeech
+title: A Novel Sentence Stress Detection Framework Leveraging Auxiliary Word-Stress Modeling and Loss Optimization
+authors:
+    - Tien-Hong Lo
+    - Fong-Chun Tsai
+    - Ting-An Hung
+    - Yu-Hsuan Hsieh
+    - Yao-Ting Sung
+    - Berlin Chen
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/lo26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/lo26_interspeech.pdf
+session: Prosody, Pronunciation and Specialized Speech Processing
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

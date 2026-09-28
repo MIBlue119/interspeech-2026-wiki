@@ -1,0 +1,18 @@
+id: vonaspern26_interspeech
+title: Leveraging Mutual Intra-Modal Similarity Supervision for Text and Audio
+authors:
+    - Julian Miguel von Aspern
+    - Bruno Defraene
+    - Anastasios Vafeiadis
+    - Oleksiy Kutscher
+    - Ernst Seidel
+    - Tim Fingscheidt
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.pdf
+session: Audio segmentation
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

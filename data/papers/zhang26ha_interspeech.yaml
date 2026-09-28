@@ -1,0 +1,15 @@
+id: zhang26ha_interspeech
+title: Margin-Aware Contrastive Regularization for Robust Streaming Keyword Spotting under Strict False-Alarm Constraints
+authors:
+    - Hanwen Zhang
+    - Guosong Zhu
+    - Zhen Qin
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhang26ha_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26ha_interspeech.pdf
+session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

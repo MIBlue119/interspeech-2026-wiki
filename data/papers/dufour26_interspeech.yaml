@@ -1,0 +1,16 @@
+id: dufour26_interspeech
+title: A Large-Scale Per-Speaker Analysis of Re-identification Risk in Speech Anonymization
+authors:
+    - Orane Dufour
+    - Paul Magron
+    - Mickael Rouvier
+    - Emmanuel Vincent
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/dufour26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/dufour26_interspeech.pdf
+session: Speaker Privacy Preservation and Anonymization
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

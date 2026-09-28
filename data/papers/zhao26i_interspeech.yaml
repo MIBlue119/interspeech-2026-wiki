@@ -1,0 +1,14 @@
+id: zhao26i_interspeech
+title: Towards Robust Generative Speech Enhancement Using Vector Quantisation-Based Neural Audio Codec
+authors:
+    - Haixin Zhao
+    - Nilesh Madhu
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/zhao26i_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26i_interspeech.pdf
+session: Language-Model and Codec-Token Speech Enhancement
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false

@@ -1,0 +1,15 @@
+id: masmolla26_interspeech
+title: Improving streaming ASR with foundation models using emission policies
+authors:
+    - Gerard Mas Mollà
+    - Albert Sanchis
+    - Alfons Juan
+year: 2026
+isca_url: https://www.isca-archive.org/interspeech_2026/masmolla26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/masmolla26_interspeech.pdf
+session: Efficient Inference for ASR and Speech LMs
+topics: []
+code:
+    url: ""
+    license: ""
+open_to_collaboration: false
