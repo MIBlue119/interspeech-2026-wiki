@@ -1,0 +1,15 @@
+# Interspeech 2026 LLM Wiki
+
+> Open knowledge base of Interspeech 2026 papers: one OKF markdown page + one metadata YAML per paper. Original summaries only; paper full texts stay with ISCA (fetch locally via DOI).
+
+## Docs
+
+- [AGENTS.md](AGENTS.md): how to search and edit this repo as an agent
+- [wiki/index.md](wiki/index.md): topic index of all paper pages
+- [CONTRIBUTING.md](CONTRIBUTING.md): metadata schema and PR workflow
+- [README.md](README.md): project overview and licensing (code MIT, content CC BY 4.0)
+
+## Data
+
+- wiki/papers/: compiled paper pages (frontmatter: id, category, updated, confidence, source)
+- data/papers/: per-paper YAML (title, authors, doi, topics, code.url, collaboration opt-ins)

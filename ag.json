@@ -1,0 +1,38 @@
+{
+  "schema-version": 8,
+  "switches": {
+    "target-doc": ".agentflow/devlog.md",
+    "workspace-dir": ".agentflow",
+    "cli-provider": "on",
+    "auto-reply": "off",
+    "log-verbosity": "all",
+    "inline-reply": "off",
+    "lang": "en-tw",
+    "streams": "ask",
+    "ask-names": "on",
+    "allow-ag": "on",
+    "large-work-minutes": 120,
+    "git-timeout-ms": 30000,
+    "allowed-worker": [
+      "external",
+      "internal",
+      "host"
+    ],
+    "review-policy": "prefer-independent",
+    "completion-cleanup": "off",
+    "completion-cleanup-interval-days": 7
+  },
+  "pipeline-roles": {
+    "requirements": "better",
+    "codewalk": "better",
+    "explore": "better",
+    "spike": "better",
+    "spec": "better",
+    "implementation": "basic",
+    "security-scan": "best",
+    "acceptance": "better",
+    "cross-check": "better",
+    "learn": "basic"
+  },
+  "external-workers": []
+}

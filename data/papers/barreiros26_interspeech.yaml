@@ -1,0 +1,19 @@
+id: barreiros26_interspeech
+title: "Massive Open-Vocabulary Keyword Spotting"
+authors:
+  - Leonor Barreiros
+  - Raul Monteiro
+  - Afonso Mendes
+  - Gonçalo M. Correia
+year: 2026
+doi: 10.21437/Interspeech.2026-1444
+isca_url: https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.html
+pdf_url: https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.pdf
+topics: [keyword-spotting, asr, contextual-biasing]
+arxiv: ""
+code:
+  url: ""
+  license: ""
+contact: ""
+lab: ""
+open_to_collaboration: false

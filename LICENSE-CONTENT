@@ -1,0 +1,20 @@
+Content License — CC BY 4.0
+
+The content of this repository — everything under wiki/ and data/, plus
+README.md and other prose documentation — is licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt this content for any purpose, including
+commercially, provided you give appropriate credit to:
+
+    Interspeech 2026 LLM Wiki — https://github.com/MIBlue119/interspeech-2026-wiki
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Important carve-out: the Interspeech papers themselves (PDFs, full texts,
+and substantial excerpts) are NOT part of this repository and are NOT covered
+by this license. Their copyright belongs to ISCA and the original authors.
+This repository contains only factual metadata, links, and original summaries
+written for this wiki. Always cite the papers via their DOI.
+
+Source code in this repository is separately licensed under MIT — see LICENSE.

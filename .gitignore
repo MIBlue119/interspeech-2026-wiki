@@ -1,0 +1,9 @@
+.claude/
+.codex/
+.worktrees/
+.agentflow/.tmp/
+
+# local-only paper PDFs and build artifacts
+sources/
+bin/
+/iswiki

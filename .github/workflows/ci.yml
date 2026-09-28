@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.23"
+
+      - name: Build
+        run: go build ./...
+
+      - name: Validate paper metadata
+        run: go run ./cmd/iswiki validate
+
+      - name: README table is up to date
+        run: |
+          go run ./cmd/iswiki readme
+          git diff --exit-code README.md || {
+            echo "::error::README table is stale — run 'go run ./cmd/iswiki readme' and commit the result"
+            exit 1
+          }
