@@ -1,34 +1,41 @@
 ---
 id: kostenok26_interspeech
-category: speech-llm
+category: evaluation
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2362
+pdf: https://www.isca-archive.org/interspeech_2026/kostenok26_interspeech.pdf
 ---
 
 # Calibration-Reasoning Framework for Descriptive Speech Quality Assessment
 
-**TL;DR** — A two-stage post-training method (perceptual-dimension calibration followed by GRPO reinforcement learning with dimension-specific rewards) tailors an audio LLM to describe and temporally localize speech-quality artifacts, reaching state-of-the-art results on a multidimensional quality benchmark.
+[PDF](https://www.isca-archive.org/interspeech_2026/kostenok26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kostenok26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2362)
+
+**TL;DR** — A calibration-reasoning post-training framework for audio large language models improves multidimensional speech quality assessment and artifact localization, achieving a state-of-the-art 0.71 mean PCC on QualiSpeech.
 
 ## Problem
 
-Explainable speech quality assessment requires moving beyond single Mean Opinion Scores to analyze underlying perceptual dimensions, which current systems don't do well.
+Traditional non-intrusive speech quality assessment models output black-box Mean Opinion Scores without providing interpretability or temporal localization of audio defects. While recent Audio Large Language Models aim to deliver explainable assessments, they often prioritize conversational fluency over diagnostic precision and suffer from hallucinations or ungrounded reasoning. Because pre-training mixtures lack descriptive speech quality tasks, these models require targeted alignment methods that strictly enforce dimensional and temporal accuracy.
 
 ## Method
 
-The authors introduce a post-training method for an Audio Large Language Model: a calibration stage that aligns the model to predict predefined perceptual dimensions, followed by a GRPO reinforcement-learning stage with dimension-specific rewards to sharpen artifact description accuracy and temporal localization.
+The method builds upon the Audio Flamingo 3 model and features a two-stage post-training pipeline combining supervised calibration and reinforcement learning. The calibration stage unfreezes the audio encoder and fine-tunes the network using cross-entropy loss to predict multidimensional quality scores on a 1-to-5 scale. The reasoning stage employs Group Relative Policy Optimization (GRPO) with fine-grained, dimension-specific reward functions to optimize textual descriptions, scoring accuracy, and temporal localization. Rewards are computed either via structured extraction (comparing exact scores and semantic similarity using sentence transformers) or an external LLM-judge. Training utilizes LoRA (rank 64) across two NVIDIA L40S GPUs.
 
 ## Results
 
-The method reaches a state-of-the-art 0.71 mean PCC on the multidimensional Qual-iSpeech benchmark and a 13% improvement in MOS prediction, with fine-grained GRPO rewards substantially improving artifact pinpointing and classification in time.
+Evaluated on the 12,450-sample QualiSpeech dataset, the proposed framework reaches a mean Pearson Correlation Coefficient (PCC) of 0.71 across perceptual dimensions and a MOS PCC of 0.76 using the LLM-judge reward strategy. It outperforms baseline models such as QualiSpeech-FT and SQ-LLM, delivering a 13% improvement in MOS prediction. Ablation studies demonstrate that unfreezing the audio encoder provides a substantial 0.12 gain in average PCC, significantly outperforming mere language model scaling.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/KostenokLisa/calibration-reasoning-framework
 
 ## Applications
 
-Useful for building explainable audio quality assessment tools that tell engineers not just a quality score but what specifically is wrong and where, for codec/TTS/enhancement development.
+Speech and ML engineers building explainable, diagnostic speech quality assessment tools, automated telephony monitoring systems, or enhancement algorithm evaluators that require temporal localization of artifacts.
+
+## Limitations
+
+Predictions for speech speed are intentionally excluded from evaluation due to highly imbalanced data in the benchmark corpus.
 
 ## Related
 

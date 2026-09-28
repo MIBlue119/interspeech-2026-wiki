@@ -8,10 +8,11 @@ authors:
     - Harish Rajamani
     - Naveen Ambati
 year: 2026
+doi: 10.21437/Interspeech.2026-2097
 isca_url: https://www.isca-archive.org/interspeech_2026/keetha26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/keetha26_interspeech.pdf
 session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
-topics: []
+topics: [speaker-verification, multilingual, self-supervised]
 code:
     url: ""
     license: ""

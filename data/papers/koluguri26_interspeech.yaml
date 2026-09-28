@@ -13,8 +13,8 @@ doi: 10.21437/Interspeech.2026-728
 isca_url: https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
-topics: [asr]
+topics: [asr, speech-llm, evaluation]
 code:
-    url: ""
+    url: https://github.com/nithinraok/preference-asr-bench
     license: ""
 open_to_collaboration: false

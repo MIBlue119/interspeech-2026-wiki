@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2154
 isca_url: https://www.isca-archive.org/interspeech_2026/kim26q_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26q_interspeech.pdf
 session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
-topics: [speech-llm, spoken-language-understanding]
+topics: [speech-llm, dataset, evaluation]
 code:
     url: ""
     license: ""

@@ -2,25 +2,28 @@
 id: kubo26_interspeech
 category: asr
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1672
+pdf: https://www.isca-archive.org/interspeech_2026/kubo26_interspeech.pdf
 ---
 
 # Building Tailored Speech Recognizers for Japanese Speaking Assessment
 
-**TL;DR** — A specialized Japanese ASR system that outputs phonemic transcriptions with pitch-accent markers for speaking assessment, cutting error rate nearly in half versus prior approaches despite scarce accent-labeled training data.
+[PDF](https://www.isca-archive.org/interspeech_2026/kubo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kubo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1672)
+
+**TL;DR** — The paper introduces a streamable phonemic recognizer tailored for Japanese speaking assessment that incorporates pitch accents and reduces mora-label error rates from 12.3% to 7.1%.
 
 ## Problem
 
-Japanese speaking assessment needs ASR that transcribes phonemes together with accent marks, but training data with accurate phonemic-plus-accent transcriptions is scarce even though Japanese is otherwise resource-rich.
+Standard ASR systems normalize speech by discarding speaker errors, mispronunciations, and incorrect accent positions, making them unsuitable for language education and speaking proficiency evaluation. Although phonetic transcribers exist, fine-grained tasks like Japanese pitch accent assessment suffer from extreme data scarcity, as hand-annotated multi-speaker corpora like the CSJ core set contain only 45 hours of speech. Multitask learning and lattice-based fusion are proposed to leverage cheaper unannotated text and pitch data to overcome this sparsity.
 
 ## Method
 
-The authors use a multitask training scheme with auxiliary losses including one targeting pitch patterns, and fuse two estimators — one over phonetic alphabet strings and one over text token sequences — to mitigate the data sparsity for accent-marked phonemic ASR.
+The architecture uses a pretrained Mimi speech encoder (without quantization/downsampling) coupled with a 24-layer, 512-dimensional causal Llama-2-style encoder-only CTC model. It is trained using a multitask learning scheme consisting of three estimation tasks: phonetic alphabet (PA) recognition, text token (TT) recognition, and a 10-class fundamental frequency trajectory classifier derived via the Harvest algorithm. To combine modalities, a novel finite-state transducer (FST) lattice fusion algorithm merges CTC confusion networks for PAs with a pronunciation-dictionary-derived PA lattice converted from the TT estimator.
 
 ## Results
 
-The proposed methods reduce average mora-label error rate from 12.3% to 7.1% on the CSJ core evaluation sets, outperforming the use of generic multilingual recognizers.
+Evaluated on the Corpus of Spontaneous Japanese (CSJ) core evaluation sets using mora-label error rate (MER). The proposed approach reduces the average MER from a baseline of 12.3% down to 7.1%. Experiments confirm that both multitask learning and lattice fusion are crucial, outperforming generic multilingual recognizers that tend to incorrectly correct non-canonical speaker errors.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Automated Japanese pronunciation and speaking assessment tools, e.g. for language learning or accent training.
+Speech engineers and educational technology developers building automated computer-assisted language learning (CALL) systems and speaking proficiency evaluation tools for Japanese.
+
+## Limitations
+
+The current framework relies on a single training phase without iterative pseudo-labeling on unannotated datasets.
 
 ## Related
 

@@ -5,10 +5,11 @@ authors:
     - Arthur Söhler
     - Andreas Søeborg Kirkedal
 year: 2026
+doi: 10.21437/Interspeech.2026-3411
 isca_url: https://www.isca-archive.org/interspeech_2026/irigoyen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/irigoyen26_interspeech.pdf
 session: Resource Constrained Speech Recognition
-topics: []
+topics: [asr, self-supervised, evaluation]
 code:
     url: ""
     license: ""

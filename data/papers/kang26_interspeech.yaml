@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-3192
 isca_url: https://www.isca-archive.org/interspeech_2026/kang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kang26_interspeech.pdf
 session: 'Speaker Verification: Advances in Speaker Embeddings'
-topics: [speaker-verification]
+topics: [speaker-verification, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/slp-lab-research/vam_ecapa
     license: ""
 open_to_collaboration: false

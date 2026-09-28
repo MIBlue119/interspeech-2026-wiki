@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-999
 isca_url: https://www.isca-archive.org/interspeech_2026/kando26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kando26_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
-topics: [speech-llm, self-supervised]
+topics: [self-supervised, speech-llm, evaluation]
 code:
-    url: ""
+    url: https://github.com/gifdog97/espnet/tree/master/egs2/ljspeech/tts1/myscripts
     license: ""
 open_to_collaboration: false

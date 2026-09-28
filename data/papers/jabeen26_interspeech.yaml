@@ -5,10 +5,11 @@ authors:
     - Ákos Buza
     - Ella Reimann
 year: 2026
+doi: 10.21437/Interspeech.2026-707
 isca_url: https://www.isca-archive.org/interspeech_2026/jabeen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jabeen26_interspeech.pdf
 session: Prominence, Stress and Focus
-topics: []
+topics: [phonetics, prosody, evaluation]
 code:
     url: ""
     license: ""

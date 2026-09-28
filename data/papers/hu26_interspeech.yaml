@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-304
 isca_url: https://www.isca-archive.org/interspeech_2026/hu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hu26_interspeech.pdf
 session: Tools and Techniques for Phonetic Analysis
-topics: [phonetics, multilingual, self-supervised]
+topics: [asr, multilingual, self-supervised]
 code:
     url: ""
     license: ""

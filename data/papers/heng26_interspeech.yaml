@@ -11,10 +11,11 @@ authors:
     - Jeremy H. M. Wong
     - Eng Siong Chng
 year: 2026
+doi: 10.21437/Interspeech.2026-642
 isca_url: https://www.isca-archive.org/interspeech_2026/heng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/heng26_interspeech.pdf
 session: Code-Switching ASR
-topics: []
+topics: [asr, tts, multilingual]
 code:
     url: ""
     license: ""

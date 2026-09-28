@@ -5,10 +5,11 @@ authors:
     - Hwayoung Park
     - Hong Kook Kim
 year: 2026
+doi: 10.21437/Interspeech.2026-2175
 isca_url: https://www.isca-archive.org/interspeech_2026/ku26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ku26_interspeech.pdf
 session: Multilingual Speech 2
-topics: []
+topics: [speech-translation, multilingual, evaluation]
 code:
     url: ""
     license: ""

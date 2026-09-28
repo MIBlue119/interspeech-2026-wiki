@@ -2,25 +2,28 @@
 id: hoffner26_interspeech
 category: speech-enhancement
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1891
+pdf: https://www.isca-archive.org/interspeech_2026/hoffner26_interspeech.pdf
 ---
 
 # Deep learning-based predictions of perceived listening effort and intelligibility across enhanced, synthetic, natural, and binaural speech
 
-**TL;DR** — Two deep-learning perceptual models both correlate above 0.88 with over 10,500 human ratings of listening effort and intelligibility, spanning hearing-aid, binaural, and synthetic speech conditions they weren't all explicitly designed for.
+[PDF](https://www.isca-archive.org/interspeech_2026/hoffner26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hoffner26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1891)
+
+**TL;DR** — This paper evaluates two deep learning-based perception models, PHOBI and HASA-Net+, for non-intrusive prediction of speech intelligibility and listening effort across spatial, enhanced, and synthetic speech conditions, achieving high overall correlations exceeding 0.88 with human ratings.
 
 ## Problem
 
-Hearing research needs models of auditory perception that accurately predict subjective listening effort (LE) and speech intelligibility (SI), but it is unclear how well existing deep-learning models generalize across the very diverse conditions such tools need to cover.
+Predicting human speech perception metrics such as speech intelligibility (SI) and listening effort (LE) is crucial for evaluating hearing aids, communication systems, and synthetic speech, but traditional subjective listening tests are time-consuming. While various intrusive and non-intrusive models exist, it remains unclear whether deep learning perception models designed for specific tasks can generalize to predict both SI and LE across diverse, challenging conditions like spatial noise scenes, speech enhancement algorithms, and text-to-speech outputs. This study addresses this gap by testing two fundamentally different non-intrusive neural models against an extensive dataset of over 10,500 human listener responses.
 
 ## Method
 
-The authors analyze the predictive power of two deep-learning models — PHOBI (a phone-posterior-based binaural intelligibility model) and HASANet+ (a teacher-student model trained to mimic intrusive SI measures) — against over 10,500 LE and SI ratings from 39 listeners across hearing-aid speech enhancement, binaural-scene perception, and synthetic speech.
+The study analyzes two distinct models: PHOBI, a phone-based binaural intelligibility model using a hybrid ASR feed-forward neural network (trained on 960 hours of LibriSpeech) to compute triphone prediction uncertainty via Mean Temporal Distance (KL-divergence), and HASA-Net+, a teacher-student model combining WavLM-Large representations and audiogram patterns through a BLSTM and multi-head attention branches to predict HASPI. Model outputs are mapped to subjective listening effort (ESCU scale) via linear fits on an independent calibration dataset, and to speech recognition thresholds (SRT) by fitting sigmoid psychometric functions to outputs across varying SNRs (-40 to 20 dB). For binaural spatial scenes, a better-ear listening strategy selects the higher numerical output between left and right channels processed via HRTFs, with a single-condition offset correction applied to SRT predictions.
 
 ## Results
 
-Both models produce high correlations with human ratings (above 0.88), including for LE metrics they were not explicitly designed to predict, with PHOBI slightly ahead on average; both generalize reasonably to conditions not covered in training.
+Evaluated on over 10,500 responses from 39 participants across spatial intelligibility, enhanced speech, and synthetic speech datasets, both models achieved high overall correlation coefficients above 0.88. For spatial speech intelligibility (SIspatial), PHOBI outperformed HASA-Net+ across anechoic, office, and cafeteria acoustic environments, yielding an anechoic Pearson correlation of 0.97 (RMSE 1.0 dB) for PHOBI versus 0.94 for HASA-Net+. On listening effort for enhanced speech (LEenhanced), both models achieved linear correlations of r = 0.94 (PHOBI) and r = 0.98 (HASA-Net+), though PHOBI achieved a lower RMSE of 1.2 ESCU compared to HASA-Net+'s 1.9 ESCU. For text-to-speech synthetic speech under various noisy spatial configurations (LEsynthetic), both models attained strong aggregate correlations of r = 0.94 (PHOBI) and 0.96 (HASA-Net+), though noise-specific subset correlations varied widely between 0.43 and 0.91.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Objective, listener-free evaluation tools for hearing-aid algorithms, TTS systems, and other audio-processing pipelines.
+Speech engineers, hearing aid developers, and researchers evaluating speech enhancement algorithms, text-to-speech systems, and spatial audio quality without requiring clean reference signals.
+
+## Limitations
+
+Model correlations drop significantly when evaluated on narrower noise-specific subsets rather than aggregate datasets, and PHOBI occasionally mispredicted the directional trend of listening effort improvements for specific cafeteria noise conditions.
 
 ## Related
 

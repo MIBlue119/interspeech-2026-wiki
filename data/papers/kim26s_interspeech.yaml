@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-2532
 isca_url: https://www.isca-archive.org/interspeech_2026/kim26s_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26s_interspeech.pdf
 session: Audio-Visual Grounding, Synchronization & Video Understanding
-topics: [speech-llm, evaluation]
+topics: [speech-llm, multimodal, evaluation]
 code:
-    url: ""
+    url: https://github.com/naver-ai/unimambamia-av
     license: ""
 open_to_collaboration: false

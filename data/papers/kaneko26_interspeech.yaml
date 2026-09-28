@@ -6,11 +6,12 @@ authors:
     - Kou Tanaka
     - Yuto Kondo
 year: 2026
+doi: 10.21437/Interspeech.2026-1596
 isca_url: https://www.isca-archive.org/interspeech_2026/kaneko26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kaneko26_interspeech.pdf
 session: Voice Conversion
-topics: []
+topics: [voice-conversion, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/meanvoiceflow2/
     license: ""
 open_to_collaboration: false

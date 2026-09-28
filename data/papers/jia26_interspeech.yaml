@@ -7,10 +7,11 @@ authors:
     - Siyin Wang
     - Chao Zhang
 year: 2026
+doi: 10.21437/Interspeech.2026-1300
 isca_url: https://www.isca-archive.org/interspeech_2026/jia26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jia26_interspeech.pdf
 session: Pathological Speech Assessment 3
-topics: []
+topics: [paralinguistics, self-supervised, dataset]
 code:
     url: ""
     license: ""

@@ -9,11 +9,12 @@ authors:
     - Arnaldo Cândido Jr
     - Sandra Aluísio
 year: 2026
+doi: 10.21437/Interspeech.2026-450
 isca_url: https://www.isca-archive.org/interspeech_2026/leal26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/leal26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
-topics: []
+topics: [asr, multilingual, dataset]
 code:
-    url: ""
+    url: https://github.com/nilc-nlp/tarsila-asr
     license: ""
 open_to_collaboration: false

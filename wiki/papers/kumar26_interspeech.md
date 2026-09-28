@@ -2,25 +2,28 @@
 id: kumar26_interspeech
 category: asr
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-593
+pdf: https://www.isca-archive.org/interspeech_2026/kumar26_interspeech.pdf
 ---
 
 # Listening with Attention: Entropy-Guided Explainability for Transformer-Based Audio Models
 
-**TL;DR** — LEAF-X combines entropy-guided attention weighting, multi-layer rollout, and optional causal ablation to produce sparse, faithful token-to-frame explanations for transformer ASR models like Whisper, outperforming perturbation-based and raw-attention explainers.
+[PDF](https://www.isca-archive.org/interspeech_2026/kumar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kumar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-593)
+
+**TL;DR** — LEAF-X is a model-intrinsic explainability framework for transformer ASR that uses entropy-guided attention weighting and multi-layer rollout to produce faithful, sparse token-to-frame attributions.
 
 ## Problem
 
-Transformer ASR models such as Whisper are highly accurate but hard to interpret, and existing explainable-AI methods often lack faithfulness and precise temporal grounding.
+Modern transformer ASR models like Whisper and Canary achieve high transcription accuracy but operate as opaque black boxes, complicating deployment in safety-critical settings where auditing model decisions is required. Existing post-hoc explainers like LIME, SHAP, and Integrated Gradients often fail to faithfully capture causal evidence, yield coarse time localization, and are poorly matched to sequential speech dynamics. ASR needs a model-intrinsic XAI framework that provides fine-grained, word-aligned rationales reflecting the model's internal computation.
 
 ## Method
 
-LEAF-X (Listening with Entropy-guided Attention for Faithful eXplainability) combines entropy-guided attention weighting, multi-layer attention rollout, and optional causal ablations to identify low-entropy, high-impact attention heads and layers, producing sparse token-to-frame attributions from the model's internal structure rather than external perturbation.
+LEAF-X combines entropy-guided attention weighting to filter diffuse heads, multi-layer attention rollout to aggregate compositional evidence across transformer depth, gradient modulation for output sensitivity, and lightweight causal reweighting via layer-wise ablations. The framework operates on encoder-decoder models (e.g., 1.55B-parameter Whisper-large-v3) and speech-augmented decoder-only hybrids (Canary-Qwen-2.5B), extracting token-to-time attributions mapped back to spectrogram frames. Hyperparameters include entropy temperature tau, numerical stability constants, rollout depth matching model layers, and optional causal ablation passes.
 
 ## Results
 
-LEAF-X produces more faithful and stable attributions than strong baselines, supporting more transparent and auditable ASR.
+Evaluated on LibriSpeech (using train-clean-100, test-clean, test-other) and TED-LIUM Release 3 using D-AOPC, Temporal Localization (TLoc), Sparsity (SPR), Stability (STAB), and Infidelity (INF) metrics against baselines like LIME, SHAP, Integrated Gradients, Occlusion/SpecMask, Raw Attention Alignment, SaCo, and Transformer Attribution. On Whisper-large-v3, LEAF-X achieves the lowest D-AOPC (0.45) and INF (0.45), while improving sparsity (0.70) and stability (0.78). On Canary-Qwen-2.5B, LEAF-X attains D-AOPC of 0.48, INF of 0.47, SPR of 0.68, and STAB of 0.76, while tying for top temporal localization (0.70). Ablations confirm that removing entropy weighting or rollout causes the largest drops in localization and sparsity.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Useful for auditing and debugging ASR systems in high-stakes or regulated settings where transcription decisions need to be explainable.
+Speech engineers, compliance auditors, and developers deploying ASR systems in high-stakes environments such as medical dictation and emergency response who need to audit model behavior and verify spoken evidence.
+
+## Limitations
+
+Limitations include dependence on backbone model architecture, sensitivity to attention and entropy calibrations, vulnerability to domain shift and noise, and lack of direct human-in-the-loop user validation.
 
 ## Related
 

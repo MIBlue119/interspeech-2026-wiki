@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-1213
 isca_url: https://www.isca-archive.org/interspeech_2026/kim26k_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26k_interspeech.pdf
 session: Acoustic Event Detection 3
-topics: [health, evaluation]
+topics: [health, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/RSC-Toolkit/QLung
     license: ""
 open_to_collaboration: false

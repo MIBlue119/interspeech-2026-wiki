@@ -1,34 +1,41 @@
 ---
 id: jung26c_interspeech
-category: speech-enhancement
+category: audio-captioning
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3044
+pdf: https://www.isca-archive.org/interspeech_2026/jung26c_interspeech.pdf
 ---
 
 # Edit the Moment, Keep the Rest: Time-Localized Audio Editing via Instruction
 
-**TL;DR** — EMKR is an instruction-driven audio editing framework that edits precisely timed events — adding, removing, replacing, moving, or extending a sound — in polyphonic mixtures while leaving everything else untouched, down to 100ms precision.
+[PDF](https://www.isca-archive.org/interspeech_2026/jung26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jung26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3044)
+
+**TL;DR** — The EMKR framework enables instruction-driven, time-localized editing of polyphonic audio with 100 ms precision across adding, removing, replacing, moving, and extending tasks.
 
 ## Problem
 
-Audio editing systems can modify sound content but few handle temporal editing with precise control over when an event happens, which matters for timing-critical edits in mixtures with multiple overlapping sounds.
+Current text-guided audio editors perform coarse-grained temporal modifications, making it difficult to alter specific event instances in complex polyphonic soundscapes without affecting overlapping classes or background contexts. This lack of precise time-localized control hinders timing-critical sound design and editing tasks in real-world mixtures.
 
 ## Method
 
-Built on Stable Audio Open, EMKR is trained on a temporal editing pipeline that constructs (instruction, input audio, target audio) triplets carrying explicit timing information, using an explicit edit interval for precise timing and a source-event mask to preserve the original event instance during moving or extending operations.
+Building on Stable Audio Open (SAO), EMKR incorporates a T5 text encoder, a VAE, and a diffusion transformer (DiT) trained on synthetic triplets generated via an on-the-fly mixing pipeline. It introduces interval-based timing conditioning by mapping four temporal scalars (reference and edit start/end times) into 768-dimensional embeddings appended to the text tokens and added to the diffusion timestep conditioning. Additionally, it applies source-event masking (SEM)—concatenating a binary mask indicating the source interval alongside noisy and clean latents—specifically for preservation-critical tasks like moving and extending.
 
 ## Results
 
-On mixtures from real-world datasets, EMKR enables time-localized editing of polyphonic audio at 100ms precision while preserving non-edited regions, supporting timing-critical editing tasks; audio samples are available online.
+Evaluated on 1,000 synthetic held-out mixtures derived from AudioCaps, WavCaps, ESC-50, and FSD50K, EMKR compares favorably against baselines such as AUDIT, AudioEditor, ZETA, and SAO-Instruct. EMKR achieves superior temporal precision with a 0.1s segment F1-score of 87.7 for adding, 83.0 for replacing, 64.3 for moving, and 83.7 for extending, while maintaining high background faithfulness (4.29 MOS) and overall quality (4.35 MOS). Clip-level evaluation demonstrates that EMKR reaches an FAD of 3.05, FD of 22.9, and KL divergence of 0.665.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://jinwoo0302.github.io/emkr-demo/
 
 ## Applications
 
-Precise sound editing for film/video post-production, podcast editing, and any tool needing frame-accurate control over adding or moving sound events in a mix.
+Speech and audio engineers, post-production professionals, and content creators can use this framework for precise sound effect replacement, Foley timing adjustment, and automated soundtrack editing.
+
+## Limitations
+
+The framework relies heavily on synthetic training triplets and paired intervals generated via automated pipelines rather than fully unconstrained in-the-wild editing data.
 
 ## Related
 

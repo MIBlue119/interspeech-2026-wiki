@@ -12,10 +12,11 @@ authors:
     - Srivas Prasad
     - Michele Franceschini
 year: 2026
+doi: 10.21437/Interspeech.2026-2642
 isca_url: https://www.isca-archive.org/interspeech_2026/jiang26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26f_interspeech.pdf
 session: Datasets
-topics: []
+topics: [asr, dataset, evaluation]
 code:
     url: ""
     license: ""

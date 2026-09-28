@@ -2,33 +2,36 @@
 id: ijjada26_interspeech
 category: speech-enhancement
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2115
+pdf: https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.pdf
 ---
 
 # WaveNorm: A Low-Complexity Time-Domain Neural Adaptive Gain Control for Real-Time Speech Applications
 
-**TL;DR** — A causal neural network that learns time-varying gain directly from raw waveforms replaces hand-crafted adaptive gain control, running in real time on just 49M MACs and 55KB of memory.
+[PDF](https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2115)
+
+**TL;DR** — WaveNorm is a lightweight, fully time-domain neural adaptive gain control model that delivers stable loudness normalization for real-time speech while operating within resource constraints (49M MACs, 55 KB memory).
 
 ## Problem
 
-Conventional adaptive gain control (AGC) relies on fixed attack and release constants, which limits effectiveness in dynamic environments and causes clipping, delayed adaptation, noise amplification, and audible gain fluctuations.
+Conventional automatic gain control (AGC) systems rely on heuristic envelope detectors with fixed attack and release constants, which fail to handle rapid amplitude shifts and fluctuating noise effectively, causing clipping, pumping artifacts, and background noise amplification. These limitations degrade the performance of downstream speech processing applications like ASR and teleconferencing. Operating in the time domain avoids the phase distortion and algorithmic latency introduced by STFT or filter-bank front ends while exploiting fine-grained waveform structures.
 
 ## Method
 
-The authors propose WaveNorm AGC, a causal end-to-end approach that learns time-varying gain directly from raw waveforms, eliminating hand-crafted envelope detectors and spectral analysis, and designed to comply with ITU-T P.56 and P.79 loudness standards.
+WaveNorm uses an encoder-bottleneck-decoder architecture that processes raw audio waveforms causally. The encoder employs three sequential dilated grouped 1D convolutional blocks with exponentially increasing dilation rates (2, 4, 8) and batch normalization to capture multi-scale envelope dynamics without spectral decomposition. A temporal bottleneck featuring a Gated Recurrent Unit (GRU) with 32 hidden units and dense layers with layer normalization summarizes loudness history to ensure smooth, temporally consistent gain trajectories. The decoder mirrors the encoder using three dilated grouped transposed 1D convolutions to reconstruct the full-resolution waveform. The model is trained using a hybrid objective combining time-domain Mean Squared Error (MSE) and multi-resolution spectral loss (MRSL).
 
 ## Results
 
-WaveNorm AGC delivers stable, level-invariant, speaker-independent normalization across diverse conditions, requiring only 49M MACs and 55 KB of memory for real-time edge processing, and improves downstream voice activity detection and noise suppression when used as a preprocessing module.
+Evaluated on noisy VoiceBank+DEMAND and clean TIMIT datasets, WaveNorm maps wide input RMS ranges into a compact, level-invariant output distribution compliant with ITU-T P.56 and P.79 recommendations. When used as a pre-processing front-end for Silero VAD, it achieves an improved AUC of 0.96 and the lowest false positive rate of 0.272 compared to WebRTC and Carnival AGC baselines. Furthermore, integrating WaveNorm before noise suppression models such as DeepFilterNet2, DTLN, and GTCRN consistently boosts perceptual speech quality metrics, yielding NISQA and DNSMOS improvements such as a +0.35 NISQA increase for DeepFilterNet2.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/wavenorm123/WaveNorm_AGC
 
 ## Applications
 
-Real-time gain normalization on resource-constrained edge devices such as headsets, hearables, and conferencing hardware.
+Engineers building real-time communication systems, voice activity detectors, or noise suppression pipelines on resource-constrained edge hardware will find this useful for robust loudness normalization.
 
 ## Related
 

@@ -2,25 +2,28 @@
 id: kim26t_interspeech
 category: self-supervised
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3071
+pdf: https://www.isca-archive.org/interspeech_2026/kim26t_interspeech.pdf
 ---
 
 # Fast Speech Foundation Model Distillation Using Interleaved Stacking
 
-**TL;DR** — Interleaved stacking speeds up distilling large speech foundation models into efficient students by growing model depth progressively while preserving each layer's position, avoiding the accuracy loss of prior stacking methods.
+[PDF](https://www.isca-archive.org/interspeech_2026/kim26t_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26t_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3071)
+
+**TL;DR** — Interleaved stacking accelerates speech foundation model knowledge distillation by progressively increasing model depth while preserving layer position consistency, achieving competitive performance with reduced training costs.
 
 ## Problem
 
-Distilling large speech foundation models into efficient student models helps low-resource deployment, but training the student itself takes time, and the training efficiency of this distillation process has been largely underexplored.
+Knowledge distillation reduces inference latency for large speech foundation models, but training efficient student models remains computationally expensive and under-explored. While stagewise training via stacking reduces training costs by starting with shallow models, existing stacking strategies relocate layer positions inconsistently across training stages, which harms downstream task performance because speech foundation models encode strict layer-specific knowledge.
 
 ## Method
 
-The authors examine stacking — progressively increasing model depth during training until the target depth is reached — as a way to accelerate distillation, and address the performance degradation of existing stacking methods with "interleaved stacking," which consistently preserves each layer's relative position throughout the stacking process.
+The paper introduces interleaved stacking for B-stage training, where every b-th layer is copied and inserted directly after its original layer, ensuring that relative layer positions remain constant as depth increases. The student model architecture uses a 12-layer Transformer with 26.87M parameters (distilled from a 94.68M parameter HuBERT base teacher), featuring an output-layer MSE loss combined with fixed intermediate-layer KD losses across all stages. Training is conducted on the 960-hour LibriSpeech corpus using AdamW for 75 epochs under both equal and proportional scheduling strategies.
 
 ## Results
 
-Interleaved stacking accelerates speech foundation model distillation training while avoiding the performance degradation seen with prior stacking approaches, validated on the SUPERB benchmark.
+Evaluated on the SUPERB benchmark across phoneme recognition (PR), automatic speech recognition (ASR), slot filling (SF), and speaker identification (SID). Interleaved stacking outperforms existing stacking baselines like gradual stacking and MIDAS by large margins on all tasks under both equal and proportional schedules (e.g., achieving 9.08 PER on PR compared to 11.50 for gradual stacking). Furthermore, interleaved stacking with proportional scheduling achieves wall-clock speedups of approximately 1.16× to 1.24× while matching or exceeding the downstream performance of fully trained student baselines that lack stacking acceleration.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Faster, cheaper training pipelines for compressing large speech foundation models into deployable student models for low-resource or on-device use.
+Engineers deploying lightweight speech foundation models for on-device or resource-constrained speech processing applications such as ASR, spoken language understanding, and speaker identification.
 
 ## Related
 

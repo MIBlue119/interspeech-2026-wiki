@@ -10,10 +10,11 @@ authors:
     - Diego Romeres
     - Jonathan Le Roux
 year: 2026
+doi: 10.21437/Interspeech.2026-2999
 isca_url: https://www.isca-archive.org/interspeech_2026/hori26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hori26_interspeech.pdf
 session: Multimodal Spoken Dialogue Systems
-topics: []
+topics: [asr, speech-llm, evaluation]
 code:
     url: ""
     license: ""

@@ -1,34 +1,41 @@
 ---
 id: kolos26_interspeech
-category: speaker-verification
+category: voice-conversion
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1464
+pdf: https://www.isca-archive.org/interspeech_2026/kolos26_interspeech.pdf
 ---
 
 # Controlled Generation of Synthetic Speaker Vectors for Voice Anonymization
 
-**TL;DR** — Attribute-conditioned WGAN and diffusion generators produce synthetic pseudo-speaker vectors for voice anonymization that let users control which original speaker traits are preserved, while keeping strong privacy and utility.
+[PDF](https://www.isca-archive.org/interspeech_2026/kolos26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kolos26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1464)
+
+**TL;DR** — The paper introduces attribute-conditioned WGAN-QC and diffusion models with classifier guidance for generating synthetic speaker vectors in voice anonymization, achieving strong attribute control while maintaining privacy and utility.
 
 ## Problem
 
-Resynthesis-based voice anonymization substitutes a speaker's vector with an artificial one, but existing generation methods give no control over which original speaker attributes end up preserved in the anonymized voice.
+Resynthesis-based voice anonymization substitutes original speaker vectors with artificial ones to protect speaker identity, but unconditional generation methods lack fine-grained control over preserved attributes like gender or age. While latent-space traversal can alter characteristics, explicit and transparent conditioning is needed to maintain specific demographic properties without leaking real identities. This capability is vital for applications requiring human-centric authenticity, such as whistle-blowing or medical data sharing, where balancing privacy and utility remains a key challenge.
 
 ## Method
 
-The authors extend a WGAN-based synthetic speaker-vector generator with attribute-label conditioning, and separately introduce diffusion models with classifier guidance as a more robust alternative for label-informed speaker-vector synthesis.
+The framework builds on the Voice Privacy Challenge (VPC) 2024 B3 pipeline, which decomposes speech into content, prosody, and 128-dimensional Global Style Token (GST) speaker vectors. The authors extend unconditional WGAN-QC and introduce two conditioning approaches: label-concatenation in cWGAN-QC with class-wise optimal transport, and classifier-guided synthesis using a noise-robust 2-layer MLP classifier for diffusion models. Training utilizes a diverse pool of 1,151 LibriTTS speakers combined with emotional speech datasets (ESD and RAVDESS). The generative models employ residual multi-layer perceptrons with DDIM schedulers for efficient sampling.
 
 ## Results
 
-Evaluated on the Voice Privacy Challenge 2024 suite, both approaches give strong attribute control while maintaining competitive privacy and utility; the authors also propose new diversity, originality, and naturalness measures to help select the best generator configuration.
+Evaluated on the VPC 2024 benchmark using LibriSpeech for Equal Error Rate (EER) and Word Error Rate (WER), and IEMOCAP for Unweighted Accuracy Rate (UAR), the conditional models achieve high gender classification accuracy (over 90% for both male and female targets) while matching the privacy (EER) and utility (WER/UAR) of unconditional baselines. The study evaluates vector pools using Wasserstein-2 distance, pairwise cosine diversity, and copying similarity against natural embeddings. Downstream text-to-speech synthesis tests on the Harvard sentence corpus confirm high word accuracy and filter out configurations prone to generating corrupted acoustic waveforms.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/katja-kolos/synthetic-speaker-vectors
 
 ## Applications
 
-Voice anonymization pipelines for privacy-preserving speech data sharing, where control over preserved attributes (e.g. gender, accent) matters.
+Speech and ML engineers building privacy-preserving voice anonymization systems, secure text-to-speech applications, or anonymized spoken data pipelines for medical and behavioral research.
+
+## Limitations
+
+Experiments primarily focus on gender matching as a case study, though the framework is designed to support other attributes.
 
 ## Related
 

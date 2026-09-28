@@ -21,11 +21,12 @@ authors:
     - Richard M. Leahy
     - Shrikanth Narayanan
 year: 2026
+doi: 10.21437/Interspeech.2026-140
 isca_url: https://www.isca-archive.org/interspeech_2026/lee26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26b_interspeech.pdf
 session: Methods and Data for Vocal Tract Shape and Articulation Analysis
-topics: []
+topics: [dataset, evaluation, speech-llm]
 code:
-    url: ""
+    url: https://github.com/lee-jhwn/multimodal-speech-biosignals
     license: ""
 open_to_collaboration: false

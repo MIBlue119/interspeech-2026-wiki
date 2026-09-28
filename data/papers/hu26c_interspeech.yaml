@@ -7,11 +7,12 @@ authors:
     - Hung-Shin Lee
     - Berlin Chen
 year: 2026
+doi: 10.21437/Interspeech.2026-1130
 isca_url: https://www.isca-archive.org/interspeech_2026/hu26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hu26c_interspeech.pdf
 session: Information Extraction and Retrieval / Survey Talk
-topics: []
+topics: [keyword-spotting, speaker-verification, self-supervised]
 code:
-    url: ""
+    url: https://github.com/Padawan101/ZP-KWS
     license: ""
 open_to_collaboration: false

@@ -6,11 +6,12 @@ authors:
     - Valerio Mario Salerno
     - Sabato Marco Siniscalchi
 year: 2026
+doi: 10.21437/Interspeech.2026-1773
 isca_url: https://www.isca-archive.org/interspeech_2026/laquatra26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/laquatra26_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
-topics: []
+topics: [asr, speech-llm, dataset]
 code:
-    url: ""
+    url: https://github.com/MorenoLaQuatra/dysarthric-asr
     license: ""
 open_to_collaboration: false

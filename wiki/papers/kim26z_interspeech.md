@@ -2,25 +2,28 @@
 id: kim26z_interspeech
 category: speech-llm
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3467
+pdf: https://www.isca-archive.org/interspeech_2026/kim26z_interspeech.pdf
 ---
 
 # AudioGround: Fine-Grained Temporal Grounding in Audio via Deterministic Boundary Supervision
 
-**TL;DR** — A new instruction-tuning dataset with exact timestamp labels, plus a SALMONN extension that conditions on those timestamps, teaches Large Audio Language Models to say not just what sound happened but when.
+[PDF](https://www.isca-archive.org/interspeech_2026/kim26z_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26z_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3467)
+
+**TL;DR** — AudioGround introduces a time-aware instruction-tuning dataset and a lightweight LALM extension for fine-grained temporal audio grounding, substantially outperforming existing models on moment retrieval benchmarks.
 
 ## Problem
 
-Large Audio Language Models can describe the sounds present in audio but generally cannot localize when they occur, a critical gap for real applications; prior temporal-reasoning attempts either use coarse multiple-choice distinctions or rely on unverifiable LLM-inferred timestamps.
+Current Large Audio Language Models (LALMs) can describe acoustic scenes holistically but fail to precisely localize when specific sounds occur. Existing training approaches rely either on coarse multi-choice labels or unverified LLM-inferred timestamps, lacking a deterministic supervision signal. This limitation prevents general-purpose LALMs from handling tasks like audio moment retrieval or precise event timing in long-form audio.
 
 ## Method
 
-The authors build AudioGround-IT, a time-aware audio instruction-tuning dataset with deterministic boundary supervision (49.9K instructions over 835 hours of audio across four temporal tasks), and propose AudioGround, a lightweight extension of SALMONN using a sliding-window Q-Former to compress encoder features while conditioning on timestamps and absolute time embeddings.
+The authors construct AudioGround-IT, a 49.9K-sample dataset spanning 835 hours of audio, created by concatenating AudioCaps clips with controlled similarity thresholds and stratified length/position biases to yield deterministic boundary targets across four tasks (grounding, duration, frequency, ordering). Architecturally, AudioGround builds on SALMONN using a dual Whisper and BEATs encoder setup with frame-level linear interpolation. It incorporates a sliding-window Q-Former conditioned on textual timestamp prompts, combined with a zero-initialized residual MLP absolute time embedding added to window output tokens. The model is fine-tuned for 6,000 steps with an effective batch size of 24 using LoRA adapters.
 
 ## Results
 
-Across multiple temporal grounding benchmarks, AudioGround substantially outperforms prior LALMs, showing that deterministic boundary supervision transfers effectively to real-world audio.
+Evaluated on temporal grounding benchmarks including Clotho-Moment and TUT-Sound Events 2017, AudioGround significantly outperforms baseline zero-shot LALMs such as Qwen2-Audio-Instruct, Qwen2.5-Omni, GAMA, DeSTA2.5-Audio, SALMONN, and Audio Flamingo2. The paper demonstrates that training on a synthetically constructed, boundary-supervised dataset of 49K samples achieves competitive performance to much larger unverified collections.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Audio event localization for surveillance, media indexing/search, and any audio-LLM application needing precise "when did this happen" answers, not just "what happened."
+Speech and audio engineers building surveillance systems, meeting assistants, or media search tools that require localizing exact sound event timestamps within extended recordings.
 
 ## Related
 

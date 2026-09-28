@@ -1,34 +1,41 @@
 ---
 id: hu26g_interspeech
-category: singing-voice
+category: voice-conversion
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2090
+pdf: https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.pdf
 ---
 
 # Singing Voice Conversion via Shared Speaker Space and Min-Pooling Adversarially Enhanced Flow Matching
 
-**TL;DR** — A singing voice conversion method that maps singers into a shared feature space via KNN and adds a min-pooling adversarial training step to fix the inconsistencies that introduces, improving naturalness and timbre similarity.
+[PDF](https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2090)
+
+**TL;DR** — MinFlow-SVC is a singing voice conversion framework utilizing a shared speaker space via KNN and min-pooling adversarially enhanced conditional flow matching, improving naturalness and zero-shot conversion quality over baseline models.
 
 ## Problem
 
-Singing voice conversion has to trade off disentangling singer identity from content against maintaining singing quality, and prior disentanglement approaches can introduce feature inconsistencies that hurt generation quality.
+Existing singing voice conversion models struggle with an inherent trade-off between content-timbre disentanglement and generation quality, where insufficient separation causes source timbre leakage and aggressive separation discards key phonetic details. Furthermore, KNN-based feature mapping eliminates timbre effectively but introduces frame-level splicing discontinuities, while standard generative models often blur high-frequency harmonics and produce metallic artifacts.
 
 ## Method
 
-MinFlow-SVC uses a KNN-based approach to project source singer features into a shared singer space (removing source timbre while keeping pitch, phonetic, and expressive content), then applies a min-pooling adversarial training strategy on top of conditional flow matching to detect and correct KNN-induced inconsistencies with harmonic awareness.
+The framework couples a content encoder and a vector field estimator, both backed by specialized discriminators using min-pooling adversarial training. First, WavLM semantic features are mapped to a shared speaker-independent space using cosine similarity matching against a pool of shared speaker frames to remove source timbre. A min-pooling adversarial loss (LS-GAN based) detects and penalizes the least confident, most discontinuous segments in the feature space. Second, optimal-transport conditional flow matching (OT-CFM) maps standard Gaussian noise to target mel-spectrograms conditioned on content features, target timbre embeddings, and F0. Finally, a harmonic-aware min-pooling adversarial loss incorporating Dynamic Harmonic Masking (DHM) focuses the discriminator on f0 harmonics to preserve high-frequency spectral clarity.
 
 ## Results
 
-MinFlow-SVC outperforms existing state-of-the-art singing voice conversion baselines on naturalness, intelligibility, timbre similarity, and singing stability.
+Evaluated on the M4singer dataset for training and OpenSinger for zero-shot testing, compared against So-Vits-SVC, DiffSVC, and NeuCoSVC. Evaluated using NMOS (up to 3.83 for 10-step sampling), SMOS (2.65), F0-CORR (0.948), speaker embedding cosine similarity (SECS), and MOSNet. Results show superior naturalness and prosody correlation compared to baselines while maintaining competitive timbre similarity. Ablation studies confirm that removing the min-pooling loss, content encoder, or dynamic harmonic masking leads to noticeable degradation in spectrogram continuity, high-frequency harmonic structure, and overall NMOS/F0-CORR scores.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://linoteye.github.io/minflowsvc/
 
 ## Applications
 
-Singing voice conversion for music production, karaoke/cover generation, and singer-identity transfer tools.
+Audio engineers and developers building high-quality singing voice conversion systems, virtual singers, and cross-lingual or cross-singer voice transformation applications.
+
+## Limitations
+
+Requires a pre-computed matching pool from a shared speaker and multi-step ODE solver sampling during inference.
 
 ## Related
 

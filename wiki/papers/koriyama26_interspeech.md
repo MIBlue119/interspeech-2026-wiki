@@ -2,33 +2,40 @@
 id: koriyama26_interspeech
 category: tts
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1800
+pdf: https://www.isca-archive.org/interspeech_2026/koriyama26_interspeech.pdf
 ---
 
 # Benchmarking Large Language Models for Grapheme-to-Phoneme Conversion: A Japanese Case Study
 
-**TL;DR** — Benchmarks over 30 LLMs on Japanese grapheme-to-phoneme conversion, finding the best LLMs beat conventional morphological analyzers and that piping LLM-predicted kana into TTS improves pronunciation over end-to-end synthesis.
+[PDF](https://www.isca-archive.org/interspeech_2026/koriyama26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koriyama26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1800)
+
+**TL;DR** — Over 30 large language models were benchmarked for Japanese grapheme-to-phoneme conversion, demonstrating that top-tier proprietary models achieve a kana character error rate below 0.52%, outperforming the best conventional morphological analyzer at 1.03%.
 
 ## Problem
 
-Grapheme-to-phoneme conversion is essential for controllable, robust Japanese TTS, and it was unclear how well general-purpose LLMs perform on this task compared to conventional rule-based morphological analyzers.
+Explicit grapheme-to-phoneme conversion remains crucial for text-to-speech controllability and proper noun pronunciation, but Japanese introduces unique challenges like unsegmented word boundaries, polyphonic kanji, and complex numeral-counter phonological rules. Simple dictionary lookups or traditional rule-based tools often fail on out-of-vocabulary terms and complex context-dependent readings, while end-to-end models lack pronunciation user-control.
 
 ## Method
 
-The authors benchmark over 30 LLMs against conventional tools on 3,000 manually annotated Japanese sentences, comparing a 'parse mode' (LLM does morphological analysis, then rule-based kana conversion) against a 'direct mode' (LLM predicts kana readings directly).
+The study evaluates proprietary and open-weight models ranging from 2B to 1T parameters across two prompting paradigms: a parse mode where the LLM performs word segmentation and reading estimation in JSON format followed by rule-based post-processing, and a direct mode where the LLM predicts full-sentence kana directly. The evaluation uses 3,000 manually annotated sentences from the JVS nonpara30 subset covering onomatopoeia, loanwords, proper nouns, and numerals. All models are run without reasoning mode, and conventional rule-based post-processing handles particle conversion and long vowel normalization.
 
 ## Results
 
-The best LLMs reach a kana character error rate below 0.52%, beating the best conventional tool's 1.03%; parse mode outperforms direct mode for most models, and feeding LLM-predicted kana into a kana-input TTS yields better pronunciation than end-to-end TTS.
+Tested on 3,000 JVS sentences evaluated by kana character error rate (CER) against conventional tools like OpenJTalk (1.03%) and MeCab+UniDic (1.54%), the best LLMs achieved significantly lower error rates, such as Claude Opus 4.6 at 0.52% in parse mode and Gemini 3.1 Pro at 0.53% in direct mode. Model scaling laws clearly apply, with local open-weight families showing sharp error reductions as parameter counts increase (e.g., Gemma3 dropping from 34.82% at 4B to 5.75% at 27B). Parse mode generally outperformed direct mode because rule-based post-processing relieves the LLM from handling deterministic phonological rules.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/CyberAgentAILab/jvs_nonpara_kana
 
 ## Applications
 
-Improving pronunciation accuracy in Japanese TTS front-ends and text-normalization pipelines by using LLMs for grapheme-to-phoneme conversion.
+Engineers building text-to-speech systems, voice assistants, or speech synthesis platforms for Japanese and similar morphologically complex languages requiring high pronunciation accuracy and user controllability.
+
+## Limitations
+
+Smaller LLMs suffer from severe failure modes including word substitution, incorrect kanji readings, and dropping characters, necessitating large or specialized models for practical deployment.
 
 ## Related
 

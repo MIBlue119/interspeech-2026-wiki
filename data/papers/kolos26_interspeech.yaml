@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-1464
 isca_url: https://www.isca-archive.org/interspeech_2026/kolos26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kolos26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
-topics: [speaker-verification, evaluation]
+topics: [voice-conversion, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/katja-kolos/synthetic-speaker-vectors
     license: ""
 open_to_collaboration: false

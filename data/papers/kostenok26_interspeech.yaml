@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-2362
 isca_url: https://www.isca-archive.org/interspeech_2026/kostenok26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kostenok26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
-topics: [speech-llm, evaluation]
+topics: [evaluation, speech-enhancement, self-supervised]
 code:
-    url: ""
+    url: https://github.com/KostenokLisa/calibration-reasoning-framework
     license: ""
 open_to_collaboration: false

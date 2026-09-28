@@ -5,10 +5,11 @@ authors:
     - Woan-Shiuan Chien
     - Chi-Chun Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-1262
 isca_url: https://www.isca-archive.org/interspeech_2026/huang26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26e_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
-topics: []
+topics: [paralinguistics, health, multimodal]
 code:
     url: ""
     license: ""

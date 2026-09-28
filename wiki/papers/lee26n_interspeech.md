@@ -2,33 +2,36 @@
 id: lee26n_interspeech
 category: speech-enhancement
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1620
+pdf: https://www.isca-archive.org/interspeech_2026/lee26n_interspeech.pdf
 ---
 
 # DroFiT: A Lightweight Band-Fused Frequency Attention Toward Real-Time UAV Speech Enhancement
 
-**TL;DR** — DroFiT is a tiny, streaming-capable speech enhancement network purpose-built for removing severe drone ego-noise, running 9-26x more efficiently than prior drone-oriented baselines.
+[PDF](https://www.isca-archive.org/interspeech_2026/lee26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1620)
+
+**TL;DR** — DroFiT is an ultra-lightweight, real-time speech enhancement network designed to suppress severe UAV ego-noise while reducing computation by up to 26 times compared to standard baselines.
 
 ## Problem
 
-Drones (UAVs) generate severe, harmonic ego-noise that overwhelms speech captured by an onboard microphone, and existing enhancement models are too heavy for real-time onboard deployment.
+Unmanned aerial vehicles (UAVs) generate severe, wideband, periodic propeller and motor ego-noise that drastically degrades speech capture quality. Deploying deep learning speech enhancement models on resource-constrained UAV hardware is difficult because existing architectures either impose heavy computational demands or require excessive memory access that causes on-chip bottlenecks and high energy consumption.
 
 ## Method
 
-DroFiT uses a Full/Sub-band encoder-decoder that compresses noisy input at different ratios — the sub-band path focused on low-frequency detail, the full-band path retaining global context — combined with a Pre-TCN to capture the harmonic, stationary structure of drone noise and a frequency-wise Transformer that fuses full/sub-band tokens in a shared attention space.
+DroFiT uses a decoupled temporal-spectral architecture combining a Pre-TCN to capture slow-moving harmonic drone noise, parallel full-band and sub-band encoders/decoders with learnable skip connections, and a frequency-wise Transformer operating over concatenated spectral tokens. The sub-band path groups 513 frequency bins into five Mel-like partitions (32 to 257 bins) processed via groupwise 1D convolutions, while the Transformer employs linear attention in variant configurations and depthwise-separable Conv-FFNs to reduce complexity. A Post-TCN performs temporal refinement before a Mask Generation Block outputs a complex-valued mask for time-frequency domain waveform reconstruction using a joint log-magnitude, complex-STFT, and negative SI-SDR loss function.
 
 ## Results
 
-On VoiceBank-DEMAND mixed with recorded drone noise, DroFiT matches the enhancement performance of drone-oriented baselines DCU-net and SMoLnet-T while cutting computation by 15-26x and 9-15x respectively, using only 168k parameters and supporting frame-wise streaming inference.
+Evaluated on simulated VoiceBank-DEMAND mixtures with recorded DJI Flip drone noise spanning -30 dB to -5 dB input SNRs and 1300 real-world speaker samples. DroFiT contains only 168k parameters (0.168M), consumes 0.259 MACs, and achieves a peak memory of 1.21 MB. Compared against DTLN, DCCRN-E, DCU-net, and SMoLnet-T, DroFiT provides competitive or superior SI-SDR, PESQ, and ESTOI scores while operating at a fraction of the computational footprint. Ablations confirm that removing components like the Pre-TCN, sub-band module, or Conv-FFN degrades performance.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://ml-sp.github.io/DroFiT/
 
 ## Applications
 
-Real-time speech enhancement for drone-based communication, search-and-rescue audio capture, and other UAV applications where onboard compute is tightly limited.
+Engineers building on-device speech enhancement and audition pipelines for resource-constrained UAVs, delivery drones, and emergency search-and-rescue aircraft.
 
 ## Related
 

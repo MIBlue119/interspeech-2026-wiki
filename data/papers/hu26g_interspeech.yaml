@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-2090
 isca_url: https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.pdf
 session: Singing Voice and Music Generation
-topics: [singing-voice, voice-conversion]
+topics: [voice-conversion, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://linoteye.github.io/minflowsvc/
     license: ""
 open_to_collaboration: false

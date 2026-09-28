@@ -7,10 +7,11 @@ authors:
     - Sabato Marco Siniscalchi
     - Elena Baralis
 year: 2026
+doi: 10.21437/Interspeech.2026-2347
 isca_url: https://www.isca-archive.org/interspeech_2026/koudounas26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/koudounas26b_interspeech.pdf
 session: Benchmarking Foundation Models
-topics: []
+topics: [asr, evaluation, speech-llm]
 code:
     url: ""
     license: ""

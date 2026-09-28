@@ -7,11 +7,12 @@ authors:
     - Laxmidhar Behera
     - Hema A. Murthy
 year: 2026
+doi: 10.21437/Interspeech.2026-2050
 isca_url: https://www.isca-archive.org/interspeech_2026/kumar26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26e_interspeech.pdf
 session: Low-Resource Speech Synthesis
-topics: []
+topics: [tts, multilingual, low-resource]
 code:
-    url: ""
+    url: https://indiclone.github.io
     license: ""
 open_to_collaboration: false

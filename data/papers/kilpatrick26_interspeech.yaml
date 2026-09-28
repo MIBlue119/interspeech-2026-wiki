@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-1551
 isca_url: https://www.isca-archive.org/interspeech_2026/kilpatrick26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kilpatrick26_interspeech.pdf
 session: Modeling L1 Acquisition
-topics: [phonetics]
+topics: [phonetics, evaluation, dataset]
 code:
     url: ""
     license: ""

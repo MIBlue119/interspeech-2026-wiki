@@ -20,8 +20,8 @@ doi: 10.21437/Interspeech.2026-1724
 isca_url: https://www.isca-archive.org/interspeech_2026/jiang26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26e_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
-topics: [health]
+topics: [speech-llm, tts, health]
 code:
-    url: ""
+    url: https://jiangyu1205.github.io/Data-Augmentation-for-Alzheimer-s/
     license: ""
 open_to_collaboration: false

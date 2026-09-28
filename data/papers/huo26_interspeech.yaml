@@ -4,11 +4,12 @@ authors:
     - Robin Huo
     - Ewan Dunbar
 year: 2026
+doi: 10.21437/Interspeech.2026-2676
 isca_url: https://www.isca-archive.org/interspeech_2026/huo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huo26_interspeech.pdf
 session: New Architecture and Analyses for ASR and Speech LMs
-topics: []
+topics: [self-supervised, evaluation, phonetics]
 code:
-    url: ""
+    url: https://github.com/facebookresearch/fairseq
     license: ""
 open_to_collaboration: false

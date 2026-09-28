@@ -7,7 +7,7 @@ doi: 10.21437/Interspeech.2026-1549
 isca_url: https://www.isca-archive.org/interspeech_2026/jeong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jeong26_interspeech.pdf
 session: Speech and Audio Quality Assessment
-topics: [evaluation, audio-captioning]
+topics: [evaluation, self-supervised, asr]
 code:
     url: ""
     license: ""

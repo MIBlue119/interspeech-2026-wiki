@@ -1,26 +1,29 @@
 ---
 id: kothare26_interspeech
-category: health
+category: paralinguistics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2847
+pdf: https://www.isca-archive.org/interspeech_2026/kothare26_interspeech.pdf
 ---
 
 # Speech-based Digital Biomarkers can Accelerate ALS Clinical Trials: Insights from Time-to-Event and Hazard Rate Analysis
 
-**TL;DR** — Speech-derived biomarkers detect ALS functional decline earlier than the standard clinical ALSFRS-R scale, and hazard-rate modeling shows this could shrink the sample sizes and durations needed for ALS clinical trials.
+[PDF](https://www.isca-archive.org/interspeech_2026/kothare26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kothare26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2847)
+
+**TL;DR** — Speech-derived digital biomarkers detect amyotrophic lateral sclerosis (ALS) functional decline significantly faster than traditional clinical questionnaires, enabling drastically smaller clinical trial sample sizes and shorter durations.
 
 ## Problem
 
-Early detection of functional decline in ALS is critical for timely intervention and efficient clinical trial design, but conventional clinical measures may be slow to register meaningful decline.
+The clinical gold standard for assessing ALS, the ALSFRS-R questionnaire, tracks disease progression non-linearly and lacks sensitivity during early bulbar involvement. Traditional linear mixed-effects models used to analyze speech biomarkers often fail due to heteroscedasticity and non-normality, prompting the need for robust time-to-event frameworks that naturally accommodate right censoring and irregular patient dropouts.
 
 ## Method
 
-Using longitudinal patient data, the authors apply Kaplan-Meier time-to-event analysis and derive hazard rates for speech-based biomarkers versus the ALS Functional Rating Scale-Revised (ALSFRS-R) subscores, then use the hazard-rate models to estimate the sample sizes and trial durations needed to detect treatment effects.
+The study analyzed longitudinal remote multimodal sessions from 144 ALS participants collected via a cloud-based dialogue system between November 2020 and April 2024. Nine speech and facial biomarkers—including fundamental frequency, cepstral peak prominence, harmonics-to-noise ratio, canonical timing alignment, and maximum lip width via MediaPipe Face Mesh—were extracted. Time-to-event analyses utilized Kaplan-Meier survival curves implemented via scikit-survival, defining events based on conservative minimal clinically-important differences (MCID). Exponential approximations of hazard rates derived from the survival curves were subsequently applied in log-rank test formulas to estimate required clinical trial sample sizes and durations across varying hazard ratios.
 
 ## Results
 
-Speech-based biomarkers identify functional decline events faster than the conventional ALSFRS-R subscores, and hazard-rate modeling shows this earlier sensitivity can translate into more efficient clinical trial designs with reduced sample size and duration requirements.
+Kaplan-Meier analyses demonstrated that all speech-based digital biomarkers exhibit steeper declines and detect clinically meaningful changes much earlier than ALSFRS-R subscores (p<0.001 via pairwise log-rank tests). Maximum lip width during reading passages was the most sensitive measure, taking only 14 days for 20% of patients to reach an MCID event, compared to 660 days for a 3-point decline in the ALSFRS-R bulbar subscore. Hazard rate modeling revealed that trials using speech biomarkers require a fraction of the participants; for instance, detecting moderate effects (HR=0.5) with 30 participants per arm requires just 6 months of trial duration for reading passage mean fundamental frequency, compared to 137 months for the ALSFRS-R bulbar subscore.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech-based digital endpoints for accelerating and reducing the cost of ALS clinical trials, and more broadly for patient stratification in neurodegenerative disease research.
+Clinical trial designers, neurologists, and pharmaceutical researchers can use these speech-based digital biomarkers to optimize endpoint selection, patient stratification, and sample size planning for ALS therapeutic trials.
 
 ## Related
 

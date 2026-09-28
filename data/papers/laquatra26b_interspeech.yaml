@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-2369
 isca_url: https://www.isca-archive.org/interspeech_2026/laquatra26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/laquatra26b_interspeech.pdf
 session: Information Extraction and Retrieval
-topics: [self-supervised, audio-captioning]
+topics: [self-supervised, evaluation, dataset]
 code:
-    url: ""
+    url: https://github.com/MorenoLaQuatra/SSL-AIR
     license: ""
 open_to_collaboration: false

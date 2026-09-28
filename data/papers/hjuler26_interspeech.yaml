@@ -5,11 +5,12 @@ authors:
     - Tuyet Katie Nhi Tran
     - Laurianne Sitbon
 year: 2026
+doi: 10.21437/Interspeech.2026-894
 isca_url: https://www.isca-archive.org/interspeech_2026/hjuler26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hjuler26_interspeech.pdf
 session: Text Processing for Speech Synthesis
-topics: []
+topics: [tts, evaluation, speech-llm]
 code:
-    url: ""
+    url: https://github.com/MajaHjuler/TTS_Listenability
     license: ""
 open_to_collaboration: false

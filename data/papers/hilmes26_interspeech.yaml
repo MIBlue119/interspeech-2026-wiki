@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-683
 isca_url: https://www.isca-archive.org/interspeech_2026/hilmes26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hilmes26_interspeech.pdf
 session: Resource Constrained Speech Recognition
-topics: [on-device, asr]
+topics: [asr, self-supervised, on-device]
 code:
-    url: ""
+    url: https://github.com/rwth-i6/returnn-experiments/tree/master/2026-memristor-pe
     license: ""
 open_to_collaboration: false

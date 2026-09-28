@@ -2,33 +2,40 @@
 id: kim26g_interspeech
 category: speech-enhancement
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-817
+pdf: https://www.isca-archive.org/interspeech_2026/kim26g_interspeech.pdf
 ---
 
 # Latency-Configurable Streaming Speech Enhancement via Asymmetric Temporal Padding
 
-**TL;DR** — A single speech-enhancement model that lets you dial the algorithmic latency anywhere from 12.5 ms to 75 ms with one hyperparameter, matching prior fully-causal state-of-the-art at the lowest setting.
+[PDF](https://www.isca-archive.org/interspeech_2026/kim26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-817)
+
+**TL;DR** — LaCo-SENet introduces latency-configurable streaming speech enhancement via asymmetric temporal padding and selective state updates, achieving a PESQ of 3.35 at a fully causal 12.5 ms latency with 1.37M parameters.
 
 ## Problem
 
-Streaming speech enhancement has to trade algorithmic latency against quality, but prior work treats this as a binary causal-versus-non-causal choice rather than a tunable spectrum.
+Streaming speech enhancement models are traditionally locked into a rigid binary choice between causal and non-causal operation, preventing systematic exploration of the latency-quality trade-off. While adding lookahead frames improves speech quality, naive chunk-based streaming with per-layer lookahead results in state corruption as future frames are replayed across chunk boundaries. This prevents practitioners from smoothly configuring a single model architecture across diverse real-time application constraints.
 
 ## Method
 
-LaCo-SENet uses asymmetric temporal padding to redistribute past and future context in convolutions for systematic latency configuration, plus dual-buffer streaming (state buffers for past context and lookahead buffers for future context) with selective state updates to prevent future-frame leakage.
+The method builds upon a 1.37M-parameter PrimeK-Net backbone modified with BatchNorm, causal channel attention, and asymmetric temporal padding across encoder and decoder convolutions. A training-time hyperparameter controls the padding ratio to redistribute past and future context without altering receptive field size or parameter count. A dual-buffer streaming framework supplies past context via state buffers and future context via input/feature lookahead buffers. Crucially, a selective state update operator restricts state recording strictly to current-chunk frames, preventing future-frame leakage into the streaming state.
 
 ## Results
 
-On VoiceBank+DEMAND, a fixed 1.37M-parameter backbone yields a family of models spanning 12.5-75.0 ms latency with PESQ rising from 3.35 to 3.43; at just 12.5 ms fully causal, PESQ of 3.35 matches or exceeds prior causal state-of-the-art (3.27 at 46.5 ms).
+Evaluated on the VoiceBank+DEMAND dataset at 16 kHz, a single fixed-budget 1.37M parameter model spans algorithmic latencies from 12.5 ms to 75.0 ms, yielding PESQ scores from 3.35 to 3.43. At a fully causal 12.5 ms latency, the model achieves a PESQ of 3.35, outperforming prior causal baselines such as aTENNuate (3.27 at 46.5 ms). Increasing lookahead to 75.0 ms raises PESQ to 3.43, preserving 93-95% of the quality of the non-causal upper bound (3.61 PESQ). Ablations confirm that disabling selective state updates causes catastrophic failure, degrading streaming PESQ by up to 2.09 points.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/yskim3271/LaCo-SENet
 
 ## Applications
 
-Real-time communication and hearing-assistance devices that need adjustable latency-quality trade-offs from a single deployed model.
+Real-time speech communication systems such as telephony, video conferencing, hearing aids, and on-device voice interfaces requiring controllable tradeoffs between algorithmic latency and audio enhancement quality.
+
+## Limitations
+
+Real-time operation with an RTF below 1.0 requires chunk sizes of at least 7 to 12 frames, which introduces additional buffering latency.
 
 ## Related
 

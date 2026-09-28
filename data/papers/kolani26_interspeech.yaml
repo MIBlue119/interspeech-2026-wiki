@@ -6,11 +6,12 @@ authors:
     - Cobi Calev
     - Morris Alper
 year: 2026
+doi: 10.21437/Interspeech.2026-604
 isca_url: https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.pdf
 session: Text Processing for Speech Synthesis
-topics: []
+topics: [tts, low-resource, evaluation]
 code:
-    url: ""
+    url: https://phonikud.github.io
     license: ""
 open_to_collaboration: false

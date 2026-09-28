@@ -5,11 +5,12 @@ authors:
     - Elika Bergelson
     - Roger Levy
 year: 2026
+doi: 10.21437/Interspeech.2026-1132
 isca_url: https://www.isca-archive.org/interspeech_2026/lavechin26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lavechin26_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
-topics: []
+topics: [asr, dataset, self-supervised]
 code:
-    url: ""
+    url: https://github.com/MarvinLvn/BabAR
     license: ""
 open_to_collaboration: false

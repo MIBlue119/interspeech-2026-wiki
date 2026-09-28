@@ -9,11 +9,12 @@ authors:
     - Pavel Bogomolov
     - Fyodor Minkin
 year: 2026
+doi: 10.21437/Interspeech.2026-2343
 isca_url: https://www.isca-archive.org/interspeech_2026/kutsakov26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kutsakov26_interspeech.pdf
 session: Spoken Language Understanding
-topics: []
+topics: [speech-llm, spoken-language-understanding, dataset]
 code:
-    url: ""
+    url: https://huggingface.co/aisage/GigaChat3.1-Audio-10B-A1.8B
     license: ""
 open_to_collaboration: false

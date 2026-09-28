@@ -12,10 +12,11 @@ authors:
     - Chieh-Chi Kao
     - Chao Wang
 year: 2026
+doi: 10.21437/Interspeech.2026-1111
 isca_url: https://www.isca-archive.org/interspeech_2026/kuan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kuan26_interspeech.pdf
 session: Text-to-Speech Synthesis
-topics: []
+topics: [audio-captioning, evaluation, self-supervised]
 code:
     url: ""
     license: ""

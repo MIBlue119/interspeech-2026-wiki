@@ -8,7 +8,7 @@ year: 2026
 isca_url: https://www.isca-archive.org/interspeech_2026/lameris26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lameris26b_interspeech.pdf
 session: Speech Synthesis, Voice Conversion and Audio Generation
-topics: [tts]
+topics: [voice-conversion, prosody, evaluation]
 code:
     url: ""
     license: ""

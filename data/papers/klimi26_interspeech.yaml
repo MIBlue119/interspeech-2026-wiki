@@ -9,11 +9,12 @@ authors:
     - Vassilis Katsouros
     - Georgios Paraskevopoulos
 year: 2026
+doi: 10.21437/Interspeech.2026-2567
 isca_url: https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.pdf
 session: Multilingual & Low-Resource ASR
-topics: []
+topics: [asr, low-resource, multilingual]
 code:
-    url: ""
+    url: https://github.com/athena-ilsp/Dialect-Adaptation
     license: ""
 open_to_collaboration: false

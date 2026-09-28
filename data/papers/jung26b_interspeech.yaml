@@ -4,10 +4,11 @@ authors:
     - Bongsu Jung
     - Wooil Kim
 year: 2026
+doi: 10.21437/Interspeech.2026-1198
 isca_url: https://www.isca-archive.org/interspeech_2026/jung26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jung26b_interspeech.pdf
 session: Speaker Diarization 2
-topics: []
+topics: [speaker-diarization, evaluation]
 code:
     url: ""
     license: ""

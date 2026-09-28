@@ -15,8 +15,8 @@ doi: 10.21437/Interspeech.2026-1060
 isca_url: https://www.isca-archive.org/interspeech_2026/hoang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hoang26_interspeech.pdf
 session: Robust and Efficient ASR
-topics: [asr, low-resource]
+topics: [asr, speech-translation, self-supervised]
 code:
-    url: ""
+    url: https://huggingface.co/VietAI/envit5-base
     license: ""
 open_to_collaboration: false

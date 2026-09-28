@@ -1,34 +1,41 @@
 ---
 id: lee26i_interspeech
-category: dataset
+category: voice-conversion
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-932
+pdf: https://www.isca-archive.org/interspeech_2026/lee26i_interspeech.pdf
 ---
 
 # Designed Vocalizations Dataset: Sound-Designed Human and Animal Voices for Non-human Voice Conversion
 
-**TL;DR** — The Designed Vocalizations Dataset pairs raw human/animal vocal sources with professionally sound-designed effect variants (monster growls, robotic voices) to enable and benchmark non-human voice conversion.
+[PDF](https://www.isca-archive.org/interspeech_2026/lee26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-932)
+
+**TL;DR** — The paper introduces the Designed Vocalizations Dataset, a public resource of 231,800 audio pairs designed for non-human voice conversion, achieving baseline MOS scores up to 3.81.
 
 ## Problem
 
-AI voice conversion research and public benchmarks focus almost entirely on natural human speech, leaving designed vocalizations used in media — monster growls, robotic voices, and similar effects — underexplored, partly because no public resources for them existed.
+Voice conversion research heavily focuses on natural human speech while overlooking non-natural and non-human vocalizations such as monster growls and robotic voices. This gap exists due to a lack of public resources and standardized benchmarks, making fair comparison across studies difficult. Addressing this enables automated sound design tools for creative media industries like games and films.
 
 ## Method
 
-The authors curate diverse raw vocal sources (speech and animal vocalizations) and apply professional vocal-effects processing to produce corresponding effect-modified variants, providing a standardized test set with explicit seen/unseen splits over source timbre groups and preset effect styles to assess generalization under controlled conditions.
+The dataset pairs raw vocal sources (3,270 VCTK speech samples and 2,384 non-linguistic Freesound audio clips) with designed target variants generated via professional audio effect chains. These chains utilize 40 training presets from Dehumaniser 2 and in-house tools incorporating 7 core effect modules (delay pitch shifting, flanger/chorus, granular, noise generator, pitch shifting, ring modulator, spectral shifting) plus 6 external post-processing effects. A representative Conditional VAE (CVAE) baseline model with modified STFT parameters (20ms window, 5ms hop) and style embeddings applied solely to the prior and flow modules is evaluated on non-parallel training data.
 
 ## Results
 
-The paper reports baseline benchmark results on the new dataset to support reproducible evaluation of non-human voice conversion; dataset and demo samples are made available online.
+Evaluated across seen-to-seen, seen-to-unseen, unseen-to-seen, and unseen-to-unseen scenarios using a test set of 120 sources and 47 presets (40 seen, 7 unseen). Timbre similarity measured via BEATs cosine similarity drops from 0.667 (seen-seen) to 0.610 (unseen-unseen). Energy prosody preservation (PCC-E) remains high across all scenarios at 0.982–0.985, while intelligibility measured via Whisper CER/WER is 1.89%/5.23% for seen sources and 1.64%/4.65% for unseen sources. Subjective 5-point Mean Opinion Scores (MOS) range from 3.81 for seen-to-seen down to 3.49 for unseen-to-unseen.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://ncai-official.github.io/speech/publications/designed-vocalizations-dataset/
 
 ## Applications
 
-Voice conversion and sound-design tooling for film, games, and audiobook production that need creature or robotic voice effects rather than natural human-to-human conversion.
+Engineers and researchers building voice conversion or automated sound design systems for video games, films, animation, and virtual reality.
+
+## Limitations
+
+The dataset is currently bound to specific software presets (Dehumaniser 2 and Cubase configurations) and evaluated on a single baseline architecture.
 
 ## Related
 

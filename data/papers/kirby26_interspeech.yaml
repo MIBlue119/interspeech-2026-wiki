@@ -5,10 +5,11 @@ authors:
     - Ioana Krehan
     - Michele Gubian
 year: 2026
+doi: 10.21437/Interspeech.2026-2409
 isca_url: https://www.isca-archive.org/interspeech_2026/kirby26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kirby26_interspeech.pdf
 session: Tones
-topics: []
+topics: [self-supervised, phonetics, evaluation]
 code:
     url: ""
     license: ""

@@ -4,10 +4,11 @@ authors:
     - K M Naimul Hassan
     - Donald S. Williamson
 year: 2026
+doi: 10.21437/Interspeech.2026-2651
 isca_url: https://www.isca-archive.org/interspeech_2026/hassan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hassan26_interspeech.pdf
 session: Brain Studies and Speech
-topics: []
+topics: [health, evaluation, self-supervised]
 code:
     url: ""
     license: ""

@@ -5,11 +5,12 @@ authors:
     - Wangyou Zhang
     - Yanmin Qian
 year: 2026
+doi: 10.21437/Interspeech.2026-2486
 isca_url: https://www.isca-archive.org/interspeech_2026/lan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lan26_interspeech.pdf
 session: Audio Understanding and Representation Learning
-topics: []
+topics: [speaker-diarization, paralinguistics, dataset]
 code:
-    url: ""
+    url: https://github.com/originallover/SA-UAED
     license: ""
 open_to_collaboration: false

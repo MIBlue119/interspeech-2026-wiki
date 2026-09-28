@@ -6,11 +6,12 @@ authors:
     - Oh Hyun-Bin
     - Tae-Hyun Oh
 year: 2026
+doi: 10.21437/Interspeech.2026-1541
 isca_url: https://www.isca-archive.org/interspeech_2026/kim26m_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26m_interspeech.pdf
 session: Spoofing and Deepfake Detection 2
-topics: []
+topics: [evaluation, self-supervised, speech-enhancement]
 code:
-    url: ""
+    url: https://byulharang.github.io/PADD/
     license: ""
 open_to_collaboration: false

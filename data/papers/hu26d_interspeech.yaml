@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1307
 isca_url: https://www.isca-archive.org/interspeech_2026/hu26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hu26d_interspeech.pdf
 session: Source Separation 1
-topics: [source-separation, on-device]
+topics: [speech-separation, self-supervised, on-device]
 code:
     url: ""
     license: ""

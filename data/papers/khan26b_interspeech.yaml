@@ -6,11 +6,12 @@ authors:
     - Monica Wachowicz
     - Elham Naghizade
 year: 2026
+doi: 10.21437/Interspeech.2026-3175
 isca_url: https://www.isca-archive.org/interspeech_2026/khan26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/khan26b_interspeech.pdf
 session: New Architecture and Analyses for ASR and Speech LMs
-topics: []
+topics: [asr, evaluation, self-supervised]
 code:
-    url: ""
+    url: https://github.com/ahmedsohair/SAPTA26
     license: ""
 open_to_collaboration: false

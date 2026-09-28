@@ -1,34 +1,41 @@
 ---
 id: ilerisoy26_interspeech
-category: health
+category: speech-enhancement
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2235
+pdf: https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.pdf
 ---
 
 # Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment
 
-**TL;DR** — Aligning a self-supervised respiratory sound encoder with LLM-synthesized medical reports turns it into a zero-shot classifier that beats CLAP and Qwen2-Audio on respiratory diagnostics.
+[PDF](https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2235)
+
+**TL;DR** — The paper introduces REACH, a semantic alignment framework that converts pre-trained unimodal respiratory sound encoders into zero-shot capable models using LLM-augmented medical reports, achieving a 61.3% mean zero-shot AUC across 9 tasks.
 
 ## Problem
 
-Self-supervised respiratory sound encoders lack grounding in clinical terminology, so they need task-specific labeled data and cannot perform zero-shot inference for diagnostic tasks.
+Self-supervised respiratory encoders lack semantic grounding in clinical terminology, meaning they cannot perform zero-shot inference without task-specific labeled data. Because paired audio-report datasets do not exist at scale for respiratory health, training multimodal models from scratch is impractical. This leaves current diagnostic tools dependent on scarce, expert-curated annotations.
 
 ## Method
 
-The authors align respiratory encoders with medical terminology in a shared latent space, using a medical LLM to synthesize structured reports from metadata as dense semantic anchors for contrastive learning (since paired audio-report data is scarce), combining a sigmoid-based contrastive loss with the encoder's native self-supervised objective and similarity-aware negative sampling.
+The framework leverages a medical-grade LLM (GPT-4) to synthesize structured clinical reports from discrete patient metadata, producing dense semantic anchors. It couples a pre-trained transformer-based respiratory audio encoder with a frozen medical text encoder (from MedSigLIP) using lightweight linear projection heads with layer normalization. The training objective combines a SigLIP-based sigmoid contrastive loss with the audio encoder's native masked spectrogram reconstruction mean squared error (MSE) loss to prevent feature degradation. Additionally, it implements similarity-aware negative sampling via an offline FAISS index to mine distant clinical negatives (selecting the 10th furthest embedding).
 
 ## Results
 
-Across 9 tasks on 6 datasets, the method reaches 61.3% mean zero-shot AUC versus 51.4% for CLAP and 54.9% for Qwen2-Audio, and achieves the highest linear-probing AUC (71.6%) using only 43% of the data used by full-scale baselines.
+Evaluated across 9 tasks on 6 public datasets (spanning in-domain and out-of-domain settings), REACH achieves a mean zero-shot AUC of 61.3%, outperforming CLAP (51.4%) and Qwen2-Audio (54.9%). Furthermore, it attains the highest mean linear probing AUC of 71.6% while utilizing only 43% of the pre-training data required by full-scale baseline models.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/mtilerisoy/REACH
 
 ## Applications
 
-Zero-shot or low-data clinical diagnostic tools for respiratory sound analysis (e.g., screening for respiratory conditions from stethoscope recordings) where labeled data is scarce.
+Engineers and clinicians can use this framework to develop automated, objective respiratory screening tools that generalize to novel clinical pathologies without needing task-specific labeled training data, particularly in low-resource settings.
+
+## Limitations
+
+The text does not explicitly state notable limitations or scope bounds.
 
 ## Related
 

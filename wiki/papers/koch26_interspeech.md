@@ -1,26 +1,29 @@
 ---
 id: koch26_interspeech
-category: prosody
+category: paralinguistics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2417
+pdf: https://www.isca-archive.org/interspeech_2026/koch26_interspeech.pdf
 ---
 
 # Collecting Prosody in the Wild: A Content-Controlled, Privacy-First Smartphone Protocol and Empirical Evaluation
 
-**TL;DR** — A smartphone data-collection protocol for everyday prosody research that standardizes what people say via scripted sentences while deleting raw audio on-device and transmitting only extracted features.
+[PDF](https://www.isca-archive.org/interspeech_2026/koch26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koch26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2417)
+
+**TL;DR** — This paper presents a smartphone-based ecological momentary assessment protocol that uses standardized read-aloud sentences to collect privacy-first prosodic data in the wild, instantly deleting raw audio and transmitting only local openSMILE features.
 
 ## Problem
 
-Collecting everyday speech for prosodic analysis is hard because prosody and semantics are confounded, privacy constraints limit what can be recorded, and participant compliance in the wild is unreliable.
+Real-world speech collection typically suffers from a confound between lexical semantics and prosodic delivery, making it difficult to isolate vocal affect. Furthermore, collecting raw audio in the wild creates severe privacy risks and regulatory hurdles under data protection laws like the GDPR. Solving both problems is critical for conducting large-scale, ecologically valid behavioral and mental health research using mobile devices.
 
 ## Method
 
-Introduces a content-controlled, privacy-first smartphone protocol using scripted read-aloud sentences (including prompt valence) to standardize lexical content while capturing natural prosodic variation, performing on-device feature extraction, immediate raw-audio deletion, and transmitting only derived features.
+The protocol was integrated into an Android EMA application and deployed in a panel study where participants read three valence-controlled sentences (positive, neutral, negative) drawn randomly from a set of 54 validated German sentences. Audio was captured uncompressed at 16-bit depth and 44.1 kHz via smartphone microphones. An on-device openSMILE Android native executable extracted the 88-feature eGeMAPS set and the 6,373-feature ComParE 2016 set locally. Raw audio files and local CSV outputs were deleted immediately after extraction, and feature vectors were securely synced to a server via SSL encryption.
 
 ## Results
 
-Deployed in a large study (N=560, 9,877 recordings), the protocol shows good compliance and data quality, and diagnostic tasks successfully predict self-reported speaker sex and momentary affective states (valence, arousal) from the extracted features.
+Evaluated on a quota-matched sample of 560 participants yielding 9,877 retained recordings, the protocol showed strong participant compliance with a 67.8% initiation rate and a 96.9% completion rate once started. Feature-based filtering removed 232 non-speech clips and 1,108 clips with non-positive harmonic-to-noise ratios. Linear mixed-effects models revealed high speaker-level stability with intraclass correlations ranging from 0.325 to 0.693 across prosodic metrics, alongside minor condition-specific shifts in HNR, voicing rate, and loudness. Downstream random forest classifiers trained on the extracted features predicted self-reported speaker sex with a balanced accuracy of 91.77% using eGeMAPS.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Large-scale, privacy-preserving prosody and affective-state research using everyday smartphones instead of lab recordings.
+Behavioral scientists, psychologists, and speech researchers deploying large-scale ecological momentary assessment studies on smartphones to analyze naturalistic prosody without violating user privacy.
+
+## Limitations
+
+The protocol relies on scripted read-aloud material rather than spontaneous speech, constraining linguistic content and potentially missing completely unconstrained prosodic expressions.
 
 ## Related
 

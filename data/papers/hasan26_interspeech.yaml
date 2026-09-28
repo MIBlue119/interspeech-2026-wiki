@@ -4,10 +4,11 @@ authors:
     - Kazi Reyazul Hasan
     - Muhammad Abdullah Adnan
 year: 2026
+doi: 10.21437/Interspeech.2026-3374
 isca_url: https://www.isca-archive.org/interspeech_2026/hasan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hasan26_interspeech.pdf
 session: Speech Emotion Recognition and Representation 2
-topics: []
+topics: [emotion-recognition, low-resource, evaluation]
 code:
     url: ""
     license: ""

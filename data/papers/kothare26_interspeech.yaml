@@ -5,10 +5,11 @@ authors:
     - Michael Neumann
     - Vikram Ramanarayanan
 year: 2026
+doi: 10.21437/Interspeech.2026-2847
 isca_url: https://www.isca-archive.org/interspeech_2026/kothare26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kothare26_interspeech.pdf
 session: Clinically Useful Speech Representations 1
-topics: []
+topics: [paralinguistics, health, evaluation]
 code:
     url: ""
     license: ""

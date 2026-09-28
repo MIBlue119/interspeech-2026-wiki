@@ -2,33 +2,40 @@
 id: kuwar26_interspeech
 category: multilingual
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2262
+pdf: https://www.isca-archive.org/interspeech_2026/kuwar26_interspeech.pdf
 ---
 
 # VINAYAKA: Multilingual Audio-Visual Hate Speech Detection via Cross-Modal Fusion in Hyperbolic Space
 
-**TL;DR** — Fusing audio and visual cues in hyperbolic (non-Euclidean) space gives state-of-the-art multilingual hate speech detection that stays robust to ASR errors and generalizes across languages and datasets.
+[PDF](https://www.isca-archive.org/interspeech_2026/kuwar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kuwar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2262)
+
+**TL;DR** — VINAYAKA is a multilingual audio-visual hate speech detection framework that relies entirely on non-lexical audio-visual cues, achieving state-of-the-art macro-F1 scores up to 0.901 through cross-modal fusion in hyperbolic space.
 
 ## Problem
 
-Robustly detecting hate speech from audio-visual content across languages is difficult, especially when relying on paralinguistic and behavioral cues rather than just transcribed text, which is vulnerable to ASR errors.
+Current multimodal hate speech detection systems are overly reliant on text and ASR transcripts, making them highly susceptible to ASR error propagation, cross-lingual noise, and domain shifts. Furthermore, they treat audio and visual signals merely as auxiliary features in Euclidean space, ignoring the inherent hierarchical structure of behavioral and paralinguistic cues that convey hostility.
 
 ## Method
 
-VINAYAKA relies solely on audio-visual cues, combining WavLM and ImageBind representations with Cross-modal Fusion in Hyperbolic Space (CFHS), a technique designed to better align paralinguistic and behavioral audio-visual cues to capture hateful intent.
+The framework uses frozen WavLM for raw audio feature extraction and a frozen ImageBind visual encoder for video frames, passing both through 1D-CNN layers and max pooling. These Euclidean representations are mapped into a negative curvature hyperbolic Poincaré ball using exponential maps. It then performs cross-modal fusion in hyperbolic space (CFHS) via hyperbolic distance-based cross-attention, Möbius addition, and Möbius scalar multiplication before projecting the features back to Euclidean space for classification with a fully connected softmax layer.
 
 ## Results
 
-Achieves state-of-the-art performance in both in-distribution and out-of-distribution settings across cross-lingual and cross-dataset evaluations, and remains robust to ASR error propagation.
+Evaluated on HateMM, ToxCMM, MultiHateClip-En, and MultiHateClip-Ch datasets using 5-fold cross-validation and zero-intervention cross-dataset transfer, measured by accuracy and macro-F1. VINAYAKA achieves in-distribution macro-F1 scores of 0.901 on HateMM, 0.885 on ToxCMM, 0.841 on MHCE, and 0.831 on MHCC, outperforming Euclidean baselines like concatenation and Euclidean cross-attention. Geometric ablations confirm that hyperbolic curvature ($c = -1$, F1 0.901 on HMM) substantially outperforms Euclidean ($c = 0$, F1 0.877) and spherical ($c = +1$, F1 0.801) spaces.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://bhavin-19.github.io/vinayaka-interspeech26/
 
 ## Applications
 
-Content moderation systems for multilingual audio-visual platforms that need robust hate speech detection even when transcripts are noisy or unreliable.
+Content moderation systems and online video platforms needing robust, language-agnostic hate speech and toxic content detection across multilingual and code-mixed short- or long-form videos.
+
+## Limitations
+
+Cross-lingual and cross-cultural transfer performance drops significantly when moving between highly divergent domains like Chinese and English datasets due to differences in symbolic and conversational context.
 
 ## Related
 

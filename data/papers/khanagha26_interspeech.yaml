@@ -4,11 +4,12 @@ authors:
     - Sina Khanagha
     - Timo Gerkmann
 year: 2026
+doi: 10.21437/Interspeech.2026-2707
 isca_url: https://www.isca-archive.org/interspeech_2026/khanagha26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/khanagha26_interspeech.pdf
 session: Dereverberation, Bandwidth Extension and Restoration
-topics: []
+topics: [speech-enhancement, source-separation, self-supervised]
 code:
-    url: ""
+    url: https://github.com/sp-uhh/rir-encoder
     license: ""
 open_to_collaboration: false
