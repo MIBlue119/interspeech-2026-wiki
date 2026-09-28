@@ -15,7 +15,7 @@ doi: 10.21437/Interspeech.2026-642
 isca_url: https://www.isca-archive.org/interspeech_2026/heng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/heng26_interspeech.pdf
 session: Code-Switching ASR
-topics: [asr, tts, multilingual]
+topics: [speech-recognition, self-supervised, multilingual]
 code:
     url: ""
     license: ""

@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-2107
 isca_url: https://www.isca-archive.org/interspeech_2026/han26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/han26d_interspeech.pdf
 session: Voice Conversion
-topics: [tts, speech-synthesis, self-supervised]
+topics: [tts, self-supervised, low-resource]
 code:
     url: https://dongru1.github.io/demo/im-efss/
     license: ""

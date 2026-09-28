@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-1766
 isca_url: https://www.isca-archive.org/interspeech_2026/he26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/he26f_interspeech.pdf
 session: Spoofing and Deepfake Detection 2
-topics: [audio-deepfake, self-supervised, evaluation]
+topics: [audio-deepfake, self-supervised, on-device]
 code:
     url: ""
     license: ""

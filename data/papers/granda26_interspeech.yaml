@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-2886
 isca_url: https://www.isca-archive.org/interspeech_2026/granda26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/granda26_interspeech.pdf
 session: Low-Resource & Endangered Language Speech Processing
-topics: [self-supervised, multilingual, low-resource]
+topics: [low-resource, multilingual, self-supervised]
 code:
     url: ""
     license: ""

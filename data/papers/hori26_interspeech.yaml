@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-2999
 isca_url: https://www.isca-archive.org/interspeech_2026/hori26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hori26_interspeech.pdf
 session: Multimodal Spoken Dialogue Systems
-topics: [asr, speech-llm, evaluation]
+topics: [speech-llm, spoken-language-understanding, multilingual]
 code:
     url: ""
     license: ""

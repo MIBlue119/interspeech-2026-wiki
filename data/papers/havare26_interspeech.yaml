@@ -12,8 +12,8 @@ year: 2026
 isca_url: https://www.isca-archive.org/interspeech_2026/havare26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/havare26_interspeech.pdf
 session: Speech and Language Learning Technologies
-topics: [asr, speech-llm, multilingual]
+topics: [speech-recognition, speech-llm, multilingual]
 code:
-    url: ""
+    url: https://tinyurl.com/icse2026-artifacts
     license: ""
 open_to_collaboration: false

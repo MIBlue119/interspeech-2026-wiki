@@ -11,7 +11,7 @@ year: 2026
 isca_url: https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.pdf
 session: Speech Synthesis, Voice Conversion and Audio Generation
-topics: [dataset, evaluation, source-separation]
+topics: [dataset, speech-enhancement, source-separation]
 code:
     url: ""
     license: ""

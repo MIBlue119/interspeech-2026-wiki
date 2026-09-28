@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2861
 isca_url: https://www.isca-archive.org/interspeech_2026/gnevsheva26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gnevsheva26_interspeech.pdf
 session: Diphthongs and Monophthongs
-topics: [phonetics, evaluation, dataset]
+topics: [phonetics, prosody, dataset]
 code:
     url: ""
     license: ""

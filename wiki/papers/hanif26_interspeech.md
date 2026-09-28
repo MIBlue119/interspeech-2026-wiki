@@ -1,29 +1,58 @@
 ---
 id: hanif26_interspeech
 category: self-supervised
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-261
 pdf: https://www.isca-archive.org/interspeech_2026/hanif26_interspeech.pdf
 ---
 
 # ZEBRA: Zero-Shot Entropy-Regularized Prompt Learning for Base-to-Novel Generalization in Audio-Language Models
 
+*Asif Hanif, Mohammad Yaqub*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/hanif26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hanif26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-261)
 
-**TL;DR** — ZEBRA is a plug-and-play framework for audio-language models that fuses zero-shot logits with prompt learning and applies self-entropy regularization to bridge the base-to-novel generalization gap, raising average novel-class accuracy from 55.18% to over 59.37% while maintaining high base-class performance.
+**TL;DR** — ZEBRA is a plug-and-play framework for audio-language models that mitigates the base-to-novel generalization gap in prompt learning by combining zero-shot logit fusion and self-entropy regularization, boosting novel-class accuracy by over 4% on average without adding learnable parameters.
+
+## Key contributions
+
+- Identifies and analyzes the base-to-novel generalization gap in audio-language model prompt learning, where base-class adaptation harms unseen novel-class performance.
+- Proposes ZEBRA, a lightweight plug-and-play framework requiring zero additional learnable parameters and negligible computational overhead.
+- Integrates zero-shot logit fusion to anchor few-shot adaptation directly to the original pre-trained decision space.
+- Employs a self-entropy regularization term during training to penalize base-class overconfidence and prevent overfitting to seen categories.
 
 ## Problem
 
-Standard prompt-learning methods in audio-language models optimize learnable context tokens using few-shot supervision on base classes, which causes the model to overfit to seen categories and severely degrade performance on unseen novel classes. This often results in novel-class accuracy falling below the original zero-shot model baseline. Resolving this base-to-novel generalization gap is critical for deploying flexible audio-language systems that can adapt to specialized tasks without forgetting their broad zero-shot capabilities.
+While prompt learning successfully adapts audio-language models (ALMs) to downstream tasks using few-shot base samples, it causes severe overfitting to seen categories. This results in degraded performance on novel, unseen classes—frequently dropping below the performance of zero-shot inference. Prior prompt-learning methods like CoOp and CoCoOp, adapted from vision-language models, fail to preserve the broad semantic alignment learned during large-scale pre-training. Addressing this base-to-novel gap is vital for deploying versatile ALMs that can handle both few-shot domain adaptation and robust zero-shot transfer.
 
 ## Method
 
-ZEBRA builds on top of existing prompt-learning baselines like COOP and COCOOP without introducing any additional learnable parameters. It operates through two core mechanisms: zero-shot logit fusion, which combines pre-computed zero-shot logits with prompt-learning logits via constant weights (lambda_zs = 0.5, lambda_pr = 0.5) to anchor adaptation to the original pre-trained decision space, and self-entropy regularization added to the cross-entropy loss to prevent base-class overconfidence. The framework is trained for 50 epochs using SGD at a learning rate of 0.05 on 16 examples per base class across multiple audio classification datasets, utilizing a decoder-free Pengi backbone comprising frozen pre-trained audio and text encoders.
+ZEBRA builds upon existing CLIP-style audio-language architectures, specifically utilizing the frozen audio and text encoders of a decoder-discarded Pengi backbone. It operates via two complementary mechanisms during few-shot optimization on base classes. First, zero-shot logit fusion combines the original zero-shot logits with prompt-learning logits via weighted coefficients (fixed at lambda_zs = 0.5 and lambda_pr = 0.5) during both training and inference. This anchors the adaptation process to the pre-trained space without requiring extra text encoder forward passes.
+
+Second, self-entropy regularization is introduced into the training objective. The model minimizes cross-entropy loss while maximizing the self-entropy of the combined prediction distribution. This discourages overconfident predictions on seen classes, promoting smoother decision boundaries and maintaining transferability to unseen classes. The entropy loss term is scaled by a factor of 0.05. During inference, predictions are derived exclusively from the fused logits without applying entropy regularization.
+
+## Experimental setup
+
+Evaluated across 11 diverse audio/speech datasets covering instrument classification (Beijing-Opera, NS-Instruments), sound event classification (ESC-50, ESC50-Actions, UrbanSound8K), emotion recognition (CREMA-D, RAVDESS), vocal sound classification (VocalSound), surveillance events (SESA), acoustic scene classification (TUT2017), and music analysis (GT-Music-Genre). Compared against ZERO-SHOT, COOP, and COCOOP baselines using 16 randomly sampled training examples per base class across 50 epochs with SGD (learning rate 0.05) on an NVIDIA RTX A6000 GPU.
 
 ## Results
 
-Evaluated across 11 diverse speech and audio datasets—including ESC-50, CREMA-D, UrbanSound8K, and TUT2017—using accuracy, ZEBRA improves average novel-class accuracy over COOP (from 48.04% to 59.37%) and COCOOP (from 50.44% to 59.50%), surpassing the zero-shot baseline of 55.18%. Base accuracy remains highly competitive at roughly 80.17% to 81.75%. Ablation experiments demonstrate that zero-shot logit fusion contributes the majority of the performance gains, while the self-entropy loss term yields additional refinement. Furthermore, ZEBRA reduces Expected Calibration Error (ECE) on novel classes from 0.2738 to 0.2253 for COCOOP while incurring negligible runtime overhead.
+On average across all datasets, vanilla COOp and CoCoOp drop below zero-shot novel accuracy (55.18%), achieving 48.04% and 50.44% novel accuracy respectively, despite high base accuracy (79.82% and 82.05%). Incorporating ZEBRA raises the novel accuracy of CoOp and CoCoOp to 59.37% and 59.50% respectively, while maintaining strong base accuracy (80.17% and 81.75%). Ablations indicate that the primary boost stems from zero-shot logit fusion, while self-entropy provides additional incremental gains. Furthermore, ZEBRA lowers the Expected Calibration Error (ECE) on novel classes (e.g., reducing CoCoOp's novel ECE from 0.2738 to 0.2253).
+
+| METHODS | ZERO-SHOT | COOP | COOP + ZEBRA | COCOOP | COCOOP + ZEBRA |
+|---|---|---|---|---|---|
+| BASE (Average) | 53.53 | 79.82 | 80.17 | 82.05 | 81.75 |
+| NOVEL (Average) | 55.18 | 48.04 | 59.37 | 50.44 | 59.50 |
+
+## Limitations
+
+The evaluation is restricted to classification tasks under a standard 16-shot setup using a specific backbone (Pengi). The gains, while consistent on average, remain modest or negative on a few individual datasets (e.g., ESC-50 novel accuracy slightly decreases when ZEBRA is applied). Additional language and dataset scale evaluations are necessary to verify broader generalizability.
+
+## Why read this
+
+Speech and ML researchers working on parameter-efficient adaptation and prompt learning for audio-language models will find ZEBRA an essential, parameter-free strategy to fix catastrophic forgetting of zero-shot generalization.
 
 ## Code
 
@@ -31,11 +60,7 @@ Evaluated across 11 diverse speech and audio datasets—including ESC-50, CREMA-
 
 ## Applications
 
-Speech and audio engineers adapting audio-language models to downstream classification tasks (such as emotion recognition, sound event detection, and acoustic scene analysis) in low-resource settings where the model must recognize both seen and unseen categories.
-
-## Limitations
-
-The current framework relies on empirically fixed fusion weights and a small scaling factor for entropy regularization across all datasets.
+Robust audio classification, acoustic scene analysis, and few-shot acoustic monitoring where models must adapt to specific domains without losing zero-shot generalization to unseen categories.
 
 ## Related
 

@@ -15,7 +15,7 @@ doi: 10.21437/Interspeech.2026-1547
 isca_url: https://www.isca-archive.org/interspeech_2026/hao26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hao26_interspeech.pdf
 session: Singing Voice and Music Generation
-topics: [tts, voice-conversion, evaluation]
+topics: [tts, self-supervised, evaluation]
 code:
     url: https://github.com/ASLP-lab/YingMusic-Singer-Plus
     license: ""

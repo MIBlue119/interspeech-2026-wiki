@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-2593
 isca_url: https://www.isca-archive.org/interspeech_2026/hou26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hou26b_interspeech.pdf
 session: Child Speech and Health
-topics: [spoken-language-understanding, evaluation, health]
+topics: [spoken-language-understanding, evaluation, low-resource]
 code:
     url: ""
     license: ""

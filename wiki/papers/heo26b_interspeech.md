@@ -1,29 +1,66 @@
 ---
 id: heo26b_interspeech
 category: audio-deepfake
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2354
 pdf: https://www.isca-archive.org/interspeech_2026/heo26b_interspeech.pdf
 ---
 
 # Tracing the Origins: Legacy Codec Identification in Neural Audio Transcoding
 
+*Wonje Heo, Shinee Youn, Yooshin Kim, Chuck Chae, Donghoon Shin*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/heo26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/heo26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2354)
 
-**TL;DR** — This paper introduces a Transformer-based framework that accurately identifies legacy audio compression codecs and bitrates hidden beneath residual vector quantization neural audio transcoding, achieving up to 99.99% accuracy.
+**TL;DR** — This paper investigates audio forensics in the era of neural audio codecs (NACs), proposing a Transformer-based framework that recovers legacy compression traces from residual vector quantization (RVQ) tokens with up to 99.99% accuracy. It demonstrates that legacy codec signatures survive non-linear neural transcoding.
+
+## Key contributions
+
+- Defines and formalizes the forensic gap of legacy-to-neural audio transcoding, where RVQ-based neural codecs obscure traditional linear compression traces.
+- Proposes a Layer-Causal RVQ Transformer (LCR-Trans) to model hierarchical inter-layer dependencies and prevent future information leakage across codebook layers.
+- Introduces a Dynamic Layer-wise Attentive Aggregator (DLAA) to weigh and isolate forensically informative codebook layers dynamically.
+- Presents a Temporal Context Transformer (TC-Trans) to capture time-varying acoustic events like pre-echo suppression and transient processing.
+- Establishes a rigorous evaluation protocol including fixed-bitrate codec identification, bitrate classification, and an 18-class joint identification task.
 
 ## Problem
 
-Modern neural audio codecs (NACs) convert audio into discrete residual vector quantization (RVQ) tokens, which breaks traditional audio forensics relying on linear signal processing of waveforms. When legacy-compressed audio undergoes neural re-compression, the newly generated neural artifacts superimpose over the legacy compression traces, creating a forensic blind spot. Addressing this gap is critical to verify audio authenticity and track content provenance in neural-driven distribution pipelines.
+Traditional audio forensics relies on linear signal processing assumptions applied to continuous waveforms or deterministic bitstreams to detect compression artifacts such as spectral cut-offs and quantization noise. The widespread adoption of Residual Vector Quantization (RVQ)-based neural audio codecs like SoundStream, EnCodec, and DAC replaces linear bitstreams with discrete tokens, causing traditional forensic techniques to collapse entirely. Because modern audio pipelines routinely transcode legacy formats into neural tokens, analysts face a severe security and provenance gap. Without specialized methods that treat neural codecs as an underlying transmission channel, verifying content authenticity and tracing source codecs becomes impossible.
 
 ## Method
 
-The framework processes RVQ token sequences through three specialized modules: a Layer-Causal RVQ Transformer (LCR-Trans) using causal-masked attention to capture inter-layer dependencies, a Dynamic Layer-wise Attentive Aggregator (DLAA) to weight forensically significant codebook layers, and a Temporal Context Transformer (TC-Trans) to model long-range temporal signatures like pre-echo suppression. The architecture uses a 2D convolutional initial projection and is trained with AdamW for 25 epochs using a speaker-disjoint VCTK dataset. It outputs global representations via an MLP classifier for codec and bitrate identification.
+The framework ingests discrete RVQ token sequences represented as $X \in \mathbb{R}^{B \times L \times T}$, which are mapped into a continuous embedding space $E \in \mathbb{R}^{B \times C \times L \times T}$ using pre-trained codebooks from a 48 kHz EnCodec model. The architecture consists of three core components: the Layer-Causal RVQ Transformer (LCR-Trans), the Dynamic Layer-wise Attentive Aggregator (DLAA), and the Temporal Context Transformer (TC-Trans).
+
+First, LCR-Trans uses a 2D convolutional layer followed by Group Normalization and GELU activation to capture local correlations across time and codebook layers on the $T-L$ plane. It then applies a Transformer encoder with causal-masked attention along the codebook layer axis to model hierarchical inter-layer dependencies without leaking information from future layers. Second, DLAA computes global layer weights and time-varying temporal layer attention scores combined via a sigmoid function to generate a dynamic attention map $A \in \mathbb{R}^{B \times 1 \times L \times T}$. This map reweights and aggregates the features along the layer axis to isolate the most forensically informative quantization levels.
+
+Third, TC-Trans feeds the compressed temporal features $Z \in \mathbb{R}^{B \times C \times T}$ into a temporal Transformer encoder to model long-range dependencies and capture unique time-varying signatures like pre-echo handling. The output is pooled via adaptive average pooling into a global feature vector $v \in \mathbb{R}^{B \times C}$ and fed into an MLP classifier for final identification. The model is trained using AdamW with a batch size of 16, an initial learning rate of $5 \times 10^{-6}$, weight decay of $1 \times 10^{-4}$, a 5-epoch linear warmup, and a ReduceLROnPlateau scheduler.
+
+## Experimental setup
+
+The evaluation dataset is constructed from the VCTK corpus using a speaker-disjoint split (80% train, 10% validation, 10% test). Speech files were compressed via FFmpeg using five legacy codecs (MP3, AAC, Opus, Vorbis, G.711 $\mu$-law) across four bitrates (32, 64, 96, 128 kbps or equivalent VBR quality settings), then transcoded using a 48 kHz EnCodec model. Baseline comparisons include a minimal CNN+MLP network, single-module variants, and leave-one-out ablation models. The models are trained for 25 epochs, with performance evaluated using accuracy and Macro-F1 scores.
 
 ## Results
 
-Evaluated on a VCTK-derived dataset processed by 48 kHz EnCodec across five legacy codecs (MP3, AAC, Opus, Vorbis, G.711) and four bitrates (32-128 kbps), the full model achieves 97.32% to 99.99% accuracy for fixed-bitrate codec identification. For an 18-class joint codec and bitrate identification task, the proposed model reaches an overall accuracy of 89.34% (outperforming a baseline CNN+MLP of 73.71%). Ablation tests confirm that removing LCR-Trans, DLAA, or TC-Trans drops performance, with LCR-Trans providing the largest individual contribution.
+In fixed-bitrate codec identification, the proposed model achieves near-perfect performance, scoring 99.99% accuracy at 32 kbps, 99.70% at 64 kbps, 98.36% at 96 kbps, and 97.32% at 128 kbps. Performance naturally improves at lower bitrates due to aggressive quantization artifacts acting as strong discriminative cues. For bitrate classification under a fixed codec, AAC and Vorbis achieve over 99% accuracy, whereas MP3 and Opus drop to 84.43% and 71.01% respectively, struggling to separate 96 kbps from 128 kbps due to artifact convergence near transparency.
+
+In the rigorous 18-class joint codec-and-bitrate identification task, the proposed full model achieves an accuracy of 89.34% and a Macro-F1 of 89.31%, outperforming the CNN+MLP baseline (73.71%) by more than 15%. Ablation experiments demonstrate that removing LCR-Trans, DLAA, or TC-Trans drops accuracy to 86.88%, 88.97%, and 87.98% respectively, confirming the necessity of all proposed modules.
+
+| System / Condition | Accuracy (%) | Macro-F1 (%) |
+|---|---|---|
+| Baseline (CNN+MLP) | 73.71 | 72.18 |
+| LCR-Trans Only | 86.60 | 86.46 |
+| DLAA Only | 81.82 | 81.63 |
+| TC-Trans Only | 84.85 | 84.72 |
+| Ours (Full Model) | 89.34 | 89.31 |
+
+## Limitations
+
+The study is currently scoped to a single neural audio codec (EnCodec at 48 kHz) and a restricted set of English speech data derived from the VCTK corpus, leaving cross-codec generalization across different NAC architectures like DAC or SoundStream unverified. High-bitrate discrimination for codecs like MP3 and Opus remains challenging because quantization artifacts converge near transparency. Furthermore, multilingual evaluation, noise robustness, and real-world acoustic reverberation environments were not explicitly tested.
+
+## Why read this
+
+Speech and ML engineers working on audio forensics, content provenance, and neural audio codecs should read this paper to understand how discrete token representations preserve legacy compression signatures. It provides a blueprint for leveraging hierarchical attention across RVQ codebook layers to solve composite multi-compression identification tasks.
 
 ## Code
 
@@ -31,11 +68,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Audio forensic analysts, media authenticity investigators, and platform security engineers aiming to trace the provenance and compression history of AI-transcoded digital audio.
-
-## Limitations
-
-Identification performance degrades when distinguishing between high bitrates (e.g., 96 kbps versus 128 kbps) for certain codecs like MP3 and Opus due to artifact convergence near transparency.
+Audio forensics, deepfake and media authenticity verification, copyright infringement tracking, and digital content provenance auditing in neural audio distribution networks.
 
 ## Related
 

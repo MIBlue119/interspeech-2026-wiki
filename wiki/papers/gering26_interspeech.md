@@ -1,29 +1,61 @@
 ---
 id: gering26_interspeech
 category: spoken-language-understanding
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1152
 pdf: https://www.isca-archive.org/interspeech_2026/gering26_interspeech.pdf
 ---
 
 # A System-Agnostic Approach to Modelling Interaction Quality in Spoken Dialogue Systems
 
+*Paul Gering, Roger K. Moore*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/gering26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gering26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1152)
 
-**TL;DR** — This study introduces a system-agnostic approach for predicting interaction quality in spoken dialogue systems using acoustic, textual, and temporal features, achieving performance comparable to system-dependent approaches when end-to-end fine-tuning is applied.
+**TL;DR** — This paper evaluates a system-agnostic (SA) approach for predicting user interaction quality (IQ) in spoken dialogue systems using audio, text, and temporal features, demonstrating that end-to-end fine-tuning allows SA features to achieve performance comparable to traditional system-dependent (SD) log-based features. The fine-tuned SA model achieved a Macro-F1 of 0.454 and UAR of 0.453 on the CMU Let's Go corpus.
+
+## Key contributions
+
+- Formulates a system-agnostic IQ prediction pipeline combining openSMILE acoustic features, self-supervised embeddings (WavLM, RoBERTa), and turn-taking temporal dynamics.
+- Compares static feature extraction versus end-to-end fine-tuning across both system-dependent and system-agnostic pipelines.
+- Shows via permutation tests that while static SD models significantly outperform static SA models (p = 0.046), end-to-end fine-tuning closes the performance gap so that differences become statistically insignificant (p > 0.05).
+- Analyzes the computational footprint and demonstrates that fine-tuned SA and SD models maintain real-time inference latencies below 20 ms per exchange.
 
 ## Problem
 
-Automatic evaluation of spoken dialogue systems traditionally relies on system-dependent features like internal log files, which limits model generalisability across different architectures and tasks. While prior system-agnostic attempts used textual and temporal context, they lacked raw acoustic signals and paralinguistic cues essential for capturing user satisfaction. Overcoming this gap is critical for scalable, holistic evaluations of human-system interactions.
+Evaluating spoken dialogue systems typically relies on system-dependent (SD) log data (such as internal submodule states and dialogue manager logs) as pioneered by Schmitt et al., which lacks generalizability across different system architectures and tasks. While recent text-and-temporal alternatives like Gupta et al.'s RoBERTaIQ bypass system metadata, they omit raw acoustic signals and paralinguistic cues essential for capturing user satisfaction. This work addresses the gap by establishing whether a holistic, system-agnostic feature set containing acoustic, textual, and temporal dimensions can effectively model interaction quality without access to internal system metadata.
 
 ## Method
 
-The study evaluates long short-term memory (LSTM) classifiers with self-attention for multi-class interaction quality prediction on the CMU Let's Go (LEGO) corpus (229 dialogues, 5477 exchanges). It compares system-dependent (SD) features (extracted from logs and encoded via SBERT, RoBERTa, and TOD-BERT) against system-agnostic (SA) features (transcripts from Whisper large-v3-turbo/WhisperX, turn-taking metrics, response tokens, and acoustic features from eGeMAPSv02, HuBERT, WavLM, and Wav2Vec 2.0). The pipeline is tested in two phases: Phase 1 uses frozen pre-trained features with PCA dimensionality reduction, while Phase 2 implements joint end-to-end fine-tuning of encoders, feature projection layers, LayerNorm, and the LSTM backend.
+The study utilizes the CMU Let's Go (LEGO) corpus, processing dialogue at the exchange level (system prompt followed by user response). For the system-agnostic (SA) pipeline, user speech is isolated via Silero VAD, transcribed using Whisper large-v3-turbo with WhisperX word-level alignments, and complemented by system speech isolated from dyadic recordings. Acoustic features are extracted using openSMILE's 88-dimensional eGeMAPSv02 set alongside mean-pooled self-supervised representations from WavLM-base (selected over HuBERT and Wav2Vec2). Text embeddings are extracted using RoBERTa-base (selected over SBERT and TOD-BERT) after applying PCA (retaining 80% variance for text, 60% for speech), and merged with temporal indicators such as turn duration, response latency, overlap, and response token presence.
+
+The classification back-end consists of a unidirectional LSTM with self-attention. Two experimental phases are investigated: Phase 1 freezes the pre-trained encoders, using PCA followed by a tuned LSTM with a hidden size of 384, 2 layers, and a head learning rate of 5e-4. Phase 2 implements an end-to-end fine-tuned architecture using gradient accumulation (batch size 1 with 8 steps, freezing the bottom 3 encoder layers) where text and acoustic encoder outputs pass through learnable projection layers, LayerNorm, and a sliding dialogue context window of size 5 (compared to 15 for SD). Models are optimized using Adam with early stopping on NVIDIA A100 GPUs.
+
+## Experimental setup
+
+Evaluated on a filtered subset of the CMU Let's Go corpus consisting of 229 telephone dialogues and 5,477 exchanges, partitioned 80/20 at the dialogue level into training and test sets. Performance is compared against a majority class baseline and Ultes's log-feature baseline. Metrics reported are Macro-Average F1 (Macro-F1) and Unweighted Average Recall (UAR) averaged across 5 random seeds for Phase 2.
 
 ## Results
 
-Models were evaluated on a dialogue-level test split using Macro-F1 and Unweighted Average Recall (UAR), benchmarking against a majority baseline and prior work by Ultes. In Phase 1 (static pipeline), the SD feature set significantly outperformed the SA set, achieving a Macro-F1 of 0.469 versus 0.389 (UAR 0.463 vs 0.383). In Phase 2 (fine-tuned pipeline), the performance gap narrowed, with the fine-tuned SA model reaching Macro-F1 of 0.454 and UAR 0.453, performing statistically comparable to the SD models (Macro-F1 0.462, UAR 0.471). Permutation tests confirmed that while static SD significantly outperformed static SA (p = .046), fine-tuning raised SA performance to parity with SD (p > .05). Inference latency remained below 20 ms per exchange across all models.
+In the static feature pipeline (Phase 1), the system-dependent model achieves a Macro-F1 of 0.469 and UAR of 0.463, significantly outperforming the static system-agnostic model (Macro-F1: 0.389, UAR: 0.383; p = 0.046). When end-to-end fine-tuning is applied (Phase 2), the system-agnostic model's performance increases substantially to a Macro-F1 of 0.454 and UAR of 0.453, bringing it statistically on par with the fine-tuned SD model (Macro-F1: 0.462, UAR: 0.471; p > 0.05). Computational complexity scales up during fine-tuning, increasing trainable parameters from 2.29M to 135.73M and inference latency from 0.16 ms to 17.98 ms per exchange for the SA models.
+
+| System / Condition | Macro-F1 | UAR |
+|---|---|---|
+| Majority Baseline | 0.101 | 0.200 |
+| Static SD (Phase 1) | 0.469 | 0.463 |
+| Static SA (Phase 1) | 0.389 | 0.383 |
+| Fine-tuned SD (Phase 2) | 0.462 | 0.471 |
+| Fine-tuned SA (Phase 2) | 0.454 | 0.453 |
+
+## Limitations
+
+The study is restricted to a single dated telephone-based dialogue corpus (CMU LEGO) featuring bus schedule inquiries, exhibiting severe label skew toward high IQ scores and low inter-annotator agreement (Cohen's kappa = 0.31). The system-agnostic pipeline relies on manually corrected transcripts rather than a fully automated speech-to-text pipeline, and evaluation is limited to a single English-language telephony domain.
+
+## Why read this
+
+Researchers and engineers building scalable, portable dialogue evaluation metrics will learn how to substitute internal system logs with self-supervised acoustic-textual embeddings without sacrificing predictive fidelity.
 
 ## Code
 
@@ -31,11 +63,7 @@ Models were evaluated on a dialogue-level test split using Macro-F1 and Unweight
 
 ## Applications
 
-Speech and ML engineers building spoken dialogue systems can use this approach to automate user satisfaction monitoring and dialogue quality evaluation without relying on internal system logs.
-
-## Limitations
-
-The system-agnostic pipeline relied on manually corrected transcripts rather than a fully automated speech-to-text pipeline, and evaluations were restricted to a single dated telephone corpus.
+Real-time monitoring of user satisfaction and interaction quality in production spoken dialogue systems without requiring proprietary system-log access.
 
 ## Related
 

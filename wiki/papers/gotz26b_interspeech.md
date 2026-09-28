@@ -1,29 +1,53 @@
 ---
 id: gotz26b_interspeech
 category: dataset
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.html
 pdf: https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.pdf
 ---
 
 # Scalable Audio Scene Generation with the Treble SDK
 
+*Georg Götz, Konstantinos Gkanos, Steinar Guðjónsson, Daniel Gert Nielsen, Jesper Pedersen, Finnur Pind*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.html)
 
-**TL;DR** — The paper introduces the Treble SDK Scene Generator, a Python framework that uses physically grounded room-acoustic simulations and lightweight lazy scene recipes to construct, store, and bulk-render realistic multi-speaker and device-aware audio datasets.
+**TL;DR** — The Treble SDK Scene Generator provides an interactive workflow for constructing, serialising, and rendering realistic multi-speaker and acoustic scenes from physically accurate room simulations. It decouples lightweight scene recipes from on-demand audio rendering to scale dataset generation for spatial audio and speech tasks.
+
+## Key contributions
+
+- Introduces a Python SDK workflow for building complex audio scenes combining room-acoustic simulations, clean source audio, background noise, and device models.
+- Implements a 'lazy' representation that separates lightweight scene recipes (tracks, RIR mappings, metadata) from heavy audio rendering (convolution and mixing).
+- Supports both manual interactive scene design with timeline/3D-room visualisation and automated bulk generation of scene collections via rule objects.
+- Integrates device and listener configurations including head-related device models, orientation, device noise, and filtering.
 
 ## Problem
 
-Collecting real-world multi-speaker recordings that account for varying room geometries, material properties, listener orientations, and background noises is expensive, rigid, and hard to scale. While acoustic simulation helps, developers typically need to write extensive custom scripting to bridge isolated room impulse responses (RIRs), clean source tracks, metadata alignment, and audio rendering. This friction hinders the reproducible creation of complex datasets needed for training and evaluating modern robust speech and audio systems.
+Modern speech and audio systems frequently operate in dynamic acoustic spaces like meeting rooms, vehicles, and homes, where signals depend heavily on room geometry, material properties, microphone/listener placement, and multi-speaker overlap. Collecting real recordings covering this combinatorial variability is expensive, hard to control, and difficult to scale. Prior approaches often rely on isolated room impulse responses or custom ad-hoc scripting, lacking unified pipelines to manage mixtures, separated targets, spatial audio parameters, and structured metadata together.
 
 ## Method
 
-The Treble SDK Scene Generator implements an interactive Python workflow using a lazy representation where scenes are initially stored as lightweight recipes containing timed audio blocks, RIR mappings, listener configurations, and target definitions without performing any convolution. Inputs combine pre-computed IR collections, clean audio sources from datasets like Hugging Face, and user-defined conversational or device-level rules. The system supports both manual scene composition with timeline and 3D room visualizations and automated bulk generation that sweeps receiver positions and source arrangements to yield a SceneCollection. Audio convolution, device rendering, and mixture generation are deferred and executed on demand.
+The Treble SDK Scene Generator takes as input collections of room impulse responses (IRs), clean audio sources (such as public speech datasets and background noise like HVAC), and rule definitions. The architecture uses a decoupled design: during creation, a scene is stored as a lightweight recipe containing timed audio blocks, track-to-RIR mappings, listener configurations, and JSON-serialisable metadata without performing any convolution or mixing. When audio output is requested, the scene is rendered on demand by convolving each source track with its corresponding room and device response, followed by summing the components.
+
+For manual construction, users define conversational structures, utterance durations, overlap conditions, level ranges, and spatial source coordinates via a Jupyter notebook interface. The listener is specified using a dummy head model equipped with orientation parameters, per-channel device noise, and optional filtering. For automated bulk generation, rule objects and source groups iterate over randomised receiver positions, speaker identities, timing patterns, and acoustic conditions to produce a SceneCollection.
+
+## Experimental setup
+
+The system demonstrates integration using public Hugging Face speech datasets for content, background noise collections for ambient sounds, and pre-computed or simulated IR collections defining source-receiver paths. Evaluation and inspection are supported via timeline visualisations, 3D room plots, and metadata verification rather than comparative model benchmarking. The framework is implemented as an interactive Python Jupyter notebook workflow relying on the underlying Treble SDK engine.
 
 ## Results
 
-The demonstration highlights the framework's capability to load IR collections, parse Hugging Face speech corpora and HVAC noise tracks, and construct single or bulk multi-speaker conversational scenes. It successfully visualizes timelines and 3D room views, manages dummy-head listener orientations, and outputs JSON-serialisable metadata alongside aligned audio mixtures and separated tracks. Quantitative performance metrics or model evaluations are not the focus of this system demonstration.
+The paper presents a demonstration of the Scene Generator workflow rather than numerical machine learning benchmarks. It successfully constructs single and bulk multi-speaker conversational scenes with background noise and spatial listener orientations. The system enables lossless round-trip serialisation of scene metadata, precise timestamp tracking, and aligned target extraction for supervised machine learning pipelines.
+
+## Limitations
+
+The framework relies heavily on the underlying physical accuracy and computational efficiency of the Treble SDK acoustic simulation engine. The paper details a demonstration workflow without reporting scaling limits regarding memory overhead for massive bulk generations, compute times for high-density multi-source scenes, or empirical validation of downstream model performance gains.
+
+## Why read this
+
+Speech and ML engineers building pipelines for far-field recognition, spatial audio, or speech enhancement should read this to learn how to automate reproducible, physically grounded synthetic dataset creation without writing custom gluing scripts.
 
 ## Code
 
@@ -31,7 +55,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech and machine learning engineers developing spatial audio, speech enhancement, multi-speaker separation, or far-field speech recognition systems can use this tool to build tailored, metadata-rich training and evaluation datasets.
+Training and evaluating robust far-field speech recognition, speech enhancement, speaker separation, and spatial audio systems in simulated environments.
 
 ## Related
 

@@ -1,29 +1,64 @@
 ---
 id: hao26b_interspeech
 category: asr
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1659
 pdf: https://www.isca-archive.org/interspeech_2026/hao26b_interspeech.pdf
 ---
 
 # Can Large Language Models Reliably Correct Errors in Low-Resource ASR? A Contamination-Aware Case Study on West Frisian
 
+*Yun Hao, Reihaneh Amooie, Wietse de Vries, Rik van Noord, Martijn Wieling*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/hao26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hao26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1659)
 
-**TL;DR** — This paper investigates LLM-based generative error correction for low-resource West Frisian ASR while explicitly controlling for data contamination, achieving a best WER of 8.9% on Common Voice (surpassing the 5-best oracle) using GPT-5.1.
+**TL;DR** — This paper investigates generative error correction (GER) using Large Language Models for low-resource West Frisian ASR, introducing a non-public offline dataset to explicitly control for data contamination. Results show that GPT-5.1 achieves a Word Error Rate (WER) of 8.9% on Common Voice (surpassing the 5-best oracle of 9.6%) and 13.8% on the offline dataset.
+
+## Key contributions
+
+- Evaluates LLM-based generative error correction (GER) on a truly low-resource language (West Frisian, ~400k speakers) with only 5.5 hours of training speech data.
+- Constructs a contamination-aware offline evaluation dataset comprising 1.5 hours of speech (811 utterances) from unreleased storybooks and original sentences to eliminate pretraining text overlap concerns.
+- Compares closed-source frontier models (GPT-4o-mini, GPT-5.1) against open-source models (Qwen3-8B with and without LoRA fine-tuning) and classical trigram language models.
+- Performs detailed sentence-level and edit-level (substitution, deletion, insertion) error analyses revealing that models struggle most with balancing aggressive word insertions against overcorrection.
 
 ## Problem
 
-While generative error correction (GER) with large language models has driven major ASR accuracy gains in high-resource languages like English, its effectiveness in truly low-resource settings remains underexplored. Furthermore, performance improvements reported in prior work could be confounded by data contamination, where LLMs have already seen evaluation texts during pretraining. This study investigates both challenges for West Frisian using a public corpus alongside a newly constructed, non-public offline speech dataset.
+Automatic speech recognition remains severely limited for low-resource languages due to scarce transcribed training data. While generative error correction (GER) using LLMs successfully post-processes ASR N-best hypotheses in high-resource languages like English, its effectiveness in low-resource settings remains underexplored. Furthermore, prior studies cannot easily rule out data contamination—where evaluation benchmarks overlap with LLM pretraining texts—meaning reported performance gains may reflect memorization rather than true phonetic or linguistic correction capability.
 
 ## Method
 
-The ASR backbone uses XLS-R 1B fine-tuned on the Common Voice Frisian dataset using CTC for 2,000 steps. For error correction, the system feeds the 5-best hypotheses from beam search decoding (beam width = 50) into various LLMs under zero-shot and k-shot prompting (k=1, 3, 5, 10). Evaluated LLMs include closed-source models (GPT-4o-mini, GPT-5.1) and open-source models (Qwen3-8B in both base form and LoRA fine-tuned on XLS-R 5-best lists with rank r=16, alpha=32, and dropout 0.05 for 3 epochs). A custom Frisian offline dataset (811 utterances, 1.5 hours) was constructed using a storybook and original native-speaker sentences to eliminate data contamination.
+The pipeline utilizes XLS-R 1B as the acoustic backbone, pretrained on 436k hours across 128 languages and fine-tuned on the Common Voice Frisian training split (5.5 hours, 3,921 utterances) for 2,000 steps using a Connectionist Temporal Classification (CTC) loss. Feature extractors are frozen while Transformer encoder layers are updated with a batch size of 64, learning rate of 5e-5, and weight decay of 5e-5. Beam search decoding with a beam width of 50 extracts the top-5 N-best hypotheses.
+
+For generative error correction, LLMs (GPT-4o-mini, GPT-5.1, and Qwen3-8B) receive zero-shot or k-shot prompts (k=1, 3, 5, 10) containing the N-best hypotheses and are instructed to act as Frisian language experts, outputting a single corrected transcription free from the constraint of selecting strictly from the N-best list. Qwen3-8B is also fine-tuned using LoRA applied to attention and feed-forward projection layers (rank r=16, alpha=32, dropout=0.05) for 3 epochs with an effective batch size of 16, utilizing XLS-R 5-best outputs as inputs and reference texts as targets.
+
+## Experimental setup
+
+Evaluations use Common Voice 17.0 Frisian (test set: 3,171 utterances, 4.7 hours) and a newly collected Frisian Offline Dataset (811 utterances, 1.5 hours recorded via head-mounted microphone at 44.1 kHz in an acoustic lab). Baselines include raw XLS-R 1-best, XLS-R 5-best oracle, a trigram language model integrated during decoding, and a selection-based LLM prompting approach. Metric used is Word Error Rate (WER), alongside precision and recall computed at the edit level (substitutions, deletions, insertions).
 
 ## Results
 
-On the Common Voice Frisian test set (baseline WER 13.5%, trigram 12.1%, 5-best oracle 9.6%), GPT-5.1 achieved a minimum WER of 8.9% under 3-shot generative prompting, outperforming the oracle, whereas a selection-based approach achieved 12.1% WER. On the contamination-free Frisian offline dataset (baseline WER 21.1%, trigram 19.2%, oracle 18.0%), GPT-5.1 similarly reduced WER to 13.8% under 3-shot generative prompting, confirming true generalization rather than memorization. Qwen3 and Qwen3-FT yielded only marginal improvements (13.4% WER on Common Voice, 20.9% on offline data), demonstrating that GER benefits do not transfer equally across all LLMs.
+On the Common Voice test set, baseline XLS-R achieves 13.5% WER (trigram: 12.1%, 5-best oracle: 9.6%). GPT-5.1 via 3-shot generative prompting achieves an 8.9% WER, outperforming the oracle, whereas its selection-based counterpart reaches 12.1%. Qwen3-8B achieves 14.4% (zero-shot) and 13.4% (fine-tuned), showing minimal correction capability by leaving 97.3% of sentences unchanged.
+
+On the non-public Frisian offline dataset, baseline XLS-R achieves 21.1% WER (trigram: 19.2%, 5-best oracle: 18.0%). GPT-5.1 generative correction drops the WER to 13.8% (5-shot/10-shot), confirming that performance gains are driven by genuine language modeling capabilities rather than pretraining data contamination. Sentence-level analysis indicates GPT-5.1 (Gen) improves 54.9% of offline utterances with a low degradation rate of 7.5%. Edit-level diagnostics show insertion errors have the lowest precision (~61-68%) due to overzealous token additions, while substitution errors form the bulk of remaining failures.
+
+| System / Condition | Common Voice WER (%) | Frisian Offline WER (%) |
+|---|---|---|
+| XLS-R Baseline | 13.5 | 21.1 |
+| XLS-R + Trigram LM | 12.1 | 19.2 |
+| XLS-R 5-Best Oracle | 9.6 | 18.0 |
+| Qwen3-8B-FT (3-shot) | 13.4 | 20.9 |
+| GPT-4o-mini (5-shot) | 12.5 | 18.4 |
+| GPT-5.1 (3-shot / 5-shot) | 8.9 | 13.8 |
+
+## Limitations
+
+The study is restricted to a single low-resource language (West Frisian) and relies heavily on closed-source frontier models (GPT-4o-mini and GPT-5.1) which lack architectural transparency and reproducibility. Open-source models tested (Qwen3-8B) failed to provide meaningful error correction despite fine-tuning, demonstrating a steep capability gap for low-resource generative tasks. The offline dataset size is relatively small (1.5 hours, 4 speakers), limiting deep speaker-demographic generalizability.
+
+## Why read this
+
+Researchers building speech-to-text systems or evaluating LLM-based post-processing for low-resource languages should read this paper to understand how to design contamination-aware evaluations and to recognize the performance gap between proprietary frontier models and open-source alternatives in low-resource regimes.
 
 ## Code
 
@@ -31,11 +66,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech engineers and developers building robust speech recognition pipelines for low-resource languages where acoustic models alone yield high error rates.
-
-## Limitations
-
-The study is restricted to West Frisian and evaluated primarily using specific model architectures (XLS-R as the ASR backbone, and Qwen3 and GPT variants as the corrector LLMs).
+Post-processing pipeline enhancement for low-resource automatic speech recognition, historical or regional archive transcription, and contamination-free evaluation benchmarking for speech LLMs.
 
 ## Related
 

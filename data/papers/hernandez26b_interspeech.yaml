@@ -11,7 +11,7 @@ doi: 10.21437/Interspeech.2026-2735
 isca_url: https://www.isca-archive.org/interspeech_2026/hernandez26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hernandez26b_interspeech.pdf
 session: Phonetic Aspects of TTS and ASR Systems
-topics: [phonetics, multilingual, self-supervised]
+topics: [self-supervised, multilingual, phonetics]
 code:
     url: https://github.com/abnerLing/PhonoQ-2.0
     license: ""

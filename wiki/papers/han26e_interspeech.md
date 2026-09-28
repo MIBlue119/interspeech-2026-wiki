@@ -1,29 +1,64 @@
 ---
 id: han26e_interspeech
 category: speaker-verification
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2294
 pdf: https://www.isca-archive.org/interspeech_2026/han26e_interspeech.pdf
 ---
 
 # Soft-Gating Score-Level Fusion for Spoofing-Aware Speaker Verification
 
+*Seongkyu Han, Yowon Lee, Thien-Phuc Doan, Thien An Nguyen, Souhwan Jung*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/han26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/han26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2294)
 
-**TL;DR** — This paper proposes a training-free, soft gating score-level fusion method for spoofing-aware speaker verification that dynamically adjusts subsystem weights based on decision confidence, achieving up to a 90% relative improvement in a-DCF over baselines.
+**TL;DR** — A training-free soft-gating score-level fusion framework dynamically scales ASV and CM subsystem contributions using margins from development EER thresholds, achieving up to a 90% relative a-DCF improvement over static baselines.
+
+## Key contributions
+
+- Proposes a novel dynamic soft-gating score-level fusion method for Spoofing-Aware Speaker Verification (SASV) that relies on trial-wise subsystem confidence.
+- Eliminates the need for learnable parameters or additional joint training, allowing direct plug-and-play deployment on existing pre-trained SASV pipelines.
+- Evaluates three specific gating variants (CM Gating, ASV Gating, and Double Gating) across diverse benchmark conditions.
+- Provides diagnostic analysis of performance failure modes tied to extreme EER threshold distributions (near 0 or 1).
 
 ## Problem
 
-Combining automatic speaker verification (ASV) and countermeasure (CM) subsystems is crucial for spoofing-aware speaker verification (SASV), but existing score-level fusion strategies rely on static weighting schemes. These fixed rules apply uniform weights across all trials, failing to reflect the complementary roles of ASV (for speaker discrimination) and CM (for spoof detection) under varying trial types and score distribution shifts. While recent gated integration approaches attempt dynamic weighting, they demand complex alternating training procedures and additional learnable parameters.
+Combining Automatic Speaker Verification (ASV) and Countermeasure (CM) subsystems is challenging because they optimize for different objectives: speaker identity vs. spoof detection. Conventional static fusion schemes apply fixed weights across all trials, making them unable to adapt to trial-specific attack types or shifts in score distributions. More recent score-aware gated frameworks like ATMM-SAGA require complex joint training with alternating optimization, limiting their practical deployment.
 
 ## Method
 
-The paper introduces a soft gating score-level fusion framework that requires zero additional training or learnable parameters. It computes a confidence score for each subsystem by measuring the margin between normalized subsystem scores and their respective development-set Equal Error Rate (EER) thresholds. Three trial-wise gating variations are explored: CM Gating (where the CM margin scales the CM score and modulates the ASV influence), ASV Gating (where the ASV margin controls fusion), and Double Gating (where both subsystems are independently scaled by their respective margins). The study tests four combinations using two ASV backbones (ECAPA-TDNN and ReDimNet, trained on VoxCeleb2) and two CM backbones (AASIST and Conformer-TCM).
+The method takes raw ASV and CM similarity scores, normalizes them, and scales them using confidence margins derived from development-set EER thresholds. Let $s_{	ext{asv}}$ and $s_{	ext{cm}}$ be the normalized subsystem scores, and $\tau_{	ext{asv}}, \tau_{	ext{cm}}$ be their respective EER thresholds. The confidence margins are computed as $\delta_{	ext{asv}} = s_{	ext{asv}} - \tau_{	ext{asv}}$ and $\delta_{	ext{cm}} = s_{	ext{cm}} - \tau_{	ext{cm}}$.
+
+Three gating configurations are explored: CM Gating ($S = s_{	ext{cm}} \delta_{	ext{cm}} + s_{	ext{asv}}(1 - |\delta_{	ext{cm}}|)$), ASV Gating ($S = s_{	ext{cm}}(1 - |\delta_{	ext{asv}}|) + s_{	ext{asv}} \delta_{	ext{asv}}$), and Double Gating ($S = s_{	ext{cm}} \delta_{	ext{cm}} + s_{	ext{asv}} \delta_{	ext{asv}}$). These formulations scale subsystem contribution dynamically based on whether the score falls far from the threshold (high confidence) or close to it (uncertainty), giving strong influence to reliable outputs while suppressing ambiguous predictions.
+
+At inference time, the method requires only simple arithmetic operations on the subsystem outputs using pre-calculated thresholds from the development set, requiring no backpropagation or parameter updates.
+
+## Experimental setup
+
+Experiments are conducted on ASVspoof 2019 LA (LA19) and ASVspoof5 (Track 2 closed condition) datasets using their official evaluation protocols. Four ASV-CM system combinations are built using two ASV backbones (ECAPA-TDNN and ReDimNet, trained on VoxCeleb2) and two CM backbones (AASIST and Conformer-TCM). Performance is evaluated using SV-EER, SPF-EER, SASV-EER, and a-DCF.
 
 ## Results
 
-Evaluated on ASVspoof 2019 LA (LA19) and ASVspoof5 (Track 2 closed condition) datasets using SV-EER, SPF-EER, SASV-EER, and a-DCF metrics, the proposed dynamic gating framework consistently outperforms simple score summation (Baseline 1) and trainable DNN back-end embedding fusion (Baseline 2). On LA19, the method reduces a-DCF by approximately 90% on average compared to baselines, with Double Gating achieving the strongest performance in three out of four model configurations. Ablation analyses indicate that performance drops can occur when subsystem EER thresholds lie extremely close to 0 or 1, causing one modality to overwhelmingly dominate the fused score.
+On the LA19 dataset, the proposed methods reduce a-DCF by approximately 90% on average compared to baseline fusion methods, with Double Gating achieving the best a-DCF across most configurations. On ASVspoof5, the dynamic gating methods also predominantly outperform Baseline 1 (simple sum) and Baseline 2 (DNN back-end embedding fusion). However, performance degrades severely when models produce extreme EER thresholds close to 0 or 1. For instance, in the ECAPA+TCM configuration where TCM's threshold is near 0, CM Gating yields an inflated SV-EER due to unconstrained amplification of the CM score on bonafide trials.
+
+| Model | Method | LA19 SASV-EER | LA19 a-DCF | ASVspoof5 SASV-EER | ASVspoof5 a-DCF |
+|---|---|---|---|---|---|
+| ECAPA + AASIST | Baseline 1 | 19.14 | 0.1738 | 35.03 | 0.6219 |
+| ECAPA + AASIST | CM Gating | 0.84 | 0.0178 | 16.01 | 0.4883 |
+| ECAPA + TCM | Baseline 1 | 8.12 | 0.1504 | 27.36 | 0.3065 |
+| ECAPA + TCM | Double Gating | 0.76 | 0.0151 | 29.27 | 0.8942 |
+| Redim + AASIST | Double Gating | 0.45 | 0.0107 | 13.68 | 0.4280 |
+| Redim + TCM | Double Gating | 0.39 | 0.0080 | 25.52 | 0.8113 |
+
+## Limitations
+
+The framework's effectiveness is sensitive to the positioning of the development-set EER threshold; extreme thresholds near 0 or 1 break the margin scaling logic and degrade performance. The evaluation is restricted to closed-condition LA19 and ASVspoof5 benchmarks, leaving cross-dataset generalization under severe acoustic or codec mismatch unverified.
+
+## Why read this
+
+Researchers and engineers looking for an immediate, plug-and-play alternative to static score-fusion or complex joint-training pipelines in SASV will find this an effective, lightweight solution.
 
 ## Code
 
@@ -31,11 +66,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Engineers building secure speech authentication systems, mobile voice banking applications, and defense pipelines against deepfake audio and voice conversion attacks.
-
-## Limitations
-
-Performance degrades when subsystem EER thresholds are extremely close to 0 or 1, which causes score imbalances that excessively amplify one modality while suppressing the other.
+Secure speaker verification systems, voice-biometric banking, and mobile authentication pipelines requiring defense against synthetic speech spoofing.
 
 ## Related
 

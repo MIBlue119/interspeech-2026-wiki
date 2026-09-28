@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-2756
 isca_url: https://www.isca-archive.org/interspeech_2026/girish26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/girish26b_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
-topics: [speech-llm, health, multilingual]
+topics: [speech-llm, self-supervised, multilingual]
 code:
     url: https://github.com/Helixometry/ORBIT.git
     license: ""
