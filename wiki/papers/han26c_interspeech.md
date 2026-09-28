@@ -2,25 +2,28 @@
 id: han26c_interspeech
 category: spoken-language-understanding
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1869
+pdf: https://www.isca-archive.org/interspeech_2026/han26c_interspeech.pdf
 ---
 
 # Exploring Hesitation as a Signal for Spoken Grammatical Error Correction
 
-**TL;DR** — Instead of discarding disfluencies before grammatical error correction, marking hesitation positions and types as explicit signals improves spoken GEC by up to +2.78 points F0.5 near hesitation points.
+[PDF](https://www.isca-archive.org/interspeech_2026/han26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/han26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1869)
+
+**TL;DR** — This paper demonstrates that treating speech disfluencies as positive signals rather than noise improves spoken grammatical error correction for L2 learners, achieving a headline F0.5 score of 0.4790.
 
 ## Problem
 
-Traditional spoken grammatical error correction (GEC) pipelines strip out disfluencies as noise before correction, but the authors hypothesize that for L2 learner speech, hesitations actually signal grammatical uncertainty and could be a useful cue rather than noise to discard.
+Traditional spoken grammatical error correction pipelines treat speech disfluencies solely as noise and remove them before text correction. However, psycholinguistic evidence shows that disfluencies frequently co-occur with linguistic and grammatical uncertainty in L2 learner speech. Discarding these disfluencies eliminates valuable contextual cues that could otherwise assist automated feedback systems in locating learner errors.
 
 ## Method
 
-The proposed hesitation-aware approach preserves disfluency information via special marker tokens that indicate hesitation positions and types, plus hesitation-type embeddings that encode the disfluency context, rather than removing disfluencies before correction.
+The authors propose a hesitation-aware sequence-to-sequence framework based on the t5-base architecture. They introduce five special marker tokens to explicitly identify silent pauses ([SP]), filled pauses ([FP], [/FP]), and word repetitions ([REP], [/REP]). Additionally, they add a learned auxiliary hesitation type embedding layer that combines with standard token embeddings to propagate hesitation context across entire disfluent spans. Models are fine-tuned on the Speak & Improve Corpus 2025 using human-annotated disfluent transcripts for 10 epochs with early stopping.
 
 ## Results
 
-On the Speak & Improve Corpus 2025, the hesitation-aware method outperforms both rule-based disfluency removal (+2.05 points F0.5) and human-annotated fluent transcription (+1.84 points F0.5), with the largest gains (+2.78 points) concentrated near hesitation positions.
+Evaluated on the Speak & Improve Corpus 2025 using span-based F0.5 metrics computed by ERRANT, the proposed method achieves an overall F0.5 of 0.4790. This outperforms both a rule-based disfluency removal baseline at 0.4585 (+2.05%p) and an oracle human-annotated fluent transcription baseline at 0.4606 (+1.84%p). Performance gains are heavily concentrated near hesitation positions, with errors within a ±1 token window showing an F0.5 of 0.5087 (+2.78%p over the fluent baseline). Among hesitation types, filled pauses yield the largest improvement at +9.10%p over the fluent baseline.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Language-learning and writing-assistance tools that correct grammar directly from L2 learner speech, using disfluency patterns as an additional diagnostic signal.
+Computer-assisted language learning systems and automated spoken language tutors providing grammatical feedback to second-language learners.
+
+## Limitations
+
+The study relies on manual human-annotated transcriptions rather than direct ASR outputs to isolate hesitation signals from recognition error propagation.
 
 ## Related
 

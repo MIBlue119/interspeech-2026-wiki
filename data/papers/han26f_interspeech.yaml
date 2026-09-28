@@ -7,11 +7,12 @@ authors:
     - Jiwon Lee
     - Kyogu Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-3485
 isca_url: https://www.isca-archive.org/interspeech_2026/han26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/han26f_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
-topics: []
+topics: [speech-synthesis, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/ongdyub/TAP-ETS
     license: ""
 open_to_collaboration: false
