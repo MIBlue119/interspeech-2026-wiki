@@ -9,11 +9,12 @@ authors:
     - Bo Pang
     - Yandong Guo
 year: 2026
+doi: 10.21437/Interspeech.2026-1767
 isca_url: https://www.isca-archive.org/interspeech_2026/li26aa_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26aa_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
-topics: []
+topics: [asr, speech-translation, self-supervised]
 code:
-    url: ""
+    url: https://anonymous.4open.science/status/Speech-Model-Adaptation-8D45
     license: ""
 open_to_collaboration: false

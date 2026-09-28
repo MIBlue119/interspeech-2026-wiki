@@ -6,11 +6,12 @@ authors:
     - Zhen Ye
     - Yiwen Guo
 year: 2026
+doi: 10.21437/Interspeech.2026-301
 isca_url: https://www.isca-archive.org/interspeech_2026/li26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26c_interspeech.pdf
 session: Neural Audio Codec Architectures
-topics: []
+topics: [tts, speech-generation, voice-conversion]
 code:
-    url: ""
+    url: https://github.com/herbertLJY/MSRCodec
     license: ""
 open_to_collaboration: false

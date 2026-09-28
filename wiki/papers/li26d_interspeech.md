@@ -1,26 +1,29 @@
 ---
 id: li26d_interspeech
-category: evaluation
+category: speech-enhancement
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-476
+pdf: https://www.isca-archive.org/interspeech_2026/li26d_interspeech.pdf
 ---
 
 # CAQA-Net: Continual Audio Quality Assessment Across Speech and Music Domains
 
-**TL;DR** — CAQA-Net continually learns to assess new audio distortion types and domains without forgetting old ones, landing within 0.036 SRCC of a joint-training upper bound.
+[PDF](https://www.isca-archive.org/interspeech_2026/li26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-476)
+
+**TL;DR** — The paper introduces CAQA-Net, a continual learning framework for audio quality assessment across speech and music domains that matches joint-learning performance within 0.036 SRCC.
 
 ## Problem
 
-Audio generation and processing techniques keep introducing new distortion types and audio domains, but traditional static audio quality assessment (AQA) models cannot keep up with this dynamic, evolving landscape.
+Static audio quality assessment (AQA) models fail to keep pace with newly introduced audio domains, generative models, and distortions, creating a cross-task AQA challenge. While joint retraining is computationally expensive, naive fine-tuning causes catastrophic forgetting of previously acquired domains. Audio continual learning is uniquely difficult due to large acoustic feature shifts from speech to music, continuous perceptual score regression, and inconsistent dataset scoring standards.
 
 ## Method
 
-CAQA-Net is a systematic continual-learning framework for AQA that acquires new task knowledge from a sequence of tasks while retaining old knowledge, using a dual-branch, multi-head architecture combining a trainable waveform encoder with a spectrogram-based semantic anchor, a knowledge-distillation regularizer to preserve old knowledge, and a prototype-based gating mechanism for task-agnostic inference.
+CAQA-Net utilizes a dual-branch, multi-head architecture featuring a trainable raw waveform encoder (M2D) for plasticity and a frozen spectrogram-based encoder (BEATS) acting as a semantic anchor. Features from both branches are fused and fed into independent linear regression prediction heads assigned to each individual task. To mitigate catastrophic forgetting, the training process employs a knowledge-distillation regularizer combined with a relative ranking-based fidelity loss mapped via Thurstone's Case V model. At inference time, a prototype-based adaptive gating mechanism uses K-means clustering over the frozen branch's features to compute task weights in a task-agnostic manner.
 
 ## Results
 
-CAQA-Net successfully balances plasticity and stability across a sequence of quality-assessment tasks, achieving performance within 0.036 SRCC (4.6%) of the joint-training upper bound that has access to all tasks at once.
+Evaluated on a sequential stream of five speech and music datasets including TCD-VOIP, NISQA-SIM, Tencent Corpus, SingMOS, and MusicEval. The complete CAQA-Net with LwF regularization achieves an average Spearman Rank Correlation Coefficient (mSRCC) close to the joint-learning upper bound. It outperforms naive fine-tuning and parameter-importance baselines like EWC and MAS across average performance, plasticity, and stability metrics.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Long-lived audio quality assessment services that must keep evaluating new generative models and distortion types (speech and music) without retraining from scratch.
+Engineers and researchers deploying automated quality assessment systems for evolving audio generation and processing pipelines that handle both speech and music domains.
 
 ## Related
 

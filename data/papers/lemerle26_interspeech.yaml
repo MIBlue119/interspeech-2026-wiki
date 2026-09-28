@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-2863
 isca_url: https://www.isca-archive.org/interspeech_2026/lemerle26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lemerle26_interspeech.pdf
 session: 'Speech Synthesis: Speech Features, Codec and Representations'
-topics: [self-supervised, tts]
+topics: [tts, speech-enhancement, self-supervised]
 code:
-    url: ""
+    url: https://github.com/theodorblackbird/z-codec
     license: ""
 open_to_collaboration: false

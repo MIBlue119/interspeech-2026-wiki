@@ -1,34 +1,41 @@
 ---
 id: lemerle26_interspeech
-category: self-supervised
+category: tts
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2863
+pdf: https://www.isca-archive.org/interspeech_2026/lemerle26_interspeech.pdf
 ---
 
 # Low-Framerate Speech Tokenization via Two-Stage Latent Patch Modeling
 
-**TL;DR** — Z-CODEC is a two-stage neural speech codec that reaches state-of-the-art low-bitrate, low-framerate reconstruction quality while being trainable on a single consumer GPU.
+[PDF](https://www.isca-archive.org/interspeech_2026/lemerle26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lemerle26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2863)
+
+**TL;DR** — Z-Codec is a two-stage speech tokenizer that achieves state-of-the-art low-framerate (12.5 Hz) speech compression and high-fidelity reconstruction while remaining fully reproducible on consumer-grade hardware (single RTX 4070 GPU).
 
 ## Problem
 
-Low-framerate, semantically rich speech tokenizers are valuable for downstream generative modeling like TTS, but achieving high perceptual quality at low bitrate and framerate usually needs expensive joint compression, adversarial training, and semantic supervision all at once.
+Neural speech tokenizers typically require complex joint optimization of adversarial waveform reconstruction, compression, and semantic supervision, making training computationally prohibitive. Simultaneously, reducing frame rates through large vector quantization codebooks or residual quantization introduces codebook collapse and complicated downstream decoding schedules. These bottlenecks restrict reproducible research and efficient scaling of large text-to-speech (TTS) systems on standard consumer hardware.
 
 ## Method
 
-Z-CODEC first trains a high-framerate variational autoencoder with adversarial objectives to capture fine acoustic detail, then in a second stage compresses within that latent space using flow matching with added semantic supervision, separating the expensive adversarial training from the final low-framerate compression step.
+The method uses a decoupled two-stage architecture: the first stage (WavVAE) trains a VAE-GAN with ConvNeXt decoders on raw waveforms to produce high-framerate (100 Hz) continuous latents, absorbing adversarial training complexity. The second stage (PatchAE) groups these latents into patches of 8 and compresses them to 12.5 Hz using either a continuous VAE or discrete Finite Scalar Quantization (FSQ) via flow matching. Semantic supervision is incorporated at the second-stage velocity head by maximizing cosine similarity against WavLM-large layer 6 features. The downstream TTS backbone employs a T5-style encoder-decoder transformer with a 3-layer MLP velocity prediction head operating on the continuous PatchVAE latents.
 
 ## Results
 
-Z-CODEC achieves state-of-the-art reconstruction quality for both low-bitrate discrete tokenizers and continuous settings, matching or beating strong baselines, while its staged design makes training tractable on a single RTX 4070 GPU.
+Evaluated on LibriTTS test-clean and HiFiTTS-2, Z-Codec achieves competitive objective and subjective reconstruction performance against strong baselines like Mimi, Higgs, and Semanticodec, while operating at 1.1 kbps (FSQ) or continuous settings at 12.5 Hz. MUSHRA evaluation places Z-Codec (both VAE and FSQ variants) on par with production-grade tokenizers like Higgs. An ablation removing WavLM semantic supervision causes dCER to more than double (from 0.59% to 1.49% for FSQ), confirming the critical role of distillation. Downstream TTS evaluation yields a character error rate of 1.1% and competitive naturalness (NMOS 4.13) compared to larger baseline models.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/theodorblackbird/z-codec
 
 ## Applications
 
-Low-cost, reproducible research and development of speech tokenizers for TTS and other generative speech systems, especially for teams without large-scale GPU clusters.
+Speech and ML engineers building scalable, high-quality text-to-speech (TTS) systems and low-bitrate neural audio codecs.
+
+## Limitations
+
+The architecture uses non-causal convolution and attention layers, restricting its applicability in streaming or low-latency scenarios, and experiments are currently limited to English speech.
 
 ## Related
 

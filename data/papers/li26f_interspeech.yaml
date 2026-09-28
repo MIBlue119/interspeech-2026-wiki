@@ -6,10 +6,11 @@ authors:
     - Yicheng Rong
     - Gang Peng
 year: 2026
+doi: 10.21437/Interspeech.2026-576
 isca_url: https://www.isca-archive.org/interspeech_2026/li26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26f_interspeech.pdf
 session: Perception and Appraisal of Prosody
-topics: []
+topics: [phonetics, prosody, evaluation]
 code:
     url: ""
     license: ""

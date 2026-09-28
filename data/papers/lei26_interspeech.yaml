@@ -4,11 +4,12 @@ authors:
     - Wentao Lei
     - Li Liu
 year: 2026
+doi: 10.21437/Interspeech.2026-561
 isca_url: https://www.isca-archive.org/interspeech_2026/lei26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lei26_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
-topics: []
+topics: [evaluation, dataset]
 code:
-    url: ""
+    url: https://arches-bench.github.io/
     license: ""
 open_to_collaboration: false

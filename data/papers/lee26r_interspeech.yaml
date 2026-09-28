@@ -5,11 +5,12 @@ authors:
     - Jaejun Lee
     - Kyogu Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-1938
 isca_url: https://www.isca-archive.org/interspeech_2026/lee26r_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26r_interspeech.pdf
 session: Articulatory, EMG, and Visual Speech Generation
-topics: []
+topics: [speech-synthesis, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://jiwonlee-0218.github.io/GETS_demo-page/
     license: ""
 open_to_collaboration: false
