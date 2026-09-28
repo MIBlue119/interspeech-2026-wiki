@@ -12,6 +12,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/alizadeh26_interspeech.pd
 session: Multilingual, Cross-lingual & Low-Resource ASR
 topics: [asr, speech-translation, low-resource]
 code:
-    url: https://huggingface.co/datasets/Toorintan
+    url: ""
     license: ""
 open_to_collaboration: false

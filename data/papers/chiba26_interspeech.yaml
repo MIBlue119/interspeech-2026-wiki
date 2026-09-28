@@ -13,6 +13,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/chiba26_interspeech.pdf
 session: Medical Dialogue and Conversational Understanding
 topics: [paralinguistics, speech-llm, health]
 code:
-    url: https://huggingface.co/funasr/paraformer-zh
+    url: ""
     license: ""
 open_to_collaboration: false

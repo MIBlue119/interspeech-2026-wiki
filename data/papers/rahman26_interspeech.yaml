@@ -10,6 +10,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/rahman26_interspeech.pdf
 session: Indigenous Voices in Speech Science and Technology
 topics: [asr, low-resource, dataset]
 code:
-    url: https://huggingface.co/ihanif/ps_base_l1
+    url: ""
     license: ""
 open_to_collaboration: false

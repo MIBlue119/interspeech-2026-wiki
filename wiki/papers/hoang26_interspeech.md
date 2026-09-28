@@ -64,7 +64,7 @@ Speech and ML engineers building real-time production ASR post-processing system
 
 ## Code
 
-- https://huggingface.co/VietAI/envit5-base
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

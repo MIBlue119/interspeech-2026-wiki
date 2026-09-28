@@ -56,7 +56,7 @@ Speech researchers and linguists interested in form-meaning mappings and sub-lex
 
 ## Code
 
-- https://huggingface.co/openai-community/gpt2
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

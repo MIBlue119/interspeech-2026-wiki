@@ -13,6 +13,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/borodin26b_interspeech.pd
 session: Spoofing and Deepfake Detection 1
 topics: [audio-deepfake, evaluation, low-resource]
 code:
-    url: https://huggingface.co/datasets/lab260
+    url: ""
     license: ""
 open_to_collaboration: false

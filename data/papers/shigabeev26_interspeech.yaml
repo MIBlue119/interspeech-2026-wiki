@@ -10,6 +10,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/shigabeev26_interspeech.p
 session: Datasets
 topics: [tts, dataset, multilingual]
 code:
-    url: https://huggingface.co/datasets/langswap
+    url: ""
     license: ""
 open_to_collaboration: false

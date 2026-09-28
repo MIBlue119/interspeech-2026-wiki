@@ -17,6 +17,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/hoang26_interspeech.pdf
 session: Robust and Efficient ASR
 topics: [asr, self-supervised, streaming]
 code:
-    url: https://huggingface.co/VietAI/envit5-base
+    url: ""
     license: ""
 open_to_collaboration: false

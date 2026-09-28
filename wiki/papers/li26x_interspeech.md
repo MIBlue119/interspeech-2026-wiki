@@ -59,7 +59,7 @@ Speech and ML researchers building multimodal audio LLMs should read this paper 
 
 ## Code
 
-- https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

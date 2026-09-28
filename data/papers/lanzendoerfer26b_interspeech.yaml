@@ -12,6 +12,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/lanzendoerfer26b_interspe
 session: Speaker Diarization 1
 topics: [speaker-separation, speaker-diarization, self-supervised]
 code:
-    url: https://huggingface.co/datasets/talkbank/callhome
+    url: ""
     license: ""
 open_to_collaboration: false

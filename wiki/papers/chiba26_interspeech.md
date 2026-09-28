@@ -62,7 +62,7 @@ Speech and ML researchers tackling low-resource clinical audio tasks will learn 
 
 ## Code
 
-- https://huggingface.co/funasr/paraformer-zh
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

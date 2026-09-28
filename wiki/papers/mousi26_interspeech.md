@@ -60,7 +60,7 @@ Speech and ML researchers building spoken multimodal assistants should read this
 
 ## Code
 
-- https://github.com/baselmousi/cfhr-ci
+- https://huggingface.co/datasets/QCRI/M2CQA-S
 
 ## Applications
 
