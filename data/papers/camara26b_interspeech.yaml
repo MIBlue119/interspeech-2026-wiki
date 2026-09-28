@@ -7,11 +7,12 @@ authors:
     - Jeung-Yoon Choi
     - Stefanie Shattuck-Hufnagel
 year: 2026
+doi: 10.21437/Interspeech.2026-1379
 isca_url: https://www.isca-archive.org/interspeech_2026/camara26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/camara26b_interspeech.pdf
 session: Tools and Techniques for Phonetic Analysis
-topics: []
+topics: [prosody, phonetics, evaluation]
 code:
-    url: ""
+    url: https://mateocamara.com/
     license: ""
 open_to_collaboration: false

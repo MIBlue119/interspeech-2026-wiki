@@ -2,33 +2,40 @@
 id: gonzalezmachorro26_interspeech
 category: health
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1052
+pdf: https://www.isca-archive.org/interspeech_2026/gonzalezmachorro26_interspeech.pdf
 ---
 
 # Towards Speech Impairment Prediction in German-Speaking Individuals with Amyotrophic Lateral Sclerosis
 
-**TL;DR** — Repetition tasks like /da/-/da/ predict ALS-related speech impairment scores best across speakers (CCC = 0.62), while personalized within-speaker models reach even higher accuracy (CCC = 0.86), in a German-speaking ALS cohort.
+[PDF](https://www.isca-archive.org/interspeech_2026/gonzalezmachorro26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gonzalezmachorro26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1052)
+
+**TL;DR** — This paper proposes automated speech analysis models to predict speech impairment and quality of life scores in German-speaking individuals with amyotrophic lateral sclerosis (ALS), achieving a concordance correlation coefficient of up to 0.86 in a personalized within-speaker setting.
 
 ## Problem
 
-Amyotrophic Lateral Sclerosis (ALS) often impairs speech via bulbar dysfunction, and speech-based monitoring could help track disease progression, but it's unclear which speech tasks and modeling approaches work best, and standardized data collection for German-speaking patients is lacking.
+Amyotrophic Lateral Sclerosis (ALS) is a progressive motor neuron disease that causes bulbar dysfunction, leading to heterogeneous and hard-to-track speech impairments. Current clinical monitoring relies heavily on subjective, coarse scales like ALSFRS-R-speech and QOL-Dys, while existing speech-based machine learning approaches lack data standardization and cross-study comparability—particularly for German speakers.
 
 ## Method
 
-The authors predict two clinical speech-related scores from speech in 66 German-speaking people with ALS, comparing cross-sectional (across-speaker) and personalized (within-speaker) modeling paradigms across several common speech tasks, including repetition tasks like /da/-/da/ and /da/-/ba/.
+The study evaluates a German ALS cohort of 66 patients (96 total sessions) performing five speech tasks: sustained /a:/, picture description, reading passage, and two diadochokinetic syllable repetition tasks (/da/-/da/, /da/-/ba/). Audio data is processed using voice activity detection and spectral gating noise reduction. Three feature sets are extracted: hand-crafted eGeMAPS, Whisper-large-v3 encoder embeddings, and Wav2vec2 embeddings. Support Vector Machines (SVM), Random Forests (RF), and XGBoost (XGB) are trained via GroupKFold cross-validation under two paradigms: cross-sectional (speaker-independent) and within-speaker (temporal split using baseline sessions to predict follow-ups).
 
 ## Results
 
-Repetition tasks achieve the best cross-sectional performance (Concordance Correlation Coefficient = 0.62) for predicting the Quality of Life in the Dysarthric Speaker questionnaire, while personalized within-speaker models reach a much higher CCC of 0.86.
+In the cross-sectional setting, the reading passage with Whisper features predicted ALSFRS-R-speech with a Concordance Correlation Coefficient (CCC) of 0.65, while diadochokinetic tasks achieved a CCC of 0.62 for QOL-Dys. In the within-speaker setting, the read passage yielded a CCC of 0.71 for ALSFRS-R-speech, and the /da/-/da/ task reached a peak CCC of 0.86 for QOL-Dys using Whisper features and SVM. QOL-Dys scores were consistently more predictable than ALSFRS-R-speech due to their continuous nature compared to ordinal scales.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/monicagoma98/IS_AIMnd_2026
 
 ## Applications
 
-Automated, speech-based monitoring tools to support clinical assessment and standardized data collection for ALS patients, particularly in German-speaking populations.
+Clinicians and researchers in speech pathology can use these automated speech analysis pipelines to non-invasively monitor disease progression and therapeutic outcomes in German-speaking ALS patients.
+
+## Limitations
+
+Simple task fusion strategies did not reliably outperform single-task models, and the evaluation is limited to a single German-speaking cohort.
 
 ## Related
 

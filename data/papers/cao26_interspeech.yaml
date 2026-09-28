@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-861
 isca_url: https://www.isca-archive.org/interspeech_2026/cao26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cao26_interspeech.pdf
 session: Multimodal Spoken Dialogue Systems
-topics: [speech-llm]
+topics: [speech-llm, self-supervised, multilingual]
 code:
     url: ""
     license: ""

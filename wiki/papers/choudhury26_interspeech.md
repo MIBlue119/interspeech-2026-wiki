@@ -1,26 +1,29 @@
 ---
 id: choudhury26_interspeech
-category: speech-llm
+category: security
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3500
+pdf: https://www.isca-archive.org/interspeech_2026/choudhury26_interspeech.pdf
 ---
 
 # Impact Analysis of Speech Representation Learning Models for Acoustic Side-Channel Attack
 
-**TL;DR** — Speech representation learning models can be repurposed to identify keystrokes from acoustic recordings, and a new KAN-based fine-tuning approach handles cross-VoIP-codec conditions that standard fine-tuning cannot.
+[PDF](https://www.isca-archive.org/interspeech_2026/choudhury26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/choudhury26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3500)
+
+**TL;DR** — This paper introduces KEYAC, a multi-channel keystroke acoustic dataset, and demonstrates that Kolmogorov-Arnold Networks (KAN) significantly improve acoustic side-channel attack (ASCA) accuracy across different keyboards and VoIP codecs.
 
 ## Problem
 
-Acoustic side-channel attacks that infer typed keystrokes from sound are a known privacy risk, but how well modern speech representation learning models transfer to this attack, especially across different VoIP codecs, was previously unexplored.
+Acoustic side-channel attacks on keyboards have raised serious security and privacy concerns, but prior research relies on small-scale datasets, outdated hardware, or manual features without evaluating modern speech pretrained models. Furthermore, existing approaches struggle to generalize across diverse physical keyboards and real-world Voice-over-IP (VoIP) transmission codecs due to spectral and temporal distortions. This work addresses the lack of benchmark datasets and effective adaptation techniques for realistic ASCA environments.
 
 ## Method
 
-The authors build KEYAC, a dataset for studying representation generalization for acoustic side-channel attacks under standard and VoIP codec conditions, evaluate six representation models under zero-shot and partial fine-tuning, and introduce Kolmogorov-Arnold Network (KAN) based fine-tuning to better model nonlinear feature interactions.
+The authors introduce KEYAC, containing 37,440 keystroke samples from 37 keyboards captured across local microphones, smartphones, and VoIP pipelines (Zoom/Teams). Six speech PTMs (Wav2Vec2, HuBERT, WavLM, Whisper, X-Vectors, and XLS-R) are evaluated with frozen backbones. To overcome the limitations of conventional linear adaptation layers, a Kolmogorov-Arnold Network (KAN) adapter replaces standard FCN and CNN heads. The KAN adapter utilizes a single hidden layer with 30 units, grid size 5, and spline order 3 to model complex nonlinear feature interactions.
 
 ## Results
 
-Partial fine-tuning improves performance but standard architectures still struggle to generalize across VoIP codecs; KAN-based fine-tuning consistently beats these baselines and sets a new state of the art on KEYAC.
+Evaluated using accuracy and macro-F1 across in-domain and out-of-domain cross-validation protocols, WavLM consistently outperforms other PTM baselines (achieving 58.34% accuracy with a CNN downstream in-domain on standard recordings). Standard FCN and CNN adapters suffer sharp performance drops under VoIP codec compression and unseen keyboards. Incorporating the KAN-based fine-tuning strategy consistently surpasses baseline architectures, establishing a new state-of-the-art on KEYAC across all generalization scenarios.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Security research into keyboard acoustic eavesdropping risks, and as a case study in adapting speech representation models to non-speech acoustic classification tasks.
+Security engineers and researchers analyzing acoustic side-channel vulnerabilities in remote teleconferencing and public communication environments.
+
+## Limitations
+
+Performance degrades significantly under VoIP codec-induced compression and spectral distortions when using conventional linear adaptation layers.
 
 ## Related
 

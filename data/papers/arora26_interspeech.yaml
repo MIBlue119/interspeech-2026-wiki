@@ -12,8 +12,8 @@ doi: 10.21437/Interspeech.2026-1756
 isca_url: https://www.isca-archive.org/interspeech_2026/arora26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/arora26_interspeech.pdf
 session: Generative Audio and Music
-topics: [evaluation, dataset]
+topics: [evaluation, dataset, audio-captioning]
 code:
-    url: ""
+    url: https://iab-rubric.org/resources/other-databases/audio-negation-benchmark
     license: ""
 open_to_collaboration: false

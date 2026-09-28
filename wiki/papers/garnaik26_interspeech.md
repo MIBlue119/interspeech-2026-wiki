@@ -1,26 +1,29 @@
 ---
 id: garnaik26_interspeech
-category: speech-llm
+category: asr
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2197
+pdf: https://www.isca-archive.org/interspeech_2026/garnaik26_interspeech.pdf
 ---
 
 # When Machines Speak Like Local Peers: Improving Conversational Experiences with Accent-Adaptive Voice Agents
 
-**TL;DR** — LocalMATE is an accent-adaptive airport voice agent that estimates a user's accent, retrieves grounded answers, and responds in accent-conditioned synchronized speech-and-video, significantly boosting user trust in a live study.
+[PDF](https://www.isca-archive.org/interspeech_2026/garnaik26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/garnaik26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2197)
+
+**TL;DR** — LocalMATE is an end-to-end accent-adaptive conversational airport kiosk agent that uses a confidence-gated fallback mechanism to improve user trust and confidence.
 
 ## Problem
 
-Public voice agents often underperform for accented English speakers, reducing usability and trust, and existing systems rarely adapt their own responses to the user's detected accent.
+Public voice agents frequently underperform when processing accented English, leading to decreased usability, user frustration, and microaggressions that erode trust. While matching a user's accent can improve interaction quality, incorrect adaptation introduces severe friction and damages user confidence. A systematic framework is needed to balance adaptive personalization with safety fallback mechanisms under detection uncertainty.
 
 ## Method
 
-LocalMATE (i) estimates a user's accent with calibrated confidence using a WavLM-Base-Plus accent estimator with layer-weighted statistics pooling, (ii) retrieves grounded answers, and (iii) returns accent-conditioned speech with a synchronized talking-face video, falling back gracefully when confidence is low.
+LocalMATE combines a Whisper-small ASR model, GPT-based embedding retrieval over a validated FAQ set, a fine-tuned WavLM-Base-Plus accent classifier with layer-weighted statistics pooling, VEVO TTS for accent-conditioned speech synthesis, and SadTalker for lip-synchronized talking-face video generation. The accent classifier uses a softmax-weighted sum over 13 hidden states followed by mean and standard deviation pooling, mapping into a 2-layer MLP to classify Indian, Korean, and Spanish accents. A session-level cache stores the accent state for ten minutes to ensure multi-turn stability. A confidence-gated fallback policy automatically reverts to neutral US-accented TTS output whenever the accent classifier confidence falls below a set threshold.
 
 ## Results
 
-The accent estimator reaches 85% speaker-disjoint accuracy on L2-ARCTIC (Indian/Korean/Spanish) and 92.3% on out-of-domain Korean-accented Speech Accent Archive data, and a within-participant study (N=20) found correct accent adaptation significantly improved user confidence and trust.
+Evaluated on the L2-ARCTIC dataset using speaker-disjoint splits, the WavLM-Base-Plus model achieves 83.0% test accuracy (0.835 test macro-F1). On the out-of-domain Korean-accented Speech Accent Archive, the classifier reaches 92.3% accuracy. A within-participant user study with 20 participants demonstrates that correct accent adaptation significantly increases user confidence and trust (p < 0.05) while reducing repair attempts, whereas incorrect adaptation harms trust and escalates friction. The confidence-gated fallback effectively mitigates mismatch harm and restores user confidence.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Directly applicable to public-facing conversational kiosks (e.g. airports, transit hubs) serving linguistically diverse users who benefit from accent-aware responses.
+Public-facing conversational kiosks, airport help desks, and information robots serving multilingual populations.
+
+## Limitations
+
+Evaluated exclusively on three non-native English accents (Indian, Korean, Spanish) within a restricted airport FAQ domain.
 
 ## Related
 

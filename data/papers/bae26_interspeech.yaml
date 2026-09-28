@@ -7,11 +7,12 @@ authors:
     - Chang D. Yoo
     - Mark Hasegawa-Johnson
 year: 2026
+doi: 10.21437/Interspeech.2026-1390
 isca_url: https://www.isca-archive.org/interspeech_2026/bae26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bae26_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
-topics: []
+topics: [dysarthria, speech-quality-assessment, self-supervised]
 code:
-    url: ""
+    url: https://github.com/JaesungBae/DA-DSQA
     license: ""
 open_to_collaboration: false

@@ -7,7 +7,7 @@ year: 2026
 isca_url: https://www.isca-archive.org/interspeech_2026/gourav26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gourav26_interspeech.pdf
 session: Speech Synthesis, Voice Conversion and Audio Generation
-topics: [tts, evaluation]
+topics: [tts, audio-deepfake, evaluation]
 code:
     url: ""
     license: ""

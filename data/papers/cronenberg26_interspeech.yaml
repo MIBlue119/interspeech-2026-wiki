@@ -5,10 +5,11 @@ authors:
     - Lori Lamel
     - Ioana Chitoran
 year: 2026
+doi: 10.21437/Interspeech.2026-2433
 isca_url: https://www.isca-archive.org/interspeech_2026/cronenberg26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cronenberg26_interspeech.pdf
 session: Diphthongs and Monophthongs
-topics: []
+topics: [phonetics, dataset, evaluation]
 code:
     url: ""
     license: ""

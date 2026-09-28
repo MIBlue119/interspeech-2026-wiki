@@ -1,34 +1,41 @@
 ---
 id: akhtar26_interspeech
-category: health
+category: paralinguistics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2704
+pdf: https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.pdf
 ---
 
 # From Signals to Patterns: Non-Invasive Tuberculosis Detection from Cough Audio using Bandit Weighted Hyperbolic Prototypes
 
-**TL;DR** — COBALT fuses spectral cough features with pretrained audio embeddings using hyperbolic prototypes and bandit-style reliability weighting, setting a new state of the art on a cough-based tuberculosis screening benchmark.
+[PDF](https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2704)
+
+**TL;DR** — COBALT fuses speech foundation models with spectral descriptors using codebook-aligned hyperbolic prototypes and bandit-style reliability weighting, establishing a new state-of-the-art on the CODA TB benchmark for cough-based tuberculosis screening.
 
 ## Problem
 
-Cough-based tuberculosis screening could enable cheap, non-invasive triage, but individual feature types (fine-grained spectral descriptors vs. high-level foundation-model embeddings) each capture only part of the relevant signal, so systems that use just one tend to underperform.
+Cough-based tuberculosis screening (CBTS) offers a rapid, low-cost alternative to sputum testing, but single-stream models struggle with cross-device variability, environmental artifacts, and the challenge of capturing both fine-grained acoustic details and higher-level temporal patterns. While individual pretrained audio models and spectral descriptors have shown promise, systematic methods for fusing these heterogeneous representations remain largely unexplored. Addressing this gap is critical for building robust, deployable acoustic triage tools that rely on true pathological cues rather than spurious recording artifacts.
 
 ## Method
 
-COBALT combines codebook-aligned hyperbolic prototypes with a bandit-style reliability weighting scheme to fuse heterogeneous cough representations, integrating MFCC-style spectral features with embeddings from an audio foundation model (PaSST).
+The COBALT framework extracts dual streams from heterogeneous encoders (e.g., PaSST, Whisper, WavLM, x-vector, MFCC, LFCC), adapts them via 1D CNNs, and tokenizes the sequences. These tokens are mapped into a Poincaré ball hyperbolic space and softly aligned via a shared hyperbolic prototype codebook using vector quantization. A multi-armed bandit mechanism learns reliability weights for each prototype to emphasize informative evidence while suppressing unstable artifacts. The reweighed evidence vectors and their agreement term are concatenated and fed into an MLP classifier, trained end-to-end with cross-entropy, vector-quantization losses, and entropy regularization.
 
 ## Results
 
-On the CODA TB DREAM Challenge benchmark, COBALT consistently beats both single-representation baselines and simple concatenation, with the MFCC + PaSST fusion achieving the best overall score and a new state of the art.
+Evaluated on the CODA TB DREAM Challenge benchmark of solicited cough audio from seven countries using subject-disjoint five-fold cross-validation. Individual representation experiments show PaSST outperforms Whisper, WavLM, and x-vector, while MFCC leads the spectral features. A Euclidean ablation (COBALT-E) demonstrates that structured geometric fusion consistently beats naive feature concatenation. The best-performing configuration fuses MFCC with PaSST, achieving top-tier accuracy, F1-score, and AUC compared to all baseline pairs and individual encoders.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/Helixometry/COBALT.git
 
 ## Applications
 
-Low-cost, non-invasive TB triage tools for resource-limited clinics, and more broadly a template for fusing spectral and foundation-model features in cough- or breath-based disease screening.
+Engineers and healthcare researchers developing non-invasive, automated acoustic screening tools for respiratory diseases like tuberculosis.
+
+## Limitations
+
+The framework's performance depends on the quality of alignment between heterogeneous streams, and the approach is evaluated exclusively on solicited cough audio datasets.
 
 ## Related
 

@@ -1,34 +1,41 @@
 ---
 id: bhosale26_interspeech
-category: room-acoustics
+category: speech-enhancement
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2514
+pdf: https://www.isca-archive.org/interspeech_2026/bhosale26_interspeech.pdf
 ---
 
 # Echoes after Edits: Room Impulse Response Estimation for Geometry Update
 
-**TL;DR** — A method that predicts how a measured room impulse response changes after a small scene edit (like moving furniture) without re-simulating or re-measuring the whole room.
+[PDF](https://www.isca-archive.org/interspeech_2026/bhosale26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bhosale26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2514)
+
+**TL;DR** — The paper introduces edit-conditioned room impulse response (RIR) estimation and proposes PG-RIR, a proxy-guided neural network that accurately predicts acoustic variations resulting from geometry edits using uniform-material simulation proxies.
 
 ## Problem
 
-Updating a room impulse response (RIR) after a scene changes (e.g., furniture rearranged or removed) normally requires either full acoustic re-simulation with material annotations, or many additional RIR measurements for interpolation — both impractical for everyday environments.
+Traditional acoustic simulation requires expensive, fine-grained material annotations for every object, while neural field spatial interpolation demands multiple dense RIR measurements for every scene change. In everyday environments, room geometry changes frequently via furniture rearrangement or removal, rendering these traditional approaches impractical and inefficient. This creates a need for zero-shot RIR estimation under geometric edits using prior measurements and updated 3D meshes without requiring new acoustic captures or material labels.
 
 ## Method
 
-The authors introduce edit-conditioned RIR estimation: they simulate cheap "proxy" RIRs before and after the geometry edit using generic, predefined materials from the room mesh, then use the predicted proxy variation to estimate how the real, measured RIR should change (PG-RIR).
+The authors propose PG-RIR, an 11.9M-parameter model that estimates the residual log-spectrogram between pre- and post-edit RIRs in the time-frequency domain. It uses a shared ResNet-18 encoder to process the real pre-edit RIR alongside simulated proxy RIRs generated with globally uniform materials for both pre- and post-edit 3D meshes. Type and material embeddings are fused with acoustic features to produce context-aware queries, which drive a query-modulated hypernetwork to generate frequency-band-dependent temporal modulation weights. The final estimate is synthesized via inverse STFT using the phase of the pre-edit RIR, optimized with a combination of log-magnitude spectral loss and energy decay curve loss.
 
 ## Results
 
-PG-RIR accurately predicts real RIR changes under furniture rearrangement and removal scenarios.
+Evaluated on a leave-one-out protocol across 14 unseen base geometries and 264 edited variants containing 143,455 valid source-receiver pairs from the iGibson dataset, PG-RIR consistently outperforms the identity baseline and xRIR across metrics including T60, C50, and EDT. For instance, across the full evaluation, PG-RIR achieves a T60 absolute error of 0.0316 compared to 0.0432 for the identity baseline and over 0.05 for xRIR baselines. PG-RIR also demonstrates strong zero-shot generalization to unseen translation edits and multi-step sequential edit chains.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/merlresearch/geometry-edit-rir
 
 ## Applications
 
-AR/VR audio rendering and interactive room-acoustic design tools that need to react to scene edits without full re-measurement.
+Speech and acoustic engineers building spatial audio systems, virtual reality environments, and smart home audio setups that need to dynamically adapt acoustic simulations when furniture or room layouts change.
+
+## Limitations
+
+Repeated forward passes through the network in multi-step edit chains accumulate spectral smoothing that gradually smears early-energy transients.
 
 ## Related
 

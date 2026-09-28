@@ -1,26 +1,29 @@
 ---
 id: alhammad26_interspeech
-category: speaker-verification
+category: audio-deepfake
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2250
+pdf: https://www.isca-archive.org/interspeech_2026/alhammad26_interspeech.pdf
 ---
 
 # Interpretable Frequency-Band Attention with Gated SSL Fusion for Audio Deepfake Detection
 
-**TL;DR** — BandMIL pairs self-supervised speech embeddings with per-frequency-band analysis so an anti-spoofing detector can both catch synthetic speech and show which part of the spectrum gave it away.
+[PDF](https://www.isca-archive.org/interspeech_2026/alhammad26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/alhammad26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2250)
+
+**TL;DR** — BandMIL introduces a band-aware multiple instance learning framework that combines explicit frequency-band spectrogram analysis with WavLM self-supervised representations via gated fusion, achieving 1.28% EER on the ASVspoof 2019 LA benchmark.
 
 ## Problem
 
-Self-supervised front-ends give strong spoof detection accuracy but act as black boxes, offering no insight into which spectral regions actually carry the synthesis artifacts.
+State-of-the-art audio deepfake detectors typically operate as monolithic end-to-end architectures or self-supervised black boxes, lacking explicit modeling of where spoofing artifacts reside in the frequency spectrum. Understanding frequency-level cues is critical to provide actionable debugging insights, target algorithm vulnerabilities, and build user trust in safety-critical verification systems. Existing sub-band methods often rely on rigid post-hoc score fusion or fail to provide a complementary global representation for attacks lacking localized spectral traces.
 
 ## Method
 
-Overlapping audio windows are split into eight frequency-band spectrogram images, each encoded by a shared CNN and combined with hand-crafted per-band features under an attention pooling; a gated fusion layer merges these band-level cues with WavLM embeddings, and multiple-instance learning aggregates per-window scores into one utterance-level decision.
+The architecture processes variable-length audio by segmenting utterances into 4-second overlapping windows handled by two branches. The band-level branch splits the 0–8 kHz spectrum into 8 overlapping bands, renders them as dB-normalized spectrogram images, encodes them using a shared modified ResNet-18 combined with 24 handcrafted per-band features, and pools them via learned attention weights. Simultaneously, the SSL branch extracts global temporal patterns using WavLM-Large with its final 12 transformer layers fine-tuned. A learned multi-layer perceptron gate adaptively fuses the two branch outputs element-wise per input. A multiple instance learning (MIL) framework with Log-Sum-Exp pooling aggregates window predictions during training (and top-k mean pooling during inference), supervised by a combined focal loss.
 
 ## Results
 
-On ASVspoof 2019 LA the system reaches 1.28% EER and 0.0331 min t-DCF, beating an SSL-only baseline (1.73% EER), and per-attack analysis shows the band-based and SSL-based cues catch different types of spoofing.
+Evaluated on the ASVspoof 2019 logical access (LA) evaluation set containing unseen attacks (A07–A19), the full BandMIL model attains 1.28% EER and 0.0331 min t-DCF. This outperforms an SSL-only WavLM baseline yielding 1.73% EER and 0.0458 min t-DCF, as well as classical CQCC-GMM and RawNet2 models. Ablations confirm that the band branch achieves near-zero error on frequency-localized spoofing algorithms while struggling on certain voice conversion attacks, which are successfully compensated for by the SSL branch through adaptive gated fusion.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speaker-verification systems and voice-based authentication pipelines that need both accurate deepfake screening and an interpretable, auditable basis for flagging a sample.
+Speech engineers and security researchers building auditable anti-spoofing countermeasures and automatic speaker verification security guards against voice conversion and text-to-speech synthetic attacks.
+
+## Limitations
+
+Certain attacks exhibit suboptimal gating weights where the gated fusion model underperforms both standalone individual branches.
 
 ## Related
 

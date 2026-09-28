@@ -14,11 +14,12 @@ authors:
     - James Glass
     - Hung-yi Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-1511
 isca_url: https://www.isca-archive.org/interspeech_2026/chang26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chang26d_interspeech.pdf
 session: Benchmarking Foundation Models
-topics: []
+topics: [spoken-language-understanding, low-resource, dataset]
 code:
-    url: ""
+    url: https://kwchang.org/taigispeech
     license: ""
 open_to_collaboration: false

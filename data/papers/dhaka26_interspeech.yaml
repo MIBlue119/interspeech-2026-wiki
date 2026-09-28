@@ -10,10 +10,11 @@ authors:
     - J. Scott Yaruss
     - Nihar Mahapatra
 year: 2026
+doi: 10.21437/Interspeech.2026-3522
 isca_url: https://www.isca-archive.org/interspeech_2026/dhaka26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dhaka26_interspeech.pdf
 session: 'Spoken Language Processing: Evaluation and Metrics'
-topics: []
+topics: [asr, evaluation, dataset]
 code:
     url: ""
     license: ""

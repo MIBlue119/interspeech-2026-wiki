@@ -13,8 +13,8 @@ doi: 10.21437/Interspeech.2026-1462
 isca_url: https://www.isca-archive.org/interspeech_2026/bharadwaj26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bharadwaj26_interspeech.pdf
 session: Low-Resource & Endangered Language Speech Processing
-topics: [phonetics, multilingual, low-resource]
+topics: [asr, phonetics, multilingual]
 code:
-    url: ""
+    url: https://github.com/changelinglab/PhoneticXeus
     license: ""
 open_to_collaboration: false

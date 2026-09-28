@@ -5,10 +5,11 @@ authors:
     - Leslie M. Collins
     - Boyla O. Mainsah
 year: 2026
+doi: 10.21437/Interspeech.2026-2689
 isca_url: https://www.isca-archive.org/interspeech_2026/guo26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/guo26d_interspeech.pdf
 session: Assistive Technologies 1
-topics: []
+topics: [asr, speech-enhancement, on-device]
 code:
     url: ""
     license: ""

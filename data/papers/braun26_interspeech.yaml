@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-2806
 isca_url: https://www.isca-archive.org/interspeech_2026/braun26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/braun26_interspeech.pdf
 session: Pathological Speech Assessment 2
-topics: [health]
+topics: [asr, paralinguistics, health]
 code:
     url: ""
     license: ""

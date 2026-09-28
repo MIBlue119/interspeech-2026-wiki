@@ -12,8 +12,8 @@ year: 2026
 isca_url: https://www.isca-archive.org/interspeech_2026/benway26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/benway26_interspeech.pdf
 session: Speech and Language Learning Technologies
-topics: [phonetics, evaluation]
+topics: [evaluation, paralinguistics]
 code:
-    url: ""
+    url: https://voxkit-web.vercel.app/
     license: ""
 open_to_collaboration: false

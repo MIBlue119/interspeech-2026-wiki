@@ -6,11 +6,12 @@ authors:
     - Tanaya Guha
     - Alessandro Vinciarelli
 year: 2026
+doi: 10.21437/Interspeech.2026-383
 isca_url: https://www.isca-archive.org/interspeech_2026/alshubaily26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/alshubaily26_interspeech.pdf
 session: Speaker Identity, States, and Traits in Paralinguistics
-topics: []
+topics: [paralinguistics, dataset, evaluation]
 code:
-    url: ""
+    url: https://github.com/SocialAI-Glasgow/SSPNet_SPC2.0
     license: ""
 open_to_collaboration: false

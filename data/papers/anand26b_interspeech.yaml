@@ -15,11 +15,12 @@ authors:
     - Shobhit Banga
     - Mitesh M Khapra
 year: 2026
+doi: 10.21437/Interspeech.2026-3357
 isca_url: https://www.isca-archive.org/interspeech_2026/anand26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/anand26b_interspeech.pdf
 session: Speech Synthesis Evaluation 1
-topics: []
+topics: [tts, evaluation, multilingual]
 code:
-    url: ""
+    url: https://huggingface.co/datasets/ai4bharat/SpeechArenaBench/
     license: ""
 open_to_collaboration: false

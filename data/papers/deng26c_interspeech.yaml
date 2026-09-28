@@ -16,7 +16,7 @@ doi: 10.21437/Interspeech.2026-1611
 isca_url: https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
-topics: [asr, low-resource, health]
+topics: [asr, self-supervised, speaker-verification]
 code:
     url: ""
     license: ""

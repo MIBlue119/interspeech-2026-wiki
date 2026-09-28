@@ -2,33 +2,40 @@
 id: camara26c_interspeech
 category: phonetics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1386
+pdf: https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.pdf
 ---
 
 # Acoustic Landmark Detector based on Conformer and HuBERT
 
-**TL;DR** — A systematic study of Conformer-based acoustic landmark detectors finds that frozen HuBERT features with softly labeled temporal targets substantially improve detection of abrupt, linguistically meaningful speech events.
+[PDF](https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1386)
+
+**TL;DR** — This paper proposes a Conformer-based acoustic landmark detector trained with Gaussian soft labels, achieving an F1@20 ms of 0.77 using frozen HuBERT features.
 
 ## Problem
 
-Acoustic landmarks — abrupt changes tied to speech events — offer a linguistically grounded way to analyze speech, but there has been little systematic comparison of model designs for detecting them automatically.
+Automatic speech landmark detection traditionally relies on heuristic signal-processing rules or lacks precise temporal localization for sparse phonological events. Bridging raw acoustics to linguistic features is difficult because human annotations carry inherent temporal ambiguity that standard hard labels fail to capture.
 
 ## Method
 
-The authors test 14 Conformer-based configurations spanning architecture, loss, label representation, feature extractor, and data conditions on 1,839 manually annotated utterances covering eight landmark types, introducing Gaussian soft labels with per-class temporal spread to model annotator uncertainty.
+The primary model uses a 12-layer Conformer encoder with d_model=256, 4 attention heads, and a feed-forward dimension of 1024, processing non-causal utterances to output per-frame logits for 8 landmark types plus background. A novel Gaussian soft-label strategy uses per-class temporal spreads (σ = 10–20 ms) to model human annotation variability and provide margins during training. The system evaluates four feature extractors (log-mel spectrograms, frozen wav2vec2-base, frozen HuBERT-base, and a mel+wav2vec2 hybrid) along with post-processing peak detection to extract discrete landmark instances.
 
 ## Results
 
-Soft labels improve F1@20ms by 7.0 points absolute over hard labels; frozen HuBERT features perform best without fine-tuning (F1@20ms=0.77); stops and fricatives are detected reliably (F1>0.80) while vowels remain harder (F1≈0.55); overall Landmark Error Rate is 13.8%.
+Evaluated on a custom corpus of 1,839 annotated recordings (678 VCV syllables and 1,161 English words) split 90/10, frozen HuBERT features achieve the highest overall F1@20 ms of 0.77 (and F1@30 ms of 0.84), outperforming mel spectrograms (0.74) and wav2vec2 (0.70). Gaussian soft labels improve F1@20 ms by 7.0% absolute compared to hard labels, with the performance gap growing wider at larger tolerances (e.g., widening from 0.022 at 10 ms to 0.070 at 50 ms). Stops and fricatives are detected reliably (F1 > 0.80), whereas vowels and nasal releases remain challenging (F1 ≈ 0.55).
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://mateocamara.github.io/acoustic-landmarks/
 
 ## Applications
 
-Linguistically grounded speech analysis tools for phonetics research, pronunciation assessment, and any pipeline that benefits from event-level rather than frame-level speech representations.
+Speech and machine learning engineers working on landmark-based lexical access, phonetic event detection, automatic speech recognition, and clinical speech assessment.
+
+## Limitations
+
+The evaluation relies on a relatively small corpus of 1,839 files across only three speakers with a single train/test split, and zero-shot transfer to continuous speech corpora like TIMIT shows limited cross-corpus generalization.
 
 ## Related
 

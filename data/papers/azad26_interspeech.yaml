@@ -11,11 +11,12 @@ authors:
     - Ayah Othman Sindi
     - Ehsan Hoque
 year: 2026
+doi: 10.21437/Interspeech.2026-3472
 isca_url: https://www.isca-archive.org/interspeech_2026/azad26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/azad26_interspeech.pdf
 session: Pathological Speech Assessment 4
-topics: []
+topics: [asr, paralinguistics, evaluation]
 code:
-    url: ""
+    url: https://github.com/Iqra-Eval/MSA_phonetiser
     license: ""
 open_to_collaboration: false

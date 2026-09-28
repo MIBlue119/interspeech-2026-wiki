@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-3058
 isca_url: https://www.isca-archive.org/interspeech_2026/ahn26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ahn26b_interspeech.pdf
 session: Search Methods and Inference Algorithms
-topics: [asr]
+topics: [asr, evaluation, self-supervised]
 code:
-    url: ""
+    url: https://github.com/openai/whisper
     license: ""
 open_to_collaboration: false

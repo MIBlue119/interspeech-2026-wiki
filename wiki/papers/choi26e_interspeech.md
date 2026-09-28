@@ -1,34 +1,41 @@
 ---
 id: choi26e_interspeech
-category: emotion-recognition
+category: paralinguistics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2186
+pdf: https://www.isca-archive.org/interspeech_2026/choi26e_interspeech.pdf
 ---
 
 # SISER: Speaker-Invariant Speech Emotion Recognition with Entropy-Based Adversarial Training
 
-**TL;DR** — SISER pairs a wav2vec 2.0 feature encoder with an ECAPA-TDNN speaker discriminator in an entropy-based adversarial setup, pushing IEMOCAP unweighted accuracy from 51.15% to 60.63% by suppressing speaker identity.
+[PDF](https://www.isca-archive.org/interspeech_2026/choi26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/choi26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2186)
+
+**TL;DR** — SISER integrates wav2vec 2.0 with an ECAPA-TDNN speaker discriminator via entropy-based adversarial training to remove speaker variability, achieving an unweighted accuracy of 60.63% on IEMOCAP.
 
 ## Problem
 
-Speech emotion recognition is hurt by scarce labeled data and by inter-speaker variability, and while adversarial training can address speaker variability, prior approaches have not combined it well with powerful pretrained representations.
+Speech emotion recognition suffers from performance drops due to speaker variability in cross-speaker settings and a scarcity of labeled data. Although self-supervised models learn transferable representations, speaker identity remains entangled with emotional content. Traditional adversarial approaches fail to completely suppress speaker cues because they typically employ weak, shallow speaker classifiers.
 
 ## Method
 
-SISER integrates wav2vec 2.0 as the feature encoder with ECAPA-TDNN as a speaker discriminator inside an entropy-based adversarial training scheme, using the stronger speaker discriminator to more effectively suppress speaker-identity information than shallow classifiers.
+The framework uses a pretrained wav2vec 2.0 base model as the feature encoder, an emotion classifier composed of stacked fully connected layers, and an ECAPA-TDNN model as the speaker classifier. The encoder and emotion classifier are updated by minimizing emotion cross-entropy while maximizing the entropy of the speaker classifier's output distribution, driving the posterior over speakers to be uniform. The speaker classifier is trained independently via cross-entropy loss on speaker identities while freezing the encoder. The model uses the Adam optimizer, a batch size of 64, and a balance weight lambda of 0.5 on a single NVIDIA A100 GPU.
 
 ## Results
 
-On IEMOCAP, SISER reaches 60.63% unweighted accuracy, versus 51.15% for the baseline and 56.46% for wav2vec 2.0 without speaker suppression, with ablations showing the speaker classifier's architecture is a key factor.
+Evaluated on the IEMOCAP dataset using a 10-fold leave-one-session-out cross-validation protocol without data augmentation, SISER achieves 60.63% unweighted accuracy (UA) and 58.53% weighted accuracy (WA). It outperforms the unaugmented baseline (51.15% UA) and a vanilla wav2vec 2.0 model without speaker suppression (56.46% UA). An ablation confirms that replacing the shallow speaker classifier with ECAPA-TDNN significantly improves disentanglement and downstream performance.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/slp-lab-research/siser.git
 
 ## Applications
 
-More generalizable speech emotion recognition systems for call centers, mental health monitoring, and human-computer interaction where training data covers a limited set of speakers.
+Speech and machine learning engineers building speaker-independent speech emotion recognition systems for call centers, assistive agents, or affective computing applications.
+
+## Limitations
+
+Evaluated exclusively on the IEMOCAP dataset under a specific 10-fold cross-validation protocol.
 
 ## Related
 

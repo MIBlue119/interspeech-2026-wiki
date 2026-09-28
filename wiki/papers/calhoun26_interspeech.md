@@ -1,26 +1,29 @@
 ---
 id: calhoun26_interspeech
-category: prosody
+category: paralinguistics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1642
+pdf: https://www.isca-archive.org/interspeech_2026/calhoun26_interspeech.pdf
 ---
 
 # Listeners' gendered experiences and beliefs affect iconic pitch associations
 
-**TL;DR** — A priming plus implicit-association experiment showing that the "high pitch = small/submissive, low pitch = large/dominant" sound-meaning link is not purely physical, but is shaped by listeners' gender-related beliefs.
+[PDF](https://www.isca-archive.org/interspeech_2026/calhoun26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/calhoun26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1642)
+
+**TL;DR** — This study demonstrates that implicit cognitive associations between voice pitch and body size can be experimentally manipulated via priming, and that the magnitude of this effect is modulated by both listener and voice gender.
 
 ## Problem
 
-Pitch-size and pitch-dominance associations are often treated as universally iconic, but it is unclear how much social or ideological factors, such as beliefs linking dominance to masculinity, shape their strength.
+While acoustic-iconic associations like the Frequency Code link high pitch to small size and submissiveness (and low pitch to large size and dominance) via biological roots, they are also shaped by social ideologies and stereotypes. Prior research has identified group-level gender differences in these implicit associations, but it remains unclear whether these deeply ingrained links are malleable or how individual social factors directly interact with priming manipulations.
 
 ## Method
 
-Combines a priming task (strengthening or inhibiting the size-dominance link) with an Implicit Association Test to measure how strongly listeners associate voice pitch with dominance versus submissiveness.
+The experiment tested 158 adult English-speaking participants using a combination of a priming task, a memory test, and an Implicit Association Trust (IAT). In the priming task, participants were exposed to fictional creatures whose body sizes and voices were either convergent (large/low-pitched/authoritative vs. small/high-pitched/uncertain) or divergent. Voices were synthesized using AI tools (SpeechGen with pitch shifts of -3ST for low and +4ST for high versions) across both male and female talkers. Data was analyzed using linear mixed-effects regression models on transformed correct response times rather than aggregated means.
 
 ## Results
 
-Priming shifted the pitch-size association as predicted, but the effect size differed by the gender of both the listener and the voice, showing social experience and beliefs modulate this supposedly iconic link.
+The best-fit mixed-effects regression model (built using stepwise elimination via buildmer) evaluated interactions between consistency, participant gender, order, prime type, and voice gender. The priming task successfully altered the strength of the pitch-size implicit association as expected based on convergence conditions. However, the exact size of the priming effect varied significantly depending on the gender of the listener and the gender of the voices used in the experiment. The study confirms that socially constructed beliefs mediate supposedly universal iconic sound-symbolism links.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Voice design for assistants and virtual characters where perceived dominance or warmth matters, and research into gender bias in voice perception.
+Researchers in sociophonetics, speech perception, and human-computer interaction looking to understand how listeners attribute social meaning, dominance, or size cues to synthesized voices and agent interfaces.
+
+## Limitations
+
+The study focuses specifically on native speakers of British, Australian, or New Zealand English, limiting immediate cross-linguistic generalization.
 
 ## Related
 

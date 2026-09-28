@@ -8,11 +8,12 @@ authors:
     - Yan-Ming Lin
     - Yuan-Fu Liao
 year: 2026
+doi: 10.21437/Interspeech.2026-2096
 isca_url: https://www.isca-archive.org/interspeech_2026/cho26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cho26b_interspeech.pdf
 session: Translation
-topics: []
+topics: [asr, speech-translation, self-supervised]
 code:
-    url: ""
+    url: https://github.com/Speech-AI-Research-Center/taigispeech2chinese-subtitlen
     license: ""
 open_to_collaboration: false

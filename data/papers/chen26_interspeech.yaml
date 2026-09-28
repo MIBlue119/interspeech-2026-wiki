@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-42
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26_interspeech.pdf
 session: Multilingual Speech 2
-topics: [speech-translation, paralinguistics]
+topics: [speech-translation, self-supervised, multilingual]
 code:
-    url: ""
+    url: https://47zzz.github.io/MoVE/
     license: ""
 open_to_collaboration: false

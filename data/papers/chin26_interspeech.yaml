@@ -5,10 +5,11 @@ authors:
     - Laurence Bruggeman
     - Mark Antoniou
 year: 2026
+doi: 10.21437/Interspeech.2026-2950
 isca_url: https://www.isca-archive.org/interspeech_2026/chin26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chin26_interspeech.pdf
 session: Brain Studies and Speech
-topics: []
+topics: [paralinguistics, evaluation, phonetics]
 code:
     url: ""
     license: ""

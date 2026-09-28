@@ -6,10 +6,11 @@ authors:
     - Gerard Docherty
     - Catherine Travis
 year: 2026
+doi: 10.21437/Interspeech.2026-2861
 isca_url: https://www.isca-archive.org/interspeech_2026/gnevsheva26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gnevsheva26_interspeech.pdf
 session: Diphthongs and Monophthongs
-topics: []
+topics: [phonetics, evaluation, dataset]
 code:
     url: ""
     license: ""

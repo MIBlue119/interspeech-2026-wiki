@@ -1,34 +1,37 @@
 ---
 id: filippakopoulos26_interspeech
-category: emotion-recognition
+category: spoken-language-understanding
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1299
+pdf: https://www.isca-archive.org/interspeech_2026/filippakopoulos26_interspeech.pdf
 ---
 
 # Segregate, Refine, Integrate: Decomposing Multimodal Fusion for Sentiment Analysis
 
-**TL;DR** — SeRIn splits multimodal sentiment fusion into isolated per-modality refinement pathways plus a deferred cross-modal integration step, achieving state-of-the-art results on CH-SIMS and CMU-MOSEI.
+[PDF](https://www.isca-archive.org/interspeech_2026/filippakopoulos26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/filippakopoulos26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1299)
+
+**TL;DR** — SeRIn is a multimodal language model fusion scheme for sentiment analysis that structurally decouples modality-specific refinement from cross-modal integration, achieving state-of-the-art results on CH-SIMS and CMU-MOSEI across all metrics.
 
 ## Problem
 
-Multimodal fusion has to both refine each modality's own signal and model cross-modal interactions, but these two goals are usually entangled in a single fused operation, which the authors argue limits performance.
+Multimodal sentiment analysis requires simultaneously refining modality-specific signals and modeling cross-modal interactions, but standard tensor and attention methods entangle these objectives within a single fusion operation. While disentanglement approaches and auxiliary objectives encourage modality-specific representations, they place no structural restriction on multimodal fusion during the forward pass, meaning specialization relies on learned penalties rather than architectural constraints.
 
 ## Method
 
-SeRIn (Segregate, Refine, Integrate) architecturally separates the two goals: modality-specific representations evolve along isolated pathways refined against their own encoder context, a dedicated cross-modal pathway accumulates joint evolution without contaminating the unimodal streams, and full cross-modal interaction is deferred to a final prediction step.
+The method introduces SeRIn (Segregate, Refine, Integrate), built on a frozen pretrained language model augmented with learnable fusion tokens. It segregates fusion tokens into disjoint modality-specific pathways (audio, visual, and an audiovisual pathway that reads but never writes back to unimodal streams) using parameter-free modality-constrained attention masks. It refines each pathway against its encoder context via internally gated cross-attention (IGCA) and self-attention (IGSA) modules using content-dependent element-wise gates. Full cross-modal integration is deferred entirely to a final prediction step using a standard late-fusion mechanism. Interaction topology is treated as a design axis while keeping fusion depth and token count fixed to prior DeepMLF optima.
 
 ## Results
 
-Ablations confirm the structured separation itself — not just added model capacity — drives the gains, and gate analysis under visual corruption shows emergent modality reweighting without explicit supervision; SeRIn achieves state-of-the-art results and improves all metrics on both the CH-SIMS and CMU-MOSEI benchmarks.
+SeRIn is evaluated on the CH-SIMS and CMU-MOSEI benchmarks, improving over all baseline metrics on both datasets. Ablations demonstrate that performance gains are driven by the proposed structural interaction topology rather than added parameter capacity, as capacity-matched models lacking these architectural constraints fall below DeepMLF performance. Gate analysis under visual corruption further demonstrates emergent, unsupervised modality reweighting.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/SeRIn-MSA
 
 ## Applications
 
-Multimodal sentiment and affect analysis systems that combine speech, text, and vision, including robustness to degraded or missing modalities.
+Engineers and researchers building affective computing systems, conversational agents, and mental health assessment tools that require robust multimodal sentiment analysis.
 
 ## Related
 

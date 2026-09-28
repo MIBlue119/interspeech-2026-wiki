@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-1097
 isca_url: https://www.isca-archive.org/interspeech_2026/guo26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/guo26b_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
-topics: [asr]
+topics: [asr, speech-llm, self-supervised]
 code:
-    url: ""
+    url: https://github.com/Guo0911/COALA
     license: ""
 open_to_collaboration: false

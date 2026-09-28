@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-1437
 isca_url: https://www.isca-archive.org/interspeech_2026/diwan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/diwan26_interspeech.pdf
 session: Multimodal Emotion Recognition
-topics: [tts, evaluation]
+topics: [speech-llm, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/ajd12342/paraspeechclap
     license: ""
 open_to_collaboration: false

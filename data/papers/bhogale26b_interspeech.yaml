@@ -12,8 +12,8 @@ doi: 10.21437/Interspeech.2026-3348
 isca_url: https://www.isca-archive.org/interspeech_2026/bhogale26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bhogale26b_interspeech.pdf
 session: Multilingual & Low-Resource ASR
-topics: [asr, evaluation, multilingual, dataset]
+topics: [asr, multilingual, evaluation]
 code:
-    url: ""
+    url: https://github.com/AI4Bharat/Vimarsha
     license: ""
 open_to_collaboration: false

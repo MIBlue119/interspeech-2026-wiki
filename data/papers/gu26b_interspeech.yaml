@@ -12,8 +12,8 @@ doi: 10.21437/Interspeech.2026-1303
 isca_url: https://www.isca-archive.org/interspeech_2026/gu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gu26b_interspeech.pdf
 session: Prosody, Pronunciation and Specialized Speech Processing
-topics: [prosody, dataset]
+topics: [asr, tts, prosody]
 code:
-    url: ""
+    url: https://github.com/Guhujian/ProWhistress.git
     license: ""
 open_to_collaboration: false

@@ -1,26 +1,29 @@
 ---
 id: alali26_interspeech
-category: privacy
+category: asr
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-327
+pdf: https://www.isca-archive.org/interspeech_2026/alali26_interspeech.pdf
 ---
 
 # Personal Attribute Leakage in Federated Speech Models
 
-**TL;DR** — Federated ASR training still leaks who a speaker is: a weight-only attack can recover gender, age, accent, and other sensitive traits from model updates without ever touching raw audio.
+[PDF](https://www.isca-archive.org/interspeech_2026/alali26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/alali26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-327)
+
+**TL;DR** — This paper demonstrates that personal attributes like accent and age can be reliably inferred from weight updates in federated automatic speech recognition models, achieving up to 100% attack success.
 
 ## Problem
 
-Federated learning trains ASR models without centralizing speech, but it is unclear whether the shared model updates themselves expose sensitive speaker attributes.
+Federated learning prevents raw audio transmission to protect user privacy, but model weight updates can still leak sensitive data. In speech processing, the extent to which private demographic, clinical, and emotional attributes can be extracted directly from weight differentials without raw audio remains largely unexplored. This vulnerability poses serious profiling and surveillance risks that violate privacy regulations like GDPR and HIPAA.
 
 ## Method
 
-A non-parametric white-box attack that operates purely on weight differentials from a passive participant, tested against three ASR backbones (Wav2Vec2, HuBERT, Whisper) to infer demographic and clinical attributes such as gender, age, accent, emotion, and speech impairment.
+The authors propose a non-parametric white-box attribute inference attack under a passive server-side threat model. Given global and locally fine-tuned model weights (based on single-utterance personalization), the attacker extracts summary statistics—mean, standard deviation, minimum, and maximum—from each parameter tensor to construct a fixed-length feature vector. Shadow models trained on public datasets provide class centroids, and unseen target models are classified by computing normalized Euclidean distances to these centroids. The attack is evaluated across three base ASR architectures: Wav2Vec2-Base (95M parameters), HuBERT-Large (300M parameters), and Whisper-Small (244M parameters).
 
 ## Results
 
-The attack reliably infers several attributes, most consistently accent across all three models, and shows that traits underrepresented or missing from pretraining data are the most vulnerable to inference.
+Evaluated across five attributes using datasets including the Speech Accent Archive, TORGO, and RAVDESS. Accent and age exhibited severe leakage, with Wav2Vec2 achieving 100% accuracy for both. Gender was harder to predict, yielding near-chance accuracies between 46% and 64%. Whisper-Small consistently leaked attributes at over 70% accuracy across most categories (e.g., 81% for dysarthria, 83% for calm vs. angry emotion). Fine-tuning models on a diverse range of accents sharply dropped multi-class accent attack success below 20%, proving that underrepresentation in pre-training data drives vulnerability.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Privacy auditing for federated ASR deployments, and a benchmark threat model for teams evaluating whether their aggregation protocol needs stronger defenses before rolling out on-device speech training.
+Engineers and security auditors building privacy-preserving federated speech recognition systems can use these findings to evaluate and mitigate personal attribute leakage in distributed training deployments.
+
+## Limitations
+
+The attack assumes the adversary has access to public datasets to simulate shadow models with known attributes for crafting class centroids.
 
 ## Related
 

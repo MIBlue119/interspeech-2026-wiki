@@ -4,10 +4,11 @@ authors:
     - Dániel Halmai
     - Gábor Gosztolya
 year: 2026
+doi: 10.21437/Interspeech.2026-2143
 isca_url: https://www.isca-archive.org/interspeech_2026/halmai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/halmai26_interspeech.pdf
 session: Speech Emotion Recognition and Representation 3
-topics: []
+topics: [speech-emotion-recognition, self-supervised, multilingual]
 code:
     url: ""
     license: ""

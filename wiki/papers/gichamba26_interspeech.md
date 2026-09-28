@@ -1,34 +1,41 @@
 ---
 id: gichamba26_interspeech
-category: tts
+category: speech-coding
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3493
+pdf: https://www.isca-archive.org/interspeech_2026/gichamba26_interspeech.pdf
 ---
 
 # Probing Low Frame Rate Degradation in Neural Audio Codecs
 
-**TL;DR** — The quality cliff seen in ultra-low-frame-rate neural audio codecs turns out to be a training-configuration artifact, not a fundamental barrier — fixing clip-duration-induced token starvation lets codecs degrade smoothly down to 1.6 Hz.
+[PDF](https://www.isca-archive.org/interspeech_2026/gichamba26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gichamba26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3493)
+
+**TL;DR** — An investigation into neural audio codec degradation at ultra-low frame rates reveals that a severe quality cliff is caused by training sequence length misconfigurations rather than intrinsic phonemic collisions or codebook saturation.
 
 ## Problem
 
-Low frame-rate neural audio codecs are attractive for autoregressive speech synthesis since generation cost scales with sequence length, but a previously reported quality cliff around 6.25 Hz is not well understood.
+Neural audio codecs operating at low frame rates are highly desirable for cutting the generation costs of autoregressive speech synthesis systems, but prior work observed a catastrophic quality cliff around 6.25 Hz. Researchers previously blamed this drop on phonemic collisions or codebook saturation, which threatened to impose a hard lower bound on codec bitrates. Understanding the true mechanism is crucial for engineers building efficient, low-latency speech language models.
 
 ## Method
 
-The authors run a controlled frame-rate ablation, reproducing the reported quality cliff and testing candidate explanations (phonemic collisions, codebook saturation), then identify that fixed clip duration during training yields too few tokens at low frame rates, starving the decoder of inter-token context.
+The study conducts a controlled frame rate ablation of the 16 kHz Descript Audio Codec (DAC) architecture across frame rates ranging from 1.6 Hz to 100 Hz, holding quantization levels (nq = 12) and vocabulary size (|V| = 1024) constant. Models are trained on LibriSpeech train-clean-100 for 100,000 iterations using an Adam optimizer. The investigation tests whether standard training configurations—specifically keeping training clip duration fixed rather than matching token sequence length—starve the decoder of inter-token context at low frame rates.
 
 ## Results
 
-Once the training configuration is corrected, word error rate degrades smoothly with phonemic load down to 3.1 Hz and even 1.6 Hz, showing the cliff was an artifact rather than a fundamental limit.
+Under standard fixed clip duration training, reducing frame rates past 12.5 Hz triggers a dramatic failure at 6.25 Hz, where Word Error Rate (WER) spikes to 107.4% and Short-Time Objective Intelligibility (STOI) plummets to 0.46. However, when training sequence length is controlled to supply a consistent number of tokens per clip, the 6.25 Hz model achieves a much lower WER of 15.37%, and intelligible speech persists smoothly down to 3.1 Hz and 1.6 Hz (192 bps). Evaluations rule out phonemic collision and codebook saturation as root causes, demonstrating that codebook utilization remains above 98.7% across all frame rates.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://wakandaai.github.io/low-frame-rate-codec/
 
 ## Applications
 
-Informs codec and TTS system designers pursuing more efficient, lower-frame-rate audio tokenization for faster autoregressive speech generation.
+Speech and ML engineers developing low-latency autoregressive text-to-speech, spoken dialogue systems, and speech language models can leverage these findings to train robust ultra-low bitrate tokenizers.
+
+## Limitations
+
+The evaluation focuses primarily on read English speech via LibriSpeech, and reconstructed audio quality at extreme low frame rates still reflects inherent representational capacity limits.
 
 ## Related
 

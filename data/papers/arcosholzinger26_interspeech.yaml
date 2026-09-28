@@ -6,10 +6,11 @@ authors:
     - James Bailey
     - Sanjeev Khudanpur
 year: 2026
+doi: 10.21437/Interspeech.2026-2719
 isca_url: https://www.isca-archive.org/interspeech_2026/arcosholzinger26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/arcosholzinger26_interspeech.pdf
 session: Speech Representations and Alignment
-topics: []
+topics: [self-supervised, asr, evaluation]
 code:
     url: ""
     license: ""

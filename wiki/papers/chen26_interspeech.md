@@ -2,33 +2,40 @@
 id: chen26_interspeech
 category: speech-translation
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-42
+pdf: https://www.isca-archive.org/interspeech_2026/chen26_interspeech.pdf
 ---
 
 # MoVE: Translating Laughter and Tears via Mixture of Vocalization Experts in Speech-to-Speech Translation
 
-**TL;DR** — A mixture-of-LoRA-experts architecture that lets speech-to-speech translation preserve laughter, crying, and other emotional vocalizations that current systems typically strip out.
+[PDF](https://www.isca-archive.org/interspeech_2026/chen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-42)
+
+**TL;DR** — MoVE is a Mixture-of-LoRA-Experts speech-to-speech translation framework that transfers emotional nuances and non-verbal vocalizations like laughter and crying, reproducing target non-verbal vocalizations in 76% of cases.
 
 ## Problem
 
-Speech-to-speech translation systems translate meaning accurately but discard non-verbal vocalizations like laughter and crying, losing pragmatic and emotional intent that matters for real-world use.
+Current speech-to-speech translation systems achieve strong semantic accuracy but strip away non-verbal vocalizations and emotional prosody, leading to pragmatic communication failures. This limitation stems from a scarcity of high-quality expressive training corpora and the extreme difficulty of training end-to-end models across ASR, machine translation, and TTS without inter-emotional interference.
 
 ## Method
 
-The authors build a synthesis pipeline to generate scalable expressive training data, introduce MoVE, a mixture of expressive-specialized LoRA adapters with a soft-weighting router that blends experts for hybrid expressive states, and show pretrained AudioLLMs need only about 30 minutes of curated data to adapt well.
+The authors propose a scalable expressive data synthesis pipeline using IndexTTS2, attribute decoupling, and filtering to build a 1000-hour English-Chinese expressive corpus. Building on a pretrained Kimi-Audio AudioLLM and a fine-tuned expressive detokenizer, they introduce MoVE, which features five parallel LoRA adapters specialized in Happy, Sad, Angry, Laughing, and Crying manifolds. A dynamic soft-weighting router blends these experts at the token level without explicit emotion supervision. Training uses a two-stage strategy: independent expert specialization for 2 epochs, followed by end-to-end router optimization for 1 epoch.
 
 ## Results
 
-On English-Chinese speech-to-speech translation, MoVE reproduces target non-verbal vocalizations in 76% of cases and earns the highest human-rated naturalness and emotional fidelity, versus at most 14% vocalization preservation for existing systems.
+Evaluated on English-Chinese translation tasks, MoVE achieves an ASR-BLEU of 32.5 (en->zh) and 21.4 (zh->en), an Arousal-Valence Similarity of 0.53, a Naturalness MOS of 3.85, an Emotion SMOS of 3.79, and a non-verbal match accuracy of 76%. In A/B preference tests, MoVE wins over a single-LoRA baseline 60.0% of the time against 17.3% losses. Data efficiency experiments reveal that fine-tuning with as little as 30 minutes of data preserves 95% of emotional fidelity, whereas training from scratch collapses entirely.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://47zzz.github.io/MoVE/
 
 ## Applications
 
-Emotionally faithful speech-to-speech translation and dubbing, where laughter, crying, and similar cues carry meaning that plain semantic translation would erase.
+Engineers building cross-language speech-to-speech translation systems, voice assistants, and immersive communication tools that require faithful preservation of emotional state and non-verbal reactions.
+
+## Limitations
+
+The current scope focuses primarily on English-Chinese translation and five core affective/non-verbal states due to base model and synthesis pipeline constraints.
 
 ## Related
 

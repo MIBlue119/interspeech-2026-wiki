@@ -3,11 +3,12 @@ title: Leveraging Audio-LLMs to Filter Speech-to-Speech Training Data
 authors:
     - Qixu Chen
 year: 2026
+doi: 10.21437/Interspeech.2026-1148
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26l_interspeech.pdf
 session: Multilingual Speech 2
-topics: []
+topics: [speech-translation, self-supervised, speech-llm]
 code:
-    url: ""
+    url: https://github.com/chin-alt/S2S-Filtering
     license: ""
 open_to_collaboration: false

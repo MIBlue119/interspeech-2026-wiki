@@ -5,11 +5,12 @@ authors:
     - Mostafa Shahin
     - Beena Ahmed
 year: 2026
+doi: 10.21437/Interspeech.2026-869
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26g_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
-topics: []
+topics: [asr, paralinguistics, self-supervised]
 code:
-    url: ""
+    url: https://github.com/Evanchan1923/MDD_SpeechAttribute
     license: ""
 open_to_collaboration: false

@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-1542
 isca_url: https://www.isca-archive.org/interspeech_2026/daoxuanquang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/daoxuanquang26_interspeech.pdf
 session: Long-form Audio & New Attention Approaches
-topics: [evaluation, spoken-language-understanding]
+topics: [evaluation, spoken-language-understanding, multimodal]
 code:
-    url: ""
+    url: https://github.com/cssi87m/M-LAMA
     license: ""
 open_to_collaboration: false

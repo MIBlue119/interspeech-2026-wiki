@@ -7,11 +7,12 @@ authors:
     - Marcin Witkowski
     - Konrad Kowalczyk
 year: 2026
+doi: 10.21437/Interspeech.2026-337
 isca_url: https://www.isca-archive.org/interspeech_2026/baranski26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/baranski26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
-topics: []
+topics: [asr, evaluation, dataset]
 code:
-    url: ""
+    url: https://github.com/DSP-AGH/HALAS/tree/main
     license: ""
 open_to_collaboration: false

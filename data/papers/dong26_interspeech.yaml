@@ -5,11 +5,12 @@ authors:
     - Yu-Xiang Lin
     - Hung-yi Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-514
 isca_url: https://www.isca-archive.org/interspeech_2026/dong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dong26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
-topics: []
+topics: [self-supervised, evaluation, speech-llm]
 code:
-    url: ""
+    url: https://github.com/snooow1029/ALM_MIA
     license: ""
 open_to_collaboration: false

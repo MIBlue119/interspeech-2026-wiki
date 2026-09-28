@@ -2,25 +2,28 @@
 id: gotz26b_interspeech
 category: dataset
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.html
+pdf: https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.pdf
 ---
 
 # Scalable Audio Scene Generation with the Treble SDK
 
-**TL;DR** — A demo of the Treble SDK's Scene Generator shows an interactive and bulk-generation workflow for building realistic, room-acoustics-based audio scenes for dataset creation and rapid inspection.
+[PDF](https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.html)
+
+**TL;DR** — The paper introduces the Treble SDK Scene Generator, a Python framework that uses physically grounded room-acoustic simulations and lightweight lazy scene recipes to construct, store, and bulk-render realistic multi-speaker and device-aware audio datasets.
 
 ## Problem
 
-Building realistic, richly annotated audio scenes for training and evaluating speech and audio systems — combining room acoustics, source material, and speaker/listener placement — is normally a manual, slow process.
+Collecting real-world multi-speaker recordings that account for varying room geometries, material properties, listener orientations, and background noises is expensive, rigid, and hard to scale. While acoustic simulation helps, developers typically need to write extensive custom scripting to bridge isolated room impulse responses (RIRs), clean source tracks, metadata alignment, and audio rendering. This friction hinders the reproducible creation of complex datasets needed for training and evaluating modern robust speech and audio systems.
 
 ## Method
 
-The Scene Generator represents a scene as a lightweight recipe of tracks, source-to-impulse-response mappings, listener configuration, metadata, and targets, rendering audio only on demand and supporting both controlled manual design and automated bulk generation from compact rules.
+The Treble SDK Scene Generator implements an interactive Python workflow using a lazy representation where scenes are initially stored as lightweight recipes containing timed audio blocks, RIR mappings, listener configurations, and target definitions without performing any convolution. Inputs combine pre-computed IR collections, clean audio sources from datasets like Hugging Face, and user-defined conversational or device-level rules. The system supports both manual scene composition with timeline and 3D room visualizations and automated bulk generation that sweeps receiver positions and source arrangements to yield a SceneCollection. Audio convolution, device rendering, and mixture generation are deferred and executed on demand.
 
 ## Results
 
-As a system/demo paper it reports a working interactive workflow rather than a benchmark result, letting users build, visualize (as a timeline and 3D room view), render, and inspect multi-speaker conversational scenes with background noise.
+The demonstration highlights the framework's capability to load IR collections, parse Hugging Face speech corpora and HVAC noise tracks, and construct single or bulk multi-speaker conversational scenes. It successfully visualizes timelines and 3D room views, manages dummy-head listener orientations, and outputs JSON-serialisable metadata alongside aligned audio mixtures and separated tracks. Quantitative performance metrics or model evaluations are not the focus of this system demonstration.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Rapid, scalable synthetic dataset generation for training and testing speech recognition, diarization, and enhancement systems under realistic acoustic conditions.
+Speech and machine learning engineers developing spatial audio, speech enhancement, multi-speaker separation, or far-field speech recognition systems can use this tool to build tailored, metadata-rich training and evaluation datasets.
 
 ## Related
 

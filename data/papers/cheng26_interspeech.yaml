@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-158
 isca_url: https://www.isca-archive.org/interspeech_2026/cheng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cheng26_interspeech.pdf
 session: 'Speech Deepfake Detection: Robustness, Generalization, Attribution'
-topics: [speaker-verification, evaluation]
+topics: [audio-deepfake, evaluation, self-supervised]
 code:
     url: ""
     license: ""

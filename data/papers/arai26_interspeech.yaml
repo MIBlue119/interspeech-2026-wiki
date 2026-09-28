@@ -3,10 +3,11 @@ title: Articulatory Dynamics using Physical Vocal-tract Models
 authors:
     - Takayuki Arai
 year: 2026
+doi: 10.21437/Interspeech.2026-840
 isca_url: https://www.isca-archive.org/interspeech_2026/arai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/arai26_interspeech.pdf
 session: Speech Production and Perception 2
-topics: []
+topics: [phonetics, speech-enhancement, evaluation]
 code:
     url: ""
     license: ""

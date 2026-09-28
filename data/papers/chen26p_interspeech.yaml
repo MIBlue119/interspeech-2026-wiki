@@ -7,11 +7,12 @@ authors:
     - Yuanpeng Wang
     - Yuehai Wang
 year: 2026
+doi: 10.21437/Interspeech.2026-1513
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26p_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26p_interspeech.pdf
 session: Flow Matching for Speech Synthesis
-topics: []
+topics: [tts, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://sunny00952.github.io/OTAFlow/
     license: ""
 open_to_collaboration: false

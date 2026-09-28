@@ -6,11 +6,12 @@ authors:
     - Kosmas Kritsis
     - Vassilis Katsouros
 year: 2026
+doi: 10.21437/Interspeech.2026-1371
 isca_url: https://www.isca-archive.org/interspeech_2026/frangiadaki26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/frangiadaki26_interspeech.pdf
 session: Multilingual, Cross-lingual & Low-Resource ASR
-topics: []
+topics: [asr, dataset, low-resource]
 code:
-    url: ""
+    url: https://github.com/athena-ilsp/lyrics-transcription
     license: ""
 open_to_collaboration: false

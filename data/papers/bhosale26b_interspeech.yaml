@@ -10,10 +10,11 @@ authors:
     - Xiatian Zhu
     - Jonathan Le Roux
 year: 2026
+doi: 10.21437/Interspeech.2026-2630
 isca_url: https://www.isca-archive.org/interspeech_2026/bhosale26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bhosale26b_interspeech.pdf
 session: Spatial Audio 2
-topics: []
+topics: [speech-enhancement, dataset, evaluation]
 code:
     url: ""
     license: ""

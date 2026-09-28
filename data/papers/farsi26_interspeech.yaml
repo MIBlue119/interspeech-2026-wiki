@@ -7,11 +7,12 @@ authors:
     - Mohammad Hossein Aref
     - Taher Akbari Saeed
 year: 2026
+doi: 10.21437/Interspeech.2026-1516
 isca_url: https://www.isca-archive.org/interspeech_2026/farsi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/farsi26_interspeech.pdf
 session: Multilingual Speech 1
-topics: []
+topics: [asr, low-resource, multilingual]
 code:
-    url: ""
+    url: https://github.com/Kartalol/Kartalol-azb-asr
     license: ""
 open_to_collaboration: false

@@ -2,33 +2,36 @@
 id: bai26b_interspeech
 category: voice-conversion
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1056
+pdf: https://www.isca-archive.org/interspeech_2026/bai26b_interspeech.pdf
 ---
 
 # Controllable Accent Normalization via Discrete Diffusion
 
-**TL;DR** — A masked discrete-diffusion model that lets users dial accent strength up or down when converting accented speech toward a native target, rather than only offering an all-or-nothing normalization.
+[PDF](https://www.isca-archive.org/interspeech_2026/bai26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bai26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1056)
+
+**TL;DR** — DLM-AN is a controllable accent normalization system utilizing masked discrete diffusion over self-supervised speech tokens, achieving the lowest word error rate among compared systems while providing interpretable accent strength and duration control.
 
 ## Problem
 
-Existing accent normalization systems reduce an accent but give no way to control how much of it is retained, even though use cases like language learning or dubbing need tunable strength.
+Prior accent normalization techniques typically perform an all-or-nothing accent shift without letting users adjust accent strength, which is vital for applications like language learning and dubbing. Furthermore, many existing pipelines rely heavily on text-to-speech synthesized targets or continuous frameworks that lack fine-grained rhythm adjustability and duration control.
 
 ## Method
 
-DLM-AN runs masked discrete diffusion over self-supervised speech tokens; a Common Token Predictor flags tokens that already sound native and reuses more or fewer of them to seed the reverse diffusion, while a flow-matching Duration Ratio Predictor retimes the output to match native rhythm.
+The model extends the LLaDA masked diffusion language model to speech by performing iterative token generation using a bidirectional Transformer without causal masking. An SSL tokenizer (WavLM) extracts discrete speech tokens, which are processed by a Transformer token encoder guided by CTC-based phonemic supervision. A Common Token Predictor (CTP) evaluates token confidence to identify natively pronounced regions, allowing users to selectively reuse high-confidence source tokens for initializing the reverse diffusion process and smoothly control accent strength. Additionally, a flow-matching Duration Ratio Predictor estimates the target-to-source duration ratio to automatically adjust timing and rhythm.
 
 ## Results
 
-On multi-accent English data, DLM-AN reaches the lowest word error rate among compared systems while giving smooth, interpretable control over accent strength and competitive accent reduction.
+Evaluated on multi-accent English datasets, DLM-AN achieves the lowest word error rate (WER) among all compared baseline systems, outperforming prior methods in content preservation. It maintains competitive naturalness and accent reduction performance. Ablations and qualitative tests confirm that threshold-based source token reuse successfully provides smooth, interpretable control over accent retention.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://P1ping.github.io/dlman-demo/
 
 ## Applications
 
-Accent coaching and language-learning feedback tools, and dubbing/localization pipelines that need adjustable rather than binary accent conversion.
+Speech engineers and developers building pronunciation training tools for language learners, authentic multimedia dubbing systems, or personalized text-to-speech platforms.
 
 ## Related
 

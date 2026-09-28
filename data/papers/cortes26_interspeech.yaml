@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-2647
 isca_url: https://www.isca-archive.org/interspeech_2026/cortes26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cortes26_interspeech.pdf
 session: Methods and Data for Vocal Tract Shape and Articulation Analysis
-topics: [dataset, phonetics]
+topics: [dataset, phonetics, evaluation]
 code:
     url: ""
     license: ""

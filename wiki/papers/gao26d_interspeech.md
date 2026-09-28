@@ -1,26 +1,29 @@
 ---
 id: gao26d_interspeech
-category: health
+category: paralinguistics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-535
+pdf: https://www.isca-archive.org/interspeech_2026/gao26d_interspeech.pdf
 ---
 
 # Uncovering Latent Depression Severity for Binary Depression Detection via Advantage-weighting Ranking
 
-**TL;DR** — A multimodal depression-detection model that adds a novel ranking loss to mine hard training pairs and tighten class clusters, improving binary depression classification from audio-visual data.
+[PDF](https://www.isca-archive.org/interspeech_2026/gao26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gao26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-535)
+
+**TL;DR** — This paper proposes a fine-grained multimodal depression detection framework powered by a novel Binary Advantage-weighting Ranking (BAR) loss to resolve feature overlap, achieving an F1-score of 77.01 on LMVD and 77.66 on D-vlog.
 
 ## Problem
 
-Audio-visual depression detection struggles because feature distributions for depressed and non-depressed individuals overlap, making it hard to learn a robust decision boundary.
+Automatic depression detection using in-the-wild video logs faces challenges due to subtle, ambiguous boundaries between depressed and non-depressed behaviors and heavily overlapping acoustic-visual feature distributions. Furthermore, standard pointwise training objectives like Binary Cross-Entropy treat classes independently, ignoring the continuous, latent ordinal nature of depression severity and resulting in sub-optimal decision boundaries.
 
 ## Method
 
-The framework fuses modalities through a temporal encoder and mutual transformer, then applies a Binary Advantage-weighting Ranking Loss combining Advantage-weighted Separation (which mines and dynamically weights hard training pairs via a pairwise prediction-difference matrix) with Advantage-weighted Compactness (which pulls features toward their class centers).
+The architecture comprises a dual-stream temporal encoder (1D convolutions and Seq-TDNN) for audio and video modalities, followed by a Mutual Transformer for bidirectional cross-modal attention and joint self-attention. The core technical contribution is the Binary Advantage-weighting Ranking (BAR) Loss, which combines an advantage-weighted separation term (mining hard pairs via a dynamic prediction difference matrix), an advantage-weighted compactness term (minimizing intra-class variance), and distribution regularization anchors to maintain a balanced sigmoid output space. The model also applies a dynamic thresholding strategy via grid search on validation F1 scores to calibrate the final decision boundary.
 
 ## Results
 
-On the D-vlog and LMVD datasets, the model reconstructs a latent ordinal severity structure by prioritizing hard pairs and achieves state-of-the-art binary depression detection performance.
+Evaluated on two wild-collected vlog datasets, D-vlog (961 vlogs, 816 speakers) and LMVD (1,823 samples, 1,475 participants). On LMVD, the full model achieves state-of-the-art performance with 76.44% accuracy, 76.50% precision, 79.12% recall, and 77.01% F1, outperforming strong baselines like DepMamba. On D-vlog, it reaches 71.23% accuracy, 70.67% precision, 86.18% recall, and 77.66% F1. Ablation studies demonstrate that removing the mutual transformer causes a performance drop of 5.91 on LMVD, while omitting advantage-weighting reduces D-vlog F1 by 6.21.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Automated mental-health screening tools that flag depression risk from audio-visual recordings, e.g. for telehealth triage.
+Speech and machine learning engineers working on non-invasive mental health screening, affective computing, and multimodal behavioral analysis systems.
+
+## Limitations
+
+The current evaluation focuses exclusively on in-the-wild social media vlog datasets, requiring future validation on clinical datasets like DAIC-WoZ to test cross-domain robustness.
 
 ## Related
 

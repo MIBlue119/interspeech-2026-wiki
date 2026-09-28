@@ -8,10 +8,11 @@ authors:
     - Yongjin Zhou
     - Shugong Xu
 year: 2026
+doi: 10.21437/Interspeech.2026-228
 isca_url: https://www.isca-archive.org/interspeech_2026/ai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ai26_interspeech.pdf
 session: Speaker Recognition and Verification
-topics: []
+topics: [speaker-verification, keyword-spotting, dataset]
 code:
     url: ""
     license: ""

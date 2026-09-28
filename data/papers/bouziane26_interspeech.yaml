@@ -5,11 +5,12 @@ authors:
     - Salima Mdhaffar
     - Yannick Estève
 year: 2026
+doi: 10.21437/Interspeech.2026-3350
 isca_url: https://www.isca-archive.org/interspeech_2026/bouziane26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bouziane26_interspeech.pdf
 session: Post-Training of Speech Foundation Models
-topics: []
+topics: [self-supervised, multilingual, speaker-verification]
 code:
-    url: ""
+    url: https://github.com/speechbrain/speechbrain/tree/develop/recipes/CommonVoice/SENSE
     license: ""
 open_to_collaboration: false

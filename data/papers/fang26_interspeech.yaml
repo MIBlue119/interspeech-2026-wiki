@@ -5,10 +5,11 @@ authors:
     - Shumei Tao
     - Liang He
 year: 2026
+doi: 10.21437/Interspeech.2026-11
 isca_url: https://www.isca-archive.org/interspeech_2026/fang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/fang26_interspeech.pdf
 session: 'Speaker Verification: Architectures, Losses, and LLMs'
-topics: []
+topics: [speaker-verification, dataset, evaluation]
 code:
     url: ""
     license: ""

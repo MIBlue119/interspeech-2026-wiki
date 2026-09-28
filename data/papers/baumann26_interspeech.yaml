@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-3378
 isca_url: https://www.isca-archive.org/interspeech_2026/baumann26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/baumann26_interspeech.pdf
 session: Prosody, Pronunciation and Specialized Speech Processing
-topics: [phonetics]
+topics: [asr, health, phonetics]
 code:
     url: ""
     license: ""

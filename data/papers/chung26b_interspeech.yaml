@@ -7,7 +7,7 @@ doi: 10.21437/Interspeech.2026-2770
 isca_url: https://www.isca-archive.org/interspeech_2026/chung26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chung26b_interspeech.pdf
 session: Speech Emotion Recognition and Representation 3
-topics: [emotion-recognition]
+topics: [emotion-recognition, speech-enhancement, evaluation]
 code:
     url: ""
     license: ""

@@ -9,11 +9,12 @@ authors:
     - Katie Nguyen
     - Taylor Tragemann
 year: 2026
+doi: 10.21437/Interspeech.2026-2047
 isca_url: https://www.isca-archive.org/interspeech_2026/beck26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/beck26_interspeech.pdf
 session: Long-form Audio & New Attention Approaches
-topics: []
+topics: [asr, multilingual, dataset]
 code:
-    url: ""
+    url: https://huggingface.co/datasets/apptek-com
     license: ""
 open_to_collaboration: false

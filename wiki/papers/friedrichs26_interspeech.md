@@ -2,25 +2,28 @@
 id: friedrichs26_interspeech
 category: phonetics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1883
+pdf: https://www.isca-archive.org/interspeech_2026/friedrichs26_interspeech.pdf
 ---
 
 # Acoustic Pharyngometry as an Auditable Anchor for Cross-Speaker EMA Normalization
 
-**TL;DR** — Combines palate-length scaling with a pharyngometry-derived vocal-tract landmark to normalize electromagnetic articulography data across speakers, reducing geometric variability but not fully removing speaker identity from the signal.
+[PDF](https://www.isca-archive.org/interspeech_2026/friedrichs26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/friedrichs26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1883)
+
+**TL;DR** — This paper evaluates an auditable speaker normalization technique for electromagnetic articulography (EMA) that combines palate-length scaling with a pharyngometry-anchored anterior-posterior warp, achieving a 16.5% total reduction in between-speaker trajectory dispersion.
 
 ## Problem
 
-Comparing tongue-movement (EMA) data across speakers is confounded by differences in vocal-tract shape, and existing normalization approaches are hard to audit or validate.
+Cross-speaker analyses using electromagnetic articulography (EMA) are severely confounded by anatomical differences in vocal-tract morphology. Standard head corrections and palate-based reference systems reduce within-speaker variance but fail to eliminate morphology-driven spatial offsets across speakers. This hinders robust cross-speaker geometric comparisons and the development of speaker-independent articulatory-to-acoustic mappings.
 
 ## Method
 
-The authors anchor a low-parameter anterior-posterior warp using a pharyngometry-derived oral landmark combined with palate-length scaling, then test it on German diadochokinetic sequences, measuring both interspeaker trajectory dispersion and leave-one-speaker-out formant prediction.
+The authors introduce a palate-referenced normalization approach combining uniform palate-length scaling with a low-parameter, piecewise anterior-posterior (A-P) warp anchored by acoustic pharyngometry. Acoustic pharyngometry area functions are processed via a Savitzky-Golay filter to extract an oral-cavity expansion peak and an oral-pharyngeal junction minimum, yielding a unitless internal anchor proportion. Using a German multimodal dataset of 14 speakers with synchronous EMA and pharyngometry, the method maps individual oral landmarks to a canonical template with fixed endpoints. Evaluations utilize leave-one-speaker-out (LOSO) L2-regularized ridge regression for formant prediction and multinomial logistic regression for speaker identification.
 
 ## Results
 
-Interspeaker dispersion of tongue trajectories drops from 31.28mm to 26.13mm (16.5% total, mostly from scaling alone), but the normalization does not improve F1/F2 prediction from EMA, and speaker identity remains detectable after removing static positional offsets.
+Across 14 speakers and diadochokinetic (DDK) sequences, uniform scaling reduced mean between-speaker 6D tongue dispersion from 31.28 mm to 26.36 mm, while adding the pharyngometry-anchored warp further decreased it slightly to 26.13 mm (a total reduction of 16.5%). However, leave-one-speaker-out ridge regression failed to improve F1 and F2 formant predictions from EMA trajectories after applying the warp compared to scale-only normalization. Furthermore, speaker identification accuracy from absolute position trajectories remained high and actually increased from 75.1% to 90.2% after normalization, but plummeted to chance levels after mean-centering or using velocity-only features.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Improves geometric comparability of articulatory (EMA) data across speakers for phonetics research, though it does not by itself yield speaker-independent articulatory-to-acoustic mapping.
+Phoneticians and speech scientists studying cross-speaker articulatory kinematics, speech production mechanisms, and articulatory-acoustic relationships.
+
+## Limitations
+
+The 1D A-P warp fails to capture vertical tongue shaping, palate curvature, or pharyngeal configurations critical for acoustic mapping, leaving persistent speaker-specific structures.
 
 ## Related
 

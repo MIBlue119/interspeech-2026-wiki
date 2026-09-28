@@ -6,10 +6,11 @@ authors:
     - Roeland van Hout
     - Helmer Strik
 year: 2026
+doi: 10.21437/Interspeech.2026-1991
 isca_url: https://www.isca-archive.org/interspeech_2026/dong26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dong26c_interspeech.pdf
 session: Paralinguistics
-topics: []
+topics: [paralinguistics, speech-llm, evaluation]
 code:
     url: ""
     license: ""

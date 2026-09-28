@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-1386
 isca_url: https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.pdf
 session: Acoustic Event Detection 1
-topics: [phonetics, asr]
+topics: [phonetics, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://mateocamara.github.io/acoustic-landmarks/
     license: ""
 open_to_collaboration: false

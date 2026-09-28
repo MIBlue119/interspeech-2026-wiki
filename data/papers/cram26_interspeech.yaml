@@ -5,10 +5,11 @@ authors:
     - John McGahay
     - Megha Sundara
 year: 2026
+doi: 10.21437/Interspeech.2026-3107
 isca_url: https://www.isca-archive.org/interspeech_2026/cram26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cram26_interspeech.pdf
 session: Speech Production and Perception 2
-topics: []
+topics: [phonetics, low-resource, evaluation]
 code:
     url: ""
     license: ""

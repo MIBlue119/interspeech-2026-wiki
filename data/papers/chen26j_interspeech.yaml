@@ -7,11 +7,12 @@ authors:
     - Peilin Li
     - Xingyu Yang
 year: 2026
+doi: 10.21437/Interspeech.2026-1086
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26j_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
-topics: []
+topics: [tts, speech-enhancement, voice-conversion]
 code:
-    url: ""
+    url: https://github.com/pymaster17/Spiking-Vocos
     license: ""
 open_to_collaboration: false

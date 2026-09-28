@@ -15,10 +15,11 @@ authors:
     - Yuanhao Yu
     - Irina Kezele
 year: 2026
+doi: 10.21437/Interspeech.2026-224
 isca_url: https://www.isca-archive.org/interspeech_2026/fong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/fong26_interspeech.pdf
 session: Spatial Audio 1
-topics: []
+topics: [keyword-spotting, dataset, evaluation]
 code:
     url: ""
     license: ""

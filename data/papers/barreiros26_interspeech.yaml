@@ -9,7 +9,7 @@ year: 2026
 doi: 10.21437/Interspeech.2026-1444
 isca_url: https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.pdf
-topics: [keyword-spotting, asr, contextual-biasing]
+topics: [asr, keyword-spotting, multilingual]
 arxiv: ""
 code:
   url: ""

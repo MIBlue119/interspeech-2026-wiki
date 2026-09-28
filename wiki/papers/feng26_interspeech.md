@@ -1,34 +1,41 @@
 ---
 id: feng26_interspeech
-category: singing-voice
+category: tts
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-137
+pdf: https://www.isca-archive.org/interspeech_2026/feng26_interspeech.pdf
 ---
 
 # MMGenre: Benchmarking Singing Voice Synthesis across Multiple Musical Genres
 
-**TL;DR** — A new multi-genre benchmark reveals that current singing voice synthesis systems produce acoustically similar vocals regardless of target genre, exposing a genre-awareness gap that lightweight fine-tuning can partly close.
+[PDF](https://www.isca-archive.org/interspeech_2026/feng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/feng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-137)
+
+**TL;DR** — MMGenre is a multi-genre singing voice synthesis benchmark that reveals current SVS models suffer from a genre collapse phenomenon, producing pop-biased acoustic outputs across diverse musical styles.
 
 ## Problem
 
-Singing voice synthesis benchmarks are dominated by pop music, so it is unknown how well SVS models generalize across genres, and no standardized framework exists to measure genre-dependent behavior.
+Existing singing voice synthesis benchmarks are heavily biased toward pop music, leaving their ability to generalize across diverse musical genres unexplored. Without systematic evaluation, it remains unclear whether current models genuinely capture genre-specific vocal attributes or simply reproduce surface-level acoustic patterns learned from pop-centric training data.
 
 ## Method
 
-The authors build MMGenre, spanning 10 major genres and 26 subgenres with an automatic pipeline for constructing genre-aligned music scores, and evaluate representative SVS models for genre discrimination and adaptation under both zero-shot and lightweight continued-training conditions.
+The authors introduce MMGenre, a benchmark spanning 10 major genres and 26 subgenres, comprising 3,152 Chinese score-audio segment pairs totaling about 4.36 hours. The construction pipeline uses Suno V4.5 for genre-conditioned music generation, Mel-RoFormer for vocal separation, STARS for phoneme-level pitch and duration score annotation, and MuQ-MuLan for automated consistency filtering. The benchmark is used to evaluate eight representative SVS models across autoregressive and non-autoregressive architectures, including RNN, XiaoiceSing, VISinger, VISinger2, DiffSinger, StyleSinger, TCSinger, and TechSinger. Model evaluation relies on a Gemini 2.5 Pro-based 5-point Genre Consistency Score (GCS-5), alongside pseudo-MOS metrics (SingMOS, SingMOS-Pro, SSQA) and Whisper-based character error rate (CER).
 
 ## Results
 
-Synthesized vocals show weak separability across genres under zero-shot conditions with only marginal gains from zero-shot adaptation, while lightweight genre-specific continued training produces substantial improvement.
+Evaluated on MMGenre, all SVS models achieve high genre alignment only on Pop and closely related genres, while non-Pop genres receive uniformly low alignment scores due to acoustic feature collapse. Inference-time zero-shot strategies like style transfer and technique conditioning yield marginal gains, whereas genre-specific continued training using two hours of AI-generated data boosts the Rock genre GCS-5 score from 1.5 to 4.9. Overall quality metrics show steady progress across models (e.g., DiffSinger achieving a SingMOS of 4.08), but fail to expose the underlying stylistic collapse.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://fengjin1117.github.io/mmgenre-web/
 
 ## Applications
 
-Standardized evaluation and diagnosis tool for building genre-aware singing voice synthesis systems for music production and content creation.
+Speech and ML engineers building expressive singing voice synthesis systems can use MMGenre to evaluate and diagnose genre generalization capabilities.
+
+## Limitations
+
+The benchmark dataset relies on Suno-synthesized singing rather than real human recordings for out-of-pop genres, and the current study focuses on Chinese language song scores.
 
 ## Related
 

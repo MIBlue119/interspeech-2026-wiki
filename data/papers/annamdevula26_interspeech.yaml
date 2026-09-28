@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-1744
 isca_url: https://www.isca-archive.org/interspeech_2026/annamdevula26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/annamdevula26_interspeech.pdf
 session: Controllable and Expressive Speech Synthesis
-topics: [tts, multilingual]
+topics: [tts, speech-llm, multilingual]
 code:
-    url: ""
+    url: https://research.sri-media-analysis.com/interspeech26-cross-accent-tts/
     license: ""
 open_to_collaboration: false

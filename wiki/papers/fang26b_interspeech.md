@@ -2,33 +2,36 @@
 id: fang26b_interspeech
 category: voice-conversion
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1827
+pdf: https://www.isca-archive.org/interspeech_2026/fang26b_interspeech.pdf
 ---
 
 # WhispEar: A Bidirectional Framework for Scaling Whispered Speech Conversion via Pseudo-Parallel Whisper Generation
 
-**TL;DR** — A bidirectional whisper-normal conversion framework generates its own synthetic training pairs from abundant normal speech, sidestepping the scarcity of real parallel whisper data, and ships the largest bilingual whisper-normal corpus to date.
+[PDF](https://www.isca-archive.org/interspeech_2026/fang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1827)
+
+**TL;DR** — WhispEar introduces a bidirectional whispered-to-normal and normal-to-whisper conversion framework utilizing unified semantic representations and zero-shot pseudo-parallel data scaling, outperforming existing baselines across quality, intelligibility, and speaker similarity.
 
 ## Problem
 
-Whisper-to-normal (W2N) speech conversion is difficult because whispered speech lacks vocal-fold vibration and fundamental frequency, and progress is limited by scarce parallel whisper-normal training data.
+Whispered speech lacks vocal fold vibration and periodic excitation, resulting in degraded fundamental frequency and acoustic cues that impair normal speech reconstruction. Existing whisper-to-normal (W2N) methods suffer from severe data scarcity because they rely on very limited parallel corpora, while traditional DSP-based pseudo-whispers exhibit a wide distribution gap. Furthermore, current approaches struggle to maintain speaker timbre and natural prosody.
 
 ## Method
 
-WhispEar builds on unified, speaking-mode-invariant semantic representations shared by whispered and normal speech, training both a W2N and a normal-to-whisper (N2W) model; the N2W model generates zero-shot pseudo-parallel whisper data from abundant normal speech to scale up W2N training, and the authors release a new large bilingual (Chinese-English) whisper-normal parallel corpus.
+The framework is trained in three stages: first, distilling a lightweight semantic tokenizer from a large ASR encoder using RoPE self-attention, FSMN blocks, and FSQ quantization on mixed whispered and normal speech; second, training a shared conditional Flow-Matching Transformer and vocoder (initialized from CosyVoice2) for both W2N and N2W directions; third, training unified tokenizers using real aligned data and roughly 3,000 hours of zero-shot pseudo-parallel whisper data synthesized from massive normal speech corpora. The normal-to-whisper (N2W) module is trained first on real paired data to generate these scalable pseudo-pairs, which then trains the harder W2N direction.
 
 ## Results
 
-Increasing the amount of generated pseudo-parallel data consistently improves W2N performance, and WhispEar outperforms strong baselines overall.
+Evaluated on the English wTIMIT and bilingual wEar (Chinese-English) datasets using UTMOS, DNSMOS, NISQA, F0 Pearson correlation, speaker embedding cosine similarity (SIM), and WER/CER. WhispEar-Scaled achieves superior performance over strong baselines including WESPER, DistillW2N, MaskCycleGAN, and CosyVoice2, reducing English WER to 22.44% (compared to 30.74% unscaled and >36% for baselines) and improving speaker similarity to 0.577. Ablation and scaling experiments demonstrate consistent performance gains as pseudo-parallel training data size increases from 10k to 200k pairs.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://whispear-demo.github.io/
 
 ## Applications
 
-Assistive and accessibility technology converting whispered speech to normal speech, and scalable data augmentation for whisper-speech research.
+Speech engineers and researchers building privacy communication tools, voice restoration systems, or speech-to-speech conversion pipelines.
 
 ## Related
 

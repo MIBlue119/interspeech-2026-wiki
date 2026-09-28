@@ -14,8 +14,8 @@ doi: 10.21437/Interspeech.2026-3015
 isca_url: https://www.isca-archive.org/interspeech_2026/anand26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/anand26_interspeech.pdf
 session: Paralinguistics
-topics: [speech-llm, paralinguistics]
+topics: [speech-llm, paralinguistics, evaluation]
 code:
-    url: ""
+    url: https://nishitanand.github.io/paralinguistic-understanding-llm
     license: ""
 open_to_collaboration: false

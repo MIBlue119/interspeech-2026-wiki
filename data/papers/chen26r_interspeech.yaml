@@ -18,7 +18,7 @@ doi: 10.21437/Interspeech.2026-1683
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.pdf
 session: Explainability for Compliance and Trust in Speech AI
-topics: [emotion-recognition]
+topics: [speech-llm, emotion-recognition, self-supervised]
 code:
     url: ""
     license: ""

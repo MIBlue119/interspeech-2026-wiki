@@ -6,11 +6,12 @@ authors:
     - Cem Subakan
     - Mirco Ravanelli
 year: 2026
+doi: 10.21437/Interspeech.2026-1504
 isca_url: https://www.isca-archive.org/interspeech_2026/bonzi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bonzi26_interspeech.pdf
 session: Spoken Language Understanding
-topics: []
+topics: [speech-llm, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/FrancescoBonzi/SPARE
     license: ""
 open_to_collaboration: false

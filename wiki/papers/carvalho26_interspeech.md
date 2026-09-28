@@ -2,33 +2,40 @@
 id: carvalho26_interspeech
 category: asr
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1969
+pdf: https://www.isca-archive.org/interspeech_2026/carvalho26_interspeech.pdf
 ---
 
 # Exploring the potential and limitations of Model Merging for Multi-Domain Adaptation in ASR
 
-**TL;DR** — A benchmark of 11 model-merging algorithms for combining domain-specialized ASR checkpoints into one model, plus a new merging method that beats full fine-tuning on European Portuguese.
+[PDF](https://www.isca-archive.org/interspeech_2026/carvalho26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/carvalho26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1969)
+
+**TL;DR** — This paper evaluates 11 model merging algorithms for multi-domain ASR adaptation using Whisper Large-v3 and proposes BoostedTSV-M, achieving competitive in-domain accuracy while outperforming joint fine-tuning on out-of-distribution generalisation.
 
 ## Problem
 
-Speech foundation models are usually adapted per domain via separate fine-tuned checkpoints, and redoing full fine-tuning every time new domain data arrives is computationally expensive; model merging offers a cheaper alternative but its limits are not well understood.
+Adaptation of large speech foundation models typically requires either maintaining separate checkpoints for every target domain or performing costly joint fine-tuning that demands historical data and extensive compute. While model merging avoids these pitfalls by combining independently fine-tuned models without retraining, existing parameter-combining methods have rarely been applied to speech foundation models or evaluated across diverse domain shifts and language varieties.
 
 ## Method
 
-The authors benchmark 11 merging algorithms across 10 European Portuguese domains, measuring in-domain accuracy, robustness to distribution shift, and retained English/multilingual performance, and propose BoostedTSV-M, a merging method built on TSV-M that uses singular-value boosting to counter rank collapse and improve numerical stability.
+The authors introduce MergeWhisper, an extension of mergekit adding native Whisper support, and evaluate 11 algorithms spanning parameter-space, task-space, and subspace-based approaches across 10 European Portuguese domains (~350 hours of speech). They propose BoostedTSV-M, which prevents rank collapse by clamping and boosting small singular values based on cumulative energy thresholds. Additionally, they replace the numerically unstable orthogonal Procrustes step in subspace methods with Newton-Schulz orthogonalization (5 iterations with a quintic schedule), enabling high rank-percentage retention.
 
 ## Results
 
-BoostedTSV-M outperforms full fine-tuning on European Portuguese domains in a single merged model while better preserving out-of-domain generalization than the other merging baselines.
+Evaluated on 46.2 hours of European Portuguese test data (comprising 10 in-domain and 5 out-of-distribution sets), plus African Portuguese, Brazilian Portuguese, OpenASR-HF English, and FLEURS benchmarks. BoostedTSV-M achieves an in-domain word error rate (WER) of 9.27% and an out-of-distribution WER of 16.11%, outperforming standard full fine-tuning (which scores 15.62% ID and 25.21% OOD). Furthermore, the merged models successfully preserve zero-shot multilingual and cross-lingual capabilities on English (OpenASR-HF WER around 7.1-7.6%) and FLEURS.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/Miamoto/mergewhisper
 
 ## Applications
 
-Efficient multi-domain deployment of large ASR models, e.g. combining domain-adapted checkpoints (medical, call-center, broadcast) into one production model without repeated full fine-tuning.
+Speech engineers and system deployers looking to combine multiple domain-specific ASR models into a single unified checkpoint without storing adaptation data or running expensive joint training.
+
+## Limitations
+
+The study focuses primarily on Whisper Large-v3 and European Portuguese, and performance can still degrade on extreme out-of-distribution shifts if singular value thresholds are not tuned properly.
 
 ## Related
 

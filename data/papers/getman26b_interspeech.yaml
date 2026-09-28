@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-566
 isca_url: https://www.isca-archive.org/interspeech_2026/getman26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/getman26b_interspeech.pdf
 session: Explainability for Compliance and Trust in Speech AI
-topics: [self-supervised, evaluation]
+topics: [self-supervised, asr, evaluation]
 code:
     url: ""
     license: ""

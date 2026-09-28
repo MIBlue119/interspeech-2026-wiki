@@ -5,11 +5,12 @@ authors:
     - Daniele Falavigna
     - Alessio Brutti
 year: 2026
+doi: 10.21437/Interspeech.2026-689
 isca_url: https://www.isca-archive.org/interspeech_2026/ali26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ali26_interspeech.pdf
 session: Robust and Real-World ASR Systems
-topics: []
+topics: [asr, speech-llm, multilingual]
 code:
-    url: ""
+    url: https://github.com/mnabihali/Fed-SpeechLLM
     license: ""
 open_to_collaboration: false

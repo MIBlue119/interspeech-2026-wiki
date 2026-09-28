@@ -6,11 +6,12 @@ authors:
     - Xiaoxiao Miao
     - Ming Li
 year: 2026
+doi: 10.21437/Interspeech.2026-838
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26f_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
-topics: []
+topics: [dataset, evaluation, speech-enhancement]
 code:
-    url: ""
+    url: https://github.com/yucongzh/SSCC-Fault-Benchmark
     license: ""
 open_to_collaboration: false

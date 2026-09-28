@@ -6,11 +6,12 @@ authors:
     - Carlos Busso
     - Chi-Chun Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-1217
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26n_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26n_interspeech.pdf
 session: Speech and Language Technologies in Healthcare
-topics: []
+topics: [speech-enhancement, voice-conversion, tts]
 code:
-    url: ""
+    url: https://github.com/xinyu0308/FAST-SR
     license: ""
 open_to_collaboration: false

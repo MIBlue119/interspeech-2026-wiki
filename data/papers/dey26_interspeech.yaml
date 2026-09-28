@@ -3,10 +3,11 @@ title: Improving Adversarial Robustness in Spoken Language Identification throug
 authors:
     - Spandan Dey
 year: 2026
+doi: 10.21437/Interspeech.2026-3091
 isca_url: https://www.isca-archive.org/interspeech_2026/dey26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dey26_interspeech.pdf
 session: Language and Dialect Recognition
-topics: []
+topics: [spoken-language-understanding, evaluation]
 code:
     url: ""
     license: ""

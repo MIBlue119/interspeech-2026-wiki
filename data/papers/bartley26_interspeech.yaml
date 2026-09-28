@@ -4,11 +4,12 @@ authors:
     - Christopher Bartley
     - Anton Ragni
 year: 2026
+doi: 10.21437/Interspeech.2026-1302
 isca_url: https://www.isca-archive.org/interspeech_2026/bartley26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bartley26_interspeech.pdf
 session: Low-Resource & Endangered Language Speech Processing
-topics: []
+topics: [asr, low-resource, multilingual]
 code:
-    url: ""
+    url: https://github.com/c-bartley/el-asr
     license: ""
 open_to_collaboration: false

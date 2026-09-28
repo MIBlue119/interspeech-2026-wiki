@@ -7,11 +7,12 @@ authors:
     - Wenlin Zhang
     - Dan Qu
 year: 2026
+doi: 10.21437/Interspeech.2026-637
 isca_url: https://www.isca-archive.org/interspeech_2026/chang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chang26_interspeech.pdf
 session: Challenge - Audio Reasoning Challenge
-topics: []
+topics: [speech-llm, evaluation, spoken-language-understanding]
 code:
-    url: ""
+    url: https://github.com/Changhy26/TAD
     license: ""
 open_to_collaboration: false

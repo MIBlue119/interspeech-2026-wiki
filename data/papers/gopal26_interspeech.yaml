@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-2446
 isca_url: https://www.isca-archive.org/interspeech_2026/gopal26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gopal26_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
-topics: [speech-llm, multilingual, low-resource]
+topics: [speech-llm, multilingual, self-supervised]
 code:
     url: ""
     license: ""

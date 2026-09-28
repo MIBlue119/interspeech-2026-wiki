@@ -7,11 +7,12 @@ authors:
     - Paula D. P. Costa
     - Thomas Hueber
 year: 2026
+doi: 10.21437/Interspeech.2026-1397
 isca_url: https://www.isca-archive.org/interspeech_2026/correa26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/correa26_interspeech.pdf
 session: Articulatory, EMG, and Visual Speech Generation
-topics: []
+topics: [speech-driven-facial-animation, tts, self-supervised]
 code:
-    url: ""
+    url: https://github.com/uuembodiedsocialai/FaceDiffuser
     license: ""
 open_to_collaboration: false

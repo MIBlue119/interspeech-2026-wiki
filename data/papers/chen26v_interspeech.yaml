@@ -12,11 +12,12 @@ authors:
     - Qingyang Hong
     - Lin Li
 year: 2026
+doi: 10.21437/Interspeech.2026-2082
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26v_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26v_interspeech.pdf
 session: Acoustic Signal Analysis and Generation
-topics: []
+topics: [tts, self-supervised, speech-coding]
 code:
-    url: ""
+    url: https://pppjchen.github.io/SARA
     license: ""
 open_to_collaboration: false

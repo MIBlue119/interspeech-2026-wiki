@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-3493
 isca_url: https://www.isca-archive.org/interspeech_2026/gichamba26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gichamba26_interspeech.pdf
 session: Quality, Intelligibility and Evaluation of Speech and Codecs
-topics: [tts, evaluation]
+topics: [speech-coding, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://wakandaai.github.io/low-frame-rate-codec/
     license: ""
 open_to_collaboration: false

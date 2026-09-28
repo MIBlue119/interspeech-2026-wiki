@@ -9,11 +9,12 @@ authors:
     - Xuesong Yang
     - Roy Fejgin
 year: 2026
+doi: 10.21437/Interspeech.2026-1461
 isca_url: https://www.isca-archive.org/interspeech_2026/ghosh26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ghosh26f_interspeech.pdf
 session: Long-Form Speech Synthesis
-topics: []
+topics: [tts, speech-llm, dataset]
 code:
-    url: ""
+    url: https://github.com/NVIDIA-NeMo/NeMo
     license: ""
 open_to_collaboration: false

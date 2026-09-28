@@ -7,11 +7,12 @@ authors:
     - Muskaan Singh
     - Ning Ma
 year: 2026
+doi: 10.21437/Interspeech.2026-2704
 isca_url: https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 1
-topics: []
+topics: [paralinguistics, health, self-supervised]
 code:
-    url: ""
+    url: https://github.com/Helixometry/COBALT.git
     license: ""
 open_to_collaboration: false
