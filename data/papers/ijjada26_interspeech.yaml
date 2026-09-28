@@ -12,10 +12,11 @@ authors:
     - Harish Rajamani
     - Naveen Ambati
 year: 2026
+doi: 10.21437/Interspeech.2026-2115
 isca_url: https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.pdf
 session: Generative and Self-Supervised Speech Enhancement
-topics: []
+topics: [speech-enhancement, on-device]
 code:
     url: ""
     license: ""

@@ -4,10 +4,11 @@ authors:
     - Wanting Huang
     - Weiran Wang
 year: 2026
+doi: 10.21437/Interspeech.2026-1471
 isca_url: https://www.isca-archive.org/interspeech_2026/huang26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26i_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
-topics: []
+topics: [asr]
 code:
     url: ""
     license: ""

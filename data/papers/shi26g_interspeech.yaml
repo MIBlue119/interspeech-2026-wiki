@@ -8,10 +8,11 @@ authors:
     - Jianbo Ma
     - Shrikanth Narayanan
 year: 2026
+doi: 10.21437/Interspeech.2026-3135
 isca_url: https://www.isca-archive.org/interspeech_2026/shi26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shi26g_interspeech.pdf
 session: Audio segmentation
-topics: []
+topics: [speech-llm]
 code:
     url: ""
     license: ""

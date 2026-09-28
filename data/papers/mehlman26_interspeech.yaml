@@ -7,10 +7,11 @@ authors:
     - Anfeng Xu
     - Shrikanth Narayanan
 year: 2026
+doi: 10.21437/Interspeech.2026-2851
 isca_url: https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.pdf
 session: Entrainment and Dialogue Coordination
-topics: []
+topics: [paralinguistics]
 code:
     url: ""
     license: ""

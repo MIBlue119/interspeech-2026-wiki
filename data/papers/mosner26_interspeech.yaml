@@ -8,10 +8,11 @@ authors:
     - Jin Li
     - Oldřich Plchot
 year: 2026
+doi: 10.21437/Interspeech.2026-3367
 isca_url: https://www.isca-archive.org/interspeech_2026/mosner26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mosner26_interspeech.pdf
 session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
-topics: []
+topics: [speaker-verification]
 code:
     url: ""
     license: ""

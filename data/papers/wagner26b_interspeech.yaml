@@ -3,10 +3,11 @@ title: 'Content is What Remains: Invariant Speech Tokenization from Parallel Utt
 authors:
     - Laurin Wagner
 year: 2026
+doi: 10.21437/Interspeech.2026-2817
 isca_url: https://www.isca-archive.org/interspeech_2026/wagner26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wagner26b_interspeech.pdf
 session: Audio Understanding and Representation Learning
-topics: []
+topics: [self-supervised]
 code:
     url: ""
     license: ""

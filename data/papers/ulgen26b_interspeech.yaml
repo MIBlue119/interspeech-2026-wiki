@@ -7,10 +7,11 @@ authors:
     - Philipp Koehn
     - Berrak Sisman
 year: 2026
+doi: 10.21437/Interspeech.2026-1331
 isca_url: https://www.isca-archive.org/interspeech_2026/ulgen26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ulgen26b_interspeech.pdf
 session: Speaker Privacy and Anonymization
-topics: []
+topics: [voice-conversion]
 code:
     url: ""
     license: ""

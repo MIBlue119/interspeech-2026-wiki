@@ -15,10 +15,11 @@ authors:
     - Qiang Zhang
     - Lei Xie
 year: 2026
+doi: 10.21437/Interspeech.2026-494
 isca_url: https://www.isca-archive.org/interspeech_2026/hu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hu26b_interspeech.pdf
 session: Neural Audio Codec Architectures
-topics: []
+topics: [speech-llm, self-supervised]
 code:
     url: ""
     license: ""

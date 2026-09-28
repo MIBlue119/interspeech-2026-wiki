@@ -8,10 +8,11 @@ authors:
     - Jürgen Schmidhuber
     - Michael Wand
 year: 2026
+doi: 10.21437/Interspeech.2026-2499
 isca_url: https://www.isca-archive.org/interspeech_2026/toussaint26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/toussaint26_interspeech.pdf
 session: Assistive Technologies 2
-topics: []
+topics: [phonetics]
 code:
     url: ""
     license: ""

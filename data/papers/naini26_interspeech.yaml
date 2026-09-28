@@ -7,10 +7,11 @@ authors:
     - Shinji Watanabe
     - Carlos Busso
 year: 2026
+doi: 10.21437/Interspeech.2026-2935
 isca_url: https://www.isca-archive.org/interspeech_2026/naini26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/naini26_interspeech.pdf
 session: Multimodal Emotion Recognition
-topics: []
+topics: [emotion-recognition]
 code:
     url: ""
     license: ""

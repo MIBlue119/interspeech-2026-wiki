@@ -11,10 +11,11 @@ authors:
     - Tim Polzehl
     - Sebastian Möller
 year: 2026
+doi: 10.21437/Interspeech.2026-1366
 isca_url: https://www.isca-archive.org/interspeech_2026/kheir26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kheir26_interspeech.pdf
 session: Spoofing, Deepfake Detection and Watermarking
-topics: []
+topics: [evaluation]
 code:
     url: ""
     license: ""

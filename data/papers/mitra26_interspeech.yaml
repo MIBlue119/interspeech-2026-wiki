@@ -7,10 +7,11 @@ authors:
     - Shanmukha Sahith
     - K V Vijay Girish
 year: 2026
+doi: 10.21437/Interspeech.2026-2493
 isca_url: https://www.isca-archive.org/interspeech_2026/mitra26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mitra26_interspeech.pdf
 session: Turn-taking
-topics: []
+topics: [spoken-language-understanding]
 code:
     url: ""
     license: ""

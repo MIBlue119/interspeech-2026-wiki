@@ -5,10 +5,11 @@ authors:
     - Sharon Gannot
     - Ethan Fetaya
 year: 2026
+doi: 10.21437/Interspeech.2026-1401
 isca_url: https://www.isca-archive.org/interspeech_2026/rubenchik26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/rubenchik26_interspeech.pdf
 session: Target Speaker Extraction, Speech Separation and Audio Understanding
-topics: []
+topics: [source-separation]
 code:
     url: ""
     license: ""

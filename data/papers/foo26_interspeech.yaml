@@ -7,10 +7,11 @@ authors:
     - Ke-Han Lu
     - Hung-yi Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-913
 isca_url: https://www.isca-archive.org/interspeech_2026/foo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/foo26_interspeech.pdf
 session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
-topics: []
+topics: [evaluation, speech-llm]
 code:
     url: ""
     license: ""

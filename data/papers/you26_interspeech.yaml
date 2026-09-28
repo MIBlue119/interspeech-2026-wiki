@@ -4,10 +4,11 @@ authors:
     - Heejo You
     - Sungwoo Moon
 year: 2026
+doi: 10.21437/Interspeech.2026-887
 isca_url: https://www.isca-archive.org/interspeech_2026/you26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/you26_interspeech.pdf
 session: Text Processing for Speech Synthesis
-topics: []
+topics: [tts]
 code:
     url: ""
     license: ""

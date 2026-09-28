@@ -4,10 +4,11 @@ authors:
     - Zhiyuan Yue
     - De Hu
 year: 2026
+doi: 10.21437/Interspeech.2026-1733
 isca_url: https://www.isca-archive.org/interspeech_2026/yue26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yue26_interspeech.pdf
 session: Spatial Audio 4
-topics: []
+topics: [speech-enhancement]
 code:
     url: ""
     license: ""

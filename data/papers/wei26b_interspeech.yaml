@@ -9,10 +9,11 @@ authors:
     - Shrikanth Narayanan
     - Hung-yi Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-77
 isca_url: https://www.isca-archive.org/interspeech_2026/wei26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wei26b_interspeech.pdf
 session: Speech and Language Representation
-topics: []
+topics: [speaker-verification]
 code:
     url: ""
     license: ""
