@@ -58,7 +58,7 @@ Speech researchers and model designers seeking a rigorous, task-agnostic diagnos
 
 ## Code
 
-- https://insideSSL.github.io/
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

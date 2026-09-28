@@ -13,6 +13,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/mylvaganam26_interspeech.
 session: Speech and Language Representation
 topics: [asr, low-resource, multilingual]
 code:
-    url: https://github.com/PraviMyl/AAL_identification
+    url: ""
     license: ""
 open_to_collaboration: false

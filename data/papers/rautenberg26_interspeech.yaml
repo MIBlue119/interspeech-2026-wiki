@@ -12,6 +12,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/rautenberg26_interspeech.
 session: Flow Matching for Speech Synthesis
 topics: [voice-conversion, self-supervised, paralinguistics]
 code:
-    url: https://github.com/pvq-manipulation
+    url: ""
     license: ""
 open_to_collaboration: false

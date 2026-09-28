@@ -49,9 +49,10 @@ open_to_collaboration: false
 
 ## Wiki page rules (`wiki/papers/*.md`)
 
-- Keep the OKF frontmatter: `id`, `category`, `updated` (YYYY-MM-DD), `confidence`, `source`.
+- Keep the OKF frontmatter: `id`, `category`, `updated` (YYYY-MM-DD), `confidence`, `source`; full-text digests also carry `pdf` (the ISCA PDF url) and `digest: v2`.
 - `confidence` is one of `abstract-only`, `full-paper`, `author-verified` — be honest about what you read.
-- Sections: **TL;DR**, **Problem**, **Method**, **Results**, **Code**, **Applications**, **Related**. Link related pages by id in backticks, e.g. `` `barreiros26_interspeech` ``.
+- Sections (v2 format): **TL;DR**, **Key contributions**, **Problem**, **Method**, **Experimental setup**, **Results** (a small markdown table of headline numbers is welcome), **Limitations**, **Why read this**, **Code**, **Applications**, **Related**. An `abstract-only` page may omit the sections its source can't support. Link related pages by id in backticks, e.g. `` `barreiros26_interspeech` ``.
+- Only put a URL in **Code** / `code.url` if the paper itself announces it as the authors' own release (or you verified it out-of-band, e.g. the authors' repo README cites the paper). Third-party backbones the paper merely uses do not count.
 - Write in your own words. Quotes of a sentence or two with attribution are fine; paragraphs are not.
 
 ## Claiming your paper (authors)

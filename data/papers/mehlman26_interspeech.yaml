@@ -13,6 +13,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.pdf
 session: Entrainment and Dialogue Coordination
 topics: [paralinguistics, dataset, evaluation]
 code:
-    url: https://github.com/kyutai-labs/moshiko-pytorch-bf16
+    url: ""
     license: ""
 open_to_collaboration: false

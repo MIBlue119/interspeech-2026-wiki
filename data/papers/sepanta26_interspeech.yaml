@@ -11,6 +11,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/sepanta26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [speech-llm, emotion-recognition, dataset]
 code:
-    url: https://www.actorschallenge.eu
+    url: ""
     license: ""
 open_to_collaboration: false

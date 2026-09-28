@@ -60,7 +60,7 @@ Speech and ML security researchers looking to understand the vulnerabilities of 
 
 ## Code
 
-- https://github.com/VCBSL/DAC-GAN
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

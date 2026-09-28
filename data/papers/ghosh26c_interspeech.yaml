@@ -11,6 +11,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/ghosh26c_interspeech.pdf
 session: Speech signal analysis
 topics: [speech-translation, self-supervised, evaluation]
 code:
-    url: https://valign-interspeech.github.io/
+    url: ""
     license: ""
 open_to_collaboration: false

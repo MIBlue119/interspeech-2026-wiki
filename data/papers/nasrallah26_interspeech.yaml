@@ -12,6 +12,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/nasrallah26_interspeech.p
 session: Emotional Speech Synthesis
 topics: [speech-anonymization, self-supervised, paralinguistics]
 code:
-    url: https://ghadynasrallah.github.io/
+    url: ""
     license: ""
 open_to_collaboration: false

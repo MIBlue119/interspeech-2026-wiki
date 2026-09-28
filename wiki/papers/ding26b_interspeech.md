@@ -64,7 +64,7 @@ Speech security and audio forensics researchers should read this to understand t
 
 ## Code
 
-- https://adaptiveaudiowmattack.github.io/
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

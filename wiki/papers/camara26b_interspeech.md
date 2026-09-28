@@ -59,7 +59,7 @@ Speech and ML researchers building real-time turn-taking models or expressive te
 
 ## Code
 
-- https://mateocamara.com/word-lengthening/
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

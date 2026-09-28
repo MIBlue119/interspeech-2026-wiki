@@ -17,6 +17,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/sun26j_interspeech.pdf
 session: Spoken Language Understanding
 topics: [speech-llm, speaker-diarization, spoken-language-understanding]
 code:
-    url: https://github.com/ASLP-lab/MSU-Bench
+    url: ""
     license: ""
 open_to_collaboration: false

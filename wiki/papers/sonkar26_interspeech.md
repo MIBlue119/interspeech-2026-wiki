@@ -60,7 +60,7 @@ Researchers and engineers building silent speech interfaces or articulatory-to-a
 
 ## Code
 
-- https://tongue2speech.github.io/
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

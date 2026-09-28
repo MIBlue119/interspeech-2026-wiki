@@ -64,7 +64,7 @@ Researchers and engineers building speech LLMs or low-bitrate neural audio codec
 
 ## Code
 
-- https://speechbrain.github.io/
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

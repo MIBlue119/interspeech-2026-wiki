@@ -13,6 +13,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/ogunremi26_interspeech.pd
 session: Multilingual Speech 1
 topics: [multilingual, speech-llm, self-supervised]
 code:
-    url: https://multispeech.github.io
+    url: ""
     license: ""
 open_to_collaboration: false

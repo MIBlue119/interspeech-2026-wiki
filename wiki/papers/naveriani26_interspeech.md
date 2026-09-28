@@ -59,7 +59,7 @@ Speech and ML researchers looking for non-autoregressive alternatives to standar
 
 ## Code
 
-- https://github.com/rwth-i6/i6_diffusion_asr
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

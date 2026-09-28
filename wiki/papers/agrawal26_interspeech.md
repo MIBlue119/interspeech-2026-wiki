@@ -53,7 +53,7 @@ Researchers and engineers building conversational language-learning systems or C
 
 ## Code
 
-- https://amadea.app
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

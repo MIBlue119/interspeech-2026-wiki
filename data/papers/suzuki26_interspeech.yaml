@@ -14,6 +14,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/suzuki26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [evaluation, self-supervised, speech-llm]
 code:
-    url: https://elsa-projectpage.pages.dev/
+    url: ""
     license: ""
 open_to_collaboration: false

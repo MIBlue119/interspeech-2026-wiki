@@ -11,6 +11,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/du26_interspeech.pdf
 session: Streaming Speech Synthesis
 topics: [tts, streaming, self-supervised]
 code:
-    url: https://s5-tts.github.io/
+    url: ""
     license: ""
 open_to_collaboration: false

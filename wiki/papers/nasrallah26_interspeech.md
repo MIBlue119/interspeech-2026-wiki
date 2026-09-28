@@ -58,7 +58,7 @@ Speech and ML researchers focusing on real-time privacy and affect manipulation 
 
 ## Code
 
-- https://ghadynasrallah.github.io/decra-demo
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

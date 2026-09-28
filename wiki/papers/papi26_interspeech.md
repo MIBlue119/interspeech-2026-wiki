@@ -59,7 +59,7 @@ Speech and ML researchers relying on cross-attention for alignment, timestamp ex
 
 ## Code
 
-- https://github.com/FBK-fairseq
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

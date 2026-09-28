@@ -14,6 +14,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/rong26_interspeech.pdf
 session: Language-Model and Codec-Token Speech Enhancement
 topics: [speech-enhancement, self-supervised, evaluation]
 code:
-    url: https://xiaobin-rong.github.io/stupasemo/
+    url: ""
     license: ""
 open_to_collaboration: false

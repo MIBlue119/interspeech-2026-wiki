@@ -57,7 +57,7 @@ Speech and ML researchers working on massively multilingual speech translation u
 
 ## Code
 
-- https://github.com/pineapplery/Gradient-Driven-Parameter-Sharing-for-Multilingual-Training
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

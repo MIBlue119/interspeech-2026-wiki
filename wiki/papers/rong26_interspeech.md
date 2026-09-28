@@ -64,7 +64,7 @@ Researchers and audio engineers working on generative speech enhancement or voco
 
 ## Code
 
-- https://xiaobin-rong.github.io/stupasewatermarkdemo/
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

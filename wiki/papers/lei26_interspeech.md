@@ -64,7 +64,7 @@ Researchers and engineers tackling complex multimodal generation tasks requiring
 
 ## Code
 
-- https://arches-bench.github.io/
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

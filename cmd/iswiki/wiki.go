@@ -38,29 +38,55 @@ func cmdWiki(args []string) error {
 		codeLine = p.Code.URL
 	}
 
+	pdfURL := p.PDFURL
+	if pdfURL == "" {
+		pdfURL = fmt.Sprintf("https://www.isca-archive.org/interspeech_2026/%s.pdf", p.ID)
+	}
 	page := fmt.Sprintf(`---
 id: %s
 category: %s
 updated: %s
 confidence: abstract-only
+digest: v2
 source: %s
+pdf: %s
 ---
 
 # %s
 
-**TL;DR** — (one sentence: what it does and why it matters)
+*%s*
+
+[PDF](%s) · [ISCA page](%s)
+
+**TL;DR** — (1-2 sentences: what it does + headline quantified result)
+
+## Key contributions
+
+- (3-5 concrete contributions, one per bullet)
 
 ## Problem
 
-(what gap does the paper address)
+(the gap, why prior approaches fall short, why it matters)
 
 ## Method
 
-(how, in your own words — no full-text copying, ISCA holds the paper's copyright)
+(real technical meat, in your own words — no full-text copying, ISCA holds the paper's copyright: architecture, losses, training recipe, key design choices)
+
+## Experimental setup
+
+(datasets with sizes, baselines, metrics, notable implementation details)
 
 ## Results
 
-(headline numbers and what they were compared against)
+(concrete numbers vs each baseline; a small markdown table of the headline numbers is welcome)
+
+## Limitations
+
+(stated limitations and honest scope bounds)
+
+## Why read this
+
+(who specifically should read this and what they'll take away)
 
 ## Code
 
@@ -73,7 +99,8 @@ source: %s
 ## Related
 
 - (link related pages by id, e.g. %s)
-`, p.ID, category, time.Now().Format("2006-01-02"), source, p.Title, codeLine, "`barreiros26_interspeech`")
+`, p.ID, category, time.Now().Format("2006-01-02"), source, pdfURL, p.Title,
+		strings.Join(p.Authors, ", "), pdfURL, p.ISCAURL, codeLine, "`barreiros26_interspeech`")
 
 	if err := os.MkdirAll(wikiDir, 0o755); err != nil {
 		return err

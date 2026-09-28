@@ -11,6 +11,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/park26j_interspeech.pdf
 session: Acoustic Event Detection 2
 topics: [asr, self-supervised, on-device]
 code:
-    url: https://github.com/slp-lab-research/specaug-patch-merge
+    url: ""
     license: ""
 open_to_collaboration: false

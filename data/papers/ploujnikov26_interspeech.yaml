@@ -12,6 +12,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/ploujnikov26_interspeech.
 session: Audio Language Models
 topics: [tts, asr, self-supervised]
 code:
-    url: https://speechbrain.github.io/
+    url: ""
     license: ""
 open_to_collaboration: false

@@ -60,7 +60,7 @@ Speech and ML engineers building articulatory-to-speech inversion or synthesis s
 
 ## Code
 
-- https://artsynth.github.io/
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

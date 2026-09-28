@@ -61,7 +61,7 @@ Speech and ML engineers building or auditing deepfake detectors should read this
 
 ## Code
 
-- https://deepfense.github.io
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

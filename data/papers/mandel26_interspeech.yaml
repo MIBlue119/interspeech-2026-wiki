@@ -10,6 +10,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.pdf
 session: Voice Conversion
 topics: [voice-conversion, self-supervised, multilingual]
 code:
-    url: https://palindromic-vc.github.io
+    url: ""
     license: ""
 open_to_collaboration: false

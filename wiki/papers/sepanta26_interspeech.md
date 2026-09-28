@@ -59,7 +59,7 @@ Speech and ML researchers building multimodal speech-LLMs or emotion recognition
 
 ## Code
 
-- https://www.actorschallenge.eu
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

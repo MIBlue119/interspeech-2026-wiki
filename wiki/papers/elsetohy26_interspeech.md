@@ -60,7 +60,7 @@ Speech security researchers and engineers building anti-spoofing systems for low
 
 ## Code
 
-- https://huggingface.co
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

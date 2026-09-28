@@ -13,6 +13,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/papi26_interspeech.pdf
 session: Speech Representations and Alignment
 topics: [asr, speech-translation, self-supervised]
 code:
-    url: https://github.com/FBK-fairseq
+    url: ""
     license: ""
 open_to_collaboration: false

@@ -11,6 +11,6 @@ pdf_url: https://www.isca-archive.org/interspeech_2026/kwak26_interspeech.pdf
 session: Audio-Visual and Generative Target Speaker Extraction
 topics: [speech-separation, self-supervised, multimodal]
 code:
-    url: https://plugandsteer.github.io
+    url: ""
     license: ""
 open_to_collaboration: false

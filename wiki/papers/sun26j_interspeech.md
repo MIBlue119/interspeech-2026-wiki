@@ -65,7 +65,7 @@ Researchers and engineers building conversational large audio language models sh
 
 ## Code
 
-- https://github.com/ASLP-lab/MSU-Bench
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

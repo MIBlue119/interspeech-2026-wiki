@@ -55,7 +55,7 @@ Speech and ML researchers focusing on low-resource languages should read this to
 
 ## Code
 
-- https://replit.com/
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

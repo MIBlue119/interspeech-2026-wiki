@@ -53,7 +53,7 @@ Speech and ML researchers designing multi-party conversational AI agents should 
 
 ## Code
 
-- https://github.com/kyutai-labs/moshiko-pytorch-bf16
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

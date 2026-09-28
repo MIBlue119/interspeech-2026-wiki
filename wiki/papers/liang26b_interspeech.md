@@ -58,7 +58,7 @@ Speech and machine learning researchers working on spatial audio generation will
 
 ## Code
 
-- https://foleyimmersive2026.github.io/
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

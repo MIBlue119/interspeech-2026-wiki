@@ -60,7 +60,7 @@ Speech and ML researchers working on multilingual speech representation, speaker
 
 ## Code
 
-- https://anonymous.4open.science
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

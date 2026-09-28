@@ -62,7 +62,7 @@ Researchers and engineers building Japanese spoken dialog systems or speech-to-s
 
 ## Code
 
-- https://huggingface.co/datasets/sbintuitions/voicebench-ja
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

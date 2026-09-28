@@ -59,7 +59,7 @@ Speech researchers and computational phoneticians working on low-resource tonal 
 
 ## Code
 
-- https://zenodo.20725470
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 
