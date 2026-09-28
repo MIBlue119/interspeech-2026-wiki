@@ -18,9 +18,10 @@ go run ./cmd/iswiki wiki <id>
 
 # 3. Write the summary sections in wiki/papers/<id>.md
 
-# 4. Validate + regenerate the README table
+# 4. Validate + regenerate the README table and wiki index
 go run ./cmd/iswiki validate
 go run ./cmd/iswiki readme
+go run ./cmd/iswiki toc
 ```
 
 Open a PR with those files. CI runs `validate` and checks the README table is regenerated.

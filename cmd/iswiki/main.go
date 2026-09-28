@@ -31,6 +31,8 @@ func main() {
 		err = cmdValidate(os.Args[2:])
 	case "wiki":
 		err = cmdWiki(os.Args[2:])
+	case "toc":
+		err = cmdToc(os.Args[2:])
 	case "fetch":
 		err = cmdFetch(os.Args[2:])
 	default:
@@ -52,6 +54,7 @@ commands:
   readme    regenerate the paper table in README.md from data/papers
   validate  schema-check every data/papers/*.yaml
   wiki <id> create wiki/papers/<id>.md stub from its yaml
+  toc       regenerate wiki/index.md grouped by primary topic
   fetch     download paper PDFs into sources/ (gitignored)
             flags: --insecure --only <id>
 `)

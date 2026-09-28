@@ -28,3 +28,11 @@ jobs:
             echo "::error::README table is stale — run 'go run ./cmd/iswiki readme' and commit the result"
             exit 1
           }
+
+      - name: Wiki index is up to date
+        run: |
+          go run ./cmd/iswiki toc
+          git diff --exit-code wiki/index.md || {
+            echo "::error::wiki/index.md is stale — run 'go run ./cmd/iswiki toc' and commit the result"
+            exit 1
+          }
