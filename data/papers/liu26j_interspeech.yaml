@@ -5,10 +5,11 @@ authors:
     - Shulin He
     - Xueliang Zhang
 year: 2026
+doi: 10.21437/Interspeech.2026-1259
 isca_url: https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.pdf
 session: Generative and Self-Supervised Speech Enhancement
-topics: []
+topics: [speech-enhancement, asr, self-supervised]
 code:
     url: ""
     license: ""

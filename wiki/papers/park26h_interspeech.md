@@ -2,33 +2,40 @@
 id: park26h_interspeech
 category: evaluation
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3025
+pdf: https://www.isca-archive.org/interspeech_2026/park26h_interspeech.pdf
 ---
 
 # AnimeScore: A Preference-Based Dataset and Framework for Evaluating Anime-Like Speech Style
 
-**TL;DR** — Because "anime-like" voice quality has no absolute scale like naturalness does, a pairwise-preference dataset and SSL-based ranking model provide the first objective metric for it, reaching 90.8% AUC.
+[PDF](https://www.isca-archive.org/interspeech_2026/park26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3025)
+
+**TL;DR** — AnimeScore is a preference-based dataset and automated evaluation framework for Japanese anime-style speech, achieving up to 90.8% ROC-AUC using SSL-based ranking models.
 
 ## Problem
 
-Evaluating how "anime-like" a synthesized voice sounds currently relies on costly subjective judgments, and no standardized objective metric exists, partly because anime-likeness — unlike naturalness — lacks a shared absolute scale, making conventional Mean Opinion Score protocols unreliable.
+Evaluating domain-specific speech styles like anime-likeness lacks a universally shared absolute numerical scale, rendering traditional Mean Opinion Score (MOS) protocols inconsistent. Relying exclusively on manual listening tests creates a major bottleneck for iterative development of generative speech models. Furthermore, simplistic acoustic heuristics like high pitch fail to capture the multidimensional perceptual cues underlying stylized character voices.
 
 ## Method
 
-The authors propose AnimeScore, a preference-based framework for automatic anime-likeness evaluation via pairwise ranking, collecting 15,000 pairwise judgments from 187 evaluators with free-form descriptions and running acoustic analysis to identify what drives the perception.
+The framework utilizes 15,000 pairwise preference judgments collected from 187 evaluators across a filtered set of 3,000 utterances derived from anime (Anim-400k) and general speech corpora (ReazonSpeech, Coco-Nut). To predict preferences, an input audio waveform is passed through a frozen self-supervised learning (SSL) encoder, followed by a BiLSTM, mean pooling, and an MLP to output a scalar score. The network is optimized end-to-end via a pairwise logistic loss (RankNet objective) on A/B comparison pairs. Evaluated backbones include wav2vec 2.0, WavLM, HuBERT, and data2vec.
 
 ## Results
 
-Perceived anime-likeness is driven by controlled resonance shaping, prosodic continuity, and deliberate articulation rather than simple heuristics like high pitch; handcrafted acoustic features reach a 69.3% AUC ceiling, while SSL-based ranking models reach up to 90.8% AUC.
+Using held-out A/B comparison pairs (N=2,500), handcrafted acoustic features reach a logistic regression AUC ceiling of 69.3%. In contrast, SSL-based ranking models substantially outperform this baseline, with HuBERT achieving the highest performance at 90.8% AUC (0.3852 NLL, 82.43% accuracy), followed closely by WavLM at 89.4% AUC. Masked-prediction models consistently surpass contrastive models because they better capture paralinguistic, prosodic, and speaker properties.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/sizigi/animescore
 
 ## Applications
 
-An objective metric and reward signal for preference-based optimization of generative speech/voice-acting models targeting anime or character voice styles.
+Engineers and researchers developing generative speech or voice conversion systems can use this framework as an automated evaluation metric or as a reward signal for reinforcement learning style optimization.
+
+## Limitations
+
+The study is constrained by moderate data scale, demographic imbalances among annotators (76% male, heavily skewed toward ages 30-50), and a lack of model architecture ablations beyond testing different SSL backbones.
 
 ## Related
 

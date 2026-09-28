@@ -9,11 +9,12 @@ authors:
     - Santosh Kesiraju
     - Jordi Luque
 year: 2026
+doi: 10.21437/Interspeech.2026-2529
 isca_url: https://www.isca-archive.org/interspeech_2026/lopez26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lopez26b_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 1
-topics: []
+topics: [asr, dataset, low-resource]
 code:
-    url: ""
+    url: https://github.com/ferugit/s-diverse
     license: ""
 open_to_collaboration: false

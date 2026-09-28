@@ -1,26 +1,29 @@
 ---
 id: liu26f_interspeech
-category: evaluation
+category: sound-enhancement
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-731
+pdf: https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.pdf
 ---
 
 # A Semantic-Anchor-based Method for Open-Vocabulary Sound Event Detection
 
-**TL;DR** — Learning semantic anchor vectors that novel sound classes can attend to lets an open-vocabulary sound event detector generalize far better to unseen event types than prior retrieval-only query-based methods.
+[PDF](https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-731)
+
+**TL;DR** — This paper proposes a semantic-anchor-based framework for open-vocabulary sound event detection, achieving a headline novel-class PSDSr of 32.3 on AudioSet-Strong and a zero-shot PSDS1 of 44.1 on DESED.
 
 ## Problem
 
-Query-based open-vocabulary sound event detection generalizes beyond fixed class sets, but most existing methods only use query vectors for retrieval without building real semantic understanding of events, which limits recognition of genuinely novel classes.
+Most existing sound event detection methods rely on a closed-set assumption, restricting detection to predefined classes and failing to recognize unseen events in real-world scenarios. While open-vocabulary methods have emerged, they depend purely on similarity matching between text queries and audio features without deep semantic understanding, rendering them vulnerable to cross-modal mismatch and poor generalization on novel categories.
 
 ## Method
 
-The authors learn a set of semantic anchor vectors as semantic-level reference tokens so arbitrary events can be understood by attending to them, add bidirectional attention to strengthen query-feature interaction, and design tailored query augmentation for robustness.
+The architecture combines a pre-trained audio encoder (PaSST or HTS-AT), a CLAP-based query encoder for text/audio inputs, 400 learnable semantic anchor vectors (dimension 384) acting as semantic reference tokens, an anchor-guided bidirectional decoder, and a Conformer-based context network for temporal localization. During training, ChatGPT generates diverse textual descriptions for LLM-based query augmentation, and models are trained using asymmetric focal loss combined with a codebook diversity regularization term. The model uses a tailored self-attention mask to force event queries to attend exclusively to the semantic anchors.
 
 ## Results
 
-On AudioSet-Strong the method achieves superior accuracy on novel classes, reaching 34.9 PSDS under the open-vocabulary setting and surpassing prior open-vocabulary SED models; cross-dataset evaluation on DESED confirms strong generalization, including 44.1 PSDS1 in zero-shot, exceeding a DESED-supervised baseline.
+Evaluated on AudioSet-Strong under an open-vocabulary setting (trained on 308 common classes, tested on 99 unseen rare classes), the method achieves 34.9 PSDS overall and 32.3 PSDSr with text queries, outperforming prior models like DASM (23.3-32.7). In zero-shot cross-dataset evaluation on DESED, it attains 44.1 PSDS1, surpassing the DESED-supervised DCASE baseline (36.4). Ablations confirm that removing semantic anchors causes a massive drop in PSDSr (from 32.3 down to 12.6), while removing bidirectional attention or textual augmentation also degrades performance.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Open-vocabulary sound event detection for smart home, surveillance, and environmental monitoring systems that need to recognize sound classes beyond a fixed training taxonomy.
+Engineers and researchers building smart home assistants, automotive safety systems, or multimodal large language models requiring robust open-vocabulary acoustic event awareness.
 
 ## Related
 

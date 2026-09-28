@@ -9,10 +9,11 @@ authors:
     - Yuan Lu
     - Aaqib Saeed
 year: 2026
+doi: 10.21437/Interspeech.2026-430
 isca_url: https://www.isca-archive.org/interspeech_2026/piao26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/piao26_interspeech.pdf
 session: Medical Dialogue and Conversational Understanding
-topics: []
+topics: [asynchronous-federated-learning, speech-llm, few-shot-learning]
 code:
     url: ""
     license: ""

@@ -6,11 +6,12 @@ authors:
     - Mirco Ravanelli
     - Cem Subakan
 year: 2026
+doi: 10.21437/Interspeech.2026-1533
 isca_url: https://www.isca-archive.org/interspeech_2026/mousavi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mousavi26_interspeech.pdf
 session: Audio Language Models
-topics: []
+topics: [speech-llm, evaluation, self-supervised]
 code:
-    url: ""
+    url: https://poonehmousavi.github.io/faithfulness/
     license: ""
 open_to_collaboration: false

@@ -9,11 +9,12 @@ authors:
     - Aruna Baijal
     - Zengli Yang
 year: 2026
+doi: 10.21437/Interspeech.2026-2857
 isca_url: https://www.isca-archive.org/interspeech_2026/pahwa26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pahwa26_interspeech.pdf
 session: 'Audio & Speech Language Models: Evaluation, Representations, and Emerging Capabilities'
-topics: []
+topics: [spoken-language-understanding, dataset, evaluation]
 code:
-    url: ""
+    url: https://audio2tool.github.io/
     license: ""
 open_to_collaboration: false

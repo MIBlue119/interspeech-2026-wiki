@@ -5,10 +5,11 @@ authors:
     - Jonas Beskow
     - Joakim Gustafson
 year: 2026
+doi: 10.21437/Interspeech.2026-2747
 isca_url: https://www.isca-archive.org/interspeech_2026/marcinek26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/marcinek26_interspeech.pdf
 session: Phonetic Aspects of TTS and ASR Systems
-topics: []
+topics: [speech-enhancement, evaluation, self-supervised]
 code:
     url: ""
     license: ""

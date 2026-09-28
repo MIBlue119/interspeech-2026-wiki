@@ -9,11 +9,12 @@ authors:
     - Harish Rajamani
     - Naveen Ambati
 year: 2026
+doi: 10.21437/Interspeech.2026-2009
 isca_url: https://www.isca-archive.org/interspeech_2026/rachumallu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/rachumallu26_interspeech.pdf
 session: Acoustic Event Detection 3
-topics: []
+topics: [keyword-spotting, speech-enhancement, evaluation]
 code:
-    url: ""
+    url: https://github.com/Ramakrishna-Chaitanya/QuadVAD-Interspeech2026
     license: ""
 open_to_collaboration: false

@@ -4,11 +4,12 @@ authors:
     - Rasmus Puggaard-Rode
     - Joshua Penney
 year: 2026
+doi: 10.21437/Interspeech.2026-1430
 isca_url: https://www.isca-archive.org/interspeech_2026/puggaardrode26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/puggaardrode26_interspeech.pdf
 session: Audio signal analysis
-topics: []
+topics: [phonetics, evaluation, dataset]
 code:
-    url: ""
+    url: https://osf.io/C8627
     license: ""
 open_to_collaboration: false

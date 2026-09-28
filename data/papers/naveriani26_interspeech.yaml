@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2070
 isca_url: https://www.isca-archive.org/interspeech_2026/naveriani26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/naveriani26_interspeech.pdf
 session: New Architecture and Analyses for ASR and Speech LMs
-topics: [asr]
+topics: [asr, self-supervised, evaluation]
 code:
     url: ""
     license: ""

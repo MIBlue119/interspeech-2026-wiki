@@ -7,11 +7,12 @@ authors:
     - Phuong Tuan Dat
     - Trang Thu Thi Nguyen
 year: 2026
+doi: 10.21437/Interspeech.2026-3449
 isca_url: https://www.isca-archive.org/interspeech_2026/pham26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pham26_interspeech.pdf
 session: Speaker Recognition and Verification
-topics: []
+topics: [speaker-verification, dataset, self-supervised]
 code:
-    url: ""
+    url: https://huggingface.co/datasets/hustep-lab/VieSpeaker-Dataset
     license: ""
 open_to_collaboration: false

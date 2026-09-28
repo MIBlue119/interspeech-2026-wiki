@@ -1,34 +1,41 @@
 ---
 id: liang26b_interspeech
-category: audio-captioning
+category: source-separation
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-531
+pdf: https://www.isca-archive.org/interspeech_2026/liang26b_interspeech.pdf
 ---
 
 # FoleyImmersive: Decoupling What and Where for Video-to-First-Order Ambisonics
 
-**TL;DR** — FoleyImmersive generates spatial (first-order ambisonics) audio from a silent video by separating the "what" (semantic sound content) from the "where" (spatial placement) into two stages, avoiding the blur that end-to-end models introduce between content and geometry.
+[PDF](https://www.isca-archive.org/interspeech_2026/liang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-531)
+
+**TL;DR** — FoleyImmersive is a modular two-stage video-to-first-order ambisonics generation framework that decouples content and geometry, achieving a state-of-the-art semantic Fréchet Audio Distance and spatial correlation coefficient of 0.741.
 
 ## Problem
 
-Generating immersive spatial audio directly from video is hindered by sparse semantic annotation in video-to-spatial-audio datasets, and by content-geometry entanglement, where end-to-end models blur what a sound is with where it comes from, while two-stage pipelines trade off semantic fidelity for spatial coherence.
+Generating first-order ambisonics (FOA) directly from silent field-of-view videos suffers from sparse textual semantics in public corpora and content-geometry entanglement. End-to-end models often blur semantic content and spatial localization, whereas naive two-stage pipelines trade off semantic fidelity for spatial coherence.
 
 ## Method
 
-The authors build YT-AmbiSem, a semantics-augmented dataset created by adding structured descriptions from Qwen2.5-VL-7B, then train a two-stage model: Stage 1 uses a semantics-first diffusion model with multi-rate cross-frame attention to generate mono content (WHAT), and Stage 2 spatializes it into XYZ ambisonic channels via a complex-STFT U-Net conditioned on per-frame visuals and camera direction, with a lightweight directional residual mixer for stable localization.
+The framework uses a semantics-augmented dataset, YT-AmbiSem, built by enriching YT-Ambigen with structured descriptions from Qwen2.5-VL-7B. Stage 1 generates mono channel W via a semantics-first diffusion model equipped with multi-rate cross-frame attention (MR-CFA) combining 1 fps slow and 4 fps fast visual features, alongside probabilistic time modulation (PTM) for continuous time gating. Stage 2 spatializes W into XYZ channels via a complex-STFT U-Net enhanced by a Directional Residual Mixer (DRM) with view-dependent bottleneck gating, trained with complex L2 and soft energy budget regularization.
 
 ## Results
 
-FoleyImmersive achieves state-of-the-art semantic and spatial metrics for video-to-ambisonics generation; demo and dataset are made available.
+Evaluated on the YT-AmbiSem dataset against baselines like ViSAGe, SpecVQGAN+Ambi Enc., and Diff-Foley+Ambi Enc., FoleyImmersive achieves superior performance across metrics. It records a KLDdec of 1.532 and FADavg of 4.126. In spatial metrics, it reaches an overall Cross-Correlation (CC) of 0.741 and Area Under Curve (AUC) of 0.851, outperforming traditional cascading spatializers. Ablations confirm that removing MR-CFA or DRM severely degrades semantic and spatial performance respectively.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://foleyimmersive2026.github.io/
 
 ## Applications
 
-Automatic spatial audio generation for immersive video, VR/AR content, and 360-degree video production from silent footage.
+Audio engineers, immersive media developers, and XR system builders generating automatic spatial Foley and first-order ambisonics from in-the-wild silent videos.
+
+## Limitations
+
+Future work requires improving robustness and generalization to unseen and more complex acoustic scenes.
 
 ## Related
 

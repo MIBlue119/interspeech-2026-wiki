@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-155
 isca_url: https://www.isca-archive.org/interspeech_2026/liao26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liao26_interspeech.pdf
 session: Speaker Diarization 1
-topics: [speaker-diarization]
+topics: [speaker-diarization, self-supervised, dataset]
 code:
-    url: ""
+    url: https://github.com/lz-hust/TSSD
     license: ""
 open_to_collaboration: false

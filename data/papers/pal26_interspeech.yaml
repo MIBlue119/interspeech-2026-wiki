@@ -7,10 +7,11 @@ authors:
     - Tamás Grósz
     - Mikko Kurimo
 year: 2026
+doi: 10.21437/Interspeech.2026-2497
 isca_url: https://www.isca-archive.org/interspeech_2026/pal26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pal26_interspeech.pdf
 session: Indigenous Voices in Speech Science and Technology
-topics: []
+topics: [asr, low-resource, self-supervised]
 code:
     url: ""
     license: ""

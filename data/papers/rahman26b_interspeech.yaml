@@ -8,8 +8,8 @@ year: 2026
 isca_url: https://www.isca-archive.org/interspeech_2026/rahman26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/rahman26b_interspeech.pdf
 session: Speaker Privacy and Anonymization
-topics: []
+topics: [evaluation, speaker-verification]
 code:
-    url: ""
+    url: https://github.com/Mehtab9/Voice-Privacy-from-an-Attribute-based-Perspective
     license: ""
 open_to_collaboration: false

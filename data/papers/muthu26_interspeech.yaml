@@ -5,11 +5,12 @@ authors:
     - Sasikala E
     - Girirajan S
 year: 2026
+doi: 10.21437/Interspeech.2026-696
 isca_url: https://www.isca-archive.org/interspeech_2026/muthu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/muthu26_interspeech.pdf
 session: Self-supervised Speech Representation Learning
-topics: []
+topics: [asr, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/mm0718-srmist/dysfluentnet
     license: ""
 open_to_collaboration: false

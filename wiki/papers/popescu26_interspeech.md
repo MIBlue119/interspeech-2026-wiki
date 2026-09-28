@@ -2,25 +2,28 @@
 id: popescu26_interspeech
 category: low-resource
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.html
+pdf: https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.pdf
 ---
 
 # lisero: An interactive practice app for learning Romanian Sign Language
 
-**TL;DR** — lisero is a free mobile app that teaches Romanian Sign Language through structured lessons, practice exercises, and a growing sign dictionary, aimed at both hearing and deaf/hard-of-hearing learners.
+[PDF](https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.html)
+
+**TL;DR** — We introduce lisero, a freely accessible mobile application designed to provide structured lessons, interactive exercises, and a dictionary for learning Romanian Sign Language (LSR).
 
 ## Problem
 
-Romanian Sign Language was only officially recognized in 2020 and remains severely under-resourced, with few accessible interactive tools for learning it, including in special education settings.
+Romanian Sign Language remains severely under-resourced and lacks systematic integration into educational curricula, with only 77 certified interpreters available nationwide. Existing digital tools are mostly static dictionaries that fail to offer structured lessons, interactive practice, or proper handling of syntactic properties. This scarcity creates major communication and social inclusion barriers for both deaf individuals and hearing learners such as parents of deaf children.
 
 ## Method
 
-The authors build lisero, a freely accessible mobile app originally developed to support infant-caregiver bimodal bilingual interactions and extended to cover general LSR learning, featuring lesson-based content, practice exercises, a sign dictionary, and gamification elements to encourage engagement.
+Developed by an interdisciplinary team of programmers, linguists, deaf native signers, and certified instructors, lisero features two main curricula (parent-focused and general) organized into chapters based on real-life scenarios. The app incorporates a searchable dictionary of approximately 1,000 signs recorded by two deaf native signers who alternate in continuous loop videos to expose users to natural variation. Learning is reinforced through three interactive exercise types—multiple-choice with phonological/semantic competitors, video-to-word matching, and sentence construction—alongside a half-speed playback feature, front-camera mirror mode, and gamification mechanics like streaks, points, and progress tracking.
 
 ## Results
 
-As a demo/system paper, the contribution is the working app itself rather than a benchmark result, designed for both hearing users and deaf and hard-of-hearing learners.
+The application offers a searchable dictionary scaling up to 1,000 signs and is currently deployed and freely available on both iOS and Android platforms. It supports user search tracking to guide future vocabulary expansion and provides immediate corrective feedback during practice exercises by repeating missed items.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Sign language education for families, schools, and special-education settings serving Romanian deaf and hard-of-hearing communities.
+Deaf individuals, parents of deaf children, prospective interpreters, and hearing learners use this mobile app for structured, interactive learning and practice of Romanian Sign Language.
+
+## Limitations
+
+The paper does not state any formal technical limitations, though the content is currently constrained to approximately 1,000 signs and focused specifically on Romanian Sign Language.
 
 ## Related
 

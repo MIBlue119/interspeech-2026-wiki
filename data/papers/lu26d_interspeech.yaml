@@ -8,10 +8,11 @@ authors:
     - Wenhao Yang
     - Jianguo Wei
 year: 2026
+doi: 10.21437/Interspeech.2026-2183
 isca_url: https://www.isca-archive.org/interspeech_2026/lu26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lu26d_interspeech.pdf
 session: Audio-Visual Grounding, Synchronization & Video Understanding
-topics: []
+topics: [spoken-language-understanding, multimodal, self-supervised]
 code:
     url: ""
     license: ""

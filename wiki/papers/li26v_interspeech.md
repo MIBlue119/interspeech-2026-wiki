@@ -2,25 +2,28 @@
 id: li26v_interspeech
 category: phonetics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1215
+pdf: https://www.isca-archive.org/interspeech_2026/li26v_interspeech.pdf
 ---
 
 # Tonal Contrasts in Different Vowel Contexts and Different Tonal Systems
 
-**TL;DR** — A study of Chinese Xiang dialect tone contrasts shows F0 range varies with vowel context and that tonal systems with more height distinctions rely on more acoustic cues, based on XGBoost+SHAP feature-importance analysis.
+[PDF](https://www.isca-archive.org/interspeech_2026/li26v_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26v_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1215)
+
+**TL;DR** — This study investigates how acoustic properties and voice qualities realize contrastive tones across different vowel contexts and tonal systems, finding that higher tones generally exhibit shorter duration, higher intensity, and greater periodicity than lower tones.
 
 ## Problem
 
-How acoustic properties of contrastive tones vary across vowel contexts and across tonal systems with different numbers of height distinctions is not well characterized.
+Tones are often assumed to rely primarily on fundamental frequency (F0), but recent work shows they integrate multiple acoustic cues. However, how these cues interact with varying vowel contexts—such as apical versus high-front and low-back vowels—and across tonal systems with different height inventories remains insufficiently understood. Understanding these dynamics is critical for capturing the multi-dimensional nature of lexical tone realization in natural speech.
 
 ## Method
 
-The authors record contrastive tones from two Chinese Xiang dialects distinguishing three and four tone heights respectively, across apical, high-front, and low-back vowel contexts, measuring F0 trajectories, mean F0, duration, intensity, and voice-quality metrics (H1*-H2*, HNR, CPP), then apply XGBoost with SHAP analysis.
+The authors recorded monosyllabic words from two Chinese Xiang dialects: Shouyan (SY), which distinguishes tones at three height levels, and Meihua (MH), which uses four levels. Recordings were collected from 9 SY and 8 MH male speakers across three vowel contexts: apical [ɹ̩ ], high-front [i], and low-back [a]. Acoustic measurements included F0 trajectories, duration, intensity, and voice qualities like H1*-H2*, HNR, CPP, and Strength of Excitation (SoE). Data were analyzed using growth curve models and linear mixed-effects models, alongside XGBoost combined with SHAP values to quantify the relative importance of each acoustic feature.
 
 ## Results
 
-High tones show shorter duration, higher intensity, and more periodicity than low tones; F0 range is wider in the [i] context than in [ɹ̩] and [a]; and tonal systems with more height distinctions rely on more acoustic cues to differentiate tones, with F0 confirmed as highly important.
+Growth curve and linear mixed-effects analyses revealed significant main effects and interactions across tone categories and vowel contexts. The high-front vowel [i] consistently induced a wider F0 range for contrastive tones compared to [ɹ̩ ] and [a]. Higher tones were generally shorter in duration, higher in intensity, and exhibited greater periodicity (higher HNR and CPP) than lower tones, though exceptions occurred in the MH apical vowel context. XGBoost and SHAP analyses confirmed that F0 cues (such as mean F0) dominate tone distinction, while systems with more height distinctions (MH) tend to leverage a broader set of auxiliary cues.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Informs tone-recognition system design and phonetic theory on how vowel context and tonal-inventory size shape the acoustic cues speakers use for tone.
+Phoneticians and speech engineers studying tone production, multi-cue speech synthesis, or dialectal speech recognition.
+
+## Limitations
+
+The study is restricted to male speakers from two specific Chinese Xiang dialects.
 
 ## Related
 

@@ -6,11 +6,12 @@ authors:
     - Karan Nathwani
     - Michael Witbrock
 year: 2026
+doi: 10.21437/Interspeech.2026-1563
 isca_url: https://www.isca-archive.org/interspeech_2026/liu26m_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26m_interspeech.pdf
 session: Multimodal Speech Processing and Speech LLM Systems
-topics: []
+topics: [emotion-recognition, self-supervised, multilingual]
 code:
-    url: ""
+    url: https://github.com/MaoriEnglish-Codeswitch/MultiEmoVec
     license: ""
 open_to_collaboration: false

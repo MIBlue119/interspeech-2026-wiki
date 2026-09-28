@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-2962
 isca_url: https://www.isca-archive.org/interspeech_2026/lietz26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lietz26_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
-topics: [evaluation]
+topics: [evaluation, dataset, paralinguistics]
 code:
     url: ""
     license: ""

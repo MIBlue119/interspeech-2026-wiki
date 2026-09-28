@@ -4,10 +4,11 @@ authors:
     - Tomoya Mizumoto
     - Yusuke Fujita
 year: 2026
+doi: 10.21437/Interspeech.2026-3241
 isca_url: https://www.isca-archive.org/interspeech_2026/mizumoto26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mizumoto26_interspeech.pdf
 session: Multilingual Speech 2
-topics: []
+topics: [speech-llm, self-supervised, multilingual]
 code:
     url: ""
     license: ""

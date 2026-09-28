@@ -2,33 +2,40 @@
 id: lopez26_interspeech
 category: evaluation
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2503
+pdf: https://www.isca-archive.org/interspeech_2026/lopez26_interspeech.pdf
 ---
 
 # Robustness Assessment of Large Audio Language Models in Multiple-choice Evaluation
 
-**TL;DR** — A systematic study across four audio-LLMs and three benchmarks shows multiple-choice audio evaluation scores are inflated by language bias and are sensitive to choice ordering and paraphrasing, not just audio understanding.
+[PDF](https://www.isca-archive.org/interspeech_2026/lopez26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lopez26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2503)
+
+**TL;DR** — This paper evaluates the robustness of large audio language models (LALMs) on multiple-choice benchmarks, revealing high sensitivity to choice ordering and phrasing, and introduces a mixed-perturbation protocol using correctness and consistency metrics.
 
 ## Problem
 
-Large audio language models (LALMs) are mainly assessed with multiple-choice question answering, but subtle changes like reordering choices give very different results, and textual questions/options often carry linguistic hints letting models answer correctly without using the audio at all; existing MCQA frameworks ignore this and report just one accuracy number.
+Current evaluations of large audio language models (LALMs) rely heavily on multiple-choice question answering (MCQA) benchmarks that report single accuracy numbers, ignoring potential vulnerabilities. Specifically, these frameworks are susceptible to language bias—where text-only models can guess correct answers without audio—and show high fragility to minor linguistic perturbations such as answer reordering and paraphrasing. Consequently, reported progress may reflect evaluation artifacts rather than true improvements in auditory reasoning capabilities.
 
 ## Method
 
-The authors conduct a systematic study across three benchmarks (MMAU, MMAR, MMSU) and four models (Audio Flamingo 2, Audio Flamingo 3, Qwen2.5-Omni-7B-Instruct, Kimi-Audio-7B-Instruct), probing sensitivity to choice ordering, language bias, and paraphrasing, and propose a simpler evaluation protocol and metric to account for these variations.
+The study conducts a systematic evaluation across three benchmarks (MMAU, MMAR, MMSU) and four LALMs (Audio Flamingo 2, Audio Flamingo 3, Qwen2.5-Omni-7B-Instruct, and Kimi-Audio-7B-Instruct). The authors apply controlled isolated and mixed variations to the text components: exploring all 24 choice permutations, and using Gemini-2.5-flash and Gemma-3-12B-it to generate 7 distinct phrasing versions for questions, ground-truth answers, and distractors. They establish text-only LLM controls (using Qwen2.5-7B, Llama-3.1-8B, and Gemma-3-27B without audio) to quantify language bias. Performance is assessed using mean accuracy, consistency rate (CR), and a stricter correctness rate (CoR) that demands correct responses across all perturbations.
 
 ## Results
 
-Language bias is present across all tested benchmarks, and models are sensitive not just to choice ordering but also to paraphrasing of questions and options, motivating a more detailed evaluation protocol.
+Text-only LLMs exceed random chance across all benchmarks, with Gemma-3-27B-it achieving 48.3% accuracy on MMAU (22.6 points above chance) and outperforming several audio models. LALMs exhibit extreme sensitivity to textual framing, with distractor rephrasing alone producing an accuracy standard deviation of up to 13.7%. The proposed evaluation framework demonstrates that models often rely on surface-level textual cues rather than robust audio grounding.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/ferugit/mcqa-lalms-robustness
 
 ## Applications
 
-More reliable benchmarking practice for researchers and practitioners evaluating large audio language models via multiple-choice tests.
+Speech and machine learning engineers developing or benchmarking large audio language models can use this evaluation framework and code to measure true model robustness against prompt and choice perturbations.
+
+## Limitations
+
+The study focuses exclusively on linguistic sensitivity within MCQA-based multimodal evaluation, leaving signal-level acoustic perturbations as an orthogonal scope.
 
 ## Related
 

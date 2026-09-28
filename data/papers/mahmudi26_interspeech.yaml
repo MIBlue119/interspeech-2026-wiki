@@ -6,11 +6,12 @@ authors:
     - Ekaterina Vylomova
     - Nick Thieberger
 year: 2026
+doi: 10.21437/Interspeech.2026-2781
 isca_url: https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.pdf
 session: Corpus Creation, Summarization and Understanding
-topics: []
+topics: [asr, low-resource, evaluation]
 code:
-    url: ""
+    url: https://github.com/Aso-UniMelb/Easper
     license: ""
 open_to_collaboration: false

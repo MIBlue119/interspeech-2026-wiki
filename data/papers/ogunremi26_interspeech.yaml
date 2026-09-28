@@ -7,11 +7,12 @@ authors:
     - Ahnmet Üstün
     - Martijn Bartelds
 year: 2026
+doi: 10.21437/Interspeech.2026-2584
 isca_url: https://www.isca-archive.org/interspeech_2026/ogunremi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ogunremi26_interspeech.pdf
 session: Multilingual Speech 1
-topics: []
+topics: [speech-llm, multilingual, dataset]
 code:
-    url: ""
+    url: https://multispeech.github.io
     license: ""
 open_to_collaboration: false

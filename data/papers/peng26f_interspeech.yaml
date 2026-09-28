@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-1799
 isca_url: https://www.isca-archive.org/interspeech_2026/peng26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/peng26f_interspeech.pdf
 session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
-topics: [speaker-verification, multilingual]
+topics: [speaker-verification, self-supervised, multilingual]
 code:
     url: ""
     license: ""

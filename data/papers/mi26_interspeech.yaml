@@ -5,10 +5,11 @@ authors:
     - Ding Ma
     - Tomoki Toda
 year: 2026
+doi: 10.21437/Interspeech.2026-1170
 isca_url: https://www.isca-archive.org/interspeech_2026/mi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mi26_interspeech.pdf
 session: Multilingual and Cross-Lingual Paralinguistic Analysis and Processing
-topics: []
+topics: [speech-emotion-recognition, multilingual, self-supervised]
 code:
     url: ""
     license: ""

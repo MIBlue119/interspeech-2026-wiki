@@ -2,25 +2,28 @@
 id: nguyen26d_interspeech
 category: tts
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1043
+pdf: https://www.isca-archive.org/interspeech_2026/nguyen26d_interspeech.pdf
 ---
 
 # DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching
 
-**TL;DR** — Doing flow matching in discrete token space instead of continuous space gives a compact zero-shot TTS model low latency without the usual optimization headaches of continuous flow-based methods.
+[PDF](https://www.isca-archive.org/interspeech_2026/nguyen26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nguyen26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1043)
+
+**TL;DR** — DiFlow-TTS is a compact zero-shot text-to-speech framework using discrete flow matching over factorized codec tokens, achieving up to 34× inference speedup over baselines.
 
 ## Problem
 
-Zero-shot TTS has advanced at replicating unseen voices, but balancing generation quality and inference efficiency remains hard: autoregressive models are slow, diffusion approaches are locked into training-time configurations, and most flow-based methods work in continuous token space, which is harder to optimize than discrete space.
+Autoregressive speech generation models suffer from high inference latency, whereas continuous flow-based and diffusion-based approaches are hindered by complex continuous spaces or rigid sampling constraints tied to training configurations. Operating directly in a structured discrete token space enables more efficient density estimation and flexible generation, but applying discrete flow matching to multi-attribute speech synthesis remains largely unexplored.
 
 ## Method
 
-The authors propose DiFlow-TTS, a zero-shot TTS framework based on discrete flow matching, combining a deterministic Phoneme-Content Mapper for linguistic modeling with a Factorized Discrete Flow Denoiser that simultaneously generates prosody and acoustic token streams.
+The framework utilizes a pre-trained FACodec tokenizer to extract factorized discrete tokens (prosody, content, acoustic details) and speaker embeddings. A Phoneme-Content Mapper (PCM) translates text into discrete content tokens and semantic embeddings via a duration predictor and length regulator. A Factorized Discrete Flow Denoiser (FDFD), built on Diffusion Transformer (DiT) blocks with separate prediction heads for prosody and acoustic subspaces, simultaneously generates the target prosody and acoustic token streams using discrete flow matching. Finally, a Codec Decoder reconstructs the raw audio waveform from the generated tokens and speaker embeddings.
 
 ## Results
 
-Experiments across multiple evaluation metrics demonstrate the effectiveness of the approach, indicating it is compact and low-latency relative to autoregressive and continuous flow-based alternatives.
+Evaluated on standard speech corpora, DiFlow-TTS demonstrates competitive naturalness, content accuracy, and prosody preservation compared to existing autoregressive and non-autoregressive baselines. The model achieves a compact architecture footprint that is up to 11.7× smaller than baseline systems and delivers low-latency inference with up to a 34× speedup. The factorized design effectively coordinates separate attribute distributions within a unified discrete flow process.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Fast, resource-efficient zero-shot voice cloning for on-device or latency-sensitive TTS products.
+Engineers building on-device, real-time, or resource-constrained voice cloning and text-to-speech applications.
 
 ## Related
 

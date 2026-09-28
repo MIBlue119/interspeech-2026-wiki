@@ -1,26 +1,29 @@
 ---
 id: ozer26_interspeech
-category: speaker-verification
+category: audio-deepfake
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1822
+pdf: https://www.isca-archive.org/interspeech_2026/ozer26_interspeech.pdf
 ---
 
 # A Training-Free Proactive Defense Against Partial Speech Manipulation via Self-Embedding Steganography
 
-**TL;DR** — Repurposing audio steganography as a proactive defense — having clean speech embed a compressed copy of itself for post-hoc reference extraction — enables training-free detection and codec-based restoration of partial deepfakes, complementing existing passive detectors.
+[PDF](https://www.isca-archive.org/interspeech_2026/ozer26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ozer26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1822)
+
+**TL;DR** — A training-free proactive defense against partial speech manipulation embeds a compressed self-representation via repetitive LSB steganography, achieving EERs between 4.4% and 10.0% on word-swapping detection tasks.
 
 ## Problem
 
-Partial deepfake speech, where only limited segments of an utterance are synthesized or manipulated, is especially hard for passive detectors as the spoofed proportion shrinks, and accurate detection plus restoration remains difficult.
+Partial deepfake speech, where only short segments of an authentic utterance are replaced or manipulated, severely degrades the reliability of passive detectors that look for synthesis artifacts. Identifying localized alterations and recovering original content remains difficult because passive systems struggle when spoofed regions are brief or sparse.
 
 ## Method
 
-The authors revisit audio steganography as a proactive rather than passive defense: a self-embedding strategy has a clean speech signal embed a compressed representation of itself, enabling post-hoc extraction of reference content and codec-based restoration to detect partial manipulation, repurposing existing steganography methods without any training.
+The framework uses a self-embedding strategy where a carrier speech signal embeds a compact latent representation of itself prior to distribution. Specifically, the audio is encoded using the SNAC neural speech codec at 0.98 kbps (24 kHz model resampled to 16 kHz), and the resulting bitstream is integrated into the carrier using a temporally repetitive least significant bit (LSB) embedding scheme with majority voting. At verification time, dynamic time warping (DTW) computes the alignment mismatch score between the received signal and its codec-based self-reconstruction to detect manipulated segments. The entire method is completely lightweight and training-free, requiring no training on spoofed data.
 
 ## Results
 
-On a benchmark dataset, the proposed approach complements passive defenses and operates without any training, providing a robust and data-efficient alternative for partial deepfake detection.
+Evaluated on a validation subset of the AV-Deepfake1M dataset featuring word-swapping attacks using various vocoders (GriffinLim, HiFiGAN, HNSincNSF, HNSincNSFHiFi, WaveGlow). For single-word swapping, the proposed method achieves EERs between 8.91% and 10.00%, vastly outperforming passive baselines like LAV-DF (~50% EER), LAV-DF+ (~50% EER), and a ResNet detector (~44%–47.5% EER). For two-word swapping, the proposed method reduces EERs further to 4.44%–5.07%, whereas baselines remain near random or high error levels. Ablations over swapped word duration show that detection performance improves monotonically as the manipulated duration increases, dropping below 10% EER for segments longer than 0.3 seconds.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Could be embedded at the point of speech origination (e.g. broadcast, official recordings) as a proactive, training-free integrity check against partial audio tampering.
+Engineers building secure speech communication platforms, media provenance verification pipelines, and proactive content authentication frameworks.
+
+## Limitations
+
+Detection performance degrades for extremely short manipulated segments under 0.1 seconds, where the resulting self-reconstruction mismatch becomes too weak to reliably isolate.
 
 ## Related
 

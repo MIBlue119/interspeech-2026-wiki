@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-3434
 isca_url: https://www.isca-archive.org/interspeech_2026/li26ka_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26ka_interspeech.pdf
 session: 'Spoken Language Processing: Evaluation and Metrics'
-topics: [asr, evaluation]
+topics: [asr, evaluation, speech-enhancement]
 code:
     url: ""
     license: ""

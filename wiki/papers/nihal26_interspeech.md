@@ -1,34 +1,41 @@
 ---
 id: nihal26_interspeech
-category: dataset
+category: bioacoustics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2629
+pdf: https://www.isca-archive.org/interspeech_2026/nihal26_interspeech.pdf
 ---
 
 # Ecologically-Constrained Task Arithmetic for Multi-Taxa Bioacoustic Classifiers Without Shared Data
 
-**TL;DR** — Shows that independently fine-tuned bioacoustic encoders can be merged via simple task-vector averaging into a unified 661-species classifier, letting institutions collaborate without ever sharing raw data.
+[PDF](https://www.isca-archive.org/interspeech_2026/nihal26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nihal26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2629)
+
+**TL;DR** — Independently fine-tuned bioacoustic encoders can be combined via simple task vector averaging into a unified 661-species classifier reaching 59.2% accuracy without sharing any underlying data.
 
 ## Problem
 
-Bioacoustic training data is scattered across taxa, regions, and institutions, and centralizing it for joint training is often infeasible due to data-sharing constraints.
+Bioacoustic training data is heavily fragmented across different taxa, geographic regions, and institutions with strict data-sharing or privacy limitations. While centralized training or monolithic retraining solves this, it requires access to all raw data and extensive compute capacity. Task arithmetic enables model composition without data sharing, but its viability and geometric foundations remain unstudied in speech and bioacoustics.
 
 ## Method
 
-Composes independently fine-tuned BEATs encoders into a unified classifier via task vector arithmetic, analyzing the geometry of the task vectors (near-orthogonality, alignment with spectral distribution distance) to explain why simple averaging works well.
+The framework utilizes BEATs (90M parameters, pretrained via iterative self-supervised learning on AudioSet2M) as the shared base encoder. Specialists are independently fine-tuned on separate datasets using identical hyperparameters (AdamW, OneCycleLR, batch size 32, 20 epochs, BF16, SpecAugment, Mixup). Task vectors are extracted strictly from encoder weights (excluding classification heads) and merged via simple averaging, task vector scaling, DARE dropout, or conflict-resolution techniques like TIES and DELLA. Evaluation uses linear probing and k-NN diagnostics across five taxonomic groups (661 species) and four geographic regions.
 
 ## Results
 
-Task vectors are near-orthogonal (cosine 0.01-0.09) and simple averaging is optimal, while sign-conflict resolution methods reduce accuracy; composition redistributes accuracy from species-rich to underrepresented taxa, shows zero-shot transfer to new regions, and identifies domain negation as a failure case.
+The simple averaged merged model achieves 59.2% multi-taxa accuracy, which is 86% of a jointly-trained baseline, while regional models reach 91% of dedicated performance. Sign-conflict resolution methods (such as TIES) underperform simple averaging by one to six percentage points because bioacoustic task vectors are near-orthogonal (cosine similarities 0.01 to 0.09). Pairwise cosine similarities strongly correlate with spectral distribution distance (Spearman rho = -0.915, p < 0.001), aligning with the acoustic niche hypothesis. Merging creates an asymmetric accuracy redistribution where dominant passerine groups lose up to 11.8% accuracy while underrepresented marine mammal and amphibian groups gain up to 3.9% and 1.9% respectively.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://ragib-amin-nihal.github.io/BioAcousticArithmetic/
 
 ## Applications
 
-Privacy-preserving, collaborative multi-institution biodiversity monitoring where only model weights, not raw audio, are shared.
+Environmental conservation groups and bioacoustic researchers collaborating across distributed institutions to build unified multi-taxa species classifiers while preserving data privacy.
+
+## Limitations
+
+Domain negation (such as focal-to-soundscape transfer) serves as a boundary condition where task vector composition fails.
 
 ## Related
 

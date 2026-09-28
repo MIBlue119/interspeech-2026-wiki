@@ -2,33 +2,40 @@
 id: poli26_interspeech
 category: phonetics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2791
+pdf: https://www.isca-archive.org/interspeech_2026/poli26_interspeech.pdf
 ---
 
 # DiscoPhon: Benchmarking the Unsupervised Discovery of Phoneme Inventories With Discrete Speech Units
 
-**TL;DR** — DiscoPhon is a new multilingual benchmark testing whether discrete speech units from just 10 hours of an unseen language can be mapped to a predefined phoneme inventory; pretrained multilingual HuBERT and SpidR baselines show current models' units correlate reasonably well with phonemes, but with notable cross-language variation.
+[PDF](https://www.isca-archive.org/interspeech_2026/poli26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/poli26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2791)
+
+**TL;DR** — DiscoPhon is a multilingual benchmark suite for evaluating unsupervised phoneme inventory discovery from discrete speech units across 12 typologically diverse languages.
 
 ## Problem
 
-Unsupervised discovery of phoneme inventories from discrete speech units lacks a standardized multilingual benchmark to evaluate how well current self-supervised models capture phonemic structure in new languages.
+Establishing phonetic inventories is critical for documenting endangered languages, but traditional manual field linguistics does not scale to thousands of unwritten idioms. While self-supervised learning (SSL) models encode phonetic details, converting their continuous embeddings into discrete units without supervision or target-language annotations remains a major challenge. Existing evaluation sets lack standardized setups across diverse phonemic contrasts, hindering progress in unsupervised speech tokenization.
 
 ## Method
 
-DiscoPhon covers 6 dev and 6 test languages chosen for diverse phonemic contrasts; given only 10 hours of speech in an unseen language, systems must produce discrete units mapped (many-to-one or one-to-one) to a predefined phoneme inventory, evaluated for unit quality, recognition, and segmentation, with four pretrained multilingual HuBERT and SpidR baselines provided.
+DiscoPhon structures evaluation into two tracks: a many-to-one track with a fixed vocabulary of 256 units evaluating phonetic purity, and a one-to-one track matching the exact phoneme count plus silence evaluating direct categorization. The benchmark provides 10 hours of training data per language alongside 2-hour dev and test splits with forced-aligned phonetic transcripts. It evaluates models using Unit Quality via Pairwise Normalized Mutual Information (PNMI), Phone Error Rate (PER), and R-value/F1 segmentation metrics. Baseline evaluations are conducted using pretrained multilingual HuBERT and SpidR models.
 
 ## Results
 
-Phonemic information is sufficiently available in current models for derived units to correlate well with phonemes, though with variation across languages.
+Evaluated across 6 development languages (German, Swahili, Tamil, Thai, Turkish, Ukrainian) and 6 test languages (Basque, English, French, Japanese, Mandarin Chinese, Wolof). In the many-to-one track (256 units), zero-shot SpidR models outperform HuBERT baselines, achieving test PNMI scores up to 9.39 and PER values down to 64.48. Finetuning models on the 10-hour training split further improves test PNMI up to 9.39 for HuBERT and 6.40 for SpidR. One-to-one track results indicate that strict bijection mapping yields negative R-values for zero-shot HuBERT models on dev and test sets, reflecting the extreme difficulty of unconstrained phonetic discretization.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://benchmarks.cognitive-ml.fr/discophon
 
 ## Applications
 
-A benchmark resource for researchers developing unsupervised phoneme discovery methods for low-resource and unwritten languages.
+Speech and ML engineers developing unsupervised speech tokenizers, zero-resource speech models, and automated linguistic documentation tools for under-resourced languages.
+
+## Limitations
+
+Audio data for Common Voice languages must be downloaded separately by users due to licensing restrictions, and the benchmark currently relies on read speech datasets rather than spontaneous conversational audio.
 
 ## Related
 

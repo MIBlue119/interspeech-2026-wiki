@@ -13,11 +13,12 @@ authors:
     - Soochahn Lee
     - Yong Jae Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-581
 isca_url: https://www.isca-archive.org/interspeech_2026/nguyen26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/nguyen26b_interspeech.pdf
 session: LLMs and Conversational Interaction
-topics: []
+topics: [dataset, evaluation, speaker-diarization]
 code:
-    url: ""
+    url: https://github.com/plnguyen2908/UniTalk-ASD-code
     license: ""
 open_to_collaboration: false

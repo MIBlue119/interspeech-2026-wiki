@@ -8,10 +8,11 @@ authors:
     - Sakriani Sakti
     - Eng Siong Chng
 year: 2026
+doi: 10.21437/Interspeech.2026-1096
 isca_url: https://www.isca-archive.org/interspeech_2026/li26s_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26s_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
-topics: []
+topics: [asr, speech-enhancement, evaluation]
 code:
     url: ""
     license: ""

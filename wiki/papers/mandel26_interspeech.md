@@ -2,33 +2,40 @@
 id: mandel26_interspeech
 category: voice-conversion
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1663
+pdf: https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.pdf
 ---
 
 # From A to B to A: Palindromic Zero-Shot Voice Conversion with Non-Parallel Data
 
-**TL;DR** — Builds synthetic training pairs for voice conversion by KNN-retrieving WavLM segments that resemble a target speaker, then converting back, letting the model train on non-parallel, multilingual data despite being trained only on English.
+[PDF](https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1663)
+
+**TL;DR** — A zero-shot voice conversion framework uses KNN-retrieved WavLM features and a waveform-level speaker loss to achieve strong speaker similarity without parallel data.
 
 ## Problem
 
-Voice conversion typically needs parallel or carefully aligned training data, which is hard to obtain across languages and speakers without explicit alignment.
+Traditional voice conversion systems either require expensive parallel speech corpora or rely on imperfect disentanglement techniques that leak speaker information or damage linguistic content. Collecting large-scale parallel data is impractical, making scalable non-parallel training paradigms essential for any-to-any zero-shot voice conversion.
 
 ## Method
 
-The authors retrieve target-like source segments via K-Nearest Neighbors search over WavLM representations to build synthetic input/output training pairs (synthetic input, real target output) without requiring parallel corpora, and add a speaker loss from a pretrained speaker verification model to keep target-speaker identity consistent.
+The framework utilizes a three-stage training pipeline consisting of a pre-trained WavLM encoder (6th layer), a 77M-parameter six-layer Transformer converter (1024 hidden dimension, 16 attention heads) trained with an L1 feature loss and a waveform-level speaker verification loss, and a HiFi-GAN vocoder post-trained on converted features. Training data is constructed palindromically by generating synthetic source inputs via k-nearest neighbors (KNN) retrieval over target speech from LibriSpeech (960 hours). The model is optimized using Adam with a learning rate of 3e-4, incorporating adversarial multi-period and multi-scale discriminators.
 
 ## Results
 
-Trained exclusively on English data, the approach achieves high naturalness and strong speaker similarity across multiple languages, outperforming competitive voice-conversion baselines.
+Evaluated on LibriSpeech and Multilingual LibriSpeech datasets across 3, 10, 30, and 60-second prompt durations using Speaker Similarity, Equal Error Rate (EER), Word Error Rate (WER), Character Error Rate (CER), DNS-MOS, MOS, and SMOS metrics. Compared against Seed-VC, KNN-VC, Vevo, and OOVC baselines, the proposed approach achieves superior speaker similarity and EER while maintaining competitive WER/CER and perceptual quality. An ablation study confirms that vocoder post-training mitigates auditory artifacts and improves DNS-MOS scores.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://palindromic-vc.github.io
 
 ## Applications
 
-Multilingual zero-shot voice conversion without needing parallel or language-matched training corpora, useful for dubbing and cross-lingual voice cloning.
+Speech engineers and developers building zero-shot any-to-any voice conversion systems, cross-lingual voice cloning applications, and dubbing tools requiring identity preservation from short reference audio.
+
+## Limitations
+
+The model's expressive range and performance on highly expressive or real-time streaming speech are scope bounds left for future work.
 
 ## Related
 

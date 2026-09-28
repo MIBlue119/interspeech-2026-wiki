@@ -2,33 +2,40 @@
 id: mao26_interspeech
 category: speaker-diarization
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1248
+pdf: https://www.isca-archive.org/interspeech_2026/mao26_interspeech.pdf
 ---
 
 # Neural Multichannel Distant Speaker Diarization and Source Separation with Beta Speaker Activity Prior
 
-**TL;DR** — Adding a Bayesian beta prior over speaker activity to a model-driven multichannel diarization system, trained with a variational-lower-bound objective instead of cross-entropy, cuts Diarization Error Rate by 16% and Jaccard Error Rate by 20% relative to the baseline on AMI.
+[PDF](https://www.isca-archive.org/interspeech_2026/mao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1248)
+
+**TL;DR** — This paper proposes a Bayesian neural distant speaker diarization and source separation model using a beta speaker activity prior, reducing Diarization Error Rate by at least 3% (16% relatively) on the AMI corpus.
 
 ## Problem
 
-Distant speaker diarization is challenging due to adverse acoustics, varying speaker counts, and overlapping speech; model-driven methods that use multichannel spatial information offer a compelling alternative to purely data-driven approaches but can be made more robust.
+Distant speaker diarization struggles in adverse acoustic environments with reverberation, noise, varying speaker counts, and overlapping speech. While hybrid deep learning models like neural FCASA perform joint source separation and diarization, the diarization component is traditionally trained non-Bayesianly using cross-entropy, ignoring conversational dynamics and speaker states. This limitation reduces robustness under noisy, multi-channel meeting conditions.
 
 ## Method
 
-The authors propose a Bayesian diarization model that extends the model-driven neural FCASA method with a beta prior over speaker activity, deriving a variational lower bound objective that acts as a regularized continuous speaker activity score, replacing the original cross-entropy training loss.
+The authors introduce a fully Bayesian formulation for neural FCASA by placing a beta prior over speaker activity tendency, reflecting conversational habits. To make the beta distribution shape parameters tractable, they adopt a PERT reparameterization mapping mode and concentration to alpha and beta parameters, restricted to unimodal distributions. The model is trained end-to-end via variational inference by optimizing an Evidence Lower Bound (ELBO) objective where the diarization loss is computed in closed form using digamma functions. The architecture uses an encoder with minimal parameter overhead (adding only 257 parameters to the 24-million-parameter baseline) alongside joint-diagonalizable spatial covariance matrices and multichannel Wiener filtering.
 
 ## Results
 
-On the AMI dataset, the method improves Diarization Error Rate by at least 3 absolute points (16% relative) and Jaccard Error Rate by at least 4 absolute points (20% relative) versus the baseline.
+Evaluated on the AMI meeting corpus (80.7 hours training, 9.7 hours development, 9.1 hours evaluation), the proposed beta neural FCASA is compared against the standard non-Bayesian neural FCASA baseline. The method achieves significant improvements, reducing the Diarization Error Rate (DER) by at least 3% (representing a 16% relative reduction) and the Jaccard Error Rate (JER) by at least 4% (representing a 20% relative reduction).
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/alephpi/neural-fcasa
 
 ## Applications
 
-Applicable to meeting-recording diarization and source separation systems using multichannel microphone arrays in distant/far-field settings.
+Speech engineers and researchers building robust meeting transcription, distant automatic speech recognition front-ends, and multi-microphone speaker diarization systems.
+
+## Limitations
+
+The beta distribution shape parameters are restricted to unimodal forms (alpha, beta >= 1) to rule out U-shaped distributions, under the assumption that a speaker's tendency to speak or remain silent should be concentrated rather than dispersed.
 
 ## Related
 

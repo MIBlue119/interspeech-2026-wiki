@@ -8,10 +8,11 @@ authors:
     - Jagadeesh Balam
     - Boris Ginsburg
 year: 2026
+doi: 10.21437/Interspeech.2026-2005
 isca_url: https://www.isca-archive.org/interspeech_2026/park26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26e_interspeech.pdf
 session: Multi-Talker ASR & Speaker Diarization
-topics: []
+topics: [asr, speaker-diarization, self-supervised]
 code:
     url: ""
     license: ""

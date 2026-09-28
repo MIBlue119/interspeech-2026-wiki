@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-763
 isca_url: https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.pdf
 session: Audio Foundation Models and Generation
-topics: [speech-llm, on-device]
+topics: [speech-llm, on-device, evaluation]
 code:
-    url: ""
+    url: https://github.com/SamsungLabs/samsone
     license: ""
 open_to_collaboration: false

@@ -3,10 +3,11 @@ title: 'TinyGiantALM: A Compact Audio-Language Model for Intent-Aware Reasoning 
 authors:
     - Vinh-Thuan Ly
 year: 2026
+doi: 10.21437/Interspeech.2026-491
 isca_url: https://www.isca-archive.org/interspeech_2026/ly26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ly26_interspeech.pdf
 session: Challenge - Audio Reasoning Challenge
-topics: []
+topics: [speech-llm, evaluation, multilingual]
 code:
     url: ""
     license: ""

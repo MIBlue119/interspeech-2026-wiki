@@ -3,10 +3,11 @@ title: 'Positioning Effect of Syllable Shortening on Speech Segmentation: Eviden
 authors:
     - Shu-Chen Ou
 year: 2026
+doi: 10.21437/Interspeech.2026-234
 isca_url: https://www.isca-archive.org/interspeech_2026/ou26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ou26_interspeech.pdf
 session: Perception and Appraisal of Prosody
-topics: []
+topics: [phonetics, prosody, evaluation]
 code:
     url: ""
     license: ""

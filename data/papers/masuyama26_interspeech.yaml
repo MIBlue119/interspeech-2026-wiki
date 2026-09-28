@@ -9,11 +9,12 @@ authors:
     - Swapnil Bhosale
     - Jonathan Le Roux
 year: 2026
+doi: 10.21437/Interspeech.2026-1391
 isca_url: https://www.isca-archive.org/interspeech_2026/masuyama26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/masuyama26_interspeech.pdf
 session: Spatial Audio 1
-topics: []
+topics: [spatial-audio, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/MERL/S2RNF
     license: ""
 open_to_collaboration: false

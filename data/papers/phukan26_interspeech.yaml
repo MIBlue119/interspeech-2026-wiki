@@ -6,11 +6,12 @@ authors:
     - Mohd Mujtaba Akhtar
     - Chi-Chun Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-2283
 isca_url: https://www.isca-archive.org/interspeech_2026/phukan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/phukan26_interspeech.pdf
 session: Speech Deepfake Detection, Attribution and Characterization
-topics: []
+topics: [audio-deepfake, evaluation, self-supervised]
 code:
-    url: ""
+    url: https://helixometry.github.io/ElderlyCodecFake/
     license: ""
 open_to_collaboration: false

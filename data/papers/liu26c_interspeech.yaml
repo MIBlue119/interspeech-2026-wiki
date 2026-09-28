@@ -5,11 +5,12 @@ authors:
     - Nicholas Lee
     - Gopala Anumanchipalli
 year: 2026
+doi: 10.21437/Interspeech.2026-404
 isca_url: https://www.isca-archive.org/interspeech_2026/liu26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26c_interspeech.pdf
 session: Text-to-Speech Synthesis
-topics: []
+topics: [voice-conversion, speech-enhancement, self-supervised]
 code:
-    url: ""
+    url: https://berkeley-speech-group.github.io/StyleStream
     license: ""
 open_to_collaboration: false

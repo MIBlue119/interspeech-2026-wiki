@@ -2,25 +2,28 @@
 id: luo26b_interspeech
 category: speech-enhancement
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2577
+pdf: https://www.isca-archive.org/interspeech_2026/luo26b_interspeech.pdf
 ---
 
 # Visually-Guided Spatial Audio Generation for 360° In-the-Wild Speech Scenes
 
-**TL;DR** — A new YouTube-derived dataset and a two-stage video-conditioned model reconstruct full spatial (Ambisonics) audio for 360° videos from just the omnidirectional soundtrack and the video itself.
+[PDF](https://www.isca-archive.org/interspeech_2026/luo26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/luo26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2577)
+
+**TL;DR** — The paper introduces a two-stage localizer-renderer framework for visually guided First-Order Ambisonics speech spatialization from 360-degree video, alongside a curated 8.9-hour dataset called YT-SPEECH.
 
 ## Problem
 
-Spatial audio is essential for immersive 360° media, but high-quality spatial capture is rare in real-world, speech-dominant scenes, so most in-the-wild 360° video only has an omnidirectional (non-directional) audio track.
+Real-world speech-dominant 360-degree video lacks paired spatial audio datasets in First-Order Ambisonics (FOA) format, forcing reliance on simulated data or limited binaural recordings. Existing video-to-spatial-audio methods either depend on unconstrained self-supervised decomposition that introduces reconstruction artifacts or use direct binaural rendering that is restricted by listener orientation. This limits the development of accurate, visually grounded spatial audio reconstruction for immersive telepresence and virtual reality.
 
 ## Method
 
-The authors study visually guided First-Order Ambisonics (FOA) speech spatialization: given aligned 360° video and an omnidirectional audio track, recover the missing directional FOA components, introducing YT-SPEECH, a speech-oriented 360° video-FOA dataset from YouTube, and a two-stage Localizer-Renderer framework where an audio-visual segmentation backbone provides frame-wise spatial heatmaps and a conditional complex-domain U-Net reconstructs the directional signals, stabilized by confidence-based gating under ambiguous conditions.
+The paper proposes a two-stage Localizer-Renderer framework that takes an equirectangular 360-degree video and an omnidirectional audio track to synthesize missing directional FOA components (Y, Z, X). The Localizer uses an audio-visual segmentation backbone with a fine-tuned spatial prior head to generate dense horizontal wrap-around spatial heatmaps using circular padding. The Renderer employs a complex-domain U-Net that conditions intermediate decoder features via gated Feature-wise Linear Modulation (FiLM), using a confidence-gated mechanism derived from the spatial prior's entropy and peak concentration. The model is first pretrained on Sphere360 and then fine-tuned on YT-SPEECH using a combination of multi-resolution STFT loss, magnitude consistency loss, and waveform L2 loss.
 
 ## Results
 
-Experiments show improved reconstruction fidelity, spatial accuracy, and perceptual speech quality compared to ablated variants and prior approaches.
+Evaluated on the 8.9-hour YT-SPEECH dataset consisting of 5-second 24 kHz clips, the proposed method is benchmarked against ablated variants and SpatialAudioGen (SAG). The full model achieves superior reconstruction fidelity with an l2 loss of 1.15 x 10^-3, improved spatial accuracy with a mean angular error (delta ang) of 2.41 degrees, and enhanced perceptual speech quality yielding a PESQ of 3.42. Subjective evaluations demonstrate higher mean opinion scores for both overall audio quality (MOS-Q) and perceived spatial accuracy (MOS-P) compared to analytic DOA rendering baselines and unconditioned variants.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Retrofitting spatial audio onto existing mono/omnidirectional 360° video content for VR/AR and immersive media platforms.
+Engineers building immersive media, virtual reality platforms, and telepresence systems can use this framework to generate spatially coherent First-Order Ambisonics speech tracks from standard 360-degree video feeds.
+
+## Limitations
+
+The spatial prior confidence gating mechanism can become ambiguous under highly diffuse or visually uncertain acoustic conditions.
 
 ## Related
 

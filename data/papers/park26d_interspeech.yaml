@@ -5,10 +5,11 @@ authors:
     - Thien An Nguyen
     - Souhwan Jung
 year: 2026
+doi: 10.21437/Interspeech.2026-953
 isca_url: https://www.isca-archive.org/interspeech_2026/park26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26d_interspeech.pdf
 session: Audio Watermarking and Source Verification
-topics: []
+topics: [audio-deepfake, evaluation]
 code:
     url: ""
     license: ""

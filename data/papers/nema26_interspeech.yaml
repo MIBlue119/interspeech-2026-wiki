@@ -6,11 +6,12 @@ authors:
     - Bhavik Vachhani
     - Rustom Lawyer
 year: 2026
+doi: 10.21437/Interspeech.2026-907
 isca_url: https://www.isca-archive.org/interspeech_2026/nema26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/nema26_interspeech.pdf
 session: 'Robust ASR: Hallucinations and Biases'
-topics: []
+topics: [asr, spoken-language-understanding, evaluation]
 code:
-    url: ""
+    url: https://huggingface.co/datasets/united-we-care
     license: ""
 open_to_collaboration: false

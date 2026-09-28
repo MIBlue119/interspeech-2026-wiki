@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-948
 isca_url: https://www.isca-archive.org/interspeech_2026/li26n_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26n_interspeech.pdf
 session: Audio-Visual and Generative Target Speaker Extraction
-topics: [source-separation, on-device]
+topics: [source-separation, audio-visual, on-device]
 code:
     url: ""
     license: ""

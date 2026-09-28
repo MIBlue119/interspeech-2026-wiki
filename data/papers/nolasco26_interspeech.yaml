@@ -13,10 +13,11 @@ authors:
     - Emmanuel Chemla
     - Sara Keen
 year: 2026
+doi: 10.21437/Interspeech.2026-2759
 isca_url: https://www.isca-archive.org/interspeech_2026/nolasco26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/nolasco26_interspeech.pdf
 session: Acoustic Event Detection 1
-topics: []
+topics: [evaluation, self-supervised, paralinguistics]
 code:
     url: ""
     license: ""

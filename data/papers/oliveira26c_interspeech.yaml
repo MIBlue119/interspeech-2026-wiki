@@ -10,8 +10,8 @@ year: 2026
 isca_url: https://www.isca-archive.org/interspeech_2026/oliveira26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/oliveira26c_interspeech.pdf
 session: Speech and Language Processing for Health and Accessibility
-topics: [dataset]
+topics: [dataset, evaluation, spoken-language-understanding]
 code:
-    url: ""
+    url: https://cardiffbabylab.github.io/tinyexplorer-detection-app/
     license: ""
 open_to_collaboration: false

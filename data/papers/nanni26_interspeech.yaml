@@ -3,10 +3,11 @@ title: 'Rethinking Consent Acquisition for Voice Synthesis: from Static to Dynam
 authors:
     - Matilde Nanni
 year: 2026
+doi: 10.21437/Interspeech.2026-2379
 isca_url: https://www.isca-archive.org/interspeech_2026/nanni26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/nanni26_interspeech.pdf
 session: 'Safeguards for Synthetic Speech: Ethical, Technical, and Legal Perspectives'
-topics: []
+topics: [evaluation, paralinguistics]
 code:
     url: ""
     license: ""

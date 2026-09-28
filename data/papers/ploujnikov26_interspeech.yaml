@@ -6,11 +6,12 @@ authors:
     - Samir Sadok
     - Mirco Ravanelli
 year: 2026
+doi: 10.21437/Interspeech.2026-2784
 isca_url: https://www.isca-archive.org/interspeech_2026/ploujnikov26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ploujnikov26_interspeech.pdf
 session: Audio Language Models
-topics: []
+topics: [tts, asr, speech-llm]
 code:
-    url: ""
+    url: https://speechbrain.github.io/
     license: ""
 open_to_collaboration: false

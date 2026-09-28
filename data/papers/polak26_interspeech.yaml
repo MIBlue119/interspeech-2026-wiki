@@ -6,11 +6,12 @@ authors:
     - Luisa Bentivogli
     - Ondřej Bojar
 year: 2026
+doi: 10.21437/Interspeech.2026-575
 isca_url: https://www.isca-archive.org/interspeech_2026/polak26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/polak26_interspeech.pdf
 session: Multilingual Speech 1
-topics: []
+topics: [speech-translation, evaluation, asr]
 code:
-    url: ""
+    url: https://github.com/pe-trik/OmniSTEval
     license: ""
 open_to_collaboration: false

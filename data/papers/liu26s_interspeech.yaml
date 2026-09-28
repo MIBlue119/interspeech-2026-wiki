@@ -8,10 +8,11 @@ authors:
     - Xin Liu
     - Pengyuan Zhang
 year: 2026
+doi: 10.21437/Interspeech.2026-3478
 isca_url: https://www.isca-archive.org/interspeech_2026/liu26s_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26s_interspeech.pdf
 session: SE Architectures, Adaptation and Audio Front-Ends
-topics: []
+topics: [speech-enhancement, dataset, evaluation]
 code:
     url: ""
     license: ""

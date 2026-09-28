@@ -9,11 +9,12 @@ authors:
     - Kai Gao
     - Boyu Zhao
 year: 2026
+doi: 10.21437/Interspeech.2026-2298
 isca_url: https://www.isca-archive.org/interspeech_2026/mou26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mou26_interspeech.pdf
 session: Audio Watermarking and Source Verification
-topics: []
+topics: [speech-watermarking, tts, evaluation]
 code:
-    url: ""
+    url: https://muzw.github.io/duramark_demo/
     license: ""
 open_to_collaboration: false

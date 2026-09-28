@@ -1,34 +1,37 @@
 ---
 id: park26j_interspeech
-category: evaluation
+category: asr
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3273
+pdf: https://www.isca-archive.org/interspeech_2026/park26j_interspeech.pdf
 ---
 
 # From Masking to Merging: Rethinking SpecAugment for Efficient Audio Spectrogram Transformer
 
-**TL;DR** — Merging masked spectrogram patches, rather than just discarding them, speeds up Audio Spectrogram Transformer training by nearly 14% with almost no accuracy loss.
+[PDF](https://www.isca-archive.org/interspeech_2026/park26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3273)
+
+**TL;DR** — SpecAugment-Patch Merging accelerates Audio Spectrogram Transformer training by converting data-augmentation masks into token-merging cues, improving throughput by up to 13.9% with negligible impact on accuracy.
 
 ## Problem
 
-SpecAugment masks input spectrogram patches for regularization during Audio Spectrogram Transformer (AST) training, but the masked patches are simply discarded, wasting an opportunity to reduce the number of tokens the Transformer must process.
+Standard Audio Spectrogram Transformers suffer from quadratic self-attention complexity over input tokens, creating computational bottlenecks during training. While SpecAugment effectively regularizes models by masking spectrogram regions, these masked regions still generate embedding tokens that waste compute without adding semantic value. Existing token-reduction strategies either require separate architectural complexity, rely on random dropping without considering structural cues, or demand complex similarity computations.
 
 ## Method
 
-SpecAugment-Patch Merging applies SpecAugment at the patch level, and after positional embeddings are added, selects r pairs of masked patches and merges them, reducing token count processed by the Transformer.
+The paper introduces SpecAugment-Patch Merging, which aligns SpecAugment masks directly to a 16x16 patch grid prior to patch embedding, ensuring each patch is entirely masked or retained. After positional embeddings are added right before the transformer encoder, the model identifies fully zeroed patches from the binary mask matrix as valid merge candidates. It randomly selects and pairs r candidate patches, applying a dimension-wise max operation to merge each pair and compact the token sequence. Experiments use an ImageNet-pretrained DeiT-Base distilled backbone with 87M parameters implemented on a single NVIDIA RTX 4090 GPU.
 
 ## Results
 
-Increasing merged pairs r from 0 to 100 keeps mAP on AudioSet nearly unchanged (34.07 to 34.08) while throughput rises from 43.3 to 49.3 samples/sec, a 13.9% relative improvement; similar throughput gains with minor accuracy changes appear on ESC-50 and Speech Commands V2.
+Evaluated on Balanced AudioSet, increasing merged pairs r from 0 to 100 changes mAP marginally from 34.07 to 34.08 while boosting throughput from 43.3 to 49.3 samples/sec and reducing peak GPU memory by 3.14 GB. On ESC-50, throughput scales from 127.3 to 142.9 samples/sec as r increases from 0 to 50 with minor accuracy variations (89.20% to 88.67%). On Speech Commands V2, testing up to r = 15 maintains high keyword spotting accuracy around 98% while improving efficiency. Ablations comparing dimension-wise max, mean, sum, and random drop demonstrate that max merging provides strong empirical performance and stability.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/slp-lab-research/specaug-patch-merge
 
 ## Applications
 
-Speeding up training of Audio Spectrogram Transformer models for audio classification tasks without sacrificing accuracy.
+Speech and machine learning engineers training audio transformer models for tasks such as environmental sound classification, multi-label audio event detection, and keyword spotting.
 
 ## Related
 

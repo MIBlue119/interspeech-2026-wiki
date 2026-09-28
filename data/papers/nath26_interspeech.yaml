@@ -5,10 +5,11 @@ authors:
     - Rosey Billington
     - Danielle Barth
 year: 2026
+doi: 10.21437/Interspeech.2026-3034
 isca_url: https://www.isca-archive.org/interspeech_2026/nath26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/nath26_interspeech.pdf
 session: Speaker-Specific, Forensic and Segmental Characteristics of Typical and Atypical Speech
-topics: []
+topics: [phonetics, low-resource, evaluation]
 code:
     url: ""
     license: ""

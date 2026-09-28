@@ -6,10 +6,11 @@ authors:
     - Eungbeom Kim
     - Kyogu Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-2458
 isca_url: https://www.isca-archive.org/interspeech_2026/ok26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ok26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
-topics: []
+topics: [asr, self-supervised, evaluation]
 code:
     url: ""
     license: ""

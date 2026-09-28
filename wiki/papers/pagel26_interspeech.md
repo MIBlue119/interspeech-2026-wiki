@@ -1,34 +1,41 @@
 ---
 id: pagel26_interspeech
-category: prosody
+category: paralinguistics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2444
+pdf: https://www.isca-archive.org/interspeech_2026/pagel26_interspeech.pdf
 ---
 
 # What Happens When We Speak Together? Multidimensional Convergence in Face-to-Face Interaction
 
-**TL;DR** — A multimodal study of conversational convergence that, unlike prior single-parameter work, jointly examines acoustic, articulatory, and gestural adaptation together with prosodic prominence.
+[PDF](https://www.isca-archive.org/interspeech_2026/pagel26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pagel26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2444)
+
+**TL;DR** — This study investigates multidimensional and multimodal phonetic convergence during face-to-face dialogue, demonstrating that interlocutors adapt their prosodic prominence cues across acoustic, articulatory, and visual domains with varying strengths.
 
 ## Problem
 
-Speaker convergence in conversation is usually studied one parameter at a time, giving a fragmented picture, and how convergence interacts with prosodic structure remains largely unexplored.
+Prior research on inter-speaker convergence and alignment has typically examined isolated parameters—mostly acoustic-prosodic features—in a fragmented manner without controlling for information-structural factors like prosodic focus. This leaves open the risk of confounding interactive convergence with prominence-driven intra-speaker variation, and obscures how different communicative modalities relate to one another during conversation.
 
 ## Method
 
-Analyzes an information-structurally controlled dataset of interactive speech from 15 dyads, examining several acoustic-prosodic, articulatory, and co-speech kinematic parameters together to characterize convergence as a multidimensional, multimodal phenomenon tied to prosodic prominence.
+The authors analyze an information-structurally controlled dataset of 15 unacquainted German-speaking dyads engaged in a cooperative card game (DiCE) in both solo and dialogue communicative modes. Using electromagnetic articulography (EMA), audio recordings, and forced alignment, they extract 2,230 target-word tokens produced in corrective focus. Four parameters are measured: target word duration, fundamental frequency (F0) excursion, vertical tongue-body displacement, and maximum head velocity. Convergence is operationalized via Bayesian hierarchical linear models (implemented in brms) measuring reductions in between-speaker distance from solo to dialogue modes, evaluated against 56 pseudo-dyads per real pair to verify interlocutor-specific adaptation.
 
 ## Results
 
-Provides a more comprehensive, multidimensional account of how speakers converge with each other, relating convergence patterns to prosodic prominence rather than treating them separately.
+Across 15 dyads evaluated over 4 parameters, compelling evidence for convergence (posterior probability P >= 0.90) appears in 9 dyads for duration, 8 dyads for F0 excursion, 4 dyads for head velocity, and 2 dyads for tongue displacement. Acoustic-prosodic parameters exhibit the highest rates of convergence, followed by co-speech head motion, with supra-laryngeal articulation showing the least. Comparisons against pseudo-dyads confirm that the observed reduction in between-speaker distance stems from true interaction rather than mode-switching artefacts. Individual dyads display diverse multidimensional profiles, where tongue and head convergence rarely occur in isolation but typically co-occur with acoustic convergence.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://osf.io/3uebk
 
 ## Applications
 
-Informs multimodal dialogue system design and conversational-alignment research in psycholinguistics and human-computer interaction.
+Phoneticians, psycholinguists, and dialogue system engineers modeling natural human-human interaction, conversational adaptation, and multimodal virtual agents.
+
+## Limitations
+
+The investigation is restricted to controlled question-answer pairs and a specific set of German proper names, meaning findings should be extended to less constrained spontaneous dialogue.
 
 ## Related
 

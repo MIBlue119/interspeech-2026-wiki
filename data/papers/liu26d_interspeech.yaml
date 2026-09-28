@@ -6,10 +6,11 @@ authors:
     - Chenda Li
     - Yanmin Qian
 year: 2026
+doi: 10.21437/Interspeech.2026-548
 isca_url: https://www.isca-archive.org/interspeech_2026/liu26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26d_interspeech.pdf
 session: Multi-Channel, Beamforming and Spatial Speech Enhancement
-topics: []
+topics: [speech-enhancement, self-supervised, dataset]
 code:
     url: ""
     license: ""

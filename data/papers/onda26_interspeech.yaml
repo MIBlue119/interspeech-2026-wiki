@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-1668
 isca_url: https://www.isca-archive.org/interspeech_2026/onda26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/onda26_interspeech.pdf
 session: Self-supervised Speech Representation Learning
-topics: [self-supervised, asr]
+topics: [asr, tts, voice-conversion]
 code:
     url: ""
     license: ""

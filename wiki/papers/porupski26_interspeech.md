@@ -2,25 +2,28 @@
 id: porupski26_interspeech
 category: paralinguistics
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3262
+pdf: https://www.isca-archive.org/interspeech_2026/porupski26_interspeech.pdf
 ---
 
 # Umm... With Transformers? Insights from Filled Pause Use across Four Slavic Parliaments
 
-**TL;DR** — Analyzing ~4,000 hours of parliamentary speech across four Slavic languages finds filled-pause rates track sentiment and political power status, with gender effects that run opposite to most prior (smaller, single-language) studies.
+[PDF](https://www.isca-archive.org/interspeech_2026/porupski26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/porupski26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3262)
+
+**TL;DR** — This study analyzes filled-pause production across ~4,000 hours of Slavic parliamentary speech using transformer-based detectors, revealing that speech rate and age strongly predict filled pauses while gender and political effects are heavily language-dependent.
 
 ## Problem
 
-Filled pauses (FPs) are a universal feature of spontaneous speech, but most prior studies rely on small, single-language corpora, limiting how generalizable their findings about who uses FPs, and when, really are.
+Most empirical research on filled pauses relies on small, single-language corpora, limiting generalizability across linguistic and cultural contexts. Furthermore, prior studies rarely distinguish between stable speaker-level traits and utterance-level state variations, obscuring whether filled pauses reflect fixed habits or immediate cognitive planning demands.
 
 ## Method
 
-The authors analyze roughly 4,000 hours of parliamentary speech across four related Slavic languages (Croatian, Czech, Polish, Serbian), detecting FPs via transformer-based automatic detection and modeling FP rate with Generalised Estimating Equations (GEE) with Mundlak correction to separate within- from between-speaker effects.
+The authors analyze approximately 3,889 hours of filtered speech from the ParlaSpeech dataset spanning Croatian, Czech, Polish, and Serbian parliaments (1,561 speakers, 1,001,787 utterances). Filled pause occurrence is automatically extracted using a wav2vec2-bert event-level model (F1 ~0.92), while sentiment is predicted via XLM-R-ParlaSent. They fit Negative Binomial models using Generalised Estimating Equations (GEE) with Mundlak correction to decompose predictors into between-speaker means and within-speaker utterance deviations.
 
 ## Results
 
-Age and speech rate show the expected negative association with FP rate, but gender effects are language-specific and often opposite in direction to most prior literature; sentiment shows a consistent positive association with FP rate, and opposition speakers show lower FP rates than governing-coalition speakers, modulated by parliament-specific political orientation and power status.
+Globally, higher speech rate strongly predicts fewer filled pauses (IRR = 0.645 overall, with the within-speaker component at IRR = 0.652), and each decade of age yields a 13.8% drop in filled pauses (IRR = 0.862). Male speakers show significantly fewer filled pauses globally (IRR = 0.636), though this is entirely driven by South Slavic parliaments (Croatian and Serbian) with no significant effect in Czech and Polish. Opposition members exhibit lower filled-pause rates than the ruling coalition (IRR = 0.792 globally). Higher sentiment scores correlate with increased filled pause rates (+6.0% globally per sentiment point).
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Computational sociolinguistics and political-speech analysis tools studying disfluency patterns across languages and political contexts.
+Speech and ML engineers building spoken dialogue systems, disfluency detectors, or sociolinguistic analysis tools can use these insights to account for cross-lingual and demographic variations in disfluency.
+
+## Limitations
+
+The dataset is strictly restricted to the parliamentary speech domain, which may limit generalization to casual conversation or other informal registers.
 
 ## Related
 

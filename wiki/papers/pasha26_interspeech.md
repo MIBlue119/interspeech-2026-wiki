@@ -2,33 +2,40 @@
 id: pasha26_interspeech
 category: speech-enhancement
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-31
+pdf: https://www.isca-archive.org/interspeech_2026/pasha26_interspeech.pdf
 ---
 
 # A Novel Transfer Learning Approach for Room Impulse Response Estimation and Speech Dereverberation Across Geometrically Diverse and Data-Scarce Environments
 
-**TL;DR** — A transfer learning approach with a frozen geometry-aware encoder and physics-informed decoder adapts room impulse response models trained on data-rich rectangular rooms to irregular, data-scarce room geometries with only 10 training rooms, cutting error substantially and improving downstream dereverberation quality.
+[PDF](https://www.isca-archive.org/interspeech_2026/pasha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pasha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-31)
+
+**TL;DR** — This paper proposes a transfer learning framework for room impulse response estimation across geometrically diverse environments, achieving a 56% reduction in mean square error on unseen target room shapes.
 
 ## Problem
 
-Accurate room impulse response (RIR) estimation is critical for audio reproduction, echo cancellation, and dereverberation, but traditional methods are computationally expensive and generalize poorly across room shapes and materials.
+Traditional room impulse response estimation techniques are computationally demanding and generalize poorly when applied across different room shapes and surface materials. Learning-based models typically suffer when deployment acoustic conditions diverge from training data, yet existing physics-informed or generative methods do not explicitly resolve cross-geometry adaptation from rectangular enclosures to complex, non-convex layouts.
 
 ## Method
 
-The authors propose a transfer learning framework with a geometry-aware encoder extracting shape-invariant features and a physics-informed decoder enforcing echo sparsity and energy decay, freezing the encoder during fine-tuning and updating only the decoder to adapt from data-rich rectangular rooms to L-shaped and irregular geometries.
+The architecture, termed DeepRIRNet, features a geometry-aware encoder that extracts 256-dimensional spatial features and a decoder built with two stacked Long Short-Term Memory layers of hidden dimension 256 to generate time-domain room impulse responses sample-by-sample. Source pretraining occurs on 25,000 rectangular room pairs using a hybrid objective that combines time-domain mean squared error, log-spectral distance, and physics-informed regularizers enforcing early-echo sparsity and exponential energy decay. For target adaptation, the encoder weights are frozen to retain shape-invariant spatial features while only the decoder is fine-tuned on data from just 10 target rooms.
 
 ## Results
 
-The method achieves 56% lower MSE and 37% lower LSD on unseen target geometries with merely 10 training rooms, and downstream speech dereverberation shows PESQ of 3.24 vs. 2.78 and STOI of 0.89 vs. 0.79 compared to GAN baselines.
+Evaluated on simulated room impulse response datasets comprising 500 source rectangular rooms and target irregular or L-shaped rooms, the fine-tuned model reduces mean square error by 56% (from 0.0025 to 0.0011), log-spectral distance by 37% (from 3.12 to 1.95 dB), and average time error by 50% (from 8.4 to 4.2) using merely 2% of the source-domain data. In downstream speech dereverberation experiments using TIMIT utterances processed with Wiener filtering, the method achieves a Perceptual Evaluation of Speech Quality score of 3.24 and Short-Time Objective Intelligibility of 0.89, outperforming Generative Adversarial Network baselines.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/ShahabP/DeepRIRnet
 
 ## Applications
 
-Useful for acoustic echo cancellation and dereverberation products that must be deployed in diverse, non-rectangular room shapes without collecting extensive per-room training data.
+Audio engineers and researchers working on acoustic echo cancellation, speech dereverberation, speech enhancement, and spatial audio reproduction in acoustically diverse spaces.
+
+## Limitations
+
+Tested primarily on simulated image-source method room impulse responses rather than extensive physical real-world recordings.
 
 ## Related
 

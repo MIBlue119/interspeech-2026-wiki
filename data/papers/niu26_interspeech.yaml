@@ -13,11 +13,12 @@ authors:
     - Chunhui Wang
     - Xie Chen
 year: 2026
+doi: 10.21437/Interspeech.2026-533
 isca_url: https://www.isca-archive.org/interspeech_2026/niu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/niu26_interspeech.pdf
 session: 'Speech Synthesis: Speech Features, Codec and Representations'
-topics: []
+topics: [tts, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://zhikangniu.github.io/semantic-vae/
     license: ""
 open_to_collaboration: false

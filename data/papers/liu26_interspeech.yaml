@@ -13,10 +13,11 @@ authors:
     - Jiahong Yuan
     - Zhen-Hua Ling
 year: 2026
+doi: 10.21437/Interspeech.2026-88
 isca_url: https://www.isca-archive.org/interspeech_2026/liu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
-topics: []
+topics: [speech-enhancement, dataset, health]
 code:
     url: ""
     license: ""

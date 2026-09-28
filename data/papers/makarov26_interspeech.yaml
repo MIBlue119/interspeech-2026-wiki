@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-3448
 isca_url: https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.pdf
 session: Acoustic Signal Analysis and Generation
-topics: [tts, speech-enhancement]
+topics: [tts, self-supervised, dataset]
 code:
-    url: ""
+    url: https://sp-uhh.github.io/classifier-to-diffusion/
     license: ""
 open_to_collaboration: false

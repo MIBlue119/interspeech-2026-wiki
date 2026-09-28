@@ -14,8 +14,8 @@ doi: 10.21437/Interspeech.2026-988
 isca_url: https://www.isca-archive.org/interspeech_2026/li26o_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26o_interspeech.pdf
 session: Challenge - Audio Reasoning Challenge
-topics: [speech-llm]
+topics: [speech-llm, evaluation, self-supervised]
 code:
-    url: ""
+    url: https://github.com/llh666521/Audio-Cogito
     license: ""
 open_to_collaboration: false

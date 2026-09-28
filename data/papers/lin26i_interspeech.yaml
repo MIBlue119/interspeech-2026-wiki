@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1739
 isca_url: https://www.isca-archive.org/interspeech_2026/lin26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lin26i_interspeech.pdf
 session: Acoustic Event Detection 4
-topics: [speech-llm]
+topics: [speech-llm, source-separation, evaluation]
 code:
     url: ""
     license: ""

@@ -5,11 +5,12 @@ authors:
     - Cem Subakan
     - Mirco Ravanelli
 year: 2026
+doi: 10.21437/Interspeech.2026-2803
 isca_url: https://www.isca-archive.org/interspeech_2026/libera26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/libera26_interspeech.pdf
 session: Streaming Speech Synthesis
-topics: []
+topics: [speech-llm, self-supervised, speech-to-speech]
 code:
-    url: ""
+    url: https://lucadellalib.github.io/wavslm-web/
     license: ""
 open_to_collaboration: false

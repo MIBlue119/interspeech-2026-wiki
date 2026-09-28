@@ -1,26 +1,29 @@
 ---
 id: paul26_interspeech
-category: spoken-language-understanding
+category: asr
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2760
+pdf: https://www.isca-archive.org/interspeech_2026/paul26_interspeech.pdf
 ---
 
 # PROGRESS: Coverage-guided RL to Train Search-augmented LLM Agent
 
-**TL;DR** — An RL training method for search-augmented LLM agents that adds a teacher-guided "coverage reward" to explicitly shape how the agent decomposes complex queries, not just whether the final answer is right.
+[PDF](https://www.isca-archive.org/interspeech_2026/paul26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/paul26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2760)
+
+**TL;DR** — PROGRESS trains search-augmented LLM agents using a teacher-guided coverage reward in an R1-style reinforcement learning framework, achieving 2-5% absolute improvements on multi-hop question answering.
 
 ## Problem
 
-Search-augmented LLM agents trained with RL mostly use outcome-level rewards, which give little supervision over search behavior and overlook whether the agent decomposes complex queries properly.
+Existing search-augmented LLM agents trained via reinforcement learning primarily rely on outcome-level rewards such as exact match accuracy, which provide zero supervision over intermediate search behavior. This limitation leads to inefficient search actions, composite queries, and poor query decomposition, particularly when using small language models.
 
 ## Method
 
-PROGRESS uses frozen teacher models to decompose complex queries into essential search queries during training, then applies a coverage reward to guide the policy model's own query decomposition and search behavior, integrated into an R1-style training framework as lightweight guidance rather than dense process-level supervision.
+The framework utilizes a frozen large teacher model (Qwen2.5-72B-Instruct) offline to generate essential search queries that capture necessary latent information needs for each complex query. During PPO-based reinforcement learning with a Qwen2.5-3B base policy, a trajectory-level coverage reward is computed based on the harmonic mean (F1-score) of precision and recall over matched policy and teacher queries. An LLM judge evaluates semantic and granularity matches between policy-generated and teacher-generated queries. The total reward combines exact-match, format, and coverage rewards with a weight of 0.2 for the coverage component.
 
 ## Results
 
-Experiments show coverage-guided RL improves overall task performance, highlighting the value of explicitly supervising search strategy rather than only outcomes.
+Evaluated on open-domain and multi-hop QA benchmarks including Natural Questions, TriviaQA, PopQA, HotpotQA, 2WikiMultiHopQA, and MuSiQue using a 2018 Wikipedia dump and E5 retriever. PROGRESS outperforms baseline approaches like Search-R1 and Zero-Search across multi-hop datasets while maintaining general QA performance. Specifically, on multi-hop QA tasks, it achieves an average improvement of 2-5% absolute accuracy. In search quality analysis on 1000 samples from 2wiki and MuSiQue, PROGRESS significantly boosts query completeness and granularity compared to Search-R1.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Training more reliable search-augmented conversational and voice assistant agents that need to break down complex spoken queries.
+Engineers building multi-hop question answering systems, open-domain search agents, and knowledge-intensive retrieval-augmented generation pipelines.
 
 ## Related
 

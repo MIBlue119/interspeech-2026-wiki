@@ -4,10 +4,11 @@ authors:
     - Aivo Olev
     - Tanel Alumäe
 year: 2026
+doi: 10.21437/Interspeech.2026-3297
 isca_url: https://www.isca-archive.org/interspeech_2026/olev26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/olev26_interspeech.pdf
 session: Challenge - Audio Reasoning Challenge
-topics: []
+topics: [speech-llm, spoken-language-understanding, evaluation]
 code:
     url: ""
     license: ""

@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2640
 isca_url: https://www.isca-archive.org/interspeech_2026/mondal26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mondal26b_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
-topics: [dataset, low-resource]
+topics: [dataset, asr, low-resource]
 code:
     url: ""
     license: ""

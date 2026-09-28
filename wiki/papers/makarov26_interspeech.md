@@ -2,33 +2,40 @@
 id: makarov26_interspeech
 category: tts
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3448
+pdf: https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.pdf
 ---
 
 # Repurposing a Speech Classifier for Guided Diffusion-Based Speech Generation
 
-**TL;DR** — A conventionally trained speech classifier can be repurposed, with only a small added subnetwork, as the backbone for classifier-guided diffusion speech generation, avoiding the need to train two separate models.
+[PDF](https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3448)
+
+**TL;DR** — This paper repurposes a conventionally trained noise-conditioned speech classifier into a score-based diffusion generator by freezing its backbone and training a lightweight adapter subnetwork, achieving competitive generation quality with fewer trainable parameters and lower compute.
 
 ## Problem
 
-Classifier guidance steers diffusion-based generation toward a target class using a noise-conditioned classifier, but this normally requires training two separate models — a classifier and a diffusion model — adding cost and complexity.
+Standard classifier guidance for diffusion generation requires maintaining two separate, heavily parametrized models (a diffusion model and a noise-conditioned classifier) and evaluating both at every reverse sampling step, resulting in high memory footprint and computational cost. While joint energy-based models attempt to find a generator inside a classifier, direct joint training is plagued by intractable normalizing constants and training instability. Overcoming this gap allows for compact, single-backbone conditional speech synthesis without the overhead of dual-model pipelines.
 
 ## Method
 
-Starting from a frozen noise-conditioned classifier operating in log-Mel space, the authors attach a lightweight subnetwork that reuses the classifier's intermediate representations and train only this subnetwork under a Denoising Score Matching objective.
+The authors keep a noise-conditioned U-Net speech classifier completely frozen in log-Mel space and attach a lightweight, decoder-style Score Subnet trained solely via Denoising Score Matching. The backbone provides intermediate multi-scale feature maps (forward taps) and gradient taps derived by backpropagating joint energy-based model marginal log-densities. These taps are RMS-normalized, projected to a shared channel dimension, and fused using cross-attention blocks in a coarse-to-fine decoder architecture. The model uses 80-bin log-Mel filterbanks converted to waveforms via a pretrained HiFi-GAN vocoder, and applies variance-preserving SDE sampling with 100 Euler-Maruyama steps.
 
 ## Results
 
-The approach shows a pretrained classifier can be repurposed for conditional generation, providing a bridge between discriminative modeling and conditional speech synthesis that reaches high speech quality within a single-backbone model, with reduced memory footprint and compute cost.
+Evaluated on the SC09 spoken digit benchmark, the proposed Score Subnet achieves unconditional and classifier-guided generation competitive with or superior to full U-Net baselines and open-source models like DiffWave, SaShiMi, and EDMSound. Using only 4.4M trainable parameters (12.3M total) compared to a full U-Net's 16.6M parameters, the Score Subnet achieves a ScoreQ MOS of 3.26 and FAD of 1.02 under classifier guidance (gamma = 3.0). Furthermore, the approach consistently outperforms standard classifier-guided U-Nets in low-data and zero-shot guidance regimes.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://sp-uhh.github.io/classifier-to-diffusion/
 
 ## Applications
 
-Efficient, resource-constrained conditional speech generation systems that want to reuse an existing classifier rather than train a separate generative model from scratch.
+Speech and machine learning engineers developing resource-constrained or on-device speech generation systems who need class-conditional synthesis without maintaining separate diffusion and classification backbones.
+
+## Limitations
+
+The evaluation is restricted to the limited-vocabulary SC09 spoken digit dataset.
 
 ## Related
 

@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-2880
 isca_url: https://www.isca-archive.org/interspeech_2026/noronha26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/noronha26_interspeech.pdf
 session: Challenge - Audio Reasoning Challenge
-topics: [speech-llm]
+topics: [speech-llm, evaluation, low-resource]
 code:
     url: ""
     license: ""

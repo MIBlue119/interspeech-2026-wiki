@@ -9,10 +9,11 @@ authors:
     - Jia Pan
     - Jun Du
 year: 2026
+doi: 10.21437/Interspeech.2026-1539
 isca_url: https://www.isca-archive.org/interspeech_2026/niu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/niu26b_interspeech.pdf
 session: Audio Understanding and Representation Learning
-topics: []
+topics: [asr, speaker-diarization, speech-enhancement]
 code:
     url: ""
     license: ""

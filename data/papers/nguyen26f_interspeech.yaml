@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-1963
 isca_url: https://www.isca-archive.org/interspeech_2026/nguyen26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/nguyen26f_interspeech.pdf
 session: Multilingual Speech 2
-topics: [speech-translation, low-resource]
+topics: [speech-translation, multilingual, dataset]
 code:
     url: ""
     license: ""

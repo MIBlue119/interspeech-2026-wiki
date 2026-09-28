@@ -7,10 +7,11 @@ authors:
     - Vidhyasaharan Sethu
     - Jingyao Wu
 year: 2026
+doi: 10.21437/Interspeech.2026-1789
 isca_url: https://www.isca-archive.org/interspeech_2026/mylvaganam26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mylvaganam26_interspeech.pdf
 session: Speech and Language Representation
-topics: []
+topics: [asr, low-resource, evaluation]
 code:
     url: ""
     license: ""

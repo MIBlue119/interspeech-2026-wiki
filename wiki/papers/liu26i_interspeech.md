@@ -2,33 +2,40 @@
 id: liu26i_interspeech
 category: tts
 updated: 2026-09-28
-confidence: abstract-only
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1192
+pdf: https://www.isca-archive.org/interspeech_2026/liu26i_interspeech.pdf
 ---
 
 # Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input
 
-**TL;DR** — A post-training strategy that teaches an LLM-based TTS model to stop early at content boundaries with limited lookahead slashes long-form streaming TTS word error rate from 71% to 4.8%.
+[PDF](https://www.isca-archive.org/interspeech_2026/liu26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1192)
+
+**TL;DR** — The paper introduces a prosodic-boundary-aware post-training strategy with sliding-window prompts for streaming LLM-based TTS, achieving a 66.2% absolute reduction in long-form word error rate.
 
 ## Problem
 
-Streaming TTS that consumes streaming text is essential for interactive systems, but suffers from unnatural prosody due to missing lookahead and from long-form collapse due to unbounded context.
+Streaming text-to-speech with incremental text input suffers from unnatural prosody because models lack future context lookahead, and experiences long-form performance collapse due to unbounded generation history and KV-cache growth. While prior methods use causal modifications or precise alignment annotations, this paper targets robust streaming using only weakly time-aligned data without changing the underlying architecture.
 
 ## Method
 
-The authors adapt a pretrained LLM-based TTS model with a prosodic-boundary-aware post-training strategy using weakly time-aligned data, teaching the model to stop early at specified content boundaries given only limited future text; at inference, a sliding-window prompt carries forward prior text and speech tokens to bound context and ensure seamless concatenation.
+The approach adapts an existing LLM-based TTS model (CosyVoice2) using a dynamic boundary insertion strategy during post-training, where a special markerboundary token is inserted into text sequences based on word-level timestamps from WhisperX. During inference, text is ingested in chunks of k words with a lookahead of f future words, and a sliding-window prompt concatenates previous text and synthesized speech chunks to keep the KV cache bounded. Training utilizes the English subset of CommonVoice 13.0 (930k utterances), freezing the flow-matching module and HiFi-GAN vocoder while fine-tuning only the Qwen-based LLM.
 
 ## Results
 
-Outperforms a CosyVoice-style interleaved baseline in both short- and long-form scenarios, with long-text synthesis showing a 66.2 absolute-point WER reduction (71.0% to 4.8%) and relative gains of 16.1% in speaker similarity and 1.5% in emotion similarity.
+Evaluated on Seed-TTS-Eval and an LLM-expanded long-form benchmark (280-320 words per paragraph), the method achieves a Time-to-First-Audio of 1296 ms and a Real-Time Factor of 0.782 using streaming vocoding. In long-text synthesis, it drastically reduces the word error rate from 71.0% (interleaved baseline) down to 4.8%, while improving speaker similarity (SPK-SIM) to 0.65 and emotion similarity (EMO-SIM) to 0.912. Ablation studies show that chunk sizes of k >= 3 maintain a standard-tier WER below 5%, though excessive lookahead relative to chunk size can degrade long-form performance.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://charlieliu331.github.io/Prosodic-Boundary-Aware-Streaming-Text-TTS/
 
 ## Applications
 
-Real-time, interactive TTS systems that must synthesize speech incrementally as text streams in (e.g., LLM chat voice output, live captioning-to-speech).
+Interactive conversational dialogue systems and real-time speech-to-speech translation applications.
+
+## Limitations
+
+Performance is sensitive to the balance between chunk size and lookahead context, with excessively large lookahead relative to small chunks causing increased error rates.
 
 ## Related
 

@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2577
 isca_url: https://www.isca-archive.org/interspeech_2026/luo26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/luo26b_interspeech.pdf
 session: Spatial Audio 2
-topics: [speech-enhancement]
+topics: [speech-enhancement, dataset, evaluation]
 code:
     url: ""
     license: ""
