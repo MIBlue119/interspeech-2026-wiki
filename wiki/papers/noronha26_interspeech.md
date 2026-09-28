@@ -1,29 +1,65 @@
 ---
 id: noronha26_interspeech
 category: speech-llm
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2880
 pdf: https://www.isca-archive.org/interspeech_2026/noronha26_interspeech.pdf
 ---
 
 # Structured Prompting vs. Self-Training for Audio Reasoning Under Limited Data and Compute: Lessons from Interspeech Audio Reasoning Challenge 2026
 
+*Sujit Noronha, Steven Au, Kaushlendra Tripathi*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/noronha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/noronha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2880)
 
-**TL;DR** — Structured chain-of-thought prompt engineering outperforms both automated prompt optimization and reinforced self-training for audio reasoning under limited data, boosting Qwen3-Omni 30B accuracy by 5.5% on the MMAR benchmark.
+**TL;DR** — This paper evaluates structured prompt engineering, automated prompt optimization, and reinforced self-training for audio reasoning on the MMAR benchmark using Qwen3-Omni 30B. It demonstrates that a structured HEARD-ANALYSIS-ANSWER prompting strategy achieves a peak accuracy of 72.6% (+5.5% over baseline) at zero training cost, outperforming compute-intensive self-training and automated optimization methods.
+
+## Key contributions
+
+- A structured chain-of-thought (CoT) system prompt enforcing a HEARD -> ANALYSIS -> ANSWER sequence that reaches 72.6% accuracy, improving 5.5% over the 30B baseline.
+- An empirical comparison showing that structured prompt design outperforms both automated prompt search (DSPy MIPROv2) and reinforced self-training (ReST) under limited data and compute constraints.
+- A granular subcategory-level breakdown across 16 MMAR subcategories, revealing that structured prompting improves 13 of 16 subcategories while self-training causes widespread regressions.
+- Analysis of ReST failure modes on a 30B-parameter multimodal model, attributing underperformance to sparse learning-zone coverage (only 21.4% of problems) and distributional mismatch from auxiliary datasets.
 
 ## Problem
 
-While chain-of-thought reasoning improves text models, extending it to audio reasoning is bottlenecked by a scarcity of high-quality, domain-specific reasoning traces. Engineers and researchers face a dilemma on whether to invest in zero-cost prompt design or compute-heavy fine-tuning methods when labeled supervision and compute are constrained.
+Large audio-language models struggle with complex audio reasoning tasks that require bridging low-level acoustic properties with high-level semantics. While chain-of-thought prompting improves reasoning, extending it to the audio domain is bottlenecked by the scarcity of high-quality audio reasoning traces. When data and compute are limited, researchers face a difficult trade-off between zero-cost prompt engineering and compute-heavy weight updates, with little guidance on which strategy is most effective.
 
 ## Method
 
-The study evaluates three resource-cost strategies using Qwen3-Omni 30B: (i) Structured Prompt Engineering via iterative error analysis establishing a HEARD->ANALYSIS->ANSWER cognitive workflow with anti-looping rules; (ii) Automated Prompt Optimization using DSPy MIPROv2; and (iii) Reinforced Self-Training (ReST) using qLoRA (NF4 4-bit, rank 64, alpha 128, attention and MoE expert modules) with difficulty-based learning-zone filtering (26-75% success rate over 16 sampled rationales per question). Inference uses vLLM in bfloat16 precision with a top-p of 0.9 and repetition penalty of 1.2.
+The study investigates three distinct optimization strategies built on top of Qwen3-Omni 30B. The first approach, Reinforced Self-Training (ReST), generates 16 synthetic rationale candidates per question at temperature 0.6 using auxiliary datasets like MusicBench and CountingQA alongside MMAR training data. Candidates are filtered using a discrete correctness filter and restricted to a 'learning zone' of 26-75% success rate (yielding 4,361 training samples from 66,448 candidates). This filtered data is used to fine-tune attention and MoE expert modules for one epoch via qLoRA (NF4 4-bit quantization, LoRA rank 64, alpha 128, learning rates decaying from 2e-5 to 5e-6 across 3 iterations).
+
+The second approach employs automated prompt optimization via DSPy MIPROv2 over a stratified train/dev split to search for optimal prompt candidates. The third and most successful approach is Structured Prompt Engineering, which uses iterative error analysis to uncover dominant failure modes like counting overlaps and positivity biases. This culminates in a structured system prompt mandating a three-stage workflow: HEARD (perceptual description), ANALYSIS (evidence synthesis and elimination), and ANSWER (one-sentence commitment). It explicitly forbids self-correction loops ('Wait', 'Actually') to maintain fidelity to initial audio perceptions.
+
+Inference across all prompt evaluations is executed via vLLM in bfloat16 precision with tensor parallelism of 4, using a temperature of 0.1, top-p of 0.9, top-k of 40, repetition penalty of 1.2, and a 6,000 token maximum length.
+
+## Experimental setup
+
+Evaluated on the Multi-Modal Audio Reasoning (MMAR) benchmark consisting of 1,000 multiple-choice questions spanning 4 reasoning layers and 16 subcategories. Compares a bfloat16 baseline (67.1% accuracy), a 4-bit quantized baseline (65.7%), automated MIPROv2 optimization, and ReST fine-tuning against four iterative versions of structured prompts (Expert Analyst, Category-Aware, Targeted Hints, and Structured Reasoning). Metrics are reported as overall accuracy percentage and per-subcategory accuracy.
 
 ## Results
 
-Evaluated on the 1,000-sample MMAR test set comprising 16 subcategories across 4 reasoning layers. The baseline achieves 67.1% accuracy. Structured Reasoning achieves the top accuracy of 72.6% (+5.5%), improving across 13 of 16 subcategories (notably +13.1% in Counting & Statistics and +12.0% in Correlation Analysis). In contrast, automated optimization with MIPROv2 scores 63.3% (-3.8%), and ReST training scores 64.7% (-2.4% vs baseline, or 65.7% for its 4-bit counterpart) due to sparse learning-zone coverage (only 21.4% of problems) and distributional mismatch from auxiliary datasets.
+Structured Reasoning achieved the highest accuracy of 72.6%, representing a +5.5% absolute improvement over the baseline and dominating across 9 of 16 subcategories with major gains in Correlation Analysis (+12.0%) and Counting & Statistics (+13.1%). In contrast, Reinforced Self-Training dropped to 64.7% (-2.4% vs baseline, -1.0% vs 4-bit baseline), yielding narrow gains in Aesthetic Evaluation and Speaker Analysis but severe drops in Music Theory (-15.4%) and Emotion & Intention (-8.4%). DSPy MIPROv2 performed the worst at 63.3% (-3.8% vs baseline), displaying high inconsistency with extreme regressions in Culture of Speaker (-11.6%) and Correlation Analysis (-12.0%).
+
+| Systems/Conditions | Accuracy (%) | Delta vs Baseline |
+|---|---|---|
+| Baseline (bfloat16) | 67.1 | — |
+| Baseline 4-bit | 65.7 | -1.4 |
+| Expert Analyst Prompt | 68.3 | +1.2 |
+| Category-Aware Prompt | 68.1 | +1.0 |
+| Structured Reasoning Prompt | 72.6 | +5.5 |
+| ReST (qLoRA 4-bit) | 64.7 | -2.4 |
+| MIPROv2 Optimized | 63.3 | -3.8 |
+
+## Limitations
+
+The study is constrained by testing a single base model (Qwen3-Omni 30B) on a single benchmark (MMAR) with a limited sample size of 1,000 questions, introducing statistical noise in small subcategories like Aesthetic Evaluation (n=8). The experiments involve a precision mismatch where prompt evaluations use bfloat16 while ReST uses 4-bit quantization, and fine-tuning was artificially restricted to a single training epoch due to compute constraints.
+
+## Why read this
+
+Speech and ML engineers working with large audio-language models under limited supervision should read this to understand why structured prompt scaffolding vastly outperforms compute-heavy self-training for eliciting latent reasoning capabilities.
 
 ## Code
 
@@ -31,11 +67,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Engineers and practitioners developing spoken language understanding and audio reasoning agents who need to maximize multimodal model performance under strict compute budgets.
-
-## Limitations
-
-The study's scope is restricted to the MMAR benchmark and a single base model, Qwen3-Omni 30B.
+Improving automated audio question answering, multimedia content analysis, and complex acoustic reasoning systems for resource-constrained environments.
 
 ## Related
 

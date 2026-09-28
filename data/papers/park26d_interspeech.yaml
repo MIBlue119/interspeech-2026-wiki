@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-953
 isca_url: https://www.isca-archive.org/interspeech_2026/park26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26d_interspeech.pdf
 session: Audio Watermarking and Source Verification
-topics: [audio-deepfake, evaluation]
+topics: [speech-enhancement, self-supervised, evaluation]
 code:
     url: ""
     license: ""

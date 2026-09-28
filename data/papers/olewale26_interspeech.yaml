@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-815
 isca_url: https://www.isca-archive.org/interspeech_2026/olewale26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/olewale26_interspeech.pdf
 session: 'Pacific Voices: Speech Science and Technology for the Languages of the Pacific Ocean'
-topics: [low-resource, dataset, evaluation]
+topics: [low-resource, dataset, multilingual]
 code:
-    url: ""
+    url: https://replit.com/
     license: ""
 open_to_collaboration: false

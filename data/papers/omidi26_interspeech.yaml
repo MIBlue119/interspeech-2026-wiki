@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2992
 isca_url: https://www.isca-archive.org/interspeech_2026/omidi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/omidi26_interspeech.pdf
 session: Speech Emotion Recognition and Representation 2
-topics: [emotion-recognition, self-supervised, dataset]
+topics: [speech-emotion-recognition, self-supervised-learning, paralinguistics]
 code:
     url: https://github.com/zahraomidi/MSP-PODCAST
     license: ""

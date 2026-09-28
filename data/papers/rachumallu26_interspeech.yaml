@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-2009
 isca_url: https://www.isca-archive.org/interspeech_2026/rachumallu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/rachumallu26_interspeech.pdf
 session: Acoustic Event Detection 3
-topics: [keyword-spotting, speech-enhancement, evaluation]
+topics: [speech-enhancement, keyword-spotting, on-device]
 code:
     url: https://github.com/Ramakrishna-Chaitanya/QuadVAD-Interspeech2026
     license: ""

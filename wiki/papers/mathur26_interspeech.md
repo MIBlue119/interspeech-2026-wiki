@@ -1,29 +1,64 @@
 ---
 id: mathur26_interspeech
 category: tts
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2805
 pdf: https://www.isca-archive.org/interspeech_2026/mathur26_interspeech.pdf
 ---
 
 # How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech
 
+*Nityanand Mathur, Hamees Sayed, Wasim Madha, Apoorv Singh, Sameer Khurana, Akshat Mandloi, Sudarshan Kamath*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/mathur26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mathur26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2805)
 
-**TL;DR** — This paper adapts diffusion-based cross-attention attribution (DAAM) to text-to-speech models, revealing that natural language style captions act as global temporal modulators that follow a coarse-to-fine generation schedule.
+**TL;DR** — This paper adapts the Diffusion Attentive Attribution Maps (DAAM) framework to analyze how natural language style captions control speech diffusion models, revealing that style tokens act as global modulators with low temporal variance, peak in early ODE steps and deep transformer layers, and correlate with acoustic features like F0 and energy.
+
+## Key contributions
+
+- First cross-attention attribution analysis for text-to-speech, extracting per-token temporal heatmaps across 25 transformer layers and 24 ODE steps over 3,600 combinations.
+- Global-vs-local analysis proving style tokens exhibit significantly lower temporal variance (p < 10^-43, d = -1.16) than content and function tokens.
+- Acoustic grounding analysis demonstrating strong semantic coherence between style attention and acoustic properties (e.g., 'loud' vs. energy with r = +0.64).
+- Layer-step dynamics study revealing a coarse-to-fine schedule where style importance peaks in early ODE steps (5.2x decay) and deepens through transformer layers.
 
 ## Problem
 
-Style-captioned text-to-speech systems use natural language to control voice properties, but the internal mechanisms of how individual caption words influence synthesized acoustic output remain completely unknown. Understanding this is vital for diagnosing failures, improving controllability, and moving beyond black-box generation. Existing interpretability tools like DAAM were built exclusively for text-to-image models and cannot directly handle speech's temporal structure or the interplay between global style and local phonemic content.
+While modern text-to-speech systems use natural language captions to control voice characteristics, how individual words influence acoustic output has remained unclear, hindering failure mode diagnosis and controllability. Prior interpretability methods like DAAM were restricted to text-to-image models like Stable Diffusion, and speech attention analysis was previously limited to alignment visualization in autoregressive models. Addressing this gap is critical because speech is inherently temporal and requires disentangling global style properties from local phonetic identities.
 
 ## Method
 
-The authors adapt Diffusion Attentive Attribution Maps (DAAM) to CapSpeech, a flow-matching text-to-speech model with a Diffusion Transformer (DiT) backbone containing 25 transformer layers, 24 ODE generation steps, a T5 caption encoder, a CLAP style tag encoder, and a HiFi-GAN vocoder. Forward hooks intercept multi-head cross-attention matrices across all layers and ODE steps during generation, averaging across heads and aggregating temporal heatmaps for each prompt token. Tokens are categorized into style adjectives (30 types), content nouns (20 types), and function words, and evaluated using temporal variance, peak-to-mean ratio, entropy, acoustic correlations with F0 and energy, and layer/step importance ratios across 3,500+ successful generations.
+The pipeline integrates a T5 caption encoder mapping style captions into embeddings and a CLAP encoder producing global style tag embeddings. These condition a flow-matching Diffusion Transformer (DiT) backbone comprising 25 layers that iteratively refine mel-spectrogram latents from Gaussian noise over 24 ODE steps via continuous normalizing flows. A HiFi-GAN vocoder then converts the refined mel-spectrogram into the output waveform.
+
+Forward hooks intercept multi-head cross-attention tensors across all 25 layers and 24 ODE steps, capturing 600 attention matrices per generation. These are averaged across heads and aggregated into per-token temporal heatmaps. Tokens are classified into style adjectives, content nouns, and function words. Metrics including temporal variance, peak-to-mean ratio (PMR), temporal entropy, Pearson correlations with interpolated F0 and energy contours, and layer-step importance ratios are calculated across 3,520 successful generations.
+
+## Experimental setup
+
+The study evaluated 3,600 style-caption and text-transcript combinations generated by systematically combining 30 style adjectives and 20 content nouns across 6 templates, paired with 30 diverse text transcripts. After filtering out 80 duration estimation failures, 3,520 successful generations were analyzed, spanning 54,880 token instances and 2,112,000 captured attention matrices. Evaluations used extracted frame-level F0 via the pYIN algorithm (50–600 Hz) and RMS energy, alongside non-parametric Mann-Whitney U tests and Cohen's d effect sizes.
 
 ## Results
 
-Evaluating 3,520 successful generations out of 3,600 combinations across 54,880 token instances and over 2.1 million attention matrices, style tokens exhibit significantly lower temporal variance (σ̄² = 2.1 × 10^-5) than content tokens (7.0 × 10^-5, p < 10^-43, d = -1.16) and function tokens (19.2 × 10^-5, p < 10^-44), confirming global conditioning. Style token attention shows semantically coherent acoustic grounding with F0 (r̄ = +0.21) and energy (r̄ = +0.28), with specific words like 'loud' correlating strongly with energy (r = +0.64) and 'nasal' with energy (r = +0.67). Layer and step dynamics show that style importance peaks early in generation (ODE step 0, decaying 5.2× by step 23) and deepens through transformer layers (peaking at layer 17), while attention entropy minimizes at layer 18 to coincide with maximal network selectivity.
+Style tokens exhibited the lowest temporal variance (mean 2.1 x 10^-5) compared to content tokens (7.0 x 10^-5; p < 10^-43, d = -1.16) and function tokens (19.2 x 10^-5; p < 10^-44, d = -0.72), confirming global conditioning. Style tokens showed higher PMR (1.74) than content (1.48) and function (1.36) tokens, indicating compact, characteristic attention signatures. In acoustic correlations, style tokens showed moderate positive correlations with F0 (mean r = +0.21) and energy (mean r = +0.28), with specific semantic matches such as 'loud' correlating strongly with energy (r = +0.64) and 'nasal' with energy (r = +0.67).
+
+Layer and step dynamics showed style importance peaking at layer 17 (I_sty = 0.034) with a late-to-early ratio of 1.28, while content peaked at layer 22. ODE step dynamics revealed style importance highest at step 0 (I_sty = 0.053) decaying 5.2x to step 23, whereas function token importance increased from step 0 to step 23 (0.84x decay). Layer entropy reached its minimum at layer 18 (8.54 bits), co-occurring with the style importance peak to show maximal network selectivity.
+
+| Category / Token | Temporal Variance (sigma^2 x 10^-5) | Peak-to-Mean Ratio (PMR) | Mean Corr. F0 (r) | Mean Corr. Energy (r) |
+|---|---|---|---|---|
+| Style (Category) | 2.1 +/- 2.2 | 1.74 +/- 0.48 | +0.21 | +0.28 |
+| Content (Category) | 7.0 +/- 5.6 | 1.48 +/- 0.30 | +0.50 | +0.54 |
+| Function (Category)| 19.2 +/- 33.5 | 1.36 +/- 0.43 | +0.11 | +0.09 |
+| 'loud' (Style) | 6.3 | — | +0.49 | +0.64 |
+| 'nasal' (Style) | 4.2 | — | +0.41 | +0.67 |
+| 'deep' (Style) | 1.1 | — | — | — |
+
+## Limitations
+
+The analysis is restricted to a single architecture (CapSpeech) and synthetic prompts constructed from a fixed set of 30 style words. The evaluation relies on synthesized variations rather than naturally occurring user prompts from open-ended deployments. Furthermore, the work lacks causal interventions via attention editing and per-head specialization breakdowns.
+
+## Why read this
+
+Speech and ML researchers studying generative audio modeling will learn how natural language style instructions physically govern diffusion-based synthesis. It provides a blueprint for adapting image-domain attribution methods (DAAM) to temporal speech audio pipelines.
 
 ## Code
 
@@ -31,11 +66,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech and machine learning engineers developing or auditing expressive, natural-language-controlled text-to-speech systems for failure diagnosis, model debugging, and enhanced controllability.
-
-## Limitations
-
-The study is restricted to a single text-to-speech architecture (CapSpeech) and synthetic prompts constructed from a limited set of 30 style words.
+Diagnosing failure modes and improving controllability in style-conditioned text-to-speech systems, and guiding the design of more interpretable generative voice models.
 
 ## Related
 

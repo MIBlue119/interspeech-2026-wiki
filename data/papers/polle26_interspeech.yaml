@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-2993
 isca_url: https://www.isca-archive.org/interspeech_2026/polle26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/polle26_interspeech.pdf
 session: Multilingual and Cross-Lingual Paralinguistic Analysis and Processing
-topics: [voice-conversion, paralinguistic, health]
+topics: [paralinguistics, emotion-recognition, low-resource]
 code:
     url: ""
     license: ""

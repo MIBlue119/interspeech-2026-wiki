@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-3486
 isca_url: https://www.isca-archive.org/interspeech_2026/park26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26l_interspeech.pdf
 session: Self-supervised Speech Representation Learning
-topics: [speech-emotion-recognition, speech-llm, evaluation]
+topics: [speech-emotion-recognition, self-supervised, paralinguistics]
 code:
     url: ""
     license: ""

@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-360
 isca_url: https://www.isca-archive.org/interspeech_2026/nakagome26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/nakagome26_interspeech.pdf
 session: Acoustic Event Detection 2
-topics: [asr, self-supervised, evaluation]
+topics: [self-supervised, multilingual, evaluation]
 code:
     url: ""
     license: ""

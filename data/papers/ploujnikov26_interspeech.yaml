@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2784
 isca_url: https://www.isca-archive.org/interspeech_2026/ploujnikov26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ploujnikov26_interspeech.pdf
 session: Audio Language Models
-topics: [tts, asr, speech-llm]
+topics: [tts, asr, self-supervised]
 code:
     url: https://speechbrain.github.io/
     license: ""

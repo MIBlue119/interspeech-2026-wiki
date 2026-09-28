@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-2734
 isca_url: https://www.isca-archive.org/interspeech_2026/mcauliffe26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mcauliffe26_interspeech.pdf
 session: Speech Representations and Alignment
-topics: [phonetics, evaluation, dataset]
+topics: [asr, phonetics, dataset]
 code:
-    url: ""
+    url: https://github.com/MontrealCorpusTools/mfa-interspeech2026
     license: ""
 open_to_collaboration: false

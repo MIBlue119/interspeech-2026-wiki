@@ -1,29 +1,60 @@
 ---
 id: pieniazek26_interspeech
-category: health
-updated: 2026-09-28
+category: paralinguistics
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2624
 pdf: https://www.isca-archive.org/interspeech_2026/pieniazek26_interspeech.pdf
 ---
 
 # Detection of Incorrect Place of Articulation in Polish Sibilants Using Convolutional Autoencoders
 
+*Wojciech Pieniążek, Oliwia Skórzewska, Maria Filipek, Zuzanna Miodońska*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/pieniazek26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pieniazek26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2624)
 
-**TL;DR** — This study proposes combining convolutional autoencoders with support vector machines to automatically detect incorrect place of articulation in Polish sibilants from child speech, achieving sensitivities up to 84.32%.
+**TL;DR** — This paper proposes a convolutional autoencoder framework combined with support vector machines to detect incorrect place of articulation in children's Polish sibilant productions, achieving up to 84.32% sensitivity.
+
+## Key contributions
+
+- Evaluated three convolutional autoencoder variants (classical, sparse with KL-divergence, and multi-task) for feature extraction in pediatric speech disorder detection.
+- Investigated speaker-independent classification of place of articulation errors for Polish retroflex sibilants (/ù/ and /t͡ʂù/) in 4-to-8-year-old children.
+- Demonstrated that multi-task autoencoders (MTCAE) and sparse autoencoders (SCAE) outperform traditional MFCC-SVM baselines and classical autoencoders in pathology sensitivity.
+- Provided a systematic analysis of latent space dimensions and SVM hyperparameter configurations using 10-fold cross-validation.
 
 ## Problem
 
-Incorrect articulation of sibilant consonants is one of the most common speech disorders in children (dyslalia/sigmatism), and effective treatment relies on early diagnosis. However, timely clinical assessment is often constrained by a shortage of speech-language pathologists, making automated diagnostic tools crucial. Child speech is particularly challenging to model automatically due to its high acoustic variability, developmental instability, and low data repeatability.
+Effective treatment of sibilant articulation disorders in young children depends on early and accurate diagnosis, but timely assessment is severely hindered by a shortage of speech-language pathologists. Traditional machine learning methods rely on handcrafted acoustic features (like MFCCs) feeding Support Vector Machines, which often fail to capture complex spectral anomalies in highly variable and developmentally unstable children's speech. While end-to-end deep convolutional networks exist, they struggle with small or heavily imbalanced datasets, making robust automated pediatric speech screening an open challenge.
 
 ## Method
 
-The system extracts time-frequency spectrograms from isolated sibilant productions (/ʂ/ and /tʂ/) using a 20 ms Hamming window with 50% overlap, resized to 64x64 pixels. It evaluates three variants of convolutional autoencoders (CAEs): a classical CAE, a sparse CAE (SCAE) using Kullback-Leibler divergence regularization, and a multi-task CAE (MTCAE) with an auxiliary cross-entropy classification objective attached to the bottleneck layer. The encoder compresses input into a latent vector of variable dimensionality (d in {10, 13, 16, 20, 30}). Extracted latent representations are classified using a support vector machine (SVM) with a radial basis function kernel, trained with class weighting and evaluated via speaker-independent 10-fold cross-validation.
+The system processes isolated sibilant phonemes manually segmented from recordings captured via a close-microphone setup (Panasonic WM-61, 44.1 kHz, 16-bit). Audio is amplitude-normalized, converted to spectrograms via a 20 ms Hamming window with 50% overlap, and resized to 64x64 pixels. Three convolutional autoencoder (CAE) variants are evaluated: a classical CAE, a Sparse CAE (SCAE) incorporating Kullback-Leibler divergence regularization to enforce neuron sparsity, and a Multi-Task CAE (MTCAE) with an auxiliary cross-entropy classification head attached to the bottleneck layer. All variants use Mean Squared Error (MSE) reconstruction loss.
+
+The encoder compresses inputs into a bottleneck latent vector of dimension d in {10, 13, 16, 20, 30}. Latent representations are subsequently classified using an SVM with a Radial Basis Function (RBF) kernel, where regularization parameter C and kernel width gamma are optimized via grid search over {0.001, 0.005, ..., 1500}. Class weighting is applied to address severe class imbalance, and a strict speaker-independent 10-fold cross-validation scheme ensures that all productions from a given speaker reside exclusively in either training or testing folds.
+
+## Experimental setup
+
+The dataset contains children aged 4-8 years: 1,414 retroflex and 332 dental productions from 149 speakers for /ù/, and 484 retroflex and 102 dental productions from 151 speakers for /t͡ʂù/. Models are compared against prior MFCC-based SVM pipelines and standard ResNet-style architectures. Metrics include sensitivity (prioritized for pathology detection) and overall accuracy, validated using the non-parametric Kruskal-Wallis test.
 
 ## Results
 
-Tested on a corpus of children aged 4–8 years comprising 1,746 productions for /ʂ/ (1414 retroflex, 332 dental) and 586 productions for /tʂ/ (484 retroflex, 102 dental). The best-performing models relied on multi-task learning (MTCAE), achieving sensitivities up to 84.32% for /ʂ/ (with 72.68% overall accuracy) and 84.31% for /tʂ/. Non-parametric Kruskal-Wallis testing confirmed that the autoencoder variant significantly influenced prediction quality, with unsupervised and sparse autoencoders proving less effective than multi-task objectives for the affricate sound.
+The top-performing MTCAE model achieved a maximum sensitivity of 84.31% with 72.68% accuracy for /ù/, and 84.31% sensitivity with 70.31% accuracy for /t͡ʂù/. For /ù/, SCAE delivered more consistent high sensitivity across hyperparameter settings, whereas MTCAE demonstrated clear superiority for /t͡ʂù/ in both sensitivity and accuracy. Compared to prior MFCC-SVM baselines (71.58% sensitivity) and ResNet binary classifiers (~80%), the proposed latent space representations improved pathological case detection.
+
+| System / Condition | Sensitivity (%) | Accuracy (%) | Latent Dim (d) |
+|---|---|---|---|
+| MTCAE (/ù/) | 84.31 | 72.68 | 30 |
+| MTCAE (/t͡ʂù/) | 84.31 | 70.31 | 16 |
+| SCAE (/ù/) | 79.82 | 65.81 | 16 |
+| CAE (/ù/) | 78.92 | 86.08 | 20 |
+
+## Limitations
+
+The study is constrained by a relatively small and class-imbalanced dataset containing substantially fewer pathological samples than normative ones. Resizing spectrograms to a low 64x64 resolution risks discarding critical high-frequency spectral details necessary for sibilant differentiation. Furthermore, the evaluation is limited to a single language (Polish) and specific sibilant phonemes.
+
+## Why read this
+
+Researchers building computational tools for pediatric speech therapy or low-resource clinical diagnostics should read this paper to see how unsupervised and multi-task representation learning can be leveraged with SVM classifiers to handle highly variable child speech data.
 
 ## Code
 
@@ -31,11 +62,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech-language pathologists and computer-assisted speech therapy systems use this technology for automated screening and diagnosis of pediatric articulation disorders.
-
-## Limitations
-
-The study is restricted to two specific Polish sibilant phonemes (/ʂ/ and /tʂ/) and two place of articulation categories (retroflex versus dental), excluding less frequent articulation variants.
+Automated speech-language pathology screening tools, computer-aided pronunciation training (CAPT) systems for children, and clinical diagnostic assistants.
 
 ## Related
 

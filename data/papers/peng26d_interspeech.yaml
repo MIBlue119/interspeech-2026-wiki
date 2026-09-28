@@ -20,7 +20,7 @@ doi: 10.21437/Interspeech.2026-1055
 isca_url: https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.pdf
 session: Spoken Language Understanding
-topics: [spoken-language-understanding, speech-llm, dataset]
+topics: [speech-llm, spoken-language-understanding, dataset]
 code:
     url: https://github.com/Gatsby-web/MAC_SLU
     license: ""

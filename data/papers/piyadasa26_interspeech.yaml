@@ -17,7 +17,7 @@ doi: 10.21437/Interspeech.2026-1890
 isca_url: https://www.isca-archive.org/interspeech_2026/piyadasa26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/piyadasa26_interspeech.pdf
 session: Methods and Data for Vocal Tract Shape and Articulation Analysis
-topics: [phonetics, evaluation]
+topics: [phonetics, evaluation, dataset]
 code:
     url: https://github.com/TharindaDilshan/vocal-tract-acoustics-comsol-fem
     license: ""

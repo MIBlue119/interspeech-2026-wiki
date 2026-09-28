@@ -1,41 +1,63 @@
 ---
 id: mehlman26_interspeech
 category: paralinguistics
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2851
 pdf: https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.pdf
 ---
 
 # Speech Entrainment in Multi-Party Conversations with a Digital Agent
 
+*Nicholas Mehlman, Kaitlin Zareno, Kleanthis Avramidis, Anfeng Xu, Shrikanth Narayanan*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2851)
 
-**TL;DR** — This paper analyzes local and global conversational entrainment in a novel dataset of multi-party human groups interacting with an animated digital agent, revealing that humans entrain strongly with each other but display limited entrainment toward the non-human agent.
+**TL;DR** — This paper investigates conversational entrainment in a multi-party setting involving humans and a digital agent, revealing that while adults show robust local human-to-human entrainment, global entrainment and entrainment with the agent are minimal and cohort-dependent. Only children demonstrate long-term semantic entrainment toward the digital agent.
+
+## Key contributions
+
+- Collected and analyzed a unique dataset of multi-party conversations (adult cohorts and parent/child family cohorts) interacting with an animated digital agent using a Wizard of Oz setup.
+- Formulated and tested two temporal hypotheses of conversational entrainment: local (within-turn style alignment) and global (long-term session convergence).
+- Evaluated a comprehensive suite of representations spanning handcrafted acoustic features (RMS amplitude, PESTO pitch), emotion models (VoxProfile), and speech foundation models (Whisper-base, Moshi/Mimi).
+- Discovered that adults exhibit strong local entrainment across almost all speech features, whereas children primarily track high-level emotional and semantic cues rather than pitch or amplitude.
 
 ## Problem
 
-Prior conversational entrainment research has been almost exclusively limited to dyadic human-to-human interactions. As voice-based AI and digital agents increasingly participate in complex multi-party and multi-age settings, it is critical to understand how non-human participants modulate conversational dynamics. Without this knowledge, designing agents that effectively build rapport and communicate smoothly across diverse cohorts remains challenging.
+Prior research on conversational entrainment has been predominantly restricted to dyadic human-to-human interactions, ignoring how speech style adaptation functions in complex multi-party environments or when non-human digital agents participate. Existing studies typically look at isolated features or single conversational timescales, leaving a gap in understanding how age (e.g., adults versus children) and interaction structure modulate entrainment. This matters because voice-based AI is increasingly entering multi-user contexts, and designing effective, natural conversational agents requires knowing whether and how humans adapt their speech when interacting alongside them.
 
 ## Method
 
-The authors collected a novel dataset comprising 30 adult sessions (337.6 minutes total) and 28 family sessions with children aged 8-14 (65.9 minutes total) engaging in 8-12 minute multi-party conversations (2-6 speakers) with an animated digital agent using a Wizard-of-Oz setup. They analyzed entrainment across both timescales (local turn-level vs. global session-level) and interaction modes (participant-to-participant, child-to-guardian, and participant-to-agent). Features extracted include handcrafted acoustic properties (RMS amplitude via root-mean-square, pitch/F0 via PESTO, and emotion arousal/valence/dominance via VoxProfile) alongside deep learning representations from speech foundation models (VoxProfile emotion model embeddings, Whisper-base encoder embeddings, and Mimi neural codec latent embeddings). Mixed-effects regression models with speaker-pair random intercepts were used to quantify entrainment effects, applying Bonferroni corrections for multiple testing.
+The authors collected 30 adult sessions and 10 family sessions (children aged 8-14) where participants engaged in 8-12 minute multi-party conversations with a digital agent acting as an alien with nefarious plans. The agent's utterances were triggered via a Wizard of Oz setup using a dialog tree, and single-channel beamformed audio was segmented per speaker with non-speech intervals replaced by silence. Conversations were partitioned into turns consisting of an agent prompt followed by participant responses.
+
+To analyze entrainment, features were extracted across three tiers: (1) handcrafted amplitude (frame-level RMS statistics: mean, std, min, max, range) and pitch features using PESTO; (2) emotion values (arousal, valence, dominance) and penultimate layer embeddings from VoxProfile (averaging Whisper- and WavLM-based models); and (3) speech foundation models, extracting encoder representations from Whisper-base (averaged across time for semantic attributes) and Mimi/Moshi neural codecs sampled at 24 kHz (averaged across time for phonetic attributes). 
+
+Two interaction timescales were modeled using mixed-effects regression models with random intercepts for each session/speaker-pair combination. Local entrainment tested if within-turn feature differences were significantly smaller than cross-turn differences (measured by coefficient gamma). Global entrainment tested whether feature differences in the final 5 turns were smaller than in the first 5 turns, or specifically evaluated children-to-agent (C2A) shifts over time. Bonferroni corrections were applied within feature categories to control for multiple testing.
+
+## Experimental setup
+
+The dataset comprises 30 adult sessions (median 24.5 turns/session, total 337.61 minutes, 2-6 speakers) and 10 family sessions with children aged 8-14 (median 28 turns/session, total 65.88 minutes, 2-3 speakers). The evaluation relies on mixed-effects regression coefficients (gamma) and p-values corrected via the Bonferroni method across handcrafted amplitude, pitch, emotion, and foundation model (Whisper, Mimi) distance metrics ($L_2$ and cosine distance). Notable implementation details include open-source models (PESTO, VoxProfile, Whisper-base, Moshi/Mimi codec) and statistical modeling of paired utterance differences.
 
 ## Results
 
-Adults exhibited robust local participant-to-participant entrainment across nearly all features, including amplitude, pitch, emotion, and deep learning embeddings (p < 0.0001). Family sessions showed no local amplitude or pitch entrainment, but did demonstrate significant local emotional and foundation-model embedding entrainment between participants and within child-guardian pairs. Crucially, neither adults nor families showed significant local or global entrainment toward the digital agent. Post-interaction surveys indicated that 70% of adults perceived good group rapport and 62% felt in sync, confirming that humans distinguish non-human agents from human interlocutors during rapport-building.
-
-## Code
-
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
-
-## Applications
-
-Engineers and researchers designing social conversational agents, multi-party dialogue systems, and educational or tutoring technologies for mixed-age or family environments.
+Adult participants exhibited strong local entrainment (P2P), showing statistically significant within-turn convergence across amplitude means (gamma = -0.0091, p < 0.0001), pitch range (gamma = -81.736, p = 0.0047), emotional arousal/dominance, and deep learning embeddings (Whisper cosine distance gamma = -0.0134, p < 0.0001; Mimi cosine distance gamma = -0.0287, p < 0.0001). Families showed no local amplitude or pitch entrainment, but did exhibit local emotional and deep learning feature alignment between humans (P2P) and between children and guardians (C2G, e.g., emotion cosine distance gamma = -0.0557, p = 0.0055). Globally, adult P2P entrainment was minimal, restricted to mean pitch and Mimi phonetic embeddings, while family P2P global entrainment was non-existent. Notably, children showed global semantic entrainment to the digital agent (C2A Whisper cosine distance gamma = -0.0189, p = 0.0330), though their amplitude metrics increased over time (gamma > 0), reflecting growing confidence rather than true acoustic entrainment.
 
 ## Limitations
 
-The dataset scope is restricted to English-speaking participants in a controlled Wizard-of-Oz scenario featuring an alien persona, which may bias user accommodation behaviors.
+The study is constrained by a modest sample size, particularly in the family cohort (only 10 sessions), which limits statistical power for detecting subtle global entrainment effects. The interaction paradigm was highly structured and hierarchical, with the agent acting exclusively in an interviewing role, restricting generalization to spontaneous, unconstrained multi-party conversations. Furthermore, pre-experiment familiarity (adults spending ~10 minutes together before recording and families traveling together) likely induced baseline synchrony that masked global entrainment trends.
+
+## Why read this
+
+Speech and ML researchers designing multi-party conversational AI agents should read this paper to understand how human-agent entrainment deviates from human-human baselines and varies across age groups. It provides concrete statistical evidence that users do not instinctively entrain acoustically with digital agents, and highlights how children interact with non-human interlocutors over time.
+
+## Code
+
+- https://github.com/kyutai-labs/moshiko-pytorch-bf16
+
+## Applications
+
+Designing multi-party conversational virtual assistants, social robots, educational digital tutors, and interactive family-oriented entertainment systems.
 
 ## Related
 

@@ -1,29 +1,62 @@
 ---
 id: peng26d_interspeech
-category: spoken-language-understanding
-updated: 2026-09-28
+category: speech-llm
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1055
 pdf: https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.pdf
 ---
 
 # MAC-SLU: Multi-Intent Automotive Cabin Spoken Language Understanding Benchmark
 
+*Yuezhang Peng, Chonghao Cai, Ziang Liu, Shuai Fan, Sheng Jiang, Hua Xu, Yuxin Liu, Sheng Wang, Qiguang Chen, Yao Li, Kele Xu, Kai Yu, Libo Qin, Xie Chen*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1055)
 
-**TL;DR** — This paper introduces MAC-SLU, a Chinese multi-intent spoken language understanding dataset for automotive cabins, and benchmarks state-of-the-art LLMs and LALMs, showing that end-to-end models match pipeline approaches by avoiding ASR error propagation.
+**TL;DR** — The paper introduces MAC-SLU, a Chinese multi-intent spoken language understanding benchmark for automotive cabins, and evaluates various large language and audio-language models using in-context learning, supervised fine-tuning, and end-to-end paradigms.
+
+## Key contributions
+
+- Introduces MAC-SLU, a Chinese multi-intent SLU dataset featuring 8 domains, 81 intents, 192 slots, and complex multi-intent queries up to 5 intents.
+- Establishes a unified evaluation benchmark for SOTA open-source and closed-source LLMs and LALMs across direct inference, ICL, and SFT paradigms.
+- Demonstrates that end-to-end LALMs match or exceed pipeline approaches by eliminating ASR error propagation.
+- Identifies lexical variance penalties in exact-match evaluation metrics as a primary source of underestimation for model capabilities.
 
 ## Problem
 
-Existing spoken language understanding datasets are heavily limited in task diversity, semantic complexity, and scale, frequently containing only single-intent samples or simple domains where models easily exceed 95% accuracy. Furthermore, the community lacks a unified benchmarking framework to fairly compare open-source large language models and large audio-language models across direct inference, in-context learning, and fine-tuning paradigms. This lack of rigorous testbeds prevents proper evaluation of how modern conversational models handle multi-intent extraction and slot filling in realistic acoustic environments.
+Traditional SLU datasets like ATIS and SNIPS are constrained by limited intent and slot categories, resulting in saturation where models exceed 95% accuracy. Meanwhile, datasets like SLURP lack multi-intent queries, and prior research lacks a unified benchmark standardizing prompts, data formats, and training methodologies across modern LLMs and LALMs. This lack of rigorous, complex testbeds hinders the development of robust spoken semantic extraction systems for interactive environments like automotive cabins.
 
 ## Method
 
-The authors construct MAC-SLU using over 20,000 de-identified real-world Chinese automotive cabin command texts paired with weakly labeled semantic parses, filtered down to 20,539 total samples across 8 domains, 81 intents, and 192 slots, featuring up to 5 intents per query and 28% rejection queries. Mandarin speech is synthesized using CosyVoice-2 with speaker embedding templates derived from AIShell-1 to protect privacy and maintain speaker isolation across splits. The test set comprises 1,152 human-curated clean samples. The study benchmarks multiple LLMs (Qwen3 series) and LALMs (Qwen2-Audio-Instruct, Qwen2.5-Omni, Phi-4-multimodal, MiniCPM-o2.6) using zero-shot inference, structured in-context learning prompts, and parameter-efficient supervised fine-tuning via LoRA (rank 16, alpha 32) implemented in Llama-Factory.
+The MAC-SLU corpus contains 20,539 samples (17,997 train, 1,391 dev, 1,152 clean test) derived from real automotive text commands and synthesized into Mandarin speech via CosyVoice-2 using speaker embeddings from AIShell-1. The evaluation framework tests open-source LLMs (Qwen3 series from 1.7B to 32B), pipeline setups pairing Whisper or Paraformer ASR with Qwen3 NLU decoders, and E2E Large Audio Language Models (Qwen2-Audio-Instruct, Qwen2.5-Omni, Phi-4-multimodal, MiniCPM-o-2.6) alongside closed-source APIs (GPT-4o-Audio, Gemini-2.5-Flash).
+
+Supervised fine-tuning (SFT) is performed using the Llama-Factory framework with the LoRA parameter-efficient technique (rank 16, alpha 32) on Nvidia 3090 GPUs. In-context learning (ICL) and zero-shot evaluations are conducted on Nvidia H20 GPUs with vLLM acceleration using structured system prompts that enforce strict matching against predefined domain-intent and slot lists to parse complex, multi-intent semantic frames.
+
+## Experimental setup
+
+Evaluated on the MAC-SLU dataset comprising 20,539 total samples across 8 domains (including car control, navigation, music, phone calls, weather). Baselines include pipeline systems combining Whisper-LargeV3-Turbo (CER 10.40%) or Paraformer (CER 3.64%) with Qwen3 LLMs, alongside zero-shot/ICL/SFT variants of Qwen3, Qwen2.5-Omni, Phi-4-multimodal, and MiniCPM-o-2.6. Metrics include Intent Classification (IC) Accuracy, Slot Filling (SF) F1-score, and Overall Accuracy (OA) where both IC and SF must be correct.
 
 ## Results
 
-Evaluated on the MAC-SLU test set using Intent Classification accuracy (IC Acc), Slot Filling F1 score (SF F1), and Overall Accuracy (OA), models are compared against pipeline configurations utilizing ASR front-ends like Whisper-LargeV3-Turbo (CER 10.40%) and Paraformer (CER 3.64%). While zero-shot in-context learning enables models to capture basic intents, it yields low overall accuracy below 15% despite structured prompting. Supervised fine-tuning drastically improves performance; for instance, fine-tuning Qwen2.5-Omni-7B increases IC accuracy by 29%, SF F1 by 39%, and overall accuracy by 47% over in-context learning. End-to-end LALMs achieve performance comparable to pipeline approaches because they bypass ASR transcription error propagation, though pipeline text-only models still achieve the highest upper-bound scores when given perfect ground-truth transcriptions.
+For in-context learning with 10-shot prompting, Qwen3-32B achieves the highest text ICL performance with 70.37% IC Accuracy, 55.09% SF F1, and 14.42% Overall Accuracy. In end-to-end speech evaluation under ICL, GPT-4o-Audio leads with 55.92% IC Accuracy, 46.45% SF F1, and 12.21% Overall Accuracy. Under SFT, text-based Qwen3-8B reaches 90.91% IC, 84.69% SF F1, and 60.73% Overall Accuracy, which degrades significantly by over 13% when coupled with Paraformer transcriptions and over 25% with Whisper transcripts due to ASR error propagation. End-to-end SFT models like Qwen2.5-Omni-7B achieve 91.24% IC, 83.02% SF F1, and 55.60% Overall Accuracy, outperforming pipeline setups that rely on error-prone ASR text inputs.
+
+| System / Condition | IC Accuracy (%) | SF F1-Score (%) | Overall Accuracy (%) |
+|---|---|---|---|
+| Qwen3-8B (Text SFT) | 90.91 | 84.69 | 60.73 |
+| Paraformer + Qwen3-8B (Pipeline SFT) | 88.92 | 79.09 | 47.18 |
+| Whisper + Qwen3-8B (Pipeline SFT) | 82.42 | 70.58 | 35.45 |
+| Qwen2.5-Omni-7B (E2E SFT) | 91.24 | 83.02 | 55.60 |
+| MiniCPM-o-2.6 (E2E SFT) | 88.98 | 81.26 | 51.87 |
+| Phi-4-Multimodal (E2E SFT) | 81.69 | 74.12 | 37.97 |
+
+## Limitations
+
+The benchmark relies on TTS-synthesized speech rather than natural acoustic recordings, which may limit the direct transferability of acoustic robustness findings to real-world noisy vehicle interiors. The dataset scope is restricted to Mandarin Chinese within the automotive cabin domain, excluding multilingual variations and other acoustic environments. Furthermore, evaluation relies on exact string matching metrics, which penalize semantically correct paraphrases and lexical variations.
+
+## Why read this
+
+Speech and ML researchers focusing on spoken language understanding or large audio-language models should read this paper to understand the limits of zero-shot in-context learning versus supervised fine-tuning on complex multi-intent tasks.
 
 ## Code
 
@@ -31,11 +64,7 @@ Evaluated on the MAC-SLU test set using Intent Classification accuracy (IC Acc),
 
 ## Applications
 
-Speech and machine learning engineers developing voice assistants, in-car infotainment controls, and task-oriented dialogue systems can use this benchmark and dataset to evaluate multi-intent spoken language understanding models.
-
-## Limitations
-
-The dataset scope is restricted to the automotive cabin domain and Mandarin language, and relies on text-to-speech synthesis rather than natural acoustic recordings to preserve user privacy.
+Automotive voice assistants, in-car infotainment control systems, and task-oriented multi-intent conversational dialogue agents.
 
 ## Related
 

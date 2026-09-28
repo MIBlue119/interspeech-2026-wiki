@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-1873
 isca_url: https://www.isca-archive.org/interspeech_2026/moumen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/moumen26_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
-topics: [asr, speech-translation, speech-llm]
+topics: [speech-llm, asr, speech-translation]
 code:
-    url: ""
+    url: https://github.com/speechbrain/speechbrain
     license: ""
 open_to_collaboration: false

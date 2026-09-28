@@ -3,27 +3,53 @@ id: penney26_interspeech
 category: phonetics
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2610
 pdf: https://www.isca-archive.org/interspeech_2026/penney26_interspeech.pdf
 ---
 
 # Achieving voicelessness in coda stop contexts: Insights from combined electroglottography and laryngoscopy
 
+*Joshua Penney, Jae Hyun Kim, Dijana Dragicevich, Prue Gourley*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/penney26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/penney26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2610)
 
-**TL;DR** — This study combines electroglottography and laryngoscopy to demonstrate that Australian English achieves voicelessness in coda stops via glottal constriction for /t/ and glottal spreading for /k/ in pre-sonorant environments, but relies on laryngeal constriction across all places of articulation in phrase-final position.
+**TL;DR** — By combining electroglottography (EGG) and flexible nasolaryngoscopy in Australian English, this study confirms that pre-sonorant voiceless coda /t/ uses glottal/laryngeal constriction while /k/ uses glottal spreading, whereas all phrase-final voiceless stops (/p, t, k/) exhibit glottal constriction.
+
+## Key contributions
+
+- Combined synchronous EGG and high-definition flexible nasolaryngoscopy to directly validate EGG-inferred glottal states during the production of Australian English voiceless coda stops.
+- Demonstrated that in pre-nasal positions, /t/ production is accompanied by sustained glottal and epilaryngeal constriction throughout the preceding vowel, whereas /k/ production exhibits progressive glottal spreading.
+- Revealed that in phrase-final position, voiceless stops across all places of articulation (/p, t, k/) consistently employ glottal/laryngeal constriction, challenging universal single-strategy accounts.
+- Identified methodological artifacts and data loss risks in multimodal laryngeal data collection involving crossed EGG and laryngoscope cabling.
 
 ## Problem
 
-Phonetic research often relies on indirect measures like electroglottography (EGG) to infer glottal states during stop production, leaving uncertainty about how accurately these electrical signals reflect actual laryngeal and supraglottal behaviour. Furthermore, little is known about how Australian English speakers coordinate laryngeal gestures to produce voicelessness in different coda contexts and prosodic positions. Resolving this gap is crucial for understanding the phonetic mechanisms driving cross-linguistic patterns of glottalisation and voice quality variation.
+Phonetic studies of voiceless coda stops often infer glottal states indirectly using electroglottography (EGG) via electrical impedance. However, EGG provides no direct visualization of supraglottal configurations (such as epilaryngeal constriction), leaving the physical alignment between inferred electrical contact metrics and actual laryngeal behaviour unverified. Furthermore, prior work offers conflicting accounts regarding whether place-of-articulation asymmetries in coda stop glottalisation generalize across prosodic contexts like phrase-final versus pre-sonorant environments.
 
 ## Method
 
-The authors conducted a controlled laboratory experiment capturing synchronised audio, EGG (using a Laryngograph EGG-D200 at a 48 kHz sample rate), and high-definition flexible nasolaryngoscopic video (at 25 frames per second) from three male L1 speakers of Australian English. Speakers produced words containing the high front vowel /i:/ followed by voiceless coda stops (/p, t, k/) in two prosodic contexts: single words in isolation (phrase-final) and carrier phrases with a following alveolar sonorant. Data processing involved force alignment via WebMaus, extraction of open quotient (OQ) trajectories using PraatDet with a hybrid EGG method, z-scoring within speaker, and qualitative LOESS smoothing alongside frame-by-frame visual inspection of laryngoscopic footage.
+Synchronised audio, 48 kHz EGG, and 25 fps high-definition flexible nasolaryngoscopic video data were captured using a Laryngograph EGG-D200 and a Pentax VNL11-J10 nasolaryngoscope. Three male L1 Australian English speakers produced target /VC/ syllables where V was the high front vowel /i:/ (chosen to minimize tongue root retraction/epiglottis obscuration) and C was a voiceless stop (/p, t, k/) in two contexts: word-in-isolation (final position) and followed by an alveolar nasal and high front vowel (pre-nasal position).
+
+Audio and EGG signals were force-aligned using WebMaus and analyzed via PraatDet to compute open quotient (OQ) values per glottal cycle using a hybrid method based on glottal closing instants (peak of the first derivative of the EGG signal) and glottal opening instants (amplitude falling below 25%). OQ trajectories across the second half of each target vowel were time-normalised, z-scored within speaker, and smoothed using LOESS with bootstrapped confidence intervals. Laryngoscopic video frames synchronized with audio were visually examined using custom MATLAB scripts to cross-verify glottal and supraglottal opening/constriction patterns against EGG-derived open quotient curves.
+
+## Experimental setup
+
+Data from 3 male L1 Australian English speakers (ages 25–45) after excluding 3 participants due to non-tolerance or impulse-like electrical signal interference from crossed EGG/laryngoscope cabling. Stimuli consisted of 3 repetitions of /i:p/, /i:t/, and /i:k/ tokens elicited in isolation (final position) and pre-nasal contexts. Analysis relied on descriptive qualitative evaluation of LOESS-smoothed OQ trajectories and frame-by-frame visual inspection of nasolaryngoscopic video.
 
 ## Results
 
-Analysis of open quotient trajectories and laryngoscopic images revealed that in pre-sonorant environments, OQ decreased prior to /t/ (indicating glottal and epilaryngeal constriction) but increased prior to /k/ (indicating glottal spreading and breathiness), with inconsistent patterns for /p/. In contrast, phrase-final position exhibited decreasing OQ and visible laryngeal constriction across all three places of articulation. Individual variability was observed, including occasional late-release patterns where constriction was maintained through most of the vowel before a rapid opening gesture. Due to data sparsity from a small participant sample (three speakers after filtering out technical artefacts), quantitative statistical analysis was not conducted.
+In pre-nasal position, OQ trajectories and laryngoscopic imaging showed a clear place-of-articulation split: vowels preceding /t/ exhibited decreasing OQ and sustained epilaryngeal constriction (indicating glottal/laryngeal constriction), whereas vowels preceding /k/ showed rising OQ and reduced epilaryngeal constriction (indicating glottal spreading). Bilabial stops /p/ showed intermediate, flat trajectories without a consistent pattern.
+
+In phrase-final position, EGG and laryngoscopy revealed converging patterns of glottal and laryngeal constriction preceding stops at all three places of articulation (/p, t, k/), though individual tokens occasionally displayed late spreading realisations characterized by a rapid release of constriction at the very end of the vowel boundary.
+
+## Limitations
+
+The study relies on a highly constrained laboratory setting with a very small sample size of three male speakers, entirely precluding robust quantitative statistical modeling. The pre-nasal environment introduced a homorganic following nasal for /t/ but not for /p/ or /k/, presenting a potential phonetic confound. Additionally, high front vowels were exclusively analyzed to optimize laryngeal visibility, limiting immediate generalizability to non-high vowel contexts.
+
+## Why read this
+
+Phoneticians and speech researchers studying voice quality, laryngeal articulation, and phonation-obstruent interactions should read this paper to see how direct nasolaryngoscopy validates or nuances electroglottographic inferences.
 
 ## Code
 
@@ -31,11 +57,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Phoneticians, speech scientists, and computational speech engineers modeling voice quality and physiological articulatory control can use these multimodal insights to improve acoustic-to-articulatory inversion and expressive text-to-speech synthesis.
-
-## Limitations
-
-The study uses a highly constrained laboratory task with a very small sample size of three male speakers and a restricted set of phonetic contexts, preventing broad statistical generalisation. Additionally, in the pre-sonorant condition, the following nasal was homorganic with /t/ but not /p/ or /k/, introducing a potential phonetic confound.
+Phonetic research, speech pathology, laryngeal physiology analysis, and multi-modal speech data acquisition methodology.
 
 ## Related
 

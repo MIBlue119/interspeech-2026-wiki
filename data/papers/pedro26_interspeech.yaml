@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-1324
 isca_url: https://www.isca-archive.org/interspeech_2026/pedro26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pedro26_interspeech.pdf
 session: Speech Production and Perception 1
-topics: [self-supervised, phonetics, dataset]
+topics: [self-supervised, multilingual, phonetics]
 code:
     url: ""
     license: ""

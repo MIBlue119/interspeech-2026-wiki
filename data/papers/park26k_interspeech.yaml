@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-3285
 isca_url: https://www.isca-archive.org/interspeech_2026/park26k_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26k_interspeech.pdf
 session: Singing Voice and Music Generation
-topics: [voice-conversion, evaluation, dataset]
+topics: [tts, speech-editing, self-supervised]
 code:
-    url: ""
+    url: https://cottonlove.github.io/MeloDISinger_demo/
     license: ""
 open_to_collaboration: false

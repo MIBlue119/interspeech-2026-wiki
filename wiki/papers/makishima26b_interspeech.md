@@ -1,6 +1,6 @@
 ---
 id: makishima26b_interspeech
-category: asr
+category: audio-visual-speech-recognition
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -14,45 +14,48 @@ pdf: https://www.isca-archive.org/interspeech_2026/makishima26b_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/makishima26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/makishima26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1592)
 
-**TL;DR** — This paper proposes an audio-visual speaker-attributed speech recognition (AVSASR) method that handles both on-screen and hidden/off-screen participants by introducing a dedicated [None] video token. The method achieves lower Visual Word Error Rates (VWER) and Visual Time Error Rates (VTER) in scenes with off-screen speakers compared to pipeline baselines and conventional forced-matching models.
+**TL;DR** — This paper proposes a unified audio-visual speaker-attributed speech recognition method that handles both on-screen and off-screen speakers in multi-talker conversations by introducing a dedicated [None] video token. It significantly outperforms conventional cascading and joint baselines in visual word and time error rates when off-screen participants are present.
 
 ## Key contributions
 
-- Introduces a specialized [None] video token within an autoregressive multi-talker AVSASR framework to represent speakers absent from the video feed, avoiding forced and erroneous visual associations.
-- Expands simulated multi-talker LRS3 training and evaluation datasets to incorporate arbitrary mixtures of on-screen and off-screen participants across two- and three-speaker conversations.
-- Formulates a joint audio-visual sequence modeling strategy supporting flexible combinations where each active speaker can be matched to any visible video track or designated as absent.
+- Introduces a special [None] video token into autoregressive sequence-to-sequence audio-visual multi-talker modeling to explicitly represent absent or occluded speakers.
+- Extends training and evaluation simulation datasets from LRS3 to incorporate arbitrary combinations of on-screen and off-screen participants.
+- Formulates a joint audio-visual speech recognition and active speaker tracking objective that prevents forced erroneous speaker-to-video assignments.
+- Demonstrates robust performance matching fully-visible specialized models when all speakers are on-screen while outperforming them when off-screen participants are included.
 
 ## Problem
 
-Real-world conversations often feature participants who are occluded, outside the camera frame, or missing due to privacy policies, making traditional audio-visual speech recognition (AVSR) and active speaker detection (ASD) impractical since they assume every speaker is always visible. Conventional AVSASR systems serialize transcripts with video tokens under the strict assumption that all speakers are present in the video tracks, forcing erroneous associations when hidden speakers talk. Prior systems either cannot process missing video tracks or rely on decoupled multi-stage pipelines (like AVSR combined with lip-moving detection), which suffer from error propagation and fail to jointly optimize alignment.
+Real-world conversations often feature participants whose faces are occluded or completely outside the camera's view due to camera framing or privacy concerns. Conventional audio-visual speaker-attributed speech recognition (AVSASR) models, such as prior joint attention frameworks, fundamentally assume that every speaker heard in the audio stream is always visible in the video. When forced to assign visible video tokens to off-screen voices, these traditional models make erroneous associations, severely degrading transcription and diarization performance.
 
 ## Method
 
-The model uses a speech encoder, a video encoder, and an autoregressive Transformer decoder to jointly predict multi-talker text tokens, start/end timestamps, and video attribution tokens in first-in, first-out order. The speech encoder processes 80-dimensional log-mel filterbank features through 1x1 convolutions, max pooling, depthwise convolutions, two 256-dim LSTM layers, and 8 Transformer encoder blocks (4 heads, 256-dim hidden, 1024-dim FFN). The video encoder uses MobileNetV3-Small operating on 96x96 grayscale mouth ROIs sampled at 5 fps with added Gaussian noise (std=0.05). 
+The proposed architecture utilizes an end-to-end Transformer-based encoder-decoder model that jointly predicts textual tokens, start/end timestamps, and video assignment tokens in a first-in, first-out autoregressive sequence. The audio branch processes 80-dimensional log mel-filterbank coefficients through an initial convolutional and LSTM front-end followed by an 8-layer Transformer encoder (256-dim, 4 attention heads). The visual branch processes 5 fps grayscale mouth crops (96x96 pixels) using a MobileNetV3-Small video encoder. These features are concatenated along the time axis using designated segment descriptors and passed into 2-layer Transformer encoder and decoder blocks. 
 
-Outputs from the speech and video encoders are concatenated along the time axis with segment indicator vectors and positional encodings, feeding into a 2-layer Transformer encoder and a 2-layer Transformer decoder. The target sequence serializes text tokens, timestamps, speaker-change tokens ([sep]), sentence ends ([eos]), and video source tokens. The video token set includes visible track indices {1, ..., I} plus the newly introduced [None] token, optimized via standard cross-entropy loss over all valid audio-visual combinations.
+The core modification is the inclusion of a [None] token within the video token set U, allowing the autoregressive decoder to designate that a transcribed utterance does not correspond to any visible video track. The training recipe enforces that each participant video can be assigned at most once per utterance group, while the [None] token can be assigned multiple times. Models are optimized using cross-entropy loss with RAdam, employing a pre-training strategy where models are first trained without off-screen speakers and subsequently fine-tuned with mixed on- and off-screen scenarios.
 
 ## Experimental setup
 
-Experiments use modified LRS3 dataset splits (pre-train, train-val, test) with non-overlapping speakers and longer audio clips. Two-speaker and three-speaker mixtures were simulated by mixing utterances at an average signal-to-interference ratio of ~0 dB. Models were compared against conventional multi-talker ASR, conventional multi-talker AVSASR (no [None] token), and a combined multi-talker AVSR + Lip Moving Detection (LMD) pipeline. Models were optimized using RAdam, pretraining first without off-screen speakers and then fine-tuning with off-screen data.
+Experiments are conducted on simulated 2-speaker and 3-speaker mixtures derived from the LRS3 dataset, featuring an average signal-to-interference ratio of 0 dB. Models are evaluated using Word Error Rate (WER), Visual Word Error Rate (VWER, measuring correctness of who spoke what), and Visual Time Error Rate (VTER, measuring correctness of who spoke when) with a 250 ms boundary tolerance. Baselines include conventional multi-talker ASR, conventional multi-talker AVSASR without the [None] token, and a pipelined combined system of multi-talker AVSR paired with a frame-wise Lip Moving Detection (LMD) classifier.
 
 ## Results
 
-In the 2-speaker setting with off-screen speakers included, the proposed method achieves a VWER of 30.4% and VTER of 3.5%, outperforming the AVSR + LMD baseline (VWER: 34.8%, VTER: 6.4%) and conventional AVSASR (VWER: 71.9%, VTER: 76.3%). When all speakers are on-screen, the proposed method maintains competitive performance (e.g., 2-speaker VWER of 27.9% vs. conventional AVSASR's 28.8%), proving it does not sacrifice on-screen accuracy to gain off-screen capability. Ablations demonstrate that fine-tuning from models pre-trained without off-screen data is crucial for stabilizing training under complex audio-visual combinations.
+When evaluated on 2-speaker mixtures containing off-screen speakers, the proposed method achieves a WER of 25.8%, a VWER of 30.4%, and a VTER of 3.5%, outperforming the conventional AVSASR model (which degrades to a VWER of 71.9%) and the AVSR + LMD combined system (VWER 34.8%, VTER 6.4%). When all speakers are on-screen, the proposed method achieves near-identical performance to the specialized on-screen-only conventional AVSASR (e.g., 2-speaker VWER of 27.9% vs 28.8%). 
 
-| System | 1-Spk Off-Screen VWER | 2-Spk Off-Screen VWER | 3-Spk Off-Screen VWER | 2-Spk On-Screen VWER |
+The primary limitation where the model struggles is handling complex audio-visual synchronization when the count of moving lips does not match the active utterance count in mixed on/off-screen environments.
+
+| System | 1-Spk Off-Screen VWER | 2-Spk Off-Screen VWER | 3-Spk Off-Screen VWER | 2-Spk Off-Screen VTER |
 |---|---|---|---|---|
-| Multi-talker AVSASR | 100.0% | 71.9% | 88.4% | 28.8% |
-| Multi-talker AVSR + LMD | 1.1% | 34.8% | 44.9% | 28.9% |
-| Proposed Method | 1.2% | 30.4% | 42.6% | 27.9% |
+| Conventional AVSASR | 100.0% | 71.9% | 88.4% | 76.3% |
+| AVSR + LMD | 18.2% | 34.8% | 44.9% | 6.4% |
+| Proposed Method | 18.4% | 30.4% | 42.6% | 3.5% |
 
 ## Limitations
 
-Evaluations rely on fully simulated multi-talker mixtures derived from single-talker LRS3 data rather than natural multi-party meeting recordings. Video is downsampled to 5 fps to manage memory, which discards rapid visual cues. Speaker association accuracy degrades in complex multi-speaker off-screen scenarios because relying purely on lip movement onset fails when multiple hidden participants converse simultaneously.
+The evaluation relies entirely on simulated multi-speaker mixtures derived from single-speaker LRS3 clips rather than natural multi-party meeting recordings. The video frame rate is restricted to 5 fps due to memory constraints, which potentially limits fine-grained lip movement analysis. Furthermore, performance drops when numerous off-screen speakers converse simultaneously due to the inherent ambiguity of audio-visual synchronization without direct visual cues.
 
 ## Why read this
 
-Speech and ML researchers working on multi-talker audio-visual pipelines should read this to understand how to gracefully handle unconstrained real-world environments where video coverage is partial or absent via a unified token-based approach.
+Speech and ML researchers building real-world multi-party meeting transcription systems where participants are frequently occluded or off-camera should read this paper to learn how to adapt joint audio-visual models using a simple yet effective null-token strategy.
 
 ## Code
 
@@ -60,7 +63,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Automated meeting transcription, customer service analytics, and multi-party video conferencing systems operating in environments with occluded or off-camera participants.
+Automated meeting transcription, multi-speaker conversational analysis, and smart-room video conferencing systems with partial camera visibility.
 
 ## Related
 

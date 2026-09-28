@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-763
 isca_url: https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.pdf
 session: Audio Foundation Models and Generation
-topics: [speech-llm, on-device, evaluation]
+topics: [speech-llm, on-device, low-resource]
 code:
     url: https://github.com/SamsungLabs/samsone
     license: ""

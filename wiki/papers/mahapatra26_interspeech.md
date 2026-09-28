@@ -1,6 +1,6 @@
 ---
 id: mahapatra26_interspeech
-category: self-supervised
+category: audio-deepfake
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -14,51 +14,49 @@ pdf: https://www.isca-archive.org/interspeech_2026/mahapatra26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mahapatra26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mahapatra26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-831)
 
-**TL;DR** — ProSDD is a two-stage speech deepfake detection framework that improves generalization to expressive and emotional attacks by incorporating supervised masked prediction of speaker-conditioned prosodic variations. It reduces the ASVspoof 2024 EER from 39.62% to 7.38% when trained on ASVspoof 2024.
+**TL;DR** — ProSDD is a two-stage speech deepfake detection framework that improves generalization to expressive and emotional attacks by incorporating supervised masked prediction of speaker-conditioned prosodic variation, reducing the ASVspoof 2024 EER from 39.62% to 7.38% when trained on ASVspoof 2024.
 
 ## Key contributions
 
-- Introduces ProSDD, a two-stage supervised masked prediction framework that structures SSL model representations through speaker-conditioned prosodic variation.
-- Demonstrates that learning structured prosodic variation exclusively from real speech prior to spoof classification significantly boosts cross-domain and expressive synthesis generalization.
-- Employs a lightweight classifier head to prove that performance gains stem from enriched backbone representations rather than complex classification architectures.
-- Releases the public code and implementation framework to support community reproducibility.
+- Introduces ProSDD, a two-stage training paradigm that structures self-supervised backbone representations using speaker-conditioned prosodic targets.
+- Proposes Stage I real-only prosodic pretraining to help models internalize natural prosodic variability before exposure to spoofed speech distributions.
+- Uses a two-pass Stage II training strategy combining spoof classification with an auxiliary supervised masked prediction objective.
+- Demonstrates massive cross-domain and cross-attack robustness on emotional/expressive datasets (EmoFake, EmoSpoof-TTS, ASVspoof 2024 Track 1) without complex classifier architectures.
 
 ## Problem
 
-Modern speech deepfake detection (SDD) systems achieve high accuracy on standard benchmarks like ASVspoof, but their performance catastrophically degrades when confronted with emotional, expressive, or out-of-distribution synthetic speech. Traditional fine-tuning relies solely on a binary classification objective over spoof-heavy datasets, which encourages models to learn superficial dataset-specific artifacts instead of true indicators of human speech. Because synthetic generators frequently contain subtle prosodic and temporal inconsistencies, human listeners detect fakes by recognizing deviations from internal models of natural prosodic variability. Existing detectors underutilize this perceptual cue, often treating prosody as a naive auxiliary input rather than using it to structurally reform the self-supervised learning backbone.
+Current speech deepfake detection (SDD) models driven purely by spoof-classification objectives tend to overfit to dataset-specific artifacts, causing severe performance degradation when evaluated on expressive, emotional, or unseen synthetic speech (such as EmoFake and ASVspoof 2024). While prior end-to-end models like RawNet2, AASIST, and SSL-based systems like XLSR-SLS excel on traditional static benchmarks, they lack robustness against distribution shifts in prosody. This paper addresses the gap by leveraging human perceptual intuition: humans detect fakes not by memorizing spoof artifacts, but by identifying deviations from the fundamental structure of authentic speech variability.
 
 ## Method
 
-ProSDD processes audio using a pretrained XLS-R backbone across a novel two-stage training scheme. In Stage I, the model undergoes supervised masked prediction on real speech only (LibriSpeech train-clean-100 and dev), explicitly encoding fine-grained prosodic targets combined with utterance-level speaker embeddings. The target representation is constructed by concatenating a 192-dimensional ECAPA-TDNN speaker vector (averaged and L2-normalized across speaker utterances) and a 256-dimensional frame-level prosodic embedding capturing pitch (F0), voice activity, and energy, yielding a 448-dimensional target vector per frame. Span masking is applied to latent features (length 8, probability 0.25), and a linear projection maps 1024-dimensional contextual embeddings to the target space, optimized via an InfoNCE contrastive loss utilizing 100 negatives (split evenly between intra-speaker/different-prosody and inter-speaker/same-prosody) with temperature tau = 0.07.
+ProSDD builds upon an XLS-R self-supervised backbone in two distinct training stages. In Stage I, the model is trained exclusively on bona fide speech (LibriSpeech train-clean-100) using a supervised masked prediction objective. The targets consist of a 448-dimensional joint embedding formed by concatenating a 192-dimensional utterance-level speaker embedding (averaged and L2-normalized from an ECAPA-TDNN model) and a 256-dimensional frame-level prosodic embedding capturing pitch (F0), voice activity, and energy. Span masking is applied to the latent representations with a length of 8 and a masking probability of 0.25, and an InfoNCE loss with temperature tau = 0.07 is optimized using 100 negatives split equally between intra-speaker (same speaker, different prosody) and inter-speaker samples.
 
-In Stage II, the Stage I weights initialize training on spoof detection datasets (ASVspoof 2019/2024) using a two-pass strategy per step. A masked pass computes the auxiliary supervised masked prediction loss (using a reduced masking probability of 0.15 and tau = 0.1), while an unmasked pass computes the weighted cross-entropy classification loss using mean-pooled temporal embeddings. The joint objective uses alpha = 1 for classification and a decaying beta schedule (0.2 for the first 4 epochs, then 0.05) for prosodic supervision. The classification head intentionally avoids complex attention modules, relying instead on a simple linear layer, dropout, ReLU activation, and a final linear layer.
+In Stage II, the backbone is initialized from Stage I weights and trained on spoof detection datasets (ASVspoof 2019/2024) using a two-pass training strategy per step: a masked pass computing the supervised prosodic loss, and an unmasked pass feeding time-mean-pooled contextual representations (1024-dimensional) through a lightweight classifier head (linear, dropout, ReLU, linear) to compute weighted cross-entropy loss. The overall Stage II objective combines the classification loss and the auxiliary masked prediction loss weighted by coefficients alpha = 1 and beta (set to 0.2 for the first 4 epochs, then reduced to 0.05). RawBoost (Method 3) data augmentation is applied during Stage II. During inference, only the XLS-R backbone and the lightweight classification head are executed.
 
 ## Experimental setup
 
-Experiments use LibriSpeech train-clean-100/dev for Stage I, and ASVspoof 2019 LA train/dev or ASVspoof 2024 train/dev for Stage II. Evaluation is conducted on standard benchmarks (ASVspoof 2019 LA, ASVspoof 2021 LA, ASVspoof 2024 Track 1) and emotional/expressive benchmarks (EmoFake and EmoSpoof-TTS). Baselines include RawNet2, AASIST, and XLSR-SLS. Models are trained for 50 epochs with a batch size of 64 on 4-second audio segments using RawBoost data augmentation, with layerwise learning rates set to 1e-6 (SSL backbone), 1e-4 (projection), and 1e-5 (classifier).
+Stage I uses LibriSpeech train-clean-100 and dev (bona fide only). Stage II uses ASVspoof 2019 LA and ASVspoof 2024 train/dev splits. Evaluation is conducted on ASVspoof 2019 LA, ASVspoof 2021 LA, EmoFake, EmoSpoof-TTS, and ASVspoof 2024 Track 1. Baselines include RawNet2, AASIST, and XLSR-SLS. Models are trained for 50 epochs with a batch size of 64 on 4-second segments using layerwise learning rates (1e-6 for backbone, 1e-4 for projection, 1e-5 for classifier).
 
 ## Results
 
-When trained on ASVspoof 2019 LA, ProSDD achieves a competitive 0.42% EER on ASVspoof 2019 and 3.87% on ASVspoof 2021, while drastically dropping the EER on the challenging expressive ASVspoof 2024 benchmark from 25.43% (XLSR-SLS baseline) down to 16.14%. On emotional datasets under the same 2019 training, ProSDD halves or heavily cuts error rates, recording 3.70% on EmoFake (vs 8.84% for XLSR-SLS) and 9.54% on EmoSpoof-TTS (vs 18.92%).
+When trained on ASVspoof 2019 LA, ProSDD achieves an EER of 0.42% on ASVspoof 2019 (outperforming XLSR-SLS at 0.56%), 3.87% on ASVspoof 2021, 16.14% on ASVspoof 2024 (down from 25.43% for XLSR-SLS), 3.70% on EmoFake (down from 8.84%), and 9.54% on EmoSpoof-TTS (down from 18.92%). When trained on ASVspoof 2024, ProSDD attains 19.04% on ASVspoof 2019, 18.08% on ASVspoof 2021, 7.38% on ASVspoof 2024 (massive drop from 39.62% for XLSR-SLS), 25.06% on EmoFake, and 11.96% on EmoSpoof-TTS.
 
-When trained natively on ASVspoof 2024, ProSDD secures a dramatic headline win over XLSR-SLS on the ASVspoof 2024 test set (7.38% EER vs. 39.62%) and achieves 11.96% on EmoSpoof-TTS and 25.06% on EmoFake. Ablation studies confirm that omitting Stage I real-only prosodic pretraining (w/o Stage I) hurts cross-domain robustness, causing EERs to rise across expressive evaluations (e.g., jumping to 15.02% on EmoSpoof-TTS), while entirely removing masked prediction objectives (w/o MP-SI) collapses performance on traditional benchmarks like ASVspoof 2019 (6.78% EER) and ASVspoof 2021 (25.18% EER).
+Ablation studies demonstrate that stripping real-only pretraining and masked prediction (w/o MP-SI) degrades performance severely, pushing the ASVspoof 2019 EER from 0.42% up to 6.78% and ASVspoof 2024 up to 28.12%. Retaining masked prediction exclusively in Stage II without real-only pretraining yields intermediate performance (e.g., 15.55% on ASVspoof 2024), confirming that the two-stage pipeline with bona fide initialization is vital for robust generalization.
 
-| Models | ASV 2019 | ASV 2021 | ASV 2024 | EmoFake | EmoSpoof |
+| Models | ASV19 | ASV21 | ASV24 | EmoFake | EmoSpoof |
 |---|---|---|---|---|---|
-| RawNet2 (2019 Trained) | 4.60 | 8.08 | 40.67 | 21.71 | 43.04 |
-| AASIST (2019 Trained) | 0.83 | 8.15 | 35.53 | 13.64 | 31.06 |
-| XLSR-SLS (2019 Trained) | 0.56 | 3.04 | 25.43 | 8.84 | 18.92 |
-| ProSDD (2019 Trained) | 0.42 | 3.87 | 16.14 | 3.70 | 9.54 |
-| XLSR-SLS (2024 Trained) | 27.00 | 26.54 | 39.62 | 58.57 | 25.92 |
-| ProSDD (2024 Trained) | 19.04 | 18.08 | 7.38 | 25.06 | 11.96 |
+| RawNet2 | 4.60 | 8.08 | 40.67 | 21.71 | 43.04 |
+| AASIST | 0.83 | 8.15 | 35.53 | 13.64 | 31.06 |
+| XLSR-SLS | 0.56 | 3.04 | 25.43 | 8.84 | 18.92 |
+| ProSDD | 0.42 | 3.87 | 16.14 | 3.70 | 9.54 |
 
 ## Limitations
 
-While ProSDD demonstrates powerful cross-domain generalization, the paper's scope is bounded by its reliance on English speech corpora for Stage I pretraining (LibriSpeech), potentially limiting multilingual prosody modeling. The approach requires extracting multi-modal features like pitch (F0) and energy during pre-processing, which can introduce computational overhead and error propagation under heavy background noise or extreme channel degradations. Furthermore, evaluations are focused primarily on synthetic speech attacks generated by TTS and VC models, leaving open-world audio deepfakes involving semantic script manipulations or complex multi-speaker acoustic environments unexplored.
+The framework relies on accurate extraction of prosodic features (pitch, voice activity, energy) and precomputed speaker embeddings, which may degrade under extreme acoustic noise, reverberation, or overlapping speech conditions. The evaluation is currently restricted to English and standard benchmark datasets, leaving multilingual and in-the-wild channel variations largely unaddressed. Additionally, the two-stage training scheme and dual-pass forward steps impose higher training compute overhead compared to standard single-stage fine-tuning.
 
 ## Why read this
 
-Speech researchers and security engineers tackling robust deepfake detection under real-world emotional and stylistic distribution shifts should read this to learn how explicit multi-modal prosodic pretraining can re-structure self-supervised backbones without complex classifier layers.
+Researchers and engineers working on robust speech deepfake detection under expressive or emotional distribution shifts should read this paper to see how auxiliary supervised prosodic representation learning can replace complex classifier engineering.
 
 ## Code
 
@@ -66,7 +64,7 @@ Speech researchers and security engineers tackling robust deepfake detection und
 
 ## Applications
 
-Deploying robust speech authentication systems in telephony, digital media forensics, voice assistant security, and conversational AI safety filters.
+Speech deepfake detection systems deployed in security-critical authentication pipelines, call centers, and media verification platforms to counter expressive text-to-speech and voice conversion attacks.
 
 ## Related
 

@@ -14,50 +14,51 @@ pdf: https://www.isca-archive.org/interspeech_2026/ma26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ma26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ma26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-118)
 
-**TL;DR** — The Interspeech 2026 Audio Reasoning Challenge establishes a rigorous benchmark and evaluation protocol (MMAR-Rubrics) for assessing the intermediate Chain-of-Thought (CoT) quality of Large Audio Language Models and audio agents, with multi-agent tool-use systems achieving top reasoning scores of 69.83%.
+**TL;DR** — The Interspeech 2026 Audio Reasoning Challenge establishes the first shared task for evaluating Chain-of-Thought (CoT) reasoning quality in Large Audio Language Models using a novel instance-level rubric protocol, with agentic tool-use systems outperforming end-to-end models on reasoning rigor.
 
 ## Key contributions
 
-- Introduced MMAR-Rubrics, an instance-level rubric-based evaluation protocol for audio Chain-of-Thought reasoning that decomposes reasoning paths into verifiable binary criteria using Gemini-2.5-Pro and GPT-4o.
-- Organized the first dual-track audio reasoning challenge featuring a Single Model Track for end-to-end Large Audio Reasoning Models (LARMs) and an Agent Track for tool-using multi-modal systems, attracting 156 registered teams.
-- Evaluated and analyzed state-of-the-art post-training techniques for end-to-end models, including progressive two-stage reinforcement learning with GRPO, attention manipulation, and targeted LoRA SFT pipelines.
-- Documented advanced agentic methodologies, such as iterative evidence gathering across 40+ specialized audio tools, VLM-based spectrogram analysis, and multi-agent debate frameworks for consensus building.
-- Released the open-source MMAR-Rubrics benchmark dataset, evaluation scripts, and technical reports to foster explainable and transparent audio intelligence research.
+- Introduces MMAR-Rubrics, an instance-level rubric-based evaluation protocol leveraging LLMs to assess the factuality, logic, and completeness of audio CoT paths.
+- Establishes a dual-track challenge framework separating single end-to-end Large Audio Reasoning Models (LARMs) from multi-modal agent systems.
+- Provides a comprehensive analysis of 156 participating teams from 18 countries, benchmarking top-tier techniques including two-stage GRPO, attention manipulation, and tool-orchestrating agents.
+- Releases open evaluation scripts, datasets, and technical reports to foster explainable and transparent audio intelligence.
 
 ## Problem
 
-Current Large Audio Language Models (LALMs) suffer from a "black-box" limitation where they excel at final-answer accuracy while lacking transparent, stable intermediate reasoning. Existing benchmarks like MMAR, OmniBench, and MMAU-Pro evaluate only the final outcome, completely ignoring the factuality, logic, and completeness of the Chain-of-Thought (CoT). Furthermore, traditional LLM-as-a-judge approaches that rely on system-level holistic rubrics suffer from high inter-rater variance and poor human alignment. This lack of process-oriented evaluation and transparent reasoning poses significant safety and reliability risks in complex real-world auditory scenarios.
+Current Large Audio Language Models excel at direct perception tasks but function as black boxes with unstable and opaque reasoning capabilities. Existing audio reasoning benchmarks like MMAR, OmniBench, and MMAU-Pro focus exclusively on final-answer accuracy, ignoring whether models reach conclusions through sound logic or spurious correlations. This outcome-oriented evaluation hides hallucinations and creates safety risks in real-world scenarios where explainability and multi-step reasoning are essential. The challenge addresses this by shifting evaluation from final-answer accuracy to process-oriented reasoning quality using a stable metric.
 
 ## Method
 
-The challenge evaluates systems across two distinct tracks using the MMAR-Rubrics framework, which evaluates 1,000 test queries. In the Single Model Track, models process audio signals in a single forward pass without external tools; the winning team utilized Qwen3-Omni-Instruct trained via a progressive two-stage reinforcement learning scheme using Group Relative Policy Optimization (GRPO), starting with an "RL-zero" stage followed by a "Boundary Enhancement" stage with hard negatives and semantic similarity reward signals. Other top single-model entries experimented with training-free attention weight scaling specifically over audio token spans to force deeper acoustic focus, or used high-quality LoRA SFT with a "Question-to-Reasoning" annotation pipeline and LLM hallucination filtering.
+The challenge evaluates systems across two distinct tracks: Single Model (Track 1) and Agent Track (Track 2). In Track 1, end-to-end models ingest audio inputs and generate a step-by-step reasoning chain followed by a final answer. Winning single-model entries utilized Qwen3-Omni backbones trained via a progressive two-stage reinforcement learning pipeline (an initial 'RL-zero' stage followed by 'Boundary Enhancement' using GRPO with semantic similarity rewards), training-free attention weight scaling over audio tokens, or LoRA supervised fine-tuning driven by high-quality Question-to-Reasoning pipelines.
 
-In the Agent Track, systems decompose high-level auditory queries into structured sub-tasks using external tools, planners, and memory structures. The champion agent architecture integrated over 40 specialized audio tools spanning core speech processing (ASR, separation, diarization), signal analysis (spectral features, energy dynamics), and music theory (chord progression, rhythm patterns), executing an iterative evidence gathering loop. Other top agent designs utilized Vision-Language Models (VLMs) to process visual spectrogram representations (Mel, CQT, RMS) for fine-grained numerical tasks, or structured multi-agent debate pipelines governed by a central controller to resolve conflicts and mitigate hallucinations.
+In Track 2, agents decompose high-level audio questions into executable sub-tasks, execute multi-step tool calls, and verify evidence. Top-performing agents integrated over 40 specialized open-source audio tools covering speech recognition, source separation, spectral analysis, and music theory within iterative evidence-gathering loops. Other notable agent architectures employed vision-language models analyzing Mel, CQT, and RMS spectrogram images for numerical/temporal tasks, multi-agent debates, and cross-model consistency voting mechanisms.
+
+Evaluation is governed by MMAR-Rubrics, which bypasses unstable system-level holistic grading by automatically generating k=5 instance-specific atomic criteria (binary True/False conditions) from ground-truth annotations using Gemini-2.5-Pro. GPT-4o then acts as a rater to check predicted reasoning paths against these criteria alongside textual justifications, producing a final score as the mean of binary outcomes.
 
 ## Experimental setup
 
-The evaluation utilized the MMAR-Rubrics benchmark comprising 1,000 test questions spanning speech, music, and environmental sounds. The challenge drew 156 registered teams from 18 countries, narrowing down to 23 single-model and 24 agent teams in the preliminary stage, with 14 single-model and 16 agent teams completing the final leaderboard stage. Metrics included the instance-level rubric-based reasoning quality score (Rubrics %) and final answer accuracy (Acc %). Reliability of the evaluation protocol was measured via Krippendorff's alpha across multiple LLM raters (GPT-4o, Gemini-2.5-Flash, GPT-5-mini) and human alignment preference studies.
+The evaluation dataset consists of 1,000 diverse questions from the MMAR benchmark spanning speech, music, and environmental audio. The preliminary stage used 500 samples, narrowing the field to 23 single model teams and 24 agent teams, with 14 and 16 teams respectively successfully submitting to the final leaderboard of 1,000 samples. Metrics include instance-level reasoning quality scores via MMAR-Rubrics and final answer accuracy percentages.
 
 ## Results
 
-In the final leaderboard, agent-based systems generally outperformed end-to-end models in reasoning quality. The top-performing agent system achieved a headline rubric score of 69.83% and 76.90% accuracy, while the second-ranked agent achieved a peak accuracy of 77.40%. In the Single Model Track, the 1st place team achieved a 65.29% rubric score and 74.00% accuracy using two-stage GRPO training on the Qwen3-Omni-Instruct backbone. The 2nd place single model achieved 62.55% rubric / 71.00% accuracy via training-free attention manipulation, while the 3rd place team scored 62.22% rubric / 71.70% accuracy using LoRA SFT. The performance gap between tracks shows that while end-to-end models can frequently guess correct final answers, agent systems yield more transparent, logically sound, and verifiable reasoning paths.
+In the final competition standings, agent-based systems outperformed end-to-end models on reasoning quality and final accuracy. The top-performing agent system achieved a rubric score of 69.83% and 76.90% accuracy, while the top single model achieved 65.29% rubric score and 74.00% accuracy. The performance gap was wider in reasoning quality than final accuracy, highlighting that single models often guess correctly without fully robust logic. Notable single-model strategies included progressive two-stage GRPO (1st place, 65.29% rubrics), training-free attention manipulation on audio tokens (2nd place, 62.55% rubrics), and LoRA SFT with dual-verification data pipelines (3rd place, 62.22% rubrics). Among agents, the champion integrated over 40 tools with iterative evidence gathering (69.83% rubrics), while the runner-up used VLM spectrogram analysis yielding the highest accuracy of 77.40% (66.23% rubrics).
 
-| System / Condition | Rubrics Score (%) | Final Accuracy (%) |
-|---|---|---|
-| Agent Track - 1st Place (Iterative Tools) | 69.83 | 76.90 |
-| Agent Track - 2nd Place (VLM Spectrograms) | 66.23 | 77.40 |
-| Agent Track - 3rd Place (Multi-agent Debate) | 66.09 | 75.10 |
-| Single Model Track - 1st Place (Two-stage GRPO) | 65.29 | 74.00 |
-| Single Model Track - 2nd Place (Attention Scaling) | 62.55 | 71.00 |
-| Single Model Track - 3rd Place (LoRA SFT) | 62.22 | 71.70 |
+| System / Track | Rubrics Score (%) | Final Accuracy (%) |
+| --- | --- | --- |
+| Agent Track - 1st Place | 69.83 | 76.90 |
+| Agent Track - 2nd Place | 66.23 | 77.40 |
+| Agent Track - 3rd Place | 66.09 | 75.10 |
+| Single Model Track - 1st Place | 65.29 | 74.00 |
+| Single Model Track - 2nd Place | 62.55 | 71.00 |
+| Single Model Track - 3rd Place | 62.22 | 71.70 |
 
 ## Limitations
 
-The evaluation relies heavily on LLM-as-a-judge automation (using GPT-4o guided by Gemini-2.5-Pro generated criteria), which, despite higher reliability than system-level grading, still inherits proprietary model biases. The benchmark scope is bounded by the 1,000 questions in MMAR-Rubrics, which may not exhaustively cover every niche acoustic environment or dialect. Furthermore, agentic systems incur significantly higher inference latency and compute overhead due to multi-step tool orchestration and iterative evidence-gathering loops.
+Evaluation relies heavily on LLM-as-a-judge frameworks (Gemini-2.5-Pro and GPT-4o) for rubric generation and verification, which can introduce underlying prompt biases or judge blind spots despite higher reliability than holistic grading. The benchmark is constrained to text-and-audio question answering tasks and does not evaluate real-time conversational streaming latency or interactive dialogue repair. Furthermore, compute constraints limited open participation, and multi-agent systems rely heavily on external open-source tool accuracy, which degrades when individual upstream tools fail.
 
 ## Why read this
 
-Researchers and engineers building multimodal audio models or conversational agents should read this paper to understand state-of-the-art practices in eliciting transparent Chain-of-Thought reasoning. It provides concrete empirical comparisons between monolithic reinforcement learning approaches and multi-agent tool-orchestration systems, accompanied by a robust, human-aligned evaluation protocol.
+Speech and ML researchers focusing on multi-modal reasoning and explainable audio AI should read this paper to understand the state-of-the-art in audio Chain-of-Thought evaluation and architecture design. It provides concrete engineering recipes—ranging from audio-tailored GRPO reinforcement learning loops to multi-agent tool orchestration frameworks—that consistently surpass monolithic end-to-end audio models.
 
 ## Code
 
@@ -65,7 +66,7 @@ Researchers and engineers building multimodal audio models or conversational age
 
 ## Applications
 
-Development of transparent, auditable, and reliable virtual assistants, automated acoustic diagnostic systems, and explainable multi-modal decision agents for complex real-world sound environments.
+Building explainable voice assistants, audio analytics platforms, automated music transcription tools, and diagnostic hearing or acoustic monitoring systems that require verifiable multi-step logical deductions.
 
 ## Related
 

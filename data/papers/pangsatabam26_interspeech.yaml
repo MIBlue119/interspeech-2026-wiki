@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2304
 isca_url: https://www.isca-archive.org/interspeech_2026/pangsatabam26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pangsatabam26_interspeech.pdf
 session: Low-Resource Speech Synthesis
-topics: [tts, low-resource, dataset]
+topics: [tts, low-resource, multilingual]
 code:
     url: ""
     license: ""

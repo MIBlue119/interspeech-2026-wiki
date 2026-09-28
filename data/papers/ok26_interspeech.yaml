@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2458
 isca_url: https://www.isca-archive.org/interspeech_2026/ok26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ok26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
-topics: [asr, self-supervised, evaluation]
+topics: [asr, self-supervised, speaker-verification]
 code:
     url: ""
     license: ""

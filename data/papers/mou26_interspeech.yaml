@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-2298
 isca_url: https://www.isca-archive.org/interspeech_2026/mou26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mou26_interspeech.pdf
 session: Audio Watermarking and Source Verification
-topics: [speech-watermarking, tts, evaluation]
+topics: [tts, self-supervised, speech-llm]
 code:
     url: https://muzw.github.io/duramark_demo/
     license: ""

@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2043
 isca_url: https://www.isca-archive.org/interspeech_2026/marttila26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/marttila26_interspeech.pdf
 session: Audio signal analysis
-topics: [speech-enhancement, self-supervised, evaluation]
+topics: [tts, speech-enhancement, self-supervised]
 code:
     url: https://github.com/google/carfac
     license: ""

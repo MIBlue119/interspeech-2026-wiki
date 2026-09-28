@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-694
 isca_url: https://www.isca-archive.org/interspeech_2026/mcghee26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mcghee26_interspeech.pdf
 session: Articulatory, EMG, and Visual Speech Generation
-topics: [speech-enhancement, evaluation, self-supervised]
+topics: [asr, tts, evaluation]
 code:
-    url: ""
+    url: https://artsynth.github.io/
     license: ""
 open_to_collaboration: false

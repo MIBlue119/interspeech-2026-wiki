@@ -1,29 +1,63 @@
 ---
 id: mohapatra26_interspeech
 category: phonetics
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2325
 pdf: https://www.isca-archive.org/interspeech_2026/mohapatra26_interspeech.pdf
 ---
 
 # Influence of Vocal Tract Curvature on Speech Acoustics: A Three-Dimensional FEM Analysis
 
+*Debasish Ray Mohapatra, Sidney Fels*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/mohapatra26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mohapatra26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2325)
 
-**TL;DR** — A 3D finite element analysis reveals that vocal tract curvature excites higher-order transverse modes and induces noticeable formant and anti-resonance shifts above 8 kHz in non-uniform geometries, while having negligible effect on uniform cross-sections.
+**TL;DR** — A 3D finite element analysis reveals that vocal tract curvature has a negligible effect on uniform tubes but excites higher-order transverse modes and induces noticeable anti-resonances above 8 kHz in non-uniform vocal tracts (like vowel [A]).
+
+## Key contributions
+
+- Evaluated the isolated impact of vocal tract curvature on speech acoustics using a 3D finite element wave solver up to 14 kHz.
+- Systematically varied geometry across uniform vs. non-uniform cross-sections (using Story's vowel [A] area function), low vs. high curvature intensity, and bending angles of 60°, 90°, and 120°.
+- Demonstrated that uniform cross-section ducts maintain plane-wave dominance regardless of bending, whereas non-uniform curved tracts generate curvature-induced anti-resonances between 8-12 kHz.
+- Mapped midsagittal acoustic pressure distributions to confirm that transverse mode excitation requires both area non-uniformity and geometric curvature.
 
 ## Problem
 
-Conventional physics-based speech production models typically approximate the vocal tract as a straight 1D or 2D tube, neglecting anatomical curvature or assuming straight geometries. While realistic 3D volumetric models account for natural bending, they mix curvature effects with irregular cross-sections and side branches, leaving the specific acoustic consequences of tract curvature largely unexplored.
+Many physics-based acoustic models approximate the vocal tract as a straight 3D tube or rely on 1D/2D solvers using longitudinal area functions that inherently cannot capture duct curvature. While realistic 3D vocal tract models derived from MRI/CT incorporate natural curvature, they entangle it with irregular cross-sections, side cavities, and mouth radiation, making curvature-specific acoustic effects impossible to isolate. Understanding this gap is essential for accurate articulatory speech synthesis, as traditional straight-tube assumptions fail to capture high-frequency wave propagation phenomena.
 
 ## Method
 
-The study employs a 3D finite element (FE) time-domain acoustic wave solver using tetrahedral mesh elements of size 2.5 mm, a 200 kHz sampling rate, and semi-reflective Robin boundary conditions to simulate wall losses. Geometries are modeled with a fixed centerline length of 17 cm, systematically varying cross-sectional uniformity (constant diameter vs. the 1D area function for vowel [A]), curvature intensity (low curvature with 8-16 cm radii vs. high curvature with 3 cm toroidal segments), and bending angles (60, 90, and 120 degrees). Transfer functions and acoustic pressure distributions are evaluated across a frequency range up to 14 kHz.
+The study models vocal tracts with a fixed centerline length of L = 17 cm, discretized into 44 uniform cylindrical tube segments representing an adult male speaker articulating the vowel [A]. Geometries are divided into four categories based on cross-sectional area uniformity (constant vs. Story's [A] area function) and curvature intensity: low-curvature arcs (radii R0 between 8-16 cm, bending angles θ = 60°, 90°, 120°) and high-curvature configurations combining straight cylindrical segments (lengths L1, L3) with an intermediate toroidal segment (length L2, fixed radius R0 = 3 cm).
+
+The 3D acoustic wave propagation is simulated in the time domain using a Finite Element (FE) solver on tetrahedral mesh elements with a uniform size h = 2.5 mm, a sampling frequency fs = 200 kHz (satisfying the CFL condition), speed of sound c = 350 m/s, and air density ρ = 1.14 kg/kg/m³. Wall losses are modeled via a semi-reflective Robin boundary condition to simulate viscous and thermal diffusion, while a homogeneous Dirichlet boundary condition (p = 0) is applied at the mouth termination. A Gaussian pulse volume velocity is injected at the glottal end, and transfer functions are computed as the frequency-dependent ratio of mouth pressure to glottal volume velocity up to 14 kHz.
+
+Inference analysis extracts transfer functions and 2D midsagittal acoustic pressure distributions. These pressure maps identify higher-order transverse modes when systems are excited using specific resonance or anti-resonance frequencies, isolating how bent air columns disrupt standard longitudinal plane-wave propagation.
+
+## Experimental setup
+
+Simulations use synthetic vocal tract geometries based on a 17 cm centerline length (vowel [A] area function) evaluated across bending angles of 60°, 90°, and 120°. The setup compares straight-tube approximations against low-curvature (R0 = 8-16 cm) and high-curvature (R0 = 3 cm) variants with both uniform and non-uniform cross-sections. Metrics include frequency transfer functions up to 14 kHz and 2D acoustic pressure distributions, executed at a 200 kHz sampling rate via a 3D FE solver.
 
 ## Results
 
-Evaluated via finite element simulations up to 14 kHz, uniformly shaped bent ducts show near-identical frequency responses compared to straight tubes, demonstrating that curvature alone does not alter the modal structure under constant cross-section. Conversely, non-uniform curved tracts exhibit well-aligned transfer functions below 8 kHz, but introduce distinct anti-resonances and higher-order transverse modes in the 8-10 kHz and 11-12 kHz regions. Pressure distribution analyses confirm that straight non-uniform tubes maintain plane-wave propagation, whereas bent non-uniform configurations successfully excite transverse acoustic modes.
+For uniform cross-section tubes, transfer functions for both low- and high-curvature configurations match straight-tube baselines identically across the full 0–14 kHz range, exhibiting purely plane-wave pressure distributions. For non-uniform cross-sections representing vowel [A], transfer functions align closely with straight tubes below 8 kHz, but systematically deviate above 8 kHz by spawning distinct anti-resonances in the 8–10 kHz and 11–12 kHz bands. The precise frequencies of these anti-resonances shift as a function of the bending angle (60°, 90°, 120°) and curvature intensity, confirming that curvature-induced transverse mode excitation only manifests when combined with area non-uniformity.
+
+| System / Condition | Cross-Section | Curvature Intensity | Frequencies < 8 kHz | Frequencies > 8 kHz (Antiresonances) |
+|---|---|---|---|---|
+| Uniform Straight | Uniform | None | Plane-wave dominance | No higher-order modes |
+| Uniform Bent (Low/High) | Uniform | Low / High (R0=3-16cm) | Matches straight baseline | Negligible curvature effect |
+| Non-Uniform Straight | Non-uniform ([A]) | None | Standard formants | No transverse modes |
+| Non-Uniform Bent (Low) | Non-uniform ([A]) | Low (R0=8-16cm) | Aligns with straight | Anti-resonances emerge (8-12 kHz) |
+| Non-Uniform Bent (High) | Non-uniform ([A]) | High (R0=3cm) | Aligns with straight | Pronounced anti-resonances (8-12 kHz) |
+
+## Limitations
+
+The study is restricted to circular cross-sections to eliminate non-circular geometric eigenmode confounds, omitting elliptical or natural irregular shapes. Lip radiation effects are neglected via an open-end Dirichlet boundary condition (p = 0), and the evaluation is limited to a single vowel ([A]) geometry at a fixed 17 cm length. Physical validation via 3D-printed models and perceptual evaluation of the high-frequency formant shifts remain future work.
+
+## Why read this
+
+Speech production modelers and articulatory synthesis researchers should read this to understand precisely when and why traditional 1D/2D straight-tube approximations break down at high frequencies. It provides definitive proof that tract curvature alone is acoustically benign unless coupled with cross-sectional non-uniformities.
 
 ## Code
 
@@ -31,11 +65,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Engineers and researchers developing high-fidelity articulatory speech synthesizers, physics-based speech production models, and digital twins of the vocal tract.
-
-## Limitations
-
-The study is restricted to circular cross-sections to isolate curvature effects and assumes an open-end radiation condition using a homogeneous Dirichlet boundary, thereby neglecting lip radiation effects.
+High-fidelity articulatory speech synthesis, physics-based acoustic simulators, and advanced voice production modeling.
 
 ## Related
 

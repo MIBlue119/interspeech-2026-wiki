@@ -1,29 +1,63 @@
 ---
 id: park26h_interspeech
-category: evaluation
-updated: 2026-09-28
+category: paralinguistics
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-3025
 pdf: https://www.isca-archive.org/interspeech_2026/park26h_interspeech.pdf
 ---
 
 # AnimeScore: A Preference-Based Dataset and Framework for Evaluating Anime-Like Speech Style
 
+*Joonyong Park, Jerry Li*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/park26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3025)
 
-**TL;DR** — AnimeScore is a preference-based dataset and automated evaluation framework for Japanese anime-style speech, achieving up to 90.8% ROC-AUC using SSL-based ranking models.
+**TL;DR** — AnimeScore is a preference-based dataset and evaluation framework for automated assessment of anime-like speech styles, achieving up to 90.8% AUC using SSL-based ranking models compared to a 69.3% ceiling for handcrafted acoustic features.
+
+## Key contributions
+
+- Constructed a curated dataset of 3,000 Japanese utterances (2,500 train, 500 test) paired with 15,000 pairwise human preference judgments from 187 evaluators.
+- Established a multi-stage filtering pipeline utilizing Qwen3-30B-Instruct, Sidon speech enhancement, Whisper-large-v3, and ECAPA-TDNN clustering to control linguistic, acoustic, and speaker biases.
+- Revealed through acoustic analysis that anime-likeness is driven by controlled resonance shaping (lower formants), prosodic continuity, and dense syllable rates rather than simply high pitch.
+- Demonstrated that SSL backbones (specifically HuBERT) combined with BiLSTM and MLP layers trained on pairwise logistic loss vastly outperform handcrafted acoustic feature baselines.
 
 ## Problem
 
-Evaluating domain-specific speech styles like anime-likeness lacks a universally shared absolute numerical scale, rendering traditional Mean Opinion Score (MOS) protocols inconsistent. Relying exclusively on manual listening tests creates a major bottleneck for iterative development of generative speech models. Furthermore, simplistic acoustic heuristics like high pitch fail to capture the multidimensional perceptual cues underlying stylized character voices.
+Evaluating anime-like speech style currently relies on costly subjective listening tests and lacks a standardized, reproducible automatic evaluation metric. Unlike naturalness or intelligibility, anime-likeness lacks a shared absolute perceptual scale and is multidimensional, rendering traditional Mean Opinion Score (MOS) protocols inconsistent. Developing speech generation systems in this domain is severely bottlenecked by this absence of scalable scoring protocols and automated objective reward signals.
 
 ## Method
 
-The framework utilizes 15,000 pairwise preference judgments collected from 187 evaluators across a filtered set of 3,000 utterances derived from anime (Anim-400k) and general speech corpora (ReazonSpeech, Coco-Nut). To predict preferences, an input audio waveform is passed through a frozen self-supervised learning (SSL) encoder, followed by a BiLSTM, mean pooling, and an MLP to output a scalar score. The network is optimized end-to-end via a pairwise logistic loss (RankNet objective) on A/B comparison pairs. Evaluated backbones include wav2vec 2.0, WavLM, HuBERT, and data2vec.
+The speech set combines samples from Anim-400k, ReazonSpeech, and Coco-Nut. The data curation pipeline removes linguistic bias by filtering out texts with high anime-subtitle probability using Qwen3-30B-Instruct (keeping scores <= 2), enhances audio using Sidon, applies UTMOS > 3 filtering, and ensures speaker diversity via ECAPA-TDNN embeddings and t-SNE clustering. Sparse comparison pairs (12,500 train, 2,500 test) are built using text and speaker similarity to emphasize cross-corpus contrasts.
+
+The score prediction framework passes input audio through a frozen SSL encoder (wav2vec 2.0, WavLM, HuBERT, or data2vec) to extract frame-level features H. These features are fed into a bidirectional LSTM (BiLSTM), mean-pooled into a fixed-length representation, and mapped to a scalar score s(x) via a multi-layer perceptron (MLP). During training, the network predicts scores for pairs (a, b) and is optimized using the pairwise logistic loss -log sigma(sa - sb) against ground-truth A/B preference outcomes, enabling drop-in model screening or reward shaping for generative models.
+
+## Experimental setup
+
+Evaluations used a held-out test set of 2,500 A/B pairs derived from 500 utterances. Evaluators (n=187, predominantly male aged 30s-50s) provided 15,000 total comparative judgments. Models were compared against a multivariate logistic regression baseline using handcrafted acoustic features evaluated via 5-fold cross-validation. Metrics reported include pairwise accuracy, negative log-likelihood (NLL), and ROC-AUC.
 
 ## Results
 
-Using held-out A/B comparison pairs (N=2,500), handcrafted acoustic features reach a logistic regression AUC ceiling of 69.3%. In contrast, SSL-based ranking models substantially outperform this baseline, with HuBERT achieving the highest performance at 90.8% AUC (0.3852 NLL, 82.43% accuracy), followed closely by WavLM at 89.4% AUC. Masked-prediction models consistently surpass contrastive models because they better capture paralinguistic, prosodic, and speaker properties.
+Handcrafted acoustic features combined via logistic regression achieved a 69.3% AUC (63.4% accuracy) with dominant predictors including pause ratio and syllable rate. In contrast, frozen SSL backbones trained on the pairwise loss substantially outperformed this baseline. HuBERT achieved the highest performance with 0.3852 NLL, 82.43% accuracy, and 90.82% AUC, followed closely by WavLM at 89.44% AUC, wav2vec 2.0 at 82.47% AUC, and data2vec at 85.80% AUC.
+
+Masked-prediction models (HuBERT, WavLM) consistently surpassed the contrastive model (wav2vec 2.0), capturing paralinguistic and prosodic properties necessary for stylistic evaluation. The models maintained robust performance on out-of-distribution within-corpus test pairs, though the study notes limitations in demographic balance and moderate data scale.
+
+| System / Backbone | NLL | Accuracy (%) | AUC (%) |
+|---|---|---|---|
+| Handcrafted Features (LR) | - | 63.4 ± 1.2 | 69.3 ± 1.5 |
+| wav2vec 2.0 | 0.5139 | 74.30 | 82.47 |
+| data2vec | 0.4686 | 77.09 | 85.80 |
+| WavLM | 0.4284 | 81.05 | 89.44 |
+| HuBERT | 0.3852 | 82.43 | 90.82 |
+
+## Limitations
+
+The work is constrained by a moderate data scale (15,000 pairs across 3,000 utterances) and a demographic imbalance among human evaluators (76% male, heavily skewed toward individuals in their 30s to 50s). The scope is strictly limited to Japanese speech styles and does not explore model architecture ablations beyond changing the frozen SSL backbone.
+
+## Why read this
+
+Speech and ML researchers building generative anime or character-styled speech models should read this to understand how to replace costly subjective listening tests with an automated, SSL-backed reward signal.
 
 ## Code
 
@@ -31,11 +65,7 @@ Using held-out A/B comparison pairs (N=2,500), handcrafted acoustic features rea
 
 ## Applications
 
-Engineers and researchers developing generative speech or voice conversion systems can use this framework as an automated evaluation metric or as a reward signal for reinforcement learning style optimization.
-
-## Limitations
-
-The study is constrained by moderate data scale, demographic imbalances among annotators (76% male, heavily skewed toward ages 30-50), and a lack of model architecture ablations beyond testing different SSL backbones.
+Automated quality screening for stylized speech generation systems and reinforcement learning reward signals for aligning text-to-speech models toward target voice aesthetics.
 
 ## Related
 

@@ -1,29 +1,62 @@
 ---
 id: otani26_interspeech
-category: speech-synthesis
-updated: 2026-09-28
+category: tts
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-3379
 pdf: https://www.isca-archive.org/interspeech_2026/otani26_interspeech.pdf
 ---
 
 # Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data
 
+*Yuto Otani, Shun Sawada, Hidefumi Ohmura, Kouichi Katsurada*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/otani26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/otani26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3379)
 
-**TL;DR** — This paper proposes a speaker-independent speech synthesis framework that generates speech waveforms directly from real-time MRI (rtMRI) articulatory videos using cross-modal training with speaker embeddings, achieving a differential word error rate as low as 4.5% on read speech.
+**TL;DR** — A speaker-independent speech synthesis method generates speech waveforms from real-time MRI (rtMRI) videos using EfficientNetV2, E-Branchformer, and BigVGAN-v2, guided by cross-modal training with speaker embeddings. It achieves strong linguistic intelligibility (read speech dWER down to 4.5%) and captures relative prosodic patterns from visual articulatory data alone.
+
+## Key contributions
+
+- Proposes a speaker-independent rtMRI-to-speech framework that eliminates the need for target speaker reference audio at inference.
+- Introduces a cross-modal training strategy matching an attention-pooled MRI-derived speaker representation to a frozen audio-derived X-vector space via FiLM conditioning.
+- Integrates an F0 correlation loss operating on high-periodicity frames to successfully recover relative prosodic variations directly from midsagittal vocal tract movements.
+- Evaluates the system on a large-scale corpus (USC 75-Speaker Speech MRI Database) across read, spontaneous, and non-lexical speech.
 
 ## Problem
 
-Traditional real-time MRI (rtMRI) speech synthesis systems rely on speaker-dependent modeling, preventing generalization to unseen speakers, while alternative text-to-speech approaches bypass direct articulatory control over duration, prosody, and speaker traits. Overcoming this gap is crucial for computer-assisted pronunciation training and speech rehabilitation applications, but it requires robust extraction of linguistic content, prosody, and speaker identity solely from mid-sagittal vocal tract images.
+Prior speech synthesis methods utilizing real-time MRI (rtMRI) data are predominantly speaker-dependent, preventing them from generalizing to unseen speakers during inference. Alternative attempts to handle unseen speakers either rely on intermediate text-to-speech (TTS) pipelines that bypass direct articulatory-to-acoustic mapping or fail to explicitly model prosody and speaker identity. This creates a critical gap in generating high-fidelity speech driven entirely by the unique articulatory dynamics of novel speakers, which is vital for speech rehabilitation and computer-assisted pronunciation training.
 
 ## Method
 
-The architecture comprises an EfficientNetV2-B0 encoder for per-frame image feature extraction, an E-Branchformer Base module for temporal modeling, and a BigVGAN-v2 vocoder for waveform synthesis. To enable speaker-independent synthesis without reference speech at inference, the model utilizes a dual-path cross-modal training strategy: one path processes reference speech through a frozen X-vector and an MLP, while the other aggregates E-Branchformer outputs via attention pooling. Both paths feed into a shared Feature-wise Linear Modulation (FiLM) generator, guided by a cosine similarity loss to align the MRI-derived speaker representation with the audio-derived target. An additional F0 estimation head utilizes a log-domain Pearson correlation loss on high-periodicity frames, and the model is trained with mean squared error losses on mel-spectrograms totaling approximately 33 million parameters.
+The architecture processes 84x84 pixel rtMRI video segments frame-by-frame using an EfficientNetV2-B0 image encoder up to its global average pooling layer. The resulting sequence features are mapped via linear projection and layer normalization into an E-Branchformer Base temporal modeling network. The E-Branchformer output is conditioned via Feature-wise Linear Modulation (FiLM), applying channel-wise affine transformations whose scale and shift parameters are generated dynamically.
+
+To bridge the modalities without reference audio at inference, the model trains via two parallel pathways. A frozen TDNN X-vector extracts an audio-derived speaker embedding from reference recordings, while an attention pooling mechanism followed by an MLP aggregates the E-Branchformer temporal outputs into an MRI-derived speaker embedding. A cosine similarity loss aligns the MRI embedding with the frozen audio embedding. Simultaneously, a linear F0 estimation head applies a Pearson correlation loss in the log-F0 domain strictly on voiced frames (aperiodicity index <= 0.5) to capture relative pitch dynamics.
+
+The training loss is a weighted sum of MSE mel-spectrogram losses for both paths (lambda_M = 0.4), the cosine similarity loss (lambda_c = 0.1), and the F0 correlation loss (lambda_F0 = 0.1). The estimated 80-dimensional log-mel-spectrograms drive a BigVGAN-v2 vocoder pre-trained on LibriTTS and fine-tuned on speaker rtMRI mel-spectrograms with an upsampling ratio of 192. The model uses approximately 33M trainable parameters and is optimized via AdamW with a learning rate schedule starting at 1e-6, warming up to 5e-4 over 50 epochs, and annealing back to 1e-6 across 500 epochs.
+
+## Experimental setup
+
+Experiments utilized the USC 75-Speaker Speech MRI Database, filtered down to 51 speakers (24 male, 27 female) after removing silent or acoustically inconsistent sessions based on speaker embedding distance thresholds. The dataset was split into 43 training, 4 validation, and 4 test speakers. Training segments spanned 384 frames (~4.6 seconds) at an 83.28 fps rtMRI frame rate. Evaluations used differential word error rate (dWER) and differential character error rate (dCER) via the NVIDIA Parakeet TDT 0.6B V2 ASR model, F0 RMSE, Pearson F0 correlation, and Speaker Encoder Cosine Similarity (SECS).
 
 ## Results
 
-Evaluated on the USC 75-Speaker Speech MRI Database using 51 selected speakers (43 training, 4 validation, 4 test), the model achieved differential word error rates (dWER) ranging from 4.5% to 11.1% and character error rates (dCER) from 1.8% to 5.6% on read speech. F0 correlation analysis demonstrated that relative prosodic patterns are captured effectively, yielding Pearson correlation coefficients between 0.38 and 0.57 across all voiced frames (0.62 to 0.76 for high-periodicity frames). Speaker Encoder Cosine Similarity (SECS) reached 0.95 to 0.96 for the rtMRI path, though pairwise matrix evaluations revealed challenges in distinguishing speakers within the same gender.
+The proposed rtMRI-driven path achieved read speech dWER ranging from 4.5% to 11.1% and dCER from 1.8% to 5.6%, matching the competitive performance of an audio-guided baseline path using target X-vectors. Spontaneous speech showed higher error rates (dWER 7.9% to 30.2%) due to reduced articulatory precision, while nonce syllables yielded the highest errors owing to ASR limitations on non-lexical words. For prosody, the rtMRI path achieved Pearson F0 correlations of 0.38 to 0.57 overall, increasing to 0.62 to 0.76 on high-periodicity frames, indicating that relative prosody is effectively learned. Speaker identity measured via SECS reached 0.95 to 0.96; however, pairwise similarity matrices revealed high confusion among within-gender speakers.
+
+| System / Condition | Read dWER (%) | Read dCER (%) | F0 Corr (High-Period) | SECS |
+|---|---|---|---|---|
+| Audio Path (sub20) | 7.0 | 3.1 | 0.70 | 0.98 |
+| rtMRI Path (sub20) | 4.5 | 1.8 | 0.62 | 0.95 |
+| Audio Path (sub55) | 8.3 | 3.5 | 0.76 | 0.95 |
+| rtMRI Path (sub55) | 4.6 | 2.2 | 0.76 | 0.95 |
+
+## Limitations
+
+Absolute F0 estimation remains inaccurate because vocal fold tension and fundamental frequency drivers are not directly visible in the midsagittal vocal tract plane. Within-gender speaker discrimination is constrained due to the limited spatial resolution and single-plane capture of rtMRI. The evaluation relies on a modest test set of 4 speakers, and the models are currently restricted to English read and spontaneous speech datasets.
+
+## Why read this
+
+Speech and ML researchers working on multi-modal synthesis or articulatory inversion should read this to see how cross-modal contrastive embedding alignment can enable speaker-independent generation from silent visual data without downstream text pipelines.
 
 ## Code
 
@@ -31,11 +64,7 @@ Evaluated on the USC 75-Speaker Speech MRI Database using 51 selected speakers (
 
 ## Applications
 
-Speech and ML engineers developing computer-assisted pronunciation training (CAPT) systems or speech rehabilitation tools for individuals with speech disorders.
-
-## Limitations
-
-Absolute F0 estimation remains challenging and within-gender speaker discrimination is difficult due to the limited spatial resolution of mid-sagittal rtMRI images which cannot capture vocal fold vibrations or full 3D vocal tract geometry.
+Computer-assisted pronunciation training (CAPT) systems and speech rehabilitation tools for individuals with motor speech disorders.
 
 ## Related
 

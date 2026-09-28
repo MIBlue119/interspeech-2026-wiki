@@ -1,29 +1,53 @@
 ---
 id: pine26_interspeech
 category: tts
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://www.isca-archive.org/interspeech_2026/pine26_interspeech.html
 pdf: https://www.isca-archive.org/interspeech_2026/pine26_interspeech.pdf
 ---
 
 # Two Lessons Learned from the SGILE project: Efficient Building and Evaluation of TTS Voices
 
+*Aidan Pine, Korin Richmond*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/pine26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pine26_interspeech.html)
 
-**TL;DR** — This paper introduces an interactive web app and open-source EveryVoice toolkit from the SGILE project that demonstrate how high-quality text-to-speech models can be trained on modest amounts of data while employing efficient Best-Worst Scaling (BWS) evaluations.
+**TL;DR** — The SGILE project introduces the open-source EveryVoice TTS toolkit for training high-quality neural speech synthesis on small datasets and demonstrates the efficiency of Best-Worst Scaling (BWS) for subjective evaluation.
+
+## Key contributions
+
+- Development of the EveryVoice TTS Toolkit designed for building high-quality voices with modest compute and limited audio data typical of under-resourced languages.
+- Methodical exploration and promotion of efficient subjective evaluation paradigms such as Best-Worst Scaling (BWS) and AB tests over traditional Mean Opinion Score (MOS) tests to minimize listener fatigue.
+- A showcase web application combining interactive TTS voice demonstrations across multiple languages with an informal, embedded listening test framework.
+- Insights showing that neural text-to-speech models can be effectively trained from scratch using only a few hours of speech data, challenging assumptions about required corpus scale.
 
 ## Problem
 
-Over 99% of the world's 7,100+ languages are considered under-resourced, lacking the massive datasets and computational resources typically demanded by modern neural TTS models. Furthermore, traditional subjective evaluations like Mean Opinion Score (MOS) or standard AB tests impose heavy listener burdens and are inefficient when available evaluator pools are extremely small.
+More than 99% of the world's 7,100+ languages are classified as under-resourced, lacking the massive speech and text corpora exploited by high-resource speech technology models. Conventional neural TTS assumptions dictate that tens, hundreds, or thousands of hours of speech data are mandatory to achieve acceptable voice quality. Furthermore, standard evaluation methods like MOS require large amounts of listener effort and plentiful evaluator pools, which are severely constrained in under-resourced and Indigenous language communities.
 
 ## Method
 
-The SGILE project developed the open-source EveryVoice TTS toolkit to enable non-expert users to build custom voices from scratch using only a few hours of speech data. For evaluation, the system implements Best-Worst Scaling (BWS) alongside traditional AB tests within an interactive web application framework. The BWS interface presents users with four audio stimuli simultaneously, requiring them to designate the best and worst samples, which efficiently yields five pairwise comparisons from a single listening and selection pass. The accompanying web demo serves as an informal listening test that blind-tests user preferences, reveals the underlying voice characteristics post-rating, and aggregates community comparisons across multiple languages.
+The EveryVoice TTS Toolkit is engineered to lower computational and data barriers, allowing non-expert community members to construct custom speech synthesis models from scratch using modest hardware resources. The system is paired with a user-friendly wizard interface to streamline the voice building pipeline for non-specialist users.
+
+For subjective evaluation, the framework utilizes Best-Worst Scaling (BWS). In a BWS evaluation panel, a user is presented with four audio stimuli simultaneously, from which they must identify the best-sounding and worst-sounding samples. Evaluating four samples in this manner yields five pairwise preference comparisons, achieving statistical efficiency that would otherwise require 10 individual audio presentations and 5 separate selections in a standard pairwise AB testing setup.
+
+## Experimental setup
+
+The demo showcases EveryVoice models trained on constrained datasets consisting of only a few hours of speech data across multiple under-resourced Indigenous languages. The evaluation methodology compares BWS and AB testing paradigms against traditional evaluation approaches. The interactive interface is deployed as a web application accessible via mobile devices, tablets, and laptops using QR code integration.
 
 ## Results
 
-The work showcases multi-language TTS voices trained successfully from scratch using limited speech data typical of under-resourced environments. While specific acoustic metric numbers are omitted, the paper highlights that BWS testing provides greater efficiency and statistical robustness by extracting more comparative information with significantly less listener effort compared to standard evaluation paradigms.
+The project demonstrates that natural-sounding neural TTS voices can be successfully constructed from scratch using only a few hours of target speech data. Using Best-Worst Scaling (BWS), evaluators can extract five pairwise preference comparisons from listening to just four audio samples, significantly increasing evaluation throughput compared to traditional AB testing frameworks.
+
+## Limitations
+
+The reliance on small training corpora can introduce architectural and generative constraints in complex acoustic domains. The evaluation framework, while optimized for low-listener-availability environments, still requires human participation. Scope is bounded by the specific characteristics of the Indigenous languages targeted in the SGILE and Own Your Voice projects.
+
+## Why read this
+
+Researchers and practitioners working on low-resource speech technology or community-driven speech documentation should read this to learn how to build functional TTS models with minimal data and evaluate them efficiently without exhausting small listener communities.
 
 ## Code
 
@@ -31,11 +55,7 @@ The work showcases multi-language TTS voices trained successfully from scratch u
 
 ## Applications
 
-Speech engineers, educators, and language community members building custom text-to-speech technologies for under-resourced or indigenous languages with restricted data and evaluation pools.
-
-## Limitations
-
-The paper focuses primarily on presenting a demo application and practical framework lessons rather than conducting formal large-scale empirical benchmarks across diverse commercial architectures.
+Community-led Indigenous language education, preservation of under-resourced languages, and localized text-to-speech application deployment.
 
 ## Related
 

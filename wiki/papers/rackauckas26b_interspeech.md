@@ -1,29 +1,55 @@
 ---
 id: rackauckas26b_interspeech
 category: tts
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://www.isca-archive.org/interspeech_2026/rackauckas26b_interspeech.html
 pdf: https://www.isca-archive.org/interspeech_2026/rackauckas26b_interspeech.pdf
 ---
 
 # A Speech-First Character Interface for Stylized Japanese Dialogue Practice
 
+*Zackary Rackauckas*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/rackauckas26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rackauckas26b_interspeech.html)
 
-**TL;DR** — Jouzu is a mobile demonstration system for Japanese language practice that integrates persona-conditioned LLM dialogue, expressive Style-BERT-VITS2 voice synthesis, and interactive vocabulary scaffolding.
+**TL;DR** — We present Jouzu, a mobile Show & Tell demonstration of expressive persona-conditioned spoken interaction for Japanese language practice featuring style-conditioned LLM dialogue and voice synthesis.
+
+## Key contributions
+
+- A speech-first character interface combining LLM-based dialogue with persona-specific voice synthesis using Style-BERT-VITS2.
+- A direct comparison mode allowing users to send the same prompt to multiple fictional personas to observe variations in wording, register, and voice.
+- An in-place word inspection feature providing furigana, romaji, and English definitions directly within the mobile chat UI.
+- A fault-tolerant live demonstration workflow separating core audio-playback/text-input paths from optional speech recognition under noisy booth conditions.
 
 ## Problem
 
-Traditional language-learning chatbots typically act as neutral tutors, failing to expose learners to the rich diversity of Japanese character language where register, wording, and sentence-final particles signal personality and social role. Because connecting these stylistic elements to pronunciation and written forms is difficult through text alone, learners need immersive spoken interfaces that embody distinct personas. However, effectively combining real-time LLM generation, character-specific voice synthesis, and low-friction vocabulary support into a cohesive live interaction loop remains a design challenge.
+Spoken interaction is essential for Japanese language learners to connect written forms, pronunciation, register, and sentence-final particles, yet most existing language-learning chatbots are presented as neutral tutors. Text-only interfaces fail to convey the nuance of expressive character speech and register. Furthermore, prior systems rarely integrate multi-character comparisons and real-time vocabulary scaffolding into a single interactive mobile loop.
 
 ## Method
 
-The Jouzu system uses persona-conditioned LLM prompting, where each character profile contains customized style instructions and verified sample lines to govern lexical choices and sentence-final forms. Responses are synthesized into expressive character audio using fine-tuned models based on the Style-BERT-VITS2 JP Extra architecture, trained on professional voice actor recordings. The mobile frontend provides a unified chat interface supporting typed or spoken prompts, audio playback, multi-character comparison, and a tap-based word inspector supplying furigana, romaji, and English definitions. The live demo pipeline is structured to execute core text-to-speech loops within one minute, while accommodating noisy booth conditions through robust fallback paths.
+Jouzu utilizes persona-conditioned prompt engineering where each character is backed by a short profile, style instructions, and native-speaker-verified sample lines to constrain conversational style and sentence-final forms.
+
+The generated Japanese text is synthesized into expressive audio using fine-tuned character-specific models built on top of the pretrained Style-BERT-VITS2 JP Extra model, leveraging recordings from professional Japanese voice actors. The mobile interface binds audio playback controls directly to the text transcript.
+
+For input and support, the system accepts typed or spoken prompts and features a tap-based word inspection tool that instantly surfaces furigana, romaji, and English definitions without breaking the chat flow.
+
+## Experimental setup
+
+The system runs on a mobile interface demonstrating live interactive latency under one minute per multi-character exchange. It utilizes Style-BERT-VITS2 JP Extra fine-tuned on professional Japanese voice actor recordings. Evaluations and baselines are omitted here as this is strictly a demonstration paper, with user-study methodology and learning-outcome analyses delegated to a companion paper.
 
 ## Results
 
-The paper presents a system demonstration and interaction workflow rather than a quantitative evaluation of model performance. The underlying expressive TTS pipeline relies on prior findings showing that Style-BERT-VITS2 JP Extra produces Japanese speech with no significant average difference from native ground truth. The demonstration showcases completed interaction loops within a one-minute timeframe, including character selection, prompt submission, stylized voice playback, and in-place vocabulary inspection across multiple personas.
+Because this paper presents a live mobile demonstration system rather than an empirical evaluation, explicit quantitative benchmark results, comparative metrics, or ablations are not reported in the text.
+
+## Limitations
+
+The system relies on fictional character registers which are explicitly not suitable for formal real-world conversation. The paper is scoped purely as a demonstration description without reporting formal user-study results or learning-outcome analyses in this text. Performance under extreme noise conditions relies on falling back from speech-input to text-input paths.
+
+## Why read this
+
+Speech and CALL researchers building interactive conversational agents will learn how to integrate persona-conditioned TTS pipelines, multi-agent response comparisons, and in-place scaffolding into a cohesive mobile interface.
 
 ## Code
 
@@ -31,11 +57,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Language learners practicing Japanese conversation and listening comprehension who want to experience diverse social registers and fictional personas.
-
-## Limitations
-
-The system utilizes stylized fictional characters whose linguistic forms are expressive and culturally recognizable, but explicitly not suitable for formal, real-world conversation.
+Computer-Assisted Language Learning (CALL) mobile applications, expressive character-based dialogue systems, and interactive spoken language practice tools.
 
 ## Related
 

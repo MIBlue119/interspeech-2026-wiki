@@ -1,29 +1,62 @@
 ---
 id: pekarekrosin26_interspeech
 category: asr
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2111
 pdf: https://www.isca-archive.org/interspeech_2026/pekarekrosin26_interspeech.pdf
 ---
 
 # MoDiCoL: A Modular Diagnostic Continual Learning Dataset for Robust Speech Recognition
 
+*Theresa Pekarek Rosin, Matthias Kerzel, Stefan Wermter*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/pekarekrosin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pekarekrosin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2111)
 
-**TL;DR** — MoDiCoL introduces a modular diagnostic continual learning dataset and curriculum to evaluate ASR robustness under compounding real-world distribution shifts, revealing significant performance degradation on speaker and linguistic variations.
+**TL;DR** — MoDiCoL is a modular diagnostic continual learning dataset and curriculum designed to systematically study ASR robustness under compounding distributional shifts. Experience Replay with a 10% buffer achieves a headline average WER of 17.31%, outperforming joint training baselines.
+
+## Key contributions
+
+- Introduces MoDiCoL, an 18.79-hour dataset of 8,100 samples combining real and XTTS-v2 synthetic speech structured via an L27 orthogonal array Taguchi design.
+- Proposes a real-world-inspired continual learning curriculum isolating acoustic environment, speaker characteristics, linguistic content, and compound drifts.
+- Evaluates three continual learning strategies (Experience Replay, Representation-level Regularization, and Orthogonal Gradient Descent) against sequential fine-tuning and joint training baselines.
+- Demonstrates via gradient subspace analysis that catastrophic forgetting in ASR under distribution shifts stems primarily from gradient interference rather than high-level representational drift.
 
 ## Problem
 
-Standard ASR benchmarks typically isolate individual distribution shifts such as accent, noise, or speech impairments, failing to capture how these factors co-occur and accumulate in real-world applications. Existing evaluation sets also lack control over confounding variables, making it difficult to isolate the primary causes of model failures. Treating robustness as a static attribute overlooks how it dynamically develops or degrades, creating a need for continual learning frameworks that simulate incremental real-world updates.
+Modern automatic speech recognition systems degrade severely under real-world distribution shifts caused by recording conditions, speaker accents, speech impairments, and noise. Existing benchmarks evaluate these factors in isolation, failing to reflect how real-world variations accumulate sequentially. Furthermore, while continual learning is used for domain adaptation, its potential as a diagnostic tool for uncovering how pretrained ASR models acquire, transfer, and forget robustness remains largely unexplored.
 
 ## Method
 
-The authors construct MoDiCoL using a systematic orthogonal array (Taguchi design with foldover dimensions) to combine 10 distinct linguistic, speaker, and acoustic factors across 108 configurations and 8,100 samples totaling 18.79 hours of speech (14.08 hours synthetic). Synthetic speech and voice cloning via XTTS-v2 are used to fill infeasible or missing real-world combinations, complemented by an augmentation pipeline incorporating denoising, disfluency insertion, impairment simulation, pause modification, reverberation, and noise injection. A continual learning curriculum is established comprising control (t0), acoustic drift (t1), speaker drift (t2), linguistic drift (t3), and compound drift (t4). Using a whisper-small.en backbone, the evaluation tests three continual learning strategies: Experience Replay (5% and 10% buffers), Representation-level Regularization (RLR), and Orthogonal Gradient Descent (OGD).
+The dataset is constructed using an L27 orthogonal array with foldover dimensions to yield 108 run configurations, each populated with 75 samples (14.08 hours synthetic generated via XTTS-v2 and 4.71 hours real speech). The augmentation pipeline handles denoising (using a DNN-HMM hybrid system), disfluency insertion, prosodic/spectral impairment simulation (jitter, shimmer, tremor), pause manipulation, reverberation distance simulation, and noise injection (babble and fan noise from MS-SNSD at clean, 10dB, and 20dB SNRs).
+
+Model experiments use whisper-small.en as the backbone, operating in an online, streaming continual learning setting with a batch size of one and a learning rate of 1e-5. The continual learning curriculum streams tasks sequentially: t0 (control/LibriSpeech), t1 (acoustic drift: noise, SNR, distance), t2 (speaker drift: children, elderly, accents, impairments), t3 (linguistic drift: medical, ATC domains, conversational/spontaneous styles), and t4 (compound drift). Three strategies are evaluated: Experience Replay (ER) with 5% and 10% memory buffers, Representation-level Regularization (RLR) penalizing cosine distance of mean-pooled encoder outputs, and Orthogonal Gradient Descent (OGD) projecting updates orthogonally to past task gradients.
+
+## Experimental setup
+
+Evaluated on the 18.79-hour MoDiCoL dataset (8,100 samples, 16 kHz WAV). Compares sequential fine-tuning (FT) and joint training (JOINT) baselines against Experience Replay (ER-5%, ER-10%), Representation-level Regularization (RLR), and Orthogonal Gradient Descent (OGD) using whisper-small.en. Metrics include Average Word Error Rate (A-WER), Average Incremental WER (AI-WER), Forgetting Measure (FM), Backward Transfer (BWT), Forward Transfer (FWT), and Intransigence Measure (IM), alongside BERTScore F1 for semantic evaluation.
 
 ## Results
 
-Evaluated on whisper-small.en prior to continual learning, the base model achieves a low Word Error Rate (WER) of 7.42 and 99.90 BERTScore on the clean control set t0, but degrades drastically under distribution shifts. Acoustic drift (t1) results in a moderate WER increase (mean 47.62, median 14.29), whereas speaker drift (t2) and linguistic drift (t3) cause severe performance drops with mean WERs of 87.28 and 141.73 respectively. Interestingly, compound drift (t4) yields a lower mean WER of 43.37 than individual speaker or linguistic drifts, indicating that drift difficulties do not strictly accumulate additively. The wide gap between mean and median error rates shows that the baseline model retains strong transcription capabilities on many samples while failing catastrophically on others.
+ER-10% achieves the best A-WER of 17.31 ± 0.48, outperforming both joint training (27.24) and sequential fine-tuning (34.14). OGD achieves the strongest AI-WER of 21.19 ± 1.18, proving superior to RLR (34.28 A-WER), which suffers from severe forgetting (-22.34 FM) due to the information loss of mean-pooling encoder representations. Orthogonal gradient cosine similarities ranging between 10^-3 and 10^-6 confirm that task gradients reside in distinct geometric subspaces.
+
+| System | A-WER (↓) | AI-WER (↓) | FM (target=0) | BWT (↓) |
+|---|---|---|---|---|
+| ER-5% | 25.75 | 23.40 | -12.89 | 12.89 |
+| ER-10% | 17.31 | 22.83 | -1.95 | 1.78 |
+| RLR | 34.28 | 24.30 | -22.34 | 22.33 |
+| OGD | 26.87 | 21.19 | -12.75 | 12.16 |
+| JOINT | 27.24 | - | - | - |
+| FT | 34.14 | 23.73 | -24.55 | 24.55 |
+
+## Limitations
+
+The dataset scale is relatively small (18.79 hours total, predominantly synthetic at 14.08 hours), limiting the diversity of real-world interactions. The evaluation relies strictly on whisper-small.en, leaving open whether findings generalize to larger scale encoder-decoder or entirely end-to-end models. Task order sensitivity remains a pronounced vulnerability across all methods except for high-capacity rehearsal buffers.
+
+## Why read this
+
+Speech researchers and ML engineers building adaptive or streaming ASR systems should read this to understand how gradient interference drives forgetting during incremental updates, and why simple rehearsal buffers outperform complex regularization for robustness retention.
 
 ## Code
 
@@ -31,11 +64,7 @@ Evaluated on whisper-small.en prior to continual learning, the base model achiev
 
 ## Applications
 
-Speech and machine learning engineers studying ASR robustness, domain adaptation, and catastrophic forgetting under realistic, multi-factor distribution shifts.
-
-## Limitations
-
-The dataset scope is constrained to 18.79 total hours of speech heavily reliant on synthetic generation for rare factor combinations.
+Adapting on-device speech recognition systems to evolving user accents, noisy environments, and specialized medical or aviation domains without catastrophic forgetting.
 
 ## Related
 

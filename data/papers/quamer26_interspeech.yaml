@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-2741
 isca_url: https://www.isca-archive.org/interspeech_2026/quamer26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/quamer26_interspeech.pdf
 session: Voice Editing
-topics: [speech-enhancement, evaluation, self-supervised]
+topics: [voice-conversion, self-supervised, evaluation]
 code:
     url: https://anonymousis23.github.io/demos/pca-voice-editing/
     license: ""

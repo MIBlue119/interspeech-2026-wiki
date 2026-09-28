@@ -9,8 +9,8 @@ doi: 10.21437/Interspeech.2026-449
 isca_url: https://www.isca-archive.org/interspeech_2026/miniconi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/miniconi26_interspeech.pdf
 session: Speech Synthesis Evaluation 2
-topics: [evaluation, tts, self-supervised]
+topics: [tts, evaluation, self-supervised]
 code:
-    url: ""
+    url: https://git-lium.univ-lemans.fr/jsalt2025/wp1/tts4all_eval
     license: ""
 open_to_collaboration: false

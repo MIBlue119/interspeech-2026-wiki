@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-371
 isca_url: https://www.isca-archive.org/interspeech_2026/park26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26b_interspeech.pdf
 session: New Training Methods for ASR
-topics: [emotion-recognition, multilingual, self-supervised]
+topics: [emotion-recognition, self-supervised, multilingual]
 code:
     url: https://github.com/snudatalab/Mochee
     license: ""

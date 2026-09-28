@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-975
 isca_url: https://www.isca-archive.org/interspeech_2026/peng26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/peng26c_interspeech.pdf
 session: Language and Dialect Recognition
-topics: [self-supervised, multilingual, phonetics]
+topics: [self-supervised, multilingual, evaluation]
 code:
     url: ""
     license: ""

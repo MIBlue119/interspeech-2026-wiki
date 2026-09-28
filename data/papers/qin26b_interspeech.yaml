@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-1778
 isca_url: https://www.isca-archive.org/interspeech_2026/qin26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/qin26b_interspeech.pdf
 session: Speech Deepfake Detection, Attribution and Characterization
-topics: [audio-deepfake, self-supervised, evaluation]
+topics: [speech-deepfake-detection, self-supervised, evaluation]
 code:
     url: ""
     license: ""

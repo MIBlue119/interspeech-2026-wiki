@@ -1,29 +1,62 @@
 ---
 id: naini26_interspeech
 category: speech-emotion-recognition
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2935
 pdf: https://www.isca-archive.org/interspeech_2026/naini26_interspeech.pdf
 ---
 
 # Comparative Reasoning: Making an Audio Language Model Better at Comparing Emotions
 
+*Abinay Reddy Naini, Jaeyeon Kim, Chao-Han Huck Yang, Shinji Watanabe, Carlos Busso*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/naini26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/naini26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2935)
 
-**TL;DR** — A reasoning-guided ordinal speech emotion recognition framework adapts large audio-language models for pairwise emotion comparison, achieving superior preference accuracy while using only 5% of conventional training data.
+**TL;DR** — This paper introduces a reasoning-guided ordinal speech emotion recognition framework that adapts large audio-language models (LALMs) for pairwise emotional comparisons, achieving superior preference accuracy while using only 5% of the training data required by conventional self-supervised baselines.
+
+## Key contributions
+
+- Formulates speech emotion recognition as an explicit pairwise comparative reasoning task using LALMs rather than absolute regression or classification.
+- Proposes a structured reasoning trace generation pipeline combining semantic audio descriptions with discretized GeMAPS acoustic low-level descriptors (LLDs).
+- Applies supervised fine-tuning (SFT) and direct preference optimization (DPO) conditioned on reasoning traces (CoT) to improve both preference prediction and interpretability.
+- Demonstrates strong data efficiency, outperforming conventional SSL ranking models using only 10k pairs (5% of baseline data volume).
 
 ## Problem
 
-Large audio-language models (LALMs) are predominantly designed for single-audio inference and exhibit weak performance in comparative multi-audio tasks. Emotional perception is naturally relative rather than absolute, but existing SER preference approaches learn comparative relationships implicitly from annotations without explicit reasoning over acoustic and semantic cues.
+Large audio-language models (LALMs) are predominantly designed for single-audio inference and struggle with multi-audio comparative reasoning across emotional, prosodic, or environmental dimensions. While psychological studies show that humans evaluate emotions more reliably via relative pairwise comparisons than absolute scores, existing emotion preference learning approaches learn implicitly from latent representations without modeling underlying acoustic cues. This leaves LALMs unable to provide transparent, interpretable justifications for why one speech utterance exhibits higher emotional intensity than another.
 
 ## Method
 
-The framework uses Qwen2.5-Omni-3B (3B parameters) as the base LALM, adapted via LoRA (rank and scaling factor both set to 64) on linear layers. Training data consists of 10k utterance pairs per emotional attribute from MSP-Podcast, representing roughly 5% of conventional training volume. Inputs combine paired speech clips, an explicit prompt specifying sample order and emotional dimension definitions, and structured comparative reasoning traces. These traces are generated using Qwen3-Next-80B by combining Qwen3-Omni-Caption semantic descriptions with 36-dimensional acoustic representations derived from 18 GeMAPS low-level descriptors (means and standard deviations, discretized into qualitative levels like low/medium/high). Models are trained using supervised fine-tuning (SFT) and direct preference optimization (DPO), including variants incorporating correct (r+) and incorrect (r-) reasoning traces.
+The framework takes a pair of speech clips (xA, xB) alongside a task prompt specifying the emotional attribute (arousal, valence, or dominance). To construct reasoning traces, semantic captions are generated using Qwen3-Omni-Captioner, while 18 acoustic low-level descriptors (LLDs) plus their means and standard deviations (yielding a 36-dimensional GeMAPS representation) are extracted, normalized across the training set, and mapped to qualitative levels (low, medium, high) such as pitch, loudness, and vocal stability. A large reasoning model (Qwen3-Next-80B) synthesizes these into a concise reasoning trace (under 5 sentences) paired with the correct decision (y+), with automated regeneration conditioned on correct labels if the initial trace fails.
+
+For alignment, the base model Qwen2.5-Omni-3B is adapted using LoRA (rank r = 64, scaling factor alpha = 64) applied to all linear layers. The system is trained via Supervised Fine-Tuning (SFT) to generate both the reasoning trace and final answer (r+, y+). Furthermore, Direct Preference Optimization (DPO) is utilized by pairing correct reasoning-answer tuples (r+, y+) against incorrect ones (r-, y-) generated by prompting the reasoning model with incorrect decisions, enforcing robust preference separation and suppressing hallucinations.
+
+## Experimental setup
+
+Experiments use the MSP-Podcast v2.0 corpus (409 hours; 169k training, 34k dev, 46k test segments) for primary training and evaluation, constructing 10k training pairs and 3k test pairs per attribute using an absolute consensus score difference threshold > 1 on a 1–7 Likert scale. Cross-domain generalization is evaluated on the BIIC-Podcast corpus (Mandarin) and the WHiSER corpus (President Nixon Oval Office recordings, 1971–1973). Baselines include WavLM and HuBERT features combined with RankNet (trained on 240k pairs), and RankList. Models are evaluated using attribute-specific and average preference accuracy.
 
 ## Results
 
-Evaluated on 3k held-out pairs from MSP-Podcast development/test sets, as well as WHiSER and BIIC-Podcast corpora for cross-domain tests. On MSP-Podcast test sets, the DPO-CoT model achieves an average preference accuracy of 0.881 across arousal (0.887), valence (0.890), and dominance (0.867), outperforming WavLM+RankNet (0.784 avg) and RankList (0.796 avg) baselines while utilizing only 5% of their training data volume. In cross-dataset transfer to WHiSER, DPO-CoT reaches 0.909 average accuracy compared to 0.764 for WavLM+RankNet. In cross-emotion transfer (trained on arousal only, tested on valence/dominance), DPO-CoT yields an average accuracy of 0.785 compared to 0.637 for baseline LALM SFT.
+On MSP-Podcast test pairs, the proposed DPO-CoT model achieves an average preference accuracy of 0.881, outperforming WavLM + RankNet (0.784), HuBERT + RankNet (0.765), and RankList (0.796), while using substantially fewer training pairs (10k vs 240k). Zero-shot Qwen2.5-Omni-3B performs poorly at 0.637 average accuracy, but standard SFT boosts this to 0.875 and DPO to 0.879. In cross-domain evaluations on WHiSER, DPO achieves 0.911 average preference accuracy compared to 0.764 for WavLM + RankNet. In cross-emotion generalization (training on arousal only and testing across dimensions), DPO-CoT achieves an average accuracy of 0.785, substantially mitigating performance drops on valence.
+
+| Model | Arousal | Valence | Dominance | Avg |
+|---|---|---|---|---|
+| WavLM + RankNet | 0.792 | 0.806 | 0.753 | 0.784 |
+| HuBERT + RankNet | 0.781 | 0.773 | 0.742 | 0.765 |
+| RankList [57] | 0.808 | 0.813 | 0.767 | 0.796 |
+| Qwen2.5-Omni-3B (Zero-shot) | 0.658 | 0.707 | 0.547 | 0.637 |
+| + SFT | 0.881 | 0.878 | 0.867 | 0.875 |
+| + DPO-CoT | 0.887 | 0.890 | 0.867 | 0.881 |
+
+## Limitations
+
+The framework relies on pre-computed textual captions and GeMAPS heuristic features to anchor the reasoning trace, limiting end-to-end native acoustic reasoning. Evaluation is restricted to English, Mandarin, and historical archival audio datasets, leaving low-resource dialects and highly noisy real-world acoustic environments underexplored. The generation of reasoning traces introduces additional inference latency compared to direct classification heads.
+
+## Why read this
+
+Researchers building multimodal audio-language models and speech emotion recognition systems should read this paper to learn how to inject acoustic-grounded reasoning traces and direct preference optimization into LALMs for robust multi-audio comparison.
 
 ## Code
 
@@ -31,11 +64,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech and machine learning engineers building interpretable speech emotion recognition systems, voice-based assistants, or multi-audio comparative evaluation pipelines.
-
-## Limitations
-
-Longer reasoning traces are prone to hallucination and degrade performance, requiring strict length constraints (fewer than five sentences).
+Speech emotion recognition, psychiatric assessment tools, empathetic conversational agents, and multi-utterance affective analysis.
 
 ## Related
 

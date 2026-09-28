@@ -1,41 +1,63 @@
 ---
 id: munyampirwa26_interspeech
 category: asr
-updated: 2026-09-28
+updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-1375
 pdf: https://www.isca-archive.org/interspeech_2026/munyampirwa26_interspeech.pdf
 ---
 
 # Contextual Earnings-22: A Speech Recognition Benchmark with Custom Vocabulary in the Wild
 
+*Blaise Munyampirwa, Arda Ibis, Zach Nagengast, Brian Keene, Dylan Angus*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/munyampirwa26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/munyampirwa26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1375)
 
-**TL;DR** — Contextual Earnings-22 is a standardized public benchmark for custom-vocabulary speech recognition built on earnings calls, evaluating six strong baseline systems across local and global context regimes.
+**TL;DR** — Contextual Earnings-22 is a new public benchmark for speech-to-text context biasing built on Earnings-22, pairing 760 context-dense 15-second audio clips with realistic custom-vocabulary entity lists to evaluate keyword prompting and boosting methods.
+
+## Key contributions
+
+- Introduces Contextual Earnings-22, bridging the gap between saturated academic benchmarks and high-stakes commercial contextual speech recognition needs.
+- Curates a high-fidelity dataset of 760 manually reviewed and corrected 15-second clips across validation (130 samples) and test (630 samples) splits, eliminating 98.7% of inaudible/unk artifacts present in the raw data.
+- Implements a dual evaluation protocol examining both 'local context' (precision-focused, no distractors) and 'global context' (recall-versus-precision tradeoff with call-level entity distractors).
+- Establishes reproducible baselines for six major systems spanning commercial keyword prompting APIs (Deepgram Nova-3, OpenAI Whisper-1, AssemblyAI Universal) and keyword boosting architectures (Whisper OSS, FastConformer-CTC-Large, Argmax Parakeet-v2 + CTC-WS).
 
 ## Problem
 
-Academic speech recognition benchmarks are near-saturated in word error rate (WER) and fail to reflect high-stakes real-world domains where a small set of custom terms like company, person, and product names determines transcript usability. Evaluating contextual speech-to-text is currently fragmented across private data, synthetic rare-word injection, and non-standard protocols, hindering direct comparison between keyword prompting and keyword boosting approaches.
+Current academic speech-to-text benchmarks show near-saturated word error rates, obscuring significant real-world failures on rare, context-defined custom vocabulary such as proper names, company titles, and product terms. While industrial systems rely heavily on contextual conditioning via keyword prompting or keyword boosting, evaluation remains fragmented across private datasets or ad-hoc synthetic subsets of LibriSpeech. This lack of a standardized public benchmark pairing natural domain-specific audio with realistic direct and distractor entity inventories impedes apples-to-apples research progress.
 
 ## Method
 
-The authors construct Contextual Earnings-22 from 55 source files (roughly 58 hours of audio) yielding 760 context-dense 15-second samples split into validation and test sets. Candidate keywords (person, company, product names) are extracted using GPT-5, normalized, and forced-aligned using wav2vec, followed by rigorous manual review where 98.7% of samples are freed from inaudible/unknown tags and 29.5% receive word-level corrections. Two operational regimes are evaluated: local context (only keywords present in the clip) and global context (full source-call inventory containing realistic distractor terms). Six strong baselines are benchmarked: commercial STT APIs with keyword prompting (Deepgram Nova-3, OpenAI Whisper-1, AssemblyAI Universal, OpenAI Whisper Large-v3-turbo) and CTC-based keyword boosting pipelines (FastConformer-CTC-Large and Argmax Parakeet-v2 with CTC-WS).
+The dataset is constructed by taking Earnings-22 source audio files (~1 hour per call) and extracting candidate segments using an LLM-based named-entity extraction pass via GPT-5 over the transcripts. Post-processing normalizes surface forms, punctuation, and removes generic strings to establish per-call global entity inventories. Transcript segments are mapped to audio using a wav2vec-based forced aligner to extract fixed-length 15-second windows centered around keyword mentions, followed by rigorous manual review to fix transcript errors, casing, acronyms, and multi-word boundaries.
+
+For evaluation, the benchmark tests two context regimes: local context (only keywords spoken in the target clip) and global context (all entities from the 1-hour call source, introducing realistic distractors). Systems are evaluated using keyword prompting (passing text prompts into models like Whisper, Deepgram, and AssemblyAI) and keyword boosting (integrating term lists into decoding pipelines via CTC-based word-spotter pipelines like FastConformer-CTC-Large and Parakeet-v2). These approaches balance acoustic likelihood with lexical bias lists, trading off recall gains against distractor-induced false positives.
+
+## Experimental setup
+
+The dataset comprises 760 total samples (130 validation, 630 test) drawn from 55 source audio files totaling roughly 67.6 hours of source data. Baseline systems include Deepgram Nova-3, OpenAI Whisper-1, AssemblyAI Universal, Whisper OSS Large-v3-turbo, FastConformer-CTC-Large, and Argmax Parakeet-v2 + CTC-WS. Metrics include standard Word Error Rate (WER) alongside keyword-centric Precision, Recall, and F-score computed using minimum edit-distance alignment.
 
 ## Results
 
-Evaluated on the Contextual Earnings-22 test set using WER and keyword-centric Precision, Recall, and F-score metrics via an open-source evaluation harness (OpenBench). Providing context consistently yields higher keyword F-scores across all tested systems, improving rare proper noun recognition. However, changes in WER vary widely; some systems exhibit stable or degraded WER under context due to side effects like prompt-induced hallucinations, false insertions from distractors, or language-switching. Local context consistently achieves higher F-scores and precision than global context, while global context stresses system robustness against plausible-but-absent distractor terms.
+Across all evaluated systems, introducing contextual entity lists yields consistent and substantial improvements in keyword F-score, demonstrating that contextual conditioning effectively surfaces rare and domain-specific terms. However, changes in overall Word Error Rate (WER) are less consistent; certain commercial prompting APIs experience slight WER increases due to prompt-induced artifacts like hallucinations, language switching, or partial output deviations.
 
-## Code
-
-- https://github.com/argmaxinc/OpenBench
-
-## Applications
-
-Speech engineers and developers building automated transcription systems for high-stakes professional domains—such as financial earnings calls, legal proceedings, or medical dictation—where accurate recognition of rare custom vocabulary is critical.
+Comparing evaluation regimes shows that local context is systematically easier, pushing systems to higher F-score iso-curves due to the absence of distractors. Conversely, global context severely stresses precision: the presence of plausible-but-absent call-level entity distractors leads to false-positive keyword insertions, exposing significant architectural variations in how robust different prompting and boosting strategies are to noisy context lists.
 
 ## Limitations
 
-The benchmark currently focuses specifically on earnings-call audio and proper noun categories (person, company, product names), totaling 760 samples across validation and test sets.
+The dataset is scoped specifically to English-language financial earnings calls, limiting generalization to other highly specialized domains or multilingual conversational contexts. The benchmark relies on short 15-second clips which, while effective for isolating entity recognition, do not capture long-form discourse structure or multi-turn contextual tracking. Furthermore, the reliance on GPT-5 for initial entity extraction introduces potential upstream filtering biases despite rigorous manual review.
+
+## Why read this
+
+Speech researchers and ML engineers building contextual speech recognition systems should read this to understand the practical trade-offs between keyword prompting and boosting, and to adopt a standardized benchmark that exposes distractor robustness rather than just aggregate WER.
+
+## Code
+
+- https://huggingface.co/datasets/argmaxinc/contextual-earnings22
+
+## Applications
+
+Financial transcription services, voice assistants, enterprise meeting transcription systems, and medical or legal dictation tools requiring high-accuracy custom vocabulary recognition.
 
 ## Related
 

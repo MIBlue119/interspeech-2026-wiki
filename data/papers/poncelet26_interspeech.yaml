@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-1039
 isca_url: https://www.isca-archive.org/interspeech_2026/poncelet26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/poncelet26_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
-topics: [asr, multilingual, speech-llm]
+topics: [asr, speech-llm, speaker-diarization]
 code:
-    url: ""
+    url: https://github.com/nelfproject/NeLF_S2T_Pytorch
     license: ""
 open_to_collaboration: false
