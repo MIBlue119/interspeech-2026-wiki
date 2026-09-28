@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-1627
 isca_url: https://www.isca-archive.org/interspeech_2026/tang26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tang26b_interspeech.pdf
 session: Emotional Speech Synthesis
-topics: [speech-llm, tts, paralinguistic]
+topics: [speech-llm, tts, self-supervised]
 code:
-    url: ""
+    url: https://github.com/steeremo971-commits/DeSRPA
     license: ""
 open_to_collaboration: false

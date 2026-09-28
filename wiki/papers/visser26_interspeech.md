@@ -1,41 +1,72 @@
 ---
 id: visser26_interspeech
-category: self-supervised
+category: spoken-language-understanding
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-315
 pdf: https://www.isca-archive.org/interspeech_2026/visser26_interspeech.pdf
 ---
 
 # ZeroSyl: Simple Zero-Resource Syllable Tokenization for Spoken Language Modeling
 
+*Nicol Visser, Simon Malan, Danel Slabbert, Herman Kamper*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/visser26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/visser26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-315)
 
-**TL;DR** — ZeroSyl is a simple, training-free method that extracts syllable boundaries and semantic features from a frozen WavLM model to build pure speech language models, outperforming prior multi-stage syllabic tokenizers on syntactic and narrative benchmarks.
+**TL;DR** — ZeroSyl is a training-free unsupervised syllable tokenization method for spoken language modeling that extracts boundaries from the L2 norms of frozen WavLM features, outperforming complex multi-stage pipelines across lexical, syntactic, and narrative benchmarks. When scaled to 60,000 hours of audio, its coarser syllabic units surpass frame-level tokenizers on syntactic modeling tasks.
+
+## Key contributions
+
+- Proposes ZeroSyl, a completely training-free method to discover syllable boundaries and semantic units directly from a frozen WavLM model without fine-tuning objectives.
+- Demonstrates that the L2 norm of intermediate WavLM (Layer 13) features provides a robust prominence signal for unsupervised syllable boundary detection.
+- Introduces an unsupervised silence collapsing mechanism via agglomerative hierarchical clustering on K-means centroids to mitigate multi-centroid silence fragmentation.
+- Shows superior scaling behavior for syntactic modeling compared to fine-grained frame-level speech tokens (SpidR) when moving from 600 to 60,000 hours of training data.
 
 ## Problem
 
-Pure speech language models must compress raw audio into discrete tokens, but standard frame-level self-supervised tokens create excessively long sequences that degrade long-range syntactic modeling. Existing syllable-level tokenizers solve this by utilizing intricate, multi-stage training pipelines that fine-tune SSL models with specialized supervision objectives. This complexity hinders reproducibility and scaling, creating a need for a straightforward, unsupervised approach to syllable tokenization.
+Pure speech language models trained on standard high-bitrate self-supervised learning (SSL) tokens generate excessively long sequences, making it difficult to capture long-range dependencies and resulting in a syntactic modeling performance plateau since 2023. Prior attempts to mitigate this using syllable-like units (such as Sylber and SyllableLM) rely on intricate, resource-intensive, multi-stage training pipelines involving custom distillation or masked objective monitoring. Furthermore, pure speech modeling has been shown to scale less favorably than text, necessitating cleaner and simpler tokenization strategies that bridge the gap without requiring massive complex architectures.
 
 ## Method
 
-ZeroSyl extracts frame-wise embeddings from layer 13 of a frozen WavLM Large model, computes their L2 norms, smooths them with a 3-point moving average, and applies prominence-based peak detection with a threshold of 0.45 sigma to find syllable boundaries. Within these discovered segments, semantic features are mean-pooled from WavLM's layer 22 to capture rich semantic information. The pooled vectors are discretized into a vocabulary of 10,000 items using spherical K-means trained on 100 hours of LibriSpeech. Unsupervised hierarchical agglomerative clustering is then used to identify and collapse multiple silence centroids into a single vocabulary item, reducing the vocabulary size to 9,116 and yielding a bitrate of 52 bps. Finally, a causal language model based on the 125-million parameter OPT architecture is trained on the resulting discrete sequences.
+ZeroSyl operates in a strictly training-free pipeline using a pretrained WavLM Large model. For boundary detection, framewise hidden embeddings are extracted from layer 13, their L2 norms are computed ($n_t = ||h_t^{(13)}||_2$), smoothed via a 3-point moving average filter, and subjected to prominence-based peak detection with a threshold of $\delta = 0.45\sigma$ (where $\sigma$ is the signal standard deviation).
+
+Once syllable boundaries are established, semantic representations are extracted from layer 22 of WavLM Large (chosen for higher mutual information with syllable labels) and mean-pooled within each discovered segment. The resulting pooled vectors are discretized using spherical K-means with K-means++ initialization, trained on 100 hours of LibriSpeech with a vocabulary size of $K = 10,000$ via the faiss library. To clean up redundant silence tokens, agglomerative hierarchical clustering is performed on the centroids, identifying the smaller branch corresponding to silences and mapping them to a single vocabulary item, reducing the vocabulary size to 9,116.
+
+A causal language model based on the OPT-125M architecture is trained on the resulting discrete token sequences. The model uses a batch size of 81,920 tokens and a context length of 2,048. Training utilizes a linear warmup to $2 \times 10^{-4}$ for the first 8% of steps followed by cosine annealing, running on Libri-Light data configurations ranging from 600 hours to 60,000 hours.
+
+## Experimental setup
+
+Evaluated on LibriSpeech (100 hours for K-means training, combined test sets for intrinsic metrics) and Libri-Light (600, 6k, and 60k hours for language model scaling). Compared against baselines including SyllableLM (5.0, 6.25, and 8.33 Hz), Sylber, a prominence-based baseline using cosine distance (PromSeg), and the frame-level baseline SpidR. Benchmarked using lexical (sWUGGY), syntactic (sBLIMP), and narrative (Topic StoryCloze - tSC) datasets, alongside intrinsic syllable discovery metrics (Purity, Inverse Purity, Syllable-Normalized Mutual Information, Bitrate in bps).
 
 ## Results
 
-Evaluated on LibriSpeech and Libri-Light, ZeroSyl achieves an R-value of 75% and token F1 of 54% for boundary detection, outperforming Sylber's 71% R-value and 51% F1. On syllable discovery, ZeroSyl reaches an optimal Syllable-Normalized Mutual Information (SNMI) of 88.9%, surpassing Sylber (83.5%) and SyllableLM (82.6%). When evaluated on downstream tasks, ZeroSyl outperforms prior syllabic tokenizers across lexical (sWUGGY), syntactic (sBLIMP), and narrative (Topic StoryCloze) benchmarks. Ablations show that collapsing redundant silence centroids via hierarchical clustering substantially improves inverse purity from 20.0% to 32.0%.
+On the Libri-Light 6k-hour evaluation, ZeroSyl achieves an sWUGGY lexical accuracy of 68.0% (in-vocabulary 78.6%), an sBLIMP syntactic score of 60.5%, and a Topic StoryCloze narrative score of 68.1%, outperforming both SyllableLM (56.4% sBLIMP) and Sylber (59.1% sBLIMP) while maintaining the lowest bitrate at 52 bits per second (bps). ZeroSyl also achieves an SNMI of 88.9%, beating Sylber (83.5%) and SyllableLM (82.6%).
 
-## Code
+In scaling experiments up to 60k hours, ZeroSyl trails the fine-grained tokenization of SpidR on lexical tasks (sWUGGY) due to its lower acoustic granularity, but exhibits a steeper upward trajectory on syntactic modeling (sBLIMP), surpassing SpidR at scale and closely matching SpidR on narrative coherence (tSC) despite utilizing a fraction of the complexity.
 
-- https://github.com/nicolvisser/ZeroSyl
-
-## Applications
-
-Speech and machine learning engineers building pure text-free spoken language models and low-resource speech understanding systems can use this method for efficient, unsupervised audio tokenization.
+| System | Bitrate (bps) | sWUGGY (IV) (%) | sBLIMP (%) | tSC (%) |
+|---|---|---|---|---|
+| SyllableLM 6.25 Hz | 73 | 74.2 | 56.4 | 67.6 |
+| Sylber | 53 | 74.7 | 59.1 | 65.8 |
+| ZeroSyl (uncollapsed) | 58 | 76.3 | 58.6 | 67.5 |
+| ZeroSyl (Collapsed) | 52 | 78.6 | 60.5 | 68.1 |
 
 ## Limitations
 
-In scaling experiments, ZeroSyl's coarse syllabic units do not surpass the scaling performance of fine-grained frame-level units on lexical tasks.
+The primary limitation is that coarse syllabic units sacrifice fine-grained acoustic and phonetic detail, causing ZeroSyl to trail frame-level tokenizers (like SpidR) on lexical tasks such as sWUGGY, particularly for rare or unseen words. The evaluation is currently bounded to English corpora (LibriSpeech and Libri-Light), and the approach relies entirely on the fixed representations of WavLM Large without investigating cross-lingual robustness or the exact underlying mechanism of why L2 norms encode syllable positions.
+
+## Why read this
+
+Speech and ML researchers building pure speech language models without text should read this paper to see how complex multi-stage distillation pipelines for syllable discovery can be entirely replaced by a simple, zero-resource, feature-norm thresholding approach. It provides critical insights into the trade-offs between frame-level and syllabic units across data scaling regimes.
+
+## Code
+
+- https://github.com/nicolvisser/ZeroSyl/
+
+## Applications
+
+Unsupervised speech language modeling, low-resource speech technology, and text-free spoken dialogue systems.
 
 ## Related
 

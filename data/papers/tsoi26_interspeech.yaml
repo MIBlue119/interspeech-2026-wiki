@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-1053
 isca_url: https://www.isca-archive.org/interspeech_2026/tsoi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tsoi26_interspeech.pdf
 session: Audio segmentation
-topics: [asr, self-supervised, on-device]
+topics: [speech-llm, self-supervised, on-device]
 code:
     url: ""
     license: ""

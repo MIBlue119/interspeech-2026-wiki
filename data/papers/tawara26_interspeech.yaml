@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-2912
 isca_url: https://www.isca-archive.org/interspeech_2026/tawara26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tawara26_interspeech.pdf
 session: Multi-Talker ASR & Speaker Diarization
-topics: [speech-llm, asr, speaker-diarization]
+topics: [asr, speaker-diarization, speech-llm]
 code:
     url: https://pcspeech-demo.fit.vut.cz/wsw2
     license: ""

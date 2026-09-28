@@ -14,50 +14,43 @@ pdf: https://www.isca-archive.org/interspeech_2026/taguchi26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/taguchi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/taguchi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2848)
 
-**TL;DR** — This paper evaluates whether pretrained self-supervised speech models can recognize rare click consonants in under-resourced Khoisan languages (G|ui and West !Xoon), finding that fine-tuned models actually recognize clicks significantly more accurately than non-click phonemes. Monolingually pretrained HuBERT models (300M parameters) frequently outperform massive multilingual models like MMS-1B.
+**TL;DR** — This paper evaluates whether pretrained self-supervised speech models can recognize rare click consonants in under-resourced Khoisan languages (G|ui and West !Xoon), finding that fine-tuned models actually recognize click phonemes more accurately than non-click phonemes. This demonstrates strong cross-lingual generalization to typologically unusual sounds despite their absence from pretraining distributions.
 
 ## Key contributions
 
-- Constructed and released ASR datasets for two click-rich Khoisan languages: G|ui (Khoe-Kwadi family, ~5.1 hours total) and West !Xoon (Tuu family, ~1.75 hours total).
-- Performed a systematic evaluation of 7 different pretrained multilingual and monolingual self-supervised ASR architectures on click vs. non-click phoneme recognition.
-- Provided empirical evidence that self-supervised pretraining enables robust generalization to typologically rare, unseen phonemes, with clicks achieving significantly lower error rates than non-clicks.
+- Constructed and released new ASR evaluation datasets for two endangered, click-rich Khoisan languages: G|ui (Khoe-Kwadi family, ~18.6k train / ~2k test seconds) and West !Xoon (Tuu family, ~5k train / ~1.4k test seconds).
+- Conducted a systematic evaluation of 7 major self-supervised speech architectures (Wav2Vec 2.0 variants, XLS-R, MMS-1B, and HuBERT) on click consonant recognition.
+- Provided empirical evidence that fine-tuned self-supervised models recognize acoustically prominent click consonants with significantly lower error rates than non-click phonemes and vowels (Wilcoxon W = 0, p = 0.016).
 
 ## Problem
 
-Modern pretrained self-supervised speech models (like Wav2Vec 2.0, HuBERT, and MMS) are heavily biased toward high-resource languages, leaving typologically uncommon speech sounds—such as click consonants found primarily in Khoisan languages—virtually absent from pretraining corpora. It has remained unclear whether multilingual speech models can accurately represent and recognize these rare phonetic units or if they suffer severe degradation. Addressing this gap is critical to ensure speech technologies support linguistic diversity rather than exclusively serving globally dominant languages.
+Modern self-supervised speech models (like Wav2Vec 2.0, HuBERT, and Whisper) are predominantly pretrained on high-resource languages, leaving typologically rare speech sounds—such as the click consonants found primarily in Khoisan languages—virtually unrepresented. While these models facilitate cross-lingual transfer, it remains unknown whether they can robustly represent and recognize individual unseen phonetic categories that deviate severely from dominant training distributions. Investigating this is a critical technical and social imperative to ensure speech technologies support linguistic diversity rather than marginalize rare phonological inventories.
 
 ## Method
 
-The study fine-tunes a variety of pretrained encoder-only self-supervised speech models—specifically Wav2Vec2 variants (xlsr-53, xls-r-300m, xls-r-1b), MMS-1B, and HuBERT (large-ll60k, xlarge-ll60k)—on G|ui and West !Xoon datasets. For MMS-1B, the authors evaluate both full-parameter fine-tuning and adapter-only tuning (freezing the base model). A Connectionist Temporal Classification (CTC) layer is stacked on top of the encoder to predict character/phoneme symbols per frame, avoiding autoregressive decoders where linguistic context might artificially aid click recognition.
+The authors fine-tuned several prominent pretrained encoder-only self-supervised models—including Wav2Vec 2.0 Large XLSR-53, XLS-R (300M and 1B), MMS-1B (with full parameters and frozen base + adapter), and HuBERT Large/Xlarge (300M and 1B)—on the G|ui and West !Xoon datasets. A Connectionist Temporal Classification (CTC) head was stacked on top of the encoder representations, and the entire network was optimized end-to-end to predict orthographic/phonemic transcripts. 
 
-All models are trained for 10 epochs using the AdamW optimizer with a learning rate of 0.0003, a batch size of 8, and the first 100 steps reserved for linear warm-up. Hyperparameters include an attention, hidden, and feature projection dropout of 0.0, layerdrop of 0.0, and a mask time probability of 0.05. The loss function is the mean CTC loss over batches. Inference is evaluated using greedy decoding, beam search (width 50), and beam search combined with 3-gram or 5-gram language models built via KenLM using a language model weight alpha of 0.2 and length penalty beta of 0.0.
+All models were trained for 10 epochs using the AdamW optimizer with a learning rate of 0.0003, a batch size of 8, and the first 100 steps reserved for warmup. Hyperparameters included attention, hidden, and feature projection dropouts set to 0.0, layerdrop set to 0.0, and mask time probability set to 0.05. Inference was evaluated using four distinct CTC decoding schemes: greedy decoding, beam search (width 50), and beam search coupled with 3-gram or 5-gram language models trained via KenLM (using an LM weight alpha of 0.2 and length penalty beta of 0.0).
 
-Full-parameter updating was chosen because freezing base weights (as tested on MMS-1B-all) resulted in a Phoneme Error Rate nearly twice as high, demonstrating that base representations must adapt to handle extreme phonological outliers. Smaller 300M parameter models were evaluated alongside 1B models to test scalability constraints under extreme data scarcity.
+Key design choices include omitting autoregressive sequence-to-sequence decoders to prevent contextual language bias from masking raw acoustic recognition capabilities, and utilizing full-parameter fine-tuning rather than freezing base models, as freezing severely degraded performance (doubling CER on G|ui).
 
 ## Experimental setup
 
-Evaluated on two custom Khoisan datasets: G|ui (3,691 train samples / ~5.1 hours; 411 test samples) and West !Xoon (864 train samples / ~1.75 hours; 246 test samples). Compared models include wav2vec2-large-xlsr-53 (300M), wav2vec2-xls-r-300m (300M), wav2vec2-xls-r-1b (1B), mms-1b (1B), mms-1b-all (1B), hubert-large-ll60k (300M), and hubert-xlarge-ll60k (1B). Evaluated using Character Error Rate (CER), Phoneme Error Rate (PER) computed via the Needleman-Wunsch alignment algorithm, and error rates broken down by manner of articulation. Training was executed on single 24GB A10 GPUs, taking approximately 70 minutes per 300M model run.
+Evaluated on the newly introduced G|ui dataset (3,691 train samples / ~5.1 hours; 411 test samples) and West !Xoon dataset (864 train samples / ~1.4 hours; 246 test samples). Evaluated 7 pretrained backbone configurations (300M to 1B parameters) trained on 24GB NVIDIA A10 GPUs. Metrics reported include Character Error Rate (CER), Phoneme Error Rate (PER) computed via the Needleman-Wunsch alignment algorithm, and split error rates across clicks, non-clicks, and vowels.
 
 ## Results
 
-Monolingually pretrained HuBERT models (300M parameters) consistently achieved the best overall performance, outperforming massive 1B-parameter models and models trained on over 1,400 languages (MMS). Scaling model size from 300M to 1B parameters did not improve accuracy; wav2vec2-xls-r-300m frequently outperformed wav2vec2-xls-r-1b, and hubert-large-ll60k beat hubert-xlarge-ll60k on West !Xoon. Freezing base parameters in MMS-1B-all severely degraded performance, roughly doubling the Phoneme Error Rate.
+Monolingually pretrained HuBERT models (specifically hubert-large-ll60k at 300M parameters) consistently outperformed massive multilingual models like MMS-1B and XLS-R-1B, demonstrating that pretraining on more languages does not guarantee better performance on rare phonemes. Furthermore, 300M parameter models frequently beat their 1B counterparts, and freezing base weights (e.g., in mms-1b-all) roughly doubled the error rate compared to full-parameter updates. 
 
-Crucially, across all models, click consonants achieved significantly lower error rates than non-click consonants and vowels (confirmed by a Wilcoxon signed-rank test, W = 0, p = 0.016). Vowels proved to be the most difficult category due to gradient acoustic continua causing confusions among oral, nasalized, and long variants (e.g., 21% of /a/ errors were recognized as /aa/).
-
-| System / Condition | West !Xoon PER (Approx.) | G|ui PER (Approx.) |
-|---|---|---|
-| hubert-large-ll60k (300M) | ~0.25 | ~0.20 |
-| wav2vec2-large-xlsr-53 (300M) | ~0.30 | ~0.23 |
-| wav2vec2-xls-r-1b (1B) | ~0.35 | ~0.26 |
-| mms-1b | ~0.40 | ~0.28 |
+Crucially, under greedy decoding, click consonants achieved significantly lower error rates than non-click consonants and vowels (Wilcoxon W = 0, p = 0.016), capitalizing on their high acoustic saliency. Vowels proved most error-prone due to confusions across gradient continua of oral, nasalized, and long vowel realizations (e.g., 21% of /a/ errors mapped to /aa/). Language model integration (3-gram/5-gram) yielded marginal or mixed gains depending on the decoding beam configuration.
 
 ## Limitations
 
-The study is restricted to extremely small datasets (1.75 to 5.1 total hours), lacking validation splits for hyperparameter tuning. It evaluates only two closely related Khoisan language families, leaving open whether findings extend to other click-using language families like Bantu languages with borrowed clicks. The evaluation is limited to frame-level CTC architectures without contextual language-model rescoring using deep neural LMs.
+The study is constrained by very small dataset sizes (under 2 hours of training data per language), limiting the robustness of deep parameter tuning and preventing the use of data-hungry sequence-to-sequence decoders. The evaluation scope is strictly restricted to two endangered Khoisan languages (G|ui and West !Xoon) and does not test click-containing Bantu languages (like Zulu or Xhosa) where click inventories are smaller or mixed. Additionally, the lack of dedicated validation splits forced checkpoint selection directly using evaluation set performance.
 
 ## Why read this
 
-Speech researchers and engineers working on low-resource adaptation and phonetic generalizability should read this to understand that self-supervised representations are remarkably robust to unseen, typologically rare phonemes—contrary to assumptions that massive multilingual pretraining is strictly required.
+Speech researchers and engineers working on low-resource adaptation, phonetic representation learning, or phonological inclusivity should read this to understand that self-supervised encoders can successfully generalize to acoustically salient phonetic inventories absent from pretraining data, challenging the assumption that massive multilingual scaling is always necessary.
 
 ## Code
 
@@ -65,7 +58,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Building robust automatic speech recognition systems for endangered, indigenous, and extremely low-resource languages with unusual phonological inventories.
+Building inclusive speech recognition tools for endangered and low-resource languages with complex, atypical phonological systems.
 
 ## Related
 

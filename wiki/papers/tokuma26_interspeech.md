@@ -3,27 +3,58 @@ id: tokuma26_interspeech
 category: phonetics
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-211
 pdf: https://www.isca-archive.org/interspeech_2026/tokuma26_interspeech.pdf
 ---
 
 # Perception of English /iː/–/ɪ/ by Japanese Listeners under Silent-Centre and Devoiced Vowel Conditions
 
+*Shinichi Tokuma*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/tokuma26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tokuma26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-211)
 
-**TL;DR** — This study investigates how Japanese listeners perceive the English /iː/–/ɪ/ contrast under silent-centre and vowel devoicing conditions, revealing that native phonological knowledge heavily constrains L2 perception rather than spectral cues.
+**TL;DR** — This study investigates how Japanese listeners perceive the English /iː/–/ɪ/ vowel contrast under silent-centre (SC) and devoiced vowel (DEV) conditions, revealing that L1 phonological biases heavily outweigh acoustic cues like aspiration or high-frequency devoicing remnants.
+
+## Key contributions
+
+- Extends the silent-centre (SC) vowel paradigm to include natural Japanese devoicing phonetic environments (/CVC/ with voiceless stops/fricatives).
+- Compares standard SC manipulations against devoiced vowel (DEV) stimuli containing residual high-frequency spectral components.
+- Isolates the perceptual role of aspiration using Aspiration Edited (AE) versus Aspiration Not Edited (ANE) stimulus variants.
+- Demonstrates that lower-proficiency L2 learners fail to exploit spectral information from aspiration or devoicing, relying instead on L1 duration and clipping biases.
 
 ## Problem
 
-Second-language vowel perception often relies on acoustic cues distinct from those used by native listeners, but it remains unclear how native phonological patterns—such as Japanese vowel devoicing and gemination constraints—interact with English silent-centre and devoiced vowel stimuli. Understanding these perceptual biases is essential for explaining why intermediate L2 learners persistently confuse English high front vowels.
+Prior silent-centre vowel perception studies primarily focused on L1 listeners or specific L2 groups like Spanish and Polish learners, leaving the interaction between L1 Japanese phonology and English vowel perception unexplored. Specifically, previous SC experimental designs used consonantal environments that do not trigger native Japanese vowel devoicing and overlooked the acoustic role of aspiration. Because Japanese phonology uses vowel length, consonant gemination, and environment-specific devoicing, it is unclear how these native rules interfere with or govern the perception of English high-vowel contrasts.
 
 ## Method
 
-The experiment used American English /CVC/ target words representing /iː/ and /ɪ/ ('teat'/'tit' and 'peace'/'piss') recorded by a male native speaker of General American English at 44,100 Hz. Two main manipulation paradigms were implemented using Praat: Silent-Centre (SC) stimuli, which removed the vowel nucleus and left transitions of 10 to 40 ms with manipulated aspiration (Aspiration Edited vs. Aspiration Not Edited), and Devoiced Vowel (DEV) stimuli, which replaced the vowel nucleus with an extension of the final 20 ms aspiration segment across a six-stimulus voiced-duration continuum (0 to 80 ms). Fourteen Japanese university students (mean TOEIC score 665, CEFR B1 equivalent) participated in a forced-choice identification task, and responses were analyzed using a Generalized Estimating Equation model for repeated measures logistic regression.
+The experiment utilized American English /CVC/ target words ('teat'/'tit' for SC conditions, 'peace'/'piss' for DEV conditions) recorded by a native General American speaker inside frame sentences at 44.1 kHz via Praat. For SC stimuli, the central vowel nucleus was removed, and total vowel transition durations were set to 10, 20, 30, and 40 ms with a 2 ms linear ramp filter to eliminate clipping clicks. Aspiration was manipulated by either editing out the aspiration phase (AE) or preserving it while modifying the subsequent vocal portion (ANE). For DEV stimuli ('peace'/'piss'), the vowel core was replaced with an extension of the final 20 ms aspiration segment, creating a six-stimulus voiced duration continuum ranging from original down to 0 ms in 20 ms steps.
+
+Data collection involved 14 Japanese university students (CEFR B1 level, average TOEIC score 665) completing a two-alternative forced-choice identification task (120 total trials per participant) using Praat MFC objects over covered-ear headphones. Responses were analyzed using a Generalized Estimating Equation (GEE) model for Repeated Measures Logistic Regression, checking for significant main effects of vowel type, aspiration manipulation, and transition duration.
+
+## Experimental setup
+
+Evaluated on 14 Japanese undergraduate students from Chuo University with 6-7 years of formal English education and zero time living abroad. Stimuli comprised American English words 'teat', 'tit', 'peace', and 'piss' manipulated into 18 SC token types and 12 DEV token types. Metrics included percent correct identification rates and Repeated Measures Logistic Regression Wald chi-square statistics.
 
 ## Results
 
-Evaluated on identification accuracy across 120 randomized stimulus presentations per participant using a repeated measures logistic regression. Results showed a significant effect of vowel type (Wald chi-square = 37.402, p < 0.001), aspiration type (Wald chi-square = 19.675, p < 0.001), and transition duration (Wald chi-square = 13.857, p < 0.001) for SC tokens. For DEV tokens, significant effects were found for vowel type (Wald chi-square = 57.136, p < 0.001) and voiced-part duration (Wald chi-square = 80.631, p < 0.001). Contrary to expectations, DEV stimuli and aspiration-preserved tokens did not yield higher identification accuracy, as intermediate listeners failed to exploit spectral information associated with devoicing or aspiration.
+Full, unedited tokens yielded near-universal /iː/ responses due to a general L2 bias (Effect 1). For SC 'tit' and 'teat' tokens, shortening transition durations systematically increased /ɪ/ identification preferences, with AE tokens consistently showing higher /ɪ/ selection than ANE counterparts due to effective voiced durations falling below a 40 ms perceptual threshold. DEV tokens exhibited complex non-linear trends where % correct for 'peace' was inversely proportional to vowel duration, whereas 'piss' flattened around a 60% identification ceiling. GEE models confirmed significant effects of vowel type (Wald χ² = 37.402, p < 0.001), aspiration type (Wald χ² = 19.675, p < 0.001), and transition duration (Wald χ² = 13.857, p < 0.001) for SC tokens, alongside significant vowel type and voiced duration effects for DEV tokens.
+
+| System / Condition | /iː/–/ɪ/ Contrast Metric | Key Finding / Trend ||
+|---|---|---|
+| Full Original Tokens | Identification Rate | Overwhelmingly perceived as /iː/ (bias towards long vowel) |
+| SC Aspiration Edited (AE) | Identification Rate | Strong shift toward /ɪ/ as voiced duration drops below ~40ms threshold |
+| SC Aspiration Not Edited (ANE) | Identification Rate | Higher preference for /iː/ at 30-40ms compared to AE conditions |
+| DEV 'peace'/'piss' | Identification Rate | Inverse proportion to vowel duration for 'peace'; flattened curve for 'piss' |
+
+## Limitations
+
+Tested exclusively on a small cohort of 14 low-intermediate Japanese L2 learners (CEFR B1), limiting generalizability across proficiency levels. The study is restricted to American English high vowels /iː/ and /ɪ/ within specific voiceless plosive/fricative environments. The artificial manipulation of silent-centre and devoiced segments may not fully capture continuous natural speech dynamics.
+
+## Why read this
+
+Phoneticians and speech engineers working on cross-language L2 acquisition or accented speech perception will learn why acoustic cues like aspiration and high-frequency spectral remnants fail to help intermediate learners who are bottlenecked by native phonological filters.
 
 ## Code
 
@@ -31,11 +62,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech scientists and language educators designing computer-assisted pronunciation training systems or targeted listening curricula for Japanese learners of English.
-
-## Limitations
-
-The study is limited to fourteen intermediate (CEFR B1) Japanese listeners evaluating a restricted set of American English high front vowel minimal pairs.
+Improving computer-assisted pronunciation training (CAPT) systems and targeted listening curricula for Japanese learners of English.
 
 ## Related
 

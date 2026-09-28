@@ -7,7 +7,7 @@ doi: 10.21437/Interspeech.2026-149
 isca_url: https://www.isca-archive.org/interspeech_2026/wen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wen26_interspeech.pdf
 session: Spatial Audio 4
-topics: [evaluation, dataset]
+topics: [spatial-audio, evaluation, self-supervised]
 code:
     url: ""
     license: ""

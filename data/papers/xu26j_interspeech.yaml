@@ -21,8 +21,8 @@ doi: 10.21437/Interspeech.2026-1128
 isca_url: https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.pdf
 session: Datasets
-topics: [asr, tts, speaker-verification]
+topics: [asr, tts, speaker-identification]
 code:
-    url: ""
+    url: https://github.com/RVC-Boss/GPT-SoVITS
     license: ""
 open_to_collaboration: false

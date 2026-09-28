@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-843
 isca_url: https://www.isca-archive.org/interspeech_2026/xu26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26e_interspeech.pdf
 session: Speech Enhancement and Restoration
-topics: [tts, voice-conversion, speech-enhancement]
+topics: [tts, voice-conversion, self-supervised]
 code:
-    url: ""
+    url: https://github.com/vspeech/SCNet
     license: ""
 open_to_collaboration: false

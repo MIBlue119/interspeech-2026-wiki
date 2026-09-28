@@ -3,27 +3,60 @@ id: turetzky26_interspeech
 category: tts
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-2743
 pdf: https://www.isca-archive.org/interspeech_2026/turetzky26_interspeech.pdf
 ---
 
 # Knowing What to Stress: A Discourse-Conditioned Text-to-Speech Benchmark
 
+*Arnon Turetzky, Avihu Dekel, Hagai Aronowitz, Ron Hoory, Yossi Adi*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/turetzky26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/turetzky26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2743)
 
-**TL;DR** — The paper introduces CAST, a text-to-speech benchmark for context-conditioned word-level stress, revealing that state-of-the-art TTS systems frequently fail to realize discourse-appropriate emphasis in speech despite text models recovering it easily.
+**TL;DR** — The paper introduces CAST, a benchmark showing that while text-only language models easily infer context-dependent sentence stress from discourse, state-of-the-art text-to-speech (TTS) systems fail to realize this stress in speech.
+
+## Key contributions
+
+- CAST: A benchmark for evaluating context-conditioned word-level stress in TTS using contrastive context pairs.
+- A scalable automated data generation pipeline utilizing structured prompts and multi-judge validation filters (gpt-5-nano and gemini-2.5-flash).
+- A systematic evaluation of diverse state-of-the-art TTS systems (Kokoro, Chatterbox, CosyVoice3, HiggsAudio V2, Qwen3-TTS, GPT-4o-mini-tts) across multiple conditioning modes.
+- An open-source synthetic training corpus of approximately 10,000 context-sentence-audio triples generated using an extended pipeline.
 
 ## Problem
 
-Spoken meaning depends heavily on which words are emphasized based on discourse context, yet modern expressive text-to-speech (TTS) systems are rarely evaluated on whether they infer and produce context-appropriate stress without explicit markup. While text-only language models easily capture these semantic shifts, it remains unclear if neural TTS can actually realize them in audio. Without a controlled evaluation framework, developers cannot isolate whether a model understands discourse-level pragmatic cues or merely relies on sentence-internal prosody.
+Spoken communication relies heavily on sentence stress and contrastive focus to disambiguate meaning from discourse context, such as correcting an assumption or highlighting a specific actor. Although modern neural TTS systems generate high-quality expressive speech, it remains unproven whether they dynamically infer appropriate stress from preceding text without explicit markers. Prior benchmarks focus on text-only understanding, speech-to-speech translation, or explicit prompt control, leaving a major gap in evaluating end-to-end contextual stress realization in speech synthesis.
 
 ## Method
 
-The authors propose CAST (Context-Aware Stress TTS), a benchmark featuring 113 contrastive context pairs (226 items) where identical target sentences are paired with distinct preceding contexts requiring different semantic stress targets. The dataset construction uses GPT-5-mini with multi-judge consistency filtering (using GPT-5-nano and Gemini-2.5-flash) and human validation. They evaluate six diverse TTS architectures (Kokoro, Chatterbox, CosyVoice3, HiggsAudio V2, Qwen3-TTS, and GPT-4o-mini-tts) across multiple input conditioning modes: Concat (prepending context to text), Instruct (natural language prompting), and Explicit (oracle stress markup). Additionally, they release an extended synthetic corpus of ~10k context-sentence-audio triples generated via an automated pipeline and evaluate stress realization using WHISTRESS, an automatic stress detection model.
+The CAST evaluation set is constructed at the textual level by prompting gpt-5-mini to jointly generate a target sentence with exactly two plausible stress candidates and two contrastive discourse contexts (Context A and Context B). These generated items are filtered using a multi-judge consistency check requiring agreement between gpt-5-nano and gemini-2.5-flash, discarding items where judges disagree on the intended word. The final benchmark contains 113 contrastive pairs (226 items) balanced across sentence positions and pragmatic phenomena like correction and role disambiguation.
+
+During evaluation, TTS systems ingest text under various conditioning modes: (1) Concat, where the discourse context is prepended to the target sentence and target boundaries are isolated via Whisper-based forced alignment; (2) Instruct, where context is embedded in a natural language prompt; and (3) Explicit, where the target word is directly marked via model-supported syntax. Because standard precision/recall metrics fail to penalize invariant monotone outputs, the authors introduce strict contrastive metrics based on WHISTRESS—a Whisper-based automatic stress detector fine-tuned for prominence. The core metrics are Hit (presence of target stress), Pair-Contrast (target present and alternative absent), and Pair-Correct (Pair-Contrast satisfied for both sides of the contrastive pair simultaneously).
+
+## Experimental setup
+
+The evaluation utilizes the CAST benchmark consisting of 113 contrastive context pairs (226 items) balanced across initial, early, medial, and final stress positions. Evaluated systems include Kokoro, Chatterbox, CosyVoice3, HiggsAudio V2, Qwen3-TTS, and GPT-4o-mini-tts. Metrics include Hit, Pair-Contrast, and Pair-Correct evaluated on synthesized audio, accompanied by 95% bootstrap confidence intervals over 10K resamplings. Human validation was conducted using fluent English annotators and Fleiss' kappa scoring.
 
 ## Results
 
-Across evaluation on the CAST benchmark using WHISTRESS, evaluated systems show a severe lack of context-appropriate stress realization, with Pair-Correct scores remaining extremely low (e.g., CosyVoice3 scores 0.9% to 10.6% depending on conditioning mode, and Qwen3-TTS scores around 2.7% to 3.5%). Hit rates for correctly stressing the intended word range from 23.0% to 52.2% across systems. Even under Explicit oracle stress conditioning, performance is far from perfect (e.g., GPT-4o-mini-tts achieves 11.5% Pair-Correct), indicating significant headroom in both contextual inference and explicit realization. Human validation on a subset showed high inter-annotator agreement (79% pairwise) and strong correlation with the benchmark labels and automatic stress detector.
+Across all end-to-end TTS systems, Pair-Correct scores remain near zero (ranging from 0.0% to 3.5%), indicating that models default to sentence-internal biases rather than adapting to discourse context regardless of whether context is supplied via concatenation or instruction. CosyVoice3 achieves a Hit score of 32.3% and Pair-Contrast of 23.5% under base conditions, which improves only under explicit oracle markup to 52.2% Hit and 40.3% Pair-Contrast. In contrast, text-only language models evaluated on the same benchmark show high contextual comprehension, with Claude-Haiku-4.5 achieving 88.1% Contrast and 76.1% Correct.
+
+| System | Conditioning | Hit (%) | Contrast (%) | Correct (%) |
+|---|---|---|---|---|
+| Kokoro | - | 38.1 | 22.1 | 0.0 |
+| Chatterbox | - | 23.0 | 16.8 | 0.0 |
+| CosyVoice3 | Instruct | 32.3 | 23.0 | 0.9 |
+| CosyVoice3 | Explicit | 52.2 | 40.3 | 10.6 |
+| GPT-4o-mini-tts | Instruct | 35.4 | 26.1 | 3.5 |
+| Qwen3-TTS | Instruct | 38.9 | 22.6 | 3.5 |
+
+## Limitations
+
+The benchmark relies on WHISTRESS, an automatic detector that may prioritize acoustic cues such as loudness over subtle pitch shifts. The evaluation scope is restricted to English lexical stress and two-candidate contrastive sentences, leaving out complex multi-word prosodic phrasing, intonation contours, and multi-lingual generalization.
+
+## Why read this
+
+Researchers building context-aware or conversational text-to-speech systems should read this paper to understand the severe limitations of current architectures in translating text-level discourse comprehension into acoustic prosody. It provides a rigorous benchmark and pipeline to shift future research toward genuine context-driven stress realization.
 
 ## Code
 
@@ -31,11 +64,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Speech engineers and researchers developing conversational agents, expressive audiobook narrators, or dialogue systems can use this benchmark and training recipe to evaluate and improve discourse-level prosodic control in TTS models.
-
-## Limitations
-
-The automatic stress detector (WHISTRESS) relies primarily on acoustic prominence cues like loudness which may miss subtle pitch-based shifts, and the evaluation scope is currently restricted to lexical word-level stress rather than broader prosodic elements like intonation contours.
+Conversational AI, expressive voice assistants, audiobook narration, and multilingual dubbing systems requiring context-sensitive emphasis.
 
 ## Related
 

@@ -12,8 +12,8 @@ doi: 10.21437/Interspeech.2026-3300
 isca_url: https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.pdf
 session: Audio segmentation
-topics: [self-supervised, multilingual, evaluation]
+topics: [speech-llm, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/OptimusPrimus/salsa
     license: ""
 open_to_collaboration: false

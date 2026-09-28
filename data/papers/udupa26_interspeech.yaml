@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2196
 isca_url: https://www.isca-archive.org/interspeech_2026/udupa26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/udupa26_interspeech.pdf
 session: Turn-taking
-topics: [spoken-language-understanding, speech-llm, self-supervised]
+topics: [speech-llm, spoken-language-understanding, self-supervised]
 code:
     url: https://github.com/bloodraven66/EndpointAnticipation
     license: ""

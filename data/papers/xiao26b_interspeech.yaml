@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-2266
 isca_url: https://www.isca-archive.org/interspeech_2026/xiao26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xiao26b_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
-topics: [health, paralinguistics, evaluation]
+topics: [speech-llm, paralinguistics, health]
 code:
     url: https://github.com/yaoxiao1999/weighted-speech-graphs
     license: ""

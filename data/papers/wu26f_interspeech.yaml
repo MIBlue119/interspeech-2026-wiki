@@ -15,8 +15,8 @@ doi: 10.21437/Interspeech.2026-1834
 isca_url: https://www.isca-archive.org/interspeech_2026/wu26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26f_interspeech.pdf
 session: Emotional Speech Synthesis
-topics: [tts, emotion-recognition, speech-llm]
+topics: [tts, speech-llm, paralinguistics]
 code:
-    url: ""
+    url: https://huanyulab.github.io/EMOINSTRUCT-TTS
     license: ""
 open_to_collaboration: false

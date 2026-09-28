@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-1985
 isca_url: https://www.isca-archive.org/interspeech_2026/wu26h_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26h_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
-topics: [evaluation, dataset, self-supervised]
+topics: [evaluation, dataset, tts]
 code:
     url: https://github.com/Tencent/SongBench
     license: ""

@@ -14,48 +14,50 @@ pdf: https://www.isca-archive.org/interspeech_2026/tabatabaee26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tabatabaee26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tabatabaee26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1633)
 
-**TL;DR** — This paper presents a multi-task speech inversion system that simultaneously estimates oral tract variables, source features, and velopharyngeal motion from audio, achieving strong cross-lingual generalization to unseen languages like French and Russian despite being trained exclusively on English data.
+**TL;DR** — This paper presents a multi-task speech inversion system that maps raw audio to vocal tract variables, source features, and velopharyngeal motion using a pretrained WavLM-Large backbone, achieving strong cross-lingual generalizability on untrained French and Russian speakers despite being trained exclusively on English data.
 
 ## Key contributions
 
-- Collected and compiled a multi-lingual dataset combining co-recorded electromagnetic articulography (EMA), nasalance, and speech audio.
-- Performed cross-lingual evaluations of a speech inversion system estimating oral tract variables and source features on untrained French and Russian speakers.
-- Extended the evaluation framework to velopharyngeal (VP) tract variable estimation across multiple languages with differing nasalization structures.
-- Outperformed previous English-only speech inversion baselines on standard benchmark datasets while enabling zero-shot cross-lingual transfer.
+- Collected a multi-lingual dataset comprising co-recorded electromagnetic articulography (EMA), nasalance, and speech audio data.
+- Performed cross-lingual evaluations of a speech inversion system estimating oral tract variables and source features on unseen languages.
+- Extended the speech inversion evaluation framework to predict velopharyngeal tract variables (nasalance proxies) across languages.
+- Compared proposed speech inversion multi-task performance against prior baselines on standard English articulatory benchmarks.
 
 ## Problem
 
-Recovering articulatory dynamics like tongue, lip, and velum movements from speech acoustics is challenging due to acoustic interaction effects and many-to-one mapping issues. While speech inversion systems recover vocal tract variables (TVs) and source features effectively, prior work has been almost exclusively developed and evaluated on high-resource English datasets. Evaluating whether these learned articulatory synergies generalize cross-lingually is crucial for deploying speech inversion in low-resource settings and clinical applications without requiring expensive, specialized articulatory data collection equipment for every target language.
+Recovering articulatory timing and spatial patterns directly from speech acoustics (speech inversion) is challenging due to acoustic interaction effects and many-to-one mapping between vocal tract shapes and acoustic outputs. Prior speech inversion systems are almost exclusively developed and evaluated on English-language datasets, leaving their cross-linguistic generalizability largely unverified. Furthermore, collecting direct articulatory data requires expensive and specialized equipment like electromagnetic articulography or X-ray microbeam, making scalable data collection difficult, especially for under-resourced languages and vulnerable populations.
 
 ## Method
 
-The architecture utilizes pre-trained WavLM-Large to extract frame-level speech representations from all 25 hidden layers, computing a learned weighted sum of layer embeddings. These representations pass through three Conformer layers to capture local and long-range temporal dependencies, followed by two fully connected projection layers (256 and 128 hidden units respectively) with GELU activations. Due to temporal resolution mismatches between WavLM embeddings (50 Hz) and target trajectories (100 Hz), a 2x upsampling layer with batch normalization is applied. Multi-task learning is implemented via separate output dense heads: one head predicts six oral tract variables (lip aperture, lip protrusion, tongue body/tip constriction location and degree), while a second head predicts three source features (periodicity, aperiodicity, fundamental frequency) or is modified to include velopharyngeal (VP) opening degree.
+The architecture takes input speech signals and extracts representations from all 25 hidden layers of a pretrained WavLM-Large model, computing a weighted sum of layer-wise embeddings. This unified representation is passed through 3 Conformer layers to capture local and long-range temporal dependencies. The Conformer output feeds into a fully connected layer with 256 hidden units and a GELU activation, followed by a second fully connected layer with 128 hidden units. Because WavLM embeddings operate at 50 Hz while target articulatory outputs are sampled at 100 Hz, an upsampling block by a factor of two with batch normalization is applied.
 
-The model is trained using a composite loss function combining Pearson correlation (PC) and root mean square error (RMSE) with balancing weight alpha = 0.2, summing losses across all prediction tasks. Training is optimized using AdamW with an initial learning rate of 5e-4, weight decay of 1e-3, a batch size of 8, plateau-based learning rate scheduling, and early stopping patience of 8 epochs. Training data combines the University of Wisconsin X-Ray Microbeam (XRMB) dataset (36 English speakers, 268 minutes) and the YU dataset (12 English speakers, 193 minutes). Ground-truth nasalance for XRMB is retrofitted using a secondary speech inversion estimator to supervise VP tract variable learning.
+Multi-task learning is implemented via separate output dense layers: one predicting six oral tract variables (lip aperture, lip protrusion, tongue body constriction location/degree, tongue tip constriction location/degree) and another predicting three source features (periodicity, aperiodicity, and fundamental frequency) or jointly predicting source features plus a velopharyngeal tract variable. Training uses the AdamW optimizer with an initial learning rate of 5e-4, weight decay of 1e-3, batch size of 8, a plateau-based learning rate scheduler (patience of 5 epochs), and early stopping (patience of 8 epochs). The loss function combines Pearson correlation and root mean square error with alpha set to 0.2.
+
+The system is trained on a combination of the XRMB English dataset (36 speakers, 5.74 hours) and the YU English dataset (12 speakers, 3.21 hours), and evaluated zero-shot on French (4 speakers, 59 minutes) and Russian (3 speakers, 35 minutes) subsets.
 
 ## Experimental setup
 
-Evaluated on the XRMB test set (5 English speakers, 38 minutes) and the YU dataset test splits comprising English (4 speakers, 75 minutes), French (4 speakers, 59 minutes), and Russian (3 speakers, 35 minutes). Performance is measured using Pearson product-moment correlation (PPMC) scores between estimated trajectories and ground-truth sensor or nasalance measurements. The system uses WavLM-Large embeddings, 3 Conformer layers, and is optimized via AdamW.
+Evaluated on the XRMB dataset (5.74 hours across 46 English speakers) and the YU dataset (7.17 hours across 27 speakers spanning English, French, and Russian). Baselines include the prior English speech inversion model from Tabatabaee et al. (2024/2026). Performance is measured using Pearson product-moment correlation (PPMC) scores between estimated trajectories and ground-truth sensor or nasalance measurements.
 
 ## Results
 
-On the XRMB test set, the proposed system achieves an average PPMC score of 0.86 across all nine parameters, slightly outperforming the previous baseline of 0.85. On the in-domain YU English test set, it achieves an average PPMC of 0.85. When evaluated zero-shot on unseen languages, the model achieves average PPMC scores of 0.83 for French and 0.74 for Russian across oral tracts and source features. For velopharyngeal (VP) tract variable estimation evaluated against ground-truth nasalance, the model achieves PPMC scores of 0.92 on English, 0.89 on French, and 0.82 on Russian speakers.
+On the XRMB test set, the proposed model achieves an average PPMC score of 0.86 across all nine parameters (vs 0.85 for the baseline). On the YU English test set, it achieves an average PPMC of 0.85. When evaluated zero-shot on unseen languages, the model achieves average PPMC scores of 0.83 for French and 0.74 for Russian. For velopharyngeal (VP) tract variable estimation against ground-truth nasalance, the model achieves PPMC scores of 0.92 on English, 0.89 on French, and 0.82 on Russian. Performance drops slightly on Russian pitch/periodicity due to a noisier recording environment for one speaker.
 
-| System / Condition | Language | Oral/SF Avg PPMC | VP (Nasalance) PPMC |
-|---|---|---|---|
-| SI Model in [8] | English (XRMB) | 0.85 | - |
-| Proposed SI Model | English (XRMB) | 0.86 | - |
-| Proposed SI Model | English (YU) | 0.85 | 0.92 |
-| Proposed SI Model | French (YU) | 0.83 | 0.89 |
-| Proposed SI Model | Russian (YU) | 0.74 | 0.82 |
+| System | Language | LA | LP | TBCL | TBCD | TTCL | TTCD | Per | Aper | F0 | Avg All |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SI model [8] | English (XRMB) | 0.91 | 0.76 | 0.80 | 0.86 | 0.84 | 0.95 | 0.94 | 0.88 | 0.75 | 0.85 |
+| Proposed SI | English (XRMB) | 0.93 | 0.76 | 0.78 | 0.87 | 0.82 | 0.95 | 0.95 | 0.90 | 0.79 | 0.86 |
+| Proposed SI | English (YU) | 0.87 | 0.86 | 0.81 | 0.84 | 0.82 | 0.87 | 0.95 | 0.83 | 0.84 | 0.85 |
+| Proposed SI | French (YU) | 0.88 | 0.87 | 0.80 | 0.83 | 0.78 | 0.84 | 0.95 | 0.80 | 0.76 | 0.83 |
+| Proposed SI | Russian (YU) | 0.76 | 0.75 | 0.70 | 0.71 | 0.69 | 0.71 | 0.91 | 0.68 | 0.71 | 0.74 |
 
 ## Limitations
 
-The cross-lingual evaluation relies on a very small number of speakers for non-English languages (4 French speakers and 3 Russian speakers, with only 1 Russian speaker evaluated for nasalance). Performance on Russian source features dropped due to environmental recording noise in one speaker's session, indicating sensitivity to acoustic mismatches. The study is restricted to Indo-European languages and does not test tonality or extreme phonemic inventories.
+Evaluated on a limited number of speakers for non-English languages (4 French speakers, 3 Russian speakers, and only 1 Russian speaker for VP evaluation). The training data scale is relatively small (under 13 total hours across XRMB and YU). Acoustic variations such as background noise heavily degrade pitch and periodicity estimation accuracy on specific speakers.
 
 ## Why read this
 
-Speech and ML researchers working on self-supervised speech representations, articulatory synthesis, or cross-lingual speech transfer will find this valuable for understanding how well acoustic-to-articulatory mappings generalize zero-shot across diverse phonetic systems.
+Speech and ML researchers building cross-lingual or articulatory speech representations should read this to see how self-supervised speech models like WavLM capture universal human vocal tract dynamics transferable across languages without fine-tuning.
 
 ## Code
 
@@ -63,7 +65,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Multi-lingual speech therapy tools, silent speech interfaces, computer-assisted language learning (CALL), and clinical assessment of speech motor disorders.
+Multi-lingual speech processing, computer-assisted pronunciation training, speech therapy, and clinical assessments of speech and swallowing disorders.
 
 ## Related
 

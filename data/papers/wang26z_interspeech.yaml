@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-1602
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26z_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26z_interspeech.pdf
 session: Tones
-topics: [phonetics, evaluation]
+topics: [phonetics, prosody, evaluation]
 code:
     url: https://github.com/wbh-XC/Interspeech2026
     license: ""

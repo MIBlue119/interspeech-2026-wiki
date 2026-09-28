@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-883
 isca_url: https://www.isca-archive.org/interspeech_2026/wazed26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wazed26_interspeech.pdf
 session: Acoustic Event Detection 3
-topics: [speech-enhancement, source-separation, health]
+topics: [speech-enhancement, source-separation, self-supervised]
 code:
     url: ""
     license: ""

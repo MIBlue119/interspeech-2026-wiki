@@ -14,7 +14,7 @@ doi: 10.21437/Interspeech.2026-2938
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26fa_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26fa_interspeech.pdf
 session: Benchmarking Foundation Models
-topics: [evaluation, speech-llm, paralinguistics]
+topics: [speech-llm, paralinguistics, evaluation]
 code:
     url: https://github.com/YuzheWangjhu/StanceBench
     license: ""

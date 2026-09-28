@@ -15,7 +15,7 @@ doi: 10.21437/Interspeech.2026-1704
 isca_url: https://www.isca-archive.org/interspeech_2026/toyin26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/toyin26b_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
-topics: [asr, evaluation, dataset]
+topics: [asr, speech-llm, evaluation]
 code:
     url: https://github.com/Theehawau/stutterresearch_survey
     license: ""

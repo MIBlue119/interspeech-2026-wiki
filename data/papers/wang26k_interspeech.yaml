@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-589
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26k_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26k_interspeech.pdf
 session: Speech Deepfake Detection, Attribution and Characterization
-topics: [audio-deepfake, self-supervised, evaluation]
+topics: [speech-anti-spoofing, self-supervised, evaluation]
 code:
     url: https://github.com/nii-yamagishilab/AntiDeepfake
     license: ""

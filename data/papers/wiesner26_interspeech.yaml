@@ -12,7 +12,7 @@ doi: 10.21437/Interspeech.2026-2462
 isca_url: https://www.isca-archive.org/interspeech_2026/wiesner26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wiesner26_interspeech.pdf
 session: Speaker Diarization and Recognition
-topics: [asr, speaker-diarization, self-supervised]
+topics: [multi-talker-asr, self-supervised, alignment]
 code:
     url: https://github.com/geolocation-from-speech/jsalt2025.git
     license: ""

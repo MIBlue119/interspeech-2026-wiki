@@ -1,6 +1,6 @@
 ---
 id: sun26e_interspeech
-category: speech-llm
+category: paralinguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -14,34 +14,34 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26e_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1716)
 
-**TL;DR** — The paper introduces Label Correction enhanced Dual-Stream Multiple Instance Learning (LC-DMIL) to simultaneously address inaccurate training labels and inexact instance-level supervision in weakly-supervised speech-based depression detection, achieving an Unweighted Average Recall (UAR) of 0.651 and an F1-score of 0.642 on DAIC-WOZ.
+**TL;DR** — The paper introduces Label Correction enhanced Dual-stream Multiple Instance Learning (LC-DMIL) to simultaneously address inaccurate training labels and inexact instance-level annotations in weakly-supervised speech-based depression detection, achieving a UAR of 0.651 and an F1-score of 0.642 on DAIC-WOZ.
 
 ## Key contributions
 
-- Proposes a label correction module that fuses likelihood-ratio-based and prototype-based correction strategies to clean noisy annotations in marginal clinical score ranges.
-- Develops a dual-stream Multiple Instance Learning (MIL) depression detection module combining a max-rule stream (for identifying key instances) and an MIL-aggregator stream (using query-value attention).
-- Establishes a robust two-step iterative training recipe alternating between label correction updates and multi-instance sequence learning.
-- Demonstrates consistent improvements over state-of-the-art baselines on both DAIC-WOZ and AVEC 2014 under simulated weak supervision.
+- Proposes a label correction module that fuses likelihood-ratio-based and prototype-based correction strategies to clean noisy annotations.
+- Develops a dual-stream multi-instance learning strategy combining a max-rule stream and an MIL-aggregator stream to capture subtle, instance-level depressive traits.
+- Employs shared 1D-CNN and Bi-LSTM backbones across both sample and instance levels to map raw audio features to robust representations.
+- Demonstrates state-of-the-art performance under simulated weak supervision and label noise on both DAIC-WOZ and AVEC 2014 datasets.
 
 ## Problem
 
-Automatic Depression Detection (ADD) using speech faces significant hurdles in real-world weakly-supervised scenarios due to inaccurate and inexact labels. Prior systems blindly trust subjective annotators or questionnaire scores (like PHQ-8), ignoring label noise in marginal patient samples, while also failing to localize subtle, localized depressive acoustic traits within long recordings. Existing models such as ConvBiLSTM, SpeechFormer, and standard multi-instance learning approaches either suffer from confirmation bias caused by noisy labels or dilute critical acoustic signals by treating entire long dialogues uniformly.
+Automatic Depression Detection (ADD) using speech typically suffers from two core weakly-supervised challenges: inaccurate labels (noisy annotator judgments or subjective questionnaire scores) and inexact labels (depressive traits restricted to only subtle sub-segments of an overall audio recording). Prior models such as DepAudioNet, ConvBiLSTM, SpeechFormer, and ComParE baseline systems trust training labels blindly and fail to isolate local acoustic indicators within long recordings. Addressing these combined issues is critical for deploying reliable ADD systems in real-world clinical contexts where medical resources are scarce.
 
 ## Method
 
-The architecture consists of two main components: a sample-level label correction module and an instance-level dual-stream MIL depression detection module. Both modules share a backbone comprising a 1D-CNN layer (256 kernels, size 3, stride 1) followed by batch normalization, ReLU activation, 1D max-pooling (size/stride 2), a 4-layer Bidirectional LSTM (256 hidden units, dropout 0.5), and a 5-layer MLP classifier.
+The architecture comprises two main stages: a sample-level label correction module and an instance-level dual-stream MIL depression detection module. Both modules use identical backbone structures consisting of a 1D-CNN layer (256 kernels, size 3, stride 1), batch normalization, ReLU activation, 1D max-pooling (size/stride 2), and a 4-layer Bi-LSTM (256 hidden units, dropout 0.5), followed by a 5-layer MLP classifier. The input audio is processed as 80-dimensional log Mel-spectrograms extracted via Librosa (frame length 2048, shift 533). 
 
-The label correction module maps sample outputs to class probabilities and adjusts training labels via a weighted combination of a likelihood-ratio-based strategy (comparing score ratios against a dynamically growing threshold $\delta(n_{Eq}) = 1.2 + 0.15(n_{Eq}-10)$) and a prototype-based strategy (using cosine similarities against $C=6$ class prototypes per category). The fused corrected label uses a weight $\gamma = 0.3$. 
+The label correction module cleans sample labels from epoch 11 onward by fusing a likelihood-ratio-based correction strategy (using a dynamically growing threshold $\delta(n^{(Eq)})$) and a prototype-based correction strategy (utilizing cosine similarity against class prototype sets where the number of prototypes per class is 6). The corrected label prediction combines these strategies using a weighting factor $\gamma = 0.3$.
 
-The MIL-based detection module splits each sample into $n=9$ overlapping instances (1.2s length, 50% overlap). These instance embeddings are fed into a dual-stream structure: a max-rule stream that extracts key instance predictions via element-wise maximization, and an MIL-aggregator stream that computes query-value attention vectors mapped through linear weights with a combination parameter $\mu$. The combined loss function integrates cross-entropy and entropy regularization terms controlled by weight $\alpha = 0.1$. Training uses an initial 10-epoch warm-up with cross-entropy, followed by alternating label correction epochs and 50 MIL epochs, repeated for 5 outer iterations using the Adam optimizer with a weight decay of $10^{-4}$.
+In the second module, each sample is split into $n=9$ instances (each 1.2s with 0.5 overlap). The instances are passed to a dual-stream MIL setup: a max-rule stream that extracts key instances via an instance-level MLP classifier, and an MIL-aggregator stream that maps instance embeddings into query and value vectors via tanh and ReLU transformations, combining them via attention-like similarity weights modulated by a mixing hyperparameter $\mu$. The training regime alternates between backbone warmup, label correction, and MIL detection over iterative cycles optimized with Adam (weight decay $10^{-4}$).
 
 ## Experimental setup
 
-Experiments use the DAIC-WOZ dataset (142 clinical interviews, split into 7,742 training samples and 2,935 test samples after 6s segmentation and label-swapping on PHQ-8 scores 7-12 to simulate weak supervision) and the AVEC 2014 dataset (3,538 training and 3,696 test samples). Models are evaluated using Unweighted Average Recall (UAR) and F1-score, and compared against baselines including DepAudioNet, ConvBiLSTM, SpeechFormer, ComParE SVMs, CMT-SMER, and SLLC.
+Experiments are conducted on the DAIC-WOZ dataset (142 clinical interviews; 7,742 training samples and 2,935 test samples after 6s segmentation and label-swapping on PHQ-8 scores between 7 and 12) and the AVEC 2014 dataset (3,538 training and 3,696 test segments). Baselines include DepAudioNet, ConvBiLSTM, SpeechFormer, ComParE features with SVM, CMT-SMER (Audio), and SLLC. Evaluation metrics are Unweighted Average Recall (UAR) and F1-score.
 
 ## Results
 
-LC-DMIL achieves a headline UAR of 0.651 and an F1-score of 0.642 on DAIC-WOZ, outperforming the SLLC label-correction baseline (UAR 0.614) and ConvBiLSTM (UAR 0.580) with statistical significance ($p < 0.005$). Ablation studies confirm that combining both label correction and dual-stream MIL outperforms using either technique in isolation; specifically, replacing the dual-stream approach with single mean-rule or transformer-based MIL drops UAR performance down to 0.626 and 0.637 respectively. On the AVEC 2014 dataset, LC-DMIL similarly reaches a top UAR of 0.670, surpassing its standalone MIL (0.628) and label correction (0.657) variants.
+LC-DMIL achieves a headline UAR of 0.651 and an F1-score of 0.642 on DAIC-WOZ, outperforming SLLC (UAR 0.614), ConvBiLSTM (0.580), SpeechFormer (0.576), and ComParE (0.550). On AVEC 2014, it reaches a UAR of 0.670 and F1-score of 0.668, surpassing its non-MIL variant SLLC (0.657) and pure ConvBiLSTM (0.644). Ablations confirm that the dual-stream MIL strategy outperforms alternative rules like mean-rule (0.626 UAR) or transformer-based MIL (0.637 UAR), and that optimal label correction mixing requires $\gamma = 0.3$.
 
 | Systems / Conditions | UAR | F1-Score |
 | :--- | :--- | :--- |
@@ -54,19 +54,19 @@ LC-DMIL achieves a headline UAR of 0.651 and an F1-score of 0.642 on DAIC-WOZ, o
 
 ## Limitations
 
-The evaluation relies on artificially simulated weak supervision via label swapping on marginal PHQ-8 score bands, which may not completely replicate complex real-world clinical label noise distributions. The approach is only validated on English-language clinical interview corpora (DAIC-WOZ and AVEC 2014) with relatively small patient counts (142 and 84 speakers respectively), leaving cross-lingual and large-scale data generalization unproven.
+The evaluation relies on a simulated weak-supervision setup via label-swapping on marginal PHQ-8 score bands rather than natively gathered wild noisy labels. The scope is restricted to English-language clinical interviews (DAIC-WOZ and AVEC 2014) and requires hyperparameter tuning for instance bag sizes and stream blending weights.
 
 ## Why read this
 
-Speech and ML researchers tackling noisy paralinguistic datasets should read this paper to learn how to couple dynamic prototype-based label correction with dual-stream attention-driven multiple instance learning for robust sequence classification.
+Speech and ML researchers tackling noisy labels and fine-grained localization in paralinguistics will find a clean blueprint for combining prototype/likelihood-ratio label cleaning with dual-stream multi-instance learning.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/zhou123122/SLLC
 
 ## Applications
 
-Automated mental health screening tools, computer-aided clinical diagnosis systems, and robust affective computing applications operating on imperfectly annotated speech data.
+Automated mental health screening, telehealth voice diagnostic tools, and general affective computing under weakly-supervised conditions.
 
 ## Related
 

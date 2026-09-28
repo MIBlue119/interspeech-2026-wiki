@@ -11,7 +11,7 @@ doi: 10.21437/Interspeech.2026-1343
 isca_url: https://www.isca-archive.org/interspeech_2026/warlewski26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/warlewski26_interspeech.pdf
 session: Efficient Inference for ASR and Speech LMs
-topics: [keyword-spotting, on-device, evaluation]
+topics: [keyword-spotting, speech-enhancement, on-device]
 code:
     url: ""
     license: ""

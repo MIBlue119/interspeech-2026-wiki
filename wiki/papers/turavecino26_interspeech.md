@@ -3,27 +3,64 @@ id: turavecino26_interspeech
 category: tts
 updated: 2026-09-29
 confidence: full-paper
+digest: v2
 source: https://doi.org/10.21437/Interspeech.2026-803
 pdf: https://www.isca-archive.org/interspeech_2026/turavecino26_interspeech.pdf
 ---
 
 # Learnable Classifier-Free Guidance Null Embeddings for Enhanced Controllable Speech Synthesis
 
+*Biel Tura-Vecino, Yoach Lacombe, Julian Weber, Zbigniew Latka, Haitong Zhang, Logan Hart, Eren Golge*
+
 [PDF](https://www.isca-archive.org/interspeech_2026/turavecino26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/turavecino26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-803)
 
-**TL;DR** — Replacing fixed zero vectors with learnable null embeddings in classifier-free guidance for text-to-speech improves speaker similarity, stability, and robustness to larger guidance scales.
+**TL;DR** — Replacing traditional fixed zero embeddings with learnable null embeddings in classifier-free guidance (CFG) for text-to-speech improves speaker similarity, stability, and robustness, while decoupling text and speaker guidance scales enables fine-grained attribute control.
+
+## Key contributions
+
+- Replaces static zero unconditional vectors with modality-specific learnable null embeddings optimized via end-to-end training, providing a robust in-domain unconditional baseline.
+- Decouples CFG formulation to independently control speaker (ws) and text (wt) guidance weights at inference time.
+- Demonstrates that learnable null embeddings withstand larger guidance scales (w >= 1.0) without suffering the objective metric divergence seen in fixed zero baselines.
+- Uncovers key generation trade-offs: text guidance trades off stability for expressiveness, while speaker guidance trades off similarity for quality.
 
 ## Problem
 
-Standard text-to-speech models using classifier-free guidance rely on a fixed zero vector for unconditional states, which fails to distinguish between orthogonal conditioning signals like speaker identity and text content. Furthermore, predefined static vectors often lie outside the model's training distribution, creating numerical instabilities and performance degradation at higher guidance scales. Addressing this is crucial for scaling controllable, high-fidelity generative speech synthesis.
+Standard classifier-free guidance in text-to-speech typically relies on a fixed zero vector for unconditional generation during training and inference. Using a single zero vector fails to distinguish between orthogonal conditioning modalities like speaker identity and linguistic content, and predefined vectors often fall outside the model's training distribution, introducing gradient and numerical instabilities. Furthermore, dynamic attention masking at training time causes compilation overhead and hurts performance with compiled inference frameworks, making robust unconditional baselines critical.
 
 ## Method
 
-The architecture comprises a 0.6B Qwen3-based autoregressive GPT backbone paired with a lightweight MLP diffusion head and a causal transformer VAE operating at 48 kHz. Instead of a single static zero vector, the system introduces distinct learnable null embeddings for speaker and text conditioning modalities, initialized from a normal distribution and jointly optimized during training via condition dropout set to 0.1. At inference, classifier-free guidance is extended to decouple speaker and text conditioning scales independently using modality-specific unconditional hidden states. This design permits independent tuning of guidance weights (e.g., setting speaker guidance to 1.2 and text guidance to 0.4) to govern expression and similarity.
+The architecture combines a 0.6B parameter AR GPT Qwen3-based backbone with lightweight diffusion heads (next-token diffusion) and a causal transformer-based VAE encoding speech into 64-dimensional latents decoded to 48 kHz audio. The backbone is conditioned on BPE-compressed text tokens and speaker latents extracted from reference mel-spectrograms via a Perceiver encoder. The acoustic head is trained using binary cross-entropy for speech generation/stop modes, while diffusion heads are trained with an end-to-end MSE loss.
+
+To implement CFG without custom dynamic attention masks or fixed zero vectors, the system introduces two separate learnable embeddings—s_bar for speaker and t_bar for text—initialized from a standard normal distribution and jointly optimized with the model. During training, conditions are dropped independently with a probability of 0.1, allowing the null embeddings to receive implicit gradient sharing from partially conditioned end-to-end states.
+
+At inference time, independent attribute CFG extends standard guidance by utilizing separate weights ws and wt for speaker and text conditions respectively, allowing fine-grained steering along individual conditioning axes.
+
+## Experimental setup
+
+Evaluated on 65 unseen expressive speaker references synthesizing 2 sentences each (130 generated samples). Compared against open-source baselines including FishSpeech v1.4, Qwen3-TTS 0.6B, VoxCPM v1.5, and IndexTTS v2. Metrics include CER (Whisper v3-large), speaker similarity (ECAPA2 SECS, WavLM PRO, Pitch Mean Ratio), quality (PQ, UTMOS, Pitch Std, Speech Rate Ratio), and pairwise CMOS evaluated by 90 annotators.
 
 ## Results
 
-Evaluated on 130 generated samples from 65 unseen expressive speakers, the learnable null embedding configuration at w = 0.8 achieved a speaker embedding cosine similarity (SECS) of 0.817 and prosody embedding similarity (PRO) of 0.841, outperforming the fixed zero-embedding baseline (0.755 SECS, 0.814 PRO). When using decoupled and tuned weights (ws = 1.2, wt = 0.4), SECS further increased to 0.841 while maintaining a competitive character error rate of 1.2%. In pairwise CMOS evaluations across 90 annotators, learnable null variants achieved positive preference scores for naturalness and similarity, whereas the fixed zero embedding scored negative across both.
+The learnable null embedding baseline (w = 0.8) achieves a lower CER of 0.9 (compared to 1.2 for fixed zero embed and 7.3 for unguided), higher speaker similarity SECS of 0.817 (vs 0.755), and PRO of 0.862 (vs 0.807). When applying decoupled independent tuning (ws = 1.2, wt = 0.4), speaker similarity further improves to 0.841 SECS and 0.877 PRO.
+
+In subjective CMOS tests, the learnable null embedding variants consistently outperformed the fixed zero embedding baseline, which scored negative CMOS values. The coupled learnable variant achieved higher perceived naturalness (0.130), while the tuned independent variant secured higher speaker similarity (0.178), demonstrating a perceptual trade-off between naturalness and strict speaker adherence.
+
+| Model configuration | CFG guidance | CER ↓ | SECS ↑ | PRO ↑ | PMR ∼1 | UTMOS ↑ |
+|---|---|---|---|---|---|---|
+| FishSpeech v1.4 | - | 2.1 | 0.760 | 0.814 | 1.03 | 3.34 |
+| Qwen3-TTS 0.6B | - | 6.9 | 0.743 | 0.814 | 0.95 | 3.50 |
+| Baseline (w/o CFG) | w = 0 | 7.3 | 0.725 | 0.758 | 0.94 | 2.23 |
+| Fixed Zero embed. | w = 0.8 | 1.2 | 0.755 | 0.807 | 0.88 | 3.22 |
+| Learnable Null embed. | w = 0.8 | 0.9 | 0.817 | 0.862 | 0.95 | 2.82 |
+| Learnable Null embed. | wt = 0.4, ws = 1.2 | 1.2 | 0.841 | 0.877 | 0.96 | 2.75 |
+
+## Limitations
+
+Evaluated on a relatively small test set of 130 samples across 65 speakers. Absolute perceptual quality scores (UTMOS/PQ) can drop slightly when maximizing speaker adherence via decoupled weighting, as highly expressive prosody is sometimes penalized by strict naturalness metrics. The method's effectiveness is demonstrated specifically on autoregressive GPT architectures with diffusion heads.
+
+## Why read this
+
+Speech researchers and engineers working on controllable generative TTS and classifier-free guidance will learn how to stabilize training and achieve fine-grained attribute steering via learnable null vectors.
 
 ## Code
 
@@ -31,11 +68,7 @@ Evaluated on 130 generated samples from 65 unseen expressive speakers, the learn
 
 ## Applications
 
-Speech/ML engineers building controllable, high-end text-to-speech and voice cloning pipelines requiring precise attribute manipulation and robustness to high classifier-free guidance scales.
-
-## Limitations
-
-Tuned decoupled guidance weights trade off absolute perceptual quality and naturalness scores in favor of enhanced speaker similarity and prosodic expressiveness.
+High-fidelity expressive text-to-speech, voice cloning, and fine-grained voice customisation systems requiring precise control over speaker identity and linguistic stability.
 
 ## Related
 

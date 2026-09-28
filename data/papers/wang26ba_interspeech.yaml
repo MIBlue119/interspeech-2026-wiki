@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-1691
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26ba_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26ba_interspeech.pdf
 session: Spatial Audio 4
-topics: [evaluation, dataset]
+topics: [source-separation, evaluation, speech-enhancement]
 code:
     url: ""
     license: ""

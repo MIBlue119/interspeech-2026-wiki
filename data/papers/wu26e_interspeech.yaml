@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-1770
 isca_url: https://www.isca-archive.org/interspeech_2026/wu26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26e_interspeech.pdf
 session: Multilingual, Cross-lingual & Low-Resource ASR
-topics: [speech-enhancement, low-resource, evaluation]
+topics: [speech-enhancement, low-resource, multilingual]
 code:
-    url: ""
+    url: https://zenodo.20725470
     license: ""
 open_to_collaboration: false

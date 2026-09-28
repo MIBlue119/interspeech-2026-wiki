@@ -7,7 +7,7 @@ doi: 10.21437/Interspeech.2026-868
 isca_url: https://www.isca-archive.org/interspeech_2026/wan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wan26_interspeech.pdf
 session: Multimodal Emotion Recognition
-topics: [paralinguistics, evaluation, multimodal]
+topics: [paralinguistics, self-supervised]
 code:
     url: ""
     license: ""

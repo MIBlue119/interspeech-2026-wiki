@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2763
 isca_url: https://www.isca-archive.org/interspeech_2026/tseng26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tseng26c_interspeech.pdf
 session: Streaming Speech Synthesis
-topics: [voice-conversion, on-device]
+topics: [voice-conversion, self-supervised, streaming]
 code:
     url: https://morris88826.github.io/VOSSA/
     license: ""

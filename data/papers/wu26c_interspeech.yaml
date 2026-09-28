@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-856
 isca_url: https://www.isca-archive.org/interspeech_2026/wu26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26c_interspeech.pdf
 session: Domain Adaptation & Accented ASR
-topics: [asr, self-supervised, evaluation]
+topics: [mdd, self-supervised, low-resource]
 code:
     url: ""
     license: ""

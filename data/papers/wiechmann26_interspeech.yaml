@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-2475
 isca_url: https://www.isca-archive.org/interspeech_2026/wiechmann26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wiechmann26_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 1
-topics: [paralinguistics, evaluation, speech-enhancement]
+topics: [speech-enhancement, evaluation, paralinguistics]
 code:
     url: ""
     license: ""

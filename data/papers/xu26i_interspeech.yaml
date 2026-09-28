@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-1038
 isca_url: https://www.isca-archive.org/interspeech_2026/xu26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26i_interspeech.pdf
 session: Phonetic Aspects of TTS and ASR Systems
-topics: [paralinguistics, emotion-recognition, voice-conversion]
+topics: [speech-emotion-recognition, voice-conversion, paralinguistics]
 code:
     url: https://github.com/Plachtaa/seed-vc
     license: ""
