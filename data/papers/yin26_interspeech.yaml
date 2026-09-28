@@ -11,8 +11,8 @@ doi: 10.21437/Interspeech.2026-1599
 isca_url: https://www.isca-archive.org/interspeech_2026/yin26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yin26_interspeech.pdf
 session: Evaluation, Benchmarking, and Reliability of Audio Systems
-topics: [evaluation]
+topics: [audio-deepfake, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/apple-yinhan/ESDD-Review
     license: ""
 open_to_collaboration: false

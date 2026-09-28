@@ -5,10 +5,11 @@ authors:
     - Titouan Parcollet
     - Rogier van Dalen
 year: 2026
+doi: 10.21437/Interspeech.2026-1323
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26u_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26u_interspeech.pdf
 session: Multilingual Speech 2
-topics: []
+topics: [speech-translation, speech-llm, self-supervised]
 code:
     url: ""
     license: ""

@@ -1,34 +1,41 @@
 ---
 id: wu26j_interspeech
-category: health
-updated: 2026-09-28
-confidence: abstract-only
+category: speech-llm
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2037
+pdf: https://www.isca-archive.org/interspeech_2026/wu26j_interspeech.pdf
 ---
 
 # AuscuTSLM: Patient-Level Multimodal Question Answering from Multi-Site Auscultation Recordings
 
-**TL;DR** — Aligning recordings from multiple auscultation sites on a patient's body directly with a frozen LLM's embedding space via gated cross-attention gives state-of-the-art patient-level diagnostic question answering, beating general-purpose audio-language models.
+[PDF](https://www.isca-archive.org/interspeech_2026/wu26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2037)
+
+**TL;DR** — AuscuTSLM aligns multi-site physiological auscultation recordings directly with a frozen LLM via gated cross-attention, achieving a state-of-the-art 0.865 F1-macro and 0.952 BERTScore on the CaReSound benchmark.
 
 ## Problem
 
-Auscultation is a vital diagnostic tool but its utility is limited by subjective interpretation, and general-purpose Audio-Language Models struggle with the specific nuances of physiological signals like heart and lung sounds.
+Traditional machine learning approaches for auscultation analysis rely on isolated binary classification, reducing complex physiological waveforms to discrete labels and ignoring contextual nuance. Furthermore, existing audio-language models (ALMs) struggle with subtle, noise-obscured pathological patterns in medical acoustics and typically fail to handle multi-site recordings or long temporal durations. Addressing these gaps is vital to enable flexible, open-ended clinical question answering and patient-level assessment from stethoscopic data.
 
 ## Method
 
-The authors propose AuscuTSLM, a framework that aligns multi-site auscultation recordings directly with a frozen LLM embedding space via gated cross-attention, moving beyond isolated per-site classification toward holistic, patient-level assessment that leverages the LLM's latent world knowledge.
+The framework utilizes a 1.4B parameter model built on a frozen Meta-LLaMA-3.2-1B backbone, fusing multi-site auscultation audio (up to 30 seconds) via gated cross-attention layers. Input waveforms are processed through a RawAudioTokenizer (or alternative encoders like Mel-Spectrogram, CLAP, Whisper, or Wav2Vec2) using 40 ms patches and 1D convolutions, followed by an MLP projector. To handle multi-instance learning across heterogeneous anatomical sites, a Perceiver Resampler compresses variable numbers of recordings into a fixed set of latent queries. The model is trained using the AdamW optimizer with component-specific learning rates on patient-disjoint splits of the CaReSound dataset.
 
 ## Results
 
-On the CaReSound benchmark, the model achieves a state-of-the-art 0.865 F1-macro and 0.952 BERTScore, with lightweight domain-specific encoders rivaling large-scale ALMs, and multi-site aggregation providing spatial redundancy that mitigates temporal truncation.
+Evaluated on the CaReSound benchmark containing 2,951 patients and 32,577 QA pairs, AuscuTSLM outperforms foundational ALMs and the CaReAQA baseline, achieving a 42.6% ContainsMatch accuracy, 0.673 ROUGE-L, 0.643 METEOR, 0.952 BERTScore, and 0.865 F1-macro on binary tasks. Ablation studies comparing audio front-ends reveal that lightweight raw waveform tokenizers rival large-scale pretrained encoders such as Wav2Vec2 and Whisper. Temporal context evaluations demonstrate that performance degrades gracefully when truncating audio duration from 30 seconds down to 10 seconds, benefiting from spatial redundancy across multi-site aggregation.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/Fan-loewe/AuscuTSLM
 
 ## Applications
 
-Clinical decision-support tools that interpret multi-site auscultation recordings for patient-level diagnostic question answering.
+Clinicians and healthcare engineers can use this framework for automated, patient-level diagnostic reasoning, telehealth screening, and open-ended clinical question answering based on heart and lung auscultation recordings.
+
+## Limitations
+
+The reliance on deep learning black-box representations requires rigorous clinical validation to mitigate dataset biases and ensure explainability.
 
 ## Related
 

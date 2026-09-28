@@ -7,10 +7,11 @@ authors:
     - Jianfei Tong
     - Guohua Sun
 year: 2026
+doi: 10.21437/Interspeech.2026-648
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26l_interspeech.pdf
 session: Multi-Channel, Beamforming and Spatial Speech Enhancement
-topics: []
+topics: [speech-enhancement, source-separation, self-supervised]
 code:
     url: ""
     license: ""

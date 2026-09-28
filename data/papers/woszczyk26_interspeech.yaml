@@ -7,11 +7,12 @@ authors:
     - Éva Székely
     - Bjoern Schuller
 year: 2026
+doi: 10.21437/Interspeech.2026-3392
 isca_url: https://www.isca-archive.org/interspeech_2026/woszczyk26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/woszczyk26_interspeech.pdf
 session: Speech Synthesis Evaluation 1
-topics: []
+topics: [tts, evaluation, paralinguistics]
 code:
-    url: ""
+    url: https://github.com/domiwk/domain-aware-tts-eval
     license: ""
 open_to_collaboration: false

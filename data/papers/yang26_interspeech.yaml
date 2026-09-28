@@ -14,10 +14,11 @@ authors:
     - Ming Sun
     - Florian Metze
 year: 2026
+doi: 10.21437/Interspeech.2026-127
 isca_url: https://www.isca-archive.org/interspeech_2026/yang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26_interspeech.pdf
 session: Robust and Real-World ASR Systems
-topics: []
+topics: [asr, speech-enhancement, on-device]
 code:
     url: ""
     license: ""

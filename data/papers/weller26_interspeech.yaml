@@ -5,11 +5,12 @@ authors:
     - Marc Grau
     - Ivo Blohm
 year: 2026
+doi: 10.21437/Interspeech.2026-3304
 isca_url: https://www.isca-archive.org/interspeech_2026/weller26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/weller26_interspeech.pdf
 session: Datasets
-topics: []
+topics: [emotion-recognition, dataset, paralinguistics]
 code:
-    url: ""
+    url: https://huggingface.co/datasets/nwllr/haessigDB
     license: ""
 open_to_collaboration: false

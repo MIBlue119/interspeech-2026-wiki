@@ -7,10 +7,11 @@ authors:
     - Shujie Hu
     - Xunying Liu
 year: 2026
+doi: 10.21437/Interspeech.2026-1559
 isca_url: https://www.isca-archive.org/interspeech_2026/zhong26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhong26d_interspeech.pdf
 session: Assistive Technologies 2
-topics: []
+topics: [asr, low-resource, self-supervised]
 code:
     url: ""
     license: ""

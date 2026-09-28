@@ -10,11 +10,12 @@ authors:
     - Chuanzeng Huang
     - Lei Xie
 year: 2026
+doi: 10.21437/Interspeech.2026-2148
 isca_url: https://www.isca-archive.org/interspeech_2026/zhu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhu26b_interspeech.pdf
 session: Generative and Self-Supervised Speech Enhancement
-topics: []
+topics: [speech-enhancement, self-supervised]
 code:
-    url: ""
+    url: https://github.com/Hello3orld/G-MaP-SE
     license: ""
 open_to_collaboration: false

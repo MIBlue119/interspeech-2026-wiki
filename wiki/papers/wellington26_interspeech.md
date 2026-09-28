@@ -1,34 +1,41 @@
 ---
 id: wellington26_interspeech
-category: phonetics
-updated: 2026-09-28
-confidence: abstract-only
+category: speech-llm
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2683
+pdf: https://www.isca-archive.org/interspeech_2026/wellington26_interspeech.pdf
 ---
 
-# Shared Phone-Level Neural Representations of Auditory Perception and 'Inner Voice' Production: One-to-One Mapping using a Single-Subject EEG Corpus of Heard and Imagined Natural Speech
+# Shared Phone-Level Neural Representations of Auditory Perception and ‘Inner Voice’ Production: One-to-One Mapping using a Single-Subject EEG Corpus of Heard and Imagined Natural Speech
 
-**TL;DR** — A new 22-hour single-subject EEG dataset of heard and imagined speech shows that EEG responses to imagined phones are closest, in vector space, to responses evoked by hearing those same phones, suggesting the inner voice has phone-level neural correlates.
+[PDF](https://www.isca-archive.org/interspeech_2026/wellington26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wellington26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2683)
+
+**TL;DR** — The paper introduces the Corpus of Heard and Imagined Natural Speech (CHINS)—over 22 hours of single-subject surface EEG recording time-aligned heard and imagined natural sentences—and demonstrates a one-to-one mapping between heard and imagined phones that improves the separation ratio by 3.37x using convex quadratic optimization.
 
 ## Problem
 
-It is unclear whether imagined ('inner voice') speech production and auditory perception of heard speech share similar neural processing at the phonetic level, information relevant to brain-computer interfaces for imagined speech.
+Developing speech neuroprostheses (BCIs) that decode imagined speech into audio requires large amounts of training data, but surface EEG datasets for imagined natural sentences in non-tonal languages with per-participant durations over 20 minutes do not currently exist. Furthermore, it is unclear how closely the neural processing of imagined speech aligns with auditory perception at the phonetic level, a relationship vital for evaluating whether heard speech data can scaffold imagined speech decoder training.
 
 ## Method
 
-The authors introduce a paradigm for collecting time-aligned heard and imagined fully-connected natural speech, gather over 22 hours of single-participant EEG, and analyze phone-level evoked response potentials, further improving the one-to-one heard-imagined phone mapping via a convex-quadratic-optimized weighted sum of frequency sub-bands.
+The CHINS dataset was collected from a single expert-informed participant using a BioSemi ActiveTwo 64-channel EEG at 1,024 Hz while listening to and subsequently imagining narrated fiction audiobooks with time-aligned visual prompts. The data were filtered into 18 frequency sub-bands using a fourth-order Butterworth IIR filter, cleaned via ICA for ocular artefacts, and processed to compute event-related potentials (ERPs) smoothed with a Savitzky-Golay filter. A convex quadratic optimization problem was solved using BFGS and hard-constrained solvers over sub-band tensor weights, minimizing the sum of Canberra distances between imagined and heard phone ERPs subject to permutation-like linear constraints.
 
 ## Results
 
-Evoked response potentials for phones during imagined speech are closest in vector space to the ERPs of the corresponding phones during heard speech, and the sub-band weighting optimization further improves this one-to-one mapping; the dataset is released publicly.
+Using data across all 39 phones of the CMU pronouncing dictionary, the analysis established that the ERPs of imagined phones are closest in vector space to their corresponding heard phones. Hierarchical clustering of the ERP distances via Ward's method revealed four distinct groups based on phonological natural classes (vowels, nasals/plosives/approximants by placement, and fricatives). Optimization of the cross-modality sub-band weighting via convex quadratic programming improved the phonetic separation ratio by a factor of 3.37 compared to the unweighted baseline.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://www.speakunique.co.uk/research/CHINS
 
 ## Applications
 
-Informs brain-computer interface research targeting imagined ('inner voice') speech, e.g. for communication aids for people who cannot speak aloud.
+Speech/ML engineers and biomedical researchers building non-invasive brain-computer interfaces and speech neuroprostheses for augmentative and alternative communication (AAC) devices.
+
+## Limitations
+
+The dataset is restricted to a single participant and captures covert speech production processes associated with the phonological loop rather than arbitrary unprompted inner speech.
 
 ## Related
 

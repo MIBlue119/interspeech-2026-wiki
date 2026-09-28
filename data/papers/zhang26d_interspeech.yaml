@@ -12,8 +12,8 @@ doi: 10.21437/Interspeech.2026-463
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26d_interspeech.pdf
 session: SE Architectures, Adaptation and Audio Front-Ends
-topics: [evaluation]
+topics: [self-supervised, speech-llm, evaluation]
 code:
-    url: ""
+    url: https://huggingface.co/yucongzh/implicit_
     license: ""
 open_to_collaboration: false

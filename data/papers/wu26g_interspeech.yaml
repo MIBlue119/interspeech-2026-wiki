@@ -7,10 +7,11 @@ authors:
     - Haojun Fei
     - Qing Yang
 year: 2026
+doi: 10.21437/Interspeech.2026-1953
 isca_url: https://www.isca-archive.org/interspeech_2026/wu26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26g_interspeech.pdf
 session: Search Methods and Inference Algorithms
-topics: []
+topics: [asr, evaluation]
 code:
     url: ""
     license: ""

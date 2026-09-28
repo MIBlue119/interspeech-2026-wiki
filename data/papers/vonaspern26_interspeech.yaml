@@ -8,10 +8,11 @@ authors:
     - Ernst Seidel
     - Tim Fingscheidt
 year: 2026
+doi: 10.21437/Interspeech.2026-3300
 isca_url: https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.pdf
 session: Audio segmentation
-topics: []
+topics: [self-supervised, multilingual, evaluation]
 code:
     url: ""
     license: ""

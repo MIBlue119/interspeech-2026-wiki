@@ -7,11 +7,12 @@ authors:
     - Kaiyuan Zhang
     - Abeer Alwan
 year: 2026
+doi: 10.21437/Interspeech.2026-825
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26o_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26o_interspeech.pdf
 session: Self-supervised Speech Representation Learning
-topics: []
+topics: [asr, self-supervised, low-resource]
 code:
-    url: ""
+    url: https://github.com/Zilai-WANG/Gumbel_Beard
     license: ""
 open_to_collaboration: false

@@ -1,26 +1,29 @@
 ---
 id: yen26_interspeech
 category: asr
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-488
+pdf: https://www.isca-archive.org/interspeech_2026/yen26_interspeech.pdf
 ---
 
 # MDM-ASR: Bridging Accuracy and Efficiency in ASR with Diffusion-Based Non-Autoregressive Decoding
 
-**TL;DR** — A masked-diffusion non-autoregressive ASR decoder that closes much of the accuracy gap with autoregressive models while keeping parallel decoding speed, aided by training the model on its own intermediate predictions.
+[PDF](https://www.isca-archive.org/interspeech_2026/yen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-488)
+
+**TL;DR** — MDM-ASR bridges the accuracy and efficiency gap in automatic speech recognition by combining a pre-trained speech encoder with a masked diffusion decoder, achieving competitive accuracy with autoregressive baselines while enabling parallel non-autoregressive decoding.
 
 ## Problem
 
-Autoregressive ASR models are accurate but decode slowly, while non-autoregressive models decode in parallel but usually lose significant accuracy, and this trade-off has lacked a principled diffusion-based solution.
+Traditional autoregressive (AR) sequence-to-sequence models achieve high accuracy in automatic speech recognition but suffer from slow, sequential decoding whose inference time scales linearly with output length. Conversely, non-autoregressive (NAR) models like CTC allow parallel token decoding but experience performance degradation due to strong conditional independence assumptions, while prior diffusion-based or flow-matching NAR approaches still lag significantly behind AR counterparts and lack thorough empirical evaluation.
 
 ## Method
 
-A pretrained speech encoder feeds a Transformer diffusion decoder conditioned on acoustic features and partially masked transcripts for parallel token prediction; the authors add Iterative Self-Correction Training, which exposes the model to its own intermediate predictions during training, plus a Position-Biased Entropy-Bounded Confidence sampler.
+The framework couples a pre-trained speech encoder to extract acoustic representations with a non-causal Transformer-based discrete diffusion decoder that iteratively refines masked token sequences conditioned on the acoustic features. To mitigate training-inference mismatch caused by exposure to intermediate errors, the authors introduce Iterative Self-Correction Training (ISCT). They also propose an Entropy-Bounded Confidence (EB-Conf) sampler and a Position-Biased EB-Conf (PBEB-Conf) sampler to handle positional bias and stabilize generation during parallel multi-step unmasking.
 
 ## Results
 
-Across multiple benchmarks, MDM-ASR shows consistent gains over prior non-autoregressive models and reaches performance competitive with strong autoregressive baselines while retaining parallel-decoding efficiency.
+Evaluated across four benchmark English datasets and multilingual tasks, MDM-ASR consistently outperforms prior generative NAR ASR models while delivering competitive accuracy compared against strong AR baselines. It retains fast parallel decoding efficiency across the board. Comprehensive ablations validate the scaling behavior, the effectiveness of Iterative Self-Correction Training, and the impact of different sampling strategies.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Fast, near-autoregressive-accuracy ASR for latency-sensitive applications that still want the speed benefits of parallel decoding.
+Speech and ML engineers building real-time speech transcription systems, virtual assistants, or large-scale voice interfaces that require both high accuracy and low inference latency.
 
 ## Related
 

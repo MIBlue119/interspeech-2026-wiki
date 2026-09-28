@@ -4,10 +4,11 @@ authors:
     - Tianze Xu
     - Volker Dellwo
 year: 2026
+doi: 10.21437/Interspeech.2026-1174
 isca_url: https://www.isca-archive.org/interspeech_2026/xu26m_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26m_interspeech.pdf
 session: Speaker Identity, States, and Traits in Paralinguistics
-topics: []
+topics: [paralinguistics, evaluation, dataset]
 code:
     url: ""
     license: ""

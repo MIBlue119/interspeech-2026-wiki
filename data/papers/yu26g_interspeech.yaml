@@ -10,10 +10,11 @@ authors:
     - Guoyang Zeng
     - Zhiyong Wu
 year: 2026
+doi: 10.21437/Interspeech.2026-2854
 isca_url: https://www.isca-archive.org/interspeech_2026/yu26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yu26g_interspeech.pdf
 session: Speaker Diarization and Recognition
-topics: []
+topics: [asr, speaker-diarization, speech-llm]
 code:
     url: ""
     license: ""

@@ -1,34 +1,41 @@
 ---
 id: wang26q_interspeech
 category: speech-llm
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-984
+pdf: https://www.isca-archive.org/interspeech_2026/wang26q_interspeech.pdf
 ---
 
 # Empathy Omni: Enabling Empathetic Speech Response Generation Through Large Language Models
 
-**TL;DR** — Empathy Omni generates emotionally aware speech responses from a speech LLM using only a moderate 200k-example dialogue dataset and no large-scale pretraining, matching instruction-following ability while beating existing models on empathy and speech quality.
+[PDF](https://www.isca-archive.org/interspeech_2026/wang26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-984)
+
+**TL;DR** — Empathy Omni is an end-to-end speech large language model that explicitly predicts a token-synchronous emotion trajectory to generate empathetic spoken responses, achieving a top speech naturalness UTMOS score of 4.41 and a peak Emotion MOS of 4.23.
 
 ## Problem
 
-Speech LLMs let users interact via voice, but most existing models convert response content to speech without capturing the emotional cues in the user's query, even though the same words can mean different things depending on how they're said; building empathetic speech LLMs usually demands massive datasets and heavy compute.
+Most existing speech LLMs translate response content into speech without explicitly capturing rich paralinguistic cues in user queries, resulting in emotionally flat or inappropriate interactions. Existing empathetic speech systems heavily depend on massive, costly proprietary emotional dialogue datasets and lack explicit affective planning. Building models that generate empathetic responses with data efficiency and fine-grained prosody control remains a core challenge.
 
 ## Method
 
-The authors propose Empathy Omni (referred to in the paper text as Emotion Omni), a model that understands emotional content in user speech and generates empathetic responses, paired with a data pipeline that constructs a 200k-example emotional dialogue dataset to support training without large-scale pretraining.
+Empathy Omni utilizes a two-tower architecture combining a Qwen2.5-7B-Instruct LLM backbone with a causal six-block Transformer speech decoder. Two frozen encoders—Whisper large-v3 for semantics and emotion2vec large for affective cues—process input speech and are downsampled via frame-stacking MLPs to a 10 Hz frame rate before projection into the LLM hidden space. The LLM is augmented with an emotion prediction head to output a token-synchronous emotion trajectory, supervised via dynamic time warping (DTW) to bypass forced-alignment failures on non-verbal vocalizations using a multi-task loss (cross-entropy, MSE, and cosine similarity). The speech decoder then combines token embeddings and LLM hidden states using a sigmoid-gated fusion module and injects the emotion trajectory via adaptive layer normalization (AdaLN), finally generating discrete acoustic tokens decoded via CosyVoice2's flow-matching and HiFi-GAN. The model is trained on a newly curated 200k-sample dataset (EmotionalQA-200k) combining end-to-end GPT-4o synthesis, ESD text rewriting, and multi-stage extracted real-world recordings.
 
 ## Results
 
-Empathy Omni achieves instruction-following ability comparable to models trained with large-scale pretraining, while surpassing existing models on speech quality and empathy; demos are available online.
+Evaluated on VoiceBench, Empathy Omni achieves strong instruction-following performance, securing top scores on CommonEval (3.47) and IFEval (27.89), alongside an AlpacaEval score of 3.84 and a WildVoice score of 3.19. In speech quality, it reaches the highest UTMOS score of 4.41 among compared baselines like LLaMA-Omni (3.98) and GLM-4-Voice (3.88). For empathetic response generation across a 1,000-query emotional test set, it yields the highest GPT-4o Emotion Score (3.97), Speech Emotion MOS (4.23), and a competitive ASR-WER of 5.61%. Ablation studies demonstrate that removing the gated fusion and AdaLN emotion modulation modules causes the Emotion GPT Score to drop from 3.97 to 3.15, Speech Emotion MOS to fall from 4.23 to 3.85, and ASR-WER to increase from 5.61% to 6.42%.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://anonymous.4open.science/w/omni_demo-4876/
 
 ## Applications
 
-Voice assistants and companion agents that need to respond with appropriate emotional tone rather than flat, content-only speech.
+Engineers and developers building empathetic conversational agents, voice assistants, therapeutic support tools, educational tutors, and customer service platforms that require emotionally intelligent spoken interactions.
+
+## Limitations
+
+The model occasionally struggles with subtle or mixed emotions, sometimes prioritizing semantic content over nuanced emotional cues.
 
 ## Related
 

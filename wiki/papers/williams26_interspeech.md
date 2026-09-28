@@ -1,26 +1,29 @@
 ---
 id: williams26_interspeech
-category: evaluation
-updated: 2026-09-28
-confidence: abstract-only
+category: speech-llm
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-210
+pdf: https://www.isca-archive.org/interspeech_2026/williams26_interspeech.pdf
 ---
 
 # AI Regulation and the Technical Language of Speech Synthesis
 
-**TL;DR** — A policy-analysis paper argues that current AI regulation, written with image/video deepfakes in mind, fails to capture how speaker embeddings and modular voice-cloning workflows in speech synthesis can be built and repurposed independently of any single "output."
+[PDF](https://www.isca-archive.org/interspeech_2026/williams26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/williams26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-210)
+
+**TL;DR** — This paper analyzes the technical mismatch between modern speech synthesis architectures and global AI regulations, highlighting how portable speaker embeddings and complex workflows undermine output-focused legal frameworks.
 
 ## Problem
 
-Global efforts to regulate AI, including deepfakes, are producing policy language that must be accurate about responsible parties and technical mechanisms, but analogies borrowed from the image and video domains don't translate well to speech, and current speech-focused AI policy overlooks portable models and complex workflows where voice-identity embeddings can be developed independently and later repurposed.
+Current global AI regulations and transparency obligations focus heavily on final synthetic outputs, mirroring image and video domains while ignoring the unique modularity of speech technology. Specifically, policies fail to account for portable speaker embedding models that can be independently developed, stored, and repurposed across text-to-speech, voice conversion, and automatic speaker recognition systems. This creates significant regulatory blind spots regarding chain-of-custody and accountability for voice cloning.
 
 ## Method
 
-The paper traces the technical convergence of text-to-speech, voice conversion, speaker verification, and speech recognition, analyzing where legal definitions in current AI regulation may fail to capture the technical components that actually enable voice cloning.
+The paper provides a technical and historical survey tracing the convergence of text-to-speech, voice conversion, automatic speaker verification, and automatic speech recognition. It categorizes neural embedding models into external, repurposable, and speaker-identifying types (such as i-vectors, d-vectors, x-vectors, ECAPA-TDNN, and WavLM). Furthermore, it maps modern synthesis workflows, showing how recent architectures integrate text and speech encoders, neural audio codecs, diffusion models, and flow models into unified pipelines.
 
 ## Results
 
-As a policy/analysis paper it does not report empirical results; it highlights specific gaps between legal definitions and the technical reality of modular voice-cloning pipelines, aimed at informing more accurate AI regulation.
+The analysis demonstrates through structural taxonomy and historical tracing that speaker embeddings occupy a legal grey area because they are neither uniquely identifying on their own nor invertible to reconstruct raw voice samples. The study contrasts traditional component-based pipelines with modern end-to-end and LLM-based neural codec workflows, proving that speech deepfakes often rely on distributed intermediary representations rather than monolithic systems.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Informing policymakers, legal scholars, and compliance teams drafting or interpreting AI/deepfake regulation that touches speech synthesis and voice cloning.
+Policymakers, legal scholars, and speech engineers working on AI governance, compliance frameworks, and synthetic speech detection.
+
+## Limitations
+
+The paper presents a conceptual and policy critique without introducing empirical evaluations or new benchmark datasets.
 
 ## Related
 

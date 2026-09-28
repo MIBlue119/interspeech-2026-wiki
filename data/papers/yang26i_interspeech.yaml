@@ -13,7 +13,7 @@ doi: 10.21437/Interspeech.2026-1524
 isca_url: https://www.isca-archive.org/interspeech_2026/yang26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26i_interspeech.pdf
 session: Multi-Channel, Beamforming and Spatial Speech Enhancement
-topics: [speech-enhancement, on-device]
+topics: [speech-enhancement, self-supervised, on-device]
 code:
     url: ""
     license: ""

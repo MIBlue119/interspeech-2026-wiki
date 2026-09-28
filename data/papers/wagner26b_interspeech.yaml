@@ -7,8 +7,8 @@ doi: 10.21437/Interspeech.2026-2817
 isca_url: https://www.isca-archive.org/interspeech_2026/wagner26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wagner26b_interspeech.pdf
 session: Audio Understanding and Representation Learning
-topics: [self-supervised]
+topics: [self-supervised, speech-coding, evaluation]
 code:
-    url: ""
+    url: https://github.com/nyrahealth/PINT
     license: ""
 open_to_collaboration: false

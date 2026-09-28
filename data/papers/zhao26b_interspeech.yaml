@@ -4,10 +4,11 @@ authors:
     - Xinxian Zhao
     - Xiaohu Yang
 year: 2026
+doi: 10.21437/Interspeech.2026-255
 isca_url: https://www.isca-archive.org/interspeech_2026/zhao26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26b_interspeech.pdf
 session: Prominence, Stress and Focus
-topics: []
+topics: [phonetics, prosody, dataset]
 code:
     url: ""
     license: ""

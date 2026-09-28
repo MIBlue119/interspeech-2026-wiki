@@ -6,11 +6,12 @@ authors:
     - Tianhe Wu
     - Kai Feng
 year: 2026
+doi: 10.21437/Interspeech.2026-2134
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26ca_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26ca_interspeech.pdf
 session: Speech Emotion Recognition and Representation 1
-topics: []
+topics: [speech-llm, emotion-recognition, dataset]
 code:
-    url: ""
+    url: https://github.com/zmkshakespar/ACR-Net
     license: ""
 open_to_collaboration: false

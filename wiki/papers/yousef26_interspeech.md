@@ -1,26 +1,29 @@
 ---
 id: yousef26_interspeech
-category: health
-updated: 2026-09-28
-confidence: abstract-only
+category: paralinguistics
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-2777
+pdf: https://www.isca-archive.org/interspeech_2026/yousef26_interspeech.pdf
 ---
 
 # Modeling Lombard Effects in Voice Disorders Using Daily-Life Monitoring of Ambient Noise and Voice Acoustics
 
-**TL;DR** — Multi-day ambulatory monitoring shows patients with voice disorders raise pitch, loudness, and cepstral peak prominence in real-world noise, with the strength of the effect differing by disorder subtype.
+[PDF](https://www.isca-archive.org/interspeech_2026/yousef26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yousef26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2777)
+
+**TL;DR** — This paper analyzes ambulatory voice and ambient noise monitoring data from 42 participants to model real-world Lombard effects in voice disorders, finding that cepstral peak prominence (CPP) provides the strongest coupling with noise and best distinguishes between phonotraumatic and non-phonotraumatic vocal hyperfunction.
 
 ## Problem
 
-Real-world Lombard effects (vocal adjustments people make in noisy environments) are overlooked in patients with voice disorders, despite likely clinical relevance.
+Real-world Lombard effects—vocal adjustments made in noisy environments—are poorly understood in patients with voice disorders, as prior evidence relies heavily on controlled laboratory studies rather than dynamic daily-life monitoring. Furthermore, studying these effects is clinically important because maladaptive phonatory adjustments in noise can increase vocal tissue loading and exacerbate voice disorder symptoms. Existing ambulatory studies have largely overlooked disorder-specific adaptations and focused narrowly on sound pressure level (SPL) and fundamental frequency (F0), missing broader shifts in voice quality.
 
 ## Method
 
-The authors analyze ambulatory data (2-4 days, ≥10 h/day) from 24 patients with phonotraumatic (PVH) and non-phonotraumatic (NPVH) vocal hyperfunction and 18 healthy controls, synchronizing ambient noise levels (Leq) with voice measures (SPL, F0, CPP, H1H2) and fitting models predicting each voice measure from ambient noise.
+The study collected 2 to 4 days of continuous ambulatory recordings (≥ 10 hours/day) from 14 patients with phonotraumatic vocal hyperfunction (PVH), 10 patients with non-phonotraumatic vocal hyperfunction (NPVH), and 18 healthy controls. A neck-worn accelerometer captured vocal metrics (SPL, F0, CPP, and the first-minus-second harmonic magnitude H1H2), while a shoulder-mounted noise dosimeter recorded ambient A-weighted equivalent noise levels (Leq). Features were extracted across 3-minute non-overlapping windows. Four regression models—linear regression, second-order polynomial Ridge/Lasso, and gradient-boosted regression trees (GBR)—were trained using 5-fold cross-validation to predict voice statistics from ambient noise mean and standard deviation (Leq SD).
 
 ## Results
 
-Higher ambient noise correlates with rising SPL, F0, and CPP and falling H1H2, with CPP showing the strongest correlation (r=0.36-0.53) and nonlinear models fitting best (max test r²=0.32 for CPP); PVH patients show a steeper SPL-noise slope and larger CPP slope than NPVH patients, indicating subtype-specific real-world Lombard effects.
+Across groups, SPL, F0, and CPP increased while H1H2 decreased with higher ambient noise, with CPP showing the strongest correlation (r = 0.36 to 0.53) and highest predictability (max test r² = 0.32 for CPP in PVH). Nonlinear models outperformed linear regression across all final configurations. PVH patients exhibited a steeper SPL slope (0.65 dB/dB Leq mean) and larger CPP slope (0.18 dB/dB Leq mean) compared to NPVH patients, whereas control participants showed the strongest F0 increases with noise.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Informs ambulatory voice-monitoring tools for differentiating and managing subtypes of vocal hyperfunction in clinical voice care.
+Speech engineers, clinicians, and researchers developing wearable health monitors, digital biomarkers for voice pathology, or adaptive communication systems in noisy environments.
+
+## Limitations
+
+The predictive power of voice features from noise metrics was modest, and there were age differences across the participant groups.
 
 ## Related
 

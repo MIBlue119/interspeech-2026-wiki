@@ -1,26 +1,29 @@
 ---
 id: zhang26ga_interspeech
-category: tts
-updated: 2026-09-28
-confidence: abstract-only
+category: speech-coding
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-3314
+pdf: https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.pdf
 ---
 
 # A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization
 
-**TL;DR** — Separating speaker identity into a small set of fixed global tokens and content into a dynamically-rate-adjustable stream gives a low-bitrate speech codec better quality/bitrate trade-offs while preserving speaker similarity.
+[PDF](https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3314)
+
+**TL;DR** — The paper introduces DySTCodec, a low-bitrate dual-stream discrete neural speech codec combining a similarity-based dynamic frame aggregation semantic stream with fixed-length global speaker tokens.
 
 ## Problem
 
-Discrete speech tokens are a good interface for speech language models, but many codecs are inefficient due to high token rates and mix speaker characteristics with content-related variation, adding to the modeling burden for downstream models.
+Many neural audio codecs rely on high token rates and entangle semantic content with speaker-specific timbre in a single sequence, which severely increases the modeling burden for downstream speech language models. Existing single-codebook or fixed-rate models either lack temporal redundancy reduction or fail to cleanly decouple speaker characteristics, leading to trade-offs between intelligibility, bitrate, and voice cloning fidelity.
 
 ## Method
 
-The authors propose a low-bitrate dual-stream discrete codec with a time-varying content token stream from a single codebook plus a small set of fixed-length global speaker tokens, using similarity-based dynamic frame aggregation to merge consecutive frames (with controllable token rate via a single threshold at inference) and an adaptive deaggregation module to restore the base frame rate for waveform reconstruction.
+DySTCodec features a global encoding pathway using an ECAPA-TDNN encoder and query-based token aggregation mapped via finite scalar quantization (FSQ) into 32 global tokens (4096 codebook size, 12 bits per token), and a semantic encoding pathway that extracts features from a timbre-perturbed waveform using a frozen Wav2Vec2.0 encoder. To reduce redundancy, a similarity-based dynamic frame aggregation module merges consecutive frames above a threshold tau, refined by a local-window transformer aggregation module and a 12-block ConvNeXt semantic encoder (codebook size 8192). An adaptive deaggregation module paired with a non-causal bottleneck transformer restores the 50 Hz frame timeline to eliminate boundary artifacts before a Vocos-style upsampling waveform decoder reconstructs the 16 kHz audio.
 
 ## Results
 
-The codec achieves strong intelligibility and audio quality at low bitrates, with improved bitrate-quality trade-offs over fixed-rate baselines while maintaining speaker similarity.
+Evaluated on the 16 kHz LibriSpeech corpus, DySTCodec is compared against baselines including FACodec, FlexiCodec, DAC, TiCodec, SpeechTokenizer, WavTokenizer, and Single-Codec across varying low bitrates. The total bitrate is approximately 702 bps for the 50 Hz fixed-rate semantic variant and drops further using dynamic frame aggregation thresholds (tau = 0.90 yielding ~40 tokens/s, tau = 0.84 yielding ~25 tokens/s). The model demonstrates strong objective reconstruction scores and robust cross-dataset voice conversion capabilities from LibriSpeech sources to VCTK targets while maintaining speaker similarity and intelligibility.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Efficient, low-bitrate speech tokenization for speech language models and streaming/storage-constrained TTS and voice applications.
+Speech language model-based text-to-speech systems, ultra-low-bitrate speech compression, and zero-shot voice conversion pipelines.
+
+## Limitations
+
+The text does not explicitly state major limitations beyond the typical scope bounds of neural audio codec compression trade-offs.
 
 ## Related
 

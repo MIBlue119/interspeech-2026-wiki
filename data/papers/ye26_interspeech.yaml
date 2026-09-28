@@ -19,7 +19,7 @@ doi: 10.21437/Interspeech.2026-21
 isca_url: https://www.isca-archive.org/interspeech_2026/ye26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ye26_interspeech.pdf
 session: Speech Representations and Alignment
-topics: [speech-llm, self-supervised]
+topics: [speech-llm, spoken-language-understanding, self-supervised]
 code:
     url: ""
     license: ""

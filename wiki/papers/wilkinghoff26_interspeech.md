@@ -1,26 +1,29 @@
 ---
 id: wilkinghoff26_interspeech
-category: evaluation
-updated: 2026-09-28
-confidence: abstract-only
+category: audio-deepfake
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-177
+pdf: https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.pdf
 ---
 
 # Mind the Gap: Detecting Cluster Exits for Robust Local Density-Based Score Normalization in Anomalous Sound Detection
 
-**TL;DR** — Detecting when a growing neighborhood in local density-based anomaly scoring has crossed a cluster boundary — rather than fixing neighborhood size in advance — makes anomalous sound detection more robust to that hyperparameter choice.
+[PDF](https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-177)
+
+**TL;DR** — The paper introduces cluster exit detection, a lightweight mechanism that dynamically adapts neighborhood sizes for local density-based score normalization to improve anomalous sound detection under domain shifts.
 
 ## Problem
 
-Local density-based score normalization is an effective part of distance-based anomalous sound detection, especially when data density varies across conditions, but performance depends strongly on neighborhood size, and expanding it too far can cross cluster boundaries and violate the locality assumption.
+Local density-based score normalization (LDN) mitigates domain shifts in anomalous sound detection by normalizing embedding distances using local reference neighborhoods, but its performance heavily relies on a fixed neighborhood size. Expanding the neighborhood size frequently degrades accuracy because crossing cluster boundaries violates the core locality assumption of density estimation. Existing systems lack a principled way to prevent this breakdown when operating across domains with varying data densities.
 
 ## Method
 
-The authors propose cluster exit detection, a lightweight mechanism that identifies distance discontinuities in the neighborhood and adapts the neighborhood size based on locality preservation rather than a fixed choice.
+The paper proposes Cluster Exit Detection (CED), a training-free algorithm that identifies distance discontinuities and adapts neighborhood sizes on a per-sample basis. CED computes ratios between sorted neighbor distances for each reference sample, averages adjacent ratios to smooth out fluctuations, and detects potential cluster exits via sharp drops or thresholding against the 4th percentile of the ratio sequence. A conservative fallback handles sparse regions by reverting to two neighbors if initial ratios fall outside expected bounds. This adaptive neighborhood size replaces the fixed parameter in standard LDN and variance-minimized LDN (VarMin) backends without requiring labels or additional training.
 
 ## Results
 
-Experiments across multiple embedding models and datasets show improved robustness to the neighborhood-size hyperparameter and consistent performance gains from cluster exit detection.
+Evaluated across five benchmarks (DCASE 2020, 2022, 2023, 2024, and 2025 datasets) using five embedding models (Direct-ACT, OpenL3, BEATs, EAT, and Dasheng), LDN+CED consistently outperformed fixed-neighborhood LDN baselines. For instance, pairing LDN with CED on BEATs embeddings raised performance from 68.04% to 68.36% (+0.32%), and OpenL3 improved from 64.62% to 64.88% (+0.26%). When combined with variance minimization (LDN+VarMin+CED), consistent stability gains were also observed across diverse machine types and domain shift conditions.
 
 ## Code
 
@@ -28,7 +31,11 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-More robust anomalous sound detection systems for industrial machine condition monitoring and other applications sensitive to local density normalization choices.
+Machine condition monitoring engineers and researchers building anomalous sound detection systems for industrial settings with severe domain shifts.
+
+## Limitations
+
+The method relies on empirically set conservative fallback thresholds and percentile cutoffs to govern sparse regions and truncation points.
 
 ## Related
 

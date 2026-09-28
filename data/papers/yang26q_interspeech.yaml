@@ -4,10 +4,11 @@ authors:
     - Shu-Wei Yang
     - Jung-yueh Tu
 year: 2026
+doi: 10.21437/Interspeech.2026-3292
 isca_url: https://www.isca-archive.org/interspeech_2026/yang26q_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26q_interspeech.pdf
 session: Perception and Appraisal of Prosody
-topics: []
+topics: [phonetics, evaluation, low-resource]
 code:
     url: ""
     license: ""

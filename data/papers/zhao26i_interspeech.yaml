@@ -4,11 +4,12 @@ authors:
     - Haixin Zhao
     - Nilesh Madhu
 year: 2026
+doi: 10.21437/Interspeech.2026-2564
 isca_url: https://www.isca-archive.org/interspeech_2026/zhao26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26i_interspeech.pdf
 session: Language-Model and Codec-Token Speech Enhancement
-topics: []
+topics: [speech-enhancement, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://aspire.ugent.be/demos/INTERSPEECH2026HZ/
     license: ""
 open_to_collaboration: false

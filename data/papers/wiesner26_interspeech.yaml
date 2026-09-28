@@ -8,11 +8,12 @@ authors:
     - Lukáš Burget
     - Sanjeev Khudanpur
 year: 2026
+doi: 10.21437/Interspeech.2026-2462
 isca_url: https://www.isca-archive.org/interspeech_2026/wiesner26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wiesner26_interspeech.pdf
 session: Speaker Diarization and Recognition
-topics: []
+topics: [asr, speaker-diarization, self-supervised]
 code:
-    url: ""
+    url: https://github.com/geolocation-from-speech/jsalt2025.git
     license: ""
 open_to_collaboration: false

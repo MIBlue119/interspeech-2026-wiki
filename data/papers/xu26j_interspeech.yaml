@@ -17,10 +17,11 @@ authors:
     - Ziyi Cheng
     - Qibin Ran
 year: 2026
+doi: 10.21437/Interspeech.2026-1128
 isca_url: https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.pdf
 session: Datasets
-topics: []
+topics: [asr, tts, speaker-verification]
 code:
     url: ""
     license: ""

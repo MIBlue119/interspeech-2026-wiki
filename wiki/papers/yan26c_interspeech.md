@@ -1,34 +1,41 @@
 ---
 id: yan26c_interspeech
 category: asr
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1278
+pdf: https://www.isca-archive.org/interspeech_2026/yan26c_interspeech.pdf
 ---
 
 # Probing and Mitigating Hallucinations in Speech-augmented Language Models for Automatic Speech Recognition via Small Language Models
 
-**TL;DR** — Causal-mediation probing traces ASR hallucinations in speech-augmented LLMs to excessive self-attention bias toward textual tokens, motivating AudioSLM, a compact small-language-model-based ASR framework that considerably eases hallucinations and beats some LLM-based ASR models.
+[PDF](https://www.isca-archive.org/interspeech_2026/yan26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yan26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1278)
+
+**TL;DR** — The paper investigates the root causes of automatic speech recognition hallucinations in speech-augmented language models and proposes AudioSLM, which slashes the hallucination error rate from 52.01% down to 8.69% on LibriSpeech dev-clean.
 
 ## Problem
 
-Speech-augmented language models (SLMs) extend LLM reasoning to spoken input but remain susceptible to hallucinations, posing challenges to practical ASR utility, and the internal cause of these hallucinations was unclear.
+Speech-augmented language models frequently generate hallucinated words that diverge from actual audio inputs due to over-reliance on linguistic priors and textual context. This artifact hinders their practical deployment and reliability in real-world automatic speech recognition. Existing literature largely leaves this modality-mismatch and hallucination phenomenon unaddressed for speech models compared to vision-language counterparts.
 
 ## Method
 
-The authors first probe hallucinations in SLMs for ASR via causal mediation and behavioral analysis, then propose AudioSLM, a compact ASR framework built on a small language model that leverages alignment cues and cross-attention layers to jointly strengthen acoustic modeling and cross-modal interaction.
+The authors introduce AudioSLM, a compact automatic speech recognition framework built around the 135M parameter SmolLM2 backbone. It integrates a Whisper-large-v2 speech encoder, a 3-layer convolutional connector with a subsampling rate of 4, and two key additions: a CTC-Gated module for fine-grained temporal feature injection, and newly inserted cross-attention layers placed between the multi-head self-attention and multi-layer perceptron blocks. During training, only the cross-attention layers, LoRA weights, and CTC-gated components are updated while keeping the backbone language model frozen for 30 epochs.
 
 ## Results
 
-Experiments on LibriSpeech reveal hallucinations arise from multi-head self-attention modules with excessive attention bias toward textual tokens, and AudioSLM considerably eases ASR hallucinations while outperforming some LLM-based ASR models.
+Evaluated on the LibriSpeech corpus, AudioSLM achieves a dramatic drop in hallucination error rate down to 8.69% on the dev-clean set, compared to 52.01% for the vanilla speech-augmented language model baseline. Ablation studies confirm that removing cross-attention (-w/o CA) increases the hallucination error rate to 11.96%, while removing the CTC gate (-w/o CTC-Gate) increases it to 14.67%. Causal mediation analysis reveals that multi-head self-attention modules are the primary drivers of hallucinations due to excessive attention bias toward text tokens.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://github.com/bicheng1225/AudioSLM
 
 ## Applications
 
-Provides a compact, less hallucination-prone alternative to large LLM-based ASR systems for applications needing reliable transcription with lower compute cost.
+Engineers building speech recognition systems and voice assistants can use this approach to produce robust, hallucination-free transcription models powered by small language models.
+
+## Limitations
+
+The evaluation is restricted to the LibriSpeech benchmark dataset using a single small language model family.
 
 ## Related
 

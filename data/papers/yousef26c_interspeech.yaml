@@ -7,10 +7,11 @@ authors:
     - Robert Hillman
     - Daryush Mehta
 year: 2026
+doi: 10.21437/Interspeech.2026-3457
 isca_url: https://www.isca-archive.org/interspeech_2026/yousef26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yousef26c_interspeech.pdf
 session: Speech, Voice and Language Disorders
-topics: []
+topics: [paralinguistics, health, evaluation]
 code:
     url: ""
     license: ""

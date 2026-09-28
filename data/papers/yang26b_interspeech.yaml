@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-259
 isca_url: https://www.isca-archive.org/interspeech_2026/yang26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26b_interspeech.pdf
 session: Target Speaker Extraction, Speech Separation and Audio Understanding
-topics: [source-separation]
+topics: [speech-enhancement, evaluation, multilingual]
 code:
-    url: ""
+    url: https://github.com/Yym-line/EoW-TSE
     license: ""
 open_to_collaboration: false

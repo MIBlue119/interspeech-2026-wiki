@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-3314
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.pdf
 session: Neural Audio Codec Architectures
-topics: [tts]
+topics: [speech-coding, self-supervised, voice-conversion]
 code:
     url: ""
     license: ""

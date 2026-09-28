@@ -10,7 +10,7 @@ doi: 10.21437/Interspeech.2026-488
 isca_url: https://www.isca-archive.org/interspeech_2026/yen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yen26_interspeech.pdf
 session: Robust and Efficient ASR
-topics: [asr]
+topics: [asr, self-supervised, multilingual]
 code:
     url: ""
     license: ""

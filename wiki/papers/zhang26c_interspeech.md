@@ -1,26 +1,29 @@
 ---
 id: zhang26c_interspeech
 category: speech-llm
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-288
+pdf: https://www.isca-archive.org/interspeech_2026/zhang26c_interspeech.pdf
 ---
 
 # AQA-TTRL: Self-Adaptation in Audio Question Answering with Test-Time Reinforcement Learning
 
-**TL;DR** — AQA-TTRL lets large audio language models keep improving after deployment using only unlabeled test data, generating pseudo-labels via majority voting and optimizing with confidence-weighted reinforcement learning, letting a 3B model outperform an unadapted 7B model.
+[PDF](https://www.isca-archive.org/interspeech_2026/zhang26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-288)
+
+**TL;DR** — AQA-TTRL is a label-free test-time reinforcement learning framework for large audio language models that improves audio question-answering accuracy by 4.42% on Qwen2.5-Omni 7B and 11.04% on 3B across standard benchmarks.
 
 ## Problem
 
-Large Audio Language Models are strong at general audio understanding but remain static after deployment, and supervised fine-tuning to adapt them to new real-world data is costly.
+Large audio language models suffer from acoustic mismatch during real-world deployment due to environmental noise, recording variability, and domain shifts, which degrades audio question-answering performance. Collecting and annotating human-supervised update data is prohibitively costly and time-consuming, necessitating label-free adaptation methods that operate on unlabeled test data. However, applying test-time reinforcement learning to audio is challenging because self-generated pseudo-labels are inherently noisy and high-confidence predictions often cause advantage collapse during policy optimization.
 
 ## Method
 
-AQA-TTRL enables on-the-fly evolution via test-time reinforcement learning using only unlabeled test data: it generates pseudo-labels via majority voting and optimizes the model with reinforcement learning, using confidence weighting to down-weight noisy self-generated labels and multiple-attempt sampling to mitigate advantage collapse and stabilize training.
+The framework operates in a label-free test-time loop consisting of pseudo-label generation and model updates. First, it constructs consensus pseudo-labels by performing majority voting over multiple stochastic outputs using the base model. Next, it optimizes the policy using Group Relative Policy Optimization (GRPO) driven by format and exact-match accuracy rewards. To stabilize training against label noise, a confidence-weighted advantage mechanism scales training gradients using an exponential mapping of majority-vote consistency. Additionally, a multiple-attempt sampling strategy sequentially evaluates multiple candidate rollout groups to bypass advantage collapse caused by identical high-confidence outputs. Experiments use Qwen2.5-Omni 7B and 3B models, trained via AdamW with a learning rate of 1e-6 and batch size of 8.
 
 ## Results
 
-Across MMAU, MMAR, and MMSU, AQA-TTRL achieves significant average improvements of 4.42% for Qwen2.5-Omni 7B and 11.04% for the 3B model, with the adapted 3B model outperforming direct inference of the unadapted 7B model.
+Evaluated on MMAU (test-mini and test), MMAR, and MMSU benchmarks, AQA-TTRL achieves average accuracy improvements of 4.42% for Qwen2.5-Omni 7B and 11.04% for the 3B model over direct inference baselines. Notably, the adapted 3B model outperforms the unadapted 7B model under direct inference (64.86% vs. 64.39% average). The method consistently outperforms both majority-vote direct inference (DIMV) and supervised fine-tuning (SFT) on the same pseudo-labels. Ablation studies confirm that combining confidence-weighted advantage and multiple-attempt sampling yields the most robust performance gains (adding an average of 1.31%).
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Enables audio-understanding LALMs deployed in production to keep improving on real-world data streams without costly labeled fine-tuning.
+Speech and machine learning engineers deploying large audio language models in streaming or edge environments who need on-the-fly adaptation to unseen acoustic conditions without manual annotation.
 
 ## Related
 

@@ -10,10 +10,11 @@ authors:
     - Jingdong Chen
     - Jacob Benesty
 year: 2026
+doi: 10.21437/Interspeech.2026-1553
 isca_url: https://www.isca-archive.org/interspeech_2026/yang26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26j_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
-topics: []
+topics: [asr, low-resource, evaluation]
 code:
     url: ""
     license: ""

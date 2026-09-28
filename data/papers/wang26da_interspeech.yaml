@@ -6,11 +6,12 @@ authors:
     - Chenxing Li
     - Li Liu
 year: 2026
+doi: 10.21437/Interspeech.2026-2348
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26da_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26da_interspeech.pdf
 session: Audio Foundation Models and Generation
-topics: []
+topics: [cross-modal-learning, music-generation, diffusion-transformer]
 code:
-    url: ""
+    url: https://anonymous.4open.science/w/GACA-DiT/
     license: ""
 open_to_collaboration: false

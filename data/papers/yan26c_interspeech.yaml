@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-1278
 isca_url: https://www.isca-archive.org/interspeech_2026/yan26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yan26c_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
-topics: [asr, speech-llm]
+topics: [asr, speech-llm, self-supervised]
 code:
-    url: ""
+    url: https://github.com/bicheng1225/AudioSLM
     license: ""
 open_to_collaboration: false

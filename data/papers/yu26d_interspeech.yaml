@@ -6,10 +6,11 @@ authors:
     - Hyunsik Choi
     - Sihyun Joo
 year: 2026
+doi: 10.21437/Interspeech.2026-1631
 isca_url: https://www.isca-archive.org/interspeech_2026/yu26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yu26d_interspeech.pdf
 session: Source Separation 1
-topics: []
+topics: [speech-enhancement, source-separation, spatial-audio]
 code:
     url: ""
     license: ""

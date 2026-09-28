@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-2683
 isca_url: https://www.isca-archive.org/interspeech_2026/wellington26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wellington26_interspeech.pdf
 session: Assistive Technologies 2
-topics: [phonetics, dataset]
+topics: [speech-llm, evaluation, dataset]
 code:
-    url: ""
+    url: https://www.speakunique.co.uk/research/CHINS
     license: ""
 open_to_collaboration: false

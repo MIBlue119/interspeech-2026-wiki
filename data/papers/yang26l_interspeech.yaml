@@ -15,8 +15,8 @@ doi: 10.21437/Interspeech.2026-2018
 isca_url: https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.pdf
 session: Long-Form Speech Synthesis
-topics: [tts, prosody]
+topics: [tts, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://ywbn.github.io/CraftTTS/
     license: ""
 open_to_collaboration: false

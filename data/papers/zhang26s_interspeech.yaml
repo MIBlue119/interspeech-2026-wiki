@@ -8,7 +8,7 @@ doi: 10.21437/Interspeech.2026-1228
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26s_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26s_interspeech.pdf
 session: Language and Dialect Recognition
-topics: [asr, low-resource]
+topics: [asr, low-resource, multilingual]
 code:
     url: ""
     license: ""

@@ -4,10 +4,11 @@ authors:
     - Ziyu Zhang
     - Chenyu Li
 year: 2026
+doi: 10.21437/Interspeech.2026-660
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26g_interspeech.pdf
 session: Prominence, Stress and Focus
-topics: []
+topics: [phonetics, prosody, multilingual]
 code:
     url: ""
     license: ""

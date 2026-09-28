@@ -8,8 +8,8 @@ doi: 10.21437/Interspeech.2026-1733
 isca_url: https://www.isca-archive.org/interspeech_2026/yue26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yue26_interspeech.pdf
 session: Spatial Audio 4
-topics: [speech-enhancement]
+topics: [source-separation, evaluation, dataset]
 code:
-    url: ""
+    url: https://github.com/Zhiyuan-Yue/G2C-NET.git
     license: ""
 open_to_collaboration: false

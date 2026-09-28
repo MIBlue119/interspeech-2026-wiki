@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-1244
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26w_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26w_interspeech.pdf
 session: Efficient Inference for ASR and Speech LMs
-topics: [speech-llm, on-device]
+topics: [asr, tts, speech-llm]
 code:
-    url: ""
+    url: https://github.com/whr-a/vLLM
     license: ""
 open_to_collaboration: false

@@ -7,10 +7,11 @@ authors:
     - Chunlin Li
     - Fei Chen
 year: 2026
+doi: 10.21437/Interspeech.2026-864
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26p_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26p_interspeech.pdf
 session: Brain Studies and Speech
-topics: []
+topics: [target-speaker-extraction, speech-enhancement, self-supervised]
 code:
     url: ""
     license: ""

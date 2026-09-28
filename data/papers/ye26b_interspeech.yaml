@@ -12,8 +12,8 @@ doi: 10.21437/Interspeech.2026-2284
 isca_url: https://www.isca-archive.org/interspeech_2026/ye26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ye26b_interspeech.pdf
 session: Long-Form Speech Synthesis
-topics: [tts]
+topics: [tts, self-supervised, prosody]
 code:
-    url: ""
+    url: https://thuhcsi.github.io/interspeech2026-F5Emphasis
     license: ""
 open_to_collaboration: false

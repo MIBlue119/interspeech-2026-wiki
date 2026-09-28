@@ -1,34 +1,41 @@
 ---
 id: zhang26d_interspeech
-category: evaluation
-updated: 2026-09-28
-confidence: abstract-only
+category: self-supervised
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-463
+pdf: https://www.isca-archive.org/interspeech_2026/zhang26d_interspeech.pdf
 ---
 
 # Dual-Encoder Fusion with Explicit and Implicit Injection for the Interspeech 2026 Audio Encoder Capability Challenge
 
-**TL;DR** — A systematic study fusing Whisper and Dasheng audio encoders for the Audio Encoder Capability Challenge, finding an "explicit injection" strategy that isolates non-redundant information gives stronger task-wise complementarity than simpler adaptation-based fusion.
+[PDF](https://www.isca-archive.org/interspeech_2026/zhang26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-463)
+
+**TL;DR** — This paper evaluates dual-encoder fusion combining Whisper and Dasheng for the Interspeech 2026 Audio Encoder Capability Challenge, demonstrating that explicit residual injection yields the highest task-specific gains and best Track-B overall score of 0.446.
 
 ## Problem
 
-Combining complementary audio encoders should translate into consistent gains across diverse audio classification and understanding tasks, but how best to fuse them for practical use in large audio-language model pipelines was unclear.
+Large Audio Language Models rely entirely on pre-trained audio encoders as front-ends to transform raw waveforms into representations consumed by LLMs. Single encoders like Whisper excel at speech semantics while models like Dasheng focus on general acoustic characteristics, creating complementary strengths that a single encoder cannot uniformly capture. Effectively combining these encoders requires addressing how complementary information is injected, controlled, and preserved without introducing destructive redundancy.
 
 ## Method
 
-Uses Whisper and Dasheng as complementary encoders and compares two injection strategies: implicit injection via parameter-efficient Dasheng adaptation before fusion, and explicit injection that decomposes representations into residual components with auxiliary regularization to isolate non-redundant information, identifying a stable token-wise softmax-gated residual fusion backbone with a lightweight STFT residual branch.
+The authors study dual-encoder fusion using Whisper-Base and Dasheng-Base mapped to a 512-dimensional fusion space. They establish a stable backbone using token-wise softmax-gated residual fusion augmented with a lightweight STFT residual branch. Two injection mechanisms are explored: implicit injection via parameter-efficient LoRA adaptation (r=16, alpha=32) of Dasheng prior to fusion, and explicit injection via linear residual decomposition of Dasheng from Whisper with auxiliary reconstruction and cross-covariance decorrelation regularizations.
 
 ## Results
 
-Explicit injection yields stronger task-wise complementarity and more per-task best results, while implicit adaptation remains competitive and robust overall, for the Interspeech 2026 Audio Encoder Capability Challenge.
+Evaluated across multiple classification and audio-language understanding tasks using the official AECC 'all' training recipe and XARES-LLM framework. The softmax-gated fusion with STFT residual achieves a Track A overall score of 0.701 and Track B of 0.442. Implicit injection achieves Track A overall of 0.706, while explicit injection achieves a Track B overall of 0.446 with stronger per-subtask peak performance on classification and understanding benchmarks like Clotho and MECAT.
 
 ## Code
 
-None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://huggingface.co/yucongzh/implicit_
 
 ## Applications
 
-Practical design guidance for modular multi-encoder fusion inside Large Audio Language Model (LALM) systems.
+Engineers building Large Audio Language Models or multi-modal speech systems seeking to combine diverse pre-trained audio encoder capabilities for joint speech and audio understanding tasks.
+
+## Limitations
+
+The study was constrained by time and compute to use the official AECC training data sampling ratio without exploring customized dataset mixes.
 
 ## Related
 

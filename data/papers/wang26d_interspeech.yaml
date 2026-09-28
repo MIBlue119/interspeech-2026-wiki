@@ -7,11 +7,12 @@ authors:
     - Junyu Dai
     - Tao Jiang
 year: 2026
+doi: 10.21437/Interspeech.2026-219
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26d_interspeech.pdf
 session: Singing Voice and Music Generation
-topics: []
+topics: [source-separation, evaluation, self-supervised]
 code:
-    url: ""
+    url: https://github.com/Eps-Acoustic-Revolution-Lab/EAR_VAE
     license: ""
 open_to_collaboration: false

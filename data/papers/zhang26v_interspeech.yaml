@@ -14,8 +14,8 @@ doi: 10.21437/Interspeech.2026-1402
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26v_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26v_interspeech.pdf
 session: Tools and Techniques for Phonetic Analysis
-topics: [phonetics]
+topics: [speech-production, phonetics, evaluation]
 code:
-    url: ""
+    url: https://github.com/pkuzyb/larynx_segmentation
     license: ""
 open_to_collaboration: false

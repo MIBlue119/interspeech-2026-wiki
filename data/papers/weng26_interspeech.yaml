@@ -6,10 +6,11 @@ authors:
     - Yanyuan Ye
     - Gang Peng
 year: 2026
+doi: 10.21437/Interspeech.2026-1274
 isca_url: https://www.isca-archive.org/interspeech_2026/weng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/weng26_interspeech.pdf
 session: Tones
-topics: []
+topics: [paralinguistics, speech-enhancement, evaluation]
 code:
     url: ""
     license: ""

@@ -13,8 +13,8 @@ doi: 10.21437/Interspeech.2026-192
 isca_url: https://www.isca-archive.org/interspeech_2026/yan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yan26_interspeech.pdf
 session: Language-Model and Codec-Token Speech Enhancement
-topics: [speech-enhancement, source-separation, speech-llm]
+topics: [speech-enhancement, source-separation, self-supervised]
 code:
-    url: ""
+    url: https://github.com/alibaba/unifiedaudio
     license: ""
 open_to_collaboration: false

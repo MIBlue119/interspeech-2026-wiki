@@ -1,26 +1,29 @@
 ---
 id: xu26l_interspeech
-category: evaluation
-updated: 2026-09-28
-confidence: abstract-only
+category: few-shot
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1173
+pdf: https://www.isca-archive.org/interspeech_2026/xu26l_interspeech.pdf
 ---
 
 # Audio-Language Prompt Learning for Few-Shot Audio Classification
 
-**TL;DR** — Learning separate audio-specific, text-specific, and shared prompts — instead of only text prompts — lets audio-language models adapt better with few examples, beating CoOp by 7.21% and CoCoOp by 4.80% on average.
+[PDF](https://www.isca-archive.org/interspeech_2026/xu26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1173)
+
+**TL;DR** — The paper introduces MALP, a multi-modal prompt learning framework for few-shot audio classification that jointly optimizes audio, text, and shared prompts, achieving an average accuracy of 78.35% across eleven benchmarks.
 
 ## Problem
 
-Audio-language models generalize well on standard audio classification, but their few-shot adaptation is constrained by text-centric prompt learning, which under-adapts the audio encoder and struggles to distinguish acoustically similar classes, leading to imbalanced optimization across modalities.
+Existing audio-language model (ALM) adaptation methods predominantly tune prompts in the text encoder while freezing the audio branch, leading to imbalanced cross-modal optimization. This text-centric approach fails to capture subtle acoustic variations and reduces separability when acoustically similar classes share similar semantic descriptions. This structural limitation hampers classification performance under few-shot data regimes where labeled data are scarce.
 
 ## Method
 
-The authors propose MALP, a multi-modal prompt learning framework that jointly optimizes audio-specific, text-specific, and shared prompts: modality-specific prompts first capture complementary audio/text characteristics, then shared prompts strengthen cross-modal alignment while preserving modality-specific discriminability.
+The framework utilizes PENGI as the frozen backbone audio-language model and introduces three types of learnable prompts: audio-specific prompts and text-specific prompts for modality specialization via residual adaptation (controlled by learnable scaling coefficient lambda = 0.2), and shared prompts that condition both modalities via vector concatenation for cross-modal alignment. MALP applies a progressive optimization strategy using stochastic gradient descent with a batch size of 16, a learning rate of 0.05, and is trained for 50 epochs under a 16-shot setting.
 
 ## Results
 
-Across eleven benchmark datasets, MALP achieves consistent improvements over strong baselines, with average gains of 7.21% over CoOp, 4.80% over CoCoOp, and 1.77% over PALM; ablations confirm both audio-specific and shared prompts contribute.
+Evaluated across eleven heterogeneous audio datasets (including Beijing-Opera, CREMA-D, ESC50, RAVDESS, and UrbanSound8K) under a 16-shot setting, MALP achieves an average accuracy of 78.35%. It outperforms the zero-shot reference, CoOp (by 7.21%), CoCoOp (by 4.88%), and PALM (by 1.77%). Component-wise ablations show that adding audio-specific prompts raises average accuracy from the PALM baseline of 76.58% to 77.33%, adding shared prompts alone reaches 76.89%, and combining both reaches the full 78.35%.
 
 ## Code
 
@@ -28,7 +31,7 @@ None released (as of this page's `updated` date). If you are an author with a re
 
 ## Applications
 
-Few-shot audio classification for new sound categories with limited labeled examples, e.g. custom event detection or niche acoustic monitoring.
+Speech and ML engineers working on few-shot audio classification, environmental sound recognition, acoustic scene classification, and speech emotion recognition under low-resource or data-scarce regimes.
 
 ## Related
 

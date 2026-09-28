@@ -10,11 +10,12 @@ authors:
     - Yuxiang Hu
     - Jing Lu
 year: 2026
+doi: 10.21437/Interspeech.2026-601
 isca_url: https://www.isca-archive.org/interspeech_2026/zhao26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26c_interspeech.pdf
 session: Real-Time, Low-Latency and Edge Speech Enhancement
-topics: []
+topics: [speech-enhancement, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/dddaniel-z/HALO
     license: ""
 open_to_collaboration: false

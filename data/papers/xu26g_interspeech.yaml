@@ -11,7 +11,7 @@ doi: 10.21437/Interspeech.2026-879
 isca_url: https://www.isca-archive.org/interspeech_2026/xu26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26g_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
-topics: [asr]
+topics: [asr, speech-llm, self-supervised]
 code:
     url: ""
     license: ""

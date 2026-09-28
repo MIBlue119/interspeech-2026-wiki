@@ -8,11 +8,12 @@ authors:
     - Sailor Hardik
     - Soumik Mondal
 year: 2026
+doi: 10.21437/Interspeech.2026-3019
 isca_url: https://www.isca-archive.org/interspeech_2026/wu26m_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26m_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
-topics: []
+topics: [audio-deepfake, multilingual, dataset]
 code:
-    url: ""
+    url: https://huggingface.co/datasets/Jack-ppkdczgx/SEA-Spoof/
     license: ""
 open_to_collaboration: false

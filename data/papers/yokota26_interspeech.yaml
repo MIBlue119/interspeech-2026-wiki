@@ -7,10 +7,11 @@ authors:
     - Gary Scavone
     - Sidney Fels
 year: 2026
+doi: 10.21437/Interspeech.2026-2023
 isca_url: https://www.isca-archive.org/interspeech_2026/yokota26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yokota26_interspeech.pdf
 session: Modeling Articulation
-topics: []
+topics: [phonetics, speech-enhancement, self-supervised]
 code:
     url: ""
     license: ""

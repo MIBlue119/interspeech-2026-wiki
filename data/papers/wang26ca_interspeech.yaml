@@ -11,7 +11,7 @@ doi: 10.21437/Interspeech.2026-2069
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26ca_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26ca_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
-topics: [speaker-verification]
+topics: [audio-deepfake, speech-enhancement, speaker-verification]
 code:
     url: ""
     license: ""

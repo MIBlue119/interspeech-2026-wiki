@@ -7,10 +7,11 @@ authors:
     - Shuwen Bai
     - Sicong Zhang
 year: 2026
+doi: 10.21437/Interspeech.2026-3043
 isca_url: https://www.isca-archive.org/interspeech_2026/wang26ga_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26ga_interspeech.pdf
 session: Pathological Speech Assessment 3
-topics: []
+topics: [health, paralinguistics, self-supervised]
 code:
     url: ""
     license: ""

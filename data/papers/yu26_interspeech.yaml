@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-456
 isca_url: https://www.isca-archive.org/interspeech_2026/yu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yu26_interspeech.pdf
 session: Medical Dialogue and Conversational Understanding
-topics: [health, evaluation]
+topics: [speech-llm, paralinguistics, evaluation]
 code:
     url: ""
     license: ""

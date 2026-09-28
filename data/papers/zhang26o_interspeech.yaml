@@ -4,10 +4,11 @@ authors:
     - Ziyu Zhang
     - Satoshi Nakamura
 year: 2026
+doi: 10.21437/Interspeech.2026-1105
 isca_url: https://www.isca-archive.org/interspeech_2026/zhang26o_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26o_interspeech.pdf
 session: Translation
-topics: []
+topics: [evaluation, speech-translation, multilingual]
 code:
     url: ""
     license: ""

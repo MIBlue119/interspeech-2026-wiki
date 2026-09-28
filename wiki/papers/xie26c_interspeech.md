@@ -1,34 +1,41 @@
 ---
 id: xie26c_interspeech
 category: tts
-updated: 2026-09-28
-confidence: abstract-only
+updated: 2026-09-29
+confidence: full-paper
 source: https://doi.org/10.21437/Interspeech.2026-1757
+pdf: https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.pdf
 ---
 
 # VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation
 
-**TL;DR** — Optimizing learnable prefixes at inference time with RL-based rewards for pitch/energy variation, speaker similarity, and intelligibility lets a pretrained zero-shot TTS model imitate uncommon speaking styles like crosstalk or dialects, without any retraining.
+[PDF](https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1757)
+
+**TL;DR** — VoiceTTA is a reinforcement learning-based test-time adaptation method for zero-shot text-to-speech that optimizes lightweight learnable prefixes using group relative preference optimization, improving speaker similarity and maintaining intelligibility on uncommon speech prompts.
 
 ## Problem
 
-Zero-shot TTS achieves high-fidelity, expressive synthesis but often fails to imitate unseen speaking styles from uncommon scenarios (e.g. crosstalk, dialects), and fine-tuning pretrained models for such cases requires large, high-quality datasets that limit rapid personalization.
+Pretrained zero-shot text-to-speech models struggle to generalize to uncommon speech scenarios such as regional dialects, accented speech, crosstalk, and slurred speech due to domain shifts from training on common datasets like audiobooks and podcasts. Traditional fine-tuning demands large, high-quality datasets and heavy computation, making rapid online personalization impractical.
 
 ## Method
 
-The authors propose VoiceTTA, a reinforcement-learning-based test-time adaptation method that introduces two style rewards based on coefficient-of-variation differences of F0 and energy, combined with speaker similarity and intelligibility (WER from a pretrained Whisper model), optimizing learnable prefixes via group relative preference optimization (GRPO) in a flow-matching-based TTS model at inference time.
+The framework uses F5-TTS as a flow matching backbone, prepending four lightweight learnable prefixes to the first DiT layer while keeping the base model frozen. At inference time, it samples multiple candidate utterances by varying the flow matching temperature and computes a composite reward combining Whisper-based Word Error Rate (WER) for intelligibility, speaker embedding cosine similarity, and coefficient-of-variation differences of F0 and energy for style. It then optimizes the prefixes over 50 steps using group relative preference optimization (GRPO) without requiring a value model. The prefixes require storing only 16 KB per speaker and are reinitialized for each new test sample.
 
 ## Results
 
-Extensive experiments show substantial improvements on uncommon speech prompts, outperforming state-of-the-art baselines.
+Evaluated on an internal dataset of 200 uncommon samples and 160 Chinese dialect utterances from KeSpeech, VoiceTTA achieves an average Word Error Rate of 3.12 and a speaker similarity (S-SIM) of 0.64, outperforming baselines like F5-TTS, MaskGCT, CosyVoice, and Vevo. Subjectively, it attains an S-MOS of 3.27 and an N-MOS of 3.35, outperforming baseline models on style imitation while preserving naturalness. Ablations confirm that combining both style and intelligibility rewards is essential, as style-only rewards severely degrade WER while intelligibility-only rewards fail to capture voice traits.
 
 ## Code
 
-Audio samples reported as available at https://voicetta.pages.dev/ — no training/inference code confirmed; unverified by this wiki as of the `updated` date. If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
+- https://voicetta.pages.dev/
 
 ## Applications
 
-Rapid personalization/style-imitation for zero-shot TTS systems without needing large fine-tuning datasets for each new style.
+Engineers and developers building personalized zero-shot text-to-speech systems, voice cloning applications, or spoken dialogue interfaces that need to handle challenging acoustic prompts and uncommon dialects with minimal adaptation data.
+
+## Limitations
+
+The approach relies on careful balancing of reward weights and candidate sampling temperatures to avoid destroying speech intelligibility.
 
 ## Related
 

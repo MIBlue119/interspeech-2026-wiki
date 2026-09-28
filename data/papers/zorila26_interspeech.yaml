@@ -9,7 +9,7 @@ doi: 10.21437/Interspeech.2026-3291
 isca_url: https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.pdf
 session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
-topics: [speech-llm, asr]
+topics: [speech-llm, spoken-language-understanding, evaluation]
 code:
     url: ""
     license: ""

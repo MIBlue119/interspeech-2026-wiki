@@ -10,8 +10,8 @@ doi: 10.21437/Interspeech.2026-315
 isca_url: https://www.isca-archive.org/interspeech_2026/visser26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/visser26_interspeech.pdf
 session: Efficient Inference for ASR and Speech LMs
-topics: [self-supervised]
+topics: [self-supervised, speech-llm, spoken-language-understanding]
 code:
-    url: ""
+    url: https://github.com/nicolvisser/ZeroSyl
     license: ""
 open_to_collaboration: false

@@ -6,11 +6,12 @@ authors:
     - Tengfei Zhou
     - Erwan Zerhouni
 year: 2026
+doi: 10.21437/Interspeech.2026-1032
 isca_url: https://www.isca-archive.org/interspeech_2026/you26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/you26b_interspeech.pdf
 session: Speaker Diarization 1
-topics: []
+topics: [speaker-diarization, self-supervised, evaluation]
 code:
-    url: ""
+    url: https://github.com/frankyoujian/BiRetNetDiarization
     license: ""
 open_to_collaboration: false
