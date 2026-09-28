@@ -9,10 +9,11 @@ authors:
     - Siwei Xia
     - Hongbin Zhou
 year: 2026
+doi: 10.21437/Interspeech.2026-2125
 isca_url: https://www.isca-archive.org/interspeech_2026/liu26p_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26p_interspeech.pdf
 session: Long-Form Speech Synthesis
-topics: []
+topics: [tts, emotion-recognition]
 code:
     url: ""
     license: ""

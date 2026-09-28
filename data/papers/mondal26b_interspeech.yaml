@@ -4,10 +4,11 @@ authors:
     - Anindita Mondal
     - Priyanka Kommagouni
 year: 2026
+doi: 10.21437/Interspeech.2026-2640
 isca_url: https://www.isca-archive.org/interspeech_2026/mondal26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mondal26b_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
-topics: []
+topics: [dataset, low-resource]
 code:
     url: ""
     license: ""

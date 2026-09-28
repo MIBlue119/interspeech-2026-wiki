@@ -4,10 +4,11 @@ authors:
     - Adhiraj Banerjee
     - Vipul Arora
 year: 2026
+doi: 10.21437/Interspeech.2026-141
 isca_url: https://www.isca-archive.org/interspeech_2026/banerjee26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/banerjee26_interspeech.pdf
 session: Information Extraction and Retrieval / Survey Talk
-topics: []
+topics: [self-supervised, evaluation]
 code:
     url: ""
     license: ""

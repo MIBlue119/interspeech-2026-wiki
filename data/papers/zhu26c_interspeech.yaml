@@ -5,10 +5,11 @@ authors:
     - Lahiru Samarakoon
     - Ivan Fung
 year: 2026
+doi: 10.21437/Interspeech.2026-2455
 isca_url: https://www.isca-archive.org/interspeech_2026/zhu26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhu26c_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 1
-topics: []
+topics: [multilingual, asr]
 code:
     url: ""
     license: ""

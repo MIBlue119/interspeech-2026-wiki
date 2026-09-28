@@ -4,10 +4,11 @@ authors:
     - Jack Cox
     - Jon P Barker
 year: 2026
+doi: 10.21437/Interspeech.2026-2542
 isca_url: https://www.isca-archive.org/interspeech_2026/cox26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cox26_interspeech.pdf
 session: Post-Training of Speech Foundation Models
-topics: []
+topics: [self-supervised, speaker-verification, keyword-spotting]
 code:
     url: ""
     license: ""

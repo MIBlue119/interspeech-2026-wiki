@@ -11,10 +11,11 @@ authors:
     - Chao-Han Huck Yang
     - Shinji Watanabe
 year: 2026
+doi: 10.21437/Interspeech.2026-873
 isca_url: https://www.isca-archive.org/interspeech_2026/tian26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tian26_interspeech.pdf
 session: LLM Based Speech Synthesis
-topics: []
+topics: [tts]
 code:
     url: ""
     license: ""

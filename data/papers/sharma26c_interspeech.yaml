@@ -3,10 +3,11 @@ title: 'LavaSR: Fast and Flexible Audio Bandwidth Extension via Vocos'
 authors:
     - Yatharth Sharma
 year: 2026
+doi: 10.21437/Interspeech.2026-2839
 isca_url: https://www.isca-archive.org/interspeech_2026/sharma26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sharma26c_interspeech.pdf
 session: Dereverberation, Bandwidth Extension and Restoration
-topics: []
+topics: [speech-enhancement]
 code:
     url: ""
     license: ""

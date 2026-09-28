@@ -5,10 +5,11 @@ authors:
     - Eunsang Lee
     - Jiyoung Lee
 year: 2026
+doi: 10.21437/Interspeech.2026-1246
 isca_url: https://www.isca-archive.org/interspeech_2026/boo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/boo26_interspeech.pdf
 session: Spoofing and Deepfake Detection 2
-topics: []
+topics: [speaker-verification, evaluation]
 code:
     url: ""
     license: ""

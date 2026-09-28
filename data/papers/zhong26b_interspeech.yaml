@@ -8,10 +8,11 @@ authors:
     - Louis ten Bosch
     - Bastiaan R. Bloem
 year: 2026
+doi: 10.21437/Interspeech.2026-1057
 isca_url: https://www.isca-archive.org/interspeech_2026/zhong26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhong26b_interspeech.pdf
 session: Pathological Speech Assessment 4
-topics: []
+topics: [health]
 code:
     url: ""
     license: ""

@@ -9,10 +9,11 @@ authors:
     - Tan Lee
     - Peggy Pik Ki Mok
 year: 2026
+doi: 10.21437/Interspeech.2026-1194
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26m_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26m_interspeech.pdf
 session: Phonetic Aspects of TTS and ASR Systems
-topics: []
+topics: [phonetics, paralinguistics]
 code:
     url: ""
     license: ""

@@ -6,10 +6,11 @@ authors:
     - Thi-Mai-Anh Bui
     - Phi-Le Nguyen
 year: 2026
+doi: 10.21437/Interspeech.2026-1542
 isca_url: https://www.isca-archive.org/interspeech_2026/daoxuanquang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/daoxuanquang26_interspeech.pdf
 session: Long-form Audio & New Attention Approaches
-topics: []
+topics: [evaluation, spoken-language-understanding]
 code:
     url: ""
     license: ""

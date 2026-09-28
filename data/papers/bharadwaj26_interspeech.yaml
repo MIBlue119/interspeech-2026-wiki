@@ -9,10 +9,11 @@ authors:
     - Shinji Watanabe
     - David R. Mortensen
 year: 2026
+doi: 10.21437/Interspeech.2026-1462
 isca_url: https://www.isca-archive.org/interspeech_2026/bharadwaj26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bharadwaj26_interspeech.pdf
 session: Low-Resource & Endangered Language Speech Processing
-topics: []
+topics: [phonetics, multilingual, low-resource]
 code:
     url: ""
     license: ""

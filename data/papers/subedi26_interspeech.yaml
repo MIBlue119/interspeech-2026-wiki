@@ -5,10 +5,11 @@ authors:
     - Howard Prioleau
     - Saurav Aryal
 year: 2026
+doi: 10.21437/Interspeech.2026-2966
 isca_url: https://www.isca-archive.org/interspeech_2026/subedi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/subedi26_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
-topics: []
+topics: [self-supervised, multilingual]
 code:
     url: ""
     license: ""

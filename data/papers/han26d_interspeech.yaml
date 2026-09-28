@@ -8,10 +8,11 @@ authors:
     - Helen Meng
     - Xixin Wu
 year: 2026
+doi: 10.21437/Interspeech.2026-2107
 isca_url: https://www.isca-archive.org/interspeech_2026/han26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/han26d_interspeech.pdf
 session: Voice Conversion
-topics: []
+topics: [tts, health]
 code:
     url: ""
     license: ""

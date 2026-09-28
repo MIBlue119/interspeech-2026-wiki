@@ -5,10 +5,11 @@ authors:
     - Shekhar Nayak
     - Matt Coler
 year: 2026
+doi: 10.21437/Interspeech.2026-1487
 isca_url: https://www.isca-archive.org/interspeech_2026/li26x_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26x_interspeech.pdf
 session: Speaker Identity, States, and Traits in Paralinguistics
-topics: []
+topics: [prosody, tts]
 code:
     url: ""
     license: ""

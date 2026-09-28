@@ -10,10 +10,11 @@ authors:
     - Rithesh Kumar
     - Zeyu Jin
 year: 2026
+doi: 10.21437/Interspeech.2026-3015
 isca_url: https://www.isca-archive.org/interspeech_2026/anand26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/anand26_interspeech.pdf
 session: Paralinguistics
-topics: []
+topics: [speech-llm, paralinguistics]
 code:
     url: ""
     license: ""

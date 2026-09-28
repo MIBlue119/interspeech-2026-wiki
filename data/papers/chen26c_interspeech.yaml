@@ -5,10 +5,11 @@ authors:
     - Bingliang Zhao
     - Xiyu Wu
 year: 2026
+doi: 10.21437/Interspeech.2026-361
 isca_url: https://www.isca-archive.org/interspeech_2026/chen26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26c_interspeech.pdf
 session: Tones
-topics: []
+topics: [phonetics, prosody]
 code:
     url: ""
     license: ""

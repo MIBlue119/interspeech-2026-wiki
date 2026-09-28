@@ -8,10 +8,11 @@ authors:
     - Javier Hernando
     - Cristina España-Bonet
 year: 2026
+doi: 10.21437/Interspeech.2026-800
 isca_url: https://www.isca-archive.org/interspeech_2026/romerodiaz26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/romerodiaz26_interspeech.pdf
 session: Translation
-topics: []
+topics: [speech-translation]
 code:
     url: ""
     license: ""

@@ -8,10 +8,11 @@ authors:
     - Lukáš Burget
     - Samuele Cornell
 year: 2026
+doi: 10.21437/Interspeech.2026-443
 isca_url: https://www.isca-archive.org/interspeech_2026/polok26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/polok26_interspeech.pdf
 session: Multi-Talker ASR & Speaker Diarization
-topics: []
+topics: [asr, speaker-diarization, dataset]
 code:
     url: ""
     license: ""

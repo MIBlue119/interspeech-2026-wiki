@@ -7,10 +7,11 @@ authors:
     - Mark Hasegawa-Johnson
     - Chang D. Yoo
 year: 2026
+doi: 10.21437/Interspeech.2026-3190
 isca_url: https://www.isca-archive.org/interspeech_2026/eom26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/eom26_interspeech.pdf
 session: 'Speech Synthesis: Speech Features, Codec and Representations'
-topics: []
+topics: [tts, health]
 code:
     url: ""
     license: ""

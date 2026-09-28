@@ -5,10 +5,11 @@ authors:
     - Olivier Jiyoun Jung
     - Myungwoo Oh
 year: 2026
+doi: 10.21437/Interspeech.2026-952
 isca_url: https://www.isca-archive.org/interspeech_2026/park26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26c_interspeech.pdf
 session: Pathological Speech Assessment 2
-topics: []
+topics: [health, speech-llm]
 code:
     url: ""
     license: ""

@@ -5,10 +5,11 @@ authors:
     - Aruna Srivastava
     - Ruslan Mukhamedvaleev
 year: 2026
+doi: 10.21437/Interspeech.2026-3271
 isca_url: https://www.isca-archive.org/interspeech_2026/metzger26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/metzger26_interspeech.pdf
 session: Tools and Techniques for Phonetic Analysis
-topics: []
+topics: [phonetics]
 code:
     url: ""
     license: ""

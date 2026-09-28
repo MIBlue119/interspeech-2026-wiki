@@ -7,10 +7,11 @@ authors:
     - Xiaotao Liang
     - Zheng Xue
 year: 2026
+doi: 10.21437/Interspeech.2026-191
 isca_url: https://www.isca-archive.org/interspeech_2026/liu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26b_interspeech.pdf
 session: Active Noise and Echo Control, Sound Zones and Packet-Loss Concealment
-topics: []
+topics: [speech-enhancement, on-device]
 code:
     url: ""
     license: ""
