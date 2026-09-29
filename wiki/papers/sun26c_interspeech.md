@@ -78,4 +78,10 @@ Tongji University, University of Tubingen
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [How do word frequency and syllable surprisal affect response time and acoustic duration in sentence formulation?](yuen26_interspeech.md) — same problem · relatedness 2.0/3
+- [Modelling diphthong dynamics: A GAMM-based analysis of Australian English diphthongs](gnevsheva26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Reconciling Dynamic Data Analysis with Linguistic Reality: Comparing Legendre Polynomial Modelling and GAMM Applied to Prosodic Contact](dian26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Word Lengthening as a Function of Utterance Position: A Multi-Corpus Study](camara26b_interspeech.md) — same problem · relatedness 1.9/3
+- [A preliminary exploration of stop-vowel coarticulation in Māori](shields26_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Northwestern Polytechnical University, Kuaishou Technology, Beijing Institute of
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DiffRhythm 2: Efficient and High Fidelity Song Generation via Block Flow Matching](jiang26_interspeech.md) — same problem · relatedness 2.5/3
+- [Singing Voice Conversion via Shared Speaker Space and Min-Pooling Adversarially Enhanced Flow Matching](hu26g_interspeech.md) — same problem · relatedness 2.4/3
+- [CFLOW-VC: An unsupervised cycle training strategy based on normalizing flows for Voice Conversion](song26_interspeech.md) — same problem · relatedness 2.2/3
+- [YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance](hao26_interspeech.md) — shared technique · relatedness 2.2/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

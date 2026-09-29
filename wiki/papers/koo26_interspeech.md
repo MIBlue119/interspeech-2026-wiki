@@ -79,4 +79,10 @@ MAGO, KAIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [HFMSE: Harmonic-Guided Speech Enhancement with Flow Matching](li26l_interspeech.md) — shared technique · relatedness 2.5/3
+- [LavaSR: Fast and Flexible Audio Bandwidth Extension via Vocos](sharma26c_interspeech.md) — same problem · relatedness 2.5/3
+- [mmWave Radar Aware Dual-Conditioned GAN for Speech Reconstruction of Signals With Low SNR](karani26_interspeech.md) — same problem · relatedness 2.5/3
+- [HWB-plus: A Lightweight Speech Bandwidth Extension Method with Separate Modeling for Consonants and Vowels](liu26k_interspeech.md) — same problem · relatedness 2.5/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

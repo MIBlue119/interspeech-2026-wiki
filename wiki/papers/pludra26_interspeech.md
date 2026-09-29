@@ -77,4 +77,10 @@ Pearson Central Europe, Adam Mickiewicz University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — same problem · relatedness 2.6/3
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — same problem · relatedness 2.5/3
+- [Can Speech LLMs Approximate Human Ratings of Accentedness and Comprehensibility? Evidence from Correlational and Feature-Based Analyses](dong26c_interspeech.md) — same problem · relatedness 2.1/3
+- [Harf-Speech: A Clinically Aligned Framework for Arabic Phoneme-Level Speech Assessment](azad26_interspeech.md) — same problem · relatedness 2.0/3
+- [Domain-Aware Mispronunciation Detection and Diagnosis Using Language-Specific Statistical Graphs](nguyen26g_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

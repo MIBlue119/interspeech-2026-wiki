@@ -65,4 +65,10 @@ University of Auckland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Articulatory Analysis of the Mandarin Alveolar–Retroflex Contrast Using Real-Time MRI](wu26d_interspeech.md) — same problem · relatedness 2.3/3
+- [The Role of Laryngeal Position in the Articulation of American English Velar Stop Consonants](kim26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Disentangling sociophonetic and physiological variation in /s/ acoustics across 12 languages](lipari26_interspeech.md) — same problem · relatedness 1.8/3
+- [Towards Robust Ultrasound-based Silent Speech Recognition Learning Physics-Aware and Context-Rich Representations](wen26d_interspeech.md) — shared technique · relatedness 1.8/3
+- [Informativity of high-frequency bands on the place of articulation shift in retroflex sibilants produced by children](skorzewska26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

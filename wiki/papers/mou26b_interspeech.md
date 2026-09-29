@@ -74,4 +74,10 @@ University of Science and Technology of China, iFLYTEK
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CraftTTS: Fine-Grained Prosody Control for Text-to-Speech](yang26l_interspeech.md) — same problem · relatedness 2.5/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — same problem · relatedness 2.4/3
+- [VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation](xie26c_interspeech.md) — same problem · relatedness 2.2/3
+- [FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech](wang26s_interspeech.md) — same problem · relatedness 2.2/3
+- [Learnable Classifier-Free Guidance Null Embeddings for Enhanced Controllable Speech Synthesis](turavecino26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

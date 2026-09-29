@@ -78,4 +78,10 @@ National Taiwan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Do Modern Video-LLMs Need to Listen? A Benchmark Audit and Scalable Remedy](kim26s_interspeech.md) — same problem · relatedness 2.4/3
+- [Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models](seth26_interspeech.md) — same problem · relatedness 2.2/3
+- [Robustness Assessment of Large Audio Language Models in Multiple-choice Evaluation](lopez26_interspeech.md) — same problem · relatedness 2.2/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — same problem · relatedness 2.2/3
+- [CoRE: Contrastive Evidence-Aware Rescoring for Multiple-Choice Audio Question Answering](zhang26f_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

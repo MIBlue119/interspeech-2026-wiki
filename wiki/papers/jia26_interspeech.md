@@ -79,4 +79,10 @@ Tsinghua University, Beijing University of Posts and Telecommunications
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Something from Nothing: Data Augmentation for Robust Severity Level Estimation of Dysarthric Speech](bae26_interspeech.md) — same problem · relatedness 2.5/3
+- [Clinically-Supervised Hierarchical LoRA-MoE: A Parameter-Efficient Framework for Severity-Aware Dysarthric Speech Assessment](wang26ga_interspeech.md) — same problem · relatedness 2.4/3
+- [Phoneme Error and Uncertainty Features for Interpretable Dysarthric Speech Assessment](zhong26c_interspeech.md) — same problem · relatedness 2.2/3
+- [Cross-lingual Retrieval-Augmented Classification for Dysarthria Severity Assessment](jeong26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Uncovering Dimension-Specific Layer Preferences in Wav2Vec2 for Fine-Grained Perceptual Assessment of Dysarthric Speech](zhong26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

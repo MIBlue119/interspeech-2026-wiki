@@ -74,4 +74,10 @@ Chongqing University of Posts and Telecommunications, Brunel University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SA-HRTF: A Sound-Assisted Approach to Personalized HRTF Modeling](zhao26f_interspeech.md) — same problem · relatedness 2.9/3
+- [HRTF Personalization via Sim-to-Real Neural Field](masuyama26_interspeech.md) — same problem · relatedness 2.9/3
+- [HRIR-Former: Grid-Free Time-Domain Reconstruction of Head-Related Impulse Responses with a Spatially Encoded Transformer](xu26c_interspeech.md) — same problem · relatedness 2.5/3
+- [HRTF-guided Binaural Target Speaker Extraction with Real-World Validation](ellinson26_interspeech.md) — complementary · relatedness 1.7/3
+- [Explicit Context-Driven Neural Acoustic Modeling for High-Fidelity RIR Generation](si26_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

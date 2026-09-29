@@ -77,4 +77,10 @@ Michigan State University, Western Michigan University, Friends: The National As
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](toyin26_interspeech.md) — same problem · relatedness 2.2/3
+- [Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation](srivastav26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Investigating ASR for Low-Intelligibility Dysarthric Speech](kwon26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Learning to Hear Hesitation: Continual Learning for Disfluency-Aware ASR](kordt26_interspeech.md) — same problem · relatedness 2.1/3
+- [Etiology-Aware Speech Language Models for Dysarthric Speech Recognition](laquatra26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

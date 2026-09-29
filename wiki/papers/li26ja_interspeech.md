@@ -67,4 +67,10 @@ Hong Kong Polytechnic University, City University of Hong Kong
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The role of phonation type in Chinese Jin tones: a study using acoustic metrics](du26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Automatic identification of the onset of creaky voice according to F0 instability](puggaardrode26_interspeech.md) — complementary · relatedness 1.9/3
+- [Lost in Phonation: Voice Quality Variation as an Evaluation Dimension for Speech Foundation Models](lameris26_interspeech.md) — complementary · relatedness 1.9/3
+- [Gender differences in the phonetic realization of the checked tone in Kaihui Xiang](zhang26h_interspeech.md) — shared technique · relatedness 1.9/3
+- [Acoustic correlates of voice quality settings: variation within and between individual speakers](paver26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

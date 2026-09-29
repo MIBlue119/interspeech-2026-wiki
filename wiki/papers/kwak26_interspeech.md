@@ -81,4 +81,10 @@ Korea Advanced Institute of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TGTSE: Token-Guided Target Speaker Extraction with Visual Cue](ling26_interspeech.md) — same problem · relatedness 2.9/3
+- [AV-FlowSep: Audio-Visual Target Speaker Separation via Flow Matching](tipaksorn26_interspeech.md) — same problem · relatedness 2.9/3
+- [Multi-View Based Audio Visual Target Speaker Extraction](yang26m_interspeech.md) — same problem · relatedness 2.9/3
+- [WeSep: A Modular and Cue-Composable Framework for Target Speaker Extraction](zhang26k_interspeech.md) — same problem · relatedness 2.9/3
+- [MeanFlow-TSE: One-Step Generative Target Speaker Extraction with Mean Flow](shimizu26_interspeech.md) — same problem · relatedness 2.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

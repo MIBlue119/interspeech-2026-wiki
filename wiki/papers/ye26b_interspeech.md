@@ -80,4 +80,10 @@ Tsinghua University, StepFun
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CraftTTS: Fine-Grained Prosody Control for Text-to-Speech](yang26l_interspeech.md) — same problem · relatedness 2.7/3
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — same problem · relatedness 2.7/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — same problem · relatedness 2.6/3
+- [FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech](wang26s_interspeech.md) — same problem · relatedness 2.5/3
+- [Knowing What to Stress: A Discourse-Conditioned Text-to-Speech Benchmark](turetzky26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

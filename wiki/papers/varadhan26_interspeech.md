@@ -77,4 +77,10 @@ Indian Institute of Technology Madras, Saryps Labs
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Lightweight Cross-Lingual Speaker Adaptation for Indic TTS](kumar26e_interspeech.md) — same problem · relatedness 2.5/3
+- [OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models](zhu26e_interspeech.md) — same problem · relatedness 2.4/3
+- [High-Quality Speech Synthesis for Under-Resourced Ethiopian Languages](tamiru26_interspeech.md) — same problem · relatedness 2.4/3
+- [Deterministic Prompting for Speaker-Stable Low-Resource Greek TTS](syllas26_interspeech.md) — same problem · relatedness 2.3/3
+- [DiaMoE-TTS: A Unified IPA-Based Dialect TTS Framework with Parameter-Efficient Adaptation and Reward-Driven Optimization](chen26z_interspeech.md) — shared technique · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

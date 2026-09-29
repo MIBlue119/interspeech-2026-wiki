@@ -75,4 +75,10 @@ Seoul National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MSU-Bench: Towards Understanding the Conversational Multi-Speaker Scenarios](sun26j_interspeech.md) — same problem · relatedness 1.9/3
+- [Learning Multiple Utterance-Level Attribute Representations with a Unified Speech Encoder](bouziane26_interspeech.md) — same problem · relatedness 1.9/3
+- [Voice Privacy from an Attribute-based Perspective](rahman26b_interspeech.md) — same problem · relatedness 1.8/3
+- [ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining](diwan26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Audio-Language Prompt Learning for Few-Shot Audio Classification](xu26l_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

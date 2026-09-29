@@ -76,4 +76,10 @@ Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Hierarchical Conditional Continuous Normalizing Flows for Creaky Voice Editing under Speaker Identity Preservation](rautenberg26_interspeech.md) — same problem · relatedness 2.3/3
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — same problem · relatedness 2.2/3
+- [Privacy and quality trade-off in real-time speaker anonymization via editing of age and sex attributes](quamer26_interspeech.md) — same problem · relatedness 2.0/3
+- [Learnable Classifier-Free Guidance Null Embeddings for Enhanced Controllable Speech Synthesis](turavecino26_interspeech.md) — same problem · relatedness 1.9/3
+- [LibriTTS-VI: A Public Corpus and Novel Methods for Efficient Voice Impression Control](ohmura26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

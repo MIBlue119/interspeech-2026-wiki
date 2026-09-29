@@ -77,4 +77,10 @@ Tianjin Foreign Studies University, Beijing Language and Culture University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ProSarc: Prosody-Aware Sarcasm Recognition Framework via Temporal Prosodic Incongruity](singh26e_interspeech.md) — same problem · relatedness 2.7/3
+- [ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling](zhang26ca_interspeech.md) — shared technique · relatedness 2.1/3
+- [POP-SED: Prototype Orthogonal Projection for Robust Few-shot Sound Event Detection](kagoshima26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Segregate, Refine, Integrate: Decomposing Multimodal Fusion for Sentiment Analysis](filippakopoulos26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Improving Generalization in Speech Deepfake Detection via Orthogonality-Constrained Common-Specific Feature Decorrelation](kim26l_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

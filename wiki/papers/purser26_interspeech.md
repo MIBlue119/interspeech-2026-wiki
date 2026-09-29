@@ -72,4 +72,10 @@ Australian National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Modelling diphthong dynamics: A GAMM-based analysis of Australian English diphthongs](gnevsheva26_interspeech.md) — same problem · relatedness 2.7/3
+- [Cross-linguistic word-medial stop lenition: A Functional PCA approach](lee26p_interspeech.md) — shared technique · relatedness 1.9/3
+- [Lexical stress-conditioned spatiotemporal gestural coordination in L2 English](mcguire26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Revisiting the NZE front vowel shift: evidence from New Zealand''s largest and most linguistically diverse city](ross26_interspeech.md) — same problem · relatedness 1.9/3
+- [To glide or not to glide: Acoustic realization of the diphthong-hiatus contrast in Italian and Romanian](cronenberg26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

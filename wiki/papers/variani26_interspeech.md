@@ -77,4 +77,10 @@ Google
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Discrete vs. Continuous: A Comprehensive Study of Unified Audio Understanding in LALMs](peng26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Continual Adaptation for Pacific Indigenous Speech Recognition](xiao26_interspeech.md) — same problem · relatedness 2.0/3
+- [SARA: A Dual-Stream VAE for High-Fidelity Speech Generation via Integrating Semantic and Acoustic Representations](chen26v_interspeech.md) — complementary · relatedness 2.0/3
+- [Dissecting Sensitivity to Training Language in Self-Supervised Speech Learning Using Neural Audio Codec Tokens](takizawa26_interspeech.md) — same problem · relatedness 2.0/3
+- [HybridCodec: Fast Dual-Stream, Semantically Enhanced Neural Audio Codec](gangwar26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

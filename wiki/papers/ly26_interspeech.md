@@ -78,4 +78,10 @@ Zalo AI, University of Science, VNU-HCM, Vietnam National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track](tu26b_interspeech.md) — shared data / evaluation · relatedness 2.9/3
+- [Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models](li26o_interspeech.md) — shared data / evaluation · relatedness 2.8/3
+- [EChO-Agent: Evidence Chain Orchestration Agent for Audio Reasoning](zhang26t_interspeech.md) — shared data / evaluation · relatedness 2.7/3
+- [Structured Prompting vs. Self-Training for Audio Reasoning Under Limited Data and Compute: Lessons from Interspeech Audio Reasoning Challenge 2026](noronha26_interspeech.md) — shared data / evaluation · relatedness 2.7/3
+- [ALARM: Audio–Language Alignment for Reasoning Models](grinberg26_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Bielefeld University, Paderborn University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A barrier or a booster? Familiarity effects on Mandarin emotion prosody recognition using AI-powered voice cloning](xu26i_interspeech.md) — shared technique · relatedness 1.9/3
+- [Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning](polle26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Intonation Perception in Real and Synthetic Speech across Varying Familiarity Levels: A Pilot Study of Equivalence Assessment](zhou26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Synthetic Pathological Speech at Scale: A Flow Matching Approach for Clinical Data Augmentation](koudounas26_interspeech.md) — shared technique · relatedness 1.8/3
+- [VoiceQualityGUI: A Tool for Word-Level Voice Quality Modifications](lameris26b_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

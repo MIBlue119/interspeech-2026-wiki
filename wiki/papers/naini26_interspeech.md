@@ -76,4 +76,10 @@ Carnegie Mellon University, University of Texas at Dallas, NVIDIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning](zhang26ea_interspeech.md) — same problem · relatedness 2.3/3
+- [Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction](yu26f_interspeech.md) — same problem · relatedness 2.3/3
+- [Segment-wise Embedding based Graph Attention Network for Effective Speech Emotion Recognition](song26c_interspeech.md) — same problem · relatedness 2.2/3
+- [ParaPairAudioBench: Paralinguistic Pairwise Audio Benchmark for LALM-as-a-Judge](jeon26d_interspeech.md) — same problem · relatedness 2.2/3
+- [CHUCKLE - When Humans Teach AI to Learn Emotions the Easy Way](singh26b_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

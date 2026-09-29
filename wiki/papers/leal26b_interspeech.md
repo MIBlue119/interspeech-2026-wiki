@@ -78,4 +78,10 @@ University of Milan, Scientific Institute IRCCS E. Medea, University of Verona, 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Does a Pathological Speech Assessment Model Know about Acoustic Features? A Case Study on Oral and Oropharyngeal Cancer Patients](nguyen26h_interspeech.md) — shared technique · relatedness 1.9/3
+- [PAN-Mask: Pathology-Aware Neurological Masking with End-to-End Learnable Weights for Neurological Disorder Detection from Speech](sun26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Multi-Phonation Graph Learning with Self-Supervised Speech Embeddings for ALS Detection and Progression Prediction](taghibeyglou26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Beyond Binary: Speech Representations Across the Cognitive Score Hierarchy](kopar26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Uncovering Dimension-Specific Layer Preferences in Wav2Vec2 for Fine-Grained Perceptual Assessment of Dysarthric Speech](zhong26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

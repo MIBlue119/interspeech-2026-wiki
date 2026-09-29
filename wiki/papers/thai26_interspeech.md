@@ -78,4 +78,10 @@ Nanyang Technological University, VinUniversity
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Mixture-of-Accent-Adapters for Robust ASR: Injecting Accent Cues into Pretrained Whisper](bijoy26_interspeech.md) — same problem · relatedness 2.5/3
+- [Activation Steering for Accent Adaptation in Large Audio Language Models](sun26h_interspeech.md) — same problem · relatedness 2.4/3
+- [Mixture of Phonetic Experts Based Low-Rank Adaptation of Conformer Models for Accented English Speech Recognition](dahal26_interspeech.md) — same problem · relatedness 2.1/3
+- [Beyond WER: Entity and Disfluency Recall in Accented Conversational ASR](husain26_interspeech.md) — same problem · relatedness 2.0/3
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

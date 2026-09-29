@@ -80,4 +80,10 @@ Toshiba
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ML-KD-DRI-GAN: Teacher-Guided Denoising and Triplet-Adversarial Training for Robust Spoken Language Understanding](kumar26b_interspeech.md) — same problem · relatedness 2.0/3
+- [A Reranker for Orchestrating Heterogeneous Speech and Text Retrievers](kim26q_interspeech.md) — same problem · relatedness 2.0/3
+- [Audio2Tool: Speak, Call, Act - A Dataset for Benchmarking Speech Tool Use](pahwa26_interspeech.md) — complementary · relatedness 1.9/3
+- [INSPIRE: A Benchmark for Instruction-Aware Speech Retrieval](li26r_interspeech.md) — complementary · relatedness 1.9/3
+- [Closing the Modality Gap via Simplex-Constrained Representations](gupta26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

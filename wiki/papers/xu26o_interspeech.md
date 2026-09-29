@@ -76,4 +76,10 @@ NVIDIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Attentive Mamba: Channel-wise Local Attention for Speech Recognition](chien26_interspeech.md) — same problem · relatedness 2.0/3
+- [Online Predictive Coding for Dual-Mode Self-Supervised Speech Models](goto26_interspeech.md) — same problem · relatedness 2.0/3
+- [Reducing the Offline-Streaming Gap for Unified ASR Transducer with Consistency Regularization](andrusenko26_interspeech.md) — same problem · relatedness 2.0/3
+- [Pushing the Boundaries of Streaming Multi-Speaker ASR: A Systematic Study of Architectural Trade-offs](park26e_interspeech.md) — same problem · relatedness 1.9/3
+- [A Compact Fully-Open Cache-Aware Streaming Model for Japanese ASR](yang26r_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

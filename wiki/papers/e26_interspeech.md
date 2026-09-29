@@ -79,4 +79,10 @@ Indian Institute of Science, National Institute of Technology Karnataka, Josh Ta
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Indic DiarBench: A Multilingual Joint Diarization and ASR Benchmark for Indian Languages](mehendale26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [ASR-Synchronized Speaker-Role Diarization](ghosh26d_interspeech.md) — complementary · relatedness 2.0/3
+- [DIALOG DeID: Role and Privacy Aware Transcription for Clinical Interviews Beyond WER](oliveira26_interspeech.md) — same problem · relatedness 2.0/3
+- [Generating Synthetic Doctor-Patient Conversations for Long-form Audio Summarization](labrak26_interspeech.md) — same problem · relatedness 2.0/3
+- [When Multiple Script Matters: Evaluating ASR in Clinical Settings](seo26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

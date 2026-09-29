@@ -77,4 +77,10 @@ Asahi Shimbun Company, Tokyo Woman's Christian University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [UFL-GAN: A Multi-Discriminator GAN for Unsupervised Speech Enhancement](bejugam26_interspeech.md) — same problem · relatedness 2.9/3
+- [Neuromorphic Speech Enhancement with Dual-Branch Spiking Neural Networks](meng26d_interspeech.md) — same problem · relatedness 2.9/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.8/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.8/3
+- [Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow](zhang26z_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

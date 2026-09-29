@@ -73,4 +73,10 @@ Oracle
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes](shao26_interspeech.md) — same problem · relatedness 2.7/3
+- [DuraMark: Duration-Embedded Watermarking in LLM-based TTS](mou26_interspeech.md) — same problem · relatedness 2.7/3
+- [AudioNoisePrints: Model-free audio watermarking using spatial correlation in flow matching TTS](tse26_interspeech.md) — same problem · relatedness 2.6/3
+- [A Training-Free Proactive Defense Against Partial Speech Manipulation via Self-Embedding Steganography](ozer26_interspeech.md) — same problem · relatedness 2.1/3
+- [VoxWatermark: A Large-Scale Benchmark for Audio Watermark Detection under Perturbations](sedaghati26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -75,4 +75,10 @@ ETH Zurich
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DNSMOS-C: Improving End-to-end Speech Quality Models via Contrastive Learning](liang26_interspeech.md) — same problem · relatedness 2.5/3
+- [CodecMOS-Accent: A MOS Benchmark of Resynthesized and TTS Speech from Neural Codecs Across English Accents](huang26f_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [URGENT-MOS: Unified Multi-Metric and Preference Learning for Robust Speech Quality Assessment](wang26aa_interspeech.md) — same problem · relatedness 2.3/3
+- [How Frequency Band Importance Affects Neural Network Predictions and Human Perception for Speech Quality Assessment](lamba26_interspeech.md) — same problem · relatedness 2.3/3
+- [PrefSQA: Pairwise Preference Prediction for Speech Quality Assessment and the Critical Role of High Quality Datasets](fan26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

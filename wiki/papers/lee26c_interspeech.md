@@ -77,4 +77,10 @@ Seoul National University, University of Seoul
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learning to Wait: Real Streaming Speech-to-Text Translation with an LLM](zhang26u_interspeech.md) — same problem · relatedness 2.0/3
+- [Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades](sun26f_interspeech.md) — same problem · relatedness 1.9/3
+- [ARTIST: Universal Articulatory Space Modeling for Multilingual Indic-to-English Speech-to-Speech Translation](yadav26_interspeech.md) — same problem · relatedness 1.9/3
+- [Better Late Than Never: Meta-Evaluation of Latency Metrics for Simultaneous Speech-to-Text Translation](polak26_interspeech.md) — same problem · relatedness 1.8/3
+- [BACON: Boundary-Aware Convolution for Streaming Conformer Models](xu26o_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

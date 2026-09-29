@@ -78,4 +78,10 @@ National Taiwan Normal University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders](aparin26_interspeech.md) — same problem · relatedness 2.6/3
+- [Grounding Whisper: An Audio Anchor-Based Approach for Hallucination Mitigation and Throughput-Efficient ASR](agarwal26_interspeech.md) — same problem · relatedness 2.5/3
+- [A Gated Multi-Task Whisper Framework for Speech, Emotion, and Scene Understanding](bhat26_interspeech.md) — same problem · relatedness 2.4/3
+- [From Dispersion to Attraction: Spectral Dynamics of Hallucination Across Whisper Model Scales](viakhirev26_interspeech.md) — same problem · relatedness 2.4/3
+- [From Text Metrics to Model Internals: A Study of Whisper ASR Hallucination Detection](jasinski26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

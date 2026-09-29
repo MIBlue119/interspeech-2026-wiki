@@ -77,4 +77,10 @@ Microsoft
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Revisiting Active Speaker Detection: An In-the-Wild Benchmark for Generalization and Robustness](nguyen26b_interspeech.md) — same problem · relatedness 2.5/3
+- [MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the wild](qi26_interspeech.md) — same problem · relatedness 1.9/3
+- [MAC-VAD: A Modality-Aligned Cross-Attentive Framework for Robust Voice Activity Detection](mallik26_interspeech.md) — same problem · relatedness 1.9/3
+- [VAD to the Bone: Ultra-Tiny Speech Activity Detection for Edge Deployment](bauer26_interspeech.md) — same problem · relatedness 1.8/3
+- [Multi-Speaker Embeddings With Weakly Supervised Speaker Activity Detection For Granular Speaker Diarization](thienpondt26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

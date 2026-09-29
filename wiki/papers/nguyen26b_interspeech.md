@@ -78,4 +78,10 @@ University of Wisconsin - Madison, Oregon State University, University of Sydney
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [RT-ASDNet: Unified, Real-Time Active Speaker Detection](kopuklu26_interspeech.md) — same problem · relatedness 2.5/3
+- [MAC-VAD: A Modality-Aligned Cross-Attentive Framework for Robust Voice Activity Detection](mallik26_interspeech.md) — same problem · relatedness 2.1/3
+- [BabyHuBERT: Multilingual Self-Supervised Learning for Segmenting Speakers in Child-Centered Long-Form Recordings](charlot26_interspeech.md) — same problem · relatedness 1.9/3
+- [MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the wild](qi26_interspeech.md) — same problem · relatedness 1.9/3
+- [Indic DiarBench: A Multilingual Joint Diarization and ASR Benchmark for Indian Languages](mehendale26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

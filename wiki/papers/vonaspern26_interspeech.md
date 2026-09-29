@@ -79,4 +79,10 @@ Technische Universitat Braunschweig, NXP Semiconductors
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MixProLAP: Mixture-Induced Uncertainty Modeling for Probabilistic Language-Audio Pretraining](nakagome26_interspeech.md) — same problem · relatedness 2.7/3
+- [ProLAP: Probabilistic Language-Audio Pre-Training](manabe26_interspeech.md) — same problem · relatedness 2.7/3
+- [CoSTALA: Compositional Spatio-Temporal Audio-Language Alignment via Multi-Grain Hierarchical Contrastive Learning](ren26b_interspeech.md) — same problem · relatedness 2.4/3
+- [ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining](diwan26_interspeech.md) — shared technique · relatedness 2.3/3
+- [SAM: A Mamba-2 State-Space Audio-Language Model](lee26d_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

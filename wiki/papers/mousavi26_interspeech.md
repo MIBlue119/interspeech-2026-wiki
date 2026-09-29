@@ -78,4 +78,10 @@ Concordia University, Mila - Quebec AI Institute, Universite Laval, Birla Instit
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models](seth26_interspeech.md) — same problem · relatedness 2.8/3
+- [Silence is Golden: Mitigating Hallucinations in Large Audio-Language Models via Layer-Weighted Vector Steering](lin26g_interspeech.md) — same problem · relatedness 2.4/3
+- [MATA: A Training-Free Approach to Mitigate Cross-Modal Attention Imbalance in Large Audio Language Models](wang26t_interspeech.md) — same problem · relatedness 2.3/3
+- [Listening or Reading? Evaluating Speech Awareness in Chain-of-Thought Speech-to-Text Translation](romerodiaz26_interspeech.md) — shared technique · relatedness 2.2/3
+- [TAD: Token-Adaptive Contrastive Decoding with Confidence-Guided Gating for Hallucination Mitigation in Large Audio-Language Models](chang26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

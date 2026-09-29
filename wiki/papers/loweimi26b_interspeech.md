@@ -78,4 +78,10 @@ University of Edinburgh, Cisco, SLAI, Chinese University of Hong Kong, Shenzhen,
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — same problem · relatedness 2.2/3
+- [Scaling Human and G2P Supervision for Robust Phonetic Transcription](metzger26_interspeech.md) — same problem · relatedness 2.0/3
+- [Transitional Objective Learning with Connectionist Temporal Classification in Phoneme Recognition](krysinska26_interspeech.md) — same problem · relatedness 1.9/3
+- [Duration-Aware Soft Targets for Text-Independent Supervised Phone Segmentation](ramesh26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective](sadok26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

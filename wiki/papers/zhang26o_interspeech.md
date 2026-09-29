@@ -80,4 +80,10 @@ Chinese University of Hong Kong, Shenzhen Loop Area Institute
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Audiovisual CXMI: Scene-based Context Tagging for Spoken Language Translation Evaluation](ku26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales](parikh26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Listening Like a Judge: A Music-Aware Framework for Automatic Singing Performance Evaluation](saini26_interspeech.md) — shared technique · relatedness 1.9/3
+- [EmoSURA: Towards Accurate Evaluation of Detailed and Long-Context Emotional Speech Captions](jing26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [Can Speech LLMs Approximate Human Ratings of Accentedness and Comprehensibility? Evidence from Correlational and Feature-Based Analyses](dong26c_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

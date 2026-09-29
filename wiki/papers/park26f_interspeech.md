@@ -75,4 +75,10 @@ NAVER Cloud, Yonsei University, KAIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](toyin26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Interpretable Audio Editing Evaluation via Chain-of-Thought Difference-Commonality Reasoning with Multimodal LLMs](jia26b_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Balalaika: Data-Centric, Prosody-Aware Annotation Pipeline for Russian Speech](borodin26_interspeech.md) — complementary · relatedness 1.9/3
+- [Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input](liu26i_interspeech.md) — complementary · relatedness 1.9/3
+- [Can Speech LLMs Approximate Human Ratings of Accentedness and Comprehensibility? Evidence from Correlational and Feature-Based Analyses](dong26c_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

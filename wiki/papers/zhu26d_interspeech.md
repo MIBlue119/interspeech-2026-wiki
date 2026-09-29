@@ -76,4 +76,10 @@ Beijing Key Laboratory of Key Technologies for AI+ Domain Applications, North Ch
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Diffusion Reconstruction towards Generalizable Audio Deepfake Detection](cheng26_interspeech.md) — same problem · relatedness 2.6/3
+- [GradHarmony: A Gradient Alignment and Magnitude Normalization Strategy for Audio Deepfake Detection](kim26r_interspeech.md) — same problem · relatedness 2.4/3
+- [Joint Fullband-Subband Modeling for High-Resolution SingFake Detection](hu26e_interspeech.md) — same problem · relatedness 2.4/3
+- [SingFox: A Multi-Lingual Singfake Detection Corpus](shah26_interspeech.md) — same problem · relatedness 2.3/3
+- [FakeSound2: A Benchmark for Explainable, Traceable, and Generalizable Deepfake Sound Detection](xie26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

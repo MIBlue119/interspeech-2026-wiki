@@ -77,4 +77,10 @@ National Taiwan University, University of Southern California
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Decoding the Ear (DeEAR): A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](lin26l_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — complementary · relatedness 2.2/3
+- [An Empirical Analysis of Task-Induced Encoder Bias in Fréchet Audio Distance](jeong26_interspeech.md) — same problem · relatedness 2.2/3
+- [Investigating the Relationship between Objective AI-driven Metrics and Subjective MOS for In-the-Wild Speech](sanjotra26_interspeech.md) — same problem · relatedness 2.0/3
+- [EmoInstruct-TTS: Dual-Path Instruction-Guided Emotional Speech Synthesis](wu26f_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

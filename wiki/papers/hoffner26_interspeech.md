@@ -74,4 +74,10 @@ Carl von Ossietzky Universitat Oldenburg, Cluster of Excellence Hearing4all, Fra
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Cross-Dataset Speech Intelligibility Prediction for Hearing-Impaired Listeners with Few-Shot Adaptation](lin26h_interspeech.md) — same problem · relatedness 2.1/3
+- [fMRI Decoding of Speech Conditions Across Brain Regions of Interest for Neural Evaluation of Speech Enhancement](sung26_interspeech.md) — same problem · relatedness 2.0/3
+- [Too Good to Be True: A Study on Modern Automatic Speech Recognition Systems for the Evaluation of Speech Enhancement](oliveira26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Assessing the Impact of Noise and Speech Enhancement on the Intelligibility of Speech Codecs](behringer26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Fine-Grained Acoustically-Aware Pre-training Encoder for Speech Quality Assessment](sultana26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

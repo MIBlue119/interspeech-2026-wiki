@@ -81,4 +81,10 @@ Universite de Lorraine, CNRS, Inria, National Institute of Informatics
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TASU2: Controllable CTC Simulation for Alignment and Low-Resource Adaptation of Speech LLMs](peng26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Mind the Gap: Impact of Synthetic Conversational Data on Multi-Talker ASR and Speaker Diarization](polok26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Closing the Speech-Text Gap with Limited Audio for Effective Domain Adaptation in LLM-Based ASR](banerasroux26_interspeech.md) — same problem · relatedness 2.1/3
+- [Improving Code-Switching ASR with Code-Mixing Guided Synthetic Speech](heng26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Gumbel-BEARD: Automatic Layer Selection for Self-Supervised Adaptation of Whisper in Low-Resource Domains](wang26o_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

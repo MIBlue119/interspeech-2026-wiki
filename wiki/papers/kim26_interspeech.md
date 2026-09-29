@@ -77,4 +77,10 @@ Seoul National University, KT Corporation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Enhancing Flow Matching with A Unified Guidance Framework for Efficient and Robust Speech Synthesis](yu26b_interspeech.md) — shared technique · relatedness 2.3/3
+- [TC-DBI: A Plug-and-Play Trajectory Confidence-Guided Dynamic Block Inference Strategy for Speech Synthesis with Continuous Block Flow Matching](wang26v_interspeech.md) — shared technique · relatedness 2.2/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — shared technique · relatedness 2.2/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.2/3
+- [One-Step Token-to-Waveform Generation with MeanFlow in Latent Space](dai26c_interspeech.md) — shared technique · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

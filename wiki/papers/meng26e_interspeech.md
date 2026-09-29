@@ -74,4 +74,10 @@ National Acoustic Laboratories, GN Store Nord
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Deep learning-based predictions of perceived listening effort and intelligibility across enhanced, synthetic, natural, and binaural speech](hoffner26_interspeech.md) — same problem · relatedness 1.9/3
+- [Predicting Cognitive Load from Speech and Interaction Dynamics in Dyadic Conversations](chowdhury26_interspeech.md) — same problem · relatedness 1.8/3
+- [Acoustic Biomarkers of Sleep Deprivation on French Read Speech: Interpretable and Frugal Modeling of Sleep Deprivation and Its Symptoms](martin26_interspeech.md) — same problem · relatedness 1.8/3
+- [Adaptation to Room Acoustics in Understanding Vocoded Speech: A Comparison Between Listeners With Varying Immersion Age](pratiwi26_interspeech.md) — same problem · relatedness 1.7/3
+- [Measuring Vocal Efficiency in Daily Life in Patients with Voice Disorders Using Wireless Accelerometer and Microphone Sensors](yousef26c_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

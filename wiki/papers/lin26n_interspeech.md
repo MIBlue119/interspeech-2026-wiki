@@ -79,4 +79,10 @@ Wuhan University, Tencent, Northwestern Polytechnical University, Université du
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Dual-Encoder Fusion with Explicit and Implicit Injection for the Interspeech 2026 Audio Encoder Capability Challenge](zhang26d_interspeech.md) — shared technique · relatedness 2.9/3
+- [Speech Encoder Fusion for LLM-based Automatic Speech Recognition](poncelet26_interspeech.md) — shared technique · relatedness 2.6/3
+- [ALARM: Audio–Language Alignment for Reasoning Models](grinberg26_interspeech.md) — same problem · relatedness 2.3/3
+- [Discrete vs. Continuous: A Comprehensive Study of Unified Audio Understanding in LALMs](peng26h_interspeech.md) — same problem · relatedness 2.1/3
+- [USAD 2.0: Scaling Representation Distillation for Universal Audio Understanding](chang26c_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

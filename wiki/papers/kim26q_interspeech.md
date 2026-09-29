@@ -79,4 +79,10 @@ Korea Institute of Energy Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Closing the Modality Gap via Simplex-Constrained Representations](gupta26_interspeech.md) — same problem · relatedness 2.0/3
+- [From Noisy Speech to Accurate APIs: LLM-driven Embedding Steering for Resilient Tool Retrieval](zorila26_interspeech.md) — same problem · relatedness 2.0/3
+- [PROGRESS: Coverage-guided RL to Train Search-augmented LLM Agent](paul26_interspeech.md) — same problem · relatedness 1.9/3
+- [INSPIRE: A Benchmark for Instruction-Aware Speech Retrieval](li26r_interspeech.md) — complementary · relatedness 1.9/3
+- [Search-GRT: Guided Retrieval Training of Search Agents to Optimize for Complex Question Answering](kumar26d_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

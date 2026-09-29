@@ -79,4 +79,10 @@ University of Auckland, Te Hiku Media
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Game-Based Annotation to Representation Probing: Cross-Validated Prosodic Speech and Privacy Implications](sepanta26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Dialogs: a studio-quality expressive conversational Russian speech corpus for dialog assistants](shigabeev26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Indigenising Speech Technology: Building a TTS Model for te Reo Māori](leoni26_interspeech.md) — complementary · relatedness 2.0/3
+- [Dual-Stream DNN-KAN Networks with Bangla-Specific Features for Speech Emotion Recognition](hasan26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

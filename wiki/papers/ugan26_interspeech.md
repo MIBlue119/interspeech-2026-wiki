@@ -82,4 +82,10 @@ Karlsruhe Institute of Technology, Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Reinforcement Learning for Data-Efficient Code-Switched ASR](ye26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Improving Code-Switching ASR with Code-Mixing Guided Synthetic Speech](heng26_interspeech.md) — same problem · relatedness 2.5/3
+- [Direct Preference Optimization for English-Mandarin Code-Switching Speech Recognition in Audio LLMs](nguyen26_interspeech.md) — same problem · relatedness 2.4/3
+- [Contrastive Training with LLM-generated Near-Misses for Robust Code-Switching Speech Recognition](nguyen26i_interspeech.md) — same problem · relatedness 2.3/3
+- [LLM-HB: Language-Aware LLM-Guided Hotword Biasing for Code-Switching ASR](he26c_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

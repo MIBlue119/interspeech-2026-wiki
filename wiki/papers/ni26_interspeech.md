@@ -78,4 +78,10 @@ Chinese University of Hong Kong-Shenzhen, Shenzhen Loop Area Institute, Amphion 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [NVV-SuperBench: Beyond Words, Beyond Quality—Benchmarking Nonverbal Vocalizations in Speech Generation](xue26c_interspeech.md) — shared data / evaluation · relatedness 3.0/3
+- [Decoding the Ear (DeEAR): A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](lin26l_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [MoVE: Translating Laughter and Tears via Mixture of Vocalization Experts in Speech-to-Speech Translation](chen26_interspeech.md) — complementary · relatedness 2.1/3
+- [Evaluating Automatic Laughter Phone Annotation for Socially-Situated Laughter Synthesis](mori26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

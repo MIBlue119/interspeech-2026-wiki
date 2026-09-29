@@ -80,4 +80,10 @@ Kyoto University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Refining Pseudo-Audio Prompts with Speech-Text Alignment for Text-Only Domain Adaptation in LLM-Based ASR](magoshi26_interspeech.md) — same problem · relatedness 2.7/3
+- [Avoiding Catastrophic Forgetting in Text-Only Adaptation of LLM-based ASR via Multi-View Text Denoising](burdisso26_interspeech.md) — same problem · relatedness 2.5/3
+- [BELLA: Efficient Bilevel Learning with LoRA for Multilingual ASR](saif26_interspeech.md) — same problem · relatedness 2.3/3
+- [Exploring the potential and limitations of Model Merging for Multi-Domain Adaptation in ASR](carvalho26_interspeech.md) — shared technique · relatedness 2.3/3
+- [Closing the Speech-Text Gap with Limited Audio for Effective Domain Adaptation in LLM-Based ASR](banerasroux26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

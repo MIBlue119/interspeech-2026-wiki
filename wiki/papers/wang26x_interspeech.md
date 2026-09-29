@@ -75,4 +75,10 @@ University of Science and Technology of China
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [RobustSpeechFlow: Learning Robust Text-to-Speech Trajectories via Augmentation-based Contrastive Flow Matching](yang26p_interspeech.md) — same problem · relatedness 2.6/3
+- [Improving Stable Speech Synthesis Post-Training with ChatScorer and Margin-Based Preference Construction](niu26c_interspeech.md) — same problem · relatedness 2.2/3
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — same problem · relatedness 2.0/3
+- [CraftTTS: Fine-Grained Prosody Control for Text-to-Speech](yang26l_interspeech.md) — same problem · relatedness 1.9/3
+- [CTC-TTS: LLM-Based Dual-Streaming Text-to-Speech with CTC Alignment](liu26e_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

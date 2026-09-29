@@ -81,4 +81,10 @@ Kyoto University, NTT
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Multilingual Phonological Feature Recognition with Self-Supervised Speech Models](hernandez26b_interspeech.md) — same problem · relatedness 2.5/3
+- [ArtNet: A JEPA-Like Articulatory Predictive Framework for Robust Zero-Shot Phoneme Recognition](hu26_interspeech.md) — same problem · relatedness 2.2/3
+- [Pretrained self-supervised speech models can recognize unseen consonants](taguchi26_interspeech.md) — same problem · relatedness 2.0/3
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — same problem · relatedness 2.0/3
+- [How Bilingual Are SSL Speech Models? Cross-Lingual Probing of Articulatory Encoding with Finnish and Russian EMA](pedro26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

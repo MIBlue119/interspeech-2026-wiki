@@ -68,4 +68,8 @@ Samsung
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Optimal Source Placement for TDoA-based Geometry Calibration of Distributed Microphone Arrays](wang26ba_interspeech.md) — same problem · relatedness 1.9/3
+- [Probing Spatial Structure in Pretrained Audio Representations](chen26ba_interspeech.md) — complementary · relatedness 1.6/3
+- [Spatial-Magnifier: Spatial upsampling for multichannel speech enhancement](lee26k_interspeech.md) — complementary · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ KTH Royal Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Readability Does Not Predict Speech Recognition Errors: Contrasting Human and Machine Perception.](ramonda26_interspeech.md) — same problem · relatedness 2.2/3
+- [Synthesizing the Lombard Effect: Multi-Level Control of Speech Clarity and Vocal Effort in TTS](akti26_interspeech.md) — same problem · relatedness 1.8/3
+- [English Vowel Perceptual Training under Multitalker Babble: A Comparison of Humans and Large Language Models](dong26b_interspeech.md) — same problem · relatedness 1.8/3
+- [From Noisy Speech to Accurate APIs: LLM-driven Embedding Steering for Resilient Tool Retrieval](zorila26_interspeech.md) — same problem · relatedness 1.8/3
+- [MoDiCoL: A Modular Diagnostic Continual Learning Dataset for Robust Speech Recognition](pekarekrosin26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

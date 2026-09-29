@@ -74,4 +74,10 @@ Kyoto University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SPOT-TSE: Spatial Point-Guided Target Speech Extraction](ryu26c_interspeech.md) — same problem · relatedness 2.6/3
+- [AV-SNINet: A multi-channel audio-visual speech-noise interaction network for Target Speaker Extraction with cross-beam attention](tu26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Improving Streaming Speaker Diarization for LLM Based Multi-talker Speech Understanding](lin26f_interspeech.md) — same problem · relatedness 2.4/3
+- [MCA-DCF-DS: An Adaptive Framework for Unified Diarization and Separation with Spatial Information](niu26b_interspeech.md) — same problem · relatedness 2.4/3
+- [GenTSE: Enhancing Target Speaker Extraction via a Coarse-to-Fine Generative Language Model](li26m_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

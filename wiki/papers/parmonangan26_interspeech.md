@@ -76,4 +76,10 @@ Queensland University of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Robust Audio-Visual Emotion Recognition via Conditional Transformer U-Nets with Frequency-Injected Visual Stream](chung26b_interspeech.md) — same problem · relatedness 2.7/3
+- [MultiEmoVec: Learning Generalised Multimodal Emotion Representation by Momentum Contrast and Multi-task Reconstruction](liu26m_interspeech.md) — same problem · relatedness 2.4/3
+- [Segment-wise Embedding based Graph Attention Network for Effective Speech Emotion Recognition](song26c_interspeech.md) — same problem · relatedness 2.2/3
+- [MSMC: Multi-Scale Masked Convolution network for Robust Speech Emotion Recognition](song26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention](wang26u_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

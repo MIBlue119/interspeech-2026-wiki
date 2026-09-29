@@ -76,4 +76,10 @@ University of Florida
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MSU-Bench: Towards Understanding the Conversational Multi-Speaker Scenarios](sun26j_interspeech.md) — same problem · relatedness 2.0/3
+- [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](toyin26_interspeech.md) — same problem · relatedness 2.0/3
+- [Paediatric-HGNN: A Hybrid Heterogeneous Graph Neural Network for Detecting Disfluency in Children’s Speech via Multiscale Acoustic Fusion](liyanarachchi26_interspeech.md) — same problem · relatedness 2.0/3
+- [Aligning Stuttered-Speech Research with End-User Needs: Scoping Review, Survey, and Guidelines](toyin26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Error Diversity and Performance Variability in Zero-Shot Children's Speech Recognition](sinha26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

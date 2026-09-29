@@ -79,4 +79,10 @@ Deakin University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AGENT: A Black-box Adversarial Attack Exposing the Achilles'' Heel of SASV Systems](lee26x_interspeech.md) — same problem · relatedness 3.0/3
+- [FreqGuard: Leveraging Frequency-Domain Feature Priors for Universal Proactive Voice Defense](wang26ca_interspeech.md) — same problem · relatedness 2.6/3
+- [Exploiting Neural Audio Codec Latents for Adversarial Audio Attacks](bhattacharya26b_interspeech.md) — same problem · relatedness 2.2/3
+- [NaVo: Natural Voice Protection against Voice Cloning Attacks via Generative Universal Adversarial Audio](park26g_interspeech.md) — same problem · relatedness 2.2/3
+- [DAST: A Dual-Stream Voice Anonymization Attacker with Staged Training](arefeen26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

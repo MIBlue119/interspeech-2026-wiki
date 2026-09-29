@@ -78,4 +78,10 @@ KAIST, POSTECH
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MS-GNN: Multi-Scale Graph Neural Network for Detecting Local Audio-Visual Forgery Traces](wang26g_interspeech.md) — same problem · relatedness 2.6/3
+- [Referee: Reference-aware Audiovisual Deepfake Detection](boo26_interspeech.md) — same problem · relatedness 2.6/3
+- [DeepFense: A Unified, Modular, and Extensible Framework for Robust Audio Deepfake Detection](kheir26_interspeech.md) — same problem · relatedness 2.1/3
+- [Towards Robust Speech Deepfake Detection via Human-Inspired Reasoning](dvirniak26_interspeech.md) — same problem · relatedness 2.1/3
+- [Domain-Adaptive Dual-Gating Mixture of Experts for Generalizable Speech Deepfake Detection](qin26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

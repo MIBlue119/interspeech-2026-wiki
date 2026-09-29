@@ -67,4 +67,10 @@ University of Western Australia, Google
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech Technology and Linguistic Diversity](bird26_interspeech.md) — same problem · relatedness 2.0/3
+- [Decolonizing Linguistic Policies in Automatic Speech Recognition: A Framework for Cross-Culturally Competent Speech AI](cunningham26_interspeech.md) — same problem · relatedness 2.0/3
+- [From Academic Tool to Community Infrastructure: A Call for Indigenous Partnership in Speech Data Governance](sheth26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Hybrid Continual Learning for Low-Resource Australian Aboriginal Language Identification](mylvaganam26_interspeech.md) — same problem · relatedness 1.9/3
+- [Dialect Bias in Speech Recognition Across 10 Spanish and French Varieties](nieto26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Sungkyunkwan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Segmental Attention Decoding With Long Form Acoustic Encodings](swietojanski26_interspeech.md) — same problem · relatedness 2.6/3
+- [Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders](aparin26_interspeech.md) — same problem · relatedness 2.6/3
+- [Grounding Whisper: An Audio Anchor-Based Approach for Hallucination Mitigation and Throughput-Efficient ASR](agarwal26_interspeech.md) — same problem · relatedness 2.5/3
+- [Probing and Mitigating Hallucinations in Speech-augmented Language Models for Automatic Speech Recognition via Small Language Models](yan26c_interspeech.md) — same problem · relatedness 2.3/3
+- [Attention-Guided Reliability Scaling for Contrastive Decoding in Robust Audio-Visual Speech Recognition](kim26h_interspeech.md) — shared technique · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

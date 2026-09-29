@@ -76,4 +76,10 @@ UCLA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A preliminary exploration of stop-vowel coarticulation in Māori](shields26_interspeech.md) — same problem · relatedness 2.0/3
+- [Oral stop realisation in three French Polynesian languages](fletcher26_interspeech.md) — same problem · relatedness 2.0/3
+- [Which Languages Transfer Best to Warlpiri? A Similarity-Based Study for Low-Resource ASR](mylvaganam26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Extreme Few-Shot Phoneme Discovery for Indigenous Australian and Pacific Languages via Typological Transfer Learning](yadla26_interspeech.md) — same problem · relatedness 1.7/3
+- [Phonetic evidence for contrastive voicing in Nakanamanga coronal plosives](li26ha_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

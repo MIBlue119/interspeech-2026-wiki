@@ -81,4 +81,10 @@ Hanyang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FreeSonic: Training-Free Temporal-Aware Decoupled Attention for Precise Audio Editing](jiang26d_interspeech.md) — same problem · relatedness 3.0/3
+- [Bagpiper-Edit: Zero-Shot Open-Ended Audio Editing via Rich-Caption](gong26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Improving Text-to-Audio Instruction Following via Fine-Grained Feedback from Audio-Aware Large Language Models](kuan26_interspeech.md) — same problem · relatedness 1.8/3
+- [Unified Prosody Restoration Using Diffusion Models for Controllable Text-to-Speech Synthesis](ito26_interspeech.md) — shared technique · relatedness 1.8/3
+- [A Fast Solver for Interpolating Stochastic Differential Equation Diffusion Models for Speech Restoration](lay26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

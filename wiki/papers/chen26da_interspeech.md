@@ -79,4 +79,10 @@ Chinese University of Hong Kong, Jilin University, Hunan University, University 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Probing Spatial Structure in Pretrained Audio Representations](chen26ba_interspeech.md) — same problem · relatedness 2.3/3
+- [Learning Self-Supervised Spatial Representations via Soft Acoustic Contrastive Alignment](silverman26_interspeech.md) — same problem · relatedness 2.0/3
+- [Spec2Spatial: A Time-Frequency Spatial Attention Network for Binaural Audio Synthesis](he26b_interspeech.md) — same problem · relatedness 1.9/3
+- [PolyBench: A Benchmark for Compositional Reasoning in Polyphonic Audio](chen26aa_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [An Empirical Analysis of Task-Induced Encoder Bias in Fréchet Audio Distance](jeong26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

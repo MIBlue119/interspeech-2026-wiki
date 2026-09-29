@@ -79,4 +79,10 @@ Sarvam AI, IIT Madras
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SDR-LLM: Speech-LLM Based End-to-End Speaker Diarization and Recognition with Sentence-Level Temporal Modeling](yu26g_interspeech.md) — same problem · relatedness 2.1/3
+- [Who Spoke What When? Evaluating Spoken Language Models for Conversational ASR with Semantic and Overlap-Aware Metrics](tawara26_interspeech.md) — same problem · relatedness 2.1/3
+- [Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India](bhogale26_interspeech.md) — same problem · relatedness 2.1/3
+- [Vimarsha: Faithful ASR Evaluation for Indian Languages with Demographic Diversity, In-the-Wild Audio and Spelling Variations](bhogale26b_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Benchmarking Speech Systems for Frontline Health Conversations: The DISPLACE-M Challenge](e26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

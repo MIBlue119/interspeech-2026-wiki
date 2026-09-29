@@ -77,4 +77,10 @@ National Taiwan University, Academia Sinica, Johns Hopkins University, National 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Too Good to Be True: A Study on Modern Automatic Speech Recognition Systems for the Evaluation of Speech Enhancement](oliveira26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Deep learning-based predictions of perceived listening effort and intelligibility across enhanced, synthetic, natural, and binaural speech](hoffner26_interspeech.md) — same problem · relatedness 2.0/3
+- [Post-Training Speech Enhancement Language Models with Perceptual Rewards](berdo26_interspeech.md) — same problem · relatedness 2.0/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.0/3
+- [Assessing the Impact of Noise and Speech Enhancement on the Intelligibility of Speech Codecs](behringer26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

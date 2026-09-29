@@ -75,4 +75,10 @@ University of Zurich
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Happens When We Speak Together? Multidimensional Convergence in Face-to-Face Interaction](pagel26_interspeech.md) — same problem · relatedness 2.0/3
+- [On Entrainment in Semi-Spontaneous Multilingual Parliamentary Speech](ries26_interspeech.md) — same problem · relatedness 1.9/3
+- [Prosodic ABX: A Language-Agnostic Method for Measuring Prosodic Contrast in Speech Representations](sun26_interspeech.md) — shared technique · relatedness 1.9/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Speech Entrainment in Multi-Party Conversations with a Digital Agent](mehlman26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

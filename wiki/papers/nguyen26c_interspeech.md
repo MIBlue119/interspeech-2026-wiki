@@ -83,4 +83,10 @@ Korea Advanced Institute of Science and Technology, Chung-Ang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](lee26j_interspeech.md) — same problem · relatedness 2.5/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — same problem · relatedness 2.5/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.5/3
+- [FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation](xie26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Streaming T5-based Text-to-Speech Synthesis with Limited Lookahead](du26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

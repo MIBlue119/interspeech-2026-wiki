@@ -81,4 +81,10 @@ Radboud University, Radboud University Medical Center
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [PAN-Mask: Pathology-Aware Neurological Masking with End-to-End Learnable Weights for Neurological Disorder Detection from Speech](sun26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Adapting Self-Supervised Speech Representations for Cross-Lingual Dysarthria Detection in Parkinson's Disease](hernandez26_interspeech.md) — same problem · relatedness 2.0/3
+- [Speech and Video Biomarkers Exhibit Reduced Within-Subject Variability in Early Parkinson’s Disease and Resistance to Placebo and Hawthorne Effects](kothare26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Toward an Articulatory Weakness Index for Speech Kinematics in Parkinson’s Disease](baligar26_interspeech.md) — same problem · relatedness 2.0/3
+- [S-DiverSe: Spanish Diverse Speech](lopez26b_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

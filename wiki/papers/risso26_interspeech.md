@@ -77,4 +77,10 @@ Politecnico di Torino
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sub-Model Short-Term Memory Convolutions for Keyword Spotting Systems on Device](warlewski26_interspeech.md) — same problem · relatedness 2.5/3
+- [SPARK: Efficient Audio-Text Matching for User-Defined Keyword Spotting via Spiking Neural Networks](baek26_interspeech.md) — same problem · relatedness 2.3/3
+- [Personalized Keyword Spotting for User-Defined Keywords Leveraging Text-Independent Speaker Verification](hu26c_interspeech.md) — same problem · relatedness 2.2/3
+- [Massive Open-Vocabulary Keyword Spotting](barreiros26_interspeech.md) — same problem · relatedness 2.1/3
+- [MPA-KWS: Multi-Modal Phoneme-Level Alignment for Streaming Open-Vocabulary Keyword Spotting](zhang26fa_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

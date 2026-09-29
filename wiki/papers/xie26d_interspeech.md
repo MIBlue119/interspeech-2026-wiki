@@ -76,4 +76,10 @@ Chinese University of Hong Kong, Hong Kong Metropolitan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Age-Related Changes in Mandarin Lexical Tone Production: Acoustic Properties and Tonal Distinctiveness](mao26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Beyond Pitch: Multidimensional Cue Reweighting of Two High-Falling Tones in Pingdingshan Mandarin](chen26c_interspeech.md) — shared technique · relatedness 1.9/3
+- [Age-related Differences in Acoustic Realization of Aspirated Fricatives in Shaxi Bai](zhang26q_interspeech.md) — shared technique · relatedness 1.9/3
+- [Age-related Differences in the Perception of Vowel Length Contrast in Northern Vietnamese: The Case of Hoang Van (Bac Ninh) Variety](ta26_interspeech.md) — same problem · relatedness 1.8/3
+- [Tonal Contrasts in Different Vowel Contexts and Different Tonal Systems](li26v_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -74,4 +74,10 @@ University of Auckland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Working Together on Technologies: A Case Study of Collaboration in Aotearoa](hutchinson26_interspeech.md) — complementary · relatedness 1.9/3
+- [A preliminary exploration of stop-vowel coarticulation in Māori](shields26_interspeech.md) — same problem · relatedness 1.9/3
+- [Indigenising Speech Technology: Building a TTS Model for te Reo Māori](leoni26_interspeech.md) — complementary · relatedness 1.8/3
+- [NewAppVoice: Tools for Visualizing and Correcting Acoustic Measures](elmerich26_interspeech.md) — complementary · relatedness 1.8/3
+- [Amadea: An AI Companion for Pitch-Aware Spoken Language Practice](agrawal26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

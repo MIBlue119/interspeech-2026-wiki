@@ -81,4 +81,10 @@ Cantina Labs
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — same problem · relatedness 2.3/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — same problem · relatedness 2.3/3
+- [Enhancing Flow Matching with A Unified Guidance Framework for Efficient and Robust Speech Synthesis](yu26b_interspeech.md) — same problem · relatedness 2.2/3
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — same problem · relatedness 2.2/3
+- [Dynamic Prosody Prediction in LLM-based TTS for Improving Speaker Similarity](mou26b_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

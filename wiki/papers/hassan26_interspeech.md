@@ -78,4 +78,10 @@ Ohio State University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Parameter-Efficient Adaptation of Speech-Aware LLMs for Timestamp Prediction](sunder26_interspeech.md) — same problem · relatedness 1.9/3
+- [Shared Phone-Level Neural Representations of Auditory Perception and ‘Inner Voice’ Production: One-to-One Mapping using a Single-Subject EEG Corpus of Heard and Imagined Natural Speech](wellington26_interspeech.md) — same problem · relatedness 1.9/3
+- [MOV-AAD: A Large-Scale Multimodal Dataset for Auditory Attention Decoding During Moving Conversations](he26g_interspeech.md) — same problem · relatedness 1.9/3
+- [Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation](ye26_interspeech.md) — shared technique · relatedness 1.8/3
+- [NeuroMultiSpEx: Neuro-Guided Target Speaker Extraction for Multi-Speaker Scenarios](silva26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

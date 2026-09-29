@@ -80,4 +80,10 @@ Wuhan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TGTSE: Token-Guided Target Speaker Extraction with Visual Cue](ling26_interspeech.md) — same problem · relatedness 3.0/3
+- [Plug-and-Steer: Decoupling Separation and Selection in Audio-Visual Target Speaker Extraction](kwak26_interspeech.md) — same problem · relatedness 2.9/3
+- [AV-SNINet: A multi-channel audio-visual speech-noise interaction network for Target Speaker Extraction with cross-beam attention](tu26c_interspeech.md) — same problem · relatedness 2.9/3
+- [Online Audio-Visual Target Speaker Extraction with Viseme-Guided Lightweight Visual Pretraining](li26n_interspeech.md) — same problem · relatedness 2.8/3
+- [WeSep: A Modular and Cue-Composable Framework for Target Speaker Extraction](zhang26k_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

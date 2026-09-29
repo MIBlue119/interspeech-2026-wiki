@@ -80,4 +80,10 @@ IRIT, Universite de Toulouse, CNRS, Toulouse INP
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Enhancing BEST-RQ Pseudo-Label Quality Through Online Refinement for Automatic Speech Recognition](xu26b_interspeech.md) — shared technique · relatedness 2.8/3
+- [ViP-VL: Vietnamese Self-supervised Speech Pretraining Model with Vector-Quantization Learning](le26b_interspeech.md) — shared technique · relatedness 2.4/3
+- [Gumbel-BEARD: Automatic Layer Selection for Self-Supervised Adaptation of Whisper in Low-Resource Domains](wang26o_interspeech.md) — shared technique · relatedness 2.3/3
+- [Dual-Encoder Fusion with Explicit and Implicit Injection for the Interspeech 2026 Audio Encoder Capability Challenge](zhang26d_interspeech.md) — same problem · relatedness 2.0/3
+- [USAD 2.0: Scaling Representation Distillation for Universal Audio Understanding](chang26c_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

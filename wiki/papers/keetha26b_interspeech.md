@@ -73,4 +73,10 @@ Meeami Technologies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ReDimNet2: Scaling Speaker Verification via Time-Pooled Dimension Reshaping](yakovlev26_interspeech.md) — shared technique · relatedness 2.9/3
+- [Continuous 2D Spectral—Temporal Transformer for Speaker Verification](ham26_interspeech.md) — same problem · relatedness 2.7/3
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — same problem · relatedness 2.5/3
+- [Progressive Learning for Robust Speaker Representation](keetha26_interspeech.md) — same problem · relatedness 2.3/3
+- [Adapting Audio Large Language Models for Speaker Verification](ren26c_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

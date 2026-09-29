@@ -73,4 +73,10 @@ Indian Institute of Technology Hyderabad
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Beyond Deep Learning: Speech Segmentation and Phone Classification with Neural Assemblies](adelson26_interspeech.md) — same problem · relatedness 2.3/3
+- [Transitional Objective Learning with Connectionist Temporal Classification in Phoneme Recognition](krysinska26_interspeech.md) — same problem · relatedness 2.1/3
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — same problem · relatedness 2.0/3
+- [Acoustic Landmark Detector based on Conformer and HuBERT](camara26c_interspeech.md) — shared technique · relatedness 2.0/3
+- [Phonetic Error Analysis of Raw Waveform Acoustic Models](loweimi26b_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ National Taiwan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Robustness Assessment of Large Audio Language Models in Multiple-choice Evaluation](lopez26_interspeech.md) — same problem · relatedness 2.7/3
+- [CoRE: Contrastive Evidence-Aware Rescoring for Multiple-Choice Audio Question Answering](zhang26f_interspeech.md) — same problem · relatedness 2.2/3
+- [ParaPairAudioBench: Paralinguistic Pairwise Audio Benchmark for LALM-as-a-Judge](jeon26d_interspeech.md) — same problem · relatedness 2.2/3
+- [A Closer Look at Failure Modes in Temporal Understanding of Large Audio-Language Models](kulkarni26_interspeech.md) — same problem · relatedness 2.2/3
+- [MUGEN: Evaluating and Improving Multi-audio Understanding of Large Audio-Language Models](yang26c_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

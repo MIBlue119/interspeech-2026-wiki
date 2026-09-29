@@ -78,4 +78,10 @@ McGill University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Vocal Tract Disparity and Potential Implications for Speaker Recognition](danner26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Corpus-Based Study of Creaky Voice Production in English and Mandarin](li26ja_interspeech.md) — same problem · relatedness 1.8/3
+- [Tongue-Shape Strategies for Standard Mandarin Retroflex Sibilants: A Preliminary Ultrasound and Unsupervised Clustering Study](jing26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Towards Language-Agnostic Speech Inversion](tabatabaee26_interspeech.md) — complementary · relatedness 1.8/3
+- [Speaker or Language? Explaining Variance in Charismatic Prosody Across Luxembourgish and French](hosseinikivanani26_interspeech.md) — relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

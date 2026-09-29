@@ -76,4 +76,10 @@ Thapar Institute of Engineering and Technology, Ulster University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [T-ORR: Text-Anchored Orthogonal Residual Rectification for Robust Multimodal Sarcasm Detection](chen26w_interspeech.md) — same problem · relatedness 2.7/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — shared technique · relatedness 2.1/3
+- [What Makes Synthetic Speech Sound Sarcastic? A Prosody-Controlled Perception Study](li26x_interspeech.md) — same problem · relatedness 2.0/3
+- [ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling](zhang26ca_interspeech.md) — same problem · relatedness 1.9/3
+- [AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning](zhang26ea_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ NVIDIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation](xie26b_interspeech.md) — same problem · relatedness 2.9/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — same problem · relatedness 2.7/3
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](lee26j_interspeech.md) — same problem · relatedness 2.7/3
+- [CTC-TTS: LLM-Based Dual-Streaming Text-to-Speech with CTC Alignment](liu26e_interspeech.md) — same problem · relatedness 2.7/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Indian Institute of Technology Jodhpur
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Text-to-Audio Instruction Following via Fine-Grained Feedback from Audio-Aware Large Language Models](kuan26_interspeech.md) — same problem · relatedness 2.1/3
+- [AURA Score: A Metric for Holistic Audio Question Answering Evaluation](dixit26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [TAD: Token-Adaptive Contrastive Decoding with Confidence-Guided Gating for Hallucination Mitigation in Large Audio-Language Models](chang26_interspeech.md) — complementary · relatedness 2.0/3
+- [All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation](foo26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

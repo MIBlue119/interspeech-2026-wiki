@@ -76,4 +76,10 @@ Reichman University, Cisco Systems, Tel Aviv University, Carnegie Mellon Univers
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Uncovering the Impact of G2P Precision on Korean TTS: A Large-Scale Statistical Validation via a Novel Morphological Engine](you26_interspeech.md) — same problem · relatedness 2.1/3
+- [Benchmarking Large Language Models for Grapheme-to-Phoneme Conversion: A Japanese Case Study](koriyama26_interspeech.md) — same problem · relatedness 2.1/3
+- [High-Quality Speech Synthesis for Under-Resourced Ethiopian Languages](tamiru26_interspeech.md) — same problem · relatedness 2.0/3
+- [Scalable Neural TTS for Latin-Script Low-Resource Languages of Manipur](pangsatabam26_interspeech.md) — same problem · relatedness 2.0/3
+- [Indigenising Speech Technology: Building a TTS Model for te Reo Māori](leoni26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ University of Texas at Austin, Amazon
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.9/3
+- [CraftTTS: Fine-Grained Prosody Control for Text-to-Speech](yang26l_interspeech.md) — same problem · relatedness 2.9/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — same problem · relatedness 2.6/3
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — same problem · relatedness 2.6/3
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

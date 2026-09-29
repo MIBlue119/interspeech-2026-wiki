@@ -79,4 +79,10 @@ Doshisha University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DysfluentNet: Joint Stuttering Event Detection and Dysfluency-Aware Transcription via Hierarchical Self-Supervised Learning](muthu26_interspeech.md) — same problem · relatedness 2.4/3
+- [Stuttering Classification and Segmentation with Attention-Based Multiple Instance Learning](susac26_interspeech.md) — same problem · relatedness 2.2/3
+- [Paediatric-HGNN: A Hybrid Heterogeneous Graph Neural Network for Detecting Disfluency in Children’s Speech via Multiscale Acoustic Fusion](liyanarachchi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Adapting Self-Supervised Speech Representations for Cross-Lingual Dysarthria Detection in Parkinson's Disease](hernandez26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Transcription Policy as a Latent Variable: Activating Controllable Verbatim ASR with Word-Level Timing](wagner26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

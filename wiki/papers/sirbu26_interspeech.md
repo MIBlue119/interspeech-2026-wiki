@@ -78,4 +78,10 @@ University of Bucharest, Romanian Academy
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Efficient Simultaneous Inverse Text Normalization with Pretrained Text-to-Text Language Model and Read-Tag-Write Policy](hoang26_interspeech.md) — same problem · relatedness 2.3/3
+- [IPA-Guided Dual Transcription for Data-Centric Speech Corpus Refinement](choi26f_interspeech.md) — same problem · relatedness 2.1/3
+- [Preference-ASR: A Preference-Aware Test Set for Benchmarking ASR in the Era of Speech LLMs](koluguri26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [Benchmarking Large Language Models for Grapheme-to-Phoneme Conversion: A Japanese Case Study](koriyama26_interspeech.md) — shared technique · relatedness 1.7/3
+- [Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation](srivastav26_interspeech.md) — shared data / evaluation · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

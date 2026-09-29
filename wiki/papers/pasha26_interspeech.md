@@ -76,4 +76,10 @@ University of Western Australia, University of Southampton, University of Wollon
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Dual-Geometry Manifolds for Few-shot RIR Prediction](bhosale26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Explicit Context-Driven Neural Acoustic Modeling for High-Fidelity RIR Generation](si26_interspeech.md) — same problem · relatedness 2.6/3
+- [Blind Room Impulse Response Identification via Reverberant Speech Spectrum Reconstruction](wang26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Echoes after Edits: Room Impulse Response Estimation for Geometry Update](bhosale26_interspeech.md) — same problem · relatedness 2.5/3
+- [Room Impulse Response Completion Using Signal-Prediction Diffusion Models Conditioned on Simulated Early Reflections](xu26p_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

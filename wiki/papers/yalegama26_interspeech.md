@@ -77,4 +77,10 @@ University of Moratuwa, Australian National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Spatial-Magnifier: Spatial upsampling for multichannel speech enhancement](lee26k_interspeech.md) — same problem · relatedness 2.1/3
+- [Fast Multichannel Nonnegative Matrix Factorization with Directivity Regularization for DOA-Informed Speech Separation](ono26_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards Array-Invariant Speech Enhancement via Geometry-Aware Dynamic Convolution](liu26d_interspeech.md) — same problem · relatedness 2.0/3
+- [MCA-DCF-DS: An Adaptive Framework for Unified Diarization and Separation with Spatial Information](niu26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Neural Directional Coding: Joint Spatial Coding and Filtering with Configurable Directivity Patterns](huang26o_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -75,4 +75,10 @@ Modality.AI, Verge Genomics, 2b Analytics, University of California, San Francis
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech-based Digital Biomarkers can Accelerate ALS Clinical Trials: Insights from Time-to-Event and Hazard Rate Analysis](kothare26_interspeech.md) — same problem · relatedness 2.3/3
+- [Multi-Phonation Graph Learning with Self-Supervised Speech Embeddings for ALS Detection and Progression Prediction](taghibeyglou26_interspeech.md) — same problem · relatedness 2.1/3
+- [Towards Speech Impairment Prediction in German-Speaking Individuals with Amyotrophic Lateral Sclerosis](gonzalezmachorro26_interspeech.md) — same problem · relatedness 2.1/3
+- [A multilingual composite speech index to assess passage reading in Huntington’s disease](constantin26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Toward an Articulatory Weakness Index for Speech Kinematics in Parkinson’s Disease](baligar26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

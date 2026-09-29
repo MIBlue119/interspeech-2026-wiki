@@ -78,4 +78,10 @@ BOE Technology Group
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AdaTS: Adaptive Token Sampling for Efficient Speech Language Models](sannigrahi26_interspeech.md) — same problem · relatedness 2.8/3
+- [Leveraging Temporal Redundancy via Layer-wise Key-Value Pooling Attention for Efficient ASR](wu26k_interspeech.md) — same problem · relatedness 2.0/3
+- [LLM-as-Joiner: Decoupling Alignment from Language Modeling in Label-synchronous ASR](lee26u_interspeech.md) — same problem · relatedness 2.0/3
+- [Entity Binding Failures in Speech LLM Reasoning: Diagnosis and Chain-of-Thought Intervention](hsu26_interspeech.md) — same problem · relatedness 2.0/3
+- [MTC-AVSR: Compressed-Token-based Audio-Visual Speech Recognition and Translation with Contrastive Language Alignment](a26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

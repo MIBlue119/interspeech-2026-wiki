@@ -78,4 +78,6 @@ University of Oxford
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The (non-)universality of prominence and Intonation Phrases: German and Hungarian listeners'' perception of an unfamiliar language](jabeen26_interspeech.md) — relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

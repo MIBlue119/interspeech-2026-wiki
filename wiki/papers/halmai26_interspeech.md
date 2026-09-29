@@ -78,4 +78,10 @@ University of Szeged, HUN-REN
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learning Emotion-discriminative Representations for Zero-Shot Cross-Lingual Speech Emotion Recognition](mi26_interspeech.md) — same problem · relatedness 2.6/3
+- [KuralHub: Exposing Typological Capability Frontiers in Multilingual Speech Emotion Recognition](thavarasa26_interspeech.md) — same problem · relatedness 2.5/3
+- [TIMBRE: Layer-Wise Cross-Lingual Speech Emotion Recognition Across 49 Layers and 26 Corpora](marchenko26_interspeech.md) — same problem · relatedness 2.4/3
+- [Universality of Speech Emotion Recognition in Humans and Speech Language Models](tatsumi26_interspeech.md) — same problem · relatedness 2.2/3
+- [Diffusion Bridge Learning Between Overfitted and Underfitted Representations for speech emotion recognition](lee26w_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

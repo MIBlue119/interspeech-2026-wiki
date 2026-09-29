@@ -77,4 +77,10 @@ Australian National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Achieving voicelessness in coda stop contexts: Insights from combined electroglottography and laryngoscopy](penney26_interspeech.md) — same problem · relatedness 2.0/3
+- [wav2VOT: automatic estimation of voice onset time, closure duration, and burst realisation with wav2vec2](tanner26_interspeech.md) — complementary · relatedness 1.9/3
+- [Oral stop realisation in three French Polynesian languages](fletcher26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Pronunciation and Intonation Structured Markup (PRISM): A Dataset for Australian English Pronunciation Feedback](maxwell26_interspeech.md) — complementary · relatedness 1.7/3
+- [The role of phonation type in Chinese Jin tones: a study using acoustic metrics](du26b_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

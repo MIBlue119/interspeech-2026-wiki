@@ -78,4 +78,10 @@ Beijing Fosafer Information Technology Co., Ltd, University of Electronic Scienc
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Cross-Lingual Speaker Verification with Self-Supervised Pre-Trained Models](peng26f_interspeech.md) — same problem · relatedness 3.0/3
+- [LaS-LCA: Layer-Selected Latent Cross-Attention Adapters and Margin-Mixup for Robust Cross-Lingual Speaker Verification](shen26b_interspeech.md) — same problem · relatedness 3.0/3
+- [Language-Invariant Multilingual Speaker Verification for the TidyVoice 2026 Challenge](li26fa_interspeech.md) — same problem · relatedness 3.0/3
+- [Dual-LoRA: Parameter-Efficient Adversarial Disentanglement for Cross-Lingual Speaker Verification](shangguan26_interspeech.md) — same problem · relatedness 3.0/3
+- [Effectiveness of Language Variability Compensation in Speaker Verification](mosner26_interspeech.md) — same problem · relatedness 2.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

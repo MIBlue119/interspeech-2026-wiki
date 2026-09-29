@@ -77,4 +77,10 @@ Idiap Research Institute, University of Zurich, Ohio State University, Universit
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Mind the Gap: Impact of Synthetic Conversational Data on Multi-Talker ASR and Speaker Diarization](polok26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Benchmarking Speech Systems for Frontline Health Conversations: The DISPLACE-M Challenge](e26_interspeech.md) — same problem · relatedness 2.0/3
+- [Hallucination Benchmark for Speech Foundation Models](koudounas26b_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [TriageSim: A Conversational Emergency Triage Simulation Framework from Structured Electronic Health Records](srirag26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Low-Resource Medical ASR for Rich Transcription in Latvian](znotins26_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

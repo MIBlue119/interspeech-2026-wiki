@@ -79,4 +79,10 @@ South China University of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Few-shot Class-variable Incremental Audio Classification via Prototype Adaptation and Pseudo Class-variable Training](li26q_interspeech.md) — same problem · relatedness 2.2/3
+- [Scaling few-shot spoken word classification with generative meta-continual learning](beyers26_interspeech.md) — same problem · relatedness 2.0/3
+- [Audio-Language Prompt Learning for Few-Shot Audio Classification](xu26l_interspeech.md) — same problem · relatedness 2.0/3
+- [Hybrid Continual Learning for Low-Resource Australian Aboriginal Language Identification](mylvaganam26_interspeech.md) — same problem · relatedness 2.0/3
+- [Robust Language Identification Using Semi-positive Contrastive Learning](sharma26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Nanyang Technological University, Northwestern Polytechnical University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Active Noise Control With a Gain Constraint for Micro-Loudspeakers](cheng26b_interspeech.md) — same problem · relatedness 2.3/3
+- [A Causal Reference-Enhanced Keep-Speech Active Noise Control Method](rao26_interspeech.md) — same problem · relatedness 2.1/3
+- [Active Constructive Interference for Speech](yaish26_interspeech.md) — same problem · relatedness 2.0/3
+- [Ego-Noise-Aware Spatial Filtering for Reliable UAV Audition in Extreme Low-SNR Conditions](jeon26b_interspeech.md) — same problem · relatedness 1.9/3
+- [WaveNorm: Real-Time Neural AGC for Noise-Robust Speech Enhancement on Resource-Constrained Edge Devices](ijjada26b_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

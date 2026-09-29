@@ -70,4 +70,7 @@ Saarland University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Non-linear Effects of Semantic Relevance on Word Duration in Spontaneous Speech](sun26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Speaker-Specific and Language-Dependent Temporal Organization in Bilingual Political Speech](hosseinikivanani26b_interspeech.md) — shared technique · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

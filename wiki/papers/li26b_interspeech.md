@@ -74,4 +74,10 @@ Huawei
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SELFIX: An Interactive System for Natural Self-Voice Approximation](orepic26_interspeech.md) — same problem · relatedness 1.9/3
+- [Real-Time Speech Enhancement on Edge Devices Guided by Harmonic and Voice-Activity Cues Utilizing Skin-Attachable Accelerometer](song26g_interspeech.md) — complementary · relatedness 1.8/3
+- [Don''t Listen to Me: A Lightweight, Low-Latency Model for Own-Voice Cancellation in Far-Field Speech Enhancement](stergaard26_interspeech.md) — complementary · relatedness 1.8/3
+- [Improving Multichannel Speech Enhancement through Accurate Room-Acoustic Simulations](gotz26_interspeech.md) — same problem · relatedness 1.7/3
+- [Cross-Modal Consistency-Aware Structured Pruning for Efficient Speech Enhancement with Air- and Bone-Conduction Microphones](kim26n_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -73,4 +73,10 @@ Mohamed bin Zayed University of Artificial Intelligence
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Acoustic Prompting via Stage-wise Modulation for Few-Shot Learning in Audio Language Models](cho26_interspeech.md) — same problem · relatedness 2.4/3
+- [Audio-Language Prompt Learning for Few-Shot Audio Classification](xu26l_interspeech.md) — shared technique · relatedness 2.3/3
+- [Structured Prompting vs. Self-Training for Audio Reasoning Under Limited Data and Compute: Lessons from Interspeech Audio Reasoning Challenge 2026](noronha26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Semantic-Anchor-based Method for Open-Vocabulary Sound Event Detection](liu26f_interspeech.md) — same problem · relatedness 1.9/3
+- [Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment](ilerisoy26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

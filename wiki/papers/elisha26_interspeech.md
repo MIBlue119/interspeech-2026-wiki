@@ -78,4 +78,10 @@ Spotify, Queen Mary University of London
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — complementary · relatedness 1.8/3
+- [audiobook-cc: Controllable Long-context Speech Generation for Multicast Audiobook](liu26p_interspeech.md) — complementary · relatedness 1.7/3
+- [Decoding the Ear (DeEAR): A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](lin26l_interspeech.md) — complementary · relatedness 1.7/3
+- [Collecting Prosody in the Wild: A Content-Controlled, Privacy-First Smartphone Protocol and Empirical Evaluation](koch26_interspeech.md) — complementary · relatedness 1.6/3
+- [Looking for Affect in Spontaneous Finnish Speech through Linguistic Interpretability](lahtinen26_interspeech.md) — relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

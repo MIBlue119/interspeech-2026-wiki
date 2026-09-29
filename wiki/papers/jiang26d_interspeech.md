@@ -79,4 +79,10 @@ Tsinghua University, Alibaba Group, Monash University, Renmin University of Chin
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Edit the Moment, Keep the Rest: Time-Localized Audio Editing via Instruction](jung26c_interspeech.md) — same problem · relatedness 3.0/3
+- [Bagpiper-Edit: Zero-Shot Open-Ended Audio Editing via Rich-Caption](gong26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow](zhang26z_interspeech.md) — shared technique · relatedness 1.9/3
+- [AV-FlowSep: Audio-Visual Target Speaker Separation via Flow Matching](tipaksorn26_interspeech.md) — shared technique · relatedness 1.9/3
+- [SRF-SVB: Style-Consistent Singing Voice Beautifying via Rectified Flow](li26h_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

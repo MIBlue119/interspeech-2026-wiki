@@ -82,4 +82,10 @@ INESC-ID, Universidade de Lisboa
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Merging the Knowledge of LLMs for Automatic Speech Recognition](futami26_interspeech.md) — shared technique · relatedness 2.3/3
+- [Probing LoRA-to-LoRA Cross-Lingual Transfer for Unseen Low-Resource Conditions in Whisper-Based ASR](mondal26_interspeech.md) — same problem · relatedness 2.1/3
+- [BELLA: Efficient Bilevel Learning with LoRA for Multilingual ASR](saif26_interspeech.md) — same problem · relatedness 2.1/3
+- [Upcycling Pretrained Transformers into Mixture-of-Experts for Multilingual Speech Recognition](shinayama26_interspeech.md) — same problem · relatedness 2.1/3
+- [Ecologically-Constrained Task Arithmetic for Multi-Taxa Bioacoustic Classifiers Without Shared Data](nihal26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

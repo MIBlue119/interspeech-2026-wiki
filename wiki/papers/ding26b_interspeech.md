@@ -81,4 +81,10 @@ University of Missouri-Kansas City, University of Hawaii at Manoa, University of
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Latent-Mark: An Audio Watermark Robust to Neural Codec Compression](chen26u_interspeech.md) — same problem · relatedness 2.4/3
+- [VoxWatermark: A Large-Scale Benchmark for Audio Watermark Detection under Perturbations](sedaghati26_interspeech.md) — same problem · relatedness 2.3/3
+- [Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes](shao26_interspeech.md) — same problem · relatedness 2.3/3
+- [FreqGuard: Leveraging Frequency-Domain Feature Priors for Universal Proactive Voice Defense](wang26ca_interspeech.md) — same problem · relatedness 2.1/3
+- [AudioNoisePrints: Model-free audio watermarking using spatial correlation in flow matching TTS](tse26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ Chinese University of Hong Kong, Shenzhen, Honor Device Co., Ltd, Shenzhen Resea
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WhisperVC: Decoupled Cross-Domain Alignment and Speech Generation for Low-Resource Whisper-to-Normal Conversion](liu26o_interspeech.md) — same problem · relatedness 2.9/3
+- [From A to B to A: Palindromic Zero-Shot Voice Conversion with Non-Parallel Data](mandel26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Whisper-Aware LLM: Self-Supervised Uncertainty Learning for Robust Whispered Speech Recognition](xu26g_interspeech.md) — same problem · relatedness 2.0/3
+- [TASU2: Controllable CTC Simulation for Alignment and Low-Resource Adaptation of Speech LLMs](peng26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [One-to-Many Electrolaryngeal Voice Conversion with Synthetic Data](wu26l_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

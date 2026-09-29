@@ -79,4 +79,10 @@ University of Auckland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TDScore: Learning Synthetic Speech Quality Predictors from TTS Training Dynamics without Human annotation](miniconi26_interspeech.md) — same problem · relatedness 2.2/3
+- [Not Flat, But Dissociated: Prosodic and Segmental Divergence in Neural TTS](wang26ea_interspeech.md) — same problem · relatedness 2.1/3
+- [CodecMOS-Accent: A MOS Benchmark of Resynthesized and TTS Speech from Neural Codecs Across English Accents](huang26f_interspeech.md) — same problem · relatedness 2.1/3
+- [PASQA: Pitch-Accent-Focused Speech Quality Assessment Model Trained on Synthetic Speech with Accent Errors](kawamura26_interspeech.md) — same problem · relatedness 2.1/3
+- [Towards a Phonology-Informed Evaluation of Multilingual TTS](raybarman26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

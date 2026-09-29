@@ -71,4 +71,10 @@ Hong Kong Polytechnic University, University of York
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Common Cold Corpus: Health-Aware Robustness Study of Modern Speaker Embeddings Under Physiological Domain Shift](hacker26_interspeech.md) — same problem · relatedness 1.9/3
+- [On the Robustness of Speaker Embeddings for Cross-Domain Speaker Retrieval](huang26m_interspeech.md) — same problem · relatedness 1.9/3
+- [What Do Deepfake Speech Detectors Actually Hear?](stanek26_interspeech.md) — relatedness 1.9/3
+- [Text-Independent Speaker Verification Using Discrete Audio Tokens](liang26c_interspeech.md) — same problem · relatedness 1.8/3
+- [NoiseLoRA-SV: Hierarchical Noise-Conditioned Adaptation with Embedding Distillation for Robust Speaker Verification](gao26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

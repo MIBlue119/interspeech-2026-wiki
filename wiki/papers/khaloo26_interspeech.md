@@ -73,4 +73,10 @@ University of California, San Diego, University of California, Berkeley
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sexualised Synthetic Personas Encode and Amplify Gendered Power Asymmetries through Voice](ross26b_interspeech.md) — same problem · relatedness 1.8/3
+- [RIVET: Robust Idempotent Voice Attribute Editing](alharthi26_interspeech.md) — same problem · relatedness 1.8/3
+- [Hidden Priors in Speech LLMs: Speaker Identity Shapes Emotional Perception](chou26_interspeech.md) — same problem · relatedness 1.8/3
+- [No-Shot Text-to-Speech: Limitations of Zero-Shot TTS and its Evaluation Methods in Representing Queer and Transgender Voices](francis26_interspeech.md) — same problem · relatedness 1.8/3
+- [From Game-Based Annotation to Representation Probing: Cross-Validated Prosodic Speech and Privacy Implications](sepanta26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

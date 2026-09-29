@@ -79,4 +79,10 @@ National Tsing Hua University, Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WhisperVC: Decoupled Cross-Domain Alignment and Speech Generation for Low-Resource Whisper-to-Normal Conversion](liu26o_interspeech.md) — same problem · relatedness 2.2/3
+- [Transcript-Free Flow-Matching Text-to-Speech via Speech Feature Conditioning](eom26_interspeech.md) — same problem · relatedness 2.2/3
+- [BetterSpeak: An Atypical Speech to Typical Speech Platform for Dysarthric Speakers](shahamiri26_interspeech.md) — same problem · relatedness 2.0/3
+- [WER Are We (Really): How Well Do Top Open ASR Leaderboard Models Generalize to Nonstandard Speech?](dhaka26_interspeech.md) — same problem · relatedness 2.0/3
+- [Phy-VC: Physics-Informed Voice Conversion for Privacy-Preserving Pathological Speech](ghosh26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

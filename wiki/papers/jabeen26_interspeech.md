@@ -76,4 +76,10 @@ Bielefeld University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speaker or Language? Explaining Variance in Charismatic Prosody Across Luxembourgish and French](hosseinikivanani26_interspeech.md) — same problem · relatedness 1.9/3
+- [Do Speech Emphasis Models Generalize across Languages and Emotions?](wei26e_interspeech.md) — same problem · relatedness 1.9/3
+- [Prosodic Realization of Focus in Yi-Mandarin Bilingual Speakers: On-Focus Expansion without Post-Focus Compression](zhang26g_interspeech.md) — same problem · relatedness 1.8/3
+- [Speaker-Specific and Language-Dependent Temporal Organization in Bilingual Political Speech](hosseinikivanani26b_interspeech.md) — relatedness 1.8/3
+- [The Sound of Code-Switching: Prosodic Profiles of Spontaneous Spanish-English Speech](bhattacharya26_interspeech.md) — relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ Southwest University, Chongqing Academy of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Novel Sentence Stress Detection Framework Leveraging Auxiliary Word-Stress Modeling and Loss Optimization](lo26_interspeech.md) — same problem · relatedness 3.0/3
+- [WhiSSDapt: Adaptive Fusion of Whisper Layer Embeddings for Sentence Stress Detection](murugaiyan26_interspeech.md) — same problem · relatedness 3.0/3
+- [Boundaryless Speech-to-Syllable Representations with Hierarchical CNN for Linguistically Inspired Automatic Stress Detection](mokshagundam26_interspeech.md) — same problem · relatedness 2.3/3
+- [Do Speech Emphasis Models Generalize across Languages and Emotions?](wei26e_interspeech.md) — same problem · relatedness 2.2/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

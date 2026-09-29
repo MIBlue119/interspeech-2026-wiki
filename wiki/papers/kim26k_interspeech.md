@@ -80,4 +80,10 @@ MODULABS, Wonkwang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Lung-SRAD: Spectral-Aware Regularized Audio DASS with Dual-Axis Patch-Mix Contrastive Learning for Respiratory Sound Classification](shridhar26_interspeech.md) — same problem · relatedness 2.9/3
+- [Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment](ilerisoy26_interspeech.md) — same problem · relatedness 2.1/3
+- [Lung-CL: Spectrum-aware Distillation and Generative Replay for Continual Learning based buffer-free Respiratory Sound Classification](lai26_interspeech.md) — same problem · relatedness 2.0/3
+- [From Signals to Patterns: Non-Invasive Tuberculosis Detection from Cough Audio using Bandit Weighted Hyperbolic Prototypes](akhtar26_interspeech.md) — same problem · relatedness 2.0/3
+- [SpiroPhonia: Non-Invasive Respiratory Health Assessment from Spontaneous Speech](khanom26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

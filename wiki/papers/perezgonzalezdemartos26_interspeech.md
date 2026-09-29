@@ -75,4 +75,10 @@ AppTek
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [LipAdapter: Text-to-Video Alignment is All You Need for Lip-to-Speech](ghosh26b_interspeech.md) — same problem · relatedness 2.6/3
+- [From Tokens to Faces: Investigating Discrete Speech Representations for 3D Facial Animation](correa26_interspeech.md) — same problem · relatedness 2.0/3
+- [MAC-VAD: A Modality-Aligned Cross-Attentive Framework for Robust Voice Activity Detection](mallik26_interspeech.md) — complementary · relatedness 2.0/3
+- [A Gated Multi-Task Whisper Framework for Speech, Emotion, and Scene Understanding](bhat26_interspeech.md) — shared technique · relatedness 1.9/3
+- [VAD to the Bone: Ultra-Tiny Speech Activity Detection for Edge Deployment](bauer26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

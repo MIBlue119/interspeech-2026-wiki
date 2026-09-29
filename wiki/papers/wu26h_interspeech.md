@@ -79,4 +79,10 @@ Tsinghua University, Tencent
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Listening Like a Judge: A Music-Aware Framework for Automatic Singing Performance Evaluation](saini26_interspeech.md) — same problem · relatedness 2.5/3
+- [DiffRhythm 2: Efficient and High Fidelity Song Generation via Block Flow Matching](jiang26_interspeech.md) — complementary · relatedness 2.1/3
+- [Interpretable Audio Editing Evaluation via Chain-of-Thought Difference-Commonality Reasoning with Multimodal LLMs](jia26b_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [CAQA-Net: Continual Audio Quality Assessment Across Speech and Music Domains](li26d_interspeech.md) — same problem · relatedness 1.9/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

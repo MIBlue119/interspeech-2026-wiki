@@ -76,4 +76,10 @@ Hebrew University of Jerusalem, IBM
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Refining Emphasis Control in Flow-Matching TTS via Preference Alignment and Reinforcement Learning](ye26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Do Speech Emphasis Models Generalize across Languages and Emotions?](wei26e_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Evaluating and Preserving Lexical Stress in English-to-Chinese Speech-to-Speech Translation](song26f_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Dynamic Prosody Prediction in LLM-based TTS for Improving Speaker Similarity](mou26b_interspeech.md) — same problem · relatedness 1.9/3
+- [CraftTTS: Fine-Grained Prosody Control for Text-to-Speech](yang26l_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

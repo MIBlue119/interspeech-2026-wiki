@@ -74,4 +74,10 @@ University of Melbourne, UNSW Sydney
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Unified Gradient Projection: Language-Balanced Continual Learning for Multilingual Low-Resource ASR](ren26g_interspeech.md) — same problem · relatedness 2.4/3
+- [Hybrid Continual Learning for Low-Resource Australian Aboriginal Language Identification](mylvaganam26_interspeech.md) — same problem · relatedness 2.3/3
+- [Probing LoRA-to-LoRA Cross-Lingual Transfer for Unseen Low-Resource Conditions in Whisper-Based ASR](mondal26_interspeech.md) — same problem · relatedness 2.2/3
+- [Confidence-Gated Mean-Teacher Consistency Regularization for Low-Resource Multilingual ASR with Shared–Private Fusion-LoRA](liu26h_interspeech.md) — same problem · relatedness 2.1/3
+- [Beyond Standard Greek: Adapting Whisper for Greek Dialects through Curriculum Multitask Learning](klimi26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

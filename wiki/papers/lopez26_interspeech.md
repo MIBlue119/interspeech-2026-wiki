@@ -80,4 +80,10 @@ Telefonica, Universidad Autonoma de Madrid, Brno University of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Hearing the Order: Investigating Position Bias in Large Audio-Language Models](lin26c_interspeech.md) — same problem · relatedness 2.7/3
+- [CoRE: Contrastive Evidence-Aware Rescoring for Multiple-Choice Audio Question Answering](zhang26f_interspeech.md) — same problem · relatedness 2.3/3
+- [All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation](foo26_interspeech.md) — same problem · relatedness 2.2/3
+- [Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models](seth26_interspeech.md) — same problem · relatedness 2.2/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

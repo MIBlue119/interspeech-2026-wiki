@@ -75,4 +75,10 @@ University of Tokyo, University of Texas at Austin
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Perceptual compensation for tonal context in self-supervised speech models](kirby26_interspeech.md) — same problem · relatedness 2.2/3
+- [Multilingual and Cross-lingual Lexical Stress Detection Using SSL Feature Vectors](alhabshi26_interspeech.md) — complementary · relatedness 2.0/3
+- [From Rhythm Metrics to Latent Embeddings: Categorising English and Hindi Varieties in Northeast India](aheibam26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Boundaryless Speech-to-Syllable Representations with Hierarchical CNN for Linguistically Inspired Automatic Stress Detection](mokshagundam26_interspeech.md) — complementary · relatedness 2.0/3
+- [Evaluating and Preserving Lexical Stress in English-to-Chinese Speech-to-Speech Translation](song26f_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ South China Normal University, Columbia University, Sun Yat-sen University, Guan
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DEBATE: A Dataset for Disentangling Textual Ambiguity in Mandarin Through Speech](guo26e_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — complementary · relatedness 1.9/3
+- [Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation](ye26_interspeech.md) — complementary · relatedness 1.8/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [The Interspeech 2026 Challenge on Transfer of Pragmatic Intent in Speech-to-Speech Translation](ward26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

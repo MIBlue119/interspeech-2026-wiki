@@ -80,4 +80,10 @@ Western Sydney University, University of Tsukuba, Seoul National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Acoustic Pharyngometry as an Auditable Anchor for Cross-Speaker EMA Normalization](friedrichs26_interspeech.md) — same problem · relatedness 2.0/3
+- [English Vowel Perceptual Training under Multitalker Babble: A Comparison of Humans and Large Language Models](dong26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Neural Oscillatory Mechanisms of Speaker Normalization Under Cognitive Load: Evidence from Cantonese Tone Perception](zhang26ba_interspeech.md) — same problem · relatedness 1.8/3
+- [Perception of English /iː/–/ɪ/ by Japanese Listeners under Silent-Centre and Devoiced Vowel Conditions](tokuma26_interspeech.md) — same problem · relatedness 1.8/3
+- [Phonetically Grounded Vowel Space Metrics for Evaluating Synthetic Speech During TTS Model Training](udawatta26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

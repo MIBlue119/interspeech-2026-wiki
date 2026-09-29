@@ -80,4 +80,10 @@ Chinese University of Hong Kong, Chinese Academy of Sciences, National Research 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WildElder: A Chinese Elderly Speech Dataset from the Wild with Fine-Grained Manual Annotations](wang26_interspeech.md) — same problem · relatedness 2.0/3
+- [Two-stage semi-supervised learning with pseudo-labels: A case study on Northern Sámi ASR](pal26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Decoding while Adapting: Zero-Shot Online Speaker Adaptation via Audio-Textual Prompts for Elderly Speech Recognition](deng26_interspeech.md) — same problem · relatedness 2.0/3
+- [Data-Efficient ASR Personalization for Non-Normative Speech Using an Uncertainty-Based Phoneme Difficulty Score for Guided Sampling](pokel26_interspeech.md) — same problem · relatedness 2.0/3
+- [Conflict-Aware Pseudo-Labeling via Acoustic Signals for Multi-Task Speech Emotion Recognition](zhou26f_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

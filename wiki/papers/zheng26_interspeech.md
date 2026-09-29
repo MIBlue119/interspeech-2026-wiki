@@ -81,4 +81,10 @@ University of Science and Technology of China, University of Edinburgh
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ZipCodec: Simple and Pretrained-Model-Free Speech Tokenizer via Flow-Matching](ye26d_interspeech.md) — same problem · relatedness 2.9/3
+- [SDP-Codec: A Speaker-Decoupled Speech Codec with Pitch Injection for Low-Bitrate Coding and Zero-Shot Voice Conversion](kim26v_interspeech.md) — same problem · relatedness 2.8/3
+- [AugCodec: A Low-Bitrate Disentangled Neural Speech Codec via Data Augmentation](wang26y_interspeech.md) — same problem · relatedness 2.8/3
+- [A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization](zhang26ga_interspeech.md) — same problem · relatedness 2.8/3
+- [MSR-Codec: A Low-Bitrate Multi-Stream Residual Codec for High-Fidelity Speech Generation with Information Disentanglement](li26c_interspeech.md) — same problem · relatedness 2.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

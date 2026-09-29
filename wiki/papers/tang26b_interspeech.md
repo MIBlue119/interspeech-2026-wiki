@@ -79,4 +79,10 @@ Nagoya University, National Institute of Informatics
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Speech-First Character Interface for Stylized Japanese Dialogue Practice](rackauckas26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Nudging Hidden States: Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models](ieong26_interspeech.md) — shared technique · relatedness 2.0/3
+- [AuDirector: A Self-Reflective Closed-Loop Framework for Immersive Audio Storytelling](ren26d_interspeech.md) — same problem · relatedness 2.0/3
+- [PRISM: Prosody-Integrated Multi-Agent Reasoning Framework for Empathetic Spoken Dialogue](zhang26r_interspeech.md) — same problem · relatedness 2.0/3
+- [Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions](zhang26m_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

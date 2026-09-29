@@ -80,4 +80,10 @@ Seoul National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Mixture Consistency Learning for Robust Speaker Verification in Noisy Environments](kim26c_interspeech.md) — same problem · relatedness 2.5/3
+- [NoiseLoRA-SV: Hierarchical Noise-Conditioned Adaptation with Embedding Distillation for Robust Speaker Verification](gao26_interspeech.md) — same problem · relatedness 2.4/3
+- [Progressive Learning for Robust Speaker Representation](keetha26_interspeech.md) — same problem · relatedness 2.4/3
+- [On the Robustness of Speaker Embeddings for Cross-Domain Speaker Retrieval](huang26m_interspeech.md) — same problem · relatedness 2.3/3
+- [Beyond Short Segments : Expanding Speaker Embeddings with Vector Archives](kang26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ University of Edinburgh
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Scaling Self-Supervised Speech Models Uncovers Deep Linguistic Relationships: Evidence from the Pacific Cluster](kim26w_interspeech.md) — same problem · relatedness 2.7/3
+- [Probing the Layer-wise Geometry of Chinese Dialect Representations in Wav2Vec 2.0](peng26c_interspeech.md) — shared technique · relatedness 2.1/3
+- [Genealogical Priors in Self-Supervised Learning: Improving Speech Technology for Low-Resource Languages](granda26_interspeech.md) — complementary · relatedness 2.0/3
+- [Quantifying Cross-Lingual Transfer in Paralinguistic Speech Tasks](buitrago26_interspeech.md) — shared technique · relatedness 1.9/3
+- [From Rhythm Metrics to Latent Embeddings: Categorising English and Hindi Varieties in Northeast India](aheibam26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Meeami Technologies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WaveNorm: Real-Time Neural AGC for Noise-Robust Speech Enhancement on Resource-Constrained Edge Devices](ijjada26b_interspeech.md) — shared technique · relatedness 3.0/3
+- [SE-AGCNet: An End-to-End Framework for Joint Speech Enhancement and Loudness Control in Meeting Scenarios](zhang26n_interspeech.md) — same problem · relatedness 2.5/3
+- [RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation](chao26_interspeech.md) — same problem · relatedness 2.2/3
+- [RT-Tango: Real-Time Distributed Binaural Speech Enhancement for Low-Power Hearing Aid Devices](benslimane26_interspeech.md) — same problem · relatedness 2.0/3
+- [Latency-Configurable Streaming Speech Enhancement via Asymmetric Temporal Padding](kim26g_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

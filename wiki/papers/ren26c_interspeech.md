@@ -80,4 +80,10 @@ Shanghai Artificial Intelligence Laboratory, Nanjing University, Tsinghua Univer
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — same problem · relatedness 2.9/3
+- [Continuous 2D Spectral—Temporal Transformer for Speaker Verification](ham26_interspeech.md) — same problem · relatedness 2.7/3
+- [Learning task-specific subspaces via interventional post-training of speech foundation models](cox26_interspeech.md) — same problem · relatedness 2.6/3
+- [Learning Multiple Utterance-Level Attribute Representations with a Unified Speech Encoder](bouziane26_interspeech.md) — same problem · relatedness 2.6/3
+- [Text-Independent Speaker Verification Using Discrete Audio Tokens](liang26c_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

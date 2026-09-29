@@ -79,4 +79,10 @@ Electronics and Telecommunications Research Institute
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sub-Model Short-Term Memory Convolutions for Keyword Spotting Systems on Device](warlewski26_interspeech.md) — same problem · relatedness 1.8/3
+- [Mitigating Causality Mismatch with Causal Temporal Relation Distillation for Streaming Keyword Spotting](zhang26ia_interspeech.md) — same problem · relatedness 1.8/3
+- [KFC-KWS: Keyframe Fusion with CTC for User-Defined Keyword Spotting](li26y_interspeech.md) — same problem · relatedness 1.8/3
+- [Margin-Aware Contrastive Regularization for Robust Streaming Keyword Spotting under Strict False-Alarm Constraints](zhang26ha_interspeech.md) — same problem · relatedness 1.8/3
+- [MPA-KWS: Multi-Modal Phoneme-Level Alignment for Streaming Open-Vocabulary Keyword Spotting](zhang26fa_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

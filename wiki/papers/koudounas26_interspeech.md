@@ -77,4 +77,10 @@ Sony Group Corporation, Kore University of Enna, Universita degli Studi di Paler
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Cognitive-Heuristic Guided Multimodal Data Augmentation for Alzheimer’s Disease Detection Using LLM and TTS](jiang26e_interspeech.md) — same problem · relatedness 2.6/3
+- [HASS: Hierarchical Simulation of Logopenic Aphasic Speech for Scalable PPA Detection](li26ia_interspeech.md) — same problem · relatedness 2.4/3
+- [CoSTA: Cognitive-State-Conditioned TTS Data Augmentation Using ASR Transcripts for Alzheimer’s Disease Detection](liu26_interspeech.md) — shared technique · relatedness 2.4/3
+- [Transcript-Free Flow-Matching Text-to-Speech via Speech Feature Conditioning](eom26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning](polle26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

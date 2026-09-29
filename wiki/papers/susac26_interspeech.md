@@ -80,4 +80,10 @@ University of Zagreb, Rosenheim Technical University of Applied Sciences
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Paediatric-HGNN: A Hybrid Heterogeneous Graph Neural Network for Detecting Disfluency in Children’s Speech via Multiscale Acoustic Fusion](liyanarachchi26_interspeech.md) — same problem · relatedness 2.5/3
+- [DysfluentNet: Joint Stuttering Event Detection and Dysfluency-Aware Transcription via Hierarchical Self-Supervised Learning](muthu26_interspeech.md) — same problem · relatedness 2.2/3
+- [Evaluating Zero-Shot Cross-Lingual Stuttering Detection Based on Self-Attention Weights of Temporal Acoustic Vector Sequence](miyahara26_interspeech.md) — same problem · relatedness 2.2/3
+- [Label Correction Enhanced Dual-Stream Multiple Instance Learning for Weakly-Supervised Depression Detection in Speech](sun26e_interspeech.md) — shared technique · relatedness 2.0/3
+- [WER Are We (Really): How Well Do Top Open ASR Leaderboard Models Generalize to Nonstandard Speech?](dhaka26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

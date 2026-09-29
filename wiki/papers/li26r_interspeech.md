@@ -81,4 +81,10 @@ National Taiwan University, NTU Artificial Intelligence Center of Research Excel
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining](diwan26_interspeech.md) — complementary · relatedness 2.1/3
+- [Learning Multiple Utterance-Level Attribute Representations with a Unified Speech Encoder](bouziane26_interspeech.md) — complementary · relatedness 2.1/3
+- [MixProLAP: Mixture-Induced Uncertainty Modeling for Probabilistic Language-Audio Pretraining](nakagome26_interspeech.md) — same problem · relatedness 2.0/3
+- [Closing the Modality Gap via Simplex-Constrained Representations](gupta26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

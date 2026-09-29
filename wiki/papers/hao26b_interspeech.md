@@ -80,4 +80,10 @@ University of Groningen
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DASR-CPO: Reference-Free Contrastive Preference Optimization for Correcting Mandarin Semantic Drift in Low-Resource Chinese Dialect ASR](zhang26s_interspeech.md) — same problem · relatedness 2.0/3
+- [IPA-Guided Dual Transcription for Data-Centric Speech Corpus Refinement](choi26f_interspeech.md) — shared technique · relatedness 1.9/3
+- [Error Diversity and Performance Variability in Zero-Shot Children's Speech Recognition](sinha26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Audio-KWS-Gated Error Memory Retrieval for Incremental ASR Post-Correction](ashikawa26_interspeech.md) — same problem · relatedness 1.9/3
+- [TASU2: Controllable CTC Simulation for Alignment and Low-Resource Adaptation of Speech LLMs](peng26b_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

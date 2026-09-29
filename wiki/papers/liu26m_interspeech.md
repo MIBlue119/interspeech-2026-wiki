@@ -78,4 +78,10 @@ University of Auckland, Indian Institute of Technology Jammu
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Audio-Visual Feature Reconstruction Pretraining for Noise-Robust Emotion Recognition](parmonangan26_interspeech.md) — same problem · relatedness 2.4/3
+- [The Illusion of Balanced Multimodal Sentiment Analysis: Beyond the Limits of Optimization-Based Methods](kaffeza26_interspeech.md) — same problem · relatedness 2.4/3
+- [EmoEUS: Uncertainty Supervision for Multimodal Emotion Recognition in Conversation](huang26n_interspeech.md) — same problem · relatedness 2.3/3
+- [Segment-wise Embedding based Graph Attention Network for Effective Speech Emotion Recognition](song26c_interspeech.md) — same problem · relatedness 2.3/3
+- [Segregate, Refine, Integrate: Decomposing Multimodal Fusion for Sentiment Analysis](filippakopoulos26_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Xinjiang University, Tsinghua University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Streaming T5-based Text-to-Speech Synthesis with Limited Lookahead](du26_interspeech.md) — same problem · relatedness 2.7/3
+- [Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input](liu26i_interspeech.md) — same problem · relatedness 2.7/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — same problem · relatedness 2.6/3
+- [FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation](xie26b_interspeech.md) — same problem · relatedness 2.4/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

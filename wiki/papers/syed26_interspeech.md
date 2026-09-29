@@ -71,4 +71,10 @@ Florida Institute of Technology, Daffodil International University, Deakin Unive
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VāṇīSetu: A Human-AI Collaborative Framework for Scalable Conversational Speech Corpus Creation in Low-Resource Settings](kumar26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Collection and Curation of a Spontaneous Multilingual Speech Corpus for Low-Resource Himalayan Languages](sinha26_interspeech.md) — complementary · relatedness 1.9/3
+- [Genealogical Priors in Self-Supervised Learning: Improving Speech Technology for Low-Resource Languages](granda26_interspeech.md) — complementary · relatedness 1.9/3
+- [Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language](rahman26_interspeech.md) — complementary · relatedness 1.9/3
+- [Indigenising Speech Technology: Building a TTS Model for te Reo Māori](leoni26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

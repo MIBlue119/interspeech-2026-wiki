@@ -76,4 +76,10 @@ Radboud University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales](parikh26_interspeech.md) — same problem · relatedness 2.7/3
+- [LOPA: Enhancing Spoken Language Assessment via Latent Ordinal Prototype Alignment](lin26e_interspeech.md) — same problem · relatedness 2.5/3
+- [A Multi-Agent Framework to Automate Feedback Generation for IELTS Speaking Test using Multimodal SpeechLMs](koh26_interspeech.md) — same problem · relatedness 2.4/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — same problem · relatedness 2.3/3
+- [Calibration-Reasoning Framework for Descriptive Speech Quality Assessment](kostenok26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

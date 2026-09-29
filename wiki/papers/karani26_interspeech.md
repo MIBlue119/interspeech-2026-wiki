@@ -78,4 +78,10 @@ Birla Institute of Technology and Science, Pilani
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Through-Wall Radar Speech Acquisition via Cascaded Attention Fusion](ding26c_interspeech.md) — same problem · relatedness 2.8/3
+- [VeRe-Flow: Guiding Flow Matching toward Clean Speech via Velocity Contrastive Regularization and Representation Alignment for Noise-Robust Bandwidth Expansion](koo26_interspeech.md) — same problem · relatedness 2.5/3
+- [UFL-GAN: A Multi-Discriminator GAN for Unsupervised Speech Enhancement](bejugam26_interspeech.md) — shared technique · relatedness 2.1/3
+- [HFMSE: Harmonic-Guided Speech Enhancement with Flow Matching](li26l_interspeech.md) — same problem · relatedness 2.1/3
+- [QC-GAN: A Parameter-Efficient Quaternion Conformer GAN for High-Fidelity Speech Enhancement](yamauchi26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

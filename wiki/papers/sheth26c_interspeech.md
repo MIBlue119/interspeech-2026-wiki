@@ -70,4 +70,10 @@ CNRS, EHESS, ENS, PSL University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Deriving Benchmarking Datasets from Long-Form Recordings: Challenges and Opportunities](sheth26_interspeech.md) — same problem · relatedness 2.6/3
+- [From Academic Tool to Community Infrastructure: A Call for Indigenous Partnership in Speech Data Governance](sheth26b_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [SpeechBench: A Unified Speech Annotation and Analysis Tool](nan26_interspeech.md) — complementary · relatedness 2.0/3
+- [The TinyExplorer Ecosystem: Open tools for studying infants’ auditory and visual experiences](oliveira26c_interspeech.md) — same problem · relatedness 2.0/3
+- [BabAR: from phoneme recognition to developmental measures of young children''s speech production](lavechin26_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

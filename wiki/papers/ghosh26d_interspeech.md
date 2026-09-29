@@ -76,4 +76,10 @@ Solventum Health Information Systems
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Role-Aware Semi-Supervised Domain Adaptation for Teacher-Student Speaker Diarization](liao26_interspeech.md) — same problem · relatedness 2.2/3
+- [SDR-LLM: Speech-LLM Based End-to-End Speaker Diarization and Recognition with Sentence-Level Temporal Modeling](yu26g_interspeech.md) — same problem · relatedness 2.1/3
+- [Spatially-Augmented Sequence-to-Sequence Neural Diarization for Meetings](li26la_interspeech.md) — same problem · relatedness 2.1/3
+- [Speaker Separation via Audio Language Modeling](lanzendoerfer26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Joint Learning Global-Local Speaker Classification to Enhance End-to-End Speaker Diarization and Recognition](dai26b_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

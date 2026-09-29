@@ -75,4 +75,10 @@ Massachusetts General Hospital, Harvard Medical School
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The Interspeech 2026 NeckVibe Challenge: Voice Disorder Detection via Real-World Monitoring of Neck-Surface Vibration](yousef26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Temporal Partitioning of Vocal Activity for Detecting Vocal Hyperfunction from Neck-Surface Accelerometer Data](azarski26_interspeech.md) — same problem · relatedness 2.0/3
+- [Modeling Lombard Effects in Voice Disorders Using Daily-Life Monitoring of Ambient Noise and Voice Acoustics](yousef26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Hierarchical Feature Engineering Framework for Automated Classification of Phonotraumatic and Non-Phonotraumatic Vocal Hyperfunction](kim26x_interspeech.md) — same problem · relatedness 2.0/3
+- [From Continuous Speech to Subglottal Resonances: Automatic Signal Generation, Estimation, and Tracking Framework](udeogu26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

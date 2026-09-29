@@ -79,4 +79,10 @@ NC AI, Sogang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CFLOW-VC: An unsupervised cycle training strategy based on normalizing flows for Voice Conversion](song26_interspeech.md) — same problem · relatedness 2.1/3
+- [StyleStream: Real-Time Zero-Shot Voice Style Conversion](liu26c_interspeech.md) — same problem · relatedness 2.1/3
+- [From A to B to A: Palindromic Zero-Shot Voice Conversion with Non-Parallel Data](mandel26_interspeech.md) — same problem · relatedness 1.9/3
+- [SSL-GMMVC: Interpretable Voice Conversion via Locally Linear GMM Transforms in Self-Supervised Representation Space](tanabu26_interspeech.md) — same problem · relatedness 1.9/3
+- [NVV-SuperBench: Beyond Words, Beyond Quality—Benchmarking Nonverbal Vocalizations in Speech Generation](xue26c_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

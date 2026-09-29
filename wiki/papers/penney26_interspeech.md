@@ -70,4 +70,10 @@ Macquarie University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An investigation of post-stop breathiness in Australian English](powelldavies26_interspeech.md) — same problem · relatedness 2.0/3
+- [The Role of Laryngeal Position in the Articulation of American English Velar Stop Consonants](kim26b_interspeech.md) — same problem · relatedness 1.9/3
+- [The role of phonation type in Chinese Jin tones: a study using acoustic metrics](du26b_interspeech.md) — relatedness 1.9/3
+- [Acoustic correlates of voice quality settings: variation within and between individual speakers](paver26_interspeech.md) — same problem · relatedness 1.8/3
+- [Beyond Pitch: Multidimensional Cue Reweighting of Two High-Falling Tones in Pingdingshan Mandarin](chen26c_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ University of Tsukuba
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Do Speech Emphasis Models Generalize across Languages and Emotions?](wei26e_interspeech.md) — same problem · relatedness 2.4/3
+- [ProWhistress: An Enhanced Dual-Stream Transcription Architecture for Prosody-Aware Sentence Stress Detection](gu26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Refining Emphasis Control in Flow-Matching TTS via Preference Alignment and Reinforcement Learning](ye26b_interspeech.md) — complementary · relatedness 1.9/3
+- [WhiSSDapt: Adaptive Fusion of Whisper Layer Embeddings for Sentence Stress Detection](murugaiyan26_interspeech.md) — same problem · relatedness 1.9/3
+- [A Novel Sentence Stress Detection Framework Leveraging Auxiliary Word-Stress Modeling and Loss Optimization](lo26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

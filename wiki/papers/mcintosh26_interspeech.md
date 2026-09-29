@@ -68,4 +68,10 @@ University of Tokyo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SpeechBench: A Unified Speech Annotation and Analysis Tool](nan26_interspeech.md) — same problem · relatedness 2.2/3
+- [TSExplorer: An interactive data annotation and exploration tool for time-series data](vaaras26_interspeech.md) — same problem · relatedness 2.1/3
+- [NewAppVoice: Tools for Visualizing and Correcting Acoustic Measures](elmerich26_interspeech.md) — same problem · relatedness 1.9/3
+- [From Rhythm Metrics to Latent Embeddings: Categorising English and Hindi Varieties in Northeast India](aheibam26_interspeech.md) — complementary · relatedness 1.9/3
+- [Prosodic ABX: A Language-Agnostic Method for Measuring Prosodic Contrast in Speech Representations](sun26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

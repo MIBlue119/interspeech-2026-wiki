@@ -79,4 +79,10 @@ Automated child language environment analysis, day-long audio diary mining for d
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Robust Multi-Tier Infant-Centered Audio Understanding with Whisper via Structured Speaker Conditioning](fan26b_interspeech.md) — shared technique · relatedness 2.1/3
+- [Deriving Benchmarking Datasets from Long-Form Recordings: Challenges and Opportunities](sheth26_interspeech.md) — complementary · relatedness 2.0/3
+- [BabyHuBERT: Multilingual Self-Supervised Learning for Segmenting Speakers in Child-Centered Long-Form Recordings](charlot26_interspeech.md) — shared technique · relatedness 2.0/3
+- [BabAR: from phoneme recognition to developmental measures of young children''s speech production](lavechin26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Error Diversity and Performance Variability in Zero-Shot Children's Speech Recognition](sinha26b_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

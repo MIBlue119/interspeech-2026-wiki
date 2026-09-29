@@ -80,4 +80,10 @@ Hangzhou Dianzi University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SPARK: Efficient Audio-Text Matching for User-Defined Keyword Spotting via Spiking Neural Networks](baek26_interspeech.md) — same problem · relatedness 2.9/3
+- [MPA-KWS: Multi-Modal Phoneme-Level Alignment for Streaming Open-Vocabulary Keyword Spotting](zhang26fa_interspeech.md) — same problem · relatedness 2.8/3
+- [Streaming Open-Vocabulary Keyword Spotting via Role Swapping in Cross-Attention](chen26q_interspeech.md) — same problem · relatedness 2.8/3
+- [Personalized Keyword Spotting for User-Defined Keywords Leveraging Text-Independent Speaker Verification](hu26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Massive Open-Vocabulary Keyword Spotting](barreiros26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

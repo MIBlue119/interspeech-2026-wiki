@@ -79,4 +79,10 @@ University of Tehran, Nanyang Technological University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learning to Evade: Adaptive Attacks on Audio Watermarking](ding26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Latent-Mark: An Audio Watermark Robust to Neural Codec Compression](chen26u_interspeech.md) — same problem · relatedness 2.2/3
+- [Countering Neural Audio Codec Distortions in Watermarking with Adaptive Restoration](park26d_interspeech.md) — same problem · relatedness 2.1/3
+- [FakeSound2: A Benchmark for Explainable, Traceable, and Generalizable Deepfake Sound Detection](xie26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [DuraMark: Duration-Embedded Watermarking in LLM-based TTS](mou26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

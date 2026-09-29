@@ -80,4 +80,10 @@ University of California Los Angeles
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [BabAR: from phoneme recognition to developmental measures of young children''s speech production](lavechin26_interspeech.md) — same problem · relatedness 1.8/3
+- [BabyHuBERT: Multilingual Self-Supervised Learning for Segmenting Speakers in Child-Centered Long-Form Recordings](charlot26_interspeech.md) — same problem · relatedness 1.7/3
+- [Robust Multi-Tier Infant-Centered Audio Understanding with Whisper via Structured Speaker Conditioning](fan26b_interspeech.md) — same problem · relatedness 1.7/3
+- [Do speech foundation models really learn words?](huo26_interspeech.md) — same problem · relatedness 1.7/3
+- [How does children's pronunciation develop? Capturing syllabic change with children's growth using unsupervised syllable discovery](horii26_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

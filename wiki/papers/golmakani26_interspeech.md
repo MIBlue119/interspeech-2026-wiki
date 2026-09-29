@@ -78,4 +78,10 @@ Nijta, Universite de Lorraine, CNRS, Inria, LORIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations](ngong26_interspeech.md) — same problem · relatedness 2.9/3
+- [VerAno: Speaker Anonymization via Self-Supervised Tokenization and Conditional Flow Matching](le26_interspeech.md) — same problem · relatedness 2.8/3
+- [Controlled Generation of Synthetic Speaker Vectors for Voice Anonymization](kolos26_interspeech.md) — same problem · relatedness 2.7/3
+- [DAST: A Dual-Stream Voice Anonymization Attacker with Staged Training](arefeen26_interspeech.md) — same problem · relatedness 2.6/3
+- [Imperceptible Voiceprint Protection via Human-Machine Perception Discrepancy Feature Disentanglement](xue26_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

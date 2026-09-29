@@ -77,4 +77,10 @@ Rensselaer Polytechnic Institute, IBM, Cornell Tech
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [PART: Progressive Alignment Representation Training for Multilingual Speech-To-Text with LLMs](zhang26aa_interspeech.md) — same problem · relatedness 2.6/3
+- [MambAdapter: Lightweight Mamba-Based Adapters for Parameter-Efficient Transfer Learning in Speech and Audio](ali26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Token-Independent Language Representations for Low-Latency Configurable Multilingual Speech Recognition](zhu26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Upcycling Pretrained Transformers into Mixture-of-Experts for Multilingual Speech Recognition](shinayama26_interspeech.md) — same problem · relatedness 2.4/3
+- [Confidence-Gated Mean-Teacher Consistency Regularization for Low-Resource Multilingual ASR with Shared–Private Fusion-LoRA](liu26h_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

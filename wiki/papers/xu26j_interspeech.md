@@ -80,4 +80,10 @@ Alibaba Group, Nankai University, Fudan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India](bhogale26_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [Dialect Bias in Speech Recognition Across 10 Spanish and French Varieties](nieto26_interspeech.md) — same problem · relatedness 2.2/3
+- [Spontaneous Dialect-Aware Speech Corpus for Low-Resource Dakhini, A Southern Indo-Aryan Language: Methods, Challenges, and Insights](mondal26b_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Vimarsha: Faithful ASR Evaluation for Indian Languages with Demographic Diversity, In-the-Wild Audio and Spelling Variations](bhogale26b_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Hamsa: A Manually Annotated Emirati Arabic Corpus for Speech and Language Technologies](alyafeai26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

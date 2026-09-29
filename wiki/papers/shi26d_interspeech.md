@@ -79,4 +79,10 @@ College of William & Mary, Emory University, George Mason University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [EmoInstruct-TTS: Dual-Path Instruction-Guided Emotional Speech Synthesis](wu26f_interspeech.md) — same problem · relatedness 2.8/3
+- [ETC-TTS: Emotion Trajectory Learning for Controllable Emotional Text-to-Speech](kim26u_interspeech.md) — same problem · relatedness 2.7/3
+- [Continuous Time-Varying Emotion Control Zero-Shot Text-To-Speech With Emotion Orthogonal LoRA](wan26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Cross-modal Consistency Guidance for Robust Emotion Control in Auto-Regressive TTS Models](peng26g_interspeech.md) — same problem · relatedness 2.7/3
+- [Word-level Emotional Intensity Control in TTS via Emotion Residual Vectors](park26i_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

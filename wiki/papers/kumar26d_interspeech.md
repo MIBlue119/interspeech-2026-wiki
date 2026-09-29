@@ -75,4 +75,10 @@ Samsung Electronics
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [PROGRESS: Coverage-guided RL to Train Search-augmented LLM Agent](paul26_interspeech.md) — same problem · relatedness 3.0/3
+- [A Reranker for Orchestrating Heterogeneous Speech and Text Retrievers](kim26q_interspeech.md) — same problem · relatedness 1.8/3
+- [Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models](he26e_interspeech.md) — shared technique · relatedness 1.7/3
+- [AQA-TTRL: Self-Adaptation in Audio Question Answering with Test-Time Reinforcement Learning](zhang26c_interspeech.md) — shared technique · relatedness 1.6/3
+- [EChO-Agent: Evidence Chain Orchestration Agent for Audio Reasoning](zhang26t_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ Chinese Academy of Sciences, University of Chinese Academy of Sciences, OPPO
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.5/3
+- [Learnable Schrödinger Bridge and Activations for Efficient Diffusion-based Speech Enhancement](fu26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.4/3
+- [SEMamba++: A General Speech Restoration Framework Leveraging Global, Local, and Periodic Spectral Patterns](lee26f_interspeech.md) — same problem · relatedness 2.3/3
+- [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](gao26e_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

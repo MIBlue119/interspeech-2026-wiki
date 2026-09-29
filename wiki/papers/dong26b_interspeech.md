@@ -78,4 +78,10 @@ Radboud University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [How Speaker Normalization Procedures Influence the Computational Modelling of Non-native Vowel Perception: Implications for the L2LP model](lee26l_interspeech.md) — same problem · relatedness 2.0/3
+- [Can Speech LLMs Approximate Human Ratings of Accentedness and Comprehensibility? Evidence from Correlational and Feature-Based Analyses](dong26c_interspeech.md) — same problem · relatedness 1.9/3
+- [Too Good to Be True: A Study on Modern Automatic Speech Recognition Systems for the Evaluation of Speech Enhancement](oliveira26b_interspeech.md) — same problem · relatedness 1.9/3
+- [L2 Speakers Accommodate Differently to AI and Human Voices Across Phonetic Features](gan26_interspeech.md) — same problem · relatedness 1.9/3
+- [Universality of Speech Emotion Recognition in Humans and Speech Language Models](tatsumi26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

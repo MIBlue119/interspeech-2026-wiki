@@ -75,4 +75,10 @@ University of Southampton
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Countermeasures Against Misuse of Speech Generative AI](yamagishi26_interspeech.md) — same problem · relatedness 1.9/3
+- [Rethinking Consent Acquisition for Voice Synthesis: from Static to Dynamic Consent](nanni26_interspeech.md) — same problem · relatedness 1.7/3
+- [Imperceptible Voiceprint Protection via Human-Machine Perception Discrepancy Feature Disentanglement](xue26_interspeech.md) — same problem · relatedness 1.7/3
+- [LISE : Listenable Interpretable Speaker Embeddings](wu26_interspeech.md) — complementary · relatedness 1.6/3
+- [Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models](kuzmin26b_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

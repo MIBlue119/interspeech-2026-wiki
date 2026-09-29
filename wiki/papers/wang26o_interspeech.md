@@ -81,4 +81,10 @@ University of California, Los Angeles
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Error Diversity and Performance Variability in Zero-Shot Children's Speech Recognition](sinha26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Entropy-Aware Domain-Routed Mixture-of-Experts Speech-LLM Framework: A Case Study of Multi-Domain Child-Adult ASR](shi26c_interspeech.md) — same problem · relatedness 2.4/3
+- [BEST-RQ-2: Contextualize-Then-Predict, a Two-Step Approach for Self-Supervised Audio Representations](tuncay26_interspeech.md) — shared technique · relatedness 2.3/3
+- [Confidence-Gated Mean-Teacher Consistency Regularization for Low-Resource Multilingual ASR with Shared–Private Fusion-LoRA](liu26h_interspeech.md) — same problem · relatedness 2.1/3
+- [ViP-VL: Vietnamese Self-supervised Speech Pretraining Model with Vector-Quantization Learning](le26b_interspeech.md) — shared technique · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

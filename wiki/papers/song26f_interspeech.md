@@ -79,4 +79,10 @@ Chinese University of Hong Kong, Shenzhen, Shenzhen Loop Area Institute
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Do Speech Emphasis Models Generalize across Languages and Emotions?](wei26e_interspeech.md) — complementary · relatedness 2.0/3
+- [Knowing What to Stress: A Discourse-Conditioned Text-to-Speech Benchmark](turetzky26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Boundaryless Speech-to-Syllable Representations with Hierarchical CNN for Linguistically Inspired Automatic Stress Detection](mokshagundam26_interspeech.md) — same problem · relatedness 2.0/3
+- [Multilingual and Cross-lingual Lexical Stress Detection Using SSL Feature Vectors](alhabshi26_interspeech.md) — complementary · relatedness 1.9/3
+- [Prosodic ABX: A Language-Agnostic Method for Measuring Prosodic Contrast in Speech Representations](sun26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

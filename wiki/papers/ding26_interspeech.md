@@ -81,4 +81,10 @@ Jiangsu University, University of Melbourne
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [UGPCB: Uncertainty-Gated Phonetic Contextual Biasing for Improving Hotword Recognition in Large Speech Models](hou26_interspeech.md) — same problem · relatedness 2.0/3
+- [ADALA: A Wake-up Word Detection Framework Based on Adaptive Semi-supervised learning and Large Language Model](tang26_interspeech.md) — same problem · relatedness 2.0/3
+- [Rethinking Entropy Minimization in Test-Time Adaptation for Autoregressive Models](huang26c_interspeech.md) — shared technique · relatedness 2.0/3
+- [KFC-KWS: Keyframe Fusion with CTC for User-Defined Keyword Spotting](li26y_interspeech.md) — same problem · relatedness 2.0/3
+- [SPARK: Efficient Audio-Text Matching for User-Defined Keyword Spotting via Spiking Neural Networks](baek26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

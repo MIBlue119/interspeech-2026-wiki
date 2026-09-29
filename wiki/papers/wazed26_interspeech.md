@@ -82,4 +82,10 @@ Chonnam National University, Ritsumeikan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [UniSE: A Unified Framework for Decoder-Only Autoregressive LM-Based Speech Enhancement](yan26_interspeech.md) — shared technique · relatedness 2.1/3
+- [QC-GAN: A Parameter-Efficient Quaternion Conformer GAN for High-Fidelity Speech Enhancement](yamauchi26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.1/3
+- [UFL-GAN: A Multi-Discriminator GAN for Unsupervised Speech Enhancement](bejugam26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Bridging Self-Supervised Learning and Speech Enhancement: A Wav2Vec2-Conditioned Framework](ojha26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

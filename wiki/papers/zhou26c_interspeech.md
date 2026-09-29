@@ -78,4 +78,10 @@ Nankai University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MUGEN: Evaluating and Improving Multi-audio Understanding of Large Audio-Language Models](yang26c_interspeech.md) — shared data / evaluation · relatedness 2.8/3
+- [MSU-Bench: Towards Understanding the Conversational Multi-Speaker Scenarios](sun26j_interspeech.md) — shared data / evaluation · relatedness 2.5/3
+- [AURA Score: A Metric for Holistic Audio Question Answering Evaluation](dixit26_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+- [ParaPairAudioBench: Paralinguistic Pairwise Audio Benchmark for LALM-as-a-Judge](jeon26d_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+- [PolyBench: A Benchmark for Compositional Reasoning in Polyphonic Audio](chen26aa_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

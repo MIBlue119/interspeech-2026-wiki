@@ -82,4 +82,10 @@ Thaka
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Mixture of Spectral Experts for Audio Deepfake Detection](qiu26_interspeech.md) — same problem · relatedness 3.0/3
+- [Quantizer-Aware Hierarchical Neural Codec Modeling for Speech Deepfake Detection](wu26n_interspeech.md) — same problem · relatedness 2.9/3
+- [Diffusion Reconstruction towards Generalizable Audio Deepfake Detection](cheng26_interspeech.md) — same problem · relatedness 2.8/3
+- [ADD-DINO: A Two-Stage Self-Distillation Framework for Audio Deepfake Detection](sun26g_interspeech.md) — same problem · relatedness 2.8/3
+- [Domain-Adaptive Dual-Gating Mixture of Experts for Generalizable Speech Deepfake Detection](qin26b_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

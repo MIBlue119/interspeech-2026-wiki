@@ -70,4 +70,10 @@ Shanghai Jiao Tong University, National Research Center for Language and Well-be
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Prosodic Realization of Focus in Yi-Mandarin Bilingual Speakers: On-Focus Expansion without Post-Focus Compression](zhang26g_interspeech.md) — same problem · relatedness 2.0/3
+- [Age-Related Changes in Mandarin Lexical Tone Production: Acoustic Properties and Tonal Distinctiveness](mao26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Age-related Differences in Acoustic Realization of Aspirated Fricatives in Shaxi Bai](zhang26q_interspeech.md) — same problem · relatedness 1.9/3
+- [Towards an understanding of prosodic cue weighting for turn-end classification in older adults with varying hearing abilities](curetti26_interspeech.md) — relatedness 1.8/3
+- [Acoustic Differences Between Citation and Sandhi Tones Across Three Generations in Xiamen Southern Min](xie26d_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Danske Bank, Copenhagen Business School, Jabra
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Data-free and Training-free Compression for Speech Foundation Models Using Parameter Clustering](xu26h_interspeech.md) — same problem · relatedness 2.9/3
+- [PhonePrune: One-shot Phoneme-Aware Pruning for Large-scale ASR Models via Phoneme Set Generation and Calibration](lee26q_interspeech.md) — same problem · relatedness 2.6/3
+- [Measuring the Redundancy of Decoder Layers in SpeechLLMs](moumen26_interspeech.md) — same problem · relatedness 2.2/3
+- [The silence of the weights: a structural pruning strategy for Attention-based audio signal architectures with second-order metrics](diecidue26_interspeech.md) — shared technique · relatedness 2.2/3
+- [Pushing the Limits of Compression: Sub-1-Bit Conformer via Variable-Rank Binary Decomposition](yeo26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

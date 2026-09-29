@@ -77,4 +77,10 @@ Australian National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards a Phonology-Informed Evaluation of Multilingual TTS](raybarman26_interspeech.md) — complementary · relatedness 1.9/3
+- [A preliminary exploration of stop-vowel coarticulation in Māori](shields26_interspeech.md) — shared technique · relatedness 1.6/3
+- [Mapping Acceptable Pronunciation Range for te reo Māori through Perceptual, Acoustic, and Marker Evaluative Data](evans26_interspeech.md) — shared technique · relatedness 1.6/3
+- [NewAppVoice: Tools for Visualizing and Correcting Acoustic Measures](elmerich26_interspeech.md) — complementary · relatedness 1.5/3
+- [Revisiting the NZE front vowel shift: evidence from New Zealand''s largest and most linguistically diverse city](ross26_interspeech.md) — shared technique · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

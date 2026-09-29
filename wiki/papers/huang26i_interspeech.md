@@ -77,4 +77,10 @@ University of Iowa
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Progressive Alignment Objectives for Aligner-Encoder based ASR](lee26t_interspeech.md) — same problem · relatedness 2.0/3
+- [Two-stage semi-supervised learning with pseudo-labels: A case study on Northern Sámi ASR](pal26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Confidence Score Guided Incremental and Speaker Adaptive Pseudo-Labeling for Semi-Supervised Elderly Speech Recognition](deng26c_interspeech.md) — shared technique · relatedness 2.0/3
+- [Confidence-Gated Mean-Teacher Consistency Regularization for Low-Resource Multilingual ASR with Shared–Private Fusion-LoRA](liu26h_interspeech.md) — shared technique · relatedness 2.0/3
+- [Enhancing BEST-RQ Pseudo-Label Quality Through Online Refinement for Automatic Speech Recognition](xu26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

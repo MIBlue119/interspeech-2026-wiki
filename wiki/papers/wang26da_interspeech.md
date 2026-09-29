@@ -80,4 +80,10 @@ Hong Kong University of Science and Technology, Tencent
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [PF-D2M: A Pose-free Diffusion Model for Universal Dance-to-Music Generation](im26_interspeech.md) — same problem · relatedness 3.0/3
+- [FoleyGenEx: Unified Video-to-Audio Generation with Multi-Modal Control, Temporal Alignment, and Semantic Precision](wang26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Towards Unified Song Generation and Singing Voice Conversion with Accompaniment Co-Generation](zhang26e_interspeech.md) — shared technique · relatedness 1.7/3
+- [Repurposing a Speech Classifier for Guided Diffusion-Based Speech Generation](makarov26_interspeech.md) — shared technique · relatedness 1.7/3
+- [Unified Prosody Restoration Using Diffusion Models for Controllable Text-to-Speech Synthesis](ito26_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

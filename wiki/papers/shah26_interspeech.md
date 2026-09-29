@@ -74,4 +74,10 @@ Dhirubhai Ambani University, Sarvajanik College of Engineering and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FakeSound2: A Benchmark for Explainable, Traceable, and Generalizable Deepfake Sound Detection](xie26_interspeech.md) — shared data / evaluation · relatedness 2.6/3
+- [OPERA-Net: Octave-aware Phase-sensitive Enhanced Recognition Architecture for Singing Voice Deepfake Detection](ye26e_interspeech.md) — same problem · relatedness 2.6/3
+- [SEA-Spoof: Bridging the Gap in Multilingual Audio Deepfake Detection for South-East Asia](wu26m_interspeech.md) — same problem · relatedness 2.5/3
+- [Joint Fullband-Subband Modeling for High-Resolution SingFake Detection](hu26e_interspeech.md) — same problem · relatedness 2.4/3
+- [DASM: Detecting AI-Synthetic Music via Authentic Manifold Deviation Modeling](zhu26d_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Hunan University, Malanshan Audio & Video Laboratory, Yuelushan Center for Indus
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [PolyBench: Benchmarking LLM-based TTS Systems for Chinese Polyphone Disambiguation](lu26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [RAISE: Resolving Ambiguity in Audio Understanding with Imagination and Selective Extraction](lin26i_interspeech.md) — same problem · relatedness 2.0/3
+- [IPA-Guided Dual Transcription for Data-Centric Speech Corpus Refinement](choi26f_interspeech.md) — same problem · relatedness 2.0/3
+- [YUE-PUB-Speech: A Speech-based Pragmatic Understanding Benchmark for Cantonese](wen26b_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Should Robots Sound more like Machines than like Humans? User Expectations Affect the Perception of Prosody in TTS Voices](shim26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

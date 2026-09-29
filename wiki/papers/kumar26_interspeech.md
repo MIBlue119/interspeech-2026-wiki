@@ -76,4 +76,10 @@ Florida International University, University of South Florida
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Cross-Attention is Half Explanation in Speech-to-Text Models](papi26_interspeech.md) — same problem · relatedness 2.5/3
+- [Causal Tracing of Audio-Text Fusion in Large Audio Language Models](chen26k_interspeech.md) — shared technique · relatedness 1.9/3
+- [What Do Deepfake Speech Detectors Actually Hear?](stanek26_interspeech.md) — shared technique · relatedness 1.9/3
+- [A Closer Look at Failure Modes in Temporal Understanding of Large Audio-Language Models](kulkarni26_interspeech.md) — shared technique · relatedness 1.9/3
+- [From Dispersion to Attraction: Spectral Dynamics of Hallucination Across Whisper Model Scales](viakhirev26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

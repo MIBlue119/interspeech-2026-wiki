@@ -83,4 +83,10 @@ University of Sheffield
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learning Multiple Utterance-Level Attribute Representations with a Unified Speech Encoder](bouziane26_interspeech.md) — same problem · relatedness 2.7/3
+- [Adapting Audio Large Language Models for Speaker Verification](ren26c_interspeech.md) — same problem · relatedness 2.6/3
+- [Orthogonal Feature Projection and Manifold-Constrained Neural PLDA for the TidyVoice2026 Cross-Lingual Speaker Verification Challenge](du26c_interspeech.md) — same problem · relatedness 2.6/3
+- [LaS-LCA: Layer-Selected Latent Cross-Attention Adapters and Margin-Mixup for Robust Cross-Lingual Speaker Verification](shen26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Language-Invariant Multilingual Speaker Verification for the TidyVoice 2026 Challenge](li26fa_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

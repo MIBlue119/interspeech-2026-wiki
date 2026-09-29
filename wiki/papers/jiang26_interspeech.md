@@ -79,4 +79,10 @@ Northwestern Polytechnical University, Xiaomi
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Unified Song Generation and Singing Voice Conversion with Accompaniment Co-Generation](zhang26e_interspeech.md) — same problem · relatedness 2.5/3
+- [SongBench: A Fine-Grained Multi-Aspect Benchmark for Song Quality Assessment](wu26h_interspeech.md) — complementary · relatedness 2.1/3
+- [TC-DBI: A Plug-and-Play Trajectory Confidence-Guided Dynamic Block Inference Strategy for Speech Synthesis with Continuous Block Flow Matching](wang26v_interspeech.md) — shared technique · relatedness 2.1/3
+- [Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models](li26ba_interspeech.md) — same problem · relatedness 2.1/3
+- [YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance](hao26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

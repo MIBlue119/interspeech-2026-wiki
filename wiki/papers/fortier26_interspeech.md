@@ -78,4 +78,10 @@ University of British Columbia, Ecole de technologie superieure, Johns Hopkins U
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Ouroboros: Self-Referential Backdoor Attacks on Speech Enhancement via Clean Audio Triggers](zhou26_interspeech.md) — same problem · relatedness 2.0/3
+- [Countermeasures Against Misuse of Speech Generative AI](yamagishi26_interspeech.md) — same problem · relatedness 1.9/3
+- [A Unified Safety Subspace Exists in Speech Language Models](mukhituly26_interspeech.md) — same problem · relatedness 1.9/3
+- [Evidence Subspace Projection: Measuring How Much Evidence Explains Deepfake Detection in Self-Supervised Speech Models](xiao26c_interspeech.md) — same problem · relatedness 1.9/3
+- [On Optimizing Multimodal Jailbreaks for Spoken Language Models](krishnan26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

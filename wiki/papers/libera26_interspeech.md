@@ -80,4 +80,10 @@ Concordia University, Mila-Quebec AI Institute, Universite Laval
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Scaling Properties of Continuous Diffusion Spoken Language Models](ramapuram26_interspeech.md) — same problem · relatedness 2.6/3
+- [HybridCodec: Modeling Discrete and Continuous Representations For Efficient Speech Language Models](ploujnikov26_interspeech.md) — same problem · relatedness 2.5/3
+- [CAAD: Contrastive Audio-Aware Distillation for Efficient Speech Language Models](chen26e_interspeech.md) — same problem · relatedness 2.4/3
+- [TASTE-Streaming: Towards Streamable Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling](tseng26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Discrete vs. Continuous: A Comprehensive Study of Unified Audio Understanding in LALMs](peng26h_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -75,4 +75,10 @@ Tianjin University, PipeChina Institute of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [EchoLoc: Audio-Aware Object Grounding via Joint Heatmap and Box-Level Localization](shin26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation](ye26_interspeech.md) — shared technique · relatedness 1.6/3
+- [Speech Codec Probing from Semantic and Phonetic Perspectives](shi26g_interspeech.md) — complementary · relatedness 1.6/3
+- [A Multimodal Semi-Supervised Framework for Automatic Construction of a Cross-Lingual Taigi Speech-Chinese Subtitle Corpus](cho26b_interspeech.md) — shared technique · relatedness 1.6/3
+- [Discrete vs. Continuous: A Comprehensive Study of Unified Audio Understanding in LALMs](peng26h_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

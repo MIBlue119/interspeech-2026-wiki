@@ -79,4 +79,10 @@ University of Sheffield
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.3/3
+- [Beyond Two-stage Diffusion TTS: Joint Structure and Content Refinement via Jump Diffusion](ai26b_interspeech.md) — same problem · relatedness 2.3/3
+- [MSpoofTTS: Multi-Resolution Spoof-Guided Inference for Discrete Speech Synthesis](zhao26g_interspeech.md) — same problem · relatedness 2.2/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — same problem · relatedness 2.1/3
+- [TC-DBI: A Plug-and-Play Trajectory Confidence-Guided Dynamic Block Inference Strategy for Speech Synthesis with Continuous Block Flow Matching](wang26v_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Chinese University of Hong Kong, Tsinghua University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SDR-LLM: Speech-LLM Based End-to-End Speaker Diarization and Recognition with Sentence-Level Temporal Modeling](yu26g_interspeech.md) — same problem · relatedness 2.9/3
+- [Balancing ASR and diarization in end-to-end LLMs for multi-talker speech recognition](zheng26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Grounding Spoken LLMs in Multi-Speaker Audio via Diarization Conditioning](polok26b_interspeech.md) — same problem · relatedness 2.6/3
+- [Multi-Talker ASR Unaffected by Speaker Change Count](makishima26_interspeech.md) — same problem · relatedness 2.4/3
+- [Modeling Overlapped Speech with Shuffles](wiesner26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

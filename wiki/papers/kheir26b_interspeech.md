@@ -79,4 +79,10 @@ German Research Center for Artificial Intelligence, Technical University of Berl
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Fusion-Aware Two-Stage Framework for Mispronunciation Detection and Diagnosis in Low-Resource Modern Standard Arabic](yang26j_interspeech.md) — same problem · relatedness 3.0/3
+- [Harf-Speech: A Clinically Aligned Framework for Arabic Phoneme-Level Speech Assessment](azad26_interspeech.md) — same problem · relatedness 2.4/3
+- [Using Phonological-Level Wav2Vec2 for Mandarin Automatic Mispronunciation Detection and Diagnosis](chen26g_interspeech.md) — same problem · relatedness 2.3/3
+- [Beyond Acoustic Sparsity and Linguistic Bias: A Prompt-Free Paradigm for Mispronunciation Detection and Diagnosis](geng26_interspeech.md) — same problem · relatedness 2.3/3
+- [Domain-Aware Mispronunciation Detection and Diagnosis Using Language-Specific Statistical Graphs](nguyen26g_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

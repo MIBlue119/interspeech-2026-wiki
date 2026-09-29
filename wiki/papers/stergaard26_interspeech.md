@@ -78,4 +78,10 @@ WS Audiology, Technical University of Denmark, Verth
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Enroll-on-Wakeup: A First Comparative Study of Target Speech Extraction for Seamless Interaction in Real Noisy Human-Machine Dialogue Scenarios](yang26b_interspeech.md) — same problem · relatedness 2.0/3
+- [RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation](chao26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — shared technique · relatedness 1.9/3
+- [A Causal Reference-Enhanced Keep-Speech Active Noise Control Method](rao26_interspeech.md) — same problem · relatedness 1.9/3
+- [SEMamba++: A General Speech Restoration Framework Leveraging Global, Local, and Periodic Spectral Patterns](lee26f_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

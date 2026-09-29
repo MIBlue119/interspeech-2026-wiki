@@ -78,4 +78,10 @@ Institute of Science Tokyo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow](zhang26z_interspeech.md) — same problem · relatedness 2.5/3
+- [Speech Enhancement Based on Drifting Models](xu26d_interspeech.md) — same problem · relatedness 2.5/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.5/3
+- [StuPASE: Towards Low-Hallucination Studio-Quality Generative Speech Enhancement](rong26_interspeech.md) — same problem · relatedness 2.4/3
+- [Bridging Self-Supervised Learning and Speech Enhancement: A Wav2Vec2-Conditioned Framework](ojha26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

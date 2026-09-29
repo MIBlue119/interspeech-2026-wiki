@@ -78,4 +78,10 @@ Smallest.ai
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining](diwan26_interspeech.md) — same problem · relatedness 2.0/3
+- [Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions](zhang26m_interspeech.md) — same problem · relatedness 2.0/3
+- [Bridging the Gap: A Hierarchical Framework for Cross-Modal Style Modeling in Expressive TTS](chen26p_interspeech.md) — same problem · relatedness 2.0/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction](fujita26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

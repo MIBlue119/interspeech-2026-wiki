@@ -80,4 +80,10 @@ Chinese Academy of Sciences, Ear-LAB, Initi-AI Ltd
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DTT-BSR+: A Generative-Regression Cascade for Music Source Restoration](ni26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Towards Robust Generative Speech Enhancement Using Vector Quantisation-Based Neural Audio Codec](zhao26i_interspeech.md) — same problem · relatedness 2.0/3
+- [mmWave Radar Aware Dual-Conditioned GAN for Speech Reconstruction of Signals With Low SNR](karani26_interspeech.md) — shared technique · relatedness 1.8/3
+- [A Fast Solver for Interpolating Stochastic Differential Equation Diffusion Models for Speech Restoration](lay26_interspeech.md) — same problem · relatedness 1.8/3
+- [FastWave: Optimized Diffusion Model for Audio Super-Resolution](kuznetsov26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

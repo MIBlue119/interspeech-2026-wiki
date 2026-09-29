@@ -80,4 +80,10 @@ Sun Yat-sen University, China Mobile Internet Co., Ltd
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [GradHarmony: A Gradient Alignment and Magnitude Normalization Strategy for Audio Deepfake Detection](kim26r_interspeech.md) — same problem · relatedness 2.5/3
+- [Diffusion Reconstruction towards Generalizable Audio Deepfake Detection](cheng26_interspeech.md) — same problem · relatedness 2.5/3
+- [Aleatoric Style Uncertainty Augmentation with GMM for Domain Generalization in Anti-spoofing](li26g_interspeech.md) — same problem · relatedness 2.5/3
+- [Domain-Adaptive Dual-Gating Mixture of Experts for Generalizable Speech Deepfake Detection](qin26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Dual-Granularity Orthogonal Disentanglement for Generalizable Audio Deepfake Detection](liu26g_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

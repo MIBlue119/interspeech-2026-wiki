@@ -77,4 +77,10 @@ Chinese University of Hong Kong, Tencent, Hong Kong University of Science and Te
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Enhancing Flow Matching with A Unified Guidance Framework for Efficient and Robust Speech Synthesis](yu26b_interspeech.md) — same problem · relatedness 2.8/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — same problem · relatedness 2.7/3
+- [EffVOC: Low-Delay Efficient Speech Waveform Reconstruction from Spectral Representations Without Phase](shi26f_interspeech.md) — same problem · relatedness 2.7/3
+- [FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation](xie26b_interspeech.md) — same problem · relatedness 2.6/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

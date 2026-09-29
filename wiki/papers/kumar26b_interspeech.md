@@ -75,4 +75,10 @@ Galgotias University, Technische Hochschule Ingolstadt
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Distilling Structured Reasoning into SpeechLLMs for Spoken Language Understanding](tsukagoshi26_interspeech.md) — same problem · relatedness 2.4/3
+- [DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition](baik26_interspeech.md) — shared technique · relatedness 2.0/3
+- [From Noisy Speech to Accurate APIs: LLM-driven Embedding Steering for Resilient Tool Retrieval](zorila26_interspeech.md) — same problem · relatedness 2.0/3
+- [Training-Free Intelligibility-Guided Observation Addition for Noisy ASR](li26s_interspeech.md) — same problem · relatedness 2.0/3
+- [G-MaP-SE: Guided Speech Enhancement via GMM-Based Prior Matching](zhu26b_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

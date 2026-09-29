@@ -79,4 +79,10 @@ Shanghai Jiao Tong University, Central South University, AISpeech Co., Ltd, Shan
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Audio2Tool: Speak, Call, Act - A Dataset for Benchmarking Speech Tool Use](pahwa26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Distilling Structured Reasoning into SpeechLLMs for Spoken Language Understanding](tsukagoshi26_interspeech.md) — same problem · relatedness 2.1/3
+- [SFL-MTSC: Leveraging Semantic Frame-Level Multi-Task Self-Consistency for Robust Multi-Intent Spoken Language Understanding](chen26ea_interspeech.md) — same problem · relatedness 2.0/3
+- [A Unified and Reproducible Experimentation Framework for Speech Understanding](peng26e_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

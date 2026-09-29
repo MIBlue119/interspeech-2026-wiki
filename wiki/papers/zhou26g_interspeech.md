@@ -78,4 +78,10 @@ Alibaba Group, Tsinghua University, Fudan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Consistent and Coherent Audio-Visual Understanding with Cross-Frame Patch Differential Attention and Cross-Modal Temporal Alignment](yan26b_interspeech.md) — complementary · relatedness 2.0/3
+- [FoleyGenEx: Unified Video-to-Audio Generation with Multi-Modal Control, Temporal Alignment, and Semantic Precision](wang26b_interspeech.md) — complementary · relatedness 2.0/3
+- [A Closer Look at Failure Modes in Temporal Understanding of Large Audio-Language Models](kulkarni26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [Integrating Facial Generation into Full-Duplex Spoken Dialogue Systems](jiang26g_interspeech.md) — complementary · relatedness 1.9/3
+- [An Empirical Analysis of Task-Induced Encoder Bias in Fréchet Audio Distance](jeong26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

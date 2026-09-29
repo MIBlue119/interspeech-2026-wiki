@@ -73,4 +73,10 @@ Australian National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Phonetic evidence for contrastive length in Nakanamanga monophthongs](li26z_interspeech.md) — shared technique · relatedness 2.0/3
+- [Oral stop realisation in three French Polynesian languages](fletcher26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Vowel Allophony Improves Maximum-Likelihood Classification of Warlpiri Consonants](cram26_interspeech.md) — shared technique · relatedness 1.7/3
+- [wav2VOT: automatic estimation of voice onset time, closure duration, and burst realisation with wav2vec2](tanner26_interspeech.md) — complementary · relatedness 1.5/3
+- [Articulatory Analysis of the Mandarin Alveolar–Retroflex Contrast Using Real-Time MRI](wu26d_interspeech.md) — relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

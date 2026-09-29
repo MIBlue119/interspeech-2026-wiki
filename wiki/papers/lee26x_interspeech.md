@@ -78,4 +78,10 @@ Soongsil University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Spectral Masking and Interpolation Attack (SMIA): A Black-box Adversarial Attack against Voice Authentication and Anti-Spoofing Systems](kamel26_interspeech.md) — same problem · relatedness 3.0/3
+- [BiSASV: Bidirectional Feature Modulation with Dual-Granularity Fusion for Spoofing-Robust ASV](zhou26d_interspeech.md) — same problem · relatedness 2.2/3
+- [FreqGuard: Leveraging Frequency-Domain Feature Priors for Universal Proactive Voice Defense](wang26ca_interspeech.md) — same problem · relatedness 2.2/3
+- [NaVo: Natural Voice Protection against Voice Cloning Attacks via Generative Universal Adversarial Audio](park26g_interspeech.md) — same problem · relatedness 2.1/3
+- [Imperceptible Voiceprint Protection via Human-Machine Perception Discrepancy Feature Disentanglement](xue26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

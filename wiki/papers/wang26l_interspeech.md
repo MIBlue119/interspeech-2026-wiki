@@ -81,4 +81,10 @@ Chinese Academy of Sciences, University of Chinese Academy of Sciences
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [RT-Tango: Real-Time Distributed Binaural Speech Enhancement for Low-Power Hearing Aid Devices](benslimane26_interspeech.md) — same problem · relatedness 2.1/3
+- [Geometrically Constrained Decentralized Independent Vector Analysis for Distributed Microphone Arrays](chen26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Sweep-RSE: Streaming Region-of-Interest Speech Extraction in Multi-Talker Scenarios via Explicit Spatial Sweeping](yu26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Cloud-Boosted Low-Compute Multi-Channel Speech Enhancement](fan26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](yalegama26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

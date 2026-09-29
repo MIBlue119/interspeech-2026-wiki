@@ -80,4 +80,10 @@ Universidade de Lisboa, Instituto de Telecomunicacoes, TransPerfect
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Content-Aware Dynamic Compression for Efffcient Speech Recognition based on Large Language Model](zhu26_interspeech.md) — same problem · relatedness 2.8/3
+- [HybridCodec: Modeling Discrete and Continuous Representations For Efficient Speech Language Models](ploujnikov26_interspeech.md) — same problem · relatedness 2.2/3
+- [Leveraging Temporal Redundancy via Layer-wise Key-Value Pooling Attention for Efficient ASR](wu26k_interspeech.md) — shared technique · relatedness 2.2/3
+- [MTC-AVSR: Compressed-Token-based Audio-Visual Speech Recognition and Translation with Contrastive Language Alignment](a26_interspeech.md) — shared technique · relatedness 2.1/3
+- [From Masking to Merging: Rethinking SpecAugment for Efficient Audio Spectrogram Transformer](park26j_interspeech.md) — shared technique · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

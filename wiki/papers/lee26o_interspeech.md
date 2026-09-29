@@ -75,4 +75,10 @@ Sogang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MUGEN: Evaluating and Improving Multi-audio Understanding of Large Audio-Language Models](yang26c_interspeech.md) — same problem · relatedness 2.4/3
+- [PolyBench: A Benchmark for Compositional Reasoning in Polyphonic Audio](chen26aa_interspeech.md) — same problem · relatedness 2.4/3
+- [Towards Fine-Grained Temporal Perception: Post-Training Large Audio-Language Models with Audio-Side Time Prompt](shi26b_interspeech.md) — same problem · relatedness 2.2/3
+- [AudioGround: Fine-Grained Temporal Grounding in Audio via Deterministic Boundary Supervision](kim26z_interspeech.md) — same problem · relatedness 2.2/3
+- [CoSTALA: Compositional Spatio-Temporal Audio-Language Alignment via Multi-Grain Hierarchical Contrastive Learning](ren26b_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

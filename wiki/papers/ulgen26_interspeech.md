@@ -77,4 +77,10 @@ Johns Hopkins University, University of Texas at Dallas, Carnegie Mellon Univers
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From A to B to A: Palindromic Zero-Shot Voice Conversion with Non-Parallel Data](mandel26_interspeech.md) — same problem · relatedness 2.4/3
+- [SSL-GMMVC: Interpretable Voice Conversion via Locally Linear GMM Transforms in Self-Supervised Representation Space](tanabu26_interspeech.md) — same problem · relatedness 2.4/3
+- [Universal Speech Content Factorization](xinyuan26_interspeech.md) — same problem · relatedness 2.3/3
+- [VOSSA: Voiceprint Optimization for Streaming Speech Architectures](tseng26c_interspeech.md) — same problem · relatedness 2.3/3
+- [ProsoCodec: Prosody-Oriented Speech Codec for Voice Conversion](choi26d_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

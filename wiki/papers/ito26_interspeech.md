@@ -77,4 +77,10 @@ Sony Group Corporation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CraftTTS: Fine-Grained Prosody Control for Text-to-Speech](yang26l_interspeech.md) — same problem · relatedness 2.4/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — shared technique · relatedness 2.1/3
+- [A Fast Solver for Interpolating Stochastic Differential Equation Diffusion Models for Speech Restoration](lay26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Adaptive Oscillatory Inductive Bias for Modeling Sharp Prosodic Dynamics in Diffusion-Based TTS](dhar26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Emo-BPO: Emotion Bidirectional Preference Optimization for Diffusion-based Emotional TTS](shi26d_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

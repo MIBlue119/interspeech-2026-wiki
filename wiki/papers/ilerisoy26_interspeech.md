@@ -79,4 +79,10 @@ Eindhoven University of Technology, Singapore Management University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Lung-SRAD: Spectral-Aware Regularized Audio DASS with Dual-Axis Patch-Mix Contrastive Learning for Respiratory Sound Classification](shridhar26_interspeech.md) — same problem · relatedness 2.6/3
+- [Quality Adaptive Angular Margin Learning for Respiratory Sound Classification](kim26k_interspeech.md) — same problem · relatedness 2.1/3
+- [Unlocking In-Context Learning in Audio-Language Models from Decentralized Medical Audio](piao26_interspeech.md) — same problem · relatedness 2.0/3
+- [MixProLAP: Mixture-Induced Uncertainty Modeling for Probabilistic Language-Audio Pretraining](nakagome26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Leveraging Mutual Intra-Modal Similarity Supervision for Text and Audio](vonaspern26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ University of Maryland, University of Texas at Dallas
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Acoustic-to-Articulatory Inversion of Clean Speech Using an MRI-Trained Model](azzouz26_interspeech.md) — shared technique · relatedness 2.0/3
+- [What Happens When We Speak Together? Multidimensional Convergence in Face-to-Face Interaction](pagel26_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards Language-Agnostic Speech Inversion](tabatabaee26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Beyond Speaker Independence: Evaluating Cross-Lingual Acoustic-to-Articulatory Inversion Across Finnish and Russian](pandey26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Effects of Co-speech Gesture on the Acoustic Realization of Focus in Cantonese-speaking Children With and Without Autism Spectrum Disorder](li26p_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

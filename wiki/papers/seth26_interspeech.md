@@ -78,4 +78,10 @@ University of Maryland, College Park, Adobe Research
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Investigating Faithfulness in Large Audio Language Models](mousavi26_interspeech.md) — same problem · relatedness 2.8/3
+- [Silence is Golden: Mitigating Hallucinations in Large Audio-Language Models via Layer-Weighted Vector Steering](lin26g_interspeech.md) — same problem · relatedness 2.5/3
+- [Noise-Aware In-Context Learning for Hallucination Mitigation in ALLMs](huang26k_interspeech.md) — same problem · relatedness 2.3/3
+- [TAD: Token-Adaptive Contrastive Decoding with Confidence-Guided Gating for Hallucination Mitigation in Large Audio-Language Models](chang26_interspeech.md) — same problem · relatedness 2.3/3
+- [MATA: A Training-Free Approach to Mitigate Cross-Modal Attention Imbalance in Large Audio Language Models](wang26t_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

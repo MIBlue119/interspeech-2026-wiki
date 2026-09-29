@@ -66,4 +66,10 @@ Treble Technologies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Multichannel Speech Enhancement through Accurate Room-Acoustic Simulations](gotz26_interspeech.md) — complementary · relatedness 2.1/3
+- [Mind the Gap: Impact of Synthetic Conversational Data on Multi-Talker ASR and Speaker Diarization](polok26_interspeech.md) — complementary · relatedness 2.0/3
+- [Explicit Context-Driven Neural Acoustic Modeling for High-Fidelity RIR Generation](si26_interspeech.md) — complementary · relatedness 1.9/3
+- [Probing Spatial Structure in Pretrained Audio Representations](chen26ba_interspeech.md) — complementary · relatedness 1.8/3
+- [YODAS v3: Over 1 Million Hours of High-Bandwidth, Stereophonic, Multilingual Speech](chen26d_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ AITRICS, University of Copenhagen, KAIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Dissecting ASR Failures in Low-Resource South Asian Languages](azeemi26_interspeech.md) — same problem · relatedness 2.0/3
+- [Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation](srivastav26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Data-Efficient ASR Personalization for Non-Normative Speech Using an Uncertainty-Based Phoneme Difficulty Score for Guided Sampling](pokel26_interspeech.md) — same problem · relatedness 2.0/3
+- [Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India](bhogale26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [CSER: Semantic Evaluation of LLM Auto-Repair for Code-Switching ASR](bui26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

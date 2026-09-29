@@ -75,4 +75,10 @@ Hong Kong Polytechnic University, Shanghai Jiao Tong University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Words to Sentences: Contextual Predictability Overrides Phonetic Ambiguity in Lexical Competition](chang26g_interspeech.md) — same problem · relatedness 1.9/3
+- [Categorical Perception of Mandarin Tones in Jingpo Native Speakers](wang26z_interspeech.md) — same problem · relatedness 1.7/3
+- [Perceptual compensation for tonal context in self-supervised speech models](kirby26_interspeech.md) — same problem · relatedness 1.7/3
+- [Voice Onset Time Categorical Perception in Mandarin-Speaking People Who Stutter: A Zoom-In Nonword Study](kiyama26_interspeech.md) — shared technique · relatedness 1.6/3
+- [The (non-)universality of prominence and Intonation Phrases: German and Hungarian listeners'' perception of an unfamiliar language](jabeen26_interspeech.md) — relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

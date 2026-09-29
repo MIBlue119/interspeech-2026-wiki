@@ -78,4 +78,10 @@ Cardiff University, University of Surrey
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ELSI: An Interface for Standardizing Child-Centered Datasets, Applying Machine Learning Models, and Extracting Metrics](sheth26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Deriving Benchmarking Datasets from Long-Form Recordings: Challenges and Opportunities](sheth26_interspeech.md) — same problem · relatedness 1.9/3
+- [Robust Multi-Tier Infant-Centered Audio Understanding with Whisper via Structured Speaker Conditioning](fan26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Advancing Infant Distress Detection: Two- and Three-Way Classification in Real-World Audio Environments](galhotra26_interspeech.md) — complementary · relatedness 1.9/3
+- [MPA-KWS: Multi-Modal Phoneme-Level Alignment for Streaming Open-Vocabulary Keyword Spotting](zhang26fa_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

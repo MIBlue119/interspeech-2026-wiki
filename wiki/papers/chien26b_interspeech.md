@@ -75,4 +75,10 @@ National Yang Ming Chiao Tung University, IBM
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Enhancing BEST-RQ Pseudo-Label Quality Through Online Refinement for Automatic Speech Recognition](xu26b_interspeech.md) — same problem · relatedness 2.0/3
+- [DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition](baik26_interspeech.md) — same problem · relatedness 2.0/3
+- [BELLA: Efficient Bilevel Learning with LoRA for Multilingual ASR](saif26_interspeech.md) — same problem · relatedness 1.9/3
+- [Alignment-Aware Continued Pre-training for Multilingual Speech Representation Learning](lu26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Align-Consistency: Improving Non-autoregressive and Semi-supervised ASR with Consistency Regularization](huang26i_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

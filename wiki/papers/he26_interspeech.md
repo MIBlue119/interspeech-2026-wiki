@@ -81,4 +81,10 @@ Harbin Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AURA: Audio-Geometry Conditioned U-Net Refinement with Flow Matching for High-Fidelity Monaural-to-Binaural Synthesis](zhang26_interspeech.md) — same problem · relatedness 2.1/3
+- [Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models](li26ba_interspeech.md) — same problem · relatedness 2.1/3
+- [FoleyImmersive: Decoupling What and Where for Video-to-First-Order Ambisonics](liang26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Spec2Spatial: A Time-Frequency Spatial Attention Network for Binaural Audio Synthesis](he26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Sensitivity Analysis of Generative Spatial Audio Metrics : A Study on Responsiveness, Smoothness, and Symmetry](kamath26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

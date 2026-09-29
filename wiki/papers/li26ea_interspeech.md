@@ -74,4 +74,7 @@ Nanjing University, Samsung Electronics, Horizon Robotics
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Carrier-Aware Sound Zone Control for Parametric Array Loudspeakers](li26da_interspeech.md) — same problem · relatedness 1.9/3
+- [NCPSZ: A Nonlinear Control Network for Miniature Loudspeakers in Personal Sound Zone Applications](gong26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

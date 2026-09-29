@@ -79,4 +79,10 @@ Wuhan University, Chinese University of Hong Kong, Shenzhen
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Two-Level Uncertainty Suppression for Robust Meeting Diarization](asaka26_interspeech.md) — same problem · relatedness 2.7/3
+- [Bidirectional Retention Network-based Segmentation Model for Speaker Diarization](you26b_interspeech.md) — same problem · relatedness 2.7/3
+- [SDR-LLM: Speech-LLM Based End-to-End Speaker Diarization and Recognition with Sentence-Level Temporal Modeling](yu26g_interspeech.md) — same problem · relatedness 2.6/3
+- [Neural Multichannel Distant Speaker Diarization and Source Separation with Beta Speaker Activity Prior](mao26_interspeech.md) — same problem · relatedness 2.6/3
+- [Multi-Speaker Embeddings With Weakly Supervised Speaker Activity Detection For Granular Speaker Diarization](thienpondt26_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

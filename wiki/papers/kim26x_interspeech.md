@@ -76,4 +76,10 @@ Wonkwang University, Gwangju Institute of Science and Technology, KAIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Attention-Based Multiple Instance Learning with Tabular Stacking for Ambulatory Detection of PVH and NPVH](yerpude26_interspeech.md) — same problem · relatedness 3.0/3
+- [Temporal Partitioning of Vocal Activity for Detecting Vocal Hyperfunction from Neck-Surface Accelerometer Data](azarski26_interspeech.md) — same problem · relatedness 3.0/3
+- [The Interspeech 2026 NeckVibe Challenge: Voice Disorder Detection via Real-World Monitoring of Neck-Surface Vibration](yousef26b_interspeech.md) — same problem · relatedness 2.9/3
+- [Measuring Vocal Efficiency in Daily Life in Patients with Voice Disorders Using Wireless Accelerometer and Microphone Sensors](yousef26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Modeling Lombard Effects in Voice Disorders Using Daily-Life Monitoring of Ambient Noise and Voice Acoustics](yousef26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

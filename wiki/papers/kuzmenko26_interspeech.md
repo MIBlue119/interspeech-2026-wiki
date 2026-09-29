@@ -79,4 +79,10 @@ SaluteDevices
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Bootstrapping Endangered Language ASR with Short-Form Corpora](bartley26_interspeech.md) — same problem · relatedness 2.3/3
+- [Genealogical Priors in Self-Supervised Learning: Improving Speech Technology for Low-Resource Languages](granda26_interspeech.md) — same problem · relatedness 2.3/3
+- [Alignment-Aware Continued Pre-training for Multilingual Speech Representation Learning](lu26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Unified Gradient Projection: Language-Balanced Continual Learning for Multilingual Low-Resource ASR](ren26g_interspeech.md) — same problem · relatedness 2.1/3
+- [PART: Progressive Alignment Representation Training for Multilingual Speech-To-Text with LLMs](zhang26aa_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Samsung
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades](sun26f_interspeech.md) — same problem · relatedness 2.2/3
+- [Better Late Than Never: Meta-Evaluation of Latency Metrics for Simultaneous Speech-to-Text Translation](polak26_interspeech.md) — same problem · relatedness 2.0/3
+- [NaturalFlow: Reducing Disruptive Pauses for Natural Speech Flow in Simultaneous Speech-to-Speech Translation](lee26c_interspeech.md) — same problem · relatedness 2.0/3
+- [POTSA: A Cross-Lingual Speech Alignment Framework for Speech-to-Text Translation](li26k_interspeech.md) — same problem · relatedness 2.0/3
+- [MTC-AVSR: Compressed-Token-based Audio-Visual Speech Recognition and Translation with Contrastive Language Alignment](a26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

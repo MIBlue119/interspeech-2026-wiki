@@ -81,4 +81,10 @@ Adalat AI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Dissecting ASR Failures in Low-Resource South Asian Languages](azeemi26_interspeech.md) — same problem · relatedness 2.4/3
+- [Vimarsha: Faithful ASR Evaluation for Indian Languages with Demographic Diversity, In-the-Wild Audio and Spelling Variations](bhogale26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India](bhogale26_interspeech.md) — same problem · relatedness 2.1/3
+- [Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation](srivastav26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Spashta Audio-Bench: Unified ASR and TTS Evaluation Framework across Indian Languages](dutta26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

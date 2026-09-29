@@ -78,4 +78,10 @@ University of Wisconsin-Madison, McGill University, University of Oregon
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Multilingual Word-Level Forced Alignment with Self-Supervised Representations and Learned Dynamic Programming](weber26_interspeech.md) — same problem · relatedness 3.0/3
+- [Evaluation of forced alignment of code-mixed speech: the case of Hindi-English](pandey26b_interspeech.md) — shared technique · relatedness 2.3/3
+- [Parameter-Efficient Adaptation of Speech-Aware LLMs for Timestamp Prediction](sunder26_interspeech.md) — same problem · relatedness 2.3/3
+- [CTC-TTS: LLM-Based Dual-Streaming Text-to-Speech with CTC Alignment](liu26e_interspeech.md) — complementary · relatedness 2.2/3
+- [CrossPhon-Tonal: Streamlining Cross-language Modeling for Forced Alignment in Low-resource Tonal Languages](wu26e_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

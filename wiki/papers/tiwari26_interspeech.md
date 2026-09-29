@@ -70,4 +70,10 @@ Expressive multimodal storytelling, emotional content creation, and interactive 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Diffusion Bridge Learning Between Overfitted and Underfitted Representations for speech emotion recognition](lee26w_interspeech.md) — same problem · relatedness 2.2/3
+- [SETEAB: Multiscale approach with Squeeze-and-Excitation Temporal Enhanced Aware Block for Speech Emotion Recognition](vo26_interspeech.md) — same problem · relatedness 2.1/3
+- [Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention](wang26u_interspeech.md) — same problem · relatedness 2.1/3
+- [Cross-modal Consistency Guidance for Robust Emotion Control in Auto-Regressive TTS Models](peng26g_interspeech.md) — same problem · relatedness 2.1/3
+- [AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning](zhang26ea_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

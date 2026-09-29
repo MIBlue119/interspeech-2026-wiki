@@ -77,4 +77,10 @@ International Institute of Information Technology Hyderabad
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Multilingual and Cross-lingual Lexical Stress Detection Using SSL Feature Vectors](alhabshi26_interspeech.md) — same problem · relatedness 2.8/3
+- [ProWhistress: An Enhanced Dual-Stream Transcription Architecture for Prosody-Aware Sentence Stress Detection](gu26b_interspeech.md) — same problem · relatedness 2.3/3
+- [A Novel Sentence Stress Detection Framework Leveraging Auxiliary Word-Stress Modeling and Loss Optimization](lo26_interspeech.md) — same problem · relatedness 2.2/3
+- [Evaluating and Preserving Lexical Stress in English-to-Chinese Speech-to-Speech Translation](song26f_interspeech.md) — same problem · relatedness 2.0/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

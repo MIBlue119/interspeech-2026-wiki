@@ -76,4 +76,10 @@ Fudan University, Logos & Dialogos
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — same problem · relatedness 2.6/3
+- [Improving Zero-Shot Phonetic Classification through Language-Agnostic Articulatory Features](magoshi26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Probing LoRA-to-LoRA Cross-Lingual Transfer for Unseen Low-Resource Conditions in Whisper-Based ASR](mondal26_interspeech.md) — same problem · relatedness 2.0/3
+- [BabAR: from phoneme recognition to developmental measures of young children''s speech production](lavechin26_interspeech.md) — same problem · relatedness 2.0/3
+- [How Bilingual Are SSL Speech Models? Cross-Lingual Probing of Articulatory Encoding with Finnish and Russian EMA](pedro26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

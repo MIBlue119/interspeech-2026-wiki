@@ -75,4 +75,10 @@ University of St. Gallen
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [From Game-Based Annotation to Representation Probing: Cross-Validated Prosodic Speech and Privacy Implications](sepanta26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Comparative Reasoning: Making an Audio Language Model Better at Comparing Emotions](naini26_interspeech.md) — complementary · relatedness 1.9/3
+- [The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation](tsai26_interspeech.md) — complementary · relatedness 1.9/3
+- [How Language-Independent Are Emotional Attributes? A Study on Training Data Scaling and Cross-Lingual Generalization](halmai26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -7,3 +7,8 @@
 sources/
 bin/
 /iswiki
+
+# Related pipeline intermediates (regenerate with scripts/related/candidates.py)
+data/related/papers.json
+data/related/candidates.jsonl
+data/related/raw/

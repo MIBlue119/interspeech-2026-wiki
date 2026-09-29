@@ -78,4 +78,10 @@ Kyoto University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Does Fine-tuning by Reinforcement Learning Improve Generalization in Binary Speech Deepfake Detection?](wang26k_interspeech.md) — shared technique · relatedness 2.1/3
+- [Adapting Audio Large Language Models for Speaker Verification](ren26c_interspeech.md) — shared technique · relatedness 2.0/3
+- [DeepFense: A Unified, Modular, and Extensible Framework for Robust Audio Deepfake Detection](kheir26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Discriminating Proficiency Levels in L2 Speech: A Comparative Study of Self-Supervised Models in Basque](souganidis26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Preserving the Iranian Turkic Language: Community-Driven ASR Datasets and Benchmarking for South Azerbaijani](farsi26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

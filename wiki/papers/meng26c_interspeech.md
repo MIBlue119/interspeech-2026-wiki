@@ -81,4 +81,10 @@ University of New South Wales, Alibaba Group, Chinese University of Hong Kong, S
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SpkGuideDOA: Speaker-wise Representation Guidance for Multiple Moving Speaker Localization](choi26g_interspeech.md) — same problem · relatedness 2.3/3
+- [Learning Self-Supervised Spatial Representations via Soft Acoustic Contrastive Alignment](silverman26_interspeech.md) — same problem · relatedness 2.0/3
+- [G2C-NET: A Grid-to-Continuous Neural Network for Sound Source Localization in Distributed Microphone Arrays](yue26_interspeech.md) — same problem · relatedness 2.0/3
+- [Position-Aware Target Speaker Extraction for Long-Form Multi-Party Conversations: A Diarization-Free Framework for ASR](wang26m_interspeech.md) — same problem · relatedness 1.9/3
+- [Fast Multichannel Nonnegative Matrix Factorization with Directivity Regularization for DOA-Informed Speech Separation](ono26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ UPES, National Tsing Hua University, VBSPU, Indraprastha Institute of Informatio
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FakeSound2: A Benchmark for Explainable, Traceable, and Generalizable Deepfake Sound Detection](xie26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [BACH: Benchmarking Audio Codecs for Bio-Acoustic Health](zhang26w_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Bridging the Age Gap: Towards Detecting Neural Audio Codec Synthesized Elderly Speech Deepfake](phukan26_interspeech.md) — same problem · relatedness 2.1/3
+- [Quantizer-Aware Hierarchical Neural Codec Modeling for Speech Deepfake Detection](wu26n_interspeech.md) — shared technique · relatedness 2.0/3
+- [Hard Positive-targeted Training for Robust Audio Deepfake Detection under Neural Codec Processing](seo26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

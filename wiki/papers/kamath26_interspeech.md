@@ -79,4 +79,10 @@ New York University, Sony AI, Sony Group Corporation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Spec2Spatial: A Time-Frequency Spatial Attention Network for Binaural Audio Synthesis](he26b_interspeech.md) — complementary · relatedness 1.9/3
+- [An Empirical Analysis of Task-Induced Encoder Bias in Fréchet Audio Distance](jeong26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [TTBA: Spatial Prompted Text to Binaural Audio Generation Using Transformer](he26_interspeech.md) — complementary · relatedness 1.9/3
+- [Probing Spatial Structure in Pretrained Audio Representations](chen26ba_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation](tsai26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Chung-Ang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Context-Adaptive Automated Audio Captioning with Symmetric Dual-MoE and Dynamic Reward Routing](ahn26_interspeech.md) — same problem · relatedness 2.2/3
+- [Do Modern Video-LLMs Need to Listen? A Benchmark Audit and Scalable Remedy](kim26s_interspeech.md) — same problem · relatedness 2.1/3
+- [Aligning Audio Captions with Human Preferences](hegde26_interspeech.md) — same problem · relatedness 2.0/3
+- [CoRE: Contrastive Evidence-Aware Rescoring for Multiple-Choice Audio Question Answering](zhang26f_interspeech.md) — same problem · relatedness 1.9/3
+- [RAISE: Resolving Ambiguity in Audio Understanding with Imagination and Selective Extraction](lin26i_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

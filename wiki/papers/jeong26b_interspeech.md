@@ -80,4 +80,10 @@ Sogang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Something from Nothing: Data Augmentation for Robust Severity Level Estimation of Dysarthric Speech](bae26_interspeech.md) — same problem · relatedness 2.4/3
+- [Adapting Self-Supervised Speech Representations for Cross-Lingual Dysarthria Detection in Parkinson's Disease](hernandez26_interspeech.md) — same problem · relatedness 2.4/3
+- [Clinically-Supervised Hierarchical LoRA-MoE: A Parameter-Efficient Framework for Severity-Aware Dysarthric Speech Assessment](wang26ga_interspeech.md) — same problem · relatedness 2.3/3
+- [Augmenting Dysarthric Speech Severity Assessment with MOS Supervision](jia26_interspeech.md) — same problem · relatedness 2.1/3
+- [Phoneme Error and Uncertainty Features for Interpretable Dysarthric Speech Assessment](zhong26c_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

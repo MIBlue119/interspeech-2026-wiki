@@ -74,4 +74,10 @@ University of St. Gallen, LMU Munich, University of Mannheim, Charlotte Freseniu
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CalliOpeNLP: A Standalone Digital Health Voice Data Collection Research Tool](stasak26_interspeech.md) — same problem · relatedness 2.1/3
+- [From Game-Based Annotation to Representation Probing: Cross-Validated Prosodic Speech and Privacy Implications](sepanta26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Balalaika: Data-Centric, Prosody-Aware Annotation Pipeline for Russian Speech](borodin26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Privacy-Preserving Speaker Verification with Multi-Granularity Feature Obfuscation](kim26d_interspeech.md) — same problem · relatedness 1.9/3
+- [Deriving Benchmarking Datasets from Long-Form Recordings: Challenges and Opportunities](sheth26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

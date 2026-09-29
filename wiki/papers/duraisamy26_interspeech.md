@@ -83,4 +83,10 @@ University of Luxembourg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DisenEEG-Net: Disentangling EEG features via sufficient information bottleneck and adversarial learning for cross-subject auditory attention detection](kausar26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Shared Phone-Level Neural Representations of Auditory Perception and ‘Inner Voice’ Production: One-to-One Mapping using a Single-Subject EEG Corpus of Heard and Imagined Natural Speech](wellington26_interspeech.md) — same problem · relatedness 1.9/3
+- [Layer-wise Multi-factor Adaptive Disentanglement for Cross-corpus Speech Depression Detection](wang26j_interspeech.md) — shared technique · relatedness 1.8/3
+- [SISER: Speaker-Invariant Speech Emotion Recognition with Entropy-Based Adversarial Training](choi26e_interspeech.md) — shared technique · relatedness 1.8/3
+- [Relating the Neural Representations of Vocalized, Mimed, and Imagined Speech](maghsoudi26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

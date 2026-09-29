@@ -80,4 +80,10 @@ International Institute of Information Technology Hyderabad, University of Bath
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Not Quite My Tempo: Voice Activity-aware Speech Synthesis for Lip-Synchronous Dubbing](perezgonzalezdemartos26_interspeech.md) — same problem · relatedness 2.6/3
+- [From Tokens to Faces: Investigating Discrete Speech Representations for 3D Facial Animation](correa26_interspeech.md) — same problem · relatedness 2.5/3
+- [Dual-Space Constrained Face-Based Zero-Shot Text-to-Speech Synthesis](wang26f_interspeech.md) — same problem · relatedness 2.0/3
+- [V-Align: Visual Forced Alignment via Phoneme to Video Optimal Path Traversal](ghosh26c_interspeech.md) — complementary · relatedness 1.9/3
+- [Integrating Facial Generation into Full-Duplex Spoken Dialogue Systems](jiang26g_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

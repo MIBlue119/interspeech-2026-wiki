@@ -71,4 +71,10 @@ Vellore Institute of Technology, International Institute of Information Technolo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ProWhistress: An Enhanced Dual-Stream Transcription Architecture for Prosody-Aware Sentence Stress Detection](gu26b_interspeech.md) — same problem · relatedness 3.0/3
+- [A Novel Sentence Stress Detection Framework Leveraging Auxiliary Word-Stress Modeling and Loss Optimization](lo26_interspeech.md) — same problem · relatedness 2.9/3
+- [Do Speech Emphasis Models Generalize across Languages and Emotions?](wei26e_interspeech.md) — same problem · relatedness 2.1/3
+- [CAL-MOS: Bridging Layers with Adapters for Robust MOS Prediction Across Speech Foundation Models](ferreira26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Uncovering Dimension-Specific Layer Preferences in Wav2Vec2 for Fine-Grained Perceptual Assessment of Dysarthric Speech](zhong26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ Xiamen University, Shanghai Innovation Institute, Shanghai Jiao Tong University,
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — shared technique · relatedness 2.5/3
+- [SARA: A Dual-Stream VAE for High-Fidelity Speech Generation via Integrating Semantic and Acoustic Representations](chen26v_interspeech.md) — same problem · relatedness 2.2/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.1/3
+- [Beyond Two-stage Diffusion TTS: Joint Structure and Content Refinement via Jump Diffusion](ai26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Refining the Latent Bridge: Superior ASR Performance via Adapter-Only Alignment with Diffusion LLMs](bhooi26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

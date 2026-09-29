@@ -69,4 +69,10 @@ Gwangju Institute of Science and Technology, AunionAI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FoleyImmersive: Decoupling What and Where for Video-to-First-Order Ambisonics](liang26b_interspeech.md) — same problem · relatedness 2.7/3
+- [FoleyGenEx: Unified Video-to-Audio Generation with Multi-Modal Control, Temporal Alignment, and Semantic Precision](wang26b_interspeech.md) — same problem · relatedness 2.7/3
+- [ARCHES: An Agent-Based Refinement Cycle for Hierarchical Synthesis of Sound Effects for Variety Shows](lei26_interspeech.md) — same problem · relatedness 2.5/3
+- [TTBA: Spatial Prompted Text to Binaural Audio Generation Using Transformer](he26_interspeech.md) — same problem · relatedness 1.8/3
+- [Visually-Guided Spatial Audio Generation for 360° In-the-Wild Speech Scenes](luo26b_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

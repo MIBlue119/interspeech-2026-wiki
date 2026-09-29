@@ -77,4 +77,10 @@ Indian Institute of Technology Bombay, IBM, Google DeepMind
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SCRIBE: Diagnostic Evaluation and Rich Transcription Models for Indic ASR](manohar26_interspeech.md) — complementary · relatedness 2.0/3
+- [Overcoming Decoder Inconsistencies in Whisper for Dravidian and Low-Resource Languages](kumar26c_interspeech.md) — complementary · relatedness 2.0/3
+- [IndicContextEval: A Benchmark for Evaluating Context Utilisation in Audio Large Language Models Across 8 Indic Languages](joshi26_interspeech.md) — complementary · relatedness 1.9/3
+- [VāṇīSetu: A Human-AI Collaborative Framework for Scalable Conversational Speech Corpus Creation in Low-Resource Settings](kumar26h_interspeech.md) — complementary · relatedness 1.9/3
+- [Turning Speech Language Models into Multilingual Listeners](ogunremi26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Indian Institute of Science, St. Johns National Academy of Health Sciences
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AuscuTSLM: Patient-Level Multimodal Question Answering from Multi-Site Auscultation Recordings](wu26j_interspeech.md) — same problem · relatedness 1.7/3
+- [SpiroPhonia: Non-Invasive Respiratory Health Assessment from Spontaneous Speech](khanom26_interspeech.md) — same problem · relatedness 1.6/3
+- [Lung-SRAD: Spectral-Aware Regularized Audio DASS with Dual-Axis Patch-Mix Contrastive Learning for Respiratory Sound Classification](shridhar26_interspeech.md) — same problem · relatedness 1.6/3
+- [Quality Adaptive Angular Margin Learning for Respiratory Sound Classification](kim26k_interspeech.md) — same problem · relatedness 1.5/3
+- [Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment](ilerisoy26_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

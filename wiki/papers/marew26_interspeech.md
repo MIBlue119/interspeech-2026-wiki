@@ -75,4 +75,10 @@ Mohamed bin Zayed University of Artificial Intelligence
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Building Tailored Speech Recognizers for Japanese Speaking Assessment](kubo26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Probing and Mitigating Hallucinations in Speech-augmented Language Models for Automatic Speech Recognition via Small Language Models](yan26c_interspeech.md) — shared technique · relatedness 1.7/3
+- [CTC-TTS: LLM-Based Dual-Streaming Text-to-Speech with CTC Alignment](liu26e_interspeech.md) — shared technique · relatedness 1.6/3
+- [Transitional Objective Learning with Connectionist Temporal Classification in Phoneme Recognition](krysinska26_interspeech.md) — shared technique · relatedness 1.6/3
+- [Evaluation of forced alignment of code-mixed speech: the case of Hindi-English](pandey26b_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

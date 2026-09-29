@@ -81,4 +81,10 @@ Pohang University of Science and Technology, Intus
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Latency Controllable Speech Enhancement](sato26_interspeech.md) — same problem · relatedness 3.0/3
+- [RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation](chao26_interspeech.md) — same problem · relatedness 2.9/3
+- [HALO: Half-Frame-Rate Adaptive Learnable Operator for Lightweight STFT-Based Speech Enhancement](zhao26c_interspeech.md) — same problem · relatedness 2.6/3
+- [Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow](zhang26z_interspeech.md) — same problem · relatedness 2.4/3
+- [RT-Tango: Real-Time Distributed Binaural Speech Enhancement for Low-Power Hearing Aid Devices](benslimane26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

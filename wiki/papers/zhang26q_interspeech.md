@@ -78,4 +78,10 @@ University of Macau, Peking University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Beyond Pitch: Multidimensional Cue Reweighting of Two High-Falling Tones in Pingdingshan Mandarin](chen26c_interspeech.md) — shared technique · relatedness 1.9/3
+- [Age-dependent acoustic changes of the frication noise in dental sibilants produced by typically developing Polish children between 5 and 8 years of age](miodonska26_interspeech.md) — same problem · relatedness 1.9/3
+- [Acoustic Differences Between Citation and Sandhi Tones Across Three Generations in Xiamen Southern Min](xie26d_interspeech.md) — shared technique · relatedness 1.9/3
+- [F0 realization of prosodic focus across adulthood in Jianghuai Mandarin](zhao26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Age-related Differences in the Perception of Vowel Length Contrast in Northern Vietnamese: The Case of Hoang Van (Bac Ninh) Variety](ta26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ Sungkyunkwan University, University of Illinois Urbana-Champaign
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DroFiT: A Lightweight Band-Fused Frequency Attention Toward Real-Time UAV Speech Enhancement](lee26n_interspeech.md) — same problem · relatedness 2.5/3
+- [Joint Learning of Covariance Estimation and White Noise Gain for Robust MVDR Beamforming](deng26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Fast Multichannel Nonnegative Matrix Factorization with Directivity Regularization for DOA-Informed Speech Separation](ono26_interspeech.md) — same problem · relatedness 2.0/3
+- [SpkGuideDOA: Speaker-wise Representation Guidance for Multiple Moving Speaker Localization](choi26g_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards Array-Invariant Speech Enhancement via Geometry-Aware Dynamic Convolution](liu26d_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

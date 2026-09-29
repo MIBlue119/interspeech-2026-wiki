@@ -76,4 +76,10 @@ University of Illinois Urbana-Champaign, Meta
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learnable Schrödinger Bridge and Activations for Efficient Diffusion-based Speech Enhancement](fu26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.2/3
+- [HALO: Half-Frame-Rate Adaptive Learnable Operator for Lightweight STFT-Based Speech Enhancement](zhao26c_interspeech.md) — same problem · relatedness 2.2/3
+- [TF-MoE: Time-Frequency Mixture-of-Experts for Efficient Speech Separation](hu26d_interspeech.md) — same problem · relatedness 2.2/3
+- [Neuromorphic Speech Enhancement with Dual-Branch Spiking Neural Networks](meng26d_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

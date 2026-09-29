@@ -76,4 +76,10 @@ Sogang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ELSA: Acoustic Event-Level Semantic Alignment for Fine-Grained Reference-Free Text-to-Audio Evaluation](suzuki26_interspeech.md) — same problem · relatedness 2.4/3
+- [The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation](tsai26_interspeech.md) — same problem · relatedness 2.2/3
+- [Evaluating Objective Speech Quality Metrics for Neural Audio Codecs](lanzendoerfer26_interspeech.md) — same problem · relatedness 2.1/3
+- [Investigating the Relationship between Objective AI-driven Metrics and Subjective MOS for In-the-Wild Speech](sanjotra26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Investigating Human-Model Discrepancies in Speech Quality Assessment via Acoustic and Prosodic Perturbations](takagi26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

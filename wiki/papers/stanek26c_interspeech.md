@@ -80,4 +80,10 @@ Brno University of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Robust Speech Deepfake Detection via Human-Inspired Reasoning](dvirniak26_interspeech.md) — shared data / evaluation · relatedness 2.7/3
+- [Supervised Post-training of Speech Foundation Models for Robust Adaptation in Speech Deepfake Detection](pan26_interspeech.md) — shared data / evaluation · relatedness 2.7/3
+- [BiSASV: Bidirectional Feature Modulation with Dual-Granularity Fusion for Spoofing-Robust ASV](zhou26d_interspeech.md) — same problem · relatedness 2.5/3
+- [Soft-Gating Score-Level Fusion for Spoofing-Aware Speaker Verification](han26e_interspeech.md) — same problem · relatedness 2.5/3
+- [Aleatoric Style Uncertainty Augmentation with GMM for Domain Generalization in Anti-spoofing](li26g_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

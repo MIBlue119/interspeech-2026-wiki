@@ -82,4 +82,10 @@ Tohoku University, Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech Encoder Fusion for LLM-based Automatic Speech Recognition](poncelet26_interspeech.md) — same problem · relatedness 2.4/3
+- [Refining the Latent Bridge: Superior ASR Performance via Adapter-Only Alignment with Diffusion LLMs](bhooi26_interspeech.md) — same problem · relatedness 2.3/3
+- [Merging the Knowledge of LLMs for Automatic Speech Recognition](futami26_interspeech.md) — same problem · relatedness 2.2/3
+- [Avoiding Catastrophic Forgetting in Text-Only Adaptation of LLM-based ASR via Multi-View Text Denoising](burdisso26_interspeech.md) — same problem · relatedness 2.1/3
+- [Refining Pseudo-Audio Prompts with Speech-Text Alignment for Text-Only Domain Adaptation in LLM-Based ASR](magoshi26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

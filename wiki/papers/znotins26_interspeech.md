@@ -81,4 +81,10 @@ University of Latvia, Assistentis, DATI Group, Viroling Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Two-stage semi-supervised learning with pseudo-labels: A case study on Northern Sámi ASR](pal26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Gumbel-BEARD: Automatic Layer Selection for Self-Supervised Adaptation of Whisper in Low-Resource Domains](wang26o_interspeech.md) — same problem · relatedness 2.0/3
+- [S-DiverSe: Spanish Diverse Speech](lopez26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Unlocking In-Context Learning in Audio-Language Models from Decentralized Medical Audio](piao26_interspeech.md) — same problem · relatedness 2.0/3
+- [Hamsa: A Manually Annotated Emirati Arabic Corpus for Speech and Language Technologies](alyafeai26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

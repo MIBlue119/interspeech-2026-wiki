@@ -76,4 +76,10 @@ Xi'an Jiaotong-Liverpool University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AQA-TTRL: Self-Adaptation in Audio Question Answering with Test-Time Reinforcement Learning](zhang26c_interspeech.md) — same problem · relatedness 2.6/3
+- [MATA: A Training-Free Approach to Mitigate Cross-Modal Attention Imbalance in Large Audio Language Models](wang26t_interspeech.md) — same problem · relatedness 2.5/3
+- [RAISE: Resolving Ambiguity in Audio Understanding with Imagination and Selective Extraction](lin26i_interspeech.md) — same problem · relatedness 2.4/3
+- [Multi-Source Evidence Fusion for Audio Question Answering](olev26_interspeech.md) — same problem · relatedness 2.4/3
+- [Robustness Assessment of Large Audio Language Models in Multiple-choice Evaluation](lopez26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

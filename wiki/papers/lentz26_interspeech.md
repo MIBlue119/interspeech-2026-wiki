@@ -76,4 +76,9 @@ Ruhr-Universität Bochum, McMaster University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards a Stochastic DNN Approximation of Cochlear Implant Auditory Models](hartmann26_interspeech.md) — same problem · relatedness 1.7/3
+- [Adaptation to Room Acoustics in Understanding Vocoded Speech: A Comparison Between Listeners With Varying Immersion Age](pratiwi26_interspeech.md) — same problem · relatedness 1.7/3
+- [Relative Importance of Formants to the Intelligibility of Vocoded Speech in Cochlear Implant Simulation](cai26_interspeech.md) — same problem · relatedness 1.6/3
+- [Lightweight Convolutional Front-ends for Real-time Framewise Phoneme Recognition in Cochlear Implants](guo26d_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

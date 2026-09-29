@@ -80,4 +80,10 @@ KAIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Ultra-Low-Bitrate Neural Speech Codec with Plain-to-Pseudo Synergistic Vector Quantization](jiang26h_interspeech.md) — same problem · relatedness 2.9/3
+- [A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization](zhang26ga_interspeech.md) — same problem · relatedness 2.9/3
+- [ProsoCodec: Prosody-Oriented Speech Codec for Voice Conversion](choi26d_interspeech.md) — same problem · relatedness 2.9/3
+- [VoCodec: A Low-bitrate Streamable Neural Speech Codec with Voicing-driven Quantization](jiang26b_interspeech.md) — same problem · relatedness 2.9/3
+- [AugCodec: A Low-Bitrate Disentangled Neural Speech Codec via Data Augmentation](wang26y_interspeech.md) — same problem · relatedness 2.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

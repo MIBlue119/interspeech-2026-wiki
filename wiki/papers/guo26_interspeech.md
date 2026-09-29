@@ -77,4 +77,10 @@ Nankai University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Modeling Overlapped Speech with Shuffles](wiesner26_interspeech.md) — same problem · relatedness 2.5/3
+- [Distilling LLM Semantic Priors into Encoder-Only Multi-Talker ASR with Talker-Count Routing](shi26_interspeech.md) — same problem · relatedness 2.4/3
+- [Speaker-Aware Hypothesis Clustering and Merging for Target-Speaker-free and Target-Speaker Multi-Talker ASR](kashiwagi26_interspeech.md) — same problem · relatedness 2.4/3
+- [Balancing ASR and diarization in end-to-end LLMs for multi-talker speech recognition](zheng26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Pushing the Boundaries of Streaming Multi-Speaker ASR: A Systematic Study of Architectural Trade-offs](park26e_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

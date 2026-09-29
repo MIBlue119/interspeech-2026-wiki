@@ -80,4 +80,10 @@ Network and Data Security Key Laboratory of Sichuan Province, University of Elec
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Margin-Aware Contrastive Regularization for Robust Streaming Keyword Spotting under Strict False-Alarm Constraints](zhang26ha_interspeech.md) — same problem · relatedness 2.6/3
+- [Streaming Open-Vocabulary Keyword Spotting via Role Swapping in Cross-Attention](chen26q_interspeech.md) — same problem · relatedness 2.4/3
+- [MPA-KWS: Multi-Modal Phoneme-Level Alignment for Streaming Open-Vocabulary Keyword Spotting](zhang26fa_interspeech.md) — same problem · relatedness 2.2/3
+- [Sub-Model Short-Term Memory Convolutions for Keyword Spotting Systems on Device](warlewski26_interspeech.md) — same problem · relatedness 2.2/3
+- [Scalable Keyword Spotting via Modular Network Expansion](khaymonenko26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Sony
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Confidence-Gated Mean-Teacher Consistency Regularization for Low-Resource Multilingual ASR with Shared–Private Fusion-LoRA](liu26h_interspeech.md) — same problem · relatedness 2.3/3
+- [Dissecting ASR Failures in Low-Resource South Asian Languages](azeemi26_interspeech.md) — same problem · relatedness 2.2/3
+- [GigaAM Multilingual: Foundation Model for Underrepresented Languages](kuzmenko26_interspeech.md) — same problem · relatedness 2.1/3
+- [Probing LoRA-to-LoRA Cross-Lingual Transfer for Unseen Low-Resource Conditions in Whisper-Based ASR](mondal26_interspeech.md) — same problem · relatedness 2.1/3
+- [Gumbel-BEARD: Automatic Layer Selection for Self-Supervised Adaptation of Whisper in Low-Resource Domains](wang26o_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

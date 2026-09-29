@@ -77,4 +77,10 @@ National Tsing Hua University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SDP-Codec: A Speaker-Decoupled Speech Codec with Pitch Injection for Low-Bitrate Coding and Zero-Shot Voice Conversion](kim26v_interspeech.md) — shared technique · relatedness 2.0/3
+- [MSR-Codec: A Low-Bitrate Multi-Stream Residual Codec for High-Fidelity Speech Generation with Information Disentanglement](li26c_interspeech.md) — shared technique · relatedness 2.0/3
+- [ContextCodec: Content-Focused Context Guidance for Ultra-Low Bitrate Speech Coding](liang26d_interspeech.md) — same problem · relatedness 1.9/3
+- [OmniCodec: Low Frame Rate Universal Audio Codec with Semantic–Acoustic Disentanglement](hu26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Tone-Conditioned Curriculum Learning for Low-Resource Bantu Speech Recognition](mokgosi26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

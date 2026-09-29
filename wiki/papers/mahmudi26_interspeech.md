@@ -70,4 +70,10 @@ University of Melbourne
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech Recognition to Accelerate Documentation of Marquesan and Cook Islands Māori](teikitohe26_interspeech.md) — same problem · relatedness 2.2/3
+- [Bootstrapping Endangered Language ASR with Short-Form Corpora](bartley26_interspeech.md) — same problem · relatedness 2.2/3
+- [Hamsa: A Manually Annotated Emirati Arabic Corpus for Speech and Language Technologies](alyafeai26_interspeech.md) — same problem · relatedness 2.0/3
+- [Genealogical Priors in Self-Supervised Learning: Improving Speech Technology for Low-Resource Languages](granda26_interspeech.md) — same problem · relatedness 2.0/3
+- [Preserving the Iranian Turkic Language: Community-Driven ASR Datasets and Benchmarking for South Azerbaijani](farsi26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

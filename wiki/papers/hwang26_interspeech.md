@@ -80,4 +80,10 @@ Seoul National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [EII-SCL: Harnessing Emotional Inertia for Multimodal Emotion Recognition in Conversation](huang26p_interspeech.md) — same problem · relatedness 3.0/3
+- [EmoEUS: Uncertainty Supervision for Multimodal Emotion Recognition in Conversation](huang26n_interspeech.md) — same problem · relatedness 3.0/3
+- [Speaker-Filtered Heterogeneous Graph Network: Toward Privacy-Preserving Multimodal Emotion Recognition](song26e_interspeech.md) — same problem · relatedness 2.9/3
+- [Segment-wise Embedding based Graph Attention Network for Effective Speech Emotion Recognition](song26c_interspeech.md) — same problem · relatedness 2.6/3
+- [Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition](ryu26_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

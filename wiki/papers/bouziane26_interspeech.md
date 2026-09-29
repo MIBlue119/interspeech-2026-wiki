@@ -78,4 +78,10 @@ Avignon Universite
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Dual-LoRA: Parameter-Efficient Adversarial Disentanglement for Cross-Lingual Speaker Verification](shangguan26_interspeech.md) — same problem · relatedness 2.8/3
+- [LaS-LCA: Layer-Selected Latent Cross-Attention Adapters and Margin-Mixup for Robust Cross-Lingual Speaker Verification](shen26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Orthogonal Feature Projection and Manifold-Constrained Neural PLDA for the TidyVoice2026 Cross-Lingual Speaker Verification Challenge](du26c_interspeech.md) — same problem · relatedness 2.7/3
+- [Learning task-specific subspaces via interventional post-training of speech foundation models](cox26_interspeech.md) — same problem · relatedness 2.7/3
+- [Language-Invariant Multilingual Speaker Verification for the TidyVoice 2026 Challenge](li26fa_interspeech.md) — same problem · relatedness 2.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

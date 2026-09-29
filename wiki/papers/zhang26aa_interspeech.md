@@ -80,4 +80,10 @@ Alibaba Group, University of Macau, Chinese University of Hong Kong
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Alignment-Aware Continued Pre-training for Multilingual Speech Representation Learning](lu26b_interspeech.md) — same problem · relatedness 2.7/3
+- [BELLA: Efficient Bilevel Learning with LoRA for Multilingual ASR](saif26_interspeech.md) — same problem · relatedness 2.6/3
+- [Upcycling Pretrained Transformers into Mixture-of-Experts for Multilingual Speech Recognition](shinayama26_interspeech.md) — same problem · relatedness 2.2/3
+- [Does Translation-Enhanced Speech Encoder Pre-training Affect Speech LLMs?](mizumoto26_interspeech.md) — same problem · relatedness 2.1/3
+- [GigaAM Multilingual: Foundation Model for Underrepresented Languages](kuzmenko26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

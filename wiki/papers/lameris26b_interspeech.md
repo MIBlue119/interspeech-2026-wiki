@@ -71,4 +71,10 @@ KTH Royal Institute of Technology, University of Texas at El Paso
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Hierarchical Conditional Continuous Normalizing Flows for Creaky Voice Editing under Speaker Identity Preservation](rautenberg26_interspeech.md) — same problem · relatedness 2.1/3
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Lost in Phonation: Voice Quality Variation as an Evaluation Dimension for Speech Foundation Models](lameris26_interspeech.md) — complementary · relatedness 2.0/3
+- [CraftTTS: Fine-Grained Prosody Control for Text-to-Speech](yang26l_interspeech.md) — same problem · relatedness 1.9/3
+- [Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning](polle26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

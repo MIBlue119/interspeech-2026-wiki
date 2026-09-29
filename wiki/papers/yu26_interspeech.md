@@ -75,4 +75,10 @@ Utrecht University, University of Groningen
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Moot-Court: Training-Free Dialectical Reasoning for Depression Detection](sun26i_interspeech.md) — same problem · relatedness 2.5/3
+- [GADVOX: The German Anxiety and Depression Voice Examination Dataset](spang26_interspeech.md) — complementary · relatedness 2.0/3
+- [Uncovering Latent Depression Severity for Binary Depression Detection via Advantage-weighting Ranking](gao26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Learning to Attend to Depression-Related Patterns: An Adaptive Cross-Modal Gating Network for Depression Detection](yu26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Speech-based Psychological Crisis Assessment using LLMs](chiba26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

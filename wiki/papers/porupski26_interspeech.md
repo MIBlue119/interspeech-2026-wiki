@@ -80,4 +80,10 @@ Jožef Stefan Institute, TransUnion, University of Zagreb, University of Ljublja
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [On Entrainment in Semi-Spontaneous Multilingual Parliamentary Speech](ries26_interspeech.md) — same problem · relatedness 1.9/3
+- [Speaker or Language? Explaining Variance in Charismatic Prosody Across Luxembourgish and French](hosseinikivanani26_interspeech.md) — same problem · relatedness 1.8/3
+- [Exploring Hesitation as a Signal for Spoken Grammatical Error Correction](han26c_interspeech.md) — complementary · relatedness 1.8/3
+- [Learning to Hear Hesitation: Continual Learning for Disfluency-Aware ASR](kordt26_interspeech.md) — same problem · relatedness 1.6/3
+- [Speaker-Specific and Language-Dependent Temporal Organization in Bilingual Political Speech](hosseinikivanani26b_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

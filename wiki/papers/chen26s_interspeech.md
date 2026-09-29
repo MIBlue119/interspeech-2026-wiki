@@ -71,4 +71,10 @@ National Taiwan University, Academia Sinica, University of California Irvine
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](gao26e_interspeech.md) — same problem · relatedness 2.5/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.4/3
+- [UniSE: A Unified Framework for Decoder-Only Autoregressive LM-Based Speech Enhancement](yan26_interspeech.md) — same problem · relatedness 2.4/3
+- [Post-Training Speech Enhancement Language Models with Perceptual Rewards](berdo26_interspeech.md) — shared technique · relatedness 2.4/3
+- [Learnable Schrödinger Bridge and Activations for Efficient Diffusion-based Speech Enhancement](fu26b_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

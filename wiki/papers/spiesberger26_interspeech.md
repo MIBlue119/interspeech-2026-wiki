@@ -75,4 +75,10 @@ Technical University of Munich, Munich Center for Machine Learning, Friedrich-Sc
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Acoustic Biomarkers of Sleep Deprivation on French Read Speech: Interpretable and Frugal Modeling of Sleep Deprivation and Its Symptoms](martin26_interspeech.md) — shared technique · relatedness 1.7/3
+- [Automatic Detection of Stress from Speech in the Trier Social Stress Test](drimalla26_interspeech.md) — shared technique · relatedness 1.7/3
+- [Who is Speaking or Who is Depressed? A Controlled Study of Speaker Leakage in Speech-Based Depression Detection](yeh26_interspeech.md) — shared technique · relatedness 1.7/3
+- [Common Cold Corpus: Health-Aware Robustness Study of Modern Speaker Embeddings Under Physiological Domain Shift](hacker26_interspeech.md) — relatedness 1.6/3
+- [Speech-based Psychological Crisis Assessment using LLMs](chiba26_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

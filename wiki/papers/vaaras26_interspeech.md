@@ -80,4 +80,10 @@ Tampere University, University of Helsinki
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech Playground: An Interactive Tool for Speech Analysis and Comparison](mcintosh26_interspeech.md) — same problem · relatedness 2.1/3
+- [SpeechBench: A Unified Speech Annotation and Analysis Tool](nan26_interspeech.md) — same problem · relatedness 2.0/3
+- [The TinyExplorer Ecosystem: Open tools for studying infants’ auditory and visual experiences](oliveira26c_interspeech.md) — same problem · relatedness 1.9/3
+- [CalliOpeNLP: A Standalone Digital Health Voice Data Collection Research Tool](stasak26_interspeech.md) — complementary · relatedness 1.8/3
+- [NewAppVoice: Tools for Visualizing and Correcting Acoustic Measures](elmerich26_interspeech.md) — complementary · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

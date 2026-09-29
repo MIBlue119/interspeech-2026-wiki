@@ -75,4 +75,10 @@ Hong Kong Polytechnic University, Chinese University of Hong Kong, First Affilia
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Articulatory Entrainment and Coordination Complexity in Spontaneous Autistic and Non-autistic Dialogue](withanage26_interspeech.md) — same problem · relatedness 1.9/3
+- [Prosodic Realization of Focus in Yi-Mandarin Bilingual Speakers: On-Focus Expansion without Post-Focus Compression](zhang26g_interspeech.md) — same problem · relatedness 1.8/3
+- [F0 realization of prosodic focus across adulthood in Jianghuai Mandarin](zhao26b_interspeech.md) — relatedness 1.6/3
+- [Making Room for Speech Diversity: A 50 Year Retrospective of Speech Science and Technology through a Neurodivergent Lens](lietz26_interspeech.md) — relatedness 1.6/3
+- [What Happens When We Speak Together? Multidimensional Convergence in Face-to-Face Interaction](pagel26_interspeech.md) — relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

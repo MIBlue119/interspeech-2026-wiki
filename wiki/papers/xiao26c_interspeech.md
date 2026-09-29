@@ -75,4 +75,10 @@ University of Stuttgart, National Institute of Informatics, German Research Cent
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Do Deepfake Speech Detectors Actually Hear?](stanek26_interspeech.md) — same problem · relatedness 2.7/3
+- [DeepFense: A Unified, Modular, and Extensible Framework for Robust Audio Deepfake Detection](kheir26_interspeech.md) — same problem · relatedness 2.3/3
+- [Interpretable Frequency-Band Attention with Gated SSL Fusion for Audio Deepfake Detection](alhammad26_interspeech.md) — same problem · relatedness 2.2/3
+- [Towards Robust Speech Deepfake Detection via Human-Inspired Reasoning](dvirniak26_interspeech.md) — same problem · relatedness 2.1/3
+- [Mixture of Spectral Experts for Audio Deepfake Detection](qiu26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

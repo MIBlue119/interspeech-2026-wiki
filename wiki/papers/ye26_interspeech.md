@@ -76,4 +76,10 @@ Hong Kong University of Science and Technology, Tencent, University of Surrey, C
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ALARM: Audio–Language Alignment for Reasoning Models](grinberg26_interspeech.md) — same problem · relatedness 2.5/3
+- [Discrete vs. Continuous: A Comprehensive Study of Unified Audio Understanding in LALMs](peng26h_interspeech.md) — same problem · relatedness 2.3/3
+- [HybridCodec: Modeling Discrete and Continuous Representations For Efficient Speech Language Models](ploujnikov26_interspeech.md) — shared technique · relatedness 2.2/3
+- [WavSLM: Single-Stream Speech Language Modeling via WavLM Distillation](libera26_interspeech.md) — same problem · relatedness 2.1/3
+- [TASTE-Streaming: Towards Streamable Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling](tseng26b_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

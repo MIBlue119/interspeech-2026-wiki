@@ -79,4 +79,10 @@ Indian Institute of Technology Madras, AI4Bharat, Josh Talks
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Spashta Audio-Bench: Unified ASR and TTS Evaluation Framework across Indian Languages](dutta26_interspeech.md) — same problem · relatedness 2.2/3
+- [IN-F5: Adapting an English TTS Foundation Model for Multilingual and Zero-Resource Indian Speech Synthesis](varadhan26_interspeech.md) — same problem · relatedness 2.0/3
+- [Exploring Active Sampling Strategies for Pairwise Comparisons in Speech Synthesis Evaluation](valentinibotinhao26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Decoding the Ear (DeEAR): A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](lin26l_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [PrefSQA: Pairwise Preference Prediction for Speech Quality Assessment and the Critical Role of High Quality Datasets](fan26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

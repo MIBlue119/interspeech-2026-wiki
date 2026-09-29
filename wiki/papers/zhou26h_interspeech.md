@@ -74,4 +74,10 @@ Tsinghua University, Inner Mongolia University, Tencent
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [EmoInstruct-TTS: Dual-Path Instruction-Guided Emotional Speech Synthesis](wu26f_interspeech.md) — same problem · relatedness 2.7/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — same problem · relatedness 2.6/3
+- [Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction](fujita26_interspeech.md) — same problem · relatedness 2.6/3
+- [Bagpiper-TTS: Natural Language Guided Universal Speech Synthesis](tian26_interspeech.md) — same problem · relatedness 2.5/3
+- [ETC-TTS: Emotion Trajectory Learning for Controllable Emotional Text-to-Speech](kim26u_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

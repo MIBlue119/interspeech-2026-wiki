@@ -75,4 +75,10 @@ Hyundai Motor Group
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Phonikud: Overcoming Phonetic Underspecification for Hebrew Text-To-Speech](kolani26_interspeech.md) — same problem · relatedness 2.1/3
+- [Benchmarking Large Language Models for Grapheme-to-Phoneme Conversion: A Japanese Case Study](koriyama26_interspeech.md) — same problem · relatedness 2.1/3
+- [SALT: Selective Allophone-Level Tokenization for Korean Text-to-Speech Synthesis](kim26p_interspeech.md) — same problem · relatedness 1.9/3
+- [Scaling Human and G2P Supervision for Robust Phonetic Transcription](metzger26_interspeech.md) — shared technique · relatedness 1.8/3
+- [G2PO: A Lightweight Lexicon-enhanced Framework for Open-Vocabulary Mandarin Polyphone Disambiguation](chen26i_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

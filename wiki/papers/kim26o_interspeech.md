@@ -81,4 +81,10 @@ KAIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [StyleStream: Real-Time Zero-Shot Voice Style Conversion](liu26c_interspeech.md) — same problem · relatedness 1.8/3
+- [Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models](li26ba_interspeech.md) — same problem · relatedness 1.7/3
+- [CTMusic: A Traditional Chinese Instrumental Music Dataset Towards Text-to-Music Generation](zhang26l_interspeech.md) — complementary · relatedness 1.6/3
+- [ELSA: Acoustic Event-Level Semantic Alignment for Fine-Grained Reference-Free Text-to-Audio Evaluation](suzuki26_interspeech.md) — complementary · relatedness 1.6/3
+- [How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech](mathur26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

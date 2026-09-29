@@ -76,4 +76,10 @@ Tampere University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Daily Affect Inference from Longitudinal Speech-based Journals: A Comparison of Acoustic and Linguistic Models](schlicher26_interspeech.md) — same problem · relatedness 2.4/3
+- [ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling](zhang26ca_interspeech.md) — same problem · relatedness 2.1/3
+- [Lightweight Emotion Recognition with Disjoint Modality Fusion](sulun26_interspeech.md) — same problem · relatedness 2.1/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — same problem · relatedness 2.1/3
+- [Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition](ryu26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

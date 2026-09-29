@@ -78,4 +78,10 @@ Hong Kong Polytechnic University, University of Hong Kong
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Diffusion Reconstruction towards Generalizable Audio Deepfake Detection](cheng26_interspeech.md) — same problem · relatedness 2.9/3
+- [Supervised Post-training of Speech Foundation Models for Robust Adaptation in Speech Deepfake Detection](pan26_interspeech.md) — same problem · relatedness 2.9/3
+- [Mixture of Spectral Experts for Audio Deepfake Detection](qiu26_interspeech.md) — same problem · relatedness 2.9/3
+- [ProSDD: Learning Prosodic Representations for Speech Deepfake Detection against Expressive and Emotional Attacks](mahapatra26_interspeech.md) — same problem · relatedness 2.9/3
+- [Improving Generalization in Speech Deepfake Detection via Orthogonality-Constrained Common-Specific Feature Decorrelation](kim26l_interspeech.md) — same problem · relatedness 2.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

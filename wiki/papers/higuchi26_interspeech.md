@@ -77,4 +77,10 @@ University of Electro-Communications
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Joint Speech And Text Training For LLM-based End-To-End Spoken Dialogue State Tracking](vendrame26_interspeech.md) — same problem · relatedness 2.5/3
+- [Entity Binding Failures in Speech LLM Reasoning: Diagnosis and Chain-of-Thought Intervention](hsu26_interspeech.md) — same problem · relatedness 1.9/3
+- [Beyond Mimicry: Constrained Exploration with GRPO for Joint Multi-Talker ASR and Diarization under Unknown Speaker Counts](cai26c_interspeech.md) — shared technique · relatedness 1.8/3
+- [X-OPD: Cross-Modal On-Policy Distillation for Capability Alignment in Speech LLMs](cao26_interspeech.md) — same problem · relatedness 1.8/3
+- [Imitation Learning for Elder-Facing Speech Synthesis](han26d_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

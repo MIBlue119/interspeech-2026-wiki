@@ -81,4 +81,10 @@ Xiaomi, Central Conservatory of Music
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TriA Pipeline: A Large-Scale Automatic Audio Annotation Pipeline For Audio Classification In Specific Scenarios](lyu26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [Back to Ear: Perceptually Driven High Fidelity Music Reconstruction](wang26d_interspeech.md) — same problem · relatedness 1.7/3
+- [DTT-BSR+: A Generative-Regression Cascade for Music Source Restoration](ni26b_interspeech.md) — same problem · relatedness 1.7/3
+- [Inside the Latent Flow: Causal Deciphering of Attention Dynamics in Audio Separation Foundation Models](chen26ca_interspeech.md) — same problem · relatedness 1.6/3
+- [TF-MossFormer: Integrating Convolution Gated Local-Global Attentions for Enhanced Time-Frequency Domain Monaural Speech Separation](zhao26_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

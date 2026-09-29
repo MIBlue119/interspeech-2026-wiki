@@ -80,4 +80,10 @@ University of New South Wales
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Revisiting Emotion-Based Triage: Evidence from French Emergency Call Data](stasica26_interspeech.md) — same problem · relatedness 2.0/3
+- [Generating Synthetic Doctor-Patient Conversations for Long-form Audio Summarization](labrak26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Benchmarking Speech Systems for Frontline Health Conversations: The DISPLACE-M Challenge](e26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [Unlocking In-Context Learning in Audio-Language Models from Decentralized Medical Audio](piao26_interspeech.md) — same problem · relatedness 1.8/3
+- [Speech-based Psychological Crisis Assessment using LLMs](chiba26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

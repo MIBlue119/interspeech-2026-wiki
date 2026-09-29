@@ -82,4 +82,10 @@ Charles University, Fondazione Bruno Kessler, AppTek
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learning to Wait: Real Streaming Speech-to-Text Translation with an LLM](zhang26u_interspeech.md) — same problem · relatedness 2.0/3
+- [Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades](sun26f_interspeech.md) — same problem · relatedness 2.0/3
+- [NaturalFlow: Reducing Disruptive Pauses for Natural Speech Flow in Simultaneous Speech-to-Speech Translation](lee26c_interspeech.md) — same problem · relatedness 1.8/3
+- [Rubric-Aligned Disentangled Evaluation of Human Simultaneous Interpreting](zhang26o_interspeech.md) — same problem · relatedness 1.7/3
+- [MTC-AVSR: Compressed-Token-based Audio-Visual Speech Recognition and Translation with Contrastive Language Alignment](a26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

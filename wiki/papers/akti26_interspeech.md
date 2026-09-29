@@ -78,4 +78,10 @@ Karlsruhe Institute of Technology, Carnegie Mellon University, KIT Campus Transf
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — shared technique · relatedness 2.0/3
+- [RobustSpeechFlow: Learning Robust Text-to-Speech Trajectories via Augmentation-based Contrastive Flow Matching](yang26p_interspeech.md) — shared technique · relatedness 2.0/3
+- [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](gao26e_interspeech.md) — shared technique · relatedness 2.0/3
+- [Vocal Effort Modulation Strategies: A Cross-Corpus Taxonomy with Noise Robustness and ASR Implications](marcinek26_interspeech.md) — same problem · relatedness 2.0/3
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

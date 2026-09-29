@@ -80,4 +80,10 @@ Columbia University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speaker-Specific and Language-Dependent Temporal Organization in Bilingual Political Speech](hosseinikivanani26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Speaker or Language? Explaining Variance in Charismatic Prosody Across Luxembourgish and French](hosseinikivanani26_interspeech.md) — same problem · relatedness 2.0/3
+- [Speech Entrainment in Multi-Party Conversations with a Digital Agent](mehlman26_interspeech.md) — same problem · relatedness 2.0/3
+- [What Happens When We Speak Together? Multidimensional Convergence in Face-to-Face Interaction](pagel26_interspeech.md) — same problem · relatedness 1.9/3
+- [Dynamic Time Warping Reveals Prosodic Alignment in Caregiver–Child Interactions across Languages](rust26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

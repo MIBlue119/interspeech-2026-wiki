@@ -75,4 +75,10 @@ Huawei Technologies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SDR-LLM: Speech-LLM Based End-to-End Speaker Diarization and Recognition with Sentence-Level Temporal Modeling](yu26g_interspeech.md) — same problem · relatedness 3.0/3
+- [Joint Learning Global-Local Speaker Classification to Enhance End-to-End Speaker Diarization and Recognition](dai26b_interspeech.md) — same problem · relatedness 2.8/3
+- [Beyond Mimicry: Constrained Exploration with GRPO for Joint Multi-Talker ASR and Diarization under Unknown Speaker Counts](cai26c_interspeech.md) — same problem · relatedness 2.7/3
+- [Grounding Spoken LLMs in Multi-Speaker Audio via Diarization Conditioning](polok26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Who Spoke What When? Evaluating Spoken Language Models for Conversational ASR with Semantic and Overlap-Aware Metrics](tawara26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

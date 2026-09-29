@@ -78,4 +78,10 @@ Johns Hopkins University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Adapting Audio Large Language Models for Speaker Verification](ren26c_interspeech.md) — same problem · relatedness 2.9/3
+- [Continuous 2D Spectral—Temporal Transformer for Speaker Verification](ham26_interspeech.md) — same problem · relatedness 2.7/3
+- [LaS-LCA: Layer-Selected Latent Cross-Attention Adapters and Margin-Mixup for Robust Cross-Lingual Speaker Verification](shen26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Dual-LoRA: Parameter-Efficient Adversarial Disentanglement for Cross-Lingual Speaker Verification](shangguan26_interspeech.md) — same problem · relatedness 2.6/3
+- [Self-supervised Speaker Verification with High-Confidence Pseudo-Label Selection and DINO-Style Self-Distillation Based on Pre-trained Models](li26ca_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

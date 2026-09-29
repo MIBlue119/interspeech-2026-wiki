@@ -73,4 +73,10 @@ Lancaster University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Bilingual Speaker Phonetic Alignment to Voice Assistants](allen26_interspeech.md) — same problem · relatedness 1.9/3
+- [L2 Speakers Accommodate Differently to AI and Human Voices Across Phonetic Features](gan26_interspeech.md) — same problem · relatedness 1.9/3
+- [What Happens When We Speak Together? Multidimensional Convergence in Face-to-Face Interaction](pagel26_interspeech.md) — same problem · relatedness 1.7/3
+- [Articulatory Dynamics using Physical Vocal-tract Models](arai26_interspeech.md) — same problem · relatedness 1.7/3
+- [On Entrainment in Semi-Spontaneous Multilingual Parliamentary Speech](ries26_interspeech.md) — relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

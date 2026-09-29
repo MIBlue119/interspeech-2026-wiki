@@ -77,4 +77,10 @@ Defence Science and Technology Group
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CSER: Semantic Evaluation of LLM Auto-Repair for Code-Switching ASR](bui26_interspeech.md) — same problem · relatedness 2.0/3
+- [Hallucination Benchmark for Speech Foundation Models](koudounas26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Dialect Bias in Speech Recognition Across 10 Spanish and French Varieties](nieto26_interspeech.md) — same problem · relatedness 1.8/3
+- [Spashta Audio-Bench: Unified ASR and TTS Evaluation Framework across Indian Languages](dutta26_interspeech.md) — same problem · relatedness 1.7/3
+- [SCRIBE: Diagnostic Evaluation and Rich Transcription Models for Indic ASR](manohar26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

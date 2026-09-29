@@ -78,4 +78,10 @@ Electronics and Telecommunications Research Institute, University of Science and
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Domain-Adaptive Dual-Gating Mixture of Experts for Generalizable Speech Deepfake Detection](qin26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Supervised Post-training of Speech Foundation Models for Robust Adaptation in Speech Deepfake Detection](pan26_interspeech.md) — same problem · relatedness 2.5/3
+- [ProSDD: Learning Prosodic Representations for Speech Deepfake Detection against Expressive and Emotional Attacks](mahapatra26_interspeech.md) — shared technique · relatedness 2.4/3
+- [ADD-DINO: A Two-Stage Self-Distillation Framework for Audio Deepfake Detection](sun26g_interspeech.md) — same problem · relatedness 2.4/3
+- [Quantizer-Aware Hierarchical Neural Codec Modeling for Speech Deepfake Detection](wu26n_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

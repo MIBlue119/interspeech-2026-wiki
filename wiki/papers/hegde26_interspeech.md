@@ -76,4 +76,10 @@ Qualcomm
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Context-Adaptive Automated Audio Captioning with Symmetric Dual-MoE and Dynamic Reward Routing](ahn26_interspeech.md) — same problem · relatedness 2.9/3
+- [Music Artistic Captioning: Towards Translating Music into Expressive Language](ullah26_interspeech.md) — same problem · relatedness 2.0/3
+- [VividAC: Visually Informed and Visually Interacted Audio Captioning for Enhancing Audio-Visual Question Answering](kim26y_interspeech.md) — same problem · relatedness 2.0/3
+- [ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining](diwan26_interspeech.md) — shared technique · relatedness 2.0/3
+- [MixProLAP: Mixture-Induced Uncertainty Modeling for Probabilistic Language-Audio Pretraining](nakagome26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

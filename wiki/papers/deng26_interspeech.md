@@ -78,4 +78,10 @@ Chinese University of Hong Kong, Institute of Software, Chinese Academy of Scien
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WildElder: A Chinese Elderly Speech Dataset from the Wild with Fine-Grained Manual Annotations](wang26_interspeech.md) — same problem · relatedness 2.0/3
+- [Confidence Score Guided Incremental and Speaker Adaptive Pseudo-Labeling for Semi-Supervised Elderly Speech Recognition](deng26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Imitation Learning for Elder-Facing Speech Synthesis](han26d_interspeech.md) — same problem · relatedness 2.0/3
+- [TaigiSpeech: A Low-Resource Real-World Speech Intent Dataset with Scalable Data Mining In-the-Wild](chang26d_interspeech.md) — complementary · relatedness 2.0/3
+- [Bridging the Age Gap: Towards Detecting Neural Audio Codec Synthesized Elderly Speech Deepfake](phukan26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

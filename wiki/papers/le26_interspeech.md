@@ -79,4 +79,10 @@ Soongsil University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Controlled Generation of Synthetic Speaker Vectors for Voice Anonymization](kolos26_interspeech.md) — same problem · relatedness 3.0/3
+- [DiffAnon: Diffusion-based Prosody Control for Voice Anonymization](ulgen26b_interspeech.md) — same problem · relatedness 2.9/3
+- [DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations](ngong26_interspeech.md) — same problem · relatedness 2.9/3
+- [Reducing Speaker Residual by Considering Pinhole Effect in Voice Anonymization](liu26q_interspeech.md) — same problem · relatedness 2.8/3
+- [Acoustic token admixture for joint speaker and content anonymization](golmakani26_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

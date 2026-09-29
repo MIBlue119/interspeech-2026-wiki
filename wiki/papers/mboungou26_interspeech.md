@@ -78,4 +78,10 @@ Universite de Lorraine, CNRS, Inria, LORIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Bridging Self-Supervised Learning and Speech Enhancement: A Wav2Vec2-Conditioned Framework](ojha26_interspeech.md) — same problem · relatedness 2.6/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.5/3
+- [SLICE: Speech Enhancement via Layer-wise Injection of Conditioning Embeddings](moon26_interspeech.md) — same problem · relatedness 2.4/3
+- [Towards Robust Generative Speech Enhancement Using Vector Quantisation-Based Neural Audio Codec](zhao26i_interspeech.md) — same problem · relatedness 2.4/3
+- [StuPASE: Towards Low-Hallucination Studio-Quality Generative Speech Enhancement](rong26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

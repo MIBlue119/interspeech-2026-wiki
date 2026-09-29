@@ -82,4 +82,10 @@ University of Science and Technology of China, iFLYTEK, Tsinghua University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization](zhang26ga_interspeech.md) — same problem · relatedness 3.0/3
+- [SDP-Codec: A Speaker-Decoupled Speech Codec with Pitch Injection for Low-Bitrate Coding and Zero-Shot Voice Conversion](kim26v_interspeech.md) — same problem · relatedness 2.9/3
+- [ContextCodec: Content-Focused Context Guidance for Ultra-Low Bitrate Speech Coding](liang26d_interspeech.md) — same problem · relatedness 2.9/3
+- [VoCodec: A Low-bitrate Streamable Neural Speech Codec with Voicing-driven Quantization](jiang26b_interspeech.md) — same problem · relatedness 2.9/3
+- [BridgeCodec: Mamba Enhanced Neural Audio Codec with Schrödinger Bridge at Low Bitrate](lin26d_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

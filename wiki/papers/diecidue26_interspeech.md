@@ -79,4 +79,10 @@ Politecnico di Milano, University of Turin, Telecom Paris, Institut Polytechniqu
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Pruning as Regularization: Sensitivity-Aware One-Shot Pruning in ASR](irigoyen26_interspeech.md) — shared technique · relatedness 2.2/3
+- [Towards Data-free and Training-free Compression for Speech Foundation Models Using Parameter Clustering](xu26h_interspeech.md) — same problem · relatedness 2.2/3
+- [PhonePrune: One-shot Phoneme-Aware Pruning for Large-scale ASR Models via Phoneme Set Generation and Calibration](lee26q_interspeech.md) — shared technique · relatedness 2.1/3
+- [OnDA: On-device Channel Pruning for Efficient Personalized Keyword Spotting](risso26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Measuring the Redundancy of Decoder Layers in SpeechLLMs](moumen26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

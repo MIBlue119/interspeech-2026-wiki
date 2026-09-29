@@ -76,4 +76,10 @@ Dartmouth College
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [EmoEUS: Uncertainty Supervision for Multimodal Emotion Recognition in Conversation](huang26n_interspeech.md) — same problem · relatedness 2.3/3
+- [The Illusion of Balanced Multimodal Sentiment Analysis: Beyond the Limits of Optimization-Based Methods](kaffeza26_interspeech.md) — same problem · relatedness 2.1/3
+- [All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation](foo26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Segregate, Refine, Integrate: Decomposing Multimodal Fusion for Sentiment Analysis](filippakopoulos26_interspeech.md) — same problem · relatedness 1.9/3
+- [MER-Live: An Interactive Browser Demo of Prosody-Driven Multimodal Emotion Recognition](song26h_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ Shanghai Jiao Tong University, VUI Labs
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Multichannel Speech Enhancement through Accurate Room-Acoustic Simulations](gotz26_interspeech.md) — same problem · relatedness 2.2/3
+- [Spatial-Magnifier: Spatial upsampling for multichannel speech enhancement](lee26k_interspeech.md) — same problem · relatedness 2.2/3
+- [Joint Learning of Covariance Estimation and White Noise Gain for Robust MVDR Beamforming](deng26d_interspeech.md) — same problem · relatedness 2.1/3
+- [Bridging the Distribution Gap in Real-World Far-Field Speech Enhancement via Lightweight Latent Representation Alignment](liu26s_interspeech.md) — same problem · relatedness 2.0/3
+- [SPOT-TSE: Spatial Point-Guided Target Speech Extraction](ryu26c_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

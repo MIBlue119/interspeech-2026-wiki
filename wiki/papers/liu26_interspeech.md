@@ -79,4 +79,10 @@ University of Science and Technology of China, University of Edinburgh
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Cognitive-Heuristic Guided Multimodal Data Augmentation for Alzheimer’s Disease Detection Using LLM and TTS](jiang26e_interspeech.md) — same problem · relatedness 2.9/3
+- [Gated Multi-graph Fusion via Graph Attention Networks for Alzheimer’s Disease Detection](li26ga_interspeech.md) — same problem · relatedness 2.4/3
+- [Synthetic Pathological Speech at Scale: A Flow Matching Approach for Clinical Data Augmentation](koudounas26_interspeech.md) — shared technique · relatedness 2.4/3
+- [LoRA-Tuned Large Language Models for Dementia Detection via Multi-View Speech-Derived Features](park26c_interspeech.md) — same problem · relatedness 2.3/3
+- [Synergizing Zero-Shot Cross-Lingual Alzheimer Detection with Language-Invariant Multimodal Bi-Geometric Adversarial Learning](girish26b_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

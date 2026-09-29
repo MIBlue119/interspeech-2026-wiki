@@ -80,4 +80,10 @@ Yonsei University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models](zhu26e_interspeech.md) — same problem · relatedness 2.7/3
+- [IN-F5: Adapting an English TTS Foundation Model for Multilingual and Zero-Resource Indian Speech Synthesis](varadhan26_interspeech.md) — same problem · relatedness 2.2/3
+- [High-Quality Speech Synthesis for Under-Resourced Ethiopian Languages](tamiru26_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards Digital Preservation of Efik: TTS for a Low-Resource African Language](edet26_interspeech.md) — same problem · relatedness 2.0/3
+- [DiaMoE-TTS: A Unified IPA-Based Dialect TTS Framework with Parameter-Efficient Adaptation and Reward-Driven Optimization](chen26z_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

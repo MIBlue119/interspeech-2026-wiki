@@ -75,4 +75,10 @@ Bytefuse
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Cross Domain Few-Shot Class-Incremental Audio Classification Via Adversarial Contrastive Learning](si26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Few-shot Class-variable Incremental Audio Classification via Prototype Adaptation and Pseudo Class-variable Training](li26q_interspeech.md) — same problem · relatedness 2.0/3
+- [Acoustic Prompting via Stage-wise Modulation for Few-Shot Learning in Audio Language Models](cho26_interspeech.md) — same problem · relatedness 2.0/3
+- [Audio-Language Prompt Learning for Few-Shot Audio Classification](xu26l_interspeech.md) — same problem · relatedness 2.0/3
+- [Parameter-Efficient Continual Learning for Automatic Speech Recognition](eeckt26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ University of Science and Technology of China, Alibaba Group, East China Normal 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AV-SyncBench: Decoupled Benchmarking of Temporal and Semantic Audio-Visual Synchronization](zhou26g_interspeech.md) — complementary · relatedness 2.0/3
+- [Preserving Acoustic Cues for Video Reasoning: An Efficient Uniqueness-Driven Token Compression Framework](xue26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Do Modern Video-LLMs Need to Listen? A Benchmark Audit and Scalable Remedy](kim26s_interspeech.md) — same problem · relatedness 2.0/3
+- [Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation](ye26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Closer Look at Failure Modes in Temporal Understanding of Large Audio-Language Models](kulkarni26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

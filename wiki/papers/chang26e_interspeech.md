@@ -81,4 +81,10 @@ Academia Sinica, National Cheng Kung University Hospital
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [One-to-Many Electrolaryngeal Voice Conversion with Synthetic Data](wu26l_interspeech.md) — same problem · relatedness 2.4/3
+- [A Preclinical Study of Electrolaryngeal Voice Conversion for a Novel Nasal Electrolarynx: Feature Choice and Data Augmentation](chen26t_interspeech.md) — same problem · relatedness 2.2/3
+- [SSL-GMMVC: Interpretable Voice Conversion via Locally Linear GMM Transforms in Self-Supervised Representation Space](tanabu26_interspeech.md) — same problem · relatedness 2.1/3
+- [Universal Speech Content Factorization](xinyuan26_interspeech.md) — same problem · relatedness 2.1/3
+- [ZeSTA: Zero-Shot TTS Augmentation with Domain-Conditioned Training for Data-Efficient Personalized Speech Synthesis](choi26b_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -69,4 +69,10 @@ University of Sydney
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Collecting Prosody in the Wild: A Content-Controlled, Privacy-First Smartphone Protocol and Empirical Evaluation](koch26_interspeech.md) — same problem · relatedness 2.1/3
+- [ELSI: An Interface for Standardizing Child-Centered Datasets, Applying Machine Learning Models, and Extracting Metrics](sheth26c_interspeech.md) — same problem · relatedness 1.9/3
+- [TaigiSpeech: A Low-Resource Real-World Speech Intent Dataset with Scalable Data Mining In-the-Wild](chang26d_interspeech.md) — complementary · relatedness 1.9/3
+- [GADVOX: The German Anxiety and Depression Voice Examination Dataset](spang26_interspeech.md) — complementary · relatedness 1.9/3
+- [Natural Speech Encodes Early Markers of Cognitive Decline: Evidence from Clinical Conversations](haghbin26b_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

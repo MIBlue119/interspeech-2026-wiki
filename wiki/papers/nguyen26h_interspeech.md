@@ -77,4 +77,10 @@ Avignon University, Hopital Larrey, Aix Marseille University, CNRS, Universite T
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Beyond task performance: Decoding bioacoustic embeddings with speech features](nolasco26_interspeech.md) — shared technique · relatedness 2.2/3
+- [Phoneme Error and Uncertainty Features for Interpretable Dysarthric Speech Assessment](zhong26c_interspeech.md) — same problem · relatedness 2.2/3
+- [Uncovering Dimension-Specific Layer Preferences in Wav2Vec2 for Fine-Grained Perceptual Assessment of Dysarthric Speech](zhong26_interspeech.md) — shared technique · relatedness 2.1/3
+- [PathBench: Speech Intelligibility Benchmark for Automatic Pathological Speech Assessment](halpern26_interspeech.md) — same problem · relatedness 2.0/3
+- [Probing Linguistic Information in Speech Embeddings: A Diagnostic Analysis across Acoustic and Structural Domains](gonzalez26b_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

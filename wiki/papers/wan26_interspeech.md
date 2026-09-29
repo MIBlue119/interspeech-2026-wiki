@@ -74,4 +74,10 @@ Harbin Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Say That Again: Visualizing Paralinguistic Cues with Prosody-Aware Diffusion](tiwari26_interspeech.md) — same problem · relatedness 1.9/3
+- [Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition](ryu26_interspeech.md) — same problem · relatedness 1.9/3
+- [Robust Audio-Visual Emotion Recognition via Conditional Transformer U-Nets with Frequency-Injected Visual Stream](chung26b_interspeech.md) — same problem · relatedness 1.9/3
+- [EmoEUS: Uncertainty Supervision for Multimodal Emotion Recognition in Conversation](huang26n_interspeech.md) — same problem · relatedness 1.9/3
+- [MER-Live: An Interactive Browser Demo of Prosody-Driven Multimodal Emotion Recognition](song26h_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

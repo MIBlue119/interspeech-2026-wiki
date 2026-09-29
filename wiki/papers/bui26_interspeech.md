@@ -76,4 +76,10 @@ Viettel Group, Thuyloi University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Hallucination Benchmark for Speech Foundation Models](koudounas26b_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Adding Robust Code-Switching Capabilities to High Performance Multilingual ASR](ugan26_interspeech.md) — same problem · relatedness 2.0/3
+- [WASIL: In-the-Wild Arabic Spoken Interactions with LLMs](ali26c_interspeech.md) — complementary · relatedness 2.0/3
+- [How Linguistic Dimension Interactions Shape Meaning Preservation in Multilingual ASR](gonzalez26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India](bhogale26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

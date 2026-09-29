@@ -80,4 +80,10 @@ Southern University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Adaptation to Room Acoustics in Understanding Vocoded Speech: A Comparison Between Listeners With Varying Immersion Age](pratiwi26_interspeech.md) — same problem · relatedness 2.0/3
+- [Bayesian Model-Based Assessment of Spatial and Source Priors in Sagittal-Plane Sound Localization](chen26fa_interspeech.md) — same problem · relatedness 1.8/3
+- [Improving Cross-Dataset Speech Intelligibility Prediction for Hearing-Impaired Listeners with Few-Shot Adaptation](lin26h_interspeech.md) — same problem · relatedness 1.7/3
+- [BeatGain - A Rhythmic Pattern Enhancement Algorithm for Music Listening with Cochlear Implants](lentz26_interspeech.md) — same problem · relatedness 1.6/3
+- [Lightweight Convolutional Front-ends for Real-time Framewise Phoneme Recognition in Cochlear Implants](guo26d_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

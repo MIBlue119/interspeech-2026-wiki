@@ -78,4 +78,10 @@ Pashto DAO
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Hamsa: A Manually Annotated Emirati Arabic Corpus for Speech and Language Technologies](alyafeai26_interspeech.md) — same problem · relatedness 2.6/3
+- [WazobiaSpeech: A Large-Scale Multilingual Speech Corpus for Robust and Fair ASR in Four Nigerian Languages](adebara26_interspeech.md) — same problem · relatedness 2.4/3
+- [Preserving the Iranian Turkic Language: Community-Driven ASR Datasets and Benchmarking for South Azerbaijani](farsi26_interspeech.md) — same problem · relatedness 2.2/3
+- [Bootstrapping Endangered Language ASR with Short-Form Corpora](bartley26_interspeech.md) — same problem · relatedness 2.0/3
+- [GLAD-CSpeech: A Dialectologically Comprehensive Benchmark for Genuine Chinese Dialect Speech](xu26j_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

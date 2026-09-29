@@ -76,4 +76,10 @@ Aalto University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Morphoacoustic Modeling of a Dynamic 3D Vocal Tract Using MRI-Constrained Deformations and FEM Acoustics](piyadasa26_interspeech.md) — same problem · relatedness 2.1/3
+- [NewAppVoice: Tools for Visualizing and Correcting Acoustic Measures](elmerich26_interspeech.md) — same problem · relatedness 2.0/3
+- [Formant-Guided Speech Repair for Enhanced Comprehension of Dysarthric Speech](chen26n_interspeech.md) — complementary · relatedness 1.9/3
+- [Phy-VC: Physics-Informed Voice Conversion for Privacy-Preserving Pathological Speech](ghosh26_interspeech.md) — shared technique · relatedness 1.9/3
+- [From Continuous Speech to Subglottal Resonances: Automatic Signal Generation, Estimation, and Tracking Framework](udeogu26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

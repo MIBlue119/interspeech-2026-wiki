@@ -83,4 +83,10 @@ Hunan University, Yuelushan Center for Industrial Innovation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SEA-MDD: Self-adapting Mispronunciation Detection and Diagnosis Models via Test-Time Training](wu26c_interspeech.md) — shared technique · relatedness 1.8/3
+- [Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models](li26ba_interspeech.md) — same problem · relatedness 1.8/3
+- [DiffRhythm 2: Efficient and High Fidelity Song Generation via Block Flow Matching](jiang26_interspeech.md) — same problem · relatedness 1.7/3
+- [AQA-TTRL: Self-Adaptation in Audio Question Answering with Test-Time Reinforcement Learning](zhang26c_interspeech.md) — shared technique · relatedness 1.7/3
+- [Edit the Moment, Keep the Rest: Time-Localized Audio Editing via Instruction](jung26c_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

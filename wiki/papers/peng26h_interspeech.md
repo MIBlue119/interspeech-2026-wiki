@@ -80,4 +80,10 @@ Tsinghua University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech Codec Probing from Semantic and Phonetic Perspectives](shi26g_interspeech.md) — same problem · relatedness 2.4/3
+- [Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation](ye26_interspeech.md) — same problem · relatedness 2.3/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — same problem · relatedness 2.3/3
+- [WavSLM: Single-Stream Speech Language Modeling via WavLM Distillation](libera26_interspeech.md) — same problem · relatedness 2.2/3
+- [HybridCodec: Modeling Discrete and Continuous Representations For Efficient Speech Language Models](ploujnikov26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

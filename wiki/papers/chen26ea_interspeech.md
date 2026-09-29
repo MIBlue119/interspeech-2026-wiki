@@ -82,4 +82,10 @@ National Taiwan Normal University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Distilling Structured Reasoning into SpeechLLMs for Spoken Language Understanding](tsukagoshi26_interspeech.md) — same problem · relatedness 2.6/3
+- [MAC-SLU: Multi-Intent Automotive Cabin Spoken Language Understanding Benchmark](peng26d_interspeech.md) — same problem · relatedness 2.0/3
+- [ML-KD-DRI-GAN: Teacher-Guided Denoising and Triplet-Adversarial Training for Robust Spoken Language Understanding](kumar26b_interspeech.md) — same problem · relatedness 1.8/3
+- [MVCL-DAF++: Enhancing Multimodal Intent Recognition via Prototype-Aware Contrastive Alignment and Coarse-to-Fine Dynamic Attention Fusion](huang26_interspeech.md) — same problem · relatedness 1.8/3
+- [Audio2Tool: Speak, Call, Act - A Dataset for Benchmarking Speech Tool Use](pahwa26_interspeech.md) — complementary · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

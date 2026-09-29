@@ -74,4 +74,10 @@ Defence Science and Technology Group
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Multilingual Word-Level Forced Alignment with Self-Supervised Representations and Learned Dynamic Programming](weber26_interspeech.md) — same problem · relatedness 2.0/3
+- [Evaluation of forced alignment of code-mixed speech: the case of Hindi-English](pandey26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Montreal Forced Aligner and the state of speech-to-text alignment in 2026](mcauliffe26_interspeech.md) — shared technique · relatedness 1.9/3
+- [VoxKit: Desktop Phone Alignment and Goodness of Pronunciation Analysis](benway26_interspeech.md) — complementary · relatedness 1.9/3
+- [A Transcript-anchored Pipeline With Large Language Models For Detecting Inappropriate Pauses In Dysarthric Speech](han26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

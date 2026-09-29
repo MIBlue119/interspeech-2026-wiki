@@ -78,4 +78,10 @@ University of Tokyo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CoRE: Contrastive Evidence-Aware Rescoring for Multiple-Choice Audio Question Answering](zhang26f_interspeech.md) — same problem · relatedness 2.6/3
+- [Structured Prompting vs. Self-Training for Audio Reasoning Under Limited Data and Compute: Lessons from Interspeech Audio Reasoning Challenge 2026](noronha26_interspeech.md) — same problem · relatedness 2.5/3
+- [Multi-Source Evidence Fusion for Audio Question Answering](olev26_interspeech.md) — same problem · relatedness 2.5/3
+- [Enhancing Audio Reasoning via Semantic Summary Prediction](bonzi26_interspeech.md) — same problem · relatedness 2.4/3
+- [EChO-Agent: Evidence Chain Orchestration Agent for Audio Reasoning](zhang26t_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

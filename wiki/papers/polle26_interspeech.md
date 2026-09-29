@@ -76,4 +76,10 @@ thymia, University of Edinburgh, University of Southampton
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [How Language-Independent Are Emotional Attributes? A Study on Training Data Scaling and Cross-Lingual Generalization](halmai26_interspeech.md) — same problem · relatedness 2.1/3
+- [A barrier or a booster? Familiarity effects on Mandarin emotion prosody recognition using AI-powered voice cloning](xu26i_interspeech.md) — shared technique · relatedness 2.1/3
+- [Synthetic Pathological Speech at Scale: A Flow Matching Approach for Clinical Data Augmentation](koudounas26_interspeech.md) — shared technique · relatedness 2.0/3
+- [NVV-SuperBench: Beyond Words, Beyond Quality—Benchmarking Nonverbal Vocalizations in Speech Generation](xue26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Cognitive-Heuristic Guided Multimodal Data Augmentation for Alzheimer’s Disease Detection Using LLM and TTS](jiang26e_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

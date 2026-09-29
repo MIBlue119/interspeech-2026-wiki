@@ -77,4 +77,10 @@ Heinrich Heine University Dusseldorf, University of Florida
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Layer-wise Probing of Whisper's Encoder Representations for Bengali Phone-like Units](thahmid26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Probing Linguistic Information in Speech Embeddings: A Diagnostic Analysis across Acoustic and Structural Domains](gonzalez26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Probing the Layer-wise Geometry of Chinese Dialect Representations in Wav2Vec 2.0](peng26c_interspeech.md) — shared technique · relatedness 2.0/3
+- [Multilingual Phonological Feature Recognition with Self-Supervised Speech Models](hernandez26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective](sadok26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

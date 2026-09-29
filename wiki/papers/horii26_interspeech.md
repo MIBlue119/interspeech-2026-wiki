@@ -71,4 +71,10 @@ NTT
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [findsylls: A Language‑Agnostic Toolkit for Syllable‑Level Speech Tokenization and Embedding](martinez26_interspeech.md) — complementary · relatedness 2.1/3
+- [BabAR: from phoneme recognition to developmental measures of young children''s speech production](lavechin26_interspeech.md) — same problem · relatedness 2.0/3
+- [ZeroSyl: Simple Zero-Resource Syllable Tokenization for Spoken Language Modeling](visser26_interspeech.md) — shared technique · relatedness 2.0/3
+- [PhonLLM: Joint Phone Recognition and Phonological Process Inference for Child Speech](baumann26_interspeech.md) — same problem · relatedness 1.9/3
+- [Age-dependent acoustic changes of the frication noise in dental sibilants produced by typically developing Polish children between 5 and 8 years of age](miodonska26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

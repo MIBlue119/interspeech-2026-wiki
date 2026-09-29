@@ -78,4 +78,10 @@ Nara Institute of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [EmoInstruct-TTS: Dual-Path Instruction-Guided Emotional Speech Synthesis](wu26f_interspeech.md) — same problem · relatedness 2.3/3
+- [Continuous Time-Varying Emotion Control Zero-Shot Text-To-Speech With Emotion Orthogonal LoRA](wan26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Emo-BPO: Emotion Bidirectional Preference Optimization for Diffusion-based Emotional TTS](shi26d_interspeech.md) — same problem · relatedness 2.1/3
+- [Word-level Emotional Intensity Control in TTS via Emotion Residual Vectors](park26i_interspeech.md) — same problem · relatedness 2.1/3
+- [ETC-TTS: Emotion Trajectory Learning for Controllable Emotional Text-to-Speech](kim26u_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

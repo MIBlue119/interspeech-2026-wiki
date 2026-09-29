@@ -79,4 +79,10 @@ ZuoYeBang Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Bagpiper-TTS: Natural Language Guided Universal Speech Synthesis](tian26_interspeech.md) — same problem · relatedness 2.9/3
+- [EmoInstruct-TTS: Dual-Path Instruction-Guided Emotional Speech Synthesis](wu26f_interspeech.md) — same problem · relatedness 2.7/3
+- [Stabilizing Instruction Supervision for Instruct-TTS via Controllable Diversification and Drift Filtering](geng26b_interspeech.md) — same problem · relatedness 2.6/3
+- [Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction](fujita26_interspeech.md) — same problem · relatedness 2.6/3
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

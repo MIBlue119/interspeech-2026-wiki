@@ -78,4 +78,10 @@ University of Science and Technology of China, iFLYTEK
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Noise-Aware In-Context Learning for Hallucination Mitigation in ALLMs](huang26k_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Hallucination Benchmark for Speech Foundation Models](koudounas26b_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [DIALOG DeID: Role and Privacy Aware Transcription for Clinical Interviews Beyond WER](oliveira26_interspeech.md) — same problem · relatedness 2.0/3
+- [Generating Synthetic Doctor-Patient Conversations for Long-form Audio Summarization](labrak26_interspeech.md) — same problem · relatedness 1.9/3
+- [ClinAware: Speech Enhancement Needs Clinical Awareness](kachare26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

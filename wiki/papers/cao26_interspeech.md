@@ -75,4 +75,10 @@ Tencent, Zhejiang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Step-Audio-R1: Why Audio LLMs Fail at Reasoning — The Trap of Textual Surrogates](zhang26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Distilling Structured Reasoning into SpeechLLMs for Spoken Language Understanding](tsukagoshi26_interspeech.md) — same problem · relatedness 2.0/3
+- [Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models](he26e_interspeech.md) — same problem · relatedness 2.0/3
+- [Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation](ye26_interspeech.md) — same problem · relatedness 2.0/3
+- [ALARM: Audio–Language Alignment for Reasoning Models](grinberg26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

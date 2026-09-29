@@ -80,4 +80,10 @@ Hong Kong Polytechnic University, Baidu, University of Hong Kong
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Continuous 2D Spectral—Temporal Transformer for Speaker Verification](ham26_interspeech.md) — same problem · relatedness 2.5/3
+- [Progressive Learning for Robust Speaker Representation](keetha26_interspeech.md) — same problem · relatedness 2.4/3
+- [ReDimNet2: Scaling Speaker Verification via Time-Pooled Dimension Reshaping](yakovlev26_interspeech.md) — same problem · relatedness 2.4/3
+- [LaS-LCA: Layer-Selected Latent Cross-Attention Adapters and Margin-Mixup for Robust Cross-Lingual Speaker Verification](shen26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Revisiting Label-Free Speaker Embedding Enhancement with vMF Profile Likelihood](kim26i_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

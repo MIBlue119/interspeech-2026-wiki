@@ -72,4 +72,10 @@ New York University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Unified Audio-Visual Modeling to Recognize Which Face Spoke When and What in Scenarios with On- and Off-Screen Participants](makishima26b_interspeech.md) — complementary · relatedness 1.9/3
+- [What Happens When We Speak Together? Multidimensional Convergence in Face-to-Face Interaction](pagel26_interspeech.md) — complementary · relatedness 1.9/3
+- [MSU-Bench: Towards Understanding the Conversational Multi-Speaker Scenarios](sun26j_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [Deriving Benchmarking Datasets from Long-Form Recordings: Challenges and Opportunities](sheth26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [Evaluating Large Language Models Abilities for Addressee, Turn-change, and Next Speaker Prediction in Meetings](fukuda26b_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

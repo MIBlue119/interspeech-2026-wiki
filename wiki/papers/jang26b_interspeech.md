@@ -76,4 +76,10 @@ Seoul National University, Korea Electronics Technology Institute
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Considerate Listener Modeling for Korean Streaming Backchannel Prediction](choi26c_interspeech.md) — same problem · relatedness 2.7/3
+- [Returning the Turn: Do Backchannels Pattern More Like Turn-Holds or Turn-Changes Given Preceding Syntactic Completion and Boundary Tones?](reitsema26_interspeech.md) — same problem · relatedness 1.9/3
+- [When “yeah” means “not quite”: Multimodal detection of backchannels expressing incomplete understanding](turk26_interspeech.md) — same problem · relatedness 1.9/3
+- [MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the wild](qi26_interspeech.md) — same problem · relatedness 1.8/3
+- [Adaptive Turn-Taking for Real-time Multi-Party Voice Agents](mitra26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

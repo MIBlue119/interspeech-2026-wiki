@@ -78,4 +78,10 @@ International Audio Laboratories Erlangen, Fraunhofer Institute for Integrated C
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Explicit Context-Driven Neural Acoustic Modeling for High-Fidelity RIR Generation](si26_interspeech.md) — same problem · relatedness 2.6/3
+- [Blind Room Impulse Response Identification via Reverberant Speech Spectrum Reconstruction](wang26c_interspeech.md) — same problem · relatedness 2.4/3
+- [Dual-Geometry Manifolds for Few-shot RIR Prediction](bhosale26b_interspeech.md) — same problem · relatedness 2.4/3
+- [A Novel Transfer Learning Approach for Room Impulse Response Estimation and Speech Dereverberation Across Geometrically Diverse and Data-Scarce Environments](pasha26_interspeech.md) — same problem · relatedness 2.3/3
+- [Echoes after Edits: Room Impulse Response Estimation for Geometry Update](bhosale26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

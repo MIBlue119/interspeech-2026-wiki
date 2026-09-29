@@ -75,4 +75,10 @@ University of Groningen
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ProSarc: Prosody-Aware Sarcasm Recognition Framework via Temporal Prosodic Incongruity](singh26e_interspeech.md) — same problem · relatedness 2.0/3
+- [A barrier or a booster? Familiarity effects on Mandarin emotion prosody recognition using AI-powered voice cloning](xu26i_interspeech.md) — shared technique · relatedness 2.0/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — same problem · relatedness 1.9/3
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — same problem · relatedness 1.9/3
+- [Investigating Human-Model Discrepancies in Speech Quality Assessment via Acoustic and Prosodic Perturbations](takagi26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

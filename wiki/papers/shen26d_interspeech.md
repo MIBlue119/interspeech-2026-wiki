@@ -83,4 +83,10 @@ Nanjing University, Xiaomi
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Evaluation Framework for Text-to-Speech Voice Reconstruction](sanchez26_interspeech.md) — same problem · relatedness 2.7/3
+- [TDScore: Learning Synthetic Speech Quality Predictors from TTS Training Dynamics without Human annotation](miniconi26_interspeech.md) — same problem · relatedness 2.6/3
+- [Investigating the Relationship between Objective AI-driven Metrics and Subjective MOS for In-the-Wild Speech](sanjotra26_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+- [ELSA: Acoustic Event-Level Semantic Alignment for Fine-Grained Reference-Free Text-to-Audio Evaluation](suzuki26_interspeech.md) — same problem · relatedness 2.3/3
+- [CodecMOS-Accent: A MOS Benchmark of Resynthesized and TTS Speech from Neural Codecs Across English Accents](huang26f_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

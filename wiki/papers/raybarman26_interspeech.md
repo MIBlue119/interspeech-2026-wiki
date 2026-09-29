@@ -80,4 +80,10 @@ Indian Institute of Technology Guwahati
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Spashta Audio-Bench: Unified ASR and TTS Evaluation Framework across Indian Languages](dutta26_interspeech.md) — same problem · relatedness 2.0/3
+- [Phonetically Grounded Vowel Space Metrics for Evaluating Synthetic Speech During TTS Model Training](udawatta26_interspeech.md) — same problem · relatedness 2.0/3
+- [Preferences of a Voice-First Nation: Large-Scale Pairwise Evaluation and Preference Analysis for TTS in Indian Languages](anand26b_interspeech.md) — same problem · relatedness 2.0/3
+- [PASQA: Pitch-Accent-Focused Speech Quality Assessment Model Trained on Synthetic Speech with Accent Errors](kawamura26_interspeech.md) — same problem · relatedness 1.9/3
+- [Not Flat, But Dissociated: Prosodic and Segmental Divergence in Neural TTS](wang26ea_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

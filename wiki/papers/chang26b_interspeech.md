@@ -78,4 +78,10 @@ Imperial College London, Leibniz University Hannover, University of Bremen
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Personal Attribute Leakage in Federated Speech Models](alali26_interspeech.md) — same problem · relatedness 1.9/3
+- [Speaker-Filtered Heterogeneous Graph Network: Toward Privacy-Preserving Multimodal Emotion Recognition](song26e_interspeech.md) — same problem · relatedness 1.9/3
+- [Improving Adversarial Robustness in Spoken Language Identification through Self-Defensive Distillation](dey26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Multi-Level Privacy-Preserving Dementia Detection from Speech via Targeted Adversarial Obfuscation and Representation Learning](kenne26_interspeech.md) — shared technique · relatedness 1.9/3
+- [FedMPA: A Novel Privacy-Performance Optimization Approach for Multimodal Speech-Based Depression Detection](manamalage26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

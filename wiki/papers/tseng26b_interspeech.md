@@ -78,4 +78,10 @@ National Taiwan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WavSLM: Single-Stream Speech Language Modeling via WavLM Distillation](libera26_interspeech.md) — same problem · relatedness 2.4/3
+- [HybridCodec: Modeling Discrete and Continuous Representations For Efficient Speech Language Models](ploujnikov26_interspeech.md) — same problem · relatedness 2.1/3
+- [Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation](ye26_interspeech.md) — same problem · relatedness 2.1/3
+- [Low-Framerate Speech Tokenization via Two-Stage Latent Patch Modeling](lemerle26_interspeech.md) — same problem · relatedness 2.1/3
+- [ZeroSyl: Simple Zero-Resource Syllable Tokenization for Spoken Language Modeling](visser26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

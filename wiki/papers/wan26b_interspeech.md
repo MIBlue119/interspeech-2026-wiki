@@ -74,4 +74,10 @@ Shanghai Jiao Tong University, Ping An Technology, Shanghai Jiao Tong University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ETC-TTS: Emotion Trajectory Learning for Controllable Emotional Text-to-Speech](kim26u_interspeech.md) — same problem · relatedness 2.9/3
+- [EmoInstruct-TTS: Dual-Path Instruction-Guided Emotional Speech Synthesis](wu26f_interspeech.md) — same problem · relatedness 2.8/3
+- [Emo-BPO: Emotion Bidirectional Preference Optimization for Diffusion-based Emotional TTS](shi26d_interspeech.md) — same problem · relatedness 2.7/3
+- [Word-level Emotional Intensity Control in TTS via Emotion Residual Vectors](park26i_interspeech.md) — same problem · relatedness 2.6/3
+- [Cross-modal Consistency Guidance for Robust Emotion Control in Auto-Regressive TTS Models](peng26g_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

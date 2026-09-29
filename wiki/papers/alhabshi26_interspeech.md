@@ -78,4 +78,10 @@ University of New South Wales
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Boundaryless Speech-to-Syllable Representations with Hierarchical CNN for Linguistically Inspired Automatic Stress Detection](mokshagundam26_interspeech.md) — same problem · relatedness 2.8/3
+- [Prosodic ABX: A Language-Agnostic Method for Measuring Prosodic Contrast in Speech Representations](sun26_interspeech.md) — complementary · relatedness 2.0/3
+- [A Novel Sentence Stress Detection Framework Leveraging Auxiliary Word-Stress Modeling and Loss Optimization](lo26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Evaluating and Preserving Lexical Stress in English-to-Chinese Speech-to-Speech Translation](song26f_interspeech.md) — complementary · relatedness 1.9/3
+- [Multilingual Phonological Feature Recognition with Self-Supervised Speech Models](hernandez26b_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

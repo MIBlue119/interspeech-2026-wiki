@@ -76,4 +76,10 @@ Otto von Guericke University Magdeburg, University Hospital Magdeburg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [On the Robustness of Speaker Embeddings for Cross-Domain Speaker Retrieval](huang26m_interspeech.md) — same problem · relatedness 2.0/3
+- [G-MaP-SE: Guided Speech Enhancement via GMM-Based Prior Matching](zhu26b_interspeech.md) — complementary · relatedness 2.0/3
+- [Codec-induced Mismatch, Speech Duration, and Speaker-dependent Effect in a DNN-based Forensic Speaker Recognition System](deng26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Vowel Nasalization in Upper Airway Diseases: An Analysis Using the CUCO Database](wei26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [ClinAware: Speech Enhancement Needs Clinical Awareness](kachare26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

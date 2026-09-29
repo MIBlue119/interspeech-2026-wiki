@@ -74,4 +74,10 @@ NAVER Cloud Corporation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — same problem · relatedness 1.8/3
+- [Robust Multi-Tier Infant-Centered Audio Understanding with Whisper via Structured Speaker Conditioning](fan26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Grounding Spoken LLMs in Multi-Speaker Audio via Diarization Conditioning](polok26b_interspeech.md) — shared technique · relatedness 1.8/3
+- [Aleatoric Style Uncertainty Augmentation with GMM for Domain Generalization in Anti-spoofing](li26g_interspeech.md) — shared technique · relatedness 1.8/3
+- [Temporal Ensembling Threshold and Neighbor-Aware Label Mixup for Speaker Verification with Open-Set Noisy Labels](fang26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

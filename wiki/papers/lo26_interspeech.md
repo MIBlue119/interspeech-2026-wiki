@@ -78,4 +78,10 @@ National Taiwan Normal University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ProWhistress: An Enhanced Dual-Stream Transcription Architecture for Prosody-Aware Sentence Stress Detection](gu26b_interspeech.md) — same problem · relatedness 3.0/3
+- [WhiSSDapt: Adaptive Fusion of Whisper Layer Embeddings for Sentence Stress Detection](murugaiyan26_interspeech.md) — same problem · relatedness 2.9/3
+- [Boundaryless Speech-to-Syllable Representations with Hierarchical CNN for Linguistically Inspired Automatic Stress Detection](mokshagundam26_interspeech.md) — same problem · relatedness 2.2/3
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — same problem · relatedness 2.2/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

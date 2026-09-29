@@ -79,4 +79,10 @@ National Taiwan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Weakly Masked Residual Reliability Learning for Unsupervised Domain Adaptation in Speech Models](li26aa_interspeech.md) — same problem · relatedness 2.1/3
+- [ImKWS: Test-Time Adaptation for Keyword Spotting with Class Imbalance](ding26_interspeech.md) — shared technique · relatedness 2.0/3
+- [VIB-AVSR: Variational Information Bottleneck for Noise-Robust LLM-Based Audio-Visual Speech Recognition](arora26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding](ahn26b_interspeech.md) — same problem · relatedness 2.0/3
+- [AQA-TTRL: Self-Adaptation in Audio Question Answering with Test-Time Reinforcement Learning](zhang26c_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

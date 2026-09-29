@@ -79,4 +79,10 @@ University of Tokyo, Keio University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Scaling Properties of Continuous Diffusion Spoken Language Models](ramapuram26_interspeech.md) — same problem · relatedness 2.1/3
+- [HybridCodec: Modeling Discrete and Continuous Representations For Efficient Speech Language Models](ploujnikov26_interspeech.md) — same problem · relatedness 2.1/3
+- [WavSLM: Single-Stream Speech Language Modeling via WavLM Distillation](libera26_interspeech.md) — same problem · relatedness 2.1/3
+- [U-Codec: Neural Speech Codec under Extreme Temporal Compression for Fast High-Fidelity Speech Generation](yang26n_interspeech.md) — shared technique · relatedness 2.0/3
+- [Investigating the Relationship between Objective AI-driven Metrics and Subjective MOS for In-the-Wild Speech](sanjotra26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

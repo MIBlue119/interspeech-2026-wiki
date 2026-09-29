@@ -76,4 +76,10 @@ University of Science and Technology of China, iFLYTEK, Huawei Technologies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Emo-BPO: Emotion Bidirectional Preference Optimization for Diffusion-based Emotional TTS](shi26d_interspeech.md) — same problem · relatedness 2.8/3
+- [Continuous Time-Varying Emotion Control Zero-Shot Text-To-Speech With Emotion Orthogonal LoRA](wan26b_interspeech.md) — same problem · relatedness 2.8/3
+- [ETC-TTS: Emotion Trajectory Learning for Controllable Emotional Text-to-Speech](kim26u_interspeech.md) — same problem · relatedness 2.7/3
+- [Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions](zhang26m_interspeech.md) — same problem · relatedness 2.7/3
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — same problem · relatedness 2.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

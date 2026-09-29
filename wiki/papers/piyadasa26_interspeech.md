@@ -73,4 +73,10 @@ University of Sydney, Macquarie University, Universite Paris Cite, University of
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Articulatory Dynamics using Physical Vocal-tract Models](arai26_interspeech.md) — same problem · relatedness 2.2/3
+- [Smooth Formant Tracking with Differentiable Linear Prediction](luisi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Influence of Vocal Tract Curvature on Speech Acoustics: A Three-Dimensional FEM Analysis](mohapatra26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Physics-Informed Neural Operator for Speech Production Analysis](yokota26_interspeech.md) — same problem · relatedness 2.0/3
+- [Phy-VC: Physics-Informed Voice Conversion for Privacy-Preserving Pathological Speech](ghosh26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

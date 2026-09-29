@@ -78,4 +78,10 @@ CyberAgent
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FCPE: A Fast Context-based Pitch Estimation Model](luo26_interspeech.md) — same problem · relatedness 2.4/3
+- [HFMSE: Harmonic-Guided Speech Enhancement with Flow Matching](li26l_interspeech.md) — same problem · relatedness 2.0/3
+- [Amadea: An AI Companion for Pitch-Aware Spoken Language Practice](agrawal26_interspeech.md) — complementary · relatedness 1.8/3
+- [Bridging Self-Supervised Learning and Speech Enhancement: A Wav2Vec2-Conditioned Framework](ojha26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Robust Audio-Visual Emotion Recognition via Conditional Transformer U-Nets with Frequency-Injected Visual Stream](chung26b_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

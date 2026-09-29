@@ -78,4 +78,10 @@ National Tsing Hua University, Google DeepMind
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Empathy Omni: Enabling Empathetic Speech Response Generation Through Large Language Models](wang26q_interspeech.md) — same problem · relatedness 2.7/3
+- [Beyond Semantic Dominance: Cognitive Affective Reasoning and Empathetic Response Alignment in Audio Language Models](zhao26h_interspeech.md) — same problem · relatedness 2.5/3
+- [Breaking Neutral Bias: Zero-Human-Annotation Fine-Grained Emotion Enrichment via Semantic Drift and Discriminative Re-ranking](lu26c_interspeech.md) — same problem · relatedness 2.3/3
+- [PRISM: Prosody-Integrated Multi-Agent Reasoning Framework for Empathetic Spoken Dialogue](zhang26r_interspeech.md) — same problem · relatedness 2.2/3
+- [Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction](yu26f_interspeech.md) — shared technique · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

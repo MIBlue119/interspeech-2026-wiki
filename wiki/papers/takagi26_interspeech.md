@@ -75,4 +75,10 @@ Nagoya Institute of Technology, LY Corporation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [How Frequency Band Importance Affects Neural Network Predictions and Human Perception for Speech Quality Assessment](lamba26_interspeech.md) — same problem · relatedness 2.4/3
+- [PASQA: Pitch-Accent-Focused Speech Quality Assessment Model Trained on Synthetic Speech with Accent Errors](kawamura26_interspeech.md) — same problem · relatedness 2.3/3
+- [Investigating the Relationship between Objective AI-driven Metrics and Subjective MOS for In-the-Wild Speech](sanjotra26_interspeech.md) — same problem · relatedness 2.2/3
+- [Calibration-Reasoning Framework for Descriptive Speech Quality Assessment](kostenok26_interspeech.md) — same problem · relatedness 2.2/3
+- [Evaluating Objective Speech Quality Metrics for Neural Audio Codecs](lanzendoerfer26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

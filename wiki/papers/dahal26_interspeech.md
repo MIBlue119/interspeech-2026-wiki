@@ -76,4 +76,10 @@ Universidad Politecnica de Madrid, National University of Singapore
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Activation Steering for Accent Adaptation in Large Audio Language Models](sun26h_interspeech.md) — same problem · relatedness 2.4/3
+- [Mixture-of-Accent-Adapters for Robust ASR: Injecting Accent Cues into Pretrained Whisper](bijoy26_interspeech.md) — same problem · relatedness 2.3/3
+- [Contrastive Regularization for Accent-Robust ASR](thai26_interspeech.md) — same problem · relatedness 2.1/3
+- [GC-LoRA: Gated Convolutional LoRA for Parameter-Efficient Acoustic Adaptation](shankar26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Data-Efficient ASR Personalization for Non-Normative Speech Using an Uncertainty-Based Phoneme Difficulty Score for Guided Sampling](pokel26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

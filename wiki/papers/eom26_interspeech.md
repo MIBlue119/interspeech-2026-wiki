@@ -79,4 +79,10 @@ Korea Advanced Institute of Science and Technology, University of Illinois Urban
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — shared technique · relatedness 2.3/3
+- [Formant-Guided Speech Repair for Enhanced Comprehension of Dysarthric Speech](chen26n_interspeech.md) — same problem · relatedness 2.2/3
+- [RobustSpeechFlow: Learning Robust Text-to-Speech Trajectories via Augmentation-based Contrastive Flow Matching](yang26p_interspeech.md) — shared technique · relatedness 2.2/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.2/3
+- [SARA: A Dual-Stream VAE for High-Fidelity Speech Generation via Integrating Semantic and Acoustic Representations](chen26v_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

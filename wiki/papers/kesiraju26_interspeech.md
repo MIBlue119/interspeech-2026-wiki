@@ -78,4 +78,10 @@ Brno University of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Probing Linguistic Information in Speech Embeddings: A Diagnostic Analysis across Acoustic and Structural Domains](gonzalez26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Beyond task performance: Decoding bioacoustic embeddings with speech features](nolasco26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Speech Codec Probing from Semantic and Phonetic Perspectives](shi26g_interspeech.md) — shared technique · relatedness 1.9/3
+- [Bridging Languages and Modalities: Lightweight Cross-Lingual Text and Speech Summarization for Low-Resource Scenarios](chellaf26_interspeech.md) — complementary · relatedness 1.9/3
+- [Said Aloud, Read Different: Cross-Modal Instability in Multimodal Models](mousi26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

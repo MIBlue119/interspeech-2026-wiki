@@ -76,4 +76,10 @@ Yandex
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Massive Open-Vocabulary Keyword Spotting](barreiros26_interspeech.md) — same problem · relatedness 2.4/3
+- [Personalized Keyword Spotting for User-Defined Keywords Leveraging Text-Independent Speaker Verification](hu26c_interspeech.md) — same problem · relatedness 2.2/3
+- [SPARK: Efficient Audio-Text Matching for User-Defined Keyword Spotting via Spiking Neural Networks](baek26_interspeech.md) — same problem · relatedness 2.2/3
+- [Mitigating Causality Mismatch with Causal Temporal Relation Distillation for Streaming Keyword Spotting](zhang26ia_interspeech.md) — same problem · relatedness 2.2/3
+- [ADALA: A Wake-up Word Detection Framework Based on Adaptive Semi-supervised learning and Large Language Model](tang26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

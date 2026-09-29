@@ -78,4 +78,10 @@ Torilab AI, Viettel Group, Hanoi University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VoCodec: A Low-bitrate Streamable Neural Speech Codec with Voicing-driven Quantization](jiang26b_interspeech.md) — same problem · relatedness 2.9/3
+- [DTM-Codec: Dynamic Token Masking for VFR Speech Coding with Efficient Boundary Selection](sohn26_interspeech.md) — same problem · relatedness 2.8/3
+- [ContextCodec: Content-Focused Context Guidance for Ultra-Low Bitrate Speech Coding](liang26d_interspeech.md) — same problem · relatedness 2.8/3
+- [HybridCodec: Fast Dual-Stream, Semantically Enhanced Neural Audio Codec](gangwar26_interspeech.md) — same problem · relatedness 2.7/3
+- [A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization](zhang26ga_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

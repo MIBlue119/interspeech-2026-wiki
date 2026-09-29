@@ -75,4 +75,10 @@ Tsinghua University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Retention-Preserving Gradient Projection with Entropy-Guided Token-Level Distillation for Rehearsal-Free Continual ASR](ma26d_interspeech.md) — same problem · relatedness 2.7/3
+- [Continual Adaptation for Pacific Indigenous Speech Recognition](xiao26_interspeech.md) — same problem · relatedness 2.4/3
+- [Confidence-Gated Mean-Teacher Consistency Regularization for Low-Resource Multilingual ASR with Shared–Private Fusion-LoRA](liu26h_interspeech.md) — same problem · relatedness 2.2/3
+- [GigaAM Multilingual: Foundation Model for Underrepresented Languages](kuzmenko26_interspeech.md) — same problem · relatedness 2.1/3
+- [Hybrid Continual Learning for Low-Resource Australian Aboriginal Language Identification](mylvaganam26_interspeech.md) — shared technique · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

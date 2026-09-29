@@ -77,4 +77,10 @@ CBS, Sogang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Deterministic Prompting for Speaker-Stable Low-Resource Greek TTS](syllas26_interspeech.md) — same problem · relatedness 1.9/3
+- [Uncovering the Impact of G2P Precision on Korean TTS: A Large-Scale Statistical Validation via a Novel Morphological Engine](you26_interspeech.md) — same problem · relatedness 1.9/3
+- [Indigenising Speech Technology: Building a TTS Model for te Reo Māori](leoni26_interspeech.md) — same problem · relatedness 1.9/3
+- [High-Quality Speech Synthesis for Under-Resourced Ethiopian Languages](tamiru26_interspeech.md) — same problem · relatedness 1.9/3
+- [K-DIALECT : Korean Dialect-Aware Face-Based Speech Synthesis](yang26d_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

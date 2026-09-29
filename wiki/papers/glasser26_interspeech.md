@@ -68,4 +68,10 @@ Gallaudet University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Making Room for Speech Diversity: A 50 Year Retrospective of Speech Science and Technology through a Neurodivergent Lens](lietz26_interspeech.md) — same problem · relatedness 1.9/3
+- [Data-Efficient ASR Personalization for Non-Normative Speech Using an Uncertainty-Based Phoneme Difficulty Score for Guided Sampling](pokel26_interspeech.md) — same problem · relatedness 1.9/3
+- [Contrastive Regularization for Accent-Robust ASR](thai26_interspeech.md) — same problem · relatedness 1.9/3
+- [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](toyin26_interspeech.md) — same problem · relatedness 1.9/3
+- [Activation Steering for Accent Adaptation in Large Audio Language Models](sun26h_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ Hong Kong University of Science and Technology, Tencent
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — same problem · relatedness 2.6/3
+- [Dual-Space Constrained Face-Based Zero-Shot Text-to-Speech Synthesis](wang26f_interspeech.md) — same problem · relatedness 2.6/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — same problem · relatedness 2.5/3
+- [FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech](wang26s_interspeech.md) — shared technique · relatedness 2.4/3
+- [ProsoCodec: Prosody-Oriented Speech Codec for Voice Conversion](choi26d_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Seoul National University, National Chengchi University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Perception of English /iː/–/ɪ/ by Japanese Listeners under Silent-Centre and Devoiced Vowel Conditions](tokuma26_interspeech.md) — same problem · relatedness 1.8/3
+- [Lexical stress-conditioned spatiotemporal gestural coordination in L2 English](mcguire26_interspeech.md) — relatedness 1.7/3
+- [Vowel Allophony Improves Maximum-Likelihood Classification of Warlpiri Consonants](cram26_interspeech.md) — relatedness 1.7/3
+- [Categorical Perception of Mandarin Tones in Jingpo Native Speakers](wang26z_interspeech.md) — relatedness 1.5/3
+- [Achieving voicelessness in coda stop contexts: Insights from combined electroglottography and laryngoscopy](penney26_interspeech.md) — relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

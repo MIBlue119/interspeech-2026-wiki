@@ -80,4 +80,10 @@ Universite Paris-Saclay, Universidad de Chile, Sorbonne University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SA-UAED: Joint Frame-Level Detection of Audio Events, Speaker Activities, and Speaker-Attributed Paralinguistic Events](lan26_interspeech.md) — same problem · relatedness 2.0/3
+- [GRIDS: Dimensionality-Aware Anomaly Detection in Learned Representations of Self-Supervised Speech Models](arcosholzinger26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Leveraging Discriminative Capabilities of Self-Supervised Neural Audio Fingerprinting for Efficient Speech Data Annotation](altwlkany26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Unsupervised Speech in the Wild Challenge: Learning Robust Multilingual Representations](gomez26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Contrastive Time-Proximity Pre-Training for Speech-Based Heart Failure Monitoring](fiedler26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

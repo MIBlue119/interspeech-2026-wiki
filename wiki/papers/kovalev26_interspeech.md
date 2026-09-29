@@ -78,4 +78,10 @@ Symbal AI, Princeton University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Comparing Self-Supervised and Domain-Invariant Features for Cross-Domain Voice Phishing Detection](lee26s_interspeech.md) — shared technique · relatedness 1.8/3
+- [Evidence Subspace Projection: Measuring How Much Evidence Explains Deepfake Detection in Self-Supervised Speech Models](xiao26c_interspeech.md) — shared technique · relatedness 1.8/3
+- [Context-aware child-directed speech detection from long-form recordings](charlot26b_interspeech.md) — shared technique · relatedness 1.8/3
+- [Task-Aware Joint Pruning and Distillation for Efficient Audio Deepfake Detection](he26f_interspeech.md) — shared technique · relatedness 1.8/3
+- [InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective](sadok26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

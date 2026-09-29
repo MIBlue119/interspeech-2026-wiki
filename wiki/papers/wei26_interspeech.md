@@ -70,4 +70,10 @@ Hunan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Common Cold Corpus: Health-Aware Robustness Study of Modern Speaker Embeddings Under Physiological Domain Shift](hacker26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [SpiroPhonia: Non-Invasive Respiratory Health Assessment from Spontaneous Speech](khanom26_interspeech.md) — same problem · relatedness 1.8/3
+- [Synthetic Pathological Speech at Scale: A Flow Matching Approach for Clinical Data Augmentation](koudounas26_interspeech.md) — same problem · relatedness 1.8/3
+- [Phy-VC: Physics-Informed Voice Conversion for Privacy-Preserving Pathological Speech](ghosh26_interspeech.md) — complementary · relatedness 1.7/3
+- [What Does a Pathological Speech Assessment Model Know about Acoustic Features? A Case Study on Oral and Oropharyngeal Cancer Patients](nguyen26h_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

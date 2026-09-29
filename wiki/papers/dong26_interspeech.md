@@ -83,4 +83,10 @@ National Taiwan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Privacy-Preserving ASR: Speaker-Level Machine Unlearning](ok26_interspeech.md) — same problem · relatedness 2.0/3
+- [Who is Speaking or Who is Depressed? A Controlled Study of Speaker Leakage in Speech-Based Depression Detection](yeh26_interspeech.md) — same problem · relatedness 1.9/3
+- [Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models](kuzmin26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Personal Attribute Leakage in Federated Speech Models](alali26_interspeech.md) — same problem · relatedness 1.8/3
+- [From Game-Based Annotation to Representation Probing: Cross-Validated Prosodic Speech and Privacy Implications](sepanta26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

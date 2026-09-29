@@ -77,4 +77,10 @@ Moscow Technical University of Communications and Informatics, BitmanagerAI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Dialogs: a studio-quality expressive conversational Russian speech corpus for dialog assistants](shigabeev26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [TriA Pipeline: A Large-Scale Automatic Audio Annotation Pipeline For Audio Classification In Specific Scenarios](lyu26_interspeech.md) — shared technique · relatedness 2.0/3
+- [SpeechBench: A Unified Speech Annotation and Analysis Tool](nan26_interspeech.md) — complementary · relatedness 2.0/3
+- [Collecting Prosody in the Wild: A Content-Controlled, Privacy-First Smartphone Protocol and Empirical Evaluation](koch26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [VāṇīSetu: A Human-AI Collaborative Framework for Scalable Conversational Speech Corpus Creation in Low-Resource Settings](kumar26h_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

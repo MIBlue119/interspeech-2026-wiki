@@ -79,4 +79,10 @@ Zhejiang University, StepFun
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Ultra-Low-Bitrate Neural Speech Codec with Plain-to-Pseudo Synergistic Vector Quantization](jiang26h_interspeech.md) — same problem · relatedness 3.0/3
+- [VoCodec: A Low-bitrate Streamable Neural Speech Codec with Voicing-driven Quantization](jiang26b_interspeech.md) — same problem · relatedness 2.9/3
+- [SDP-Codec: A Speaker-Decoupled Speech Codec with Pitch Injection for Low-Bitrate Coding and Zero-Shot Voice Conversion](kim26v_interspeech.md) — same problem · relatedness 2.9/3
+- [ContextCodec: Content-Focused Context Guidance for Ultra-Low Bitrate Speech Coding](liang26d_interspeech.md) — same problem · relatedness 2.9/3
+- [Low-Framerate Speech Tokenization via Two-Stage Latent Patch Modeling](lemerle26_interspeech.md) — same problem · relatedness 2.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

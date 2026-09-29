@@ -80,4 +80,10 @@ Telecom Paris, Institut Polytechnique de Paris, Universite du Mans
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Spatially-Augmented Sequence-to-Sequence Neural Diarization for Meetings](li26la_interspeech.md) — same problem · relatedness 2.6/3
+- [Multi-Speaker Embeddings With Weakly Supervised Speaker Activity Detection For Granular Speaker Diarization](thienpondt26_interspeech.md) — same problem · relatedness 2.6/3
+- [Bidirectional Retention Network-based Segmentation Model for Speaker Diarization](you26b_interspeech.md) — same problem · relatedness 2.6/3
+- [Two-Level Uncertainty Suppression for Robust Meeting Diarization](asaka26_interspeech.md) — same problem · relatedness 2.5/3
+- [SphereVBx: Spherical Variational Bayes Clustering for Simplified EEND-VC Diarization](palka26_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Georgia Institute of Technology, University of Illinois Urbana-Champaign
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Multilingual Word-Level Forced Alignment with Self-Supervised Representations and Learned Dynamic Programming](weber26_interspeech.md) — same problem · relatedness 2.2/3
+- [Montreal Forced Aligner and the state of speech-to-text alignment in 2026](mcauliffe26_interspeech.md) — same problem · relatedness 2.1/3
+- [Bootstrapping Endangered Language ASR with Short-Form Corpora](bartley26_interspeech.md) — same problem · relatedness 2.0/3
+- [Evaluation of forced alignment of code-mixed speech: the case of Hindi-English](pandey26b_interspeech.md) — same problem · relatedness 2.0/3
+- [POTSA: A Cross-Lingual Speech Alignment Framework for Speech-to-Text Translation](li26k_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

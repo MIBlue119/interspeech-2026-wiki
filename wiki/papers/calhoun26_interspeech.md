@@ -77,4 +77,10 @@ Victoria University of Wellington
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sexualised Synthetic Personas Encode and Amplify Gendered Power Asymmetries through Voice](ross26b_interspeech.md) — same problem · relatedness 1.9/3
+- [TMASC: Transmasculine Attitude and Speech Corpus](wong26_interspeech.md) — complementary · relatedness 1.8/3
+- [Naming Heroes and Villains – The Influence of Phonaesthetics](schade26_interspeech.md) — relatedness 1.7/3
+- [Disentangling sociophonetic and physiological variation in /s/ acoustics across 12 languages](lipari26_interspeech.md) — relatedness 1.7/3
+- [The (non-)universality of prominence and Intonation Phrases: German and Hungarian listeners'' perception of an unfamiliar language](jabeen26_interspeech.md) — relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

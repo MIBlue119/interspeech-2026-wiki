@@ -76,4 +76,10 @@ CyberAgent
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Uncovering the Impact of G2P Precision on Korean TTS: A Large-Scale Statistical Validation via a Novel Morphological Engine](you26_interspeech.md) — same problem · relatedness 2.1/3
+- [Phonikud: Overcoming Phonetic Underspecification for Hebrew Text-To-Speech](kolani26_interspeech.md) — same problem · relatedness 2.1/3
+- [Post-ASR Proper Noun Grounding via Multi-View Phonetic and Semantic Retrieval](nema26_interspeech.md) — complementary · relatedness 1.8/3
+- [Inverse Text Normalization in Romanian: A Comparative Study of Rule-Based, Neural, and Large Language Model Approaches](sirbu26_interspeech.md) — shared technique · relatedness 1.7/3
+- [Scaling Human and G2P Supervision for Robust Phonetic Transcription](metzger26_interspeech.md) — complementary · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

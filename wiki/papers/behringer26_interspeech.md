@@ -78,4 +78,10 @@ Fraunhofer Institute for Integrated Circuits
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Noisy Environment Adaptation of Neural Speech Codec via Focal Mask and Noise Feature Separation](li26e_interspeech.md) — same problem · relatedness 2.4/3
+- [Deep learning-based predictions of perceived listening effort and intelligibility across enhanced, synthetic, natural, and binaural speech](hoffner26_interspeech.md) — same problem · relatedness 2.0/3
+- [Screening Matters: A Comparative Study of Conventional and Crowdsourced Listening Tests](treffehn26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Absorbing Discrete Diffusion for Speech Enhancement](gonzalez26_interspeech.md) — same problem · relatedness 2.0/3
+- [UniSE: A Unified Framework for Decoder-Only Autoregressive LM-Based Speech Enhancement](yan26_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

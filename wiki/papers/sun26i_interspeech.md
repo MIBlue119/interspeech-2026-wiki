@@ -80,4 +80,10 @@ University of Chinese Academy of Sciences
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learning to Attend to Depression-Related Patterns: An Adaptive Cross-Modal Gating Network for Depression Detection](yu26c_interspeech.md) — same problem · relatedness 2.9/3
+- [Label Correction Enhanced Dual-Stream Multiple Instance Learning for Weakly-Supervised Depression Detection in Speech](sun26e_interspeech.md) — same problem · relatedness 2.8/3
+- [Layer-wise Multi-factor Adaptive Disentanglement for Cross-corpus Speech Depression Detection](wang26j_interspeech.md) — same problem · relatedness 2.6/3
+- [Investigating LLMs Behavior in Depression Severity Prediction](yu26_interspeech.md) — same problem · relatedness 2.5/3
+- [Uncovering Latent Depression Severity for Binary Depression Detection via Advantage-weighting Ranking](gao26d_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

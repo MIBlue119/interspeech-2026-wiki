@@ -78,4 +78,10 @@ Nagaoka University of Technology, McGill University, University of British Colum
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Noise Scaling Factor for the One-Dimensional Voice Production Model](yoshinaga26_interspeech.md) — same problem · relatedness 2.0/3
+- [Morphoacoustic Modeling of a Dynamic 3D Vocal Tract Using MRI-Constrained Deformations and FEM Acoustics](piyadasa26_interspeech.md) — same problem · relatedness 2.0/3
+- [Phy-VC: Physics-Informed Voice Conversion for Privacy-Preserving Pathological Speech](ghosh26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Improved modeling of vocal fold contacting and de-contacting in a geometric vocal fold model](zhang26j_interspeech.md) — same problem · relatedness 1.9/3
+- [Articulatory Dynamics using Physical Vocal-tract Models](arai26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

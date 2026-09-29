@@ -74,4 +74,10 @@ University of Illinois Urbana-Champaign, Beckman Institute for Advanced Science 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Effects of listener language experience, masker language, and cognitive load on word monitoring accuracy and response time](chin26_interspeech.md) — same problem · relatedness 2.1/3
+- [Tone-space Distribution Modulates Transfer from Non-linguistic Pitch Training to Cantonese Tone-in-Noise Perception in Native Speakers](weng26_interspeech.md) — same problem · relatedness 1.8/3
+- [English Vowel Perceptual Training under Multitalker Babble: A Comparison of Humans and Large Language Models](dong26b_interspeech.md) — same problem · relatedness 1.7/3
+- [Sound Reactor Mission: Gamified Misophonia Assessment to Bridge the Gap in Audiology and Hearing Care](mejia26_interspeech.md) — same problem · relatedness 1.6/3
+- [Assessing the Impact of Noise and Speech Enhancement on the Intelligibility of Speech Codecs](behringer26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

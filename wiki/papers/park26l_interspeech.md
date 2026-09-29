@@ -75,4 +75,10 @@ Hanyang University, Pusan National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling](zhang26ca_interspeech.md) — same problem · relatedness 2.8/3
+- [Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction](yu26f_interspeech.md) — same problem · relatedness 2.6/3
+- [AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning](zhang26ea_interspeech.md) — same problem · relatedness 2.5/3
+- [Segment-wise Embedding based Graph Attention Network for Effective Speech Emotion Recognition](song26c_interspeech.md) — same problem · relatedness 2.4/3
+- [SETEAB: Multiscale approach with Squeeze-and-Excitation Temporal Enhanced Aware Block for Speech Emotion Recognition](vo26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -72,4 +72,10 @@ University of Surrey
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [GigaChat Audio: Time-aware Large Audio Language Model](kutsakov26_interspeech.md) — same problem · relatedness 1.9/3
+- [A Closer Look at Failure Modes in Temporal Understanding of Large Audio-Language Models](kulkarni26_interspeech.md) — same problem · relatedness 1.7/3
+- [Towards Fine-Grained Temporal Perception: Post-Training Large Audio-Language Models with Audio-Side Time Prompt](shi26b_interspeech.md) — same problem · relatedness 1.7/3
+- [AudioGround: Fine-Grained Temporal Grounding in Audio via Deterministic Boundary Supervision](kim26z_interspeech.md) — same problem · relatedness 1.7/3
+- [A Sensitivity Analysis of Multi-Event Audio Grounding in Audio LLMs](lee26o_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

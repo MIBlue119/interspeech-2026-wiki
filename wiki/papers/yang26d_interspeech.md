@@ -77,4 +77,10 @@ Sungkyunkwan University, Jaume I University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DiaMoE-TTS: A Unified IPA-Based Dialect TTS Framework with Parameter-Efficient Adaptation and Reward-Driven Optimization](chen26z_interspeech.md) — same problem · relatedness 2.2/3
+- [When Machines Speak Like Local Peers: Improving Conversational Experiences with Accent-Adaptive Voice Agents](garnaik26_interspeech.md) — shared technique · relatedness 2.0/3
+- [High-Quality Speech Synthesis for Under-Resourced Ethiopian Languages](tamiru26_interspeech.md) — same problem · relatedness 2.0/3
+- [Dual-Space Constrained Face-Based Zero-Shot Text-to-Speech Synthesis](wang26f_interspeech.md) — shared technique · relatedness 2.0/3
+- [OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models](zhu26e_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

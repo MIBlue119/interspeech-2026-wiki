@@ -81,4 +81,10 @@ RWTH Aachen University, AppTek
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Convolutional Dynamic Rotary Positional Encoding](hong26_interspeech.md) — same problem · relatedness 1.9/3
+- [Not All Frames Are Equal: Difference-Aware Quantization for Ultra-Low-Bit ASR](jeon26c_interspeech.md) — same problem · relatedness 1.7/3
+- [Evolution Strategy-Based Calibration for Low-Bit Quantization of Speech Models](rakotoarivony26_interspeech.md) — same problem · relatedness 1.6/3
+- [Duration-aware self-attention for speech deepfake detection](tu26_interspeech.md) — shared technique · relatedness 1.6/3
+- [Pushing the Limits of Compression: Sub-1-Bit Conformer via Variable-Rank Binary Decomposition](yeo26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

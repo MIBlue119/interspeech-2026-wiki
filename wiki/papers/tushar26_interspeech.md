@@ -81,4 +81,10 @@ Singapore Institute of Technology, Duke Kunshan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VerAno: Speaker Anonymization via Self-Supervised Tokenization and Conditional Flow Matching](le26_interspeech.md) — same problem · relatedness 2.4/3
+- [DiffAnon: Diffusion-based Prosody Control for Voice Anonymization](ulgen26b_interspeech.md) — same problem · relatedness 2.4/3
+- [DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations](ngong26_interspeech.md) — same problem · relatedness 2.4/3
+- [Acoustic token admixture for joint speaker and content anonymization](golmakani26_interspeech.md) — same problem · relatedness 2.4/3
+- [Privacy and quality trade-off in real-time speaker anonymization via editing of age and sex attributes](quamer26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

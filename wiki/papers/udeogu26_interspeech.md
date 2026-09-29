@@ -77,4 +77,10 @@ University of Maryland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Measuring Vocal Efficiency in Daily Life in Patients with Voice Disorders Using Wireless Accelerometer and Microphone Sensors](yousef26c_interspeech.md) — complementary · relatedness 1.9/3
+- [Smooth Formant Tracking with Differentiable Linear Prediction](luisi26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Phy-VC: Physics-Informed Voice Conversion for Privacy-Preserving Pathological Speech](ghosh26_interspeech.md) — complementary · relatedness 1.8/3
+- [SpiroPhonia: Non-Invasive Respiratory Health Assessment from Spontaneous Speech](khanom26_interspeech.md) — complementary · relatedness 1.7/3
+- [The Interspeech 2026 NeckVibe Challenge: Voice Disorder Detection via Real-World Monitoring of Neck-Surface Vibration](yousef26b_interspeech.md) — complementary · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

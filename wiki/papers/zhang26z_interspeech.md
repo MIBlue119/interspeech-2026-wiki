@@ -78,4 +78,10 @@ Hangzhou Dianzi University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.9/3
+- [Speech Enhancement Based on Drifting Models](xu26d_interspeech.md) — same problem · relatedness 2.9/3
+- [Learnable Schrödinger Bridge and Activations for Efficient Diffusion-based Speech Enhancement](fu26b_interspeech.md) — same problem · relatedness 2.9/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.9/3
+- [A Fast Solver for Interpolating Stochastic Differential Equation Diffusion Models for Speech Restoration](lay26_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

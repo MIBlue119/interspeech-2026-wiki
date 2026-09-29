@@ -78,4 +78,10 @@ McGill University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Variation and change in dynamicity of Australian English diphthongs in Sydney](purser26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Lexical stress-conditioned spatiotemporal gestural coordination in L2 English](mcguire26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Oral stop realisation in three French Polynesian languages](fletcher26_interspeech.md) — same problem · relatedness 1.9/3
+- [Speaker-Specific and Language-Dependent Temporal Organization in Bilingual Political Speech](hosseinikivanani26b_interspeech.md) — relatedness 1.7/3
+- [From onset to coda: spectral variation in normative Polish /s/ produced by children](walczak26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

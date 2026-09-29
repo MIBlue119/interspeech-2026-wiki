@@ -82,4 +82,10 @@ Inner Mongolia University, Inner Mongolia Arts University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AdaTS: Adaptive Token Sampling for Efficient Speech Language Models](sannigrahi26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Adaptive AVSR: Integrating Speaker and Environmental Embeddings for Robust Audio-Visual Speech Recognition](simic26_interspeech.md) — same problem · relatedness 2.1/3
+- [BELLA: Efficient Bilevel Learning with LoRA for Multilingual ASR](saif26_interspeech.md) — same problem · relatedness 2.0/3
+- [Token-Independent Language Representations for Low-Latency Configurable Multilingual Speech Recognition](zhu26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Dissecting Sensitivity to Training Language in Self-Supervised Speech Learning Using Neural Audio Codec Tokens](takizawa26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

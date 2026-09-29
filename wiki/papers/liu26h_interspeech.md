@@ -80,4 +80,10 @@ Xinjiang University, Tsinghua University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MambAdapter: Lightweight Mamba-Based Adapters for Parameter-Efficient Transfer Learning in Speech and Audio](ali26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Probing LoRA-to-LoRA Cross-Lingual Transfer for Unseen Low-Resource Conditions in Whisper-Based ASR](mondal26_interspeech.md) — same problem · relatedness 2.4/3
+- [BELLA: Efficient Bilevel Learning with LoRA for Multilingual ASR](saif26_interspeech.md) — same problem · relatedness 2.3/3
+- [Overcoming Decoder Inconsistencies in Whisper for Dravidian and Low-Resource Languages](kumar26c_interspeech.md) — same problem · relatedness 2.3/3
+- [Unified Gradient Projection: Language-Balanced Continual Learning for Multilingual Low-Resource ASR](ren26g_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

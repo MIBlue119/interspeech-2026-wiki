@@ -76,4 +76,10 @@ Indian Institute of Technology Indore, University of Groningen
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Iterate to Differentiate: Enhancing Discriminability and Reliability in Zero-Shot TTS Evaluation](shen26d_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+- [Investigating Human-Model Discrepancies in Speech Quality Assessment via Acoustic and Prosodic Perturbations](takagi26_interspeech.md) — same problem · relatedness 2.2/3
+- [CodecMOS-Accent: A MOS Benchmark of Resynthesized and TTS Speech from Neural Codecs Across English Accents](huang26f_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Evaluating Objective Speech Quality Metrics for Neural Audio Codecs](lanzendoerfer26_interspeech.md) — same problem · relatedness 2.2/3
+- [TDScore: Learning Synthetic Speech Quality Predictors from TTS Training Dynamics without Human annotation](miniconi26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

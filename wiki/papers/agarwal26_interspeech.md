@@ -77,4 +77,10 @@ Walmart Global Tech
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders](aparin26_interspeech.md) — same problem · relatedness 2.9/3
+- [A Gated Multi-Task Whisper Framework for Speech, Emotion, and Scene Understanding](bhat26_interspeech.md) — same problem · relatedness 2.6/3
+- [Probing and Mitigating Hallucinations in Speech-augmented Language Models for Automatic Speech Recognition via Small Language Models](yan26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding](ahn26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Silence is Golden: Mitigating Hallucinations in Large Audio-Language Models via Layer-Weighted Vector Steering](lin26g_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

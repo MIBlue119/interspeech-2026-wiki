@@ -77,4 +77,10 @@ Tsinghua University, Institute of Forensic Science, Ministry of Public Security
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Deep learning-based predictions of perceived listening effort and intelligibility across enhanced, synthetic, natural, and binaural speech](hoffner26_interspeech.md) — same problem · relatedness 1.9/3
+- [WhiSSDapt: Adaptive Fusion of Whisper Layer Embeddings for Sentence Stress Detection](murugaiyan26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Discrete vs. Continuous: A Comprehensive Study of Unified Audio Understanding in LALMs](peng26h_interspeech.md) — shared technique · relatedness 1.9/3
+- [Listening Like a Judge: A Music-Aware Framework for Automatic Singing Performance Evaluation](saini26_interspeech.md) — same problem · relatedness 1.9/3
+- [Automatic Assessment of L2 Speech Intelligibility: Segmental Error Ranking](pludra26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

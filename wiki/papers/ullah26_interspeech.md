@@ -81,4 +81,10 @@ Yeungnam University, Univ. Artois, CRIL CNRS
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Context-Adaptive Automated Audio Captioning with Symmetric Dual-MoE and Dynamic Reward Routing](ahn26_interspeech.md) — same problem · relatedness 2.1/3
+- [Aligning Audio Captions with Human Preferences](hegde26_interspeech.md) — same problem · relatedness 2.0/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — complementary · relatedness 1.9/3
+- [Aligning MusicLLM with Emotion using Instruction Tuning and Feedback-Driven Alignment](hasumi26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Bagpiper-Edit: Zero-Shot Open-Ended Audio Editing via Rich-Caption](gong26b_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

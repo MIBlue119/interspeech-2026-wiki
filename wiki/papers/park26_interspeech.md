@@ -79,4 +79,10 @@ Korea University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [BG-CRNN: Boundary-Guided Dynamic Attention for Sound Event Detection in Complex Scenarios](lin26k_interspeech.md) — same problem · relatedness 2.0/3
+- [Similarity as Evidence: An Explainable Siamese Framework for Snore Sound Classification](meng26f_interspeech.md) — same problem · relatedness 1.8/3
+- [Teacher-Agnostic Temporal Knowledge Distillation for Resource-Efficient Sound Event Detection](son26_interspeech.md) — same problem · relatedness 1.8/3
+- [Consistency-Regularized Dual-Branch Network with Performance-Aware Mean Teacher for Sound Event Detection](dai26_interspeech.md) — same problem · relatedness 1.8/3
+- [POP-SED: Prototype Orthogonal Projection for Robust Few-shot Sound Event Detection](kagoshima26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

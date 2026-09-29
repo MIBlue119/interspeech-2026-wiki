@@ -75,4 +75,10 @@ National University of Defense Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Which Data Matter? Embedding-Based Data Selection for Speech Recognition](aldeneh26_interspeech.md) — shared technique · relatedness 1.9/3
+- [POP-SED: Prototype Orthogonal Projection for Robust Few-shot Sound Event Detection](kagoshima26_interspeech.md) — same problem · relatedness 1.9/3
+- [Leveraging Discriminative Capabilities of Self-Supervised Neural Audio Fingerprinting for Efficient Speech Data Annotation](altwlkany26_interspeech.md) — complementary · relatedness 1.9/3
+- [Audio-Language Prompt Learning for Few-Shot Audio Classification](xu26l_interspeech.md) — same problem · relatedness 1.9/3
+- [Data-Efficient ASR Personalization for Non-Normative Speech Using an Uncertainty-Based Phoneme Difficulty Score for Guided Sampling](pokel26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

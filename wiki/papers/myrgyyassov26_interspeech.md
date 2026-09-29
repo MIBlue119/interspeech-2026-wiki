@@ -74,4 +74,10 @@ Hong Kong Polytechnic University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Larynx segmentation in mid-sagittal speech production real-time MRI](zhang26v_interspeech.md) — shared technique · relatedness 1.9/3
+- [From Lab to Laptop: Validating 3D Speech Kinematics with MediaPipe Face Mesh](sanchez26b_interspeech.md) — same problem · relatedness 1.8/3
+- [The Role of Laryngeal Position in the Articulation of American English Velar Stop Consonants](kim26b_interspeech.md) — shared technique · relatedness 1.8/3
+- [Towards Robust Ultrasound-based Silent Speech Recognition Learning Physics-Aware and Context-Rich Representations](wen26d_interspeech.md) — complementary · relatedness 1.7/3
+- [Automatic pitch prediction from speech articulation: Where does the f0 information come from?](ozkan26_interspeech.md) — complementary · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

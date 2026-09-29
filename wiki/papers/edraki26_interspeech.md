@@ -77,4 +77,10 @@ Huawei
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Balancing Speech Reconstruction and Noise Suppression Using Dual-Asymmetric Loss](carson26_interspeech.md) — same problem · relatedness 2.0/3
+- [Post-Training Speech Enhancement Language Models with Perceptual Rewards](berdo26_interspeech.md) — same problem · relatedness 2.0/3
+- [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](gao26e_interspeech.md) — same problem · relatedness 2.0/3
+- [RT-Tango: Real-Time Distributed Binaural Speech Enhancement for Low-Power Hearing Aid Devices](benslimane26_interspeech.md) — same problem · relatedness 2.0/3
+- [Time–Frequency Weighted Losses for Phoneme Reconstruction in DNN-Based Speech Enhancement](monir26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

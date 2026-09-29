@@ -79,4 +79,10 @@ University of Texas at Austin
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Deriving Benchmarking Datasets from Long-Form Recordings: Challenges and Opportunities](sheth26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [ELSI: An Interface for Standardizing Child-Centered Datasets, Applying Machine Learning Models, and Extracting Metrics](sheth26c_interspeech.md) — complementary · relatedness 2.0/3
+- [Robust Multi-Tier Infant-Centered Audio Understanding with Whisper via Structured Speaker Conditioning](fan26b_interspeech.md) — same problem · relatedness 2.0/3
+- [The TinyExplorer Ecosystem: Open tools for studying infants’ auditory and visual experiences](oliveira26c_interspeech.md) — complementary · relatedness 1.9/3
+- [BabyHuBERT: Multilingual Self-Supervised Learning for Segmenting Speakers in Child-Centered Long-Form Recordings](charlot26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

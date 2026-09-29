@@ -59,6 +59,7 @@ zg "contextual biasing for rare words"
 |---|---|
 | `wiki/papers/*.md` | One OKF-style compiled page per paper (frontmatter + original summary). **Not** the paper full text. |
 | `data/papers/*.yaml` | One metadata file per paper (title, authors, DOI, code links…). The table below is generated from these. |
+| `data/related/top.jsonl` | Each paper's 20 most related papers — every one of the ~950k paper pairs was judged by TypeSafe Jev. Drives each page's **Related** links. Pipeline: `scripts/related/` (`candidates.py` builds the paper cards → `score.py` → `write.py`). |
 | `cmd/iswiki/` | Go CLI: scrape the ISCA index, validate metadata, regenerate this README, fetch PDFs locally. |
 | `sources/` | *(gitignored)* PDFs you fetch locally for deep reading — never committed. |
 

@@ -79,4 +79,10 @@ Motilal Oswal Financial Services, Indian Institute of Technology Bombay
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SCRIBE: Diagnostic Evaluation and Rich Transcription Models for Indic ASR](manohar26_interspeech.md) — same problem · relatedness 1.9/3
+- [Cross-Modal Robustness Transfer (CMRT): Training Robust Speech Translation Models Using Adversarial Text](issam26_interspeech.md) — same problem · relatedness 1.8/3
+- [Dynamic Block-Online Streaming ASR for Low-Resource Agglutinative Code-Switching Speech with Morphology-Aware Evaluation](rafat26_interspeech.md) — complementary · relatedness 1.8/3
+- [ARTIST: Universal Articulatory Space Modeling for Multilingual Indic-to-English Speech-to-Speech Translation](yadav26_interspeech.md) — complementary · relatedness 1.6/3
+- [Overcoming Decoder Inconsistencies in Whisper for Dravidian and Low-Resource Languages](kumar26c_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

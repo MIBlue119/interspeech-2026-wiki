@@ -77,4 +77,10 @@ Samsung
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SongBench: A Fine-Grained Multi-Aspect Benchmark for Song Quality Assessment](wu26h_interspeech.md) — same problem · relatedness 2.5/3
+- [Acoustic and Semantic Feature Fusion Mapping for Lyric Intelligibility Prediction](fu26_interspeech.md) — same problem · relatedness 1.9/3
+- [Interpretable Audio Editing Evaluation via Chain-of-Thought Difference-Commonality Reasoning with Multimodal LLMs](jia26b_interspeech.md) — same problem · relatedness 1.9/3
+- [A Multi-Agent Framework to Automate Feedback Generation for IELTS Speaking Test using Multimodal SpeechLMs](koh26_interspeech.md) — shared technique · relatedness 1.9/3
+- [M-LAMA: Multimodal Automated Scoring of Long-form Spoken English](daoxuanquang26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

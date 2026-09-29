@@ -78,4 +78,10 @@ University of Tokyo, National Institute of Advanced Industrial Science and Techn
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — same problem · relatedness 2.0/3
+- [ViP-VL: Vietnamese Self-supervised Speech Pretraining Model with Vector-Quantization Learning](le26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Activation Steering for Accent Adaptation in Large Audio Language Models](sun26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Discrete vs. Continuous: A Comprehensive Study of Unified Audio Understanding in LALMs](peng26h_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

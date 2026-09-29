@@ -75,4 +75,10 @@ NAVER Cloud, KAIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Preserving Acoustic Cues for Video Reasoning: An Efficient Uniqueness-Driven Token Compression Framework](xue26d_interspeech.md) — same problem · relatedness 2.5/3
+- [All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation](foo26_interspeech.md) — same problem · relatedness 2.4/3
+- [VividAC: Visually Informed and Visually Interacted Audio Captioning for Enhancing Audio-Visual Question Answering](kim26y_interspeech.md) — same problem · relatedness 2.1/3
+- [Consistent and Coherent Audio-Visual Understanding with Cross-Frame Patch Differential Attention and Cross-Modal Temporal Alignment](yan26b_interspeech.md) — same problem · relatedness 2.0/3
+- [AdaTS: Adaptive Token Sampling for Efficient Speech Language Models](sannigrahi26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

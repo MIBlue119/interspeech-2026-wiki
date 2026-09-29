@@ -79,4 +79,10 @@ Xi'an Jiaotong University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Phoneme Error and Uncertainty Features for Interpretable Dysarthric Speech Assessment](zhong26c_interspeech.md) — same problem · relatedness 2.6/3
+- [Something from Nothing: Data Augmentation for Robust Severity Level Estimation of Dysarthric Speech](bae26_interspeech.md) — same problem · relatedness 2.6/3
+- [Multi-Phonation Graph Learning with Self-Supervised Speech Embeddings for ALS Detection and Progression Prediction](taghibeyglou26_interspeech.md) — same problem · relatedness 2.5/3
+- [Augmenting Dysarthric Speech Severity Assessment with MOS Supervision](jia26_interspeech.md) — same problem · relatedness 2.4/3
+- [Cross-lingual Retrieval-Augmented Classification for Dysarthria Severity Assessment](jeong26b_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Unsupervised language documentation for endangered languages, zero-resource spee
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Extreme Few-Shot Phoneme Discovery for Indigenous Australian and Pacific Languages via Typological Transfer Learning](yadla26_interspeech.md) — same problem · relatedness 2.5/3
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — same problem · relatedness 2.0/3
+- [Unsupervised Speech in the Wild Challenge: Learning Robust Multilingual Representations](gomez26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [Genealogical Priors in Self-Supervised Learning: Improving Speech Technology for Low-Resource Languages](granda26_interspeech.md) — same problem · relatedness 1.9/3
+- [BabAR: from phoneme recognition to developmental measures of young children''s speech production](lavechin26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

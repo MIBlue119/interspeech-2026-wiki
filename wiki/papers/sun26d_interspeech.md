@@ -75,4 +75,10 @@ Chinese University of Hong Kong
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [POTSA: A Cross-Lingual Speech Alignment Framework for Speech-to-Text Translation](li26k_interspeech.md) — same problem · relatedness 2.4/3
+- [ARTIST: Universal Articulatory Space Modeling for Multilingual Indic-to-English Speech-to-Speech Translation](yadav26_interspeech.md) — same problem · relatedness 2.1/3
+- [PiDA: Phonetically-Informed Data Augmentation for Robust Vietnamese Speech Translation](nguyen26f_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards Enabling Multilingual Multitask SpeechLLMs in Data-Scarce Settings](fong26b_interspeech.md) — same problem · relatedness 2.0/3
+- [PART: Progressive Alignment Representation Training for Multilingual Speech-To-Text with LLMs](zhang26aa_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

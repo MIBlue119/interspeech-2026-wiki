@@ -78,4 +78,10 @@ University of Southern California
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Articulatory Analysis of the Mandarin Alveolar–Retroflex Contrast Using Real-Time MRI](wu26d_interspeech.md) — shared technique · relatedness 1.9/3
+- [Automated Measurement of Geniohyoid Muscle Thickness During Speech Using Deep Learning and Ultrasound](myrgyyassov26_interspeech.md) — shared technique · relatedness 1.9/3
+- [An Approach to Simultaneous Acquisition of Real-Time MRI Video, EEG, and Surface EMG for Articulatory, Brain, and Muscle Activity During Speech Production](lee26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Automatic pitch prediction from speech articulation: Where does the f0 information come from?](ozkan26_interspeech.md) — complementary · relatedness 1.8/3
+- [The Role of Laryngeal Position in the Articulation of American English Velar Stop Consonants](kim26b_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

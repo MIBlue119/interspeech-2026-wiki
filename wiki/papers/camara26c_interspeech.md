@@ -80,4 +80,10 @@ Universidad Politecnica de Madrid, Massachusetts Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Acoustic Landmark Database of the English Lexicon via Articulatory Synthesis](camara26_interspeech.md) — complementary · relatedness 2.0/3
+- [Duration-Aware Soft Targets for Text-Independent Supervised Phone Segmentation](ramesh26_interspeech.md) — shared technique · relatedness 2.0/3
+- [wav2VOT: automatic estimation of voice onset time, closure duration, and burst realisation with wav2vec2](tanner26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Learning from Annotation Uncertainty: Entropy-Aware Curriculum for Speech Emotion Recognition](omidi26_interspeech.md) — shared technique · relatedness 1.9/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Stanford University, Google
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [GLAD-CSpeech: A Dialectologically Comprehensive Benchmark for Genuine Chinese Dialect Speech](xu26j_interspeech.md) — same problem · relatedness 2.2/3
+- [AppTek Call-Center Dialogues: A Multi-Accent Long-Form Benchmark for English ASR](beck26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Activation Steering for Accent Adaptation in Large Audio Language Models](sun26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Vimarsha: Faithful ASR Evaluation for Indian Languages with Demographic Diversity, In-the-Wild Audio and Spelling Variations](bhogale26b_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Beyond Standard Greek: Adapting Whisper for Greek Dialects through Curriculum Multitask Learning](klimi26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

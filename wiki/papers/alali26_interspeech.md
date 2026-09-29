@@ -76,4 +76,10 @@ Mohamed bin Zayed University of Artificial Intelligence, Maastricht University, 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Game-Based Annotation to Representation Probing: Cross-Validated Prosodic Speech and Privacy Implications](sepanta26_interspeech.md) — same problem · relatedness 2.0/3
+- [Voice Privacy from an Attribute-based Perspective](rahman26b_interspeech.md) — same problem · relatedness 2.0/3
+- [DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations](ngong26_interspeech.md) — same problem · relatedness 1.9/3
+- [A Two-Stage Defence for Robust Federated Speech Emotion Recognition](chang26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Towards Privacy-Preserving ASR: Speaker-Level Machine Unlearning](ok26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

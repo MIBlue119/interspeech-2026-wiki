@@ -78,4 +78,10 @@ Guangzhou Shiyuan Electronic Technology Company Limited, Shanghai University of 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.9/3
+- [StuPASE: Towards Low-Hallucination Studio-Quality Generative Speech Enhancement](rong26_interspeech.md) — same problem · relatedness 2.9/3
+- [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](gao26e_interspeech.md) — same problem · relatedness 2.8/3
+- [UniSE: A Unified Framework for Decoder-Only Autoregressive LM-Based Speech Enhancement](yan26_interspeech.md) — shared technique · relatedness 2.7/3
+- [Post-Training Speech Enhancement Language Models with Perceptual Rewards](berdo26_interspeech.md) — same problem · relatedness 2.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

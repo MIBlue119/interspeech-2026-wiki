@@ -81,4 +81,10 @@ University of Science and Technology of China
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Mind the Gap: Detecting Cluster Exits for Robust Local Density-Based Score Normalization in Anomalous Sound Detection](wilkinghoff26_interspeech.md) — same problem · relatedness 2.2/3
+- [Diffusion Bridge Learning Between Overfitted and Underfitted Representations for speech emotion recognition](lee26w_interspeech.md) — shared technique · relatedness 1.9/3
+- [Bridging Self-Supervised Learning and Speech Enhancement: A Wav2Vec2-Conditioned Framework](ojha26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Diffusion Reconstruction towards Generalizable Audio Deepfake Detection](cheng26_interspeech.md) — shared technique · relatedness 1.8/3
+- [SLICE: Speech Enhancement via Layer-wise Injection of Conditioning Embeddings](moon26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

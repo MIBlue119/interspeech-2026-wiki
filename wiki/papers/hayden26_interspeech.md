@@ -78,4 +78,10 @@ University of Edinburgh
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Continuous Time-Varying Emotion Control Zero-Shot Text-To-Speech With Emotion Orthogonal LoRA](wan26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Phonetically Grounded Vowel Space Metrics for Evaluating Synthetic Speech During TTS Model Training](udawatta26_interspeech.md) — same problem · relatedness 2.0/3
+- [CodecMOS-Accent: A MOS Benchmark of Resynthesized and TTS Speech from Neural Codecs Across English Accents](huang26f_interspeech.md) — same problem · relatedness 2.0/3
+- [CrossAccent-TTS: Cross-Lingual Accent-Intensity Controllable Text-to-Speech via Disentangled Speaker and Accent Representations](annamdevula26_interspeech.md) — same problem · relatedness 2.0/3
+- [Learnable Classifier-Free Guidance Null Embeddings for Enhanced Controllable Speech Synthesis](turavecino26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

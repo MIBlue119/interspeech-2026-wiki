@@ -84,4 +84,10 @@ Chinese University of Hong Kong, Li Auto, Shenzhen Loop Area Institution
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation](tsai26_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [AnimeScore: A Preference-Based Dataset and Framework for Evaluating Anime-Like Speech Style](park26h_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [EmoSURA: Towards Accurate Evaluation of Detailed and Long-Context Emotional Speech Captions](jing26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [NV-Bench: Benchmark of Nonverbal Vocalization Synthesis for Expressive Text-to-Speech Generation](ni26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

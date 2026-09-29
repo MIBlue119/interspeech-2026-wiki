@@ -77,4 +77,10 @@ Waseda University, Nanjing University, Northwestern Polytechnical University, Wu
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Fast Multichannel Nonnegative Matrix Factorization with Directivity Regularization for DOA-Informed Speech Separation](ono26_interspeech.md) — same problem · relatedness 2.2/3
+- [An All-neural Distributed Filtering Algorithm for Speech Extraction in Wireless Acoustic Sensor Networks](wang26l_interspeech.md) — same problem · relatedness 2.0/3
+- [Position-Aware Target Speaker Extraction for Long-Form Multi-Party Conversations: A Diarization-Free Framework for ASR](wang26m_interspeech.md) — shared technique · relatedness 2.0/3
+- [Towards Array-Invariant Speech Enhancement via Geometry-Aware Dynamic Convolution](liu26d_interspeech.md) — same problem · relatedness 1.9/3
+- [MeCo: One-Step MeanFlow-based Corrector for Multi-Channel Speech Separation](kim26j_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

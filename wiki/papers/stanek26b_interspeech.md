@@ -76,4 +76,10 @@ Brno University of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Exploring the Scale and Diversity of Speech Anti-spoofing Datasets: Experiments and Analysis](yi26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [FakeSound2: A Benchmark for Explainable, Traceable, and Generalizable Deepfake Sound Detection](xie26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [DeepFense: A Unified, Modular, and Extensible Framework for Robust Audio Deepfake Detection](kheir26_interspeech.md) — complementary · relatedness 2.0/3
+- [SingFox: A Multi-Lingual Singfake Detection Corpus](shah26_interspeech.md) — complementary · relatedness 2.0/3
+- [ArFake: A Robust Framework for Multi-Dialect Arabic Speech Spoofing Detection Benchmark](elsetohy26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

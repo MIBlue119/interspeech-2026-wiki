@@ -76,4 +76,10 @@ Samsung R&D Institute, AGH University of Kraków, Harvard Medical School, Kozmin
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Synergizing Zero-Shot Cross-Lingual Alzheimer Detection with Language-Invariant Multimodal Bi-Geometric Adversarial Learning](girish26b_interspeech.md) — same problem · relatedness 2.8/3
+- [Listening Between the Lines: Joint Learning of ASR Embeddings and LLM-Augmented Linguistics for Dementia Detection](jung26_interspeech.md) — same problem · relatedness 2.6/3
+- [LoRA-Tuned Large Language Models for Dementia Detection via Multi-View Speech-Derived Features](park26c_interspeech.md) — same problem · relatedness 2.5/3
+- [PAN-Mask: Pathology-Aware Neurological Masking with End-to-End Learnable Weights for Neurological Disorder Detection from Speech](sun26b_interspeech.md) — same problem · relatedness 2.4/3
+- [WSG: Clinically-Informed Weighted Speech Graphs for Dementia Detection](xiao26b_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

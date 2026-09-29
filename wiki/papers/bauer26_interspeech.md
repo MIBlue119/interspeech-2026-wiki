@@ -79,4 +79,10 @@ Analog Devices, University of California, Los Angeles
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [QuadVAD: Fine-Grained Speech Detection with a Compact Architecture](rachumallu26_interspeech.md) — same problem · relatedness 3.0/3
+- [MAC-VAD: A Modality-Aligned Cross-Attentive Framework for Robust Voice Activity Detection](mallik26_interspeech.md) — same problem · relatedness 2.4/3
+- [Not Quite My Tempo: Voice Activity-aware Speech Synthesis for Lip-Synchronous Dubbing](perezgonzalezdemartos26_interspeech.md) — complementary · relatedness 1.9/3
+- [Lightweight Convolutional Front-ends for Real-time Framewise Phoneme Recognition in Cochlear Implants](guo26d_interspeech.md) — shared technique · relatedness 1.9/3
+- [Sub-Model Short-Term Memory Convolutions for Keyword Spotting Systems on Device](warlewski26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

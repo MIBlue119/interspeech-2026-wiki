@@ -81,4 +81,10 @@ Hong Kong Polytechnic University, University of Hong Kong
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MF-EDM: Graph-based Multimodal Fusion and Emotional Dynamics Modeling for Emotion Recognition in Conversation](hwang26_interspeech.md) — same problem · relatedness 3.0/3
+- [EII-SCL: Harnessing Emotional Inertia for Multimodal Emotion Recognition in Conversation](huang26p_interspeech.md) — same problem · relatedness 2.9/3
+- [Speaker-Filtered Heterogeneous Graph Network: Toward Privacy-Preserving Multimodal Emotion Recognition](song26e_interspeech.md) — same problem · relatedness 2.9/3
+- [Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition](ryu26_interspeech.md) — same problem · relatedness 2.7/3
+- [Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction](yu26f_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

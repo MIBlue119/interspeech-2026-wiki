@@ -80,4 +80,10 @@ George Mason University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [LavaSR: Fast and Flexible Audio Bandwidth Extension via Vocos](sharma26c_interspeech.md) — same problem · relatedness 2.3/3
+- [HWB-plus: A Lightweight Speech Bandwidth Extension Method with Separate Modeling for Consonants and Vowels](liu26k_interspeech.md) — same problem · relatedness 2.1/3
+- [FastWave: Optimized Diffusion Model for Audio Super-Resolution](kuznetsov26_interspeech.md) — same problem · relatedness 2.0/3
+- [Elastic Time: Dynamic Frame Rate Bottlenecks for Neural Audio Coding](bralios26_interspeech.md) — same problem · relatedness 1.9/3
+- [VeRe-Flow: Guiding Flow Matching toward Clean Speech via Velocity Contrastive Regularization and Representation Alignment for Noise-Robust Bandwidth Expansion](koo26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

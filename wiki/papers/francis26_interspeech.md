@@ -80,4 +80,10 @@ KTH Royal Institute of Technology, University of California, Berkeley
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Iterate to Differentiate: Enhancing Discriminability and Reliability in Zero-Shot TTS Evaluation](shen26d_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Queer inclusion in speech datasets: An audit and taxonomy of practical tensions](sheppard26_interspeech.md) — same problem · relatedness 2.0/3
+- [Investigating Human-Model Discrepancies in Speech Quality Assessment via Acoustic and Prosodic Perturbations](takagi26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [An Evaluation Framework for Text-to-Speech Voice Reconstruction](sanchez26_interspeech.md) — same problem · relatedness 2.0/3
+- [Investigating the Relationship between Objective AI-driven Metrics and Subjective MOS for In-the-Wild Speech](sanjotra26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

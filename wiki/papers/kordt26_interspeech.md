@@ -80,4 +80,10 @@ University of Hamburg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Transcription Policy as a Latent Variable: Activating Controllable Verbatim ASR with Word-Level Timing](wagner26_interspeech.md) — same problem · relatedness 2.2/3
+- [Retention-Preserving Gradient Projection with Entropy-Guided Token-Level Distillation for Rehearsal-Free Continual ASR](ma26d_interspeech.md) — same problem · relatedness 2.2/3
+- [DysfluentNet: Joint Stuttering Event Detection and Dysfluency-Aware Transcription via Hierarchical Self-Supervised Learning](muthu26_interspeech.md) — same problem · relatedness 2.2/3
+- [Parameter-Efficient Continual Learning for Automatic Speech Recognition](eeckt26_interspeech.md) — same problem · relatedness 2.1/3
+- [WER Are We (Really): How Well Do Top Open ASR Leaderboard Models Generalize to Nonstandard Speech?](dhaka26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

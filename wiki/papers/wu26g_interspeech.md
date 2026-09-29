@@ -75,4 +75,10 @@ Qifu Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Self-Speculative Decoding for LLM-based ASR with CTC Encoder Drafts](saon26_interspeech.md) — same problem · relatedness 3.0/3
+- [Non-Autoregressive Minimum Bayes' Risk Decoding for Fast Speech Recognition](deguchi26_interspeech.md) — same problem · relatedness 2.7/3
+- [MDM-ASR: Bridging Accuracy and Efficiency in ASR with Diffusion-Based Non-Autoregressive Decoding](yen26_interspeech.md) — same problem · relatedness 2.5/3
+- [Leveraging Temporal Redundancy via Layer-wise Key-Value Pooling Attention for Efficient ASR](wu26k_interspeech.md) — same problem · relatedness 2.0/3
+- [Audio-NSP: Data-Centric Semi-Autoregressive Generation for Large Audio-Language Models](cao26b_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

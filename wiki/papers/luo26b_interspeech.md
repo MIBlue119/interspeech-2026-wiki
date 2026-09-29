@@ -80,4 +80,10 @@ University of Surrey
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sweep-RSE: Streaming Region-of-Interest Speech Extraction in Multi-Talker Scenarios via Explicit Spatial Sweeping](yu26d_interspeech.md) — same problem · relatedness 2.1/3
+- [Online Audiovisual Speaker Separation Using Efficient Visual Knowledge Distillation](yu26e_interspeech.md) — same problem · relatedness 2.0/3
+- [Multi-View Based Audio Visual Target Speaker Extraction](yang26m_interspeech.md) — same problem · relatedness 2.0/3
+- [SPOT-TSE: Spatial Point-Guided Target Speech Extraction](ryu26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Audio-visual Contrastive Alignment for Diffusion-based Visual-conditioned Speech Enhancement](mboungou26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

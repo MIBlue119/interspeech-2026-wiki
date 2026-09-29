@@ -79,4 +79,10 @@ Tianjin University, Nanyang Technological University, Huiyan Technology Company,
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Automated Gradient-Driven Parameter Sharing for Low-Resource Multilingual Speech-to-Text Translation](sun26d_interspeech.md) — same problem · relatedness 2.4/3
+- [ARTIST: Universal Articulatory Space Modeling for Multilingual Indic-to-English Speech-to-Speech Translation](yadav26_interspeech.md) — same problem · relatedness 2.1/3
+- [Does Translation-Enhanced Speech Encoder Pre-training Affect Speech LLMs?](mizumoto26_interspeech.md) — same problem · relatedness 2.1/3
+- [PART: Progressive Alignment Representation Training for Multilingual Speech-To-Text with LLMs](zhang26aa_interspeech.md) — same problem · relatedness 2.1/3
+- [Towards Enabling Multilingual Multitask SpeechLLMs in Data-Scarce Settings](fong26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

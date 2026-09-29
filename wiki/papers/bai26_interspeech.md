@@ -80,4 +80,10 @@ Xiamen University, Alibaba Group
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance](hao26_interspeech.md) — same problem · relatedness 2.4/3
+- [MMGenre: Benchmarking Singing Voice Synthesis across Multiple Musical Genres](feng26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Towards Digital Preservation of Efik: TTS for a Low-Resource African Language](edet26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Singing Voice Conversion via Shared Speaker Space and Min-Pooling Adversarially Enhanced Flow Matching](hu26g_interspeech.md) — shared technique · relatedness 2.0/3
+- [Enhancing Flow Matching with A Unified Guidance Framework for Efficient and Robust Speech Synthesis](yu26b_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

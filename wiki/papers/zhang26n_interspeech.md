@@ -76,4 +76,10 @@ Zhejiang University, Nanyang Technological University, Hunan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WaveNorm: Real-Time Neural AGC for Noise-Robust Speech Enhancement on Resource-Constrained Edge Devices](ijjada26b_interspeech.md) — same problem · relatedness 2.6/3
+- [WaveNorm: A Low-Complexity Time-Domain Neural Adaptive Gain Control for Real-Time Speech Applications](ijjada26_interspeech.md) — same problem · relatedness 2.5/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.1/3
+- [Neuromorphic Speech Enhancement with Dual-Branch Spiking Neural Networks](meng26d_interspeech.md) — same problem · relatedness 2.1/3
+- [SEMamba++: A General Speech Restoration Framework Leveraging Global, Local, and Periodic Spectral Patterns](lee26f_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

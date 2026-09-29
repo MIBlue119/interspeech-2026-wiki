@@ -74,4 +74,10 @@ Keio University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Empirical Analysis of Task-Induced Encoder Bias in Fréchet Audio Distance](jeong26_interspeech.md) — same problem · relatedness 2.4/3
+- [Iterate to Differentiate: Enhancing Discriminability and Reliability in Zero-Shot TTS Evaluation](shen26d_interspeech.md) — same problem · relatedness 2.3/3
+- [TDScore: Learning Synthetic Speech Quality Predictors from TTS Training Dynamics without Human annotation](miniconi26_interspeech.md) — same problem · relatedness 2.1/3
+- [EmoSURA: Towards Accurate Evaluation of Detailed and Long-Context Emotional Speech Captions](jing26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

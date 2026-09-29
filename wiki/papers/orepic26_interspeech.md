@@ -74,4 +74,10 @@ University of Zurich, University of Neuchâtel
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The Effect of Neck Skin Vibration on the Periauricular Acoustic Receiver](li26b_interspeech.md) — same problem · relatedness 1.9/3
+- [LibriTTS-VI: A Public Corpus and Novel Methods for Efficient Voice Impression Control](ohmura26_interspeech.md) — same problem · relatedness 1.8/3
+- [What Makes Us Hate Our Own Voice? Large-scale experiments on Playback–Imagery Gaps and Individual--Speech Feature Effects](fukuda26_interspeech.md) — complementary · relatedness 1.7/3
+- [VoiceQualityGUI: A Tool for Word-Level Voice Quality Modifications](lameris26b_interspeech.md) — same problem · relatedness 1.7/3
+- [Beyond One-Size-Fits-All: Personalized and Culturally Adaptive Emotional TTS via Interactive Optimization of Individual Emotion Perception Spaces](zhou26e_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

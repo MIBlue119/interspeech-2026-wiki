@@ -75,4 +75,6 @@ Western Sydney University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The Sound of Code-Switching: Prosodic Profiles of Spontaneous Spanish-English Speech](bhattacharya26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

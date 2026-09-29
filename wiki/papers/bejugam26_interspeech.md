@@ -77,4 +77,10 @@ Indian Institute of Technology Hyderabad, Eternal Limited
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Analysing Adversarial Priors for Data-driven Unsupervised Speech Enhancement](klement26_interspeech.md) — same problem · relatedness 3.0/3
+- [QC-GAN: A Parameter-Efficient Quaternion Conformer GAN for High-Fidelity Speech Enhancement](yamauchi26_interspeech.md) — same problem · relatedness 2.9/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.9/3
+- [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](gao26e_interspeech.md) — same problem · relatedness 2.9/3
+- [Bridging Self-Supervised Learning and Speech Enhancement: A Wav2Vec2-Conditioned Framework](ojha26_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

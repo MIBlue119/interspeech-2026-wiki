@@ -68,4 +68,10 @@ University of Southern California
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [On Entrainment in Semi-Spontaneous Multilingual Parliamentary Speech](ries26_interspeech.md) — same problem · relatedness 2.0/3
+- [What Happens When We Speak Together? Multidimensional Convergence in Face-to-Face Interaction](pagel26_interspeech.md) — same problem · relatedness 1.9/3
+- [Articulatory Entrainment and Coordination Complexity in Spontaneous Autistic and Non-autistic Dialogue](withanage26_interspeech.md) — same problem · relatedness 1.9/3
+- [Bilingual Speaker Phonetic Alignment to Voice Assistants](allen26_interspeech.md) — same problem · relatedness 1.9/3
+- [L2 Speakers Accommodate Differently to AI and Human Voices Across Phonetic Features](gan26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

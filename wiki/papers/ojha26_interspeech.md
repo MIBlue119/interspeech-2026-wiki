@@ -79,4 +79,10 @@ University of Maryland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](gao26e_interspeech.md) — same problem · relatedness 3.0/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.8/3
+- [UFL-GAN: A Multi-Discriminator GAN for Unsupervised Speech Enhancement](bejugam26_interspeech.md) — same problem · relatedness 2.8/3
+- [SLICE: Speech Enhancement via Layer-wise Injection of Conditioning Embeddings](moon26_interspeech.md) — same problem · relatedness 2.8/3
+- [QC-GAN: A Parameter-Efficient Quaternion Conformer GAN for High-Fidelity Speech Enhancement](yamauchi26_interspeech.md) — same problem · relatedness 2.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

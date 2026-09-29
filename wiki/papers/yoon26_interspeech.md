@@ -81,4 +81,10 @@ Seoul National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Accurate Source-Free Speech Classification via Meta-Learned Target-Centric Model Merging](park26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Towards Event-Robust Acoustic Scene Classification](cai26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Branch-wise Complementary Attention for Acoustic Scene Classification](han26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Weakly Masked Residual Reliability Learning for Unsupervised Domain Adaptation in Speech Models](li26aa_interspeech.md) — same problem · relatedness 1.8/3
+- [Enhancing Temporal Prediction Consistency for Short-Duration Acoustic Scene Classification via Semantic Adversarial Training](cai26b_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ University of Edinburgh, KTH Royal Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The Binding Effect: Analysis of How Multi-Dimensional Cues Form Gender Bias in Instruction TTS](chen26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Lost in Phonation: Voice Quality Variation as an Evaluation Dimension for Speech Foundation Models](lameris26_interspeech.md) — same problem · relatedness 1.9/3
+- [Listeners' gendered experiences and beliefs affect iconic pitch associations](calhoun26_interspeech.md) — same problem · relatedness 1.9/3
+- [Perceptual and Acoustic Correlates of Racial Identity in Text-to-Speech Voices](khaloo26_interspeech.md) — same problem · relatedness 1.8/3
+- [MOS-Bias: From Hidden Gender Bias to Gender-Aware Speech Quality Assessment](ren26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

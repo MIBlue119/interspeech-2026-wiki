@@ -77,4 +77,10 @@ Meeami Technologies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VAD to the Bone: Ultra-Tiny Speech Activity Detection for Edge Deployment](bauer26_interspeech.md) — same problem · relatedness 3.0/3
+- [MAC-VAD: A Modality-Aligned Cross-Attentive Framework for Robust Voice Activity Detection](mallik26_interspeech.md) — same problem · relatedness 2.4/3
+- [Next-Turn: Duration-Aware Streaming Endpoint Detection via Time-to-Next-Speech-Onset Prediction](tsoi26_interspeech.md) — same problem · relatedness 1.9/3
+- [Not Quite My Tempo: Voice Activity-aware Speech Synthesis for Lip-Synchronous Dubbing](perezgonzalezdemartos26_interspeech.md) — complementary · relatedness 1.9/3
+- [Multi-Speaker Embeddings With Weakly Supervised Speaker Activity Detection For Granular Speaker Diarization](thienpondt26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

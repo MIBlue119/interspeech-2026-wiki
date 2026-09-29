@@ -78,4 +78,10 @@ Chinese University of Hong Kong, Shenzhen, Jilin University, Hunan University, U
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TF-MossFormer: Integrating Convolution Gated Local-Global Attentions for Enhanced Time-Frequency Domain Monaural Speech Separation](zhao26_interspeech.md) — same problem · relatedness 2.2/3
+- [TF-MoE: Time-Frequency Mixture-of-Experts for Efficient Speech Separation](hu26d_interspeech.md) — same problem · relatedness 2.1/3
+- [MeCo: One-Step MeanFlow-based Corrector for Multi-Channel Speech Separation](kim26j_interspeech.md) — same problem · relatedness 2.1/3
+- [Improving Audio Codec-based Speech Separation By Stacking Residual Vector Quantization Layers](dinh26_interspeech.md) — same problem · relatedness 2.1/3
+- [SAM: A Mamba-2 State-Space Audio-Language Model](lee26d_interspeech.md) — complementary · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

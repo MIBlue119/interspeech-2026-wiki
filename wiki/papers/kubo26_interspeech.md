@@ -80,4 +80,10 @@ Sakana AI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — same problem · relatedness 2.1/3
+- [Harf-Speech: A Clinically Aligned Framework for Arabic Phoneme-Level Speech Assessment](azad26_interspeech.md) — same problem · relatedness 2.0/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — same problem · relatedness 1.9/3
+- [Beyond Acoustic Sparsity and Linguistic Bias: A Prompt-Free Paradigm for Mispronunciation Detection and Diagnosis](geng26_interspeech.md) — same problem · relatedness 1.9/3
+- [PASQA: Pitch-Accent-Focused Speech Quality Assessment Model Trained on Synthetic Speech with Accent Errors](kawamura26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

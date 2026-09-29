@@ -70,4 +70,10 @@ Cross-lingual speech emotion recognition, call center analytics, multilingual vi
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [KuralHub: Exposing Typological Capability Frontiers in Multilingual Speech Emotion Recognition](thavarasa26_interspeech.md) — same problem · relatedness 2.6/3
+- [SETEAB: Multiscale approach with Squeeze-and-Excitation Temporal Enhanced Aware Block for Speech Emotion Recognition](vo26_interspeech.md) — same problem · relatedness 2.6/3
+- [Learning Emotion-discriminative Representations for Zero-Shot Cross-Lingual Speech Emotion Recognition](mi26_interspeech.md) — same problem · relatedness 2.5/3
+- [Universality of Speech Emotion Recognition in Humans and Speech Language Models](tatsumi26_interspeech.md) — same problem · relatedness 2.4/3
+- [How Language-Independent Are Emotional Attributes? A Study on Training Data Scaling and Cross-Lingual Generalization](halmai26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

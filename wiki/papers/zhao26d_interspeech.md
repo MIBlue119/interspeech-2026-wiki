@@ -78,4 +78,10 @@ SB Intuitions
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Speech-First Character Interface for Stylized Japanese Dialogue Practice](rackauckas26b_interspeech.md) — same problem · relatedness 2.0/3
+- [X-OPD: Cross-Modal On-Policy Distillation for Capability Alignment in Speech LLMs](cao26_interspeech.md) — same problem · relatedness 2.0/3
+- [Direct Preference Optimization for English-Mandarin Code-Switching Speech Recognition in Audio LLMs](nguyen26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Improving Stable Speech Synthesis Post-Training with ChatScorer and Margin-Based Preference Construction](niu26c_interspeech.md) — shared technique · relatedness 1.9/3
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

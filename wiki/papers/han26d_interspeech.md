@@ -80,4 +80,10 @@ Chinese University of Hong Kong, Tencent
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech](wang26s_interspeech.md) — shared technique · relatedness 2.0/3
+- [Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models](li26ba_interspeech.md) — shared technique · relatedness 2.0/3
+- [VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation](xie26c_interspeech.md) — shared technique · relatedness 2.0/3
+- [WildElder: A Chinese Elderly Speech Dataset from the Wild with Fine-Grained Manual Annotations](wang26_interspeech.md) — complementary · relatedness 2.0/3
+- [Bridging the Age Gap: Towards Detecting Neural Audio Codec Synthesized Elderly Speech Deepfake](phukan26_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

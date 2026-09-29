@@ -72,4 +72,10 @@ University of Zurich
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Bilingual Speaker Phonetic Alignment to Voice Assistants](allen26_interspeech.md) — same problem · relatedness 2.8/3
+- [Modulation of Phonetic Realizations in Cantonese Dialogue with Human and AI Interlocutors](chen26m_interspeech.md) — same problem · relatedness 2.2/3
+- [English Vowel Perceptual Training under Multitalker Babble: A Comparison of Humans and Large Language Models](dong26b_interspeech.md) — same problem · relatedness 1.9/3
+- [A barrier or a booster? Familiarity effects on Mandarin emotion prosody recognition using AI-powered voice cloning](xu26i_interspeech.md) — same problem · relatedness 1.9/3
+- [Speech Entrainment in Multi-Party Conversations with a Digital Agent](mehlman26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

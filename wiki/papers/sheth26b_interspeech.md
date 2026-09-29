@@ -69,4 +69,10 @@ ENS, EHESS, CNRS, PSL University, UPF
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ELSI: An Interface for Standardizing Child-Centered Datasets, Applying Machine Learning Models, and Extracting Metrics](sheth26c_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Deriving Benchmarking Datasets from Long-Form Recordings: Challenges and Opportunities](sheth26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Towards participatory speech dataset curation: A queer case study and conceptual framework](sheppard26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Decolonizing Linguistic Policies in Automatic Speech Recognition: A Framework for Cross-Culturally Competent Speech AI](cunningham26_interspeech.md) — same problem · relatedness 2.0/3
+- [Vavanagi: a Community-run Platform for Documentation of the Hula Language in Papua New Guinea](olewale26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

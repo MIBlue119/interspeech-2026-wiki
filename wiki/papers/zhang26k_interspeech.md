@@ -79,4 +79,10 @@ Chinese University of Hong Kong, Shenzhen, Nanjing University, Shenzhen Loop Are
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MeanFlow-TSE: One-Step Generative Target Speaker Extraction with Mean Flow](shimizu26_interspeech.md) — same problem · relatedness 2.9/3
+- [GenTSE: Enhancing Target Speaker Extraction via a Coarse-to-Fine Generative Language Model](li26m_interspeech.md) — same problem · relatedness 2.9/3
+- [Plug-and-Steer: Decoupling Separation and Selection in Audio-Visual Target Speaker Extraction](kwak26_interspeech.md) — same problem · relatedness 2.9/3
+- [Multi-View Based Audio Visual Target Speaker Extraction](yang26m_interspeech.md) — same problem · relatedness 2.8/3
+- [Speaker Identity as Sole Supervision for Speech Separation](boeddeker26_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

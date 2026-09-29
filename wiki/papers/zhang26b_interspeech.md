@@ -75,4 +75,10 @@ Shanghai Jiao Tong University, University of New South Wales, Nanyang Technologi
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models](he26e_interspeech.md) — same problem · relatedness 2.6/3
+- [Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models](li26o_interspeech.md) — same problem · relatedness 2.5/3
+- [ALARM: Audio–Language Alignment for Reasoning Models](grinberg26_interspeech.md) — same problem · relatedness 2.4/3
+- [Nudging Hidden States: Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models](ieong26_interspeech.md) — same problem · relatedness 2.2/3
+- [Enhancing Audio Reasoning via Semantic Summary Prediction](bonzi26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ Soongsil University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [BiSASV: Bidirectional Feature Modulation with Dual-Granularity Fusion for Spoofing-Robust ASV](zhou26d_interspeech.md) — same problem · relatedness 2.8/3
+- [RAT: Reference-Augmented Training for ASV Anti-Spoofing](stanek26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Aleatoric Style Uncertainty Augmentation with GMM for Domain Generalization in Anti-spoofing](li26g_interspeech.md) — same problem · relatedness 2.0/3
+- [AGENT: A Black-box Adversarial Attack Exposing the Achilles'' Heel of SASV Systems](lee26x_interspeech.md) — same problem · relatedness 2.0/3
+- [Mixture of Spectral Experts for Audio Deepfake Detection](qiu26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

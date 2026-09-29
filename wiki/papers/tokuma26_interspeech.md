@@ -76,4 +76,10 @@ Chuo University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Categorical Perception of Mandarin Tones in Jingpo Native Speakers](wang26z_interspeech.md) — shared technique · relatedness 1.8/3
+- [The Perception of Korean Stop Coda Consonants by Mandarin Speakers in Taiwan: A Comparative Study of Proficiency Levels](yang26q_interspeech.md) — same problem · relatedness 1.8/3
+- [How Speaker Normalization Procedures Influence the Computational Modelling of Non-native Vowel Perception: Implications for the L2LP model](lee26l_interspeech.md) — same problem · relatedness 1.8/3
+- [Age-related Differences in the Perception of Vowel Length Contrast in Northern Vietnamese: The Case of Hoang Van (Bac Ninh) Variety](ta26_interspeech.md) — same problem · relatedness 1.7/3
+- [English Vowel Perceptual Training under Multitalker Babble: A Comparison of Humans and Large Language Models](dong26b_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

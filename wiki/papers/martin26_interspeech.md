@@ -80,4 +80,10 @@ Université de Lorraine, CNRS, Inria, University of Mons, Université de Bordeau
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Steps toward a wearable-informed model of real-world listening effort and fatigue among adults with hearing loss](meng26e_interspeech.md) — same problem · relatedness 1.8/3
+- [Predicting Menstrual Cycle Phases from Speech: A Paralinguistic Approach](spiesberger26_interspeech.md) — shared technique · relatedness 1.7/3
+- [PAN-Mask: Pathology-Aware Neurological Masking with End-to-End Learnable Weights for Neurological Disorder Detection from Speech](sun26b_interspeech.md) — same problem · relatedness 1.7/3
+- [Rethinking Acoustic Variability Of ADReSS and ADReSSo Datasets For Dementia Detection](zafar26_interspeech.md) — shared technique · relatedness 1.6/3
+- [Beyond task performance: Decoding bioacoustic embeddings with speech features](nolasco26_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

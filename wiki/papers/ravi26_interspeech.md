@@ -77,4 +77,10 @@ CSIR Fourth Paradigm Institute
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [RAS: a Reliability Oriented Metric for Automatic Speech Recognition](huang26h_interspeech.md) — same problem · relatedness 2.4/3
+- [Confidence Score Guided Incremental and Speaker Adaptive Pseudo-Labeling for Semi-Supervised Elderly Speech Recognition](deng26c_interspeech.md) — complementary · relatedness 1.8/3
+- [Attention-Guided Reliability Scaling for Contrastive Decoding in Robust Audio-Visual Speech Recognition](kim26h_interspeech.md) — same problem · relatedness 1.7/3
+- [Training-Free Intelligibility-Guided Observation Addition for Noisy ASR](li26s_interspeech.md) — same problem · relatedness 1.7/3
+- [Weakly Masked Residual Reliability Learning for Unsupervised Domain Adaptation in Speech Models](li26aa_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

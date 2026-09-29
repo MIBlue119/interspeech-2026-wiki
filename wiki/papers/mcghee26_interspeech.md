@@ -76,4 +76,10 @@ University of Cambridge
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [STArK: Towards Synthesizing Articulatory Kinematics from Text](yin26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data](otani26_interspeech.md) — same problem · relatedness 2.1/3
+- [Enhancing Flow Matching with A Unified Guidance Framework for Efficient and Robust Speech Synthesis](yu26b_interspeech.md) — shared technique · relatedness 2.1/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — shared technique · relatedness 2.1/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ Soochow University, Beijing Jiaotong University, Renmin University of China, Qil
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Mixture Consistency Learning for Robust Speaker Verification in Noisy Environments](kim26c_interspeech.md) — same problem · relatedness 2.8/3
+- [Revisiting Label-Free Speaker Embedding Enhancement with vMF Profile Likelihood](kim26i_interspeech.md) — same problem · relatedness 2.4/3
+- [Temporal Ensembling Threshold and Neighbor-Aware Label Mixup for Speaker Verification with Open-Set Noisy Labels](fang26_interspeech.md) — same problem · relatedness 2.3/3
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — same problem · relatedness 2.2/3
+- [Adapting Audio Large Language Models for Speaker Verification](ren26c_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Infobip, University of Sarajevo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Which Data Matter? Embedding-Based Data Selection for Speech Recognition](aldeneh26_interspeech.md) — shared technique · relatedness 2.1/3
+- [SSL-based Sequence Matching for Unsupervised Audio Retrieval](laquatra26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [VāṇīSetu: A Human-AI Collaborative Framework for Scalable Conversational Speech Corpus Creation in Low-Resource Settings](kumar26h_interspeech.md) — same problem · relatedness 2.0/3
+- [TriA Pipeline: A Large-Scale Automatic Audio Annotation Pipeline For Audio Classification In Specific Scenarios](lyu26_interspeech.md) — complementary · relatedness 1.9/3
+- [Leveraging Audio-LLMs to Filter Speech-to-Speech Training Data](chen26l_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

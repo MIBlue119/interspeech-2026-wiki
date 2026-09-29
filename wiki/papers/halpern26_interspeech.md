@@ -80,4 +80,10 @@ Nagoya University, University of Groningen, University of Cologne
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Phoneme Error and Uncertainty Features for Interpretable Dysarthric Speech Assessment](zhong26c_interspeech.md) — same problem · relatedness 2.1/3
+- [Augmenting Dysarthric Speech Severity Assessment with MOS Supervision](jia26_interspeech.md) — same problem · relatedness 2.1/3
+- [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](toyin26_interspeech.md) — same problem · relatedness 2.0/3
+- [Improving Cross-Dataset Speech Intelligibility Prediction for Hearing-Impaired Listeners with Few-Shot Adaptation](lin26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Uncovering Dimension-Specific Layer Preferences in Wav2Vec2 for Fine-Grained Perceptual Assessment of Dysarthric Speech](zhong26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

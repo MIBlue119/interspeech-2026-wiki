@@ -78,4 +78,10 @@ KAIST, Sony Computer Science Laboratories
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [GACA-DiT: Diffusion-based Dance-to-Music Generation with Genre-Adaptive Rhythm and Context-Aware Alignment](wang26da_interspeech.md) — same problem · relatedness 3.0/3
+- [FoleyGenEx: Unified Video-to-Audio Generation with Multi-Modal Control, Temporal Alignment, and Semantic Precision](wang26b_interspeech.md) — shared technique · relatedness 2.1/3
+- [ARCHES: An Agent-Based Refinement Cycle for Hierarchical Synthesis of Sound Effects for Variety Shows](lei26_interspeech.md) — relatedness 1.8/3
+- [Listening to Motion in Space: Vision-Grounded Event-wise Video-to-Audio Generation and Rendering](park26m_interspeech.md) — same problem · relatedness 1.8/3
+- [FoleyImmersive: Decoupling What and Where for Video-to-First-Order Ambisonics](liang26b_interspeech.md) — relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

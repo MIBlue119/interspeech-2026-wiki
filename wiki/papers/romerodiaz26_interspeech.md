@@ -80,4 +80,10 @@ Barcelona Supercomputing Center, Universitat Politecnica de Catalunya, DFKI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Investigating Faithfulness in Large Audio Language Models](mousavi26_interspeech.md) — shared technique · relatedness 2.2/3
+- [All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation](foo26_interspeech.md) — same problem · relatedness 2.1/3
+- [MATA: A Training-Free Approach to Mitigate Cross-Modal Attention Imbalance in Large Audio Language Models](wang26t_interspeech.md) — same problem · relatedness 2.0/3
+- [Cross-Modal Robustness Transfer (CMRT): Training Robust Speech Translation Models Using Adversarial Text](issam26_interspeech.md) — same problem · relatedness 2.0/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

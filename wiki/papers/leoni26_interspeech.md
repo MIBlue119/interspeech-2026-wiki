@@ -69,4 +69,10 @@ Te Hiku Media
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Working Together on Technologies: A Case Study of Collaboration in Aotearoa](hutchinson26_interspeech.md) — same problem · relatedness 2.6/3
+- [Towards Digital Preservation of Efik: TTS for a Low-Resource African Language](edet26_interspeech.md) — same problem · relatedness 2.3/3
+- [Deterministic Prompting for Speaker-Stable Low-Resource Greek TTS](syllas26_interspeech.md) — same problem · relatedness 2.2/3
+- [High-Quality Speech Synthesis for Under-Resourced Ethiopian Languages](tamiru26_interspeech.md) — same problem · relatedness 2.1/3
+- [IN-F5: Adapting an English TTS Foundation Model for Multilingual and Zero-Resource Indian Speech Synthesis](varadhan26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Wuhan University, Chinese University of Hong Kong, Shenzhen, OPPO, Duke Kunshan 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WQ-Fusion: Dynamic Gated Attention for Cross-Domain Audio Representation](lin26n_interspeech.md) — shared technique · relatedness 2.9/3
+- [Speech Encoder Fusion for LLM-based Automatic Speech Recognition](poncelet26_interspeech.md) — shared technique · relatedness 2.4/3
+- [ALARM: Audio–Language Alignment for Reasoning Models](grinberg26_interspeech.md) — shared technique · relatedness 2.2/3
+- [MATA: A Training-Free Approach to Mitigate Cross-Modal Attention Imbalance in Large Audio Language Models](wang26t_interspeech.md) — same problem · relatedness 2.0/3
+- [VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track](tu26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

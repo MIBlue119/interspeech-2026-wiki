@@ -75,4 +75,10 @@ Lahore University of Management Sciences
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SCRIBE: Diagnostic Evaluation and Rich Transcription Models for Indic ASR](manohar26_interspeech.md) — same problem · relatedness 2.4/3
+- [Overcoming Decoder Inconsistencies in Whisper for Dravidian and Low-Resource Languages](kumar26c_interspeech.md) — same problem · relatedness 2.2/3
+- [Vimarsha: Faithful ASR Evaluation for Indian Languages with Demographic Diversity, In-the-Wild Audio and Spelling Variations](bhogale26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Preserving the Iranian Turkic Language: Community-Driven ASR Datasets and Benchmarking for South Azerbaijani](farsi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Vividh-ASR: A Complexity-Tiered Benchmark and Optimization Dynamics for Robust Indic Speech Recognition](juvekar26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

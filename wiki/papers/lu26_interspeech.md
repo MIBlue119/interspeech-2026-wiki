@@ -75,4 +75,10 @@ Samsung, Samsung Electronics
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [G2PO: A Lightweight Lexicon-enhanced Framework for Open-Vocabulary Mandarin Polyphone Disambiguation](chen26i_interspeech.md) — same problem · relatedness 2.5/3
+- [DEBATE: A Dataset for Disentangling Textual Ambiguity in Mandarin Through Speech](guo26e_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — same problem · relatedness 1.9/3
+- [Towards a Phonology-Informed Evaluation of Multilingual TTS](raybarman26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [UniVoice: Unifying Autoregressive ASR and Flow-Matching based TTS with Large Language Models](guan26b_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

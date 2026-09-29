@@ -75,4 +75,10 @@ University of Neuchatel, University of Zurich, Zurich Forensic Science Institute
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Disentangling sociophonetic and physiological variation in /s/ acoustics across 12 languages](lipari26_interspeech.md) — same problem · relatedness 2.0/3
+- [Morphoacoustic Modeling of a Dynamic 3D Vocal Tract Using MRI-Constrained Deformations and FEM Acoustics](piyadasa26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Gender Bias in ASR: A Controlled Study of Gender Composition Across Training Paradigms](s26_interspeech.md) — same problem · relatedness 1.8/3
+- [Articulatory Analysis of the Mandarin Alveolar–Retroflex Contrast Using Real-Time MRI](wu26d_interspeech.md) — shared technique · relatedness 1.7/3
+- [ERM-MinMaxGAP: Benchmarking and Mitigating Gender Bias in Multilingual Multimodal Speech-LLM Emotion Recognition](pang26b_interspeech.md) — complementary · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

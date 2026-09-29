@@ -76,4 +76,10 @@ Kyoto University, LY Corporation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Avoiding Catastrophic Forgetting in Text-Only Adaptation of LLM-based ASR via Multi-View Text Denoising](burdisso26_interspeech.md) — same problem · relatedness 2.8/3
+- [Merging the Knowledge of LLMs for Automatic Speech Recognition](futami26_interspeech.md) — same problem · relatedness 2.7/3
+- [Closing the Speech-Text Gap with Limited Audio for Effective Domain Adaptation in LLM-Based ASR](banerasroux26_interspeech.md) — same problem · relatedness 2.4/3
+- [TASU2: Controllable CTC Simulation for Alignment and Low-Resource Adaptation of Speech LLMs](peng26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Adapting Text LLMs to Speech via Multimodal Depth Up-Scaling](yano26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

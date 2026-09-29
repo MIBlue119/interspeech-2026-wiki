@@ -74,4 +74,10 @@ University of Melbourne, University of New South Wales
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Duration-Aware Soft Targets for Text-Independent Supervised Phone Segmentation](ramesh26_interspeech.md) — same problem · relatedness 2.3/3
+- [findsylls: A Language‑Agnostic Toolkit for Syllable‑Level Speech Tokenization and Embedding](martinez26_interspeech.md) — same problem · relatedness 2.0/3
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — same problem · relatedness 1.9/3
+- [Transitional Objective Learning with Connectionist Temporal Classification in Phoneme Recognition](krysinska26_interspeech.md) — same problem · relatedness 1.8/3
+- [Phonetic Error Analysis of Raw Waveform Acoustic Models](loweimi26b_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

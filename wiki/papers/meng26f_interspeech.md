@@ -80,4 +80,10 @@ Beijing Institute of Technology, Hong Kong University of Science and Technology,
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Lung-SRAD: Spectral-Aware Regularized Audio DASS with Dual-Axis Patch-Mix Contrastive Learning for Respiratory Sound Classification](shridhar26_interspeech.md) — same problem · relatedness 2.1/3
+- [Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment](ilerisoy26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Multi-Phonation Graph Learning with Self-Supervised Speech Embeddings for ALS Detection and Progression Prediction](taghibeyglou26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Leveraging Mutual Intra-Modal Similarity Supervision for Text and Audio](vonaspern26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Sleep Sound Event Detection Powered by Learnable Multi-Resolution Adaptive Line Enhancer](park26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

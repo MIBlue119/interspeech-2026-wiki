@@ -79,4 +79,10 @@ Japan Advanced Institute of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Silence is Golden: Mitigating Hallucinations in Large Audio-Language Models via Layer-Weighted Vector Steering](lin26g_interspeech.md) — same problem · relatedness 2.8/3
+- [TAD: Token-Adaptive Contrastive Decoding with Confidence-Guided Gating for Hallucination Mitigation in Large Audio-Language Models](chang26_interspeech.md) — same problem · relatedness 2.6/3
+- [Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models](seth26_interspeech.md) — same problem · relatedness 2.3/3
+- [Investigating Faithfulness in Large Audio Language Models](mousavi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Hallucination Benchmark for Speech Foundation Models](koudounas26b_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

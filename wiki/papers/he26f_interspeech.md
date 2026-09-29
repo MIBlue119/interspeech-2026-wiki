@@ -79,4 +79,10 @@ Zhejiang University, Hangzhou High-Tech Zone (Binjiang) Institute of Blockchain 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SpAArSIST: Sparsified AASIST for Efficient and Reliable Anti-Spoofing](firc26b_interspeech.md) — same problem · relatedness 2.6/3
+- [Mixture of Spectral Experts for Audio Deepfake Detection](qiu26_interspeech.md) — same problem · relatedness 2.5/3
+- [ADD-DINO: A Two-Stage Self-Distillation Framework for Audio Deepfake Detection](sun26g_interspeech.md) — same problem · relatedness 2.5/3
+- [Dual-Granularity Orthogonal Disentanglement for Generalizable Audio Deepfake Detection](liu26g_interspeech.md) — same problem · relatedness 2.4/3
+- [Deepfake Word Detection by Next-token Prediction using Fine-tuned Whisper](tran26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

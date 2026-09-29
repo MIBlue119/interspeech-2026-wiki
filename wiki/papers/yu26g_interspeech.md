@@ -77,4 +77,10 @@ Tsinghua University, ModelBest
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Joint Learning Global-Local Speaker Classification to Enhance End-to-End Speaker Diarization and Recognition](dai26b_interspeech.md) — same problem · relatedness 3.0/3
+- [Balancing ASR and diarization in end-to-end LLMs for multi-talker speech recognition](zheng26b_interspeech.md) — same problem · relatedness 3.0/3
+- [Beyond Mimicry: Constrained Exploration with GRPO for Joint Multi-Talker ASR and Diarization under Unknown Speaker Counts](cai26c_interspeech.md) — same problem · relatedness 2.9/3
+- [Bidirectional Retention Network-based Segmentation Model for Speaker Diarization](you26b_interspeech.md) — same problem · relatedness 2.8/3
+- [Spatially-Augmented Sequence-to-Sequence Neural Diarization for Meetings](li26la_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

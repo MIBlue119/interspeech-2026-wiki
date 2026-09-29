@@ -75,4 +75,10 @@ National Yang Ming Chiao Tung University, National Institute of Advanced Industr
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ERM-MinMaxGAP: Benchmarking and Mitigating Gender Bias in Multilingual Multimodal Speech-LLM Emotion Recognition](pang26b_interspeech.md) — same problem · relatedness 2.2/3
+- [AdaLTM: Adaptive Layer-wise Task Vector Merging for Categorical Speech Emotion Recognition with ASR Knowledge Integration](lee26_interspeech.md) — same problem · relatedness 1.9/3
+- [Hidden Priors in Speech LLMs: Speaker Identity Shapes Emotional Perception](chou26_interspeech.md) — same problem · relatedness 1.9/3
+- [SISER: Speaker-Invariant Speech Emotion Recognition with Entropy-Based Adversarial Training](choi26e_interspeech.md) — same problem · relatedness 1.9/3
+- [MOS-Bias: From Hidden Gender Bias to Gender-Aware Speech Quality Assessment](ren26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

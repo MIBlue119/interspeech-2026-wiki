@@ -76,4 +76,10 @@ Sony Group Corporation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction](fujita26_interspeech.md) — same problem · relatedness 2.1/3
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — same problem · relatedness 2.1/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Learnable Classifier-Free Guidance Null Embeddings for Enhanced Controllable Speech Synthesis](turavecino26_interspeech.md) — same problem · relatedness 2.0/3
+- [Accent-Emotion Entanglement in LM-Based Text-to-Speech Systems](hayden26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

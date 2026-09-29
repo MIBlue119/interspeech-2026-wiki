@@ -78,4 +78,10 @@ Leiden University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DP-BCT: A Dual-Path model for predicting BackChannel Timing](jang26b_interspeech.md) — same problem · relatedness 1.9/3
+- [When “yeah” means “not quite”: Multimodal detection of backchannels expressing incomplete understanding](turk26_interspeech.md) — same problem · relatedness 1.8/3
+- [Considerate Listener Modeling for Korean Streaming Backchannel Prediction](choi26c_interspeech.md) — same problem · relatedness 1.7/3
+- [Less can be More: What Aspects of Speech Drive End-of-Turn Detection](sharon26_interspeech.md) — same problem · relatedness 1.7/3
+- [Word Lengthening as a Function of Utterance Position: A Multi-Corpus Study](camara26b_interspeech.md) — relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

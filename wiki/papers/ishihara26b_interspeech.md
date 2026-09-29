@@ -74,4 +74,10 @@ Australian National University, Daido University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sub-band Cepstral Analysis of Speaker-Specific Information: A Case Study of Japanese Word /saN/](ishihara26_interspeech.md) — shared technique · relatedness 3.0/3
+- [Function words: a topic independent approach to word n-gram selection for forensic speaker comparison](carne26_interspeech.md) — same problem · relatedness 1.7/3
+- [Codec-induced Mismatch, Speech Duration, and Speaker-dependent Effect in a DNN-based Forensic Speaker Recognition System](deng26b_interspeech.md) — same problem · relatedness 1.6/3
+- [Human-like cross-language generalisation in deep neural speaker embeddings and its acoustic foundations](xu26f_interspeech.md) — same problem · relatedness 1.6/3
+- [Do speech foundation models perceive speaker similarity as humans do?](kishi26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

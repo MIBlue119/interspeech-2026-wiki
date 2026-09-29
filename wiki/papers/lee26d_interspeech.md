@@ -79,4 +79,10 @@ Sogang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [USAD 2.0: Scaling Representation Distillation for Universal Audio Understanding](chang26c_interspeech.md) — same problem · relatedness 2.3/3
+- [MixProLAP: Mixture-Induced Uncertainty Modeling for Probabilistic Language-Audio Pretraining](nakagome26_interspeech.md) — same problem · relatedness 2.2/3
+- [ProLAP: Probabilistic Language-Audio Pre-Training](manabe26_interspeech.md) — same problem · relatedness 2.2/3
+- [ALARM: Audio–Language Alignment for Reasoning Models](grinberg26_interspeech.md) — same problem · relatedness 2.1/3
+- [Context-Adaptive Automated Audio Captioning with Symmetric Dual-MoE and Dynamic Reward Routing](ahn26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -70,4 +70,10 @@ University of Edinburgh, National Research Council Canada
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Iterate to Differentiate: Enhancing Discriminability and Reliability in Zero-Shot TTS Evaluation](shen26d_interspeech.md) — same problem · relatedness 2.1/3
+- [Two Lessons Learned from the SGILE project: Efficient Building and Evaluation of TTS Voices](pine26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [An Evaluation Framework for Text-to-Speech Voice Reconstruction](sanchez26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Preferences of a Voice-First Nation: Large-Scale Pairwise Evaluation and Preference Analysis for TTS in Indian Languages](anand26b_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [TDScore: Learning Synthetic Speech Quality Predictors from TTS Training Dynamics without Human annotation](miniconi26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

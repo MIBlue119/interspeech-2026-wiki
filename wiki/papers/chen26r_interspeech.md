@@ -78,4 +78,10 @@ Chinese University of Hong Kong, Institute of Software, Chinese Academy of Scien
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention](wang26u_interspeech.md) — same problem · relatedness 2.6/3
+- [Segment-wise Embedding based Graph Attention Network for Effective Speech Emotion Recognition](song26c_interspeech.md) — same problem · relatedness 2.5/3
+- [CHUCKLE - When Humans Teach AI to Learn Emotions the Easy Way](singh26b_interspeech.md) — same problem · relatedness 2.5/3
+- [EmoEUS: Uncertainty Supervision for Multimodal Emotion Recognition in Conversation](huang26n_interspeech.md) — same problem · relatedness 2.4/3
+- [SISER: Speaker-Invariant Speech Emotion Recognition with Entropy-Based Adversarial Training](choi26e_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

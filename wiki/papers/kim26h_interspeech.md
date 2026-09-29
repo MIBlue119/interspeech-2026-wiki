@@ -78,4 +78,10 @@ Hanyang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VIB-AVSR: Variational Information Bottleneck for Noise-Robust LLM-Based Audio-Visual Speech Recognition](arora26b_interspeech.md) — same problem · relatedness 2.8/3
+- [Robust LLM-based Audio-Visual Speech Recognition with Sparse Modality Alignment and Visual Unit-Guided Refinement](su26_interspeech.md) — same problem · relatedness 2.7/3
+- [Adaptive AVSR: Integrating Speaker and Environmental Embeddings for Robust Audio-Visual Speech Recognition](simic26_interspeech.md) — same problem · relatedness 2.4/3
+- [Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding](ahn26b_interspeech.md) — shared technique · relatedness 2.2/3
+- [Training-Free Intelligibility-Guided Observation Addition for Noisy ASR](li26s_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

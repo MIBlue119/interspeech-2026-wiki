@@ -80,4 +80,7 @@ University of Zurich, ETH Zurich
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [How does children's pronunciation develop? Capturing syllabic change with children's growth using unsupervised syllable discovery](horii26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Progressive Learnable Counterfactual Attention for Music Classification](lin26_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

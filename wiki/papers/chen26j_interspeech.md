@@ -77,4 +77,10 @@ Xi'an Jiaotong University, Chinese Academy of Sciences
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [EffVOC: Low-Delay Efficient Speech Waveform Reconstruction from Spectral Representations Without Phase](shi26f_interspeech.md) — same problem · relatedness 2.8/3
+- [SCNet: Enhancing GAN-based Speech Generation with Subband Condition Network and Magnitude-aware Phase Loss](xu26e_interspeech.md) — same problem · relatedness 2.3/3
+- [One-Step Token-to-Waveform Generation with MeanFlow in Latent Space](dai26c_interspeech.md) — same problem · relatedness 2.3/3
+- [RAF: Relativistic Adversarial Feedback For Universal Speech Synthesis](lee26e_interspeech.md) — same problem · relatedness 2.1/3
+- [LavaSR: Fast and Flexible Audio Bandwidth Extension via Vocos](sharma26c_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

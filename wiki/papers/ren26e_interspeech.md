@@ -78,4 +78,10 @@ Chinese Academy of Sciences, University of Chinese Academy of Sciences, Tsinghua
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Bagpiper-Edit: Zero-Shot Open-Ended Audio Editing via Rich-Caption](gong26b_interspeech.md) — same problem · relatedness 2.2/3
+- [MeloDISinger: Melody-Aware & Duration-Preserving Singing Voice Editing with Audio Infilling](park26k_interspeech.md) — same problem · relatedness 2.1/3
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Semantic-VAE: Semantic-Alignment Latent Representation for Better Speech Synthesis](niu26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

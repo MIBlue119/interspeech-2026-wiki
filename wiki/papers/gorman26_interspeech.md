@@ -74,4 +74,10 @@ Nurobodi
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Happens When We Speak Together? Multidimensional Convergence in Face-to-Face Interaction](pagel26_interspeech.md) — same problem · relatedness 1.9/3
+- [MF-EDM: Graph-based Multimodal Fusion and Emotional Dynamics Modeling for Emotion Recognition in Conversation](hwang26_interspeech.md) — same problem · relatedness 1.8/3
+- [VIP-MINGLE: A Corpus for Videoconference and In-Person Multimodal Interaction in Group Language Engagement](chang26f_interspeech.md) — complementary · relatedness 1.8/3
+- [EII-SCL: Harnessing Emotional Inertia for Multimodal Emotion Recognition in Conversation](huang26p_interspeech.md) — same problem · relatedness 1.8/3
+- [Predicting Cognitive Load from Speech and Interaction Dynamics in Dyadic Conversations](chowdhury26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -73,4 +73,10 @@ Harvard University, Massachusetts General Hospital Institute of Health Professio
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The ArtComp dataset: Articulatory and Acoustic Measurements of Swedish in Speech with Naturally Manipulated Jaw Position](cortes26_interspeech.md) — complementary · relatedness 1.9/3
+- [ArtBoost: Synthetic Articulatory Data Augmentation for Acoustic-to-Articulatory Inversion](kim26f_interspeech.md) — complementary · relatedness 1.9/3
+- [Toward an Articulatory Weakness Index for Speech Kinematics in Parkinson’s Disease](baligar26_interspeech.md) — complementary · relatedness 1.8/3
+- [Automated Measurement of Geniohyoid Muscle Thickness During Speech Using Deep Learning and Ultrasound](myrgyyassov26_interspeech.md) — same problem · relatedness 1.8/3
+- [Acoustic-to-Articulatory Inversion of Clean Speech Using an MRI-Trained Model](azzouz26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

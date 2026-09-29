@@ -79,4 +79,10 @@ University of Illinois Urbana-Champaign, University of Arizona, Worcester Polyte
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [BabyHuBERT: Multilingual Self-Supervised Learning for Segmenting Speakers in Child-Centered Long-Form Recordings](charlot26_interspeech.md) — same problem · relatedness 2.7/3
+- [Joint Learning Global-Local Speaker Classification to Enhance End-to-End Speaker Diarization and Recognition](dai26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Speaker Separation via Audio Language Modeling](lanzendoerfer26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Context-aware child-directed speech detection from long-form recordings](charlot26b_interspeech.md) — shared technique · relatedness 2.1/3
+- [Two-Level Uncertainty Suppression for Robust Meeting Diarization](asaka26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

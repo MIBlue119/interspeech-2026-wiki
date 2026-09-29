@@ -72,4 +72,10 @@ Hong Kong Polytechnic University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Hidden Priors in Speech LLMs: Speaker Identity Shapes Emotional Perception](chou26_interspeech.md) — same problem · relatedness 1.7/3
+- [Speaker or Language? Explaining Variance in Charismatic Prosody Across Luxembourgish and French](hosseinikivanani26_interspeech.md) — same problem · relatedness 1.6/3
+- [Perceptual and Acoustic Correlates of Racial Identity in Text-to-Speech Voices](khaloo26_interspeech.md) — same problem · relatedness 1.6/3
+- [From Game-Based Annotation to Representation Probing: Cross-Validated Prosodic Speech and Privacy Implications](sepanta26_interspeech.md) — same problem · relatedness 1.6/3
+- [Towards Interpretable Framework for Neural Audio Codecs via Sparse Autoencoders: A Case Study on Accent Information](wang26n_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

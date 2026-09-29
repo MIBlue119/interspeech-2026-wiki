@@ -69,4 +69,10 @@ Peking University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The role of phonation type in Chinese Jin tones: a study using acoustic metrics](du26b_interspeech.md) — shared technique · relatedness 2.1/3
+- [Age-Related Changes in Mandarin Lexical Tone Production: Acoustic Properties and Tonal Distinctiveness](mao26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Acoustic Differences Between Citation and Sandhi Tones Across Three Generations in Xiamen Southern Min](xie26d_interspeech.md) — shared technique · relatedness 1.9/3
+- [Age-related Differences in Acoustic Realization of Aspirated Fricatives in Shaxi Bai](zhang26q_interspeech.md) — shared technique · relatedness 1.9/3
+- [Tonal Contrasts in Different Vowel Contexts and Different Tonal Systems](li26v_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -71,4 +71,10 @@ University of Hamburg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Scaling Properties of Continuous Diffusion Spoken Language Models](ramapuram26_interspeech.md) — same problem · relatedness 2.2/3
+- [Decoupling Search and Evaluation: Efficient Beam Decoding for Language Model-Based Text-to-Speech Synthesis](liu26l_interspeech.md) — shared technique · relatedness 2.0/3
+- [Decoding Order Matters in Autoregressive Speech Synthesis](zhao26e_interspeech.md) — shared technique · relatedness 2.0/3
+- [Audio-NSP: Data-Centric Semi-Autoregressive Generation for Large Audio-Language Models](cao26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Accelerating End-to-End ASR via Semi-Autoregressive Speculative Decoding](wu26g_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

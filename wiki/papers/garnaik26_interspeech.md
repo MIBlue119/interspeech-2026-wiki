@@ -77,4 +77,10 @@ State University of New York, Korea, Stony Brook University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CrossAccent-TTS: Cross-Lingual Accent-Intensity Controllable Text-to-Speech via Disentangled Speaker and Accent Representations](annamdevula26_interspeech.md) — same problem · relatedness 2.0/3
+- [AccentDrift: Real-time Streaming Accent Conversion via Sparse Speech Tokenization](lee26g_interspeech.md) — same problem · relatedness 2.0/3
+- [StyleStream: Real-Time Zero-Shot Voice Style Conversion](liu26c_interspeech.md) — complementary · relatedness 2.0/3
+- [K-DIALECT : Korean Dialect-Aware Face-Based Speech Synthesis](yang26d_interspeech.md) — shared technique · relatedness 2.0/3
+- [Controllable Accent Normalization via Discrete Diffusion](bai26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ University of California, Los Angeles
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MambAdapter: Lightweight Mamba-Based Adapters for Parameter-Efficient Transfer Learning in Speech and Audio](ali26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Mixture-of-Accent-Adapters for Robust ASR: Injecting Accent Cues into Pretrained Whisper](bijoy26_interspeech.md) — same problem · relatedness 2.3/3
+- [Mixture of Phonetic Experts Based Low-Rank Adaptation of Conformer Models for Accented English Speech Recognition](dahal26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Speech Encoder Fusion for LLM-based Automatic Speech Recognition](poncelet26_interspeech.md) — same problem · relatedness 2.0/3
+- [Parameter-Efficient Continual Learning for Automatic Speech Recognition](eeckt26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

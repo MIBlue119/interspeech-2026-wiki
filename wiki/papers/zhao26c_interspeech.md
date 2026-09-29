@@ -78,4 +78,10 @@ Nanjing University, Horizon Robotics, Samsung Electronics
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation](chao26_interspeech.md) — same problem · relatedness 2.7/3
+- [Latency-Configurable Streaming Speech Enhancement via Asymmetric Temporal Padding](kim26g_interspeech.md) — same problem · relatedness 2.6/3
+- [Latency Controllable Speech Enhancement](sato26_interspeech.md) — same problem · relatedness 2.5/3
+- [Parallel Time-Band Mixing with Learned Observation-Adding for Robust ASR Front-Ends](shen26c_interspeech.md) — same problem · relatedness 2.4/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -75,4 +75,10 @@ National Acoustic Laboratories, Radboud University Medical Center, University of
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Immersive VR System for Experiencing Spatial Speech-in-Noise Challenges in Clinical Audiology](chongwhite26_interspeech.md) — same problem · relatedness 2.0/3
+- [Improving Cross-Dataset Speech Intelligibility Prediction for Hearing-Impaired Listeners with Few-Shot Adaptation](lin26h_interspeech.md) — same problem · relatedness 1.8/3
+- [Effects of listener language experience, masker language, and cognitive load on word monitoring accuracy and response time](chin26_interspeech.md) — same problem · relatedness 1.8/3
+- [Deep learning-based predictions of perceived listening effort and intelligibility across enhanced, synthetic, natural, and binaural speech](hoffner26_interspeech.md) — same problem · relatedness 1.7/3
+- [Hearing Smiles in the Crowd: How Babble Noise Shapes Smiled Speech Perception](li26t_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

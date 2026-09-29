@@ -75,4 +75,10 @@ Shanghai Himalaya Technology Co., Ltd
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MagpieTTS-LF: Inference-Time Long-Form Speech Generation Without Training on Long-Form data](ghosh26f_interspeech.md) — same problem · relatedness 2.2/3
+- [AuDirector: A Self-Reflective Closed-Loop Framework for Immersive Audio Storytelling](ren26d_interspeech.md) — same problem · relatedness 2.0/3
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Continuous Time-Varying Emotion Control Zero-Shot Text-To-Speech With Emotion Orthogonal LoRA](wan26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Word-level Emotional Intensity Control in TTS via Emotion Residual Vectors](park26i_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

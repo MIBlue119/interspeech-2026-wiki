@@ -78,4 +78,10 @@ University of Melbourne
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A preliminary exploration of stop-vowel coarticulation in Māori](shields26_interspeech.md) — same problem · relatedness 2.0/3
+- [Vowel Allophony Improves Maximum-Likelihood Classification of Warlpiri Consonants](cram26_interspeech.md) — same problem · relatedness 2.0/3
+- [Phonetic evidence for contrastive voicing in Nakanamanga coronal plosives](li26ha_interspeech.md) — shared technique · relatedness 1.9/3
+- [wav2VOT: automatic estimation of voice onset time, closure duration, and burst realisation with wav2vec2](tanner26_interspeech.md) — same problem · relatedness 1.9/3
+- [Automating Sociophonetic Research in Under-Resourced Languages: A Case Study of Speech Rate in Cook Islands Māori](cotosolano26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

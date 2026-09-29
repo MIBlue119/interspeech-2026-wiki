@@ -81,4 +81,10 @@ Shanghai Jiao Tong University, Shanghai Innovation Institute, Chinese University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SARA: A Dual-Stream VAE for High-Fidelity Speech Generation via Integrating Semantic and Acoustic Representations](chen26v_interspeech.md) — same problem · relatedness 2.9/3
+- [Beyond Two-stage Diffusion TTS: Joint Structure and Content Refinement via Jump Diffusion](ai26b_interspeech.md) — same problem · relatedness 2.5/3
+- [RobustSpeechFlow: Learning Robust Text-to-Speech Trajectories via Augmentation-based Contrastive Flow Matching](yang26p_interspeech.md) — same problem · relatedness 2.5/3
+- [OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models](zhu26e_interspeech.md) — same problem · relatedness 2.4/3
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

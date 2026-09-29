@@ -74,4 +74,10 @@ Saarland University, DFKI, ETH Zurich
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Unified Safety Subspace Exists in Speech Language Models](mukhituly26_interspeech.md) — same problem · relatedness 2.6/3
+- [Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models](seth26_interspeech.md) — same problem · relatedness 2.2/3
+- [FreqGuard: Leveraging Frequency-Domain Feature Priors for Universal Proactive Voice Defense](wang26ca_interspeech.md) — complementary · relatedness 1.9/3
+- [Where Do Backdoors Live? A Component-Level Analysis of Backdoor Propagation in Speech Language Models](fortier26_interspeech.md) — same problem · relatedness 1.9/3
+- [Exploiting Neural Audio Codec Latents for Adversarial Audio Attacks](bhattacharya26b_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

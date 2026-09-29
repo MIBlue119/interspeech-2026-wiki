@@ -80,4 +80,10 @@ Chinese Academy of Sciences, University of Chinese Academy of Sciences
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Moot-Court: Training-Free Dialectical Reasoning for Depression Detection](sun26i_interspeech.md) — same problem · relatedness 2.9/3
+- [Layer-wise Multi-factor Adaptive Disentanglement for Cross-corpus Speech Depression Detection](wang26j_interspeech.md) — same problem · relatedness 2.7/3
+- [Label Correction Enhanced Dual-Stream Multiple Instance Learning for Weakly-Supervised Depression Detection in Speech](sun26e_interspeech.md) — same problem · relatedness 2.6/3
+- [Uncovering Latent Depression Severity for Binary Depression Detection via Advantage-weighting Ranking](gao26d_interspeech.md) — same problem · relatedness 2.6/3
+- [FedMPA: A Novel Privacy-Performance Optimization Approach for Multimodal Speech-Based Depression Detection](manamalage26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

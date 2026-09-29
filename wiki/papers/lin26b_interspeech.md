@@ -82,4 +82,10 @@ Nanjing University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Makes Synthetic Speech Sound Sarcastic? A Prosody-Controlled Perception Study](li26x_interspeech.md) — same problem · relatedness 1.9/3
+- [ProSarc: Prosody-Aware Sarcasm Recognition Framework via Temporal Prosodic Incongruity](singh26e_interspeech.md) — same problem · relatedness 1.7/3
+- [Eye and Mouth Cues in Audiovisual Perception of Mandarin Irony: Evidence from Eye-Tracking](xia26_interspeech.md) — same problem · relatedness 1.7/3
+- [From Words to Sentences: Contextual Predictability Overrides Phonetic Ambiguity in Lexical Competition](chang26g_interspeech.md) — relatedness 1.6/3
+- [The (non-)universality of prominence and Intonation Phrases: German and Hungarian listeners'' perception of an unfamiliar language](jabeen26_interspeech.md) — relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

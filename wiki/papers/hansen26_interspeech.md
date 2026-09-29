@@ -39,4 +39,8 @@ University of Texas at Dallas
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Do speech foundation models perceive speaker similarity as humans do?](kishi26_interspeech.md) — same problem · relatedness 1.6/3
+- [Bridging the Speech AI Accessibility Gap for Deaf and Hard of Hearing People](glasser26_interspeech.md) — same problem · relatedness 1.5/3
+- [MSU-Bench: Towards Understanding the Conversational Multi-Speaker Scenarios](sun26j_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

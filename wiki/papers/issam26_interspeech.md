@@ -81,4 +81,10 @@ Maastricht University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [PiDA: Phonetically-Informed Data Augmentation for Robust Vietnamese Speech Translation](nguyen26f_interspeech.md) — same problem · relatedness 2.2/3
+- [Listening or Reading? Evaluating Speech Awareness in Chain-of-Thought Speech-to-Text Translation](romerodiaz26_interspeech.md) — same problem · relatedness 2.0/3
+- [MTC-AVSR: Compressed-Token-based Audio-Visual Speech Recognition and Translation with Contrastive Language Alignment](a26_interspeech.md) — same problem · relatedness 1.9/3
+- [POTSA: A Cross-Lingual Speech Alignment Framework for Speech-to-Text Translation](li26k_interspeech.md) — same problem · relatedness 1.9/3
+- [SᴜTRA: Structurally-Unified Tokenization with Root Awareness](rathore26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Georgia Institute of Technology, Universita degli Studi di Palermo, NVIDIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Diffusion Language Models for Speech Recognition](naveriani26_interspeech.md) — same problem · relatedness 2.9/3
+- [Refining the Latent Bridge: Superior ASR Performance via Adapter-Only Alignment with Diffusion LLMs](bhooi26_interspeech.md) — same problem · relatedness 2.9/3
+- [Non-Autoregressive Minimum Bayes' Risk Decoding for Fast Speech Recognition](deguchi26_interspeech.md) — same problem · relatedness 2.6/3
+- [Accelerating End-to-End ASR via Semi-Autoregressive Speculative Decoding](wu26g_interspeech.md) — same problem · relatedness 2.5/3
+- [Self-Speculative Decoding for LLM-based ASR with CTC Encoder Drafts](saon26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Feng Chia University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Amadea: An AI Companion for Pitch-Aware Spoken Language Practice](agrawal26_interspeech.md) — complementary · relatedness 1.8/3
+- [Prosodic ABX: A Language-Agnostic Method for Measuring Prosodic Contrast in Speech Representations](sun26_interspeech.md) — complementary · relatedness 1.8/3
+- [Perceptual compensation for tonal context in self-supervised speech models](kirby26_interspeech.md) — same problem · relatedness 1.8/3
+- [Using Phonological-Level Wav2Vec2 for Mandarin Automatic Mispronunciation Detection and Diagnosis](chen26g_interspeech.md) — same problem · relatedness 1.8/3
+- [Pitch-Injected Residual Adapter for Tonal Language in Neural Audio Codec](yang26g_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

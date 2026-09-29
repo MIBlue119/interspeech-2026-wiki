@@ -75,4 +75,10 @@ Rapid linguistic field documentation, preliminary lexicographic hypothesis gener
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DiscoPhon: Benchmarking the Unsupervised Discovery of Phoneme Inventories With Discrete Speech Units](poli26_interspeech.md) — same problem · relatedness 2.5/3
+- [Genealogical Priors in Self-Supervised Learning: Improving Speech Technology for Low-Resource Languages](granda26_interspeech.md) — same problem · relatedness 2.0/3
+- [Pretrained self-supervised speech models can recognize unseen consonants](taguchi26_interspeech.md) — same problem · relatedness 2.0/3
+- [Which Languages Transfer Best to Warlpiri? A Similarity-Based Study for Low-Resource ASR](mylvaganam26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Hybrid Continual Learning for Low-Resource Australian Aboriginal Language Identification](mylvaganam26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

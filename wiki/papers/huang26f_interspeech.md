@@ -76,4 +76,10 @@ Nagoya University, University of Edinburgh, National Institute of Information an
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Evaluating Objective Speech Quality Metrics for Neural Audio Codecs](lanzendoerfer26_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [Investigating the Relationship between Objective AI-driven Metrics and Subjective MOS for In-the-Wild Speech](sanjotra26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Iterate to Differentiate: Enhancing Discriminability and Reliability in Zero-Shot TTS Evaluation](shen26d_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [TDScore: Learning Synthetic Speech Quality Predictors from TTS Training Dynamics without Human annotation](miniconi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Phonetically Grounded Vowel Space Metrics for Evaluating Synthetic Speech During TTS Model Training](udawatta26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

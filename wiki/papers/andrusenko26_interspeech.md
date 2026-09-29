@@ -79,4 +79,10 @@ NVIDIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Online Predictive Coding for Dual-Mode Self-Supervised Speech Models](goto26_interspeech.md) — same problem · relatedness 2.5/3
+- [Improving streaming ASR with foundation models using emission policies](masmolla26_interspeech.md) — same problem · relatedness 2.0/3
+- [BACON: Boundary-Aware Convolution for Streaming Conformer Models](xu26o_interspeech.md) — same problem · relatedness 2.0/3
+- [Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation](srivastav26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [A Compact Fully-Open Cache-Aware Streaming Model for Japanese ASR](yang26r_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

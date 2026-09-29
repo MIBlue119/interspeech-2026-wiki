@@ -77,4 +77,10 @@ Avignon Universite, Lundi Matin
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ARTIST: Universal Articulatory Space Modeling for Multilingual Indic-to-English Speech-to-Speech Translation](yadav26_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards Enabling Multilingual Multitask SpeechLLMs in Data-Scarce Settings](fong26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Generating Synthetic Doctor-Patient Conversations for Long-form Audio Summarization](labrak26_interspeech.md) — complementary · relatedness 1.9/3
+- [Does Translation-Enhanced Speech Encoder Pre-training Affect Speech LLMs?](mizumoto26_interspeech.md) — shared technique · relatedness 1.9/3
+- [GigaAM Multilingual: Foundation Model for Underrepresented Languages](kuzmenko26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

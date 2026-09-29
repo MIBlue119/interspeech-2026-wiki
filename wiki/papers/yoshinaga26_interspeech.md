@@ -80,4 +80,10 @@ Osaka University, Louisiana State University Health Sciences Center, University 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Physics-Informed Neural Operator for Speech Production Analysis](yokota26_interspeech.md) — same problem · relatedness 2.0/3
+- [An Acoustic Landmark Database of the English Lexicon via Articulatory Synthesis](camara26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Phy-VC: Physics-Informed Voice Conversion for Privacy-Preserving Pathological Speech](ghosh26_interspeech.md) — complementary · relatedness 1.9/3
+- [Influence of Vocal Tract Curvature on Speech Acoustics: A Three-Dimensional FEM Analysis](mohapatra26_interspeech.md) — same problem · relatedness 1.7/3
+- [Morphoacoustic Modeling of a Dynamic 3D Vocal Tract Using MRI-Constrained Deformations and FEM Acoustics](piyadasa26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

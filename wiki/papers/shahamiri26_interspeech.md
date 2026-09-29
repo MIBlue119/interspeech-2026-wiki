@@ -74,4 +74,10 @@ University of Auckland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Mispronunciation Modeling via PPG-Based Phone Editing: A Data Augmentation Framework for Dysarthric Speech Recognition](ko26_interspeech.md) — same problem · relatedness 2.5/3
+- [Investigating ASR for Low-Intelligibility Dysarthric Speech](kwon26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Towards Personalized Federated Learning for Dysarthric Speech Recognition](zhong26d_interspeech.md) — same problem · relatedness 2.5/3
+- [IACC-HuBERT: Intelligibility-Aware Channel Conditioning of HuBERT Frontend for Dysarthric Speech Conformer ASR](sapkota26_interspeech.md) — same problem · relatedness 2.5/3
+- [Etiology-Aware Speech Language Models for Dysarthric Speech Recognition](laquatra26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

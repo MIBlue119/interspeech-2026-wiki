@@ -81,4 +81,10 @@ Hugging Face, NVIDIA, University of Cambridge, Mistral AI, OpenAI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Unified and Reproducible Experimentation Framework for Speech Understanding](peng26e_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+- [AppTek Call-Center Dialogues: A Multi-Accent Long-Form Benchmark for English ASR](beck26_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [Preference-ASR: A Preference-Aware Test Set for Benchmarking ASR in the Era of Speech LLMs](koluguri26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India](bhogale26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Self-Speculative Decoding for LLM-based ASR with CTC Encoder Drafts](saon26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

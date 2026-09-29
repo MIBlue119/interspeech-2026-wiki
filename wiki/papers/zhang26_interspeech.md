@@ -81,4 +81,10 @@ Harbin Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Spec2Spatial: A Time-Frequency Spatial Attention Network for Binaural Audio Synthesis](he26b_interspeech.md) — same problem · relatedness 2.8/3
+- [TTBA: Spatial Prompted Text to Binaural Audio Generation Using Transformer](he26_interspeech.md) — same problem · relatedness 2.1/3
+- [Spatial-Magnifier: Spatial upsampling for multichannel speech enhancement](lee26k_interspeech.md) — same problem · relatedness 2.1/3
+- [AV-FlowSep: Audio-Visual Target Speaker Separation via Flow Matching](tipaksorn26_interspeech.md) — shared technique · relatedness 1.9/3
+- [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](gao26e_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

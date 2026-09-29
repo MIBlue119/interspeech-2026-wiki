@@ -78,4 +78,10 @@ Xinjiang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Stuttering Classification and Segmentation with Attention-Based Multiple Instance Learning](susac26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Progressive Weak Supervision for Speech Emotion Recognition](ta26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Conflict-Aware Pseudo-Labeling via Acoustic Signals for Multi-Task Speech Emotion Recognition](zhou26f_interspeech.md) — same problem · relatedness 1.8/3
+- [Label Correction Enhanced Dual-Stream Multiple Instance Learning for Weakly-Supervised Depression Detection in Speech](sun26e_interspeech.md) — shared technique · relatedness 1.8/3
+- [ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling](zhang26ca_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

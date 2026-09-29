@@ -83,4 +83,10 @@ Chinese University of Hong Kong, National University of Singapore, Harbin Instit
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sub-Model Short-Term Memory Convolutions for Keyword Spotting Systems on Device](warlewski26_interspeech.md) — same problem · relatedness 2.2/3
+- [SPARK: Efficient Audio-Text Matching for User-Defined Keyword Spotting via Spiking Neural Networks](baek26_interspeech.md) — same problem · relatedness 2.1/3
+- [OnDA: On-device Channel Pruning for Efficient Personalized Keyword Spotting](risso26_interspeech.md) — same problem · relatedness 2.1/3
+- [Mitigating Causality Mismatch with Causal Temporal Relation Distillation for Streaming Keyword Spotting](zhang26ia_interspeech.md) — same problem · relatedness 2.0/3
+- [MPA-KWS: Multi-Modal Phoneme-Level Alignment for Streaming Open-Vocabulary Keyword Spotting](zhang26fa_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

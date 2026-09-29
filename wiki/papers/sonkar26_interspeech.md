@@ -78,4 +78,10 @@ International Institute of Information Technology Hyderabad, TCS Research
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data](otani26_interspeech.md) — same problem · relatedness 2.6/3
+- [On the Role of the Tongue Region in Ultrasound-to-Acoustic Mapping](ibrahimov26_interspeech.md) — same problem · relatedness 2.3/3
+- [TAP-ETS: Time Aligned Phoneme Guiding for EMG-to-Speech Synthesis](han26f_interspeech.md) — same problem · relatedness 2.1/3
+- [GETS: Guiding EMG-to-Speech Synthesis via Silent Speech Recognition](lee26r_interspeech.md) — same problem · relatedness 2.1/3
+- [Towards Robust Ultrasound-based Silent Speech Recognition Learning Physics-Aware and Context-Rich Representations](wen26d_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

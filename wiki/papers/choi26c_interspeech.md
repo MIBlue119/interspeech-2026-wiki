@@ -78,4 +78,10 @@ Electronics and Telecommunications Research Institute
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DP-BCT: A Dual-Path model for predicting BackChannel Timing](jang26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Less can be More: What Aspects of Speech Drive End-of-Turn Detection](sharon26_interspeech.md) — same problem · relatedness 2.0/3
+- [Adaptive Turn-Taking for Real-time Multi-Party Voice Agents](mitra26_interspeech.md) — same problem · relatedness 1.9/3
+- [Plan and Double-Check: Streaming Multimodal Q-Former for Online Robot Action Generation](hori26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Decoding while Adapting: Zero-Shot Online Speaker Adaptation via Audio-Textual Prompts for Elderly Speech Recognition](deng26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

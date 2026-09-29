@@ -69,4 +69,10 @@ University of Tokyo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Amadea: An AI Companion for Pitch-Aware Spoken Language Practice](agrawal26_interspeech.md) — same problem · relatedness 1.9/3
+- [Automatic Assessment of L2 Speech Intelligibility: Segmental Error Ranking](pludra26_interspeech.md) — same problem · relatedness 1.8/3
+- [AdaptLingo: A Speech-to-Speech English Practice System with Fluency-Adaptive Responses](rackauckas26_interspeech.md) — same problem · relatedness 1.7/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — same problem · relatedness 1.7/3
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Zurich Forensic Science Institute, University of Zurich
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [How Speaker Normalization Procedures Influence the Computational Modelling of Non-native Vowel Perception: Implications for the L2LP model](lee26l_interspeech.md) — same problem · relatedness 2.0/3
+- [The ArtComp dataset: Articulatory and Acoustic Measurements of Swedish in Speech with Naturally Manipulated Jaw Position](cortes26_interspeech.md) — complementary · relatedness 1.9/3
+- [Toward an Articulatory Weakness Index for Speech Kinematics in Parkinson’s Disease](baligar26_interspeech.md) — complementary · relatedness 1.9/3
+- [Beyond Speaker Independence: Evaluating Cross-Lingual Acoustic-to-Articulatory Inversion Across Finnish and Russian](pandey26_interspeech.md) — same problem · relatedness 1.8/3
+- [How Bilingual Are SSL Speech Models? Cross-Lingual Probing of Articulatory Encoding with Finnish and Russian EMA](pedro26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -68,4 +68,10 @@ University of Cambridge
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Corpus-Based Study of Creaky Voice Production in English and Mandarin](li26ja_interspeech.md) — same problem · relatedness 1.9/3
+- [The role of phonation type in Chinese Jin tones: a study using acoustic metrics](du26b_interspeech.md) — shared technique · relatedness 1.8/3
+- [Lost in Phonation: Voice Quality Variation as an Evaluation Dimension for Speech Foundation Models](lameris26_interspeech.md) — complementary · relatedness 1.8/3
+- [Tense Voice, Not Falsetto: An F0-specific Physiological Byproduct of Extreme High-Pitch Tone in Kaihui Xiang](zhang26i_interspeech.md) — same problem · relatedness 1.8/3
+- [Achieving voicelessness in coda stop contexts: Insights from combined electroglottography and laryngoscopy](penney26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

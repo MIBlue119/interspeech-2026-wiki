@@ -77,4 +77,10 @@ University of California, Santa Cruz, AImpower.org, Stanford University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Aligning Stuttered-Speech Research with End-User Needs: Scoping Review, Survey, and Guidelines](toyin26b_interspeech.md) — same problem · relatedness 2.0/3
+- [S-DiverSe: Spanish Diverse Speech](lopez26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Bridging the Speech AI Accessibility Gap for Deaf and Hard of Hearing People](glasser26_interspeech.md) — same problem · relatedness 1.9/3
+- [Data-Efficient ASR Personalization for Non-Normative Speech Using an Uncertainty-Based Phoneme Difficulty Score for Guided Sampling](pokel26_interspeech.md) — same problem · relatedness 1.9/3
+- [Queer inclusion in speech datasets: An audit and taxonomy of practical tensions](sheppard26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

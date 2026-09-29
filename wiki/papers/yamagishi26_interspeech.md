@@ -41,4 +41,10 @@ National Institute of Informatics
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FreqGuard: Leveraging Frequency-Domain Feature Priors for Universal Proactive Voice Defense](wang26ca_interspeech.md) — same problem · relatedness 2.1/3
+- [A Training-Free Proactive Defense Against Partial Speech Manipulation via Self-Embedding Steganography](ozer26_interspeech.md) — same problem · relatedness 2.1/3
+- [NaVo: Natural Voice Protection against Voice Cloning Attacks via Generative Universal Adversarial Audio](park26g_interspeech.md) — same problem · relatedness 2.1/3
+- [DeepFense: A Unified, Modular, and Extensible Framework for Robust Audio Deepfake Detection](kheir26_interspeech.md) — same problem · relatedness 2.0/3
+- [Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes](shao26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ Kore University of Enna, Politecnico di Torino, Università degli Studi di Paler
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [wav2tok 2.0: Scalable Audio Tokenization Maintaining Explicit Pairwise Token Alignment for Efficient Audio Retrieval](banerjee26_interspeech.md) — same problem · relatedness 2.6/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Leveraging Discriminative Capabilities of Self-Supervised Neural Audio Fingerprinting for Efficient Speech Data Annotation](altwlkany26_interspeech.md) — shared technique · relatedness 2.0/3
+- [INSPIRE: A Benchmark for Instruction-Aware Speech Retrieval](li26r_interspeech.md) — same problem · relatedness 1.9/3
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ NTT
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [LLM-as-Joiner: Decoupling Alignment from Language Modeling in Label-synchronous ASR](lee26u_interspeech.md) — same problem · relatedness 2.4/3
+- [Align-Consistency: Improving Non-autoregressive and Semi-supervised ASR with Consistency Regularization](huang26i_interspeech.md) — same problem · relatedness 2.0/3
+- [Transitional Objective Learning with Connectionist Temporal Classification in Phoneme Recognition](krysinska26_interspeech.md) — same problem · relatedness 2.0/3
+- [Alignment-Aware Continued Pre-training for Multilingual Speech Representation Learning](lu26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [CTC-TTS: LLM-Based Dual-Streaming Text-to-Speech with CTC Alignment](liu26e_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

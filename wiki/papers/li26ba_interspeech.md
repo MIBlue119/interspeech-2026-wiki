@@ -80,4 +80,10 @@ Shanghai Jiao Tong University, Shanghai Innovation Institute
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Text-to-Audio Instruction Following via Fine-Grained Feedback from Audio-Aware Large Language Models](kuan26_interspeech.md) — same problem · relatedness 2.9/3
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — same problem · relatedness 2.6/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.6/3
+- [Improving Stable Speech Synthesis Post-Training with ChatScorer and Margin-Based Preference Construction](niu26c_interspeech.md) — same problem · relatedness 2.5/3
+- [FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech](wang26s_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ Peking University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Perception of English /iː/–/ɪ/ by Japanese Listeners under Silent-Centre and Devoiced Vowel Conditions](tokuma26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Voice Onset Time Categorical Perception in Mandarin-Speaking People Who Stutter: A Zoom-In Nonword Study](kiyama26_interspeech.md) — shared technique · relatedness 1.7/3
+- [Prosodic Realization of Focus in Yi-Mandarin Bilingual Speakers: On-Focus Expansion without Post-Focus Compression](zhang26g_interspeech.md) — relatedness 1.7/3
+- [Perceptual Trade-offs Across Segmental and Suprasegmental Levels: Comparing Ganong Patterns in Mandarin Consonants and Lexical Tones](li26f_interspeech.md) — same problem · relatedness 1.7/3
+- [Tone-space Distribution Modulates Transfer from Non-linguistic Pitch Training to Cantonese Tone-in-Noise Perception in Native Speakers](weng26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

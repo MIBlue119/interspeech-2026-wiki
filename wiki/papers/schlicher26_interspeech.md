@@ -79,4 +79,10 @@ Technical University of Munich, University Hospital of Tubingen, University of E
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Looking for Affect in Spontaneous Finnish Speech through Linguistic Interpretability](lahtinen26_interspeech.md) — same problem · relatedness 2.4/3
+- [ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling](zhang26ca_interspeech.md) — same problem · relatedness 2.1/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — same problem · relatedness 2.0/3
+- [Investigating LLMs Behavior in Depression Severity Prediction](yu26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Automatic Detection of Stress from Speech in the Trier Social Stress Test](drimalla26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

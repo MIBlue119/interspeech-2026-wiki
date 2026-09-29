@@ -78,4 +78,10 @@ Mohamed bin Zayed University of Artificial Intelligence, Indian Institute of Tec
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Transcription Policy as a Latent Variable: Activating Controllable Verbatim ASR with Word-Level Timing](wagner26_interspeech.md) — same problem · relatedness 2.4/3
+- [WER Are We (Really): How Well Do Top Open ASR Leaderboard Models Generalize to Nonstandard Speech?](dhaka26_interspeech.md) — same problem · relatedness 2.2/3
+- [PathBench: Speech Intelligibility Benchmark for Automatic Pathological Speech Assessment](halpern26_interspeech.md) — same problem · relatedness 2.0/3
+- [DysfluentNet: Joint Stuttering Event Detection and Dysfluency-Aware Transcription via Hierarchical Self-Supervised Learning](muthu26_interspeech.md) — same problem · relatedness 2.0/3
+- [Reasoning Beyond Transcription: Audio Language Models on Child Stuttering Speech](okocha26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

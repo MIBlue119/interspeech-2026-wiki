@@ -69,4 +69,10 @@ University of Nottingham, University of Lancashire
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Less can be More: What Aspects of Speech Drive End-of-Turn Detection](sharon26_interspeech.md) — same problem · relatedness 2.0/3
+- [Word Lengthening as a Function of Utterance Position: A Multi-Corpus Study](camara26b_interspeech.md) — same problem · relatedness 1.9/3
+- [More than a feeling: Expressive style influences cortical speech tracking in subjective cognitive decline](ma26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Imitation Learning for Elder-Facing Speech Synthesis](han26d_interspeech.md) — same problem · relatedness 1.9/3
+- [Disentangling Depression from Cognitive Decline in Elderly Speech Using Concurrent Clinical Assessments](jeon26_interspeech.md) — relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

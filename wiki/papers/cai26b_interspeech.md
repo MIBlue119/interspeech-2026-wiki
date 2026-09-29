@@ -78,4 +78,10 @@ Xi'an Jiaotong-Liverpool University, Nanjing University of Posts and Telecommuni
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Branch-wise Complementary Attention for Acoustic Scene Classification](han26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Towards Event-Robust Acoustic Scene Classification](cai26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Consistency-Regularized Dual-Branch Network with Performance-Aware Mean Teacher for Sound Event Detection](dai26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Robust Multi-Source-Free Domain Adaptation via Posterior Adjustment and Label Agreement](yoon26_interspeech.md) — same problem · relatedness 1.8/3
+- [A Closer Look at Failure Modes in Temporal Understanding of Large Audio-Language Models](kulkarni26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

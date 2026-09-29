@@ -80,4 +80,10 @@ Harbin Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AdaTS: Adaptive Token Sampling for Efficient Speech Language Models](sannigrahi26_interspeech.md) — shared technique · relatedness 2.2/3
+- [Content-Aware Dynamic Compression for Efffcient Speech Recognition based on Large Language Model](zhu26_interspeech.md) — same problem · relatedness 2.0/3
+- [Accelerating End-to-End ASR via Semi-Autoregressive Speculative Decoding](wu26g_interspeech.md) — same problem · relatedness 2.0/3
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](lee26j_interspeech.md) — shared technique · relatedness 1.9/3
+- [How Attention Shapes Emotion: A Comparative Study of Attention Mechanisms for Speech Emotion Recognition](casalssalvador26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ Carnegie Mellon University, University of Texas at Austin
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Scaling Human and G2P Supervision for Robust Phonetic Transcription](metzger26_interspeech.md) — same problem · relatedness 2.6/3
+- [ArtNet: A JEPA-Like Articulatory Predictive Framework for Robust Zero-Shot Phoneme Recognition](hu26_interspeech.md) — same problem · relatedness 2.6/3
+- [Alignment-Aware Continued Pre-training for Multilingual Speech Representation Learning](lu26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Phonetic Error Analysis of Raw Waveform Acoustic Models](loweimi26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Transitional Objective Learning with Connectionist Temporal Classification in Phoneme Recognition](krysinska26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

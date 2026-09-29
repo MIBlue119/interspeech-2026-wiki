@@ -79,4 +79,10 @@ International Audio Laboratories Erlangen, Fraunhofer IIS, Friedrich-Alexander-U
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sweep-RSE: Streaming Region-of-Interest Speech Extraction in Multi-Talker Scenarios via Explicit Spatial Sweeping](yu26d_interspeech.md) — same problem · relatedness 2.4/3
+- [Spatial-Magnifier: Spatial upsampling for multichannel speech enhancement](lee26k_interspeech.md) — same problem · relatedness 2.2/3
+- [SPOT-TSE: Spatial Point-Guided Target Speech Extraction](ryu26c_interspeech.md) — same problem · relatedness 2.1/3
+- [Towards Robust Generative Speech Enhancement Using Vector Quantisation-Based Neural Audio Codec](zhao26i_interspeech.md) — same problem · relatedness 2.1/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

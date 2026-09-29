@@ -75,4 +75,10 @@ University of Zurich
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Intonation Perception in Real and Synthetic Speech across Varying Familiarity Levels: A Pilot Study of Equivalence Assessment](zhou26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Talker Discrimination and Identification in 7-12-year-old Children: Effects of Talker Gender and Phonological Ability](holt26_interspeech.md) — same problem · relatedness 1.7/3
+- [A barrier or a booster? Familiarity effects on Mandarin emotion prosody recognition using AI-powered voice cloning](xu26i_interspeech.md) — same problem · relatedness 1.6/3
+- [Who is Talking to Me? Addressing Egocentric TTM with Speaker-aware Conversational Context](chen26x_interspeech.md) — same problem · relatedness 1.6/3
+- [Who is Speaking or Who is Depressed? A Controlled Study of Speaker Leakage in Speech-Based Depression Detection](yeh26_interspeech.md) — relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

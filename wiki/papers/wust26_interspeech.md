@@ -78,4 +78,6 @@ University of Berne
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Acoustic correlates of voice quality settings: variation within and between individual speakers](paver26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

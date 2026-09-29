@@ -78,4 +78,10 @@ Faurecia IRYStec
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Audio-Visual Feature Reconstruction Pretraining for Noise-Robust Emotion Recognition](parmonangan26_interspeech.md) — same problem · relatedness 2.7/3
+- [Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition](ryu26_interspeech.md) — same problem · relatedness 2.2/3
+- [Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction](yu26f_interspeech.md) — same problem · relatedness 2.1/3
+- [EII-SCL: Harnessing Emotional Inertia for Multimodal Emotion Recognition in Conversation](huang26p_interspeech.md) — same problem · relatedness 2.1/3
+- [EmoEUS: Uncertainty Supervision for Multimodal Emotion Recognition in Conversation](huang26n_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -75,4 +75,10 @@ Carnegie Mellon University, University of Pittsburgh
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Positional Encoding in the Context of Memristor-Based Analog Computation for Automatic Speech Recognition](hilmes26_interspeech.md) — same problem · relatedness 1.9/3
+- [BACON: Boundary-Aware Convolution for Streaming Conformer Models](xu26o_interspeech.md) — same problem · relatedness 1.9/3
+- [Attentive Mamba: Channel-wise Local Attention for Speech Recognition](chien26_interspeech.md) — same problem · relatedness 1.7/3
+- [Consistent and Coherent Audio-Visual Understanding with Cross-Frame Patch Differential Attention and Cross-Modal Temporal Alignment](yan26b_interspeech.md) — shared technique · relatedness 1.6/3
+- [Refining the Latent Bridge: Superior ASR Performance via Adapter-Only Alignment with Diffusion LLMs](bhooi26_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -73,4 +73,10 @@ City University of Hong Kong
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The role of phonation type in Chinese Jin tones: a study using acoustic metrics](du26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Tense Voice, Not Falsetto: An F0-specific Physiological Byproduct of Extreme High-Pitch Tone in Kaihui Xiang](zhang26i_interspeech.md) — same problem · relatedness 2.0/3
+- [Tonal Contrasts in Different Vowel Contexts and Different Tonal Systems](li26v_interspeech.md) — same problem · relatedness 1.9/3
+- [A Corpus-Based Study of Creaky Voice Production in English and Mandarin](li26ja_interspeech.md) — shared technique · relatedness 1.9/3
+- [Age-related Differences in Acoustic Realization of Aspirated Fricatives in Shaxi Bai](zhang26q_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

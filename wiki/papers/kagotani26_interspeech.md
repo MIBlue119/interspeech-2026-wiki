@@ -79,4 +79,6 @@ University of Tsukuba, University of Amsterdam
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- No closely related Interspeech 2026 papers found.
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

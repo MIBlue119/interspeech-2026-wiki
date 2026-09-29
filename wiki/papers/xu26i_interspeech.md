@@ -78,4 +78,10 @@ Chinese Academy of Sciences, Macquarie University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Intonation Perception in Real and Synthetic Speech across Varying Familiarity Levels: A Pilot Study of Equivalence Assessment](zhou26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning](polle26_interspeech.md) — shared technique · relatedness 2.1/3
+- [What Makes Synthetic Speech Sound Sarcastic? A Prosody-Controlled Perception Study](li26x_interspeech.md) — shared technique · relatedness 2.0/3
+- [Can deep learning based voice editing enhance voice quality perception skills in speech therapy students?](wiechmann26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Exploring the Effect of the Visual Channel in Vocal Expression of Affect in an Irish (Gaelic) Synthetic Voice](giovannini26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

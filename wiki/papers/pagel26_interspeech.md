@@ -76,4 +76,10 @@ University of Cologne
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Articulatory Entrainment and Coordination Complexity in Spontaneous Autistic and Non-autistic Dialogue](withanage26_interspeech.md) — same problem · relatedness 2.0/3
+- [Dynamic Time Warping Reveals Prosodic Alignment in Caregiver–Child Interactions across Languages](rust26_interspeech.md) — same problem · relatedness 2.0/3
+- [On Entrainment in Semi-Spontaneous Multilingual Parliamentary Speech](ries26_interspeech.md) — same problem · relatedness 1.9/3
+- [Speech Entrainment in Multi-Party Conversations with a Digital Agent](mehlman26_interspeech.md) — same problem · relatedness 1.9/3
+- [Shifting Relational Paradigms for Affective Computing: Affective Resonance, Vitality Affects, and Vocal Interaction Fields](gorman26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Bielefeld University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Is Natural Always Appropriate? Investigating Naturalness and Appropriateness Across Different Domains for TTS Evaluation](woszczyk26_interspeech.md) — same problem · relatedness 2.2/3
+- [An Evaluation Framework for Text-to-Speech Voice Reconstruction](sanchez26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Iterate to Differentiate: Enhancing Discriminability and Reliability in Zero-Shot TTS Evaluation](shen26d_interspeech.md) — same problem · relatedness 1.9/3
+- [Screening Matters: A Comparative Study of Conventional and Crowdsourced Listening Tests](treffehn26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

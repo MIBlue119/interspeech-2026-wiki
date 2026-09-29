@@ -81,4 +81,10 @@ POSTECH, ETH Zurich, LILT
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Generalized Formalism of Auto-Regressive Decoding for Speech Processing](gachot26_interspeech.md) — shared technique · relatedness 1.7/3
+- [Bridging Languages and Modalities: Lightweight Cross-Lingual Text and Speech Summarization for Low-Resource Scenarios](chellaf26_interspeech.md) — same problem · relatedness 1.7/3
+- [MSU-Bench: Towards Understanding the Conversational Multi-Speaker Scenarios](sun26j_interspeech.md) — complementary · relatedness 1.6/3
+- [Generating Synthetic Doctor-Patient Conversations for Long-form Audio Summarization](labrak26_interspeech.md) — complementary · relatedness 1.6/3
+- [Reasoning Beyond Transcription: Audio Language Models on Child Stuttering Speech](okocha26_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

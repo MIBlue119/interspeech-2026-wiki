@@ -76,4 +76,10 @@ Sophia University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Programmable Speech Synthesis without Computers](arai26b_interspeech.md) — shared technique · relatedness 2.5/3
+- [Morphoacoustic Modeling of a Dynamic 3D Vocal Tract Using MRI-Constrained Deformations and FEM Acoustics](piyadasa26_interspeech.md) — same problem · relatedness 2.2/3
+- [An Acoustic Landmark Database of the English Lexicon via Articulatory Synthesis](camara26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Physics-Informed Neural Operator for Speech Production Analysis](yokota26_interspeech.md) — same problem · relatedness 1.8/3
+- [The ArtComp dataset: Articulatory and Acoustic Measurements of Swedish in Speech with Naturally Manipulated Jaw Position](cortes26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

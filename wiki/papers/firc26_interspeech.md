@@ -78,4 +78,10 @@ Brno University of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Dual-Branch Gated Fusion for Open-Set Audio Deepfake Source Tracing](khan26_interspeech.md) — same problem · relatedness 2.9/3
+- [Disentangling Speaker Traits for Deepfake Source Verification via Chebyshev Polynomial and Riemannian Metric Learning](xuan26_interspeech.md) — same problem · relatedness 2.8/3
+- [Who Synthesized This? Joint Deepfake Detection and Generative Source Attribution](kumar26f_interspeech.md) — same problem · relatedness 2.6/3
+- [Lightweight Detection and Model Attribution of Synthetic Speech via Residual Statistical Fingerprints](pizarro26_interspeech.md) — same problem · relatedness 2.2/3
+- [FakeSound2: A Benchmark for Explainable, Traceable, and Generalizable Deepfake Sound Detection](xie26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

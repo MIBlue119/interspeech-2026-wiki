@@ -81,4 +81,10 @@ KAIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MeanFlow-TSE: One-Step Generative Target Speaker Extraction with Mean Flow](shimizu26_interspeech.md) — shared technique · relatedness 2.4/3
+- [AV-FlowSep: Audio-Visual Target Speaker Separation via Flow Matching](tipaksorn26_interspeech.md) — shared technique · relatedness 2.4/3
+- [TF-MoE: Time-Frequency Mixture-of-Experts for Efficient Speech Separation](hu26d_interspeech.md) — same problem · relatedness 2.4/3
+- [Improving Audio Codec-based Speech Separation By Stacking Residual Vector Quantization Layers](dinh26_interspeech.md) — same problem · relatedness 2.4/3
+- [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](gao26e_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Shanghai Jiao Tong University, VUI Labs
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MultiLinguahah : A New Unsupervised Multilingual Acoustic Laughter Segmentation Method](callejas26_interspeech.md) — same problem · relatedness 2.0/3
+- [Mind the Gap: Impact of Synthetic Conversational Data on Multi-Talker ASR and Speaker Diarization](polok26_interspeech.md) — complementary · relatedness 2.0/3
+- [Multi-Speaker Embeddings With Weakly Supervised Speaker Activity Detection For Granular Speaker Diarization](thienpondt26_interspeech.md) — same problem · relatedness 2.0/3
+- [Robust Multi-Tier Infant-Centered Audio Understanding with Whisper via Structured Speaker Conditioning](fan26b_interspeech.md) — same problem · relatedness 1.9/3
+- [ParA-LLM: A Unified Approach to Paralinguistic and Acoustic Speech Understanding](anand26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

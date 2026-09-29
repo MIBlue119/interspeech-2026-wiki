@@ -79,4 +79,10 @@ Karya, Heinrich Heine University Düsseldorf, University of Florida
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Multilingual Word-Level Forced Alignment with Self-Supervised Representations and Learned Dynamic Programming](weber26_interspeech.md) — same problem · relatedness 2.6/3
+- [Montreal Forced Aligner and the state of speech-to-text alignment in 2026](mcauliffe26_interspeech.md) — shared technique · relatedness 2.3/3
+- [CrossPhon-Tonal: Streamlining Cross-language Modeling for Forced Alignment in Low-resource Tonal Languages](wu26e_interspeech.md) — same problem · relatedness 2.0/3
+- [Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India](bhogale26_interspeech.md) — same problem · relatedness 1.9/3
+- [VāṇīSetu: A Human-AI Collaborative Framework for Scalable Conversational Speech Corpus Creation in Low-Resource Settings](kumar26h_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

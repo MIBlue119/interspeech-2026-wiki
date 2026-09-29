@@ -76,4 +76,10 @@ Poznan University of Technology, Pearson Central Europe
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — same problem · relatedness 2.1/3
+- [Duration-Aware Soft Targets for Text-Independent Supervised Phone Segmentation](ramesh26_interspeech.md) — same problem · relatedness 2.1/3
+- [Progressive Alignment Objectives for Aligner-Encoder based ASR](lee26t_interspeech.md) — same problem · relatedness 2.0/3
+- [Building Tailored Speech Recognizers for Japanese Speaking Assessment](kubo26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Phonetic Error Analysis of Raw Waveform Acoustic Models](loweimi26b_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

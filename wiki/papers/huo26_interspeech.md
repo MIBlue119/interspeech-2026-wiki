@@ -77,4 +77,10 @@ University of Toronto
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Probing Linguistic Information in Speech Embeddings: A Diagnostic Analysis across Acoustic and Structural Domains](gonzalez26b_interspeech.md) — shared technique · relatedness 2.3/3
+- [Do Learned Layer Weights Reflect Pretrained Information Structure in Self-Supervised Speech Models?](getman26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Speech Codec Probing from Semantic and Phonetic Perspectives](shi26g_interspeech.md) — same problem · relatedness 2.0/3
+- [InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective](sadok26_interspeech.md) — same problem · relatedness 2.0/3
+- [Probing the Layer-wise Geometry of Chinese Dialect Representations in Wav2Vec 2.0](peng26c_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Brno University of Technology, NTT
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Bidirectional Retention Network-based Segmentation Model for Speaker Diarization](you26b_interspeech.md) — same problem · relatedness 2.8/3
+- [Two-Level Uncertainty Suppression for Robust Meeting Diarization](asaka26_interspeech.md) — same problem · relatedness 2.6/3
+- [Hierarchical Permutation Consistency Learning for Self-Conditioned End-to-End Speaker Diarization](jung26b_interspeech.md) — same problem · relatedness 2.6/3
+- [Neural Multichannel Distant Speaker Diarization and Source Separation with Beta Speaker Activity Prior](mao26_interspeech.md) — same problem · relatedness 2.5/3
+- [Delayed-Commitment Online Speaker Tracking for Robust Many-Speaker Diarization](kwon26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

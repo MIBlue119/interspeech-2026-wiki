@@ -74,4 +74,10 @@ University of French Polynesia, Dartmouth College, University of Auckland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Bootstrapping Endangered Language ASR with Short-Form Corpora](bartley26_interspeech.md) — same problem · relatedness 2.3/3
+- [Easper: An Accessible ASR Pipeline for Language Documentation](mahmudi26_interspeech.md) — same problem · relatedness 2.2/3
+- [Hamsa: A Manually Annotated Emirati Arabic Corpus for Speech and Language Technologies](alyafeai26_interspeech.md) — same problem · relatedness 2.1/3
+- [Continual Adaptation for Pacific Indigenous Speech Recognition](xiao26_interspeech.md) — same problem · relatedness 2.1/3
+- [Which Languages Transfer Best to Warlpiri? A Similarity-Based Study for Low-Resource ASR](mylvaganam26b_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

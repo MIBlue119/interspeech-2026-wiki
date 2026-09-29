@@ -74,4 +74,10 @@ Real-time telephony enhancement, legacy audio restoration, and high-throughput c
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [STSR: High-Fidelity Speech Super-Resolution via Spectral-Transient Context Modeling](yuan26_interspeech.md) — same problem · relatedness 3.0/3
+- [FastWave: Optimized Diffusion Model for Audio Super-Resolution](kuznetsov26_interspeech.md) — same problem · relatedness 2.9/3
+- [HWB-plus: A Lightweight Speech Bandwidth Extension Method with Separate Modeling for Consonants and Vowels](liu26k_interspeech.md) — same problem · relatedness 2.9/3
+- [VeRe-Flow: Guiding Flow Matching toward Clean Speech via Velocity Contrastive Regularization and Representation Alignment for Noise-Robust Bandwidth Expansion](koo26_interspeech.md) — same problem · relatedness 2.5/3
+- [BridgeCodec: Mamba Enhanced Neural Audio Codec with Schrödinger Bridge at Low Bitrate](lin26d_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

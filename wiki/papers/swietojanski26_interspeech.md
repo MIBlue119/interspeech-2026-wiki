@@ -79,4 +79,10 @@ Apple
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding](ahn26b_interspeech.md) — same problem · relatedness 2.6/3
+- [Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation](srivastav26_interspeech.md) — same problem · relatedness 2.1/3
+- [MagpieTTS-LF: Inference-Time Long-Form Speech Generation Without Training on Long-Form data](ghosh26f_interspeech.md) — shared technique · relatedness 1.9/3
+- [AppTek Call-Center Dialogues: A Multi-Accent Long-Form Benchmark for English ASR](beck26_interspeech.md) — complementary · relatedness 1.9/3
+- [GigaChat Audio: Time-aware Large Audio Language Model](kutsakov26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

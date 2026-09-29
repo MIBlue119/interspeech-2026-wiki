@@ -68,4 +68,9 @@ University of Texas at Austin, Helen DeVos Children's Hospital, Corewell Health,
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Approach to Simultaneous Acquisition of Real-Time MRI Video, EEG, and Surface EMG for Articulatory, Brain, and Muscle Activity During Speech Production](lee26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Shared Phone-Level Neural Representations of Auditory Perception and ‘Inner Voice’ Production: One-to-One Mapping using a Single-Subject EEG Corpus of Heard and Imagined Natural Speech](wellington26_interspeech.md) — same problem · relatedness 1.6/3
+- [MEG-to-MEG Transfer Learning and Cross-Task Speech/Silence Detection with Limited Data](zuazo26_interspeech.md) — shared technique · relatedness 1.6/3
+- [Relating the Neural Representations of Vocalized, Mimed, and Imagined Speech](maghsoudi26_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ Indian Institute of Technology Bombay, University of Science and Technology, Uni
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [corpusgen: An Open-Source Toolkit for Phoneme-Coverage-Optimized Speech Corpus Design Across Languages](syed26_interspeech.md) — same problem · relatedness 2.0/3
+- [Spontaneous Dialect-Aware Speech Corpus for Low-Resource Dakhini, A Southern Indo-Aryan Language: Methods, Challenges, and Insights](mondal26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Collection and Curation of a Spontaneous Multilingual Speech Corpus for Low-Resource Himalayan Languages](sinha26_interspeech.md) — same problem · relatedness 2.0/3
+- [Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language](rahman26_interspeech.md) — same problem · relatedness 2.0/3
+- [WazobiaSpeech: A Large-Scale Multilingual Speech Corpus for Robust and Fair ASR in Four Nigerian Languages](adebara26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

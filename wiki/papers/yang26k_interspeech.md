@@ -79,4 +79,10 @@ Georgia Institute of Technology, Chinese University of Hong Kong, Tencent Music 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [HybridCodec: Fast Dual-Stream, Semantically Enhanced Neural Audio Codec](gangwar26_interspeech.md) — same problem · relatedness 2.4/3
+- [MSR-Codec: A Low-Bitrate Multi-Stream Residual Codec for High-Fidelity Speech Generation with Information Disentanglement](li26c_interspeech.md) — same problem · relatedness 2.4/3
+- [BridgeCodec: Mamba Enhanced Neural Audio Codec with Schrödinger Bridge at Low Bitrate](lin26d_interspeech.md) — same problem · relatedness 2.3/3
+- [OmniCodec: Low Frame Rate Universal Audio Codec with Semantic–Acoustic Disentanglement](hu26b_interspeech.md) — same problem · relatedness 2.3/3
+- [VoCodec: A Low-bitrate Streamable Neural Speech Codec with Voicing-driven Quantization](jiang26b_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ FAU Erlangen-Nurnberg, UT Austin, Carnegie Mellon University, Czech Technical Un
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Cross-lingual Retrieval-Augmented Classification for Dysarthria Severity Assessment](jeong26b_interspeech.md) — same problem · relatedness 2.4/3
+- [PAN-Mask: Pathology-Aware Neurological Masking with End-to-End Learnable Weights for Neurological Disorder Detection from Speech](sun26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Phoneme Error and Uncertainty Features for Interpretable Dysarthric Speech Assessment](zhong26c_interspeech.md) — same problem · relatedness 2.1/3
+- [Clinically-Supervised Hierarchical LoRA-MoE: A Parameter-Efficient Framework for Severity-Aware Dysarthric Speech Assessment](wang26ga_interspeech.md) — same problem · relatedness 2.1/3
+- [Synergizing Zero-Shot Cross-Lingual Alzheimer Detection with Language-Invariant Multimodal Bi-Geometric Adversarial Learning](girish26b_interspeech.md) — shared technique · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

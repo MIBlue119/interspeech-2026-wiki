@@ -78,4 +78,10 @@ Agency for Science, Technology and Research, Nanyang Technological University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Reinforcement Learning for Data-Efficient Code-Switched ASR](ye26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Contrastive Training with LLM-generated Near-Misses for Robust Code-Switching Speech Recognition](nguyen26i_interspeech.md) — same problem · relatedness 2.4/3
+- [LLM-HB: Language-Aware LLM-Guided Hotword Biasing for Code-Switching ASR](he26c_interspeech.md) — same problem · relatedness 2.4/3
+- [Improving Code-Switching ASR with Code-Mixing Guided Synthetic Speech](heng26_interspeech.md) — same problem · relatedness 2.4/3
+- [Adding Robust Code-Switching Capabilities to High Performance Multilingual ASR](ugan26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

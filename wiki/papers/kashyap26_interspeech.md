@@ -78,4 +78,10 @@ Deakin University, Technical University of Munich, Imperial College London
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Beyond Cross-Reconstruction: Probing-Based Disentanglement Evaluation for Acoustic Teleportation Codecs](grundhuber26_interspeech.md) — same problem · relatedness 2.0/3
+- [Layer-wise Multi-factor Adaptive Disentanglement for Cross-corpus Speech Depression Detection](wang26j_interspeech.md) — shared technique · relatedness 1.9/3
+- [Automatic pitch prediction from speech articulation: Where does the f0 information come from?](ozkan26_interspeech.md) — complementary · relatedness 1.9/3
+- [Accent-Emotion Entanglement in LM-Based Text-to-Speech Systems](hayden26_interspeech.md) — complementary · relatedness 1.9/3
+- [DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations](ngong26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

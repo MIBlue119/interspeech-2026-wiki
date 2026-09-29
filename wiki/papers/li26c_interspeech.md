@@ -80,4 +80,10 @@ LIGHTSPEED, Hong Kong University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AugCodec: A Low-Bitrate Disentangled Neural Speech Codec via Data Augmentation](wang26y_interspeech.md) — same problem · relatedness 3.0/3
+- [A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization](zhang26ga_interspeech.md) — same problem · relatedness 2.9/3
+- [ContextCodec: Content-Focused Context Guidance for Ultra-Low Bitrate Speech Coding](liang26d_interspeech.md) — same problem · relatedness 2.9/3
+- [ZipCodec: Simple and Pretrained-Model-Free Speech Tokenizer via Flow-Matching](ye26d_interspeech.md) — same problem · relatedness 2.8/3
+- [SDP-Codec: A Speaker-Decoupled Speech Codec with Pitch Injection for Low-Bitrate Coding and Zero-Shot Voice Conversion](kim26v_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

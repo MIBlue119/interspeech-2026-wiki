@@ -71,4 +71,10 @@ Ruhr University Bochum, McMaster University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Robust Generative Speech Enhancement Using Vector Quantisation-Based Neural Audio Codec](zhao26i_interspeech.md) — shared technique · relatedness 1.9/3
+- [Improving Audio Codec-based Speech Separation By Stacking Residual Vector Quantization Layers](dinh26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Lightweight Convolutional Front-ends for Real-time Framewise Phoneme Recognition in Cochlear Implants](guo26d_interspeech.md) — same problem · relatedness 1.8/3
+- [BeatGain - A Rhythmic Pattern Enhancement Algorithm for Music Listening with Cochlear Implants](lentz26_interspeech.md) — same problem · relatedness 1.7/3
+- [Differentiable Pitch Matching with Auditory Models](marttila26_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

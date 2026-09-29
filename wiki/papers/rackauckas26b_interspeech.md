@@ -69,4 +69,10 @@ RoleGaku
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DeSRPA: Decoupled Speech Role-Playing Agent via Inference-Time Intervention](tang26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Speech-Worthy Alignment for Japanese SpeechLLMs via Direct Preference Optimization](zhao26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Empathy Omni: Enabling Empathetic Speech Response Generation Through Large Language Models](wang26q_interspeech.md) — same problem · relatedness 1.9/3
+- [Amadea: An AI Companion for Pitch-Aware Spoken Language Practice](agrawal26_interspeech.md) — same problem · relatedness 1.9/3
+- [Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions](zhang26m_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

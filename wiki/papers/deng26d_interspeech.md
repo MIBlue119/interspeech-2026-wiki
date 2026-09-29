@@ -80,4 +80,10 @@ Wuhan University, Dolby Laboratories, Northwestern Polytechnical University, Uni
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Array-Invariant Speech Enhancement via Geometry-Aware Dynamic Convolution](liu26d_interspeech.md) — same problem · relatedness 2.1/3
+- [Ego-Noise-Aware Spatial Filtering for Reliable UAV Audition in Extreme Low-SNR Conditions](jeon26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Balancing Speech Reconstruction and Noise Suppression Using Dual-Asymmetric Loss](carson26_interspeech.md) — same problem · relatedness 2.0/3
+- [UFL-GAN: A Multi-Discriminator GAN for Unsupervised Speech Enhancement](bejugam26_interspeech.md) — same problem · relatedness 2.0/3
+- [AV-SNINet: A multi-channel audio-visual speech-noise interaction network for Target Speaker Extraction with cross-beam attention](tu26c_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

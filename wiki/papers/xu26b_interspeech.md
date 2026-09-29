@@ -83,4 +83,10 @@ RWTH Aachen University, AppTek
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [BEST-RQ-2: Contextualize-Then-Predict, a Two-Step Approach for Self-Supervised Audio Representations](tuncay26_interspeech.md) — shared technique · relatedness 2.8/3
+- [ViP-VL: Vietnamese Self-supervised Speech Pretraining Model with Vector-Quantization Learning](le26b_interspeech.md) — shared technique · relatedness 2.4/3
+- [Gumbel-BEARD: Automatic Layer Selection for Self-Supervised Adaptation of Whisper in Low-Resource Domains](wang26o_interspeech.md) — shared technique · relatedness 2.1/3
+- [From Bilevel to Trilevel: Joint Training for Speech Recognition](chien26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Align-Consistency: Improving Non-autoregressive and Semi-supervised ASR with Consistency Regularization](huang26i_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -40,4 +40,10 @@ Charles Darwin University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Decolonizing Linguistic Policies in Automatic Speech Recognition: A Framework for Cross-Culturally Competent Speech AI](cunningham26_interspeech.md) — same problem · relatedness 2.2/3
+- [Easper: An Accessible ASR Pipeline for Language Documentation](mahmudi26_interspeech.md) — same problem · relatedness 2.0/3
+- [‘I have to talk proper white ways’: Australian Aboriginal English Speakers’ Experiences with Voice Technologies](louro26_interspeech.md) — same problem · relatedness 2.0/3
+- [GLAD-CSpeech: A Dialectologically Comprehensive Benchmark for Genuine Chinese Dialect Speech](xu26j_interspeech.md) — same problem · relatedness 1.9/3
+- [Indigenising Speech Technology: Building a TTS Model for te Reo Māori](leoni26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

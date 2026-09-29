@@ -77,4 +77,10 @@ MBZUAI, SpeechCare, SLAI, Chinese University of Hong Kong, Shenzhen, University 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Making Room for Speech Diversity: A 50 Year Retrospective of Speech Science and Technology through a Neurodivergent Lens](lietz26_interspeech.md) — same problem · relatedness 2.0/3
+- [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](toyin26_interspeech.md) — same problem · relatedness 2.0/3
+- [WER Are We (Really): How Well Do Top Open ASR Leaderboard Models Generalize to Nonstandard Speech?](dhaka26_interspeech.md) — same problem · relatedness 2.0/3
+- [Reasoning Beyond Transcription: Audio Language Models on Child Stuttering Speech](okocha26_interspeech.md) — same problem · relatedness 2.0/3
+- [Paediatric-HGNN: A Hybrid Heterogeneous Graph Neural Network for Detecting Disfluency in Children’s Speech via Multiscale Acoustic Fusion](liyanarachchi26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

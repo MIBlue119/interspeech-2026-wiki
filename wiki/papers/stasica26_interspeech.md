@@ -76,4 +76,10 @@ University of Lorraine, CNRS, Inria, CHRU-Nancy, INSERM
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech-based Psychological Crisis Assessment using LLMs](chiba26_interspeech.md) — same problem · relatedness 2.0/3
+- [TriageSim: A Conversational Emergency Triage Simulation Framework from Structured Electronic Health Records](srirag26_interspeech.md) — same problem · relatedness 2.0/3
+- [From Game-Based Annotation to Representation Probing: Cross-Validated Prosodic Speech and Privacy Implications](sepanta26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning](polle26_interspeech.md) — complementary · relatedness 1.8/3
+- [TIMBRE: Layer-Wise Cross-Lingual Speech Emotion Recognition Across 49 Layers and 26 Corpora](marchenko26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

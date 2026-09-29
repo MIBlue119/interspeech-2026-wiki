@@ -74,4 +74,10 @@ Simon Fraser University, University of Massachusetts Amherst, Enchanted Tools, C
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DEBATE: A Dataset for Disentangling Textual Ambiguity in Mandarin Through Speech](guo26e_interspeech.md) — same problem · relatedness 1.9/3
+- [Knowing What to Stress: A Discourse-Conditioned Text-to-Speech Benchmark](turetzky26_interspeech.md) — same problem · relatedness 1.8/3
+- [What Makes Synthetic Speech Sound Sarcastic? A Prosody-Controlled Perception Study](li26x_interspeech.md) — shared technique · relatedness 1.8/3
+- [A barrier or a booster? Familiarity effects on Mandarin emotion prosody recognition using AI-powered voice cloning](xu26i_interspeech.md) — same problem · relatedness 1.8/3
+- [Modulation of Phonetic Realizations in Cantonese Dialogue with Human and AI Interlocutors](chen26m_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

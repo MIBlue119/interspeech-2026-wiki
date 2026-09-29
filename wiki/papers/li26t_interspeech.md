@@ -78,4 +78,10 @@ University of Twente, Radboud University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Robust Audio-Visual Emotion Recognition via Conditional Transformer U-Nets with Frequency-Injected Visual Stream](chung26b_interspeech.md) — same problem · relatedness 1.8/3
+- [The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation](tsai26_interspeech.md) — relatedness 1.8/3
+- [Tone-space Distribution Modulates Transfer from Non-linguistic Pitch Training to Cantonese Tone-in-Noise Perception in Native Speakers](weng26_interspeech.md) — relatedness 1.8/3
+- [English Vowel Perceptual Training under Multitalker Babble: A Comparison of Humans and Large Language Models](dong26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Audio-Visual Feature Reconstruction Pretraining for Noise-Robust Emotion Recognition](parmonangan26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

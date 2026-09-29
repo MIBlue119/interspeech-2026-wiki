@@ -79,4 +79,10 @@ National Taiwan Normal University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AFG-Bias: Acoustic-Fusion-Gated Biasing for Plug-and-Play Hotword Customization in LLM-Based ASR](wu26i_interspeech.md) — same problem · relatedness 2.7/3
+- [UGPCB: Uncertainty-Gated Phonetic Contextual Biasing for Improving Hotword Recognition in Large Speech Models](hou26_interspeech.md) — same problem · relatedness 2.5/3
+- [Context Projector: Complementary Keyword and Dialogue Context Embeddings for LLM-based ASR](villatorotello26_interspeech.md) — same problem · relatedness 2.3/3
+- [Contextual Earnings-22: A Speech Recognition Benchmark with Custom Vocabulary in the Wild](munyampirwa26_interspeech.md) — complementary · relatedness 2.3/3
+- [LLM-HB: Language-Aware LLM-Guided Hotword Biasing for Code-Switching ASR](he26c_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

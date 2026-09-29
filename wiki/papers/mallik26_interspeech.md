@@ -79,4 +79,10 @@ Sony
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VAD to the Bone: Ultra-Tiny Speech Activity Detection for Edge Deployment](bauer26_interspeech.md) — same problem · relatedness 2.4/3
+- [QuadVAD: Fine-Grained Speech Detection with a Compact Architecture](rachumallu26_interspeech.md) — same problem · relatedness 2.4/3
+- [Revisiting Active Speaker Detection: An In-the-Wild Benchmark for Generalization and Robustness](nguyen26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Not Quite My Tempo: Voice Activity-aware Speech Synthesis for Lip-Synchronous Dubbing](perezgonzalezdemartos26_interspeech.md) — complementary · relatedness 2.0/3
+- [MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the wild](qi26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Hanyang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [BG-CRNN: Boundary-Guided Dynamic Attention for Sound Event Detection in Complex Scenarios](lin26k_interspeech.md) — same problem · relatedness 2.2/3
+- [Consistency-Regularized Dual-Branch Network with Performance-Aware Mean Teacher for Sound Event Detection](dai26_interspeech.md) — same problem · relatedness 2.2/3
+- [A Semantic-Anchor-based Method for Open-Vocabulary Sound Event Detection](liu26f_interspeech.md) — same problem · relatedness 2.0/3
+- [Task-Aware Joint Pruning and Distillation for Efficient Audio Deepfake Detection](he26f_interspeech.md) — shared technique · relatedness 1.9/3
+- [CAAD: Contrastive Audio-Aware Distillation for Efficient Speech Language Models](chen26e_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

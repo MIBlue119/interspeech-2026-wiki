@@ -69,4 +69,10 @@ National Acoustic Laboratories
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sound Reactor Mission: Gamified Misophonia Assessment to Bridge the Gap in Audiology and Hearing Care](mejia26_interspeech.md) — same problem · relatedness 2.0/3
+- [Scalable Audio Scene Generation with the Treble SDK](gotz26b_interspeech.md) — complementary · relatedness 1.8/3
+- [Beyond WER: A Paired Acoustic Stress Test for Ambient Clinical Scribes](jiang26c_interspeech.md) — same problem · relatedness 1.7/3
+- [HRTF-guided Binaural Target Speaker Extraction with Real-World Validation](ellinson26_interspeech.md) — same problem · relatedness 1.7/3
+- [Application context in speech synthesis evaluation: A problem and a solution](seebauer26_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

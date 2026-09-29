@@ -75,4 +75,6 @@ Bielefeld University, Humboldt-Universität zu Berlin
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Listeners' gendered experiences and beliefs affect iconic pitch associations](calhoun26_interspeech.md) — relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

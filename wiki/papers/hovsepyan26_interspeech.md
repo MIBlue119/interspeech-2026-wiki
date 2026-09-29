@@ -79,4 +79,8 @@ Idiap Research Institute, University of Zurich
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Beyond task performance: Decoding bioacoustic embeddings with speech features](nolasco26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Ecologically-Constrained Task Arithmetic for Multi-Taxa Bioacoustic Classifiers Without Shared Data](nihal26_interspeech.md) — same problem · relatedness 1.7/3
+- [USV-DETR: High-Resolution and Densely Supervised Detection of Ultrasonic Vocalizations](wei26d_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

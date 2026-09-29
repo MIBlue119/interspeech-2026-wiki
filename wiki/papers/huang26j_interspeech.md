@@ -80,4 +80,10 @@ Chinese University of Hong Kong
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models](li26ba_interspeech.md) — shared technique · relatedness 1.9/3
+- [Aligning MusicLLM with Emotion using Instruction Tuning and Feedback-Driven Alignment](hasumi26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Imitation Learning for Elder-Facing Speech Synthesis](han26d_interspeech.md) — shared technique · relatedness 1.8/3
+- [Context-Adaptive Automated Audio Captioning with Symmetric Dual-MoE and Dynamic Reward Routing](ahn26_interspeech.md) — shared technique · relatedness 1.8/3
+- [FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech](wang26s_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

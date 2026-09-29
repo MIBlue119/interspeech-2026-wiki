@@ -76,4 +76,10 @@ Arizona State University, University of Wisconsin-Madison, University of Waterlo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WSG: Clinically-Informed Weighted Speech Graphs for Dementia Detection](xiao26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Gated Multi-graph Fusion via Graph Attention Networks for Alzheimer’s Disease Detection](li26ga_interspeech.md) — same problem · relatedness 2.6/3
+- [Listening Between the Lines: Joint Learning of ASR Embeddings and LLM-Augmented Linguistics for Dementia Detection](jung26_interspeech.md) — same problem · relatedness 2.5/3
+- [Natural Speech Encodes Early Markers of Cognitive Decline: Evidence from Clinical Conversations](haghbin26b_interspeech.md) — same problem · relatedness 2.4/3
+- [LoRA-Tuned Large Language Models for Dementia Detection via Multi-View Speech-Derived Features](park26c_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

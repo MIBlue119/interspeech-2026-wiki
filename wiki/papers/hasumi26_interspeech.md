@@ -71,4 +71,10 @@ LY Corporation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction](yu26f_interspeech.md) — same problem · relatedness 2.3/3
+- [Breaking Neutral Bias: Zero-Human-Annotation Fine-Grained Emotion Enrichment via Semantic Drift and Discriminative Re-ranking](lu26c_interspeech.md) — same problem · relatedness 2.1/3
+- [Does Fine-tuning by Reinforcement Learning Improve Generalization in Binary Speech Deepfake Detection?](wang26k_interspeech.md) — shared technique · relatedness 2.0/3
+- [Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models](li26ba_interspeech.md) — shared technique · relatedness 1.9/3
+- [Reinforcement Learning for Data-Efficient Code-Switched ASR](ye26c_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

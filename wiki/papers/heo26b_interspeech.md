@@ -81,4 +81,10 @@ DGIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Quantizer-Aware Hierarchical Neural Codec Modeling for Speech Deepfake Detection](wu26n_interspeech.md) — shared technique · relatedness 2.3/3
+- [FakeSound2: A Benchmark for Explainable, Traceable, and Generalizable Deepfake Sound Detection](xie26_interspeech.md) — same problem · relatedness 2.0/3
+- [Countering Neural Audio Codec Distortions in Watermarking with Adaptive Restoration](park26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Dual-Branch Gated Fusion for Open-Set Audio Deepfake Source Tracing](khan26_interspeech.md) — same problem · relatedness 1.9/3
+- [What Do Deepfake Speech Detectors Actually Hear?](stanek26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

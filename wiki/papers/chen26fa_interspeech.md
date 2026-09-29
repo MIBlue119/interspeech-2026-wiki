@@ -76,4 +76,10 @@ Shenzhen University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Adaptation to Room Acoustics in Understanding Vocoded Speech: A Comparison Between Listeners With Varying Immersion Age](pratiwi26_interspeech.md) — same problem · relatedness 1.8/3
+- [Relative Importance of Formants to the Intelligibility of Vocoded Speech in Cochlear Implant Simulation](cai26_interspeech.md) — same problem · relatedness 1.8/3
+- [BiEAR: A Human Auditory-Inspired Adaptive Binaural Front-end for Multi-Speaker Localisation and Distance Estimation](meng26c_interspeech.md) — same problem · relatedness 1.6/3
+- [G2C-NET: A Grid-to-Continuous Neural Network for Sound Source Localization in Distributed Microphone Arrays](yue26_interspeech.md) — same problem · relatedness 1.5/3
+- [Towards a Stochastic DNN Approximation of Cochlear Implant Auditory Models](hartmann26_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ Chung-Ang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Acoustic-to-Articulatory Inversion of Clean Speech Using an MRI-Trained Model](azzouz26_interspeech.md) — same problem · relatedness 2.7/3
+- [Beyond Speaker Independence: Evaluating Cross-Lingual Acoustic-to-Articulatory Inversion Across Finnish and Russian](pandey26_interspeech.md) — same problem · relatedness 2.3/3
+- [Towards Language-Agnostic Speech Inversion](tabatabaee26_interspeech.md) — same problem · relatedness 2.3/3
+- [How Bilingual Are SSL Speech Models? Cross-Lingual Probing of Articulatory Encoding with Finnish and Russian EMA](pedro26_interspeech.md) — same problem · relatedness 2.1/3
+- [Articulatory Entrainment and Coordination Complexity in Spontaneous Autistic and Non-autistic Dialogue](withanage26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

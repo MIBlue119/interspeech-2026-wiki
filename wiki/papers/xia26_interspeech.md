@@ -74,4 +74,10 @@ Nanjing University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Makes Synthetic Speech Sound Sarcastic? A Prosody-Controlled Perception Study](li26x_interspeech.md) — same problem · relatedness 1.8/3
+- [Exploring the Effect of the Visual Channel in Vocal Expression of Affect in an Irish (Gaelic) Synthetic Voice](giovannini26_interspeech.md) — same problem · relatedness 1.8/3
+- [The Role of Context and Prosody in the Understanding of English Irony by Chinese L2 Learners](lin26b_interspeech.md) — same problem · relatedness 1.7/3
+- [T-ORR: Text-Anchored Orthogonal Residual Rectification for Robust Multimodal Sarcasm Detection](chen26w_interspeech.md) — same problem · relatedness 1.6/3
+- [ProSarc: Prosody-Aware Sarcasm Recognition Framework via Temporal Prosodic Incongruity](singh26e_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

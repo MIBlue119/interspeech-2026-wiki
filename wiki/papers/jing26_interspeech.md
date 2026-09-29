@@ -75,4 +75,10 @@ Technical University of Munich, Munich Center for Machine Learning, Huawei, Impe
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Decoding the Ear (DeEAR): A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](lin26l_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [ELSA: Acoustic Event-Level Semantic Alignment for Fine-Grained Reference-Free Text-to-Audio Evaluation](suzuki26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [ParaPairAudioBench: Paralinguistic Pairwise Audio Benchmark for LALM-as-a-Judge](jeon26d_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [AURA Score: A Metric for Holistic Audio Question Answering Evaluation](dixit26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation](tsai26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

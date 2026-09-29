@@ -77,4 +77,10 @@ University of Oxford, University of Cyprus
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Modelling diphthong dynamics: A GAMM-based analysis of Australian English diphthongs](gnevsheva26_interspeech.md) — shared technique · relatedness 2.0/3
+- [A preliminary exploration of stop-vowel coarticulation in Māori](shields26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Non-linear Effects of Semantic Relevance on Word Duration in Spontaneous Speech](sun26c_interspeech.md) — shared technique · relatedness 1.9/3
+- [Bayesian Generalized Additive Multilevel Models for Accurate ERP Latency Estimation under Moderate Downsampling](fan26c_interspeech.md) — shared technique · relatedness 1.6/3
+- [The Sound of Code-Switching: Prosodic Profiles of Spontaneous Spanish-English Speech](bhattacharya26_interspeech.md) — relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

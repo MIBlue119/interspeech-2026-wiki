@@ -77,4 +77,10 @@ Technische Hochschule Nuernberg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VIB-AVSR: Variational Information Bottleneck for Noise-Robust LLM-Based Audio-Visual Speech Recognition](arora26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Robust LLM-based Audio-Visual Speech Recognition with Sparse Modality Alignment and Visual Unit-Guided Refinement](su26_interspeech.md) — same problem · relatedness 2.6/3
+- [Attention-Guided Reliability Scaling for Contrastive Decoding in Robust Audio-Visual Speech Recognition](kim26h_interspeech.md) — same problem · relatedness 2.4/3
+- [Assessing True Generalisability of Audio-Visual Speech Recognisers](lin26m_interspeech.md) — same problem · relatedness 2.1/3
+- [MTC-AVSR: Compressed-Token-based Audio-Visual Speech Recognition and Translation with Contrastive Language Alignment](a26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

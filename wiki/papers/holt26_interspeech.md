@@ -76,4 +76,9 @@ Macquarie University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learning speaker identities in dialogue: Conversational familiarisation modulates response bias and confidence in voice recognition](xu26m_interspeech.md) — same problem · relatedness 1.7/3
+- [SayCheck: Gamified Speech Practice and Attribute-Based Speech Analysis for Children](shahin26_interspeech.md) — complementary · relatedness 1.6/3
+- [Is Speaker Identity a Unitary Construct? Neural Evidence for Distinct Trait Processing](wang26r_interspeech.md) — same problem · relatedness 1.6/3
+- [PhonLLM: Joint Phone Recognition and Phonological Process Inference for Child Speech](baumann26_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

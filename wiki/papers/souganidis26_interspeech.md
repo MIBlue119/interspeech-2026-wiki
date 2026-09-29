@@ -79,4 +79,10 @@ University of the Basque Country UPV/EHU
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — same problem · relatedness 2.1/3
+- [LOPA: Enhancing Spoken Language Assessment via Latent Ordinal Prototype Alignment](lin26e_interspeech.md) — same problem · relatedness 2.1/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — same problem · relatedness 2.1/3
+- [Adaptive Multimodal Expert Specialization by Meta-Learning for Spoken English Assessment](vu26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Multi-Agent Framework to Automate Feedback Generation for IELTS Speaking Test using Multimodal SpeechLMs](koh26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

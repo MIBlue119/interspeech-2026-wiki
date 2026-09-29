@@ -73,4 +73,10 @@ University of Oxford
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Sensitivity Analysis of Multi-Event Audio Grounding in Audio LLMs](lee26o_interspeech.md) — same problem · relatedness 1.9/3
+- [Probing Spatial Structure in Pretrained Audio Representations](chen26ba_interspeech.md) — complementary · relatedness 1.8/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — complementary · relatedness 1.8/3
+- [Branch-wise Complementary Attention for Acoustic Scene Classification](han26b_interspeech.md) — same problem · relatedness 1.8/3
+- [CoSTALA: Compositional Spatio-Temporal Audio-Language Alignment via Multi-Grain Hierarchical Contrastive Learning](ren26b_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

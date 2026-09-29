@@ -80,4 +80,10 @@ VinUniversity, University of Technology Sydney, Monash University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Direct Preference Optimization for English-Mandarin Code-Switching Speech Recognition in Audio LLMs](nguyen26_interspeech.md) — same problem · relatedness 2.4/3
+- [Adding Robust Code-Switching Capabilities to High Performance Multilingual ASR](ugan26_interspeech.md) — same problem · relatedness 2.3/3
+- [LLM-HB: Language-Aware LLM-Guided Hotword Biasing for Code-Switching ASR](he26c_interspeech.md) — same problem · relatedness 2.1/3
+- [Improving Code-Switching ASR with Code-Mixing Guided Synthetic Speech](heng26_interspeech.md) — same problem · relatedness 2.1/3
+- [Reinforcement Learning for Data-Efficient Code-Switched ASR](ye26c_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

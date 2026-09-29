@@ -75,4 +75,10 @@ Hong Kong Polytechnic University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [English Vowel Perceptual Training under Multitalker Babble: A Comparison of Humans and Large Language Models](dong26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Mutual Cancellation between Masking Effects Benefits Speech Intelligibility](gu26_interspeech.md) — same problem · relatedness 1.8/3
+- [Hearing Smiles in the Crowd: How Babble Noise Shapes Smiled Speech Perception](li26t_interspeech.md) — relatedness 1.8/3
+- [Neural Oscillatory Mechanisms of Speaker Normalization Under Cognitive Load: Evidence from Cantonese Tone Perception](zhang26ba_interspeech.md) — same problem · relatedness 1.7/3
+- [Effects of listener language experience, masker language, and cognitive load on word monitoring accuracy and response time](chin26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

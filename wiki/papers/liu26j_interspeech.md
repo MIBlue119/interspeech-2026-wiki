@@ -78,4 +78,10 @@ Inner Mongolia University, Southern University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [UFL-GAN: A Multi-Discriminator GAN for Unsupervised Speech Enhancement](bejugam26_interspeech.md) — same problem · relatedness 2.2/3
+- [Analysing Adversarial Priors for Data-driven Unsupervised Speech Enhancement](klement26_interspeech.md) — same problem · relatedness 2.2/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.2/3
+- [Bridging the Distribution Gap in Real-World Far-Field Speech Enhancement via Lightweight Latent Representation Alignment](liu26s_interspeech.md) — same problem · relatedness 2.2/3
+- [G-MaP-SE: Guided Speech Enhancement via GMM-Based Prior Matching](zhu26b_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

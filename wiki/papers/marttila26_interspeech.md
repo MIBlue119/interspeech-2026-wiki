@@ -80,4 +80,10 @@ Queen Mary University of London
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Phonetically Grounded Vowel Space Metrics for Evaluating Synthetic Speech During TTS Model Training](udawatta26_interspeech.md) — same problem · relatedness 1.8/3
+- [FCPE: A Fast Context-based Pitch Estimation Model](luo26_interspeech.md) — same problem · relatedness 1.8/3
+- [Amadea: An AI Companion for Pitch-Aware Spoken Language Practice](agrawal26_interspeech.md) — complementary · relatedness 1.8/3
+- [Not Flat, But Dissociated: Prosodic and Segmental Divergence in Neural TTS](wang26ea_interspeech.md) — same problem · relatedness 1.7/3
+- [Towards a Stochastic DNN Approximation of Cochlear Implant Auditory Models](hartmann26_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

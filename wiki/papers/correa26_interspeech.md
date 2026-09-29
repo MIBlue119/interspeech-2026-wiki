@@ -82,4 +82,10 @@ State University of Campinas, Grenoble Alpes University, National Centre for Sci
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [LipAdapter: Text-to-Video Alignment is All You Need for Lip-to-Speech](ghosh26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Integrating Facial Generation into Full-Duplex Spoken Dialogue Systems](jiang26g_interspeech.md) — same problem · relatedness 2.1/3
+- [Not Quite My Tempo: Voice Activity-aware Speech Synthesis for Lip-Synchronous Dubbing](perezgonzalezdemartos26_interspeech.md) — same problem · relatedness 2.0/3
+- [ES-3DF: Editable Speech-Driven 3D Face Reconstruction via Geometry Texture Disentanglement](wang26i_interspeech.md) — same problem · relatedness 2.0/3
+- [Speech Codec Probing from Semantic and Phonetic Perspectives](shi26g_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

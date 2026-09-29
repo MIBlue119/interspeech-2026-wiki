@@ -75,4 +75,10 @@ Stanford University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [KuralHub: Exposing Typological Capability Frontiers in Multilingual Speech Emotion Recognition](thavarasa26_interspeech.md) — same problem · relatedness 2.7/3
+- [TIMBRE: Layer-Wise Cross-Lingual Speech Emotion Recognition Across 49 Layers and 26 Corpora](marchenko26_interspeech.md) — same problem · relatedness 2.4/3
+- [Learning Emotion-discriminative Representations for Zero-Shot Cross-Lingual Speech Emotion Recognition](mi26_interspeech.md) — same problem · relatedness 2.3/3
+- [How Language-Independent Are Emotional Attributes? A Study on Training Data Scaling and Cross-Lingual Generalization](halmai26_interspeech.md) — same problem · relatedness 2.2/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

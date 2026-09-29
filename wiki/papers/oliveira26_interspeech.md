@@ -76,4 +76,10 @@ Monash University, University of Melbourne, Sao Paulo State University, Emory Un
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Grounding Spoken LLMs in Multi-Speaker Audio via Diarization Conditioning](polok26b_interspeech.md) — same problem · relatedness 2.1/3
+- [ASR-Synchronized Speaker-Role Diarization](ghosh26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Benchmarking Speech Systems for Frontline Health Conversations: The DISPLACE-M Challenge](e26_interspeech.md) — same problem · relatedness 2.0/3
+- [Who Spoke What When? Evaluating Spoken Language Models for Conversational ASR with Semantic and Overlap-Aware Metrics](tawara26_interspeech.md) — same problem · relatedness 2.0/3
+- [Beyond WER: A Paired Acoustic Stress Test for Ambient Clinical Scribes](jiang26c_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

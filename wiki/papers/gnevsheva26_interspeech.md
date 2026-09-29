@@ -76,4 +76,10 @@ Australian National University, University of Melbourne, Griffith University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Variation and change in dynamicity of Australian English diphthongs in Sydney](purser26_interspeech.md) — same problem · relatedness 2.7/3
+- [Reconciling Dynamic Data Analysis with Linguistic Reality: Comparing Legendre Polynomial Modelling and GAMM Applied to Prosodic Contact](dian26_interspeech.md) — shared technique · relatedness 2.0/3
+- [A preliminary exploration of stop-vowel coarticulation in Māori](shields26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Non-linear Effects of Semantic Relevance on Word Duration in Spontaneous Speech](sun26c_interspeech.md) — shared technique · relatedness 1.9/3
+- [To glide or not to glide: Acoustic realization of the diphthong-hiatus contrast in Italian and Romanian](cronenberg26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

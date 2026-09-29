@@ -79,4 +79,10 @@ NVIDIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Hallucination Benchmark for Speech Foundation Models](koudounas26b_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation](srivastav26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Do What I Say: A Spoken Prompt Dataset for Instruction-Following](zufle26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](toyin26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

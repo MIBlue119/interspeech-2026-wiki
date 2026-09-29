@@ -80,4 +80,10 @@ Wuhan University, Harbin Engineering University, Guangdong Murora Intelligent Li
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SpkGuideDOA: Speaker-wise Representation Guidance for Multiple Moving Speaker Localization](choi26g_interspeech.md) — same problem · relatedness 2.0/3
+- [What Do Neural Networks Learn for TDOA Estimation? A Cross-Architecture Probing Study](kang26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Ego-Noise-Aware Spatial Filtering for Reliable UAV Audition in Extreme Low-SNR Conditions](jeon26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Position-Aware Target Speaker Extraction for Long-Form Multi-Party Conversations: A Diarization-Free Framework for ASR](wang26m_interspeech.md) — complementary · relatedness 1.9/3
+- [Ada-Mic: Orientation-Adaptive and Robust Close-to-Mic Speech Detection on Smartphone Using Generalized Cross-Correlation Features](fong26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

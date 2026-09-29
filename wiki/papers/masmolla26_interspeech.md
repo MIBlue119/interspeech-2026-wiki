@@ -79,4 +79,10 @@ Universitat Politecnica de Valencia
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Transcription Policy as a Latent Variable: Activating Controllable Verbatim ASR with Word-Level Timing](wagner26_interspeech.md) — same problem · relatedness 2.1/3
+- [Online Predictive Coding for Dual-Mode Self-Supervised Speech Models](goto26_interspeech.md) — same problem · relatedness 2.1/3
+- [Reducing the Offline-Streaming Gap for Unified ASR Transducer with Consistency Regularization](andrusenko26_interspeech.md) — same problem · relatedness 2.0/3
+- [Parameter-Efficient Adaptation of Speech-Aware LLMs for Timestamp Prediction](sunder26_interspeech.md) — same problem · relatedness 2.0/3
+- [Argmax Pro: Frontier-level Real-time Speech-to-text with Speakers and Custom Vocabulary on Mobile Devices](angus26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

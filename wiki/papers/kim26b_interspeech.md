@@ -73,4 +73,10 @@ University of New Mexico
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Tongue-Shape Strategies for Standard Mandarin Retroflex Sibilants: A Preliminary Ultrasound and Unsupervised Clustering Study](jing26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Automatic pitch prediction from speech articulation: Where does the f0 information come from?](ozkan26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Achieving voicelessness in coda stop contexts: Insights from combined electroglottography and laryngoscopy](penney26_interspeech.md) — same problem · relatedness 1.9/3
+- [Larynx segmentation in mid-sagittal speech production real-time MRI](zhang26v_interspeech.md) — complementary · relatedness 1.8/3
+- [Towards Robust Ultrasound-based Silent Speech Recognition Learning Physics-Aware and Context-Rich Representations](wen26d_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

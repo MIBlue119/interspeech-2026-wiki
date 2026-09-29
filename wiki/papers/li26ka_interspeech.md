@@ -77,4 +77,10 @@ Shanghai Jiao Tong University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Text Metrics to Model Internals: A Study of Whisper ASR Hallucination Detection](jasinski26_interspeech.md) — same problem · relatedness 2.2/3
+- [Diffusion Language Models for Speech Recognition](naveriani26_interspeech.md) — same problem · relatedness 2.0/3
+- [Hallucination Benchmark for Speech Foundation Models](koudounas26b_interspeech.md) — same problem · relatedness 1.8/3
+- [EmoSURA: Towards Accurate Evaluation of Detailed and Long-Context Emotional Speech Captions](jing26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [HALAS: A Human-Annotated Dataset of Hallucinations of Modern ASR Systems](baranski26_interspeech.md) — complementary · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -68,4 +68,10 @@ University of California, Irvine
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Do Machines Listen Like Humans? A Temporal Benchmark for Phonological Competition in End-to-End ASR](peng26_interspeech.md) — same problem · relatedness 1.9/3
+- [Perceptual Trade-offs Across Segmental and Suprasegmental Levels: Comparing Ganong Patterns in Mandarin Consonants and Lexical Tones](li26f_interspeech.md) — same problem · relatedness 1.9/3
+- [Time-normalized spectrograms reveal segmental differences in English heterographic homophones](tseng26_interspeech.md) — same problem · relatedness 1.8/3
+- [Voice Onset Time Categorical Perception in Mandarin-Speaking People Who Stutter: A Zoom-In Nonword Study](kiyama26_interspeech.md) — relatedness 1.7/3
+- [The Role of Context and Prosody in the Understanding of English Irony by Chinese L2 Learners](lin26b_interspeech.md) — relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

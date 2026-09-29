@@ -78,4 +78,10 @@ VinUniversity, University of Technology Sydney, Monash University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Cross-Modal Robustness Transfer (CMRT): Training Robust Speech Translation Models Using Adversarial Text](issam26_interspeech.md) — same problem · relatedness 2.2/3
+- [POTSA: A Cross-Lingual Speech Alignment Framework for Speech-to-Text Translation](li26k_interspeech.md) — same problem · relatedness 2.0/3
+- [Automated Gradient-Driven Parameter Sharing for Low-Resource Multilingual Speech-to-Text Translation](sun26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Listening or Reading? Evaluating Speech Awareness in Chain-of-Thought Speech-to-Text Translation](romerodiaz26_interspeech.md) — same problem · relatedness 1.9/3
+- [ARTIST: Universal Articulatory Space Modeling for Multilingual Indic-to-English Speech-to-Speech Translation](yadav26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

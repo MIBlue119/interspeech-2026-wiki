@@ -78,4 +78,10 @@ LINE WORKS Corporation, NAVER Cloud Corporation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ProLAP: Probabilistic Language-Audio Pre-Training](manabe26_interspeech.md) — shared technique · relatedness 3.0/3
+- [Leveraging Mutual Intra-Modal Similarity Supervision for Text and Audio](vonaspern26_interspeech.md) — same problem · relatedness 2.7/3
+- [CoSTALA: Compositional Spatio-Temporal Audio-Language Alignment via Multi-Grain Hierarchical Contrastive Learning](ren26b_interspeech.md) — same problem · relatedness 2.5/3
+- [ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining](diwan26_interspeech.md) — same problem · relatedness 2.4/3
+- [SAM: A Mamba-2 State-Space Audio-Language Model](lee26d_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

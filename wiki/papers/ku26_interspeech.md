@@ -79,4 +79,10 @@ Gwangju Institute of Science and Technology, AunionAI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Rubric-Aligned Disentangled Evaluation of Human Simultaneous Interpreting](zhang26o_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Said Aloud, Read Different: Cross-Modal Instability in Multimodal Models](mousi26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [EmoSURA: Towards Accurate Evaluation of Detailed and Long-Context Emotional Speech Captions](jing26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [IndicContextEval: A Benchmark for Evaluating Context Utilisation in Audio Large Language Models Across 8 Indic Languages](joshi26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ LG Electronics, Sogang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Not All Frames Are Equal: Difference-Aware Quantization for Ultra-Low-Bit ASR](jeon26c_interspeech.md) — same problem · relatedness 2.9/3
+- [Evolution Strategy-Based Calibration for Low-Bit Quantization of Speech Models](rakotoarivony26_interspeech.md) — same problem · relatedness 2.7/3
+- [Pushing the Limits of Compression: Sub-1-Bit Conformer via Variable-Rank Binary Decomposition](yeo26_interspeech.md) — same problem · relatedness 2.3/3
+- [Towards Data-free and Training-free Compression for Speech Foundation Models Using Parameter Clustering](xu26h_interspeech.md) — same problem · relatedness 2.3/3
+- [Pruning as Regularization: Sensitivity-Aware One-Shot Pruning in ASR](irigoyen26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

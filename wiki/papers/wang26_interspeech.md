@@ -80,4 +80,10 @@ Nankai University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TaigiSpeech: A Low-Resource Real-World Speech Intent Dataset with Scalable Data Mining In-the-Wild](chang26d_interspeech.md) — same problem · relatedness 2.0/3
+- [Hamsa: A Manually Annotated Emirati Arabic Corpus for Speech and Language Technologies](alyafeai26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Confidence Score Guided Incremental and Speaker Adaptive Pseudo-Labeling for Semi-Supervised Elderly Speech Recognition](deng26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Decoding while Adapting: Zero-Shot Online Speaker Adaptation via Audio-Textual Prompts for Elderly Speech Recognition](deng26_interspeech.md) — same problem · relatedness 2.0/3
+- [Imitation Learning for Elder-Facing Speech Synthesis](han26d_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ University of Tokyo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From A to B to A: Palindromic Zero-Shot Voice Conversion with Non-Parallel Data](mandel26_interspeech.md) — same problem · relatedness 2.9/3
+- [ProsoCodec: Prosody-Oriented Speech Codec for Voice Conversion](choi26d_interspeech.md) — same problem · relatedness 2.8/3
+- [CFLOW-VC: An unsupervised cycle training strategy based on normalizing flows for Voice Conversion](song26_interspeech.md) — same problem · relatedness 2.8/3
+- [Universal Speech Content Factorization](xinyuan26_interspeech.md) — same problem · relatedness 2.7/3
+- [VOSSA: Voiceprint Optimization for Streaming Speech Architectures](tseng26c_interspeech.md) — same problem · relatedness 2.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

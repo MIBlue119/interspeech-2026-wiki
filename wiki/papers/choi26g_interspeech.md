@@ -75,4 +75,10 @@ Hanyang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [BiEAR: A Human Auditory-Inspired Adaptive Binaural Front-end for Multi-Speaker Localisation and Distance Estimation](meng26c_interspeech.md) — same problem · relatedness 2.3/3
+- [G2C-NET: A Grid-to-Continuous Neural Network for Sound Source Localization in Distributed Microphone Arrays](yue26_interspeech.md) — same problem · relatedness 2.1/3
+- [End-Fire Degradation-Robust DOA Estimation for Compact Linear Microphone Arrays](wen26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Position-Aware Target Speaker Extraction for Long-Form Multi-Party Conversations: A Diarization-Free Framework for ASR](wang26m_interspeech.md) — complementary · relatedness 2.0/3
+- [Ego-Noise-Aware Spatial Filtering for Reliable UAV Audition in Extreme Low-SNR Conditions](jeon26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

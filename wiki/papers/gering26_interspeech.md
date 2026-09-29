@@ -77,4 +77,10 @@ University of Sheffield
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [HaessigDB: A Database of Irritable Speech with Intensity Grading](weller26_interspeech.md) — same problem · relatedness 1.9/3
+- [SA-UAED: Joint Frame-Level Detection of Audio Events, Speaker Activities, and Speaker-Attributed Paralinguistic Events](lan26_interspeech.md) — complementary · relatedness 1.6/3
+- [When Does Quality-Aware Multimodal Fusion Matter? A Leakage-Safe Diagnostic for Decision-Level Dependence](moon26b_interspeech.md) — same problem · relatedness 1.6/3
+- [ConformalMOS: Uncertainty-Aware MOS Prediction with Conformal Intervals and Ordinal Modeling](elelu26_interspeech.md) — same problem · relatedness 1.6/3
+- [M-LAMA: Multimodal Automated Scoring of Long-form Spoken English](daoxuanquang26_interspeech.md) — shared technique · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Southern University of Science and Technology, Academia Sinica
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Deep learning-based predictions of perceived listening effort and intelligibility across enhanced, synthetic, natural, and binaural speech](hoffner26_interspeech.md) — same problem · relatedness 2.1/3
+- [PathBench: Speech Intelligibility Benchmark for Automatic Pathological Speech Assessment](halpern26_interspeech.md) — same problem · relatedness 2.0/3
+- [Something from Nothing: Data Augmentation for Robust Severity Level Estimation of Dysarthric Speech](bae26_interspeech.md) — shared technique · relatedness 2.0/3
+- [How Language-Independent Are Emotional Attributes? A Study on Training Data Scaling and Cross-Lingual Generalization](halmai26_interspeech.md) — shared technique · relatedness 1.9/3
+- [CAL-MOS: Bridging Layers with Adapters for Robust MOS Prediction Across Speech Foundation Models](ferreira26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

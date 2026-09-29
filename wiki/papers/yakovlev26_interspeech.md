@@ -81,4 +81,10 @@ Palabra AI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A light weight Continuous Speaker Verification System for Real time Monitoring](keetha26b_interspeech.md) — shared technique · relatedness 2.9/3
+- [Continuous 2D Spectral—Temporal Transformer for Speaker Verification](ham26_interspeech.md) — same problem · relatedness 2.8/3
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — same problem · relatedness 2.6/3
+- [Self-supervised Speaker Verification with High-Confidence Pseudo-Label Selection and DINO-Style Self-Distillation Based on Pre-trained Models](li26ca_interspeech.md) — same problem · relatedness 2.4/3
+- [Beyond Short Segments : Expanding Speaker Embeddings with Vector Archives](kang26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

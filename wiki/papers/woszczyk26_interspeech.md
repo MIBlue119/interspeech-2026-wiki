@@ -75,4 +75,10 @@ Iconic, Technische Universitat Munchen, KTH Royal Institute of Technology, Imper
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Application context in speech synthesis evaluation: A problem and a solution](seebauer26_interspeech.md) — same problem · relatedness 2.2/3
+- [Preferences of a Voice-First Nation: Large-Scale Pairwise Evaluation and Preference Analysis for TTS in Indian Languages](anand26b_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [An Evaluation Framework for Text-to-Speech Voice Reconstruction](sanchez26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [Spashta Audio-Bench: Unified ASR and TTS Evaluation Framework across Indian Languages](dutta26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

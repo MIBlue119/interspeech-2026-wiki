@@ -70,4 +70,10 @@ Macquarie University, LMU Munich
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TMASC: Transmasculine Attitude and Speech Corpus](wong26_interspeech.md) — same problem · relatedness 2.0/3
+- [Queer inclusion in speech datasets: An audit and taxonomy of practical tensions](sheppard26_interspeech.md) — complementary · relatedness 1.7/3
+- [Listeners' gendered experiences and beliefs affect iconic pitch associations](calhoun26_interspeech.md) — relatedness 1.6/3
+- [F0 realization of prosodic focus across adulthood in Jianghuai Mandarin](zhao26b_interspeech.md) — relatedness 1.6/3
+- [Towards participatory speech dataset curation: A queer case study and conceptual framework](sheppard26b_interspeech.md) — complementary · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

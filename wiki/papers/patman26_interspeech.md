@@ -77,4 +77,10 @@ University of Cambridge, Oxford Wave Research
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Large-Scale Per-Speaker Analysis of Re-identification Risk in Speech Anonymization](dufour26_interspeech.md) — same problem · relatedness 2.0/3
+- [Controlled Generation of Synthetic Speaker Vectors for Voice Anonymization](kolos26_interspeech.md) — same problem · relatedness 1.9/3
+- [DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations](ngong26_interspeech.md) — same problem · relatedness 1.9/3
+- [Privacy and quality trade-off in real-time speaker anonymization via editing of age and sex attributes](quamer26_interspeech.md) — same problem · relatedness 1.9/3
+- [DECRA: Dynamic Emotion Control for Real-time Speech Anonymization](nasrallah26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

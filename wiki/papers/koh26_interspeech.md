@@ -75,4 +75,10 @@ University of Manchester
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales](parikh26_interspeech.md) — same problem · relatedness 2.7/3
+- [M-LAMA: Multimodal Automated Scoring of Long-form Spoken English](daoxuanquang26_interspeech.md) — same problem · relatedness 2.6/3
+- [LOPA: Enhancing Spoken Language Assessment via Latent Ordinal Prototype Alignment](lin26e_interspeech.md) — same problem · relatedness 2.6/3
+- [Can Speech LLMs Approximate Human Ratings of Accentedness and Comprehensibility? Evidence from Correlational and Feature-Based Analyses](dong26c_interspeech.md) — same problem · relatedness 2.4/3
+- [Adaptive Multimodal Expert Specialization by Meta-Learning for Spoken English Assessment](vu26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

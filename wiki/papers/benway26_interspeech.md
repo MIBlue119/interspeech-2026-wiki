@@ -71,4 +71,10 @@ University of Maryland, College Park, University of Wisconsin - Madison, Arizona
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — same problem · relatedness 2.1/3
+- [Montreal Forced Aligner and the state of speech-to-text alignment in 2026](mcauliffe26_interspeech.md) — complementary · relatedness 2.0/3
+- [Harf-Speech: A Clinically Aligned Framework for Arabic Phoneme-Level Speech Assessment](azad26_interspeech.md) — same problem · relatedness 2.0/3
+- [Multilingual Word-Level Forced Alignment with Self-Supervised Representations and Learned Dynamic Programming](weber26_interspeech.md) — same problem · relatedness 1.9/3
+- [Evaluation of forced alignment of code-mixed speech: the case of Hindi-English](pandey26b_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

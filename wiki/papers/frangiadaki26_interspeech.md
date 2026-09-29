@@ -78,4 +78,10 @@ Athena Research Center
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Beyond Standard Greek: Adapting Whisper for Greek Dialects through Curriculum Multitask Learning](klimi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Hamsa: A Manually Annotated Emirati Arabic Corpus for Speech and Language Technologies](alyafeai26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language](rahman26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Probing LoRA-to-LoRA Cross-Lingual Transfer for Unseen Low-Resource Conditions in Whisper-Based ASR](mondal26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Which Languages Transfer Best to Warlpiri? A Similarity-Based Study for Low-Resource ASR](mylvaganam26b_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

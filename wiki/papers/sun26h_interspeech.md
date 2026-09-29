@@ -77,4 +77,10 @@ University of Melbourne, Wuhan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Mixture-of-Accent-Adapters for Robust ASR: Injecting Accent Cues into Pretrained Whisper](bijoy26_interspeech.md) — same problem · relatedness 2.6/3
+- [Beyond WER: Entity and Disfluency Recall in Accented Conversational ASR](husain26_interspeech.md) — same problem · relatedness 2.5/3
+- [Contrastive Regularization for Accent-Robust ASR](thai26_interspeech.md) — same problem · relatedness 2.4/3
+- [Mixture of Phonetic Experts Based Low-Rank Adaptation of Conformer Models for Accented English Speech Recognition](dahal26_interspeech.md) — same problem · relatedness 2.4/3
+- [Predict-Then-Adapt: Inferring Coordinates from Speech for Continuous Geo-Conditioned Dialectal ASR](mehralian26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

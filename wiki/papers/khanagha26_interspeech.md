@@ -77,4 +77,10 @@ University of Hamburg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ARTT: Augmented Reverberant-Target Training for Unsupervised Monaural Speech Dereverberation](song26d_interspeech.md) — same problem · relatedness 2.6/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.3/3
+- [USDnet++: Distilling Signal Processing Based Dereverberation for Unsupervised Neural Speech Dereverberation](pang26_interspeech.md) — same problem · relatedness 2.3/3
+- [A Novel Transfer Learning Approach for Room Impulse Response Estimation and Speech Dereverberation Across Geometrically Diverse and Data-Scarce Environments](pasha26_interspeech.md) — same problem · relatedness 2.2/3
+- [Quantifying the Uncertainty of Blindly Estimated Room Embeddings Using a Dispersion-Calibrated Score](xiang26_interspeech.md) — complementary · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

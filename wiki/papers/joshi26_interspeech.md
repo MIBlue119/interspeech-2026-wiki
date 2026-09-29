@@ -82,4 +82,10 @@ Indian Institute of Technology Madras, Sarvam AI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [AURA Score: A Metric for Holistic Audio Question Answering Evaluation](dixit26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [MUGEN: Evaluating and Improving Multi-audio Understanding of Large Audio-Language Models](yang26c_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [WASIL: In-the-Wild Arabic Spoken Interactions with LLMs](ali26c_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Robustness Assessment of Large Audio Language Models in Multiple-choice Evaluation](lopez26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Trinity College Dublin
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A barrier or a booster? Familiarity effects on Mandarin emotion prosody recognition using AI-powered voice cloning](xu26i_interspeech.md) — same problem · relatedness 1.9/3
+- [Eye and Mouth Cues in Audiovisual Perception of Mandarin Irony: Evidence from Eye-Tracking](xia26_interspeech.md) — same problem · relatedness 1.8/3
+- [Pā‑Kakare: The First Emotional Speech Database for Te Reo Māori](rathnayake26_interspeech.md) — same problem · relatedness 1.8/3
+- [MER-Live: An Interactive Browser Demo of Prosody-Driven Multimodal Emotion Recognition](song26h_interspeech.md) — same problem · relatedness 1.8/3
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

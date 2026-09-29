@@ -76,4 +76,10 @@ Sun Yat-sen University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Joint Fullband-Subband Modeling for High-Resolution SingFake Detection](hu26e_interspeech.md) — same problem · relatedness 3.0/3
+- [SingFox: A Multi-Lingual Singfake Detection Corpus](shah26_interspeech.md) — same problem · relatedness 2.6/3
+- [Domain-Adaptive Dual-Gating Mixture of Experts for Generalizable Speech Deepfake Detection](qin26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Interpretable Frequency-Band Attention with Gated SSL Fusion for Audio Deepfake Detection](alhammad26_interspeech.md) — same problem · relatedness 2.2/3
+- [QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection](truong26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

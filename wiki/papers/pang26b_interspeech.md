@@ -79,4 +79,10 @@ Kyoto University, Agency for Science, Technology, and Research
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Two-Sided Fairness Transfer for Gender-Neutral Speech Emotion Recognition with Partially Observed Attributes](chien26c_interspeech.md) — same problem · relatedness 2.2/3
+- [KuralHub: Exposing Typological Capability Frontiers in Multilingual Speech Emotion Recognition](thavarasa26_interspeech.md) — same problem · relatedness 2.1/3
+- [Universality of Speech Emotion Recognition in Humans and Speech Language Models](tatsumi26_interspeech.md) — same problem · relatedness 2.0/3
+- [Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction](yu26f_interspeech.md) — same problem · relatedness 2.0/3
+- [Learning Emotion-discriminative Representations for Zero-Shot Cross-Lingual Speech Emotion Recognition](mi26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

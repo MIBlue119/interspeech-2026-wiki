@@ -78,4 +78,9 @@ Inner Mongolia University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Addressing random spatial translations in measured microphone directional responses by maximizing finite order energy](wen26_interspeech.md) — same problem · relatedness 1.9/3
+- [End-Fire Degradation-Robust DOA Estimation for Compact Linear Microphone Arrays](wen26c_interspeech.md) — shared technique · relatedness 1.8/3
+- [Geometrically Constrained Decentralized Independent Vector Analysis for Distributed Microphone Arrays](chen26h_interspeech.md) — same problem · relatedness 1.8/3
+- [What Do Neural Networks Learn for TDOA Estimation? A Cross-Architecture Probing Study](kang26b_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

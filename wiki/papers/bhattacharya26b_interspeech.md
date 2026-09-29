@@ -76,4 +76,10 @@ University of North Texas
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Spectral Masking and Interpolation Attack (SMIA): A Black-box Adversarial Attack against Voice Authentication and Anti-Spoofing Systems](kamel26_interspeech.md) — same problem · relatedness 2.2/3
+- [NaVo: Natural Voice Protection against Voice Cloning Attacks via Generative Universal Adversarial Audio](park26g_interspeech.md) — same problem · relatedness 2.0/3
+- [Latent-Mark: An Audio Watermark Robust to Neural Codec Compression](chen26u_interspeech.md) — shared technique · relatedness 2.0/3
+- [A Training-Free Proactive Defense Against Partial Speech Manipulation via Self-Embedding Steganography](ozer26_interspeech.md) — same problem · relatedness 2.0/3
+- [FreqGuard: Leveraging Frequency-Domain Feature Priors for Universal Proactive Voice Defense](wang26ca_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

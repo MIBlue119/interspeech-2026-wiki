@@ -76,4 +76,10 @@ Aalto University, South East Technological University, Finnish Arts and Culture 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Which Data Matter? Embedding-Based Data Selection for Speech Recognition](aldeneh26_interspeech.md) — same problem · relatedness 2.2/3
+- [Unsupervised Speech in the Wild Challenge: Learning Robust Multilingual Representations](gomez26_interspeech.md) — shared technique · relatedness 2.0/3
+- [A Gated Multi-Task Whisper Framework for Speech, Emotion, and Scene Understanding](bhat26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Content–Speaker Trade-offs in Continued Self-Supervised Pre-Training Across SSL Paradigms for Multilingual Speech](schlotterbeck26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Leveraging Audio-LLMs to Filter Speech-to-Speech Training Data](chen26l_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

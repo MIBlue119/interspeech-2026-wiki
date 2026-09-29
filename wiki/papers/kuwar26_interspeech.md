@@ -81,4 +81,10 @@ Plaksha University, Indraprastha Institute of Information Technology Delhi, Nati
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The First Dravidian Speech Datasets for Transphobic and Homophobic Hate Speech: Creation, Annotation, and Multimodal Benchmarking](lakshmi26_interspeech.md) — same problem · relatedness 2.4/3
+- [Synergizing Zero-Shot Cross-Lingual Alzheimer Detection with Language-Invariant Multimodal Bi-Geometric Adversarial Learning](girish26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [From Signals to Patterns: Non-Invasive Tuberculosis Detection from Cough Audio using Bandit Weighted Hyperbolic Prototypes](akhtar26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Said Aloud, Read Different: Cross-Modal Instability in Multimodal Models](mousi26_interspeech.md) — complementary · relatedness 1.8/3
+- [Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning](polle26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

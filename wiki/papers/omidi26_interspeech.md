@@ -79,4 +79,10 @@ University of Texas at Dallas
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction](yu26f_interspeech.md) — same problem · relatedness 2.7/3
+- [CHUCKLE - When Humans Teach AI to Learn Emotions the Easy Way](singh26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Progressive Weak Supervision for Speech Emotion Recognition](ta26b_interspeech.md) — same problem · relatedness 2.6/3
+- [Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention](wang26u_interspeech.md) — same problem · relatedness 2.6/3
+- [Segment-wise Embedding based Graph Attention Network for Effective Speech Emotion Recognition](song26c_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

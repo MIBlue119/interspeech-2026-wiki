@@ -73,4 +73,10 @@ East China Normal University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Conflict-Aware Pseudo-Labeling via Acoustic Signals for Multi-Task Speech Emotion Recognition](zhou26f_interspeech.md) — shared technique · relatedness 1.9/3
+- [Progressive Weak Supervision for Speech Emotion Recognition](ta26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input](liu26i_interspeech.md) — complementary · relatedness 1.9/3
+- [LLM-Based Multi-Reference Evaluation for Efficient and Robust Assessment of Phrase Break Annotations](park26f_interspeech.md) — same problem · relatedness 1.8/3
+- [P-SED : Asymmetric Prototype Metric Learning for Weakly Supervised Speech Emotion Diarization](liu26r_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

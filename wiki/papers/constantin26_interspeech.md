@@ -76,4 +76,10 @@ University College Dublin, Universidad de Burgos, Hospital Universitario of Burg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Reducing Measurement Noise in Digital Speech Biomarkers: Interpretable Composite Index Scores for Longitudinal ALS Monitoring in Clinical Trials](neumann26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Towards Speech Impairment Prediction in German-Speaking Individuals with Amyotrophic Lateral Sclerosis](gonzalezmachorro26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Toward an Articulatory Weakness Index for Speech Kinematics in Parkinson’s Disease](baligar26_interspeech.md) — same problem · relatedness 1.9/3
+- [PAN-Mask: Pathology-Aware Neurological Masking with End-to-End Learnable Weights for Neurological Disorder Detection from Speech](sun26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Adapting Self-Supervised Speech Representations for Cross-Lingual Dysarthria Detection in Parkinson's Disease](hernandez26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

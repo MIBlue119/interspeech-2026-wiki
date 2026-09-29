@@ -78,4 +78,10 @@ Hunan University, Xiaomi, Yuelushan Center for Industrial Innovation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ClinAware: Speech Enhancement Needs Clinical Awareness](kachare26_interspeech.md) — same problem · relatedness 2.1/3
+- [Towards Detecting Neural Audio Codec Synthesized Heart Sounds](girish26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [HybridCodec: Fast Dual-Stream, Semantically Enhanced Neural Audio Codec](gangwar26_interspeech.md) — complementary · relatedness 1.9/3
+- [Discrete vs. Continuous: A Comprehensive Study of Unified Audio Understanding in LALMs](peng26h_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [Representational Instability in Decoupled Audio Encoders](variani26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

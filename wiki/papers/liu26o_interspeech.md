@@ -83,4 +83,10 @@ Wuhan University, Chinese University of Hong Kong, Shenzhen, OPPO
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WhispEar: A Bidirectional Framework for Scaling Whispered Speech Conversion via Pseudo-Parallel Whisper Generation](fang26b_interspeech.md) — same problem · relatedness 2.9/3
+- [Controllable Accent Normalization via Discrete Diffusion](bai26b_interspeech.md) — same problem · relatedness 2.5/3
+- [CFLOW-VC: An unsupervised cycle training strategy based on normalizing flows for Voice Conversion](song26_interspeech.md) — same problem · relatedness 2.2/3
+- [SSL-GMMVC: Interpretable Voice Conversion via Locally Linear GMM Transforms in Self-Supervised Representation Space](tanabu26_interspeech.md) — same problem · relatedness 2.2/3
+- [Formant-Guided Speech Repair for Enhanced Comprehension of Dysarthric Speech](chen26n_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -70,4 +70,10 @@ Sophia University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Articulatory Dynamics using Physical Vocal-tract Models](arai26_interspeech.md) — shared technique · relatedness 2.5/3
+- [An Acoustic Landmark Database of the English Lexicon via Articulatory Synthesis](camara26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data](otani26_interspeech.md) — same problem · relatedness 1.5/3
+- [Improved modeling of vocal fold contacting and de-contacting in a geometric vocal fold model](zhang26j_interspeech.md) — same problem · relatedness 1.5/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

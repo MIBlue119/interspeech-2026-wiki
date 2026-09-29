@@ -79,4 +79,10 @@ Wuhan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Assessing the Impact of Noise and Speech Enhancement on the Intelligibility of Speech Codecs](behringer26_interspeech.md) — same problem · relatedness 2.4/3
+- [Absorbing Discrete Diffusion for Speech Enhancement](gonzalez26_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards Robust Generative Speech Enhancement Using Vector Quantisation-Based Neural Audio Codec](zhao26i_interspeech.md) — shared technique · relatedness 2.0/3
+- [mmWave Radar Aware Dual-Conditioned GAN for Speech Reconstruction of Signals With Low SNR](karani26_interspeech.md) — same problem · relatedness 1.9/3
+- [UniSE: A Unified Framework for Decoder-Only Autoregressive LM-Based Speech Enhancement](yan26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

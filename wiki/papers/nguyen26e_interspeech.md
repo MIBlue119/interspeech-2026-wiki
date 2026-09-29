@@ -78,4 +78,10 @@ University of Massachusetts Lowell
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Black-Box to Clinical Insight: A Multi-Stage Explainable Framework for Speech-Based Cognitive Impairment Detection](haghbin26_interspeech.md) — same problem · relatedness 2.5/3
+- [Natural Speech Encodes Early Markers of Cognitive Decline: Evidence from Clinical Conversations](haghbin26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Foundational speech models evaluation on multilingual dementia prediction](eljasiak26_interspeech.md) — same problem · relatedness 2.2/3
+- [Listening Between the Lines: Joint Learning of ASR Embeddings and LLM-Augmented Linguistics for Dementia Detection](jung26_interspeech.md) — same problem · relatedness 2.1/3
+- [Synergizing Zero-Shot Cross-Lingual Alzheimer Detection with Language-Invariant Multimodal Bi-Geometric Adversarial Learning](girish26b_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

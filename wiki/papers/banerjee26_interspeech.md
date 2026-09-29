@@ -78,4 +78,10 @@ Indian Institute of Technology Kanpur, KU Leuven
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SSL-based Sequence Matching for Unsupervised Audio Retrieval](laquatra26b_interspeech.md) — same problem · relatedness 2.6/3
+- [Streaming Open-Vocabulary Keyword Spotting via Role Swapping in Cross-Attention](chen26q_interspeech.md) — same problem · relatedness 2.0/3
+- [INSPIRE: A Benchmark for Instruction-Aware Speech Retrieval](li26r_interspeech.md) — same problem · relatedness 2.0/3
+- [Massive Open-Vocabulary Keyword Spotting](barreiros26_interspeech.md) — same problem · relatedness 2.0/3
+- [KFC-KWS: Keyframe Fusion with CTC for User-Defined Keyword Spotting](li26y_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

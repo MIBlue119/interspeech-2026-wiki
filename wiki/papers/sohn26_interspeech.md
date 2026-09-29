@@ -80,4 +80,10 @@ KAIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [LitCodec: ASR-Guided Streaming Speech Coding with Unified Quantization](dinh26b_interspeech.md) — same problem · relatedness 2.8/3
+- [Elastic Time: Dynamic Frame Rate Bottlenecks for Neural Audio Coding](bralios26_interspeech.md) — same problem · relatedness 2.8/3
+- [A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization](zhang26ga_interspeech.md) — same problem · relatedness 2.7/3
+- [VoCodec: A Low-bitrate Streamable Neural Speech Codec with Voicing-driven Quantization](jiang26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Low-Framerate Speech Tokenization via Two-Stage Latent Patch Modeling](lemerle26_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

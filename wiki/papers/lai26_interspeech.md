@@ -79,4 +79,10 @@ Hebei University of Technology, Macao Polytechnic University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Lung-SRAD: Spectral-Aware Regularized Audio DASS with Dual-Axis Patch-Mix Contrastive Learning for Respiratory Sound Classification](shridhar26_interspeech.md) — same problem · relatedness 2.3/3
+- [Quality Adaptive Angular Margin Learning for Respiratory Sound Classification](kim26k_interspeech.md) — same problem · relatedness 2.0/3
+- [From Signals to Patterns: Non-Invasive Tuberculosis Detection from Cough Audio using Bandit Weighted Hyperbolic Prototypes](akhtar26_interspeech.md) — same problem · relatedness 2.0/3
+- [Few-shot Class-variable Incremental Audio Classification via Prototype Adaptation and Pseudo Class-variable Training](li26q_interspeech.md) — same problem · relatedness 2.0/3
+- [Retention-Preserving Gradient Projection with Entropy-Guided Token-Level Distillation for Rehearsal-Free Continual ASR](ma26d_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

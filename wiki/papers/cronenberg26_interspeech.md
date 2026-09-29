@@ -69,4 +69,10 @@ Universite Paris Cite, CNRS, Universite Paris-Saclay, Institut Universitaire de 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Modelling diphthong dynamics: A GAMM-based analysis of Australian English diphthongs](gnevsheva26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Mapping Acceptable Pronunciation Range for te reo Māori through Perceptual, Acoustic, and Marker Evaluative Data](evans26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Variation and change in dynamicity of Australian English diphthongs in Sydney](purser26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Speaker-Specific and Language-Dependent Temporal Organization in Bilingual Political Speech](hosseinikivanani26b_interspeech.md) — shared technique · relatedness 1.7/3
+- [Word Lengthening as a Function of Utterance Position: A Multi-Corpus Study](camara26b_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

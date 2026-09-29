@@ -79,4 +79,10 @@ Ewha Womans University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Physics-Aware Deepfake Detection via Distance–Speech Consistency](kim26m_interspeech.md) — same problem · relatedness 2.6/3
+- [MS-GNN: Multi-Scale Graph Neural Network for Detecting Local Audio-Visual Forgery Traces](wang26g_interspeech.md) — same problem · relatedness 2.5/3
+- [Who Synthesized This? Joint Deepfake Detection and Generative Source Attribution](kumar26f_interspeech.md) — same problem · relatedness 2.1/3
+- [Domain-Adaptive Dual-Gating Mixture of Experts for Generalizable Speech Deepfake Detection](qin26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Dual-Granularity Orthogonal Disentanglement for Generalizable Audio Deepfake Detection](liu26g_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

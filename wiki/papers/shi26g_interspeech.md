@@ -81,4 +81,10 @@ University of Southern California, Dolby Laboratories
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Discrete vs. Continuous: A Comprehensive Study of Unified Audio Understanding in LALMs](peng26h_interspeech.md) — same problem · relatedness 2.4/3
+- [OmniCodec: Low Frame Rate Universal Audio Codec with Semantic–Acoustic Disentanglement](hu26b_interspeech.md) — same problem · relatedness 2.3/3
+- [HybridCodec: Fast Dual-Stream, Semantically Enhanced Neural Audio Codec](gangwar26_interspeech.md) — same problem · relatedness 2.2/3
+- [Probing Linguistic Information in Speech Embeddings: A Diagnostic Analysis across Acoustic and Structural Domains](gonzalez26b_interspeech.md) — shared technique · relatedness 2.1/3
+- [Low-Framerate Speech Tokenization via Two-Stage Latent Patch Modeling](lemerle26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

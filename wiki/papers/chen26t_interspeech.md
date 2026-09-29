@@ -75,4 +75,10 @@ Academia Sinica, National Taiwan University, National Central University, Nation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [One-to-Many Electrolaryngeal Voice Conversion with Synthetic Data](wu26l_interspeech.md) — same problem · relatedness 2.6/3
+- [Personalized Electrolaryngeal Voice Conversion with a Single Pre-operative Utterance](chang26e_interspeech.md) — same problem · relatedness 2.2/3
+- [CFLOW-VC: An unsupervised cycle training strategy based on normalizing flows for Voice Conversion](song26_interspeech.md) — same problem · relatedness 2.0/3
+- [SSL-GMMVC: Interpretable Voice Conversion via Locally Linear GMM Transforms in Self-Supervised Representation Space](tanabu26_interspeech.md) — same problem · relatedness 1.9/3
+- [Synthetic Audio Generation Framework for Air Traffic Control Speech Recognition](bagat26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

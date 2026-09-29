@@ -83,4 +83,10 @@ University of Southampton, Hong Kong Polytechnic University, University of Edinb
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Do speech foundation models perceive speaker similarity as humans do?](kishi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Learning task-specific subspaces via interventional post-training of speech foundation models](cox26_interspeech.md) — same problem · relatedness 2.0/3
+- [Learning Multiple Utterance-Level Attribute Representations with a Unified Speech Encoder](bouziane26_interspeech.md) — same problem · relatedness 2.0/3
+- [Privacy and quality trade-off in real-time speaker anonymization via editing of age and sex attributes](quamer26_interspeech.md) — complementary · relatedness 1.9/3
+- [Beyond task performance: Decoding bioacoustic embeddings with speech features](nolasco26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

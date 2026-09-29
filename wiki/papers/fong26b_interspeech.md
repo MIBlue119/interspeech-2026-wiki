@@ -79,4 +79,10 @@ University of Trento, Fondazione Bruno Kessler
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Does Translation-Enhanced Speech Encoder Pre-training Affect Speech LLMs?](mizumoto26_interspeech.md) — same problem · relatedness 2.1/3
+- [PART: Progressive Alignment Representation Training for Multilingual Speech-To-Text with LLMs](zhang26aa_interspeech.md) — same problem · relatedness 2.1/3
+- [Language-Aware Distillation for Multilingual Instruction-Following Speech LLMs with ASR-Only Supervision](gopal26_interspeech.md) — same problem · relatedness 2.1/3
+- [POTSA: A Cross-Lingual Speech Alignment Framework for Speech-to-Text Translation](li26k_interspeech.md) — same problem · relatedness 2.0/3
+- [Beyond Standard Greek: Adapting Whisper for Greek Dialects through Curriculum Multitask Learning](klimi26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

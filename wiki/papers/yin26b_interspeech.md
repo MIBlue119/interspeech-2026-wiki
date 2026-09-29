@@ -79,4 +79,10 @@ Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Feature Design and Generative Modelling in Deep Articulatory Synthesis](mcghee26_interspeech.md) — same problem · relatedness 2.5/3
+- [Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data](otani26_interspeech.md) — same problem · relatedness 1.9/3
+- [How Bilingual Are SSL Speech Models? Cross-Lingual Probing of Articulatory Encoding with Finnish and Russian EMA](pedro26_interspeech.md) — complementary · relatedness 1.9/3
+- [ARTIST: Universal Articulatory Space Modeling for Multilingual Indic-to-English Speech-to-Speech Translation](yadav26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Semantic-VAE: Semantic-Alignment Latent Representation for Better Speech Synthesis](niu26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Universite de Lorraine, CNRS, Inria, Avignon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations](ngong26_interspeech.md) — same problem · relatedness 2.6/3
+- [Voice Privacy from an Attribute-based Perspective](rahman26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Privacy and quality trade-off in real-time speaker anonymization via editing of age and sex attributes](quamer26_interspeech.md) — same problem · relatedness 2.2/3
+- [Reducing Speaker Residual by Considering Pinhole Effect in Voice Anonymization](liu26q_interspeech.md) — same problem · relatedness 2.2/3
+- [VerAno: Speaker Anonymization via Self-Supervised Tokenization and Conditional Flow Matching](le26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

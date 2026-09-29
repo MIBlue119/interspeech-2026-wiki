@@ -72,4 +72,10 @@ Ministry of Defense, Ability Center, University of Rochester
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [IQRA 2026: Interspeech Challenge on Automatic Assessment Pronunciation for Modern Standard Arabic (MSA)](kheir26b_interspeech.md) — same problem · relatedness 2.4/3
+- [A Fusion-Aware Two-Stage Framework for Mispronunciation Detection and Diagnosis in Low-Resource Modern Standard Arabic](yang26j_interspeech.md) — same problem · relatedness 2.4/3
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — same problem · relatedness 2.3/3
+- [Phoneme-Level Mispronunciation Screening in Polish-Speaking Children with an Explainable Assistant](dudek26_interspeech.md) — same problem · relatedness 2.2/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

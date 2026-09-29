@@ -74,4 +74,10 @@ NTT
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Accelerating End-to-End ASR via Semi-Autoregressive Speculative Decoding](wu26g_interspeech.md) — same problem · relatedness 2.7/3
+- [MDM-ASR: Bridging Accuracy and Efficiency in ASR with Diffusion-Based Non-Autoregressive Decoding](yen26_interspeech.md) — same problem · relatedness 2.6/3
+- [Self-Speculative Decoding for LLM-based ASR with CTC Encoder Drafts](saon26_interspeech.md) — same problem · relatedness 2.4/3
+- [Diffusion Language Models for Speech Recognition](naveriani26_interspeech.md) — same problem · relatedness 2.0/3
+- [Token-Independent Language Representations for Low-Latency Configurable Multilingual Speech Recognition](zhu26c_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

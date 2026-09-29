@@ -80,4 +80,10 @@ Hanoi University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Stabilizing Short Duration Speaker Verification through Neural Re-scoring with Hybrid Enrollment](ai26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Progressive Learning for Robust Speaker Representation](keetha26_interspeech.md) — same problem · relatedness 2.1/3
+- [LaS-LCA: Layer-Selected Latent Cross-Attention Adapters and Margin-Mixup for Robust Cross-Lingual Speaker Verification](shen26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — same problem · relatedness 2.0/3
+- [Cross-Lingual Speaker Verification with Self-Supervised Pre-Trained Models](peng26f_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

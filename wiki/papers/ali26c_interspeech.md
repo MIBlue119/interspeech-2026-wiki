@@ -77,4 +77,10 @@ Qatar Computing Research Institute
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Do What I Say: A Spoken Prompt Dataset for Instruction-Following](zufle26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [CSER: Semantic Evaluation of LLM Auto-Repair for Code-Switching ASR](bui26_interspeech.md) — complementary · relatedness 2.0/3
+- [IndicContextEval: A Benchmark for Evaluating Context Utilisation in Audio Large Language Models Across 8 Indic Languages](joshi26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India](bhogale26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Turning Speech Language Models into Multilingual Listeners](ogunremi26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

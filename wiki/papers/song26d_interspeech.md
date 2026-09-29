@@ -79,4 +79,10 @@ Southern University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [USDnet++: Distilling Signal Processing Based Dereverberation for Unsupervised Neural Speech Dereverberation](pang26_interspeech.md) — same problem · relatedness 3.0/3
+- [Your U-Net Dereverberation Model is Secretly an RIR Encoder](khanagha26_interspeech.md) — same problem · relatedness 2.6/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.5/3
+- [A Novel Transfer Learning Approach for Room Impulse Response Estimation and Speech Dereverberation Across Geometrically Diverse and Data-Scarce Environments](pasha26_interspeech.md) — same problem · relatedness 2.1/3
+- [From Echo to Accuracy: Robust Voice Quality Assessment Using Blind Unsupervised Diffusion-based Dereverberation](franz26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -82,4 +82,10 @@ Tianjin University, Chinese Academy of Sciences, Fuzhou University, Huiyan Techn
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [LoRA-Tuned Large Language Models for Dementia Detection via Multi-View Speech-Derived Features](park26c_interspeech.md) — same problem · relatedness 3.0/3
+- [Listening Between the Lines: Joint Learning of ASR Embeddings and LLM-Augmented Linguistics for Dementia Detection](jung26_interspeech.md) — same problem · relatedness 3.0/3
+- [Cognitive-Heuristic Guided Multimodal Data Augmentation for Alzheimer’s Disease Detection Using LLM and TTS](jiang26e_interspeech.md) — same problem · relatedness 2.8/3
+- [WSG: Clinically-Informed Weighted Speech Graphs for Dementia Detection](xiao26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Rethinking Acoustic Variability Of ADReSS and ADReSSo Datasets For Dementia Detection](zafar26_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Australian National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Band-Limited Cepstral Analysis of Speaker Sensitivity in Forensic Voice Comparison](ishihara26b_interspeech.md) — same problem · relatedness 1.7/3
+- [Sub-band Cepstral Analysis of Speaker-Specific Information: A Case Study of Japanese Word /saN/](ishihara26_interspeech.md) — same problem · relatedness 1.7/3
+- [Learning task-specific subspaces via interventional post-training of speech foundation models](cox26_interspeech.md) — same problem · relatedness 1.6/3
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — same problem · relatedness 1.6/3
+- [Do speech foundation models perceive speaker similarity as humans do?](kishi26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

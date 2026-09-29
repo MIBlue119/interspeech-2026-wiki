@@ -77,4 +77,10 @@ Universidad Politecnica de Madrid, Massachusetts Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Less can be More: What Aspects of Speech Drive End-of-Turn Detection](sharon26_interspeech.md) — complementary · relatedness 2.0/3
+- [Towards an understanding of prosodic cue weighting for turn-end classification in older adults with varying hearing abilities](curetti26_interspeech.md) — same problem · relatedness 1.9/3
+- [Speaker-Specific and Language-Dependent Temporal Organization in Bilingual Political Speech](hosseinikivanani26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Non-linear Effects of Semantic Relevance on Word Duration in Spontaneous Speech](sun26c_interspeech.md) — same problem · relatedness 1.9/3
+- [The Sound of Code-Switching: Prosodic Profiles of Spontaneous Spanish-English Speech](bhattacharya26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

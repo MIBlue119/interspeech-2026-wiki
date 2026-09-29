@@ -78,4 +78,10 @@ SB Intuitions
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Modeling Overlapped Speech with Shuffles](wiesner26_interspeech.md) — same problem · relatedness 2.5/3
+- [GLAD: Global-Local Aware Dynamic Mixture-of-Experts for Multi-Talker ASR](guo26_interspeech.md) — same problem · relatedness 2.4/3
+- [Grounding Spoken LLMs in Multi-Speaker Audio via Diarization Conditioning](polok26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Balancing ASR and diarization in end-to-end LLMs for multi-talker speech recognition](zheng26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Beyond Mimicry: Constrained Exploration with GRPO for Joint Multi-Talker ASR and Diarization under Unknown Speaker Counts](cai26c_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

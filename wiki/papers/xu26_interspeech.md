@@ -71,4 +71,10 @@ Chongqing University of Posts and Telecommunications, Brunel University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Active Constructive Interference for Speech](yaish26_interspeech.md) — same problem · relatedness 2.0/3
+- [Active Noise Control With a Gain Constraint for Micro-Loudspeakers](cheng26b_interspeech.md) — same problem · relatedness 2.0/3
+- [A Causal Reference-Enhanced Keep-Speech Active Noise Control Method](rao26_interspeech.md) — same problem · relatedness 1.9/3
+- [Predictive Directional Selective Fixed-Filter Active Noise Control for Moving Sources via a Convolutional Recurrent Neural Network](wang26e_interspeech.md) — same problem · relatedness 1.9/3
+- [WaveNorm: Real-Time Neural AGC for Noise-Robust Speech Enhancement on Resource-Constrained Edge Devices](ijjada26b_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

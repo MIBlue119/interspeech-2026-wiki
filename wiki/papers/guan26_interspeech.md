@@ -74,4 +74,10 @@ University of Auckland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Influence of Vocal Tract Curvature on Speech Acoustics: A Three-Dimensional FEM Analysis](mohapatra26_interspeech.md) — same problem · relatedness 1.7/3
+- [A preliminary exploration of stop-vowel coarticulation in Māori](shields26_interspeech.md) — relatedness 1.7/3
+- [Revisiting the NZE front vowel shift: evidence from New Zealand''s largest and most linguistically diverse city](ross26_interspeech.md) — same problem · relatedness 1.6/3
+- [The ArtComp dataset: Articulatory and Acoustic Measurements of Swedish in Speech with Naturally Manipulated Jaw Position](cortes26_interspeech.md) — relatedness 1.6/3
+- [Disentangling sociophonetic and physiological variation in /s/ acoustics across 12 languages](lipari26_interspeech.md) — relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

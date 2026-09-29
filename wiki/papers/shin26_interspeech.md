@@ -78,4 +78,10 @@ Seoul National University, University of Iowa
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SAGE: Switch-Aware EEG-Guided Soft Gating for Target Speaker Extraction with In-Trial Switching](wang26p_interspeech.md) — same problem · relatedness 2.3/3
+- [NeuroMultiSpEx: Neuro-Guided Target Speaker Extraction for Multi-Speaker Scenarios](silva26_interspeech.md) — same problem · relatedness 2.2/3
+- [TGTSE: Token-Guided Target Speaker Extraction with Visual Cue](ling26_interspeech.md) — same problem · relatedness 2.1/3
+- [WeSep: A Modular and Cue-Composable Framework for Target Speaker Extraction](zhang26k_interspeech.md) — same problem · relatedness 2.1/3
+- [SPOT-TSE: Spatial Point-Guided Target Speech Extraction](ryu26c_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

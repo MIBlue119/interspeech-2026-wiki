@@ -70,4 +70,10 @@ CNRS, Sorbonne Nouvelle University, Foch Hospital, Paris-Saclay University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Smooth Formant Tracking with Differentiable Linear Prediction](luisi26_interspeech.md) — same problem · relatedness 2.0/3
+- [Speech Playground: An Interactive Tool for Speech Analysis and Comparison](mcintosh26_interspeech.md) — same problem · relatedness 1.9/3
+- [Automating Sociophonetic Research in Under-Resourced Languages: A Case Study of Speech Rate in Cook Islands Māori](cotosolano26_interspeech.md) — same problem · relatedness 1.9/3
+- [Easper: An Accessible ASR Pipeline for Language Documentation](mahmudi26_interspeech.md) — same problem · relatedness 1.8/3
+- [Mapping Acceptable Pronunciation Range for te reo Māori through Perceptual, Acoustic, and Marker Evaluative Data](evans26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

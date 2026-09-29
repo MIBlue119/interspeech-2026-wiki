@@ -78,4 +78,10 @@ Renmin University of China, Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Chinese Yue Opera Singing Voice Synthesis: A Benchmark with Dataset, Data Augmentation and Baseline Model](bai26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance](hao26_interspeech.md) — same problem · relatedness 2.2/3
+- [Towards Unified Song Generation and Singing Voice Conversion with Accompaniment Co-Generation](zhang26e_interspeech.md) — same problem · relatedness 1.9/3
+- [Listening Like a Judge: A Music-Aware Framework for Automatic Singing Performance Evaluation](saini26_interspeech.md) — complementary · relatedness 1.8/3
+- [SongBench: A Fine-Grained Multi-Aspect Benchmark for Song Quality Assessment](wu26h_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

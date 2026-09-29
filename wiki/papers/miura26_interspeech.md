@@ -74,4 +74,10 @@ National Institute of Advanced Industrial Science and Technology, Tsukuba Univer
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [GRATS : A Natural Multi-Speed Mandarin Dataset for Speech Time-Scale Modification Benchmarking](aghniya26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [Listenability of Synthetic Speech: On the Effect of Linguistic Registers in Text-to-Speech Input](hjuler26_interspeech.md) — same problem · relatedness 1.7/3
+- [Exploring Active Sampling Strategies for Pairwise Comparisons in Speech Synthesis Evaluation](valentinibotinhao26_interspeech.md) — shared data / evaluation · relatedness 1.6/3
+- [Preferences of a Voice-First Nation: Large-Scale Pairwise Evaluation and Preference Analysis for TTS in Indian Languages](anand26b_interspeech.md) — shared data / evaluation · relatedness 1.6/3
+- [Application context in speech synthesis evaluation: A problem and a solution](seebauer26_interspeech.md) — shared data / evaluation · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

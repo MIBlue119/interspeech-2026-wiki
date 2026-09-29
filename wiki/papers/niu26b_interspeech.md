@@ -82,4 +82,10 @@ University of Science and Technology of China, iFLYTEK Research
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Semi-Supervised Joint Separation and Diarization for Multichannel Noisy Speech Mixtures](nozaki26_interspeech.md) — same problem · relatedness 2.8/3
+- [Speaker Separation via Audio Language Modeling](lanzendoerfer26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Latent Flow Matching Based Speech Separation Using Speaker Diarization](rubenchik26_interspeech.md) — same problem · relatedness 2.4/3
+- [Position-Aware Target Speaker Extraction for Long-Form Multi-Party Conversations: A Diarization-Free Framework for ASR](wang26m_interspeech.md) — same problem · relatedness 2.4/3
+- [Neural Multichannel Distant Speaker Diarization and Source Separation with Beta Speaker Activity Prior](mao26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ NTT
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Beyond Mimicry: Constrained Exploration with GRPO for Joint Multi-Talker ASR and Diarization under Unknown Speaker Counts](cai26c_interspeech.md) — same problem · relatedness 2.4/3
+- [Balancing ASR and diarization in end-to-end LLMs for multi-talker speech recognition](zheng26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Modeling Overlapped Speech with Shuffles](wiesner26_interspeech.md) — same problem · relatedness 2.1/3
+- [SDR-LLM: Speech-LLM Based End-to-End Speaker Diarization and Recognition with Sentence-Level Temporal Modeling](yu26g_interspeech.md) — same problem · relatedness 2.1/3
+- [Speaker-Aware Hypothesis Clustering and Merging for Target-Speaker-free and Target-Speaker Multi-Talker ASR](kashiwagi26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

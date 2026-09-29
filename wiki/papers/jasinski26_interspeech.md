@@ -78,4 +78,10 @@ AGH University of Krakow
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders](aparin26_interspeech.md) — same problem · relatedness 2.8/3
+- [HALAS: A Human-Annotated Dataset of Hallucinations of Modern ASR Systems](baranski26_interspeech.md) — same problem · relatedness 2.6/3
+- [Probing and Mitigating Hallucinations in Speech-augmented Language Models for Automatic Speech Recognition via Small Language Models](yan26c_interspeech.md) — same problem · relatedness 2.3/3
+- [Hallucination Benchmark for Speech Foundation Models](koudounas26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Read What You Hear: Reference-Free Hypotheses Evaluation with Acoustic Discrepancy](li26ka_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

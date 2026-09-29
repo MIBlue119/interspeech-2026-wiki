@@ -82,4 +82,10 @@ SRM Institute of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Paediatric-HGNN: A Hybrid Heterogeneous Graph Neural Network for Detecting Disfluency in Children’s Speech via Multiscale Acoustic Fusion](liyanarachchi26_interspeech.md) — same problem · relatedness 2.4/3
+- [Evaluating Zero-Shot Cross-Lingual Stuttering Detection Based on Self-Attention Weights of Temporal Acoustic Vector Sequence](miyahara26_interspeech.md) — same problem · relatedness 2.4/3
+- [Stuttering Classification and Segmentation with Attention-Based Multiple Instance Learning](susac26_interspeech.md) — same problem · relatedness 2.2/3
+- [Learning to Hear Hesitation: Continual Learning for Disfluency-Aware ASR](kordt26_interspeech.md) — same problem · relatedness 2.2/3
+- [Transcription Policy as a Latent Variable: Activating Controllable Verbatim ASR with Word-Level Timing](wagner26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

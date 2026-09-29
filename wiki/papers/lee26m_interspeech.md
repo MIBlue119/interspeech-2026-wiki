@@ -79,4 +79,10 @@ Seoul National University, University of Seoul
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Entity Binding Failures in Speech LLM Reasoning: Diagnosis and Chain-of-Thought Intervention](hsu26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Generalized Formalism of Auto-Regressive Decoding for Speech Processing](gachot26_interspeech.md) — same problem · relatedness 1.9/3
+- [Language-Aware Distillation for Multilingual Instruction-Following Speech LLMs with ASR-Only Supervision](gopal26_interspeech.md) — same problem · relatedness 1.9/3
+- [IndicContextEval: A Benchmark for Evaluating Context Utilisation in Audio Large Language Models Across 8 Indic Languages](joshi26_interspeech.md) — same problem · relatedness 1.8/3
+- [Noise-Aware In-Context Learning for Hallucination Mitigation in ALLMs](huang26k_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

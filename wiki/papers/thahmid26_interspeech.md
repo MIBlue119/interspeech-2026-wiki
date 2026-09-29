@@ -76,4 +76,10 @@ Bangladesh University of Engineering and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Probing the Layer-wise Geometry of Chinese Dialect Representations in Wav2Vec 2.0](peng26c_interspeech.md) — shared technique · relatedness 2.2/3
+- [Do Learned Layer Weights Reflect Pretrained Information Structure in Self-Supervised Speech Models?](getman26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Layer-wise Probing of wav2vec 2.0 and Whisper for Consonant Cluster Reduction in African American English](mojarad26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Probing Linguistic Information in Speech Embeddings: A Diagnostic Analysis across Acoustic and Structural Domains](gonzalez26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective](sadok26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

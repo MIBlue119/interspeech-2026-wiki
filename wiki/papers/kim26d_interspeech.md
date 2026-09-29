@@ -77,4 +77,10 @@ Chosun University, National Forensic Service, Glosori Inc
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Imperceptible Voiceprint Protection via Human-Machine Perception Discrepancy Feature Disentanglement](xue26_interspeech.md) — same problem · relatedness 2.8/3
+- [DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations](ngong26_interspeech.md) — same problem · relatedness 2.7/3
+- [VerAno: Speaker Anonymization via Self-Supervised Tokenization and Conditional Flow Matching](le26_interspeech.md) — same problem · relatedness 2.6/3
+- [DiffAnon: Diffusion-based Prosody Control for Voice Anonymization](ulgen26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Reducing Speaker Residual by Considering Pinhole Effect in Voice Anonymization](liu26q_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

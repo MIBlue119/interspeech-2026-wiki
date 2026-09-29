@@ -79,4 +79,10 @@ National Yang Ming Chiao Tung University, Academia Sinica
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CraftTTS: Fine-Grained Prosody Control for Text-to-Speech](yang26l_interspeech.md) — complementary · relatedness 1.9/3
+- [Privacy vs. Performance: Assessing Communication Utility of Anonymized Voice Features](chan26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Learning to Rescale: On-the-Fly Sequence Length Adaptation in Non-Autoregressive Speech Synthesis](jin26b_interspeech.md) — complementary · relatedness 1.8/3
+- [Not Flat, But Dissociated: Prosodic and Segmental Divergence in Neural TTS](wang26ea_interspeech.md) — complementary · relatedness 1.8/3
+- [Profiling Speech Rate Abilities of Visually Impaired Screen Reader Users by Bayesian Item Response Theory](miura26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ nyra health
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](toyin26_interspeech.md) — same problem · relatedness 2.4/3
+- [Learning to Hear Hesitation: Continual Learning for Disfluency-Aware ASR](kordt26_interspeech.md) — same problem · relatedness 2.2/3
+- [DysfluentNet: Joint Stuttering Event Detection and Dysfluency-Aware Transcription via Hierarchical Self-Supervised Learning](muthu26_interspeech.md) — same problem · relatedness 2.2/3
+- [Improving streaming ASR with foundation models using emission policies](masmolla26_interspeech.md) — same problem · relatedness 2.1/3
+- [Parameter-Efficient Adaptation of Speech-Aware LLMs for Timestamp Prediction](sunder26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

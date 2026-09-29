@@ -80,4 +80,10 @@ University of California Los Angeles
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [LLM-as-Joiner: Decoupling Alignment from Language Modeling in Label-synchronous ASR](lee26u_interspeech.md) — same problem · relatedness 2.1/3
+- [Self-Speculative Decoding for LLM-based ASR with CTC Encoder Drafts](saon26_interspeech.md) — same problem · relatedness 2.0/3
+- [Accelerating End-to-End ASR via Semi-Autoregressive Speculative Decoding](wu26g_interspeech.md) — same problem · relatedness 1.9/3
+- [Distilling LLM Semantic Priors into Encoder-Only Multi-Talker ASR with Talker-Count Routing](shi26_interspeech.md) — shared technique · relatedness 1.9/3
+- [CTC-TTS: LLM-Based Dual-Streaming Text-to-Speech with CTC Alignment](liu26e_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

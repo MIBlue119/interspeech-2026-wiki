@@ -73,4 +73,8 @@ Nanjing University, Samsung Electronics, Horizon Robotics
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [NCPSZ: A Nonlinear Control Network for Miniature Loudspeakers in Personal Sound Zone Applications](gong26_interspeech.md) — same problem · relatedness 2.4/3
+- [U2A-Net: Physically Motivated Ultrasound‑to‑Audio Neural Modeling for Parametric Array Loudspeakers](li26ea_interspeech.md) — same problem · relatedness 1.9/3
+- [Perceptually Weighted Minimum Mean Square Error Precoding for Acoustic Multi-User MIMO in Vehicular Personal Sound Zones](wei26c_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Tsinghua University, Tiangong University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AFG-Bias: Acoustic-Fusion-Gated Biasing for Plug-and-Play Hotword Customization in LLM-Based ASR](wu26i_interspeech.md) — same problem · relatedness 2.9/3
+- [COALA: Robust Contextualized Speech-augmented Language Modeling for ASR via Contrastive Regularizer and Biasing Score Estimation](guo26b_interspeech.md) — same problem · relatedness 2.5/3
+- [LLM-HB: Language-Aware LLM-Guided Hotword Biasing for Code-Switching ASR](he26c_interspeech.md) — same problem · relatedness 2.2/3
+- [ADALA: A Wake-up Word Detection Framework Based on Adaptive Semi-supervised learning and Large Language Model](tang26_interspeech.md) — same problem · relatedness 2.2/3
+- [Contextual Earnings-22: A Speech Recognition Benchmark with Custom Vocabulary in the Wild](munyampirwa26_interspeech.md) — complementary · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

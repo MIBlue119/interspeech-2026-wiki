@@ -77,4 +77,10 @@ Stanford University, Cohere Labs, Cohere
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Language-Aware Distillation for Multilingual Instruction-Following Speech LLMs with ASR-Only Supervision](gopal26_interspeech.md) — same problem · relatedness 2.1/3
+- [ALARM: Audio–Language Alignment for Reasoning Models](grinberg26_interspeech.md) — same problem · relatedness 2.1/3
+- [Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation](ye26_interspeech.md) — same problem · relatedness 2.1/3
+- [Do What I Say: A Spoken Prompt Dataset for Instruction-Following](zufle26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Towards Enabling Multilingual Multitask SpeechLLMs in Data-Scarce Settings](fong26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Karlsruhe Institute of Technology, Fondazione Bruno Kessler, ACC Cyfronet AGH, A
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WASIL: In-the-Wild Arabic Spoken Interactions with LLMs](ali26c_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Turning Speech Language Models into Multilingual Listeners](ogunremi26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Language-Aware Distillation for Multilingual Instruction-Following Speech LLMs with ASR-Only Supervision](gopal26_interspeech.md) — same problem · relatedness 2.0/3
+- [Preference-ASR: A Preference-Aware Test Set for Benchmarking ASR in the Era of Speech LLMs](koluguri26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

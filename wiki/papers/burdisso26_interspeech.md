@@ -79,4 +79,10 @@ Idiap Research Institute, EPFL, University of Zurich, Uniphore, Brno University 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Refining Pseudo-Audio Prompts with Speech-Text Alignment for Text-Only Domain Adaptation in LLM-Based ASR](magoshi26_interspeech.md) — same problem · relatedness 2.8/3
+- [Merging the Knowledge of LLMs for Automatic Speech Recognition](futami26_interspeech.md) — same problem · relatedness 2.5/3
+- [Closing the Speech-Text Gap with Limited Audio for Effective Domain Adaptation in LLM-Based ASR](banerasroux26_interspeech.md) — same problem · relatedness 2.4/3
+- [Weakly Masked Residual Reliability Learning for Unsupervised Domain Adaptation in Speech Models](li26aa_interspeech.md) — same problem · relatedness 2.2/3
+- [Retention-Preserving Gradient Projection with Entropy-Guided Token-Level Distillation for Rehearsal-Free Continual ASR](ma26d_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

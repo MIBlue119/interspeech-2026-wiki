@@ -78,4 +78,10 @@ National University of Defense Technology, Hunan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Cross Domain Few-Shot Class-Incremental Audio Classification Via Adversarial Contrastive Learning](si26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Hybrid Continual Learning for Low-Resource Australian Aboriginal Language Identification](mylvaganam26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Lung-CL: Spectrum-aware Distillation and Generative Replay for Continual Learning based buffer-free Respiratory Sound Classification](lai26_interspeech.md) — same problem · relatedness 1.9/3
+- [Few-shot Class-variable Incremental Audio Classification via Prototype Adaptation and Pseudo Class-variable Training](li26q_interspeech.md) — same problem · relatedness 1.9/3
+- [CAQA-Net: Continual Audio Quality Assessment Across Speech and Music Domains](li26d_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

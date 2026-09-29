@@ -81,4 +81,10 @@ Friedrich-Alexander-Universitat Erlangen-Nurnberg, Universidad de Antioquia
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Zero-Shot Phonetic Classification through Language-Agnostic Articulatory Features](magoshi26b_interspeech.md) — same problem · relatedness 2.5/3
+- [How Bilingual Are SSL Speech Models? Cross-Lingual Probing of Articulatory Encoding with Finnish and Russian EMA](pedro26_interspeech.md) — same problem · relatedness 2.4/3
+- [Towards Language-Agnostic Speech Inversion](tabatabaee26_interspeech.md) — shared technique · relatedness 2.0/3
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — shared technique · relatedness 2.0/3
+- [ArtNet: A JEPA-Like Articulatory Predictive Framework for Robust Zero-Shot Phoneme Recognition](hu26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

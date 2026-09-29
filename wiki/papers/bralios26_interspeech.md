@@ -79,4 +79,10 @@ University of Illinois Urbana-Champaign, Massachusetts Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DTM-Codec: Dynamic Token Masking for VFR Speech Coding with Efficient Boundary Selection](sohn26_interspeech.md) — same problem · relatedness 2.8/3
+- [A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization](zhang26ga_interspeech.md) — same problem · relatedness 2.4/3
+- [Probing Low Frame Rate Degradation in Neural Audio Codecs](gichamba26_interspeech.md) — same problem · relatedness 2.2/3
+- [LitCodec: ASR-Guided Streaming Speech Coding with Unified Quantization](dinh26b_interspeech.md) — same problem · relatedness 2.2/3
+- [HybridCodec: Fast Dual-Stream, Semantically Enhanced Neural Audio Codec](gangwar26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

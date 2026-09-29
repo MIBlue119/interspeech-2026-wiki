@@ -80,4 +80,10 @@ MODULABS, Wonkwang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Quality Adaptive Angular Margin Learning for Respiratory Sound Classification](kim26k_interspeech.md) — same problem · relatedness 2.9/3
+- [Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment](ilerisoy26_interspeech.md) — same problem · relatedness 2.6/3
+- [Lung-CL: Spectrum-aware Distillation and Generative Replay for Continual Learning based buffer-free Respiratory Sound Classification](lai26_interspeech.md) — same problem · relatedness 2.3/3
+- [From Signals to Patterns: Non-Invasive Tuberculosis Detection from Cough Audio using Bandit Weighted Hyperbolic Prototypes](akhtar26_interspeech.md) — same problem · relatedness 2.1/3
+- [Similarity as Evidence: An Explainable Siamese Framework for Snore Sound Classification](meng26f_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ Southern University of Science and Technology, Capital Medical University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [NeuroMultiSpEx: Neuro-Guided Target Speaker Extraction for Multi-Speaker Scenarios](silva26_interspeech.md) — same problem · relatedness 2.8/3
+- [WeSep: A Modular and Cue-Composable Framework for Target Speaker Extraction](zhang26k_interspeech.md) — same problem · relatedness 2.5/3
+- [Online Audio-Visual Target Speaker Extraction with Viseme-Guided Lightweight Visual Pretraining](li26n_interspeech.md) — same problem · relatedness 2.3/3
+- [Breaking Shortcut Learning for Cross-Trial EEG-Guided Target Speech Extraction via Two-Stage Training](shin26_interspeech.md) — same problem · relatedness 2.3/3
+- [Plug-and-Steer: Decoupling Separation and Selection in Audio-Visual Target Speaker Extraction](kwak26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

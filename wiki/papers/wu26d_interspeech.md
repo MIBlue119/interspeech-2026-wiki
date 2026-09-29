@@ -77,4 +77,10 @@ University of Tsukuba, Konan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Tongue-Shape Strategies for Standard Mandarin Retroflex Sibilants: A Preliminary Ultrasound and Unsupervised Clustering Study](jing26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Larynx segmentation in mid-sagittal speech production real-time MRI](zhang26v_interspeech.md) — shared technique · relatedness 1.9/3
+- [An Approach to Simultaneous Acquisition of Real-Time MRI Video, EEG, and Surface EMG for Articulatory, Brain, and Muscle Activity During Speech Production](lee26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Morphoacoustic Modeling of a Dynamic 3D Vocal Tract Using MRI-Constrained Deformations and FEM Acoustics](piyadasa26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data](otani26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

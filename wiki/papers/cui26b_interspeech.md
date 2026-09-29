@@ -76,4 +76,10 @@ China Mobile Jiutian Artificial Intelligence Technology (Beijing) Co., Ltd, Peki
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.4/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.4/3
+- [HFMSE: Harmonic-Guided Speech Enhancement with Flow Matching](li26l_interspeech.md) — same problem · relatedness 2.4/3
+- [Absorbing Discrete Diffusion for Speech Enhancement](gonzalez26_interspeech.md) — same problem · relatedness 2.3/3
+- [QC-GAN: A Parameter-Efficient Quaternion Conformer GAN for High-Fidelity Speech Enhancement](yamauchi26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

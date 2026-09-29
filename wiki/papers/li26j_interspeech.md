@@ -76,4 +76,10 @@ Shanghai Artificial Intelligence Laboratory, Tsinghua University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech-based Psychological Crisis Assessment using LLMs](chiba26_interspeech.md) — same problem · relatedness 2.2/3
+- [Entropy-Aware Domain-Routed Mixture-of-Experts Speech-LLM Framework: A Case Study of Multi-Domain Child-Adult ASR](shi26c_interspeech.md) — shared technique · relatedness 1.9/3
+- [Adaptive Multimodal Expert Specialization by Meta-Learning for Spoken English Assessment](vu26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Rethinking Speech Foundation Model Fine-tuning: Better SFT or Better Match?](zhou26i_interspeech.md) — complementary · relatedness 1.9/3
+- [CalliOpeNLP: A Standalone Digital Health Voice Data Collection Research Tool](stasak26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

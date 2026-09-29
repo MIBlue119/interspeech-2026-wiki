@@ -78,4 +78,10 @@ Universite de Lorraine, CNRS, Inria
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ArtBoost: Synthetic Articulatory Data Augmentation for Acoustic-to-Articulatory Inversion](kim26f_interspeech.md) — same problem · relatedness 2.7/3
+- [Beyond Speaker Independence: Evaluating Cross-Lingual Acoustic-to-Articulatory Inversion Across Finnish and Russian](pandey26_interspeech.md) — same problem · relatedness 2.5/3
+- [Towards Language-Agnostic Speech Inversion](tabatabaee26_interspeech.md) — same problem · relatedness 2.4/3
+- [Articulatory Entrainment and Coordination Complexity in Spontaneous Autistic and Non-autistic Dialogue](withanage26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data](otani26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ Seoul National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AdaLTM: Adaptive Layer-wise Task Vector Merging for Categorical Speech Emotion Recognition with ASR Knowledge Integration](lee26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Segment-wise Embedding based Graph Attention Network for Effective Speech Emotion Recognition](song26c_interspeech.md) — same problem · relatedness 2.1/3
+- [How Language-Independent Are Emotional Attributes? A Study on Training Data Scaling and Cross-Lingual Generalization](halmai26_interspeech.md) — same problem · relatedness 2.0/3
+- [Exploring the potential and limitations of Model Merging for Multi-Domain Adaptation in ASR](carvalho26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Robust Multi-Source-Free Domain Adaptation via Posterior Adjustment and Label Agreement](yoon26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

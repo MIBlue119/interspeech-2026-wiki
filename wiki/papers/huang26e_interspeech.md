@@ -75,4 +75,10 @@ National Tsing Hua University, National Yang Ming Chiao Tung University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Automatic Detection of Stress from Speech in the Trier Social Stress Test](drimalla26_interspeech.md) — same problem · relatedness 2.0/3
+- [WhiSSDapt: Adaptive Fusion of Whisper Layer Embeddings for Sentence Stress Detection](murugaiyan26_interspeech.md) — same problem · relatedness 1.9/3
+- [Daily Affect Inference from Longitudinal Speech-based Journals: A Comparison of Acoustic and Linguistic Models](schlicher26_interspeech.md) — same problem · relatedness 1.8/3
+- [Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition](ryu26_interspeech.md) — same problem · relatedness 1.8/3
+- [ProWhistress: An Enhanced Dual-Stream Transcription Architecture for Prosody-Aware Sentence Stress Detection](gu26b_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

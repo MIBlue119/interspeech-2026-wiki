@@ -80,4 +80,10 @@ Uniphore
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Next-Turn: Duration-Aware Streaming Endpoint Detection via Time-to-Next-Speech-Onset Prediction](tsoi26_interspeech.md) — same problem · relatedness 2.9/3
+- [Endpoint Anticipation for Low-Latency Spoken Dialogue](udupa26_interspeech.md) — same problem · relatedness 2.5/3
+- [MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the wild](qi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Adaptive Turn-Taking for Real-time Multi-Party Voice Agents](mitra26_interspeech.md) — same problem · relatedness 2.1/3
+- [Evaluating Large Language Models Abilities for Addressee, Turn-change, and Next Speaker Prediction in Meetings](fukuda26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

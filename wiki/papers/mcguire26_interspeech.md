@@ -78,4 +78,10 @@ Macquarie University, National Tsing Hua University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Cross-linguistic word-medial stop lenition: A Functional PCA approach](lee26p_interspeech.md) — shared technique · relatedness 1.9/3
+- [Variation and change in dynamicity of Australian English diphthongs in Sydney](purser26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Evaluating and Preserving Lexical Stress in English-to-Chinese Speech-to-Speech Translation](song26f_interspeech.md) — complementary · relatedness 1.9/3
+- [Boundaryless Speech-to-Syllable Representations with Hierarchical CNN for Linguistically Inspired Automatic Stress Detection](mokshagundam26_interspeech.md) — same problem · relatedness 1.8/3
+- [Speaker-Specific and Language-Dependent Temporal Organization in Bilingual Political Speech](hosseinikivanani26b_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

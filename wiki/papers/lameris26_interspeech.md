@@ -72,4 +72,10 @@ KTH Royal Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [NVV-SuperBench: Beyond Words, Beyond Quality—Benchmarking Nonverbal Vocalizations in Speech Generation](xue26c_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [ParaPairAudioBench: Paralinguistic Pairwise Audio Benchmark for LALM-as-a-Judge](jeon26d_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [ParA-LLM: A Unified Approach to Paralinguistic and Acoustic Speech Understanding](anand26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Content is What Remains: Invariant Speech Tokenization from Parallel Utterances](wagner26b_interspeech.md) — complementary · relatedness 2.0/3
+- [VoiceQualityGUI: A Tool for Word-Level Voice Quality Modifications](lameris26b_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -74,4 +74,10 @@ Adobe Research, Brown University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Auditory Contrast Network for Text-Free Prominence Detection](shimizu26b_interspeech.md) — same problem · relatedness 2.4/3
+- [ProWhistress: An Enhanced Dual-Stream Transcription Architecture for Prosody-Aware Sentence Stress Detection](gu26b_interspeech.md) — same problem · relatedness 2.2/3
+- [WhiSSDapt: Adaptive Fusion of Whisper Layer Embeddings for Sentence Stress Detection](murugaiyan26_interspeech.md) — same problem · relatedness 2.1/3
+- [Decoding the Ear (DeEAR): A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](lin26l_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Knowing What to Stress: A Discourse-Conditioned Text-to-Speech Benchmark](turetzky26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

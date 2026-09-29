@@ -79,4 +79,10 @@ Aix-Marseille University, CNRS, Harvard University, Massachusetts Institute of T
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [PhonLLM: Joint Phone Recognition and Phonological Process Inference for Child Speech](baumann26_interspeech.md) — same problem · relatedness 2.2/3
+- [Phoneme-Level Mispronunciation Screening in Polish-Speaking Children with an Explainable Assistant](dudek26_interspeech.md) — same problem · relatedness 2.1/3
+- [ArtNet: A JEPA-Like Articulatory Predictive Framework for Robust Zero-Shot Phoneme Recognition](hu26_interspeech.md) — same problem · relatedness 2.0/3
+- [Error Diversity and Performance Variability in Zero-Shot Children's Speech Recognition](sinha26b_interspeech.md) — same problem · relatedness 2.0/3
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

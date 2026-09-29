@@ -76,4 +76,10 @@ Massachusetts General Hospital, Harvard Medical School, Northeastern University,
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Measuring Vocal Efficiency in Daily Life in Patients with Voice Disorders Using Wireless Accelerometer and Microphone Sensors](yousef26c_interspeech.md) — same problem · relatedness 2.0/3
+- [The Interspeech 2026 NeckVibe Challenge: Voice Disorder Detection via Real-World Monitoring of Neck-Surface Vibration](yousef26b_interspeech.md) — same problem · relatedness 2.0/3
+- [From Echo to Accuracy: Robust Voice Quality Assessment Using Blind Unsupervised Diffusion-based Dereverberation](franz26_interspeech.md) — same problem · relatedness 1.9/3
+- [Temporal Partitioning of Vocal Activity for Detecting Vocal Hyperfunction from Neck-Surface Accelerometer Data](azarski26_interspeech.md) — same problem · relatedness 1.9/3
+- [A Hierarchical Feature Engineering Framework for Automated Classification of Phonotraumatic and Non-Phonotraumatic Vocal Hyperfunction](kim26x_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

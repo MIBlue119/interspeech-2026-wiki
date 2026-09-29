@@ -80,4 +80,7 @@ Northwestern University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sleep Sound Event Detection Powered by Learnable Multi-Resolution Adaptive Line Enhancer](park26_interspeech.md) — shared technique · relatedness 1.7/3
+- [Exploratory analysis of yellow mongoose vocalization: detection from in-the-wild recordings and call classification](hovsepyan26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

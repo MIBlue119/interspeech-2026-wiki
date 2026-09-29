@@ -76,4 +76,10 @@ Shanghai Jiao Tong University, Ningbo Artificial Intelligence Institute, Institu
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [NCPSZ: A Nonlinear Control Network for Miniature Loudspeakers in Personal Sound Zone Applications](gong26_interspeech.md) — same problem · relatedness 2.2/3
+- [Carrier-Aware Sound Zone Control for Parametric Array Loudspeakers](li26da_interspeech.md) — same problem · relatedness 1.9/3
+- [Spatial-Magnifier: Spatial upsampling for multichannel speech enhancement](lee26k_interspeech.md) — same problem · relatedness 1.7/3
+- [Neural Directional Coding: Joint Spatial Coding and Filtering with Configurable Directivity Patterns](huang26o_interspeech.md) — same problem · relatedness 1.6/3
+- [Spec2Spatial: A Time-Frequency Spatial Attention Network for Binaural Audio Synthesis](he26b_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ National Institute of Informatics
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Audio-Visual Feature Reconstruction Pretraining for Noise-Robust Emotion Recognition](parmonangan26_interspeech.md) — complementary · relatedness 1.8/3
+- [Interpretable Audio Editing Evaluation via Chain-of-Thought Difference-Commonality Reasoning with Multimodal LLMs](jia26b_interspeech.md) — shared data / evaluation · relatedness 1.7/3
+- [NoiseLoRA-SV: Hierarchical Noise-Conditioned Adaptation with Embedding Distillation for Robust Speaker Verification](gao26_interspeech.md) — complementary · relatedness 1.7/3
+- [Robust Audio-Visual Emotion Recognition via Conditional Transformer U-Nets with Frequency-Injected Visual Stream](chung26b_interspeech.md) — complementary · relatedness 1.7/3
+- [Coco-VC: Degradation-Robust Streaming Voice Conversion System on the Listener Side](kato26_interspeech.md) — complementary · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

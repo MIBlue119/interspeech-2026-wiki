@@ -80,4 +80,10 @@ IIIT-Delhi, IDIAP
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Lightweight Detection and Model Attribution of Synthetic Speech via Residual Statistical Fingerprints](pizarro26_interspeech.md) — same problem · relatedness 2.8/3
+- [Dual-Branch Gated Fusion for Open-Set Audio Deepfake Source Tracing](khan26_interspeech.md) — same problem · relatedness 2.8/3
+- [Towards Robust Speech Deepfake Detection via Human-Inspired Reasoning](dvirniak26_interspeech.md) — same problem · relatedness 2.6/3
+- [The Hidden Cost of Pairwise Verification in Synthetic Speech Source Tracing](firc26_interspeech.md) — same problem · relatedness 2.6/3
+- [Supervised Post-training of Speech Foundation Models for Robust Adaptation in Speech Deepfake Detection](pan26_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

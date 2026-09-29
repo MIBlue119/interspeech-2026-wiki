@@ -80,4 +80,10 @@ Guangxi University, Guangxi Key Laboratory of Multimedia Communications and Netw
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Revisiting Label-Free Speaker Embedding Enhancement with vMF Profile Likelihood](kim26i_interspeech.md) — same problem · relatedness 2.3/3
+- [G-MaP-SE: Guided Speech Enhancement via GMM-Based Prior Matching](zhu26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Common Cold Corpus: Health-Aware Robustness Study of Modern Speaker Embeddings Under Physiological Domain Shift](hacker26_interspeech.md) — same problem · relatedness 2.0/3
+- [Progressive Learning for Robust Speaker Representation](keetha26_interspeech.md) — same problem · relatedness 2.0/3
+- [NoiseLoRA-SV: Hierarchical Noise-Conditioned Adaptation with Embedding Distillation for Robust Speaker Verification](gao26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

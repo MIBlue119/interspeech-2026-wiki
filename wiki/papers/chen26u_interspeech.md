@@ -77,4 +77,10 @@ National Taiwan University, CyCraft, RIKEN, MoonShine Animation Studio
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Countering Neural Audio Codec Distortions in Watermarking with Adaptive Restoration](park26d_interspeech.md) — same problem · relatedness 2.9/3
+- [Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes](shao26_interspeech.md) — same problem · relatedness 2.5/3
+- [Learning to Evade: Adaptive Attacks on Audio Watermarking](ding26b_interspeech.md) — same problem · relatedness 2.4/3
+- [AudioNoisePrints: Model-free audio watermarking using spatial correlation in flow matching TTS](tse26_interspeech.md) — same problem · relatedness 2.2/3
+- [VoxWatermark: A Large-Scale Benchmark for Audio Watermark Detection under Perturbations](sedaghati26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

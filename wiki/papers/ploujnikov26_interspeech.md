@@ -82,4 +82,10 @@ Mila, Quebec AI Institute, Concordia University, Sapienza University of Rome, In
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Low-Framerate Speech Tokenization via Two-Stage Latent Patch Modeling](lemerle26_interspeech.md) — same problem · relatedness 2.8/3
+- [U-Codec: Neural Speech Codec under Extreme Temporal Compression for Fast High-Fidelity Speech Generation](yang26n_interspeech.md) — same problem · relatedness 2.8/3
+- [OmniCodec: Low Frame Rate Universal Audio Codec with Semantic–Acoustic Disentanglement](hu26b_interspeech.md) — same problem · relatedness 2.5/3
+- [WavSLM: Single-Stream Speech Language Modeling via WavLM Distillation](libera26_interspeech.md) — same problem · relatedness 2.5/3
+- [MSR-Codec: A Low-Bitrate Multi-Stream Residual Codec for High-Fidelity Speech Generation with Information Disentanglement](li26c_interspeech.md) — shared technique · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

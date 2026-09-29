@@ -79,4 +79,10 @@ University of Michigan, National Taiwan University, University of Southern Calif
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Adapting Audio Large Language Models for Speaker Verification](ren26c_interspeech.md) — same problem · relatedness 2.1/3
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — same problem · relatedness 2.0/3
+- [Text-Independent Speaker Verification Using Discrete Audio Tokens](liang26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Learning task-specific subspaces via interventional post-training of speech foundation models](cox26_interspeech.md) — same problem · relatedness 2.0/3
+- [MoVE: Translating Laughter and Tears via Mixture of Vocalization Experts in Speech-to-Speech Translation](chen26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

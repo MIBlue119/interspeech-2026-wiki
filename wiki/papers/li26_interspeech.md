@@ -80,4 +80,10 @@ Imperial College London, Technical University of Munich, University of Southampt
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Do Deepfake Speech Detectors Actually Hear?](stanek26_interspeech.md) — same problem · relatedness 2.4/3
+- [Towards Robust Speech Deepfake Detection via Human-Inspired Reasoning](dvirniak26_interspeech.md) — same problem · relatedness 2.4/3
+- [Lightweight Detection and Model Attribution of Synthetic Speech via Residual Statistical Fingerprints](pizarro26_interspeech.md) — same problem · relatedness 2.2/3
+- [Quantizer-Aware Hierarchical Neural Codec Modeling for Speech Deepfake Detection](wu26n_interspeech.md) — same problem · relatedness 2.1/3
+- [Supervised Post-training of Speech Foundation Models for Robust Adaptation in Speech Deepfake Detection](pan26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

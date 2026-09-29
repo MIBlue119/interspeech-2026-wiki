@@ -78,4 +78,10 @@ AGH University of Krakow, Samsung
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Fair Cognitive Impairment Detection Through Unlearning](nguyen26e_interspeech.md) — same problem · relatedness 2.1/3
+- [Beyond Binary: Speech Representations Across the Cognitive Score Hierarchy](kopar26_interspeech.md) — same problem · relatedness 2.1/3
+- [Mitigating Scoring Errors and Compensating for Nonverbal Subtests in Speech-Based Dementia Assessment](braun26_interspeech.md) — same problem · relatedness 2.1/3
+- [Automatic Graphical Representations of Language for Dementia Detection](xu26n_interspeech.md) — same problem · relatedness 2.0/3
+- [Gated Multi-graph Fusion via Graph Attention Networks for Alzheimer’s Disease Detection](li26ga_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

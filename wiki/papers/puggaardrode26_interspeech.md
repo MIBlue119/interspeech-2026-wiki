@@ -72,4 +72,10 @@ University of Oxford, Macquarie University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Corpus-Based Study of Creaky Voice Production in English and Mandarin](li26ja_interspeech.md) — complementary · relatedness 1.9/3
+- [The role of phonation type in Chinese Jin tones: a study using acoustic metrics](du26b_interspeech.md) — complementary · relatedness 1.9/3
+- [Beyond Pitch: Multidimensional Cue Reweighting of Two High-Falling Tones in Pingdingshan Mandarin](chen26c_interspeech.md) — complementary · relatedness 1.9/3
+- [Lost in Phonation: Voice Quality Variation as an Evaluation Dimension for Speech Foundation Models](lameris26_interspeech.md) — complementary · relatedness 1.8/3
+- [FCPE: A Fast Context-based Pitch Estimation Model](luo26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

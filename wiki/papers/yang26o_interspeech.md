@@ -75,4 +75,10 @@ University of Texas at Dallas
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Deep Contextual Reasoning from Broad Descriptions for ASR with Speech-LLM via Metadata-Driven Reasoning Chains](poncelet26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Robust LLM-based Audio-Visual Speech Recognition with Sparse Modality Alignment and Visual Unit-Guided Refinement](su26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Multimodal Semi-Supervised Framework for Automatic Construction of a Cross-Lingual Taigi Speech-Chinese Subtitle Corpus](cho26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding](ahn26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Audio-KWS-Gated Error Memory Retrieval for Incremental ASR Post-Correction](ashikawa26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

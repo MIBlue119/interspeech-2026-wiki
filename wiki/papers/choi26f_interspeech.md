@@ -77,4 +77,10 @@ DenComm, Catholic University of Korea
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Inverse Text Normalization in Romanian: A Comparative Study of Rule-Based, Neural, and Large Language Model Approaches](sirbu26_interspeech.md) — same problem · relatedness 2.1/3
+- [Towards Efficient Simultaneous Inverse Text Normalization with Pretrained Text-to-Text Language Model and Read-Tag-Write Policy](hoang26_interspeech.md) — same problem · relatedness 2.1/3
+- [DEBATE: A Dataset for Disentangling Textual Ambiguity in Mandarin Through Speech](guo26e_interspeech.md) — same problem · relatedness 2.0/3
+- [Low-Resource Medical ASR for Rich Transcription in Latvian](znotins26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Can Large Language Models Reliably Correct Errors in Low-Resource ASR? A Contamination-Aware Case Study on West Frisian](hao26b_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

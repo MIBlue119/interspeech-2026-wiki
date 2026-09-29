@@ -80,4 +80,10 @@ KU Leuven
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech Recognition on TV Series with Video-Guided Post-ASR Correction](yang26o_interspeech.md) — same problem · relatedness 2.1/3
+- [Context Projector: Complementary Keyword and Dialogue Context Embeddings for LLM-based ASR](villatorotello26_interspeech.md) — same problem · relatedness 2.1/3
+- [Entity Binding Failures in Speech LLM Reasoning: Diagnosis and Chain-of-Thought Intervention](hsu26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models](li26o_interspeech.md) — shared technique · relatedness 2.0/3
+- [Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models](he26e_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

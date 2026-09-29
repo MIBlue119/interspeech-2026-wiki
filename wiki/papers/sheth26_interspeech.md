@@ -81,4 +81,10 @@ PSL University, CNRS, EHESS, ENS, Universite Aix-Marseille, Tampere University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ELSI: An Interface for Standardizing Child-Centered Datasets, Applying Machine Learning Models, and Extracting Metrics](sheth26c_interspeech.md) — same problem · relatedness 2.6/3
+- [From Academic Tool to Community Infrastructure: A Call for Indigenous Partnership in Speech Data Governance](sheth26b_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation](srivastav26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Advancing Infant Distress Detection: Two- and Three-Way Classification in Real-World Audio Environments](galhotra26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [BabAR: from phoneme recognition to developmental measures of young children''s speech production](lavechin26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

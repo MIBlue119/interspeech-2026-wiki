@@ -74,4 +74,10 @@ KAIST, University of Melbourne, Fortemedia Singapore, Xi'an University of Posts 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FakeSound2: A Benchmark for Explainable, Traceable, and Generalizable Deepfake Sound Detection](xie26_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+- [GradHarmony: A Gradient Alignment and Magnitude Normalization Strategy for Audio Deepfake Detection](kim26r_interspeech.md) — same problem · relatedness 2.2/3
+- [Diffusion Reconstruction towards Generalizable Audio Deepfake Detection](cheng26_interspeech.md) — same problem · relatedness 2.2/3
+- [DeepFense: A Unified, Modular, and Extensible Framework for Robust Audio Deepfake Detection](kheir26_interspeech.md) — shared technique · relatedness 2.2/3
+- [ADD-DINO: A Two-Stage Self-Distillation Framework for Audio Deepfake Detection](sun26g_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

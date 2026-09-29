@@ -70,4 +70,10 @@ National Research Council, University of Edinburgh
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [High-Quality Speech Synthesis for Under-Resourced Ethiopian Languages](tamiru26_interspeech.md) — same problem · relatedness 2.2/3
+- [Deterministic Prompting for Speaker-Stable Low-Resource Greek TTS](syllas26_interspeech.md) — same problem · relatedness 2.2/3
+- [IN-F5: Adapting an English TTS Foundation Model for Multilingual and Zero-Resource Indian Speech Synthesis](varadhan26_interspeech.md) — same problem · relatedness 2.1/3
+- [Exploring Active Sampling Strategies for Pairwise Comparisons in Speech Synthesis Evaluation](valentinibotinhao26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [An Evaluation Framework for Text-to-Speech Voice Reconstruction](sanchez26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

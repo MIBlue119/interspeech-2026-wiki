@@ -73,4 +73,9 @@ University of Tubingen
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Words to Sentences: Contextual Predictability Overrides Phonetic Ambiguity in Lexical Competition](chang26g_interspeech.md) — same problem · relatedness 1.8/3
+- [DEBATE: A Dataset for Disentangling Textual Ambiguity in Mandarin Through Speech](guo26e_interspeech.md) — same problem · relatedness 1.7/3
+- [Non-linear Effects of Semantic Relevance on Word Duration in Spontaneous Speech](sun26c_interspeech.md) — same problem · relatedness 1.6/3
+- [Not Flat, But Dissociated: Prosodic and Segmental Divergence in Neural TTS](wang26ea_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

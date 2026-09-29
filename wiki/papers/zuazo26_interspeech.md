@@ -81,4 +81,10 @@ University of the Basque Country, Basque Center on Cognition, Brain and Language
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Shared Phone-Level Neural Representations of Auditory Perception and ‘Inner Voice’ Production: One-to-One Mapping using a Single-Subject EEG Corpus of Heard and Imagined Natural Speech](wellington26_interspeech.md) — complementary · relatedness 1.9/3
+- [Relating the Neural Representations of Vocalized, Mimed, and Imagined Speech](maghsoudi26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Improving Cross-Dataset Speech Intelligibility Prediction for Hearing-Impaired Listeners with Few-Shot Adaptation](lin26h_interspeech.md) — shared technique · relatedness 1.8/3
+- [A Novel Transfer Learning Approach for Room Impulse Response Estimation and Speech Dereverberation Across Geometrically Diverse and Data-Scarce Environments](pasha26_interspeech.md) — shared technique · relatedness 1.7/3
+- [How Language-Independent Are Emotional Attributes? A Study on Training Data Scaling and Cross-Lingual Generalization](halmai26_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

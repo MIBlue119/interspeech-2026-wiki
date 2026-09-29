@@ -81,4 +81,10 @@ Indian Institute of Technology Mandi
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Adversarial Robustness in Spoken Language Identification through Self-Defensive Distillation](dey26_interspeech.md) — same problem · relatedness 2.2/3
+- [Hybrid Continual Learning for Low-Resource Australian Aboriginal Language Identification](mylvaganam26_interspeech.md) — same problem · relatedness 2.1/3
+- [Unsupervised Speech in the Wild Challenge: Learning Robust Multilingual Representations](gomez26_interspeech.md) — same problem · relatedness 2.1/3
+- [Collection and Curation of a Spontaneous Multilingual Speech Corpus for Low-Resource Himalayan Languages](sinha26_interspeech.md) — same problem · relatedness 2.1/3
+- [Scaling Self-Supervised Speech Models Uncovers Deep Linguistic Relationships: Evidence from the Pacific Cluster](kim26w_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

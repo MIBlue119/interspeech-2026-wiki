@@ -77,4 +77,10 @@ Harbin University of Science and Technology, University of Melbourne, KAIST, Uni
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MUGEN: Evaluating and Improving Multi-audio Understanding of Large Audio-Language Models](yang26c_interspeech.md) — shared data / evaluation · relatedness 2.7/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+- [A Sensitivity Analysis of Multi-Event Audio Grounding in Audio LLMs](lee26o_interspeech.md) — same problem · relatedness 2.4/3
+- [All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation](foo26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [A Closer Look at Failure Modes in Temporal Understanding of Large Audio-Language Models](kulkarni26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

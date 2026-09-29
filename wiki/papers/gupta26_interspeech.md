@@ -79,4 +79,10 @@ Mila – Québec AI Institute, ServiceNow, McGill University, Université Laval
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MixProLAP: Mixture-Induced Uncertainty Modeling for Probabilistic Language-Audio Pretraining](nakagome26_interspeech.md) — same problem · relatedness 2.1/3
+- [Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation](ye26_interspeech.md) — same problem · relatedness 2.1/3
+- [ProLAP: Probabilistic Language-Audio Pre-Training](manabe26_interspeech.md) — same problem · relatedness 2.1/3
+- [Does Translation-Enhanced Speech Encoder Pre-training Affect Speech LLMs?](mizumoto26_interspeech.md) — same problem · relatedness 2.1/3
+- [INSPIRE: A Benchmark for Instruction-Aware Speech Retrieval](li26r_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

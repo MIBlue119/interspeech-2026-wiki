@@ -79,4 +79,10 @@ Chinese University of Hong Kong, Nanjing University, Tencent, Shenzhen Loop Area
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AccentDrift: Real-time Streaming Accent Conversion via Sparse Speech Tokenization](lee26g_interspeech.md) — same problem · relatedness 2.5/3
+- [WhisperVC: Decoupled Cross-Domain Alignment and Speech Generation for Low-Resource Whisper-to-Normal Conversion](liu26o_interspeech.md) — same problem · relatedness 2.5/3
+- [CrossAccent-TTS: Cross-Lingual Accent-Intensity Controllable Text-to-Speech via Disentangled Speaker and Accent Representations](annamdevula26_interspeech.md) — same problem · relatedness 2.1/3
+- [StyleStream: Real-Time Zero-Shot Voice Style Conversion](liu26c_interspeech.md) — same problem · relatedness 2.0/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

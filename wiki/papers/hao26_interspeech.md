@@ -77,4 +77,10 @@ Northwestern Polytechnical University, Giant Network
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MeloDISinger: Melody-Aware & Duration-Preserving Singing Voice Editing with Audio Infilling](park26k_interspeech.md) — same problem · relatedness 3.0/3
+- [Towards Chinese Yue Opera Singing Voice Synthesis: A Benchmark with Dataset, Data Augmentation and Baseline Model](bai26_interspeech.md) — same problem · relatedness 2.4/3
+- [Towards Unified Song Generation and Singing Voice Conversion with Accompaniment Co-Generation](zhang26e_interspeech.md) — shared technique · relatedness 2.2/3
+- [MMGenre: Benchmarking Singing Voice Synthesis across Multiple Musical Genres](feng26_interspeech.md) — same problem · relatedness 2.2/3
+- [DiffRhythm 2: Efficient and High Fidelity Song Generation via Block Flow Matching](jiang26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -83,4 +83,10 @@ Korea Advanced Institute of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SCNet: Enhancing GAN-based Speech Generation with Subband Condition Network and Magnitude-aware Phase Loss](xu26e_interspeech.md) — same problem · relatedness 2.7/3
+- [SARA: A Dual-Stream VAE for High-Fidelity Speech Generation via Integrating Semantic and Acoustic Representations](chen26v_interspeech.md) — same problem · relatedness 2.3/3
+- [EffVOC: Low-Delay Efficient Speech Waveform Reconstruction from Spectral Representations Without Phase](shi26f_interspeech.md) — same problem · relatedness 2.2/3
+- [Multilingual Multi-Speaker Unit Vocoders: A Systematic Analysis of Discrete Speech Representations](kothari26_interspeech.md) — shared technique · relatedness 2.2/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

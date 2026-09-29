@@ -78,4 +78,10 @@ National Tsing Hua University, National Yang Ming Chiao Tung University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the wild](qi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Endpoint Anticipation for Low-Latency Spoken Dialogue](udupa26_interspeech.md) — same problem · relatedness 2.0/3
+- [Evaluating Large Language Models Abilities for Addressee, Turn-change, and Next Speaker Prediction in Meetings](fukuda26b_interspeech.md) — same problem · relatedness 1.9/3
+- [CoDeTT: A Context-Aware Decision Benchmark for Turn-Taking Evaluation](shen26_interspeech.md) — same problem · relatedness 1.8/3
+- [Less can be More: What Aspects of Speech Drive End-of-Turn Detection](sharon26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

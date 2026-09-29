@@ -78,4 +78,10 @@ Univ. Grenoble Alpes, CNRS, Grenoble INP
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data](otani26_interspeech.md) — same problem · relatedness 1.9/3
+- [Towards Robust Ultrasound-based Silent Speech Recognition Learning Physics-Aware and Context-Rich Representations](wen26d_interspeech.md) — same problem · relatedness 1.9/3
+- [On the Role of the Tongue Region in Ultrasound-to-Acoustic Mapping](ibrahimov26_interspeech.md) — same problem · relatedness 1.9/3
+- [Quantifying Dimensional Independence in Speech: An Information-Theoretic Framework for Disentangled Representation Learning](kashyap26_interspeech.md) — complementary · relatedness 1.9/3
+- [The Role of Laryngeal Position in the Articulation of American English Velar Stop Consonants](kim26b_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

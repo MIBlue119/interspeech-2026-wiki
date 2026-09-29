@@ -77,4 +77,10 @@ Indian Institute of Science Education and Research Bhopal
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Privacy-Preserving ASR: Speaker-Level Machine Unlearning](ok26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Fair Cognitive Impairment Detection Through Unlearning](nguyen26e_interspeech.md) — shared technique · relatedness 1.9/3
+- [Causal Redundancy in Speech Representations: The Hydra Effect and Limits of Sparse Disentanglement in WavLM](narasinghe26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Localizing and Editing Knowledge in Large Audio-Language Models](chung26_interspeech.md) — same problem · relatedness 1.8/3
+- [A Unified Safety Subspace Exists in Speech Language Models](mukhituly26_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

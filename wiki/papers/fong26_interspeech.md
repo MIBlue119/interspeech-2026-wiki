@@ -76,4 +76,10 @@ Huawei Technologies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Do Neural Networks Learn for TDOA Estimation? A Cross-Architecture Probing Study](kang26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [End-Fire Degradation-Robust DOA Estimation for Compact Linear Microphone Arrays](wen26c_interspeech.md) — shared technique · relatedness 1.9/3
+- [QuadVAD: Fine-Grained Speech Detection with a Compact Architecture](rachumallu26_interspeech.md) — same problem · relatedness 1.8/3
+- [Multi-Channel Differential ASR for Robust Wearer Speech Recognition on Smart Glasses](yang26_interspeech.md) — same problem · relatedness 1.7/3
+- [Enroll-on-Wakeup: A First Comparative Study of Target Speech Extraction for Seamless Interaction in Real Noisy Human-Machine Dialogue Scenarios](yang26b_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -73,4 +73,10 @@ Meeami Technologies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WaveNorm: A Low-Complexity Time-Domain Neural Adaptive Gain Control for Real-Time Speech Applications](ijjada26_interspeech.md) — shared technique · relatedness 3.0/3
+- [SE-AGCNet: An End-to-End Framework for Joint Speech Enhancement and Loudness Control in Meeting Scenarios](zhang26n_interspeech.md) — same problem · relatedness 2.6/3
+- [DroFiT: A Lightweight Band-Fused Frequency Attention Toward Real-Time UAV Speech Enhancement](lee26n_interspeech.md) — same problem · relatedness 2.3/3
+- [Real-Time Speech Enhancement on Edge Devices Guided by Harmonic and Voice-Activity Cues Utilizing Skin-Attachable Accelerometer](song26g_interspeech.md) — same problem · relatedness 2.3/3
+- [RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation](chao26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

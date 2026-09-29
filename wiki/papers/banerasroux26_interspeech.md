@@ -79,4 +79,10 @@ Idiap Research Institute, Laboratoire d’Informatique et des Systèmes, EPFL, U
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Refining Pseudo-Audio Prompts with Speech-Text Alignment for Text-Only Domain Adaptation in LLM-Based ASR](magoshi26_interspeech.md) — same problem · relatedness 2.4/3
+- [TASU2: Controllable CTC Simulation for Alignment and Low-Resource Adaptation of Speech LLMs](peng26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Avoiding Catastrophic Forgetting in Text-Only Adaptation of LLM-based ASR via Multi-View Text Denoising](burdisso26_interspeech.md) — same problem · relatedness 2.4/3
+- [Merging the Knowledge of LLMs for Automatic Speech Recognition](futami26_interspeech.md) — same problem · relatedness 2.3/3
+- [Gumbel-BEARD: Automatic Layer Selection for Self-Supervised Adaptation of Whisper in Low-Resource Domains](wang26o_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

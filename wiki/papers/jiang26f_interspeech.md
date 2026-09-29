@@ -78,4 +78,10 @@ Bloomberg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Contextual Earnings-22: A Speech Recognition Benchmark with Custom Vocabulary in the Wild](munyampirwa26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation](srivastav26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [AppTek Call-Center Dialogues: A Multi-Accent Long-Form Benchmark for English ASR](beck26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [HALAS: A Human-Annotated Dataset of Hallucinations of Modern ASR Systems](baranski26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Tarsila-ASR: A Multi-Domain Test Suite for Benchmarking Brazilian Portuguese Speech Recognition](leal26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

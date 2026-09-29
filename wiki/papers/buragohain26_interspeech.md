@@ -81,4 +81,10 @@ Indian Institute of Technology Jammu, GLA University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Relating the Neural Representations of Vocalized, Mimed, and Imagined Speech](maghsoudi26_interspeech.md) — same problem · relatedness 2.0/3
+- [TAP-ETS: Time Aligned Phoneme Guiding for EMG-to-Speech Synthesis](han26f_interspeech.md) — same problem · relatedness 2.0/3
+- [GETS: Guiding EMG-to-Speech Synthesis via Silent Speech Recognition](lee26r_interspeech.md) — same problem · relatedness 1.9/3
+- [Tongue2Speech: Real-Time Speech Synthesis from Tongue Ultrasound Videos via Spatiotemporal Transformers](sonkar26_interspeech.md) — same problem · relatedness 1.9/3
+- [Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data](otani26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

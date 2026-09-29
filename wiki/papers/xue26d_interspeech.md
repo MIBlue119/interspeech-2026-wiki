@@ -77,4 +77,10 @@ Tsinghua University, Hong Kong University of Science and Technology, Chinese Uni
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Do Modern Video-LLMs Need to Listen? A Benchmark Audit and Scalable Remedy](kim26s_interspeech.md) — same problem · relatedness 2.5/3
+- [Consistent and Coherent Audio-Visual Understanding with Cross-Frame Patch Differential Attention and Cross-Modal Temporal Alignment](yan26b_interspeech.md) — same problem · relatedness 2.0/3
+- [AdaTS: Adaptive Token Sampling for Efficient Speech Language Models](sannigrahi26_interspeech.md) — shared technique · relatedness 2.0/3
+- [VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track](tu26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [MTC-AVSR: Compressed-Token-based Audio-Visual Speech Recognition and Translation with Contrastive Language Alignment](a26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

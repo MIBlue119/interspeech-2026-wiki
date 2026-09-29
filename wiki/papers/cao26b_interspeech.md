@@ -77,4 +77,10 @@ Tsinghua University, Zhejiang University, Tencent
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [An Efficient vLLM-Based Inference Pipeline for Unified Audio Understanding and Generation](wang26w_interspeech.md) — same problem · relatedness 2.3/3
+- [HybridCodec: Modeling Discrete and Continuous Representations For Efficient Speech Language Models](ploujnikov26_interspeech.md) — same problem · relatedness 2.2/3
+- [U-Codec: Neural Speech Codec under Extreme Temporal Compression for Fast High-Fidelity Speech Generation](yang26n_interspeech.md) — same problem · relatedness 2.0/3
+- [Accelerating End-to-End ASR via Semi-Autoregressive Speculative Decoding](wu26g_interspeech.md) — shared technique · relatedness 2.0/3
+- [AdaTS: Adaptive Token Sampling for Efficient Speech Language Models](sannigrahi26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

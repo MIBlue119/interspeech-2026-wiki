@@ -75,4 +75,10 @@ University of Calgary, Meta
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards participatory speech dataset curation: A queer case study and conceptual framework](sheppard26b_interspeech.md) — same problem · relatedness 2.1/3
+- [TMASC: Transmasculine Attitude and Speech Corpus](wong26_interspeech.md) — complementary · relatedness 2.0/3
+- [No-Shot Text-to-Speech: Limitations of Zero-Shot TTS and its Evaluation Methods in Representing Queer and Transgender Voices](francis26_interspeech.md) — same problem · relatedness 2.0/3
+- [The First Dravidian Speech Datasets for Transphobic and Homophobic Hate Speech: Creation, Annotation, and Multimodal Benchmarking](lakshmi26_interspeech.md) — complementary · relatedness 2.0/3
+- [Lived Experiences of Power and Agency: Achieving Voice Sovereignty in Assistive Speech Technology for Nonbinary Users](hope26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

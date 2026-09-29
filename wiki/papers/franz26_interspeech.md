@@ -79,4 +79,10 @@ Jade University of Applied Sciences, Carl von Ossietzky Universitat Oldenburg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ARTT: Augmented Reverberant-Target Training for Unsupervised Monaural Speech Dereverberation](song26d_interspeech.md) — same problem · relatedness 2.1/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — shared technique · relatedness 2.0/3
+- [Your U-Net Dereverberation Model is Secretly an RIR Encoder](khanagha26_interspeech.md) — same problem · relatedness 2.0/3
+- [SLICE: Speech Enhancement via Layer-wise Injection of Conditioning Embeddings](moon26_interspeech.md) — shared technique · relatedness 2.0/3
+- [DiffVQE: Hybrid Diffusion Voice Quality Enhancement Under Acoustic Echo and Noise](lugo26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

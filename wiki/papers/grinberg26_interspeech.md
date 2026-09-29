@@ -77,4 +77,10 @@ EPFL, Sony
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Enhancing Audio Reasoning via Semantic Summary Prediction](bonzi26_interspeech.md) — same problem · relatedness 2.8/3
+- [Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models](li26o_interspeech.md) — same problem · relatedness 2.6/3
+- [Which Speech Representation Better Matches Text-Native Reasoning? A Study of Speech-Text Alignment on Frame Rate and Representation](ye26_interspeech.md) — same problem · relatedness 2.5/3
+- [TinyGiantALM: A Compact Audio-Language Model for Intent-Aware Reasoning under Resource Constraints](ly26_interspeech.md) — same problem · relatedness 2.5/3
+- [Step-Audio-R1: Why Audio LLMs Fail at Reasoning — The Trap of Textual Surrogates](zhang26b_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,8 @@ Tianjin University, Tianjin Renai College, Tianjin University of Technology, Tia
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Tokens to Faces: Investigating Discrete Speech Representations for 3D Facial Animation](correa26_interspeech.md) — same problem · relatedness 2.0/3
+- [Integrating Facial Generation into Full-Duplex Spoken Dialogue Systems](jiang26g_interspeech.md) — same problem · relatedness 1.9/3
+- [From Lab to Laptop: Validating 3D Speech Kinematics with MediaPipe Face Mesh](sanchez26b_interspeech.md) — complementary · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

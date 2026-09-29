@@ -80,4 +80,10 @@ University of Shanghai for Science and Technology, Chinese Academy of Sciences, 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Distilling Structured Reasoning into SpeechLLMs for Spoken Language Understanding](tsukagoshi26_interspeech.md) — same problem · relatedness 1.9/3
+- [TinyGiantALM: A Compact Audio-Language Model for Intent-Aware Reasoning under Resource Constraints](ly26_interspeech.md) — same problem · relatedness 1.8/3
+- [MAC-SLU: Multi-Intent Automotive Cabin Spoken Language Understanding Benchmark](peng26d_interspeech.md) — same problem · relatedness 1.8/3
+- [SFL-MTSC: Leveraging Semantic Frame-Level Multi-Task Self-Consistency for Robust Multi-Intent Spoken Language Understanding](chen26ea_interspeech.md) — same problem · relatedness 1.8/3
+- [ML-KD-DRI-GAN: Teacher-Guided Denoising and Triplet-Adversarial Training for Robust Spoken Language Understanding](kumar26b_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

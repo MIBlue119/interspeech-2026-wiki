@@ -75,4 +75,10 @@ DeepNet Discovery Network, University of Auckland, University of Illinois Urbana
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [IACC-HuBERT: Intelligibility-Aware Channel Conditioning of HuBERT Frontend for Dysarthric Speech Conformer ASR](sapkota26_interspeech.md) — same problem · relatedness 2.6/3
+- [Mispronunciation Modeling via PPG-Based Phone Editing: A Data Augmentation Framework for Dysarthric Speech Recognition](ko26_interspeech.md) — same problem · relatedness 2.5/3
+- [Investigating ASR for Low-Intelligibility Dysarthric Speech](kwon26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Data-Efficient ASR Personalization for Non-Normative Speech Using an Uncertainty-Based Phoneme Difficulty Score for Guided Sampling](pokel26_interspeech.md) — same problem · relatedness 2.2/3
+- [BetterSpeak: An Atypical Speech to Typical Speech Platform for Dysarthric Speakers](shahamiri26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

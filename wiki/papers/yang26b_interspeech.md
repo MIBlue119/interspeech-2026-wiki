@@ -75,4 +75,10 @@ Shanghai Normal University, Unisound AI Technology Co., Ltd
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AV-SNINet: A multi-channel audio-visual speech-noise interaction network for Target Speaker Extraction with cross-beam attention](tu26c_interspeech.md) — same problem · relatedness 2.2/3
+- [WeSep: A Modular and Cue-Composable Framework for Target Speaker Extraction](zhang26k_interspeech.md) — same problem · relatedness 2.2/3
+- [NeuroMultiSpEx: Neuro-Guided Target Speaker Extraction for Multi-Speaker Scenarios](silva26_interspeech.md) — same problem · relatedness 2.1/3
+- [Online Audio-Visual Target Speaker Extraction with Viseme-Guided Lightweight Visual Pretraining](li26n_interspeech.md) — same problem · relatedness 2.1/3
+- [MeanFlow-TSE: One-Step Generative Target Speaker Extraction with Mean Flow](shimizu26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

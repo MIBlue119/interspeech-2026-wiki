@@ -76,4 +76,10 @@ Nanyang Technological University, Tianjin University, Southeast University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CTC-TTS: LLM-Based Dual-Streaming Text-to-Speech with CTC Alignment](liu26e_interspeech.md) — same problem · relatedness 2.7/3
+- [Streaming T5-based Text-to-Speech Synthesis with Limited Lookahead](du26_interspeech.md) — same problem · relatedness 2.5/3
+- [MagpieTTS-LF: Inference-Time Long-Form Speech Generation Without Training on Long-Form data](ghosh26f_interspeech.md) — same problem · relatedness 2.4/3
+- [FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation](xie26b_interspeech.md) — same problem · relatedness 2.1/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

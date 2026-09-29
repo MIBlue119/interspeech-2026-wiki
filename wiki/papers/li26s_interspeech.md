@@ -78,4 +78,10 @@ Nanyang Technological University, Nara Institute of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Parallel Time-Band Mixing with Learned Observation-Adding for Robust ASR Front-Ends](shen26c_interspeech.md) — shared technique · relatedness 2.6/3
+- [VIB-AVSR: Variational Information Bottleneck for Noise-Robust LLM-Based Audio-Visual Speech Recognition](arora26b_interspeech.md) — same problem · relatedness 2.3/3
+- [DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition](baik26_interspeech.md) — same problem · relatedness 2.2/3
+- [Attention-Guided Reliability Scaling for Contrastive Decoding in Robust Audio-Visual Speech Recognition](kim26h_interspeech.md) — same problem · relatedness 2.2/3
+- [Robust LLM-based Audio-Visual Speech Recognition with Sparse Modality Alignment and Visual Unit-Guided Refinement](su26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ Xinjiang University, Tsinghua University, AGIBOT
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [HistoMatch: Unified Transient-Steady Assessment for Noise-Robust Semi-Supervised Speaker Verification](gao26b_interspeech.md) — same problem · relatedness 2.4/3
+- [NoiseLoRA-SV: Hierarchical Noise-Conditioned Adaptation with Embedding Distillation for Robust Speaker Verification](gao26_interspeech.md) — same problem · relatedness 2.3/3
+- [Mixture Consistency Learning for Robust Speaker Verification in Noisy Environments](kim26c_interspeech.md) — same problem · relatedness 2.1/3
+- [Revisiting Label-Free Speaker Embedding Enhancement with vMF Profile Likelihood](kim26i_interspeech.md) — same problem · relatedness 2.1/3
+- [Self-supervised Speaker Verification with High-Confidence Pseudo-Label Selection and DINO-Style Self-Distillation Based on Pre-trained Models](li26ca_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

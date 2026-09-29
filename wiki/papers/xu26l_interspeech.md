@@ -79,4 +79,10 @@ National University of Defense Technology, Hunan Normal University, Hunan Univer
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Acoustic Prompting via Stage-wise Modulation for Few-Shot Learning in Audio Language Models](cho26_interspeech.md) — same problem · relatedness 3.0/3
+- [ZEBRA: Zero-Shot Entropy-Regularized Prompt Learning for Base-to-Novel Generalization in Audio-Language Models](hanif26_interspeech.md) — shared technique · relatedness 2.3/3
+- [Unlocking In-Context Learning in Audio-Language Models from Decentralized Medical Audio](piao26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Scaling few-shot spoken word classification with generative meta-continual learning](beyers26_interspeech.md) — same problem · relatedness 2.0/3
+- [Cross Domain Few-Shot Class-Incremental Audio Classification Via Adversarial Contrastive Learning](si26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

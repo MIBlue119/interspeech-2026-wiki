@@ -73,4 +73,10 @@ Improving automated audio question answering, multimedia content analysis, and c
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [EChO-Agent: Evidence Chain Orchestration Agent for Audio Reasoning](zhang26t_interspeech.md) — shared data / evaluation · relatedness 3.0/3
+- [Multi-Source Evidence Fusion for Audio Question Answering](olev26_interspeech.md) — shared data / evaluation · relatedness 3.0/3
+- [Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models](li26o_interspeech.md) — shared data / evaluation · relatedness 3.0/3
+- [MATA: A Training-Free Approach to Mitigate Cross-Modal Attention Imbalance in Large Audio Language Models](wang26t_interspeech.md) — shared data / evaluation · relatedness 2.9/3
+- [VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track](tu26b_interspeech.md) — shared data / evaluation · relatedness 2.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

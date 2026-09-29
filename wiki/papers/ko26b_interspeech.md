@@ -77,4 +77,10 @@ Hanyang University, Hankuk University of Foreign Studies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Retention-Preserving Gradient Projection with Entropy-Guided Token-Level Distillation for Rehearsal-Free Continual ASR](ma26d_interspeech.md) — same problem · relatedness 2.3/3
+- [Parameter-Efficient Continual Learning for Automatic Speech Recognition](eeckt26_interspeech.md) — same problem · relatedness 2.2/3
+- [Decoding while Adapting: Zero-Shot Online Speaker Adaptation via Audio-Textual Prompts for Elderly Speech Recognition](deng26_interspeech.md) — same problem · relatedness 2.0/3
+- [Continual Adaptation for Pacific Indigenous Speech Recognition](xiao26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Robust Multi-Tier Infant-Centered Audio Understanding with Whisper via Structured Speaker Conditioning](fan26b_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

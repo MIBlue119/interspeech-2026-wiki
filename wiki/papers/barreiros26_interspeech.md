@@ -78,4 +78,10 @@ Priberam Labs, Instituto Superior Tecnico, Instituto de Telecomunicacoes
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MPA-KWS: Multi-Modal Phoneme-Level Alignment for Streaming Open-Vocabulary Keyword Spotting](zhang26fa_interspeech.md) — same problem · relatedness 2.9/3
+- [Streaming Open-Vocabulary Keyword Spotting via Role Swapping in Cross-Attention](chen26q_interspeech.md) — same problem · relatedness 2.8/3
+- [SPARK: Efficient Audio-Text Matching for User-Defined Keyword Spotting via Spiking Neural Networks](baek26_interspeech.md) — same problem · relatedness 2.6/3
+- [Scalable Keyword Spotting via Modular Network Expansion](khaymonenko26_interspeech.md) — same problem · relatedness 2.4/3
+- [KFC-KWS: Keyframe Fusion with CTC for User-Defined Keyword Spotting](li26y_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

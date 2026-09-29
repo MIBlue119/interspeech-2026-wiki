@@ -75,4 +75,10 @@ Barcelona Supercomputing Center, Universitat Politecnica de Catalunya
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [KuralHub: Exposing Typological Capability Frontiers in Multilingual Speech Emotion Recognition](thavarasa26_interspeech.md) — same problem · relatedness 2.5/3
+- [Cross-Lingual Speaker Verification with Self-Supervised Pre-Trained Models](peng26f_interspeech.md) — shared technique · relatedness 2.1/3
+- [L-Proto: Language-Aware Episodic Prototypical Training for Multilingual Speaker Verification](oh26_interspeech.md) — same problem · relatedness 2.1/3
+- [TIMBRE: Layer-Wise Cross-Lingual Speech Emotion Recognition Across 49 Layers and 26 Corpora](marchenko26_interspeech.md) — same problem · relatedness 2.1/3
+- [Dual-LoRA: Parameter-Efficient Adversarial Disentanglement for Cross-Lingual Speaker Verification](shangguan26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

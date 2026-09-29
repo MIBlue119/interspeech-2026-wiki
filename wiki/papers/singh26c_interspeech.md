@@ -76,4 +76,10 @@ University of Maryland, TU Darmstadt, Smallest AI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Exploring Pre-training Benefits on Phoneme Addition through Fine-tuning in Speech Synthesis](murata26_interspeech.md) — same problem · relatedness 2.4/3
+- [Lightweight Cross-Lingual Speaker Adaptation for Indic TTS](kumar26e_interspeech.md) — same problem · relatedness 2.4/3
+- [DiFlow-TTS: Compact and Low-Latency Zero-Shot Text-to-Speech with Discrete Flow Matching](nguyen26d_interspeech.md) — shared technique · relatedness 2.0/3
+- [Transcript-Free Flow-Matching Text-to-Speech via Speech Feature Conditioning](eom26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

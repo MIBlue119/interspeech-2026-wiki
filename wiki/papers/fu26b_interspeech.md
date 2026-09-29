@@ -76,4 +76,10 @@ TU Braunschweig, Goodix Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — shared technique · relatedness 3.0/3
+- [Speech Enhancement Based on Drifting Models](xu26d_interspeech.md) — same problem · relatedness 2.9/3
+- [Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow](zhang26z_interspeech.md) — same problem · relatedness 2.9/3
+- [Absorbing Discrete Diffusion for Speech Enhancement](gonzalez26_interspeech.md) — same problem · relatedness 2.8/3
+- [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](gao26e_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

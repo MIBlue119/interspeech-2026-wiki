@@ -75,4 +75,10 @@ Dartmouth College, University of Auckland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech Recognition to Accelerate Documentation of Marquesan and Cook Islands Māori](teikitohe26_interspeech.md) — same problem · relatedness 2.0/3
+- [Pā‑Kakare: The First Emotional Speech Database for Te Reo Māori](rathnayake26_interspeech.md) — complementary · relatedness 1.9/3
+- [Oral stop realisation in three French Polynesian languages](fletcher26_interspeech.md) — same problem · relatedness 1.9/3
+- [Easper: An Accessible ASR Pipeline for Language Documentation](mahmudi26_interspeech.md) — same problem · relatedness 1.9/3
+- [NewAppVoice: Tools for Visualizing and Correcting Acoustic Measures](elmerich26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

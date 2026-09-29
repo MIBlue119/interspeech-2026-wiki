@@ -80,4 +80,10 @@ Shanghai Jiao Tong University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Rank-Distance Based Confidence Estimation for ASR](ravi26_interspeech.md) — same problem · relatedness 2.4/3
+- [Reinforcement Learning for Data-Efficient Code-Switched ASR](ye26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Direct Preference Optimization for English-Mandarin Code-Switching Speech Recognition in Audio LLMs](nguyen26_interspeech.md) — same problem · relatedness 1.9/3
+- [Contrastive Training with LLM-generated Near-Misses for Robust Code-Switching Speech Recognition](nguyen26i_interspeech.md) — same problem · relatedness 1.9/3
+- [Adding Robust Code-Switching Capabilities to High Performance Multilingual ASR](ugan26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ SUPSI, University of Bremen, King Abdullah University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Enhancing EMG-to-Speech via Silent-Voiced Representation Alignment](lee26v_interspeech.md) — same problem · relatedness 2.1/3
+- [TAP-ETS: Time Aligned Phoneme Guiding for EMG-to-Speech Synthesis](han26f_interspeech.md) — same problem · relatedness 2.0/3
+- [GETS: Guiding EMG-to-Speech Synthesis via Silent Speech Recognition](lee26r_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards Robust Ultrasound-based Silent Speech Recognition Learning Physics-Aware and Context-Rich Representations](wen26d_interspeech.md) — shared technique · relatedness 1.9/3
+- [SoniSpeech: A Large-Scale Open-Vocabulary Tri-Modal Dataset for Wearable Silent Speech Interfaces](zhang26y_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

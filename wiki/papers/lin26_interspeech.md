@@ -75,4 +75,10 @@ Academia Sinica, National Central University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CoRE: Contrastive Evidence-Aware Rescoring for Multiple-Choice Audio Question Answering](zhang26f_interspeech.md) — shared technique · relatedness 1.9/3
+- [Trajectory Variance: An Unsupervised Measure of Developmental Vocal Plasticity in Birdsong](lee26z_interspeech.md) — shared technique · relatedness 1.7/3
+- [Fair Cognitive Impairment Detection Through Unlearning](nguyen26e_interspeech.md) — shared technique · relatedness 1.6/3
+- [Branch-wise Complementary Attention for Acoustic Scene Classification](han26b_interspeech.md) — shared technique · relatedness 1.5/3
+- [Causal Redundancy in Speech Representations: The Hydra Effect and Limits of Sparse Disentanglement in WavLM](narasinghe26_interspeech.md) — shared technique · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

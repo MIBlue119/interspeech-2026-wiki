@@ -78,4 +78,10 @@ University of Southern California
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data](otani26_interspeech.md) — complementary · relatedness 1.9/3
+- [Articulatory Analysis of the Mandarin Alveolar–Retroflex Contrast Using Real-Time MRI](wu26d_interspeech.md) — shared technique · relatedness 1.9/3
+- [Larynx segmentation in mid-sagittal speech production real-time MRI](zhang26v_interspeech.md) — same problem · relatedness 1.8/3
+- [Beta Rebound as a Neural Signature for Speech Movement: Preliminary Evidence Using Magnetoencephalography](stanley26_interspeech.md) — same problem · relatedness 1.8/3
+- [Morphoacoustic Modeling of a Dynamic 3D Vocal Tract Using MRI-Constrained Deformations and FEM Acoustics](piyadasa26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

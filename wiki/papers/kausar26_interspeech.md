@@ -79,4 +79,10 @@ Chinese University of Hong Kong, Shenzhen, Harbin Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MOV-AAD: A Large-Scale Multimodal Dataset for Auditory Attention Decoding During Moving Conversations](he26g_interspeech.md) — same problem · relatedness 2.2/3
+- [SGAD: A State-Guided Adaptive Decision Framework for Robust EEG-Based Auditory Attention Switch Decoding](ding26d_interspeech.md) — same problem · relatedness 2.2/3
+- [Subject-Invariant Dynamic Graph Modeling for Cross-Subject EEG Imagined Speech Decoding](duraisamy26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Breaking Shortcut Learning for Cross-Trial EEG-Guided Target Speech Extraction via Two-Stage Training](shin26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [SAGE: Switch-Aware EEG-Guided Soft Gating for Target Speaker Extraction with In-Trial Switching](wang26p_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

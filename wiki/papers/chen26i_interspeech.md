@@ -75,4 +75,10 @@ Samsung
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [PolyBench: Benchmarking LLM-based TTS Systems for Chinese Polyphone Disambiguation](lu26_interspeech.md) — same problem · relatedness 2.5/3
+- [DEBATE: A Dataset for Disentangling Textual Ambiguity in Mandarin Through Speech](guo26e_interspeech.md) — same problem · relatedness 1.9/3
+- [Post-ASR Proper Noun Grounding via Multi-View Phonetic and Semantic Retrieval](nema26_interspeech.md) — complementary · relatedness 1.8/3
+- [Phonikud: Overcoming Phonetic Underspecification for Hebrew Text-To-Speech](kolani26_interspeech.md) — same problem · relatedness 1.8/3
+- [Benchmarking Large Language Models for Grapheme-to-Phoneme Conversion: A Japanese Case Study](koriyama26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ National Technical University of Athens, Athena Research Center, University of B
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [The Illusion of Balanced Multimodal Sentiment Analysis: Beyond the Limits of Optimization-Based Methods](kaffeza26_interspeech.md) — same problem · relatedness 2.8/3
+- [Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition](ryu26_interspeech.md) — same problem · relatedness 2.3/3
+- [MultiEmoVec: Learning Generalised Multimodal Emotion Representation by Momentum Contrast and Multi-task Reconstruction](liu26m_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [MF-EDM: Graph-based Multimodal Fusion and Emotional Dynamics Modeling for Emotion Recognition in Conversation](hwang26_interspeech.md) — same problem · relatedness 2.2/3
+- [ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling](zhang26ca_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

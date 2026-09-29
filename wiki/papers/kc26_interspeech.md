@@ -77,4 +77,10 @@ Government Engineering College Barton Hill, Government Engineering College Idukk
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Beyond Short Segments : Expanding Speaker Embeddings with Vector Archives](kang26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Do speech foundation models perceive speaker similarity as humans do?](kishi26_interspeech.md) — same problem · relatedness 1.9/3
+- [SISER: Speaker-Invariant Speech Emotion Recognition with Entropy-Based Adversarial Training](choi26e_interspeech.md) — shared technique · relatedness 1.8/3
+- [ProSDD: Learning Prosodic Representations for Speech Deepfake Detection against Expressive and Emotional Attacks](mahapatra26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

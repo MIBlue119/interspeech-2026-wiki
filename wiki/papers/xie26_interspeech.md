@@ -81,4 +81,10 @@ Guangdong Provincial Key Laboratory of Ultra High Definition Immersive Media Tec
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion](sharma26b_interspeech.md) — shared data / evaluation · relatedness 2.7/3
+- [SingFox: A Multi-Lingual Singfake Detection Corpus](shah26_interspeech.md) — shared data / evaluation · relatedness 2.6/3
+- [MultiAPI Spoof: A Multi-API Dataset and Local-Attention Network for Speech Anti-spoofing Detection](zhang26p_interspeech.md) — shared data / evaluation · relatedness 2.5/3
+- [DeepFense: A Unified, Modular, and Extensible Framework for Robust Audio Deepfake Detection](kheir26_interspeech.md) — same problem · relatedness 2.5/3
+- [ArFake: A Robust Framework for Multi-Dialect Arabic Speech Spoofing Detection Benchmark](elsetohy26_interspeech.md) — shared data / evaluation · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

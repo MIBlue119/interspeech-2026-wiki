@@ -79,4 +79,10 @@ Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [U-Codec: Neural Speech Codec under Extreme Temporal Compression for Fast High-Fidelity Speech Generation](yang26n_interspeech.md) — same problem · relatedness 2.8/3
+- [ContextCodec: Content-Focused Context Guidance for Ultra-Low Bitrate Speech Coding](liang26d_interspeech.md) — same problem · relatedness 2.7/3
+- [OmniCodec: Low Frame Rate Universal Audio Codec with Semantic–Acoustic Disentanglement](hu26b_interspeech.md) — same problem · relatedness 2.6/3
+- [A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization](zhang26ga_interspeech.md) — same problem · relatedness 2.5/3
+- [AugCodec: A Low-Bitrate Disentangled Neural Speech Codec via Data Augmentation](wang26y_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

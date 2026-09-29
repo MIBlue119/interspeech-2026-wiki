@@ -76,4 +76,10 @@ New York Institute of Technology, New York University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learning from Annotation Uncertainty: Entropy-Aware Curriculum for Speech Emotion Recognition](omidi26_interspeech.md) — same problem · relatedness 2.7/3
+- [Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention](wang26u_interspeech.md) — same problem · relatedness 2.5/3
+- [Progressive Weak Supervision for Speech Emotion Recognition](ta26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Segment-wise Embedding based Graph Attention Network for Effective Speech Emotion Recognition](song26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Explainable and Trustworthy Speech Emotion Recognition Using Confidence Score and Reinforcement Learning Rectified Speech Emotion Descriptors](chen26r_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

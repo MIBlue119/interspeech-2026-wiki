@@ -75,4 +75,10 @@ Idiap Research Institute, EPFL, University of Zurich, Uniphore, Brno University 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [COALA: Robust Contextualized Speech-augmented Language Modeling for ASR via Contrastive Regularizer and Biasing Score Estimation](guo26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Speech Encoder Fusion for LLM-based Automatic Speech Recognition](poncelet26_interspeech.md) — same problem · relatedness 2.2/3
+- [Contextual Earnings-22: A Speech Recognition Benchmark with Custom Vocabulary in the Wild](munyampirwa26_interspeech.md) — complementary · relatedness 2.1/3
+- [Towards Deep Contextual Reasoning from Broad Descriptions for ASR with Speech-LLM via Metadata-Driven Reasoning Chains](poncelet26b_interspeech.md) — same problem · relatedness 2.1/3
+- [AFG-Bias: Acoustic-Fusion-Gated Biasing for Plug-and-Play Hotword Customization in LLM-Based ASR](wu26i_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

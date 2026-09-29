@@ -81,4 +81,10 @@ University of Southern California
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Beyond Cross-Reconstruction: Probing-Based Disentanglement Evaluation for Acoustic Teleportation Codecs](grundhuber26_interspeech.md) — same problem · relatedness 2.0/3
+- [Speech Codec Probing from Semantic and Phonetic Perspectives](shi26g_interspeech.md) — same problem · relatedness 2.0/3
+- [CodecMOS-Accent: A MOS Benchmark of Resynthesized and TTS Speech from Neural Codecs Across English Accents](huang26f_interspeech.md) — same problem · relatedness 2.0/3
+- [Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders](aparin26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Causal Redundancy in Speech Representations: The Hydra Effect and Limits of Sparse Disentanglement in WavLM](narasinghe26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

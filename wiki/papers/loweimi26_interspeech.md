@@ -76,4 +76,10 @@ University of Cambridge, Queen's University Belfast, University of Surrey, Cisco
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition](ryu26_interspeech.md) — shared technique · relatedness 1.9/3
+- [On the Robustness of Speaker Embeddings for Cross-Domain Speaker Retrieval](huang26m_interspeech.md) — same problem · relatedness 1.9/3
+- [When Does Quality-Aware Multimodal Fusion Matter? A Leakage-Safe Diagnostic for Decision-Level Dependence](moon26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Closing the Modality Gap via Simplex-Constrained Representations](gupta26_interspeech.md) — same problem · relatedness 1.9/3
+- [Revisiting Active Speaker Detection: An In-the-Wild Benchmark for Generalization and Robustness](nguyen26b_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

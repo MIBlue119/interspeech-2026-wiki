@@ -75,4 +75,10 @@ Keio University, National Institute of Advanced Industrial Science and Technolog
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Listening to Motion in Space: Vision-Grounded Event-wise Video-to-Audio Generation and Rendering](park26m_interspeech.md) — shared technique · relatedness 1.8/3
+- [A Large-Scale Dataset of Listener Impressions of Emotional TTS](cooper26_interspeech.md) — complementary · relatedness 1.6/3
+- [Cross-modal Consistency Guidance for Robust Emotion Control in Auto-Regressive TTS Models](peng26g_interspeech.md) — same problem · relatedness 1.6/3
+- [Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions](zhang26m_interspeech.md) — shared technique · relatedness 1.5/3
+- [EmoInstruct-TTS: Dual-Path Instruction-Guided Emotional Speech Synthesis](wu26f_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

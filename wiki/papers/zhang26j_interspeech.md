@@ -76,4 +76,10 @@ TU Dresden
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Physics-Informed Neural Operator for Speech Production Analysis](yokota26_interspeech.md) — same problem · relatedness 1.9/3
+- [Feature Design and Generative Modelling in Deep Articulatory Synthesis](mcghee26_interspeech.md) — same problem · relatedness 1.9/3
+- [An Acoustic Landmark Database of the English Lexicon via Articulatory Synthesis](camara26_interspeech.md) — shared technique · relatedness 1.8/3
+- [STArK: Towards Synthesizing Articulatory Kinematics from Text](yin26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Phy-VC: Physics-Informed Voice Conversion for Privacy-Preserving Pathological Speech](ghosh26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

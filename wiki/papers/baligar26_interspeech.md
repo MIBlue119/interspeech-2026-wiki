@@ -75,4 +75,10 @@ Massachusetts General Hospital
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Reducing Measurement Noise in Digital Speech Biomarkers: Interpretable Composite Index Scores for Longitudinal ALS Monitoring in Clinical Trials](neumann26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Clinically-Supervised Hierarchical LoRA-MoE: A Parameter-Efficient Framework for Severity-Aware Dysarthric Speech Assessment](wang26ga_interspeech.md) — same problem · relatedness 2.0/3
+- [Speech and Video Biomarkers Exhibit Reduced Within-Subject Variability in Early Parkinson’s Disease and Resistance to Placebo and Hawthorne Effects](kothare26b_interspeech.md) — same problem · relatedness 2.0/3
+- [A Benchmark for Early-stage Parkinson's Disease Detection from Speech](zhong26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Adapting Self-Supervised Speech Representations for Cross-Lingual Dysarthria Detection in Parkinson's Disease](hernandez26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

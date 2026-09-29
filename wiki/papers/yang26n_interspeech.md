@@ -83,4 +83,10 @@ Peking University, Tencent, Shanghai Jiao Tong University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Low-Framerate Speech Tokenization via Two-Stage Latent Patch Modeling](lemerle26_interspeech.md) — same problem · relatedness 2.9/3
+- [ZipCodec: Simple and Pretrained-Model-Free Speech Tokenizer via Flow-Matching](ye26d_interspeech.md) — same problem · relatedness 2.9/3
+- [HybridCodec: Modeling Discrete and Continuous Representations For Efficient Speech Language Models](ploujnikov26_interspeech.md) — same problem · relatedness 2.8/3
+- [MSR-Codec: A Low-Bitrate Multi-Stream Residual Codec for High-Fidelity Speech Generation with Information Disentanglement](li26c_interspeech.md) — same problem · relatedness 2.8/3
+- [Probing Low Frame Rate Degradation in Neural Audio Codecs](gichamba26_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

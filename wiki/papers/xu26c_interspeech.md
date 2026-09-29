@@ -77,4 +77,10 @@ Australian National University, University of Queensland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SA-HRTF: A Sound-Assisted Approach to Personalized HRTF Modeling](zhao26f_interspeech.md) — same problem · relatedness 2.6/3
+- [GISNO: Neural Operator-based HRTF Personalization from 3D Meshes via Differentiable Helmholtz Rendering](huang26b_interspeech.md) — same problem · relatedness 2.5/3
+- [HRTF Personalization via Sim-to-Real Neural Field](masuyama26_interspeech.md) — same problem · relatedness 2.1/3
+- [TTBA: Spatial Prompted Text to Binaural Audio Generation Using Transformer](he26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Spec2Spatial: A Time-Frequency Spatial Attention Network for Binaural Audio Synthesis](he26b_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

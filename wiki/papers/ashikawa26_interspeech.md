@@ -74,4 +74,10 @@ Toshiba
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Human-in-the-Loop Multi-Agent Companion for Real-Time Entity Extraction and SLU-Driven ASR Error Correction](arumugam26_interspeech.md) — same problem · relatedness 2.1/3
+- [Massive Open-Vocabulary Keyword Spotting](barreiros26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Context Projector: Complementary Keyword and Dialogue Context Embeddings for LLM-based ASR](villatorotello26_interspeech.md) — same problem · relatedness 1.9/3
+- [Speech Recognition on TV Series with Video-Guided Post-ASR Correction](yang26o_interspeech.md) — same problem · relatedness 1.9/3
+- [Can Large Language Models Reliably Correct Errors in Low-Resource ASR? A Contamination-Aware Case Study on West Frisian](hao26b_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

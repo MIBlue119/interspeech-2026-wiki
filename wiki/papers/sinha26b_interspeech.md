@@ -76,4 +76,10 @@ NIT Sikkim, Aalto University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Gumbel-BEARD: Automatic Layer Selection for Self-Supervised Adaptation of Whisper in Low-Resource Domains](wang26o_interspeech.md) — same problem · relatedness 2.5/3
+- [Entropy-Aware Domain-Routed Mixture-of-Experts Speech-LLM Framework: A Case Study of Multi-Domain Child-Adult ASR](shi26c_interspeech.md) — same problem · relatedness 2.1/3
+- [BabAR: from phoneme recognition to developmental measures of young children''s speech production](lavechin26_interspeech.md) — same problem · relatedness 2.0/3
+- [PhonLLM: Joint Phone Recognition and Phonological Process Inference for Child Speech](baumann26_interspeech.md) — same problem · relatedness 2.0/3
+- [Phoneme-Level Mispronunciation Screening in Polish-Speaking Children with an Explainable Assistant](dudek26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Ohio State University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [L2 Speakers Accommodate Differently to AI and Human Voices Across Phonetic Features](gan26_interspeech.md) — same problem · relatedness 2.8/3
+- [Modulation of Phonetic Realizations in Cantonese Dialogue with Human and AI Interlocutors](chen26m_interspeech.md) — same problem · relatedness 2.2/3
+- [Speech Entrainment in Multi-Party Conversations with a Digital Agent](mehlman26_interspeech.md) — same problem · relatedness 1.9/3
+- [On Entrainment in Semi-Spontaneous Multilingual Parliamentary Speech](ries26_interspeech.md) — same problem · relatedness 1.9/3
+- [PyPhonPlan: Simulating phonetic planning with dynamic neural fields and task dynamics](kirkham26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

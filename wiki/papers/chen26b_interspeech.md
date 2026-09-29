@@ -74,4 +74,10 @@ National Taiwan University, Inventec Corporation, University of Southern Califor
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Sexualised Synthetic Personas Encode and Amplify Gendered Power Asymmetries through Voice](ross26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Hidden Priors in Speech LLMs: Speaker Identity Shapes Emotional Perception](chou26_interspeech.md) — same problem · relatedness 1.9/3
+- [MOS-Bias: From Hidden Gender Bias to Gender-Aware Speech Quality Assessment](ren26_interspeech.md) — same problem · relatedness 1.9/3
+- [The Voice Behind the Words: Quantifying Intersectional Bias in SpeechLLMs](bokkahallisatish26_interspeech.md) — same problem · relatedness 1.9/3
+- [Lost in Phonation: Voice Quality Variation as an Evaluation Dimension for Speech Foundation Models](lameris26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

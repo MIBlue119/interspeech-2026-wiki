@@ -75,4 +75,10 @@ DeepNet Discovery Network, University of Auckland, University of Illinois Urbana
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Clinically-Supervised Hierarchical LoRA-MoE: A Parameter-Efficient Framework for Severity-Aware Dysarthric Speech Assessment](wang26ga_interspeech.md) — same problem · relatedness 2.6/3
+- [Uncovering Dimension-Specific Layer Preferences in Wav2Vec2 for Fine-Grained Perceptual Assessment of Dysarthric Speech](zhong26_interspeech.md) — same problem · relatedness 2.5/3
+- [Something from Nothing: Data Augmentation for Robust Severity Level Estimation of Dysarthric Speech](bae26_interspeech.md) — same problem · relatedness 2.3/3
+- [Towards Dys-XAI: Influence-Based Explanations for Dysarthria Severity Assessment](wu26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Multi-Phonation Graph Learning with Self-Supervised Speech Embeddings for ALS Detection and Progression Prediction](taghibeyglou26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

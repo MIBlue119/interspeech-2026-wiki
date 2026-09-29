@@ -73,4 +73,10 @@ University of New South Wales, Massachusetts Institute of Technology, University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Looking for Affect in Spontaneous Finnish Speech through Linguistic Interpretability](lahtinen26_interspeech.md) — same problem · relatedness 1.9/3
+- [Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition](ryu26_interspeech.md) — same problem · relatedness 1.8/3
+- [EII-SCL: Harnessing Emotional Inertia for Multimodal Emotion Recognition in Conversation](huang26p_interspeech.md) — same problem · relatedness 1.7/3
+- [Predicting Cognitive Load from Speech and Interaction Dynamics in Dyadic Conversations](chowdhury26_interspeech.md) — shared data / evaluation · relatedness 1.7/3
+- [MER-Live: An Interactive Browser Demo of Prosody-Driven Multimodal Emotion Recognition](song26h_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

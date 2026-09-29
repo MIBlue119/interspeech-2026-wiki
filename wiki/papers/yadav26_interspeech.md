@@ -81,4 +81,10 @@ Indraprastha Institute of Information Technology Delhi
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [POTSA: A Cross-Lingual Speech Alignment Framework for Speech-to-Text Translation](li26k_interspeech.md) — same problem · relatedness 2.1/3
+- [Automated Gradient-Driven Parameter Sharing for Low-Resource Multilingual Speech-to-Text Translation](sun26d_interspeech.md) — same problem · relatedness 2.1/3
+- [Bridging Languages and Modalities: Lightweight Cross-Lingual Text and Speech Summarization for Low-Resource Scenarios](chellaf26_interspeech.md) — same problem · relatedness 2.0/3
+- [The Interspeech 2026 Challenge on Transfer of Pragmatic Intent in Speech-to-Speech Translation](ward26_interspeech.md) — same problem · relatedness 2.0/3
+- [MoVE: Translating Laughter and Tears via Mixture of Vocalization Experts in Speech-to-Speech Translation](chen26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

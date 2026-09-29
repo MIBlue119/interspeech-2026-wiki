@@ -79,4 +79,10 @@ Xiaomi
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [UR-BERT: Scaling Text Encoders for Massively Multilingual TTS Through Universal Romanization and Speech Token Prediction](lee26h_interspeech.md) — same problem · relatedness 2.7/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.6/3
+- [IN-F5: Adapting an English TTS Foundation Model for Multilingual and Zero-Resource Indian Speech Synthesis](varadhan26_interspeech.md) — same problem · relatedness 2.4/3
+- [Semantic-VAE: Semantic-Alignment Latent Representation for Better Speech Synthesis](niu26_interspeech.md) — same problem · relatedness 2.4/3
+- [SARA: A Dual-Stream VAE for High-Fidelity Speech Generation via Integrating Semantic and Acoustic Representations](chen26v_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

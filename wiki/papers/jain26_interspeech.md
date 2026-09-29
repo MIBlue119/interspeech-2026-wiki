@@ -78,4 +78,10 @@ Trinity College Dublin
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Assessing True Generalisability of Audio-Visual Speech Recognisers](lin26m_interspeech.md) — same problem · relatedness 1.9/3
+- [All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation](foo26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Too Good to Be True: A Study on Modern Automatic Speech Recognition Systems for the Evaluation of Speech Enhancement](oliveira26b_interspeech.md) — shared data / evaluation · relatedness 1.7/3
+- [Perceptual compensation for tonal context in self-supervised speech models](kirby26_interspeech.md) — relatedness 1.7/3
+- [Readability Does Not Predict Speech Recognition Errors: Contrasting Human and Machine Perception.](ramonda26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

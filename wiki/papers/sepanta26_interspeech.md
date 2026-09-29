@@ -77,4 +77,10 @@ Fondazione Bruno Kessler, University of Trento
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Collecting Prosody in the Wild: A Content-Controlled, Privacy-First Smartphone Protocol and Empirical Evaluation](koch26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [From Single to Multi-Label SER: Dataset and Mamba-Based Fusion Model](tran26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Personal Attribute Leakage in Federated Speech Models](alali26_interspeech.md) — same problem · relatedness 2.0/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — same problem · relatedness 2.0/3
+- [ERM-MinMaxGAP: Benchmarking and Mitigating Gender Bias in Multilingual Multimodal Speech-LLM Emotion Recognition](pang26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

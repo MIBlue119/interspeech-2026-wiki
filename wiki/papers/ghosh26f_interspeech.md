@@ -77,4 +77,10 @@ NVIDIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input](liu26i_interspeech.md) — same problem · relatedness 2.4/3
+- [audiobook-cc: Controllable Long-context Speech Generation for Multicast Audiobook](liu26p_interspeech.md) — same problem · relatedness 2.2/3
+- [TC-DBI: A Plug-and-Play Trajectory Confidence-Guided Dynamic Block Inference Strategy for Speech Synthesis with Continuous Block Flow Matching](wang26v_interspeech.md) — same problem · relatedness 2.1/3
+- [ZipL-Dialog: Memory-Efficient Long-Form Spoken Dialog Synthesis via Latent Flow Matching](kim26_interspeech.md) — same problem · relatedness 2.0/3
+- [Segmental Attention Decoding With Long Form Acoustic Encodings](swietojanski26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

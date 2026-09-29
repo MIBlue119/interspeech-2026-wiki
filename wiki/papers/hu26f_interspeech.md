@@ -84,4 +84,10 @@ Inner Mongolia University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [RT-Tango: Real-Time Distributed Binaural Speech Enhancement for Low-Power Hearing Aid Devices](benslimane26_interspeech.md) — same problem · relatedness 2.6/3
+- [Active Constructive Interference for Speech](yaish26_interspeech.md) — same problem · relatedness 2.1/3
+- [RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation](chao26_interspeech.md) — same problem · relatedness 2.1/3
+- [A Dynamic Knowledge Distillation Framework for Mitigating Spatial Ambiguity in Lightweight Dual-Channel Speech Enhancement](yang26i_interspeech.md) — same problem · relatedness 2.1/3
+- [Neuromorphic Speech Enhancement with Dual-Branch Spiking Neural Networks](meng26d_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

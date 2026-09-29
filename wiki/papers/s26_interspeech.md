@@ -81,4 +81,10 @@ Indian Institute of Science
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MOS-Bias: From Hidden Gender Bias to Gender-Aware Speech Quality Assessment](ren26_interspeech.md) — same problem · relatedness 1.9/3
+- [Rethinking Speech Foundation Model Fine-tuning: Better SFT or Better Match?](zhou26i_interspeech.md) — shared technique · relatedness 1.9/3
+- [Vocal Tract Disparity and Potential Implications for Speaker Recognition](danner26_interspeech.md) — same problem · relatedness 1.8/3
+- [ERM-MinMaxGAP: Benchmarking and Mitigating Gender Bias in Multilingual Multimodal Speech-LLM Emotion Recognition](pang26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Exploring Pre-training Benefits on Phoneme Addition through Fine-tuning in Speech Synthesis](murata26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

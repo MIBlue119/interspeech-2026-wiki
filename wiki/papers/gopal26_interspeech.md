@@ -77,4 +77,10 @@ Nanyang Technological University, AI Singapore, National University of Singapore
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Turning Speech Language Models into Multilingual Listeners](ogunremi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Towards Enabling Multilingual Multitask SpeechLLMs in Data-Scarce Settings](fong26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Does Translation-Enhanced Speech Encoder Pre-training Affect Speech LLMs?](mizumoto26_interspeech.md) — same problem · relatedness 2.1/3
+- [Do What I Say: A Spoken Prompt Dataset for Instruction-Following](zufle26_interspeech.md) — same problem · relatedness 2.0/3
+- [CAAD: Contrastive Audio-Aware Distillation for Efficient Speech Language Models](chen26e_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

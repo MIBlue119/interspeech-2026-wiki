@@ -75,4 +75,10 @@ University of Maryland, College Park
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MATA: A Training-Free Approach to Mitigate Cross-Modal Attention Imbalance in Large Audio Language Models](wang26t_interspeech.md) — same problem · relatedness 2.8/3
+- [AudioGround: Fine-Grained Temporal Grounding in Audio via Deterministic Boundary Supervision](kim26z_interspeech.md) — same problem · relatedness 2.4/3
+- [GigaChat Audio: Time-aware Large Audio Language Model](kutsakov26_interspeech.md) — same problem · relatedness 2.4/3
+- [Towards Fine-Grained Temporal Perception: Post-Training Large Audio-Language Models with Audio-Side Time Prompt](shi26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Hearing the Order: Investigating Position Bias in Large Audio-Language Models](lin26c_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Colby College
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Shifting Relational Paradigms for Affective Computing: Affective Resonance, Vitality Affects, and Vocal Interaction Fields](gorman26_interspeech.md) — same problem · relatedness 1.8/3
+- [Steps toward a wearable-informed model of real-world listening effort and fatigue among adults with hearing loss](meng26e_interspeech.md) — same problem · relatedness 1.8/3
+- [Automatic Detection of Stress from Speech in the Trier Social Stress Test](drimalla26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Deep learning-based predictions of perceived listening effort and intelligibility across enhanced, synthetic, natural, and binaural speech](hoffner26_interspeech.md) — same problem · relatedness 1.7/3
+- [Beyond Binary: Speech Representations Across the Cognitive Score Hierarchy](kopar26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

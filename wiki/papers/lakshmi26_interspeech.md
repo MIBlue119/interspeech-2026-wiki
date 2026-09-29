@@ -78,4 +78,10 @@ Amrita Vishwa Vidyapeetham, University of Auckland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VINAYAKA: Multilingual Audio-Visual Hate Speech Detection via Cross-Modal Fusion in Hyperbolic Space](kuwar26_interspeech.md) — same problem · relatedness 2.4/3
+- [Queer inclusion in speech datasets: An audit and taxonomy of practical tensions](sheppard26_interspeech.md) — complementary · relatedness 2.0/3
+- [Towards participatory speech dataset curation: A queer case study and conceptual framework](sheppard26b_interspeech.md) — complementary · relatedness 2.0/3
+- [Said Aloud, Read Different: Cross-Modal Instability in Multimodal Models](mousi26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [Overcoming Decoder Inconsistencies in Whisper for Dravidian and Low-Resource Languages](kumar26c_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

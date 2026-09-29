@@ -80,4 +80,10 @@ Hertie Institute for AI in Brain Health, Tübingen AI Center, Humboldt-Universit
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Natural Speech Encodes Early Markers of Cognitive Decline: Evidence from Clinical Conversations](haghbin26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Listening Between the Lines: Joint Learning of ASR Embeddings and LLM-Augmented Linguistics for Dementia Detection](jung26_interspeech.md) — same problem · relatedness 2.1/3
+- [Mitigating Scoring Errors and Compensating for Nonverbal Subtests in Speech-Based Dementia Assessment](braun26_interspeech.md) — same problem · relatedness 2.1/3
+- [Task-Conditioned Audio-Text-Image Fusion for Cognitive Score Estimation from Speech-Based Assessments](krzywdziak26_interspeech.md) — same problem · relatedness 2.1/3
+- [Foundational speech models evaluation on multilingual dementia prediction](eljasiak26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Rivian and Volkswagen Group Technologies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [MAC-SLU: Multi-Intent Automotive Cabin Spoken Language Understanding Benchmark](peng26d_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Do What I Say: A Spoken Prompt Dataset for Instruction-Following](zufle26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [From Reactive to Proactive: Assessing the Proactivity of Voice Agents via ProVoice-Bench](xu26k_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [A Unified and Reproducible Experimentation Framework for Speech Understanding](peng26e_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

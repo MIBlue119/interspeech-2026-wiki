@@ -78,4 +78,10 @@ Inner Mongolia University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SpkGuideDOA: Speaker-wise Representation Guidance for Multiple Moving Speaker Localization](choi26g_interspeech.md) — same problem · relatedness 2.1/3
+- [BiEAR: A Human Auditory-Inspired Adaptive Binaural Front-end for Multi-Speaker Localisation and Distance Estimation](meng26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Learning Self-Supervised Spatial Representations via Soft Acoustic Contrastive Alignment](silverman26_interspeech.md) — same problem · relatedness 1.9/3
+- [End-Fire Degradation-Robust DOA Estimation for Compact Linear Microphone Arrays](wen26c_interspeech.md) — same problem · relatedness 1.9/3
+- [Ego-Noise-Aware Spatial Filtering for Reliable UAV Audition in Extreme Low-SNR Conditions](jeon26b_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

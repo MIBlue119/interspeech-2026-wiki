@@ -77,4 +77,10 @@ Shanghai Jiao Tong University, AISpeech Ltd, ETH Zurich, Nanjing University, Han
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation](srivastav26_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [Spashta Audio-Bench: Unified ASR and TTS Evaluation Framework across Indian Languages](dutta26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Audio2Tool: Speak, Call, Act - A Dataset for Benchmarking Speech Tool Use](pahwa26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [MAC-SLU: Multi-Intent Automotive Cabin Spoken Language Understanding Benchmark](peng26d_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

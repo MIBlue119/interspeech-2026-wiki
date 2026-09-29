@@ -79,4 +79,10 @@ Wuhan University, Harbin Engineering University, Xi'an University of Posts and T
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Consistency-Regularized Dual-Branch Network with Performance-Aware Mean Teacher for Sound Event Detection](dai26_interspeech.md) — same problem · relatedness 2.6/3
+- [POP-SED: Prototype Orthogonal Projection for Robust Few-shot Sound Event Detection](kagoshima26_interspeech.md) — same problem · relatedness 2.3/3
+- [A Semantic-Anchor-based Method for Open-Vocabulary Sound Event Detection](liu26f_interspeech.md) — same problem · relatedness 2.2/3
+- [Teacher-Agnostic Temporal Knowledge Distillation for Resource-Efficient Sound Event Detection](son26_interspeech.md) — same problem · relatedness 2.2/3
+- [Sleep Sound Event Detection Powered by Learnable Multi-Resolution Adaptive Line Enhancer](park26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

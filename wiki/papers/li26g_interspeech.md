@@ -81,4 +81,10 @@ Hong Kong Polytechnic University, Brno University of Technology, Shenzhen Zhuiyi
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DGS-MLDG: Domain Gradient Surgery Guided Meta-Learning for Domain Generalization in Speech Deepfake Detection](qin26_interspeech.md) — same problem · relatedness 2.5/3
+- [Improving Generalization in Speech Deepfake Detection via Orthogonality-Constrained Common-Specific Feature Decorrelation](kim26l_interspeech.md) — same problem · relatedness 2.5/3
+- [RAT: Reference-Augmented Training for ASV Anti-Spoofing](stanek26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Domain-Adaptive Dual-Gating Mixture of Experts for Generalizable Speech Deepfake Detection](qin26b_interspeech.md) — same problem · relatedness 2.5/3
+- [DAR-Boost: A Differentiable and Adaptive Raw Data Augmentation Framework for Robust Anti-Spoofing](li26i_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

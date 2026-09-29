@@ -76,4 +76,10 @@ Chongqing University of Posts and Telecommunications
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Predictive Directional Selective Fixed-Filter Active Noise Control for Moving Sources via a Convolutional Recurrent Neural Network](wang26e_interspeech.md) — same problem · relatedness 2.3/3
+- [A Sparsity-Aware Robust Nonlinear Active Noise Control for Impulsive Noise Environments](xu26_interspeech.md) — same problem · relatedness 2.0/3
+- [Active Constructive Interference for Speech](yaish26_interspeech.md) — shared technique · relatedness 2.0/3
+- [NCPSZ: A Nonlinear Control Network for Miniature Loudspeakers in Personal Sound Zone Applications](gong26_interspeech.md) — same problem · relatedness 1.9/3
+- [A Causal Reference-Enhanced Keep-Speech Active Noise Control Method](rao26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

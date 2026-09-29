@@ -76,4 +76,10 @@ Politecnico di Torino, Kore University of Enna, Amazon, Universita degli Studi d
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [HALAS: A Human-Annotated Dataset of Hallucinations of Modern ASR Systems](baranski26_interspeech.md) — shared data / evaluation · relatedness 2.9/3
+- [Preference-ASR: A Preference-Aware Test Set for Benchmarking ASR in the Era of Speech LLMs](koluguri26_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [From Text Metrics to Model Internals: A Study of Whisper ASR Hallucination Detection](jasinski26_interspeech.md) — same problem · relatedness 2.3/3
+- [Probing and Mitigating Hallucinations in Speech-augmented Language Models for Automatic Speech Recognition via Small Language Models](yan26c_interspeech.md) — same problem · relatedness 2.2/3
+- [Noise-Aware In-Context Learning for Hallucination Mitigation in ALLMs](huang26k_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

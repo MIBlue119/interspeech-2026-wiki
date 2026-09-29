@@ -77,4 +77,10 @@ Columbia University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DisenEEG-Net: Disentangling EEG features via sufficient information bottleneck and adversarial learning for cross-subject auditory attention detection](kausar26_interspeech.md) — same problem · relatedness 2.2/3
+- [SAGE: Switch-Aware EEG-Guided Soft Gating for Target Speaker Extraction with In-Trial Switching](wang26p_interspeech.md) — complementary · relatedness 2.0/3
+- [SGAD: A State-Guided Adaptive Decision Framework for Robust EEG-Based Auditory Attention Switch Decoding](ding26d_interspeech.md) — same problem · relatedness 2.0/3
+- [NeuroMultiSpEx: Neuro-Guided Target Speaker Extraction for Multi-Speaker Scenarios](silva26_interspeech.md) — complementary · relatedness 1.9/3
+- [SCANS: Supervised Contrastive Temporal Alignment of Neural Responses and Speech Stimuli](hassan26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

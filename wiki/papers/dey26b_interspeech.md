@@ -75,4 +75,10 @@ Samsung
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Post-ASR Proper Noun Grounding via Multi-View Phonetic and Semantic Retrieval](nema26_interspeech.md) — same problem · relatedness 1.9/3
+- [A Human-in-the-Loop Multi-Agent Companion for Real-Time Entity Extraction and SLU-Driven ASR Error Correction](arumugam26_interspeech.md) — same problem · relatedness 1.9/3
+- [Entity Binding Failures in Speech LLM Reasoning: Diagnosis and Chain-of-Thought Intervention](hsu26_interspeech.md) — same problem · relatedness 1.7/3
+- [Beyond WER: Entity and Disfluency Recall in Accented Conversational ASR](husain26_interspeech.md) — same problem · relatedness 1.7/3
+- [Towards Deep Contextual Reasoning from Broad Descriptions for ASR with Speech-LLM via Metadata-Driven Reasoning Chains](poncelet26b_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

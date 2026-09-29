@@ -74,4 +74,10 @@ Western Sydney University, Deakin University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [BabAR: from phoneme recognition to developmental measures of young children''s speech production](lavechin26_interspeech.md) — same problem · relatedness 1.8/3
+- [Deriving Benchmarking Datasets from Long-Form Recordings: Challenges and Opportunities](sheth26_interspeech.md) — complementary · relatedness 1.8/3
+- [ELSI: An Interface for Standardizing Child-Centered Datasets, Applying Machine Learning Models, and Extracting Metrics](sheth26c_interspeech.md) — complementary · relatedness 1.7/3
+- [BabyHuBERT: Multilingual Self-Supervised Learning for Segmenting Speakers in Child-Centered Long-Form Recordings](charlot26_interspeech.md) — same problem · relatedness 1.7/3
+- [Dynamic Time Warping Reveals Prosodic Alignment in Caregiver–Child Interactions across Languages](rust26_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

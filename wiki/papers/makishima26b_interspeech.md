@@ -74,4 +74,10 @@ NTT
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Grounding Spoken LLMs in Multi-Speaker Audio via Diarization Conditioning](polok26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Who Spoke What When? Evaluating Spoken Language Models for Conversational ASR with Semantic and Overlap-Aware Metrics](tawara26_interspeech.md) — same problem · relatedness 2.1/3
+- [Mitigating Speaker Leakage in Cascaded Multi-talker ASR with Diarization-based Transcript Correction](nkouanga26_interspeech.md) — same problem · relatedness 2.1/3
+- [Beyond Mimicry: Constrained Exploration with GRPO for Joint Multi-Talker ASR and Diarization under Unknown Speaker Counts](cai26c_interspeech.md) — same problem · relatedness 2.1/3
+- [Improving Streaming Speaker Diarization for LLM Based Multi-talker Speech Understanding](lin26f_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

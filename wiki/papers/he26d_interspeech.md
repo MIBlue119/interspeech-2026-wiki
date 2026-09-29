@@ -79,4 +79,10 @@ University of Science and Technology of China, University of Edinburgh
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Gated Multi-graph Fusion via Graph Attention Networks for Alzheimer’s Disease Detection](li26ga_interspeech.md) — same problem · relatedness 2.2/3
+- [Fair Cognitive Impairment Detection Through Unlearning](nguyen26e_interspeech.md) — same problem · relatedness 2.1/3
+- [Synergizing Zero-Shot Cross-Lingual Alzheimer Detection with Language-Invariant Multimodal Bi-Geometric Adversarial Learning](girish26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Listening Between the Lines: Joint Learning of ASR Embeddings and LLM-Augmented Linguistics for Dementia Detection](jung26_interspeech.md) — same problem · relatedness 2.1/3
+- [Foundational speech models evaluation on multilingual dementia prediction](eljasiak26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

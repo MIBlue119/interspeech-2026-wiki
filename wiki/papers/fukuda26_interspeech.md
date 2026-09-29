@@ -78,4 +78,7 @@ Keio University, University of Tokyo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SELFIX: An Interactive System for Natural Self-Voice Approximation](orepic26_interspeech.md) — complementary · relatedness 1.7/3
+- [Beyond One-Size-Fits-All: Personalized and Culturally Adaptive Emotional TTS via Interactive Optimization of Individual Emotion Perception Spaces](zhou26e_interspeech.md) — complementary · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

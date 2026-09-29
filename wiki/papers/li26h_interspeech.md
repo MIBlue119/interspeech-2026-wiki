@@ -78,4 +78,10 @@ Harbin Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MeloDISinger: Melody-Aware & Duration-Preserving Singing Voice Editing with Audio Infilling](park26k_interspeech.md) — same problem · relatedness 2.4/3
+- [Hierarchical Conditional Continuous Normalizing Flows for Creaky Voice Editing under Speaker Identity Preservation](rautenberg26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow](zhang26z_interspeech.md) — shared technique · relatedness 1.9/3
+- [ETC-TTS: Emotion Trajectory Learning for Controllable Emotional Text-to-Speech](kim26u_interspeech.md) — shared technique · relatedness 1.9/3
+- [Singing Voice Conversion via Shared Speaker Space and Min-Pooling Adversarially Enhanced Flow Matching](hu26g_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

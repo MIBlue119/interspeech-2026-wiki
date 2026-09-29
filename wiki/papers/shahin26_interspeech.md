@@ -66,4 +66,10 @@ University of New South Wales, University of Sydney
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Phoneme-Level Mispronunciation Screening in Polish-Speaking Children with an Explainable Assistant](dudek26_interspeech.md) — same problem · relatedness 2.0/3
+- [PhonLLM: Joint Phone Recognition and Phonological Process Inference for Child Speech](baumann26_interspeech.md) — same problem · relatedness 2.0/3
+- [Using Phonological-Level Wav2Vec2 for Mandarin Automatic Mispronunciation Detection and Diagnosis](chen26g_interspeech.md) — shared technique · relatedness 2.0/3
+- [Detection of Incorrect Place of Articulation in Polish Sibilants Using Convolutional Autoencoders](pieniazek26_interspeech.md) — same problem · relatedness 2.0/3
+- [Informativity of high-frequency bands on the place of articulation shift in retroflex sibilants produced by children](skorzewska26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

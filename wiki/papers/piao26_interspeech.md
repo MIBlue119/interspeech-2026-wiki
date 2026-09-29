@@ -80,4 +80,10 @@ Eindhoven University of Technology, Erasmus MC, Rijnstate Hospital, Maxima MC Ho
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AuscuTSLM: Patient-Level Multimodal Question Answering from Multi-Site Auscultation Recordings](wu26j_interspeech.md) — same problem · relatedness 2.1/3
+- [Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment](ilerisoy26_interspeech.md) — same problem · relatedness 2.0/3
+- [Audio-Language Prompt Learning for Few-Shot Audio Classification](xu26l_interspeech.md) — shared technique · relatedness 2.0/3
+- [Synergizing Zero-Shot Cross-Lingual Alzheimer Detection with Language-Invariant Multimodal Bi-Geometric Adversarial Learning](girish26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Two-stage semi-supervised learning with pseudo-labels: A case study on Northern Sámi ASR](pal26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

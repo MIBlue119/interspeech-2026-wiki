@@ -65,4 +65,10 @@ Google, Te Taura Whiri i te Reo Māori
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Indigenising Speech Technology: Building a TTS Model for te Reo Māori](leoni26_interspeech.md) — same problem · relatedness 2.6/3
+- [Mapping Acceptable Pronunciation Range for te reo Māori through Perceptual, Acoustic, and Marker Evaluative Data](evans26_interspeech.md) — complementary · relatedness 1.9/3
+- [When Machines Speak Like Local Peers: Improving Conversational Experiences with Accent-Adaptive Voice Agents](garnaik26_interspeech.md) — same problem · relatedness 1.9/3
+- [Decolonizing Linguistic Policies in Automatic Speech Recognition: A Framework for Cross-Culturally Competent Speech AI](cunningham26_interspeech.md) — complementary · relatedness 1.9/3
+- [Two Lessons Learned from the SGILE project: Efficient Building and Evaluation of TTS Voices](pine26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

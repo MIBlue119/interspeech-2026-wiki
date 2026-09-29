@@ -79,4 +79,10 @@ Xiamen University, DiDi Global Inc
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Semantic-VAE: Semantic-Alignment Latent Representation for Better Speech Synthesis](niu26_interspeech.md) — same problem · relatedness 2.9/3
+- [Beyond Two-stage Diffusion TTS: Joint Structure and Content Refinement via Jump Diffusion](ai26b_interspeech.md) — same problem · relatedness 2.6/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.5/3
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — same problem · relatedness 2.5/3
+- [ZipCodec: Simple and Pretrained-Model-Free Speech Tokenizer via Flow-Matching](ye26d_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

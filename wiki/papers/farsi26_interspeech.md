@@ -80,4 +80,10 @@ Amirkabir University of Technology, King's College London, Kartal OL Foundation
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Hamsa: A Manually Annotated Emirati Arabic Corpus for Speech and Language Technologies](alyafeai26_interspeech.md) — same problem · relatedness 2.3/3
+- [Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language](rahman26_interspeech.md) — same problem · relatedness 2.2/3
+- [WazobiaSpeech: A Large-Scale Multilingual Speech Corpus for Robust and Fair ASR in Four Nigerian Languages](adebara26_interspeech.md) — same problem · relatedness 2.2/3
+- [Bootstrapping Endangered Language ASR with Short-Form Corpora](bartley26_interspeech.md) — same problem · relatedness 2.1/3
+- [Dissecting ASR Failures in Low-Resource South Asian Languages](azeemi26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

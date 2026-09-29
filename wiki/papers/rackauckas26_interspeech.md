@@ -76,4 +76,10 @@ RoleGaku, Columbia University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Adaptive Multimodal Expert Specialization by Meta-Learning for Spoken English Assessment](vu26_interspeech.md) — same problem · relatedness 1.9/3
+- [A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales](parikh26_interspeech.md) — same problem · relatedness 1.9/3
+- [Amadea: An AI Companion for Pitch-Aware Spoken Language Practice](agrawal26_interspeech.md) — same problem · relatedness 1.9/3
+- [A Speech-First Character Interface for Stylized Japanese Dialogue Practice](rackauckas26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Discriminating Proficiency Levels in L2 Speech: A Comparative Study of Self-Supervised Models in Basque](souganidis26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

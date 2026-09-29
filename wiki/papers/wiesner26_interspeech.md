@@ -78,4 +78,10 @@ Johns Hopkins University, CNRS, Carnegie Mellon University, Brno University of T
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Pushing the Boundaries of Streaming Multi-Speaker ASR: A Systematic Study of Architectural Trade-offs](park26e_interspeech.md) — same problem · relatedness 2.7/3
+- [Distilling LLM Semantic Priors into Encoder-Only Multi-Talker ASR with Talker-Count Routing](shi26_interspeech.md) — same problem · relatedness 2.5/3
+- [GLAD: Global-Local Aware Dynamic Mixture-of-Experts for Multi-Talker ASR](guo26_interspeech.md) — same problem · relatedness 2.5/3
+- [Grounding Spoken LLMs in Multi-Speaker Audio via Diarization Conditioning](polok26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Beyond Mimicry: Constrained Exploration with GRPO for Joint Multi-Talker ASR and Diarization under Unknown Speaker Counts](cai26c_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

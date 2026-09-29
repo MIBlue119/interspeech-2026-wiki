@@ -81,4 +81,10 @@ Fraunhofer Institute for Integrated Circuits, International Audio Laboratories E
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SDP-Codec: A Speaker-Decoupled Speech Codec with Pitch Injection for Low-Bitrate Coding and Zero-Shot Voice Conversion](kim26v_interspeech.md) — same problem · relatedness 2.1/3
+- [AugCodec: A Low-Bitrate Disentangled Neural Speech Codec via Data Augmentation](wang26y_interspeech.md) — same problem · relatedness 2.1/3
+- [Learning Self-Supervised Spatial Representations via Soft Acoustic Contrastive Alignment](silverman26_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards Interpretable Framework for Neural Audio Codecs via Sparse Autoencoders: A Case Study on Accent Information](wang26n_interspeech.md) — same problem · relatedness 2.0/3
+- [Speech Codec Probing from Semantic and Phonetic Perspectives](shi26g_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

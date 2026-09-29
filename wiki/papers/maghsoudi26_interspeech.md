@@ -79,4 +79,10 @@ University of Maryland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Shared Phone-Level Neural Representations of Auditory Perception and ‘Inner Voice’ Production: One-to-One Mapping using a Single-Subject EEG Corpus of Heard and Imagined Natural Speech](wellington26_interspeech.md) — same problem · relatedness 2.1/3
+- [Exploiting EEG-based Gamma-Band Time Frequency Feature in WaveNet Decoder Framework for High-Fidelity Speech Reconstruction](buragohain26_interspeech.md) — same problem · relatedness 2.0/3
+- [MEG-to-MEG Transfer Learning and Cross-Task Speech/Silence Detection with Limited Data](zuazo26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Emergence of Phonetic Representations in EMG-based Silent Speech Interfaces](toussaint26_interspeech.md) — same problem · relatedness 1.8/3
+- [Subject-Invariant Dynamic Graph Modeling for Cross-Subject EEG Imagined Speech Decoding](duraisamy26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

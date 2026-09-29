@@ -75,4 +75,10 @@ University of Tokyo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Domain-Aware Mispronunciation Detection and Diagnosis Using Language-Specific Statistical Graphs](nguyen26g_interspeech.md) — same problem · relatedness 3.0/3
+- [SEA-MDD: Self-adapting Mispronunciation Detection and Diagnosis Models via Test-Time Training](wu26c_interspeech.md) — same problem · relatedness 2.9/3
+- [Using Phonological-Level Wav2Vec2 for Mandarin Automatic Mispronunciation Detection and Diagnosis](chen26g_interspeech.md) — same problem · relatedness 2.8/3
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — same problem · relatedness 2.6/3
+- [A Fusion-Aware Two-Stage Framework for Mispronunciation Detection and Diagnosis in Low-Resource Modern Standard Arabic](yang26j_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

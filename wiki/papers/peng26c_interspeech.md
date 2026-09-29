@@ -71,4 +71,10 @@ University of Science and Technology of China
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Layer-wise Probing of Whisper's Encoder Representations for Bengali Phone-like Units](thahmid26_interspeech.md) — shared technique · relatedness 2.2/3
+- [Probing Linguistic Information in Speech Embeddings: A Diagnostic Analysis across Acoustic and Structural Domains](gonzalez26b_interspeech.md) — shared technique · relatedness 2.1/3
+- [Do speech representational spaces encode language family structures?](gaughan26_interspeech.md) — shared technique · relatedness 2.1/3
+- [From Rhythm Metrics to Latent Embeddings: Categorising English and Hindi Varieties in Northeast India](aheibam26_interspeech.md) — shared technique · relatedness 2.1/3
+- [InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective](sadok26_interspeech.md) — shared technique · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

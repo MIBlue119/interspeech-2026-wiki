@@ -79,4 +79,10 @@ Tokyo University of Science, Nippon Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Tongue2Speech: Real-Time Speech Synthesis from Tongue Ultrasound Videos via Spatiotemporal Transformers](sonkar26_interspeech.md) — same problem · relatedness 2.6/3
+- [Feature Design and Generative Modelling in Deep Articulatory Synthesis](mcghee26_interspeech.md) — same problem · relatedness 2.1/3
+- [GETS: Guiding EMG-to-Speech Synthesis via Silent Speech Recognition](lee26r_interspeech.md) — same problem · relatedness 2.1/3
+- [Enhancing EMG-to-Speech via Silent-Voiced Representation Alignment](lee26v_interspeech.md) — same problem · relatedness 2.0/3
+- [TAP-ETS: Time Aligned Phoneme Guiding for EMG-to-Speech Synthesis](han26f_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

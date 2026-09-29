@@ -78,4 +78,10 @@ National Institute of Technology, Tiruchirappalli, Indian Institute of Technolog
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [RAF: Relativistic Adversarial Feedback For Universal Speech Synthesis](lee26e_interspeech.md) — shared technique · relatedness 2.2/3
+- [SCNet: Enhancing GAN-based Speech Generation with Subband Condition Network and Magnitude-aware Phase Loss](xu26e_interspeech.md) — same problem · relatedness 2.1/3
+- [OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models](zhu26e_interspeech.md) — same problem · relatedness 2.1/3
+- [SARA: A Dual-Stream VAE for High-Fidelity Speech Generation via Integrating Semantic and Acoustic Representations](chen26v_interspeech.md) — same problem · relatedness 2.1/3
+- [IN-F5: Adapting an English TTS Foundation Model for Multilingual and Zero-Resource Indian Speech Synthesis](varadhan26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

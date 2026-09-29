@@ -74,4 +74,9 @@ IRIT, CNRS, Université de Toulouse, Queensland University of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Optimal Linguistic Complexity for Dialogue System Speech in Noise: Convergent Evidence from Automatic and Human Transcription](marcinek26b_interspeech.md) — same problem · relatedness 2.2/3
+- [The Lipreading Gap: Do VSR Models Perceive Visual Speech Like Human Lipreaders?](jain26_interspeech.md) — same problem · relatedness 1.6/3
+- [Acoustic and Semantic Feature Fusion Mapping for Lyric Intelligibility Prediction](fu26_interspeech.md) — same problem · relatedness 1.6/3
+- [Hallucination Benchmark for Speech Foundation Models](koudounas26b_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

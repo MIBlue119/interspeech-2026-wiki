@@ -70,4 +70,10 @@ Argmax, University of California, Los Angeles
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AFG-Bias: Acoustic-Fusion-Gated Biasing for Plug-and-Play Hotword Customization in LLM-Based ASR](wu26i_interspeech.md) — same problem · relatedness 2.3/3
+- [COALA: Robust Contextualized Speech-augmented Language Modeling for ASR via Contrastive Regularizer and Biasing Score Estimation](guo26b_interspeech.md) — complementary · relatedness 2.3/3
+- [Massive Open-Vocabulary Keyword Spotting](barreiros26_interspeech.md) — complementary · relatedness 2.2/3
+- [Earnings25: A Comprehensive 500-Hour Speech Benchmark for Finance](jiang26f_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [UGPCB: Uncertainty-Gated Phonetic Contextual Biasing for Improving Hotword Recognition in Large Speech Models](hou26_interspeech.md) — complementary · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

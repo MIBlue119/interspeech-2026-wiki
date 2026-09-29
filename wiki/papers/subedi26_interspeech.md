@@ -81,4 +81,10 @@ Howard University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Unsupervised Speech in the Wild Challenge: Learning Robust Multilingual Representations](gomez26_interspeech.md) — shared data / evaluation · relatedness 3.0/3
+- [Progressive Learning for Robust Speaker Representation](keetha26_interspeech.md) — same problem · relatedness 2.4/3
+- [Scaling Self-Supervised Speech Models Uncovers Deep Linguistic Relationships: Evidence from the Pacific Cluster](kim26w_interspeech.md) — same problem · relatedness 2.3/3
+- [Language-Invariant Multilingual Speaker Verification for the TidyVoice 2026 Challenge](li26fa_interspeech.md) — same problem · relatedness 2.3/3
+- [Beyond Short Segments : Expanding Speaker Embeddings with Vector Archives](kang26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

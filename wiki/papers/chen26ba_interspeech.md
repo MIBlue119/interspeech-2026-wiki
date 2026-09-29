@@ -78,4 +78,10 @@ New York University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Spatial-Magnifier: Spatial upsampling for multichannel speech enhancement](lee26k_interspeech.md) — complementary · relatedness 2.6/3
+- [Spectro-Temporal Interference Confounds Phase Encoding in Spatial Audio Foundation Models](chen26da_interspeech.md) — same problem · relatedness 2.3/3
+- [Learning Self-Supervised Spatial Representations via Soft Acoustic Contrastive Alignment](silverman26_interspeech.md) — same problem · relatedness 2.3/3
+- [CoSTALA: Compositional Spatio-Temporal Audio-Language Alignment via Multi-Grain Hierarchical Contrastive Learning](ren26b_interspeech.md) — complementary · relatedness 2.0/3
+- [Beyond Cross-Reconstruction: Probing-Based Disentanglement Evaluation for Acoustic Teleportation Codecs](grundhuber26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

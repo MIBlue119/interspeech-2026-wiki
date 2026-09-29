@@ -73,4 +73,10 @@ University of Auckland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Oral stop realisation in three French Polynesian languages](fletcher26_interspeech.md) — same problem · relatedness 2.0/3
+- [Vowel Allophony Improves Maximum-Likelihood Classification of Warlpiri Consonants](cram26_interspeech.md) — same problem · relatedness 2.0/3
+- [Modelling diphthong dynamics: A GAMM-based analysis of Australian English diphthongs](gnevsheva26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Mapping Acceptable Pronunciation Range for te reo Māori through Perceptual, Acoustic, and Marker Evaluative Data](evans26_interspeech.md) — same problem · relatedness 1.9/3
+- [Reconciling Dynamic Data Analysis with Linguistic Reality: Comparing Legendre Polynomial Modelling and GAMM Applied to Prosodic Contact](dian26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ International Institute of Information Technology Hyderabad, Saintgits College o
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Light-weight Pronunciation Assessment via Discrete Speech Token Surprisal](sara26_interspeech.md) — same problem · relatedness 3.0/3
+- [Automatic Assessment of L2 Speech Intelligibility: Segmental Error Ranking](pludra26_interspeech.md) — same problem · relatedness 2.6/3
+- [A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales](parikh26_interspeech.md) — same problem · relatedness 2.6/3
+- [LOPA: Enhancing Spoken Language Assessment via Latent Ordinal Prototype Alignment](lin26e_interspeech.md) — same problem · relatedness 2.3/3
+- [Beyond Acoustic Sparsity and Linguistic Bias: A Prompt-Free Paradigm for Mispronunciation Detection and Diagnosis](geng26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

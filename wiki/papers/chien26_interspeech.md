@@ -74,4 +74,10 @@ National Yang Ming Chiao Tung University, Industrial Technology Research Institu
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [BACON: Boundary-Aware Convolution for Streaming Conformer Models](xu26o_interspeech.md) — same problem · relatedness 2.0/3
+- [MambAdapter: Lightweight Mamba-Based Adapters for Parameter-Efficient Transfer Learning in Speech and Audio](ali26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Robust Streaming ASR with Decoupled Separation and Recognition](yang26h_interspeech.md) — same problem · relatedness 1.9/3
+- [Refining the Latent Bridge: Superior ASR Performance via Adapter-Only Alignment with Diffusion LLMs](bhooi26_interspeech.md) — same problem · relatedness 1.9/3
+- [Leveraging Temporal Redundancy via Layer-wise Key-Value Pooling Attention for Efficient ASR](wu26k_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ Tianjin University, Tianjin Renai College, Tianjin Electronic Information Colleg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Physics-Aware Deepfake Detection via Distance–Speech Consistency](kim26m_interspeech.md) — same problem · relatedness 2.6/3
+- [Referee: Reference-aware Audiovisual Deepfake Detection](boo26_interspeech.md) — same problem · relatedness 2.5/3
+- [XAI-Grounded Explanation Generation for Speech Deepfake Detection with Training-Free Multimodal Large Language Models](li26_interspeech.md) — same problem · relatedness 2.0/3
+- [FakeSound2: A Benchmark for Explainable, Traceable, and Generalizable Deepfake Sound Detection](xie26_interspeech.md) — same problem · relatedness 2.0/3
+- [DeepFense: A Unified, Modular, and Extensible Framework for Robust Audio Deepfake Detection](kheir26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

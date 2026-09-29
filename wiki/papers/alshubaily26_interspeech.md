@@ -78,4 +78,10 @@ University of Glasgow, Imam Mohammad Ibn Saud Islamic University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Decoding the Ear (DeEAR): A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](lin26l_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [ParaPairAudioBench: Paralinguistic Pairwise Audio Benchmark for LALM-as-a-Judge](jeon26d_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling](zhang26ca_interspeech.md) — complementary · relatedness 1.8/3
+- [ParA-LLM: A Unified Approach to Paralinguistic and Acoustic Speech Understanding](anand26_interspeech.md) — shared data / evaluation · relatedness 1.7/3
+- [Toward Open-Set Speaker Attribute Prediction with Keyword-Appended LLM Embeddings](so26_interspeech.md) — complementary · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

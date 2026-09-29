@@ -75,4 +75,10 @@ Chinese Academy of Sciences, University of Chinese Academy of Sciences
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Self-supervised Speaker Verification with High-Confidence Pseudo-Label Selection and DINO-Style Self-Distillation Based on Pre-trained Models](li26ca_interspeech.md) — same problem · relatedness 2.9/3
+- [Continuous 2D Spectral—Temporal Transformer for Speaker Verification](ham26_interspeech.md) — same problem · relatedness 2.5/3
+- [Temporal Ensembling Threshold and Neighbor-Aware Label Mixup for Speaker Verification with Open-Set Noisy Labels](fang26_interspeech.md) — same problem · relatedness 2.4/3
+- [Learning Multiple Utterance-Level Attribute Representations with a Unified Speech Encoder](bouziane26_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [ReDimNet2: Scaling Speaker Verification via Time-Pooled Dimension Reshaping](yakovlev26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

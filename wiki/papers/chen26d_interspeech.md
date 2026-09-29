@@ -79,4 +79,10 @@ Carnegie Mellon University, Keio University, Tokyo Metropolitan University, Nati
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WazobiaSpeech: A Large-Scale Multilingual Speech Corpus for Robust and Fair ASR in Four Nigerian Languages](adebara26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Unsupervised Speech in the Wild Challenge: Learning Robust Multilingual Representations](gomez26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [GigaAM Multilingual: Foundation Model for Underrepresented Languages](kuzmenko26_interspeech.md) — complementary · relatedness 1.9/3
+- [Dissecting Sensitivity to Training Language in Self-Supervised Speech Learning Using Neural Audio Codec Tokens](takizawa26_interspeech.md) — complementary · relatedness 1.9/3
+- [corpusgen: An Open-Source Toolkit for Phoneme-Coverage-Optimized Speech Corpus Design Across Languages](syed26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

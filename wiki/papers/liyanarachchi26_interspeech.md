@@ -74,4 +74,10 @@ University of New South Wales, Resourced Music Therapy, Western Sydney Universit
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Stuttering Classification and Segmentation with Attention-Based Multiple Instance Learning](susac26_interspeech.md) — same problem · relatedness 2.5/3
+- [DysfluentNet: Joint Stuttering Event Detection and Dysfluency-Aware Transcription via Hierarchical Self-Supervised Learning](muthu26_interspeech.md) — same problem · relatedness 2.4/3
+- [Evaluating Zero-Shot Cross-Lingual Stuttering Detection Based on Self-Attention Weights of Temporal Acoustic Vector Sequence](miyahara26_interspeech.md) — same problem · relatedness 2.1/3
+- [Reasoning Beyond Transcription: Audio Language Models on Child Stuttering Speech](okocha26_interspeech.md) — same problem · relatedness 2.0/3
+- [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](toyin26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

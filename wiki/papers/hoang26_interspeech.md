@@ -82,4 +82,10 @@ UNEY
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Inverse Text Normalization in Romanian: A Comparative Study of Rule-Based, Neural, and Large Language Model Approaches](sirbu26_interspeech.md) — same problem · relatedness 2.3/3
+- [IPA-Guided Dual Transcription for Data-Centric Speech Corpus Refinement](choi26f_interspeech.md) — same problem · relatedness 2.1/3
+- [Preference-ASR: A Preference-Aware Test Set for Benchmarking ASR in the Era of Speech LLMs](koluguri26_interspeech.md) — same problem · relatedness 1.7/3
+- [Learning to Wait: Real Streaming Speech-to-Text Translation with an LLM](zhang26u_interspeech.md) — shared technique · relatedness 1.7/3
+- [PiDA: Phonetically-Informed Data Augmentation for Robust Vietnamese Speech Translation](nguyen26f_interspeech.md) — complementary · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

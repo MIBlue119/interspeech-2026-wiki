@@ -67,4 +67,10 @@ Mayo Clinic
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [GADVOX: The German Anxiety and Depression Voice Examination Dataset](spang26_interspeech.md) — complementary · relatedness 1.9/3
+- [Clinically-Supervised Hierarchical LoRA-MoE: A Parameter-Efficient Framework for Severity-Aware Dysarthric Speech Assessment](wang26ga_interspeech.md) — same problem · relatedness 1.9/3
+- [Speech-based Psychological Crisis Assessment using LLMs](chiba26_interspeech.md) — same problem · relatedness 1.8/3
+- [S-DiverSe: Spanish Diverse Speech](lopez26b_interspeech.md) — same problem · relatedness 1.8/3
+- [PAN-Mask: Pathology-Aware Neurological Masking with End-to-End Learnable Weights for Neurological Disorder Detection from Speech](sun26b_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

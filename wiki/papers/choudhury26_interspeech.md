@@ -77,4 +77,10 @@ IIIT-Delhi, NTHU
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [What Do Deepfake Speech Detectors Actually Hear?](stanek26_interspeech.md) — shared technique · relatedness 1.8/3
+- [InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective](sadok26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Who Synthesized This? Joint Deepfake Detection and Generative Source Attribution](kumar26f_interspeech.md) — shared technique · relatedness 1.8/3
+- [Evidence Subspace Projection: Measuring How Much Evidence Explains Deepfake Detection in Self-Supervised Speech Models](xiao26c_interspeech.md) — same problem · relatedness 1.8/3
+- [The First Environmental Sound Deepfake Detection Challenge: Benchmarking Robustness, Evaluation, and Insights](yin26_interspeech.md) — shared data / evaluation · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

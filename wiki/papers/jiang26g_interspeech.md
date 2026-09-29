@@ -80,4 +80,10 @@ Nagoya University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Tokens to Faces: Investigating Discrete Speech Representations for 3D Facial Animation](correa26_interspeech.md) — same problem · relatedness 2.1/3
+- [TurnGuide: Enhancing Meaningful Full Duplex Spoken Interactions via Dynamic Turn-Level Text-Speech Interleaving](cui26_interspeech.md) — same problem · relatedness 2.0/3
+- [ES-3DF: Editable Speech-Driven 3D Face Reconstruction via Geometry Texture Disentanglement](wang26i_interspeech.md) — same problem · relatedness 1.9/3
+- [AV-SyncBench: Decoupled Benchmarking of Temporal and Semantic Audio-Visual Synchronization](zhou26g_interspeech.md) — complementary · relatedness 1.9/3
+- [Dual-Space Constrained Face-Based Zero-Shot Text-to-Speech Synthesis](wang26f_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

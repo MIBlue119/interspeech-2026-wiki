@@ -75,4 +75,10 @@ Inner Mongolia University, Southern University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MeanFlow-TSE: One-Step Generative Target Speaker Extraction with Mean Flow](shimizu26_interspeech.md) — same problem · relatedness 2.5/3
+- [Speaker Identity as Sole Supervision for Speech Separation](boeddeker26_interspeech.md) — same problem · relatedness 2.5/3
+- [TF-MoE: Time-Frequency Mixture-of-Experts for Efficient Speech Separation](hu26d_interspeech.md) — same problem · relatedness 2.4/3
+- [WeSep: A Modular and Cue-Composable Framework for Target Speaker Extraction](zhang26k_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [Pseudo-Spatially Conditioned TF-Locoformer with MHCA+FiLM Fusion for Single-Channel Speech Separation](nitsu26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ Seoul National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TAP-ETS: Time Aligned Phoneme Guiding for EMG-to-Speech Synthesis](han26f_interspeech.md) — same problem · relatedness 3.0/3
+- [Enhancing EMG-to-Speech via Silent-Voiced Representation Alignment](lee26v_interspeech.md) — same problem · relatedness 2.9/3
+- [Tongue2Speech: Real-Time Speech Synthesis from Tongue Ultrasound Videos via Spatiotemporal Transformers](sonkar26_interspeech.md) — same problem · relatedness 2.1/3
+- [Speaker-Independent Speech Synthesis from Real-time MRI Articulatory Data](otani26_interspeech.md) — same problem · relatedness 2.1/3
+- [Emergence of Phonetic Representations in EMG-based Silent Speech Interfaces](toussaint26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

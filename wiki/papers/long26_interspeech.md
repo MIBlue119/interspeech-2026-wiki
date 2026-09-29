@@ -75,4 +75,10 @@ University of California, San Diego, Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [U-Codec: Neural Speech Codec under Extreme Temporal Compression for Fast High-Fidelity Speech Generation](yang26n_interspeech.md) — shared technique · relatedness 1.9/3
+- [OmniCodec: Low Frame Rate Universal Audio Codec with Semantic–Acoustic Disentanglement](hu26b_interspeech.md) — same problem · relatedness 1.9/3
+- [A Dual-Stream Discrete Neural Codec with Fixed-Length Global Speaker Tokens and Dynamic Frame Rates for Low-Bitrate Speech Tokenization](zhang26ga_interspeech.md) — same problem · relatedness 1.9/3
+- [HARP: Harmonic-Aware Residual Partitioning for Neural Audio Codecs](yang26k_interspeech.md) — same problem · relatedness 1.9/3
+- [HybridCodec: Fast Dual-Stream, Semantically Enhanced Neural Audio Codec](gangwar26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

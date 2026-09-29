@@ -78,4 +78,9 @@ Ewha Womans University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech-to-See: End-to-End Speech-Driven Open-Set Object Detection](lu26d_interspeech.md) — same problem · relatedness 2.1/3
+- [A Sensitivity Analysis of Multi-Event Audio Grounding in Audio LLMs](lee26o_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards Fine-Grained Temporal Perception: Post-Training Large Audio-Language Models with Audio-Side Time Prompt](shi26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models](seth26_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

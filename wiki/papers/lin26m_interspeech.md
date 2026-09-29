@@ -79,4 +79,10 @@ Trinity College Dublin, Imperial College London, NatWest AI Research
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Adaptive AVSR: Integrating Speaker and Environmental Embeddings for Robust Audio-Visual Speech Recognition](simic26_interspeech.md) — same problem · relatedness 2.1/3
+- [GLAD-CSpeech: A Dialectologically Comprehensive Benchmark for Genuine Chinese Dialect Speech](xu26j_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [Tarsila-ASR: A Multi-Domain Test Suite for Benchmarking Brazilian Portuguese Speech Recognition](leal26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+- [The Lipreading Gap: Do VSR Models Perceive Visual Speech Like Human Lipreaders?](jain26_interspeech.md) — same problem · relatedness 1.9/3
+- [MTC-AVSR: Compressed-Token-based Audio-Visual Speech Recognition and Translation with Contrastive Language Alignment](a26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

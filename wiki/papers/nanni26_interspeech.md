@@ -66,4 +66,10 @@ University of Inland Norway
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AI Regulation and the Technical Language of Speech Synthesis](williams26_interspeech.md) — same problem · relatedness 1.7/3
+- [Voice Privacy from an Attribute-based Perspective](rahman26b_interspeech.md) — same problem · relatedness 1.6/3
+- [Countermeasures Against Misuse of Speech Generative AI](yamagishi26_interspeech.md) — same problem · relatedness 1.6/3
+- [Imperceptible Voiceprint Protection via Human-Machine Perception Discrepancy Feature Disentanglement](xue26_interspeech.md) — same problem · relatedness 1.5/3
+- [DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations](ngong26_interspeech.md) — same problem · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -76,4 +76,10 @@ Meta, Korea Advanced Institute of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Probing Spatial Structure in Pretrained Audio Representations](chen26ba_interspeech.md) — complementary · relatedness 2.6/3
+- [Towards Array-Invariant Speech Enhancement via Geometry-Aware Dynamic Convolution](liu26d_interspeech.md) — same problem · relatedness 2.2/3
+- [Neural Directional Coding: Joint Spatial Coding and Filtering with Configurable Directivity Patterns](huang26o_interspeech.md) — same problem · relatedness 2.2/3
+- [Cloud-Boosted Low-Compute Multi-Channel Speech Enhancement](fan26d_interspeech.md) — same problem · relatedness 2.1/3
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](yalegama26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

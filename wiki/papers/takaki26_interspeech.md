@@ -78,4 +78,10 @@ University of Tokyo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Multi-Channel Differential ASR for Robust Wearer Speech Recognition on Smart Glasses](yang26_interspeech.md) — same problem · relatedness 1.9/3
+- [Joint Learning of Covariance Estimation and White Noise Gain for Robust MVDR Beamforming](deng26d_interspeech.md) — shared technique · relatedness 1.9/3
+- [RT-Tango: Real-Time Distributed Binaural Speech Enhancement for Low-Power Hearing Aid Devices](benslimane26_interspeech.md) — same problem · relatedness 1.9/3
+- [AV-SNINet: A multi-channel audio-visual speech-noise interaction network for Target Speaker Extraction with cross-beam attention](tu26c_interspeech.md) — shared technique · relatedness 1.7/3
+- [Towards Array-Invariant Speech Enhancement via Geometry-Aware Dynamic Convolution](liu26d_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

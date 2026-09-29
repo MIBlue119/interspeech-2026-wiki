@@ -77,4 +77,10 @@ University Grenoble Alpes, CNRS, Grenoble INP, University of Eastern Finland
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Multilingual Phonological Feature Recognition with Self-Supervised Speech Models](hernandez26b_interspeech.md) — same problem · relatedness 2.4/3
+- [Beyond Speaker Independence: Evaluating Cross-Lingual Acoustic-to-Articulatory Inversion Across Finnish and Russian](pandey26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Towards Language-Agnostic Speech Inversion](tabatabaee26_interspeech.md) — same problem · relatedness 2.2/3
+- [ArtBoost: Synthetic Articulatory Data Augmentation for Acoustic-to-Articulatory Inversion](kim26f_interspeech.md) — same problem · relatedness 2.1/3
+- [Probing the Layer-wise Geometry of Chinese Dialect Representations in Wav2Vec 2.0](peng26c_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

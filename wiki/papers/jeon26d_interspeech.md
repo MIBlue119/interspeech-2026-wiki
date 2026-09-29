@@ -81,4 +81,10 @@ Hongik University, Seoul National University, NAVER Cloud, KAIST
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [StanceBench: A Benchmark for Audio LLM-Based Interpersonal Stance Evaluation from Speech](wang26fa_interspeech.md) — shared data / evaluation · relatedness 2.5/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+- [ParA-LLM: A Unified Approach to Paralinguistic and Acoustic Speech Understanding](anand26_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Hearing the Order: Investigating Position Bias in Large Audio-Language Models](lin26c_interspeech.md) — same problem · relatedness 2.2/3
+- [Comparative Reasoning: Making an Audio Language Model Better at Comparing Emotions](naini26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

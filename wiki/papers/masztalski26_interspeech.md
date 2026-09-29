@@ -78,4 +78,10 @@ Samsung, AGH University of Krakow
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TinyGiantALM: A Compact Audio-Language Model for Intent-Aware Reasoning under Resource Constraints](ly26_interspeech.md) — same problem · relatedness 2.5/3
+- [ALARM: Audio–Language Alignment for Reasoning Models](grinberg26_interspeech.md) — shared data / evaluation · relatedness 2.3/3
+- [Enhancing Audio Reasoning via Semantic Summary Prediction](bonzi26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [WavSLM: Single-Stream Speech Language Modeling via WavLM Distillation](libera26_interspeech.md) — same problem · relatedness 2.1/3
+- [CAAD: Contrastive Audio-Aware Distillation for Efficient Speech Language Models](chen26e_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

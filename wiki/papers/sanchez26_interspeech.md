@@ -78,4 +78,10 @@ University of Edinburgh
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Iterate to Differentiate: Enhancing Discriminability and Reliability in Zero-Shot TTS Evaluation](shen26d_interspeech.md) — same problem · relatedness 2.7/3
+- [TDScore: Learning Synthetic Speech Quality Predictors from TTS Training Dynamics without Human annotation](miniconi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Investigating the Relationship between Objective AI-driven Metrics and Subjective MOS for In-the-Wild Speech](sanjotra26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+- [Two Lessons Learned from the SGILE project: Efficient Building and Evaluation of TTS Voices](pine26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Exploring Active Sampling Strategies for Pairwise Comparisons in Speech Synthesis Evaluation](valentinibotinhao26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

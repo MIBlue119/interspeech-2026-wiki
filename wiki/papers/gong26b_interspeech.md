@@ -80,4 +80,10 @@ Shanghai Jiao Tong University, Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FreeSonic: Training-Free Temporal-Aware Decoupled Attention for Precise Audio Editing](jiang26d_interspeech.md) — same problem · relatedness 2.4/3
+- [Edit the Moment, Keep the Rest: Time-Localized Audio Editing via Instruction](jung26c_interspeech.md) — same problem · relatedness 2.2/3
+- [Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards](ren26e_interspeech.md) — same problem · relatedness 2.2/3
+- [Bagpiper-TTS: Natural Language Guided Universal Speech Synthesis](tian26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Interpretable Audio Editing Evaluation via Chain-of-Thought Difference-Commonality Reasoning with Multimodal LLMs](jia26b_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

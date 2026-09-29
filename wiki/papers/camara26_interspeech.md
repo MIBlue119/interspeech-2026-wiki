@@ -77,4 +77,10 @@ Universidad Politecnica de Madrid, Massachusetts Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Acoustic Landmark Detector based on Conformer and HuBERT](camara26c_interspeech.md) — complementary · relatedness 2.0/3
+- [Articulatory Dynamics using Physical Vocal-tract Models](arai26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Programmable Speech Synthesis without Computers](arai26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Feature Design and Generative Modelling in Deep Articulatory Synthesis](mcghee26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Phy-VC: Physics-Informed Voice Conversion for Privacy-Preserving Pathological Speech](ghosh26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

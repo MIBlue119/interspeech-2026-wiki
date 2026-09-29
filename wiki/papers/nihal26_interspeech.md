@@ -79,4 +79,10 @@ Institute of Science Tokyo, RIKEN
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Exploring the potential and limitations of Model Merging for Multi-Domain Adaptation in ASR](carvalho26_interspeech.md) — shared technique · relatedness 2.0/3
+- [AdaLTM: Adaptive Layer-wise Task Vector Merging for Categorical Speech Emotion Recognition with ASR Knowledge Integration](lee26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Merging the Knowledge of LLMs for Automatic Speech Recognition](futami26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Accurate Source-Free Speech Classification via Meta-Learned Target-Centric Model Merging](park26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [Two-Sided Fairness Transfer for Gender-Neutral Speech Emotion Recognition with Partially Observed Attributes](chien26c_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Tsinghua University, Peking University Huilongguan Clinical Medical School, WHO 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Paradigm-General Suicide Risk Detection via Speech LLM](li26j_interspeech.md) — same problem · relatedness 2.2/3
+- [Moot-Court: Training-Free Dialectical Reasoning for Depression Detection](sun26i_interspeech.md) — same problem · relatedness 2.1/3
+- [Revisiting Emotion-Based Triage: Evidence from French Emergency Call Data](stasica26_interspeech.md) — same problem · relatedness 2.0/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — shared technique · relatedness 2.0/3
+- [Investigating LLMs Behavior in Depression Severity Prediction](yu26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

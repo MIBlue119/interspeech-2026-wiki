@@ -77,4 +77,10 @@ LY Corporation, Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Reducing the Offline-Streaming Gap for Unified ASR Transducer with Consistency Regularization](andrusenko26_interspeech.md) — same problem · relatedness 2.5/3
+- [Improving streaming ASR with foundation models using emission policies](masmolla26_interspeech.md) — same problem · relatedness 2.1/3
+- [BACON: Boundary-Aware Convolution for Streaming Conformer Models](xu26o_interspeech.md) — same problem · relatedness 2.0/3
+- [TASTE-Streaming: Towards Streamable Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling](tseng26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Token-Independent Language Representations for Low-Latency Configurable Multilingual Speech Recognition](zhu26c_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ RMIT University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DiffAnon: Diffusion-based Prosody Control for Voice Anonymization](ulgen26b_interspeech.md) — same problem · relatedness 1.9/3
+- [DECRA: Dynamic Emotion Control for Real-time Speech Anonymization](nasrallah26_interspeech.md) — same problem · relatedness 1.8/3
+- [Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models](kuzmin26b_interspeech.md) — same problem · relatedness 1.8/3
+- [DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations](ngong26_interspeech.md) — same problem · relatedness 1.8/3
+- [Privacy and quality trade-off in real-time speaker anonymization via editing of age and sex attributes](quamer26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ Chinese University of Hong Kong, Huawei Technologies
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DualTurn: Learning Turn-Taking from Dual-Channel Generative Speech Pretraining](rajaa26_interspeech.md) — same problem · relatedness 2.1/3
+- [Adaptive Turn-Taking for Real-time Multi-Party Voice Agents](mitra26_interspeech.md) — same problem · relatedness 2.0/3
+- [Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input](liu26i_interspeech.md) — shared technique · relatedness 2.0/3
+- [Speak or Stay Silent: Context-Aware Turn-Taking in Multi-Party Dialogue](bhagtani26_interspeech.md) — same problem · relatedness 2.0/3
+- [Integrating Facial Generation into Full-Duplex Spoken Dialogue Systems](jiang26g_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

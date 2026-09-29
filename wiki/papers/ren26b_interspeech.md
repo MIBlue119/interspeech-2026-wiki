@@ -78,4 +78,10 @@ Xi'an Jiaotong-Liverpool University, Xiaomi, University of Oulu, Chinese Academy
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [MixProLAP: Mixture-Induced Uncertainty Modeling for Probabilistic Language-Audio Pretraining](nakagome26_interspeech.md) — same problem · relatedness 2.5/3
+- [ProLAP: Probabilistic Language-Audio Pre-Training](manabe26_interspeech.md) — same problem · relatedness 2.5/3
+- [Leveraging Mutual Intra-Modal Similarity Supervision for Text and Audio](vonaspern26_interspeech.md) — same problem · relatedness 2.4/3
+- [A Sensitivity Analysis of Multi-Event Audio Grounding in Audio LLMs](lee26o_interspeech.md) — same problem · relatedness 2.1/3
+- [ALARM: Audio–Language Alignment for Reasoning Models](grinberg26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

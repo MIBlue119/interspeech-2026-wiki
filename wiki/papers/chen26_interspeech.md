@@ -79,4 +79,10 @@ National Taiwan University, NVIDIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [NVV-SuperBench: Beyond Words, Beyond Quality—Benchmarking Nonverbal Vocalizations in Speech Generation](xue26c_interspeech.md) — same problem · relatedness 2.2/3
+- [The Interspeech 2026 Challenge on Transfer of Pragmatic Intent in Speech-to-Speech Translation](ward26_interspeech.md) — same problem · relatedness 2.2/3
+- [NV-Bench: Benchmark of Nonverbal Vocalization Synthesis for Expressive Text-to-Speech Generation](ni26_interspeech.md) — complementary · relatedness 2.1/3
+- [Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning](polle26_interspeech.md) — same problem · relatedness 2.0/3
+- [Decoding the Ear (DeEAR): A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](lin26l_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

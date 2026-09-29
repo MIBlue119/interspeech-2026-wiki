@@ -80,4 +80,10 @@ Inner Mongolia University, National Computer Network Emergency Response Technica
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Avoiding Catastrophic Forgetting in Text-Only Adaptation of LLM-based ASR via Multi-View Text Denoising](burdisso26_interspeech.md) — same problem · relatedness 2.2/3
+- [Rethinking Entropy Minimization in Test-Time Adaptation for Autoregressive Models](huang26c_interspeech.md) — same problem · relatedness 2.1/3
+- [DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition](baik26_interspeech.md) — same problem · relatedness 2.0/3
+- [GC-LoRA: Gated Convolutional LoRA for Parameter-Efficient Acoustic Adaptation](shankar26_interspeech.md) — same problem · relatedness 2.0/3
+- [Training-Free Intelligibility-Guided Observation Addition for Noisy ASR](li26s_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

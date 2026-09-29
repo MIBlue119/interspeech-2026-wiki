@@ -76,4 +76,10 @@ Malanshan Audio and Video Laboratory
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [HistoMatch: Unified Transient-Steady Assessment for Noise-Robust Semi-Supervised Speaker Verification](gao26b_interspeech.md) — same problem · relatedness 2.9/3
+- [Learning Multiple Utterance-Level Attribute Representations with a Unified Speech Encoder](bouziane26_interspeech.md) — same problem · relatedness 2.7/3
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — same problem · relatedness 2.6/3
+- [Continuous 2D Spectral—Temporal Transformer for Speaker Verification](ham26_interspeech.md) — same problem · relatedness 2.6/3
+- [Progressive Learning for Robust Speaker Representation](keetha26_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

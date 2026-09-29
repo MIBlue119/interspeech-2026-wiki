@@ -75,4 +75,10 @@ Information Technologies, Mechanics and Optics University, Moscow Technical Univ
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Probing and Mitigating Hallucinations in Speech-augmented Language Models for Automatic Speech Recognition via Small Language Models](yan26c_interspeech.md) — same problem · relatedness 2.4/3
+- [Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders](aparin26_interspeech.md) — same problem · relatedness 2.3/3
+- [From Text Metrics to Model Internals: A Study of Whisper ASR Hallucination Detection](jasinski26_interspeech.md) — same problem · relatedness 2.2/3
+- [Grounding Whisper: An Audio Anchor-Based Approach for Hallucination Mitigation and Throughput-Efficient ASR](agarwal26_interspeech.md) — same problem · relatedness 2.1/3
+- [Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding](ahn26b_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

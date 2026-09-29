@@ -78,4 +78,10 @@ Johns Hopkins University, University of Michigan
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Layer-wise Multi-factor Adaptive Disentanglement for Cross-corpus Speech Depression Detection](wang26j_interspeech.md) — same problem · relatedness 2.5/3
+- [Rethinking Acoustic Variability Of ADReSS and ADReSSo Datasets For Dementia Detection](zafar26_interspeech.md) — same problem · relatedness 2.2/3
+- [Learning to Attend to Depression-Related Patterns: An Adaptive Cross-Modal Gating Network for Depression Detection](yu26c_interspeech.md) — same problem · relatedness 2.2/3
+- [FedMPA: A Novel Privacy-Performance Optimization Approach for Multimodal Speech-Based Depression Detection](manamalage26_interspeech.md) — same problem · relatedness 2.1/3
+- [Label Correction Enhanced Dual-Stream Multiple Instance Learning for Weakly-Supervised Depression Detection in Speech](sun26e_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

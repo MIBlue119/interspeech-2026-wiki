@@ -74,4 +74,9 @@ Aalborg University, Pioneer Centre for Artificial Intelligence, Mitsubishi Elect
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [UD-ASD: A Unified Diffusion Model for Anomalous Sound Detection](gao26c_interspeech.md) — same problem · relatedness 2.2/3
+- [GRIDS: Dimensionality-Aware Anomaly Detection in Learned Representations of Self-Supervised Speech Models](arcosholzinger26_interspeech.md) — same problem · relatedness 2.0/3
+- [Toward Multimodal Industrial Fault Analysis: A Single-Speed Chain Conveyor Dataset with Audio and Vibration Signals](chen26f_interspeech.md) — complementary · relatedness 1.7/3
+- [MultiLinguahah : A New Unsupervised Multilingual Acoustic Laughter Segmentation Method](callejas26_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

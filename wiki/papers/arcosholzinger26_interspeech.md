@@ -82,4 +82,10 @@ University of Melbourne, Monash University, Johns Hopkins University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Text Metrics to Model Internals: A Study of Whisper ASR Hallucination Detection](jasinski26_interspeech.md) — same problem · relatedness 2.1/3
+- [InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective](sadok26_interspeech.md) — same problem · relatedness 2.0/3
+- [Mind the Gap: Detecting Cluster Exits for Robust Local Density-Based Score Normalization in Anomalous Sound Detection](wilkinghoff26_interspeech.md) — same problem · relatedness 2.0/3
+- [What Do Deepfake Speech Detectors Actually Hear?](stanek26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Probing the Layer-wise Geometry of Chinese Dialect Representations in Wav2Vec 2.0](peng26c_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ National Taiwan University, NVIDIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [OPERA-Net: Octave-aware Phase-sensitive Enhanced Recognition Architecture for Singing Voice Deepfake Detection](ye26e_interspeech.md) — same problem · relatedness 3.0/3
+- [QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection](truong26_interspeech.md) — same problem · relatedness 2.4/3
+- [SingFox: A Multi-Lingual Singfake Detection Corpus](shah26_interspeech.md) — same problem · relatedness 2.4/3
+- [DASM: Detecting AI-Synthetic Music via Authentic Manifold Deviation Modeling](zhu26d_interspeech.md) — same problem · relatedness 2.4/3
+- [Lightweight Detection and Model Attribution of Synthetic Speech via Residual Statistical Fingerprints](pizarro26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

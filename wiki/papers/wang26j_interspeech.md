@@ -80,4 +80,10 @@ Nagoya Institute of Technology, University of Wollongong
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learning to Attend to Depression-Related Patterns: An Adaptive Cross-Modal Gating Network for Depression Detection](yu26c_interspeech.md) — same problem · relatedness 2.7/3
+- [Moot-Court: Training-Free Dialectical Reasoning for Depression Detection](sun26i_interspeech.md) — same problem · relatedness 2.6/3
+- [Label Correction Enhanced Dual-Stream Multiple Instance Learning for Weakly-Supervised Depression Detection in Speech](sun26e_interspeech.md) — same problem · relatedness 2.6/3
+- [Who is Speaking or Who is Depressed? A Controlled Study of Speaker Leakage in Speech-Based Depression Detection](yeh26_interspeech.md) — same problem · relatedness 2.5/3
+- [FedMPA: A Novel Privacy-Performance Optimization Approach for Multimodal Speech-Based Depression Detection](manamalage26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ University of Connecticut, McMaster University, Stony Brook University, Oregon S
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Words to Sentences: Contextual Predictability Overrides Phonetic Ambiguity in Lexical Competition](chang26g_interspeech.md) — same problem · relatedness 1.9/3
+- [Mitigating Causality Mismatch with Causal Temporal Relation Distillation for Streaming Keyword Spotting](zhang26ia_interspeech.md) — same problem · relatedness 1.8/3
+- [A Closer Look at Failure Modes in Temporal Understanding of Large Audio-Language Models](kulkarni26_interspeech.md) — shared data / evaluation · relatedness 1.8/3
+- [Improving streaming ASR with foundation models using emission policies](masmolla26_interspeech.md) — same problem · relatedness 1.6/3
+- [The Lipreading Gap: Do VSR Models Perceive Visual Speech Like Human Lipreaders?](jain26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

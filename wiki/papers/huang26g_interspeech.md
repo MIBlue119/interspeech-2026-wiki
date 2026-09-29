@@ -77,4 +77,10 @@ Tianjin University, Huiyan Technology Company, Shenzhen Institute of Advanced Te
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Unified Neural Speech Coding for Multiple Sampling Rates](huang26l_interspeech.md) — same problem · relatedness 2.0/3
+- [DiscoPhon: Benchmarking the Unsupervised Discovery of Phoneme Inventories With Discrete Speech Units](poli26_interspeech.md) — shared technique · relatedness 1.9/3
+- [ALFreeD: Teacher-Guided Few-Shot Pronunciation Assessment via Segmentation-Free Deviation Modeling](sirigiraju26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Comparing Self-Supervised and Domain-Invariant Features for Cross-Domain Voice Phishing Detection](lee26s_interspeech.md) — shared technique · relatedness 1.8/3
+- [Child-Centric Voice Anonymization in Single and Multi-Speaker Speech via Domain-Adapted SSL Models](tushar26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

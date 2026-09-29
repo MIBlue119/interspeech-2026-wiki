@@ -78,4 +78,10 @@ University of Vermont, Galois
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VerAno: Speaker Anonymization via Self-Supervised Tokenization and Conditional Flow Matching](le26_interspeech.md) — same problem · relatedness 2.9/3
+- [Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models](kuzmin26b_interspeech.md) — same problem · relatedness 2.9/3
+- [Acoustic token admixture for joint speaker and content anonymization](golmakani26_interspeech.md) — same problem · relatedness 2.9/3
+- [Reducing Speaker Residual by Considering Pinhole Effect in Voice Anonymization](liu26q_interspeech.md) — same problem · relatedness 2.8/3
+- [Imperceptible Voiceprint Protection via Human-Machine Perception Discrepancy Feature Disentanglement](xue26_interspeech.md) — same problem · relatedness 2.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

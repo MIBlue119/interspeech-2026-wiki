@@ -73,4 +73,10 @@ CyberAgent, Nagoya University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in Flow-Matching TTS](singh26c_interspeech.md) — same problem · relatedness 2.4/3
+- [Rethinking Speech Foundation Model Fine-tuning: Better SFT or Better Match?](zhou26i_interspeech.md) — shared technique · relatedness 1.9/3
+- [Gender Bias in ASR: A Controlled Study of Gender Composition Across Training Paradigms](s26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Pretrained self-supervised speech models can recognize unseen consonants](taguchi26_interspeech.md) — shared technique · relatedness 1.8/3
+- [High-Quality Speech Synthesis for Under-Resourced Ethiopian Languages](tamiru26_interspeech.md) — shared technique · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

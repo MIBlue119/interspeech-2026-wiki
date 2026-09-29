@@ -77,4 +77,10 @@ KU Leuven
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [WQ-Fusion: Dynamic Gated Attention for Cross-Domain Audio Representation](lin26n_interspeech.md) — shared technique · relatedness 2.6/3
+- [Adapting Text LLMs to Speech via Multimodal Depth Up-Scaling](yano26_interspeech.md) — same problem · relatedness 2.4/3
+- [LLM-as-Joiner: Decoupling Alignment from Language Modeling in Label-synchronous ASR](lee26u_interspeech.md) — same problem · relatedness 2.4/3
+- [Dual-Encoder Fusion with Explicit and Implicit Injection for the Interspeech 2026 Audio Encoder Capability Challenge](zhang26d_interspeech.md) — shared technique · relatedness 2.4/3
+- [Refining the Latent Bridge: Superior ASR Performance via Adapter-Only Alignment with Diffusion LLMs](bhooi26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

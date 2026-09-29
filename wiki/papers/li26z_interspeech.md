@@ -76,4 +76,10 @@ Australian National University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Phonetic evidence for contrastive voicing in Nakanamanga coronal plosives](li26ha_interspeech.md) — shared technique · relatedness 2.0/3
+- [Age-related Differences in the Perception of Vowel Length Contrast in Northern Vietnamese: The Case of Hoang Van (Bac Ninh) Variety](ta26_interspeech.md) — same problem · relatedness 1.9/3
+- [Speaker-Specific and Language-Dependent Temporal Organization in Bilingual Political Speech](hosseinikivanani26b_interspeech.md) — shared technique · relatedness 1.7/3
+- [Mapping Acceptable Pronunciation Range for te reo Māori through Perceptual, Acoustic, and Marker Evaluative Data](evans26_interspeech.md) — shared technique · relatedness 1.6/3
+- [To glide or not to glide: Acoustic realization of the diphthong-hiatus contrast in Italian and Romanian](cronenberg26_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

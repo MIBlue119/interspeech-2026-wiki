@@ -76,4 +76,10 @@ Keio University, University of Tokyo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Human-like cross-language generalisation in deep neural speaker embeddings and its acoustic foundations](xu26f_interspeech.md) — same problem · relatedness 2.5/3
+- [LISE : Listenable Interpretable Speaker Embeddings](wu26_interspeech.md) — same problem · relatedness 2.1/3
+- [The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation](tsai26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Learning Multiple Utterance-Level Attribute Representations with a Unified Speech Encoder](bouziane26_interspeech.md) — same problem · relatedness 1.9/3
+- [Adapting Audio Large Language Models for Speaker Verification](ren26c_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

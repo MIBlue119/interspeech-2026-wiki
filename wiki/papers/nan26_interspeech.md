@@ -65,4 +65,10 @@ UNSW, University of Sydney
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speech Playground: An Interactive Tool for Speech Analysis and Comparison](mcintosh26_interspeech.md) — same problem · relatedness 2.2/3
+- [TSExplorer: An interactive data annotation and exploration tool for time-series data](vaaras26_interspeech.md) — same problem · relatedness 2.0/3
+- [ELSI: An Interface for Standardizing Child-Centered Datasets, Applying Machine Learning Models, and Extracting Metrics](sheth26c_interspeech.md) — complementary · relatedness 2.0/3
+- [TriA Pipeline: A Large-Scale Automatic Audio Annotation Pipeline For Audio Classification In Specific Scenarios](lyu26_interspeech.md) — complementary · relatedness 2.0/3
+- [Balalaika: Data-Centric, Prosody-Aware Annotation Pipeline for Russian Speech](borodin26_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

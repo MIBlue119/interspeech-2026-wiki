@@ -79,4 +79,10 @@ University of Hamburg
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Learning to Hear Hesitation: Continual Learning for Disfluency-Aware ASR](kordt26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Parameter-Efficient Continual Learning for Automatic Speech Recognition](eeckt26_interspeech.md) — same problem · relatedness 2.0/3
+- [Unified Gradient Projection: Language-Balanced Continual Learning for Multilingual Low-Resource ASR](ren26g_interspeech.md) — shared technique · relatedness 2.0/3
+- [DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition](baik26_interspeech.md) — same problem · relatedness 1.9/3
+- [Vimarsha: Faithful ASR Evaluation for Indian Languages with Demographic Diversity, In-the-Wild Audio and Spelling Variations](bhogale26b_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

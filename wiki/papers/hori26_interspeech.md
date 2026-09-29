@@ -75,4 +75,10 @@ Mitsubishi Electric Research Laboratories, Keio University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Decoding while Adapting: Zero-Shot Online Speaker Adaptation via Audio-Textual Prompts for Elderly Speech Recognition](deng26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Considerate Listener Modeling for Korean Streaming Backchannel Prediction](choi26c_interspeech.md) — shared technique · relatedness 1.9/3
+- [AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning](zhang26ea_interspeech.md) — shared technique · relatedness 1.8/3
+- [AudioGround: Fine-Grained Temporal Grounding in Audio via Deterministic Boundary Supervision](kim26z_interspeech.md) — shared technique · relatedness 1.8/3
+- [TinyGiantALM: A Compact Audio-Language Model for Intent-Aware Reasoning under Resource Constraints](ly26_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ RIKEN, University of Osaka, Advanced Telecommunications Research Institute Inter
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Preclinical Study of Electrolaryngeal Voice Conversion for a Novel Nasal Electrolarynx: Feature Choice and Data Augmentation](chen26t_interspeech.md) — same problem · relatedness 2.6/3
+- [Personalized Electrolaryngeal Voice Conversion with a Single Pre-operative Utterance](chang26e_interspeech.md) — same problem · relatedness 2.4/3
+- [Synthetic Pathological Speech at Scale: A Flow Matching Approach for Clinical Data Augmentation](koudounas26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Universal Speech Content Factorization](xinyuan26_interspeech.md) — same problem · relatedness 2.0/3
+- [ZeSTA: Zero-Shot TTS Augmentation with Domain-Conditioned Training for Data-Efficient Personalized Speech Synthesis](choi26b_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

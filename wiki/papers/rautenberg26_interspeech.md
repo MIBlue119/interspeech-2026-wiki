@@ -78,4 +78,10 @@ Paderborn University, Bielefeld University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [RIVET: Robust Idempotent Voice Attribute Editing](alharthi26_interspeech.md) — same problem · relatedness 2.3/3
+- [VoiceQualityGUI: A Tool for Word-Level Voice Quality Modifications](lameris26b_interspeech.md) — same problem · relatedness 2.1/3
+- [CFLOW-VC: An unsupervised cycle training strategy based on normalizing flows for Voice Conversion](song26_interspeech.md) — shared technique · relatedness 2.0/3
+- [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](zhou26h_interspeech.md) — same problem · relatedness 2.0/3
+- [SRF-SVB: Style-Consistent Singing Voice Beautifying via Rectified Flow](li26h_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

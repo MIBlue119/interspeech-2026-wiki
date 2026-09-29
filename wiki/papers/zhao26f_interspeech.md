@@ -79,4 +79,10 @@ Inner Mongolia University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [GISNO: Neural Operator-based HRTF Personalization from 3D Meshes via Differentiable Helmholtz Rendering](huang26b_interspeech.md) — same problem · relatedness 2.9/3
+- [HRTF Personalization via Sim-to-Real Neural Field](masuyama26_interspeech.md) — same problem · relatedness 2.8/3
+- [HRIR-Former: Grid-Free Time-Domain Reconstruction of Head-Related Impulse Responses with a Spatially Encoded Transformer](xu26c_interspeech.md) — same problem · relatedness 2.6/3
+- [HRTF-guided Binaural Target Speaker Extraction with Real-World Validation](ellinson26_interspeech.md) — complementary · relatedness 1.7/3
+- [Dual-Geometry Manifolds for Few-shot RIR Prediction](bhosale26b_interspeech.md) — shared technique · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

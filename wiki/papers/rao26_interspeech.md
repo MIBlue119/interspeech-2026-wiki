@@ -81,4 +81,10 @@ Nanjing University, Nanjing Institute of Advanced Artificial Intelligence, Samsu
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Active Constructive Interference for Speech](yaish26_interspeech.md) — same problem · relatedness 2.2/3
+- [Predictive Directional Selective Fixed-Filter Active Noise Control for Moving Sources via a Convolutional Recurrent Neural Network](wang26e_interspeech.md) — same problem · relatedness 2.1/3
+- [A Sparsity-Aware Robust Nonlinear Active Noise Control for Impulsive Noise Environments](xu26_interspeech.md) — same problem · relatedness 1.9/3
+- [ABSE-NET: A Lightweight Neural Model for Active Binaural Speech Enhancement in Open-Fit Hearing Aids](hu26f_interspeech.md) — same problem · relatedness 1.9/3
+- [Don''t Listen to Me: A Lightweight, Low-Latency Model for Own-Voice Cancellation in Far-Field Speech Enhancement](stergaard26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

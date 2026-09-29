@@ -76,4 +76,10 @@ University of Pennsylvania
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ZeroSyl: Simple Zero-Resource Syllable Tokenization for Spoken Language Modeling](visser26_interspeech.md) — same problem · relatedness 2.7/3
+- [How does children's pronunciation develop? Capturing syllabic change with children's growth using unsupervised syllable discovery](horii26_interspeech.md) — complementary · relatedness 2.1/3
+- [Beyond Deep Learning: Speech Segmentation and Phone Classification with Neural Assemblies](adelson26_interspeech.md) — same problem · relatedness 2.0/3
+- [Boundaryless Speech-to-Syllable Representations with Hierarchical CNN for Linguistically Inspired Automatic Stress Detection](mokshagundam26_interspeech.md) — complementary · relatedness 1.9/3
+- [TASTE-Streaming: Towards Streamable Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling](tseng26b_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

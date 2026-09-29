@@ -78,4 +78,10 @@ University of Glasgow, McGill University, University of Oregon, North Carolina S
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Multilingual Phonological Feature Recognition with Self-Supervised Speech Models](hernandez26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Acoustic Landmark Detector based on Conformer and HuBERT](camara26c_interspeech.md) — shared technique · relatedness 2.0/3
+- [Oral stop realisation in three French Polynesian languages](fletcher26_interspeech.md) — same problem · relatedness 1.9/3
+- [Phoneme-Level Mispronunciation Screening in Polish-Speaking Children with an Explainable Assistant](dudek26_interspeech.md) — shared technique · relatedness 1.9/3
+- [An investigation of post-stop breathiness in Australian English](powelldavies26_interspeech.md) — complementary · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

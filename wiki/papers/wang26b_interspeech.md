@@ -80,4 +80,10 @@ Nankai University, Kuaishou Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ARCHES: An Agent-Based Refinement Cycle for Hierarchical Synthesis of Sound Effects for Variety Shows](lei26_interspeech.md) — same problem · relatedness 2.8/3
+- [Listening to Motion in Space: Vision-Grounded Event-wise Video-to-Audio Generation and Rendering](park26m_interspeech.md) — same problem · relatedness 2.7/3
+- [FoleyImmersive: Decoupling What and Where for Video-to-First-Order Ambisonics](liang26b_interspeech.md) — same problem · relatedness 2.3/3
+- [PF-D2M: A Pose-free Diffusion Model for Universal Dance-to-Music Generation](im26_interspeech.md) — shared technique · relatedness 2.1/3
+- [GACA-DiT: Diffusion-based Dance-to-Music Generation with Genre-Adaptive Rhythm and Context-Aware Alignment](wang26da_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

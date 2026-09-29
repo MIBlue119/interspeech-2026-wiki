@@ -74,4 +74,10 @@ University of Auckland, University of Oxford
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Variation and change in dynamicity of Australian English diphthongs in Sydney](purser26_interspeech.md) — same problem · relatedness 1.9/3
+- [Modelling diphthong dynamics: A GAMM-based analysis of Australian English diphthongs](gnevsheva26_interspeech.md) — relatedness 1.7/3
+- [Effects of body position on vowel formants in New Zealand English](guan26_interspeech.md) — same problem · relatedness 1.6/3
+- [Beyond Pitch: Multidimensional Cue Reweighting of Two High-Falling Tones in Pingdingshan Mandarin](chen26c_interspeech.md) — shared technique · relatedness 1.6/3
+- [An Acoustic Investigation of Mid Front Vowel Harmony in Assamese](nath26_interspeech.md) — shared technique · relatedness 1.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

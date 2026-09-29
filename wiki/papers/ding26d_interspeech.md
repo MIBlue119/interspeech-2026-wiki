@@ -80,4 +80,10 @@ Southern University of Science and Technology, Capital Medical University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DisenEEG-Net: Disentangling EEG features via sufficient information bottleneck and adversarial learning for cross-subject auditory attention detection](kausar26_interspeech.md) — same problem · relatedness 2.2/3
+- [SAGE: Switch-Aware EEG-Guided Soft Gating for Target Speaker Extraction with In-Trial Switching](wang26p_interspeech.md) — same problem · relatedness 2.0/3
+- [MOV-AAD: A Large-Scale Multimodal Dataset for Auditory Attention Decoding During Moving Conversations](he26g_interspeech.md) — same problem · relatedness 2.0/3
+- [NeuroMultiSpEx: Neuro-Guided Target Speaker Extraction for Multi-Speaker Scenarios](silva26_interspeech.md) — same problem · relatedness 1.7/3
+- [Breaking Shortcut Learning for Cross-Trial EEG-Guided Target Speech Extraction via Two-Stage Training](shin26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

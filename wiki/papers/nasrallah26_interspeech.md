@@ -76,4 +76,10 @@ Texas A&M University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [StreamVoiceAnon+: Emotion-Preserving Streaming Speaker Anonymization via Frame-Level Acoustic Distillation](kuzmin26_interspeech.md) — same problem · relatedness 2.9/3
+- [DiffAnon: Diffusion-based Prosody Control for Voice Anonymization](ulgen26b_interspeech.md) — same problem · relatedness 2.9/3
+- [Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models](kuzmin26b_interspeech.md) — same problem · relatedness 2.7/3
+- [VerAno: Speaker Anonymization via Self-Supervised Tokenization and Conditional Flow Matching](le26_interspeech.md) — same problem · relatedness 2.5/3
+- [Acoustic token admixture for joint speaker and content anonymization](golmakani26_interspeech.md) — same problem · relatedness 2.5/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

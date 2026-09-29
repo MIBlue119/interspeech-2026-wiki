@@ -78,4 +78,10 @@ Huawei, Chinese University of Hong Kong, Nanyang Technological University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Less can be More: What Aspects of Speech Drive End-of-Turn Detection](sharon26_interspeech.md) — same problem · relatedness 2.9/3
+- [Endpoint Anticipation for Low-Latency Spoken Dialogue](udupa26_interspeech.md) — same problem · relatedness 2.7/3
+- [MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the wild](qi26_interspeech.md) — same problem · relatedness 1.9/3
+- [QuadVAD: Fine-Grained Speech Detection with a Compact Architecture](rachumallu26_interspeech.md) — same problem · relatedness 1.9/3
+- [Evaluating Large Language Models Abilities for Addressee, Turn-change, and Next Speaker Prediction in Meetings](fukuda26b_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

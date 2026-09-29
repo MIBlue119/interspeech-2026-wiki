@@ -69,4 +69,10 @@ National Taiwan University, Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Localizing and Editing Knowledge in Large Audio-Language Models](chung26_interspeech.md) — shared technique · relatedness 2.2/3
+- [A Closer Look at Failure Modes in Temporal Understanding of Large Audio-Language Models](kulkarni26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Investigating Faithfulness in Large Audio Language Models](mousavi26_interspeech.md) — same problem · relatedness 2.0/3
+- [Inside the Latent Flow: Causal Deciphering of Attention Dynamics in Audio Separation Foundation Models](chen26ca_interspeech.md) — shared technique · relatedness 2.0/3
+- [All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation](foo26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

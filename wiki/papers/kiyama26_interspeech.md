@@ -74,4 +74,10 @@ Peking University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [From Words to Sentences: Contextual Predictability Overrides Phonetic Ambiguity in Lexical Competition](chang26g_interspeech.md) — relatedness 1.7/3
+- [Categorical Perception of Mandarin Tones in Jingpo Native Speakers](wang26z_interspeech.md) — shared technique · relatedness 1.7/3
+- [Perceptual Trade-offs Across Segmental and Suprasegmental Levels: Comparing Ganong Patterns in Mandarin Consonants and Lexical Tones](li26f_interspeech.md) — shared technique · relatedness 1.6/3
+- [An investigation of post-stop breathiness in Australian English](powelldavies26_interspeech.md) — relatedness 1.6/3
+- [WER Are We (Really): How Well Do Top Open ASR Leaderboard Models Generalize to Nonstandard Speech?](dhaka26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

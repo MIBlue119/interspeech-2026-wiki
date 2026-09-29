@@ -79,4 +79,10 @@ National Tsing Hua University, Google
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation](foo26_interspeech.md) — same problem · relatedness 2.0/3
+- [The Voice Behind the Words: Quantifying Intersectional Bias in SpeechLLMs](bokkahallisatish26_interspeech.md) — same problem · relatedness 2.0/3
+- [ERM-MinMaxGAP: Benchmarking and Mitigating Gender Bias in Multilingual Multimodal Speech-LLM Emotion Recognition](pang26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Who is Speaking or Who is Depressed? A Controlled Study of Speaker Leakage in Speech-Based Depression Detection](yeh26_interspeech.md) — same problem · relatedness 2.0/3
+- [Prosody-Aware Speech Representations for Emotion Recognition under Pragmatic Ambiguity](park26l_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

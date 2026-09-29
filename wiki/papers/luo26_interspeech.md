@@ -76,4 +76,10 @@ Fish Audio, University of Science and Technology of China
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Instantaneous Pitch Estimation via Wave-U-Net-Based Fundamental Waveform Enhancement](koguchi26_interspeech.md) — same problem · relatedness 2.4/3
+- [Amadea: An AI Companion for Pitch-Aware Spoken Language Practice](agrawal26_interspeech.md) — complementary · relatedness 1.8/3
+- [Automatic identification of the onset of creaky voice according to F0 instability](puggaardrode26_interspeech.md) — complementary · relatedness 1.8/3
+- [Differentiable Pitch Matching with Auditory Models](marttila26_interspeech.md) — same problem · relatedness 1.8/3
+- [Pitch-Injected Residual Adapter for Tonal Language in Neural Audio Codec](yang26g_interspeech.md) — complementary · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

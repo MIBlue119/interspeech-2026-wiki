@@ -79,4 +79,10 @@ University of Alberta, Data Science Nigeria, EqualyzAI, Alberta Machine Intellig
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India](bhogale26_interspeech.md) — shared data / evaluation · relatedness 2.4/3
+- [Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language](rahman26_interspeech.md) — same problem · relatedness 2.4/3
+- [AfriVox-v2: A Domain-Verticalized Benchmark for In-the-Wild African Speech Recognition](awobade26_interspeech.md) — same problem · relatedness 2.3/3
+- [Preserving the Iranian Turkic Language: Community-Driven ASR Datasets and Benchmarking for South Azerbaijani](farsi26_interspeech.md) — same problem · relatedness 2.2/3
+- [Hamsa: A Manually Annotated Emirati Arabic Corpus for Speech and Language Technologies](alyafeai26_interspeech.md) — shared data / evaluation · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

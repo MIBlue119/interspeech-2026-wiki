@@ -80,4 +80,10 @@ Duke Kunshan University, Duke University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [VAD to the Bone: Ultra-Tiny Speech Activity Detection for Edge Deployment](bauer26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Sub-Model Short-Term Memory Convolutions for Keyword Spotting Systems on Device](warlewski26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Towards a Stochastic DNN Approximation of Cochlear Implant Auditory Models](hartmann26_interspeech.md) — same problem · relatedness 1.8/3
+- [RT-Tango: Real-Time Distributed Binaural Speech Enhancement for Low-Power Hearing Aid Devices](benslimane26_interspeech.md) — same problem · relatedness 1.8/3
+- [Lightbeam: An Accurate and Memory-Efficient CTC Decoder for Speech Neuroprostheses](feghhi26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

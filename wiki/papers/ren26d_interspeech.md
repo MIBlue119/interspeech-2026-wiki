@@ -79,4 +79,10 @@ Shanghai Artificial Intelligence Laboratory, Tsinghua University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [audiobook-cc: Controllable Long-context Speech Generation for Multicast Audiobook](liu26p_interspeech.md) — same problem · relatedness 2.0/3
+- [DeSRPA: Decoupled Speech Role-Playing Agent via Inference-Time Intervention](tang26b_interspeech.md) — same problem · relatedness 2.0/3
+- [ARCHES: An Agent-Based Refinement Cycle for Hierarchical Synthesis of Sound Effects for Variety Shows](lei26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions](zhang26m_interspeech.md) — same problem · relatedness 1.9/3
+- [PRISM: Prosody-Integrated Multi-Agent Reasoning Framework for Empathetic Spoken Dialogue](zhang26r_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

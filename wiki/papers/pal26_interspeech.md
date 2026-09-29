@@ -79,4 +79,10 @@ Aalto University, INESC-ID, Instituto Superior Técnico, Walton Institute, South
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Bootstrapping Endangered Language ASR with Short-Form Corpora](bartley26_interspeech.md) — same problem · relatedness 2.0/3
+- [Align-Consistency: Improving Non-autoregressive and Semi-supervised ASR with Consistency Regularization](huang26i_interspeech.md) — shared technique · relatedness 2.0/3
+- [Confidence Score Guided Incremental and Speaker Adaptive Pseudo-Labeling for Semi-Supervised Elderly Speech Recognition](deng26c_interspeech.md) — shared technique · relatedness 2.0/3
+- [Something from Nothing: Data Augmentation for Robust Severity Level Estimation of Dysarthric Speech](bae26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Low-Resource Medical ASR for Rich Transcription in Latvian](znotins26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

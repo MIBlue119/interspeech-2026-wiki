@@ -79,4 +79,10 @@ Korea University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Text-Independent Speaker Verification Using Discrete Audio Tokens](liang26c_interspeech.md) — same problem · relatedness 2.5/3
+- [Stabilizing Short Duration Speaker Verification through Neural Re-scoring with Hybrid Enrollment](ai26_interspeech.md) — same problem · relatedness 2.4/3
+- [Adapting Audio Large Language Models for Speaker Verification](ren26c_interspeech.md) — same problem · relatedness 2.4/3
+- [ReDimNet2: Scaling Speaker Verification via Time-Pooled Dimension Reshaping](yakovlev26_interspeech.md) — same problem · relatedness 2.4/3
+- [LaS-LCA: Layer-Selected Latent Cross-Attention Adapters and Margin-Mixup for Robust Cross-Lingual Speaker Verification](shen26b_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

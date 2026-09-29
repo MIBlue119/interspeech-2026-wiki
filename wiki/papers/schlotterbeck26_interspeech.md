@@ -81,4 +81,10 @@ Factored AI
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Alignment-Aware Continued Pre-training for Multilingual Speech Representation Learning](lu26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Content is What Remains: Invariant Speech Tokenization from Parallel Utterances](wagner26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Genealogical Priors in Self-Supervised Learning: Improving Speech Technology for Low-Resource Languages](granda26_interspeech.md) — shared technique · relatedness 2.0/3
+- [BiMamba2 Masked Discrete-Unit Prediction for Multilingual Speech Representation for Unsupervised Speech in the Wild Challenge](subedi26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Unsupervised Speech in the Wild Challenge: Learning Robust Multilingual Representations](gomez26_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

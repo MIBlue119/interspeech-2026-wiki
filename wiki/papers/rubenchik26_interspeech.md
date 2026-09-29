@@ -78,4 +78,10 @@ Bar-Ilan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Speaker Separation via Audio Language Modeling](lanzendoerfer26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Speaker Identity as Sole Supervision for Speech Separation](boeddeker26_interspeech.md) — same problem · relatedness 2.5/3
+- [TF-MossFormer: Integrating Convolution Gated Local-Global Attentions for Enhanced Time-Frequency Domain Monaural Speech Separation](zhao26_interspeech.md) — same problem · relatedness 2.5/3
+- [MCA-DCF-DS: An Adaptive Framework for Unified Diarization and Separation with Spatial Information](niu26b_interspeech.md) — same problem · relatedness 2.4/3
+- [MeanFlow-TSE: One-Step Generative Target Speaker Extraction with Mean Flow](shimizu26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

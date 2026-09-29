@@ -76,4 +76,10 @@ Soongsil University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Latent-Mark: An Audio Watermark Robust to Neural Codec Compression](chen26u_interspeech.md) — same problem · relatedness 2.9/3
+- [VoxWatermark: A Large-Scale Benchmark for Audio Watermark Detection under Perturbations](sedaghati26_interspeech.md) — same problem · relatedness 2.1/3
+- [Phoneme-Aware Mamba Watermark: An Active Defense System Against Purified Speech Deepfakes](shao26_interspeech.md) — same problem · relatedness 2.0/3
+- [Tracing the Origins: Legacy Codec Identification in Neural Audio Transcoding](heo26b_interspeech.md) — same problem · relatedness 2.0/3
+- [DuraMark: Duration-Embedded Watermarking in LLM-based TTS](mou26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

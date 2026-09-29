@@ -79,4 +79,10 @@ Wuhan University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AdaTS: Adaptive Token Sampling for Efficient Speech Language Models](sannigrahi26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Modality Importance is Not Static: Temporal Dynamics via Gating in Multimodal Emotion Recognition](ryu26_interspeech.md) — same problem · relatedness 1.9/3
+- [Audio-Visual Feature Reconstruction Pretraining for Noise-Robust Emotion Recognition](parmonangan26_interspeech.md) — same problem · relatedness 1.9/3
+- [Preserving Acoustic Cues for Video Reasoning: An Efficient Uniqueness-Driven Token Compression Framework](xue26d_interspeech.md) — shared technique · relatedness 1.9/3
+- [Content-Aware Dynamic Compression for Efffcient Speech Recognition based on Large Language Model](zhu26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

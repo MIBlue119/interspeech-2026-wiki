@@ -76,4 +76,10 @@ Harbin Institute of Technology, Tsinghua University, Zhejiang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [TC-DBI: A Plug-and-Play Trajectory Confidence-Guided Dynamic Block Inference Strategy for Speech Synthesis with Continuous Block Flow Matching](wang26v_interspeech.md) — same problem · relatedness 2.2/3
+- [FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation](xie26b_interspeech.md) — same problem · relatedness 2.2/3
+- [DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis](madha26_interspeech.md) — same problem · relatedness 2.1/3
+- [Streaming T5-based Text-to-Speech Synthesis with Limited Lookahead](du26_interspeech.md) — same problem · relatedness 2.0/3
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](lee26j_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

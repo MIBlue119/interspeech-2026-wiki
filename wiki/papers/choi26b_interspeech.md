@@ -78,4 +78,10 @@ Maum AI, Humelo
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Dual-Space Constrained Face-Based Zero-Shot Text-to-Speech Synthesis](wang26f_interspeech.md) — same problem · relatedness 2.3/3
+- [Deterministic Prompting for Speaker-Stable Low-Resource Greek TTS](syllas26_interspeech.md) — same problem · relatedness 2.2/3
+- [VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation](xie26c_interspeech.md) — same problem · relatedness 2.2/3
+- [Personalized Electrolaryngeal Voice Conversion with a Single Pre-operative Utterance](chang26e_interspeech.md) — same problem · relatedness 2.1/3
+- [TASU2: Controllable CTC Simulation for Alignment and Low-Resource Adaptation of Speech LLMs](peng26b_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

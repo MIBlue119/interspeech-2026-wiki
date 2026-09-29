@@ -70,4 +70,10 @@ Academia Sinica, National Taiwan University, Kore University of Enna, University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Latency-Configurable Streaming Speech Enhancement via Asymmetric Temporal Padding](kim26g_interspeech.md) — same problem · relatedness 2.9/3
+- [SEMamba++: A General Speech Restoration Framework Leveraging Global, Local, and Periodic Spectral Patterns](lee26f_interspeech.md) — same problem · relatedness 2.7/3
+- [HALO: Half-Frame-Rate Adaptive Learnable Operator for Lightweight STFT-Based Speech Enhancement](zhao26c_interspeech.md) — same problem · relatedness 2.7/3
+- [Schrödinger Bridge Mamba for One-Step Speech Enhancement](yang26e_interspeech.md) — same problem · relatedness 2.6/3
+- [Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow](zhang26z_interspeech.md) — same problem · relatedness 2.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

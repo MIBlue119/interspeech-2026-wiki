@@ -81,4 +81,10 @@ Chinese University of Hong Kong, Shenzhen
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Which Data Matter? Embedding-Based Data Selection for Speech Recognition](aldeneh26_interspeech.md) — shared technique · relatedness 2.0/3
+- [ARTIST: Universal Articulatory Space Modeling for Multilingual Indic-to-English Speech-to-Speech Translation](yadav26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Multimodal Semi-Supervised Framework for Automatic Construction of a Cross-Lingual Taigi Speech-Chinese Subtitle Corpus](cho26b_interspeech.md) — same problem · relatedness 1.9/3
+- [POTSA: A Cross-Lingual Speech Alignment Framework for Speech-to-Text Translation](li26k_interspeech.md) — same problem · relatedness 1.9/3
+- [Data Filtering Trade-offs in Self-Supervised Speech Representation Learning: A Study on Unconstrained Broadcast Audio](getman26_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

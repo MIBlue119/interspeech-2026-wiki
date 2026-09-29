@@ -79,4 +79,10 @@ Beijing University of Posts and Telecommunications, Hello Group Inc
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis](zheng26c_interspeech.md) — same problem · relatedness 2.9/3
+- [Refining Emphasis Control in Flow-Matching TTS via Preference Alignment and Reinforcement Learning](ye26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Dynamic Prosody Prediction in LLM-based TTS for Improving Speaker Similarity](mou26b_interspeech.md) — same problem · relatedness 2.5/3
+- [Improving Flow Matching based Text-to-Speech with Dual-Model Preference Optimization and Classifier-Free Guidance](chen26y_interspeech.md) — same problem · relatedness 2.5/3
+- [Unified Prosody Restoration Using Diffusion Models for Controllable Text-to-Speech Synthesis](ito26_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

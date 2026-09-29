@@ -81,4 +81,10 @@ Hanyang University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Enhancing Temporal Prediction Consistency for Short-Duration Acoustic Scene Classification via Semantic Adversarial Training](cai26b_interspeech.md) — same problem · relatedness 2.7/3
+- [Robust Multi-Source-Free Domain Adaptation via Posterior Adjustment and Label Agreement](yoon26_interspeech.md) — same problem · relatedness 1.9/3
+- [Towards Event-Robust Acoustic Scene Classification](cai26d_interspeech.md) — same problem · relatedness 1.9/3
+- [Geometry-Informed Distributed Acoustic Scene Understanding](yang26f_interspeech.md) — same problem · relatedness 1.8/3
+- [A Gated Multi-Task Whisper Framework for Speech, Emotion, and Scene Understanding](bhat26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ National Institute of Technology Sikkim
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Investigating ASR for Low-Intelligibility Dysarthric Speech](kwon26b_interspeech.md) — same problem · relatedness 2.6/3
+- [Low-Burden Data Augmentation for Dysarthric ASR via Zero-Shot Voice Cloning](singh26_interspeech.md) — same problem · relatedness 2.6/3
+- [BetterSpeak: An Atypical Speech to Typical Speech Platform for Dysarthric Speakers](shahamiri26_interspeech.md) — same problem · relatedness 2.5/3
+- [Data-Efficient ASR Personalization for Non-Normative Speech Using an Uncertainty-Based Phoneme Difficulty Score for Guided Sampling](pokel26_interspeech.md) — same problem · relatedness 2.1/3
+- [Etiology-Aware Speech Language Models for Dysarthric Speech Recognition](laquatra26_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -74,4 +74,10 @@ Queensland University of Technology, University Grenoble Alpes, CNRS, Grenoble I
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Deep learning-based predictions of perceived listening effort and intelligibility across enhanced, synthetic, natural, and binaural speech](hoffner26_interspeech.md) — same problem · relatedness 1.9/3
+- [Speech-Worthy Alignment for Japanese SpeechLLMs via Direct Preference Optimization](zhao26d_interspeech.md) — complementary · relatedness 1.8/3
+- [Application context in speech synthesis evaluation: A problem and a solution](seebauer26_interspeech.md) — same problem · relatedness 1.8/3
+- [Is Natural Always Appropriate? Investigating Naturalness and Appropriateness Across Different Domains for TTS Evaluation](woszczyk26_interspeech.md) — same problem · relatedness 1.8/3
+- [Profiling Speech Rate Abilities of Visually Impaired Screen Reader Users by Bayesian Item Response Theory](miura26_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

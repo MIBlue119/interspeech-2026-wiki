@@ -75,4 +75,10 @@ Imperial College London, NatWest AI Research
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Attention-Guided Reliability Scaling for Contrastive Decoding in Robust Audio-Visual Speech Recognition](kim26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Robust LLM-based Audio-Visual Speech Recognition with Sparse Modality Alignment and Visual Unit-Guided Refinement](su26_interspeech.md) — same problem · relatedness 2.0/3
+- [Adaptive AVSR: Integrating Speaker and Environmental Embeddings for Robust Audio-Visual Speech Recognition](simic26_interspeech.md) — same problem · relatedness 2.0/3
+- [How Frequency Band Importance Affects Neural Network Predictions and Human Perception for Speech Quality Assessment](lamba26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Cross-Attention is Half Explanation in Speech-to-Text Models](papi26_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

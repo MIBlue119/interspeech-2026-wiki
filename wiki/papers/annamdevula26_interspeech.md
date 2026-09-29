@@ -79,4 +79,10 @@ Sony
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [AccentDrift: Real-time Streaming Accent Conversion via Sparse Speech Tokenization](lee26g_interspeech.md) — same problem · relatedness 2.4/3
+- [Controllable Accent Normalization via Discrete Diffusion](bai26b_interspeech.md) — same problem · relatedness 2.1/3
+- [When Machines Speak Like Local Peers: Improving Conversational Experiences with Accent-Adaptive Voice Agents](garnaik26_interspeech.md) — same problem · relatedness 2.0/3
+- [StyleStream: Real-Time Zero-Shot Voice Style Conversion](liu26c_interspeech.md) — same problem · relatedness 2.0/3
+- [CodecMOS-Accent: A MOS Benchmark of Resynthesized and TTS Speech from Neural Codecs Across English Accents](huang26f_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

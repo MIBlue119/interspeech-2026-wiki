@@ -69,4 +69,10 @@ Stockholm University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Acoustic Pharyngometry as an Auditable Anchor for Cross-Speaker EMA Normalization](friedrichs26_interspeech.md) — complementary · relatedness 1.9/3
+- [From Lab to Laptop: Validating 3D Speech Kinematics with MediaPipe Face Mesh](sanchez26b_interspeech.md) — complementary · relatedness 1.9/3
+- [ArtBoost: Synthetic Articulatory Data Augmentation for Acoustic-to-Articulatory Inversion](kim26f_interspeech.md) — complementary · relatedness 1.9/3
+- [How Bilingual Are SSL Speech Models? Cross-Lingual Probing of Articulatory Encoding with Finnish and Russian EMA](pedro26_interspeech.md) — complementary · relatedness 1.9/3
+- [Vocal Effort Modulation Strategies: A Cross-Corpus Taxonomy with Noise Robustness and ASR Implications](marcinek26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

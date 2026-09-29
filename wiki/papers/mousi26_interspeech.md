@@ -77,4 +77,10 @@ Qatar Computing Research Institute, Hamad Bin Khalifa University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Robustness Assessment of Large Audio Language Models in Multiple-choice Evaluation](lopez26_interspeech.md) — same problem · relatedness 2.0/3
+- [Investigating Faithfulness in Large Audio Language Models](mousavi26_interspeech.md) — same problem · relatedness 2.0/3
+- [Do What I Say: A Spoken Prompt Dataset for Instruction-Following](zufle26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [DEBATE: A Dataset for Disentangling Textual Ambiguity in Mandarin Through Speech](guo26e_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

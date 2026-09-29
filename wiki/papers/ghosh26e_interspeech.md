@@ -79,4 +79,10 @@ Samsung
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Scaling few-shot spoken word classification with generative meta-continual learning](beyers26_interspeech.md) — same problem · relatedness 1.8/3
+- [MambAdapter: Lightweight Mamba-Based Adapters for Parameter-Efficient Transfer Learning in Speech and Audio](ali26b_interspeech.md) — same problem · relatedness 1.8/3
+- [Similarity as Evidence: An Explainable Siamese Framework for Snore Sound Classification](meng26f_interspeech.md) — shared technique · relatedness 1.8/3
+- [Bridging Languages and Modalities: Lightweight Cross-Lingual Text and Speech Summarization for Low-Resource Scenarios](chellaf26_interspeech.md) — same problem · relatedness 1.8/3
+- [Task-Aware Joint Pruning and Distillation for Efficient Audio Deepfake Detection](he26f_interspeech.md) — relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ University of Cambridge
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Towards Data-free and Training-free Compression for Speech Foundation Models Using Parameter Clustering](xu26h_interspeech.md) — same problem · relatedness 2.4/3
+- [Pruning as Regularization: Sensitivity-Aware One-Shot Pruning in ASR](irigoyen26_interspeech.md) — same problem · relatedness 2.2/3
+- [PhonePrune: One-shot Phoneme-Aware Pruning for Large-scale ASR Models via Phoneme Set Generation and Calibration](lee26q_interspeech.md) — same problem · relatedness 2.0/3
+- [The silence of the weights: a structural pruning strategy for Attention-based audio signal architectures with second-order metrics](diecidue26_interspeech.md) — shared technique · relatedness 2.0/3
+- [AdaTS: Adaptive Token Sampling for Efficient Speech Language Models](sannigrahi26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -80,4 +80,10 @@ University of Moratuwa
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Probing Linguistic Information in Speech Embeddings: A Diagnostic Analysis across Acoustic and Structural Domains](gonzalez26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders](aparin26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Learning task-specific subspaces via interventional post-training of speech foundation models](cox26_interspeech.md) — shared technique · relatedness 1.9/3
+- [InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective](sadok26_interspeech.md) — same problem · relatedness 1.9/3
+- [Towards Interpretable Framework for Neural Audio Codecs via Sparse Autoencoders: A Case Study on Accent Information](wang26n_interspeech.md) — shared technique · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

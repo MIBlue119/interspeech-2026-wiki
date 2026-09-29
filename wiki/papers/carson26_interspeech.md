@@ -78,4 +78,10 @@ Skyworks Solutions, Georgia Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Time–Frequency Weighted Losses for Phoneme Reconstruction in DNN-Based Speech Enhancement](monir26_interspeech.md) — same problem · relatedness 2.5/3
+- [HFMSE: Harmonic-Guided Speech Enhancement with Flow Matching](li26l_interspeech.md) — same problem · relatedness 2.4/3
+- [Seed-Enh: Generative Speech Enhancement in Decoupled Semantic and Timbre Spaces](shang26_interspeech.md) — same problem · relatedness 2.4/3
+- [Post-Training Speech Enhancement Language Models with Perceptual Rewards](berdo26_interspeech.md) — same problem · relatedness 2.4/3
+- [Absorbing Discrete Diffusion for Speech Enhancement](gonzalez26_interspeech.md) — same problem · relatedness 2.3/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

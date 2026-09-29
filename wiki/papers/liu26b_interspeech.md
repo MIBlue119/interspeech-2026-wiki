@@ -78,4 +78,10 @@ Alibaba
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [DiffVQE: Hybrid Diffusion Voice Quality Enhancement Under Acoustic Echo and Noise](lugo26_interspeech.md) — same problem · relatedness 2.9/3
+- [Neuromorphic Speech Enhancement with Dual-Branch Spiking Neural Networks](meng26d_interspeech.md) — same problem · relatedness 2.1/3
+- [Bridging the Distribution Gap in Real-World Far-Field Speech Enhancement via Lightweight Latent Representation Alignment](liu26s_interspeech.md) — same problem · relatedness 2.0/3
+- [WaveNorm: Real-Time Neural AGC for Noise-Robust Speech Enhancement on Resource-Constrained Edge Devices](ijjada26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Real-Time Speech Enhancement on Edge Devices Guided by Harmonic and Voice-Activity Cues Utilizing Skin-Attachable Accelerometer](song26g_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

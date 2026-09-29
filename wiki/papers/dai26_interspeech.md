@@ -79,4 +79,10 @@ University of Science and Technology of China
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [BG-CRNN: Boundary-Guided Dynamic Attention for Sound Event Detection in Complex Scenarios](lin26k_interspeech.md) — same problem · relatedness 2.6/3
+- [Teacher-Agnostic Temporal Knowledge Distillation for Resource-Efficient Sound Event Detection](son26_interspeech.md) — same problem · relatedness 2.2/3
+- [A Semantic-Anchor-based Method for Open-Vocabulary Sound Event Detection](liu26f_interspeech.md) — same problem · relatedness 2.0/3
+- [Align-Consistency: Improving Non-autoregressive and Semi-supervised ASR with Consistency Regularization](huang26i_interspeech.md) — shared technique · relatedness 1.9/3
+- [POP-SED: Prototype Orthogonal Projection for Robust Few-shot Sound Event Detection](kagoshima26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

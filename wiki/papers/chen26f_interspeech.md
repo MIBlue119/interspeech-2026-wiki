@@ -83,4 +83,7 @@ Duke Kunshan University, Chinese University of Hong Kong, Wuhan University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [UD-ASD: A Unified Diffusion Model for Anomalous Sound Detection](gao26c_interspeech.md) — complementary · relatedness 1.8/3
+- [Mind the Gap: Detecting Cluster Exits for Robust Local Density-Based Score Normalization in Anomalous Sound Detection](wilkinghoff26_interspeech.md) — complementary · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -75,4 +75,10 @@ Bielefeld University, Paderborn University, SFB/Transregio 318 ‘Constructing E
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Considerate Listener Modeling for Korean Streaming Backchannel Prediction](choi26c_interspeech.md) — same problem · relatedness 1.9/3
+- [DP-BCT: A Dual-Path model for predicting BackChannel Timing](jang26b_interspeech.md) — same problem · relatedness 1.9/3
+- [Returning the Turn: Do Backchannels Pattern More Like Turn-Holds or Turn-Changes Given Preceding Syntactic Completion and Boundary Tones?](reitsema26_interspeech.md) — same problem · relatedness 1.8/3
+- [ACR-Net: Mitigating Semantic Dominance via Contrastive Acoustic-Semantic Decoupling](zhang26ca_interspeech.md) — same problem · relatedness 1.7/3
+- [Predicting Cognitive Load from Speech and Interaction Dynamics in Dyadic Conversations](chowdhury26_interspeech.md) — same problem · relatedness 1.6/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

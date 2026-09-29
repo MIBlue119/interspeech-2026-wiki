@@ -76,4 +76,10 @@ Silesian University of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Informativity of high-frequency bands on the place of articulation shift in retroflex sibilants produced by children](skorzewska26_interspeech.md) — same problem · relatedness 2.1/3
+- [Phoneme-Level Mispronunciation Screening in Polish-Speaking Children with an Explainable Assistant](dudek26_interspeech.md) — same problem · relatedness 2.1/3
+- [A Fusion-Aware Two-Stage Framework for Mispronunciation Detection and Diagnosis in Low-Resource Modern Standard Arabic](yang26j_interspeech.md) — same problem · relatedness 2.0/3
+- [From onset to coda: spectral variation in normative Polish /s/ produced by children](walczak26_interspeech.md) — complementary · relatedness 2.0/3
+- [SayCheck: Gamified Speech Practice and Attribute-Based Speech Analysis for Children](shahin26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -77,4 +77,10 @@ Universite Paris-Saclay, CEA, Universite de Lorraine, CNRS, Inria
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [ABSE-NET: A Lightweight Neural Model for Active Binaural Speech Enhancement in Open-Fit Hearing Aids](hu26f_interspeech.md) — same problem · relatedness 2.6/3
+- [RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation](chao26_interspeech.md) — same problem · relatedness 2.5/3
+- [Latency-Configurable Streaming Speech Enhancement via Asymmetric Temporal Padding](kim26g_interspeech.md) — same problem · relatedness 2.4/3
+- [WaveNorm: Real-Time Neural AGC for Noise-Robust Speech Enhancement on Resource-Constrained Edge Devices](ijjada26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Real-Time Speech Enhancement on Edge Devices Guided by Harmonic and Voice-Activity Cues Utilizing Skin-Attachable Accelerometer](song26g_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -79,4 +79,10 @@ Wuhan University, University of Auckland, University of Melbourne, University of
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Fed-SpeechLLM: Federated Learning Speech Language Models for Multilingual ASR](ali26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Unlocking In-Context Learning in Audio-Language Models from Decentralized Medical Audio](piao26_interspeech.md) — shared technique · relatedness 1.9/3
+- [Towards Personalized Federated Learning for Dysarthric Speech Recognition](zhong26d_interspeech.md) — shared technique · relatedness 1.9/3
+- [GC-LoRA: Gated Convolutional LoRA for Parameter-Efficient Acoustic Adaptation](shankar26_interspeech.md) — same problem · relatedness 1.9/3
+- [Parameter-Efficient Continual Learning for Automatic Speech Recognition](eeckt26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

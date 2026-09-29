@@ -73,4 +73,6 @@ Beijing University of Posts and Telecommunications, Fanvil Link Technology Co., 
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SCNet: Enhancing GAN-based Speech Generation with Subband Condition Network and Magnitude-aware Phase Loss](xu26e_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

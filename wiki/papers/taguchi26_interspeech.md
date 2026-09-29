@@ -72,4 +72,10 @@ University of Notre Dame, University at Buffalo, Tokyo University of Foreign Stu
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Improving Zero-Shot Phonetic Classification through Language-Agnostic Articulatory Features](magoshi26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Speech Recognition to Accelerate Documentation of Marquesan and Cook Islands Māori](teikitohe26_interspeech.md) — same problem · relatedness 2.0/3
+- [Extreme Few-Shot Phoneme Discovery for Indigenous Australian and Pacific Languages via Typological Transfer Learning](yadla26_interspeech.md) — same problem · relatedness 2.0/3
+- [An Empirical Recipe for Universal Phone Recognition](bharadwaj26_interspeech.md) — shared technique · relatedness 2.0/3
+- [ArtNet: A JEPA-Like Articulatory Predictive Framework for Robust Zero-Shot Phoneme Recognition](hu26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

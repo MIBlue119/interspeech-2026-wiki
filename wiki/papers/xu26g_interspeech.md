@@ -76,4 +76,10 @@ Alibaba
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Probing and Mitigating Hallucinations in Speech-augmented Language Models for Automatic Speech Recognition via Small Language Models](yan26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Noise-Aware In-Context Learning for Hallucination Mitigation in ALLMs](huang26k_interspeech.md) — same problem · relatedness 2.0/3
+- [DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition](baik26_interspeech.md) — same problem · relatedness 2.0/3
+- [WhispEar: A Bidirectional Framework for Scaling Whispered Speech Conversion via Pseudo-Parallel Whisper Generation](fang26b_interspeech.md) — same problem · relatedness 2.0/3
+- [WhisperVC: Decoupled Cross-Domain Alignment and Speech Generation for Low-Resource Whisper-to-Normal Conversion](liu26o_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

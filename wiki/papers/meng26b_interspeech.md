@@ -76,4 +76,10 @@ Xinjiang University, Tsinghua University, AGIBOT
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [A Federated Learning-Based Speaker Recognition Method with Dual Classification Heads](meng26_interspeech.md) — same problem · relatedness 2.9/3
+- [Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation](thebaud26_interspeech.md) — same problem · relatedness 1.9/3
+- [Adaptive Federated Fine-Tuning of Self-Supervised Speech Representations](guo26c_interspeech.md) — relatedness 1.9/3
+- [Progressive Learning for Robust Speaker Representation](keetha26_interspeech.md) — same problem · relatedness 1.9/3
+- [Adapting Audio Large Language Models for Speaker Verification](ren26c_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

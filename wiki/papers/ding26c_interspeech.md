@@ -75,4 +75,10 @@ Nanyang Technological University, Cochin University of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [mmWave Radar Aware Dual-Conditioned GAN for Speech Reconstruction of Signals With Low SNR](karani26_interspeech.md) — same problem · relatedness 2.8/3
+- [VeRe-Flow: Guiding Flow Matching toward Clean Speech via Velocity Contrastive Regularization and Representation Alignment for Noise-Robust Bandwidth Expansion](koo26_interspeech.md) — same problem · relatedness 1.9/3
+- [TF-MossFormer: Integrating Convolution Gated Local-Global Attentions for Enhanced Time-Frequency Domain Monaural Speech Separation](zhao26_interspeech.md) — shared technique · relatedness 1.8/3
+- [STSR: High-Fidelity Speech Super-Resolution via Spectral-Transient Context Modeling](yuan26_interspeech.md) — shared technique · relatedness 1.8/3
+- [Dictionary-Free Discrete Key-Value Attention for Improving Speech Enhancement](cui26b_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

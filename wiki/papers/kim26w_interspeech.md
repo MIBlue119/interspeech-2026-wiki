@@ -76,4 +76,10 @@ KAIST, University of Southern California, Carnegie Mellon University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Do speech representational spaces encode language family structures?](gaughan26_interspeech.md) — same problem · relatedness 2.7/3
+- [BiMamba2 Masked Discrete-Unit Prediction for Multilingual Speech Representation for Unsupervised Speech in the Wild Challenge](subedi26_interspeech.md) — same problem · relatedness 2.3/3
+- [Unsupervised Speech in the Wild Challenge: Learning Robust Multilingual Representations](gomez26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Robust Language Identification Using Semi-positive Contrastive Learning](sharma26_interspeech.md) — same problem · relatedness 2.0/3
+- [Probing the Layer-wise Geometry of Chinese Dialect Representations in Wav2Vec 2.0](peng26c_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -81,4 +81,10 @@ South China University of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Cross Domain Few-Shot Class-Incremental Audio Classification Via Adversarial Contrastive Learning](si26b_interspeech.md) — same problem · relatedness 2.2/3
+- [Scaling few-shot spoken word classification with generative meta-continual learning](beyers26_interspeech.md) — same problem · relatedness 2.0/3
+- [Lung-CL: Spectrum-aware Distillation and Generative Replay for Continual Learning based buffer-free Respiratory Sound Classification](lai26_interspeech.md) — same problem · relatedness 2.0/3
+- [Confidence Score Guided Incremental and Speaker Adaptive Pseudo-Labeling for Semi-Supervised Elderly Speech Recognition](deng26c_interspeech.md) — shared technique · relatedness 1.9/3
+- [Continual Generalized Category Discovery for Acoustic Signals via Instance-Adaptive Regularization and Dynamic Teacher Guidance](xu26q_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

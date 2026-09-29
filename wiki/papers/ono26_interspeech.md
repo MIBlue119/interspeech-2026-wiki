@@ -78,4 +78,10 @@ Kyoto University, RIKEN, National Institute of Advanced Industrial Science and T
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [SPOT-TSE: Spatial Point-Guided Target Speech Extraction](ryu26c_interspeech.md) — same problem · relatedness 2.4/3
+- [Geometrically Constrained Decentralized Independent Vector Analysis for Distributed Microphone Arrays](chen26h_interspeech.md) — same problem · relatedness 2.2/3
+- [MeCo: One-Step MeanFlow-based Corrector for Multi-Channel Speech Separation](kim26j_interspeech.md) — same problem · relatedness 2.2/3
+- [HRTF-guided Binaural Target Speaker Extraction with Real-World Validation](ellinson26_interspeech.md) — same problem · relatedness 2.1/3
+- [TF-MoE: Time-Frequency Mixture-of-Experts for Efficient Speech Separation](hu26d_interspeech.md) — same problem · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -78,4 +78,10 @@ University of Maryland, DR. M R Khan Shishu Hospital & Institute of Child Health
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Synthetic Pathological Speech at Scale: A Flow Matching Approach for Clinical Data Augmentation](koudounas26_interspeech.md) — complementary · relatedness 2.0/3
+- [Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment](ilerisoy26_interspeech.md) — same problem · relatedness 1.9/3
+- [Lung-SRAD: Spectral-Aware Regularized Audio DASS with Dual-Axis Patch-Mix Contrastive Learning for Respiratory Sound Classification](shridhar26_interspeech.md) — same problem · relatedness 1.9/3
+- [Vowel Nasalization in Upper Airway Diseases: An Analysis Using the CUCO Database](wei26_interspeech.md) — same problem · relatedness 1.8/3
+- [PAN-Mask: Pathology-Aware Neurological Masking with End-to-End Learnable Weights for Neurological Disorder Detection from Speech](sun26b_interspeech.md) — same problem · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

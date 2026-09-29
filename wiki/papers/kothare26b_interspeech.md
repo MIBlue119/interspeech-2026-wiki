@@ -77,4 +77,10 @@ Modality.AI, CLINTREX, Cerevance, University of California, San Francisco
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Toward an Articulatory Weakness Index for Speech Kinematics in Parkinson’s Disease](baligar26_interspeech.md) — same problem · relatedness 2.0/3
+- [A Benchmark for Early-stage Parkinson's Disease Detection from Speech](zhong26b_interspeech.md) — same problem · relatedness 2.0/3
+- [Speech-based Digital Biomarkers can Accelerate ALS Clinical Trials: Insights from Time-to-Event and Hazard Rate Analysis](kothare26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Reducing Measurement Noise in Digital Speech Biomarkers: Interpretable Composite Index Scores for Longitudinal ALS Monitoring in Clinical Trials](neumann26_interspeech.md) — shared technique · relatedness 1.9/3
+- [A multilingual composite speech index to assess passage reading in Huntington’s disease](constantin26_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

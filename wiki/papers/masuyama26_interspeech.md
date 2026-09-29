@@ -76,4 +76,10 @@ Mitsubishi Electric Research Laboratories, University of Surrey
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [GISNO: Neural Operator-based HRTF Personalization from 3D Meshes via Differentiable Helmholtz Rendering](huang26b_interspeech.md) — same problem · relatedness 2.9/3
+- [SA-HRTF: A Sound-Assisted Approach to Personalized HRTF Modeling](zhao26f_interspeech.md) — same problem · relatedness 2.8/3
+- [HRIR-Former: Grid-Free Time-Domain Reconstruction of Head-Related Impulse Responses with a Spatially Encoded Transformer](xu26c_interspeech.md) — same problem · relatedness 2.1/3
+- [AURA: Audio-Geometry Conditioned U-Net Refinement with Flow Matching for High-Fidelity Monaural-to-Binaural Synthesis](zhang26_interspeech.md) — same problem · relatedness 1.9/3
+- [HRTF-guided Binaural Target Speaker Extraction with Real-World Validation](ellinson26_interspeech.md) — complementary · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

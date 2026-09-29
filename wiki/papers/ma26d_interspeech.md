@@ -77,4 +77,10 @@ Sogang University, LOTTE INNOVATE
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Unified Gradient Projection: Language-Balanced Continual Learning for Multilingual Low-Resource ASR](ren26g_interspeech.md) — same problem · relatedness 2.7/3
+- [Parameter-Efficient Continual Learning for Automatic Speech Recognition](eeckt26_interspeech.md) — same problem · relatedness 2.7/3
+- [SCOLoRA: Similarity Conditioned Signed Orthogonal LoRA for Continual Speaker Adaptation](ko26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Learning to Hear Hesitation: Continual Learning for Disfluency-Aware ASR](kordt26_interspeech.md) — same problem · relatedness 2.2/3
+- [Avoiding Catastrophic Forgetting in Text-Only Adaptation of LLM-based ASR via Multi-View Text Denoising](burdisso26_interspeech.md) — same problem · relatedness 2.2/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -75,4 +75,10 @@ Beijing University of Posts and Telecommunications, Hello Group Inc
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [CE-CoT: A Contrastive Empathetic Chain-of-Thought Training Strategy for Improving Emotion Consensus in Empathetic Speech LLMs](chen26o_interspeech.md) — same problem · relatedness 2.3/3
+- [Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction](yu26f_interspeech.md) — same problem · relatedness 2.3/3
+- [AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning](zhang26ea_interspeech.md) — same problem · relatedness 2.2/3
+- [Aligning MusicLLM with Emotion using Instruction Tuning and Feedback-Driven Alignment](hasumi26_interspeech.md) — same problem · relatedness 2.1/3
+- [Comparative Reasoning: Making an Audio Language Model Better at Comparing Emotions](naini26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

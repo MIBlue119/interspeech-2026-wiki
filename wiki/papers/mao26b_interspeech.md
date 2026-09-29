@@ -76,4 +76,10 @@ Nanjing University of Science and Technology, Johns Hopkins University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [F0 realization of prosodic focus across adulthood in Jianghuai Mandarin](zhao26b_interspeech.md) — same problem · relatedness 2.0/3
+- [WildElder: A Chinese Elderly Speech Dataset from the Wild with Fine-Grained Manual Annotations](wang26_interspeech.md) — complementary · relatedness 2.0/3
+- [Beyond Pitch: Multidimensional Cue Reweighting of Two High-Falling Tones in Pingdingshan Mandarin](chen26c_interspeech.md) — same problem · relatedness 2.0/3
+- [Acoustic Differences Between Citation and Sandhi Tones Across Three Generations in Xiamen Southern Min](xie26d_interspeech.md) — same problem · relatedness 1.9/3
+- [More than a feeling: Expressive style influences cortical speech tracking in subjective cognitive decline](ma26b_interspeech.md) — same problem · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

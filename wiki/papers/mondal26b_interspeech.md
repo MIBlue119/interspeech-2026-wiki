@@ -67,4 +67,10 @@ International Institute of Information Technology Hyderabad
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [GLAD-CSpeech: A Dialectologically Comprehensive Benchmark for Genuine Chinese Dialect Speech](xu26j_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [TaigiSpeech: A Low-Resource Real-World Speech Intent Dataset with Scalable Data Mining In-the-Wild](chang26d_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Collection and Curation of a Spontaneous Multilingual Speech Corpus for Low-Resource Himalayan Languages](sinha26_interspeech.md) — same problem · relatedness 2.0/3
+- [VāṇīSetu: A Human-AI Collaborative Framework for Scalable Conversational Speech Corpus Creation in Low-Resource Settings](kumar26h_interspeech.md) — same problem · relatedness 2.0/3
+- [Hamsa: A Manually Annotated Emirati Arabic Corpus for Speech and Language Technologies](alyafeai26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

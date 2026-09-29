@@ -78,4 +78,10 @@ nyra health
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Reducing Speaker Residual by Considering Pinhole Effect in Voice Anonymization](liu26q_interspeech.md) — same problem · relatedness 2.2/3
+- [VerAno: Speaker Anonymization via Self-Supervised Tokenization and Conditional Flow Matching](le26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Content–Speaker Trade-offs in Continued Self-Supervised Pre-Training Across SSL Paradigms for Multilingual Speech](schlotterbeck26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Child-Centric Voice Anonymization in Single and Multi-Speaker Speech via Domain-Adapted SSL Models](tushar26_interspeech.md) — shared technique · relatedness 2.0/3
+- [Lost in Phonation: Voice Quality Variation as an Evaluation Dimension for Speech Foundation Models](lameris26_interspeech.md) — complementary · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

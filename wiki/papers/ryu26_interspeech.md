@@ -81,4 +81,10 @@ Gwangju Institute of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [EmoEUS: Uncertainty Supervision for Multimodal Emotion Recognition in Conversation](huang26n_interspeech.md) — same problem · relatedness 2.7/3
+- [MF-EDM: Graph-based Multimodal Fusion and Emotional Dynamics Modeling for Emotion Recognition in Conversation](hwang26_interspeech.md) — same problem · relatedness 2.5/3
+- [EII-SCL: Harnessing Emotional Inertia for Multimodal Emotion Recognition in Conversation](huang26p_interspeech.md) — same problem · relatedness 2.5/3
+- [Leveraging Modality-Specific Label Distributions for Enhanced Multimodal Emotion Recognition](shi26e_interspeech.md) — same problem · relatedness 2.5/3
+- [AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning](zhang26ea_interspeech.md) — same problem · relatedness 2.4/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

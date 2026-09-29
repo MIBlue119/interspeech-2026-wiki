@@ -80,4 +80,10 @@ Brno University of Technology, Carnegie Mellon University, NVIDIA
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Synthetic Audio Generation Framework for Air Traffic Control Speech Recognition](bagat26_interspeech.md) — shared technique · relatedness 2.1/3
+- [Balancing ASR and diarization in end-to-end LLMs for multi-talker speech recognition](zheng26b_interspeech.md) — same problem · relatedness 2.1/3
+- [Beyond Mimicry: Constrained Exploration with GRPO for Joint Multi-Talker ASR and Diarization under Unknown Speaker Counts](cai26c_interspeech.md) — same problem · relatedness 2.1/3
+- [Scalable Audio Scene Generation with the Treble SDK](gotz26b_interspeech.md) — complementary · relatedness 2.0/3
+- [Joint Learning Global-Local Speaker Classification to Enhance End-to-End Speaker Diarization and Recognition](dai26b_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

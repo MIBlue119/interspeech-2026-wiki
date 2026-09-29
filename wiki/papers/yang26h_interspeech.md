@@ -82,4 +82,10 @@ Ohio State University, Chinese University of Hong Kong
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Parallel Time-Band Mixing with Learned Observation-Adding for Robust ASR Front-Ends](shen26c_interspeech.md) — same problem · relatedness 2.2/3
+- [Sweep-RSE: Streaming Region-of-Interest Speech Extraction in Multi-Talker Scenarios via Explicit Spatial Sweeping](yu26d_interspeech.md) — complementary · relatedness 2.0/3
+- [DelayGSE: A Generative Speech Enhancement Framework with Delayed Text-Aware Conditioning](yuan26b_interspeech.md) — complementary · relatedness 2.0/3
+- [DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition](baik26_interspeech.md) — same problem · relatedness 2.0/3
+- [Improving Streaming Speaker Diarization for LLM Based Multi-talker Speech Understanding](lin26f_interspeech.md) — shared technique · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

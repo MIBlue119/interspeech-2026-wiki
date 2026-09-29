@@ -75,4 +75,10 @@ Shanghai Jiao Tong University
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [I''ll Keep an Ear Out: Teaching AudioLLMs Proactive Audio Assistance](yadav26b_interspeech.md) — same problem · relatedness 2.2/3
+- [UG-Bench: A Comprehensive Benchmark for Evaluating Large Audio-Language Models](zhou26c_interspeech.md) — shared data / evaluation · relatedness 2.2/3
+- [Audio2Tool: Speak, Call, Act - A Dataset for Benchmarking Speech Tool Use](pahwa26_interspeech.md) — shared data / evaluation · relatedness 2.0/3
+- [Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models](he26e_interspeech.md) — same problem · relatedness 2.0/3
+- [CoDeTT: A Context-Aware Decision Benchmark for Turn-Taking Evaluation](shen26_interspeech.md) — shared data / evaluation · relatedness 1.9/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

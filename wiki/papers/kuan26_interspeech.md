@@ -80,4 +80,10 @@ National Taiwan University, Amazon
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models](li26ba_interspeech.md) — same problem · relatedness 2.9/3
+- [Stabilizing Instruction Supervision for Instruct-TTS via Controllable Diversification and Drift Filtering](geng26b_interspeech.md) — same problem · relatedness 2.3/3
+- [Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions](zhang26m_interspeech.md) — same problem · relatedness 2.3/3
+- [Improving Stable Speech Synthesis Post-Training with ChatScorer and Margin-Based Preference Construction](niu26c_interspeech.md) — same problem · relatedness 2.1/3
+- [ParaPairAudioBench: Paralinguistic Pairwise Audio Benchmark for LALM-as-a-Judge](jeon26d_interspeech.md) — complementary · relatedness 2.1/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

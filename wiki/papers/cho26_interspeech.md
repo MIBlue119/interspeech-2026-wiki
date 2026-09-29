@@ -78,4 +78,10 @@ Korea Advanced Institute of Science and Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Audio-Language Prompt Learning for Few-Shot Audio Classification](xu26l_interspeech.md) — same problem · relatedness 3.0/3
+- [ZEBRA: Zero-Shot Entropy-Regularized Prompt Learning for Base-to-Novel Generalization in Audio-Language Models](hanif26_interspeech.md) — same problem · relatedness 2.4/3
+- [Scaling few-shot spoken word classification with generative meta-continual learning](beyers26_interspeech.md) — same problem · relatedness 2.0/3
+- [MambAdapter: Lightweight Mamba-Based Adapters for Parameter-Efficient Transfer Learning in Speech and Audio](ali26b_interspeech.md) — shared technique · relatedness 2.0/3
+- [Structured Prompting vs. Self-Training for Audio Reasoning Under Limited Data and Compute: Lessons from Interspeech Audio Reasoning Challenge 2026](noronha26_interspeech.md) — same problem · relatedness 2.0/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

@@ -70,4 +70,10 @@ University of Delaware, KTH Royal Institute of Technology
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Queer inclusion in speech datasets: An audit and taxonomy of practical tensions](sheppard26_interspeech.md) — same problem · relatedness 2.0/3
+- [No-Shot Text-to-Speech: Limitations of Zero-Shot TTS and its Evaluation Methods in Representing Queer and Transgender Voices](francis26_interspeech.md) — same problem · relatedness 2.0/3
+- [Towards participatory speech dataset curation: A queer case study and conceptual framework](sheppard26b_interspeech.md) — same problem · relatedness 2.0/3
+- [TMASC: Transmasculine Attitude and Speech Corpus](wong26_interspeech.md) — complementary · relatedness 1.9/3
+- [Sexualised Synthetic Personas Encode and Amplify Gendered Power Asymmetries through Voice](ross26b_interspeech.md) — same problem · relatedness 1.7/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>

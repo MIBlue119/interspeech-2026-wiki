@@ -75,4 +75,10 @@ Samsung
 
 ## Related
 
-- (link related pages by id as the wiki grows)
+- [Robust Language Identification Using Semi-positive Contrastive Learning](sharma26_interspeech.md) — same problem · relatedness 2.2/3
+- [Unsupervised Speech in the Wild Challenge: Learning Robust Multilingual Representations](gomez26_interspeech.md) — same problem · relatedness 1.9/3
+- [A Two-Stage Defence for Robust Federated Speech Emotion Recognition](chang26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [ML-KD-DRI-GAN: Teacher-Guided Denoising and Triplet-Adversarial Training for Robust Spoken Language Understanding](kumar26b_interspeech.md) — shared technique · relatedness 1.9/3
+- [DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition](baik26_interspeech.md) — shared technique · relatedness 1.8/3
+
+<sub>All 950k paper pairs scored by TypeSafe Jev (`scripts/related/`); relatedness 0 = unrelated … 3 = directly comparable.</sub>
