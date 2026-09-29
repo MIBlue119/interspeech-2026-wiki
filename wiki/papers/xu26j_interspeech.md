@@ -3,7 +3,6 @@ id: xu26j_interspeech
 category: resources-evaluation
 labels: [low-resource, dataset-or-benchmark-release]
 institutions: ["Alibaba Group", "Nankai University", "Fudan University"]
-code: https://github.com/RVC-Boss/GPT-SoVITS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -67,7 +66,7 @@ Speech researchers and engineers building multilingual or dialect-robust speech 
 
 ## Code
 
-- https://github.com/RVC-Boss/GPT-SoVITS
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

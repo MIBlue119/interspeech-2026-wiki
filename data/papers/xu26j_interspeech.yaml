@@ -33,7 +33,6 @@ institutions:
 funding:
   - "Alibaba Innovative Research Program"
 code:
-    url: https://github.com/RVC-Boss/GPT-SoVITS
-    stars: 62232
+    url: ""
     license: ""
 open_to_collaboration: false
