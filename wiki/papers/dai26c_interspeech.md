@@ -2,6 +2,7 @@
 id: dai26c_interspeech
 category: tts
 labels: [efficient-on-device, generative-model]
+institutions: ["Chinese University of Hong Kong", "Tencent", "Hong Kong University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: pan26_interspeech
 category: deepfake-security
 labels: [self-supervised, robustness-noise]
+institutions: ["Agency for Science, Technology and Research"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

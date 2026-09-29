@@ -2,6 +2,7 @@
 id: chang26c_interspeech
 category: audio-understanding
 labels: [multilingual, self-supervised]
+institutions: ["Massachusetts Institute of Technology", "Amazon"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

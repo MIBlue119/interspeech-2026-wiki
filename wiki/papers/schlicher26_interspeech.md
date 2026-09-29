@@ -2,6 +2,7 @@
 id: schlicher26_interspeech
 category: paralinguistics-emotion
 labels: [dataset-or-benchmark-release]
+institutions: ["Technical University of Munich", "University Hospital of Tubingen", "University of Erlangen-Nuremberg", "Imperial College London"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

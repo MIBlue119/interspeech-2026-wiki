@@ -1,6 +1,7 @@
 ---
 id: xu26q_interspeech
 category: audio-understanding
+institutions: ["National University of Defense Technology", "Hunan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

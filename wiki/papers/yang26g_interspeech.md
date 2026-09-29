@@ -2,6 +2,7 @@
 id: yang26g_interspeech
 category: speech-coding
 labels: [multilingual]
+institutions: ["National Tsing Hua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

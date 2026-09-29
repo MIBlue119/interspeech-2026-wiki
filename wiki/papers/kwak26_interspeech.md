@@ -1,6 +1,7 @@
 ---
 id: kwak26_interspeech
 category: enhancement-separation
+institutions: ["Korea Advanced Institute of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

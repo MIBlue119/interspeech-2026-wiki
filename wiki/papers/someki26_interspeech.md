@@ -2,6 +2,7 @@
 id: someki26_interspeech
 category: asr
 labels: [efficient-on-device]
+institutions: ["Carnegie Mellon University", "Brno University of Technology", "Instituto Superior Técnico", "Hanyang University", "Hitachi Astemo", "Shanghai Jiao Tong University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

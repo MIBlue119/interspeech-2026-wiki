@@ -1,6 +1,7 @@
 ---
 id: nguyen26g_interspeech
 category: applications-other
+institutions: ["Hanoi University of Science and Technology", "VNPT Group", "National Economics University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

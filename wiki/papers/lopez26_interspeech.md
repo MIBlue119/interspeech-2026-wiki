@@ -1,6 +1,7 @@
 ---
 id: lopez26_interspeech
 category: speech-llm-dialogue
+institutions: ["Telefonica", "Universidad Autonoma de Madrid", "Brno University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: ghosh26_interspeech
 category: deepfake-security
 labels: [generative-model]
+institutions: ["Otto-von-Guericke University", "University of Birmingham"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

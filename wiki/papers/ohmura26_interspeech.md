@@ -2,6 +2,7 @@
 id: ohmura26_interspeech
 category: tts
 labels: [dataset-or-benchmark-release, generative-model]
+institutions: ["Sony Group Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

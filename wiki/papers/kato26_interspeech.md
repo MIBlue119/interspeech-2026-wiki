@@ -2,6 +2,7 @@
 id: kato26_interspeech
 category: tts
 labels: [efficient-on-device, streaming-real-time, generative-model, robustness-noise]
+institutions: ["SoftBank", "University of Tokyo", "Keio University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

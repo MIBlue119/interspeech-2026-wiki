@@ -1,6 +1,7 @@
 ---
 id: cai26c_interspeech
 category: asr
+institutions: ["Chinese University of Hong Kong", "Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

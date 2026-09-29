@@ -2,6 +2,7 @@
 id: naini26_interspeech
 category: paralinguistics-emotion
 labels: [low-resource, self-supervised]
+institutions: ["Carnegie Mellon University", "University of Texas at Dallas", "NVIDIA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

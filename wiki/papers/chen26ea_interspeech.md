@@ -1,6 +1,7 @@
 ---
 id: chen26ea_interspeech
 category: speech-llm-dialogue
+institutions: ["National Taiwan Normal University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

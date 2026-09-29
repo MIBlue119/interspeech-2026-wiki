@@ -2,6 +2,7 @@
 id: kando26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised, generative-model]
+institutions: ["University of Tokyo", "Keio University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

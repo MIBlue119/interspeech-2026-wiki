@@ -2,6 +2,7 @@
 id: boo26_interspeech
 category: deepfake-security
 labels: [multilingual]
+institutions: ["Ewha Womans University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

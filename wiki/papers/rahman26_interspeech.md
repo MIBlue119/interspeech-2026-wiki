@@ -2,6 +2,7 @@
 id: rahman26_interspeech
 category: resources-evaluation
 labels: [low-resource, self-supervised, dataset-or-benchmark-release]
+institutions: ["Pashto DAO"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

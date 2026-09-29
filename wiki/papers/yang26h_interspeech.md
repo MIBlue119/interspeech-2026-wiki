@@ -2,6 +2,7 @@
 id: yang26h_interspeech
 category: asr
 labels: [streaming-real-time, robustness-noise]
+institutions: ["Ohio State University", "Chinese University of Hong Kong"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

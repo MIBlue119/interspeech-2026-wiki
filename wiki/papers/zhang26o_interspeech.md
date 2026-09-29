@@ -2,6 +2,7 @@
 id: zhang26o_interspeech
 category: resources-evaluation
 labels: [multilingual]
+institutions: ["Chinese University of Hong Kong", "Shenzhen Loop Area Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

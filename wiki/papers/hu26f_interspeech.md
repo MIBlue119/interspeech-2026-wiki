@@ -2,6 +2,7 @@
 id: hu26f_interspeech
 category: enhancement-separation
 labels: [efficient-on-device]
+institutions: ["Inner Mongolia University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

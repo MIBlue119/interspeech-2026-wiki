@@ -1,6 +1,7 @@
 ---
 id: krysinska26_interspeech
 category: asr
+institutions: ["Poznan University of Technology", "Pearson Central Europe"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

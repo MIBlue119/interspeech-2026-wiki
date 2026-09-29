@@ -2,6 +2,7 @@
 id: mou26b_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["University of Science and Technology of China", "iFLYTEK"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

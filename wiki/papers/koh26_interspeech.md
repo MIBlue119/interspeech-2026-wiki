@@ -2,6 +2,7 @@
 id: koh26_interspeech
 category: applications-other
 labels: [self-supervised]
+institutions: ["University of Manchester"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

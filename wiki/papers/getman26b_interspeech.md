@@ -2,6 +2,7 @@
 id: getman26b_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Aalto University", "South East Technological University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

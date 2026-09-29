@@ -2,6 +2,7 @@
 id: liu26k_interspeech
 category: speech-coding
 labels: [efficient-on-device]
+institutions: ["Inner Mongolia University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

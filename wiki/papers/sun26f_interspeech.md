@@ -2,6 +2,7 @@
 id: sun26f_interspeech
 category: translation
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Sogang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

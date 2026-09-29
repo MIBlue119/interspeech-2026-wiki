@@ -1,6 +1,7 @@
 ---
 id: zhang26t_interspeech
 category: speech-llm-dialogue
+institutions: ["Tianjin University", "Chinese Academy of Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

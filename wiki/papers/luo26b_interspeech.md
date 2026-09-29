@@ -2,6 +2,7 @@
 id: luo26b_interspeech
 category: enhancement-separation
 labels: [dataset-or-benchmark-release]
+institutions: ["University of Surrey"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

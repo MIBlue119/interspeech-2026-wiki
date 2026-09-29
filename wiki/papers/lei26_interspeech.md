@@ -2,6 +2,7 @@
 id: lei26_interspeech
 category: audio-understanding
 labels: [generative-model]
+institutions: ["Hong Kong University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

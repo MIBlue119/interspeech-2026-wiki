@@ -2,6 +2,7 @@
 id: kuan26_interspeech
 category: tts
 labels: [dataset-or-benchmark-release, generative-model]
+institutions: ["National Taiwan University", "Amazon"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

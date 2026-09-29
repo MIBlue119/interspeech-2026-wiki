@@ -2,6 +2,7 @@
 id: ai26_interspeech
 category: speaker
 labels: [dataset-or-benchmark-release]
+institutions: ["Shanghai University", "Xi'an Jiaotong-Liverpool University", "Hithink RoyalFlush AI Research Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

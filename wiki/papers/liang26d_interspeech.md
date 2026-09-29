@@ -2,6 +2,7 @@
 id: liang26d_interspeech
 category: speech-coding
 labels: [multilingual, self-supervised, generative-model]
+institutions: ["Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

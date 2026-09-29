@@ -2,6 +2,7 @@
 id: tu26c_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
+institutions: ["Anhui University", "iFLYTEK", "Acousnet Technology Company", "Chinese Academy of Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

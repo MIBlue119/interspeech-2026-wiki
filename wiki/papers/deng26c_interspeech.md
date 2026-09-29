@@ -2,6 +2,7 @@
 id: deng26c_interspeech
 category: asr
 labels: [low-resource, multilingual]
+institutions: ["Chinese University of Hong Kong", "Chinese Academy of Sciences", "National Research Council Canada"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

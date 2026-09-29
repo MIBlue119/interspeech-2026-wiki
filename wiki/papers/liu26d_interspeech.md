@@ -2,6 +2,7 @@
 id: liu26d_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
+institutions: ["Shanghai Jiao Tong University", "VUI Labs"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

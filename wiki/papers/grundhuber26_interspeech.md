@@ -1,6 +1,7 @@
 ---
 id: grundhuber26_interspeech
 category: speech-coding
+institutions: ["Fraunhofer Institute for Integrated Circuits", "International Audio Laboratories Erlangen", "Friedrich-Alexander-Universität Erlangen-Nürnberg"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

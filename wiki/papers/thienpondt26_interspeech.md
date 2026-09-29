@@ -1,6 +1,7 @@
 ---
 id: thienpondt26_interspeech
 category: speaker
+institutions: ["Ghent University", "imec"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

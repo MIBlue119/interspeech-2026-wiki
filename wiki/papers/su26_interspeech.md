@@ -2,6 +2,7 @@
 id: su26_interspeech
 category: asr
 labels: [robustness-noise]
+institutions: ["Wuhan University", "Chinese University of Hong Kong, Shenzhen", "OPPO"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

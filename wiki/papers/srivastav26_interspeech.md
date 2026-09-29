@@ -2,6 +2,7 @@
 id: srivastav26_interspeech
 category: resources-evaluation
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["Hugging Face", "NVIDIA", "University of Cambridge", "Mistral AI", "OpenAI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: guan26b_interspeech
 category: speech-llm-dialogue
 labels: [generative-model]
+institutions: ["Xiamen University", "Shanghai Innovation Institute", "Shanghai Jiao Tong University", "Zhejiang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

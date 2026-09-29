@@ -2,6 +2,7 @@
 id: irigoyen26_interspeech
 category: asr
 labels: [efficient-on-device]
+institutions: ["Danske Bank", "Copenhagen Business School", "Jabra"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: chen26i_interspeech
 category: tts
 labels: [efficient-on-device]
+institutions: ["Samsung"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: zhang26j_interspeech
 category: tts
+institutions: ["TU Dresden"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

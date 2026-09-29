@@ -2,6 +2,7 @@
 id: tushar26_interspeech
 category: deepfake-security
 labels: [self-supervised, generative-model]
+institutions: ["Singapore Institute of Technology", "Duke Kunshan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

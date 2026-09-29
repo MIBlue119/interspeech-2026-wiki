@@ -1,6 +1,7 @@
 ---
 id: drimalla26_interspeech
 category: paralinguistics-emotion
+institutions: ["Bielefeld University", "Ruhr University Bochum"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

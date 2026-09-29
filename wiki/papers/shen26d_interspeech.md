@@ -2,6 +2,7 @@
 id: shen26d_interspeech
 category: resources-evaluation
 labels: [generative-model]
+institutions: ["Nanjing University", "Xiaomi"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

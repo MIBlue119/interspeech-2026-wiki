@@ -2,6 +2,7 @@
 id: peng26_interspeech
 category: asr
 labels: [streaming-real-time, dataset-or-benchmark-release]
+institutions: ["University of Connecticut", "McMaster University", "Stony Brook University", "Oregon State University", "Massachusetts General Hospital", "Basque Center on Cognition, Brain and Language", "Ikerbasque"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

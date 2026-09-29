@@ -1,6 +1,7 @@
 ---
 id: lanzendoerfer26_interspeech
 category: resources-evaluation
+institutions: ["ETH Zurich"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: chen26fa_interspeech
 category: health-clinical
+institutions: ["Shenzhen University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: kaffeza26_interspeech
 category: paralinguistics-emotion
+institutions: ["Mines Paris-PSL University", "University of Bern", "National Technical University of Athens", "Archimedes AI", "Synaptic Bloom"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

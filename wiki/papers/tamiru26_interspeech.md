@@ -2,6 +2,7 @@
 id: tamiru26_interspeech
 category: tts
 labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release, generative-model]
+institutions: ["Ethiopian Artificial Intelligence Institute", "Addis Ababa University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

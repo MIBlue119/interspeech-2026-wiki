@@ -1,6 +1,7 @@
 ---
 id: sheppard26b_interspeech
 category: resources-evaluation
+institutions: ["University of Calgary", "Meta"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

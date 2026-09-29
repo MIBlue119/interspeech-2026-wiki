@@ -1,6 +1,7 @@
 ---
 id: xie26d_interspeech
 category: phonetics-linguistics
+institutions: ["Chinese University of Hong Kong", "Hong Kong Metropolitan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

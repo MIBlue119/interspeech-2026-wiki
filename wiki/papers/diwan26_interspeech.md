@@ -2,6 +2,7 @@
 id: diwan26_interspeech
 category: tts
 labels: [self-supervised]
+institutions: ["University of Texas at Austin", "New York University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

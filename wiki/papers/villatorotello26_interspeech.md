@@ -1,6 +1,7 @@
 ---
 id: villatorotello26_interspeech
 category: asr
+institutions: ["Idiap Research Institute", "EPFL", "University of Zurich", "Uniphore", "Brno University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

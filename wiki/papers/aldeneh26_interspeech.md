@@ -2,6 +2,7 @@
 id: aldeneh26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Apple", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: ku26_interspeech
 category: resources-evaluation
 labels: [multilingual]
+institutions: ["Gwangju Institute of Science and Technology", "AunionAI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

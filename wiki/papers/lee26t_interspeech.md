@@ -1,6 +1,7 @@
 ---
 id: lee26t_interspeech
 category: asr
+institutions: ["NTT"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

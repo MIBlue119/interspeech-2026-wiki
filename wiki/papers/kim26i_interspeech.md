@@ -2,6 +2,7 @@
 id: kim26i_interspeech
 category: speaker
 labels: [robustness-noise]
+institutions: ["Seoul National University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

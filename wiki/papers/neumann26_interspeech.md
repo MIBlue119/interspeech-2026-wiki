@@ -1,6 +1,7 @@
 ---
 id: neumann26_interspeech
 category: health-clinical
+institutions: ["Modality.AI", "Verge Genomics", "2b Analytics", "University of California, San Francisco"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

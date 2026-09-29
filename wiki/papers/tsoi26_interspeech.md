@@ -2,6 +2,7 @@
 id: tsoi26_interspeech
 category: speech-llm-dialogue
 labels: [streaming-real-time]
+institutions: ["Huawei", "Chinese University of Hong Kong", "Nanyang Technological University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

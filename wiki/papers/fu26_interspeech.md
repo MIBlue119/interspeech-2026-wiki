@@ -2,6 +2,7 @@
 id: fu26_interspeech
 category: resources-evaluation
 labels: [self-supervised]
+institutions: ["Tsinghua University", "Institute of Forensic Science, Ministry of Public Security"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: kashyap26_interspeech
 category: resources-evaluation
+institutions: ["Deakin University", "Technical University of Munich", "Imperial College London"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

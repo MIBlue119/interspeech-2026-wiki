@@ -1,6 +1,7 @@
 ---
 id: chen26m_interspeech
 category: phonetics-linguistics
+institutions: ["Chinese University of Hong Kong", "University College Dublin", "Chinese University of Hong Kong, Shenzhen"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

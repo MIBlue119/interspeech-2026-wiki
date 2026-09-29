@@ -1,6 +1,7 @@
 ---
 id: olev26_interspeech
 category: speech-llm-dialogue
+institutions: ["Tallinn University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: fan26b_interspeech
 category: speaker
 labels: [self-supervised]
+institutions: ["University of Illinois Urbana-Champaign", "University of Arizona", "Worcester Polytechnic Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

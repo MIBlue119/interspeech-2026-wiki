@@ -1,6 +1,7 @@
 ---
 id: ngong26_interspeech
 category: deepfake-security
+institutions: ["University of Vermont", "Galois"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: sun26b_interspeech
 category: health-clinical
 labels: [multilingual, self-supervised]
+institutions: ["Tsinghua University", "Georgetown University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

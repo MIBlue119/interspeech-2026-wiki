@@ -2,6 +2,7 @@
 id: li26k_interspeech
 category: translation
 labels: [low-resource, multilingual, self-supervised]
+institutions: ["Tianjin University", "Nanyang Technological University", "Huiyan Technology Company", "Tibet University", "Chinese Academy of Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

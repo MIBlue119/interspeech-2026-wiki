@@ -2,6 +2,7 @@
 id: huang26f_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release, generative-model]
+institutions: ["Nagoya University", "University of Edinburgh", "National Institute of Information and Communications Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

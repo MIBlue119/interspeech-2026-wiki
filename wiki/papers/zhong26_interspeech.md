@@ -2,6 +2,7 @@
 id: zhong26_interspeech
 category: health-clinical
 labels: [self-supervised]
+institutions: ["DeepNet Discovery Network", "University of Auckland", "University of Illinois Urbana-Champaign"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

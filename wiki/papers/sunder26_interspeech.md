@@ -2,6 +2,7 @@
 id: sunder26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["IBM", "University of Illinois Urbana-Champaign"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

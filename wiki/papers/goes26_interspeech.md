@@ -2,6 +2,7 @@
 id: goes26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Friedrich-Alexander-Universitaet Erlangen-Nuernberg", "Max Planck Institute for Human Cognitive and Brain Sciences", "University Hospital Muenster"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

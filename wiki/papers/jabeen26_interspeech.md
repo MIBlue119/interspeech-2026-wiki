@@ -2,6 +2,7 @@
 id: jabeen26_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
+institutions: ["Bielefeld University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

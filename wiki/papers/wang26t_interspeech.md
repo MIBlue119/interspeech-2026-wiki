@@ -1,6 +1,7 @@
 ---
 id: wang26t_interspeech
 category: speech-llm-dialogue
+institutions: ["Tianjin University", "Nanyang Technological University", "Huiyan Technology", "Shenzhen Institute of Advanced Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

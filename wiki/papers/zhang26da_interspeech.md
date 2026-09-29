@@ -1,6 +1,7 @@
 ---
 id: zhang26da_interspeech
 category: audio-understanding
+institutions: ["University of Surrey"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: yu26b_interspeech
 category: tts
 labels: [efficient-on-device, generative-model]
+institutions: ["Zuoyebang"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

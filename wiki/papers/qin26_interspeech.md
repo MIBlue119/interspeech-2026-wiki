@@ -2,6 +2,7 @@
 id: qin26_interspeech
 category: deepfake-security
 labels: [robustness-noise]
+institutions: ["Hong Kong Polytechnic University", "Nanyang Technological University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

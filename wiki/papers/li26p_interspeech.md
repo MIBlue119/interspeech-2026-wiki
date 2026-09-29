@@ -1,6 +1,7 @@
 ---
 id: li26p_interspeech
 category: phonetics-linguistics
+institutions: ["Hong Kong Polytechnic University", "Chinese University of Hong Kong", "First Affiliated Hospital of Jinan University", "Hong Kong Metropolitan University", "City University of Hong Kong", "University of Florida"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

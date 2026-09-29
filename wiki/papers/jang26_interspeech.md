@@ -2,6 +2,7 @@
 id: jang26_interspeech
 category: speech-coding
 labels: [efficient-on-device]
+institutions: ["Electronics and Telecommunications Research Institute", "University of Illinois Urbana-Champaign"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

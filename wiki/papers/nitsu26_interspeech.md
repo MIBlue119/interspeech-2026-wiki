@@ -1,6 +1,7 @@
 ---
 id: nitsu26_interspeech
 category: enhancement-separation
+institutions: ["Institute of Science Tokyo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

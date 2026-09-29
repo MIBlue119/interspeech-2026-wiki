@@ -2,6 +2,7 @@
 id: tran26_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["Universite de Rennes", "National Institute of Informatics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

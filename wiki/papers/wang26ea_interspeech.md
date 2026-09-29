@@ -1,6 +1,7 @@
 ---
 id: wang26ea_interspeech
 category: tts
+institutions: ["University of Tuebingen", "Tongji University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

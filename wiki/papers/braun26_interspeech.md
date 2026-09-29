@@ -2,6 +2,7 @@
 id: braun26_interspeech
 category: health-clinical
 labels: [self-supervised]
+institutions: ["Technische Hochschule Nurnberg", "Geromed GmbH", "PMU Klinikum Nurnberg"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

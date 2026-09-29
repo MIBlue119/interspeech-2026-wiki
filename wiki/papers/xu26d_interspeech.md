@@ -2,6 +2,7 @@
 id: xu26d_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Victoria University of Wellington", "Lincoln University", "GN Advanced Science"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

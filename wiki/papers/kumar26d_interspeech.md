@@ -1,6 +1,7 @@
 ---
 id: kumar26d_interspeech
 category: speech-llm-dialogue
+institutions: ["Samsung Electronics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

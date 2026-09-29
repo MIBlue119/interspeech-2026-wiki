@@ -2,6 +2,7 @@
 id: wu26m_interspeech
 category: deepfake-security
 labels: [low-resource, multilingual, dataset-or-benchmark-release]
+institutions: ["Agency for Science, Technology and Research", "Nanyang Technological University", "University of New South Wales"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

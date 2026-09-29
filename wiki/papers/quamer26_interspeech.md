@@ -2,6 +2,7 @@
 id: quamer26_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["Texas A&M University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

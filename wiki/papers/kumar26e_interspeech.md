@@ -2,6 +2,7 @@
 id: kumar26e_interspeech
 category: tts
 labels: [low-resource, multilingual, efficient-on-device, generative-model]
+institutions: ["Indian Institute of Technology Mandi", "Indian Institute of Technology Madras", "Indian Institute of Technology Kharagpur"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

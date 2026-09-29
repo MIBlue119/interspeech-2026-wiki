@@ -1,6 +1,7 @@
 ---
 id: li26da_interspeech
 category: enhancement-separation
+institutions: ["Nanjing University", "Samsung Electronics", "Horizon Robotics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

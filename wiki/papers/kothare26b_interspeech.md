@@ -1,6 +1,7 @@
 ---
 id: kothare26b_interspeech
 category: health-clinical
+institutions: ["Modality.AI", "CLINTREX", "Cerevance", "University of California, San Francisco"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

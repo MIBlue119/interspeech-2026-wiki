@@ -2,6 +2,7 @@
 id: ren26d_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Shanghai Artificial Intelligence Laboratory", "Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

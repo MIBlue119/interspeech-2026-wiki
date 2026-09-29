@@ -2,6 +2,7 @@
 id: gaughan26_interspeech
 category: speaker
 labels: [multilingual, self-supervised]
+institutions: ["University of Edinburgh"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: poncelet26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["KU Leuven"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

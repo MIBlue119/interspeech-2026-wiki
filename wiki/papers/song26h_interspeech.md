@@ -2,6 +2,7 @@
 id: song26h_interspeech
 category: paralinguistics-emotion
 labels: [efficient-on-device, self-supervised, streaming-real-time]
+institutions: ["Singapore Institute of Technology", "Duke Kunshan University", "NVIDIA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

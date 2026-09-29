@@ -2,6 +2,7 @@
 id: xu26n_interspeech
 category: health-clinical
 labels: [self-supervised]
+institutions: ["Arizona State University", "University of Wisconsin-Madison", "University of Waterloo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

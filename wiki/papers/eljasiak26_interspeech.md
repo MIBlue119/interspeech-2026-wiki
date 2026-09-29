@@ -2,6 +2,7 @@
 id: eljasiak26_interspeech
 category: health-clinical
 labels: [multilingual, self-supervised]
+institutions: ["Samsung R&D Institute", "AGH University of Kraków", "Harvard Medical School", "Kozminski University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

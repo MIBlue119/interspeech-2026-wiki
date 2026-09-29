@@ -2,6 +2,7 @@
 id: rubenchik26_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Bar-Ilan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

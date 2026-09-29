@@ -2,6 +2,7 @@
 id: camara26c_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Universidad Politecnica de Madrid", "Massachusetts Institute of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: keetha26b_interspeech
 category: speaker
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Meeami Technologies"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

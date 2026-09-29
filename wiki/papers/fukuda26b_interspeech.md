@@ -2,6 +2,7 @@
 id: fukuda26b_interspeech
 category: speech-llm-dialogue
 labels: [streaming-real-time]
+institutions: ["NTT", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: xu26h_interspeech
 category: asr
 labels: [efficient-on-device, self-supervised]
+institutions: ["Chinese University of Hong Kong", "National Research Council Canada"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

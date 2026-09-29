@@ -1,6 +1,7 @@
 ---
 id: liao26b_interspeech
 category: phonetics-linguistics
+institutions: ["East China Normal University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

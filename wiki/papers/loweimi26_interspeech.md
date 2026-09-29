@@ -1,6 +1,7 @@
 ---
 id: loweimi26_interspeech
 category: speaker
+institutions: ["University of Cambridge", "Queen's University Belfast", "University of Surrey", "Cisco", "Southwest Jiaotong University", "Teesside University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: xiang26b_interspeech
 category: paralinguistics-emotion
+institutions: ["University of New South Wales", "Massachusetts Institute of Technology", "University of Melbourne"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

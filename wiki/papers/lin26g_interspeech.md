@@ -1,6 +1,7 @@
 ---
 id: lin26g_interspeech
 category: speech-llm-dialogue
+institutions: ["National Taiwan University", "ASUS"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: shen26e_interspeech
 category: enhancement-separation
+institutions: ["Inner Mongolia University", "Southern University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

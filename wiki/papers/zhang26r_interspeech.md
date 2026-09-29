@@ -2,6 +2,7 @@
 id: zhang26r_interspeech
 category: speech-llm-dialogue
 labels: [generative-model]
+institutions: ["Northeastern University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: constantin26_interspeech
 category: health-clinical
 labels: [multilingual]
+institutions: ["University College Dublin", "Universidad de Burgos", "Hospital Universitario of Burgos", "Institute of Psychiatry and Neurology", "Military Institute of Aviation Medicine", "Cardiff University", "North Bristol NHS Trust", "King's College London"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

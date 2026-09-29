@@ -2,6 +2,7 @@
 id: bui26_interspeech
 category: resources-evaluation
 labels: [multilingual]
+institutions: ["Viettel Group", "Thuyloi University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: peng26f_interspeech
 category: speaker
 labels: [multilingual, self-supervised]
+institutions: ["Ant Group"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: wen26c_interspeech
 category: enhancement-separation
+institutions: ["Wuhan University", "Harbin Engineering University", "Guangdong Murora Intelligent Lighting Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

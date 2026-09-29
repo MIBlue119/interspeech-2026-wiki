@@ -1,6 +1,7 @@
 ---
 id: baumann26_interspeech
 category: asr
+institutions: ["Technische Hochschule Nurnberg"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

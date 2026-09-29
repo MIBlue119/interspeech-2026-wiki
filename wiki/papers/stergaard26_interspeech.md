@@ -2,6 +2,7 @@
 id: stergaard26_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["WS Audiology", "Technical University of Denmark", "Verth"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

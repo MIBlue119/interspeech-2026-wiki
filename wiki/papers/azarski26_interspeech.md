@@ -1,6 +1,7 @@
 ---
 id: azarski26_interspeech
 category: health-clinical
+institutions: ["Samsung"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: park26_interspeech
 category: audio-understanding
+institutions: ["Korea University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: you26b_interspeech
 category: speaker
 labels: [self-supervised]
+institutions: ["Cisco Systems"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

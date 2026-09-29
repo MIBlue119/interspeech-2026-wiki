@@ -1,6 +1,7 @@
 ---
 id: ghosh26c_interspeech
 category: asr
+institutions: ["IIIT Hyderabad", "University of Bath"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

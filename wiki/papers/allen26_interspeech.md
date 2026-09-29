@@ -2,6 +2,7 @@
 id: allen26_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
+institutions: ["Ohio State University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

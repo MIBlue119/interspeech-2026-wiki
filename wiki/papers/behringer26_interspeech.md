@@ -2,6 +2,7 @@
 id: behringer26_interspeech
 category: speech-coding
 labels: [robustness-noise]
+institutions: ["Fraunhofer Institute for Integrated Circuits"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

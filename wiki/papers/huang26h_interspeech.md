@@ -2,6 +2,7 @@
 id: huang26h_interspeech
 category: asr
 labels: [multilingual]
+institutions: ["Shanghai Jiao Tong University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: wang26_interspeech
 category: resources-evaluation
 labels: [low-resource, dataset-or-benchmark-release]
+institutions: ["Nankai University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

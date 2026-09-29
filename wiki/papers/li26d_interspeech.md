@@ -1,6 +1,7 @@
 ---
 id: li26d_interspeech
 category: resources-evaluation
+institutions: ["Ningbo University", "Ningbo University of Finance and Economics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

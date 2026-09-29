@@ -2,6 +2,7 @@
 id: pham26_interspeech
 category: speaker
 labels: [dataset-or-benchmark-release]
+institutions: ["Hanoi University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

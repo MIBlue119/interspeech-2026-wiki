@@ -2,6 +2,7 @@
 id: souganidis26_interspeech
 category: applications-other
 labels: [low-resource, self-supervised]
+institutions: ["University of the Basque Country UPV/EHU"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

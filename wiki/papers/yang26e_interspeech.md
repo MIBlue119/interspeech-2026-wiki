@@ -2,6 +2,7 @@
 id: yang26e_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, generative-model, robustness-noise]
+institutions: ["Huawei"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

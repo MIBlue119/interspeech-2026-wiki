@@ -1,6 +1,7 @@
 ---
 id: adelson26_interspeech
 category: asr
+institutions: ["University of Melbourne", "University of New South Wales"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

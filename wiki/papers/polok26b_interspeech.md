@@ -2,6 +2,7 @@
 id: polok26b_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
+institutions: ["Brno University of Technology", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

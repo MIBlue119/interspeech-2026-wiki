@@ -1,6 +1,7 @@
 ---
 id: zhou26d_interspeech
 category: speaker
+institutions: ["Tianjin University", "Hong Kong Polytechnic University", "Huiyan Technology (Tianjin) Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

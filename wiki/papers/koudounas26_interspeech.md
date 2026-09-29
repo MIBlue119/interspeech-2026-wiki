@@ -2,6 +2,7 @@
 id: koudounas26_interspeech
 category: health-clinical
 labels: [low-resource, generative-model]
+institutions: ["Sony Group Corporation", "Kore University of Enna", "Universita degli Studi di Palermo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

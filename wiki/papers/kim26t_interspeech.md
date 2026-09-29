@@ -2,6 +2,7 @@
 id: kim26t_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, self-supervised]
+institutions: ["Seoul National University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

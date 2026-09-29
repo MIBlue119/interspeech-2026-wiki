@@ -2,6 +2,7 @@
 id: zhang26g_interspeech
 category: phonetics-linguistics
 labels: [low-resource, multilingual]
+institutions: ["Flinders University", "Johns Hopkins University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

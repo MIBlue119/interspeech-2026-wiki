@@ -2,6 +2,7 @@
 id: bagat26_interspeech
 category: asr
 labels: [low-resource, self-supervised, generative-model]
+institutions: ["Universite de Lorraine", "CNRS", "Inria", "National Institute of Informatics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

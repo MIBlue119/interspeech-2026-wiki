@@ -1,6 +1,7 @@
 ---
 id: wang26r_interspeech
 category: paralinguistics-emotion
+institutions: ["Hong Kong Polytechnic University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

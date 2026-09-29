@@ -2,6 +2,7 @@
 id: nasrallah26_interspeech
 category: deepfake-security
 labels: [efficient-on-device, streaming-real-time, generative-model]
+institutions: ["Texas A&M University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

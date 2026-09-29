@@ -1,6 +1,7 @@
 ---
 id: ramonda26_interspeech
 category: asr
+institutions: ["IRIT", "CNRS", "Université de Toulouse", "Queensland University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

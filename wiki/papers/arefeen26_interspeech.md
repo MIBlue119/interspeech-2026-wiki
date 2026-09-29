@@ -2,6 +2,7 @@
 id: arefeen26_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["Singapore Institute of Technology", "Duke Kunshan University", "NVIDIA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

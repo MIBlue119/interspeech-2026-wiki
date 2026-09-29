@@ -2,6 +2,7 @@
 id: cotosolano26_interspeech
 category: phonetics-linguistics
 labels: [low-resource]
+institutions: ["Dartmouth College", "University of Auckland"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

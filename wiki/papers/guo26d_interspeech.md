@@ -2,6 +2,7 @@
 id: guo26d_interspeech
 category: health-clinical
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Duke Kunshan University", "Duke University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

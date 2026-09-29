@@ -2,6 +2,7 @@
 id: wang26y_interspeech
 category: speech-coding
 labels: [generative-model]
+institutions: ["Amazon"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

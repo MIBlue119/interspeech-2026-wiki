@@ -2,6 +2,7 @@
 id: choi26e_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
+institutions: ["Korea University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

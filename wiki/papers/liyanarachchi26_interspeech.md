@@ -1,6 +1,7 @@
 ---
 id: liyanarachchi26_interspeech
 category: health-clinical
+institutions: ["University of New South Wales", "Resourced Music Therapy", "Western Sydney University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

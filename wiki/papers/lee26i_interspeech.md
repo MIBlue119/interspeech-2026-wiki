@@ -2,6 +2,7 @@
 id: lee26i_interspeech
 category: tts
 labels: [dataset-or-benchmark-release, generative-model]
+institutions: ["NC AI", "Sogang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

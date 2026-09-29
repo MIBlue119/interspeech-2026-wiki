@@ -2,6 +2,7 @@
 id: asaka26_interspeech
 category: speaker
 labels: [self-supervised]
+institutions: ["Institute of Science Tokyo", "Honda Research Institute Japan"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

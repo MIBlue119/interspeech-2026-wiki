@@ -2,6 +2,7 @@
 id: s26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Indian Institute of Science"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

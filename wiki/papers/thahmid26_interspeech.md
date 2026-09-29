@@ -2,6 +2,7 @@
 id: thahmid26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Bangladesh University of Engineering and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

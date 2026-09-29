@@ -1,6 +1,7 @@
 ---
 id: chen26s_interspeech
 category: enhancement-separation
+institutions: ["National Taiwan University", "Academia Sinica", "University of California Irvine"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

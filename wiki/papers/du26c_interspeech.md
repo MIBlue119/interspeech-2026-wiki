@@ -2,6 +2,7 @@
 id: du26c_interspeech
 category: speaker
 labels: [multilingual, self-supervised]
+institutions: ["Beijing Fosafer Information Technology Co., Ltd", "University of Electronic Science and Technology of China", "Institute of Forensic Science, Ministry of Public Security"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

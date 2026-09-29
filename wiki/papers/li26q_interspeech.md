@@ -2,6 +2,7 @@
 id: li26q_interspeech
 category: audio-understanding
 labels: [low-resource]
+institutions: ["South China University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

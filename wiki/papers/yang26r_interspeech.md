@@ -2,6 +2,7 @@
 id: yang26r_interspeech
 category: asr
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Kyoto College of Graduate Studies for Informatics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: jin26_interspeech
 category: speaker
+institutions: ["Hong Kong Polytechnic University", "Baidu", "University of Hong Kong"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: wang26d_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Chinese Academy of Sciences", "Ear-LAB", "Initi-AI Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

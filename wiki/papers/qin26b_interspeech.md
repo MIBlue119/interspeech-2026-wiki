@@ -2,6 +2,7 @@
 id: qin26b_interspeech
 category: deepfake-security
 labels: [self-supervised, robustness-noise]
+institutions: ["Hong Kong Polytechnic University", "University of Hong Kong"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

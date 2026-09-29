@@ -2,6 +2,7 @@
 id: shi26_interspeech
 category: asr
 labels: [efficient-on-device, self-supervised]
+institutions: ["SB Intuitions"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

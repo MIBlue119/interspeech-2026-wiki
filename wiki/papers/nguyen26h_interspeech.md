@@ -2,6 +2,7 @@
 id: nguyen26h_interspeech
 category: health-clinical
 labels: [self-supervised]
+institutions: ["Avignon University", "Hopital Larrey", "Aix Marseille University", "CNRS", "Universite Toulouse II Jean Jaures"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

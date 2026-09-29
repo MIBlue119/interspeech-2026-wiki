@@ -1,6 +1,7 @@
 ---
 id: chan26_interspeech
 category: deepfake-security
+institutions: ["Educational Testing Service", "Japan Advanced Institute of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

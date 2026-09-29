@@ -2,6 +2,7 @@
 id: lee26g_interspeech
 category: tts
 labels: [efficient-on-device, self-supervised, streaming-real-time, generative-model]
+institutions: ["Ajou University", "Samsung"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

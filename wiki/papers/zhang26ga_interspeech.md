@@ -2,6 +2,7 @@
 id: zhang26ga_interspeech
 category: speech-coding
 labels: [generative-model]
+institutions: ["Zhejiang University", "StepFun"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: ren26b_interspeech
 category: audio-understanding
 labels: [self-supervised, dataset-or-benchmark-release]
+institutions: ["Xi'an Jiaotong-Liverpool University", "Xiaomi", "University of Oulu", "Chinese Academy of Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: kim26x_interspeech
 category: health-clinical
+institutions: ["Wonkwang University", "Gwangju Institute of Science and Technology", "KAIST"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

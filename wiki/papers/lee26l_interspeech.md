@@ -2,6 +2,7 @@
 id: lee26l_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
+institutions: ["Western Sydney University", "University of Tsukuba", "Seoul National University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

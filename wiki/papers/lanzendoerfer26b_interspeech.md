@@ -2,6 +2,7 @@
 id: lanzendoerfer26b_interspeech
 category: speaker
 labels: [self-supervised, generative-model]
+institutions: ["ETH Zurich"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

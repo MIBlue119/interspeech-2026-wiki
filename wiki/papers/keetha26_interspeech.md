@@ -2,6 +2,7 @@
 id: keetha26_interspeech
 category: speaker
 labels: [multilingual]
+institutions: ["Meeami Technologies"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

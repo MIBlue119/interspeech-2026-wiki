@@ -2,6 +2,7 @@
 id: lavechin26_interspeech
 category: asr
 labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
+institutions: ["Aix-Marseille University", "CNRS", "Harvard University", "Massachusetts Institute of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

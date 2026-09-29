@@ -1,6 +1,7 @@
 ---
 id: xue26_interspeech
 category: deepfake-security
+institutions: ["Army Engineering University of PLA", "Chinese University of Hong Kong", "Information Support Force Engineering University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

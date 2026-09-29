@@ -1,6 +1,7 @@
 ---
 id: mehralian26_interspeech
 category: asr
+institutions: ["KU Leuven"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

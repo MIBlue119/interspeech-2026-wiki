@@ -2,6 +2,7 @@
 id: takizawa26_interspeech
 category: asr
 labels: [multilingual, self-supervised]
+institutions: ["National Institute of Advanced Industrial Science and Technology", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: chien26b_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["National Yang Ming Chiao Tung University", "IBM"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

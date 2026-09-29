@@ -2,6 +2,7 @@
 id: rathnayake26_interspeech
 category: paralinguistics-emotion
 labels: [low-resource, dataset-or-benchmark-release]
+institutions: ["University of Auckland", "Te Hiku Media"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: sun26j_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
+institutions: ["Northwestern Polytechnical University", "Nanjing University", "Shenzhen Loop Area Institute", "Li Auto"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

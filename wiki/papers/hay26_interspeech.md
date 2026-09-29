@@ -1,6 +1,7 @@
 ---
 id: hay26_interspeech
 category: phonetics-linguistics
+institutions: ["University of Canterbury"]
 updated: 2026-09-28
 confidence: abstract-only
 source: https://www.isca-archive.org/interspeech_2026/hay26_interspeech.html

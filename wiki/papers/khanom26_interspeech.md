@@ -1,6 +1,7 @@
 ---
 id: khanom26_interspeech
 category: health-clinical
+institutions: ["University of Maryland", "DR. M R Khan Shishu Hospital & Institute of Child Health"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

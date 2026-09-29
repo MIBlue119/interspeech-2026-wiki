@@ -2,6 +2,7 @@
 id: kim26g_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Pohang University of Science and Technology", "Intus"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

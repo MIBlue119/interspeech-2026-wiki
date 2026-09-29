@@ -1,6 +1,7 @@
 ---
 id: danner26_interspeech
 category: speaker
+institutions: ["University of Neuchatel", "University of Zurich", "Zurich Forensic Science Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: onda26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["University of Tokyo", "National Institute of Advanced Industrial Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

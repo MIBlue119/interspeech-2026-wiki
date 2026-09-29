@@ -1,6 +1,7 @@
 ---
 id: huang26l_interspeech
 category: speech-coding
+institutions: ["Nanjing University", "Samsung"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

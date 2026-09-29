@@ -1,6 +1,7 @@
 ---
 id: bokkahallisatish26_interspeech
 category: speech-llm-dialogue
+institutions: ["KTH Royal Institute of Technology", "University of Edinburgh", "Texas A&M University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

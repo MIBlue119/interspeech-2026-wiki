@@ -2,6 +2,7 @@
 id: jiang26b_interspeech
 category: speech-coding
 labels: [streaming-real-time, generative-model]
+institutions: ["University of Science and Technology of China", "Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

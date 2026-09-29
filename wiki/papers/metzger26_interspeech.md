@@ -2,6 +2,7 @@
 id: metzger26_interspeech
 category: asr
 labels: [multilingual, self-supervised]
+institutions: ["Koel Labs"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

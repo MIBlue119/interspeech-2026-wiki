@@ -2,6 +2,7 @@
 id: li26ca_interspeech
 category: speaker
 labels: [self-supervised]
+institutions: ["Malanshan Audio and Video Laboratory"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

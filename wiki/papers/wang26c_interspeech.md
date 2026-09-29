@@ -1,6 +1,7 @@
 ---
 id: wang26c_interspeech
 category: enhancement-separation
+institutions: ["Zhejiang University", "Westlake University", "Westlake Institute for Advanced Study"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

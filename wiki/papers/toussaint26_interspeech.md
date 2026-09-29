@@ -2,6 +2,7 @@
 id: toussaint26_interspeech
 category: tts
 labels: [self-supervised]
+institutions: ["SUPSI", "University of Bremen", "King Abdullah University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

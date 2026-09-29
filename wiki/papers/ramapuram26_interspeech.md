@@ -2,6 +2,7 @@
 id: ramapuram26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised, generative-model]
+institutions: ["Apple"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

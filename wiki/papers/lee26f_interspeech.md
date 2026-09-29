@@ -2,6 +2,7 @@
 id: lee26f_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
+institutions: ["Korea Advanced Institute of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

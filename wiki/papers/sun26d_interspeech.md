@@ -2,6 +2,7 @@
 id: sun26d_interspeech
 category: translation
 labels: [low-resource, multilingual]
+institutions: ["Chinese University of Hong Kong"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

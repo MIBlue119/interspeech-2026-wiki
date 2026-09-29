@@ -1,6 +1,7 @@
 ---
 id: gourav26_interspeech
 category: deepfake-security
+institutions: ["Oracle"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

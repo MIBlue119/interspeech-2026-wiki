@@ -2,6 +2,7 @@
 id: vendrame26_interspeech
 category: speech-llm-dialogue
 labels: [low-resource]
+institutions: ["Brno University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

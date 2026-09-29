@@ -1,6 +1,7 @@
 ---
 id: liu26n_interspeech
 category: phonetics-linguistics
+institutions: ["Feng Chia University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

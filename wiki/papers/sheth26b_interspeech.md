@@ -2,6 +2,7 @@
 id: sheth26b_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual]
+institutions: ["ENS", "EHESS", "CNRS", "PSL University", "UPF"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

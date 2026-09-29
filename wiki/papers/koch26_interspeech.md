@@ -2,6 +2,7 @@
 id: koch26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
+institutions: ["University of St. Gallen", "LMU Munich", "University of Mannheim", "Charlotte Fresenius Hochschule"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

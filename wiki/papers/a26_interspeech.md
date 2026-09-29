@@ -2,6 +2,7 @@
 id: a26_interspeech
 category: asr
 labels: [multilingual, efficient-on-device]
+institutions: ["Inner Mongolia University", "Inner Mongolia Arts University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

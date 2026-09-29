@@ -2,6 +2,7 @@
 id: tran26c_interspeech
 category: paralinguistics-emotion
 labels: [dataset-or-benchmark-release]
+institutions: ["Hanoi University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

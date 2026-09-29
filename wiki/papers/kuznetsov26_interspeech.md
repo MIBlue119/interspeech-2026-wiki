@@ -2,6 +2,7 @@
 id: kuznetsov26_interspeech
 category: speech-coding
 labels: [efficient-on-device, generative-model]
+institutions: ["HSE University", "VK LLC"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: peng26b_interspeech
 category: asr
 labels: [low-resource, generative-model]
+institutions: ["Shanghai Jiao Tong University", "AISpeech Ltd", "Nanjing University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

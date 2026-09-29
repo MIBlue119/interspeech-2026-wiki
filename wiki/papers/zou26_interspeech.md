@@ -1,6 +1,7 @@
 ---
 id: zou26_interspeech
 category: paralinguistics-emotion
+institutions: ["Wuhan University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: lu26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
+institutions: ["Samsung", "Samsung Electronics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

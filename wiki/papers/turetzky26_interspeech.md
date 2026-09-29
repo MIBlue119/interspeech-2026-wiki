@@ -2,6 +2,7 @@
 id: turetzky26_interspeech
 category: tts
 labels: [dataset-or-benchmark-release]
+institutions: ["Hebrew University of Jerusalem", "IBM"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

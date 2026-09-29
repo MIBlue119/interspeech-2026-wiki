@@ -2,6 +2,7 @@
 id: klement26_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Brno University of Technology", "Johns Hopkins University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

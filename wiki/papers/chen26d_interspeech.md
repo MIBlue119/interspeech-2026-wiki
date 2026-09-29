@@ -2,6 +2,7 @@
 id: chen26d_interspeech
 category: resources-evaluation
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["Carnegie Mellon University", "Keio University", "Tokyo Metropolitan University", "National Institute of Advanced Industrial Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

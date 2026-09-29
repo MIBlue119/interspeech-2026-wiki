@@ -2,6 +2,7 @@
 id: wang26i_interspeech
 category: applications-other
 labels: [generative-model]
+institutions: ["Tianjin University", "Tianjin Renai College", "Tianjin University of Technology", "Tianjin Beiyang Rongke Intelligent Technology Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

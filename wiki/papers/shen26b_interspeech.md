@@ -2,6 +2,7 @@
 id: shen26b_interspeech
 category: speaker
 labels: [multilingual, self-supervised]
+institutions: ["Waseda University", "Wuhan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

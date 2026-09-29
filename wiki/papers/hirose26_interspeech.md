@@ -2,6 +2,7 @@
 id: hirose26_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Institute of Science Tokyo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

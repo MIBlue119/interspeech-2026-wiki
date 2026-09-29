@@ -1,6 +1,7 @@
 ---
 id: geng26_interspeech
 category: asr
+institutions: ["University of Tokyo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

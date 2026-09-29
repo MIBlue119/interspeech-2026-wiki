@@ -1,6 +1,7 @@
 ---
 id: moon26b_interspeech
 category: paralinguistics-emotion
+institutions: ["Dartmouth College"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: oliveira26_interspeech
 category: health-clinical
+institutions: ["Monash University", "University of Melbourne", "Sao Paulo State University", "Emory University", "Yale University", "Harvard Medical School"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

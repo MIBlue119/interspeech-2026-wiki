@@ -2,6 +2,7 @@
 id: chung26b_interspeech
 category: paralinguistics-emotion
 labels: [robustness-noise]
+institutions: ["Faurecia IRYStec"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

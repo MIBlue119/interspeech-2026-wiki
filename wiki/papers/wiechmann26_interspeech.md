@@ -2,6 +2,7 @@
 id: wiechmann26_interspeech
 category: health-clinical
 labels: [generative-model]
+institutions: ["Bielefeld University", "Paderborn University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: park26c_interspeech
 category: health-clinical
+institutions: ["NAVER Cloud", "Ewha Womans University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

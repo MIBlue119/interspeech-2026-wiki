@@ -2,6 +2,7 @@
 id: kishi26_interspeech
 category: speaker
 labels: [self-supervised]
+institutions: ["Keio University", "University of Tokyo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: taguchi26_interspeech
 category: asr
 labels: [low-resource, multilingual, self-supervised]
+institutions: ["University of Notre Dame", "University at Buffalo", "Tokyo University of Foreign Studies", "Reitaku University", "Boston College"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

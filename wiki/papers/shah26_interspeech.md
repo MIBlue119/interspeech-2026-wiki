@@ -2,6 +2,7 @@
 id: shah26_interspeech
 category: deepfake-security
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["Dhirubhai Ambani University", "Sarvajanik College of Engineering and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

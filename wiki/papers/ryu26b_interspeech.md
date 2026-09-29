@@ -2,6 +2,7 @@
 id: ryu26b_interspeech
 category: speech-llm-dialogue
 labels: [generative-model]
+institutions: ["POSTECH", "ETH Zurich", "LILT"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

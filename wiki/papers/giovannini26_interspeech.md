@@ -1,6 +1,7 @@
 ---
 id: giovannini26_interspeech
 category: paralinguistics-emotion
+institutions: ["Trinity College Dublin"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

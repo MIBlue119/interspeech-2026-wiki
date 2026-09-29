@@ -2,6 +2,7 @@
 id: chen26ca_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, self-supervised]
+institutions: ["Chinese University of Hong Kong, Shenzhen", "Jilin University", "Hunan University", "University of Electronic Science and Technology of China"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

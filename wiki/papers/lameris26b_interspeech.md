@@ -2,6 +2,7 @@
 id: lameris26b_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["KTH Royal Institute of Technology", "University of Texas at El Paso"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

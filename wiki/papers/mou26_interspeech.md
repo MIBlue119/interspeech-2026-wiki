@@ -2,6 +2,7 @@
 id: mou26_interspeech
 category: deepfake-security
 labels: [generative-model]
+institutions: ["University of Science and Technology of China", "Institute of Forensic Science, Ministry of Public Security", "Hong Kong Polytechnic University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

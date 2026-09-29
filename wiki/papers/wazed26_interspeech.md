@@ -2,6 +2,7 @@
 id: wazed26_interspeech
 category: enhancement-separation
 labels: [self-supervised, generative-model, robustness-noise]
+institutions: ["Chonnam National University", "Ritsumeikan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

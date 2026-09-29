@@ -2,6 +2,7 @@
 id: shen26c_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, self-supervised, robustness-noise]
+institutions: ["Concordia University", "McGill University", "Shenzhen University of Advanced Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

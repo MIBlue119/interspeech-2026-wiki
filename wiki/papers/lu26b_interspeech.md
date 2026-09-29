@@ -2,6 +2,7 @@
 id: lu26b_interspeech
 category: asr
 labels: [multilingual, self-supervised]
+institutions: ["Chinese Academy of Sciences", "University of Chinese Academy of Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

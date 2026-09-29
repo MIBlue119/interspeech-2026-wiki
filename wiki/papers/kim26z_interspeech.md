@@ -2,6 +2,7 @@
 id: kim26z_interspeech
 category: speech-llm-dialogue
 labels: [dataset-or-benchmark-release]
+institutions: ["Chung-Ang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

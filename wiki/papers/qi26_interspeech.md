@@ -2,6 +2,7 @@
 id: qi26_interspeech
 category: speech-llm-dialogue
 labels: [streaming-real-time]
+institutions: ["KTH Royal Institute of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

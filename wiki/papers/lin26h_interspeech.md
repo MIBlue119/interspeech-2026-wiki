@@ -2,6 +2,7 @@
 id: lin26h_interspeech
 category: resources-evaluation
 labels: [low-resource, self-supervised, robustness-noise]
+institutions: ["Southern University of Science and Technology", "Academia Sinica"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

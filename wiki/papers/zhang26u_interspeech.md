@@ -2,6 +2,7 @@
 id: zhang26u_interspeech
 category: translation
 labels: [multilingual, efficient-on-device, streaming-real-time]
+institutions: ["Samsung"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

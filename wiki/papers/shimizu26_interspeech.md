@@ -2,6 +2,7 @@
 id: shimizu26_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Columbia University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

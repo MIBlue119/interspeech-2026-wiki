@@ -1,6 +1,7 @@
 ---
 id: chien26c_interspeech
 category: paralinguistics-emotion
+institutions: ["National Yang Ming Chiao Tung University", "National Institute of Advanced Industrial Science and Technology", "National Tsing Hua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

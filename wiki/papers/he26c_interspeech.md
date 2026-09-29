@@ -2,6 +2,7 @@
 id: he26c_interspeech
 category: asr
 labels: [multilingual]
+institutions: ["Shanghai Jiao Tong University", "iFLYTEK", "Wuhan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

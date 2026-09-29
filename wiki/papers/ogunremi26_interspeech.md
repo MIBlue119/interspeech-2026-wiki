@@ -2,6 +2,7 @@
 id: ogunremi26_interspeech
 category: speech-llm-dialogue
 labels: [multilingual, self-supervised, dataset-or-benchmark-release]
+institutions: ["Stanford University", "Cohere Labs", "Cohere"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

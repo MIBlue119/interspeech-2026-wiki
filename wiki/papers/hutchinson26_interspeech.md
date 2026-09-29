@@ -2,6 +2,7 @@
 id: hutchinson26_interspeech
 category: tts
 labels: [low-resource, multilingual, generative-model]
+institutions: ["Google", "Te Taura Whiri i te Reo Māori"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: mizumoto26_interspeech
 category: speech-llm-dialogue
 labels: [multilingual, self-supervised]
+institutions: ["SB Intuitions"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

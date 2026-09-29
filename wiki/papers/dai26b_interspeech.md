@@ -1,6 +1,7 @@
 ---
 id: dai26b_interspeech
 category: speaker
+institutions: ["Northwestern Polytechnical University", "Soul AI", "Shanghai Jiao Tong University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

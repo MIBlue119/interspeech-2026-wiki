@@ -1,6 +1,7 @@
 ---
 id: yeh26_interspeech
 category: health-clinical
+institutions: ["Johns Hopkins University", "University of Michigan"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

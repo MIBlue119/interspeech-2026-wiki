@@ -1,6 +1,7 @@
 ---
 id: cui26b_interspeech
 category: enhancement-separation
+institutions: ["China Mobile Jiutian Artificial Intelligence Technology (Beijing) Co., Ltd", "Peking University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

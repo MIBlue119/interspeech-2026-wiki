@@ -2,6 +2,7 @@
 id: halpern26_interspeech
 category: resources-evaluation
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["Nagoya University", "University of Groningen", "University of Cologne"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

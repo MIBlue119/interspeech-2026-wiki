@@ -2,6 +2,7 @@
 id: sepanta26_interspeech
 category: paralinguistics-emotion
 labels: [dataset-or-benchmark-release]
+institutions: ["Fondazione Bruno Kessler", "University of Trento"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

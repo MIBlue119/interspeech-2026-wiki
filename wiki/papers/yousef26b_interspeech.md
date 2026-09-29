@@ -2,6 +2,7 @@
 id: yousef26b_interspeech
 category: health-clinical
 labels: [dataset-or-benchmark-release]
+institutions: ["Massachusetts General Hospital", "Harvard Medical School", "Universidad Tecnica Federico Santa Maria", "University of Central Florida"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

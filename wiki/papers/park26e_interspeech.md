@@ -2,6 +2,7 @@
 id: park26e_interspeech
 category: asr
 labels: [streaming-real-time]
+institutions: ["NVIDIA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

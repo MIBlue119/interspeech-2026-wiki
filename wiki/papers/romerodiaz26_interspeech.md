@@ -2,6 +2,7 @@
 id: romerodiaz26_interspeech
 category: translation
 labels: [robustness-noise]
+institutions: ["Barcelona Supercomputing Center", "Universitat Politecnica de Catalunya", "DFKI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: zhu26d_interspeech
 category: deepfake-security
+institutions: ["Beijing Key Laboratory of Key Technologies for AI+ Domain Applications", "North China University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

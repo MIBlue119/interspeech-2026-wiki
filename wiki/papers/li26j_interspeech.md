@@ -1,6 +1,7 @@
 ---
 id: li26j_interspeech
 category: health-clinical
+institutions: ["Shanghai Artificial Intelligence Laboratory", "Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

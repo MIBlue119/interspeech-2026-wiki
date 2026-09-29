@@ -2,6 +2,7 @@
 id: chen26_interspeech
 category: translation
 labels: [multilingual, generative-model]
+institutions: ["National Taiwan University", "NVIDIA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

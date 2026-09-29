@@ -2,6 +2,7 @@
 id: visser26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Stellenbosch University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

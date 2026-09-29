@@ -2,6 +2,7 @@
 id: yano26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Tohoku University", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

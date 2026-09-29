@@ -1,6 +1,7 @@
 ---
 id: zhang26f_interspeech
 category: audio-understanding
+institutions: ["Xi'an Jiaotong-Liverpool University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: kim26m_interspeech
 category: deepfake-security
+institutions: ["KAIST", "POSTECH"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

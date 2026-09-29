@@ -2,6 +2,7 @@
 id: kopuklu26_interspeech
 category: speaker
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Microsoft"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

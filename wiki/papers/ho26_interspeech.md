@@ -1,6 +1,7 @@
 ---
 id: ho26_interspeech
 category: enhancement-separation
+institutions: ["Georgia Institute of Technology", "Universita degli Studi di Palermo", "Academia Sinica"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: loweimi26b_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["University of Edinburgh", "Cisco", "SLAI", "Chinese University of Hong Kong, Shenzhen", "King's College London"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

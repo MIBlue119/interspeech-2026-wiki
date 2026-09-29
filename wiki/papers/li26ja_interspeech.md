@@ -2,6 +2,7 @@
 id: li26ja_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
+institutions: ["Hong Kong Polytechnic University", "City University of Hong Kong"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

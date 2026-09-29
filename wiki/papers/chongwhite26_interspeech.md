@@ -2,6 +2,7 @@
 id: chongwhite26_interspeech
 category: health-clinical
 labels: [robustness-noise]
+institutions: ["National Acoustic Laboratories"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

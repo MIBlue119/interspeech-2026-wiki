@@ -1,6 +1,7 @@
 ---
 id: xu26m_interspeech
 category: speaker
+institutions: ["University of Zurich"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

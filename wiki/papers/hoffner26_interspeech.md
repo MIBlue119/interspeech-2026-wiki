@@ -2,6 +2,7 @@
 id: hoffner26_interspeech
 category: resources-evaluation
 labels: [self-supervised, robustness-noise]
+institutions: ["Carl von Ossietzky Universitat Oldenburg", "Cluster of Excellence Hearing4all", "Fraunhofer Institute for Digital Media Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

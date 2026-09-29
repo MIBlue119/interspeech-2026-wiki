@@ -2,6 +2,7 @@
 id: gao26c_interspeech
 category: audio-understanding
 labels: [generative-model]
+institutions: ["University of Science and Technology of China"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

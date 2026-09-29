@@ -1,6 +1,7 @@
 ---
 id: manamalage26_interspeech
 category: health-clinical
+institutions: ["DeepNet Discovery Network", "University of Auckland"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

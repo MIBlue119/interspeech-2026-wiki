@@ -2,6 +2,7 @@
 id: niu26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Shanghai Jiao Tong University", "Shanghai Innovation Institute", "Chinese University of Hong Kong", "KAIST", "Geely"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

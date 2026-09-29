@@ -35,6 +35,13 @@ func cmdWiki(args []string) error {
 		labelsFront = fmt.Sprintf("labels: [%s]\n", strings.Join(p.Labels, ", "))
 		labelsLine = " · **Labels:** `" + strings.Join(p.Labels, "`, `") + "`"
 	}
+	if len(p.Institutions) > 0 {
+		quoted := make([]string, len(p.Institutions))
+		for i, n := range p.Institutions {
+			quoted[i] = fmt.Sprintf("%q", n)
+		}
+		labelsFront += fmt.Sprintf("institutions: [%s]\n", strings.Join(quoted, ", "))
+	}
 	orgSection := ""
 	if len(p.Institutions) > 0 || len(p.Funding) > 0 {
 		orgSection = "## Institutions / 機構\n\n"

@@ -1,6 +1,7 @@
 ---
 id: lietz26_interspeech
 category: health-clinical
+institutions: ["University of California, Santa Cruz", "AImpower.org", "Stanford University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

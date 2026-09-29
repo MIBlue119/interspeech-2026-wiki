@@ -2,6 +2,7 @@
 id: luo26_interspeech
 category: tts
 labels: [efficient-on-device]
+institutions: ["Fish Audio", "University of Science and Technology of China"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

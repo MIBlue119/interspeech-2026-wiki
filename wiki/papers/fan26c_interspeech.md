@@ -1,6 +1,7 @@
 ---
 id: fan26c_interspeech
 category: applications-other
+institutions: ["Macquarie University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

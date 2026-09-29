@@ -2,6 +2,7 @@
 id: nguyen26d_interspeech
 category: tts
 labels: [efficient-on-device, streaming-real-time, generative-model]
+institutions: ["FPT Software", "University of Alabama at Birmingham"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: kim26e_interspeech
 category: deepfake-security
+institutions: ["Sungkyunkwan University", "University of Toronto", "Jaume I University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

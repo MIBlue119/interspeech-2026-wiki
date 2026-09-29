@@ -1,6 +1,7 @@
 ---
 id: song26e_interspeech
 category: paralinguistics-emotion
+institutions: ["Tianjin Normal University", "Hunan University", "Yuelushan Center for Industrial Innovation", "Technische Universitat Munchen", "Imperial College London"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

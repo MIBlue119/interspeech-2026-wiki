@@ -1,6 +1,7 @@
 ---
 id: wei26b_interspeech
 category: speaker
+institutions: ["University of Michigan", "National Taiwan University", "University of Southern California"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

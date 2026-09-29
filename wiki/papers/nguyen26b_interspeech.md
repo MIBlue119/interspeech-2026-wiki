@@ -2,6 +2,7 @@
 id: nguyen26b_interspeech
 category: resources-evaluation
 labels: [multilingual, dataset-or-benchmark-release, robustness-noise]
+institutions: ["University of Wisconsin - Madison", "Oregon State University", "University of Sydney", "Kookmin University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

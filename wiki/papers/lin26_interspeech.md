@@ -1,6 +1,7 @@
 ---
 id: lin26_interspeech
 category: audio-understanding
+institutions: ["Academia Sinica", "National Central University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

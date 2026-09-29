@@ -2,6 +2,7 @@
 id: sanjotra26_interspeech
 category: resources-evaluation
 labels: [self-supervised]
+institutions: ["Indian Institute of Technology Indore", "University of Groningen"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

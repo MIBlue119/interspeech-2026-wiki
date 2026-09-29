@@ -1,6 +1,7 @@
 ---
 id: toyin26b_interspeech
 category: asr
+institutions: ["MBZUAI", "SpeechCare", "SLAI", "Chinese University of Hong Kong, Shenzhen", "University of Edinburgh", "University of Aveiro"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

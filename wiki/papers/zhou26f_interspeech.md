@@ -1,6 +1,7 @@
 ---
 id: zhou26f_interspeech
 category: paralinguistics-emotion
+institutions: ["Jiangnan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: rathore26_interspeech
 category: asr
 labels: [multilingual]
+institutions: ["Motilal Oswal Financial Services", "Indian Institute of Technology Bombay"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

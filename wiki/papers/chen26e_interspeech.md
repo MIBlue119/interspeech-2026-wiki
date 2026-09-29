@@ -2,6 +2,7 @@
 id: chen26e_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, self-supervised]
+institutions: ["National Taiwan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

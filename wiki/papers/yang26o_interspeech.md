@@ -1,6 +1,7 @@
 ---
 id: yang26o_interspeech
 category: asr
+institutions: ["University of Texas at Dallas"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

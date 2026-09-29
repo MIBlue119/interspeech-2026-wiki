@@ -2,6 +2,7 @@
 id: song26c_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
+institutions: ["Singapore Institute of Technology", "University of Science and Technology of China"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

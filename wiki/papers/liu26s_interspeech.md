@@ -2,6 +2,7 @@
 id: liu26s_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, robustness-noise]
+institutions: ["Chinese Academy of Sciences", "University of Chinese Academy of Sciences", "OPPO"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

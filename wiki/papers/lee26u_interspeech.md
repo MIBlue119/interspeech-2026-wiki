@@ -1,6 +1,7 @@
 ---
 id: lee26u_interspeech
 category: asr
+institutions: ["NTT", "Kyoto University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: borodin26b_interspeech
 category: deepfake-security
 labels: [low-resource, multilingual, dataset-or-benchmark-release, robustness-noise]
+institutions: ["Moscow Technical University of Communications and Informatics", "BitmanagerAI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: sheth26c_interspeech
 category: resources-evaluation
+institutions: ["CNRS", "EHESS", "ENS", "PSL University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

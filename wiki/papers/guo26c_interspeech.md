@@ -2,6 +2,7 @@
 id: guo26c_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, self-supervised]
+institutions: ["Wuhan University", "University of Auckland", "University of Melbourne", "University of Cambridge", "Flower Labs"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

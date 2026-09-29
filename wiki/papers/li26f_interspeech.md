@@ -1,6 +1,7 @@
 ---
 id: li26f_interspeech
 category: phonetics-linguistics
+institutions: ["Hong Kong Polytechnic University", "Shanghai Jiao Tong University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

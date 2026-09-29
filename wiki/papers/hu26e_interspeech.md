@@ -1,6 +1,7 @@
 ---
 id: hu26e_interspeech
 category: deepfake-security
+institutions: ["National Taiwan University", "NVIDIA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

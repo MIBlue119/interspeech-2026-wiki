@@ -1,6 +1,7 @@
 ---
 id: kenne26_interspeech
 category: health-clinical
+institutions: ["University of Massachusetts Lowell"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: phukan26_interspeech
 category: deepfake-security
 labels: [self-supervised, dataset-or-benchmark-release]
+institutions: ["National Tsing Hua University", "University of Petroleum and Energy Studies", "Veer Bahadur Singh Purvanchal University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

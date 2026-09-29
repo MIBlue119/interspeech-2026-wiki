@@ -1,6 +1,7 @@
 ---
 id: chen26x_interspeech
 category: speech-llm-dialogue
+institutions: ["Hunan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

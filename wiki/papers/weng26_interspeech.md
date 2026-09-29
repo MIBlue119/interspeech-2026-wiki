@@ -2,6 +2,7 @@
 id: weng26_interspeech
 category: phonetics-linguistics
 labels: [robustness-noise]
+institutions: ["Hong Kong Polytechnic University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

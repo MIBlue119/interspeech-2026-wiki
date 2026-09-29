@@ -2,6 +2,7 @@
 id: eeckt26_interspeech
 category: asr
 labels: [efficient-on-device]
+institutions: ["KU Leuven"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

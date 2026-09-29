@@ -2,6 +2,7 @@
 id: kheir26_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["German Research Center for Artificial Intelligence", "University of Stuttgart", "National Institute of Informatics", "Technical University of Berlin"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: huang26m_interspeech
 category: speaker
 labels: [robustness-noise]
+institutions: ["Guangxi University", "Guangxi Key Laboratory of Multimedia Communications and Network Technology", "University of Surrey"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

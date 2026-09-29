@@ -2,6 +2,7 @@
 id: masztalski26_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Samsung", "AGH University of Krakow"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

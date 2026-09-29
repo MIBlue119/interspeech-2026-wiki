@@ -2,6 +2,7 @@
 id: thai26_interspeech
 category: asr
 labels: [self-supervised, robustness-noise]
+institutions: ["Nanyang Technological University", "VinUniversity"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

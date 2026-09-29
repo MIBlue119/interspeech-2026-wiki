@@ -1,6 +1,7 @@
 ---
 id: krzywdziak26_interspeech
 category: health-clinical
+institutions: ["AGH University of Krakow", "Samsung"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

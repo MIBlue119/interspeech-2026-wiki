@@ -2,6 +2,7 @@
 id: park26i_interspeech
 category: tts
 labels: [self-supervised, generative-model]
+institutions: ["Hanyang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

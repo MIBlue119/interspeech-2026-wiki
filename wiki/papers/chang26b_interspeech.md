@@ -1,6 +1,7 @@
 ---
 id: chang26b_interspeech
 category: paralinguistics-emotion
+institutions: ["Imperial College London", "Leibniz University Hannover", "University of Bremen"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

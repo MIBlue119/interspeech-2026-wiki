@@ -1,6 +1,7 @@
 ---
 id: tu26_interspeech
 category: deepfake-security
+institutions: ["Hong Kong Polytechnic University", "University of Science and Technology of China", "iFLYTEK"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

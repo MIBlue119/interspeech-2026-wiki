@@ -2,6 +2,7 @@
 id: rakotoarivony26_interspeech
 category: applications-other
 labels: [efficient-on-device, self-supervised]
+institutions: ["Thales"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: sultana26_interspeech
 category: resources-evaluation
 labels: [efficient-on-device, self-supervised, robustness-noise]
+institutions: ["Ohio State University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

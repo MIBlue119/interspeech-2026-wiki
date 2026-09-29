@@ -1,6 +1,7 @@
 ---
 id: zheng26b_interspeech
 category: asr
+institutions: ["Huawei Technologies"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

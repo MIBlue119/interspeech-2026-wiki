@@ -2,6 +2,7 @@
 id: susac26_interspeech
 category: health-clinical
 labels: [self-supervised]
+institutions: ["University of Zagreb", "Rosenheim Technical University of Applied Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

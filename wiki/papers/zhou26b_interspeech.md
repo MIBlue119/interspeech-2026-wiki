@@ -2,6 +2,7 @@
 id: zhou26b_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Chinese Academy of Sciences", "Capital Normal University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

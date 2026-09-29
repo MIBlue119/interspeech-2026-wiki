@@ -2,6 +2,7 @@
 id: viakhirev26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Information Technologies, Mechanics and Optics University", "Moscow Technical University of Communications and Informatics", "BitmanagerAI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

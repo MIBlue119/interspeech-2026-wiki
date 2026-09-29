@@ -2,6 +2,7 @@
 id: qiu26_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["Xinjiang University", "University of Hong Kong"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

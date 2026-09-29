@@ -2,6 +2,7 @@
 id: wang26s_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Alibaba Group"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: fong26b_interspeech
 category: speech-llm-dialogue
 labels: [low-resource, multilingual, self-supervised]
+institutions: ["University of Trento", "Fondazione Bruno Kessler"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

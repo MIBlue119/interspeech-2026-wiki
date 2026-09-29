@@ -1,6 +1,7 @@
 ---
 id: ding26c_interspeech
 category: enhancement-separation
+institutions: ["Nanyang Technological University", "Cochin University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

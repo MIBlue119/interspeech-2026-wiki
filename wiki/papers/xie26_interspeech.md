@@ -2,6 +2,7 @@
 id: xie26_interspeech
 category: deepfake-security
 labels: [dataset-or-benchmark-release, robustness-noise]
+institutions: ["Guangdong Provincial Key Laboratory of Ultra High Definition Immersive Media Technology", "Peking University", "Tencent AI Lab", "Shanghai Jiao Tong University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

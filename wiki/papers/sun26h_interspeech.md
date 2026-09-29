@@ -2,6 +2,7 @@
 id: sun26h_interspeech
 category: asr
 labels: [low-resource, self-supervised, robustness-noise]
+institutions: ["University of Melbourne", "Wuhan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: wu26l_interspeech
 category: tts
 labels: [low-resource, generative-model]
+institutions: ["RIKEN", "University of Osaka", "Advanced Telecommunications Research Institute International", "National Institute of Informatics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

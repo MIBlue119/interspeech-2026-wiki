@@ -2,6 +2,7 @@
 id: im26_interspeech
 category: audio-understanding
 labels: [generative-model]
+institutions: ["KAIST", "Sony Computer Science Laboratories"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

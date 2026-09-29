@@ -2,6 +2,7 @@
 id: kim26c_interspeech
 category: speaker
 labels: [robustness-noise]
+institutions: ["University of Seoul", "Supreme Prosecutor’s Office"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

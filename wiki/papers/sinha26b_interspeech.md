@@ -2,6 +2,7 @@
 id: sinha26b_interspeech
 category: asr
 labels: [low-resource, self-supervised, robustness-noise]
+institutions: ["NIT Sikkim", "Aalto University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

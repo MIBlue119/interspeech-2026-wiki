@@ -2,6 +2,7 @@
 id: oliveira26b_interspeech
 category: resources-evaluation
 labels: [robustness-noise]
+institutions: ["University of Hamburg"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

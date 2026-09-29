@@ -1,6 +1,7 @@
 ---
 id: papi26_interspeech
 category: asr
+institutions: ["Fondazione Bruno Kessler"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

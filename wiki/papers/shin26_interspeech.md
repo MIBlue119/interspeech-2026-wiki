@@ -1,6 +1,7 @@
 ---
 id: shin26_interspeech
 category: enhancement-separation
+institutions: ["Seoul National University", "University of Iowa"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: chen26h_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
+institutions: ["Waseda University", "Nanjing University", "Northwestern Polytechnical University", "Wuhan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

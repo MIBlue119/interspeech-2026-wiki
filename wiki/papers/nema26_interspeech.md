@@ -1,6 +1,7 @@
 ---
 id: nema26_interspeech
 category: asr
+institutions: ["Augnito"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

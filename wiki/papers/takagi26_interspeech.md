@@ -1,6 +1,7 @@
 ---
 id: takagi26_interspeech
 category: resources-evaluation
+institutions: ["Nagoya Institute of Technology", "LY Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: ulgen26b_interspeech
 category: deepfake-security
 labels: [generative-model]
+institutions: ["Johns Hopkins University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

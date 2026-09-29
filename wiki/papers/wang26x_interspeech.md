@@ -2,6 +2,7 @@
 id: wang26x_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["University of Science and Technology of China"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

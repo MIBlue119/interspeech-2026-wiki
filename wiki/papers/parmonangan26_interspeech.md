@@ -2,6 +2,7 @@
 id: parmonangan26_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised, robustness-noise]
+institutions: ["Queensland University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

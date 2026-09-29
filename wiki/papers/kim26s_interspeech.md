@@ -2,6 +2,7 @@
 id: kim26s_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device]
+institutions: ["NAVER Cloud", "KAIST"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

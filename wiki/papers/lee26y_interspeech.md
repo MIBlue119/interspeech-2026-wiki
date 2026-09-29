@@ -2,6 +2,7 @@
 id: lee26y_interspeech
 category: asr
 labels: [efficient-on-device]
+institutions: ["Electronics and Telecommunications Research Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

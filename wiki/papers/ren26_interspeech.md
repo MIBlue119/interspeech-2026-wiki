@@ -1,6 +1,7 @@
 ---
 id: ren26_interspeech
 category: resources-evaluation
+institutions: ["National Taiwan University", "Nagoya University", "National Institute of Information and Communications Technology", "Academia Sinica"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

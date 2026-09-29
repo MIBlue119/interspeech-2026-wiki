@@ -2,6 +2,7 @@
 id: song26f_interspeech
 category: translation
 labels: [multilingual, dataset-or-benchmark-release, generative-model]
+institutions: ["Chinese University of Hong Kong, Shenzhen", "Shenzhen Loop Area Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

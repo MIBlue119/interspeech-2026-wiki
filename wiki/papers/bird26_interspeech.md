@@ -2,6 +2,7 @@
 id: bird26_interspeech
 category: asr
 labels: [low-resource, multilingual]
+institutions: ["Charles Darwin University"]
 updated: 2026-09-28
 confidence: abstract-only
 source: https://www.isca-archive.org/interspeech_2026/bird26_interspeech.html

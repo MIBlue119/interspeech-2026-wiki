@@ -1,6 +1,7 @@
 ---
 id: meng26b_interspeech
 category: speaker
+institutions: ["Xinjiang University", "Tsinghua University", "AGIBOT"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

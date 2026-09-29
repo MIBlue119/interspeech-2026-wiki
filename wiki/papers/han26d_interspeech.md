@@ -2,6 +2,7 @@
 id: han26d_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Chinese University of Hong Kong", "Tencent"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

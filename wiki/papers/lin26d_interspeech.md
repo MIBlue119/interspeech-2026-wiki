@@ -2,6 +2,7 @@
 id: lin26d_interspeech
 category: speech-coding
 labels: [generative-model]
+institutions: ["Tsinghua University", "Huawei"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

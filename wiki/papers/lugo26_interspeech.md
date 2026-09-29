@@ -2,6 +2,7 @@
 id: lugo26_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, generative-model, robustness-noise]
+institutions: ["Technische Universitat Braunschweig", "GN Advanced Science"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

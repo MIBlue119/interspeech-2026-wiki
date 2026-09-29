@@ -1,6 +1,7 @@
 ---
 id: stasica26_interspeech
 category: health-clinical
+institutions: ["University of Lorraine", "CNRS", "Inria", "CHRU-Nancy", "INSERM"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: ozer26_interspeech
 category: deepfake-security
+institutions: ["National Institute of Informatics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

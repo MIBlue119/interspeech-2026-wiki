@@ -2,6 +2,7 @@
 id: lay26_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, generative-model]
+institutions: ["University of Hamburg", "HITeC-Hamburg"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

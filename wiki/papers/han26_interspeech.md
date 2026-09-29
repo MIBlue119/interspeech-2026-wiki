@@ -2,6 +2,7 @@
 id: han26_interspeech
 category: health-clinical
 labels: [self-supervised]
+institutions: ["LG Electronics", "Sogang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

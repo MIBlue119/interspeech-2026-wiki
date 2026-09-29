@@ -1,6 +1,7 @@
 ---
 id: hou26b_interspeech
 category: resources-evaluation
+institutions: ["University at Buffalo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

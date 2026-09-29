@@ -2,6 +2,7 @@
 id: gu26b_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
+institutions: ["Southwest University", "Chongqing Academy of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

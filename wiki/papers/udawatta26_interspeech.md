@@ -1,6 +1,7 @@
 ---
 id: udawatta26_interspeech
 category: resources-evaluation
+institutions: ["University of Auckland"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

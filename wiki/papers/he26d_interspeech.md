@@ -2,6 +2,7 @@
 id: he26d_interspeech
 category: health-clinical
 labels: [multilingual]
+institutions: ["University of Science and Technology of China", "University of Edinburgh"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

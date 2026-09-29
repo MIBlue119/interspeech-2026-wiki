@@ -2,6 +2,7 @@
 id: diecidue26_interspeech
 category: audio-understanding
 labels: [efficient-on-device]
+institutions: ["Politecnico di Milano", "University of Turin", "Telecom Paris", "Institut Polytechnique de Paris"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

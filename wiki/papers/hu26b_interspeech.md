@@ -2,6 +2,7 @@
 id: hu26b_interspeech
 category: speech-coding
 labels: [self-supervised, generative-model]
+institutions: ["Northwestern Polytechnical University", "Shanghai Lingguang Zhaxian Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

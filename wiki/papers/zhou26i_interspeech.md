@@ -2,6 +2,7 @@
 id: zhou26i_interspeech
 category: resources-evaluation
 labels: [self-supervised]
+institutions: ["Kyoto University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

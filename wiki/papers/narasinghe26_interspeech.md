@@ -2,6 +2,7 @@
 id: narasinghe26_interspeech
 category: applications-other
 labels: [self-supervised]
+institutions: ["University of Moratuwa"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

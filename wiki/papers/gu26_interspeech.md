@@ -2,6 +2,7 @@
 id: gu26_interspeech
 category: phonetics-linguistics
 labels: [multilingual, robustness-noise]
+institutions: ["University of Illinois Urbana-Champaign", "Beckman Institute for Advanced Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

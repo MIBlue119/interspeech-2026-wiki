@@ -2,6 +2,7 @@
 id: hayden26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["University of Edinburgh"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

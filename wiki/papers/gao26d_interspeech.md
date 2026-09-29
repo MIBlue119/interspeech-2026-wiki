@@ -1,6 +1,7 @@
 ---
 id: gao26d_interspeech
 category: health-clinical
+institutions: ["South China Normal University", "Sun Yat-sen University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

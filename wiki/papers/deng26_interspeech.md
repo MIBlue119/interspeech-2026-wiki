@@ -2,6 +2,7 @@
 id: deng26_interspeech
 category: asr
 labels: [efficient-on-device, self-supervised, streaming-real-time]
+institutions: ["Chinese University of Hong Kong", "Institute of Software, Chinese Academy of Sciences", "National Research Council Canada"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

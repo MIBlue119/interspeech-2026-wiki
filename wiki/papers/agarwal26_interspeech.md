@@ -2,6 +2,7 @@
 id: agarwal26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Walmart Global Tech"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

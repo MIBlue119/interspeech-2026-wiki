@@ -2,6 +2,7 @@
 id: you26_interspeech
 category: tts
 labels: [efficient-on-device]
+institutions: ["Hyundai Motor Group"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

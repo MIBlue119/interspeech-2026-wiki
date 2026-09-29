@@ -2,6 +2,7 @@
 id: ma26d_interspeech
 category: asr
 labels: [multilingual, self-supervised]
+institutions: ["Sogang University", "LOTTE INNOVATE"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

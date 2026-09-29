@@ -2,6 +2,7 @@
 id: leoni26_interspeech
 category: tts
 labels: [low-resource, multilingual, generative-model]
+institutions: ["Te Hiku Media"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: mokgosi26_interspeech
 category: asr
 labels: [low-resource, multilingual, self-supervised]
+institutions: ["Technological University Dublin", "University of Pretoria", "Lelapa AI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

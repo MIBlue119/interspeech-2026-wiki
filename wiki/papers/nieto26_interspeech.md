@@ -2,6 +2,7 @@
 id: nieto26_interspeech
 category: asr
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["Stanford University", "Google"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

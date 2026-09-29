@@ -2,6 +2,7 @@
 id: deng26b_interspeech
 category: speaker
 labels: [robustness-noise]
+institutions: ["Hong Kong Polytechnic University", "University of York"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: turk26_interspeech
 category: paralinguistics-emotion
+institutions: ["Bielefeld University", "Paderborn University", "SFB/Transregio 318 ‘Constructing Explainability’"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

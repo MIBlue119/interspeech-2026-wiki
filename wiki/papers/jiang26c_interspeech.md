@@ -2,6 +2,7 @@
 id: jiang26c_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release, robustness-noise]
+institutions: ["University of Science and Technology of China", "iFLYTEK"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

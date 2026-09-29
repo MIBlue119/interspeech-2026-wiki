@@ -2,6 +2,7 @@
 id: hosseinikivanani26_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
+institutions: ["Radio Television Luxembourg", "University of Luxembourg", "Shiraz University", "University of Southern Denmark"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

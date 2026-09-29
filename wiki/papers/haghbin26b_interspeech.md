@@ -1,6 +1,7 @@
 ---
 id: haghbin26b_interspeech
 category: health-clinical
+institutions: ["Columbia University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

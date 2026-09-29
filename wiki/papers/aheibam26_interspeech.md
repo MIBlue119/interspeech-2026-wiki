@@ -2,6 +2,7 @@
 id: aheibam26_interspeech
 category: phonetics-linguistics
 labels: [multilingual, self-supervised]
+institutions: ["Indian Institute of Technology Guwahati"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

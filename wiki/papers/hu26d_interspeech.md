@@ -2,6 +2,7 @@
 id: hu26d_interspeech
 category: enhancement-separation
 labels: [efficient-on-device]
+institutions: ["Shanghai Jiao Tong University", "Microsoft"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

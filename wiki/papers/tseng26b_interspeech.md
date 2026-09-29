@@ -2,6 +2,7 @@
 id: tseng26b_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, self-supervised, streaming-real-time]
+institutions: ["National Taiwan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

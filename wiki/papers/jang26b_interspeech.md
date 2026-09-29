@@ -1,6 +1,7 @@
 ---
 id: jang26b_interspeech
 category: speech-llm-dialogue
+institutions: ["Seoul National University", "Korea Electronics Technology Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

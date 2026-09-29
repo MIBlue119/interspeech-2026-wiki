@@ -2,6 +2,7 @@
 id: liu26l_interspeech
 category: tts
 labels: [efficient-on-device, generative-model]
+institutions: ["Harbin Institute of Technology", "Tsinghua University", "Zhejiang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

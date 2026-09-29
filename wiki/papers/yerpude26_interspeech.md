@@ -1,6 +1,7 @@
 ---
 id: yerpude26_interspeech
 category: health-clinical
+institutions: ["Seoul National University of Science and Technology", "Medisensing"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

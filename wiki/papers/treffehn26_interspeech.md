@@ -1,6 +1,7 @@
 ---
 id: treffehn26_interspeech
 category: resources-evaluation
+institutions: ["Fraunhofer-Gesellschaft"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

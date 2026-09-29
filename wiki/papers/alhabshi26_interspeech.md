@@ -2,6 +2,7 @@
 id: alhabshi26_interspeech
 category: phonetics-linguistics
 labels: [multilingual, self-supervised]
+institutions: ["University of New South Wales"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: wang26ca_interspeech
 category: deepfake-security
+institutions: ["Beijing Fosafer Information Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

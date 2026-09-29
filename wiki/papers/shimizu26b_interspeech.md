@@ -2,6 +2,7 @@
 id: shimizu26b_interspeech
 category: phonetics-linguistics
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["University of Tsukuba"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: magoshi26_interspeech
 category: asr
 labels: [multilingual]
+institutions: ["Kyoto University", "LY Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

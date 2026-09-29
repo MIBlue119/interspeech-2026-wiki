@@ -2,6 +2,7 @@
 id: gopal26_interspeech
 category: speech-llm-dialogue
 labels: [multilingual, self-supervised]
+institutions: ["Nanyang Technological University", "AI Singapore", "National University of Singapore", "Institute for Infocomm Research", "Agency for Science, Technology and Research"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

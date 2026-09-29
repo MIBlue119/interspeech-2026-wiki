@@ -2,6 +2,7 @@
 id: park26d_interspeech
 category: deepfake-security
 labels: [robustness-noise]
+institutions: ["Soongsil University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

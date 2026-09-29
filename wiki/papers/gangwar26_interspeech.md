@@ -2,6 +2,7 @@
 id: gangwar26_interspeech
 category: speech-coding
 labels: [efficient-on-device, self-supervised, generative-model]
+institutions: ["Indian Institute of Technology, Madras"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

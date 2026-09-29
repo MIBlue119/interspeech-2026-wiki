@@ -2,6 +2,7 @@
 id: kim26p_interspeech
 category: tts
 labels: [low-resource, generative-model]
+institutions: ["CBS", "Sogang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

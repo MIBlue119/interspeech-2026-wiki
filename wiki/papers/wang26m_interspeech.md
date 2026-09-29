@@ -1,6 +1,7 @@
 ---
 id: wang26m_interspeech
 category: enhancement-separation
+institutions: ["Kyoto University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

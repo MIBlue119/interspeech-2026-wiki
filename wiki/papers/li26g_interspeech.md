@@ -2,6 +2,7 @@
 id: li26g_interspeech
 category: deepfake-security
 labels: [robustness-noise]
+institutions: ["Hong Kong Polytechnic University", "Brno University of Technology", "Shenzhen Zhuiyi Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

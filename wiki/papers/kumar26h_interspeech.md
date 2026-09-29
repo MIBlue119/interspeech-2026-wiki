@@ -2,6 +2,7 @@
 id: kumar26h_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual, dataset-or-benchmark-release]
+institutions: ["Indian Institute of Technology Bombay", "University of Science and Technology", "University of Delhi", "BharatGen"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

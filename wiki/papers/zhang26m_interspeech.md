@@ -2,6 +2,7 @@
 id: zhang26m_interspeech
 category: tts
 labels: [dataset-or-benchmark-release, generative-model]
+institutions: ["ZuoYeBang Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

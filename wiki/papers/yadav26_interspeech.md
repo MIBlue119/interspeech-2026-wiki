@@ -2,6 +2,7 @@
 id: yadav26_interspeech
 category: translation
 labels: [low-resource, multilingual, efficient-on-device, generative-model]
+institutions: ["Indraprastha Institute of Information Technology Delhi"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

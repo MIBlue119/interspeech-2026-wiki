@@ -1,6 +1,7 @@
 ---
 id: bhagtani26_interspeech
 category: speech-llm-dialogue
+institutions: ["Purdue University", "Ishiki Labs"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

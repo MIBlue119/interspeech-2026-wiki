@@ -2,6 +2,7 @@
 id: wen26b_interspeech
 category: resources-evaluation
 labels: [low-resource, dataset-or-benchmark-release]
+institutions: ["South China Normal University", "Columbia University", "Sun Yat-sen University", "Guangzhou College of Commerce", "LMU Munich", "Munich Center for Machine Learning"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

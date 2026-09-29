@@ -2,6 +2,7 @@
 id: liu26i_interspeech
 category: tts
 labels: [streaming-real-time, generative-model]
+institutions: ["Nanyang Technological University", "Tianjin University", "Southeast University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

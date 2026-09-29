@@ -2,6 +2,7 @@
 id: huang26o_interspeech
 category: enhancement-separation
 labels: [efficient-on-device]
+institutions: ["International Audio Laboratories Erlangen", "Fraunhofer IIS", "Friedrich-Alexander-Universitat Erlangen-Nurnberg"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

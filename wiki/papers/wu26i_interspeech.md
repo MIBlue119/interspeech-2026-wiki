@@ -1,6 +1,7 @@
 ---
 id: wu26i_interspeech
 category: asr
+institutions: ["Qifu Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

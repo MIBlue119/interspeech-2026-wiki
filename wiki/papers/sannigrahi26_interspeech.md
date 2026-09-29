@@ -2,6 +2,7 @@
 id: sannigrahi26_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device]
+institutions: ["Universidade de Lisboa", "Instituto de Telecomunicacoes", "TransPerfect"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

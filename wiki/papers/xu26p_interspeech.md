@@ -2,6 +2,7 @@
 id: xu26p_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["International Audio Laboratories Erlangen", "Fraunhofer Institute for Integrated Circuits", "Friedrich-Alexander-Universitat Erlangen-Nurnberg"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

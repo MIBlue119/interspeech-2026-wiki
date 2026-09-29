@@ -2,6 +2,7 @@
 id: berdo26_interspeech
 category: enhancement-separation
 labels: [self-supervised, generative-model, robustness-noise]
+institutions: ["ETH Zurich"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

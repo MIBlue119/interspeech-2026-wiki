@@ -2,6 +2,7 @@
 id: lee26k_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, generative-model]
+institutions: ["Meta", "Korea Advanced Institute of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

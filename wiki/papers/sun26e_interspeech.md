@@ -1,6 +1,7 @@
 ---
 id: sun26e_interspeech
 category: health-clinical
+institutions: ["Nanjing University of Posts and Telecommunications", "Wuxi University", "Graz University of Technology", "University of Bremen", "Technische Universitat Munchen", "Imperial College London"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

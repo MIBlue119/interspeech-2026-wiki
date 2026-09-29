@@ -2,6 +2,7 @@
 id: leal26b_interspeech
 category: health-clinical
 labels: [self-supervised]
+institutions: ["University of Milan", "Scientific Institute IRCCS E. Medea", "University of Verona", "Azienda Ospedaliera Universitaria Integrata"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

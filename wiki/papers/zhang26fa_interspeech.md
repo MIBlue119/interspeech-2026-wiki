@@ -2,6 +2,7 @@
 id: zhang26fa_interspeech
 category: asr
 labels: [efficient-on-device, self-supervised, streaming-real-time]
+institutions: ["Harbin Institute of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

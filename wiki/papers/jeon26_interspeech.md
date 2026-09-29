@@ -1,6 +1,7 @@
 ---
 id: jeon26_interspeech
 category: health-clinical
+institutions: ["Sogang University", "Hallym University", "Sungshin Women's University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

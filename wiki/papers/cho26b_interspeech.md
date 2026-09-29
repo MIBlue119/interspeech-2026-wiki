@@ -2,6 +2,7 @@
 id: cho26b_interspeech
 category: translation
 labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
+institutions: ["National Yang Ming Chiao Tung University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

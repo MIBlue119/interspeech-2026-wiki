@@ -2,6 +2,7 @@
 id: chou26_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
+institutions: ["National Tsing Hua University", "Google"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: jiang26d_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Tsinghua University", "Alibaba Group", "Monash University", "Renmin University of China", "Fudan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

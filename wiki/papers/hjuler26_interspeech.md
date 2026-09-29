@@ -1,6 +1,7 @@
 ---
 id: hjuler26_interspeech
 category: tts
+institutions: ["Queensland University of Technology", "University Grenoble Alpes", "CNRS", "Grenoble INP"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

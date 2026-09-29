@@ -1,6 +1,7 @@
 ---
 id: orepic26_interspeech
 category: tts
+institutions: ["University of Zurich", "University of Neuchâtel"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: gonzalez26d_interspeech
 category: phonetics-linguistics
+institutions: ["Defence Science and Technology Group"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

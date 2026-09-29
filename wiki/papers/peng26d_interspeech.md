@@ -2,6 +2,7 @@
 id: peng26d_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
+institutions: ["Shanghai Jiao Tong University", "Central South University", "AISpeech Co., Ltd", "Shanghai Innovation Institute", "Harbin Institute of Technology", "Shanghai Aviation Electric Co., Ltd", "National University of Defense Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

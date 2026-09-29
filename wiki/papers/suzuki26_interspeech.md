@@ -2,6 +2,7 @@
 id: suzuki26_interspeech
 category: resources-evaluation
 labels: [self-supervised]
+institutions: ["Keio University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

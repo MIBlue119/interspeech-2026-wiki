@@ -1,6 +1,7 @@
 ---
 id: benway26_interspeech
 category: applications-other
+institutions: ["University of Maryland, College Park", "University of Wisconsin - Madison", "Arizona State University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

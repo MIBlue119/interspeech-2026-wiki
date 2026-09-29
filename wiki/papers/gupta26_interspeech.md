@@ -2,6 +2,7 @@
 id: gupta26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
+institutions: ["Mila – Québec AI Institute", "ServiceNow", "McGill University", "Université Laval"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

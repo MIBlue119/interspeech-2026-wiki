@@ -2,6 +2,7 @@
 id: wagner26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["nyra health"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

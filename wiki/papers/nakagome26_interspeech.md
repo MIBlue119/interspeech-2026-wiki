@@ -2,6 +2,7 @@
 id: nakagome26_interspeech
 category: audio-understanding
 labels: [self-supervised]
+institutions: ["LINE WORKS Corporation", "NAVER Cloud Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: adebara26_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
+institutions: ["University of Alberta", "Data Science Nigeria", "EqualyzAI", "Alberta Machine Intelligence Institute", "CIFAR"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

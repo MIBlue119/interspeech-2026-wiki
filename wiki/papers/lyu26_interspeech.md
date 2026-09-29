@@ -2,6 +2,7 @@
 id: lyu26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
+institutions: ["South China University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

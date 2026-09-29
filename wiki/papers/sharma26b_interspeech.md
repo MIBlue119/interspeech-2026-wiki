@@ -2,6 +2,7 @@
 id: sharma26b_interspeech
 category: deepfake-security
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["University of South Florida"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

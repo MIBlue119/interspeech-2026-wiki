@@ -1,6 +1,7 @@
 ---
 id: banerjee26_interspeech
 category: asr
+institutions: ["Indian Institute of Technology Kanpur", "KU Leuven"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

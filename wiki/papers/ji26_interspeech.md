@@ -2,6 +2,7 @@
 id: ji26_interspeech
 category: enhancement-separation
 labels: [dataset-or-benchmark-release]
+institutions: ["Xiaomi", "Central Conservatory of Music"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

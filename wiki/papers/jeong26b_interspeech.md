@@ -2,6 +2,7 @@
 id: jeong26b_interspeech
 category: health-clinical
 labels: [low-resource, multilingual]
+institutions: ["Sogang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

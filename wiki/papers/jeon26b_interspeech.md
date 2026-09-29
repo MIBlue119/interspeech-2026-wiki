@@ -2,6 +2,7 @@
 id: jeon26b_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
+institutions: ["Sungkyunkwan University", "University of Illinois Urbana-Champaign"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

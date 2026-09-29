@@ -2,6 +2,7 @@
 id: mandel26_interspeech
 category: tts
 labels: [self-supervised, generative-model]
+institutions: ["OriginAI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

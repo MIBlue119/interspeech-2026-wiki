@@ -2,6 +2,7 @@
 id: liu26o_interspeech
 category: tts
 labels: [self-supervised, generative-model]
+institutions: ["Wuhan University", "Chinese University of Hong Kong, Shenzhen", "OPPO"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

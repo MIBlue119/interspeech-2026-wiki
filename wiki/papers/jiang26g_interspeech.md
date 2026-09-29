@@ -2,6 +2,7 @@
 id: jiang26g_interspeech
 category: speech-llm-dialogue
 labels: [streaming-real-time, generative-model]
+institutions: ["Nagoya University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: dhar26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Sony"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

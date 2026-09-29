@@ -2,6 +2,7 @@
 id: yin26_interspeech
 category: deepfake-security
 labels: [low-resource, self-supervised, dataset-or-benchmark-release, robustness-noise]
+institutions: ["KAIST", "University of Melbourne", "Fortemedia Singapore", "Xi'an University of Posts & Telecommunications", "Xi'an Lianfeng Acoustic Technologies Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

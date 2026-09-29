@@ -2,6 +2,7 @@
 id: pahwa26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
+institutions: ["Rivian and Volkswagen Group Technologies"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

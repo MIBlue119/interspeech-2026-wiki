@@ -1,6 +1,7 @@
 ---
 id: heo26_interspeech
 category: speaker
+institutions: ["NAVER Cloud Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

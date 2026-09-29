@@ -1,6 +1,7 @@
 ---
 id: kothare26_interspeech
 category: health-clinical
+institutions: ["Modality.AI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: kashiwagi26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Sony", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

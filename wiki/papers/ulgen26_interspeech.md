@@ -2,6 +2,7 @@
 id: ulgen26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Johns Hopkins University", "University of Texas at Dallas", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

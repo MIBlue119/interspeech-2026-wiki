@@ -2,6 +2,7 @@
 id: tipaksorn26_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["NECTEC", "Thammasat University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

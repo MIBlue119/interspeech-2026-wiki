@@ -1,6 +1,7 @@
 ---
 id: azzouz26_interspeech
 category: phonetics-linguistics
+institutions: ["Universite de Lorraine", "CNRS", "Inria"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

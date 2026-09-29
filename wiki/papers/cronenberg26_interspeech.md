@@ -2,6 +2,7 @@
 id: cronenberg26_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
+institutions: ["Universite Paris Cite", "CNRS", "Universite Paris-Saclay", "Institut Universitaire de France"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

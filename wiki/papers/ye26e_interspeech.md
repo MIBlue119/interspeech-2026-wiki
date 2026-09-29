@@ -1,6 +1,7 @@
 ---
 id: ye26e_interspeech
 category: deepfake-security
+institutions: ["Sun Yat-sen University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: zuazo26_interspeech
 category: asr
 labels: [low-resource]
+institutions: ["University of the Basque Country", "Basque Center on Cognition, Brain and Language", "Ikerbasque", "Universite libre de Bruxelles", "WEL Research Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

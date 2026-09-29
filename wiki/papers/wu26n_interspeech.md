@@ -2,6 +2,7 @@
 id: wu26n_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["Agency for Science, Technology and Research", "University of New South Wales"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: gan26_interspeech
 category: phonetics-linguistics
+institutions: ["University of Zurich"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

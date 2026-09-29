@@ -1,6 +1,7 @@
 ---
 id: stanek26b_interspeech
 category: resources-evaluation
+institutions: ["Brno University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

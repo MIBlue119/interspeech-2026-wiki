@@ -2,6 +2,7 @@
 id: zhong26d_interspeech
 category: asr
 labels: [low-resource]
+institutions: ["Chinese University of Hong Kong", "National Research Council Canada"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

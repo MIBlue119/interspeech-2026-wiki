@@ -2,6 +2,7 @@
 id: gorman26_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
+institutions: ["Nurobodi"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

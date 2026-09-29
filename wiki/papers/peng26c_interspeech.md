@@ -2,6 +2,7 @@
 id: peng26c_interspeech
 category: phonetics-linguistics
 labels: [multilingual, self-supervised]
+institutions: ["University of Science and Technology of China"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

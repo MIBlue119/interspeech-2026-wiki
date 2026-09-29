@@ -2,6 +2,7 @@
 id: ye26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
+institutions: ["Hong Kong University of Science and Technology", "Tencent", "University of Surrey", "Chinese University of Hong Kong", "Hong Kong Baptist University", "Hong Kong Polytechnic University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

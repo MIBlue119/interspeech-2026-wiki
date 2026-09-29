@@ -2,6 +2,7 @@
 id: he26f_interspeech
 category: deepfake-security
 labels: [efficient-on-device, self-supervised]
+institutions: ["Zhejiang University", "Hangzhou High-Tech Zone (Binjiang) Institute of Blockchain and Data Security", "Shanghai Institute for Advanced Study", "China University of Petroleum (East China)"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

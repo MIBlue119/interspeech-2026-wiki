@@ -2,6 +2,7 @@
 id: barreiros26_interspeech
 category: asr
 labels: [efficient-on-device, self-supervised, streaming-real-time]
+institutions: ["Priberam Labs", "Instituto Superior Tecnico", "Instituto de Telecomunicacoes"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

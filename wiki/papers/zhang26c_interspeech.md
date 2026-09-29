@@ -2,6 +2,7 @@
 id: zhang26c_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
+institutions: ["University of Tokyo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

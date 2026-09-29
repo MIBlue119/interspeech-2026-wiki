@@ -1,6 +1,7 @@
 ---
 id: kim26q_interspeech
 category: speech-llm-dialogue
+institutions: ["Korea Institute of Energy Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

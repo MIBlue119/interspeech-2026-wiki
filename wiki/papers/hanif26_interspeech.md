@@ -2,6 +2,7 @@
 id: hanif26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
+institutions: ["Mohamed bin Zayed University of Artificial Intelligence"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

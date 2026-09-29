@@ -2,6 +2,7 @@
 id: weller26_interspeech
 category: resources-evaluation
 labels: [self-supervised, dataset-or-benchmark-release]
+institutions: ["University of St. Gallen"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

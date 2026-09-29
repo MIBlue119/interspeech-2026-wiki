@@ -2,6 +2,7 @@
 id: pang26b_interspeech
 category: paralinguistics-emotion
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["Kyoto University", "Agency for Science, Technology, and Research"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: hansen26_interspeech
 category: resources-evaluation
+institutions: ["University of Texas at Dallas"]
 updated: 2026-09-28
 confidence: abstract-only
 source: https://www.isca-archive.org/interspeech_2026/hansen26_interspeech.html

@@ -2,6 +2,7 @@
 id: syed26_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual]
+institutions: ["Florida Institute of Technology", "Daffodil International University", "Deakin University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

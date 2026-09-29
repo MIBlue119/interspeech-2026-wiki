@@ -2,6 +2,7 @@
 id: ghosh26e_interspeech
 category: applications-other
 labels: [low-resource, efficient-on-device]
+institutions: ["Samsung"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

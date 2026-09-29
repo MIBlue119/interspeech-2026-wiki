@@ -2,6 +2,7 @@
 id: thavarasa26_interspeech
 category: paralinguistics-emotion
 labels: [multilingual, self-supervised]
+institutions: ["University of Moratuwa"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

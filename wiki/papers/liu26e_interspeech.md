@@ -2,6 +2,7 @@
 id: liu26e_interspeech
 category: tts
 labels: [streaming-real-time, generative-model]
+institutions: ["Xinjiang University", "Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

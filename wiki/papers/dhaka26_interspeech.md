@@ -2,6 +2,7 @@
 id: dhaka26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Michigan State University", "Western Michigan University", "Friends: The National Association of Young People Who Stutter"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

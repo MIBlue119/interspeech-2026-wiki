@@ -1,6 +1,7 @@
 ---
 id: kim26d_interspeech
 category: deepfake-security
+institutions: ["Chosun University", "National Forensic Service", "Glosori Inc"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

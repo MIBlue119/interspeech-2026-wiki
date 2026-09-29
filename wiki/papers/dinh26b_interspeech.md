@@ -2,6 +2,7 @@
 id: dinh26b_interspeech
 category: speech-coding
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Torilab AI", "Viettel Group", "Hanoi University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

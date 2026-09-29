@@ -1,6 +1,7 @@
 ---
 id: nanni26_interspeech
 category: deepfake-security
+institutions: ["University of Inland Norway"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

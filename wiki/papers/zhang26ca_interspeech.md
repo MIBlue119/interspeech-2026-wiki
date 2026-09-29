@@ -2,6 +2,7 @@
 id: zhang26ca_interspeech
 category: paralinguistics-emotion
 labels: [dataset-or-benchmark-release]
+institutions: ["Beijing University of Posts and Telecommunications"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: yang26q_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
+institutions: ["Seoul National University", "National Chengchi University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

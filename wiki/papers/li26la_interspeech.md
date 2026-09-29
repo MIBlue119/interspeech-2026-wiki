@@ -1,6 +1,7 @@
 ---
 id: li26la_interspeech
 category: speaker
+institutions: ["Wuhan University", "Chinese University of Hong Kong, Shenzhen"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

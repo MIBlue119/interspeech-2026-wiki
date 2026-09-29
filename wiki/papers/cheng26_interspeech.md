@@ -2,6 +2,7 @@
 id: cheng26_interspeech
 category: deepfake-security
 labels: [generative-model, robustness-noise]
+institutions: ["Southern University of Science and Technology", "Tencent Youtu Lab"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: lu26c_interspeech
 category: paralinguistics-emotion
+institutions: ["Beijing University of Posts and Telecommunications", "Hello Group Inc"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

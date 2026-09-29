@@ -1,6 +1,7 @@
 ---
 id: huang26b_interspeech
 category: applications-other
+institutions: ["Chongqing University of Posts and Telecommunications", "Brunel University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

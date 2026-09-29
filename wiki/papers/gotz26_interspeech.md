@@ -2,6 +2,7 @@
 id: gotz26_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
+institutions: ["Treble Technologies"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: ishihara26_interspeech
 category: speaker
+institutions: ["Australian National University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

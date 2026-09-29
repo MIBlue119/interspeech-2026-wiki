@@ -1,6 +1,7 @@
 ---
 id: wei26d_interspeech
 category: audio-understanding
+institutions: ["Northwestern University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

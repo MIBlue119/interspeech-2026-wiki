@@ -2,6 +2,7 @@
 id: khanagha26_interspeech
 category: enhancement-separation
 labels: [self-supervised]
+institutions: ["University of Hamburg"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

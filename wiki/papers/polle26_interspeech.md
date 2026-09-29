@@ -2,6 +2,7 @@
 id: polle26_interspeech
 category: paralinguistics-emotion
 labels: [low-resource, multilingual, generative-model]
+institutions: ["thymia", "University of Edinburgh", "University of Southampton"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

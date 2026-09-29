@@ -2,6 +2,7 @@
 id: polak26_interspeech
 category: translation
 labels: [multilingual, streaming-real-time]
+institutions: ["Charles University", "Fondazione Bruno Kessler", "AppTek"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

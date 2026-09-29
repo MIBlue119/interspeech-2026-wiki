@@ -2,6 +2,7 @@
 id: lu26d_interspeech
 category: audio-understanding
 labels: [self-supervised]
+institutions: ["Tianjin University", "PipeChina Institute of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

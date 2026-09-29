@@ -2,6 +2,7 @@
 id: xue26d_interspeech
 category: audio-understanding
 labels: [efficient-on-device]
+institutions: ["Tsinghua University", "Hong Kong University of Science and Technology", "Chinese University of Hong Kong"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

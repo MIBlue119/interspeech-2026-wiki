@@ -2,6 +2,7 @@
 id: ding26d_interspeech
 category: applications-other
 labels: [streaming-real-time]
+institutions: ["Southern University of Science and Technology", "Capital Medical University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

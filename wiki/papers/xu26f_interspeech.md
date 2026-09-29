@@ -2,6 +2,7 @@
 id: xu26f_interspeech
 category: speaker
 labels: [multilingual]
+institutions: ["University of Zurich", "Shanghai International Studies University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

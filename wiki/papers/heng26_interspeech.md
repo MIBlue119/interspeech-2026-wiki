@@ -2,6 +2,7 @@
 id: heng26_interspeech
 category: asr
 labels: [low-resource, multilingual, generative-model]
+institutions: ["Nanyang Technological University", "Agency for Science, Technology and Research", "Johns Hopkins University", "Google"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: nguyen26_interspeech
 category: asr
 labels: [multilingual]
+institutions: ["Agency for Science, Technology and Research", "Nanyang Technological University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

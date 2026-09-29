@@ -2,6 +2,7 @@
 id: zhao26h_interspeech
 category: speech-llm-dialogue
 labels: [dataset-or-benchmark-release]
+institutions: ["Northwestern Polytechnical University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

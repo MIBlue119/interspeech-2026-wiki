@@ -1,6 +1,7 @@
 ---
 id: wang26ba_interspeech
 category: enhancement-separation
+institutions: ["Inner Mongolia University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

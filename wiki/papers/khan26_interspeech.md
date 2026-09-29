@@ -2,6 +2,7 @@
 id: khan26_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["University of Michigan", "ProbeTruth Inc"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

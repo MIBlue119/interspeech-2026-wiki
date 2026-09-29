@@ -1,6 +1,7 @@
 ---
 id: ding26b_interspeech
 category: deepfake-security
+institutions: ["University of Missouri-Kansas City", "University of Hawaii at Manoa", "University of South Florida", "Michigan State University", "University of Miami"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

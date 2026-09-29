@@ -2,6 +2,7 @@
 id: lameris26_interspeech
 category: resources-evaluation
 labels: [self-supervised, dataset-or-benchmark-release]
+institutions: ["KTH Royal Institute of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

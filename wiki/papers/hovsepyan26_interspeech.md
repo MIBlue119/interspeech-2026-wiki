@@ -1,6 +1,7 @@
 ---
 id: hovsepyan26_interspeech
 category: audio-understanding
+institutions: ["Idiap Research Institute", "University of Zurich"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

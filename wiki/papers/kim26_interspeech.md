@@ -2,6 +2,7 @@
 id: kim26_interspeech
 category: tts
 labels: [efficient-on-device, generative-model]
+institutions: ["Seoul National University", "KT Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: zhao26b_interspeech
 category: phonetics-linguistics
+institutions: ["Shanghai Jiao Tong University", "National Research Center for Language and Well-being", "Tongji University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

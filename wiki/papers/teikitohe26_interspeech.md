@@ -2,6 +2,7 @@
 id: teikitohe26_interspeech
 category: asr
 labels: [low-resource, multilingual, self-supervised]
+institutions: ["University of French Polynesia", "Dartmouth College", "University of Auckland"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

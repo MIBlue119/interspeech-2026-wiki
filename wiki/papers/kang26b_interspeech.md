@@ -2,6 +2,7 @@
 id: kang26b_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
+institutions: ["Institute of Science Tokyo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

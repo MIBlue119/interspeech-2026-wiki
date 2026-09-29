@@ -2,6 +2,7 @@
 id: huang26g_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Tianjin University", "Huiyan Technology Company", "Shenzhen Institute of Advanced Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

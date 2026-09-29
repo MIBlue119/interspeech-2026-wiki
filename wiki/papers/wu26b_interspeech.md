@@ -1,6 +1,7 @@
 ---
 id: wu26b_interspeech
 category: health-clinical
+institutions: ["University of Southampton", "Imperial College London", "University of Edinburgh", "King's College London"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

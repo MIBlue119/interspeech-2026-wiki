@@ -2,6 +2,7 @@
 id: chen26o_interspeech
 category: speech-llm-dialogue
 labels: [generative-model]
+institutions: ["National Tsing Hua University", "Google DeepMind"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

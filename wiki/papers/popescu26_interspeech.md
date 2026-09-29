@@ -2,6 +2,7 @@
 id: popescu26_interspeech
 category: applications-other
 labels: [low-resource]
+institutions: ["Université Paris 8", "Solid Technologies", "Babeș-Bolyai University", "CODA - Farmecul Tăcerii Foundation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

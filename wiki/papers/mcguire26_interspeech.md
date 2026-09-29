@@ -2,6 +2,7 @@
 id: mcguire26_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
+institutions: ["Macquarie University", "National Tsing Hua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

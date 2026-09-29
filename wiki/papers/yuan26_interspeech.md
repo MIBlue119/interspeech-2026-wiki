@@ -2,6 +2,7 @@
 id: yuan26_interspeech
 category: speech-coding
 labels: [generative-model]
+institutions: ["Wuhan University", "Jianghan University", "Xiaomi Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

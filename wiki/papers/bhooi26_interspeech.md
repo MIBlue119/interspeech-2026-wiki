@@ -2,6 +2,7 @@
 id: bhooi26_interspeech
 category: asr
 labels: [self-supervised, generative-model]
+institutions: ["Indraprastha Institute of Information Technology Delhi"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: yang26_interspeech
 category: asr
 labels: [robustness-noise]
+institutions: ["Ohio State University", "Meta"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

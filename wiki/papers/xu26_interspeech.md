@@ -2,6 +2,7 @@
 id: xu26_interspeech
 category: enhancement-separation
 labels: [streaming-real-time, robustness-noise]
+institutions: ["Chongqing University of Posts and Telecommunications", "Brunel University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

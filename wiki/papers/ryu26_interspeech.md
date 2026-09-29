@@ -1,6 +1,7 @@
 ---
 id: ryu26_interspeech
 category: paralinguistics-emotion
+institutions: ["Gwangju Institute of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

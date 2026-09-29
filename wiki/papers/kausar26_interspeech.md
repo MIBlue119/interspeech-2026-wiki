@@ -1,6 +1,7 @@
 ---
 id: kausar26_interspeech
 category: asr
+institutions: ["Chinese University of Hong Kong, Shenzhen", "Harbin Institute of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

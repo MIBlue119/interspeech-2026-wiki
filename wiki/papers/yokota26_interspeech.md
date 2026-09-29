@@ -1,6 +1,7 @@
 ---
 id: yokota26_interspeech
 category: phonetics-linguistics
+institutions: ["Nagaoka University of Technology", "McGill University", "University of British Columbia"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

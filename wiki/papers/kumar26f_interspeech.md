@@ -2,6 +2,7 @@
 id: kumar26f_interspeech
 category: deepfake-security
 labels: [low-resource, self-supervised]
+institutions: ["IIIT-Delhi", "IDIAP"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

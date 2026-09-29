@@ -2,6 +2,7 @@
 id: arora26b_interspeech
 category: asr
 labels: [robustness-noise]
+institutions: ["Imperial College London", "NatWest AI Research"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: akti26_interspeech
 category: tts
 labels: [generative-model, robustness-noise]
+institutions: ["Karlsruhe Institute of Technology", "Carnegie Mellon University", "KIT Campus Transfer"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

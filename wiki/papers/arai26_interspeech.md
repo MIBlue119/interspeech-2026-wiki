@@ -1,6 +1,7 @@
 ---
 id: arai26_interspeech
 category: phonetics-linguistics
+institutions: ["Sophia University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

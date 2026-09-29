@@ -1,6 +1,7 @@
 ---
 id: patman26_interspeech
 category: speaker
+institutions: ["University of Cambridge", "Oxford Wave Research"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

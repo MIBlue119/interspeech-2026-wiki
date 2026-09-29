@@ -2,6 +2,7 @@
 id: lin26n_interspeech
 category: speech-llm-dialogue
 labels: [multilingual, self-supervised]
+institutions: ["Wuhan University", "Tencent", "Northwestern Polytechnical University", "Université du Québec"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: tanner26_interspeech
 category: phonetics-linguistics
 labels: [self-supervised]
+institutions: ["University of Glasgow", "McGill University", "University of Oregon", "North Carolina State University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

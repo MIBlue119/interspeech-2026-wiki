@@ -2,6 +2,7 @@
 id: okocha26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
+institutions: ["University of Florida"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

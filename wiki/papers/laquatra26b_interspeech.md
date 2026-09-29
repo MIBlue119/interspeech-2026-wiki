@@ -2,6 +2,7 @@
 id: laquatra26b_interspeech
 category: audio-understanding
 labels: [self-supervised]
+institutions: ["Kore University of Enna", "Politecnico di Torino", "Università degli Studi di Palermo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

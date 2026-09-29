@@ -2,6 +2,7 @@
 id: wang26w_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, streaming-real-time, generative-model]
+institutions: ["Carnegie Mellon University", "Shanghai Jiao Tong University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

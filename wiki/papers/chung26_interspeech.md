@@ -2,6 +2,7 @@
 id: chung26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised, dataset-or-benchmark-release]
+institutions: ["University of Melbourne", "University of Auckland", "Wuhan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

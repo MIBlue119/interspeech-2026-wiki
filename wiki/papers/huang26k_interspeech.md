@@ -2,6 +2,7 @@
 id: huang26k_interspeech
 category: speech-llm-dialogue
 labels: [dataset-or-benchmark-release]
+institutions: ["Japan Advanced Institute of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

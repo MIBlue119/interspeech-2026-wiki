@@ -1,6 +1,7 @@
 ---
 id: silva26_interspeech
 category: enhancement-separation
+institutions: ["University of Bremen", "Chinese University of Hong Kong, Shenzhen", "Harbin Institute of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

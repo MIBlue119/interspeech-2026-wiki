@@ -1,6 +1,7 @@
 ---
 id: sohn26_interspeech
 category: speech-coding
+institutions: ["KAIST"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

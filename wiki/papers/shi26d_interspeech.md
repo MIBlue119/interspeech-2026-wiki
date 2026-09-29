@@ -2,6 +2,7 @@
 id: shi26d_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["College of William & Mary", "Emory University", "George Mason University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

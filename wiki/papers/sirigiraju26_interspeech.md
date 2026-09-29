@@ -2,6 +2,7 @@
 id: sirigiraju26_interspeech
 category: applications-other
 labels: [low-resource, self-supervised]
+institutions: ["International Institute of Information Technology Hyderabad", "Saintgits College of Engineering"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

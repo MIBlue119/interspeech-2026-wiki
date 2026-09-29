@@ -2,6 +2,7 @@
 id: li26l_interspeech
 category: enhancement-separation
 labels: [generative-model, robustness-noise]
+institutions: ["Wuhan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

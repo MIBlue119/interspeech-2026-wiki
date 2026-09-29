@@ -2,6 +2,7 @@
 id: fiedler26_interspeech
 category: health-clinical
 labels: [multilingual, self-supervised, robustness-noise]
+institutions: ["Noah Labs", "University of Potsdam", "German Heart Center of the Charite", "Mayo Clinic", "King's College London"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

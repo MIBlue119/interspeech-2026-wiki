@@ -2,6 +2,7 @@
 id: manabe26_interspeech
 category: audio-understanding
 labels: [multilingual, self-supervised, dataset-or-benchmark-release]
+institutions: ["Keio University", "LY Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

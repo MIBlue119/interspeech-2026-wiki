@@ -2,6 +2,7 @@
 id: fang26b_interspeech
 category: tts
 labels: [self-supervised, generative-model]
+institutions: ["Chinese University of Hong Kong, Shenzhen", "Honor Device Co., Ltd", "Shenzhen Research Institute of Big Data", "Shenzhen Loop Area Institute", "Amphion Technology Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

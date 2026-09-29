@@ -2,6 +2,7 @@
 id: agrawal26_interspeech
 category: applications-other
 labels: [streaming-real-time]
+institutions: ["Amadea", "University of Queensland", "University of Edinburgh"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

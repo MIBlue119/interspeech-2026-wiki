@@ -2,6 +2,7 @@
 id: sulun26_interspeech
 category: paralinguistics-emotion
 labels: [efficient-on-device]
+institutions: ["INESC TEC", "University of Porto"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: shim26_interspeech
 category: tts
+institutions: ["Simon Fraser University", "University of Massachusetts Amherst", "Enchanted Tools", "CNRS", "Universite Paris Cite"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: miniconi26_interspeech
 category: resources-evaluation
+institutions: ["Le Mans Universite"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: oliveira26c_interspeech
 category: resources-evaluation
+institutions: ["Cardiff University", "University of Surrey"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: rackauckas26_interspeech
 category: speech-llm-dialogue
+institutions: ["RoleGaku", "Columbia University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

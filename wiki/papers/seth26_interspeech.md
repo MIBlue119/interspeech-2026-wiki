@@ -2,6 +2,7 @@
 id: seth26_interspeech
 category: speech-llm-dialogue
 labels: [dataset-or-benchmark-release]
+institutions: ["University of Maryland, College Park", "Adobe Research"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

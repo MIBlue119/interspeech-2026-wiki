@@ -2,6 +2,7 @@
 id: shang26_interspeech
 category: enhancement-separation
 labels: [self-supervised, generative-model, robustness-noise]
+institutions: ["Institute of Acoustics", "University of Chinese Academy of Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

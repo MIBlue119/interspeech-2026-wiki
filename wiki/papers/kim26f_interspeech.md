@@ -2,6 +2,7 @@
 id: kim26f_interspeech
 category: phonetics-linguistics
 labels: [low-resource]
+institutions: ["Chung-Ang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

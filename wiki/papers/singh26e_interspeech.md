@@ -1,6 +1,7 @@
 ---
 id: singh26e_interspeech
 category: paralinguistics-emotion
+institutions: ["Thapar Institute of Engineering and Technology", "Ulster University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

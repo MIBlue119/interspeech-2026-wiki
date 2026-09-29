@@ -1,6 +1,7 @@
 ---
 id: huang26_interspeech
 category: speech-llm-dialogue
+institutions: ["University of Shanghai for Science and Technology", "Chinese Academy of Sciences", "University of Minnesota", "University of Leeds"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

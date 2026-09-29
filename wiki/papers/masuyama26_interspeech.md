@@ -1,6 +1,7 @@
 ---
 id: masuyama26_interspeech
 category: applications-other
+institutions: ["Mitsubishi Electric Research Laboratories", "University of Surrey"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

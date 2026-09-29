@@ -1,6 +1,7 @@
 ---
 id: marew26_interspeech
 category: asr
+institutions: ["Mohamed bin Zayed University of Artificial Intelligence"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

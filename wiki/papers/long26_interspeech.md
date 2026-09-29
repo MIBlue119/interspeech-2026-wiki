@@ -2,6 +2,7 @@
 id: long26_interspeech
 category: speech-coding
 labels: [efficient-on-device, generative-model]
+institutions: ["University of California, San Diego", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: chen26b_interspeech
 category: tts
+institutions: ["National Taiwan University", "Inventec Corporation", "University of Southern California"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

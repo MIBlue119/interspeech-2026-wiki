@@ -2,6 +2,7 @@
 id: louro26_interspeech
 category: asr
 labels: [low-resource]
+institutions: ["University of Western Australia", "Google"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

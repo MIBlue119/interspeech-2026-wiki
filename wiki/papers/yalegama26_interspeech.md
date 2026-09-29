@@ -1,6 +1,7 @@
 ---
 id: yalegama26_interspeech
 category: enhancement-separation
+institutions: ["University of Moratuwa", "Australian National University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

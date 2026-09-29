@@ -1,6 +1,7 @@
 ---
 id: ghosh26d_interspeech
 category: speaker
+institutions: ["Solventum Health Information Systems"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

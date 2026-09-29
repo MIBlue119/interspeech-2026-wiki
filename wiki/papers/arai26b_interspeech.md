@@ -1,6 +1,7 @@
 ---
 id: arai26b_interspeech
 category: tts
+institutions: ["Sophia University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

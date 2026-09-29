@@ -2,6 +2,7 @@
 id: wei26e_interspeech
 category: phonetics-linguistics
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["Adobe Research", "Brown University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

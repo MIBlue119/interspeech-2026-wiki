@@ -2,6 +2,7 @@
 id: zhu26c_interspeech
 category: asr
 labels: [multilingual, efficient-on-device, self-supervised, streaming-real-time]
+institutions: ["Fano"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

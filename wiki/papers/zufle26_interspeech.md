@@ -2,6 +2,7 @@
 id: zufle26_interspeech
 category: resources-evaluation
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["Karlsruhe Institute of Technology", "Fondazione Bruno Kessler", "ACC Cyfronet AGH", "AGH University of Krakow", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

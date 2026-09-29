@@ -2,6 +2,7 @@
 id: xiang26_interspeech
 category: enhancement-separation
 labels: [self-supervised, robustness-noise]
+institutions: ["University of Surrey", "International Audio Laboratories Erlangen", "Fraunhofer Institute for Integrated Circuits IIS"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

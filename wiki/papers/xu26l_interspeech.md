@@ -2,6 +2,7 @@
 id: xu26l_interspeech
 category: audio-understanding
 labels: [low-resource, self-supervised]
+institutions: ["National University of Defense Technology", "Hunan Normal University", "Hunan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

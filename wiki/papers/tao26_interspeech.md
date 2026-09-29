@@ -2,6 +2,7 @@
 id: tao26_interspeech
 category: resources-evaluation
 labels: [streaming-real-time]
+institutions: ["University of Southern California", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: kwon26_interspeech
 category: speaker
 labels: [streaming-real-time]
+institutions: ["NAVER Cloud Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

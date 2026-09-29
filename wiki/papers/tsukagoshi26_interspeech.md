@@ -1,6 +1,7 @@
 ---
 id: tsukagoshi26_interspeech
 category: speech-llm-dialogue
+institutions: ["Shizuoka University", "Hitachi"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

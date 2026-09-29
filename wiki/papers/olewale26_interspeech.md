@@ -2,6 +2,7 @@
 id: olewale26_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual, dataset-or-benchmark-release]
+institutions: ["Vula’a Kunenai Community", "University of Melbourne"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

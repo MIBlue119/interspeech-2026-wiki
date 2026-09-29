@@ -2,6 +2,7 @@
 id: chen26g_interspeech
 category: applications-other
 labels: [self-supervised]
+institutions: ["UNSW"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

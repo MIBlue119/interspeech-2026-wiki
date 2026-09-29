@@ -2,6 +2,7 @@
 id: cox26_interspeech
 category: speaker
 labels: [self-supervised]
+institutions: ["University of Sheffield"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

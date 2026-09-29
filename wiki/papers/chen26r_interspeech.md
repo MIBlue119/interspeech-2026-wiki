@@ -1,6 +1,7 @@
 ---
 id: chen26r_interspeech
 category: paralinguistics-emotion
+institutions: ["Chinese University of Hong Kong", "Institute of Software, Chinese Academy of Sciences", "National Research Council Canada", "Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

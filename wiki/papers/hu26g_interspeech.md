@@ -2,6 +2,7 @@
 id: hu26g_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Xinjiang University", "Xinjiang Key Laboratory of Multi-lingual Information Technology", "Joint International Research Laboratory of Silk Road Multilingual Cognitive Computing"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

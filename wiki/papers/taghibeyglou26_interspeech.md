@@ -2,6 +2,7 @@
 id: taghibeyglou26_interspeech
 category: health-clinical
 labels: [self-supervised]
+institutions: ["University of Toronto", "North York General Hospital"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

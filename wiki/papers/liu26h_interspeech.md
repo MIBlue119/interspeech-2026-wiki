@@ -2,6 +2,7 @@
 id: liu26h_interspeech
 category: asr
 labels: [low-resource, multilingual, self-supervised]
+institutions: ["Xinjiang University", "Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: alshubaily26_interspeech
 category: paralinguistics-emotion
 labels: [dataset-or-benchmark-release]
+institutions: ["University of Glasgow", "Imam Mohammad Ibn Saud Islamic University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

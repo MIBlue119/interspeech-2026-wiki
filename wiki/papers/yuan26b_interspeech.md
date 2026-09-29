@@ -2,6 +2,7 @@
 id: yuan26b_interspeech
 category: enhancement-separation
 labels: [self-supervised, generative-model, robustness-noise]
+institutions: ["Guangzhou Shiyuan Electronic Technology Company Limited", "Shanghai University of Finance and Economics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: fang26_interspeech
 category: speaker
 labels: [robustness-noise]
+institutions: ["Xinjiang University", "Tsinghua University", "AGIBOT"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

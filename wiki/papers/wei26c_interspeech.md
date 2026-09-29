@@ -1,6 +1,7 @@
 ---
 id: wei26c_interspeech
 category: enhancement-separation
+institutions: ["Shanghai Jiao Tong University", "Ningbo Artificial Intelligence Institute", "Institute of Advanced Intelligence and Computing"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

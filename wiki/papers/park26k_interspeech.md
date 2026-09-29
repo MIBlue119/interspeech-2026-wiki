@@ -2,6 +2,7 @@
 id: park26k_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["KAIST"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: hsu26_interspeech
 category: speech-llm-dialogue
+institutions: ["Chinese University of Hong Kong", "ByteDance", "Shenzhen Loop Area Institute", "Amphion Technology Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: mcintosh26_interspeech
 category: resources-evaluation
 labels: [self-supervised]
+institutions: ["University of Tokyo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

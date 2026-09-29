@@ -2,6 +2,7 @@
 id: cui26_interspeech
 category: speech-llm-dialogue
 labels: [streaming-real-time, generative-model]
+institutions: ["Chinese University of Hong Kong", "Huawei Technologies"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

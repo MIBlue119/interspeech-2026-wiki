@@ -1,6 +1,7 @@
 ---
 id: golmakani26_interspeech
 category: deepfake-security
+institutions: ["Nijta", "Universite de Lorraine", "CNRS", "Inria", "LORIA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

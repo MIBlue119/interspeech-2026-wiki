@@ -2,6 +2,7 @@
 id: kesiraju26_interspeech
 category: applications-other
 labels: [multilingual, self-supervised]
+institutions: ["Brno University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

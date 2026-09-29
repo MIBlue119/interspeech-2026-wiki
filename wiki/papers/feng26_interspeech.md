@@ -2,6 +2,7 @@
 id: feng26_interspeech
 category: tts
 labels: [dataset-or-benchmark-release, generative-model]
+institutions: ["Renmin University of China", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

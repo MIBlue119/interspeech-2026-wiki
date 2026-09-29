@@ -2,6 +2,7 @@
 id: lee26q_interspeech
 category: asr
 labels: [efficient-on-device]
+institutions: ["Dongguk University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

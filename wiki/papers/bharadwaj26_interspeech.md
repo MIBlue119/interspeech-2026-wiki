@@ -2,6 +2,7 @@
 id: bharadwaj26_interspeech
 category: asr
 labels: [multilingual, self-supervised]
+institutions: ["Carnegie Mellon University", "University of Texas at Austin"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

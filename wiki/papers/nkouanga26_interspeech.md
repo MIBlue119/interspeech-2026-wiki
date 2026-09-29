@@ -1,6 +1,7 @@
 ---
 id: nkouanga26_interspeech
 category: asr
+institutions: ["Portland State University", "US Army Research Laboratory"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

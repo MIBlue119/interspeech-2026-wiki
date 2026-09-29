@@ -1,6 +1,7 @@
 ---
 id: dahal26_interspeech
 category: asr
+institutions: ["Universidad Politecnica de Madrid", "National University of Singapore"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

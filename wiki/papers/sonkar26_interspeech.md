@@ -2,6 +2,7 @@
 id: sonkar26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["International Institute of Information Technology Hyderabad", "TCS Research"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

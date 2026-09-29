@@ -2,6 +2,7 @@
 id: lin26i_interspeech
 category: audio-understanding
 labels: [generative-model]
+institutions: ["Duke University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

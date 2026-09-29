@@ -1,6 +1,7 @@
 ---
 id: meng26_interspeech
 category: speaker
+institutions: ["Xinjiang University", "Xinjiang Multimodal Information Technology Engineering Research Center", "Tsinghua University", "AGIBOT"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

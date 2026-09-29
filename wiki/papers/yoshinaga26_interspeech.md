@@ -1,6 +1,7 @@
 ---
 id: yoshinaga26_interspeech
 category: phonetics-linguistics
+institutions: ["Osaka University", "Louisiana State University Health Sciences Center", "University of Arizona"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

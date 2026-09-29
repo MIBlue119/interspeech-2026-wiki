@@ -2,6 +2,7 @@
 id: chen26l_interspeech
 category: translation
 labels: [multilingual, self-supervised]
+institutions: ["Chinese University of Hong Kong, Shenzhen"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

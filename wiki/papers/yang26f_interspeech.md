@@ -1,6 +1,7 @@
 ---
 id: yang26f_interspeech
 category: audio-understanding
+institutions: ["University of Oxford"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

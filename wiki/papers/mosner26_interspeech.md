@@ -2,6 +2,7 @@
 id: mosner26_interspeech
 category: speaker
 labels: [multilingual]
+institutions: ["Brno University of Technology", "Universidad Autonoma de Madrid", "Politecnico di Torino", "Hong Kong Polytechnic University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

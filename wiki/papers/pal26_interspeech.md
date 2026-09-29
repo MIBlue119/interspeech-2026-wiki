@@ -2,6 +2,7 @@
 id: pal26_interspeech
 category: asr
 labels: [low-resource]
+institutions: ["Aalto University", "INESC-ID", "Instituto Superior Técnico", "Walton Institute", "South East Technological University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

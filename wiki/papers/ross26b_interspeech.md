@@ -1,6 +1,7 @@
 ---
 id: ross26b_interspeech
 category: tts
+institutions: ["University of Edinburgh", "KTH Royal Institute of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

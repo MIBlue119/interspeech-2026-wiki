@@ -2,6 +2,7 @@
 id: fujita26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["NTT"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: lee26n_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, streaming-real-time, robustness-noise]
+institutions: ["Sungkyunkwan University", "University of Illinois Urbana-Champaign"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

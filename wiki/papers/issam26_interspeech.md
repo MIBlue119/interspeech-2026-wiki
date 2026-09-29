@@ -2,6 +2,7 @@
 id: issam26_interspeech
 category: translation
 labels: [multilingual]
+institutions: ["Maastricht University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

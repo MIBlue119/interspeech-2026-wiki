@@ -2,6 +2,7 @@
 id: martin26_interspeech
 category: health-clinical
 labels: [efficient-on-device]
+institutions: ["Université de Lorraine", "CNRS", "Inria", "University of Mons", "Université de Bordeaux", "Bordeaux INP", "CHU Bordeaux"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

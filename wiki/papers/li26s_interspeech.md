@@ -2,6 +2,7 @@
 id: li26s_interspeech
 category: asr
 labels: [robustness-noise]
+institutions: ["Nanyang Technological University", "Nara Institute of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

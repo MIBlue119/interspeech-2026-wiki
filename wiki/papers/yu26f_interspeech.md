@@ -1,6 +1,7 @@
 ---
 id: yu26f_interspeech
 category: paralinguistics-emotion
+institutions: ["University of Auckland", "University of Melbourne", "University of Birmingham", "ARC OPTIMA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: xu26c_interspeech
 category: applications-other
+institutions: ["Australian National University", "University of Queensland"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

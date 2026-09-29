@@ -1,6 +1,7 @@
 ---
 id: liang26c_interspeech
 category: speaker
+institutions: ["Hong Kong Polytechnic University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

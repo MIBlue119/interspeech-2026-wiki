@@ -2,6 +2,7 @@
 id: he26e_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
+institutions: ["Tencent", "Hong Kong University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

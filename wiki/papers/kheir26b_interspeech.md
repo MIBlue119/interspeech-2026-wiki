@@ -2,6 +2,7 @@
 id: kheir26b_interspeech
 category: applications-other
 labels: [low-resource, self-supervised, dataset-or-benchmark-release]
+institutions: ["German Research Center for Artificial Intelligence", "Technical University of Berlin", "University of Sheffield", "University of New South Wales", "Alexandria University", "Qatar Computing Research Institute", "Taibah University", "HUMAIN"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: wan26_interspeech
 category: paralinguistics-emotion
+institutions: ["Harbin Institute of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

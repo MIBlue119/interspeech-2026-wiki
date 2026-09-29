@@ -1,6 +1,7 @@
 ---
 id: lai26_interspeech
 category: health-clinical
+institutions: ["Hebei University of Technology", "Macao Polytechnic University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

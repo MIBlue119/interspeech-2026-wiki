@@ -2,6 +2,7 @@
 id: park26j_interspeech
 category: audio-understanding
 labels: [efficient-on-device]
+institutions: ["Korea University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

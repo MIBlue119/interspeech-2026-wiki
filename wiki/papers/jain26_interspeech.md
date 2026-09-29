@@ -1,6 +1,7 @@
 ---
 id: jain26_interspeech
 category: asr
+institutions: ["Trinity College Dublin"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

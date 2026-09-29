@@ -2,6 +2,7 @@
 id: ploujnikov26_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, self-supervised, generative-model]
+institutions: ["Mila, Quebec AI Institute", "Concordia University", "Sapienza University of Rome", "Inria", "Universite Grenoble Alpes CNRS"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

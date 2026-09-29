@@ -2,6 +2,7 @@
 id: gonzalez26c_interspeech
 category: asr
 labels: [multilingual]
+institutions: ["Defence Science and Technology Group"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

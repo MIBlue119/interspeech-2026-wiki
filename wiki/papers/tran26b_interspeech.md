@@ -2,6 +2,7 @@
 id: tran26b_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
+institutions: ["Western Sydney University", "Deakin University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

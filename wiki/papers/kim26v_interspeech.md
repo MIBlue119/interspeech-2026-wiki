@@ -2,6 +2,7 @@
 id: kim26v_interspeech
 category: speech-coding
 labels: [self-supervised, generative-model]
+institutions: ["KAIST"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: evans26_interspeech
 category: phonetics-linguistics
 labels: [low-resource]
+institutions: ["University of Auckland"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

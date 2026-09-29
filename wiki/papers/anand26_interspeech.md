@@ -2,6 +2,7 @@
 id: anand26_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised, dataset-or-benchmark-release]
+institutions: ["Adobe Research", "University of Maryland, College Park", "OpenAI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

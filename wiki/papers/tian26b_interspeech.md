@@ -1,6 +1,7 @@
 ---
 id: tian26b_interspeech
 category: speech-coding
+institutions: ["Beijing University of Posts and Telecommunications", "Fanvil Link Technology Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

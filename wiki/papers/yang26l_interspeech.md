@@ -2,6 +2,7 @@
 id: yang26l_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Beijing University of Posts and Telecommunications", "Hello Group Inc"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: bhogale26_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual, dataset-or-benchmark-release]
+institutions: ["Indian Institute of Technology Madras", "Josh Talks"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

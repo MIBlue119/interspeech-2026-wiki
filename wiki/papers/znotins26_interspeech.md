@@ -2,6 +2,7 @@
 id: znotins26_interspeech
 category: asr
 labels: [low-resource, self-supervised]
+institutions: ["University of Latvia", "Assistentis", "DATI Group", "Viroling Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

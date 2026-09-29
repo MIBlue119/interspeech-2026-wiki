@@ -1,6 +1,7 @@
 ---
 id: wen26_interspeech
 category: applications-other
+institutions: ["Samsung"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

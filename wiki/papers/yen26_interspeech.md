@@ -2,6 +2,7 @@
 id: yen26_interspeech
 category: asr
 labels: [efficient-on-device, generative-model]
+institutions: ["Georgia Institute of Technology", "Universita degli Studi di Palermo", "NVIDIA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

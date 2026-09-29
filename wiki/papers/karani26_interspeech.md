@@ -2,6 +2,7 @@
 id: karani26_interspeech
 category: enhancement-separation
 labels: [generative-model, robustness-noise]
+institutions: ["Birla Institute of Technology and Science, Pilani"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

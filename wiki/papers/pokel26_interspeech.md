@@ -2,6 +2,7 @@
 id: pokel26_interspeech
 category: asr
 labels: [low-resource, multilingual, self-supervised]
+institutions: ["University of Zurich", "ETH Zurich", "Technical University of Munich"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

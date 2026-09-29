@@ -1,6 +1,7 @@
 ---
 id: koriyama26_interspeech
 category: tts
+institutions: ["CyberAgent"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

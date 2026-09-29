@@ -2,6 +2,7 @@
 id: e26_interspeech
 category: resources-evaluation
 labels: [low-resource, dataset-or-benchmark-release]
+institutions: ["Indian Institute of Science", "National Institute of Technology Karnataka", "Josh Talks", "Manipal Academy of Higher Education", "Indian Institute of Technology Bombay"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

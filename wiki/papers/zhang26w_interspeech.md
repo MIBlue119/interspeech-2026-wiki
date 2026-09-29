@@ -2,6 +2,7 @@
 id: zhang26w_interspeech
 category: speech-coding
 labels: [dataset-or-benchmark-release]
+institutions: ["Hunan University", "Xiaomi", "Yuelushan Center for Industrial Innovation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

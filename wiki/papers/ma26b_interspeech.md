@@ -1,6 +1,7 @@
 ---
 id: ma26b_interspeech
 category: health-clinical
+institutions: ["Hong Kong Polytechnic University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

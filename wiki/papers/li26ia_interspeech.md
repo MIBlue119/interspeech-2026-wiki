@@ -2,6 +2,7 @@
 id: li26ia_interspeech
 category: health-clinical
 labels: [low-resource, generative-model]
+institutions: ["UC Berkeley", "UCSF", "Zhejiang University", "Columbia University", "Basque Center on Cognition, Brain and Language"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: chen26k_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
+institutions: ["National Taiwan University", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

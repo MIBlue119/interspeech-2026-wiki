@@ -2,6 +2,7 @@
 id: li26u_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
+institutions: ["Xiangjiang Laboratory", "University of Exeter"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

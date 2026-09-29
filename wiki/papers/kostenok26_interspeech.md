@@ -1,6 +1,7 @@
 ---
 id: kostenok26_interspeech
 category: resources-evaluation
+institutions: ["EPFL", "Logitech"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

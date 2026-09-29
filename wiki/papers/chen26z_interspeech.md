@@ -2,6 +2,7 @@
 id: chen26z_interspeech
 category: tts
 labels: [low-resource, generative-model]
+institutions: ["Tsinghua University", "Giant Network"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

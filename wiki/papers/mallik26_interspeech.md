@@ -2,6 +2,7 @@
 id: mallik26_interspeech
 category: audio-understanding
 labels: [self-supervised]
+institutions: ["Sony"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: hori26_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Mitsubishi Electric Research Laboratories", "Keio University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

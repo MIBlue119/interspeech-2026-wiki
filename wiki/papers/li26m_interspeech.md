@@ -2,6 +2,7 @@
 id: li26m_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Nanyang Technological University", "Southeast University", "Schaeffler"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

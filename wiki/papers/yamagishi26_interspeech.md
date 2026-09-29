@@ -1,6 +1,7 @@
 ---
 id: yamagishi26_interspeech
 category: deepfake-security
+institutions: ["National Institute of Informatics"]
 updated: 2026-09-28
 confidence: abstract-only
 source: https://www.isca-archive.org/interspeech_2026/yamagishi26_interspeech.html

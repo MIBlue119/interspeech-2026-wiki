@@ -1,6 +1,7 @@
 ---
 id: huang26i_interspeech
 category: asr
+institutions: ["University of Iowa"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

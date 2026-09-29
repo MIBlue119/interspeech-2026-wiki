@@ -2,6 +2,7 @@
 id: fan26d_interspeech
 category: enhancement-separation
 labels: [efficient-on-device]
+institutions: ["University of Illinois Urbana-Champaign", "Meta"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

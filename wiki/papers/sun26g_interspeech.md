@@ -2,6 +2,7 @@
 id: sun26g_interspeech
 category: deepfake-security
 labels: [low-resource, self-supervised]
+institutions: ["Hefei iFly Digital Technology Co. Ltd", "University of Science and Technology of China", "Xinjiang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: jung26c_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Hanyang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

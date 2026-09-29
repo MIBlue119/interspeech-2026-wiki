@@ -2,6 +2,7 @@
 id: hacker26_interspeech
 category: speaker
 labels: [dataset-or-benchmark-release, robustness-noise]
+institutions: ["Otto von Guericke University Magdeburg", "University Hospital Magdeburg"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

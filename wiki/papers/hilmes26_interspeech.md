@@ -2,6 +2,7 @@
 id: hilmes26_interspeech
 category: asr
 labels: [efficient-on-device]
+institutions: ["RWTH Aachen University", "AppTek"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

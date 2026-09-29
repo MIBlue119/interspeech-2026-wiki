@@ -2,6 +2,7 @@
 id: kim26l_interspeech
 category: deepfake-security
 labels: [robustness-noise]
+institutions: ["Incheon National University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

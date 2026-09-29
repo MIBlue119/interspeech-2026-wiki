@@ -1,6 +1,7 @@
 ---
 id: kamel26_interspeech
 category: deepfake-security
+institutions: ["Deakin University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

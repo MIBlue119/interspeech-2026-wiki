@@ -2,6 +2,7 @@
 id: sadok26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Inria", "Universite Grenoble Alpes", "CNRS"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

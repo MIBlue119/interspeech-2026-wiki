@@ -1,6 +1,7 @@
 ---
 id: zhang26b_interspeech
 category: speech-llm-dialogue
+institutions: ["Shanghai Jiao Tong University", "University of New South Wales", "Nanyang Technological University", "StepFun"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

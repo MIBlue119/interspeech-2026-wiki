@@ -1,6 +1,7 @@
 ---
 id: wang26g_interspeech
 category: deepfake-security
+institutions: ["Tianjin University", "Tianjin Renai College", "Tianjin Electronic Information College", "Tianjin University of Technology", "Tianjin Beiyang Rongke Intelligent Technology Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

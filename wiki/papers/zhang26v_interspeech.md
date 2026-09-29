@@ -1,6 +1,7 @@
 ---
 id: zhang26v_interspeech
 category: phonetics-linguistics
+institutions: ["University of Southern California"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

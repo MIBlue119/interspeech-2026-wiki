@@ -1,6 +1,7 @@
 ---
 id: chien26_interspeech
 category: asr
+institutions: ["National Yang Ming Chiao Tung University", "Industrial Technology Research Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

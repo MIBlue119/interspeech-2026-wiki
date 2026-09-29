@@ -2,6 +2,7 @@
 id: lin26k_interspeech
 category: audio-understanding
 labels: [robustness-noise]
+institutions: ["Wuhan University", "Harbin Engineering University", "Xi'an University of Posts and Telecommunications", "University of Melbourne", "Northwestern Polytechnical University", "University of Quebec"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

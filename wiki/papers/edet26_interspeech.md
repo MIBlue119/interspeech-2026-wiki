@@ -2,6 +2,7 @@
 id: edet26_interspeech
 category: tts
 labels: [low-resource, dataset-or-benchmark-release, generative-model]
+institutions: ["University of Cross River State", "University of Calabar", "ML Collective"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

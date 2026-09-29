@@ -2,6 +2,7 @@
 id: ward26_interspeech
 category: translation
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["University of Texas at El Paso", "Ben Gurion University", "Northeastern University", "Chinese University of Hong Kong"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: hartmann26_interspeech
 category: health-clinical
 labels: [efficient-on-device, generative-model]
+institutions: ["Ruhr University Bochum", "McMaster University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

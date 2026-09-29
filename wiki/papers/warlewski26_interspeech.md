@@ -2,6 +2,7 @@
 id: warlewski26_interspeech
 category: asr
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Samsung R&D Institute Poland", "Samsung AI Center Warsaw"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

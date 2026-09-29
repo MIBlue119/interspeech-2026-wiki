@@ -2,6 +2,7 @@
 id: cao26b_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, generative-model]
+institutions: ["Tsinghua University", "Zhejiang University", "Tencent"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

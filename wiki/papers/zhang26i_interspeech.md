@@ -1,6 +1,7 @@
 ---
 id: zhang26i_interspeech
 category: phonetics-linguistics
+institutions: ["City University of Hong Kong"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

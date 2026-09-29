@@ -2,6 +2,7 @@
 id: wang26p_interspeech
 category: enhancement-separation
 labels: [streaming-real-time]
+institutions: ["Southern University of Science and Technology", "Capital Medical University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

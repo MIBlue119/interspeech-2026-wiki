@@ -2,6 +2,7 @@
 id: koshino26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Keio University", "National Institute of Advanced Industrial Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

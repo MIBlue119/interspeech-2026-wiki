@@ -2,6 +2,7 @@
 id: niu26c_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Tianjin University", "Banma Network Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

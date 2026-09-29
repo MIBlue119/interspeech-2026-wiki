@@ -2,6 +2,7 @@
 id: li26ka_interspeech
 category: asr
 labels: [generative-model]
+institutions: ["Shanghai Jiao Tong University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

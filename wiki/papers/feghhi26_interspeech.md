@@ -2,6 +2,7 @@
 id: feghhi26_interspeech
 category: asr
 labels: [efficient-on-device]
+institutions: ["University of California Los Angeles"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

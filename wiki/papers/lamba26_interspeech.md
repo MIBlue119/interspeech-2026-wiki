@@ -1,6 +1,7 @@
 ---
 id: lamba26_interspeech
 category: resources-evaluation
+institutions: ["Ohio State University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

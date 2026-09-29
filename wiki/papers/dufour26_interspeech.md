@@ -1,6 +1,7 @@
 ---
 id: dufour26_interspeech
 category: deepfake-security
+institutions: ["Universite de Lorraine", "CNRS", "Inria", "Avignon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

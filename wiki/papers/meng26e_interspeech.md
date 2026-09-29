@@ -1,6 +1,7 @@
 ---
 id: meng26e_interspeech
 category: health-clinical
+institutions: ["National Acoustic Laboratories", "GN Store Nord"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: ren26c_interspeech
 category: speaker
 labels: [self-supervised]
+institutions: ["Shanghai Artificial Intelligence Laboratory", "Nanjing University", "Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

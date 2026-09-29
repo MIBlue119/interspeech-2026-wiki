@@ -1,6 +1,7 @@
 ---
 id: wang26n_interspeech
 category: speech-coding
+institutions: ["University of Southern California"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

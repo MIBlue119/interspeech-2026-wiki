@@ -2,6 +2,7 @@
 id: lipari26_interspeech
 category: phonetics-linguistics
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["McGill University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

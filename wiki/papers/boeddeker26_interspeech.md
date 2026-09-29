@@ -1,6 +1,7 @@
 ---
 id: boeddeker26_interspeech
 category: enhancement-separation
+institutions: ["Mitsubishi Electric Research Laboratories"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: wang26ga_interspeech
 category: health-clinical
 labels: [efficient-on-device, self-supervised]
+institutions: ["Xi'an Jiaotong University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: tatsumi26_interspeech
 category: paralinguistics-emotion
 labels: [multilingual, self-supervised]
+institutions: ["Stanford University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: sheppard26_interspeech
 category: resources-evaluation
 labels: [low-resource]
+institutions: ["University of Calgary", "Meta"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

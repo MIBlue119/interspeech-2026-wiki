@@ -1,6 +1,7 @@
 ---
 id: zhang26ea_interspeech
 category: paralinguistics-emotion
+institutions: ["University of Tokyo", "University of Osaka"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

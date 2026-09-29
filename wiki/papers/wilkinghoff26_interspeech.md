@@ -1,6 +1,7 @@
 ---
 id: wilkinghoff26_interspeech
 category: audio-understanding
+institutions: ["Aalborg University", "Pioneer Centre for Artificial Intelligence", "Mitsubishi Electric Research Laboratories"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: tu26b_interspeech
 category: speech-llm-dialogue
+institutions: ["Shanghai Jiao Tong University", "Shanghai Innovation Institute", "AISpeech", "Beijing Institute of General Artificial Intelligence"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

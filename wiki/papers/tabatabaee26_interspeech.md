@@ -2,6 +2,7 @@
 id: tabatabaee26_interspeech
 category: phonetics-linguistics
 labels: [multilingual, self-supervised]
+institutions: ["University of Maryland", "Yale University", "University of Cincinnati"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

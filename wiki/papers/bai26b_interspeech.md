@@ -2,6 +2,7 @@
 id: bai26b_interspeech
 category: tts
 labels: [self-supervised, generative-model]
+institutions: ["Chinese University of Hong Kong", "Nanjing University", "Tencent", "Shenzhen Loop Area Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

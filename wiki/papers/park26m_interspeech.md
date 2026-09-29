@@ -2,6 +2,7 @@
 id: park26m_interspeech
 category: audio-understanding
 labels: [generative-model]
+institutions: ["Gwangju Institute of Science and Technology", "AunionAI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

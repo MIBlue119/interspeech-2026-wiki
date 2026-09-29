@@ -1,6 +1,7 @@
 ---
 id: yu26c_interspeech
 category: health-clinical
+institutions: ["Chinese Academy of Sciences", "University of Chinese Academy of Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: yan26c_interspeech
 category: asr
+institutions: ["National Taiwan Normal University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

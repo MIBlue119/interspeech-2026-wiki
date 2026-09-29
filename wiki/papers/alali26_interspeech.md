@@ -1,6 +1,7 @@
 ---
 id: alali26_interspeech
 category: deepfake-security
+institutions: ["Mohamed bin Zayed University of Artificial Intelligence", "Maastricht University", "University of Groningen", "University of Edinburgh"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: li26v_interspeech
 category: phonetics-linguistics
+institutions: ["Hong Kong Baptist University", "Shandong University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

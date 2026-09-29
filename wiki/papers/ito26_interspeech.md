@@ -2,6 +2,7 @@
 id: ito26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Sony Group Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

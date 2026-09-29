@@ -1,6 +1,7 @@
 ---
 id: liu26g_interspeech
 category: deepfake-security
+institutions: ["Beijing Jiaotong University", "Shanghai Jiao Tong University", "ITMO University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

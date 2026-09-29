@@ -1,6 +1,7 @@
 ---
 id: cheng26b_interspeech
 category: enhancement-separation
+institutions: ["Chongqing University of Posts and Telecommunications"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

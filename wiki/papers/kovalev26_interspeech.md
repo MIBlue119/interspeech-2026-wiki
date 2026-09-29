@@ -2,6 +2,7 @@
 id: kovalev26_interspeech
 category: paralinguistics-emotion
 labels: [efficient-on-device, self-supervised, streaming-real-time]
+institutions: ["Symbal AI", "Princeton University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

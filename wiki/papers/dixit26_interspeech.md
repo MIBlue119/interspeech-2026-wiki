@@ -2,6 +2,7 @@
 id: dixit26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
+institutions: ["Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

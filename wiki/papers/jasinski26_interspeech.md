@@ -2,6 +2,7 @@
 id: jasinski26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["AGH University of Krakow"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

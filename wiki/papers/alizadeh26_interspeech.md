@@ -2,6 +2,7 @@
 id: alizadeh26_interspeech
 category: asr
 labels: [low-resource, multilingual, dataset-or-benchmark-release]
+institutions: ["Toorintan", "Islamic Republic of Iran Broadcasting University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

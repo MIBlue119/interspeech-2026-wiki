@@ -2,6 +2,7 @@
 id: lin26j_interspeech
 category: asr
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Chinese University of Hong Kong", "National University of Singapore", "Harbin Institute of Technology", "Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

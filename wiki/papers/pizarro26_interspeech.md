@@ -1,6 +1,7 @@
 ---
 id: pizarro26_interspeech
 category: deepfake-security
+institutions: ["Ruhr University Bochum", "LKA NRW", "Technische Universität Berlin"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

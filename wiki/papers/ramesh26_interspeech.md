@@ -1,6 +1,7 @@
 ---
 id: ramesh26_interspeech
 category: asr
+institutions: ["Indian Institute of Technology Hyderabad"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

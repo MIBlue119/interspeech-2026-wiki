@@ -2,6 +2,7 @@
 id: chen26da_interspeech
 category: resources-evaluation
 labels: [self-supervised, dataset-or-benchmark-release]
+institutions: ["Chinese University of Hong Kong", "Jilin University", "Hunan University", "University of Electronic Science and Technology of China"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

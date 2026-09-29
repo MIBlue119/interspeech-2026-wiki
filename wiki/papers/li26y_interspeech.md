@@ -1,6 +1,7 @@
 ---
 id: li26y_interspeech
 category: asr
+institutions: ["Hangzhou Dianzi University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

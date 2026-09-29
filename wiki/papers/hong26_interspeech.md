@@ -1,6 +1,7 @@
 ---
 id: hong26_interspeech
 category: asr
+institutions: ["Carnegie Mellon University", "University of Pittsburgh"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

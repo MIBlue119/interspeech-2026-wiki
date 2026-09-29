@@ -2,6 +2,7 @@
 id: elsetohy26_interspeech
 category: deepfake-security
 labels: [multilingual, dataset-or-benchmark-release, generative-model]
+institutions: ["Mohamed bin Zayed University of Artificial Intelligence", "Queen's University", "University of Waterloo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: garnaik26_interspeech
 category: speech-llm-dialogue
 labels: [generative-model]
+institutions: ["State University of New York, Korea", "Stony Brook University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

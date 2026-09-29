@@ -1,6 +1,7 @@
 ---
 id: so26_interspeech
 category: speaker
+institutions: ["Seoul National University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

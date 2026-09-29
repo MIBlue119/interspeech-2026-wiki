@@ -2,6 +2,7 @@
 id: gachot26_interspeech
 category: speech-llm-dialogue
 labels: [generative-model]
+institutions: ["University of Hamburg"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

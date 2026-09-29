@@ -2,6 +2,7 @@
 id: bonzi26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
+institutions: ["Concordia University", "Mila - Quebec AI Institute", "Universite Laval"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

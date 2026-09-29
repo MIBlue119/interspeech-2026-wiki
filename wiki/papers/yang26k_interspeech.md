@@ -1,6 +1,7 @@
 ---
 id: yang26k_interspeech
 category: speech-coding
+institutions: ["Georgia Institute of Technology", "Chinese University of Hong Kong", "Tencent Music Entertainment"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

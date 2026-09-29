@@ -2,6 +2,7 @@
 id: mondal26b_interspeech
 category: resources-evaluation
 labels: [low-resource, dataset-or-benchmark-release]
+institutions: ["International Institute of Information Technology Hyderabad"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

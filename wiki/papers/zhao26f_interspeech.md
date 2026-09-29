@@ -2,6 +2,7 @@
 id: zhao26f_interspeech
 category: applications-other
 labels: [low-resource]
+institutions: ["Inner Mongolia University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

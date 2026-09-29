@@ -2,6 +2,7 @@
 id: singh26c_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["University of Maryland", "TU Darmstadt", "Smallest AI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

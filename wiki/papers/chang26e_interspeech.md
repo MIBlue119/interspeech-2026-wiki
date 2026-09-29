@@ -2,6 +2,7 @@
 id: chang26e_interspeech
 category: tts
 labels: [low-resource, generative-model]
+institutions: ["Academia Sinica", "National Cheng Kung University Hospital"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

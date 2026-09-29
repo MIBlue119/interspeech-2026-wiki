@@ -2,6 +2,7 @@
 id: vo26_interspeech
 category: paralinguistics-emotion
 labels: [efficient-on-device]
+institutions: ["University of Science, Ho Chi Minh City", "Vietnam National University, Ho Chi Minh City", "UNEY"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: stanek26_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["Brno University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

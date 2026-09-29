@@ -2,6 +2,7 @@
 id: bhattacharya26b_interspeech
 category: deepfake-security
 labels: [efficient-on-device, streaming-real-time, generative-model]
+institutions: ["University of North Texas"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

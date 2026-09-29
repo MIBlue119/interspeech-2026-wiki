@@ -1,6 +1,7 @@
 ---
 id: hasumi26_interspeech
 category: paralinguistics-emotion
+institutions: ["LY Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

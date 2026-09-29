@@ -1,6 +1,7 @@
 ---
 id: mao26_interspeech
 category: speaker
+institutions: ["Telecom Paris", "Institut Polytechnique de Paris", "Universite du Mans"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

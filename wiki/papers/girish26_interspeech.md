@@ -2,6 +2,7 @@
 id: girish26_interspeech
 category: deepfake-security
 labels: [dataset-or-benchmark-release]
+institutions: ["UPES", "National Tsing Hua University", "VBSPU", "Indraprastha Institute of Information Technology Delhi"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

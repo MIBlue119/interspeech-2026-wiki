@@ -2,6 +2,7 @@
 id: lin26e_interspeech
 category: applications-other
 labels: [efficient-on-device, self-supervised]
+institutions: ["National Taiwan Normal University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

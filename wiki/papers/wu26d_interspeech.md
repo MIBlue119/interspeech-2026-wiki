@@ -1,6 +1,7 @@
 ---
 id: wu26d_interspeech
 category: phonetics-linguistics
+institutions: ["University of Tsukuba", "Konan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: nguyen26e_interspeech
 category: health-clinical
 labels: [multilingual]
+institutions: ["University of Massachusetts Lowell"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

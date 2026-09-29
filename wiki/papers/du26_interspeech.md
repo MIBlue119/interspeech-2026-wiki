@@ -2,6 +2,7 @@
 id: du26_interspeech
 category: tts
 labels: [efficient-on-device, streaming-real-time, generative-model]
+institutions: ["NVIDIA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

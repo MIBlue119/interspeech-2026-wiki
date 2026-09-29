@@ -2,6 +2,7 @@
 id: bai26_interspeech
 category: tts
 labels: [low-resource, dataset-or-benchmark-release, generative-model]
+institutions: ["Xiamen University", "Alibaba Group"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

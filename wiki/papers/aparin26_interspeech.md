@@ -2,6 +2,7 @@
 id: aparin26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["National University of Science and Technology MISIS", "Higher School of Economics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

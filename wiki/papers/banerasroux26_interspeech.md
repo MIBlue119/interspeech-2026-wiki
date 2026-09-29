@@ -2,6 +2,7 @@
 id: banerasroux26_interspeech
 category: asr
 labels: [low-resource]
+institutions: ["Idiap Research Institute", "Laboratoire d’Informatique et des Systèmes", "EPFL", "Uniphore", "Brno University of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

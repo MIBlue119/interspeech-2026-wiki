@@ -2,6 +2,7 @@
 id: havare26_interspeech
 category: speech-llm-dialogue
 labels: [low-resource, multilingual]
+institutions: ["Indian Institute of Technology Bombay", "IBM", "Google DeepMind"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

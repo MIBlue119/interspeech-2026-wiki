@@ -2,6 +2,7 @@
 id: gao26e_interspeech
 category: enhancement-separation
 labels: [self-supervised, generative-model, robustness-noise]
+institutions: ["Nanjing University", "Horizon Robotics", "Samsung Electronics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

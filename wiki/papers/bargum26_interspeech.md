@@ -2,6 +2,7 @@
 id: bargum26_interspeech
 category: tts
 labels: [efficient-on-device, streaming-real-time, generative-model]
+institutions: ["Aalborg University", "Khora & Heka VR", "Technical University of Denmark"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

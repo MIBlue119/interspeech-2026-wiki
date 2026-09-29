@@ -1,6 +1,7 @@
 ---
 id: filippakopoulos26_interspeech
 category: paralinguistics-emotion
+institutions: ["National Technical University of Athens", "Athena Research Center", "University of Bern", "Archimedes AI", "Synaptic Bloom PBC"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

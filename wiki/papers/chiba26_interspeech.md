@@ -1,6 +1,7 @@
 ---
 id: chiba26_interspeech
 category: health-clinical
+institutions: ["Tsinghua University", "Peking University Huilongguan Clinical Medical School", "WHO Collaborating Centre for Research and Training in Suicide Prevention"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

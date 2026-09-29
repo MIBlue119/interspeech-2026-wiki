@@ -2,6 +2,7 @@
 id: lee26s_interspeech
 category: deepfake-security
 labels: [low-resource, self-supervised, robustness-noise]
+institutions: ["Electronics and Telecommunications Research Institute", "University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: spiesberger26_interspeech
 category: health-clinical
+institutions: ["Technical University of Munich", "Munich Center for Machine Learning", "Friedrich-Schiller-University Jena", "Imperial College London", "Munich Data Science Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

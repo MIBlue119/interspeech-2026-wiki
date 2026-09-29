@@ -2,6 +2,7 @@
 id: li26i_interspeech
 category: deepfake-security
 labels: [robustness-noise]
+institutions: ["Sun Yat-sen University", "China Mobile Internet Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

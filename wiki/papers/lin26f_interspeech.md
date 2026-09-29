@@ -2,6 +2,7 @@
 id: lin26f_interspeech
 category: speaker
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Meta"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

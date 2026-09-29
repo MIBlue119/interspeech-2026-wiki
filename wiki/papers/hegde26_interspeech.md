@@ -2,6 +2,7 @@
 id: hegde26_interspeech
 category: audio-understanding
 labels: [self-supervised]
+institutions: ["Qualcomm"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: peng26h_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
+institutions: ["Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

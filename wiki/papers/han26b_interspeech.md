@@ -1,6 +1,7 @@
 ---
 id: han26b_interspeech
 category: audio-understanding
+institutions: ["Hanyang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

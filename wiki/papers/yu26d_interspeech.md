@@ -2,6 +2,7 @@
 id: yu26d_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Hyundai Motor Company"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

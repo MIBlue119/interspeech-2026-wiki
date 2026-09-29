@@ -2,6 +2,7 @@
 id: lee26w_interspeech
 category: paralinguistics-emotion
 labels: [multilingual, self-supervised, generative-model]
+institutions: ["National Institute of Advanced Industrial Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

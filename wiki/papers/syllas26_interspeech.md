@@ -2,6 +2,7 @@
 id: syllas26_interspeech
 category: tts
 labels: [low-resource, multilingual, generative-model]
+institutions: ["Athena R.C", "University of Bern", "National Technical University of Athens"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

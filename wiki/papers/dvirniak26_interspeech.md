@@ -2,6 +2,7 @@
 id: dvirniak26_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["MIRAI", "AXXX", "HSE University", "Applied AI Institute", "Fusion Brain Lab", "MTUCI", "City University of Hong Kong", "Trusted AI Research Center"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

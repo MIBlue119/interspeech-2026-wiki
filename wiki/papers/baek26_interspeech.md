@@ -2,6 +2,7 @@
 id: baek26_interspeech
 category: asr
 labels: [efficient-on-device]
+institutions: ["Hanyang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

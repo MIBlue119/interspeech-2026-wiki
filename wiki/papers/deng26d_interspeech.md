@@ -2,6 +2,7 @@
 id: deng26d_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
+institutions: ["Wuhan University", "Dolby Laboratories", "Northwestern Polytechnical University", "University of Quebec"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

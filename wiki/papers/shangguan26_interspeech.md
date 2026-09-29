@@ -2,6 +2,7 @@
 id: shangguan26_interspeech
 category: speaker
 labels: [multilingual, self-supervised]
+institutions: ["Nanjing University", "Shanghai Jiao Tong University", "AISpeech", "Soul AI Lab"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

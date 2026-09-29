@@ -2,6 +2,7 @@
 id: lo26_interspeech
 category: applications-other
 labels: [self-supervised]
+institutions: ["National Taiwan Normal University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

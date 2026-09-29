@@ -2,6 +2,7 @@
 id: liu26p_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Shanghai Himalaya Technology Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

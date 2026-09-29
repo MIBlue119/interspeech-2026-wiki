@@ -2,6 +2,7 @@
 id: liu26c_interspeech
 category: tts
 labels: [self-supervised, streaming-real-time, generative-model]
+institutions: ["UC Berkeley"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: arcosholzinger26_interspeech
 category: asr
 labels: [self-supervised, robustness-noise]
+institutions: ["University of Melbourne", "Monash University", "Johns Hopkins University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

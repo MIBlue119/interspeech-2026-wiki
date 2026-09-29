@@ -1,6 +1,7 @@
 ---
 id: kawamura26_interspeech
 category: resources-evaluation
+institutions: ["LY Corporation"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

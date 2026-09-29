@@ -1,6 +1,7 @@
 ---
 id: sanchez26b_interspeech
 category: phonetics-linguistics
+institutions: ["Harvard University", "Massachusetts General Hospital Institute of Health Professions", "Modality.AI", "University of California San Francisco", "Sunnybrook Research Institute", "University of Toronto"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

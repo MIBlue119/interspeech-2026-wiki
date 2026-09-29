@@ -1,6 +1,7 @@
 ---
 id: li26b_interspeech
 category: enhancement-separation
+institutions: ["Huawei"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

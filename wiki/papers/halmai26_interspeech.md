@@ -2,6 +2,7 @@
 id: halmai26_interspeech
 category: paralinguistics-emotion
 labels: [low-resource, multilingual, self-supervised]
+institutions: ["University of Szeged", "HUN-REN"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

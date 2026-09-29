@@ -2,6 +2,7 @@
 id: rong26_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Nanjing University", "Cisco Systems", "Horizon Robotics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

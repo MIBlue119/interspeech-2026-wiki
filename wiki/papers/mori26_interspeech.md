@@ -2,6 +2,7 @@
 id: mori26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Utsunomiya University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

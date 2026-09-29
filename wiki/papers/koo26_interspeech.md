@@ -2,6 +2,7 @@
 id: koo26_interspeech
 category: enhancement-separation
 labels: [generative-model, robustness-noise]
+institutions: ["MAGO", "KAIST"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

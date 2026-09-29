@@ -2,6 +2,7 @@
 id: chen26j_interspeech
 category: tts
 labels: [efficient-on-device, generative-model]
+institutions: ["Xi'an Jiaotong University", "Chinese Academy of Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

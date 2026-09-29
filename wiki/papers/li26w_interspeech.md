@@ -2,6 +2,7 @@
 id: li26w_interspeech
 category: tts
 labels: [efficient-on-device, streaming-real-time, generative-model]
+institutions: ["Chinese University of Hong Kong, Shenzhen", "Shenzhen Loop Area Institute", "Shenzhen Transsion Holdings Co., Ltd", "Amphion Technology Co., Ltd"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

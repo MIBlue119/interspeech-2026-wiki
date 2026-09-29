@@ -2,6 +2,7 @@
 id: kim26w_interspeech
 category: speaker
 labels: [low-resource, multilingual, self-supervised]
+institutions: ["KAIST", "University of Southern California", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

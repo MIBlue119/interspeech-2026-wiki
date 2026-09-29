@@ -2,6 +2,7 @@
 id: jia26b_interspeech
 category: resources-evaluation
 labels: [self-supervised]
+institutions: ["Nankai University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

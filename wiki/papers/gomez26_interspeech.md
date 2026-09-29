@@ -2,6 +2,7 @@
 id: gomez26_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release, robustness-noise]
+institutions: ["Factored AI", "MLCommons", "NVIDIA"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: bhat26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Visvesvaraya National Institute of Technology Nagpur"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

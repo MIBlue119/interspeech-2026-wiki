@@ -2,6 +2,7 @@
 id: xue26b_interspeech
 category: paralinguistics-emotion
 labels: [efficient-on-device, streaming-real-time, generative-model]
+institutions: ["University of Auckland", "University of Melbourne", "University of Cambridge", "Wuhan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

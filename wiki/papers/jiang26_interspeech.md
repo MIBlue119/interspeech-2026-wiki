@@ -2,6 +2,7 @@
 id: jiang26_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["Northwestern Polytechnical University", "Xiaomi"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

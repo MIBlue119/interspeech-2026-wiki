@@ -2,6 +2,7 @@
 id: fortier26_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["University of British Columbia", "Ecole de technologie superieure", "Johns Hopkins University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

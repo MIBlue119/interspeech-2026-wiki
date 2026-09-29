@@ -2,6 +2,7 @@
 id: li26n_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Inner Mongolia University", "Lenovo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

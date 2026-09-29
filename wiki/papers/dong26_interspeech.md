@@ -2,6 +2,7 @@
 id: dong26_interspeech
 category: deepfake-security
 labels: [self-supervised]
+institutions: ["National Taiwan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

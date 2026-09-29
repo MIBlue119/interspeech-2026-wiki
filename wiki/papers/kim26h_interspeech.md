@@ -2,6 +2,7 @@
 id: kim26h_interspeech
 category: asr
 labels: [robustness-noise]
+institutions: ["Hanyang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

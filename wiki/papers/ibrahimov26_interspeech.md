@@ -1,6 +1,7 @@
 ---
 id: ibrahimov26_interspeech
 category: applications-other
+institutions: ["Budapest University of Technology and Economics", "HUN-REN-SZTE Research Group on Artificial Intelligence", "University of Szeged"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

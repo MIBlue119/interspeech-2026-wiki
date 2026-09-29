@@ -1,6 +1,7 @@
 ---
 id: lentz26_interspeech
 category: health-clinical
+institutions: ["Ruhr-Universität Bochum", "McMaster University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

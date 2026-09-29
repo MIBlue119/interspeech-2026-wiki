@@ -2,6 +2,7 @@
 id: yakovlev26_interspeech
 category: speaker
 labels: [efficient-on-device]
+institutions: ["Palabra AI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

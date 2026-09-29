@@ -2,6 +2,7 @@
 id: wu26h_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
+institutions: ["Tsinghua University", "Tencent"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

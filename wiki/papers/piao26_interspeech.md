@@ -2,6 +2,7 @@
 id: piao26_interspeech
 category: speech-llm-dialogue
 labels: [low-resource, self-supervised]
+institutions: ["Eindhoven University of Technology", "Erasmus MC", "Rijnstate Hospital", "Maxima MC Hospital"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: ren26e_interspeech
 category: tts
 labels: [self-supervised, generative-model]
+institutions: ["Chinese Academy of Sciences", "University of Chinese Academy of Sciences", "Tsinghua University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

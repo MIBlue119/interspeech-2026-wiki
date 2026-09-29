@@ -1,6 +1,7 @@
 ---
 id: wei26_interspeech
 category: health-clinical
+institutions: ["Hunan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

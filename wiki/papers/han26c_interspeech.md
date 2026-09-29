@@ -1,6 +1,7 @@
 ---
 id: han26c_interspeech
 category: applications-other
+institutions: ["Tutorus Labs"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

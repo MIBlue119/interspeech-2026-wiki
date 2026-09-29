@@ -2,6 +2,7 @@
 id: wang26da_interspeech
 category: audio-understanding
 labels: [generative-model]
+institutions: ["Hong Kong University of Science and Technology", "Tencent"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: seo26b_interspeech
 category: deepfake-security
 labels: [self-supervised, robustness-noise]
+institutions: ["Soongsil University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

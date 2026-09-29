@@ -1,6 +1,7 @@
 ---
 id: park26f_interspeech
 category: resources-evaluation
+institutions: ["NAVER Cloud", "Yonsei University", "KAIST"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

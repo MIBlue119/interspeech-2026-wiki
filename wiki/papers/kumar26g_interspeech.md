@@ -1,6 +1,7 @@
 ---
 id: kumar26g_interspeech
 category: health-clinical
+institutions: ["Indian Institute of Science", "St. Johns National Academy of Health Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

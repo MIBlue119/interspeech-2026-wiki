@@ -1,6 +1,7 @@
 ---
 id: peng26e_interspeech
 category: resources-evaluation
+institutions: ["Shanghai Jiao Tong University", "AISpeech Ltd", "ETH Zurich", "Nanjing University", "Hangzhou Dianzi University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

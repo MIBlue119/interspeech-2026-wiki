@@ -2,6 +2,7 @@
 id: ni26_interspeech
 category: resources-evaluation
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["Chinese University of Hong Kong-Shenzhen", "Shenzhen Loop Area Institute", "Amphion Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

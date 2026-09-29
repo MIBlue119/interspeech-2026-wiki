@@ -1,6 +1,7 @@
 ---
 id: stanley26_interspeech
 category: phonetics-linguistics
+institutions: ["University of Texas at Austin", "Helen DeVos Children's Hospital", "Corewell Health", "Michigan State University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

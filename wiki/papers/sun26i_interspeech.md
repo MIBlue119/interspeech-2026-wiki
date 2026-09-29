@@ -1,6 +1,7 @@
 ---
 id: sun26i_interspeech
 category: health-clinical
+institutions: ["University of Chinese Academy of Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

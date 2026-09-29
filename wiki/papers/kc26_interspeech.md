@@ -1,6 +1,7 @@
 ---
 id: kc26_interspeech
 category: speaker
+institutions: ["Government Engineering College Barton Hill", "Government Engineering College Idukki", "APJ Abdul Kalam Technological University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

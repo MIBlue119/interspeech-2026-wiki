@@ -2,6 +2,7 @@
 id: kolos26_interspeech
 category: deepfake-security
 labels: [generative-model]
+institutions: ["University of Stuttgart"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

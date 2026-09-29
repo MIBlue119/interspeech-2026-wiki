@@ -2,6 +2,7 @@
 id: lemerle26_interspeech
 category: speech-coding
 labels: [efficient-on-device, self-supervised]
+institutions: ["IRCAM", "Sorbonne Universite", "CNRS"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: khaloo26_interspeech
 category: paralinguistics-emotion
+institutions: ["University of California, San Diego", "University of California, Berkeley"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: husain26_interspeech
 category: asr
 labels: [low-resource, self-supervised, robustness-noise]
+institutions: ["Stimuler"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: li26fa_interspeech
 category: speaker
 labels: [multilingual, self-supervised]
+institutions: ["Wuhan University", "Chinese University of Hong Kong, Shenzhen", "Duke Kunshan University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

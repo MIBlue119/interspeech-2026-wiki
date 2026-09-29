@@ -1,6 +1,7 @@
 ---
 id: yousef26_interspeech
 category: health-clinical
+institutions: ["Massachusetts General Hospital", "Harvard Medical School", "Northeastern University", "MIT Lincoln Laboratory"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

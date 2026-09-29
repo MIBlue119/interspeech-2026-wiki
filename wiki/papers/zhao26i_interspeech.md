@@ -2,6 +2,7 @@
 id: zhao26i_interspeech
 category: enhancement-separation
 labels: [generative-model]
+institutions: ["Ghent University", "imec"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

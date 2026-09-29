@@ -1,6 +1,7 @@
 ---
 id: ozkan26_interspeech
 category: phonetics-linguistics
+institutions: ["Univ. Grenoble Alpes", "CNRS", "Grenoble INP"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

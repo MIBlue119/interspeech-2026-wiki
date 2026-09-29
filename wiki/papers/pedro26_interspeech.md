@@ -2,6 +2,7 @@
 id: pedro26_interspeech
 category: phonetics-linguistics
 labels: [multilingual, self-supervised]
+institutions: ["University Grenoble Alpes", "CNRS", "Grenoble INP", "University of Eastern Finland"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

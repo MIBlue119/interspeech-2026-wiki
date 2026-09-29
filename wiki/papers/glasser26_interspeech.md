@@ -1,6 +1,7 @@
 ---
 id: glasser26_interspeech
 category: applications-other
+institutions: ["Gallaudet University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

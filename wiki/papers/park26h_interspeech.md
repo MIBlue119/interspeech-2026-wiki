@@ -2,6 +2,7 @@
 id: park26h_interspeech
 category: resources-evaluation
 labels: [self-supervised, dataset-or-benchmark-release]
+institutions: ["Spellbrush"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

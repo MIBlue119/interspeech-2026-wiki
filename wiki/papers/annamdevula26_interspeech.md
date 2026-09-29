@@ -2,6 +2,7 @@
 id: annamdevula26_interspeech
 category: tts
 labels: [multilingual, generative-model]
+institutions: ["Sony"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: varadhan26_interspeech
 category: tts
 labels: [low-resource, multilingual, self-supervised, generative-model]
+institutions: ["Indian Institute of Technology Madras", "Saryps Labs"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

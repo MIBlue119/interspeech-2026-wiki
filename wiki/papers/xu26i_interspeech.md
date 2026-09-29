@@ -2,6 +2,7 @@
 id: xu26i_interspeech
 category: paralinguistics-emotion
 labels: [generative-model]
+institutions: ["Chinese Academy of Sciences", "Macquarie University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: wang26j_interspeech
 category: health-clinical
 labels: [robustness-noise]
+institutions: ["Nagoya Institute of Technology", "University of Wollongong"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

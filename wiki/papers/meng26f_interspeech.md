@@ -2,6 +2,7 @@
 id: meng26f_interspeech
 category: health-clinical
 labels: [self-supervised]
+institutions: ["Beijing Institute of Technology", "Hong Kong University of Science and Technology", "TUM University Hospital"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

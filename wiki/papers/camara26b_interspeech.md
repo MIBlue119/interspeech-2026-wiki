@@ -2,6 +2,7 @@
 id: camara26b_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
+institutions: ["Universidad Politecnica de Madrid", "Massachusetts Institute of Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

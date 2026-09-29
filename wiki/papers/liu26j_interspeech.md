@@ -2,6 +2,7 @@
 id: liu26j_interspeech
 category: enhancement-separation
 labels: [low-resource, robustness-noise]
+institutions: ["Inner Mongolia University", "Southern University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

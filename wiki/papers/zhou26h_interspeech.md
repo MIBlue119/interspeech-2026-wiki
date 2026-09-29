@@ -2,6 +2,7 @@
 id: zhou26h_interspeech
 category: tts
 labels: [dataset-or-benchmark-release, generative-model]
+institutions: ["Tsinghua University", "Inner Mongolia University", "Tencent"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

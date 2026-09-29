@@ -1,6 +1,7 @@
 ---
 id: huang26e_interspeech
 category: paralinguistics-emotion
+institutions: ["National Tsing Hua University", "National Yang Ming Chiao Tung University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

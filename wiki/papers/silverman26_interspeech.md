@@ -2,6 +2,7 @@
 id: silverman26_interspeech
 category: enhancement-separation
 labels: [self-supervised]
+institutions: ["Tel Aviv University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

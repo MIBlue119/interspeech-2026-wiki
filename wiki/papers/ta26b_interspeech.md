@@ -1,6 +1,7 @@
 ---
 id: ta26b_interspeech
 category: paralinguistics-emotion
+institutions: ["Viettel AI", "Viettel Group", "Hanoi University of Science and Technology", "Thuyloi University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

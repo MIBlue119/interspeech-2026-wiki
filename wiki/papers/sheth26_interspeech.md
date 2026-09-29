@@ -2,6 +2,7 @@
 id: sheth26_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual, dataset-or-benchmark-release, robustness-noise]
+institutions: ["PSL University", "CNRS", "EHESS", "ENS", "Universite Aix-Marseille", "Tampere University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

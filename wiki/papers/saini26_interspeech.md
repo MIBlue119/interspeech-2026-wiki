@@ -1,6 +1,7 @@
 ---
 id: saini26_interspeech
 category: resources-evaluation
+institutions: ["Samsung"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

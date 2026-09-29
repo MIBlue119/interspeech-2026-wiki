@@ -1,6 +1,7 @@
 ---
 id: truong26_interspeech
 category: deepfake-security
+institutions: ["Nanyang Technological University", "National University of Singapore", "Hong Kong Polytechnic University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: jung26_interspeech
 category: health-clinical
 labels: [self-supervised]
+institutions: ["Ewha Womans University", "NAVER Cloud"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

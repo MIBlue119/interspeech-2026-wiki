@@ -2,6 +2,7 @@
 id: chen26aa_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
+institutions: ["Harbin University of Science and Technology", "University of Melbourne", "KAIST", "University of Surrey"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

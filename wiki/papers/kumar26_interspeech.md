@@ -2,6 +2,7 @@
 id: kumar26_interspeech
 category: asr
 labels: [self-supervised]
+institutions: ["Florida International University", "University of South Florida"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

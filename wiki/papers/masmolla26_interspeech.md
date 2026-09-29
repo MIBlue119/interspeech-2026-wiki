@@ -2,6 +2,7 @@
 id: masmolla26_interspeech
 category: asr
 labels: [self-supervised, streaming-real-time]
+institutions: ["Universitat Politecnica de Valencia"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

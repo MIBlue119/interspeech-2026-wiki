@@ -1,6 +1,7 @@
 ---
 id: gotz26b_interspeech
 category: resources-evaluation
+institutions: ["Treble Technologies"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

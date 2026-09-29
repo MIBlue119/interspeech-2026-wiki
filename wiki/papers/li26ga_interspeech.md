@@ -1,6 +1,7 @@
 ---
 id: li26ga_interspeech
 category: health-clinical
+institutions: ["Tianjin University", "Chinese Academy of Sciences", "Fuzhou University", "Huiyan Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: tsai26_interspeech
 category: resources-evaluation
 labels: [self-supervised, robustness-noise]
+institutions: ["National Taiwan University", "University of Southern California"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

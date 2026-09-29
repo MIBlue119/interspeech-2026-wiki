@@ -2,6 +2,7 @@
 id: ly26_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, self-supervised]
+institutions: ["Zalo AI", "University of Science, VNU-HCM", "Vietnam National University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

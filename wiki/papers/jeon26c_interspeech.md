@@ -2,6 +2,7 @@
 id: jeon26c_interspeech
 category: asr
 labels: [efficient-on-device, self-supervised]
+institutions: ["Sogang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

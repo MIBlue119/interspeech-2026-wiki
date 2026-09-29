@@ -2,6 +2,7 @@
 id: zhao26c_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Nanjing University", "Horizon Robotics", "Samsung Electronics"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

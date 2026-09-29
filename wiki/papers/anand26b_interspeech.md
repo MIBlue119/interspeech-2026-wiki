@@ -2,6 +2,7 @@
 id: anand26b_interspeech
 category: tts
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["Indian Institute of Technology Madras", "AI4Bharat", "Josh Talks"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

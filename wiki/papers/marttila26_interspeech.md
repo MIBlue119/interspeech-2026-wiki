@@ -1,6 +1,7 @@
 ---
 id: marttila26_interspeech
 category: tts
+institutions: ["Queen Mary University of London"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

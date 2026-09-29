@@ -1,6 +1,7 @@
 ---
 id: cai26_interspeech
 category: health-clinical
+institutions: ["Southern University of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

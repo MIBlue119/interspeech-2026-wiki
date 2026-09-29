@@ -2,6 +2,7 @@
 id: zhou26e_interspeech
 category: tts
 labels: [multilingual, generative-model]
+institutions: ["Nara Institute of Science and Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

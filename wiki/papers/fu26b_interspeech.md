@@ -2,6 +2,7 @@
 id: fu26b_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, generative-model]
+institutions: ["TU Braunschweig", "Goodix Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

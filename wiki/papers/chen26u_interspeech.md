@@ -1,6 +1,7 @@
 ---
 id: chen26u_interspeech
 category: deepfake-security
+institutions: ["National Taiwan University", "CyCraft", "RIKEN", "MoonShine Animation Studio"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

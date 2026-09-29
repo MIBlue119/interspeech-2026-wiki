@@ -1,6 +1,7 @@
 ---
 id: liu26q_interspeech
 category: deepfake-security
+institutions: ["University of Science and Technology of China", "Hong Kong Polytechnic University", "Institute of Forensic Science, Ministry of Public Security"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

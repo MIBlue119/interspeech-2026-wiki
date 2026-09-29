@@ -2,6 +2,7 @@
 id: zhang26ia_interspeech
 category: asr
 labels: [efficient-on-device, streaming-real-time]
+institutions: ["Network and Data Security Key Laboratory of Sichuan Province", "University of Electronic Science and Technology of China"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: singh26d_interspeech
 category: speech-llm-dialogue
+institutions: ["Indian Institute of Science Education and Research Bhopal"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

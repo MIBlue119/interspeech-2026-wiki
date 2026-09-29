@@ -2,6 +2,7 @@
 id: zhao26d_interspeech
 category: speech-llm-dialogue
 labels: [dataset-or-benchmark-release, generative-model]
+institutions: ["SB Intuitions"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

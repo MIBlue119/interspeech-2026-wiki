@@ -2,6 +2,7 @@
 id: kirby26_interspeech
 category: phonetics-linguistics
 labels: [self-supervised]
+institutions: ["LMU Munich"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: chen26n_interspeech
 category: health-clinical
 labels: [generative-model]
+institutions: ["National Tsing Hua University", "Carnegie Mellon University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

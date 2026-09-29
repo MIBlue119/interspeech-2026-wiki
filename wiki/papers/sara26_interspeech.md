@@ -2,6 +2,7 @@
 id: sara26_interspeech
 category: applications-other
 labels: [self-supervised]
+institutions: ["Qatar Computing Research Institute"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: seo26_interspeech
 category: asr
 labels: [multilingual, dataset-or-benchmark-release]
+institutions: ["AITRICS", "University of Copenhagen", "KAIST"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

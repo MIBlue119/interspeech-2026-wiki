@@ -1,6 +1,7 @@
 ---
 id: shi26e_interspeech
 category: paralinguistics-emotion
+institutions: ["Nagoya University", "City University of Macau"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

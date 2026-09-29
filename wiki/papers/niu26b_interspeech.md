@@ -2,6 +2,7 @@
 id: niu26b_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
+institutions: ["University of Science and Technology of China", "iFLYTEK Research"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: yousef26c_interspeech
 category: health-clinical
+institutions: ["Massachusetts General Hospital", "Harvard Medical School"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

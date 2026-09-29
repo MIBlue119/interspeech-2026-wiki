@@ -2,6 +2,7 @@
 id: benslimane26_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, streaming-real-time, robustness-noise]
+institutions: ["Universite Paris-Saclay", "CEA", "Universite de Lorraine", "CNRS", "Inria"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

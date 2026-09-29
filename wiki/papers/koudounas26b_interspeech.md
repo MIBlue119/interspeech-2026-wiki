@@ -2,6 +2,7 @@
 id: koudounas26b_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
+institutions: ["Politecnico di Torino", "Kore University of Enna", "Amazon", "Universita degli Studi di Palermo"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

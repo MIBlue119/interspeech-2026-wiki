@@ -1,6 +1,7 @@
 ---
 id: chen26w_interspeech
 category: paralinguistics-emotion
+institutions: ["Tianjin Foreign Studies University", "Beijing Language and Culture University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

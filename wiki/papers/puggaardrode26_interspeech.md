@@ -1,6 +1,7 @@
 ---
 id: puggaardrode26_interspeech
 category: phonetics-linguistics
+institutions: ["University of Oxford", "Macquarie University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

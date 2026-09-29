@@ -2,6 +2,7 @@
 id: rajaa26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised, generative-model]
+institutions: ["Anyreach AI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

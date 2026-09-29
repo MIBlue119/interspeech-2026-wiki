@@ -2,6 +2,7 @@
 id: park26l_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
+institutions: ["Hanyang University", "Pusan National University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

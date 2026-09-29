@@ -2,6 +2,7 @@
 id: gao26_interspeech
 category: speaker
 labels: [efficient-on-device, robustness-noise]
+institutions: ["Soochow University", "Beijing Jiaotong University", "Renmin University of China", "Qilu University of Technology", "Shandong Academy of Sciences"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: jia26_interspeech
 category: health-clinical
 labels: [low-resource]
+institutions: ["Tsinghua University", "Beijing University of Posts and Telecommunications"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

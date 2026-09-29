@@ -1,6 +1,7 @@
 ---
 id: wang26u_interspeech
 category: paralinguistics-emotion
+institutions: ["Beijing University of Posts and Telecommunications", "Li Auto"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

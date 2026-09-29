@@ -2,6 +2,7 @@
 id: dudek26_interspeech
 category: health-clinical
 labels: [low-resource, self-supervised]
+institutions: ["AGH University of Krakow", "SoftServe", "Silesian University of Technology", "University of Silesia in Katowice"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

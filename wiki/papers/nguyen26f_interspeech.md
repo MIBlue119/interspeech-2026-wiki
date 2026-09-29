@@ -2,6 +2,7 @@
 id: nguyen26f_interspeech
 category: translation
 labels: [low-resource, multilingual]
+institutions: ["VinUniversity", "University of Technology Sydney", "Monash University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

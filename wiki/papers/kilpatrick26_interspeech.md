@@ -1,6 +1,7 @@
 ---
 id: kilpatrick26_interspeech
 category: phonetics-linguistics
+institutions: ["University of Aizu", "University of Melbourne"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

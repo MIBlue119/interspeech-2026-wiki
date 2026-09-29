@@ -2,6 +2,7 @@
 id: kuwar26_interspeech
 category: paralinguistics-emotion
 labels: [multilingual]
+institutions: ["Plaksha University", "Indraprastha Institute of Information Technology Delhi", "National Tsing Hua University", "University of Tartu"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

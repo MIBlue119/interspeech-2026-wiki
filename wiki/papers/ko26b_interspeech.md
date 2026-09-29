@@ -1,6 +1,7 @@
 ---
 id: ko26b_interspeech
 category: asr
+institutions: ["Hanyang University", "Hankuk University of Foreign Studies"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

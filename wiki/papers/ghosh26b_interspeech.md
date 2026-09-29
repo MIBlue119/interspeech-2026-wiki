@@ -2,6 +2,7 @@
 id: ghosh26b_interspeech
 category: tts
 labels: [generative-model]
+institutions: ["International Institute of Information Technology Hyderabad", "University of Bath"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -1,6 +1,7 @@
 ---
 id: yan26b_interspeech
 category: speech-llm-dialogue
+institutions: ["University of Science and Technology of China", "Alibaba Group", "East China Normal University", "Mohamed bin Zayed University of Artificial Intelligence", "Linkoping University", "University of Groningen", "Xinjiang University"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

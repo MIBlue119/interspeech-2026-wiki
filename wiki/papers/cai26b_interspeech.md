@@ -1,6 +1,7 @@
 ---
 id: cai26b_interspeech
 category: audio-understanding
+institutions: ["Xi'an Jiaotong-Liverpool University", "Nanjing University of Posts and Telecommunications"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

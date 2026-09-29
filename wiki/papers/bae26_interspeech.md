@@ -2,6 +2,7 @@
 id: bae26_interspeech
 category: health-clinical
 labels: [low-resource, self-supervised, robustness-noise]
+institutions: ["University of Illinois Urbana-Champaign", "Korea Advanced Institute of Science & Technology"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

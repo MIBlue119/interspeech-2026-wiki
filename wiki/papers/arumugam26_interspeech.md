@@ -2,6 +2,7 @@
 id: arumugam26_interspeech
 category: asr
 labels: [self-supervised, streaming-real-time]
+institutions: ["Observe.AI"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

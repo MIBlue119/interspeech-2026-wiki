@@ -1,6 +1,7 @@
 ---
 id: chang26g_interspeech
 category: phonetics-linguistics
+institutions: ["University of California, Irvine"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

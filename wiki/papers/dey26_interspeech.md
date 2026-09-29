@@ -2,6 +2,7 @@
 id: dey26_interspeech
 category: speaker
 labels: [multilingual, robustness-noise]
+institutions: ["Samsung"]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
