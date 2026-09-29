@@ -4,19 +4,19 @@ Project: interspeech-2026-wiki
 
 Notebook: .agentflow/devlog.md — root.
 
-Current commit: table sync at 4f28900 plus this closeout record on origin/main.
+Current commit: orgs metadata 562a00f + table sort 76ef81e + this closeout record on origin/main.
 
-Tests/scenarios: go build/vet; validate 1379 OK; readme/toc/orgs byte-identical; reviewer spot-checks of cleared/kept code links vs source text.
+Tests/scenarios: go build/vet; validate 1379 OK; readme byte-identical; stub functional test incl. empty-institutions edge; contiguous grouping verified.
 
 Configuration: ag.json — schema v8; validated for claude-code this round.
 
-Proven: README code table carries synced Category/Labels columns; 5 backbone links cleared with evidence; review all PASS.
+Proven: institutions in frontmatter of 1374 pages; README table has Organizations column and category-grouped rows; review all PASS.
 
 Open: none.
 
 Next: await the owner.
 
-Artifacts: .agentflow/artifacts/A-005-readme-table/review-005.md.
+Artifacts: .agentflow/artifacts/A-006-orgs-metadata/review-006.md.
 
 Archived eras: none.
 
@@ -321,5 +321,55 @@ Streams: none.
 ---
 
 # → Ask / A-006 (miblue119)
+
++ btw i need you to show their organizations at md's metadata as a part and also list here https://github.com/MIBlue119/interspeech-2026-wiki#papers-with-open-source-code
+
++ after the processing i think it would be better to sort the paper with code with their categories https://github.com/MIBlue119/interspeech-2026-wiki#papers-with-open-source-code
+
+---
+
+## [RUN-001] Event — 2026-09-29 09:16:31 +0800 (A-006)
+
+- institutions frontmatter batch-added to 1374 wiki pages (5 papers have no extractable org, line omitted); README code table gained an Organizations column (first 3 + …); stub template + AGENTS/CONTRIBUTING synced (commit 562a00f).
+
+- Owner follow-up: table rows now grouped by category (largest first, matching Browse-by-category order; title-alphabetical within) — 14 contiguous groups, tts leading (commit 76ef81e).
+
+- Review-006: all PASS on 562a00f, addendum all PASS on 76ef81e.
+
+# ← Reply / A-006
+
+* _2026-09-29 09:16:31 +0800 (claude-code/unknown)_
+
+## [SUMMARY]
+
+- 每頁 wiki md 的 frontmatter 現在都帶 institutions metadata（可 grep），README 開源大表新增 Organizations 欄並依 category 分組排序（大類在前），皆已上 GitHub。
+
+## [FINAL REPORT]
+
+1. 把機構放進每頁 md 的 metadata
+
+   - 成功。1374 頁 frontmatter 加了 `institutions: ["…"]`（JSON 引號、合法 YAML；5 篇抽不到機構的省略該行）；`iswiki wiki` stub 模板同步輸出；AGENTS/CONTRIBUTING 的 frontmatter 文件同步。
+
+2. 在 README 開源大表列出機構
+
+   - 成功。大表新增 Organizations 欄（前 3 個機構＋「…」截斷）。
+
+3. 大表依 category 排序（後續追加）
+
+   - 成功。列按 category 分組：大類在前（與 Browse-by-category 表同序）、類內按標題字母排，14 組連續無交錯（tts → asr → …），共 601 列。
+
+4. 品質
+
+   - 獨立 review 兩輪（562a00f、76ef81e）皆四項 PASS，含空機構 stub 邊界測試。報告：.agentflow/artifacts/A-006-orgs-metadata/review-006.md。
+
+
+## Questions (batched — each with a suggested default)
+
+- None.
+
+
+---
+
+# → Ask / A-007 (miblue119)
 
 +
