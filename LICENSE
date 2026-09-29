@@ -2,7 +2,8 @@ MIT License
 
 Copyright (c) 2026 MIBlue119 and contributors
 
-Applies to the source code in this repository (cmd/, scripts/, CI configuration).
+Applies to the source code in this repository, including the Next.js website
+(app/, components/, lib/), cmd/, scripts/, and CI configuration.
 Wiki and data content are licensed separately — see LICENSE-CONTENT.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

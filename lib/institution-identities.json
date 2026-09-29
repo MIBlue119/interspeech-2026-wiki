@@ -1,0 +1,606 @@
+[
+  {
+    "names": [
+      "Carnegie Mellon University"
+    ],
+    "slug": "cmu",
+    "domain": "cmu.edu",
+    "file": "cmu.png",
+    "source": "https://www.google.com/s2/favicons?domain=cmu.edu&sz=128"
+  },
+  {
+    "names": [
+      "Tsinghua University"
+    ],
+    "slug": "tsinghua",
+    "domain": "www.tsinghua.edu.cn",
+    "file": "tsinghua.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.tsinghua.edu.cn&sz=128"
+  },
+  {
+    "names": [
+      "Chinese University of Hong Kong"
+    ],
+    "slug": "cuhk",
+    "domain": "cuhk.edu.hk",
+    "file": "cuhk.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.cuhk.edu.hk&sz=64"
+  },
+  {
+    "names": [
+      "Shanghai Jiao Tong University"
+    ],
+    "slug": "sjtu",
+    "domain": "sjtu.edu.cn",
+    "file": "sjtu.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.sjtu.edu.cn&sz=64"
+  },
+  {
+    "names": [
+      "CNRS",
+      "National Centre for Scientific Research",
+      "Centre National de la Recherche Scientifique"
+    ],
+    "slug": "cnrs",
+    "domain": "cnrs.fr",
+    "file": "cnrs.png",
+    "source": "https://www.google.com/s2/favicons?domain=cnrs.fr&sz=128"
+  },
+  {
+    "names": [
+      "Hong Kong Polytechnic University"
+    ],
+    "slug": "polyu",
+    "domain": "polyu.edu.hk",
+    "file": "polyu.png",
+    "source": "https://www.google.com/s2/favicons?domain=polyu.edu.hk&sz=128"
+  },
+  {
+    "names": [
+      "National Taiwan University"
+    ],
+    "slug": "ntu-taiwan",
+    "domain": "ntu.edu.tw",
+    "file": "ntu-taiwan.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.ntu.edu.tw&sz=64"
+  },
+  {
+    "names": [
+      "Wuhan University"
+    ],
+    "slug": "wuhan",
+    "domain": "whu.edu.cn",
+    "file": ""
+  },
+  {
+    "names": [
+      "University of Melbourne"
+    ],
+    "slug": "melbourne",
+    "domain": "unimelb.edu.au",
+    "file": "melbourne.png",
+    "source": "https://www.google.com/s2/favicons?domain=unimelb.edu.au&sz=128"
+  },
+  {
+    "names": [
+      "University of Science and Technology of China"
+    ],
+    "slug": "ustc",
+    "domain": "ustc.edu.cn",
+    "file": "ustc.png",
+    "source": "https://www.google.com/s2/favicons?domain=ustc.edu.cn&sz=128"
+  },
+  {
+    "names": [
+      "Brno University of Technology"
+    ],
+    "slug": "brno",
+    "domain": "vut.cz",
+    "file": "brno.png",
+    "source": "https://www.google.com/s2/favicons?domain=vut.cz&sz=128"
+  },
+  {
+    "names": [
+      "Nanyang Technological University"
+    ],
+    "slug": "ntu-singapore",
+    "domain": "ntu.edu.sg",
+    "file": "ntu-singapore.png",
+    "source": "https://www.google.com/s2/favicons?domain=ntu.edu.sg&sz=128"
+  },
+  {
+    "names": [
+      "University of Auckland"
+    ],
+    "slug": "auckland",
+    "domain": "auckland.ac.nz",
+    "file": "auckland.png",
+    "source": "https://www.google.com/s2/favicons?domain=auckland.ac.nz&sz=128"
+  },
+  {
+    "names": [
+      "NVIDIA"
+    ],
+    "slug": "nvidia",
+    "domain": "nvidia.com",
+    "file": "nvidia.png",
+    "source": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=128"
+  },
+  {
+    "names": [
+      "Chinese Academy of Sciences"
+    ],
+    "slug": "cas",
+    "domain": "cas.cn",
+    "file": "cas.png",
+    "source": "https://www.google.com/s2/favicons?domain=cas.cn&sz=128"
+  },
+  {
+    "names": [
+      "Chinese University of Hong Kong, Shenzhen"
+    ],
+    "slug": "cuhk-shenzhen",
+    "domain": "cuhk.edu.cn",
+    "file": "cuhk-shenzhen.png",
+    "source": "https://www.google.com/s2/favicons?domain=cuhk.edu.cn&sz=128"
+  },
+  {
+    "names": [
+      "KAIST"
+    ],
+    "slug": "kaist",
+    "domain": "kaist.ac.kr",
+    "file": "kaist.png",
+    "source": "https://www.google.com/s2/favicons?domain=kaist.ac.kr&sz=128"
+  },
+  {
+    "names": [
+      "University of Edinburgh"
+    ],
+    "slug": "edinburgh",
+    "domain": "ed.ac.uk",
+    "file": "edinburgh.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.ed.ac.uk&sz=64"
+  },
+  {
+    "names": [
+      "Nanjing University"
+    ],
+    "slug": "nju",
+    "domain": "nju.edu.cn",
+    "file": "nju.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.nju.edu.cn&sz=64"
+  },
+  {
+    "names": [
+      "Northwestern Polytechnical University"
+    ],
+    "slug": "nwpu",
+    "domain": "nwpu.edu.cn",
+    "file": "nwpu.png",
+    "source": "https://www.google.com/s2/favicons?domain=nwpu.edu.cn&sz=128"
+  },
+  {
+    "names": [
+      "Seoul National University"
+    ],
+    "slug": "snu",
+    "domain": "snu.ac.kr",
+    "file": "snu.jpg",
+    "source": "https://www.google.com/s2/favicons?domain=snu.ac.kr&sz=128"
+  },
+  {
+    "names": [
+      "Johns Hopkins University"
+    ],
+    "slug": "jhu",
+    "domain": "jhu.edu",
+    "file": "jhu.png",
+    "source": "https://www.google.com/s2/favicons?domain=jhu.edu&sz=128"
+  },
+  {
+    "names": [
+      "Tencent"
+    ],
+    "slug": "tencent",
+    "domain": "tencent.com",
+    "file": "tencent.png",
+    "source": "https://www.google.com/s2/favicons?domain=tencent.com&sz=128"
+  },
+  {
+    "names": [
+      "University of Illinois Urbana-Champaign"
+    ],
+    "slug": "illinois",
+    "domain": "illinois.edu",
+    "file": "illinois.png",
+    "source": "https://www.google.com/s2/favicons?domain=illinois.edu&sz=128"
+  },
+  {
+    "names": [
+      "University of New South Wales"
+    ],
+    "slug": "unsw",
+    "domain": "unsw.edu.au",
+    "file": "unsw.png",
+    "source": "https://www.google.com/s2/favicons?domain=unsw.edu.au&sz=128"
+  },
+  {
+    "names": [
+      "Imperial College London"
+    ],
+    "slug": "imperial",
+    "domain": "imperial.ac.uk",
+    "file": "imperial.png",
+    "source": "https://www.google.com/s2/favicons?domain=imperial.ac.uk&sz=128"
+  },
+  {
+    "names": [
+      "NTT"
+    ],
+    "slug": "ntt",
+    "domain": "group.ntt",
+    "file": "ntt.png",
+    "source": "https://www.google.com/s2/favicons?domain=group.ntt&sz=128"
+  },
+  {
+    "names": [
+      "Samsung",
+      "Samsung Electronics"
+    ],
+    "slug": "samsung",
+    "domain": "samsung.com",
+    "file": "samsung.png",
+    "source": "https://www.google.com/s2/favicons?domain=samsung.com&sz=128"
+  },
+  {
+    "names": [
+      "Tianjin University"
+    ],
+    "slug": "tianjin",
+    "domain": "tju.edu.cn",
+    "file": "tianjin.png",
+    "source": "https://www.google.com/s2/favicons?domain=tju.edu.cn&sz=128"
+  },
+  {
+    "names": [
+      "University of Tokyo"
+    ],
+    "slug": "tokyo",
+    "domain": "u-tokyo.ac.jp",
+    "file": "tokyo.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.u-tokyo.ac.jp&sz=64"
+  },
+  {
+    "names": [
+      "Hanyang University"
+    ],
+    "slug": "hanyang",
+    "domain": "hanyang.ac.kr",
+    "file": "hanyang.png",
+    "source": "https://www.google.com/s2/favicons?domain=hanyang.ac.kr&sz=128"
+  },
+  {
+    "names": [
+      "Sogang University"
+    ],
+    "slug": "sogang",
+    "domain": "sogang.ac.kr",
+    "file": "sogang.png",
+    "source": "https://www.google.com/s2/favicons?domain=sogang.ac.kr&sz=128"
+  },
+  {
+    "names": [
+      "University of Zurich"
+    ],
+    "slug": "zurich",
+    "domain": "uzh.ch",
+    "file": "zurich.png",
+    "source": "https://www.google.com/s2/favicons?domain=uzh.ch&sz=128"
+  },
+  {
+    "names": [
+      "Harbin Institute of Technology"
+    ],
+    "slug": "hit",
+    "domain": "hit.edu.cn",
+    "file": "hit.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.hit.edu.cn&sz=64"
+  },
+  {
+    "names": [
+      "Inria",
+      "INRIA"
+    ],
+    "slug": "inria",
+    "domain": "inria.fr",
+    "file": "inria.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.inria.fr&sz=64"
+  },
+  {
+    "names": [
+      "National Tsing Hua University"
+    ],
+    "slug": "nthu",
+    "domain": "nthu.edu.tw",
+    "file": "nthu.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.nthu.edu.tw&sz=64"
+  },
+  {
+    "names": [
+      "University of Southern California"
+    ],
+    "slug": "usc",
+    "domain": "usc.edu",
+    "file": "usc.png",
+    "source": "https://www.google.com/s2/favicons?domain=usc.edu&sz=128"
+  },
+  {
+    "names": [
+      "Academia Sinica"
+    ],
+    "slug": "sinica",
+    "domain": "sinica.edu.tw",
+    "file": "sinica.jpg",
+    "source": "https://www.google.com/s2/favicons?domain=www.sinica.edu.tw&sz=64"
+  },
+  {
+    "names": [
+      "Australian National University"
+    ],
+    "slug": "anu",
+    "domain": "anu.edu.au",
+    "file": "anu.png",
+    "source": "https://www.google.com/s2/favicons?domain=anu.edu.au&sz=128"
+  },
+  {
+    "names": [
+      "Hong Kong University of Science and Technology"
+    ],
+    "slug": "hkust",
+    "domain": "hkust.edu.hk",
+    "file": "hkust.png",
+    "source": "https://www.google.com/s2/favicons?domain=hkust.edu.hk&sz=128"
+  },
+  {
+    "names": [
+      "Hunan University"
+    ],
+    "slug": "hunan",
+    "domain": "hnu.edu.cn",
+    "file": "hunan.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.hnu.edu.cn&sz=64"
+  },
+  {
+    "names": [
+      "Inner Mongolia University"
+    ],
+    "slug": "imu",
+    "domain": "imu.edu.cn",
+    "file": ""
+  },
+  {
+    "names": [
+      "KTH Royal Institute of Technology"
+    ],
+    "slug": "kth",
+    "domain": "kth.se",
+    "file": "kth.png",
+    "source": "https://www.google.com/s2/favicons?domain=kth.se&sz=128"
+  },
+  {
+    "names": [
+      "University of Surrey"
+    ],
+    "slug": "surrey",
+    "domain": "surrey.ac.uk",
+    "file": "surrey.png",
+    "source": "https://www.google.com/s2/favicons?domain=surrey.ac.uk&sz=128"
+  },
+  {
+    "names": [
+      "Zhejiang University"
+    ],
+    "slug": "zhejiang",
+    "domain": "zju.edu.cn",
+    "file": "zhejiang.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.zju.edu.cn&sz=64"
+  },
+  {
+    "names": [
+      "Alibaba Group",
+      "Alibaba"
+    ],
+    "slug": "alibaba",
+    "domain": "alibabagroup.com",
+    "file": ""
+  },
+  {
+    "names": [
+      "Keio University"
+    ],
+    "slug": "keio",
+    "domain": "keio.ac.jp",
+    "file": "keio.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.keio.ac.jp&sz=64"
+  },
+  {
+    "names": [
+      "National Institute of Informatics"
+    ],
+    "slug": "nii",
+    "domain": "nii.ac.jp",
+    "file": "nii.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.nii.ac.jp&sz=64"
+  },
+  {
+    "names": [
+      "Ohio State University"
+    ],
+    "slug": "osu",
+    "domain": "osu.edu",
+    "file": "osu.png",
+    "source": "https://www.google.com/s2/favicons?domain=osu.edu&sz=128"
+  },
+  {
+    "names": [
+      "Peking University"
+    ],
+    "slug": "pku",
+    "domain": "pku.edu.cn",
+    "file": "pku.png",
+    "source": "https://www.google.com/s2/favicons?domain=pku.edu.cn&sz=128"
+  },
+  {
+    "names": [
+      "Southern University of Science and Technology"
+    ],
+    "slug": "sustech",
+    "domain": "sustech.edu.cn",
+    "file": "sustech.png",
+    "source": "https://www.google.com/s2/favicons?domain=sustech.edu.cn&sz=128"
+  },
+  {
+    "names": [
+      "University of Cambridge"
+    ],
+    "slug": "cambridge",
+    "domain": "cam.ac.uk",
+    "file": "cambridge.png",
+    "source": "https://www.google.com/s2/favicons?domain=cam.ac.uk&sz=128"
+  },
+  {
+    "names": [
+      "Google",
+      "Google Research"
+    ],
+    "slug": "google",
+    "domain": "google.com",
+    "file": "google.png",
+    "source": "https://www.google.com/s2/favicons?domain=google.com&sz=128"
+  },
+  {
+    "names": [
+      "Microsoft",
+      "Microsoft Research",
+      "Microsoft Research Asia"
+    ],
+    "slug": "microsoft",
+    "domain": "microsoft.com",
+    "file": "microsoft.png",
+    "source": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128"
+  },
+  {
+    "names": [
+      "Meta",
+      "Meta AI",
+      "Meta AI Research"
+    ],
+    "slug": "meta",
+    "domain": "meta.com",
+    "file": "meta.jpg",
+    "source": "https://www.google.com/s2/favicons?domain=meta.com&sz=128"
+  },
+  {
+    "names": [
+      "Apple"
+    ],
+    "slug": "apple",
+    "domain": "apple.com",
+    "file": "apple.png",
+    "source": "https://www.google.com/s2/favicons?domain=apple.com&sz=128"
+  },
+  {
+    "names": [
+      "Amazon"
+    ],
+    "slug": "amazon",
+    "domain": "amazon.com",
+    "file": "amazon.png",
+    "source": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128"
+  },
+  {
+    "names": [
+      "ByteDance"
+    ],
+    "slug": "bytedance",
+    "domain": "bytedance.com",
+    "file": ""
+  },
+  {
+    "names": [
+      "Huawei",
+      "Huawei Technologies"
+    ],
+    "slug": "huawei",
+    "domain": "huawei.com",
+    "file": "huawei.png",
+    "source": "https://www.google.com/s2/favicons?domain=huawei.com&sz=128"
+  },
+  {
+    "names": [
+      "Sony",
+      "Sony Group Corporation"
+    ],
+    "slug": "sony",
+    "domain": "sony.com",
+    "file": "sony.png",
+    "source": "https://www.google.com/s2/favicons?domain=sony.com&sz=128"
+  },
+  {
+    "names": [
+      "IBM",
+      "IBM Research"
+    ],
+    "slug": "ibm",
+    "domain": "ibm.com",
+    "file": "ibm.png",
+    "source": "https://www.google.com/s2/favicons?domain=ibm.com&sz=128"
+  },
+  {
+    "names": [
+      "Stanford University"
+    ],
+    "slug": "stanford",
+    "domain": "stanford.edu",
+    "file": "stanford.png",
+    "source": "https://www.google.com/s2/favicons?domain=stanford.edu&sz=128"
+  },
+  {
+    "names": [
+      "Massachusetts Institute of Technology",
+      "MIT"
+    ],
+    "slug": "mit",
+    "domain": "mit.edu",
+    "file": "mit.png",
+    "source": "https://www.google.com/s2/favicons?domain=mit.edu&sz=128"
+  },
+  {
+    "names": [
+      "University of Oxford"
+    ],
+    "slug": "oxford",
+    "domain": "ox.ac.uk",
+    "file": "oxford.png",
+    "source": "https://www.google.com/s2/favicons?domain=ox.ac.uk&sz=128"
+  },
+  {
+    "names": [
+      "National Yang Ming Chiao Tung University"
+    ],
+    "slug": "nycu",
+    "domain": "nycu.edu.tw",
+    "file": "nycu.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.nycu.edu.tw&sz=64"
+  },
+  {
+    "names": [
+      "National Cheng Kung University"
+    ],
+    "slug": "ncku",
+    "domain": "ncku.edu.tw",
+    "file": "ncku.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.ncku.edu.tw&sz=64"
+  }
+]

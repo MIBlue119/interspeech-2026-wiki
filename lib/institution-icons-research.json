@@ -1,0 +1,204 @@
+[
+  {
+    "names": [
+      "National Institute of Advanced Industrial Science and Technology"
+    ],
+    "slug": "research-aist",
+    "domain": "www.aist.go.jp",
+    "file": "research-aist.png",
+    "source": "https://www.aist.go.jp/images/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "Agency for Science, Technology and Research",
+      "A*STAR",
+      "Agency for Science, Technology, and Research"
+    ],
+    "slug": "research-astar",
+    "domain": "www.a-star.edu.sg",
+    "file": "research-astar.ico",
+    "source": "https://www.a-star.edu.sg/api/media/867ab78f-c433-4489-9de0-51f3937f384c/favicon.ico"
+  },
+  {
+    "names": [
+      "Fondazione Bruno Kessler"
+    ],
+    "slug": "research-fbk",
+    "domain": "www.fbk.eu",
+    "file": "research-fbk.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.fbk.eu&sz=128"
+  },
+  {
+    "names": [
+      "Idiap Research Institute"
+    ],
+    "slug": "research-idiap",
+    "domain": "www.idiap.ch",
+    "file": "research-idiap.svg",
+    "source": "https://www.idiap.ch/cms/api/media/file/FAVICON.svg"
+  },
+  {
+    "names": [
+      "RIKEN"
+    ],
+    "slug": "research-riken",
+    "domain": "www.riken.jp",
+    "file": "research-riken.png",
+    "source": "https://www.riken.jp/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "Fraunhofer Institute for Integrated Circuits",
+      "Fraunhofer IIS",
+      "Fraunhofer Institute for Integrated Circuits IIS"
+    ],
+    "slug": "research-fraunhofer-iis",
+    "domain": "www.iis.fraunhofer.de",
+    "file": "research-fraunhofer-iis.svg",
+    "source": "https://www.iis.fraunhofer.de/content/dam/iis/iis.svg"
+  },
+  {
+    "names": [
+      "National Acoustic Laboratories"
+    ],
+    "slug": "research-nal",
+    "domain": "www.nal.gov.au",
+    "file": "research-nal.png",
+    "source": "https://www.nal.gov.au/wp-content/themes/nal/assets/images/favicon/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "National Institute of Information and Communications Technology"
+    ],
+    "slug": "research-nict",
+    "domain": "www.nict.go.jp",
+    "file": "research-nict.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.nict.go.jp&sz=128"
+  },
+  {
+    "names": [
+      "CEA"
+    ],
+    "slug": "research-cea",
+    "domain": "www.cea.fr",
+    "file": "research-cea.jpg",
+    "source": "https://www.cea.fr/PublishingImages/cea.jpg"
+  },
+  {
+    "names": [
+      "Fraunhofer Institute for Digital Media Technology"
+    ],
+    "slug": "research-fraunhofer-idmt",
+    "domain": "www.idmt.fraunhofer.de",
+    "file": "research-fraunhofer-idmt.svg",
+    "source": "https://www.idmt.fraunhofer.de/content/dam/idmt/pictures/logos/idmt.svg"
+  },
+  {
+    "names": [
+      "Fraunhofer-Gesellschaft"
+    ],
+    "slug": "research-fraunhofer",
+    "domain": "www.fraunhofer.de",
+    "file": "research-fraunhofer.png",
+    "source": "https://www.fraunhofer.de/static/css/fraunhofer/resources/img/favicons/apple-touch-icon_180x180.png"
+  },
+  {
+    "names": [
+      "HUN-REN"
+    ],
+    "slug": "research-hunren",
+    "domain": "hun-ren.hu",
+    "file": "research-hunren.png",
+    "source": "https://hun-ren.hu/static/frontend/imgs/hun_ren_logo_vertikalis_web_EN.png"
+  },
+  {
+    "names": [
+      "INSERM"
+    ],
+    "slug": "research-inserm",
+    "domain": "www.inserm.fr",
+    "file": "research-inserm.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.inserm.fr&sz=128"
+  },
+  {
+    "names": [
+      "IRCAM"
+    ],
+    "slug": "research-ircam",
+    "domain": "www.ircam.fr",
+    "file": "research-ircam.ico",
+    "source": "https://www.ircam.fr/favicon.ico?favicon.f27e267d.ico"
+  },
+  {
+    "names": [
+      "NECTEC"
+    ],
+    "slug": "research-nectec",
+    "domain": "www.nectec.or.th",
+    "file": "research-nectec.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.nectec.or.th&sz=128"
+  },
+  {
+    "names": [
+      "Institute of Science Tokyo"
+    ],
+    "slug": "research-science-tokyo",
+    "domain": "www.isct.ac.jp",
+    "file": "research-science-tokyo.svg",
+    "source": "https://www.isct.ac.jp/icon.svg"
+  },
+  {
+    "names": [
+      "Barcelona Supercomputing Center"
+    ],
+    "slug": "research-bsc",
+    "domain": "www.bsc.es",
+    "file": "research-bsc.ico",
+    "source": "https://www.bsc.es/sites/default/files/public/favicon_0.ico"
+  },
+  {
+    "names": [
+      "Institute of Software, Chinese Academy of Sciences"
+    ],
+    "slug": "research-iscas",
+    "domain": "is.cas.cn",
+    "file": "research-iscas.png",
+    "source": "https://www.google.com/s2/favicons?domain=is.cas.cn&sz=128"
+  },
+  {
+    "names": [
+      "CIFAR"
+    ],
+    "slug": "research-cifar",
+    "domain": "cifar.ca",
+    "file": "research-cifar.png",
+    "source": "https://cifar.ca/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "Korea Electronics Technology Institute"
+    ],
+    "slug": "research-keti",
+    "domain": "www.keti.re.kr",
+    "file": "research-keti.png",
+    "source": "https://www.keti.re.kr/img/main/logo.png?uniquetime=2026929129"
+  },
+  {
+    "names": [
+      "Electronics and Telecommunications Research Institute"
+    ],
+    "slug": "research-etri",
+    "domain": "www.etri.re.kr",
+    "file": "research-etri.jpg",
+    "source": "https://www.etri.re.kr/images/eng/common/logo.jpg"
+  },
+  {
+    "names": [
+      "Romanian Academy"
+    ],
+    "slug": "research-romanian-academy",
+    "domain": "acad.ro",
+    "file": "research-romanian-academy.ico",
+    "source": "https://acad.ro/institutia/img/favicon.ico"
+  }
+]

@@ -1,5 +1,11 @@
 # Interspeech 2026 LLM Wiki
 
+[![Interspeech 2026 Research Wiki — Paper digests. Connected ideas. Ready for your agent.](public/readme-banner.png)](https://interspeech-2026-wiki.vercel.app)
+
+**[Website ↗](https://interspeech-2026-wiki.vercel.app) · [LinkedIn — Wei-Ren Lan ↗](https://www.linkedin.com/in/weiren-lan/) · [Email](mailto:weirenlan.tw@gmail.com)**
+
+Search papers, read digests, and browse research areas, institutions, and code links in the [live research wiki](https://interspeech-2026-wiki.vercel.app). Built by **Wei-Ren Lan**, an AI architect and engineer with eight years in speech AI. Website development and reuse: [WEBSITE.md](WEBSITE.md).
+
 > An open, agent-searchable knowledge base of [Interspeech 2026](https://www.isca-archive.org/interspeech_2026/index.html) papers — built in the [OKF / llm-wiki](https://github.com/karpathy) style so you can clone it and ask **Claude Code / Codex / any coding agent** questions about this year's speech research.
 
 **Why this exists**
@@ -12,6 +18,19 @@
 ## Quick start (humans)
 
 Browse the [paper table](#papers-with-open-source-code) below, the [categories](#browse-by-category), the topic index at [`wiki/index.md`](wiki/index.md), or find research groups and companies in [`wiki/institutions.md`](wiki/institutions.md) (機構索引).
+
+## Run or reuse the website
+
+The Next.js website source is included in this repository. Use Node.js 22 or later:
+
+```bash
+git clone https://github.com/MIBlue119/interspeech-2026-wiki.git
+cd interspeech-2026-wiki
+npm ci
+npm run dev
+```
+
+Open http://localhost:3000. No AI API keys are required. Read [WEBSITE.md](WEBSITE.md) for building, deploying, branding your fork, agent exports, and content conventions. Website code uses the [MIT license](LICENSE); wiki/data use the separate [content license](LICENSE-CONTENT).
 
 ## Browse by category
 

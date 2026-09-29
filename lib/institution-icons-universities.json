@@ -1,0 +1,586 @@
+[
+  {
+    "names": [
+      "University of Quebec",
+      "Université du Québec"
+    ],
+    "slug": "uni-uquebec-ca",
+    "domain": "uquebec.ca",
+    "file": "uni-uquebec-ca.png",
+    "source": "https://www.uquebec.ca/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Moratuwa"
+    ],
+    "slug": "uni-uom-lk",
+    "domain": "uom.lk",
+    "file": "uni-uom-lk.png",
+    "source": "https://www.uom.lk/sites/default/files/favicon_0.ico"
+  },
+  {
+    "names": [
+      "University of Eastern Finland"
+    ],
+    "slug": "uni-uef-fi",
+    "domain": "uef.fi",
+    "file": "uni-uef-fi.png",
+    "source": "https://www.uef.fi/themes/custom/uef/images/favicons/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Bern",
+      "University of Berne"
+    ],
+    "slug": "uni-unibe-ch",
+    "domain": "unibe.ch",
+    "file": "uni-unibe-ch.png",
+    "source": "https://www.unibe.ch/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Bath"
+    ],
+    "slug": "uni-bath-ac-uk",
+    "domain": "bath.ac.uk",
+    "file": "uni-bath-ac-uk.png",
+    "source": "https://www.bath.ac.uk/lens/127/assets/university-of-bath/images/favicon/apple/apple-touch-icon-152x152.png"
+  },
+  {
+    "names": [
+      "Wuhan University"
+    ],
+    "slug": "uni-whu-edu-cn",
+    "domain": "whu.edu.cn",
+    "file": "uni-whu-edu-cn.png",
+    "source": "https://www.whu.edu.cn/new2024/images/favicon.png"
+  },
+  {
+    "names": [
+      "Xinjiang University"
+    ],
+    "slug": "uni-xju-edu-cn",
+    "domain": "xju.edu.cn",
+    "file": "uni-xju-edu-cn.png",
+    "source": "https://www.xju.edu.cn/favicon.ico"
+  },
+  {
+    "names": [
+      "ETH Zurich"
+    ],
+    "slug": "uni-ethz-ch",
+    "domain": "ethz.ch",
+    "file": "uni-ethz-ch.png",
+    "source": "https://www.ethz.ch/etc/designs/ethz/img/icons/ETH-APP-Icons-Theme-white/192-xxxhpdi.png"
+  },
+  {
+    "names": [
+      "Nagoya University"
+    ],
+    "slug": "uni-nagoya-u-ac-jp",
+    "domain": "nagoya-u.ac.jp",
+    "file": "uni-nagoya-u-ac-jp.png",
+    "source": "https://www.nagoya-u.ac.jp/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Chinese Academy of Sciences"
+    ],
+    "slug": "uni-ucas-ac-cn",
+    "domain": "ucas.ac.cn",
+    "file": "uni-ucas-ac-cn.png",
+    "source": "https://www.ucas.ac.cn/publish/xww/images/icon1.png"
+  },
+  {
+    "names": [
+      "Kyoto University"
+    ],
+    "slug": "uni-kyoto-u-ac-jp",
+    "domain": "kyoto-u.ac.jp",
+    "file": "uni-kyoto-u-ac-jp.png",
+    "source": "https://www.kyoto-u.ac.jp/themes/custom/camphor/images/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "University of Sheffield"
+    ],
+    "slug": "uni-sheffield-ac-uk",
+    "domain": "sheffield.ac.uk",
+    "file": "uni-sheffield-ac-uk.png",
+    "source": "https://www.sheffield.ac.uk/themes/custom/uos_public/favicon.ico"
+  },
+  {
+    "names": [
+      "Bielefeld University"
+    ],
+    "slug": "uni-uni-bielefeld-de",
+    "domain": "uni-bielefeld.de",
+    "file": "uni-uni-bielefeld-de.png",
+    "source": "https://www.uni-bielefeld.de/(cache-forever,mtime=1641997392)/assets/img/favicons/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "McGill University"
+    ],
+    "slug": "uni-mcgill-ca",
+    "domain": "mcgill.ca",
+    "file": "uni-mcgill-ca.png",
+    "source": "https://www.mcgill.ca/sites/all/themes/coltrane19/favicon.ico"
+  },
+  {
+    "names": [
+      "Technical University of Munich",
+      "Technische Universitat Munchen"
+    ],
+    "slug": "uni-tum-de",
+    "domain": "tum.de",
+    "file": "uni-tum-de.png",
+    "source": "https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/favicons/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Maryland",
+      "University of Maryland, College Park"
+    ],
+    "slug": "uni-umd-edu",
+    "domain": "umd.edu",
+    "file": "uni-umd-edu.png",
+    "source": "https://www.umd.edu/default/static/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Southampton"
+    ],
+    "slug": "uni-southampton-ac-uk",
+    "domain": "southampton.ac.uk",
+    "file": "uni-southampton-ac-uk.png",
+    "source": "https://www.southampton.ac.uk/themes/custom/drupal_endeavour/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Texas at Austin",
+      "UT Austin"
+    ],
+    "slug": "uni-utexas-edu",
+    "domain": "utexas.edu",
+    "file": "uni-utexas-edu.png",
+    "source": "https://www.utexas.edu/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "Aalto University"
+    ],
+    "slug": "uni-aalto-fi",
+    "domain": "aalto.fi",
+    "file": "uni-aalto-fi.png",
+    "source": "https://www.aalto.fi/sites/default/files/favicons/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "Concordia University"
+    ],
+    "slug": "uni-concordia-ca",
+    "domain": "concordia.ca",
+    "file": "uni-concordia-ca.png",
+    "source": "https://www.concordia.ca/etc/designs/concordia/clientlibs/img/favicons/favicon-32x32.png"
+  },
+  {
+    "names": [
+      "Georgia Institute of Technology"
+    ],
+    "slug": "uni-gatech-edu",
+    "domain": "gatech.edu",
+    "file": "uni-gatech-edu.png",
+    "source": "https://www.gatech.edu/themes/custom/gatech/favicon.ico"
+  },
+  {
+    "names": [
+      "Nankai University"
+    ],
+    "slug": "uni-nankai-edu-cn",
+    "domain": "nankai.edu.cn",
+    "file": "uni-nankai-edu-cn.png",
+    "source": "https://www.nankai.edu.cn/_upload/site/01/08/264/webIcon.png"
+  },
+  {
+    "names": [
+      "Radboud University"
+    ],
+    "slug": "uni-ru-nl",
+    "domain": "ru.nl",
+    "file": "uni-ru-nl.png",
+    "source": "https://www.ru.nl/core/misc/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Electronic Science and Technology of China"
+    ],
+    "slug": "uni-uestc-edu-cn",
+    "domain": "uestc.edu.cn",
+    "file": "uni-uestc-edu-cn.png",
+    "source": "https://www.uestc.edu.cn/images/1.png"
+  },
+  {
+    "names": [
+      "University of Texas at Dallas"
+    ],
+    "slug": "uni-utdallas-edu",
+    "domain": "utdallas.edu",
+    "file": "uni-utdallas-edu.png",
+    "source": "https://www.utdallas.edu/wp-content/themes/oberon/images/favicon/favicon.svg"
+  },
+  {
+    "names": [
+      "EPFL"
+    ],
+    "slug": "uni-epfl-ch",
+    "domain": "epfl.ch",
+    "file": "uni-epfl-ch.png",
+    "source": "https://www.epfl.ch/wp-content/themes/wp-theme-2018/assets/favicons/favicon.ico"
+  },
+  {
+    "names": [
+      "King's College London"
+    ],
+    "slug": "uni-kcl-ac-uk",
+    "domain": "kcl.ac.uk",
+    "file": "uni-kcl-ac-uk.png",
+    "source": "https://www.kcl.ac.uk/favicon.ico"
+  },
+  {
+    "names": [
+      "Inner Mongolia University"
+    ],
+    "slug": "uni-imu-edu-cn",
+    "domain": "imu.edu.cn",
+    "file": "uni-imu-edu-cn.png",
+    "source": "https://www.imu.edu.cn/syx/images/logor.png"
+  },
+  {
+    "names": [
+      "Soongsil University"
+    ],
+    "slug": "uni-ssu-ac-kr",
+    "domain": "ssu.ac.kr",
+    "file": "uni-ssu-ac-kr.png",
+    "source": "https://ssu.ac.kr/wp-content/uploads/2019/07/cropped-favicon-32x32.png"
+  },
+  {
+    "names": [
+      "Indian Institute of Technology Madras",
+      "Indian Institute of Technology, Madras",
+      "IIT Madras"
+    ],
+    "slug": "uni-iitm-ac-in",
+    "domain": "iitm.ac.in",
+    "file": "uni-iitm-ac-in.png",
+    "source": "https://www.iitm.ac.in/themes/custom/iitm/favicon.ico"
+  },
+  {
+    "names": [
+      "Universite de Lorraine",
+      "Université de Lorraine",
+      "University of Lorraine"
+    ],
+    "slug": "uni-univ-lorraine-fr",
+    "domain": "univ-lorraine.fr",
+    "file": "uni-univ-lorraine-fr.png",
+    "source": "https://www.univ-lorraine.fr/wp-content/uploads/2020/12/favicon.png"
+  },
+  {
+    "names": [
+      "University of Groningen"
+    ],
+    "slug": "uni-rug-nl",
+    "domain": "rug.nl",
+    "file": "uni-rug-nl.png",
+    "source": "https://www.rug.nl/_definition/shared/images/favicons/apple-touch-icon-57x57.png"
+  },
+  {
+    "names": [
+      "National Taiwan Normal University"
+    ],
+    "slug": "uni-ntnu-edu-tw",
+    "domain": "ntnu.edu.tw",
+    "file": "uni-ntnu-edu-tw.png",
+    "source": "https://www.ntnu.edu.tw/cherry_images/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Sydney"
+    ],
+    "slug": "uni-sydney-edu-au",
+    "domain": "sydney.edu.au",
+    "file": "uni-sydney-edu-au.png",
+    "source": "https://www.sydney.edu.au/etc.clientlibs/corporate-commons/clientlibs/foundation/resources/corporate-frontend/assets/img/favicon/favicon-16x16.png"
+  },
+  {
+    "names": [
+      "Chung-Ang University"
+    ],
+    "slug": "uni-cau-ac-kr",
+    "domain": "cau.ac.kr",
+    "file": "uni-cau-ac-kr.png",
+    "source": "https://www.cau.ac.kr/cau2021/type/common/img/common/ico_favicon.ico"
+  },
+  {
+    "names": [
+      "City University of Hong Kong"
+    ],
+    "slug": "uni-cityu-edu-hk",
+    "domain": "cityu.edu.hk",
+    "file": "uni-cityu-edu-hk.png",
+    "source": "https://www.cityu.edu.hk/-/media/project/cityuhk/shared/settings/favicon.ico?rev=76479cdf9a794a2295fe48dedc0753a7"
+  },
+  {
+    "names": [
+      "Ewha Womans University"
+    ],
+    "slug": "uni-ewha-ac-kr",
+    "domain": "ewha.ac.kr",
+    "file": "uni-ewha-ac-kr.png",
+    "source": "https://www.ewha.ac.kr/_res/ewha/img/favicon/apple-icon-57x57.png"
+  },
+  {
+    "names": [
+      "Korea University"
+    ],
+    "slug": "uni-korea-ac-kr",
+    "domain": "korea.ac.kr",
+    "file": "uni-korea-ac-kr.png",
+    "source": "https://www.korea.ac.kr/favicon.ico"
+  },
+  {
+    "names": [
+      "National University of Defense Technology"
+    ],
+    "slug": "uni-nudt-edu-cn",
+    "domain": "nudt.edu.cn",
+    "file": "uni-nudt-edu-cn.png",
+    "source": "https://www.nudt.edu.cn/images/favicon.ico"
+  },
+  {
+    "names": [
+      "National University of Singapore"
+    ],
+    "slug": "uni-nus-edu-sg",
+    "domain": "nus.edu.sg",
+    "file": "uni-nus-edu-sg.png",
+    "source": "https://www.nus.edu.sg/Cwp/NUS/Html/base/images/favicon.ico"
+  },
+  {
+    "names": [
+      "Universita degli Studi di Palermo",
+      "Università degli Studi di Palermo",
+      "University of Palermo"
+    ],
+    "slug": "uni-unipa-it",
+    "domain": "unipa.it",
+    "file": "uni-unipa-it.png",
+    "source": "https://skin-new.unipa.it/images/favicon.ico"
+  },
+  {
+    "names": [
+      "University of California, Los Angeles",
+      "University of California Los Angeles",
+      "UCLA"
+    ],
+    "slug": "uni-ucla-edu",
+    "domain": "ucla.edu",
+    "file": "uni-ucla-edu.png",
+    "source": "https://www.ucla.edu/img/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "University of Toronto"
+    ],
+    "slug": "uni-utoronto-ca",
+    "domain": "utoronto.ca",
+    "file": "uni-utoronto-ca.png",
+    "source": "https://www.utoronto.ca/themes/custom/bootstrap_uoft/images/favicons/favicon.ico"
+  },
+  {
+    "names": [
+      "Xi'an Jiaotong-Liverpool University"
+    ],
+    "slug": "uni-xjtlu-edu-cn",
+    "domain": "xjtlu.edu.cn",
+    "file": "uni-xjtlu-edu-cn.png",
+    "source": "https://www.xjtlu.edu.cn/favicon.ico"
+  },
+  {
+    "names": [
+      "Chongqing University of Posts and Telecommunications"
+    ],
+    "slug": "uni-cqupt-edu-cn",
+    "domain": "cqupt.edu.cn",
+    "file": "uni-cqupt-edu-cn.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.cqupt.edu.cn&sz=128"
+  },
+  {
+    "names": [
+      "Fudan University"
+    ],
+    "slug": "uni-fudan-edu-cn",
+    "domain": "fudan.edu.cn",
+    "file": "uni-fudan-edu-cn.png",
+    "source": "https://www.fudan.edu.cn/_upload/tpl/00/0e/14/template14/images/favicon.ico"
+  },
+  {
+    "names": [
+      "Gwangju Institute of Science and Technology"
+    ],
+    "slug": "uni-gist-ac-kr",
+    "domain": "gist.ac.kr",
+    "file": "uni-gist-ac-kr.png",
+    "source": "https://www.gist.ac.kr/common/img/favicon.ico"
+  },
+  {
+    "names": [
+      "Hangzhou Dianzi University"
+    ],
+    "slug": "uni-hdu-edu-cn",
+    "domain": "hdu.edu.cn",
+    "file": "uni-hdu-edu-cn.png",
+    "source": "https://www.hdu.edu.cn/_upload/tpl/02/12/530/template530/favicon.ico"
+  },
+  {
+    "names": [
+      "Indraprastha Institute of Information Technology Delhi",
+      "IIIT-Delhi"
+    ],
+    "slug": "uni-iiitd-ac-in",
+    "domain": "iiitd.ac.in",
+    "file": "uni-iiitd-ac-in.png",
+    "source": "https://www.iiitd.ac.in/sites/default/files/style1coloricon_0.png"
+  },
+  {
+    "names": [
+      "Michigan State University"
+    ],
+    "slug": "uni-msu-edu",
+    "domain": "msu.edu",
+    "file": "uni-msu-edu.png",
+    "source": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/shared/logos/favicon.ico"
+  },
+  {
+    "names": [
+      "Politecnico di Torino"
+    ],
+    "slug": "uni-polito-it",
+    "domain": "polito.it",
+    "file": "uni-polito-it.png",
+    "source": "https://www.polito.it/themes/custom/polito_customizations/favicon.ico"
+  },
+  {
+    "names": [
+      "Sun Yat-sen University"
+    ],
+    "slug": "uni-sysu-edu-cn",
+    "domain": "sysu.edu.cn",
+    "file": "uni-sysu-edu-cn.png",
+    "source": "https://www.sysu.edu.cn/favicon.ico"
+  },
+  {
+    "names": [
+      "Technische Universitat Braunschweig",
+      "TU Braunschweig"
+    ],
+    "slug": "uni-tu-braunschweig-de",
+    "domain": "tu-braunschweig.de",
+    "file": "uni-tu-braunschweig-de.png",
+    "source": "https://www.tu-braunschweig.de/typo3conf/ext/tu_braunschweig/Resources/Public/Images/Icons/favicon.ico"
+  },
+  {
+    "names": [
+      "Texas A&M University"
+    ],
+    "slug": "uni-tamu-edu",
+    "domain": "tamu.edu",
+    "file": "uni-tamu-edu.png",
+    "source": "https://www.tamu.edu/_files/icons/favicon/apple-touch-icon-57x57.png"
+  },
+  {
+    "names": [
+      "Universidad Politecnica de Madrid"
+    ],
+    "slug": "uni-upm-es",
+    "domain": "upm.es",
+    "file": "uni-upm-es.png",
+    "source": "https://www.upm.es/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Bremen"
+    ],
+    "slug": "uni-uni-bremen-de",
+    "domain": "uni-bremen.de",
+    "file": "uni-uni-bremen-de.png",
+    "source": "https://www.uni-bremen.de/_assets/8ec6f74154680cbbd6366024eea31e0b/Icons/favicon.ico"
+  },
+  {
+    "names": [
+      "University of Florida"
+    ],
+    "slug": "uni-ufl-edu",
+    "domain": "ufl.edu",
+    "file": "uni-ufl-edu.png",
+    "source": "https://www.ufl.edu/wp-content/uploads/sites/5/2022/02/favicon-blue_1.png"
+  },
+  {
+    "names": [
+      "University of Tsukuba"
+    ],
+    "slug": "uni-tsukuba-ac-jp",
+    "domain": "tsukuba.ac.jp",
+    "file": "uni-tsukuba-ac-jp.png",
+    "source": "https://www.tsukuba.ac.jp/assets/img/common/favicon.ico"
+  },
+  {
+    "names": [
+      "Waseda University"
+    ],
+    "slug": "uni-waseda-jp",
+    "domain": "waseda.jp",
+    "file": "uni-waseda-jp.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.waseda.jp&sz=128"
+  },
+  {
+    "names": [
+      "Korea Advanced Institute of Science and Technology",
+      "Korea Advanced Institute of Science & Technology"
+    ],
+    "slug": "kaist",
+    "domain": "kaist.ac.kr",
+    "file": "kaist.png",
+    "source": "https://www.google.com/s2/favicons?domain=kaist.ac.kr&sz=128"
+  },
+  {
+    "names": [
+      "UNSW",
+      "UNSW Sydney"
+    ],
+    "slug": "unsw",
+    "domain": "unsw.edu.au",
+    "file": "unsw.png",
+    "source": "https://www.google.com/s2/favicons?domain=unsw.edu.au&sz=128"
+  },
+  {
+    "names": [
+      "NTHU"
+    ],
+    "slug": "nthu",
+    "domain": "nthu.edu.tw",
+    "file": "nthu.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.nthu.edu.tw&sz=64"
+  },
+  {
+    "names": [
+      "Chinese University of Hong Kong-Shenzhen"
+    ],
+    "slug": "cuhk-shenzhen",
+    "domain": "cuhk.edu.cn",
+    "file": "cuhk-shenzhen.png",
+    "source": "https://www.google.com/s2/favicons?domain=cuhk.edu.cn&sz=128"
+  }
+]

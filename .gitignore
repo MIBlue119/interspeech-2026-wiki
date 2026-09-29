@@ -12,3 +12,17 @@ bin/
 data/related/papers.json
 data/related/candidates.jsonl
 data/related/raw/
+.gstack/
+
+# Next.js website
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local credentials
+.env
+.env.*
+!.env.example

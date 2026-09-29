@@ -1,0 +1,295 @@
+[
+  {
+    "names": [
+      "Adobe Research"
+    ],
+    "slug": "co-adobe-research",
+    "domain": "research.adobe.com",
+    "file": "co-adobe-research.png",
+    "source": "https://www.google.com/s2/favicons?domain=research.adobe.com&sz=128"
+  },
+  {
+    "names": [
+      "AGIBOT"
+    ],
+    "slug": "co-agibot",
+    "domain": "agibot.com",
+    "file": "co-agibot.png",
+    "source": "https://agibot.com/favicon.ico"
+  },
+  {
+    "names": [
+      "AISpeech",
+      "AISpeech Ltd",
+      "AISpeech Co., Ltd"
+    ],
+    "slug": "co-aispeech",
+    "domain": "aispeech.com",
+    "file": "co-aispeech.png",
+    "source": "https://aispeech.com/favicon.ico"
+  },
+  {
+    "names": [
+      "Alibaba Group",
+      "Alibaba"
+    ],
+    "slug": "alibaba",
+    "domain": "alibabagroup.com",
+    "file": "co-alibaba.png",
+    "source": "https://static.alibabagroup.com/static/favicon.ico"
+  },
+  {
+    "names": [
+      "AppTek"
+    ],
+    "slug": "co-apptek",
+    "domain": "apptek.com",
+    "file": "co-apptek.png",
+    "source": "https://cdn.prod.website-files.com/5d137fc02d63f363757f50e5/5f05d18d4c06e40bc16e4db3_app-sq.png"
+  },
+  {
+    "names": [
+      "Argmax"
+    ],
+    "slug": "co-argmax",
+    "domain": "argmaxinc.com",
+    "file": "co-argmax.png",
+    "source": "https://cdn.prod.website-files.com/677fd5c33a098b58d447e17b/678ec87cee622d2cf3df38e6_App.png"
+  },
+  {
+    "names": [
+      "ByteDance"
+    ],
+    "slug": "bytedance",
+    "domain": "bytedance.com",
+    "file": "co-bytedance.png",
+    "source": "https://www.bytedance.com/#embedded-favicon"
+  },
+  {
+    "names": [
+      "Cisco",
+      "Cisco Systems"
+    ],
+    "slug": "co-cisco",
+    "domain": "cisco.com",
+    "file": "co-cisco.png",
+    "source": "https://www.google.com/s2/favicons?domain=cisco.com&sz=128"
+  },
+  {
+    "names": [
+      "CyberAgent"
+    ],
+    "slug": "co-cyberagent",
+    "domain": "cyberagent.co.jp",
+    "file": "co-cyberagent.png",
+    "source": "https://d5jbsor3m9rwa.cloudfront.net/files/user/img/common/ogp/favicon.ico?v=1506600546&v=1506600546"
+  },
+  {
+    "names": [
+      "Google DeepMind"
+    ],
+    "slug": "co-deepmind",
+    "domain": "deepmind.google",
+    "file": "co-deepmind.png",
+    "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_2x_96dp.png"
+  },
+  {
+    "names": [
+      "Dolby Laboratories"
+    ],
+    "slug": "co-dolby",
+    "domain": "dolby.com",
+    "file": "co-dolby.png",
+    "source": "https://www.dolby.com/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "Factored AI"
+    ],
+    "slug": "co-factored",
+    "domain": "factored.ai",
+    "file": "co-factored.png",
+    "source": "https://cdn.prod.website-files.com/673e584365dc85b813c0e0d7/679d14bb8d4afe012e1e296a_fai-webclip.png"
+  },
+  {
+    "names": [
+      "iFLYTEK"
+    ],
+    "slug": "co-iflytek",
+    "domain": "iflytek.com",
+    "file": "co-iflytek.png",
+    "source": "https://www.iflytek.com/en/favicon.png"
+  },
+  {
+    "names": [
+      "Josh Talks"
+    ],
+    "slug": "co-josh-talks",
+    "domain": "joshtalks.com",
+    "file": "co-josh-talks.png",
+    "source": "https://www.joshtalks.com/wp-content/uploads/2022/06/josh-logo.svg"
+  },
+  {
+    "names": [
+      "Kuaishou Technology"
+    ],
+    "slug": "co-kuaishou",
+    "domain": "kuaishou.com",
+    "file": "co-kuaishou.png",
+    "source": "https://static.yximgs.com/udata/pkg/EE-PA-PUBLIC/ico/favicon.ico"
+  },
+  {
+    "names": [
+      "Li Auto"
+    ],
+    "slug": "co-li-auto",
+    "domain": "lixiang.com",
+    "file": "co-li-auto.png",
+    "source": "https://s.ampmake.com/fed/m01/lixiang3/favicon.ico"
+  },
+  {
+    "names": [
+      "LY Corporation"
+    ],
+    "slug": "co-ly",
+    "domain": "lycorp.co.jp",
+    "file": "co-ly.png",
+    "source": "https://www.lycorp.co.jp/assets/images/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "Meeami Technologies"
+    ],
+    "slug": "co-meeami",
+    "domain": "meeamitech.com",
+    "file": "co-meeami.png",
+    "source": "https://cdn.prod.website-files.com/67f90c2320aa27e2692a004d/682aafc93520fbfb6f1f3baa_256-256.png"
+  },
+  {
+    "names": [
+      "Mitsubishi Electric Research Laboratories"
+    ],
+    "slug": "co-merl",
+    "domain": "merl.com",
+    "file": "co-merl.png",
+    "source": "https://merl.com/apple-touch-icon.png"
+  },
+  {
+    "names": [
+      "Modality.AI"
+    ],
+    "slug": "co-modality",
+    "domain": "modality.ai",
+    "file": "co-modality.png",
+    "source": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s7gMdXmeUDyirb3KQdBk9HM0b8SMyLA4CdTSfNgvQXP9IyJNXtRBrCHUVCVBrDhvbKv0JxmMYGMdQaBVYSxwkrvF3w-QeaHGNnjuLbnEFc_wmZ7WeDbStVZPj-kqjK-tFDnr_GC3VS-K-NJ8nivrOufCiK9PDUk15sck7DWCxL6GhHYqAKzs_xutuw=w16383"
+  },
+  {
+    "names": [
+      "NAVER Cloud",
+      "NAVER Cloud Corporation"
+    ],
+    "slug": "co-naver-cloud",
+    "domain": "navercloudcorp.com",
+    "file": "co-naver-cloud.png",
+    "source": "https://navercloudcorp.com/img/navercloud_favicon.ico"
+  },
+  {
+    "names": [
+      "nyra health"
+    ],
+    "slug": "co-nyra",
+    "domain": "nyra.health",
+    "file": "co-nyra.png",
+    "source": "https://www.nyra.health/images/648e600748dec1f207d82338_favicon.jpg"
+  },
+  {
+    "names": [
+      "OPPO"
+    ],
+    "slug": "co-oppo",
+    "domain": "oppo.com",
+    "file": "co-oppo.png",
+    "source": "https://www.oppo.com/jimu/oppo-site/resources/images/favicon.ico"
+  },
+  {
+    "names": [
+      "Qifu Technology"
+    ],
+    "slug": "co-qifu",
+    "domain": "qifu.tech",
+    "file": "co-qifu.png",
+    "source": "https://qifu.tech/favicon.ico"
+  },
+  {
+    "names": [
+      "Sarvam AI"
+    ],
+    "slug": "co-sarvam",
+    "domain": "sarvam.ai",
+    "file": "co-sarvam.png",
+    "source": "https://www.sarvam.ai/favicon.svg"
+  },
+  {
+    "names": [
+      "SB Intuitions"
+    ],
+    "slug": "co-sb-intuitions",
+    "domain": "sbintuitions.co.jp",
+    "file": "co-sb-intuitions.png",
+    "source": "https://www.sbintuitions.co.jp/assets/img/common/logo-sb-intuitions.svg"
+  },
+  {
+    "names": [
+      "Smallest.ai"
+    ],
+    "slug": "co-smallest",
+    "domain": "smallest.ai",
+    "file": "co-smallest.png",
+    "source": "https://framerusercontent.com/images/8aGg1mfHwnBJJYiECyUmneAyRVA.png"
+  },
+  {
+    "names": [
+      "Spotify"
+    ],
+    "slug": "co-spotify",
+    "domain": "spotify.com",
+    "file": "co-spotify.png",
+    "source": "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"
+  },
+  {
+    "names": [
+      "StepFun"
+    ],
+    "slug": "co-stepfun",
+    "domain": "stepfun.com",
+    "file": "co-stepfun.png",
+    "source": "https://www.stepfun.com/step_favicon.svg"
+  },
+  {
+    "names": [
+      "Telefonica"
+    ],
+    "slug": "co-telefonica",
+    "domain": "telefonica.com",
+    "file": "co-telefonica.png",
+    "source": "https://www.telefonica.com/wp-content/themes/telefonica-theme/img/png/favicon-DE.png"
+  },
+  {
+    "names": [
+      "Treble Technologies"
+    ],
+    "slug": "co-treble",
+    "domain": "treble.tech",
+    "file": "co-treble.png",
+    "source": "https://www.treble.tech/favicon.png"
+  },
+  {
+    "names": [
+      "Uniphore"
+    ],
+    "slug": "co-uniphore",
+    "domain": "uniphore.com",
+    "file": "co-uniphore.png",
+    "source": "https://www.uniphore.com/wp-content/uploads/2025/12/cropped-Uniphore%E2%80%93Bug%E2%80%93Gradient%E2%80%93Light-192x192.webp"
+  }
+]
