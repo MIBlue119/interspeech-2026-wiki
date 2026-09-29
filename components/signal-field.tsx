@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { categoryName } from "@/lib/catalog";
+import { ArrowDownRight } from "lucide-react";
+import { categories, categoryName } from "@/lib/catalog";
 
 // A visual index: every small square represents a paper, grouped by category.
 // The waveform is an abstract speech motif, not a recording or a measured signal.
@@ -11,7 +12,7 @@ export function SignalField({
   return (
     <div className="signal-art">
       <div className="signal-caption">
-        <span>THE SPEECH RESEARCH FRONTIER</span>
+        <span>EXPLORE RESEARCH AREAS</span>
         <span>IS / 26</span>
       </div>
       <div className="signal-plot">
@@ -54,11 +55,14 @@ export function SignalField({
             key={category.name}
             href={`/?category=${category.name}#explore`}
             title={`${categoryName(category.name)} · ${category.count} papers`}
-            aria-label={`${categoryName(category.name)}, ${category.count} papers`}
+            aria-label={`Explore ${category.count} papers in ${categoryName(category.name)}`}
             className="corpus-band"
           >
-            <span className="corpus-code">
-              {String(i + 1).padStart(2, "0")}
+            <span className="corpus-label">
+              <span>{categories[category.name]?.short || categoryName(category.name)}</span>
+            </span>
+            <span className="corpus-destination" aria-hidden="true">
+              {categoryName(category.name)} · {category.count} papers <ArrowDownRight size={13} />
             </span>
             <span className="corpus-cells" aria-hidden="true">
               {Array.from({ length: category.count }, (_, j) => (
@@ -70,7 +74,7 @@ export function SignalField({
       </div>
       <div className="signal-caption bottom">
         <span>1 MARK = 1 PAPER</span>
-        <span>14 CONNECTED RESEARCH AREAS ↗</span>
+        <span>14 RESEARCH AREAS</span>
       </div>
     </div>
   );

@@ -143,7 +143,7 @@ export function Explorer({ papers }: { papers: Paper[] }) {
       <div className="section-heading">
         <div>
           <div className="eyebrow">THE COLLECTION</div>
-          <h2>A starting point for your next idea.</h2>
+          <h2>{selectedAreas.length === 1 ? categoryName(selectedAreas[0]) : "A starting point for your next idea."}</h2>
         </div>
         <span className="collection-label">READ. CONNECT. BUILD.</span>
       </div>

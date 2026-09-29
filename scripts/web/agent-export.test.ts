@@ -10,6 +10,7 @@ import { GET as getGuide } from '../../app/llms.txt/route';
 import { copyTextToClipboard, researchPrompt } from '../../components/agent-tools';
 import { createFilteredAgentBrief, type FilterSelection } from '../../lib/agent-selection';
 import { getPapers } from '../../lib/papers';
+import { createPaperHandoff } from '../../lib/paper-handoff';
 
 test('every canonical paper exports all metadata, provenance and unchanged compiled body', () => {
   const ids = getAgentPaperIds();
@@ -60,11 +61,66 @@ test('agent prompts point to implemented endpoints and set evidence boundaries',
     assert.match(prompt, /wiki_frontmatter\.confidence/);
     assert.match(prompt, /abstract-only/);
     assert.match(prompt, /https:\/\/doi\.org/);
-    assert.match(prompt, /do not download PDFs/);
     assert.match(prompt, /Download and parse the catalog programmatically/);
     assert.match(prompt, /do not paste the entire catalog/);
   }
   assert.ok(researchPrompt('lee26g_interspeech').includes(agentUrl('papers/lee26g_interspeech/markdown.md')));
+});
+
+// These are generated-payload contracts, not proof that a recipient model obeys
+// them. Exercise all entry points so a shared policy cannot disappear unnoticed.
+test('guide and recipient payloads permit original evidence without fabricating access', () => {
+  const paper = getPapers().find(p => p.id === 'xu26o_interspeech')!;
+  const selection: FilterSelection = { query: 'streaming ASR', categories: ['asr'], institutions: [], organizationTypes: [], hasResources: false };
+  const payloads = {
+    guide: getLlmsText(),
+    homepage: researchPrompt(),
+    targeted: researchPrompt(paper.id, paper.title),
+    filtered: createFilteredAgentBrief({ papers: [paper], selection, canonicalUrl: agentUrl('?q=streaming') }),
+    handoff: createPaperHandoff({ id: paper.id, title: paper.title, markdown: getAgentMarkdown(paper.id)! }),
+  };
+  for (const [name, payload] of Object.entries(payloads)) {
+    assert.match(payload, /(?:retrieve|read)[^.\n]*original PDF/i, `${name}: original evidence is actionable`);
+    assert.match(payload, /pdf_url/);
+    assert.match(payload, /wiki_frontmatter\.pdf/);
+    assert.match(payload, /(?:DOI|doi\.org)/);
+    assert.doesNotMatch(payload, /(?:do not|never) (?:fetch|download) (?:source )?PDFs[.;]/i, `${name}: no unconditional PDF ban`);
+    assert.doesNotMatch(payload, /Use only (?:this |the )?(?:public wiki|included evidence)/i);
+    assert.match(payload, /(?:unavailable|access fails)/i);
+    assert.match(payload, /(?:continue|proceed)[^.\n]*digest/i, `${name}: unavailable PDF does not block help`);
+    assert.match(payload, /(?:does not mean you (?:have )?read|not your access)/i, `${name}: provenance is not source access`);
+    assert.match(payload, /(?:Never claim|Never invent)[^.\n]*(?:PDF|source access)/i);
+    for (const concept of [/Mermaid/i, /(?:experiment|experimental).*setup/i, /baseline/i, /metric/i, /(?:direction|units)/i, /(?:relative|absolute)/i, /abstract-only/i]) {
+      assert.match(payload, concept, `${name}: technical analysis contract ${concept}`);
+    }
+  }
+});
+
+test('discovery budgets coexist with frozen IDs and bounded prioritization', () => {
+  const ids = ['xu26o_interspeech', 'andrusenko26_interspeech', 'yang26h_interspeech'];
+  const selection: FilterSelection = { query: 'streaming ASR', categories: ['asr'], institutions: [], organizationTypes: [], hasResources: false };
+  const selected = ids.map(id => getPapers().find(p => p.id === id)!);
+  const brief = createFilteredAgentBrief({ papers: selected, selection, canonicalUrl: agentUrl('?q=streaming') });
+  const scope = JSON.parse(brief.match(/```json\n([\s\S]*?)\n```/)![1]);
+  assert.deepEqual(scope.paper_ids, ids);
+  // Related links exist in the supplied digests but must not become selected IDs.
+  assert.ok(getAgentMarkdown(ids[0])!.includes('chien26_interspeech.md'));
+  assert.ok(!scope.paper_ids.includes('chien26_interspeech'));
+  assert.deepEqual([...brief.matchAll(/^- Paper ID: (.+)$/gm)].map(match => match[1].replace(/\\_/g, '_')), ids);
+  for (const payload of [researchPrompt(), getLlmsText(), brief]) {
+    assert.match(payload, /(?:up to|at most) 5\b/i);
+    assert.match(payload, /(?:up to|at most) 3[^.\n]*PDFs/i);
+    assert.match(payload, /(?:do not|never)[^.\n]*(?:bulk-download|download all PDFs)/i);
+    assert.match(payload, /(?:human|frozen|selected)[^.\n]*(?:scope|IDs|selection)/i);
+  }
+  assert.match(researchPrompt(), /no topic/i);
+  assert.match(researchPrompt(), /Do not retrieve PDFs[^.\n]*generic overview/i);
+  assert.match(brief, /remaining IDs[^.\n]*pending/i);
+  assert.match(brief, /PDF[^.\n]*does not expand[^.\n]*scope/i);
+  assert.match(brief, /(?:ask|before)[^.\n]*expanding/i);
+  assert.match(brief, /(?:not|Do not) rank[^.\n]*incompatible/i);
+  assert.match(brief, /browsing is unavailable[^.\n]*metadata[^.\n]*TL;DRs/i);
+  assert.match(researchPrompt(), /browsing is unavailable[^.\n]*do not invent/i);
 });
 
 test('filtered brief freezes every supplied match and exact filters without full digests', () => {
