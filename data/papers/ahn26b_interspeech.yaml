@@ -20,6 +20,6 @@ funding:
   - "Institute of Information & Communications Technology Planning & Evaluation"
   - "Ministry of Science and ICT"
 code:
-    url: https://github.com/openai/whisper
+    url: ""
     license: ""
 open_to_collaboration: false

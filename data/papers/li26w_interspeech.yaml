@@ -28,6 +28,6 @@ funding:
   - "Internal Project Fund from Shenzhen Research Institute of Big Data"
   - "Program for Guangdong Introducing Innovative and Enterpreneurial Teams"
 code:
-    url: https://github.com/microsoft/unilm
+    url: ""
     license: ""
 open_to_collaboration: false

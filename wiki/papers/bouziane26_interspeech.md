@@ -65,7 +65,7 @@ Speech and ML researchers building unified multi-task audio backbones should rea
 
 ## Code
 
-- https://github.com/speechbrain/speechbrain/tree/develop/recipes/CommonVoice/SENSE
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

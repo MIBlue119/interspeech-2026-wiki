@@ -65,7 +65,7 @@ Researchers and engineers working on multimodal affective computing or clinical 
 
 ## Code
 
-- https://github.com/wenet-e2e/wenet
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

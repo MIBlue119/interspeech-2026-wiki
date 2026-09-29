@@ -19,6 +19,6 @@ funding:
   - "Data Sciences Institute"
   - "Linguistics Graduate Research Award at the University of Toronto"
 code:
-    url: https://github.com/facebookresearch/fairseq
+    url: ""
     license: ""
 open_to_collaboration: false

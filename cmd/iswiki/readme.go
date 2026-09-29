@@ -31,7 +31,7 @@ func cmdReadme(_ []string) error {
 	var b strings.Builder
 	fmt.Fprintf(&b, "\n_%d papers indexed · %d with open-source code — [add one](CONTRIBUTING.md)_\n\n", len(papers), len(withCode))
 	if len(withCode) > 0 {
-		b.WriteString("| Paper | Authors | Code | Wiki |\n|---|---|---|---|\n")
+		b.WriteString("| Paper | Authors | Category | Labels | Code | Wiki |\n|---|---|---|---|---|---|\n")
 		for _, p := range withCode {
 			authors := strings.Join(p.Authors, ", ")
 			if len(p.Authors) > 3 {
@@ -41,8 +41,16 @@ func cmdReadme(_ []string) error {
 			if p.DOI != "" {
 				link = "https://doi.org/" + p.DOI
 			}
-			fmt.Fprintf(&b, "| [%s](%s) | %s | [code](%s) | [`%s`](wiki/papers/%s.md) |\n",
-				p.Title, link, authors, p.Code.URL, p.ID, p.ID)
+			category := ""
+			if p.Category != "" {
+				category = "`" + p.Category + "`"
+			}
+			labels := ""
+			if len(p.Labels) > 0 {
+				labels = "`" + strings.Join(p.Labels, "` `") + "`"
+			}
+			fmt.Fprintf(&b, "| [%s](%s) | %s | %s | %s | [code](%s) | [`%s`](wiki/papers/%s.md) |\n",
+				p.Title, link, authors, category, labels, p.Code.URL, p.ID, p.ID)
 		}
 	} else {
 		b.WriteString("_No open-source entries yet — be the first: fill `code.url` in your paper's yaml and open a PR._\n")

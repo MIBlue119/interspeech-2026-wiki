@@ -17,6 +17,6 @@ labels:
 institutions:
   - "Avignon Universite"
 code:
-    url: https://github.com/speechbrain/speechbrain/tree/develop/recipes/CommonVoice/SENSE
+    url: ""
     license: ""
 open_to_collaboration: false
