@@ -3,6 +3,7 @@ id: he26b_interspeech
 category: enhancement-separation
 labels: [generative-model]
 institutions: ["Harbin Institute of Technology"]
+code: https://SpatialAudioDemo.github.io/Spec2Spatial/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

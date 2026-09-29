@@ -22,5 +22,6 @@ institutions:
   - "Universita degli Studi di Palermo"
 code:
     url: https://github.com/SALT-Research/SHALLOW
+    stars: 4
     license: ""
 open_to_collaboration: false

@@ -2,6 +2,7 @@
 id: bhagtani26_interspeech
 category: speech-llm-dialogue
 institutions: ["Purdue University", "Ishiki Labs"]
+code: https://github.com/ishikilabsinc/context_aware_modeling
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -67,7 +68,7 @@ Researchers and engineers building multi-party conversational voice agents will 
 
 ## Code
 
-- https://github.com/ishikilabsinc/context_aware_modeling/tree/main
+- https://github.com/ishikilabsinc/context_aware_modeling
 
 ## Applications
 

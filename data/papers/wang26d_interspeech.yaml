@@ -21,5 +21,6 @@ institutions:
   - "Initi-AI Ltd"
 code:
     url: https://github.com/Eps-Acoustic-Revolution-Lab/EAR_VAE
+    stars: 98
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: gao26_interspeech
 category: speaker
 labels: [efficient-on-device, robustness-noise]
 institutions: ["Soochow University", "Beijing Jiaotong University", "Renmin University of China", "Qilu University of Technology", "Shandong Academy of Sciences"]
+code: https://github.com/peter112231/NoiseLoRA-SV
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

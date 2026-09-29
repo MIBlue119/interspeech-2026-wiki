@@ -3,6 +3,7 @@ id: pekarekrosin26_interspeech
 category: asr
 labels: [dataset-or-benchmark-release, robustness-noise]
 institutions: ["University of Hamburg"]
+code: https://huggingface.co/datasets/TPekarekRosin/modicol
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

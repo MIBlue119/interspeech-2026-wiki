@@ -2,6 +2,7 @@
 id: xiao26b_interspeech
 category: health-clinical
 institutions: ["University of Sheffield"]
+code: https://github.com/yaoxiao1999/weighted-speech-graphs
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

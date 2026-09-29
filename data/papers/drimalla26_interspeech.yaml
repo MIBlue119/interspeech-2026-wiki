@@ -19,5 +19,6 @@ funding:
   - "Deutsche Forschungsgemeinschaft"
 code:
     url: https://github.com/mbp-lab/tsst-speech-stress
+    stars: 2
     license: ""
 open_to_collaboration: false

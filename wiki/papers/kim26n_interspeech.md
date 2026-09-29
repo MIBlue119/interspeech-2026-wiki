@@ -3,6 +3,7 @@ id: kim26n_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, streaming-real-time]
 institutions: ["Pohang University of Science and Technology", "Intus"]
+code: https://github.com/KYE-Postech/CCAP
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

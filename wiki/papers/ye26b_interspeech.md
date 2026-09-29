@@ -3,6 +3,7 @@ id: ye26b_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Tsinghua University", "StepFun"]
+code: https://thuhcsi.github.io/interspeech2026-F5Emphasis
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

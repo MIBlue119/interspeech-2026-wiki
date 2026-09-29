@@ -3,6 +3,7 @@ id: mori26_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Utsunomiya University"]
+code: https://www.speech-lab.org/hiroki/IS2026/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

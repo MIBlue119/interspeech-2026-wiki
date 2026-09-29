@@ -20,5 +20,6 @@ funding:
   - "Ministry of Electronics and Information Technology"
 code:
     url: https://github.com/HeisenBug-07/Interspeech2026_SpCL
+    stars: 1
     license: ""
 open_to_collaboration: false

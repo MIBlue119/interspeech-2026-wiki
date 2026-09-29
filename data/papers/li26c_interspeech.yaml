@@ -20,5 +20,6 @@ institutions:
   - "Hong Kong University of Science and Technology"
 code:
     url: https://github.com/herbertLJY/MSRCodec
+    stars: 14
     license: ""
 open_to_collaboration: false

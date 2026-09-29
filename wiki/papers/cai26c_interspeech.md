@@ -2,6 +2,7 @@
 id: cai26c_interspeech
 category: asr
 institutions: ["Chinese University of Hong Kong", "Tsinghua University"]
+code: https://github.com/caiyunrui/MT-GRPO
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

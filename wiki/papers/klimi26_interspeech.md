@@ -3,6 +3,7 @@ id: klimi26_interspeech
 category: asr
 labels: [low-resource, multilingual, self-supervised]
 institutions: ["Athena Research Center"]
+code: https://github.com/athena-ilsp/Dialect-Adaptation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: correa26_interspeech
 category: tts
 labels: [self-supervised, generative-model]
 institutions: ["State University of Campinas", "Grenoble Alpes University", "National Centre for Scientific Research", "Grenoble Institute of Technology", "Inria"]
+code: https://github.com/uuembodiedsocialai/FaceDiffuser
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: wan26b_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Shanghai Jiao Tong University", "Ping An Technology", "Shanghai Jiao Tong University Chongqing Artificial Intelligence Research Institute"]
+code: https://wancc-p.github.io/EoLoRA/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

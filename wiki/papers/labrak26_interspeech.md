@@ -3,6 +3,7 @@ id: labrak26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release, generative-model]
 institutions: ["Idiap Research Institute", "University of Zurich", "Ohio State University", "Universite de Toulon", "Aix Marseille Univ", "LIS", "CNRS", "Stenograf", "Johns Hopkins University Bloomberg School of Public Health", "Colorado School of Mines", "Allegheny Health Network", "University of Pittsburgh Medical Center", "ILLS", "Solventum", "Carnegie Mellon University"]
+code: https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: kang26_interspeech
 category: speaker
 labels: [self-supervised]
 institutions: ["Korea University"]
+code: https://github.com/slp-lab-research/vam_ecapa
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

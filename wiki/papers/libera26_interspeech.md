@@ -3,6 +3,7 @@ id: libera26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised, streaming-real-time, generative-model]
 institutions: ["Concordia University", "Mila-Quebec AI Institute", "Universite Laval"]
+code: https://lucadellalib.github.io/wavslm-web/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

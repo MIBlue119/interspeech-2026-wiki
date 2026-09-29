@@ -3,6 +3,7 @@ id: zhang26aa_interspeech
 category: asr
 labels: [multilingual]
 institutions: ["Alibaba Group", "University of Macau", "Chinese University of Hong Kong"]
+code: https://github.com/ChenX17/PART
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

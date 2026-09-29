@@ -29,5 +29,6 @@ institutions:
   - "Shanghai Lingguang Zhaxian Technology"
 code:
     url: https://github.com/ASLP-lab/OmniCodec
+    stars: 50
     license: ""
 open_to_collaboration: false

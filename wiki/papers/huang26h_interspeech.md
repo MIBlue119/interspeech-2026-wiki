@@ -3,6 +3,7 @@ id: huang26h_interspeech
 category: asr
 labels: [multilingual]
 institutions: ["Shanghai Jiao Tong University"]
+code: https://github.com/HartmannPsi/Reliability-Aware-Score
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

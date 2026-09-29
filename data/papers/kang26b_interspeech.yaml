@@ -20,5 +20,6 @@ institutions:
   - "Institute of Science Tokyo"
 code:
     url: https://github.com/york1to/cross-power-is-all-you-need
+    stars: 3
     license: ""
 open_to_collaboration: false

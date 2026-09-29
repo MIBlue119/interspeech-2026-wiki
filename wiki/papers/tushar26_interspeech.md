@@ -3,6 +3,7 @@ id: tushar26_interspeech
 category: deepfake-security
 labels: [self-supervised, generative-model]
 institutions: ["Singapore Institute of Technology", "Duke Kunshan University"]
+code: https://github.com/pranavtushar/SSL-CVA
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

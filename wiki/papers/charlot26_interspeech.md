@@ -3,6 +3,7 @@ id: charlot26_interspeech
 category: speaker
 labels: [multilingual, self-supervised]
 institutions: ["École Normale Supérieure", "École des Hautes Études en Sciences Sociales", "CNRS", "PSL University", "Aix-Marseille University"]
+code: https://github.com/LAAC-LSCP/VTC
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

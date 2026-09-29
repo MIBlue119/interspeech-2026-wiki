@@ -3,6 +3,7 @@ id: frangiadaki26_interspeech
 category: asr
 labels: [low-resource, self-supervised, dataset-or-benchmark-release]
 institutions: ["Athena Research Center"]
+code: https://github.com/athena-ilsp/lyrics-transcription
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

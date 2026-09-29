@@ -3,6 +3,7 @@ id: bai26_interspeech
 category: tts
 labels: [low-resource, dataset-or-benchmark-release, generative-model]
 institutions: ["Xiamen University", "Alibaba Group"]
+code: https://anonymous.4open.science/api/repo/YueOpera_Benchmark-6914/file/index.html
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

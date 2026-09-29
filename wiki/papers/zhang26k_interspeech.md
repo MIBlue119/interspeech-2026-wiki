@@ -2,6 +2,7 @@
 id: zhang26k_interspeech
 category: enhancement-separation
 institutions: ["Chinese University of Hong Kong, Shenzhen", "Nanjing University", "Shenzhen Loop Area Institute"]
+code: https://github.com/wenet-e2e/WeSep
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

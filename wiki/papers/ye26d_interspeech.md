@@ -3,6 +3,7 @@ id: ye26d_interspeech
 category: speech-coding
 labels: [efficient-on-device, generative-model]
 institutions: ["Xiaomi"]
+code: https://github.com/winlaic/ZipCodec
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

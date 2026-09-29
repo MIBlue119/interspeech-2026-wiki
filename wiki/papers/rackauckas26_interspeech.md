@@ -2,6 +2,7 @@
 id: rackauckas26_interspeech
 category: speech-llm-dialogue
 institutions: ["RoleGaku", "Columbia University"]
+code: https://github.com/zackrack/AdaptLingo
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: fukuda26_interspeech
 category: paralinguistics-emotion
 institutions: ["Keio University", "University of Tokyo"]
+code: https://github.com/takamichi-lab/selfvoice-playback-imagery-gap
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

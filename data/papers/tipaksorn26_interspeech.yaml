@@ -21,5 +21,6 @@ funding:
   - "NSTDA"
 code:
     url: https://github.com/CAI-NECTEC/AV-FlowSep
+    stars: 2
     license: ""
 open_to_collaboration: false

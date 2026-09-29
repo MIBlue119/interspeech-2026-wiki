@@ -3,6 +3,7 @@ id: galhotra26_interspeech
 category: paralinguistics-emotion
 labels: [dataset-or-benchmark-release]
 institutions: ["University of Texas at Austin"]
+code: https://github.com/dailyactivitylab/InfantDistressClassification.git
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

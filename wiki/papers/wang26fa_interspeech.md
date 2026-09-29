@@ -3,6 +3,7 @@ id: wang26fa_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["Johns Hopkins University", "Amazon"]
+code: https://github.com/YuzheWangjhu/StanceBench
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

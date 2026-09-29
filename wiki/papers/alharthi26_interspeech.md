@@ -3,6 +3,7 @@ id: alharthi26_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Carnegie Mellon University"]
+code: https://github.com/DareenHarthi/rivet
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: charlot26b_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
 institutions: ["École Normale Supérieure", "École des Hautes Études en Sciences Sociales", "Centre National de la Recherche Scientifique", "Université PSL", "Aix-Marseille University"]
+code: https://github.com/LAAC-LSCP/addressee
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

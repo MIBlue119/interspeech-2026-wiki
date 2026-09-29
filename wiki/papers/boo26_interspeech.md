@@ -3,6 +3,7 @@ id: boo26_interspeech
 category: deepfake-security
 labels: [multilingual]
 institutions: ["Ewha Womans University"]
+code: https://github.com/ewha-mmai/referee
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

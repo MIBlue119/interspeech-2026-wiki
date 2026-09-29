@@ -3,6 +3,7 @@ id: kim26k_interspeech
 category: health-clinical
 labels: [robustness-noise]
 institutions: ["MODULABS", "Wonkwang University"]
+code: https://github.com/RSC-Toolkit/QLung
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

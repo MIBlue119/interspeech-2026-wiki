@@ -3,6 +3,7 @@ id: ijjada26_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, streaming-real-time]
 institutions: ["Meeami Technologies"]
+code: https://github.com/wavenorm123/WaveNorm_AGC
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

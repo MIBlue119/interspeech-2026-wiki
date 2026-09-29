@@ -2,6 +2,7 @@
 id: woszczyk26_interspeech
 category: resources-evaluation
 institutions: ["Iconic", "Technische Universitat Munchen", "KTH Royal Institute of Technology", "Imperial College London"]
+code: https://github.com/domiwk/domain-aware-tts-eval
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

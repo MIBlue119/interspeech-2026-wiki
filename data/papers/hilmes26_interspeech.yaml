@@ -24,5 +24,6 @@ funding:
   - "Federal Ministry of Education and Research"
 code:
     url: https://github.com/rwth-i6/returnn-experiments/tree/master/2026-memristor-pe
+    stars: 163
     license: ""
 open_to_collaboration: false

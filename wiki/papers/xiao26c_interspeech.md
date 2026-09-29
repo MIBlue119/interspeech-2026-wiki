@@ -3,6 +3,7 @@ id: xiao26c_interspeech
 category: deepfake-security
 labels: [self-supervised]
 institutions: ["University of Stuttgart", "National Institute of Informatics", "German Research Center for Artificial Intelligence", "Technical University of Berlin"]
+code: https://github.com/XIAOYixuan/ESP
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

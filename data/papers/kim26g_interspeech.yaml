@@ -24,5 +24,6 @@ funding:
   - "High-Performance Computing Support Project"
 code:
     url: https://github.com/yskim3271/LaCo-SENet
+    stars: 8
     license: ""
 open_to_collaboration: false

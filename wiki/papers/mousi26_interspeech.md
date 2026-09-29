@@ -3,6 +3,7 @@ id: mousi26_interspeech
 category: resources-evaluation
 labels: [multilingual, dataset-or-benchmark-release]
 institutions: ["Qatar Computing Research Institute", "Hamad Bin Khalifa University"]
+code: https://huggingface.co/datasets/QCRI/M2CQA-S
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: hernandez26b_interspeech
 category: phonetics-linguistics
 labels: [multilingual, self-supervised]
 institutions: ["Friedrich-Alexander-Universitat Erlangen-Nurnberg", "Universidad de Antioquia"]
+code: https://github.com/abnerLing/PhonoQ-2.0
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

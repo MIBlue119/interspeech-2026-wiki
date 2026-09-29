@@ -26,5 +26,6 @@ institutions:
   - "NVIDIA"
 code:
     url: https://github.com/RoyChao19477/RT-SEMamba
+    stars: 8
     license: ""
 open_to_collaboration: false

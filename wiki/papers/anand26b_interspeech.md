@@ -3,6 +3,7 @@ id: anand26b_interspeech
 category: tts
 labels: [multilingual, dataset-or-benchmark-release]
 institutions: ["Indian Institute of Technology Madras", "AI4Bharat", "Josh Talks"]
+code: https://huggingface.co/datasets/ai4bharat/SpeechArenaBench/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

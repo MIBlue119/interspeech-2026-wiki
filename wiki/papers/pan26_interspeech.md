@@ -3,6 +3,7 @@ id: pan26_interspeech
 category: deepfake-security
 labels: [self-supervised, robustness-noise]
 institutions: ["Agency for Science, Technology and Research"]
+code: https://github.com/pandarialTJU/Mix-Frame-Post-Training
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -67,7 +68,7 @@ Researchers and practitioners working on audio deepfake detection or speech foun
 
 ## Code
 
-- https://github.com/pandarialTJU/Mix-FramePost-Training.git
+- https://github.com/pandarialTJU/Mix-Frame-Post-Training
 
 ## Applications
 

@@ -3,6 +3,7 @@ id: zuazo26_interspeech
 category: asr
 labels: [low-resource]
 institutions: ["University of the Basque Country", "Basque Center on Cognition, Brain and Language", "Ikerbasque", "Universite libre de Bruxelles", "WEL Research Institute"]
+code: https://github.com/hitz-zentroa/meg-phone-decoding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

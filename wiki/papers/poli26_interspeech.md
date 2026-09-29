@@ -3,6 +3,7 @@ id: poli26_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
 institutions: ["École Normale Supérieure", "École des Hautes Études en Sciences Sociales", "Centre National de la Recherche Scientifique", "Université PSL", "University of Toronto"]
+code: https://benchmarks.cognitive-ml.fr/discophon
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

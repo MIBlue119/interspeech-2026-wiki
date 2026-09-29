@@ -2,6 +2,7 @@
 id: kirkham26_interspeech
 category: phonetics-linguistics
 institutions: ["Lancaster University"]
+code: https://github.com/samkirkham/PyPhonPlan
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

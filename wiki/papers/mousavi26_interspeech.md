@@ -2,6 +2,7 @@
 id: mousavi26_interspeech
 category: speech-llm-dialogue
 institutions: ["Concordia University", "Mila - Quebec AI Institute", "Universite Laval", "Birla Institute of Technology and Science, Pilani"]
+code: https://poonehmousavi.github.io/faithfulness/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

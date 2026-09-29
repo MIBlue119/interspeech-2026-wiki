@@ -17,5 +17,6 @@ institutions:
   - "CyberAgent"
 code:
     url: https://github.com/goombalab/hydra
+    stars: 177
     license: ""
 open_to_collaboration: false

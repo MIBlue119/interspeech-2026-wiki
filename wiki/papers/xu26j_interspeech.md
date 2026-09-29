@@ -3,6 +3,7 @@ id: xu26j_interspeech
 category: resources-evaluation
 labels: [low-resource, dataset-or-benchmark-release]
 institutions: ["Alibaba Group", "Nankai University", "Fudan University"]
+code: https://github.com/RVC-Boss/GPT-SoVITS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

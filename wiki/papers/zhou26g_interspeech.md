@@ -3,6 +3,7 @@ id: zhou26g_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["Alibaba Group", "Tsinghua University", "Fudan University"]
+code: https://fgt7t6g.github.io/AV-SyncBench
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

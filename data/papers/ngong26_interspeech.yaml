@@ -23,5 +23,6 @@ funding:
   - "Department of Interior/Interior Business Center"
 code:
     url: https://github.com/uvm-plaid/dpvc
+    stars: 1
     license: ""
 open_to_collaboration: false

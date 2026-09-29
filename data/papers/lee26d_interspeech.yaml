@@ -17,5 +17,6 @@ institutions:
   - "Sogang University"
 code:
     url: https://github.com/sam-audio-language-model/sam
+    stars: 3
     license: ""
 open_to_collaboration: false

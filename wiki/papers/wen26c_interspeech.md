@@ -2,6 +2,7 @@
 id: wen26c_interspeech
 category: enhancement-separation
 institutions: ["Wuhan University", "Harbin Engineering University", "Guangdong Murora Intelligent Lighting Co., Ltd"]
+code: https://github.com/WwHhYy666/ULA_End_Fire_Robust_ASL
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

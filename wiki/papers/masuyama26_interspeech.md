@@ -2,6 +2,7 @@
 id: masuyama26_interspeech
 category: applications-other
 institutions: ["Mitsubishi Electric Research Laboratories", "University of Surrey"]
+code: https://github.com/merlresearch/s2rnf
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

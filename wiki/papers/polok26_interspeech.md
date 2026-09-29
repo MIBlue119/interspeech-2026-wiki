@@ -3,6 +3,7 @@ id: polok26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release, generative-model]
 institutions: ["Brno University of Technology", "Carnegie Mellon University", "NVIDIA"]
+code: https://github.com/popcornell/FastMSS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

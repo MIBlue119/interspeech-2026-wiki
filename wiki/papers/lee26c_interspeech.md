@@ -3,6 +3,7 @@ id: lee26c_interspeech
 category: translation
 labels: [multilingual, streaming-real-time]
 institutions: ["Seoul National University", "University of Seoul"]
+code: https://naturalflows2st.github.io/naturalflow/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

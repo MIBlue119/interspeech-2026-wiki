@@ -24,5 +24,6 @@ institutions:
   - "SaluteDevices"
 code:
     url: https://github.com/salute-developers/GigaAM
+    stars: 831
     license: ""
 open_to_collaboration: false

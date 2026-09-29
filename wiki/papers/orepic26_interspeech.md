@@ -2,6 +2,7 @@
 id: orepic26_interspeech
 category: tts
 institutions: ["University of Zurich", "University of Neuchâtel"]
+code: https://osf.io/6nxzw/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: tanabu26_interspeech
 category: tts
 labels: [self-supervised]
 institutions: ["University of Tokyo"]
+code: https://github.com/tomoya-san/ssl-gmmvc
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: pang26b_interspeech
 category: paralinguistics-emotion
 labels: [multilingual, dataset-or-benchmark-release]
 institutions: ["Kyoto University", "Agency for Science, Technology, and Research"]
+code: https://github.com/zihaurpang/ERM-MinMaxGAP
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

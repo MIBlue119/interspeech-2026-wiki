@@ -3,6 +3,7 @@ id: chellaf26_interspeech
 category: translation
 labels: [low-resource, multilingual, efficient-on-device]
 institutions: ["Avignon Universite", "Lundi Matin"]
+code: https://huggingface.co/datasets/cchellaf/ABT-SpeechSUM
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

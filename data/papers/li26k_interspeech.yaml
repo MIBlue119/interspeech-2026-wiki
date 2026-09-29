@@ -32,5 +32,6 @@ institutions:
   - "Chinese Academy of Sciences"
 code:
     url: https://github.com/Sslnon/POTSA
+    stars: 1
     license: ""
 open_to_collaboration: false

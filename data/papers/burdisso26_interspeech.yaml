@@ -28,5 +28,6 @@ funding:
   - "EU Horizon 2020 project ELOQUENCE"
 code:
     url: https://github.com/idiap/llm-asr-text-only-adaptation
+    stars: 5
     license: ""
 open_to_collaboration: false

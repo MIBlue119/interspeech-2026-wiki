@@ -2,6 +2,7 @@
 id: golmakani26_interspeech
 category: deepfake-security
 institutions: ["Nijta", "Universite de Lorraine", "CNRS", "Inria", "LORIA"]
+code: https://github.com/Nijta/acoustic-token-admixture
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

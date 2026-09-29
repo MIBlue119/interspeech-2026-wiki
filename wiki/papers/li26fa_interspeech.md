@@ -3,6 +3,7 @@ id: li26fa_interspeech
 category: speaker
 labels: [multilingual, self-supervised]
 institutions: ["Wuhan University", "Chinese University of Hong Kong, Shenzhen", "Duke Kunshan University"]
+code: https://github.com/ZXHY-82/LI-MSV-TidyVoice2026
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

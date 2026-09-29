@@ -3,6 +3,7 @@ id: jiang26e_interspeech
 category: health-clinical
 labels: [low-resource, generative-model]
 institutions: ["Tianjin University", "China Telecom"]
+code: https://jiangyu1205.github.io/Data-Augmentation-for-Alzheimer-s/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

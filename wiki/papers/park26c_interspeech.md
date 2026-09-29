@@ -2,6 +2,7 @@
 id: park26c_interspeech
 category: health-clinical
 institutions: ["NAVER Cloud", "Ewha Womans University"]
+code: https://github.com/vivivic/is26dementia
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: elisha26_interspeech
 category: paralinguistics-emotion
 institutions: ["Spotify", "Queen Mary University of London"]
+code: https://github.com/spotify-research/audiobook-narrations-interspeech
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

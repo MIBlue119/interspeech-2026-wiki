@@ -3,6 +3,7 @@ id: wang26v_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Tsinghua University", "Ant Group"]
+code: https://thuhcsi.github.io/interspeech2026-TC-DBI/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

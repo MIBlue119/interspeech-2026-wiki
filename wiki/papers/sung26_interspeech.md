@@ -3,6 +3,7 @@ id: sung26_interspeech
 category: enhancement-separation
 labels: [self-supervised, robustness-noise]
 institutions: ["National Taiwan University", "Academia Sinica", "Johns Hopkins University", "National Yang Ming Chiao Tung University"]
+code: https://github.com/JohnSung0501/fMRI-Decoding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

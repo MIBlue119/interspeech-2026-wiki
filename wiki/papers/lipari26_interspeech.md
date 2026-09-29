@@ -3,6 +3,7 @@ id: lipari26_interspeech
 category: phonetics-linguistics
 labels: [multilingual, dataset-or-benchmark-release]
 institutions: ["McGill University"]
+code: https://osf.io/m58e3/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

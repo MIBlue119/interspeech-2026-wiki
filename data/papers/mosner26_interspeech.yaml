@@ -28,5 +28,6 @@ funding:
   - "Comunidad de Madrid"
 code:
     url: https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md
+    stars: 1426
     license: ""
 open_to_collaboration: false

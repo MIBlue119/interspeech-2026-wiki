@@ -3,6 +3,7 @@ id: kaneko26_interspeech
 category: tts
 labels: [efficient-on-device, generative-model]
 institutions: ["NTT"]
+code: https://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/meanvoiceflow2/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

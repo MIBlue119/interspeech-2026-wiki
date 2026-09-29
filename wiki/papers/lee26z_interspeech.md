@@ -2,6 +2,7 @@
 id: lee26z_interspeech
 category: audio-understanding
 institutions: ["University of Zurich", "ETH Zurich"]
+code: https://github.com/hwiora/trajectory_variance
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

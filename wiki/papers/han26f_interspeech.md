@@ -3,6 +3,7 @@ id: han26f_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Seoul National University"]
+code: https://github.com/ongdyub/TAP-ETS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

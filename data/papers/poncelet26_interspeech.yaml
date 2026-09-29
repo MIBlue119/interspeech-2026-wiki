@@ -19,6 +19,6 @@ funding:
   - "Flemish Government"
   - "Flanders AI Research Program"
 code:
-    url: https://github.com/nelfproject/NeLF_S2T_Pytorch
+    url: ""
     license: ""
 open_to_collaboration: false

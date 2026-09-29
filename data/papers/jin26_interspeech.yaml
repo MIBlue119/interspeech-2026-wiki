@@ -24,5 +24,6 @@ funding:
   - "The Hong Kong Polytechnic University"
 code:
     url: https://github.com/modelscope/3D-Speaker
+    stars: 3157
     license: ""
 open_to_collaboration: false

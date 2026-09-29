@@ -3,6 +3,7 @@ id: liu26c_interspeech
 category: tts
 labels: [self-supervised, streaming-real-time, generative-model]
 institutions: ["UC Berkeley"]
+code: https://berkeley-speech-group.github.io/StyleStream
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

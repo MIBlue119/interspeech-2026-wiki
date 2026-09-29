@@ -3,6 +3,7 @@ id: thai26_interspeech
 category: asr
 labels: [self-supervised, robustness-noise]
 institutions: ["Nanyang Technological University", "VinUniversity"]
+code: https://github.com/thaivanphat95/robust-atc-asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

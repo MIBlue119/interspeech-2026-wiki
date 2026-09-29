@@ -3,6 +3,7 @@ id: bejugam26_interspeech
 category: enhancement-separation
 labels: [self-supervised, generative-model, robustness-noise]
 institutions: ["Indian Institute of Technology Hyderabad", "Eternal Limited"]
+code: https://siplab-iith.github.io/UFLGAN/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

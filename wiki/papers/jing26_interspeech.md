@@ -2,6 +2,7 @@
 id: jing26_interspeech
 category: resources-evaluation
 institutions: ["Technical University of Munich", "Munich Center for Machine Learning", "Huawei", "Imperial College London"]
+code: https://github.com/KeiKinn/EmoSURA
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

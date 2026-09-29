@@ -22,6 +22,7 @@ funding:
   - "Ministry of Education, Taiwan"
   - "Taiwan Centers of Excellence in Artificial Intelligence"
 code:
-    url: https://github.com/ChenWils/Contrastive
+    url: https://github.com/ChenWils/Contrastive_Audio-Aware_Distillation
+    stars: 3
     license: ""
 open_to_collaboration: false

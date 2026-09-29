@@ -3,6 +3,7 @@ id: zhang26m_interspeech
 category: tts
 labels: [dataset-or-benchmark-release, generative-model]
 institutions: ["ZuoYeBang Technology"]
+code: https://zhangjh915.github.io/PolyInstructTTS-demo/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

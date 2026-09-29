@@ -21,5 +21,6 @@ institutions:
   - "NVIDIA"
 code:
     url: https://github.com/NVIDIA-NeMo/NeMo
+    stars: 18521
     license: ""
 open_to_collaboration: false

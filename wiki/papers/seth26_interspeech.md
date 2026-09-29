@@ -3,6 +3,7 @@ id: seth26_interspeech
 category: speech-llm-dialogue
 labels: [dataset-or-benchmark-release]
 institutions: ["University of Maryland, College Park", "Adobe Research"]
+code: https://cs20s030.github.io/AHA-website/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

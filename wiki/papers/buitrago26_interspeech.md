@@ -3,6 +3,7 @@ id: buitrago26_interspeech
 category: paralinguistics-emotion
 labels: [low-resource, multilingual, self-supervised]
 institutions: ["Barcelona Supercomputing Center", "Universitat Politecnica de Catalunya"]
+code: https://github.com/Pol-Buitrago/cltm-framework
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

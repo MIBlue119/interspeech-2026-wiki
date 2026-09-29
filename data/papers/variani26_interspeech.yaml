@@ -20,5 +20,6 @@ institutions:
   - "Google"
 code:
     url: https://github.com/google-research/mseb/tree/main/mseb
+    stars: 67
     license: ""
 open_to_collaboration: false

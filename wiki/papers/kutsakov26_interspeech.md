@@ -2,6 +2,7 @@
 id: kutsakov26_interspeech
 category: speech-llm-dialogue
 institutions: ["SaluteDevices"]
+code: https://huggingface.co/aisage/GigaChat3.1-Audio-10B-A1.8B
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

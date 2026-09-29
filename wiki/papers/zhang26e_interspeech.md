@@ -3,6 +3,7 @@ id: zhang26e_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Northwestern Polytechnical University", "Kuaishou Technology", "Beijing Institute of Technology", "Chinese Academy of Sciences"]
+code: https://ziyu6.github.io/UniSinger/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -16,5 +16,6 @@ institutions:
   - "Anyreach AI"
 code:
     url: https://github.com/anyreachai/dualturn
+    stars: 11
     license: ""
 open_to_collaboration: false

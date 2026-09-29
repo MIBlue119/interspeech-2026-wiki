@@ -30,5 +30,6 @@ funding:
   - "Volkswagen Foundation"
 code:
     url: https://github.com/MaikeZuefle/DOWIS
+    stars: 13
     license: ""
 open_to_collaboration: false

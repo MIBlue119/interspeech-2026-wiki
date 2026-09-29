@@ -2,6 +2,7 @@
 id: pizarro26_interspeech
 category: deepfake-security
 institutions: ["Ruhr University Bochum", "LKA NRW", "Technische Universität Berlin"]
+code: https://github.com/matiuste/RSF
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

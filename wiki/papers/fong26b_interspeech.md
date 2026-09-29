@@ -3,6 +3,7 @@ id: fong26b_interspeech
 category: speech-llm-dialogue
 labels: [low-resource, multilingual, self-supervised]
 institutions: ["University of Trento", "Fondazione Bruno Kessler"]
+code: https://github.com/X-LANCE/SLAM-LLM
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

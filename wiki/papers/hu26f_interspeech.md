@@ -3,6 +3,7 @@ id: hu26f_interspeech
 category: enhancement-separation
 labels: [efficient-on-device]
 institutions: ["Inner Mongolia University"]
+code: https://github.com/Bream101/ABSE-NET
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

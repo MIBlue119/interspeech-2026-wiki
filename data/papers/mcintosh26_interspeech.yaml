@@ -16,5 +16,6 @@ institutions:
   - "University of Tokyo"
 code:
     url: https://github.com/stephenmac7/mfa-service
+    stars: 1
     license: ""
 open_to_collaboration: false

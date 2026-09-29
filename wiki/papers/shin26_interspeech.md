@@ -2,6 +2,7 @@
 id: shin26_interspeech
 category: enhancement-separation
 institutions: ["Seoul National University", "University of Iowa"]
+code: https://github.com/argaaw/TRUST-TSE
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

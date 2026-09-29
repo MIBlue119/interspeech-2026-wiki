@@ -3,6 +3,7 @@ id: mboungou26_interspeech
 category: enhancement-separation
 labels: [generative-model]
 institutions: ["Universite de Lorraine", "CNRS", "Inria", "LORIA"]
+code: https://github.com/cexauce/AV-CA-DiffUSE
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

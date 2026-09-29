@@ -2,6 +2,7 @@
 id: hjuler26_interspeech
 category: tts
 institutions: ["Queensland University of Technology", "University Grenoble Alpes", "CNRS", "Grenoble INP"]
+code: https://github.com/MajaHjuler/TTS_Listenability
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

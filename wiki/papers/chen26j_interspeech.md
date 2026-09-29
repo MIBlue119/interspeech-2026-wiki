@@ -3,6 +3,7 @@ id: chen26j_interspeech
 category: tts
 labels: [efficient-on-device, generative-model]
 institutions: ["Xi'an Jiaotong University", "Chinese Academy of Sciences"]
+code: https://github.com/pymaster17/Spiking-Vocos
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

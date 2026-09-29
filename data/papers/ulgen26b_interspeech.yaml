@@ -22,5 +22,6 @@ funding:
   - "Office of the Director of National Intelligence"
 code:
     url: https://github.com/rsmlgen/diffanon
+    stars: 1
     license: ""
 open_to_collaboration: false

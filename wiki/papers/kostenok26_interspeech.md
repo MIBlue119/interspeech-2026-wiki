@@ -2,6 +2,7 @@
 id: kostenok26_interspeech
 category: resources-evaluation
 institutions: ["EPFL", "Logitech"]
+code: https://github.com/KostenokLisa/calibration-reasoning-framework
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

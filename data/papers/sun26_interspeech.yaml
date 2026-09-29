@@ -22,5 +22,6 @@ institutions:
   - "University of Texas at Austin"
 code:
     url: https://github.com/stephenmac7/prosodic-abx
+    stars: 2
     license: ""
 open_to_collaboration: false

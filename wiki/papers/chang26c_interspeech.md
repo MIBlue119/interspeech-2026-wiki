@@ -3,6 +3,7 @@ id: chang26c_interspeech
 category: audio-understanding
 labels: [multilingual, self-supervised]
 institutions: ["Massachusetts Institute of Technology", "Amazon"]
+code: https://hf.co/collections/MIT-SLS/usad2
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

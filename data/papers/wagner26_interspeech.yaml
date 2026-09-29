@@ -15,5 +15,6 @@ institutions:
   - "nyra health"
 code:
     url: https://github.com/nyrahealth/CrisperWhisper
+    stars: 1431
     license: ""
 open_to_collaboration: false

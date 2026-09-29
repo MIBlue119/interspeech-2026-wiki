@@ -3,6 +3,7 @@ id: zhang26l_interspeech
 category: audio-understanding
 labels: [dataset-or-benchmark-release, generative-model]
 institutions: ["Hunan University", "Yuelushan Center for Industrial Innovation"]
+code: https://frei-2.github.io/CTMusic
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

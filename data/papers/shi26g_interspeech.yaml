@@ -25,5 +25,6 @@ funding:
   - "Dolby"
 code:
     url: https://github.com/Alexuan/codec_probing_release
+    stars: 3
     license: ""
 open_to_collaboration: false

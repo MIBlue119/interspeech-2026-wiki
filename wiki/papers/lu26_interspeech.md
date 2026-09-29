@@ -3,6 +3,7 @@ id: lu26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["Samsung", "Samsung Electronics"]
+code: https://github.com/Chunhui-Lu/PolyBench
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

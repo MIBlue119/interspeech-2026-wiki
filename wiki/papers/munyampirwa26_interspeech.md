@@ -3,6 +3,7 @@ id: munyampirwa26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["Argmax", "University of California, Los Angeles"]
+code: https://github.com/argmaxinc/OpenBench
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

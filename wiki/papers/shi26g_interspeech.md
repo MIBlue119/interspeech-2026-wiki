@@ -3,6 +3,7 @@ id: shi26g_interspeech
 category: speech-coding
 labels: [self-supervised]
 institutions: ["University of Southern California", "Dolby Laboratories"]
+code: https://github.com/Alexuan/codec_probing_release
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

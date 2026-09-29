@@ -2,6 +2,7 @@
 id: palka26_interspeech
 category: speaker
 institutions: ["Brno University of Technology", "NTT"]
+code: https://github.com/BUTSpeechFIT/DiariZen
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

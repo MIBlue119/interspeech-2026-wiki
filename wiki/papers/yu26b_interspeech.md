@@ -3,6 +3,7 @@ id: yu26b_interspeech
 category: tts
 labels: [efficient-on-device, generative-model]
 institutions: ["Zuoyebang"]
+code: https://yuzuda283.github.io/unified-guidanc%20e-flow-matching/Interspeech2026_demo_samples/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

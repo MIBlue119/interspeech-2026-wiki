@@ -3,6 +3,7 @@ id: li26e_interspeech
 category: speech-coding
 labels: [robustness-noise]
 institutions: ["Wuhan University"]
+code: https://github.com/shaokai1209/FocalSE
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

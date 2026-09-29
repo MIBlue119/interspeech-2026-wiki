@@ -21,5 +21,6 @@ institutions:
   - "NVIDIA"
 code:
     url: https://github.com/nithinraok/preference-asr-bench
+    stars: 2
     license: ""
 open_to_collaboration: false

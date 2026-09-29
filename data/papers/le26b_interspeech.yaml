@@ -24,5 +24,6 @@ institutions:
   - "UNEY"
 code:
     url: https://github.com/khanld/chunkformer
+    stars: 87
     license: ""
 open_to_collaboration: false

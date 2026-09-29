@@ -2,6 +2,7 @@
 id: zhang26v_interspeech
 category: phonetics-linguistics
 institutions: ["University of Southern California"]
+code: https://github.com/pkuzyb/larynx_segmentation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

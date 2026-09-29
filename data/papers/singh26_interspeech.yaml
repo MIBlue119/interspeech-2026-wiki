@@ -24,5 +24,6 @@ institutions:
   - "University of Illinois Urbana-Champaign"
 code:
     url: https://github.com/boson-ai/higgs-audio
+    stars: 8364
     license: ""
 open_to_collaboration: false

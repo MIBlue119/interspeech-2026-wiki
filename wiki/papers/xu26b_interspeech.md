@@ -3,6 +3,7 @@ id: xu26b_interspeech
 category: asr
 labels: [self-supervised]
 institutions: ["RWTH Aachen University", "AppTek"]
+code: https://github.com/rwth-i6/returnn-experiments/tree/master/2026enhance-bestrq
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

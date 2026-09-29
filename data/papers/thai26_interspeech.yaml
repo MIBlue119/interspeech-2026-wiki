@@ -24,5 +24,6 @@ funding:
   - "Aviation Transformation Programme"
 code:
     url: https://github.com/thaivanphat95/robust-atc-asr
+    stars: 1
     license: ""
 open_to_collaboration: false

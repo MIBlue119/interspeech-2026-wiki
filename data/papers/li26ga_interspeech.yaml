@@ -26,5 +26,6 @@ funding:
   - "National Talent Program"
 code:
     url: https://github.com/opeacc/AD
+    stars: 1
     license: ""
 open_to_collaboration: false

@@ -29,8 +29,9 @@ func cmdReadme(_ []string) error {
 			catCount[p.Category]++
 		}
 	}
-	// group rows by category — biggest categories first (matching the
-	// Browse-by-category table), then by title within a category
+	// group rows by category — categories with the most code-linked papers
+	// first (this can differ from the all-papers Browse-by-category order),
+	// then by title within a category
 	sort.SliceStable(withCode, func(i, j int) bool {
 		a, b := withCode[i], withCode[j]
 		if a.Category != b.Category {
@@ -67,8 +68,8 @@ func cmdReadme(_ []string) error {
 			if len(p.Institutions) > 3 {
 				orgs = strings.Join(p.Institutions[:3], ", ") + " …"
 			}
-			fmt.Fprintf(&b, "| [%s](%s) | %s | %s | %s | %s | [code](%s) | [`%s`](wiki/papers/%s.md) |\n",
-				p.Title, link, authors, orgs, category, labels, p.Code.URL, p.ID, p.ID)
+			fmt.Fprintf(&b, "| [%s](%s) | %s | %s | %s | %s | %s | [`%s`](wiki/papers/%s.md) |\n",
+				p.Title, link, authors, orgs, category, labels, codeCell(p), p.ID, p.ID)
 		}
 	} else {
 		b.WriteString("_No open-source entries yet — be the first: fill `code.url` in your paper's yaml and open a PR._\n")
@@ -94,6 +95,49 @@ func cmdReadme(_ []string) error {
 	}
 	fmt.Printf("README.md table regenerated: %d papers, %d with code\n", len(papers), len(withCode))
 	return nil
+}
+
+// codeDisplay turns a code URL into a short display name for the README
+// table: owner/repo for known forges (HF-tagged for Hugging Face), the bare
+// hostname for demo pages and everything else.
+func codeDisplay(url string) string {
+	u := strings.TrimPrefix(strings.TrimPrefix(url, "https://"), "http://")
+	u = strings.TrimPrefix(u, "www.")
+	u = strings.TrimSuffix(u, "/")
+	host, path, _ := strings.Cut(u, "/")
+	parts := strings.Split(path, "/")
+	ownerRepo := func(i int) string {
+		if len(parts) >= i+2 && parts[i] != "" && parts[i+1] != "" {
+			return parts[i] + "/" + strings.TrimSuffix(parts[i+1], ".git")
+		}
+		return ""
+	}
+	switch host {
+	case "github.com", "gitlab.com", "codeberg.org":
+		if or := ownerRepo(0); or != "" {
+			return or
+		}
+	case "huggingface.co":
+		if len(parts) > 0 && (parts[0] == "datasets" || parts[0] == "spaces" || parts[0] == "collections") {
+			if or := ownerRepo(1); or != "" {
+				return or + " (HF)"
+			}
+		}
+		if or := ownerRepo(0); or != "" {
+			return or + " (HF)"
+		}
+	}
+	return host
+}
+
+// codeCell renders the table's Code cell: display name plus the star count
+// for GitHub repos when known.
+func codeCell(p *Paper) string {
+	name := codeDisplay(p.Code.URL)
+	if p.Code.Stars > 0 && strings.HasPrefix(p.Code.URL, "https://github.com/") {
+		name = fmt.Sprintf("%s ★%d", name, p.Code.Stars)
+	}
+	return fmt.Sprintf("[%s](%s)", name, p.Code.URL)
 }
 
 // categoriesBlock renders the per-category counts for the README from the

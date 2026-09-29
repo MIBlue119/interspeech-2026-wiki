@@ -22,5 +22,6 @@ funding:
   - "ANR-3IA Artificial and Natural Intelligence Toulouse Institute ANITI"
 code:
     url: https://github.com/LudovicTuncay/audio-embeddings
+    stars: 8
     license: ""
 open_to_collaboration: false

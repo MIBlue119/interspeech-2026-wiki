@@ -3,6 +3,7 @@ id: yamauchi26_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, generative-model, robustness-noise]
 institutions: ["Asahi Shimbun Company", "Tokyo Woman's Christian University"]
+code: https://github.com/asahi-research/QC-GAN
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

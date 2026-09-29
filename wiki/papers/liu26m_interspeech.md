@@ -3,6 +3,7 @@ id: liu26m_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
 institutions: ["University of Auckland", "Indian Institute of Technology Jammu"]
+code: https://github.com/MaoriEnglish-Codeswitch/MultiEmoVec
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

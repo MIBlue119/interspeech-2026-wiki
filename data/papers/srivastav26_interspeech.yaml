@@ -27,6 +27,7 @@ institutions:
   - "Mistral AI"
   - "OpenAI"
 code:
-    url: https://github.com/huggingface/open_asr_
+    url: https://github.com/huggingface/open_asr_leaderboard
+    stars: 260
     license: ""
 open_to_collaboration: false

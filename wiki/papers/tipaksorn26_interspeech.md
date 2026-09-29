@@ -3,6 +3,7 @@ id: tipaksorn26_interspeech
 category: enhancement-separation
 labels: [generative-model]
 institutions: ["NECTEC", "Thammasat University"]
+code: https://github.com/CAI-NECTEC/AV-FlowSep
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

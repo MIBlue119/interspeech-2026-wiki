@@ -3,6 +3,7 @@ id: zhang26ca_interspeech
 category: paralinguistics-emotion
 labels: [dataset-or-benchmark-release]
 institutions: ["Beijing University of Posts and Telecommunications"]
+code: https://github.com/zmkshakespar/ACR-Net
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

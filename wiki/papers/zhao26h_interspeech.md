@@ -3,6 +3,7 @@ id: zhao26h_interspeech
 category: speech-llm-dialogue
 labels: [dataset-or-benchmark-release]
 institutions: ["Northwestern Polytechnical University"]
+code: https://github.com/zxzhao0/CogAudio-LLM
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

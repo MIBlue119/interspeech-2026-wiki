@@ -3,6 +3,7 @@ id: e26_interspeech
 category: resources-evaluation
 labels: [low-resource, dataset-or-benchmark-release]
 institutions: ["Indian Institute of Science", "National Institute of Technology Karnataka", "Josh Talks", "Manipal Academy of Higher Education", "Indian Institute of Technology Bombay"]
+code: https://www.codabench.org/competitions/13833/?secret_key=1b714e64-0f0d-4e0f-8a3c-be9b3d10f00c#
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: xu26e_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Tencent", "University of Electronic Science and Technology of China"]
+code: https://github.com/vspeech/SCNet
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

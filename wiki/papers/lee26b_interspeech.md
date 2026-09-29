@@ -3,6 +3,7 @@ id: lee26b_interspeech
 category: phonetics-linguistics
 labels: [streaming-real-time]
 institutions: ["University of Southern California"]
+code: https://github.com/lee-jhwn/multimodal-speech-biosignals
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

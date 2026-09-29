@@ -15,6 +15,6 @@ labels:
 institutions:
   - "University of Electro-Communications"
 code:
-    url: https://github.com/UEC-InabaLab/IncrementalR
+    url: https://github.com/UEC-InabaLab/IncrementalRLForSpokenDST
     license: ""
 open_to_collaboration: false

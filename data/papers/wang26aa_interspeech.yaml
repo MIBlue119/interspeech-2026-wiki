@@ -36,5 +36,6 @@ funding:
   - "SJTU Med-X Translational Research Grant"
 code:
     url: https://github.com/vvwangvv/URGENT-MOS
+    stars: 9
     license: ""
 open_to_collaboration: false

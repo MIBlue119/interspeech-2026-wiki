@@ -3,6 +3,7 @@ id: li26q_interspeech
 category: audio-understanding
 labels: [low-resource]
 institutions: ["South China University of Technology"]
+code: https://github.com/cgq2971-afk/FCIAC
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: zhang26j_interspeech
 category: tts
 institutions: ["TU Dresden"]
+code: https://www.vocaltractlab.de/index.php?page=birkholz-supplements
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

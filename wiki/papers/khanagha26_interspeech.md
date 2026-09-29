@@ -3,6 +3,7 @@ id: khanagha26_interspeech
 category: enhancement-separation
 labels: [self-supervised]
 institutions: ["University of Hamburg"]
+code: https://github.com/sp-uhh/rir-encoder
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

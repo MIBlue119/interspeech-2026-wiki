@@ -17,5 +17,6 @@ institutions:
   - "LMU Munich"
 code:
     url: https://github.com/kehanlu/mandarin-wav2vec2
+    stars: 44
     license: ""
 open_to_collaboration: false

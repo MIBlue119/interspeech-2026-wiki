@@ -3,6 +3,7 @@ id: porupski26_interspeech
 category: paralinguistics-emotion
 labels: [multilingual]
 institutions: ["Jožef Stefan Institute", "TransUnion", "University of Zagreb", "University of Ljubljana", "Institute of Contemporary History"]
+code: https://clarinsi.github.io/parlaspeech/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

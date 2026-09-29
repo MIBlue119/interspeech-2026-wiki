@@ -13,5 +13,6 @@ institutions:
   - "CyberAgent"
 code:
     url: https://github.com/CyberAgentAILab/jvs_nonpara_kana
+    stars: 8
     license: ""
 open_to_collaboration: false

@@ -22,5 +22,6 @@ funding:
   - "National Research Foundation of Korea"
 code:
     url: https://github.com/sanghyang00/ur-bert
+    stars: 10
     license: ""
 open_to_collaboration: false

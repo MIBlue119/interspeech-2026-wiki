@@ -3,6 +3,7 @@ id: bartley26_interspeech
 category: asr
 labels: [low-resource, efficient-on-device, self-supervised]
 institutions: ["University of Sheffield"]
+code: https://github.com/c-bartley/el-asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

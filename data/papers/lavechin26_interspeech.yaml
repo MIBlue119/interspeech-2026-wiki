@@ -26,5 +26,6 @@ funding:
   - "National Institutes of Health"
 code:
     url: https://github.com/MarvinLvn/BabAR
+    stars: 17
     license: ""
 open_to_collaboration: false

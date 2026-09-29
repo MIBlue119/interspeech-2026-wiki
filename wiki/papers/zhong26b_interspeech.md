@@ -3,6 +3,7 @@ id: zhong26b_interspeech
 category: health-clinical
 labels: [dataset-or-benchmark-release]
 institutions: ["Radboud University", "Radboud University Medical Center"]
+code: https://github.com/terryyizhongru/B-EarlyPD-Speech
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

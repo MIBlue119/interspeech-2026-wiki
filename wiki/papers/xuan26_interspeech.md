@@ -2,6 +2,7 @@
 id: xuan26_interspeech
 category: deepfake-security
 institutions: ["University of Eastern Finland", "University of Illinois Urbana-Champaign", "University of Southampton", "University of Chinese Academy of Sciences", "University of Science and Technology of China"]
+code: https://github.com/xxuan-acoustics/RiemannSD-Net
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -28,5 +28,6 @@ funding:
   - "Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior"
 code:
     url: https://github.com/uuembodiedsocialai/FaceDiffuser
+    stars: 183
     license: ""
 open_to_collaboration: false

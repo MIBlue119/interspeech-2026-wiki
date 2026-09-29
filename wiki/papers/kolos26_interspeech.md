@@ -3,6 +3,7 @@ id: kolos26_interspeech
 category: deepfake-security
 labels: [generative-model]
 institutions: ["University of Stuttgart"]
+code: https://github.com/katja-kolos/synthetic-speaker-vectors
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

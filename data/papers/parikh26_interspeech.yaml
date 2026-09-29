@@ -19,5 +19,6 @@ funding:
   - "NGF AiNed Fellowship Grants"
 code:
     url: https://github.com/Aditya3107/speechllm-l2-assessment
+    stars: 2
     license: ""
 open_to_collaboration: false

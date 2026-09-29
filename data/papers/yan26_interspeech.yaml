@@ -22,6 +22,7 @@ labels:
 institutions:
   - "Alibaba"
 code:
-    url: https://github.com/alibaba/unifiedaudio
+    url: https://github.com/alibaba/unified-audio
+    stars: 543
     license: ""
 open_to_collaboration: false

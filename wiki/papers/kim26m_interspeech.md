@@ -2,6 +2,7 @@
 id: kim26m_interspeech
 category: deepfake-security
 institutions: ["KAIST", "POSTECH"]
+code: https://byulharang.github.io/PADD/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

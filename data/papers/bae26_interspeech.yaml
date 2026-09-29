@@ -25,5 +25,6 @@ funding:
   - "National Science Foundation"
 code:
     url: https://github.com/JaesungBae/DA-DSQA
+    stars: 9
     license: ""
 open_to_collaboration: false

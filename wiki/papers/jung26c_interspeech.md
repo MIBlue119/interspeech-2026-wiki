@@ -3,6 +3,7 @@ id: jung26c_interspeech
 category: enhancement-separation
 labels: [generative-model]
 institutions: ["Hanyang University"]
+code: https://jinwoo0302.github.io/emkr-demo/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

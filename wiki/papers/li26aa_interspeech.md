@@ -3,6 +3,7 @@ id: li26aa_interspeech
 category: asr
 labels: [robustness-noise]
 institutions: ["Inner Mongolia University", "National Computer Network Emergency Response Technical Team Coordination Center"]
+code: https://anonymous.4open.science/status/Speech-Model-Adaptation-8D45
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

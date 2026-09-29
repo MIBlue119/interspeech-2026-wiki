@@ -2,6 +2,7 @@
 id: dufour26_interspeech
 category: deepfake-security
 institutions: ["Universite de Lorraine", "CNRS", "Inria", "Avignon University"]
+code: https://github.com/OraneD/Speaker-Linkability
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

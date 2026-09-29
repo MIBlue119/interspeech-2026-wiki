@@ -23,5 +23,6 @@ institutions:
   - "University of Rochester"
 code:
     url: https://github.com/Iqra-Eval/MSA_phonetiser
+    stars: 5
     license: ""
 open_to_collaboration: false

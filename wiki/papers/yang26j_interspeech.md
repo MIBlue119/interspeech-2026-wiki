@@ -3,6 +3,7 @@ id: yang26j_interspeech
 category: asr
 labels: [low-resource, self-supervised]
 institutions: ["Wuhan University", "University of Melbourne", "Northwestern Polytechnical University", "University of Quebec"]
+code: https://hf.co/spaces/IqraEval
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

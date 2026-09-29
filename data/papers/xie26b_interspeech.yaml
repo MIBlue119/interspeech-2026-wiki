@@ -30,5 +30,6 @@ institutions:
   - "Huawei Technologies"
 code:
     url: https://github.com/ASLP-lab/FlashTTS
+    stars: 76
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: choi26e_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
 institutions: ["Korea University"]
+code: https://github.com/slp-lab-research/siser.git
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -22,6 +22,6 @@ labels:
 institutions:
   - "National Yang Ming Chiao Tung University"
 code:
-    url: https://github.com/Speech-AI-Research-Center/taigispeech2chinese-subtitlen
+    url: https://github.com/Speech-AI-Research-Center/taigi-speech2chinese-subtitle
     license: ""
 open_to_collaboration: false

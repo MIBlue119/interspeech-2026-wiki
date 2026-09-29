@@ -23,6 +23,7 @@ funding:
   - "Technology Agency of the Czech Republic"
   - "Czech Ministry of Education, Youth and Sports"
 code:
-    url: https://github.com/BUTSpeechFIT/USE
+    url: https://github.com/BUTSpeechFIT/USE_DDP
+    stars: 9
     license: ""
 open_to_collaboration: false

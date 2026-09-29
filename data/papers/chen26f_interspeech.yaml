@@ -22,5 +22,6 @@ funding:
   - "Science and Technology Program of Suzhou City"
 code:
     url: https://github.com/yucongzh/SSCC-Fault-Benchmark
+    stars: 3
     license: ""
 open_to_collaboration: false

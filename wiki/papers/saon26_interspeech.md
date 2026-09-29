@@ -3,6 +3,7 @@ id: saon26_interspeech
 category: asr
 labels: [efficient-on-device]
 institutions: ["IBM"]
+code: https://ibm.biz/˜5pwn29DW4
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

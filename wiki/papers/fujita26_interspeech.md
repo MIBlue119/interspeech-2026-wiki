@@ -3,6 +3,7 @@ id: fujita26_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["NTT"]
+code: https://ntt-hilab-gensp.github.io/IS2026pseudo/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: chen26x_interspeech
 category: speech-llm-dialogue
 institutions: ["Hunan University"]
+code: https://github.com/cfk1009/EgoTTM
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

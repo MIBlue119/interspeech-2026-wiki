@@ -23,5 +23,6 @@ funding:
   - "DFG"
 code:
     url: https://github.com/enesyugan/robust-code-switching-asr
+    stars: 1
     license: ""
 open_to_collaboration: false

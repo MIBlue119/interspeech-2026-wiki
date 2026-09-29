@@ -3,6 +3,7 @@ id: masmolla26_interspeech
 category: asr
 labels: [self-supervised, streaming-real-time]
 institutions: ["Universitat Politecnica de Valencia"]
+code: https://github.com/germol00/streaming_SFMs
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -64,7 +65,7 @@ Speech and ML engineers looking to deploy large off-the-shelf speech foundation 
 
 ## Code
 
-- https://github.com/germol00/streaming
+- https://github.com/germol00/streaming_SFMs
 
 ## Applications
 

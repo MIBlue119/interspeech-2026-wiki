@@ -2,6 +2,7 @@
 id: yan26c_interspeech
 category: asr
 institutions: ["National Taiwan Normal University"]
+code: https://github.com/bicheng1225/AudioSLM
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

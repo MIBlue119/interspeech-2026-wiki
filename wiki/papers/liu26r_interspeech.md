@@ -2,6 +2,7 @@
 id: liu26r_interspeech
 category: paralinguistics-emotion
 institutions: ["Xinjiang University"]
+code: https://github.com/LiuYumeng-Lemon/P-SED
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

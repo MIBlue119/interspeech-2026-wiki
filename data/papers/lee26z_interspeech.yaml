@@ -16,5 +16,6 @@ funding:
   - "Swiss National Science Foundation"
 code:
     url: https://github.com/hwiora/trajectory_variance
+    stars: 1
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: callejas26_interspeech
 category: paralinguistics-emotion
 labels: [low-resource, multilingual, self-supervised]
 institutions: ["Universite Paris-Saclay", "Universidad de Chile", "Sorbonne University"]
+code: https://github.com/sofia-callejas/Multilinguahah
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

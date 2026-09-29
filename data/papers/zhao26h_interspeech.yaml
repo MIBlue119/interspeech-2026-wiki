@@ -20,5 +20,6 @@ institutions:
   - "Northwestern Polytechnical University"
 code:
     url: https://github.com/zxzhao0/CogAudio-LLM
+    stars: 5
     license: ""
 open_to_collaboration: false

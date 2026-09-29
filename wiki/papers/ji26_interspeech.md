@@ -3,6 +3,7 @@ id: ji26_interspeech
 category: enhancement-separation
 labels: [dataset-or-benchmark-release]
 institutions: ["Xiaomi", "Central Conservatory of Music"]
+code: https://github.com/scottishfold0621/ACMID
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: kuzmenko26_interspeech
 category: asr
 labels: [low-resource, multilingual, self-supervised]
 institutions: ["SaluteDevices"]
+code: https://github.com/salute-developers/GigaAM
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

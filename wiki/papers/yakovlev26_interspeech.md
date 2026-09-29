@@ -3,6 +3,7 @@ id: yakovlev26_interspeech
 category: speaker
 labels: [efficient-on-device]
 institutions: ["Palabra AI"]
+code: https://github.com/PalabraAI/redimnet2
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

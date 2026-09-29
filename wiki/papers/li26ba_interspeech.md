@@ -3,6 +3,7 @@ id: li26ba_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Shanghai Jiao Tong University", "Shanghai Innovation Institute"]
+code: https://github.com/xiquan-li/Resonate
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

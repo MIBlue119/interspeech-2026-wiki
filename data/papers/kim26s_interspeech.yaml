@@ -17,5 +17,6 @@ institutions:
   - "KAIST"
 code:
     url: https://github.com/naver-ai/unimambamia-av
+    stars: 4
     license: ""
 open_to_collaboration: false

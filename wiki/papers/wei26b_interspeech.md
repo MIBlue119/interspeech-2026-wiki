@@ -2,6 +2,7 @@
 id: wei26b_interspeech
 category: speaker
 institutions: ["University of Michigan", "National Taiwan University", "University of Southern California"]
+code: https://github.com/wiizzz/nonverbal-sv
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

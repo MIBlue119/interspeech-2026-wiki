@@ -3,6 +3,7 @@ id: manohar26_interspeech
 category: resources-evaluation
 labels: [multilingual]
 institutions: ["Adalat AI"]
+code: https://github.com/adalat-ai-tech/scribe-eval
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

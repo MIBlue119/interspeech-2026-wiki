@@ -3,6 +3,7 @@ id: ren26d_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Shanghai Artificial Intelligence Laboratory", "Tsinghua University"]
+code: https://github.com/Riddae/AuDirector
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

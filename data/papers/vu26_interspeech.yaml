@@ -27,5 +27,6 @@ funding:
   - "AMED"
 code:
     url: https://github.com/cngthnh/meta_see
+    stars: 1
     license: ""
 open_to_collaboration: false

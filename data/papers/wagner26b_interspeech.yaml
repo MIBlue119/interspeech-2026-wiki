@@ -15,5 +15,6 @@ institutions:
   - "nyra health"
 code:
     url: https://github.com/nyrahealth/PINT
+    stars: 1
     license: ""
 open_to_collaboration: false

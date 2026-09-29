@@ -2,6 +2,7 @@
 id: saini26_interspeech
 category: resources-evaluation
 institutions: ["Samsung"]
+code: https://neelam472.github.io/MusicJudge/Supp.pdf
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

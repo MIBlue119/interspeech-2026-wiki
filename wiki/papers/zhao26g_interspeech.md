@@ -3,6 +3,7 @@ id: zhao26g_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["National University of Singapore"]
+code: https://github.com/neuphonic/neutts
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

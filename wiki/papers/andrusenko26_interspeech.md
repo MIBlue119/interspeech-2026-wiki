@@ -3,6 +3,7 @@ id: andrusenko26_interspeech
 category: asr
 labels: [streaming-real-time]
 institutions: ["NVIDIA"]
+code: https://huggingface.co/nvidia/parakeet-unified-en-0.6b
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: moumen26_interspeech
 category: asr
 labels: [efficient-on-device]
 institutions: ["University of Cambridge"]
+code: https://github.com/speechbrain/speechbrain
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

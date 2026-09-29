@@ -3,6 +3,7 @@ id: franz26_interspeech
 category: health-clinical
 labels: [generative-model, robustness-noise]
 institutions: ["Jade University of Applied Sciences", "Carl von Ossietzky Universitat Oldenburg"]
+code: https://svenfranz.github.io/Room-Acoustics-and-Objective-Voice-Quality-in-SLT/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: lin26l_interspeech
 category: resources-evaluation
 labels: [multilingual, dataset-or-benchmark-release]
 institutions: ["Chinese University of Hong Kong", "Li Auto", "Shenzhen Loop Area Institution"]
+code: https://freedomintelligence.github.io/ExpressiveSpeech/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: lee26m_interspeech
 category: speech-llm-dialogue
 institutions: ["Seoul National University", "University of Seoul"]
+code: https://github.com/saga1214/AudioCAD
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

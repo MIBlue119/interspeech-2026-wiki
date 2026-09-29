@@ -2,6 +2,7 @@
 id: stasak26_interspeech
 category: resources-evaluation
 institutions: ["University of Sydney"]
+code: https://github.com/DrBrianStasak/CalliOpeNLP/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

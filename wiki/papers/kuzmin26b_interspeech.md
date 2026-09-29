@@ -3,6 +3,7 @@ id: kuzmin26b_interspeech
 category: deepfake-security
 labels: [streaming-real-time, generative-model]
 institutions: ["Nanyang Technological University", "A*STAR", "Huawei", "Leibniz Research Center", "Chinese University of Hong Kong", "Hong Kong Polytechnic University"]
+code: https://github.com/Plachtaa/StreamVoiceAnon
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -20,5 +20,6 @@ funding:
   - "ANR Project SAROUMANE"
 code:
     url: https://github.com/alephpi/neural-fcasa
+    stars: 1
     license: ""
 open_to_collaboration: false

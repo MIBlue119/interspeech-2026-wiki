@@ -23,5 +23,6 @@ funding:
   - "Excellence initiative – research university"
 code:
     url: https://github.com/DSP-AGH/HALAS/tree/main
+    stars: 2
     license: ""
 open_to_collaboration: false

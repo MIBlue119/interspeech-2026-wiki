@@ -16,5 +16,6 @@ funding:
   - "Realtek Semiconductor Corporation"
 code:
     url: https://github.com/boyan1001/SFL-MTSC
+    stars: 2
     license: ""
 open_to_collaboration: false

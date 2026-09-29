@@ -42,6 +42,9 @@ func cmdWiki(args []string) error {
 		}
 		labelsFront += fmt.Sprintf("institutions: [%s]\n", strings.Join(quoted, ", "))
 	}
+	if p.Code.URL != "" {
+		labelsFront += "code: " + p.Code.URL + "\n"
+	}
 	orgSection := ""
 	if len(p.Institutions) > 0 || len(p.Funding) > 0 {
 		orgSection = "## Institutions / 機構\n\n"

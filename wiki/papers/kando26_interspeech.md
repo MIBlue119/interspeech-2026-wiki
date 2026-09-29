@@ -3,6 +3,7 @@ id: kando26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised, generative-model]
 institutions: ["University of Tokyo", "Keio University"]
+code: https://github.com/gifdog97/espnet/tree/master/egs2/ljspeech/tts1/myscripts
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

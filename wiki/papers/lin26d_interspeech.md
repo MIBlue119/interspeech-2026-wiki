@@ -3,6 +3,7 @@ id: lin26d_interspeech
 category: speech-coding
 labels: [generative-model]
 institutions: ["Tsinghua University", "Huawei"]
+code: https://thuhcsi.github.io/interspeech2026-BridgeCodec/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

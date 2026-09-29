@@ -3,6 +3,7 @@ id: li26u_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
 institutions: ["Xiangjiang Laboratory", "University of Exeter"]
+code: https://github.com/secret-code-source/SOC
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

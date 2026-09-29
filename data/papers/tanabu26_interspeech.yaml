@@ -20,5 +20,6 @@ funding:
   - "JSPS KAKENHI"
 code:
     url: https://github.com/tomoya-san/ssl-gmmvc
+    stars: 5
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: spang26_interspeech
 category: health-clinical
 labels: [dataset-or-benchmark-release]
 institutions: ["Bauhaus-Universitat Weimar", "Technische Universitat Berlin", "German Research Center for Artificial Intelligence", "Senseven Health GmbH", "University of Technology Chemnitz"]
+code: https://osf.io/k4z2v/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

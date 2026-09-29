@@ -3,6 +3,7 @@ id: mehendale26_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual, dataset-or-benchmark-release]
 institutions: ["Sarvam AI", "IIT Madras"]
+code: https://huggingface.co/datasets/sarvamai/indic-diarbench
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

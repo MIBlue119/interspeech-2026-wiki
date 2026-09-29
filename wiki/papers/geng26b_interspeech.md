@@ -3,6 +3,7 @@ id: geng26b_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Beijing University of Posts and Telecommunications", "Li Auto"]
+code: https://piedpiperg.github.io/instruct-tts-stabilizer/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

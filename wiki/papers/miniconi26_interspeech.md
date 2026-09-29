@@ -2,6 +2,7 @@
 id: miniconi26_interspeech
 category: resources-evaluation
 institutions: ["Le Mans Universite"]
+code: https://git-lium.univ-lemans.fr/jsalt2025/wp1/tts4all_eval
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

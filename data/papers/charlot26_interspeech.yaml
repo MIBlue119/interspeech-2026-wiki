@@ -30,5 +30,6 @@ funding:
   - "Agence de l'Innovation de Défense"
 code:
     url: https://github.com/LAAC-LSCP/VTC
+    stars: 15
     license: ""
 open_to_collaboration: false

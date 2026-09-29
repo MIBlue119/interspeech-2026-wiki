@@ -3,6 +3,7 @@ id: ghosh26f_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["NVIDIA"]
+code: https://github.com/NVIDIA-NeMo/NeMo
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

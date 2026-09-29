@@ -3,6 +3,7 @@ id: yang26n_interspeech
 category: speech-coding
 labels: [efficient-on-device, generative-model]
 institutions: ["Peking University", "Tencent", "Shanghai Jiao Tong University"]
+code: https://anonymous666-speech.github.io/CodecFormer_5Hz/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

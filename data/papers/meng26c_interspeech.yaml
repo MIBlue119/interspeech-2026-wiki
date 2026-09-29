@@ -23,5 +23,6 @@ funding:
   - "ARC Discovery Grant"
 code:
     url: https://github.com/Hanyu-Meng/BiEAR
+    stars: 8
     license: ""
 open_to_collaboration: false

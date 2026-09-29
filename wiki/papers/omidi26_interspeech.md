@@ -3,6 +3,7 @@ id: omidi26_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
 institutions: ["University of Texas at Dallas"]
+code: https://github.com/zahraomidi/MSP-PODCAST
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

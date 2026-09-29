@@ -25,5 +25,6 @@ funding:
   - "Research Council of Finland"
 code:
     url: https://github.com/xxuan-acoustics/RiemannSD-Net
+    stars: 2
     license: ""
 open_to_collaboration: false

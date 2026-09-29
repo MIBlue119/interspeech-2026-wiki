@@ -3,6 +3,7 @@ id: lan26_interspeech
 category: paralinguistics-emotion
 labels: [dataset-or-benchmark-release]
 institutions: ["Shanghai Jiao Tong University", "VUI Labs"]
+code: https://github.com/originallover/SA-UAED
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

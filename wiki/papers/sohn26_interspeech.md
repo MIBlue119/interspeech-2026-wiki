@@ -2,6 +2,7 @@
 id: sohn26_interspeech
 category: speech-coding
 institutions: ["KAIST"]
+code: https://github.com/hoyso48/DTM-Codec
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

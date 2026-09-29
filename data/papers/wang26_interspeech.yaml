@@ -22,5 +22,6 @@ funding:
   - "NSF China"
 code:
     url: https://github.com/NKU-HLT/WildElder
+    stars: 9
     license: ""
 open_to_collaboration: false

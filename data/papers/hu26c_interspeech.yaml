@@ -21,5 +21,6 @@ funding:
   - "Realtek Semiconductor Corporation"
 code:
     url: https://github.com/Padawan101/ZP-KWS
+    stars: 7
     license: ""
 open_to_collaboration: false

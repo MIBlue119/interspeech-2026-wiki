@@ -2,6 +2,7 @@
 id: li26_interspeech
 category: deepfake-security
 institutions: ["Imperial College London", "Technical University of Munich", "University of Southampton", "Mohamed bin Zayed University of Artificial Intelligence", "Johns Hopkins University"]
+code: https://github.com/glam-imperial/xai-grounded-speech-deepfake
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

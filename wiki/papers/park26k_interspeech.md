@@ -3,6 +3,7 @@ id: park26k_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["KAIST"]
+code: https://cottonlove.github.io/MeloDISinger_demo/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

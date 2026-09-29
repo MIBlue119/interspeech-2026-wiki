@@ -16,5 +16,6 @@ funding:
   - "UK Research and Innovation"
 code:
     url: https://github.com/google/carfac
+    stars: 145
     license: ""
 open_to_collaboration: false

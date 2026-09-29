@@ -3,6 +3,7 @@ id: mcauliffe26_interspeech
 category: asr
 labels: [multilingual]
 institutions: ["University of Wisconsin-Madison", "McGill University", "University of Oregon"]
+code: https://github.com/MontrealCorpusTools/mfa-interspeech2026
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

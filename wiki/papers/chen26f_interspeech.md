@@ -3,6 +3,7 @@ id: chen26f_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["Duke Kunshan University", "Chinese University of Hong Kong", "Wuhan University"]
+code: https://github.com/yucongzh/SSCC-Fault-Benchmark
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

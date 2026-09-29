@@ -19,5 +19,6 @@ funding:
   - "Advanced GPU Utilization Support Program"
 code:
     url: https://github.com/jaejunL/vove
+    stars: 10
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: beck26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release, robustness-noise]
 institutions: ["AppTek"]
+code: https://huggingface.co/datasets/apptek-com/apptek_callcenter_dialogues
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

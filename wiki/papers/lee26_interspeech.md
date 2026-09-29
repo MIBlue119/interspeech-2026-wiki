@@ -3,6 +3,7 @@ id: lee26_interspeech
 category: paralinguistics-emotion
 labels: [self-supervised]
 institutions: ["National Tsing Hua University", "University of Southern California", "National Taiwan University", "University of Edinburgh"]
+code: https://anonymous.4open.science/r/AdaLTM-62A2/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

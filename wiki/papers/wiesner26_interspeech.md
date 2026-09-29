@@ -3,6 +3,7 @@ id: wiesner26_interspeech
 category: asr
 labels: [self-supervised]
 institutions: ["Johns Hopkins University", "CNRS", "Carnegie Mellon University", "Brno University of Technology"]
+code: https://github.com/geolocation-from-speech/jsalt2025.git
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

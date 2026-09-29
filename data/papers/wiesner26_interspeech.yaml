@@ -29,5 +29,6 @@ funding:
   - "Ministry of Education, Youth and Sports of the Czech Republic"
 code:
     url: https://github.com/geolocation-from-speech/jsalt2025.git
+    stars: 1
     license: ""
 open_to_collaboration: false

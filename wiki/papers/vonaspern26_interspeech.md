@@ -3,6 +3,7 @@ id: vonaspern26_interspeech
 category: audio-understanding
 labels: [self-supervised]
 institutions: ["Technische Universitat Braunschweig", "NXP Semiconductors"]
+code: https://github.com/OptimusPrimus/salsa
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

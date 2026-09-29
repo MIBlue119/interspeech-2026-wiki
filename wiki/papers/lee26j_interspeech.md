@@ -3,6 +3,7 @@ id: lee26j_interspeech
 category: tts
 labels: [efficient-on-device, streaming-real-time, generative-model]
 institutions: ["Korea Advanced Institute of Science and Technology", "Sungkyunkwan University"]
+code: https://onemeee.github.io/wand-tts/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

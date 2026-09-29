@@ -19,5 +19,6 @@ funding:
   - "AURIC Project"
 code:
     url: https://github.com/PennyZhang9/MultiAct
+    stars: 2
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: kim26s_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device]
 institutions: ["NAVER Cloud", "KAIST"]
+code: https://github.com/naver-ai/unimambamia-av
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

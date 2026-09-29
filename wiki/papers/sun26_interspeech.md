@@ -3,6 +3,7 @@ id: sun26_interspeech
 category: resources-evaluation
 labels: [multilingual, self-supervised]
 institutions: ["University of Tokyo", "University of Texas at Austin"]
+code: https://github.com/stephenmac7/prosodic-abx
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -18,5 +18,6 @@ institutions:
   - "University of Tokyo"
 code:
     url: https://github.com/Secondtonumb/IF-MDD
+    stars: 13
     license: ""
 open_to_collaboration: false

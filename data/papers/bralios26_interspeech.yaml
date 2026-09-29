@@ -21,5 +21,6 @@ funding:
   - "Electronics and Telecommunications Research Institute"
 code:
     url: https://github.com/dbralios/elastic-time
+    stars: 6
     license: ""
 open_to_collaboration: false

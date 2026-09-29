@@ -3,6 +3,7 @@ id: gichamba26_interspeech
 category: speech-coding
 labels: [generative-model]
 institutions: ["Carnegie Mellon University"]
+code: https://wakandaai.github.io/low-frame-rate-codec/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

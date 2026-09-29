@@ -3,6 +3,7 @@ id: elmerich26_interspeech
 category: phonetics-linguistics
 labels: [low-resource]
 institutions: ["CNRS", "Sorbonne Nouvelle University", "Foch Hospital", "Paris-Saclay University"]
+code: https://osf.io/y6zce/overview?view_only=8890aae1298b4550a273a0067dd68281
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

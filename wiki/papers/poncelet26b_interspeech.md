@@ -3,6 +3,7 @@ id: poncelet26b_interspeech
 category: asr
 labels: [self-supervised]
 institutions: ["KU Leuven"]
+code: https://huggingface.co/datasets/kul-speech-lab/contextual-reasoning-speechllm
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

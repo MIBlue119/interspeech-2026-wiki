@@ -3,6 +3,7 @@ id: wagner26b_interspeech
 category: speech-coding
 labels: [self-supervised]
 institutions: ["nyra health"]
+code: https://github.com/nyrahealth/PINT
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

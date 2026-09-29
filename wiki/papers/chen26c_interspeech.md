@@ -2,6 +2,7 @@
 id: chen26c_interspeech
 category: phonetics-linguistics
 institutions: ["Peking University"]
+code: https://github.com/Dzaau/pingdingshanIS2026
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

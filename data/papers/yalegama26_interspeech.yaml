@@ -18,5 +18,6 @@ funding:
   - "World Bank"
 code:
     url: https://github.com/oshanyalegama/Denoised_ReTM_DL
+    stars: 1
     license: ""
 open_to_collaboration: false

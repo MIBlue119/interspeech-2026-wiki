@@ -3,6 +3,7 @@ id: klement26_interspeech
 category: enhancement-separation
 labels: [generative-model]
 institutions: ["Brno University of Technology", "Johns Hopkins University"]
+code: https://github.com/BUTSpeechFIT/USE_DDP
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -64,7 +65,7 @@ Speech and ML researchers working on unsupervised or zero-shot speech enhancemen
 
 ## Code
 
-- https://github.com/BUTSpeechFIT/USED
+- https://github.com/BUTSpeechFIT/USE_DDP
 
 ## Applications
 

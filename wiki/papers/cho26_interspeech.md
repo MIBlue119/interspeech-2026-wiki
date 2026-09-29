@@ -3,6 +3,7 @@ id: cho26_interspeech
 category: speech-llm-dialogue
 labels: [low-resource, self-supervised]
 institutions: ["Korea Advanced Institute of Science and Technology"]
+code: https://github.com/hyebin-c/aspl
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

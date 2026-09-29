@@ -3,6 +3,7 @@ id: wang26q_interspeech
 category: speech-llm-dialogue
 labels: [generative-model]
 institutions: ["Zhejiang University", "LIGHTSPEED"]
+code: https://anonymous.4open.science/w/omni_demo-4876/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -19,6 +19,6 @@ institutions:
   - "Mitsubishi Electric Research Laboratories"
   - "University of Surrey"
 code:
-    url: https://github.com/MERL/S2RNF
+    url: https://github.com/merlresearch/s2rnf
     license: ""
 open_to_collaboration: false

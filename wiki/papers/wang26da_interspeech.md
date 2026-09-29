@@ -3,6 +3,7 @@ id: wang26da_interspeech
 category: audio-understanding
 labels: [generative-model]
 institutions: ["Hong Kong University of Science and Technology", "Tencent"]
+code: https://anonymous.4open.science/w/GACA-DiT/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

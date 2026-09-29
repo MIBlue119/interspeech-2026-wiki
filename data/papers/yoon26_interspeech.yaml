@@ -23,5 +23,6 @@ funding:
   - "Artificial Intelligence Graduate School Program"
 code:
     url: https://github.com/snudatalab/FASOLA
+    stars: 1
     license: ""
 open_to_collaboration: false

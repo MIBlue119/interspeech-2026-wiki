@@ -3,6 +3,7 @@ id: tran26_interspeech
 category: deepfake-security
 labels: [self-supervised]
 institutions: ["Universite de Rennes", "National Institute of Informatics"]
+code: https://github.com/nii-yamagishilab/Whisper-deepfake-word-detection
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

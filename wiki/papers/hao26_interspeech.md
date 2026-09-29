@@ -3,6 +3,7 @@ id: hao26_interspeech
 category: tts
 labels: [dataset-or-benchmark-release, generative-model]
 institutions: ["Northwestern Polytechnical University", "Giant Network"]
+code: https://github.com/ASLP-lab/YingMusic-Singer-Plus
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

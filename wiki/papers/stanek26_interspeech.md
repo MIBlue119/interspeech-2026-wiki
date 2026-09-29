@@ -3,6 +3,7 @@ id: stanek26_interspeech
 category: deepfake-security
 labels: [self-supervised]
 institutions: ["Brno University of Technology"]
+code: https://github.com/Security-FIT/IG_for_SSL_detectors
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

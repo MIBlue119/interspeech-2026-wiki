@@ -2,6 +2,7 @@
 id: pagel26_interspeech
 category: phonetics-linguistics
 institutions: ["University of Cologne"]
+code: https://osf.io/3uebk
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

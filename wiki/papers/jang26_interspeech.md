@@ -3,6 +3,7 @@ id: jang26_interspeech
 category: speech-coding
 labels: [efficient-on-device]
 institutions: ["Electronics and Telecommunications Research Institute", "University of Illinois Urbana-Champaign"]
+code: https://minjekim.com/research-projects/PNSC#interspeech2026
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

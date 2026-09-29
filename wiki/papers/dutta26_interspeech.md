@@ -3,6 +3,7 @@ id: dutta26_interspeech
 category: resources-evaluation
 labels: [multilingual, dataset-or-benchmark-release]
 institutions: ["Indian Institute of Technology Jodhpur", "EkStep Foundation"]
+code: https://iab-rubric.org/resources/codes/spashta-audio-bench
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -22,5 +22,6 @@ institutions:
   - "Tokyo Woman's Christian University"
 code:
     url: https://github.com/asahi-research/QC-GAN
+    stars: 3
     license: ""
 open_to_collaboration: false

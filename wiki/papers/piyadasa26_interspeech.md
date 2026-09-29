@@ -2,6 +2,7 @@
 id: piyadasa26_interspeech
 category: phonetics-linguistics
 institutions: ["University of Sydney", "Macquarie University", "Universite Paris Cite", "University of York", "Westmead Hospital"]
+code: https://github.com/TharindaDilshan/vocal-tract-acoustics-comsol-fem
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

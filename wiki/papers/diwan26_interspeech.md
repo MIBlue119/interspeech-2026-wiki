@@ -3,6 +3,7 @@ id: diwan26_interspeech
 category: tts
 labels: [self-supervised]
 institutions: ["University of Texas at Austin", "New York University"]
+code: https://github.com/ajd12342/paraspeechclap
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

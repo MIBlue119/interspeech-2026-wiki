@@ -3,6 +3,7 @@ id: farsi26_interspeech
 category: asr
 labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
 institutions: ["Amirkabir University of Technology", "King's College London", "Kartal OL Foundation"]
+code: https://github.com/Kartalol/Kartalol-azb-asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -18,5 +18,6 @@ funding:
   - "Deutsche Forschungsgemeinschaft"
 code:
     url: https://github.com/sp-uhh/rir-encoder
+    stars: 3
     license: ""
 open_to_collaboration: false

@@ -20,5 +20,6 @@ funding:
   - "New Energy and Industrial Technology Development Organization"
 code:
     url: https://github.com/nii-yamagishilab/VoxEffects
+    stars: 4
     license: ""
 open_to_collaboration: false

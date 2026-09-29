@@ -3,6 +3,7 @@ id: zhao26i_interspeech
 category: enhancement-separation
 labels: [generative-model]
 institutions: ["Ghent University", "imec"]
+code: https://aspire.ugent.be/demos/INTERSPEECH2026HZ/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

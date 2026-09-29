@@ -3,6 +3,7 @@ id: kothari26_interspeech
 category: tts
 labels: [multilingual, generative-model]
 institutions: ["National Institute of Technology, Tiruchirappalli", "Indian Institute of Technology, Madras"]
+code: https://github.com/UnitBigVGAN
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

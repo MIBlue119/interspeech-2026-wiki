@@ -2,6 +2,7 @@
 id: luisi26_interspeech
 category: phonetics-linguistics
 institutions: ["Aalto University"]
+code: https://github.com/brynluisi/allpole-formants.git
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

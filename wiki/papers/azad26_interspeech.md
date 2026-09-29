@@ -2,6 +2,7 @@
 id: azad26_interspeech
 category: health-clinical
 institutions: ["Ministry of Defense", "Ability Center", "University of Rochester"]
+code: https://github.com/Iqra-Eval/MSA_phonetiser
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

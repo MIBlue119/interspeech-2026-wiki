@@ -2,6 +2,7 @@
 id: gering26_interspeech
 category: resources-evaluation
 institutions: ["University of Sheffield"]
+code: https://github.com/prgering/interaction-quality-modelling-sds
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

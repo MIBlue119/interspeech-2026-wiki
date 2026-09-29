@@ -3,6 +3,7 @@ id: shimizu26_interspeech
 category: enhancement-separation
 labels: [generative-model]
 institutions: ["Columbia University"]
+code: https://github.com/rikishimizu/MeanFlow-TSE
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

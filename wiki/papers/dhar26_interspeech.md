@@ -3,6 +3,7 @@ id: dhar26_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Sony"]
+code: https://research.sri-media-analysis.com/interspeech26-oscilla-tts/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

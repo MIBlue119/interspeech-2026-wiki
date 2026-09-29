@@ -3,6 +3,7 @@ id: makarov26_interspeech
 category: tts
 labels: [efficient-on-device, generative-model]
 institutions: ["University of Hamburg"]
+code: https://sp-uhh.github.io/classifier-to-diffusion/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: jasinski26_interspeech
 category: asr
 labels: [self-supervised]
 institutions: ["AGH University of Krakow"]
+code: https://github.com/DSP-AGH/asr_hallucination_detection_prompts
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

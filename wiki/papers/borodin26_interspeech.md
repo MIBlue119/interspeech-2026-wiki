@@ -3,6 +3,7 @@ id: borodin26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["Moscow Technical University of Communications and Informatics", "BitmanagerAI"]
+code: https://github.com/lab260ru/balalaika
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

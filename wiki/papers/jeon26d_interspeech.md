@@ -3,6 +3,7 @@ id: jeon26d_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["Hongik University", "Seoul National University", "NAVER Cloud", "KAIST"]
+code: https://github.com/jsujeon/ParaPairAudioBench
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

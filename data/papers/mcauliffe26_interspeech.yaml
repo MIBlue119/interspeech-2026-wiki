@@ -26,5 +26,6 @@ funding:
   - "National Institutes of Health"
 code:
     url: https://github.com/MontrealCorpusTools/mfa-interspeech2026
+    stars: 8
     license: ""
 open_to_collaboration: false

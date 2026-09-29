@@ -24,5 +24,6 @@ institutions:
   - "Xiaomi"
 code:
     url: https://github.com/winlaic/ZipCodec
+    stars: 2
     license: ""
 open_to_collaboration: false

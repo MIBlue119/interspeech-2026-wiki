@@ -23,5 +23,6 @@ funding:
   - "European Union"
 code:
     url: https://github.com/BUTSpeechFIT/FLiP
+    stars: 1
     license: ""
 open_to_collaboration: false

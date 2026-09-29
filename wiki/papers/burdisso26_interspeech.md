@@ -2,6 +2,7 @@
 id: burdisso26_interspeech
 category: asr
 institutions: ["Idiap Research Institute", "EPFL", "University of Zurich", "Uniphore", "Brno University of Technology"]
+code: https://github.com/idiap/llm-asr-text-only-adaptation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

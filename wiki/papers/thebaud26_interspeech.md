@@ -2,6 +2,7 @@
 id: thebaud26_interspeech
 category: speaker
 institutions: ["Johns Hopkins University"]
+code: https://github.com/thomasthebaud/ASV-with-SpeechLLMs
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -2,6 +2,7 @@
 id: ham26_interspeech
 category: speaker
 institutions: ["Soongsil University"]
+code: https://github.com/roadroller0501/C2D-ST
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

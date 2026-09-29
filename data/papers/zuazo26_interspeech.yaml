@@ -29,5 +29,6 @@ funding:
   - "AEI"
 code:
     url: https://github.com/hitz-zentroa/meg-phone-decoding
+    stars: 4
     license: ""
 open_to_collaboration: false

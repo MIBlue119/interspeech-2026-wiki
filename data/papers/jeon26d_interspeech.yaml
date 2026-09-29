@@ -26,5 +26,6 @@ institutions:
   - "KAIST"
 code:
     url: https://github.com/jsujeon/ParaPairAudioBench
+    stars: 5
     license: ""
 open_to_collaboration: false

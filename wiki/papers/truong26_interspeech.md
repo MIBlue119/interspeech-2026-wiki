@@ -2,6 +2,7 @@
 id: truong26_interspeech
 category: deepfake-security
 institutions: ["Nanyang Technological University", "National University of Singapore", "Hong Kong Polytechnic University"]
+code: https://github.com/ductuantruong/QAMO
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

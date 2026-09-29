@@ -34,5 +34,6 @@ funding:
   - "EU Horizon 2020"
 code:
     url: https://github.com/idiap/llm-asr-text-only-adaptation
+    stars: 5
     license: ""
 open_to_collaboration: false

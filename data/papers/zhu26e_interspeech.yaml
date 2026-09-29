@@ -26,5 +26,6 @@ institutions:
   - "Xiaomi"
 code:
     url: https://github.com/k2-fsa/OmniVoice
+    stars: 14021
     license: ""
 open_to_collaboration: false

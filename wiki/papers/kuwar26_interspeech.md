@@ -3,6 +3,7 @@ id: kuwar26_interspeech
 category: paralinguistics-emotion
 labels: [multilingual]
 institutions: ["Plaksha University", "Indraprastha Institute of Information Technology Delhi", "National Tsing Hua University", "University of Tartu"]
+code: https://bhavin-19.github.io/vinayaka-interspeech26/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

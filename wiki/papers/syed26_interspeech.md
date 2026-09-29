@@ -3,6 +3,7 @@ id: syed26_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual]
 institutions: ["Florida Institute of Technology", "Daffodil International University", "Deakin University"]
+code: https://github.com/jemsbhai/corpusgen
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

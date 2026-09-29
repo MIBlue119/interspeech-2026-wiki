@@ -3,6 +3,7 @@ id: dinh26_interspeech
 category: enhancement-separation
 labels: [efficient-on-device]
 institutions: ["Institute of Science Tokyo"]
+code: https://phuongdnm.github.io/rvqgrid
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

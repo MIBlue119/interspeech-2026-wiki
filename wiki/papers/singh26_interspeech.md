@@ -3,6 +3,7 @@ id: singh26_interspeech
 category: asr
 labels: [low-resource, generative-model]
 institutions: ["DeepNet Discovery Network", "University of Auckland", "University of Illinois Urbana-Champaign"]
+code: https://github.com/boson-ai/higgs-audio
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

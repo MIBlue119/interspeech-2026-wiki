@@ -3,6 +3,7 @@ id: rafat26_interspeech
 category: asr
 labels: [low-resource, multilingual, streaming-real-time]
 institutions: ["North South University", "Apurba Technologies"]
+code: https://github.com/Dynamic-ASR
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

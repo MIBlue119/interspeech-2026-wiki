@@ -3,6 +3,7 @@ id: park26b_interspeech
 category: paralinguistics-emotion
 labels: [low-resource, self-supervised]
 institutions: ["Seoul National University"]
+code: https://github.com/snudatalab/Mochee
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

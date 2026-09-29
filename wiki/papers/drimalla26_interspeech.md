@@ -2,6 +2,7 @@
 id: drimalla26_interspeech
 category: paralinguistics-emotion
 institutions: ["Bielefeld University", "Ruhr University Bochum"]
+code: https://github.com/mbp-lab/tsst-speech-stress
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

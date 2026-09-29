@@ -3,6 +3,7 @@ id: zhang26n_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
 institutions: ["Zhejiang University", "Nanyang Technological University", "Hunan University"]
+code: https://jinming00.github.io/SE-AGCNet/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

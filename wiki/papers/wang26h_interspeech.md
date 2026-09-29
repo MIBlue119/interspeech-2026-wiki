@@ -2,6 +2,7 @@
 id: wang26h_interspeech
 category: speaker
 institutions: ["Tianjin University", "Tianjin Renai College", "Tianjin University of Technology", "Tianjin Beiyang Rongke Intelligent Technology Co., Ltd"]
+code: https://github.com/BKB00001/GMOD
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

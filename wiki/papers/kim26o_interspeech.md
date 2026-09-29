@@ -3,6 +3,7 @@ id: kim26o_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["KAIST"]
+code: https://dabinkim0.github.io/adatt/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

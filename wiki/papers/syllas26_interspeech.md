@@ -3,6 +3,7 @@ id: syllas26_interspeech
 category: tts
 labels: [low-resource, multilingual, generative-model]
 institutions: ["Athena R.C", "University of Bern", "National Technical University of Athens"]
+code: https://github.com/gsyllas/greek-stable-tts/tree/main/scripts/data
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

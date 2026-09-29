@@ -3,6 +3,7 @@ id: li26o_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
 institutions: ["Northwestern Polytechnical University", "China Telecom Artificial Intelligence Technology (Beijing) Co., Ltd"]
+code: https://github.com/llh666521/Audio-Cogito
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

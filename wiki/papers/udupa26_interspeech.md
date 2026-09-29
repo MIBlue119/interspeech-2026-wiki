@@ -3,6 +3,7 @@ id: udupa26_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, streaming-real-time]
 institutions: ["Brno University of Technology", "Carnegie Mellon University"]
+code: https://github.com/bloodraven66/EndpointAnticipation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -17,5 +17,6 @@ institutions:
   - "University of Electronic Science and Technology of China"
 code:
     url: https://github.com/vspeech/SCNet
+    stars: 15
     license: ""
 open_to_collaboration: false

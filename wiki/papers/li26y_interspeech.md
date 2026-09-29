@@ -2,6 +2,7 @@
 id: li26y_interspeech
 category: asr
 institutions: ["Hangzhou Dianzi University"]
+code: https://github.com/gusrud1103/LibriPhrase.git
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

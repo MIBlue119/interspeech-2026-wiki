@@ -3,6 +3,7 @@ id: liu26i_interspeech
 category: tts
 labels: [streaming-real-time, generative-model]
 institutions: ["Nanyang Technological University", "Tianjin University", "Southeast University"]
+code: https://charlieliu331.github.io/Prosodic-Boundary-Aware-Streaming-Text-TTS/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

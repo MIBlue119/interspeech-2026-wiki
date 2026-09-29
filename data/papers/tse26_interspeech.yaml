@@ -20,5 +20,6 @@ institutions:
   - "University of British Columbia"
 code:
     url: https://github.com/SWivid/F5-TTS
+    stars: 15311
     license: ""
 open_to_collaboration: false

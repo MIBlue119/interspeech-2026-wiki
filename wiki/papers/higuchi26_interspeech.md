@@ -3,6 +3,7 @@ id: higuchi26_interspeech
 category: speech-llm-dialogue
 labels: [streaming-real-time]
 institutions: ["University of Electro-Communications"]
+code: https://github.com/UEC-InabaLab/IncrementalRLForSpokenDST
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -64,7 +65,7 @@ Speech and dialogue researchers will find a clear blueprint for integrating rein
 
 ## Code
 
-- https://github.com/UEC-InabaLab/IncrementalR
+- https://github.com/UEC-InabaLab/IncrementalRLForSpokenDST
 
 ## Applications
 

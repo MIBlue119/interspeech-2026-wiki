@@ -28,5 +28,6 @@ funding:
   - "Apple"
 code:
     url: https://github.com/salman-ha/MambAdapter
+    stars: 4
     license: ""
 open_to_collaboration: false

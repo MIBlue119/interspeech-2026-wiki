@@ -3,6 +3,7 @@ id: xie26b_interspeech
 category: tts
 labels: [efficient-on-device, streaming-real-time, generative-model]
 institutions: ["Northwestern Polytechnical University", "Huawei Technologies"]
+code: https://github.com/ASLP-lab/FlashTTS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

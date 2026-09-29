@@ -19,5 +19,6 @@ funding:
   - "Marsden Fund"
 code:
     url: https://github.com/pasindu-ud/vowel-space-metrics/tree/interspeech-2026
+    stars: 1
     license: ""
 open_to_collaboration: false

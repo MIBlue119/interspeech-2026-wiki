@@ -20,5 +20,6 @@ funding:
   - "UK ESRC Impact Acceleration Award"
 code:
     url: https://github.com/EveryVoiceTTS/EveryVoice
+    stars: 45
     license: ""
 open_to_collaboration: false

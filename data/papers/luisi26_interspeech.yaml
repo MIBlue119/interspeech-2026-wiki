@@ -14,5 +14,6 @@ institutions:
   - "Aalto University"
 code:
     url: https://github.com/brynluisi/allpole-formants.git
+    stars: 1
     license: ""
 open_to_collaboration: false

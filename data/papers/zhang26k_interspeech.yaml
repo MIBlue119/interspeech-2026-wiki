@@ -26,5 +26,6 @@ funding:
   - "Shenzhen Stability Science Program"
 code:
     url: https://github.com/wenet-e2e/WeSep
+    stars: 317
     license: ""
 open_to_collaboration: false

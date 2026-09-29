@@ -2,6 +2,7 @@
 id: liu26q_interspeech
 category: deepfake-security
 institutions: ["University of Science and Technology of China", "Hong Kong Polytechnic University", "Institute of Forensic Science, Ministry of Public Security"]
+code: https://anonymous.4open.science/r/Pinhole-loss-fine-tunning-4628
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

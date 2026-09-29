@@ -2,6 +2,7 @@
 id: guo26_interspeech
 category: asr
 institutions: ["Nankai University"]
+code: https://github.com/NKU-HLT/GLAD
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

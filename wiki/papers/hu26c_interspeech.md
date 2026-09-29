@@ -2,6 +2,7 @@
 id: hu26c_interspeech
 category: asr
 institutions: ["National Taiwan Normal University", "E.SUN Financial Holding Co., Ltd", "United Link Co., Ltd"]
+code: https://github.com/Padawan101/ZP-KWS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

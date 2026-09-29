@@ -25,5 +25,6 @@ institutions:
   - "Xiaomi"
 code:
     url: https://github.com/xiaomi-research/diffrhythm2
+    stars: 123
     license: ""
 open_to_collaboration: false

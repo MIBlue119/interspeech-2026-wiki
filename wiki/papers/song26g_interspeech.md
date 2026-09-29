@@ -3,6 +3,7 @@ id: song26g_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, streaming-real-time, robustness-noise]
 institutions: ["Pohang University of Science and Technology", "Intus"]
+code: https://github.com/yhsong06/LAU-NetV2
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

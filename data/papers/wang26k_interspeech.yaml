@@ -21,5 +21,6 @@ funding:
   - "New Energy and Industrial Technology Development Organization"
 code:
     url: https://github.com/nii-yamagishilab/AntiDeepfake
+    stars: 56
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: kang26b_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
 institutions: ["Institute of Science Tokyo"]
+code: https://github.com/york1to/cross-power-is-all-you-need
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

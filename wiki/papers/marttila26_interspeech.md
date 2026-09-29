@@ -2,6 +2,7 @@
 id: marttila26_interspeech
 category: tts
 institutions: ["Queen Mary University of London"]
+code: https://github.com/google/carfac
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

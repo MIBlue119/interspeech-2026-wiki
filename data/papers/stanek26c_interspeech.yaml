@@ -19,5 +19,6 @@ funding:
   - "Ministry of Education, Youth and Sports of the Czech Republic"
 code:
     url: https://github.com/Security-FIT/RAT
+    stars: 1
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: chen26l_interspeech
 category: translation
 labels: [multilingual, self-supervised]
 institutions: ["Chinese University of Hong Kong, Shenzhen"]
+code: https://github.com/chin-alt/S2S-Filtering
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

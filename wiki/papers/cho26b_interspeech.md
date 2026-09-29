@@ -3,6 +3,7 @@ id: cho26b_interspeech
 category: translation
 labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
 institutions: ["National Yang Ming Chiao Tung University"]
+code: https://github.com/Speech-AI-Research-Center/taigi-speech2chinese-subtitle
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -64,7 +65,7 @@ Researchers building low-resource speech corpora or cross-lingual speech-transla
 
 ## Code
 
-- https://github.com/Speech-AI-Research-Center/taigispeech2chinese-subtitlen
+- https://github.com/Speech-AI-Research-Center/taigi-speech2chinese-subtitle
 
 ## Applications
 

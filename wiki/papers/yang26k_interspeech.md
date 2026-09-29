@@ -2,6 +2,7 @@
 id: yang26k_interspeech
 category: speech-coding
 institutions: ["Georgia Institute of Technology", "Chinese University of Hong Kong", "Tencent Music Entertainment"]
+code: https://github.com/QiaoyuYang/HARP
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

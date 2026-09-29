@@ -3,6 +3,7 @@ id: lee26o_interspeech
 category: audio-understanding
 labels: [self-supervised]
 institutions: ["Sogang University"]
+code: https://github.com/alm-evaluation/multi-event
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

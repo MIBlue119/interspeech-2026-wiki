@@ -3,6 +3,7 @@ id: lee26r_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Seoul National University"]
+code: https://jiwonlee-0218.github.io/GETS_demo-page/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

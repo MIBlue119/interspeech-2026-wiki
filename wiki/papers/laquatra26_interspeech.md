@@ -2,6 +2,7 @@
 id: laquatra26_interspeech
 category: asr
 institutions: ["Kore University of Enna", "Sony Group Corporation", "Universita degli Studi di Palermo"]
+code: https://github.com/MorenoLaQuatra/dysarthric-asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

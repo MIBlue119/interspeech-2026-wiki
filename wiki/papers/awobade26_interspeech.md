@@ -3,6 +3,7 @@ id: awobade26_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual, dataset-or-benchmark-release]
 institutions: ["Intron"]
+code: https://huggingface.co/datasets/intronhealth/afrivox-v2
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

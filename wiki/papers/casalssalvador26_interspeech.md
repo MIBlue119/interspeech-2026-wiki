@@ -3,6 +3,7 @@ id: casalssalvador26_interspeech
 category: paralinguistics-emotion
 labels: [efficient-on-device]
 institutions: ["Barcelona Supercomputing Center", "Universitat Politecnica de Catalunya"]
+code: https://github.com/marccasals98/AttentionAlternatives
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

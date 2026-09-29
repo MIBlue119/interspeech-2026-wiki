@@ -3,6 +3,7 @@ id: chen26y_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Ping An Technology", "Shanghai Jiao Tong University", "Shanghai Jiao Tong University Chongqing Artificial Intelligence Research Institute"]
+code: https://minchuan2025.github.io/interspeech2026
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

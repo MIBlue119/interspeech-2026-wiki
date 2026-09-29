@@ -3,6 +3,7 @@ id: jiang26b_interspeech
 category: speech-coding
 labels: [streaming-real-time, generative-model]
 institutions: ["University of Science and Technology of China", "Tsinghua University"]
+code: https://pb20000090.github.io/VoCodec/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

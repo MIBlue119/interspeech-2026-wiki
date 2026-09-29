@@ -3,6 +3,7 @@ id: ali26c_interspeech
 category: resources-evaluation
 labels: [low-resource, multilingual, dataset-or-benchmark-release]
 institutions: ["Qatar Computing Research Institute"]
+code: https://huggingface.co/datasets/QCRI/WASIL
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

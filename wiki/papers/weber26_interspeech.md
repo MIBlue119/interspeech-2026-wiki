@@ -3,6 +3,7 @@ id: weber26_interspeech
 category: asr
 labels: [multilingual, self-supervised]
 institutions: ["Technion – Israel Institute of Technology"]
+code: https://github.com/MLSpeech/Multilingual-Word-Aligner
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

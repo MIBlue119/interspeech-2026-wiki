@@ -3,6 +3,7 @@ id: ding26_interspeech
 category: asr
 labels: [robustness-noise]
 institutions: ["Jiangsu University", "University of Melbourne"]
+code: https://github.com/dhyzy123/ImKWS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

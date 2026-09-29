@@ -20,5 +20,6 @@ funding:
   - "Ministry of Education"
 code:
     url: https://github.com/ewha-mmai/referee
+    stars: 8
     license: ""
 open_to_collaboration: false

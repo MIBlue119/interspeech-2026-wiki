@@ -3,6 +3,7 @@ id: tuncay26_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
 institutions: ["IRIT", "Universite de Toulouse", "CNRS", "Toulouse INP"]
+code: https://github.com/LudovicTuncay/audio-embeddings
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

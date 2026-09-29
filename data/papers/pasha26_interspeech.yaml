@@ -21,5 +21,6 @@ institutions:
   - "University of Wollongong"
 code:
     url: https://github.com/ShahabP/DeepRIRnet
+    stars: 2
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: ilerisoy26_interspeech
 category: health-clinical
 labels: [low-resource, self-supervised]
 institutions: ["Eindhoven University of Technology", "Singapore Management University"]
+code: https://github.com/mtilerisoy/REACH
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

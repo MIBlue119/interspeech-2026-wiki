@@ -3,6 +3,7 @@ id: shang26_interspeech
 category: enhancement-separation
 labels: [self-supervised, generative-model, robustness-noise]
 institutions: ["Institute of Acoustics", "University of Chinese Academy of Sciences"]
+code: https://github.com/shangqwe123/Seed-Enh
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

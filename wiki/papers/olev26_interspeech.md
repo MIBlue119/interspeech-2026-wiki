@@ -2,6 +2,7 @@
 id: olev26_interspeech
 category: speech-llm-dialogue
 institutions: ["Tallinn University of Technology"]
+code: https://github.com/aivo0/audio-reasoning-solution
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

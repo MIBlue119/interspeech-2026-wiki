@@ -30,5 +30,6 @@ funding:
   - "University of Glasgow"
 code:
     url: https://github.com/james-tanner/wav2VOT
+    stars: 2
     license: ""
 open_to_collaboration: false

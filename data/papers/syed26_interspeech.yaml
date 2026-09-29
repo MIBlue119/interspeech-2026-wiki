@@ -20,5 +20,6 @@ institutions:
   - "Deakin University"
 code:
     url: https://github.com/jemsbhai/corpusgen
+    stars: 1
     license: ""
 open_to_collaboration: false

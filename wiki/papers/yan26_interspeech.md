@@ -3,6 +3,7 @@ id: yan26_interspeech
 category: enhancement-separation
 labels: [self-supervised, generative-model, robustness-noise]
 institutions: ["Alibaba"]
+code: https://github.com/alibaba/unified-audio
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -68,7 +69,7 @@ Speech and machine learning researchers working on generative audio models and m
 
 ## Code
 
-- https://github.com/alibaba/unifiedaudio/tree/main/QuarkAudio-UniSE
+- https://github.com/alibaba/unified-audio
 
 ## Applications
 

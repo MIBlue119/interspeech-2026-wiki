@@ -24,5 +24,6 @@ funding:
   - "Ministry of Education, Singapore"
 code:
     url: https://github.com/Wang-Boxiang/PD-SFANC
+    stars: 3
     license: ""
 open_to_collaboration: false

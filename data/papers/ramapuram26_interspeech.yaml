@@ -24,5 +24,6 @@ institutions:
   - "Apple"
 code:
     url: https://github.com/apple/ml-diffuslm
+    stars: 8
     license: ""
 open_to_collaboration: false

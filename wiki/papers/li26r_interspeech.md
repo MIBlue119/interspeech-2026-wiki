@@ -3,6 +3,7 @@ id: li26r_interspeech
 category: resources-evaluation
 labels: [self-supervised, dataset-or-benchmark-release]
 institutions: ["National Taiwan University", "NTU Artificial Intelligence Center of Research Excellence"]
+code: https://github.com/lca0503/INSPIRE
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

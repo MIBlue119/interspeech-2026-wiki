@@ -20,5 +20,6 @@ funding:
   - "Swedish Research Council"
 code:
     url: https://github.com/Haotian-Qi/MuVAP
+    stars: 4
     license: ""
 open_to_collaboration: false

@@ -19,5 +19,6 @@ funding:
   - "Estonian Language Data Research Infrastructure (KeTA)"
 code:
     url: https://github.com/aivo0/audio-reasoning-solution
+    stars: 2
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: hernandez26_interspeech
 category: health-clinical
 labels: [low-resource, multilingual, self-supervised]
 institutions: ["FAU Erlangen-Nurnberg", "UT Austin", "Carnegie Mellon University", "Czech Technical University in Prague", "Idiap Research Institute", "Universidad de Antioquia", "Shenzhen Loop Area Institute", "Fortemedia"]
+code: https://github.com/abnerLing/language-shift-dysarthria
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

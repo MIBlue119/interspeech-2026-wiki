@@ -2,6 +2,7 @@
 id: lahtinen26_interspeech
 category: paralinguistics-emotion
 institutions: ["Tampere University"]
+code: https://github.com/SPEECHCOG/LookingForAffect/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

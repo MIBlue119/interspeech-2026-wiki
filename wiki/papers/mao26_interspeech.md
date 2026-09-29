@@ -2,6 +2,7 @@
 id: mao26_interspeech
 category: speaker
 institutions: ["Telecom Paris", "Institut Polytechnique de Paris", "Universite du Mans"]
+code: https://github.com/alephpi/neural-fcasa
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

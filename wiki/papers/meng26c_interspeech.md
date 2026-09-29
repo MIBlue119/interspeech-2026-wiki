@@ -3,6 +3,7 @@ id: meng26c_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
 institutions: ["University of New South Wales", "Alibaba Group", "Chinese University of Hong Kong, Shenzhen"]
+code: https://github.com/Hanyu-Meng/BiEAR
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

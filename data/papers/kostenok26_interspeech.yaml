@@ -16,5 +16,6 @@ institutions:
   - "Logitech"
 code:
     url: https://github.com/KostenokLisa/calibration-reasoning-framework
+    stars: 1
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: chen26e_interspeech
 category: speech-llm-dialogue
 labels: [efficient-on-device, self-supervised]
 institutions: ["National Taiwan University"]
+code: https://github.com/ChenWils/Contrastive_Audio-Aware_Distillation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -66,7 +67,7 @@ Speech and ML engineers looking to compress multimodal speech language models wh
 
 ## Code
 
-- https://github.com/ChenWils/Contrastive-AudioAware-Distillation.git
+- https://github.com/ChenWils/Contrastive_Audio-Aware_Distillation
 
 ## Applications
 

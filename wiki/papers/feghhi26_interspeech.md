@@ -3,6 +3,7 @@ id: feghhi26_interspeech
 category: asr
 labels: [efficient-on-device]
 institutions: ["University of California Los Angeles"]
+code: https://doi.org/10.5281/zenodo.20564139
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: wang26f_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Tianjin University", "Tianjin University of Technology"]
+code: https://zsj23.github.io/dsc-tts
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

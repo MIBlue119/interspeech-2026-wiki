@@ -3,6 +3,7 @@ id: zheng26c_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["University of Texas at Austin", "Amazon"]
+code: https://www.modelscope.cn/models/iic/CosyVoice-300M/file/view/master/campplus.onnx
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

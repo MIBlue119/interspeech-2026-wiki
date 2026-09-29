@@ -2,6 +2,7 @@
 id: lai26_interspeech
 category: health-clinical
 institutions: ["Hebei University of Technology", "Macao Polytechnic University"]
+code: https://github.com/ben100118/Lung-CL
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: seo26_interspeech
 category: asr
 labels: [multilingual, dataset-or-benchmark-release]
 institutions: ["AITRICS", "University of Copenhagen", "KAIST"]
+code: https://github.com/aitrics-ronaldo/Interspeech_MultiClin
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: schlotterbeck26_interspeech
 category: asr
 labels: [multilingual, self-supervised]
 institutions: ["Factored AI"]
+code: https://github.com/dannersm/ups-continuous-pretraining
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

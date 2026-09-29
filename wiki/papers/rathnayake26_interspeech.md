@@ -3,6 +3,7 @@ id: rathnayake26_interspeech
 category: paralinguistics-emotion
 labels: [low-resource, dataset-or-benchmark-release]
 institutions: ["University of Auckland", "Te Hiku Media"]
+code: https://speechresearch.auckland.ac.nz/maori-emotions
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: xinyuan26_interspeech
 category: tts
 labels: [low-resource]
 institutions: ["Johns Hopkins University"]
+code: https://github.com/HSTEHSTEHSTE/uscf
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

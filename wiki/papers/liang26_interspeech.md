@@ -2,6 +2,7 @@
 id: liang26_interspeech
 category: resources-evaluation
 institutions: ["KTH Royal Institute of Technology", "Google"]
+code: https://github.com/Hope-Liang/DNSMOS-C
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

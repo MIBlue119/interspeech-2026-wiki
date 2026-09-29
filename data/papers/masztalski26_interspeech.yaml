@@ -19,5 +19,6 @@ institutions:
   - "AGH University of Krakow"
 code:
     url: https://github.com/SamsungLabs/samsone
+    stars: 28
     license: ""
 open_to_collaboration: false

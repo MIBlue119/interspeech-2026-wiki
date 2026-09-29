@@ -37,5 +37,6 @@ funding:
   - "National Institutes of Health"
 code:
     url: https://github.com/lee-jhwn/multimodal-speech-biosignals
+    stars: 1
     license: ""
 open_to_collaboration: false

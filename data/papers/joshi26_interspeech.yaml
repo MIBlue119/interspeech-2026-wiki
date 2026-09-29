@@ -27,5 +27,6 @@ funding:
   - "Nilekani Philanthropies"
 code:
     url: https://github.com/AI4Bharat/IndicContextEval
+    stars: 1
     license: ""
 open_to_collaboration: false

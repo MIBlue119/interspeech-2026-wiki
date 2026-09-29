@@ -3,6 +3,7 @@ id: he26_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Harbin Institute of Technology"]
+code: https://spatialaudiodemo.github.io/TTBA/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

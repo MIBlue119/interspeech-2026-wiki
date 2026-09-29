@@ -3,6 +3,7 @@ id: chang26d_interspeech
 category: resources-evaluation
 labels: [low-resource, dataset-or-benchmark-release]
 institutions: ["Massachusetts Institute of Technology", "National Taiwan University", "National Taiwan University Artificial Intelligence Center of Research Excellence", "Academia Sinica", "National Yang Ming Chiao Tung University", "University of Southern California"]
+code: https://kwchang.org/taigispeech
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

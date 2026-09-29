@@ -3,6 +3,7 @@ id: koudounas26_interspeech
 category: health-clinical
 labels: [low-resource, generative-model]
 institutions: ["Sony Group Corporation", "Kore University of Enna", "Universita degli Studi di Palermo"]
+code: https://github.com/koudounasalkis/Pathology-F5TTS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

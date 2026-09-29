@@ -35,5 +35,6 @@ funding:
   - "Ministry of Science and ICT"
 code:
     url: https://github.com/plnguyen2908/UniTalk-ASD-code
+    stars: 24
     license: ""
 open_to_collaboration: false

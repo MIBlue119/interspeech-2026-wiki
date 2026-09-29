@@ -2,6 +2,7 @@
 id: schade26_interspeech
 category: phonetics-linguistics
 institutions: ["Bielefeld University", "Humboldt-Universität zu Berlin"]
+code: https://osf.io/gtajk
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: wang26b_interspeech
 category: audio-understanding
 labels: [generative-model]
 institutions: ["Nankai University", "Kuaishou Technology"]
+code: https://foleygenex.github.io/FoleyGenEx
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: seki26_interspeech
 category: enhancement-separation
 labels: [generative-model]
 institutions: ["CyberAgent"]
+code: https://github.com/goombalab/hydra
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

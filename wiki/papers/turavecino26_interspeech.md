@@ -3,6 +3,7 @@ id: turavecino26_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Cantina Labs"]
+code: https://airtimemedia.github.io/IS2026-LearnableCFG/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

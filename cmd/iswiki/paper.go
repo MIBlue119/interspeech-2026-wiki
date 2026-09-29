@@ -13,6 +13,8 @@ import (
 type Code struct {
 	URL     string `yaml:"url"`
 	License string `yaml:"license"`
+	// Stars is the GitHub stargazer count, refreshed by `iswiki stars`.
+	Stars int `yaml:"stars,omitempty"`
 }
 
 type Paper struct {

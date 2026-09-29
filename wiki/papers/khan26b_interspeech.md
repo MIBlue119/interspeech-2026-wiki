@@ -3,6 +3,7 @@ id: khan26b_interspeech
 category: deepfake-security
 labels: [generative-model]
 institutions: ["RMIT University"]
+code: https://github.com/ahmedsohair/SAPTA26
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

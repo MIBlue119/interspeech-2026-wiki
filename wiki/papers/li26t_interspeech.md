@@ -3,6 +3,7 @@ id: li26t_interspeech
 category: paralinguistics-emotion
 labels: [robustness-noise]
 institutions: ["University of Twente", "Radboud University"]
+code: https://doi.org/10.5281/zenodo.20729215
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -16,6 +16,7 @@ institutions:
   - "Purdue University"
   - "Ishiki Labs"
 code:
-    url: https://github.com/ishikilabsinc/context
+    url: https://github.com/ishikilabsinc/context_aware_modeling
+    stars: 1
     license: ""
 open_to_collaboration: false

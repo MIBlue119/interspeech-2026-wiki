@@ -3,6 +3,7 @@ id: huang26k_interspeech
 category: speech-llm-dialogue
 labels: [dataset-or-benchmark-release]
 institutions: ["Japan Advanced Institute of Science and Technology"]
+code: https://github.com/OrgHuang/NAICL-Clotho1k.git
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

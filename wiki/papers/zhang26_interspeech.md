@@ -3,6 +3,7 @@ id: zhang26_interspeech
 category: enhancement-separation
 labels: [generative-model]
 institutions: ["Harbin Institute of Technology"]
+code: https://ethuil.github.io/AURA/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

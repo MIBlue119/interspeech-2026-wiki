@@ -2,6 +2,7 @@
 id: firc26_interspeech
 category: deepfake-security
 institutions: ["Brno University of Technology"]
+code: https://github.com/Security-FIT/hidden-cost-pairwise-verification
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

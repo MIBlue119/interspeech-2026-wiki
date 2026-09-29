@@ -3,6 +3,7 @@ id: kuzmin26_interspeech
 category: deepfake-security
 labels: [streaming-real-time]
 institutions: ["Nanyang Technological University", "Agency for Science, Technology and Research", "Hong Kong Polytechnic University"]
+code: https://paniquex.github.io/streamvoiceanon-plus/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

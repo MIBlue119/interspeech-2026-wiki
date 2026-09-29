@@ -3,6 +3,7 @@ id: variani26_interspeech
 category: speech-coding
 labels: [multilingual, self-supervised]
 institutions: ["Google"]
+code: https://github.com/google-research/mseb/tree/main/mseb
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

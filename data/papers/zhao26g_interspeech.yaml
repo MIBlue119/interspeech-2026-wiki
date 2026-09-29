@@ -17,5 +17,6 @@ institutions:
   - "National University of Singapore"
 code:
     url: https://github.com/neuphonic/neutts
+    stars: 6296
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: firc26b_interspeech
 category: deepfake-security
 labels: [efficient-on-device, self-supervised, robustness-noise]
 institutions: ["Brno University of Technology"]
+code: https://github.com/Security-FIT/SpAArSIST
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

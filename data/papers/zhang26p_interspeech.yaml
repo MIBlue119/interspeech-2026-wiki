@@ -22,5 +22,6 @@ institutions:
   - "OfSpectrum"
 code:
     url: https://github.com/XuepingZhang/MultiAPI-Spoof
+    stars: 1
     license: ""
 open_to_collaboration: false

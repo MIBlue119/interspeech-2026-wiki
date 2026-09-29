@@ -2,6 +2,7 @@
 id: kawamura26_interspeech
 category: resources-evaluation
 institutions: ["LY Corporation"]
+code: https://github.com/lycorp-jp/PASQA
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

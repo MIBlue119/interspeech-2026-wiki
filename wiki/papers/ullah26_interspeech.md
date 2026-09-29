@@ -3,6 +3,7 @@ id: ullah26_interspeech
 category: audio-understanding
 labels: [generative-model]
 institutions: ["Yeungnam University", "Univ. Artois", "CRIL CNRS"]
+code: https://github.com/uu95/MAC
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

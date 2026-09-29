@@ -3,6 +3,7 @@ id: si26b_interspeech
 category: audio-understanding
 labels: [low-resource, robustness-noise]
 institutions: ["South China University of Technology"]
+code: https://github.com/YongjieSi/ACL
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

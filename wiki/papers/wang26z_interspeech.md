@@ -3,6 +3,7 @@ id: wang26z_interspeech
 category: phonetics-linguistics
 labels: [multilingual]
 institutions: ["Peking University"]
+code: https://github.com/wbh-XC/Interspeech2026
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

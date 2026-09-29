@@ -27,5 +27,6 @@ funding:
   - "Simons Foundation"
 code:
     url: https://github.com/LAAC-LSCP/addressee
+    stars: 1
     license: ""
 open_to_collaboration: false

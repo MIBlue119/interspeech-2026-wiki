@@ -3,6 +3,7 @@ id: yang26d_interspeech
 category: tts
 labels: [low-resource, generative-model]
 institutions: ["Sungkyunkwan University", "Jaume I University"]
+code: https://dxlabskku.github.io/K-Dialect/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

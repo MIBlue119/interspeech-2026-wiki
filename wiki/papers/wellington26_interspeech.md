@@ -3,6 +3,7 @@ id: wellington26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["University of Bath", "SpeakUnique"]
+code: https://www.speakunique.co.uk/research/CHINS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: ma26c_interspeech
 category: tts
 labels: [efficient-on-device, self-supervised, streaming-real-time, generative-model]
 institutions: ["Northwestern Polytechnical University", "University of New South Wales", "WeNet Open Source Community"]
+code: https://aslp-lab.github.io/MeanVC2/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: alshubaily26_interspeech
 category: paralinguistics-emotion
 labels: [dataset-or-benchmark-release]
 institutions: ["University of Glasgow", "Imam Mohammad Ibn Saud Islamic University"]
+code: https://github.com/SocialAI-Glasgow/SSPNet_SPC2.0
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

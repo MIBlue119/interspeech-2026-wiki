@@ -2,6 +2,7 @@
 id: jin26_interspeech
 category: speaker
 institutions: ["Hong Kong Polytechnic University", "Baidu", "University of Hong Kong"]
+code: https://github.com/modelscope/3D-Speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

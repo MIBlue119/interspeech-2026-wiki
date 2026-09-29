@@ -3,6 +3,7 @@ id: si26_interspeech
 category: enhancement-separation
 labels: [generative-model, robustness-noise]
 institutions: ["University of California San Diego", "Monash University", "University of Illinois Urbana-Champaign"]
+code: https://chen-si-cs.github.io/projects/MiNAF/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

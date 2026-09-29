@@ -3,6 +3,7 @@ id: ali26b_interspeech
 category: asr
 labels: [low-resource, multilingual, efficient-on-device, self-supervised]
 institutions: ["Universite de Montreal", "Imperial College London", "Concordia University", "Mila – Quebec AI Institute"]
+code: https://github.com/salman-ha/MambAdapter
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

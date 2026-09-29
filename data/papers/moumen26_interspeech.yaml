@@ -17,5 +17,6 @@ institutions:
   - "University of Cambridge"
 code:
     url: https://github.com/speechbrain/speechbrain
+    stars: 11845
     license: ""
 open_to_collaboration: false

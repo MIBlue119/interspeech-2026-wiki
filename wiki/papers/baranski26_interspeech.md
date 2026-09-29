@@ -3,6 +3,7 @@ id: baranski26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["AGH University of Krakow"]
+code: https://github.com/DSP-AGH/HALAS/tree/main
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

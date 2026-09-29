@@ -3,6 +3,7 @@ id: lee26e_interspeech
 category: tts
 labels: [self-supervised, generative-model]
 institutions: ["Korea Advanced Institute of Science and Technology"]
+code: https://github.com/infected4098/Relativistic-Adversarial-Feedback
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -24,5 +24,6 @@ funding:
   - "European Union's Horizon research and innovation programme"
 code:
     url: https://github.com/pe-trik/OmniSTEval
+    stars: 11
     license: ""
 open_to_collaboration: false

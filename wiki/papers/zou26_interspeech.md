@@ -2,6 +2,7 @@
 id: zou26_interspeech
 category: paralinguistics-emotion
 institutions: ["Wuhan University of Science and Technology"]
+code: https://anonymous.4open.science/r/poolingvq
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

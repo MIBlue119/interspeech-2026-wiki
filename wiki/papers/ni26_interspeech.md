@@ -3,6 +3,7 @@ id: ni26_interspeech
 category: resources-evaluation
 labels: [multilingual, dataset-or-benchmark-release]
 institutions: ["Chinese University of Hong Kong-Shenzhen", "Shenzhen Loop Area Institute", "Amphion Technology"]
+code: https://charlesnii.github.io/nvbench.github.io
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

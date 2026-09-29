@@ -35,6 +35,8 @@ func main() {
 		err = cmdToc(os.Args[2:])
 	case "orgs":
 		err = cmdOrgs(os.Args[2:])
+	case "stars":
+		err = cmdStars(os.Args[2:])
 	case "fetch":
 		err = cmdFetch(os.Args[2:])
 	default:
@@ -58,6 +60,7 @@ commands:
   wiki <id> create wiki/papers/<id>.md stub from its yaml
   toc       regenerate wiki/index.md grouped by primary topic
   orgs      regenerate wiki/institutions.md grouped by institution/funder
+  stars     refresh code.stars from the GitHub API (needs GITHUB_TOKEN)
   fetch     download paper PDFs into sources/ (gitignored)
             flags: --insecure --only <id>
 `)

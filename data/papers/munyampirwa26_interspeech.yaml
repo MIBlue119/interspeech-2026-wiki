@@ -20,5 +20,6 @@ institutions:
   - "University of California, Los Angeles"
 code:
     url: https://github.com/argmaxinc/OpenBench
+    stars: 89
     license: ""
 open_to_collaboration: false

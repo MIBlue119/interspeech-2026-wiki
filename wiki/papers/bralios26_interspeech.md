@@ -3,6 +3,7 @@ id: bralios26_interspeech
 category: speech-coding
 labels: [efficient-on-device, streaming-real-time]
 institutions: ["University of Illinois Urbana-Champaign", "Massachusetts Institute of Technology"]
+code: https://github.com/dbralios/elastic-time
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

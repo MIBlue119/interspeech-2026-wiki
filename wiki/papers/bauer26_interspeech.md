@@ -3,6 +3,7 @@ id: bauer26_interspeech
 category: asr
 labels: [efficient-on-device, streaming-real-time]
 institutions: ["Analog Devices", "University of California, Los Angeles"]
+code: https://huggingface.co/spaces/kiloVAD-demo
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

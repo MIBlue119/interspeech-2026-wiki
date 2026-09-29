@@ -2,6 +2,7 @@
 id: xue26_interspeech
 category: deepfake-security
 institutions: ["Army Engineering University of PLA", "Chinese University of Hong Kong", "Information Support Force Engineering University"]
+code: https://cero529.github.io/voiceprint-protection-demo/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

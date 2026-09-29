@@ -3,6 +3,7 @@ id: kirby26_interspeech
 category: phonetics-linguistics
 labels: [self-supervised]
 institutions: ["LMU Munich"]
+code: https://github.com/kehanlu/mandarin-wav2vec2
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

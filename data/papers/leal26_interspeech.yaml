@@ -28,5 +28,6 @@ funding:
   - "Softex"
 code:
     url: https://github.com/nilc-nlp/tarsila-asr
+    stars: 1
     license: ""
 open_to_collaboration: false

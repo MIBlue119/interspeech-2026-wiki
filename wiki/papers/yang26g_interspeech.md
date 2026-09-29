@@ -3,6 +3,7 @@ id: yang26g_interspeech
 category: speech-coding
 labels: [multilingual]
 institutions: ["National Tsing Hua University"]
+code: https://github.com/Jie-shiang/Pitch-Injected-Residual-Adapter
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -3,6 +3,7 @@ id: ulgen26b_interspeech
 category: deepfake-security
 labels: [generative-model]
 institutions: ["Johns Hopkins University"]
+code: https://github.com/rsmlgen/diffanon
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

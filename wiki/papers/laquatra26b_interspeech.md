@@ -3,6 +3,7 @@ id: laquatra26b_interspeech
 category: audio-understanding
 labels: [self-supervised]
 institutions: ["Kore University of Enna", "Politecnico di Torino", "Università degli Studi di Palermo"]
+code: https://github.com/MorenoLaQuatra/SSL-AIR
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

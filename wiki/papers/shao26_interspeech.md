@@ -3,6 +3,7 @@ id: shao26_interspeech
 category: deepfake-security
 labels: [streaming-real-time]
 institutions: ["Beijing University of Posts and Telecommunications", "Beijing Institute of Technology"]
+code: https://github.com/Silence-ai423/phoneme-aware-mamba-watermark
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

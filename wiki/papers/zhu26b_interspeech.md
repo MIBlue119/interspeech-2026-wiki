@@ -3,6 +3,7 @@ id: zhu26b_interspeech
 category: enhancement-separation
 labels: [robustness-noise]
 institutions: ["Northwestern Polytechnical University"]
+code: https://github.com/Hello3orld/G-MaP-SE
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

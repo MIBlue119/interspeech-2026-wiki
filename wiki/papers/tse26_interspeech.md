@@ -3,6 +3,7 @@ id: tse26_interspeech
 category: deepfake-security
 labels: [generative-model, robustness-noise]
 institutions: ["National Research Council Canada", "University of British Columbia"]
+code: https://github.com/SWivid/F5-TTS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

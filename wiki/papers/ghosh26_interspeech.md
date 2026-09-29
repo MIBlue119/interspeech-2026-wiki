@@ -3,6 +3,7 @@ id: ghosh26_interspeech
 category: deepfake-security
 labels: [generative-model]
 institutions: ["Otto-von-Guericke University", "University of Birmingham"]
+code: https://github.com/suhitaghosh10/phy-vc.git
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

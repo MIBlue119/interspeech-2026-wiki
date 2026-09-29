@@ -3,6 +3,7 @@ id: cai26d_interspeech
 category: audio-understanding
 labels: [dataset-or-benchmark-release, robustness-noise]
 institutions: ["Xi'an Jiaotong-Liverpool University", "Zhongdian Zhiheng Information Technology Service Co., Ltd", "China Telecom Jiangsu Branch", "Nanjing University of Posts and Telecommunications"]
+code: https://github.com/bohanhu118/Interspeech2026_ESAS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

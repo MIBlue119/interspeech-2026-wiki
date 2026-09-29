@@ -3,6 +3,7 @@ id: pine26_interspeech
 category: tts
 labels: [low-resource, generative-model]
 institutions: ["National Research Council", "University of Edinburgh"]
+code: https://github.com/EveryVoiceTTS/EveryVoice
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

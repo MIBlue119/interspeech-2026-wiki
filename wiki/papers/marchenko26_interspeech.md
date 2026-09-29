@@ -2,6 +2,7 @@
 id: marchenko26_interspeech
 category: paralinguistics-emotion
 labels: [multilingual, self-supervised]
+code: https://doi.org/10.5281/zenodo.20584918
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

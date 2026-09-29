@@ -3,6 +3,7 @@ id: visser26_interspeech
 category: asr
 labels: [self-supervised]
 institutions: ["Stellenbosch University"]
+code: https://github.com/nicolvisser/ZeroSyl
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

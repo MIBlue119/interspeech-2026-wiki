@@ -38,5 +38,6 @@ funding:
   - "Yangtze River Delta Science and Technology Innovation Community Joint Research Project"
 code:
     url: https://github.com/Gatsby-web/MAC_SLU
+    stars: 8
     license: ""
 open_to_collaboration: false

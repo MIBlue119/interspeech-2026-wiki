@@ -3,6 +3,7 @@ id: wang26d_interspeech
 category: enhancement-separation
 labels: [generative-model]
 institutions: ["Chinese Academy of Sciences", "Ear-LAB", "Initi-AI Ltd"]
+code: https://github.com/Eps-Acoustic-Revolution-Lab/EAR_VAE
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

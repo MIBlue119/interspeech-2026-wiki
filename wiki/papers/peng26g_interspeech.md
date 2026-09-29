@@ -3,6 +3,7 @@ id: peng26g_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Nanyang Technological University", "Alibaba", "Alibaba-NTU Global e-Sustainability CorpLab"]
+code: https://pengyizhou.github.io/Emotional_tts_demo
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

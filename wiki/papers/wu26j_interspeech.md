@@ -2,6 +2,7 @@
 id: wu26j_interspeech
 category: health-clinical
 institutions: ["ETH Zurich", "Eindhoven University of Technology", "University of St. Gallen", "Stanford University"]
+code: https://github.com/Fan-loewe/AuscuTSLM
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

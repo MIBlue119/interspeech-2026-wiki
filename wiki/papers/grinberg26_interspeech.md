@@ -3,6 +3,7 @@ id: grinberg26_interspeech
 category: speech-llm-dialogue
 labels: [multilingual, self-supervised]
 institutions: ["EPFL", "Sony"]
+code: https://github.com/Blinorot/ALARM
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

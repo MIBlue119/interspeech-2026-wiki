@@ -3,6 +3,7 @@ id: kim26f_interspeech
 category: phonetics-linguistics
 labels: [low-resource]
 institutions: ["Chung-Ang University"]
+code: https://cau-irislab.github.io/Interspeech26-ArtBoost/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

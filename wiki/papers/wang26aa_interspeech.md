@@ -3,6 +3,7 @@ id: wang26aa_interspeech
 category: resources-evaluation
 labels: [robustness-noise]
 institutions: ["Shanghai Jiao Tong University", "Carnegie Mellon University", "Technische Universitat Braunschweig", "Meta", "Waseda University", "VUI Labs"]
+code: https://github.com/vvwangvv/URGENT-MOS
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

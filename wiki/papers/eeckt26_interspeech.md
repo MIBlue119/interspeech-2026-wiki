@@ -3,6 +3,7 @@ id: eeckt26_interspeech
 category: asr
 labels: [efficient-on-device]
 institutions: ["KU Leuven"]
+code: https://github.com/StevenVdEeckt/pecl-for-asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

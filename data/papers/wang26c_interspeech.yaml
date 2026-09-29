@@ -16,5 +16,6 @@ institutions:
   - "Westlake Institute for Advanced Study"
 code:
     url: https://github.com/Audio-WestlakeU/Rec-RIR
+    stars: 39
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: lee26h_interspeech
 category: tts
 labels: [low-resource, multilingual, self-supervised]
 institutions: ["Yonsei University"]
+code: https://github.com/sanghyang00/ur-bert
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

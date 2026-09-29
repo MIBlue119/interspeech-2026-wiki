@@ -3,6 +3,7 @@ id: zhu26e_interspeech
 category: tts
 labels: [low-resource, multilingual, generative-model]
 institutions: ["Xiaomi"]
+code: https://github.com/k2-fsa/OmniVoice
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

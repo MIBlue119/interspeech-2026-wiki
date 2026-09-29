@@ -61,7 +61,7 @@ Audio and edge-AI engineers building real-time communication hardware or softwar
 
 ## Code
 
-- https://github.com/CARNIVAL-IITP/Automatic
+None released (as of this page's `updated` date). If you are an author with a repo, please claim this entry — see CONTRIBUTING.md.
 
 ## Applications
 

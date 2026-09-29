@@ -3,6 +3,7 @@ id: tanner26_interspeech
 category: phonetics-linguistics
 labels: [self-supervised]
 institutions: ["University of Glasgow", "McGill University", "University of Oregon", "North Carolina State University"]
+code: https://github.com/james-tanner/wav2VOT
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

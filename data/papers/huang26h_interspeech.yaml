@@ -24,5 +24,6 @@ funding:
   - "China NSFC Project"
 code:
     url: https://github.com/HartmannPsi/Reliability-Aware-Score
+    stars: 1
     license: ""
 open_to_collaboration: false

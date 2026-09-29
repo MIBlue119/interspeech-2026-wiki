@@ -3,6 +3,7 @@ id: he26c_interspeech
 category: asr
 labels: [multilingual]
 institutions: ["Shanghai Jiao Tong University", "iFLYTEK", "Wuhan University"]
+code: https://anonymous.4open.science/r/IS26-ASRU2019-Hotword-List/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

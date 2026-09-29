@@ -2,6 +2,7 @@
 id: ngong26_interspeech
 category: deepfake-security
 institutions: ["University of Vermont", "Galois"]
+code: https://github.com/uvm-plaid/dpvc
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

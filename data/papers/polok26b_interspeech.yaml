@@ -25,5 +25,6 @@ funding:
   - "e-INFRA CZ"
 code:
     url: https://github.com/BUTSpeechFIT/Dixtral
+    stars: 17
     license: ""
 open_to_collaboration: false

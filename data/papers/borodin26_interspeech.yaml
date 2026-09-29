@@ -21,5 +21,6 @@ institutions:
   - "BitmanagerAI"
 code:
     url: https://github.com/lab260ru/balalaika
+    stars: 21
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: yang26l_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Beijing University of Posts and Telecommunications", "Hello Group Inc"]
+code: https://ywbn.github.io/CraftTTS/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

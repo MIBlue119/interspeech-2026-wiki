@@ -3,6 +3,7 @@ id: zhang26p_interspeech
 category: deepfake-security
 labels: [dataset-or-benchmark-release]
 institutions: ["Duke Kunshan University", "Chinese University of Hong Kong, Shenzhen", "OfSpectrum"]
+code: https://github.com/XuepingZhang/MultiAPI-Spoof
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

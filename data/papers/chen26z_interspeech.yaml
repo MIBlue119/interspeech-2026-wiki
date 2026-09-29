@@ -21,5 +21,6 @@ institutions:
   - "Giant Network"
 code:
     url: https://github.com/GiantAILab/DiaMoE-TTS
+    stars: 254
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: im26_interspeech
 category: audio-understanding
 labels: [generative-model]
 institutions: ["KAIST", "Sony Computer Science Laboratories"]
+code: https://jakeoneijk.github.io/pfd2m_project
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

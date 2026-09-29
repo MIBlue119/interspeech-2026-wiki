@@ -3,6 +3,7 @@ id: han26d_interspeech
 category: tts
 labels: [generative-model]
 institutions: ["Chinese University of Hong Kong", "Tencent"]
+code: https://dongru1.github.io/demo/im-efss/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

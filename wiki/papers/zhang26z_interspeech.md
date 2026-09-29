@@ -3,6 +3,7 @@ id: zhang26z_interspeech
 category: enhancement-separation
 labels: [efficient-on-device, generative-model]
 institutions: ["Hangzhou Dianzi University"]
+code: https://github.com/zhangwen0821/ARFSE.git
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

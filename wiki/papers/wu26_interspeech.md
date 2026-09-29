@@ -3,6 +3,7 @@ id: wu26_interspeech
 category: speaker
 labels: [self-supervised]
 institutions: ["University of Southampton", "Hong Kong Polytechnic University", "University of Edinburgh"]
+code: https://sites.google.com/view/components-samples/home
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

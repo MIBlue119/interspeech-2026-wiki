@@ -3,6 +3,7 @@ id: you26b_interspeech
 category: speaker
 labels: [self-supervised]
 institutions: ["Cisco Systems"]
+code: https://github.com/frankyoujian/BiRetNetDiarization
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

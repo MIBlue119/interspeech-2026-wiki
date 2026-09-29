@@ -2,6 +2,7 @@
 id: krishnan26_interspeech
 category: speech-llm-dialogue
 institutions: ["Saarland University", "DFKI", "ETH Zurich"]
+code: https://repos.lsv.uni-saarland.de/akrishnan/multimodal-jailbreak-slm
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

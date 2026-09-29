@@ -3,6 +3,7 @@ id: zhang26d_interspeech
 category: speech-llm-dialogue
 labels: [self-supervised]
 institutions: ["Wuhan University", "Chinese University of Hong Kong, Shenzhen", "OPPO", "Duke Kunshan University"]
+code: https://huggingface.co/yucongzh/implicit_fusion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

@@ -22,5 +22,6 @@ funding:
   - "European Union"
 code:
     url: https://github.com/X-LANCE/SLAM-LLM
+    stars: 1067
     license: ""
 open_to_collaboration: false

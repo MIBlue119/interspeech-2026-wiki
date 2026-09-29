@@ -3,6 +3,7 @@ id: oh26_interspeech
 category: speaker
 labels: [multilingual]
 institutions: ["Korea University"]
+code: https://github.com/hs-oh-prml/L-Proto/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

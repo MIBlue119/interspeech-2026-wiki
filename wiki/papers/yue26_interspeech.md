@@ -2,6 +2,7 @@
 id: yue26_interspeech
 category: enhancement-separation
 institutions: ["Inner Mongolia University"]
+code: https://github.com/Zhiyuan-Yue/G2C-NET.git
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

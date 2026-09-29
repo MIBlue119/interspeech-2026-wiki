@@ -3,6 +3,7 @@ id: nguyen26c_interspeech
 category: tts
 labels: [efficient-on-device, generative-model]
 institutions: ["Korea Advanced Institute of Science and Technology", "Chung-Ang University"]
+code: https://mm.kaist.ac.kr/projects/mamtra/
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

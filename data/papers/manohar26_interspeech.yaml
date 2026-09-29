@@ -18,5 +18,6 @@ institutions:
   - "Adalat AI"
 code:
     url: https://github.com/adalat-ai-tech/scribe-eval
+    stars: 4
     license: ""
 open_to_collaboration: false

@@ -3,6 +3,7 @@ id: mosner26_interspeech
 category: speaker
 labels: [multilingual]
 institutions: ["Brno University of Technology", "Universidad Autonoma de Madrid", "Politecnico di Torino", "Hong Kong Polytechnic University"]
+code: https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

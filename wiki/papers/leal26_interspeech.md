@@ -3,6 +3,7 @@ id: leal26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["Venturus", "University of São Paulo", "NVIDIA", "São Paulo State University"]
+code: https://github.com/nilc-nlp/tarsila-asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

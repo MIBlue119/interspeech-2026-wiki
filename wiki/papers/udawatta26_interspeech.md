@@ -2,6 +2,7 @@
 id: udawatta26_interspeech
 category: resources-evaluation
 institutions: ["University of Auckland"]
+code: https://github.com/pasindu-ud/vowel-space-metrics/tree/interspeech-2026
 updated: 2026-09-29
 confidence: full-paper
 digest: v2

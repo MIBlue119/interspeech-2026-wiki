@@ -3,6 +3,7 @@ id: ma26_interspeech
 category: resources-evaluation
 labels: [dataset-or-benchmark-release]
 institutions: ["Shanghai Jiao Tong University", "Nanyang Technological University", "Queen Mary University of London", "NVIDIA", "Carnegie Mellon University", "Alibaba Group", "Microsoft Corporation"]
+code: https://github.com/ddlBoJack/MMAR
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
