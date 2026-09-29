@@ -1,6 +1,7 @@
 ---
 id: turetzky26_interspeech
 category: tts
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/turetzky26_interspeech.pdf
 *Arnon Turetzky, Avihu Dekel, Hagai Aronowitz, Ron Hoory, Yossi Adi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/turetzky26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/turetzky26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2743)
+
+**Category:** `tts` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces CAST, a benchmark showing that while text-only language models easily infer context-dependent sentence stress from discourse, state-of-the-art text-to-speech (TTS) systems fail to realize this stress in speech.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Conversational AI, expressive voice assistants, audiobook narration, and multilingual dubbing systems requiring context-sensitive emphasis.
+
+## Institutions / 機構
+
+Hebrew University of Jerusalem, IBM
 
 ## Related
 

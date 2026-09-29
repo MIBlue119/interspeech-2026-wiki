@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhao26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26b_interspeech.pdf
 session: Prominence, Stress and Focus
 topics: [prosody, phonetics, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "Shanghai Jiao Tong University"
+  - "National Research Center for Language and Well-being"
+  - "Tongji University"
+funding:
+  - "China Postdoctoral Science Foundation"
 code:
     url: ""
     license: ""

@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/qiu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/qiu26_interspeech.pdf
 session: 'Speech Deepfake Detection: Robustness, Generalization, Attribution'
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "self-supervised"
+institutions:
+  - "Xinjiang University"
+  - "University of Hong Kong"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Xinjiang \"Tianchi Talent\" Recruitment and Introduction Program"
 code:
     url: ""
     license: ""

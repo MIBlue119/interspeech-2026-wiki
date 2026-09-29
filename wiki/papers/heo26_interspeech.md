@@ -1,6 +1,6 @@
 ---
 id: heo26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/heo26_interspeech.pdf
 *Hee-Soo Heo, Minjae Lee, Youngki Kwon, Han-Gyu Kim, Bong-Jin Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/heo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/heo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-896)
+
+**Category:** `speaker`
 
 **TL;DR** — The paper introduces a Gaussian mixture model (GMM) based score calibration method for target speaker tagging that aggregates session-level verification scores while remaining resilient to diarization errors. It achieves consistent improvements on TST-Bench and the ICSI Meeting Corpus, notably raising detection and identification rate (DIR) at a strict 0.5% false alarm rate from 88.79% to 93.64% using an ECAPA-TDNN extractor.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated meeting transcription, multi-speaker diarization tagging systems, courtroom recording analysis, and conversational audio indexing.
+
+## Institutions / 機構
+
+NAVER Cloud Corporation
 
 ## Related
 

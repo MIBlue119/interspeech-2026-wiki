@@ -18,6 +18,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/eljasiak26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/eljasiak26_interspeech.pdf
 session: Pathological Speech Assessment 1
 topics: [speech-llm, health, multilingual]
+category: health-clinical
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Samsung R&D Institute"
+  - "AGH University of Kraków"
+  - "Harvard Medical School"
+  - "Kozminski University"
 code:
     url: ""
     license: ""

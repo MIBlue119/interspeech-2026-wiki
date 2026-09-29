@@ -11,6 +11,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tseng26c_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/tseng26c_interspeech.pdf
 session: Streaming Speech Synthesis
 topics: [voice-conversion, self-supervised, streaming]
+category: tts
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+  - "streaming-real-time"
+  - "generative-model"
+institutions:
+  - "Texas A&M University"
+funding:
+  - "Intelligence Advanced Research Projects Activity"
+  - "Department of Interior"
+  - "Interior Business Center"
 code:
     url: https://morris88826.github.io/VOSSA/
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: hoang26_interspeech
 category: asr
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hoang26_interspeech.pdf
 *Kiet Anh Hoang, Khanh Le, Bao Nguyen, Linh Pham, Dung Vo, Thai Tran, Mai Nguyen, Tri Nguyen, Vu Le*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hoang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hoang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1060)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — This paper presents the first end-to-end streaming Inverse Text Normalization (ITN) system using a pretrained text-to-text model, a joint 3-class IOB tagger, and a Read–Tag–Write decoding policy. Evaluated on Vietnamese datasets, it achieves accuracy close to non-streaming models while satisfying real-time latency requirements.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Streaming ASR post-processing, live meeting transcription, and simultaneous speech translation systems requiring real-time formatting, punctuation, capitalization, and semiotic/phonetic normalization.
+
+## Institutions / 機構
+
+UNEY
+
+**Funding / 經費:** UNEY
 
 ## Related
 

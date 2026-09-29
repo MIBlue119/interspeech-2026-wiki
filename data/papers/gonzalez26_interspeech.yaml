@@ -8,6 +8,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gonzalez26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/gonzalez26_interspeech.pdf
 session: 'Neural Speech Enhancement: Survey, Diffusion and Flow Matching'
 topics: [speech-enhancement, self-supervised, neural-coding]
+category: enhancement-separation
+labels:
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "Technical University of Denmark"
 code:
     url: https://philgzl.com/addse-demo
     license: ""

@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/danner26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/danner26_interspeech.pdf
 session: Methods and Data for Vocal Tract Shape and Articulation Analysis
 topics: [speaker-verification, phonetics, evaluation]
+category: speaker
+institutions:
+  - "University of Neuchatel"
+  - "University of Zurich"
+  - "Zurich Forensic Science Institute"
+funding:
+  - "Swiss National Science Foundation"
 code:
     url: ""
     license: ""

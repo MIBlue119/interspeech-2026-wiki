@@ -1,6 +1,6 @@
 ---
 id: kim26b_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26b_interspeech.pdf
 *Daejin Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-207)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study uses ultrasound tongue imaging and multivariate statistical modeling to examine the linguolaryngeal articulation of American English velar stops (/k/ vs. /ɡ/), revealing that /ɡ/ is produced with greater spatiotemporal tongue expansion and hyoid lowering, whereas /k/ features hyoid raising that correlates with higher post-stop f0 peaks.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving articulatory speech synthesis models, phonetic training tools, and diagnostic frameworks for speech motor control disorders.
+
+## Institutions / 機構
+
+University of New Mexico
 
 ## Related
 

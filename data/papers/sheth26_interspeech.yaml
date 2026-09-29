@@ -16,6 +16,25 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sheth26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sheth26_interspeech.pdf
 session: 'CHILDSPACE: Child Home Interaction & Language Dynamics: Speech, Psychology, Affect, Computation, and Environments'
 topics: [speech-enhancement, low-resource, multilingual]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "PSL University"
+  - "CNRS"
+  - "EHESS"
+  - "ENS"
+  - "Universite Aix-Marseille"
+  - "Tampere University"
+funding:
+  - "Agence Nationale de la Recherche"
+  - "PSL"
+  - "J. S. McDonnell Foundation"
+  - "European Research Council"
+  - "Simons Foundation International"
 code:
     url: https://github.com/LAAC-LSCP/benchmarking-dataset-factory
     license: ""

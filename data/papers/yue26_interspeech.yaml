@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yue26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yue26_interspeech.pdf
 session: Spatial Audio 4
 topics: [speech-enhancement, self-supervised, evaluation]
+category: enhancement-separation
+institutions:
+  - "Inner Mongolia University"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: https://github.com/Zhiyuan-Yue/G2C-NET.git
     license: ""

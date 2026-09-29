@@ -14,6 +14,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26q_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26q_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
 topics: [speaker-verification, self-supervised, evaluation]
+category: deepfake-security
+institutions:
+  - "University of Science and Technology of China"
+  - "Hong Kong Polytechnic University"
+  - "Institute of Forensic Science, Ministry of Public Security"
 code:
     url: https://anonymous.4open.science/r/Pinhole-loss-fine-tunning-4628
     license: ""

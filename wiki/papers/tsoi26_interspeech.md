@@ -1,6 +1,7 @@
 ---
 id: tsoi26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tsoi26_interspeech.pdf
 *Tristan Tsoi, Jiajun Deng, Yingke Zhu, Huu Quyen Dang, Tianxiang Cao, Nikita Kuzmin, Tao Zhong, Simon Lui*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tsoi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tsoi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1053)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `streaming-real-time`
 
 **TL;DR** — Next-Turn is a duration-aware streaming endpoint detection framework that predicts the time-to-next-speech-onset as a continuous supervision signal derived automatically from speech timestamps. It achieves an 86.7% ACC320 accuracy, yielding a 25.9% absolute improvement over existing semantic endpoint detection baselines while maintaining low latency.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Full-duplex conversational speech interfaces, real-time simultaneous speech translation, and interactive voice response (IVR) systems.
+
+## Institutions / 機構
+
+Huawei, Chinese University of Hong Kong, Nanyang Technological University
 
 ## Related
 

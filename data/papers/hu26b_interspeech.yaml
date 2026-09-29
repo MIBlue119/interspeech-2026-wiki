@@ -20,6 +20,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hu26b_interspeech.pdf
 session: Neural Audio Codec Architectures
 topics: [speech-llm, self-supervised, tts]
+category: speech-coding
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Northwestern Polytechnical University"
+  - "Shanghai Lingguang Zhaxian Technology"
 code:
     url: https://github.com/ASLP-lab/OmniCodec
     license: ""

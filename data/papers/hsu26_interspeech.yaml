@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hsu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hsu26_interspeech.pdf
 session: Reasoning with Speech/Audio Language Models
 topics: [speech-llm, evaluation, self-supervised]
+category: speech-llm-dialogue
+institutions:
+  - "Chinese University of Hong Kong"
+  - "ByteDance"
+  - "Shenzhen Loop Area Institute"
+  - "Amphion Technology Co., Ltd"
+funding:
+  - "Shenzhen Science and Technology Program"
+  - "Internal Project Fund from Shenzhen Research Institute of Big Data"
 code:
     url: ""
     license: ""

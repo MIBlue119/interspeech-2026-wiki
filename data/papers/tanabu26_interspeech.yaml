@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tanabu26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/tanabu26_interspeech.pdf
 session: Voice Conversion
 topics: [voice-conversion, self-supervised, evaluation]
+category: tts
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Tokyo"
+funding:
+  - "JSPS KAKENHI"
 code:
     url: https://github.com/tomoya-san/ssl-gmmvc
     license: ""

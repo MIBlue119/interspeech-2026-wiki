@@ -1,6 +1,7 @@
 ---
 id: choi26c_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/choi26c_interspeech.pdf
 *Yong-Seok Choi, Seung Hi Kim, Sung Yup Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/choi26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/choi26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1854)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `streaming-real-time`
 
 **TL;DR** — The paper proposes a zero look-ahead streaming backchannel predictor that combines pause-aware soft scaling with Q-Former text fusion, reducing semantic false discoveries by 53.8% and improving Macro-F1 by 2.16 pp on a Korean counseling corpus compared to an acoustic baseline.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time conversational spoken dialogue systems, empathetic social robots, and voice assistants.
+
+## Institutions / 機構
+
+Electronics and Telecommunications Research Institute
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

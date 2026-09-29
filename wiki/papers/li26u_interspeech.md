@@ -1,6 +1,7 @@
 ---
 id: li26u_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26u_interspeech.pdf
 *Shuanglin Li, Ruxiao Qian, Siyang Song*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26u_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26u_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1210)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — The paper introduces a Second-Order Correlation (SOC) layer that models frame-level self-supervised speech embeddings as Symmetric Positive Definite (SPD) covariance manifolds, mapping them via Log-Euclidean Mapping (LEM) to a Euclidean tangent space. Tested across frozen SSL backbones on ESD and RAVDESS, SOC outperforms global average pooling by up to 4.68% Weighted Accuracy while eliminating high-dimensional quadratic complexity.
 
@@ -66,6 +69,10 @@ Researchers and engineers working on speech emotion recognition or downstream SS
 ## Applications
 
 Speech emotion recognition, paralinguistic analysis in spoken dialogue systems, and affective computing pipelines.
+
+## Institutions / 機構
+
+Xiangjiang Laboratory, University of Exeter
 
 ## Related
 

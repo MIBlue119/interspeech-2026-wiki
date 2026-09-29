@@ -1,6 +1,7 @@
 ---
 id: xu26e_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26e_interspeech.pdf
 *Nan Xu, Mingxue Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-843)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — SCNet is a dual-branch, GAN-based neural vocoder that integrates a lightweight Subband Condition Network (CondNet) and a magnitude-aware anti-wrapping phase loss to improve spectral and phase reconstruction, outperforming baseline models on both in-domain and out-of-domain datasets.
 
@@ -69,6 +72,10 @@ Speech synthesis researchers and engineers seeking a lightweight, high-fidelity 
 ## Applications
 
 Text-to-speech (TTS), voice conversion (VC), and singing voice synthesis (SVS).
+
+## Institutions / 機構
+
+Tencent, University of Electronic Science and Technology of China
 
 ## Related
 

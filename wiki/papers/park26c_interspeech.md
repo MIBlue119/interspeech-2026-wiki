@@ -1,6 +1,6 @@
 ---
 id: park26c_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26c_interspeech.pdf
 *Jonghyeon Park, Olivier Jiyoun Jung, Myungwoo Oh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-952)
+
+**Category:** `health-clinical`
 
 **TL;DR** — A parameter-efficiently adapted LLM uses structured JSON prompts to jointly reason over multi-view speech features—lexical transcripts, temporal fluency, phonology, and discourse topics—achieving a state-of-the-art 90.14% F1-score for dementia detection on the ADReSSo dataset.
 
@@ -67,6 +69,10 @@ Speech and ML researchers working on clinical audio classification or multimodal
 ## Applications
 
 Automated screening tools for early Alzheimer's disease and dementia detection from clinical or tele-health speech recordings.
+
+## Institutions / 機構
+
+NAVER Cloud, Ewha Womans University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: luo26_interspeech
-category: speech-enhancement
+category: tts
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/luo26_interspeech.pdf
 *Yuxin Luo, Ruoyi Zhang, Lu-Chuan Liu, Tianyu Li, Hangyu Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/luo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/luo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-500)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`
 
 **TL;DR** — FCPE is a lightweight, context-based monophonic pitch estimation model that leverages depthwise separable convolutions to achieve state-of-the-art accuracy while running up to 77x faster than CREPE and 5.3x faster than RMVPE.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time singing voice conversion (SVC), retrieval-based voice conversion (RVC), MIDI transcription, and automated music information retrieval.
+
+## Institutions / 機構
+
+Fish Audio, University of Science and Technology of China
 
 ## Related
 

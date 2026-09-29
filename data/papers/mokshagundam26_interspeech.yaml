@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mokshagundam26_interspee
 pdf_url: https://www.isca-archive.org/interspeech_2026/mokshagundam26_interspeech.pdf
 session: Audio signal analysis
 topics: [paralinguistics, speech-recognition, evaluation]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "International Institute of Information Technology Hyderabad"
 code:
     url: ""
     license: ""

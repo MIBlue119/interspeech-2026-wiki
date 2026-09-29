@@ -19,6 +19,21 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ma26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ma26_interspeech.pdf
 session: Challenge - Audio Reasoning Challenge
 topics: [speech-llm, evaluation, self-supervised]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Shanghai Jiao Tong University"
+  - "Nanyang Technological University"
+  - "Queen Mary University of London"
+  - "NVIDIA"
+  - "Carnegie Mellon University"
+  - "Alibaba Group"
+  - "Microsoft Corporation"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Shanghai Municipal Science and Technology Major Project"
+  - "Yangtze River Delta Science and Technology Innovation Community Joint Research Project"
 code:
     url: https://github.com/ddlBoJack/MMAR
     license: ""

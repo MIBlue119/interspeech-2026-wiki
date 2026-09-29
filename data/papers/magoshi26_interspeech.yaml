@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/magoshi26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/magoshi26_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 1
 topics: [asr, speech-llm, self-supervised]
+category: asr
+labels:
+  - "multilingual"
+institutions:
+  - "Kyoto University"
+  - "LY Corporation"
 code:
     url: ""
     license: ""

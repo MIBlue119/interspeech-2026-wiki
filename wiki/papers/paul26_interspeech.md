@@ -1,6 +1,6 @@
 ---
 id: paul26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/paul26_interspeech.pdf
 *Sudipta Paul, Vijay Srinivasan, Vivek Kulkarni, Aounon Kumar, Yashas Malur Saidutta, Wenbo Li, Srinivas Chappidi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/paul26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/paul26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2760)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — PROGRESS is a teacher-guided reinforcement learning framework that trains search-augmented LLM agents using a trajectory-level coverage reward, achieving a 2-5% absolute exact match improvement across multi-hop question-answering benchmarks.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving multi-hop open-domain question answering, complex information retrieval agents, and search-augmented conversational assistants.
+
+## Institutions / 機構
+
+Samsung Electronics
 
 ## Related
 

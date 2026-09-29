@@ -1,6 +1,6 @@
 ---
 id: mousavi26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mousavi26_interspeech.pdf
 *Pooneh Mousavi, Lovenya Jain, Mirco Ravanelli, Cem Subakan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mousavi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mousavi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1533)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — This paper investigates the faithfulness of Chain-of-Thought (CoT) reasoning in Large Audio Language Models (LALMs) with respect to input audio and final outputs, revealing a critical multimodal disconnect where models remain textually consistent but frequently fail to properly ground their reasoning in acoustic inputs. Through systematic audio and CoT interventions, the authors demonstrate that LALMs are vulnerable to audio hallucinations, attention biases, and adversarial speech injections.
 
@@ -65,6 +67,12 @@ Speech and ML researchers building multimodal audio language models or deploying
 ## Applications
 
 Auditing and improving the safety, trustworthiness, and robustness of audio language models used in healthcare, automated forensics, security monitoring, and spoken dialogue systems.
+
+## Institutions / 機構
+
+Concordia University, Mila - Quebec AI Institute, Universite Laval, Birla Institute of Technology and Science, Pilani
+
+**Funding / 經費:** Natural Sciences and Engineering Research Council of Canada, Digital Research Alliance of Canada, Translated Imminent Program, Apple
 
 ## Related
 

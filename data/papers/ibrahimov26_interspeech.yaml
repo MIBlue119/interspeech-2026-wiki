@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ibrahimov26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/ibrahimov26_interspeech.pdf
 session: Beyond Speech Technologies in Healthcare
 topics: [speech-enhancement, evaluation, dataset]
+category: applications-other
+institutions:
+  - "Budapest University of Technology and Economics"
+  - "HUN-REN-SZTE Research Group on Artificial Intelligence"
+  - "University of Szeged"
+funding:
+  - "Ministry of Culture and Innovation of Hungary"
+  - "National Research, Development and Innovation Fund"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: li26j_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26j_interspeech.pdf
 *Jialun Li, Weitao Jiang, Ziyun Cui, Yinan Duan, Diyang Qu, Chao Zhang, Runsen Chen, Chang Lei, Wen Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-666)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper introduces Mixture of DoRA Experts (MoDE), a speech LLM framework that unifies ten distinct speech elicitation paradigms for adolescent suicide risk detection, achieving a 4.5% relative accuracy gain over separate tuning and strong zero-shot generalisation on unseen tasks.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated mental health screening, remote clinical voice biomarker assessment, and scalable adolescent suicide risk monitoring tools.
+
+## Institutions / 機構
+
+Shanghai Artificial Intelligence Laboratory, Tsinghua University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

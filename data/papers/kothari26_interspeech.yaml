@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kothari26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/kothari26_interspeech.pdf
 session: Multilingual Speech 2
 topics: [tts, multilingual, self-supervised]
+category: tts
+labels:
+  - "multilingual"
+  - "generative-model"
+institutions:
+  - "National Institute of Technology, Tiruchirappalli"
+  - "Indian Institute of Technology, Madras"
 code:
     url: https://github.com/UnitBigVGAN
     license: ""

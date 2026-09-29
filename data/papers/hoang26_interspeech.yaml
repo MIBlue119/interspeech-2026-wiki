@@ -16,6 +16,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hoang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hoang26_interspeech.pdf
 session: Robust and Efficient ASR
 topics: [asr, self-supervised, streaming]
+category: asr
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "UNEY"
+funding:
+  - "UNEY"
 code:
     url: ""
     license: ""

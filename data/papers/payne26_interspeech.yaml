@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/payne26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/payne26_interspeech.pdf
 session: Prominence, Stress and Focus
 topics: [phonetics, prosody, dataset]
+category: phonetics-linguistics
+institutions:
+  - "University of Oxford"
+funding:
+  - "Gladys Krieble Delmas Foundation"
+  - "Economic and Social Research Council"
 code:
     url: ""
     license: ""

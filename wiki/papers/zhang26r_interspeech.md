@@ -1,6 +1,7 @@
 ---
 id: zhang26r_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26r_interspeech.pdf
 *Wen Zhang, Xiaocui Yang, Zhuoyue Gao, Shi Feng, Daling Wang, Yifei Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26r_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26r_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1214)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`
 
 **TL;DR** — PRISM is a multi-agent framework for empathetic spoken dialogue that decouples perception, reasoning, and synthesis, using prosody-to-language translation and tool-augmented knowledge retrieval to achieve superior empathy and prosodic alignment.
 
@@ -69,6 +72,12 @@ Speech and ML researchers building spoken dialogue systems who want to bypass th
 ## Applications
 
 Empathetic virtual assistants, mental health support agents, AI companions, and customer service bots requiring fine-grained emotional intelligence and prosodic expressiveness.
+
+## Institutions / 機構
+
+Northeastern University
+
+**Funding / 經費:** National Natural Science Foundation of China, Fundamental Research Funds for the Central Universities
 
 ## Related
 

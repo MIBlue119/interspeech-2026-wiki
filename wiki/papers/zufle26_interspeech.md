@@ -1,6 +1,7 @@
 ---
 id: zufle26_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zufle26_interspeech.pdf
 *Maike Züfle, Sara Papi, Fabian Retkowski, Szymon Mazurek, Marek Kasztelnik, Alexander Waibel, Luisa Bentivogli, Jan Niehues*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zufle26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zufle26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-685)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — DoWsetIsay (DOWIS) is a multilingual benchmark dataset of 3h17m of human-recorded spoken and parallel text prompts across 9 tasks and 11 languages, designed to pair with any existing downstream dataset. Evaluating state-of-the-art Speech Large Language Models (SLLMs) reveals that text prompts significantly overestimate performance compared to spoken prompts on text-output tasks.
 
@@ -63,6 +66,12 @@ Speech and ML researchers evaluating SLLMs must read this paper to understand th
 ## Applications
 
 Realistic evaluation, stress-testing, and benchmarking of Speech Large Language Models (SLLMs) for voice assistants, multilingual spoken translation pipelines, and interactive voice agents.
+
+## Institutions / 機構
+
+Karlsruhe Institute of Technology, Fondazione Bruno Kessler, ACC Cyfronet AGH, AGH University of Krakow, Carnegie Mellon University
+
+**Funding / 經費:** European Union, Volkswagen Foundation
 
 ## Related
 

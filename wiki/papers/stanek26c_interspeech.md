@@ -1,6 +1,6 @@
 ---
 id: stanek26c_interspeech
-category: asr
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/stanek26c_interspeech.pdf
 *Vojtěch Staněk, Anton Firc, Jakub Reš, Kamil Malinka*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/stanek26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/stanek26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-132)
+
+**Category:** `speaker`
 
 **TL;DR** — The paper introduces Reference-Augmented Training (RAT) for ASV anti-spoofing, which uses speaker reference recordings during training to induce beneficial regularization and invariance. This achieves state-of-the-art performance on ASVspoof 5 (2.57% EER, 0.074 minDCF) even when no reference is provided at inference.
 
@@ -67,6 +69,12 @@ Speech security researchers and ML engineers should read this to understand how 
 ## Applications
 
 Voice biometric security, biometric authentication protection, speech deepfake detection systems, and fraud prevention in telephony.
+
+## Institutions / 機構
+
+Brno University of Technology
+
+**Funding / 經費:** Brno University of Technology, Ministry of Education, Youth and Sports of the Czech Republic
 
 ## Related
 

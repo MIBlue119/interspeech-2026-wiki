@@ -1,6 +1,7 @@
 ---
 id: seth26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/seth26_interspeech.pdf
 *Ashish Seth, Sonal Kumar, Ramaneswaran Selvakuma, Nishit Anand, Utkarsh Tyagi, Prem Seetharaman, Ramani Duraiswami, Dinesh Manocha*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/seth26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/seth26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2448)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces Audio Hallucination Attacks (AHA), revealing that state-of-the-art Large Audio Language Models (LALMs) suffer from severe reliability gaps and routinely bypass audio grounding when tested with implicit questions or audio primes. The authors propose AHA-Guard, a 120K preference dataset trained via Direct Preference Optimization (DPO), which reduces Attack Success Rates (ASR) by up to 49%.
 
@@ -66,6 +69,10 @@ Speech and ML researchers building audio-language models will learn why standard
 ## Applications
 
 Improving the reliability, factuality, and safety of audio-language assistants, voice agents, and acoustic scene understanding systems deployed in real-world environments.
+
+## Institutions / 機構
+
+University of Maryland, College Park, Adobe Research
 
 ## Related
 

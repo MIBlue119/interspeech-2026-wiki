@@ -1,6 +1,7 @@
 ---
 id: ullah26_interspeech
-category: speech-llm
+category: audio-understanding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ullah26_interspeech.pdf
 *Ubaid Ullah, Hyun-Chul Choi, Zied Bouraoui*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ullah26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ullah26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2618)
+
+**Category:** `audio-understanding` · **Labels:** `generative-model`
 
 **TL;DR** — Music Artistic Captioning (MAC) is a training-free framework that conditions an instruction-following LLM on automatically extracted multi-scale audio evidence to generate long-form, expressive music narratives, achieving superior emotional and artistic alignment on narrative-rich tracks like opera compared to existing supervised models.
 
@@ -67,6 +70,12 @@ Speech and ML researchers working on audio-language generation should read this 
 ## Applications
 
 Automated generation of program notes, artistic commentaries, and rich narrative descriptions for classical, operatic, and long-form streaming music catalogs.
+
+## Institutions / 機構
+
+Yeungnam University, Univ. Artois, CRIL CNRS
+
+**Funding / 經費:** National Research Foundation of Korea, Ministry of Science, ICT and Future Planning, Yeungnam University, ANR
 
 ## Related
 

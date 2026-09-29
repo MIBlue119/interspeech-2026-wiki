@@ -1,6 +1,6 @@
 ---
 id: zhao26_interspeech
-category: source-separation
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhao26_interspeech.pdf
 *Shengkui Zhao, Zexu Pan, Haoxu Wang, Biao Tian, Bin Ma, Xiangang Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-218)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — TF-MossFormer is a time-frequency transformer for monaural speech separation that combines content-aware sliding-window local attention with global multi-head self-attention, achieving a state-of-the-art 24.4 dB SI-SDRi on WSJ0-2Mix at the large scale.
 
@@ -71,6 +73,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Monaural speech separation, cocktail party problem mitigation, and pre-processing front-ends for automatic speech recognition systems operating in multi-speaker acoustic environments.
+
+## Institutions / 機構
+
+Alibaba Group
 
 ## Related
 

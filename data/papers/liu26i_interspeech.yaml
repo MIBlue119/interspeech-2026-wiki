@@ -12,6 +12,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26i_interspeech.pdf
 session: Streaming Speech Synthesis
 topics: [tts, speech-llm, low-resource]
+category: tts
+labels:
+  - "streaming-real-time"
+  - "generative-model"
+institutions:
+  - "Nanyang Technological University"
+  - "Tianjin University"
+  - "Southeast University"
+funding:
+  - "RIE2025 Industry Alignment Fund - Industry Collaboration Projects"
+  - "A*STAR"
+  - "Alibaba Group"
+  - "NTU Singapore"
+  - "Alibaba-NTU Global e-Sustainability CorpLab"
 code:
     url: https://charlieliu331.github.io/Prosodic-Boundary-Aware-Streaming-Text-TTS/
     license: ""

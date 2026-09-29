@@ -1,6 +1,7 @@
 ---
 id: he26c_interspeech
 category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/he26c_interspeech.pdf
 *Yuxuan He, Genshun Wan, Pengcheng Li, Gongping Huang, Jian-Qing Gao, Yanmin Qian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/he26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/he26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1113)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — LLM-HB integrates a Mixture-of-Experts (MoE) adaptor, an auxiliary language head, and LLM-based prompting for hotword biasing in code-switching ASR, achieving a 20.30% relative reduction in mixed error rate (MER).
 
@@ -61,6 +64,12 @@ Researchers building state-of-the-art multilingual and code-switching speech rec
 ## Applications
 
 Multilingual customer service transcription, bilingual meeting assistants, and code-switched voice search engines requiring precise named-entity recognition.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, iFLYTEK, Wuhan University
+
+**Funding / 經費:** China NSFC, SJTU Med-X Translational Research Grant
 
 ## Related
 

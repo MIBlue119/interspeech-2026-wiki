@@ -1,6 +1,7 @@
 ---
 id: koshino26_interspeech
-category: speech-synthesis
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/koshino26_interspeech.pdf
 *Sota Koshino, Shotaro Ueji, Shinnosuke Takamichi, Tomohiko Nakamura*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/koshino26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koshino26_interspeech.html)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — The paper introduces a pilot pipeline that automatically generates audio comics from manga pages by combining vision-language models for layout/emotion understanding with prompt-based text-to-speech, achieving subjective quality comparable to a manually annotated setup.
 
@@ -62,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated production of audiobooks and audio comics for the publishing industry, and accessibility tools providing auditory presentation of manga for visually impaired readers.
+
+## Institutions / 機構
+
+Keio University, National Institute of Advanced Industrial Science and Technology
+
+**Funding / 經費:** AIST policy-budget project "Research and Development of Generative AI Foundation Models for the Physical Domain", JSPS KAKENHI, JST FOREST Program
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: kordt26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kordt26_interspeech.pdf
 *Henri-Leon Kordt, Theresa Pekarek Rosin, Jae Hee Lee, Stefan Wermter*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kordt26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kordt26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2080)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates continual learning (CL) strategies for adapting pretrained automatic speech recognition models to transcribe disfluent speech verbatim using explicit markers, revealing a trade-off between general ASR performance and marker accuracy. Weight Averaging achieves the lowest word error rates, while Experience Replay yields the best marker retention across sequential tasks.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Clinical speech analysis for dementia and cognitive impairment screening, verbatim transcription pipelines for legal and meeting domains, and robust speech recognition domain adaptation without catastrophic forgetting.
+
+## Institutions / 機構
+
+University of Hamburg
+
+**Funding / 經費:** Horizon Europe, German Research Foundation, National Institutes of Health
 
 ## Related
 

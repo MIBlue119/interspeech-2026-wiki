@@ -1,6 +1,7 @@
 ---
 id: pratiwi26_interspeech
-category: speech-enhancement
+category: health-clinical
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pratiwi26_interspeech.pdf
 *Epri Pratiwi, C. T. Justine Hui, Yusuke Hioka*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pratiwi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pratiwi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-113)
+
+**Category:** `health-clinical` · **Labels:** `robustness-noise`
 
 **TL;DR** — This study investigates how listeners with varying language immersion ages adapt to room acoustics under cochlear-implant (CI) simulated vocoded speech, measuring both speech intelligibility and listening effort via pupillometry. Results show that while immersion age affects overall intelligibility of degraded speech, room acoustic adaptation rates and reductions in listening effort are comparable across all immersion groups.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cochlear implant speech processor design, adaptive hearing aids, and acoustic training software for second-language learners in noisy or reverberant classrooms.
+
+## Institutions / 機構
+
+University of Auckland
 
 ## Related
 

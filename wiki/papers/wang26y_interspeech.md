@@ -1,6 +1,7 @@
 ---
 id: wang26y_interspeech
-category: self-supervised
+category: speech-coding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26y_interspeech.pdf
 *Dongmei Wang, Xiaohang Sun, Yang Liu, Fanjie Kong, Abhishek Yanamandra, Abhinav Jain, Daniel Tompkins, Woohyun Kang, Najmeh Sadoughi, Sunil Hadap, Xiang Hao, Zhu Liu, Caren Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26y_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26y_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1490)
+
+**Category:** `speech-coding` · **Labels:** `generative-model`
 
 **TL;DR** — AugCodec is a low-bitrate disentangled neural speech codec operating at 12.5 Hz that uses tailored data augmentation and a dedicated augmentation loss to decompose speech into semantic, speaker, and prosody streams, achieving a Word Error Rate (WER) of 5.12% on LibriSpeech test-clean.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Foundational tokenization for speech language models, ultra-low-bandwidth speech transmission, voice conversion, and text-to-speech generation.
+
+## Institutions / 機構
+
+Amazon
 
 ## Related
 

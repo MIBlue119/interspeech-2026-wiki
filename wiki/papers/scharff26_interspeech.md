@@ -1,6 +1,6 @@
 ---
 id: scharff26_interspeech
-category: spoken-language-understanding
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/scharff26_interspeech.pdf
 *Gabriel Scharff, Megha Sundara*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/scharff26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/scharff26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2920)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates how gradient phonetic detail (such as allophonic variation, flapping, and glottalization) affects unsupervised word segmentation algorithms when applied to infant-directed speech, finding surprisingly little performance degradation compared to previous reports on adult-directed speech. Two of the four evaluated algorithms (TP and PUDDLE) showed no degradation, while the other two (DiBS and AG) showed only modest drops in token F-score.
 
@@ -67,6 +69,12 @@ Cognitive scientists, computational linguists, and speech researchers studying l
 ## Applications
 
 Improving computational models of early language acquisition, evaluating unsupervised speech processing pipelines, and guiding developmental cognitive architectures for spoken word recognition.
+
+## Institutions / 機構
+
+University of California Los Angeles
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

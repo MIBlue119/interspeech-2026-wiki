@@ -1,6 +1,7 @@
 ---
 id: poncelet26b_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/poncelet26b_interspeech.pdf
 *Jakob Poncelet, Hugo Van hamme*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/poncelet26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/poncelet26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1041)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper introduces a chain-of-thought training method for speech-LLMs that leverages broad video metadata descriptions to perform deep contextual reasoning, reducing word error rates on rare words and named entities across multiple benchmark sets.
 
@@ -66,6 +69,12 @@ Researchers and engineers building speech-LLMs or contextual ASR systems will le
 ## Applications
 
 Improving automatic speech recognition systems for domain-specific lectures, academic presentations, media broadcasts, and social media videos rich in topical metadata.
+
+## Institutions / 機構
+
+KU Leuven
+
+**Funding / 經費:** Research Foundation Flanders, Flemish Government, Flanders AI Research Program
 
 ## Related
 

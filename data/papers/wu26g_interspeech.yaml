@@ -12,6 +12,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wu26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26g_interspeech.pdf
 session: Search Methods and Inference Algorithms
 topics: [asr, self-supervised, on-device]
+category: asr
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Qifu Technology"
 code:
     url: ""
     license: ""

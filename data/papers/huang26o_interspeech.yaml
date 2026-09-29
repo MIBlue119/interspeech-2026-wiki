@@ -9,6 +9,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/huang26o_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26o_interspeech.pdf
 session: Multi-Channel, Beamforming and Spatial Speech Enhancement
 topics: [speech-enhancement, source-separation, evaluation]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+institutions:
+  - "International Audio Laboratories Erlangen"
+  - "Fraunhofer IIS"
+  - "Friedrich-Alexander-Universitat Erlangen-Nurnberg"
+funding:
+  - "German Research Foundation"
 code:
     url: ""
     license: ""

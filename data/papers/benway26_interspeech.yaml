@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/benway26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/benway26_interspeech.pdf
 session: Speech and Language Learning Technologies
 topics: [evaluation, speech-science, low-resource]
+category: applications-other
+institutions:
+  - "University of Maryland, College Park"
+  - "University of Wisconsin - Madison"
+  - "Arizona State University"
+funding:
+  - "National Institute on Deafness and Other Communication Disorders"
 code:
     url: ""
     license: ""

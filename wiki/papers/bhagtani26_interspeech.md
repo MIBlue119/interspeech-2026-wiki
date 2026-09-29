@@ -1,6 +1,6 @@
 ---
 id: bhagtani26_interspeech
-category: spoken-language-understanding
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bhagtani26_interspeech.pdf
 *Kratika Bhagtani, Mrinal Anand, Yu Chen Xu, Amit Kumar Singh Yadav*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bhagtani26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bhagtani26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3083)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — The paper formulates context-aware turn-taking for multi-party conversational AI assistants, showing that off-the-shelf large language models fail at zero-shot prompting while supervised fine-tuning with reasoning traces improves balanced accuracy by up to 23 percentage points.
 
@@ -69,6 +71,10 @@ Researchers and engineers building multi-party conversational voice agents will 
 ## Applications
 
 Real-time multi-party voice assistants, automated meeting summarization and facilitation agents, and group video conferencing moderation systems.
+
+## Institutions / 機構
+
+Purdue University, Ishiki Labs
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: juvekar26_interspeech
 category: asr
+labels: [multilingual, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/juvekar26_interspeech.pdf
 *Kush Juvekar, Kavya Manohar, Aditya Srinivas Menon, Arghya Bhattacharya, Kumarmanas Nethil*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/juvekar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/juvekar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3408)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — Vividh-ASR introduces a complexity-stratified benchmark for Indic speech recognition and demonstrates that combining an aggressive initial learning rate with a hard-to-easy curriculum (Reverse Multi-Stage Fine-Tuning) resolves studio-bias, allowing a 244M model to outperform 769M baselines.
 
@@ -68,6 +71,10 @@ Speech researchers and engineers working on low-resource fine-tuning will learn 
 ## Applications
 
 Real-world spontaneous speech recognition, courtroom dictation systems, and robust multilingual transcription engines for low-resource languages.
+
+## Institutions / 機構
+
+Adalat AI
 
 ## Related
 

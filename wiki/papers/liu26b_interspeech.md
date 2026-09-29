@@ -1,6 +1,7 @@
 ---
 id: liu26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26b_interspeech.pdf
 *Chengwei Liu, Shaofei Xue, Haoyin Yan, Xiaotao Liang, Zheng Xue*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-191)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`, `robustness-noise`
 
 **TL;DR** — LMPAN is a lightweight multi-path alignment network designed for on-device joint acoustic echo cancellation and noise suppression, achieving a competitive average MOS of 4.49 with only 480K parameters and 126 MACs.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device full-duplex spoken dialogue systems, smart speakers, real-time voice communication apps, and automotive voice assistants.
+
+## Institutions / 機構
+
+Alibaba
 
 ## Related
 

@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ok26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ok26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
 topics: [asr, self-supervised, speaker-verification]
+category: deepfake-security
+institutions:
+  - "Seoul National University"
+funding:
+  - "National Research Foundation of Korea"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Ministry of Science and ICT"
 code:
     url: ""
     license: ""

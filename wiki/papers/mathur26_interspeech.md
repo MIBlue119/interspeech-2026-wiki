@@ -1,6 +1,7 @@
 ---
 id: mathur26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mathur26_interspeech.pdf
 *Nityanand Mathur, Hamees Sayed, Wasim Madha, Apoorv Singh, Sameer Khurana, Akshat Mandloi, Sudarshan Kamath*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mathur26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mathur26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2805)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper adapts the Diffusion Attentive Attribution Maps (DAAM) framework to analyze how natural language style captions control speech diffusion models, revealing that style tokens act as global modulators with low temporal variance, peak in early ODE steps and deep transformer layers, and correlate with acoustic features like F0 and energy.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnosing failure modes and improving controllability in style-conditioned text-to-speech systems, and guiding the design of more interpretable generative voice models.
+
+## Institutions / 機構
+
+Smallest.ai
 
 ## Related
 

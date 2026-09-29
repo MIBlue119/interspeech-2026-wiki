@@ -1,6 +1,7 @@
 ---
 id: li26h_interspeech
-category: voice-conversion
+category: tts
+labels: [multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26h_interspeech.pdf
 *Wenhui Li, Biao Dong, Liwei Hu, Jiqing Han, Yongjun He*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-615)
+
+**Category:** `tts` · **Labels:** `multilingual`, `generative-model`
 
 **TL;DR** — SRF-SVB is the first rectified flow-based singing voice beautifying framework that corrects pitch and rhythm while preserving the amateur singer's unique timbre and expressive style through a context-guided masked mel-spectrogram inpainting mechanism, achieving an English SECS of 0.85 and a Chinese SECS of 0.82.
 
@@ -66,6 +69,10 @@ Audio and speech engineers looking to deploy high-efficiency, style-preserving s
 ## Applications
 
 Online karaoke applications, professional music production, and real-time live streaming vocal enhancement.
+
+## Institutions / 機構
+
+Harbin Institute of Technology
 
 ## Related
 

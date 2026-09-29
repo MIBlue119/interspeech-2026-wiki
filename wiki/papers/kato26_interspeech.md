@@ -1,6 +1,7 @@
 ---
 id: kato26_interspeech
-category: speech-enhancement
+category: tts
+labels: [efficient-on-device, streaming-real-time, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kato26_interspeech.pdf
 *Ryo Kato, Ryutaro Matsunaga, Toshio Imamura, Akinori Maeda, Shuhei Takahara, Shinnosuke Takamichi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kato26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kato26_interspeech.html)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`, `robustness-noise`
 
 **TL;DR** — Coco-VC is a real-time, listener-side streaming voice conversion system designed to transform degraded telephony speech into clear target-speaker audio. It leverages multi-teacher distillation and telephony data augmentation to achieve a 25% relative reduction in Word Error Rate (WER) compared to existing streaming baselines.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time listener-side telephone call enhancement, inclusive communication assistance for hearing-impaired or degraded-audio scenarios, and on-device voice conversion.
+
+## Institutions / 機構
+
+SoftBank, University of Tokyo, Keio University
 
 ## Related
 

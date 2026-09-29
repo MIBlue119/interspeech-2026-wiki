@@ -1,6 +1,7 @@
 ---
 id: cotosolano26_interspeech
-category: sociophonetics
+category: phonetics-linguistics
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cotosolano26_interspeech.pdf
 *Rolando Coto-Solano, Sally Akevai Nicholas*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cotosolano26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cotosolano26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3507)
+
+**Category:** `phonetics-linguistics` · **Labels:** `low-resource`
 
 **TL;DR** — This paper investigates automated sociophonetic workflows by analyzing speech rate variation across 60 speakers and 7.5 hours of Cook Islands Māori audio, revealing generational and regional differences linked to language shift. Younger speakers in vulnerable islands speak significantly faster (7.7 moras/sec) than older generations (6.8 moras/sec), while endangered hubs show no age-based rate differences.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated sociolinguistic field research, Indigenous language vitality assessment, and speech-rate-based fluency screening for under-resourced languages.
+
+## Institutions / 機構
+
+Dartmouth College, University of Auckland
 
 ## Related
 

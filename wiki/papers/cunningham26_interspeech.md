@@ -1,6 +1,7 @@
 ---
 id: cunningham26_interspeech
 category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cunningham26_interspeech.pdf
 *Jay L. Cunningham, Mark Atta Mensah, Richard Martinez, João Vieira da Silva Neto, Efi Dawodu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cunningham26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cunningham26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3351)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — This paper presents a theoretical and methodological framework for culturally competent Automatic Speech Recognition (ASR), introducing a seven-layer situatedness model, the Three Harms (3M) taxonomy, and a participatory design protocol to counter colonial linguistic hierarchies in speech AI.
 
@@ -56,6 +59,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Culturally competent design and auditing of automated speech recognition systems, voice assistants, and spoken dialogue interfaces in public services, healthcare, and legal domains.
+
+## Institutions / 機構
+
+DePaul University, York University
 
 ## Related
 

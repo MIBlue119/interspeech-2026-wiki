@@ -14,6 +14,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/beck26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/beck26_interspeech.pdf
 session: Long-form Audio & New Attention Approaches
 topics: [asr, evaluation, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "AppTek"
 code:
     url: https://huggingface.co/datasets/apptek-com/apptek_callcenter_dialogues
     license: ""

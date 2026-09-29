@@ -1,6 +1,7 @@
 ---
 id: lin26d_interspeech
 category: speech-coding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26d_interspeech.pdf
 *Zijian Lin, Jing Yang, Jinghao Luo, Zhuo Wang, Fan Fan, Zhiyong Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1338)
+
+**Category:** `speech-coding` · **Labels:** `generative-model`
 
 **TL;DR** — BridgeCodec decouples mismatched neural audio codec encoder-decoder pairs by formulating latent translation as a Schrödinger Bridge optimal transport problem, enabling high-fidelity 48 kHz reconstruction from an 8 kHz 1 kbps source at a 4.12 MOS.
 
@@ -66,6 +69,12 @@ Speech and ML engineers working on neural audio compression, low-bitrate transmi
 ## Applications
 
 Universal audio codec translation gateways, low-bitrate IoT speech transmission, asymmetric real-time communication systems, and bandwidth extension for legacy narrowband telephony.
+
+## Institutions / 機構
+
+Tsinghua University, Huawei
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

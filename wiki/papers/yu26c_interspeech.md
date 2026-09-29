@@ -1,6 +1,6 @@
 ---
 id: yu26c_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yu26c_interspeech.pdf
 *Hangbin Yu, Yudong Yang, Rongfeng Su, Nan Yan, Lan Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yu26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yu26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1075)
+
+**Category:** `health-clinical`
 
 **TL;DR** — The paper introduces an Adaptive Cross-Modal Gating (ACMG) network for automatic depression detection that dynamically reweights frame-level acoustic and textual features to focus on sparse diagnostic patterns, achieving 81.25% average accuracy on PDCD2025 and an F1 of 69.39% on DAIC-WOZ.
 
@@ -68,6 +70,12 @@ Researchers and engineers working on multimodal affective computing or clinical 
 ## Applications
 
 Automated mental health screening, non-invasive digital biomarker tracking, and computer-aided clinical diagnosis tools for depressive disorder monitoring.
+
+## Institutions / 機構
+
+Chinese Academy of Sciences, University of Chinese Academy of Sciences
+
+**Funding / 經費:** National Key R&D Program of China, National Natural Science Foundation of China, Shenzhen Peacock Team Project
 
 ## Related
 

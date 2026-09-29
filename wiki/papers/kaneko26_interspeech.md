@@ -1,6 +1,7 @@
 ---
 id: kaneko26_interspeech
-category: voice-conversion
+category: tts
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kaneko26_interspeech.pdf
 *Takuhiro Kaneko, Hirokazu Kameoka, Kou Tanaka, Yuto Kondo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kaneko26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kaneko26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1596)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — MeanVoiceFlow2 jointly optimizes a one-step flow-based voice conversion module and a lightweight content encoder using distillation, real-data reconstruction, and diffusion-GAN training. It achieves a ~9x speedup and higher perceptual quality than its teacher model without needing external pretrained neural vocoders.
 
@@ -66,6 +69,10 @@ Read this paper if you build real-time speech generation or voice conversion pip
 ## Applications
 
 Real-time voice conversion, accent modification, and on-device speech translation pipelines.
+
+## Institutions / 機構
+
+NTT
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: klimi26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.pdf
 *Antigoni Klimi, Dimitrios Damianos, Stavros Bompolas, Vivian Stamou, Stella Markantonatou, Vassilis Katsouros, Georgios Paraskevopoulos*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2567)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper proposes a staged multitask curriculum framework for adapting Whisper to low-resource Greek dialects, progressively shifting training from standard-language speech translation to dialect-specific ASR and achieving significant error reductions over standard fine-tuning.
 
@@ -67,6 +70,12 @@ Speech researchers and engineers tackling low-resource dialect adaptation should
 ## Applications
 
 Building robust regional speech recognition systems for low-resource or dialectal languages where standard ASR models suffer from severe domain mismatch.
+
+## Institutions / 機構
+
+Athena Research Center
+
+**Funding / 經費:** European High-Performance Computing Joint Undertaking, Greek Ministry of Digital Governance and Artificial Intelligence
 
 ## Related
 

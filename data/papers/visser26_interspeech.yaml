@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/visser26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/visser26_interspeech.pdf
 session: Efficient Inference for ASR and Speech LMs
 topics: [spoken-language-understanding, self-supervised, evaluation]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Stellenbosch University"
+funding:
+  - "Google PhD Fellowship Program"
 code:
     url: https://github.com/nicolvisser/ZeroSyl
     license: ""

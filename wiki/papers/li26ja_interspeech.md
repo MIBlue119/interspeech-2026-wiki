@@ -1,6 +1,7 @@
 ---
 id: li26ja_interspeech
-category: paralinguistics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26ja_interspeech.pdf
 *Meixian Li, Yao Yao, Charles Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26ja_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26ja_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3235)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study presents a cross-linguistic acoustic analysis of creaky voice production using parallel read-speech corpora of Mandarin and US English, demonstrating that men produce significantly creakier speech than women in both languages. This challenges the popular stereotype that creakiness is predominantly a female speech style.
 
@@ -56,6 +59,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-linguistic sociophonetic analysis, voice quality profiling in text-to-speech synthesis, and gender-biased social perception modeling in spoken language processing.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University, City University of Hong Kong
 
 ## Related
 

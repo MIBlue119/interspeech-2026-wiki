@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shi26c_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shi26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shi26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-877)
 
+**Category:** `asr`
+
 **TL;DR** — The paper introduces an Entropy-Aware Domain-Routed Mixture-of-Experts Speech-LLM framework (C-DR MoE with EAR) that unifies adult and child Automatic Speech Recognition (ASR) across diverse age groups and acoustic environments. It achieves a Word Error Rate (WER) of 17.64% on the OGI-S 4-7 age group and 8.58% on MyST, outperforming single-expert baselines without degrading adult speech performance.
 
 ## Key contributions
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Unified speech recognition systems for educational software, children's interactive voice assistants, and multi-demographic speech transcription pipelines.
+
+## Institutions / 機構
+
+University of California, Los Angeles
+
+**Funding / 經費:** National Science Foundation, Institute of Education Sciences, U.S. Department of Education
 
 ## Related
 

@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ghosh26e_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/ghosh26e_interspeech.pdf
 session: Information Extraction and Retrieval / Survey Talk
 topics: [speech-llm, low-resource, on-device]
+category: applications-other
+labels:
+  - "low-resource"
+  - "efficient-on-device"
+institutions:
+  - "Samsung"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: correa26_interspeech
-category: speech-llm
+category: tts
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/correa26_interspeech.pdf
 *Pedro R. Corrêa, Olivier Perrotin, Samir Sadok, Paula D. P. Costa, Thomas Hueber*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/correa26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/correa26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1397)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — This paper evaluates four speech representation families (semantic, semantic+acoustic, acoustic, and label-based) for 3D facial animation, revealing that phonetic class encoding combined with an absence of low-structured acoustic information is vital for accurate lip sync. It also introduces a unified Audio-Visual Text-to-Speech (AVTTS) pipeline that decodes text into synchronized speech audio and facial motion from shared discrete tokens.
 
@@ -68,6 +71,12 @@ Speech and ML researchers building multimodal conversational avatars or unified 
 ## Applications
 
 Speech-driven 3D facial animation, embodied conversational AI characters, real-time digital avatars, and unified audio-visual text-to-speech generation systems.
+
+## Institutions / 機構
+
+State University of Campinas, Grenoble Alpes University, National Centre for Scientific Research, Grenoble Institute of Technology, Inria
+
+**Funding / 經費:** Sao Paulo Research Foundation, Brazilian Institute of Data Science, Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior
 
 ## Related
 

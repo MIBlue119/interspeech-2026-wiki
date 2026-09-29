@@ -1,6 +1,7 @@
 ---
 id: tabatabaee26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tabatabaee26_interspeech.pdf
 *Saba Tabatabaee, Mark Tiede, Suzanne Boyce, Liran Oren, Carol Espy-Wilson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tabatabaee26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tabatabaee26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1633)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper presents a multi-task speech inversion system that maps raw audio to vocal tract variables, source features, and velopharyngeal motion using a pretrained WavLM-Large backbone, achieving strong cross-lingual generalizability on untrained French and Russian speakers despite being trained exclusively on English data.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multi-lingual speech processing, computer-assisted pronunciation training, speech therapy, and clinical assessments of speech and swallowing disorders.
+
+## Institutions / 機構
+
+University of Maryland, Yale University, University of Cincinnati
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: kumar26h_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kumar26h_interspeech.pdf
 *Rishabh Kumar, Dhruv Kudale, Chriss Philip Saji, Abhinav Painuli, John Nirmal, Ganesh Ramakrishnan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kumar26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kumar26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2607)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — V¯an.¯ıSetu is a human-AI collaborative framework designed to build scalable speech corpora in low-resource, code-mixed settings, achieving a 61.1% reduction in human annotation effort on the 100-hour KrishiV¯an.¯ı Hindi agricultural dataset.
 
@@ -65,6 +68,12 @@ Speech and ML engineers building ASR systems for low-resource, code-mixed conver
 ## Applications
 
 Development of robust speech recognition, automated transcription tools, and domain-specific spoken language datasets for low-resource and code-mixed environments.
+
+## Institutions / 機構
+
+Indian Institute of Technology Bombay, University of Science and Technology, University of Delhi, BharatGen
+
+**Funding / 經費:** BharatGen
 
 ## Related
 

@@ -9,6 +9,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/saini26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/saini26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [speech-recognition, paralinguistics, multilingual]
+category: resources-evaluation
+institutions:
+  - "Samsung"
 code:
     url: https://neelam472.github.io/MusicJudge/Supp.pdf
     license: ""

@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kausar26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kausar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kausar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1703)
 
+**Category:** `asr`
+
 **TL;DR** — DisenEEG-Net is an end-to-end framework for cross-subject auditory attention decoding that disentangles EEG representations into orthogonal task- and subject-specific subspaces using information bottlenecks and adversarial learning, achieving 75.9% accuracy on the KUL dataset with 1-second windows.
 
 ## Key contributions
@@ -66,6 +68,12 @@ Read this paper if you work on domain generalization or representation learning 
 ## Applications
 
 Neuro-steered hearing aids, brain-computer interfaces (BCIs), and selective auditory attention decoding devices.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Shenzhen, Harbin Institute of Technology
+
+**Funding / 經費:** National Natural Science Foundation of China, Shenzhen Science and Technology Program, Program for Guangdong Introducing Innovative and Enterpreneurial Teams, Shenzhen Stability Science Program, Shenzhen Key Lab of Multi-Modal Cognitive Computing, German Research Foundation, Guangdong Provincial Key Laboratory of Big Data Computing, The Chinese University of Hong Kong, Shenzhen
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: rubenchik26_interspeech
-category: speech-separation
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rubenchik26_interspeech.pdf
 *Boris Rubenchik, Sharon Gannot, Ethan Fetaya*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rubenchik26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rubenchik26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1401)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — A generative single-channel speech separation framework combining latent-space Flow Matching with End-to-End Neural Diarization (EEND) mixture-derived attractors, achieving a dramatic reduction in speaker confusion (TSIM down to 0.08%).
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Single-channel multi-talker speech separation, meeting transcription preprocessing, and cocktail-party problem mitigation for downstream automatic speech recognition systems.
+
+## Institutions / 機構
+
+Bar-Ilan University
+
+**Funding / 經費:** Israel Science Foundation, German Research Foundation, ISF-DFG Joint Research Program, AUDIENCE: Audio-Visual Analysis and Separation, Council of Higher Education, Israel
 
 ## Related
 

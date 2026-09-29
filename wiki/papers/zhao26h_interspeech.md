@@ -1,6 +1,7 @@
 ---
 id: zhao26h_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhao26h_interspeech.pdf
 *Zhixian Zhao, Shuiyuan Wang, Wenjie Tian, Jingbin Hu, Ziyu Zhang, Lei Xie*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhao26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhao26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2400)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — CogAudio-LLM is a cognitive affective reasoning framework for Audio Language Models that overcomes semantic dominance and enhances empathy via a specialized 4-step Chain-of-Thought dataset and a dual-route reinforcement learning alignment algorithm, achieving an LLM-evaluated empathy score of 2.91 on sarcastic/conflicting audio versus <1.8 for prior open and closed models.
 
@@ -66,6 +69,10 @@ Researchers building empathetic spoken dialogue systems or Audio Language Models
 ## Applications
 
 Empathetic virtual assistants, mental health support chat agents, emotional companion robots, and customer service spoken dialogue systems.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University
 
 ## Related
 

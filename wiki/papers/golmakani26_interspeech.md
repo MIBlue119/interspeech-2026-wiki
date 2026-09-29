@@ -1,6 +1,6 @@
 ---
 id: golmakani26_interspeech
-category: speech-privacy
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/golmakani26_interspeech.pdf
 *Ali Golmakani, Seyed Ahmad Hosseini, Omar Manil Bendali, Emmanuel Vincent, Brij Mohan Lal Srivastava*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/golmakani26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/golmakani26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1949)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — The paper introduces an acoustic token-space framework that jointly anonymizes speaker identity and linguistic content per-frame using residual vector quantization (RVQ) admixture and named entity recognition (NER)-triggered span replacement. On the VoicePrivacy 2024 benchmark, it achieves a speaker equal error rate (EER) of 42.54% and a word error rate (WER) of 3.73%.
 
@@ -67,6 +69,10 @@ Researchers and engineers building production speech data sanitization pipelines
 ## Applications
 
 Privacy-compliant dataset curation for healthcare, legal transcription, and enterprise telephony analytics requiring retention of in-domain acoustic properties.
+
+## Institutions / 機構
+
+Nijta, Universite de Lorraine, CNRS, Inria, LORIA
 
 ## Related
 

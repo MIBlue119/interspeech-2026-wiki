@@ -1,6 +1,6 @@
 ---
 id: yang26m_interspeech
-category: source-separation
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26m_interspeech.pdf
 *Peijun Yang, Zhan Jin, Juan Liu, Ming Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2035)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — The paper introduces Multi-View Tensor Fusion (MVTF), an audio-visual target speaker extraction framework that leverages synchronized multi-perspective lip videos during training via tensor outer products to learn robust representations, yielding an average SI-SDR of 15.718 dB for single-view testing (a 1.616 dB gain over frontal-only baselines).
 
@@ -67,6 +69,12 @@ Researchers and engineers working on audio-visual speech separation or target sp
 ## Applications
 
 Real-time hearing aids, robust video conferencing systems, and automated transcription tools operating under unconstrained head motion.
+
+## Institutions / 機構
+
+Wuhan University
+
+**Funding / 經費:** National Key Research and Development Program of China
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: moumen26_interspeech
-category: speech-llm
+category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/moumen26_interspeech.pdf
 *Adel Moumen, Guangzhi Sun, Philip C Woodland*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/moumen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/moumen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1873)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — The paper investigates layer redundancy in SpeechLLMs across multiple model scales and families, demonstrating that up to 43.8% of decoder layers can be pruned without significant performance loss via joint projector-decoder healing.
 
@@ -69,6 +72,10 @@ Speech and ML engineers looking to deploy large speech-language models efficient
 ## Applications
 
 Deploying on-device or low-latency multilingual speech recognition and translation services using heavily compressed, task-adapted SpeechLLM backbones.
+
+## Institutions / 機構
+
+University of Cambridge
 
 ## Related
 

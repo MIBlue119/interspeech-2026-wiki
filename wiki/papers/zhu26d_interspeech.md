@@ -1,6 +1,6 @@
 ---
 id: zhu26d_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhu26d_interspeech.pdf
 *Xinya Zhu, Mengyu Qiao, Wenqiang Li, Zhihui Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhu26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhu26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3245)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — DASM is an AI-synthetic music detection framework that models the stable manifold of authentic audio using a learnable memory bank, identifying forgeries via manifold-space deviation rather than tracking generator-specific artifacts. It achieves a state-of-the-art 0.13% Equal Error Rate on the SONICS dataset.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated moderation of AI-generated music on streaming platforms, copyright protection enforcement against unauthorized deepfake tracks, and forensic verification of authentic musical compositions.
+
+## Institutions / 機構
+
+Beijing Key Laboratory of Key Technologies for AI+ Domain Applications, North China University of Technology
+
+**Funding / 經費:** NCUT Research Startup Fund, NCUT Education Teaching Reform Research Project Fund, NCUT Graduate Educational Reform Research Project
 
 ## Related
 

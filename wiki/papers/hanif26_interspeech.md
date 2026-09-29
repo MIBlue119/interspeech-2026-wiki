@@ -1,6 +1,7 @@
 ---
 id: hanif26_interspeech
-category: self-supervised
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hanif26_interspeech.pdf
 *Asif Hanif, Mohammad Yaqub*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hanif26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hanif26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-261)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — ZEBRA is a plug-and-play framework for audio-language models that mitigates the base-to-novel generalization gap in prompt learning by combining zero-shot logit fusion and self-entropy regularization, boosting novel-class accuracy by over 4% on average without adding learnable parameters.
 
@@ -61,6 +64,10 @@ Speech and ML researchers working on parameter-efficient adaptation and prompt l
 ## Applications
 
 Robust audio classification, acoustic scene analysis, and few-shot acoustic monitoring where models must adapt to specific domains without losing zero-shot generalization to unseen categories.
+
+## Institutions / 機構
+
+Mohamed bin Zayed University of Artificial Intelligence
 
 ## Related
 

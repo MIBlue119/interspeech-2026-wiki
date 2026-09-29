@@ -1,6 +1,7 @@
 ---
 id: hegde26_interspeech
-category: audio-captioning
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hegde26_interspeech.pdf
 *Kartik Hegde, Rehana Mahfuz, Yinyi Guo, Erik Visser*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hegde26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hegde26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2052)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper proposes a preference-aligned audio captioning framework using Reinforcement Learning from Human Feedback (RLHF) with a custom CLAP-based reward model, eliminating the need for ground-truth captions during fine-tuning while outperforming baselines in human preference win rates.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated acoustic scene description, smart home audio monitoring assistants, accessibility tools for the hearing-impaired, and content-based audio indexing.
+
+## Institutions / 機構
+
+Qualcomm
 
 ## Related
 

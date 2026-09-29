@@ -15,6 +15,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/he26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/he26d_interspeech.pdf
 session: Explainability for Compliance and Trust in Speech AI
 topics: [paralinguistics, evaluation, multilingual]
+category: health-clinical
+labels:
+  - "multilingual"
+institutions:
+  - "University of Science and Technology of China"
+  - "University of Edinburgh"
+funding:
+  - "National Social Science Foundation of China"
+  - "Super-computing Center of the University of Science and Technology of China"
 code:
     url: ""
     license: ""

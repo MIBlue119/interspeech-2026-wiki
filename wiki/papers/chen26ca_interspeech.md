@@ -1,6 +1,7 @@
 ---
 id: chen26ca_interspeech
-category: source-separation
+category: enhancement-separation
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26ca_interspeech.pdf
 *Yuxuan Chen, Haoyuan Yu, Peize He*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26ca_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26ca_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2684)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — By applying inference-time causal interventions to audio separation foundation models (SAM Audio), this work uncovers an asymmetric dual-pathway text conditioning mechanism and asynchronous layer-wise convergence, leading to a training-free attention caching method (LSAC) that cuts self-attention compute by ~25% with up to 6.7x higher quality retention than naive step reduction.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time universal sound source separation, promptable audio target extraction, and efficient on-device deployment of large-scale speech enhancement models.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Shenzhen, Jilin University, Hunan University, University of Electronic Science and Technology of China
 
 ## Related
 

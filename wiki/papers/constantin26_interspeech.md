@@ -1,6 +1,7 @@
 ---
 id: constantin26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/constantin26_interspeech.pdf
 *Valentina G. Constantin, Vitoria S. Fahed, Emer P. Doheny, Ruth Filan, Carla Collazo, Joanna Krzysztofik, Elliot Mann, Philippa Morgan-Jones, Laura Mills, Cheney Drew, Anne E. Rosser, Rebecca Cousins, Grzegorz Witkowski, Esther Cubo, Monica Busse, Madeleine M. Lowery*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/constantin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/constantin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2654)
+
+**Category:** `health-clinical` · **Labels:** `multilingual`
 
 **TL;DR** — This paper introduces a multilingual composite temporal speech index (CTSI) derived from automated passage reading analysis to assess motor and cognitive progression in Huntington's disease, achieving strong correlations with standard clinical rating scales across English, Polish, and Spanish cohorts.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated remote monitoring of neurodegenerative disease progression, clinical trial endpoint stratification, and early screening for cognitive impairment via smartphone speech recordings.
+
+## Institutions / 機構
+
+University College Dublin, Universidad de Burgos, Hospital Universitario of Burgos, Institute of Psychiatry and Neurology, Military Institute of Aviation Medicine, Cardiff University, North Bristol NHS Trust, King's College London
+
+**Funding / 經費:** EU Joint Programme - Neurodegenerative Disease Research, Research Ireland
 
 ## Related
 

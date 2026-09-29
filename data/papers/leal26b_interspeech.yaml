@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/leal26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/leal26b_interspeech.pdf
 session: Clinically Useful Speech Representations 2
 topics: [paralinguistics, speech-llm, self-supervised]
+category: health-clinical
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Milan"
+  - "Scientific Institute IRCCS E. Medea"
+  - "University of Verona"
+  - "Azienda Ospedaliera Universitaria Integrata"
+funding:
+  - "European Union"
 code:
     url: ""
     license: ""

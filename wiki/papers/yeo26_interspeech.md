@@ -1,6 +1,7 @@
 ---
 id: yeo26_interspeech
 category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yeo26_interspeech.pdf
 *Jinsu Yeo, Banseok Lee, Youngmin Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yeo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yeo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2063)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — LittleASR is a mixed-precision framework that applies variable-rank binary decomposition to Conformer-Transducers, bypassing the 1-bit limit of standard integer quantization to achieve sub-1-bit compression. By using gradient-aware sensitivity to compress robust encoder layers down to 0.2 bpw while protecting the sensitive decoder, it achieves a 6.01% dev-other WER at 1.0 bpw and an extreme compression footprint of 7.1 MB (0.2 bpw).
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device automatic speech recognition, voice assistants, and edge speech processing in extremely memory-constrained environments.
+
+## Institutions / 機構
+
+Samsung Electronics
 
 ## Related
 

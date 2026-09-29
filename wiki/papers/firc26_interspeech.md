@@ -1,6 +1,6 @@
 ---
 id: firc26_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/firc26_interspeech.pdf
 *Anton Firc, Zbyněk Lička, Vojtěch Staněk, Kamil Malinka*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/firc26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/firc26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-120)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — Global anchoring outperforms pairwise verification objectives for open-set synthetic speech source tracing under matched backbones, achieving 8.61% EER on MLAAD compared to 12-15% for pairwise variants. Pairwise training causes embedding dimensionality collapse, concentrating variance into fewer directions and increasing tail overlap at strict forensic operating points.
 
@@ -65,6 +67,12 @@ Speech and ML forensic researchers should read this to understand why standard b
 ## Applications
 
 Post-incident audio forensics, synthetic speech attribution, and deepfake generator tracing.
+
+## Institutions / 機構
+
+Brno University of Technology
+
+**Funding / 經費:** Brno University of Technology, Ministry of Education, Youth and Sports of the Czech Republic, e-INFRA CZ
 
 ## Related
 

@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.pdf
 session: Singing Voice and Music Generation
 topics: [voice-conversion, singing-voice, self-supervised]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Xinjiang University"
+  - "Xinjiang Key Laboratory of Multi-lingual Information Technology"
+  - "Joint International Research Laboratory of Silk Road Multilingual Cognitive Computing"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: https://linoteye.github.io/minflowsvc/
     license: ""

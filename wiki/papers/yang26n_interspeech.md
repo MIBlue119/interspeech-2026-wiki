@@ -1,6 +1,7 @@
 ---
 id: yang26n_interspeech
-category: tts
+category: speech-coding
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.pdf
 *Xusheng Yang, Long Zhou, Wenfu Wang, Kai Hu, Zixiang Wan, Yushen Chen, Shulin Feng, Chenxing Li, Meng Yu, Dong Yu, Yuexian Zou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2398)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — U-Codec is an ultra-low frame-rate (5Hz) neural speech codec that compresses speech into discrete tokens to accelerate LLM-based TTS by up to 3× while preserving SOTA naturalness and intelligibility.
 
@@ -69,6 +72,12 @@ Speech LLM and TTS researchers should read this paper to learn how to break the 
 ## Applications
 
 Extremely fast and lightweight zero-shot text-to-speech (TTS) systems, unified speech-text large language models, and on-device conversational speech generation agents.
+
+## Institutions / 機構
+
+Peking University, Tencent, Shanghai Jiao Tong University
+
+**Funding / 經費:** Guangdong Provincial Key Laboratory of Ultra High Definition Immersive Media Technology
 
 ## Related
 

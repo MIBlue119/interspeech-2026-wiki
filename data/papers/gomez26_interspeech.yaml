@@ -11,6 +11,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gomez26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gomez26_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
 topics: [self-supervised, multilingual, asr]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "Factored AI"
+  - "MLCommons"
+  - "NVIDIA"
 code:
     url: ""
     license: ""

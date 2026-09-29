@@ -9,6 +9,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.pdf
 session: Speech and Language Learning Technologies
 topics: [low-resource, multilingual, dataset]
+category: applications-other
+labels:
+  - "low-resource"
+institutions:
+  - "Université Paris 8"
+  - "Solid Technologies"
+  - "Babeș-Bolyai University"
+  - "CODA - Farmecul Tăcerii Foundation"
+funding:
+  - "Fundatia CODA - Farmecul Tacerii"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: skorzewska26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/skorzewska26_interspeech.pdf
 *Oliwia Skórzewska, Maria Filipek, Wojciech Pieniążek, Zuzanna Miodońska*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/skorzewska26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/skorzewska26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2606)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates the informativity of high-frequency acoustic bands up to 16 kHz for diagnosing place-of-articulation errors in children's retroflex sibilants, showing that aggregated noise energy ratios explain up to 30% of articulatory variance. By moving beyond traditional low-pass cutoffs, the proposed FNER features capture voicing-independent spectral shifts caused by speech distortions like sigmatism.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-aided speech therapy, automated diagnosis tools for pediatric speech disorders (sigmatism), and clinical acoustic evaluation software for speech-language pathologists.
+
+## Institutions / 機構
+
+Silesian University of Technology
+
+**Funding / 經費:** National Science Centre, Poland, European Union, Ministry of Science and Higher Education, Poland
 
 ## Related
 

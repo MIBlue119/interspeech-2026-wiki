@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jung26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jung26b_interspeech.pdf
 session: Speaker Diarization 2
 topics: [speaker-diarization, self-supervised]
+category: speaker
+institutions:
+  - "Incheon National University"
+funding:
+  - "KOITA"
+  - "MSIT"
 code:
     url: ""
     license: ""

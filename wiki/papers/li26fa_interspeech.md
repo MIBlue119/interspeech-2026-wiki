@@ -1,6 +1,7 @@
 ---
 id: li26fa_interspeech
-category: speaker-verification
+category: speaker
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26fa_interspeech.pdf
 *Ze Li, Xiaoxiao Miao, Juan Liu, Ming Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26fa_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26fa_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2437)
+
+**Category:** `speaker` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — A language-invariant multilingual speaker verification system is developed for the TidyVoice 2026 Challenge by combining a w2v-BERT 2.0 backbone, SphereFace2 loss, language-adversarial training via gradient reversal, and zero-shot TTS augmentation, achieving an EER of 0.89% on the development set.
 
@@ -68,6 +71,12 @@ Researchers building state-of-the-art multilingual speaker verification systems 
 ## Applications
 
 Cross-lingual speaker verification, multilingual speaker recognition, and zero-shot voice cloning security systems.
+
+## Institutions / 機構
+
+Wuhan University, Chinese University of Hong Kong, Shenzhen, Duke Kunshan University
+
+**Funding / 經費:** National Natural Science Foundation of China, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sohn26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sohn26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sohn26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2984)
 
+**Category:** `speech-coding`
+
 **TL;DR** — DTM-Codec is a 127M-parameter neural speech codec using dynamic token masking and path length equalization for variable-frame-rate (VFR) speech coding, outperforming fixed-frame-rate baselines at matched total bitrates across low-to-mid operating points. It achieves up to an 8.2% relative improvement in PESQ and a 12.1% reduction in word error rate (WER) at 800 bps.
 
 ## Key contributions
@@ -67,6 +69,12 @@ Speech and audio researchers building neural tokenizers or speech language model
 ## Applications
 
 Low-bitrate neural speech compression, ultra-low-bandwidth communication, and tokenization backbones for speech language models.
+
+## Institutions / 機構
+
+KAIST
+
+**Funding / 經費:** National Research Foundation of Korea
 
 ## Related
 

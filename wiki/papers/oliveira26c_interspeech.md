@@ -1,6 +1,6 @@
 ---
 id: oliveira26c_interspeech
-category: spoken-language-understanding
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/oliveira26c_interspeech.pdf
 *Cátia M Oliveira, Teodor Y. Nikolov, Tamas Foldes, Charlotte Bocchetta, Hana D'Souza*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/oliveira26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/oliveira26c_interspeech.html)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — The TinyExplorer Ecosystem is an open-source platform combining lightweight egocentric headcam hardware with a locally run desktop application for automated audio-visual annotation, achieving 78% recall and 77% precision in keyword spotting.
 
@@ -65,6 +67,12 @@ Speech and ML researchers building multimodal pipelines for child-centered or eg
 ## Applications
 
 Automated analysis of infant egocentric video and audio for developmental psychology, language acquisition studies, and automated multimodal behavioral coding.
+
+## Institutions / 機構
+
+Cardiff University, University of Surrey
+
+**Funding / 經費:** James S. McDonnell Foundation, UKRI Future Leaders Fellowship
 
 ## Related
 

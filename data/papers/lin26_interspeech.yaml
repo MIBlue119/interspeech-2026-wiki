@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lin26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lin26_interspeech.pdf
 session: Acoustic Event Detection 2
 topics: [self-supervised, paralinguistics, evaluation]
+category: audio-understanding
+institutions:
+  - "Academia Sinica"
+  - "National Central University"
+funding:
+  - "NSTC"
 code:
     url: ""
     license: ""

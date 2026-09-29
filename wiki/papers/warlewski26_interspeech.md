@@ -1,6 +1,7 @@
 ---
 id: warlewski26_interspeech
-category: keyword-spotting
+category: asr
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/warlewski26_interspeech.pdf
 *Paweł Warlewski, Artur Czeczko, Artur Szumaczuk, Grzegorz Stefański, Szymon Klimaszewski*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/warlewski26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/warlewski26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1343)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — The paper introduces Sub-Model Short-Term Memory Convolutions (SM-STMC), a technique that adapts convolutional backbones for online keyword spotting without retraining, achieving up to an 82% MCPS reduction compared to sliding-window CNNs and 46% compared to vanilla STMC.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device keyword spotting for resource-constrained edge hardware such as wearables, smartwatches, and wireless hearables.
+
+## Institutions / 機構
+
+Samsung R&D Institute Poland, Samsung AI Center Warsaw
 
 ## Related
 

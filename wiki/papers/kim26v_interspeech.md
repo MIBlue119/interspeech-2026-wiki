@@ -1,6 +1,7 @@
 ---
 id: kim26v_interspeech
-category: speech-codec
+category: speech-coding
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26v_interspeech.pdf
 *Hounsu Kim, Juhan Nam*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26v_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26v_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3108)
+
+**Category:** `speech-coding` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — SDP-Codec is a single-stage, speaker-decoupled low-bitrate neural speech codec that uses continuous pre-quantization vq-wav2vec features and explicit soft-label F0 injection. It achieves competitive waveform reconstruction and strong zero-shot voice conversion at 0.45–0.52 kbps while recording the lowest speaker leakage among compared systems.
 
@@ -66,6 +69,12 @@ Speech and ML researchers building low-bitrate neural codecs or speech language 
 ## Applications
 
 Zero-shot voice conversion, low-bitrate neural audio compression, and discrete tokenization for speech language models.
+
+## Institutions / 機構
+
+KAIST
+
+**Funding / 經費:** National Research Foundation of Korea
 
 ## Related
 

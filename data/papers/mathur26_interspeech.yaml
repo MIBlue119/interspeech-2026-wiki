@@ -14,6 +14,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mathur26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/mathur26_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
 topics: [tts, self-supervised, evaluation]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Smallest.ai"
 code:
     url: ""
     license: ""

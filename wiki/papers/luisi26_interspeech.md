@@ -1,6 +1,6 @@
 ---
 id: luisi26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/luisi26_interspeech.pdf
 *Bryn Luisi, Lauri Juvela*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/luisi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/luisi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1222)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — The paper introduces LP-DDSP and SMELP, differentiable linear prediction frameworks that optimize log-area ratios using a combination of L1, L2, and temporal regularization losses. This approach achieves an overall formant tracking RMSE of 166 Hz on the VTR Formants Database, outperforming classical tools like Praat and KARMA.
 
@@ -65,6 +67,10 @@ Audio and speech engineers looking to integrate interpretable classical signal p
 ## Applications
 
 Speech analysis, phoneme research, acoustic phonetics, and differentiable neural vocoding or speech synthesis.
+
+## Institutions / 機構
+
+Aalto University
 
 ## Related
 

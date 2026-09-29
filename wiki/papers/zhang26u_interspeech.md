@@ -1,6 +1,7 @@
 ---
 id: zhang26u_interspeech
-category: speech-translation
+category: translation
+labels: [multilingual, efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26u_interspeech.pdf
 *Shucong Zhang, Titouan Parcollet, Rogier van Dalen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26u_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26u_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1323)
+
+**Category:** `translation` · **Labels:** `multilingual`, `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — This paper introduces a learned wait policy for LLM-based streaming speech-to-text translation to replace brittle fixed cadence policies, achieving lower latency while being immune to early-silence hallucinations.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time speech-to-text translation for live multilingual video captioning, conversational AR/VR agents, and simultaneous interpretation systems.
+
+## Institutions / 機構
+
+Samsung
 
 ## Related
 

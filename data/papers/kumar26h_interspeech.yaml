@@ -13,6 +13,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kumar26h_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26h_interspeech.pdf
 session: Corpus Creation, Summarization and Understanding
 topics: [asr, dataset, low-resource]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Indian Institute of Technology Bombay"
+  - "University of Science and Technology"
+  - "University of Delhi"
+  - "BharatGen"
+funding:
+  - "BharatGen"
 code:
     url: https://github.com/KrishiVaani/KrishiVaani
     license: ""

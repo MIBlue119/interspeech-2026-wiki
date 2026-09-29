@@ -1,6 +1,6 @@
 ---
 id: gonzalez26d_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gonzalez26d_interspeech.pdf
 *Simon Gonzalez, Jason Littlefield, Tao Hoang, Chloe Dean, Hayden Ooi, Myung Kim, Bradley Donnelly, Latchman Singh, Jennifer Biggs, Tim Cawley*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gonzalez26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gonzalez26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-934)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — An empirical study on the Montreal Forced Aligner (MFA) using the TIMIT corpus determines the minimum token thresholds required for automatically extracted vowel acoustic features to reliably match manual annotations, finding that ~2,335 tokens are needed for stable F2 measurements.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Optimizing data collection workflows for large-scale sociophonetic studies, corpus linguistics, and low-resource acoustic analyses where manual phoneme segmentation is unavailable.
+
+## Institutions / 機構
+
+Defence Science and Technology Group
 
 ## Related
 

@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26ka_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26ka_interspeech.pdf
 session: 'Spoken Language Processing: Evaluation and Metrics'
 topics: [asr, self-supervised, evaluation]
+category: asr
+labels:
+  - "generative-model"
+institutions:
+  - "Shanghai Jiao Tong University"
+funding:
+  - "China NSFC Project"
 code:
     url: ""
     license: ""

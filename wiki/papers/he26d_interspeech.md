@@ -1,6 +1,7 @@
 ---
 id: he26d_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/he26d_interspeech.pdf
 *Liu He, Yuanchao Li, Yin-Long Liu, Rui Feng, Yiming Wang, Jiaxin Chen, Yizhe Wang, Jiahong Yuan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/he26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/he26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1149)
+
+**Category:** `health-clinical` · **Labels:** `multilingual`
 
 **TL;DR** — This paper investigates whether acoustic biomarkers driving automated Alzheimer's disease (AD) detection align with cues salient to human listeners across Mandarin and Greek languages and genders, uncovering significant cross-population divergences and model failure modes. The study finds that pathological-perceptual alignment is significant for Mandarin and female speakers (Spearman's rho around 0.52-0.54) but collapses for Greek speakers and male speakers (where pathology models performed at chance level).
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of equitable, demographic-aware clinical speech screening tools and human-in-the-loop diagnostic decision support systems for Alzheimer's disease.
+
+## Institutions / 機構
+
+University of Science and Technology of China, University of Edinburgh
+
+**Funding / 經費:** National Social Science Foundation of China, Super-computing Center of the University of Science and Technology of China
 
 ## Related
 

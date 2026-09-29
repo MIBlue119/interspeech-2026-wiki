@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26b_interspeech.pdf
 session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
 topics: [asr, self-supervised]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "RWTH Aachen University"
+  - "AppTek"
+funding:
+  - "Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection"
+  - "RESCALE"
 code:
     url: https://github.com/rwth-i6/returnn-experiments/tree/master/2026enhance-bestrq
     license: ""

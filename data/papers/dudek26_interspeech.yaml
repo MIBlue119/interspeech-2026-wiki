@@ -19,6 +19,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dudek26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dudek26_interspeech.pdf
 session: 'CHILDSPACE: Child Home Interaction & Language Dynamics: Speech, Psychology, Affect, Computation, and Environments'
 topics: [speech-enhancement, self-supervised, low-resource]
+category: health-clinical
+labels:
+  - "low-resource"
+  - "self-supervised"
+institutions:
+  - "AGH University of Krakow"
+  - "SoftServe"
+  - "Silesian University of Technology"
+  - "University of Silesia in Katowice"
+funding:
+  - "National Centre for Research and Development"
 code:
     url: ""
     license: ""

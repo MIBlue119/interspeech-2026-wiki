@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lamba26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lamba26_interspeech.pdf
 session: Benchmarking Foundation Models
 topics: [speech-enhancement, evaluation, paralinguistics]
+category: resources-evaluation
+institutions:
+  - "Ohio State University"
+funding:
+  - "National Science Foundation"
 code:
     url: ""
     license: ""

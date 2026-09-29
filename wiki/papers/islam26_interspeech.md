@@ -1,6 +1,7 @@
 ---
 id: islam26_interspeech
-category: speech-enhancement
+category: speech-coding
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/islam26_interspeech.pdf
 *Tarikul Islam, Sajid F. Dipto, Luke B. Baja-Ricketts, David C. Vergano, Anomadarshi Barua*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/islam26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/islam26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-506)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — CAPS is a cascaded reconstruction framework that jointly performs sub-Nyquist sampling (4 kHz) and low bit resolution (8-bit) in hearables to achieve a 3.3x reduction in hardware power consumption, while utilizing a mobile-hosted network to restore high-resolution wideband audio in 55.11 ms.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time voice communication, hearable audio enhancement, and low-power wearable audio streaming.
+
+## Institutions / 機構
+
+George Mason University
+
+**Funding / 經費:** Office of Naval Research
 
 ## Related
 

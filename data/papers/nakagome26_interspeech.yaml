@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nakagome26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/nakagome26_interspeech.pdf
 session: Acoustic Event Detection 2
 topics: [self-supervised, multilingual, evaluation]
+category: audio-understanding
+labels:
+  - "self-supervised"
+institutions:
+  - "LINE WORKS Corporation"
+  - "NAVER Cloud Corporation"
 code:
     url: ""
     license: ""

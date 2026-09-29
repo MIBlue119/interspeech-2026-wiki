@@ -1,6 +1,7 @@
 ---
 id: marchenko26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/marchenko26_interspeech.pdf
 *Anatoly Marchenko*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/marchenko26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/marchenko26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-579)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper presents a large-scale layer-wise cross-lingual speech emotion recognition analysis across 49 layers and 26 corpora, identifying layer 15 (the CRIS layer) as the optimal feature extraction point for frozen wav2vec2 models. Mean-pooled wav2vec2 representations outperform traditional 27-dimensional acoustic features by 41% in cross-corpus transfer.
 

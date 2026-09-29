@@ -1,6 +1,7 @@
 ---
 id: kagoshima26_interspeech
-category: few-shot
+category: audio-understanding
+labels: [low-resource, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kagoshima26_interspeech.pdf
 *Takehiko Kagoshima*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kagoshima26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kagoshima26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-153)
+
+**Category:** `audio-understanding` · **Labels:** `low-resource`, `robustness-noise`
 
 **TL;DR** — POP-SED is a fine-tuning-free framework for few-shot sound event detection that suppresses overlapping background noise by projecting target-event prototypes onto a subspace orthogonal to estimated background vectors. It achieves an F-score of 62.35% on the DCASE2024 Task 5 validation set without any model fine-tuning.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-site customizable sound event detection, bioacoustic monitoring, and edge-device acoustic surveillance in noisy environments.
+
+## Institutions / 機構
+
+Toshiba
 
 ## Related
 

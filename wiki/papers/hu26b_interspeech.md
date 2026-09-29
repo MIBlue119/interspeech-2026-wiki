@@ -1,6 +1,7 @@
 ---
 id: hu26b_interspeech
-category: speech-llm
+category: speech-coding
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hu26b_interspeech.pdf
 *Jingbin Hu, Haoyu Zhang, Dake Guo, Qirui Zhan, Wenhao Li, Huakang Chen, Guobin Ma, Hanke Xie, Chengyou Wang, Pengyuan Xie, Chuan Xie, Qiang Zhang, Lei Xie*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-494)
+
+**Category:** `speech-coding` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — OmniCodec is a universal neural audio codec operating at low frame rates (12.5 Hz / 6.25 Hz) that achieves semantic-acoustic disentanglement across speech, music, and general sound by leveraging a pre-trained understanding model's audio encoder and a self-guidance training strategy.
 
@@ -65,6 +68,10 @@ Speech and ML researchers building audio LLMs or streaming generative models sho
 ## Applications
 
 Streaming speech-to-speech translation, universal audio generation via language models, real-time interactive voice assistants, and multi-domain audio compression.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University, Shanghai Lingguang Zhaxian Technology
 
 ## Related
 

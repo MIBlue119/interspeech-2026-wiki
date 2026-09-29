@@ -1,6 +1,7 @@
 ---
 id: sulun26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sulun26_interspeech.pdf
 *Serkan Sulun*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sulun26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sulun26_interspeech.html)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `efficient-on-device`
 
 **TL;DR** — Light-DMF is a lightweight speech emotion recognition model with fewer than 65k trainable parameters that performs disjoint and fused audio-text emotion classification at faster-than-real-time speeds on a single CPU.
 
@@ -58,6 +61,10 @@ Speech and ML engineers looking to deploy real-time emotion recognition on resou
 ## Applications
 
 Real-time speech emotion recognition on consumer hardware, healthcare monitoring, educational tools, and multimedia analysis.
+
+## Institutions / 機構
+
+INESC TEC, University of Porto
 
 ## Related
 

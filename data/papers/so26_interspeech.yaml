@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/so26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/so26_interspeech.pdf
 session: 'Speaker Verification: Advances in Speaker Embeddings'
 topics: [speaker-verification, self-supervised, speech-llm]
+category: speaker
+institutions:
+  - "Seoul National University"
+funding:
+  - "National Research Foundation of Korea"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Advanced GPU Utilization Support Program"
 code:
     url: https://github.com/jaejunL/vove
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: shi26e_interspeech
-category: speech-llm
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shi26e_interspeech.pdf
 *Xiaohan Shi, Xingfeng Li, Tomoki Toda*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shi26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shi26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2076)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — MoLD is a multimodal emotion recognition framework that explicitly models modality-specific label distributions alongside cross-modal fusion and similarity losses, achieving a multimodal UAR of 58.96% and F1 of 59.67% on the EmotionTalk corpus.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Intelligent dialogue systems, mental health assessment tools, and social media analytics platforms requiring robust multimodal emotion understanding.
+
+## Institutions / 機構
+
+Nagoya University, City University of Macau
+
+**Funding / 經費:** JST CREST, JSPS KAKENHI
 
 ## Related
 

@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/fan26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/fan26c_interspeech.pdf
 session: Neurophysiology of Speech
 topics: [paralinguistics, evaluation, self-supervised]
+category: applications-other
+institutions:
+  - "Macquarie University"
+funding:
+  - "China Scholarship Council"
+  - "Macquarie University"
+  - "Australian Research Council"
 code:
     url: https://osf.io/fcgbk/overview?view_only=f13dacbe9bde4658a8f8c6660774117c
     license: ""

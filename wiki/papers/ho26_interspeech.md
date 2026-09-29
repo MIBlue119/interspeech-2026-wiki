@@ -1,6 +1,6 @@
 ---
 id: ho26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ho26_interspeech.pdf
 *Chun-Wei Ho, Pin-Jui Ku, Hao Yen, Sabato Marco Siniscalchi, Yu Tsao, Chin-Hui Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ho26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ho26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-621)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — The paper introduces the multi-source Griffin-Lim algorithm (MSGLA), an iterative speech enhancement framework that combines complex STFT consistency constraints with geometric relations (laws of sines and cosines) to resolve phase sign ambiguities, achieving competitive or superior performance over direct phase estimation and neural sign predictors.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time communication systems, hearing aids, and speech preprocessing front-ends for automatic speech recognition in noisy environments.
+
+## Institutions / 機構
+
+Georgia Institute of Technology, Universita degli Studi di Palermo, Academia Sinica
 
 ## Related
 

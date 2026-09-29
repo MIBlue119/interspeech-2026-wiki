@@ -1,6 +1,6 @@
 ---
 id: wang26ca_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26ca_interspeech.pdf
 *Yankai Wang, Zhipeng Chen, Yuxuan Du, Rong Zheng, Jing Deng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26ca_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26ca_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2069)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — FreqGuard is a universal proactive voice defense framework that uses frequency-domain feature priors and a multi-loss optimization strategy to disrupt unauthorized speech synthesis while preserving high audio fidelity, reducing attack success rates to a maximum of 27.50% on large-scale TTS models like XTTS-v2 and CosyVoice.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Proactive voice data protection for social media uploads, privacy-preserving personal voice assistance, and authorized audio licensing frameworks.
+
+## Institutions / 機構
+
+Beijing Fosafer Information Technology
+
+**Funding / 經費:** National Key Research and Development Program of China
 
 ## Related
 

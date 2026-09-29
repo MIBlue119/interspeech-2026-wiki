@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gu26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gu26b_interspeech.pdf
 session: Prosody, Pronunciation and Specialized Speech Processing
 topics: [paralinguistics, self-supervised, asr]
+category: paralinguistics-emotion
+labels:
+  - "self-supervised"
+institutions:
+  - "Southwest University"
+  - "Chongqing Academy of Science and Technology"
+funding:
+  - "Chongqing Academy of Science and Technology Basic Research Funding"
 code:
     url: https://github.com/Guhujian/ProWhistress.git
     license: ""

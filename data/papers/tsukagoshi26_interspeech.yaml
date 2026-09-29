@@ -12,6 +12,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tsukagoshi26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/tsukagoshi26_interspeech.pdf
 session: Spoken Language Understanding
 topics: [spoken-language-understanding, speech-llm, self-supervised]
+category: speech-llm-dialogue
+institutions:
+  - "Shizuoka University"
+  - "Hitachi"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: sinha26_interspeech
-category: low-resource
+category: resources-evaluation
+labels: [low-resource, multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sinha26_interspeech.pdf
 *Abhijit Sinha, Subham Kutum, Udara Laxman Kumar, Paban Sapkota, Hemant Kumar Kathania*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sinha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sinha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2634)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces a 146-hour spontaneous speech corpus across four under-resourced Eastern Himalayan languages (Bodo, Dzongkha, Gorkhali, and Sherpa) from 320 native speakers, achieving up to 92.95% accuracy in speaker-independent language identification through multi-feature acoustic fusion.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computational documentation, language identification, and downstream acoustic modeling for low-resource and Himalayan speech communities.
+
+## Institutions / 機構
+
+National Institute of Technology Sikkim
 
 ## Related
 

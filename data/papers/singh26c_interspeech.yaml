@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/singh26c_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/singh26c_interspeech.pdf
 session: Voice Editing
 topics: [tts, self-supervised, multilingual]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "University of Maryland"
+  - "TU Darmstadt"
+  - "Smallest AI"
 code:
     url: ""
     license: ""

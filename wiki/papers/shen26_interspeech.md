@@ -1,6 +1,7 @@
 ---
 id: shen26_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shen26_interspeech.pdf
 *Huan Shen, Yingao Wang, Shangkun Huang, Wei Zou, Yunzhang Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-974)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — CoDeTT is a context-aware diagnostic benchmark that reformulates spoken dialogue turn-taking into a structured 14-scenario decision problem, exposing a hidden "lucky guess" phenomenon where models succeed at actions while failing at semantic intent.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic evaluation and development of robust full-duplex spoken dialogue systems, conversational agents, and real-time voice assistants.
+
+## Institutions / 機構
+
+Bairong
 
 ## Related
 

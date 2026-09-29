@@ -8,6 +8,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chowdhury26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/chowdhury26_interspeech.pdf
 session: Empathetic Dialogue and Interaction Dynamics
 topics: [paralinguistics, self-supervised, evaluation]
+category: paralinguistics-emotion
+institutions:
+  - "Colby College"
+funding:
+  - "Henry Luce Foundation"
 code:
     url: ""
     license: ""

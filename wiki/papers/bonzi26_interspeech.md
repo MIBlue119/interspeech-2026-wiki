@@ -1,6 +1,7 @@
 ---
 id: bonzi26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bonzi26_interspeech.pdf
 *Francesco Bonzi, Pooneh Mousavi, Cem Subakan, Mirco Ravanelli*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bonzi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bonzi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1504)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — SPARE introduces a training-time register token alignment strategy that conditions large audio language models on final semantic goals before reasoning begins, boosting zero-shot reasoning accuracy on MMAU to 58.03% without any inference overhead.
 
@@ -66,6 +69,12 @@ Speech and ML researchers working on multimodal audio-language models will learn
 ## Applications
 
 Complex acoustic question answering, spoken multi-step deduction, and audio-grounded conversational AI assistants.
+
+## Institutions / 機構
+
+Concordia University, Mila - Quebec AI Institute, Universite Laval
+
+**Funding / 經費:** NSERC, Digital Research Alliance of Canada, Translated Imminent Program, Apple
 
 ## Related
 

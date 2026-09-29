@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ko26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ko26_interspeech.pdf
 session: Speech, Voice and Language Disorders
 topics: [asr, voice-conversion, dataset]
+category: asr
+labels:
+  - "low-resource"
+institutions:
+  - "National Cheng Kung University"
+funding:
+  - "National Science and Technology Council of Taiwan"
 code:
     url: ""
     license: ""

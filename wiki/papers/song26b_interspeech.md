@@ -1,6 +1,7 @@
 ---
 id: song26b_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/song26b_interspeech.pdf
 *Haoyu Song, Ian McLoughlin, Xiaoxiao Miao, Aik Beng Ng, Simon See, Timothy Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/song26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/song26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-951)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `efficient-on-device`
 
 **TL;DR** — MSMC is a lightweight spectrogram-based Speech Emotion Recognition (SER) architecture that combines a leak-free masked convolution encoder with a mean teacher distillation framework, achieving 76.0% WA on IEMOCAP while using 14x fewer parameters than SSL baselines.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time speech emotion recognition in call center dialogue systems, educational applications, and resource-constrained edge devices.
+
+## Institutions / 機構
+
+Singapore Institute of Technology, Duke Kunshan University, NVIDIA
 
 ## Related
 

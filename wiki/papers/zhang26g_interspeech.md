@@ -1,6 +1,7 @@
 ---
 id: zhang26g_interspeech
-category: paralinguistics
+category: phonetics-linguistics
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26g_interspeech.pdf
 *Ziyu Zhang, Chenyu Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-660)
+
+**Category:** `phonetics-linguistics` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — This paper investigates prosodic focus realization in Yi-Mandarin bilingual speakers, demonstrating a complete dissociation where on-focus expansion is fully acquired in L2 Mandarin, while post-focus compression is entirely absent regardless of language experience.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic tools for L2 speech acquisition, computer-assisted pronunciation training systems for bilingual minority language speakers, and cross-lingual text-to-speech prosody adaptation.
+
+## Institutions / 機構
+
+Flinders University, Johns Hopkins University
 
 ## Related
 

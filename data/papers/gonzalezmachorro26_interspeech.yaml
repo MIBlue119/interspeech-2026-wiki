@@ -15,6 +15,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gonzalezmachorro26_inter
 pdf_url: https://www.isca-archive.org/interspeech_2026/gonzalezmachorro26_interspeech.pdf
 session: Clinically Useful Speech Representations 1
 topics: [health, paralinguistics, evaluation]
+category: health-clinical
+institutions:
+  - "Technical University of Munich"
+  - "audEERING"
+  - "Munich Center for Machine Learning"
+  - "Imperial College London"
 code:
     url: https://github.com/monicagoma98/IS_AIMnd_2026
     license: ""

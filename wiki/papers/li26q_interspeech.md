@@ -1,6 +1,7 @@
 ---
 id: li26q_interspeech
-category: speech-enhancement
+category: audio-understanding
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26q_interspeech.pdf
 *Yanxiong Li, Guoqing Chen, Qianqian Li, Sen Huang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1024)
+
+**Category:** `audio-understanding` · **Labels:** `low-resource`
 
 **TL;DR** — This paper introduces Few-shot Class-variable Incremental Audio Classification (FCIAC), a realistic learning setting where audio classes can be both added and removed over time. The authors propose a Class-variable Prototype Adaptation Network (CPAN) combined with a Pseudo Class-variable Training Strategy (PCTS), achieving superior average accuracy across public speech, music, and sound event datasets compared to traditional incremental baselines.
 
@@ -67,6 +70,12 @@ Researchers and engineers working on incremental few-shot audio recognition or e
 ## Applications
 
 Smart speakers with dynamic keyword addition/removal, real-world acoustic monitoring systems, and personal voice assistants requiring adaptive on-device audio classification.
+
+## Institutions / 機構
+
+South China University of Technology
+
+**Funding / 經費:** National Natural Science Foundation of China, China-Croatia Science and Technology Cooperation Committee
 
 ## Related
 

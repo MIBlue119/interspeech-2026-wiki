@@ -10,6 +10,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cronenberg26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/cronenberg26_interspeech.pdf
 session: Diphthongs and Monophthongs
 topics: [phonetics, prosody, dataset]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+institutions:
+  - "Universite Paris Cite"
+  - "CNRS"
+  - "Universite Paris-Saclay"
+  - "Institut Universitaire de France"
+funding:
+  - "ANR"
+  - "IdEx program"
 code:
     url: ""
     license: ""

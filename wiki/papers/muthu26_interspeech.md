@@ -1,6 +1,7 @@
 ---
 id: muthu26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/muthu26_interspeech.pdf
 *Mohankumar Muthu, Sasikala E, Girirajan S*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/muthu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/muthu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-696)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — DysfluentNet is a hierarchical multi-task framework that jointly performs fine-grained stuttering event detection and dysfluency-aware transcription from raw waveforms. Evaluated on SEP-28k and FluencyBank, it achieves a macro F1 of 72.4 on stuttering detection and a dysfluency-inclusive word error rate (DI-WER) of 18.3.
 
@@ -68,6 +71,12 @@ Speech and ML researchers working on speech pathology or dysfluent ASR should re
 ## Applications
 
 Automated clinical speech therapy monitoring and dysfluency-inclusive ASR accessibility systems for people who stutter.
+
+## Institutions / 機構
+
+SRM Institute of Science and Technology
+
+**Funding / 經費:** Department of Science and Technology
 
 ## Related
 

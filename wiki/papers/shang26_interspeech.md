@@ -1,6 +1,7 @@
 ---
 id: shang26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [self-supervised, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shang26_interspeech.pdf
 *Zengqiang Shang, Biao Liu, Yu Zhao, Pengyuan Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-200)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`, `generative-model`, `robustness-noise`
 
 **TL;DR** — Seed-Enh is a generative speech enhancement framework that performs denoising in decoupled semantic and timbre spaces rather than traditional acoustic space, achieving a top DNS blind test OVRL of 3.095.
 
@@ -66,6 +69,12 @@ Read this if you want to understand how to decouple semantic and timbre represen
 ## Applications
 
 Robust real-time remote communication, speech pre-processing for automatic speech recognition, and zero-shot voice conversion under adverse acoustic environments.
+
+## Institutions / 機構
+
+Institute of Acoustics, University of Chinese Academy of Sciences
+
+**Funding / 經費:** National Natural Science Foundation of China, CPSF Postdoctoral Fellowship
 
 ## Related
 

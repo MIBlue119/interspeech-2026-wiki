@@ -1,6 +1,7 @@
 ---
 id: syed26_interspeech
-category: tts
+category: resources-evaluation
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf
 *Muntaser Syed, Marius Silaghi, Sharun Akter Khushbu, Fariha Jaigirdar*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — The paper introduces corpusgen, an open-source Python toolkit for designing speech corpora with maximal phoneme, diphone, and triphone coverage across more than 100 languages. It unifies phonetic evaluation, six corpus selection algorithms, and targeted text generation into a single pip-installable framework.
 
@@ -59,6 +62,10 @@ Speech researchers and TTS/ASR engineers building corpora for low-resource or mu
 ## Applications
 
 Training data curation for text-to-speech (TTS) and automatic speech recognition (ASR) systems across low-resource and multilingual domains.
+
+## Institutions / 機構
+
+Florida Institute of Technology, Daffodil International University, Deakin University
 
 ## Related
 

@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26k_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26k_interspeech.pdf
 session: Spoken Dialogue Systems
 topics: [speech-llm, evaluation, dataset]
+category: speech-llm-dialogue
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Shanghai Jiao Tong University"
 code:
     url: ""
     license: ""

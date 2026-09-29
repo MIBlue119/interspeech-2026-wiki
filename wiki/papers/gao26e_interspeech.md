@@ -1,6 +1,7 @@
 ---
 id: gao26e_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [self-supervised, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gao26e_interspeech.pdf
 *Jun Gao, Xiaobin Rong, Yu Sun, Dahan Wang, Jing Lu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gao26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gao26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-916)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`, `generative-model`, `robustness-noise`
 
 **TL;DR** — PhASE-Flow is a phonetic-conditioned acoustic flow matching speech enhancement framework operating entirely in the WavLM self-supervised latent space, achieving top-tier perceptual quality and intelligibility with only 4 sampling steps.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time speech enhancement and dereverberation for telecommunications, hearing aids, and voice-controlled assistant front-ends.
+
+## Institutions / 機構
+
+Nanjing University, Horizon Robotics, Samsung Electronics
+
+**Funding / 經費:** National Natural Science Foundation of China, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

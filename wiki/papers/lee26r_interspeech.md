@@ -1,6 +1,7 @@
 ---
 id: lee26r_interspeech
-category: speech-enhancement
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26r_interspeech.pdf
 *Jiwon Lee, Jaejun Lee, Kyogu Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26r_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26r_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1938)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — GETS is a novel electromyography-to-speech (ETS) framework that integrates a diffusion-based generative network with silent speech recognition (SSR) semantic guidance, achieving a new state-of-the-art word error rate (WER) of 11.89% on silent EMG test data.
 
@@ -66,6 +69,12 @@ Speech and ML researchers focusing on biosignal processing and guided diffusion 
 ## Applications
 
 Assistive communication devices for individuals with severe speech or motor impairments, and silent speech interfaces for secure or private communications.
+
+## Institutions / 機構
+
+Seoul National University
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT, National IT Industry Promotion Agency
 
 ## Related
 

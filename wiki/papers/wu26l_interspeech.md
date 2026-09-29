@@ -1,6 +1,7 @@
 ---
 id: wu26l_interspeech
-category: speech-enhancement
+category: tts
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26l_interspeech.pdf
 *Bowen Wu, Haruto Ueno, Carlos Toshinori Ishi, Chaoran Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2150)
+
+**Category:** `tts` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — This paper proposes a data-driven framework to build one-to-many electrolaryngeal (EL) to natural (NL) voice conversion models using only 13 minutes of real EL data, leveraging synthetic data generation to significantly outperform prior pseudo-EL augmentation methods in intelligibility and intonation naturalness.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Assistive communication devices for laryngectomees, real-time electrolaryngeal speech restoration, and personalized voice prosthetics supporting multiple target speaker choices.
+
+## Institutions / 機構
+
+RIKEN, University of Osaka, Advanced Telecommunications Research Institute International, National Institute of Informatics
+
+**Funding / 經費:** RIKEN Special Postdoctoral Researcher Program, JST Moonshot R&D
 
 ## Related
 

@@ -16,6 +16,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kheir26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kheir26_interspeech.pdf
 session: Spoofing, Deepfake Detection and Watermarking
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "self-supervised"
+institutions:
+  - "German Research Center for Artificial Intelligence"
+  - "University of Stuttgart"
+  - "National Institute of Informatics"
+  - "Technical University of Berlin"
+funding:
+  - "Federal Ministry of Research, Technology and Space"
+  - "Investitionsbank Berlin"
+  - "JST PRESTO"
 code:
     url: ""
     license: ""

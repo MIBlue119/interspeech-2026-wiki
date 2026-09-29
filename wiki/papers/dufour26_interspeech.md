@@ -1,6 +1,6 @@
 ---
 id: dufour26_interspeech
-category: speech-anonymization
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dufour26_interspeech.pdf
 *Orane Dufour, Paul Magron, Mickael Rouvier, Emmanuel Vincent*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dufour26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dufour26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-440)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper conducts a large-scale per-speaker privacy analysis of speech anonymization across nearly 5,000 speakers, demonstrating that re-identification risk is not an intrinsic speaker property but emerges from the interaction between the attacker, the anonymizer, and available speech length.
 
@@ -64,6 +66,12 @@ Speech researchers and privacy engineers building robust voice anonymization sys
 ## Applications
 
 Benchmarking and auditing voice privacy protection tools for compliance with data protection regulations such as GDPR.
+
+## Institutions / 機構
+
+Universite de Lorraine, CNRS, Inria, Avignon University
+
+**Funding / 經費:** Agence Nationale de la Recherche, SpeechPrivacy
 
 ## Related
 

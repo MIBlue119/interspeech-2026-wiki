@@ -1,6 +1,7 @@
 ---
 id: susac26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/susac26_interspeech.pdf
 *Petar Sušac, Sebastian P. Bayerl, Hrvoje Džapo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/susac26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/susac26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1091)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper presents a Multiple Instance Neural Network (MINN) architecture that leverages weakly-supervised instance-based and attention-based embedding multiple instance learning (MIL) with fine-tuned speech foundation encoders to perform accurate frame-level stuttering segmentation using only clip-level labels. It achieves a state-of-the-art 0.70 frame-level F1 score on the CASA dataset, outperforming previous segmentation baselines by 23%.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical stuttering severity assessment, speech therapy monitoring tools, and improving speech recognition (ASR) robustness for people who stutter.
+
+## Institutions / 機構
+
+University of Zagreb, Rosenheim Technical University of Applied Sciences
+
+**Funding / 經費:** European Union NextGenerationEU, NPOO VISTAHealth
 
 ## Related
 

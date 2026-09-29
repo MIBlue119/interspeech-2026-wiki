@@ -1,6 +1,7 @@
 ---
 id: pine26_interspeech
 category: tts
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pine26_interspeech.pdf
 *Aidan Pine, Korin Richmond*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pine26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pine26_interspeech.html)
+
+**Category:** `tts` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — The SGILE project introduces the open-source EveryVoice TTS toolkit for training high-quality neural speech synthesis on small datasets and demonstrates the efficiency of Best-Worst Scaling (BWS) for subjective evaluation.
 
@@ -56,6 +59,12 @@ Researchers and practitioners working on low-resource speech technology or commu
 ## Applications
 
 Community-led Indigenous language education, preservation of under-resourced languages, and localized text-to-speech application deployment.
+
+## Institutions / 機構
+
+National Research Council, University of Edinburgh
+
+**Funding / 經費:** National Research Council of Canada, UK ESRC Impact Acceleration Award
 
 ## Related
 

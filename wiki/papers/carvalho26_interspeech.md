@@ -1,6 +1,7 @@
 ---
 id: carvalho26_interspeech
 category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/carvalho26_interspeech.pdf
 *Carlos Carvalho, Francisco Teixeira, Thomas Rolland, Alberto Abad*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/carvalho26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/carvalho26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1969)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — The paper benchmarks 11 model merging algorithms for multi-domain European Portuguese ASR using Whisper Large-v3 and introduces BoostedTSV-M, achieving competitive in-domain accuracy while better preserving cross-lingual and out-of-distribution generalization compared to full joint fine-tuning.
 
@@ -68,6 +71,12 @@ Speech and ML engineers dealing with multi-domain ASR deployment constraints sho
 ## Applications
 
 Multi-domain conversational agents, localized speech transcription systems, and enterprise speech recognition deployed across diverse regional dialects.
+
+## Institutions / 機構
+
+INESC-ID, Universidade de Lisboa
+
+**Funding / 經費:** Fundacao para a Ciencia e a Tecnologia, Portuguese Recovery and Resilience Plan
 
 ## Related
 

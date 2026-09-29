@@ -1,6 +1,7 @@
 ---
 id: zhou26h_interspeech
 category: tts
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhou26h_interspeech.pdf
 *Shuoyi Zhou, Yixuan Zhou, Peiji Yang, Yifan Hu, Yicheng Zhong, Zhisheng Wang, Zhiyong Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhou26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhou26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2280)
+
+**Category:** `tts` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — FineCombo-TTS is a unified controllable text-to-speech framework that combines reference speech and text descriptions via a Conditional Flow Matching (CFM) Speech Variance Predictor and a custom dataset (FineEdit) to achieve precise attribute editing, reaching an emotion control accuracy of 85.0% and outperforming baselines in instruction following.
 
@@ -60,6 +63,12 @@ Researchers and engineers working on controllable speech generation and zero-sho
 ## Applications
 
 Fine-grained controllable voice cloning, emotional text-to-speech narration, and interactive voice assistants requiring real-time stylistic alterations via natural language prompts.
+
+## Institutions / 機構
+
+Tsinghua University, Inner Mongolia University, Tencent
+
+**Funding / 經費:** National Natural Science Foundation of China, National Social Science Foundation of China
 
 ## Related
 

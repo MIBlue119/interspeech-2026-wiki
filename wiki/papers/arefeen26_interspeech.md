@@ -1,6 +1,7 @@
 ---
 id: arefeen26_interspeech
-category: speaker-verification
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/arefeen26_interspeech.pdf
 *Ridwan Arefeen, Xiaoxiao Miao, Rong Tong, Timothy Liu, Aik Beng Ng, Simon See*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/arefeen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/arefeen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3094)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — DAST is a dual-stream voice anonymization attacker fusing spectral and frozen SSL features with a three-stage training curriculum, achieving state-of-the-art attack equal error rates across the VoicePrivacy Attacker Challenge (VPAC) benchmarks while requiring as little as 10% target data.
 
@@ -66,6 +69,12 @@ Researchers and security engineers working on speech privacy and voice anonymiza
 ## Applications
 
 Auditing and stress-testing voice anonymization systems, improving speaker verification robustness against synthetic speech distortions, and evaluating biometric privacy leakage.
+
+## Institutions / 機構
+
+Singapore Institute of Technology, Duke Kunshan University, NVIDIA
+
+**Funding / 經費:** Singapore Ministry of Education Academic Research Fund Tier 1
 
 ## Related
 

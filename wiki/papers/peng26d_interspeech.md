@@ -1,6 +1,7 @@
 ---
 id: peng26d_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.pdf
 *Yuezhang Peng, Chonghao Cai, Ziang Liu, Shuai Fan, Sheng Jiang, Hua Xu, Yuxin Liu, Sheng Wang, Qiguang Chen, Yao Li, Kele Xu, Kai Yu, Libo Qin, Xie Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1055)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces MAC-SLU, a Chinese multi-intent spoken language understanding benchmark for automotive cabins, and evaluates various large language and audio-language models using in-context learning, supervised fine-tuning, and end-to-end paradigms.
 
@@ -65,6 +68,12 @@ Speech and ML researchers focusing on spoken language understanding or large aud
 ## Applications
 
 Automotive voice assistants, in-car infotainment control systems, and task-oriented multi-intent conversational dialogue agents.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, Central South University, AISpeech Co., Ltd, Shanghai Innovation Institute, Harbin Institute of Technology, Shanghai Aviation Electric Co., Ltd, National University of Defense Technology
+
+**Funding / 經費:** National Natural Science Foundation of China, Shanghai Municipal Science and Technology Major Project, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

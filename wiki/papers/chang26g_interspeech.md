@@ -1,6 +1,6 @@
 ---
 id: chang26g_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chang26g_interspeech.pdf
 *Will Chih-Chao Chang, Jiaxuan Li, Xin Xie*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chang26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chang26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3106)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates whether fine-grained sub-phonemic phonetic variation (VOT) modulates lexical competition during sentence comprehension, contrasting isolated-word processing with sentence contexts. The study finds that while isolated words show graded sensitivity to phonetic ambiguity, this effect disappears in sentence contexts where top-down expectations dominate.
 
@@ -58,6 +60,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving cognitive models of human speech perception, informing architectural design for speech LLMs regarding contextual versus acoustic weighting, and refining text-to-speech evaluation benchmarks.
+
+## Institutions / 機構
+
+University of California, Irvine
 
 ## Related
 

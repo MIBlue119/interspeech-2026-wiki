@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/krishnan26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/krishnan26_interspeech.pdf
 session: Explainability for Compliance and Trust in Speech AI
 topics: [speech-llm, evaluation, self-supervised]
+category: speech-llm-dialogue
+institutions:
+  - "Saarland University"
+  - "DFKI"
+  - "ETH Zurich"
+funding:
+  - "European Defence Fund"
+  - "ETH AI Center"
 code:
     url: https://repos.lsv.uni-saarland.de/akrishnan/multimodal-jailbreak-slm
     license: ""

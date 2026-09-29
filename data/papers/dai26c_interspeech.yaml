@@ -15,6 +15,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dai26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dai26c_interspeech.pdf
 session: 'Speech Synthesis: Speech Features, Codec and Representations'
 topics: [tts, speech-llm, self-supervised]
+category: tts
+labels:
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "Chinese University of Hong Kong"
+  - "Tencent"
+  - "Hong Kong University of Science and Technology"
 code:
     url: https://github.com/dzq84/meantok
     license: ""

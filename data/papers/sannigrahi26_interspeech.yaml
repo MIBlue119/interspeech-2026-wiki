@@ -10,6 +10,22 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sannigrahi26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/sannigrahi26_interspeech.pdf
 session: Efficient Inference for ASR and Speech LMs
 topics: [asr, speech-translation, spoken-language-understanding]
+category: speech-llm-dialogue
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Universidade de Lisboa"
+  - "Instituto de Telecomunicacoes"
+  - "TransPerfect"
+funding:
+  - "Portuguese Recovery and Resilience Plan"
+  - "Center for ResponsibleAI"
+  - "DECOLLAGE"
+  - "ERC"
+  - "FCT"
+  - "MECI"
+  - "EU funds"
+  - "Instituto de Telecomunicacoes"
 code:
     url: https://github.com/sonalsannigrahi/AdaTS
     license: ""

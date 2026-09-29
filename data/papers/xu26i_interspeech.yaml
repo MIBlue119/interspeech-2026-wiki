@@ -14,6 +14,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26i_interspeech.pdf
 session: Phonetic Aspects of TTS and ASR Systems
 topics: [speech-emotion-recognition, voice-conversion, paralinguistics]
+category: paralinguistics-emotion
+labels:
+  - "generative-model"
+institutions:
+  - "Chinese Academy of Sciences"
+  - "Macquarie University"
+funding:
+  - "National Key R&D Program of China"
+  - "NSFC"
+  - "China Disabled Persons Federation"
+  - "Youth Innovation Promotion Association CAS Grant"
+  - "China Postdoctoral Science Foundation"
 code:
     url: https://github.com/Plachtaa/seed-vc
     license: ""

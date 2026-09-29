@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/miniconi26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/miniconi26_interspeech.pdf
 session: Speech Synthesis Evaluation 2
 topics: [tts, evaluation, self-supervised]
+category: resources-evaluation
+institutions:
+  - "Le Mans Universite"
+funding:
+  - "European Union"
 code:
     url: https://git-lium.univ-lemans.fr/jsalt2025/wp1/tts4all_eval
     license: ""

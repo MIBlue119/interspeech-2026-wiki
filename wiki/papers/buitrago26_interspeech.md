@@ -1,6 +1,7 @@
 ---
 id: buitrago26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/buitrago26_interspeech.pdf
 *Pol Buitrago, Oriol Pareras, Federico Costa, Javier Hernando*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/buitrago26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/buitrago26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2745)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — The paper introduces the Cross-Lingual Transfer Matrix (CLTM) to systematically quantify how adding donor-language data impacts target-language performance during fine-tuning. Evaluating 44 languages on mHuBERT-147, the authors reveal that gender recognition is nearly language-agnostic (RFD of 0.16), whereas speaker verification exhibits severe, family-clustered language dependence (RFD of 2.97).
 
@@ -61,6 +64,12 @@ Speech researchers and practitioners designing multilingual fine-tuning pipeline
 ## Applications
 
 Multilingual speech dataset curation, acoustic model fine-tuning strategy optimization, and cross-lingual transfer planning for low-resource paralinguistic tasks.
+
+## Institutions / 機構
+
+Barcelona Supercomputing Center, Universitat Politecnica de Catalunya
+
+**Funding / 經費:** MICIU, AEI, NextGenerationEU, PRTR, Red.es, Ministerio para la Transformacion Digital y de la Funcion Publica
 
 ## Related
 

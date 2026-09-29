@@ -1,6 +1,7 @@
 ---
 id: chen26d_interspeech
-category: dataset
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26d_interspeech.pdf
 *William Chen, Shinnosuke Takamichi, Sayaka Shiota, Satoru Fukayama, Samuele Cornell, Shinji Watanabe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-386)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — YODAS v3 is an open-access, weakly-supervised speech dataset containing 1.1 million hours of 48kHz multi-channel audio across 147 languages. It achieves language balance and high acoustic fidelity, supporting downstream spatial audio, ASR, and neural codec research.
 
@@ -65,6 +68,12 @@ Speech researchers and ML engineers building foundation models for spatial audio
 ## Applications
 
 Training high-fidelity neural audio codecs, spatial speech enhancement models, multilingual speech foundation models, and conversational speech recognition systems.
+
+## Institutions / 機構
+
+Carnegie Mellon University, Keio University, Tokyo Metropolitan University, National Institute of Advanced Industrial Science and Technology
+
+**Funding / 經費:** ACCESS program, National Science Foundation, Cabinet Office, Government of Japan
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: jeon26c_interspeech
 category: asr
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jeon26c_interspeech.pdf
 *Woori Jeon, Jungmin So*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jeon26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jeon26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1569)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — DiffAQ is a training-free post-training quantization modification that weights Hessian calibration using frame-to-frame activation differences, reducing Whisper Medium 2-bit WER on LibriSpeech test-other from 17.53% to 12.93%.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Deploying state-of-the-art ASR foundation models like Whisper onto resource-constrained edge devices, mobile phones, and embedded hardware with reduced memory footprints.
+
+## Institutions / 機構
+
+Sogang University
+
+**Funding / 經費:** Ministry of Education of the Republic of Korea, National Research Foundation of Korea, Artificial Intelligence Innovation Graduate School grant funded by the Korea government (MSIT)
 
 ## Related
 

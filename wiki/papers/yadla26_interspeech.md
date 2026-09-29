@@ -1,6 +1,7 @@
 ---
 id: yadla26_interspeech
-category: low-resource
+category: phonetics-linguistics
+labels: [low-resource, multilingual, self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yadla26_interspeech.pdf
 *Prasanth Yadla*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yadla26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yadla26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-284)
+
+**Category:** `phonetics-linguistics` · **Labels:** `low-resource`, `multilingual`, `self-supervised`, `generative-model`
 
 **TL;DR** — A VQ-VAE framework using Typological Anchor Selection and multi-source pre-training achieves extreme few-shot phoneme discovery on under one hour of target language speech, improving Normalized Mutual Information by 18.8% over XLS-R baselines.
 

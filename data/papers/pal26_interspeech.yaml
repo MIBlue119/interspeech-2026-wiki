@@ -12,6 +12,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/pal26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pal26_interspeech.pdf
 session: Indigenous Voices in Speech Science and Technology
 topics: [asr, low-resource, self-supervised]
+category: asr
+labels:
+  - "low-resource"
+institutions:
+  - "Aalto University"
+  - "INESC-ID"
+  - "Instituto Superior Técnico"
+  - "Walton Institute"
+  - "South East Technological University"
+funding:
+  - "Business Finland"
+  - "Finnish Cultural Foundation"
 code:
     url: ""
     license: ""

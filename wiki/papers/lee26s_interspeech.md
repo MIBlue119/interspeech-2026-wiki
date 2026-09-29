@@ -1,6 +1,7 @@
 ---
 id: lee26s_interspeech
-category: speech-enhancement
+category: deepfake-security
+labels: [low-resource, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26s_interspeech.pdf
 *Jeongmin Lee, Seung Yun, Minkyu Lee, Ran Han, Yoonkyu Woo, Jinxia Huang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26s_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26s_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1975)
+
+**Category:** `deepfake-security` · **Labels:** `low-resource`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — This paper evaluates domain-invariant prosodic features versus frozen self-supervised models (HuBERT, wav2vec2.0) for cross-domain voice phishing detection, showing prosodic features excel in zero-shot cold starts (69.5% F1) while HuBERT dominates with 5-shot adaptation (94.2% F1).
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time on-device voice phishing detection, low-resource telephony scam monitoring, and privacy-preserving acoustic threat screening.
+
+## Institutions / 機構
+
+Electronics and Telecommunications Research Institute, University of Science and Technology
+
+**Funding / 經費:** Institute of Information and Communications Technology Planning and Evaluation
 
 ## Related
 

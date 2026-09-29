@@ -11,6 +11,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.pdf
 session: Text Processing for Speech Synthesis
 topics: [tts, low-resource, multilingual]
+category: tts
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "generative-model"
+institutions:
+  - "Athena R.C"
+  - "University of Bern"
+  - "National Technical University of Athens"
+funding:
+  - "European High-Performance Computing Joint Undertaking"
+  - "Greek Ministry of Digital Governance and Artificial Intelligence"
 code:
     url: https://github.com/gsyllas/greek-stable-tts/tree/main/scripts/data
     license: ""

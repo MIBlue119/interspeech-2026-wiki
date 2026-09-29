@@ -1,6 +1,7 @@
 ---
 id: libera26_interspeech
-category: tts
+category: speech-llm-dialogue
+labels: [self-supervised, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/libera26_interspeech.pdf
 *Luca Della Libera, Cem Subakan, Mirco Ravanelli*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/libera26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/libera26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2803)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — WavSLM is a single-stream speech language model that distills WavLM representations into a single discrete codebook via a streamable neural codec, achieving competitive acoustic-semantic modeling and generation without text supervision or text-pretrained foundations.
 
@@ -66,6 +69,12 @@ Read this paper if you want to understand how to design efficient, single-stream
 ## Applications
 
 Real-time speech-to-speech translation, streaming conversational assistants, low-latency audio generation.
+
+## Institutions / 機構
+
+Concordia University, Mila-Quebec AI Institute, Universite Laval
+
+**Funding / 經費:** Natural Sciences and Engineering Research Council of Canada, Digital Research Alliance of Canada, Translated, Apple
 
 ## Related
 

@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/raybarman26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/raybarman26_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
 topics: [tts, phonetics, evaluation]
+category: tts
+labels:
+  - "multilingual"
+institutions:
+  - "Indian Institute of Technology Guwahati"
 code:
     url: https://github.com/snehagitrep/TTSEvalVH_interspeech2026.git
     license: ""

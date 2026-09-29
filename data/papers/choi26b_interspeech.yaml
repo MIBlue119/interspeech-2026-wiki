@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/choi26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/choi26b_interspeech.pdf
 session: Scaling and Zero-Shot Speech Synthesis
 topics: [tts, self-supervised, low-resource]
+category: tts
+labels:
+  - "low-resource"
+  - "generative-model"
+institutions:
+  - "Maum AI"
+  - "Humelo"
+funding:
+  - "Culture, Sports and Tourism R&D Program"
+  - "Startup Growth Technology Development Program"
 code:
     url: https://zeroone-universe.github.io/zesta/
     license: ""

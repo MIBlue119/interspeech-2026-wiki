@@ -1,6 +1,7 @@
 ---
 id: sun26g_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26g_interspeech.pdf
 *Zhaorui Sun, Yihao Chen, Qiao Chen, Minqiang Xu, Sian Fang, Lin Liu, Jianbo Zhan, Yan Song, Guoping Hu, Lirong Dai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1847)
+
+**Category:** `deepfake-security` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — ADD-DINO is a two-stage self-distillation framework for audio deepfake detection that uses non-contrastive pretraining on unlabeled speech followed by lightweight fine-tuning, achieving near fully supervised performance with only 20% of labeled data and substantial cross-domain gains.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Audio deepfake detection, speech security verification, scam prevention in conversational AI, and forensic audio analysis.
+
+## Institutions / 機構
+
+Hefei iFly Digital Technology Co. Ltd, University of Science and Technology of China, Xinjiang University
 
 ## Related
 

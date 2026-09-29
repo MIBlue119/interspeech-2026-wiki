@@ -1,6 +1,7 @@
 ---
 id: lee26d_interspeech
-category: speech-llm
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26d_interspeech.pdf
 *Taehan Lee, Jaehan Jung, Hyukjun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-639)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — SAM is an audio-language model built on a Mamba-2 state-space backbone that integrates an EAT audio encoder and a 2-layer MLP connector. The 2.7B parameter variant achieves 21.1 mAP on AudioSet and 17.6 SPICE on AudioCaps, matching or outperforming larger 7B transformer-based models.
 
@@ -67,6 +70,10 @@ Researchers and engineers building efficient audio-language models should read t
 ## Applications
 
 Automated audio captioning, sound event detection, acoustic scene classification, and multimodal audio-language conversational assistants.
+
+## Institutions / 機構
+
+Sogang University
 
 ## Related
 

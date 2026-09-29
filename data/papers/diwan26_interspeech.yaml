@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/diwan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/diwan26_interspeech.pdf
 session: Multimodal Emotion Recognition
 topics: [tts, self-supervised, speech-llm]
+category: tts
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Texas at Austin"
+  - "New York University"
 code:
     url: https://github.com/ajd12342/paraspeechclap
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: hao26b_interspeech
 category: asr
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hao26b_interspeech.pdf
 *Yun Hao, Reihaneh Amooie, Wietse de Vries, Rik van Noord, Martijn Wieling*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hao26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hao26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1659)
+
+**Category:** `asr` · **Labels:** `low-resource`
 
 **TL;DR** — This paper investigates generative error correction (GER) using Large Language Models for low-resource West Frisian ASR, introducing a non-public offline dataset to explicitly control for data contamination. Results show that GPT-5.1 achieves a Word Error Rate (WER) of 8.9% on Common Voice (surpassing the 5-best oracle of 9.6%) and 13.8% on the offline dataset.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Post-processing pipeline enhancement for low-resource automatic speech recognition, historical or regional archive transcription, and contamination-free evaluation benchmarking for speech LLMs.
+
+## Institutions / 機構
+
+University of Groningen
+
+**Funding / 經費:** China Scholarship Council
 
 ## Related
 

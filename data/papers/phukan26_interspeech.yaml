@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/phukan26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/phukan26_interspeech.pdf
 session: Speech Deepfake Detection, Attribution and Characterization
 topics: [speech-deepfake, self-supervised, multilingual]
+category: deepfake-security
+labels:
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "National Tsing Hua University"
+  - "University of Petroleum and Energy Studies"
+  - "Veer Bahadur Singh Purvanchal University"
+funding:
+  - "National Science and Technology Council"
 code:
     url: https://helixometry.github.io/ElderlyCodecFake/
     license: ""

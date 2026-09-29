@@ -1,6 +1,7 @@
 ---
 id: ryu26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ryu26b_interspeech.pdf
 *Sangwon Ryu, Heejin Do, Jun Seo, Daehui Kim, Yunsu Kim, Gary Geunbae Lee, Jungseul Ok*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ryu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ryu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3011)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`
 
 **TL;DR** — The paper introduces S3, a training-free framework that uses Monte Carlo Tree Search (MCTS) over segment-level summary candidates to solve long meeting document summarization. Using a 7B model, S3 achieves performance comparable to a much larger 72B model and significantly outperforms standard single-pass baselines.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated meeting minutes generation, corporate governance transcription summaries, and long conversational document analysis.
+
+## Institutions / 機構
+
+POSTECH, ETH Zurich, LILT
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea Creative Content Agency, Ministry of Science and ICT, Ministry of Culture, Sports and Tourism
 
 ## Related
 

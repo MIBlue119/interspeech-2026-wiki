@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/toussaint26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/toussaint26_interspeech.pdf
 session: Assistive Technologies 2
 topics: [speech-synthesis, self-supervised, low-resource]
+category: tts
+labels:
+  - "self-supervised"
+institutions:
+  - "SUPSI"
+  - "University of Bremen"
+  - "King Abdullah University of Science and Technology"
+funding:
+  - "Swiss National Science Foundation"
+  - "German Research Foundation"
 code:
     url: ""
     license: ""

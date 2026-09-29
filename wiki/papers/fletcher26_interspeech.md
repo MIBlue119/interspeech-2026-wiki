@@ -1,6 +1,7 @@
 ---
 id: fletcher26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fletcher26_interspeech.pdf
 *Janet Fletcher, Adele Gregory*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fletcher26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fletcher26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-899)
+
+**Category:** `phonetics-linguistics` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — This study presents a quantitative acoustic analysis of voice onset time (VOT), closure duration, and voicing proportion for oral stops across three endangered French Polynesian languages (Tahitian, Marquesan, and Rurutu) using a corpus of 3,839 tokens. The findings confirm that these stops are predominantly short lag and voiceless (mean VOT around 20 ms, except for velars at 41 ms), showing strong coarticulatory vowel effects but no widespread lenition.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Documentation and revitalization of endangered indigenous languages, speech technology adaptation for low-resource Oceanic languages, and phonetic corpus building.
+
+## Institutions / 機構
+
+University of Melbourne
+
+**Funding / 經費:** Faculty of Arts at the University of Melbourne, mission de recherche, Australian Research Council Centre of Excellence for the Dynamics of Language
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: srivastav26_interspeech
-category: asr
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/srivastav26_interspeech.pdf
 *Vaibhav Srivastav, Steven Zheng, Eric Bezzam, Eustache Le Bihan, Nithin Rao Koluguri, Piotr Żelasko, Somshubra Majumdar, Adel Moumen, Sanchit Gandhi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/srivastav26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/srivastav26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1902)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — The Open ASR Leaderboard is a comprehensive, reproducible benchmarking platform comparing 85+ open-source and proprietary speech recognition systems across 11 datasets for English short-form, multilingual, and long-form audio. It establishes standardized word error rate (WER) and inverse real-time factor (RTFx) metrics, revealing that Conformer-encoders paired with LLM-decoders achieve top accuracy while CTC and TDT decoders dominate inference speed.
 
@@ -69,6 +72,10 @@ Speech engineers and researchers building or deploying ASR systems should read t
 ## Applications
 
 Production deployment of real-time or batch automatic speech recognition systems, meeting transcription, financial earnings call indexing, and multilingual translation pipelines.
+
+## Institutions / 機構
+
+Hugging Face, NVIDIA, University of Cambridge, Mistral AI, OpenAI
 
 ## Related
 

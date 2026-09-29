@@ -1,6 +1,7 @@
 ---
 id: wu26f_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26f_interspeech.pdf
 *Minghui Wu, Ganjun Liu, Zikun Fang, Ting Meng, Hongchuan Wu, Bingao Xu, Yonglong Cai, Jiasheng Chen, Jun Du*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1834)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — EmoInstruct-TTS is a dual-path instruction-guided framework that combines natural language instructions with structured semantic-acoustic emotion embeddings to achieve fine-grained emotional control and high speech naturalness, outperforming CosyVoice baselines in emotion similarity MOS.
 
@@ -64,6 +67,10 @@ Speech and ML researchers building expressive, instruction-controlled TTS system
 ## Applications
 
 Expressive conversational agents, interactive virtual assistants, audiobooks, and emotional character voices for gaming and animation.
+
+## Institutions / 機構
+
+University of Science and Technology of China, iFLYTEK, Huawei Technologies
 
 ## Related
 

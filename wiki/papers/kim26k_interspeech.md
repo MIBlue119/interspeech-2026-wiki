@@ -1,6 +1,7 @@
 ---
 id: kim26k_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26k_interspeech.pdf
 *Yoon Tae Kim, Heejoon Koo, Miika Toikkanen, June-Woo Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1213)
+
+**Category:** `health-clinical` · **Labels:** `robustness-noise`
 
 **TL;DR** — QLung introduces a quality-adaptive angular-margin learning framework for respiratory sound classification that dynamically adjusts margins based on audio spectral entropy and RMS energy. It achieves a 62.01% score on the ICBHI dataset (a 2.46% absolute improvement over the cross-entropy baseline) and superior out-of-distribution performance on the SPRSound dataset.
 
@@ -66,6 +69,12 @@ Speech and audio ML researchers tackling noisy real-world acoustic environments 
 ## Applications
 
 Automated respiratory disease screening, computer-aided auscultation tools, and robust biomedical sound analysis systems.
+
+## Institutions / 機構
+
+MODULABS, Wonkwang University
+
+**Funding / 經費:** Ministry of Education, Jeonbuk State, National Research Foundation of Korea
 
 ## Related
 

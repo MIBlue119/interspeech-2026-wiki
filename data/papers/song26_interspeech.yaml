@@ -8,6 +8,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/song26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/song26_interspeech.pdf
 session: Voice Conversion
 topics: [voice-conversion, self-supervised, speech-enhancement]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Anhui University"
 code:
     url: https://bigdan12.github.io/CFLOW_VC_demo/
     license: ""

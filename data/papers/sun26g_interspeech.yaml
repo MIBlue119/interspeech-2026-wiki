@@ -17,6 +17,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sun26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sun26g_interspeech.pdf
 session: Spoofing and Deepfake Detection 2
 topics: [audio-deepfake, self-supervised, speaker-verification]
+category: deepfake-security
+labels:
+  - "low-resource"
+  - "self-supervised"
+institutions:
+  - "Hefei iFly Digital Technology Co. Ltd"
+  - "University of Science and Technology of China"
+  - "Xinjiang University"
 code:
     url: ""
     license: ""

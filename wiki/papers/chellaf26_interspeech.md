@@ -1,6 +1,7 @@
 ---
 id: chellaf26_interspeech
-category: speech-translation
+category: translation
+labels: [low-resource, multilingual, efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chellaf26_interspeech.pdf
 *Chaimae Chellaf, Salima Mdhaffar, Yannick Estève, Stéphane Huet*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chellaf26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chellaf26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2655)
+
+**Category:** `translation` · **Labels:** `low-resource`, `multilingual`, `efficient-on-device`
 
 **TL;DR** — The paper introduces SBARThez, a lightweight end-to-end framework for cross-lingual text and speech summarization that projects source inputs into pre-aligned semantic embedding spaces. Operating with only 140M trainable parameters, it outperforms massive cascaded pipelines (exceeding 2.7B parameters) on low-resource text and speech summarization tasks.
 
@@ -65,6 +68,10 @@ Speech and ML engineers working under extreme data or compute constraints will f
 ## Applications
 
 Automated cross-lingual news digestion, global podcast summarization for low-resource dialects, and multilingual archival audio cataloging.
+
+## Institutions / 機構
+
+Avignon Universite, Lundi Matin
 
 ## Related
 

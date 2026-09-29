@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26ea_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26ea_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26ea_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2730)
 
+**Category:** `tts`
+
 **TL;DR** — By analyzing 13,100 matched LJSpeech utterances across four neural TTS architectures, the paper uncovers a cross-timescale prosodic dissociation (compressed global F0 range combined with elevated local pitch fluctuations) alongside severe segmental vowel space contraction (reducing to 9-30% of human baselines).
 
 ## Key contributions
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic evaluation tools for neural text-to-speech systems, automated quality control pipelines for synthetic voice generation, and loss-function regularization design.
+
+## Institutions / 機構
+
+University of Tuebingen, Tongji University
 
 ## Related
 

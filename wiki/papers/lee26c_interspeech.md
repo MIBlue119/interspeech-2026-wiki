@@ -1,6 +1,7 @@
 ---
 id: lee26c_interspeech
-category: speech-translation
+category: translation
+labels: [multilingual, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26c_interspeech.pdf
 *Dongwook Lee, Youngho Cho, Sangkwon Park, Heeseung Kim, Sungroh Yoon*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-540)
+
+**Category:** `translation` · **Labels:** `multilingual`, `streaming-real-time`
 
 **TL;DR** — NaturalFlow is a fluency-aware simultaneous speech-to-speech translation (S2ST) framework that reduces disruptive inter-chunk silences by 13-58% across benchmarks without degrading latency or translation quality.
 
@@ -63,6 +66,12 @@ Read this if you work on simultaneous speech-to-speech translation or preference
 ## Applications
 
 Simultaneous multilingual speech-to-speech translation systems for real-time international conferences, live broadcast dubbing, and low-latency voice assistants.
+
+## Institutions / 機構
+
+Seoul National University, University of Seoul
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT, National Research Foundation of Korea, BK21 FOUR Program, Samsung Electronics
 
 ## Related
 

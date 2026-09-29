@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jia26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jia26_interspeech.pdf
 session: Pathological Speech Assessment 3
 topics: [paralinguistics, speech-enhancement, self-supervised]
+category: health-clinical
+labels:
+  - "low-resource"
+institutions:
+  - "Tsinghua University"
+  - "Beijing University of Posts and Telecommunications"
 code:
     url: ""
     license: ""

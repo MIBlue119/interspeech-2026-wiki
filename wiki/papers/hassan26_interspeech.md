@@ -1,6 +1,6 @@
 ---
 id: hassan26_interspeech
-category: speech-llm
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hassan26_interspeech.pdf
 *K M Naimul Hassan, Donald S. Williamson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hassan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hassan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2651)
+
+**Category:** `applications-other`
 
 **TL;DR** — SCANS is a deep learning framework for EEG-speech temporal alignment that combines a dilated convolutional frontend with symmetric cross-modal attention transformers and a multi-task supervised contrastive loss, achieving a new state-of-the-art total score of 86.1 on the ICASSP 2023 challenge dataset.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Objective auditory diagnostic tools, intelligent hearing aids, and speech-reconstruction brain-computer interfaces.
+
+## Institutions / 機構
+
+Ohio State University
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

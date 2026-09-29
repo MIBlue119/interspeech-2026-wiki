@@ -1,6 +1,7 @@
 ---
 id: du26c_interspeech
-category: speaker-verification
+category: speaker
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/du26c_interspeech.pdf
 *Yuxuan Du, Xing He, Jingwen Yang, Xupeng Jia, Yankai Wang, Weili Jiang, Kai Gao, Boyu Zhao, Rong Zheng, Jing Deng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/du26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/du26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3003)
+
+**Category:** `speaker` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — The winning entry for the TidyVoice2026 Cross-lingual Speaker Verification Challenge uses geometric orthogonal feature projection to decouple self-supervised features and a manifold-constrained neural PLDA backend to achieve EERs of 1.39% and 1.95% across the two test tracks.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual automatic speaker verification, multilingual voice biometrics, and secure access control systems operating across diverse linguistic populations.
+
+## Institutions / 機構
+
+Beijing Fosafer Information Technology Co., Ltd, University of Electronic Science and Technology of China, Institute of Forensic Science, Ministry of Public Security
+
+**Funding / 經費:** Basic Scientific Research Special Funds for Central-level Public Welfare Research Institutions
 
 ## Related
 

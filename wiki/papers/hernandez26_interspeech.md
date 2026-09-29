@@ -1,6 +1,7 @@
 ---
 id: hernandez26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hernandez26_interspeech.pdf
 *Abner Hernandez, Eunjung Yeo, Kwanghee Choi, Chin-Jou Li, Zhengjun Yue, Rohan Kumar Das, Jan Rusz, Mathew Magimai Doss, Juan Rafael Orozco-Arroyave, Tomás Arias-Vergara, Andreas Maier, Elmar Nöth, David R. Mortensen, David Harwath, Paula Andrea Pérez-Toro*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hernandez26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hernandez26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-773)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper proposes a representation-level language shift (LS) using healthy control centroids to align cross-lingual self-supervised speech embeddings for Parkinson's disease dysarthria detection. In cross-lingual settings without target-language pathology data, LS substantially increases F1 scores (e.g., from ~0.40 to ~0.74 on Czech with HuBERT) by stripping language identity from the embedding space.
 
@@ -66,6 +69,10 @@ Speech and ML researchers working on cross-lingual transfer or clinical biomarke
 ## Applications
 
 Cross-lingual clinical screening, zero-shot tele-health diagnostic tools for neurodegenerative disorders, and domain-robust pathological speech analysis.
+
+## Institutions / 機構
+
+FAU Erlangen-Nurnberg, UT Austin, Carnegie Mellon University, Czech Technical University in Prague, Idiap Research Institute, Universidad de Antioquia, Shenzhen Loop Area Institute, Fortemedia
 
 ## Related
 

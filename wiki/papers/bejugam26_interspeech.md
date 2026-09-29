@@ -1,6 +1,7 @@
 ---
 id: bejugam26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [self-supervised, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bejugam26_interspeech.pdf
 *Satvik Bejugam, Venkatesh Parvathala, Sri Rama Murty Kodukula*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bejugam26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bejugam26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2565)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`, `generative-model`, `robustness-noise`
 
 **TL;DR** — UFL-GAN is an unsupervised speech enhancement framework that combines dual utterance- and frame-level discriminators with pre-trained self-supervised features, achieving a PESQ-WB of 2.64 on VoiceBank+DEMAND without paired clean data.
 
@@ -65,6 +68,10 @@ Researchers and engineers tackling speech enhancement without parallel training 
 ## Applications
 
 Robust automatic speech recognition (ASR), hearing aids, mobile communications, teleconferencing systems, and assistive audio technologies operating in non-parallel, unlabelled training environments.
+
+## Institutions / 機構
+
+Indian Institute of Technology Hyderabad, Eternal Limited
 
 ## Related
 

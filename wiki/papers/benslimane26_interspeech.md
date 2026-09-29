@@ -1,6 +1,7 @@
 ---
 id: benslimane26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/benslimane26_interspeech.pdf
 *Zahra Benslimane, Pierre Chouteau, Martyna Poreba, Fabrice Auzanneau, Michal Szczepanski, Fabian Chersi, Romain Serizel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/benslimane26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/benslimane26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3301)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`, `robustness-noise`
 
 **TL;DR** — RT-Tango is a real-time distributed binaural speech enhancement framework tailored for hearing aids, combining perceptually motivated feature compression, grouped recurrent mask estimation, and temporal sparsification to achieve competitive quality at an ultra-low latency of 8 ms and a computational cost of 35.14 MMACs/s.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time binaural hearing aids, hearables, and low-power distributed ear-worn communication devices operating under strict energy and latency constraints.
+
+## Institutions / 機構
+
+Universite Paris-Saclay, CEA, Universite de Lorraine, CNRS, Inria
 
 ## Related
 

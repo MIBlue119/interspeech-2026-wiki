@@ -1,6 +1,7 @@
 ---
 id: kopar26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kopar26_interspeech.pdf
 *Serli Kopar, Roshan P. Rane, Christian Mychajliw, Lydia Federmann, Gerhard Eschweiler, Daniela Berg, Sam Gijsen, Paula Andrea Pérez-Toro, Kerstin Ritter*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kopar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kopar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2725)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates how speech representations (hand-crafted eGeMAPS vs. self-supervised HuBERT/W2V2 embeddings) predict cognitive status across a three-tier clinical assessment hierarchy (task, domain, and global levels) using 5,754 German neuropsychological recordings. It reveals a dichotomy where open-ended "specialist" tasks suffer predictive dilution at higher aggregation levels, whereas constrained "generalist" screening tasks show inverse dilution, improving as scores are aggregated.
 
@@ -66,6 +69,12 @@ Speech and ML researchers focusing on clinical biomarker discovery should read t
 ## Applications
 
 Automated clinical screening tools, digital biomarker pipelines for neurodegenerative diseases, and remote cognitive health monitoring applications.
+
+## Institutions / 機構
+
+Hertie Institute for AI in Brain Health, Tübingen AI Center, Humboldt-Universität zu Berlin, Tübingen University Hospital, Tübingen Center for Mental Health, German Center for Mental Health, University Medical Center Schleswig-Holstein, Hertie Institute for Clinical Brain Research, Friedrich-Alexander-Universität Erlangen-Nürnberg, Charité–Universitätsmedizin
+
+**Funding / 經費:** Gemeinnützigen Hertie-Stiftung, Deutsche Forschungsgemeinschaft, Germany's Excellence Strategy, International Max Planck Research School for Intelligent Systems
 
 ## Related
 

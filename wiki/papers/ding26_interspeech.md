@@ -1,6 +1,7 @@
 ---
 id: ding26_interspeech
-category: keyword-spotting
+category: asr
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ding26_interspeech.pdf
 *Hanyu Ding, Yang Xiao, Jiaheng Dong, Ting Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ding26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ding26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-258)
+
+**Category:** `asr` · **Labels:** `robustness-noise`
 
 **TL;DR** — ImKWS is a test-time adaptation framework for keyword spotting that tackles extreme class imbalance between rare keywords and dominant background sounds via decoupled entropy minimization and multi-view consistency, improving macro F1 by up to 2.96% over state-of-the-art baselines under severe noise.
 
@@ -69,6 +72,10 @@ Speech and ML engineers building on-device voice assistants operating in noisy, 
 ## Applications
 
 On-device keyword spotting, voice assistants, smart home appliance control, and hands-free voice search.
+
+## Institutions / 機構
+
+Jiangsu University, University of Melbourne
 
 ## Related
 

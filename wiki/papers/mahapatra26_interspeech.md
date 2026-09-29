@@ -1,6 +1,7 @@
 ---
 id: mahapatra26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mahapatra26_interspeech.pdf
 *Aurosweta Mahapatra, Ismail Rasim Ulgen, Kong Aik Lee, Nicholas Andrews, Berrak Sisman*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mahapatra26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mahapatra26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-831)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — ProSDD is a two-stage speech deepfake detection framework that improves generalization to expressive and emotional attacks by incorporating supervised masked prediction of speaker-conditioned prosodic variation, reducing the ASVspoof 2024 EER from 39.62% to 7.38% when trained on ASVspoof 2024.
 
@@ -65,6 +68,12 @@ Researchers and engineers working on robust speech deepfake detection under expr
 ## Applications
 
 Speech deepfake detection systems deployed in security-critical authentication pipelines, call centers, and media verification platforms to counter expressive text-to-speech and voice conversion attacks.
+
+## Institutions / 機構
+
+Johns Hopkins University, Hong Kong Polytechnic University
+
+**Funding / 經費:** National Science Foundation, Office of the Director of National Intelligence, Intelligence Advanced Research Projects Activity
 
 ## Related
 

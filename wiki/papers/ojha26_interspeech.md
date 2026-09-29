@@ -1,6 +1,7 @@
 ---
 id: ojha26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [self-supervised, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ojha26_interspeech.pdf
 *Shuubham Ojha, Carol Espy-Wilson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ojha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ojha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-964)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`, `generative-model`, `robustness-noise`
 
 **TL;DR** — This paper proposes conditioning a score-based diffusion speech enhancement model on phonetic representations from a frozen wav2vec 2.0 encoder, injected via Feature-wise Linear Modulation (FiLM) at the U-Net bottleneck. Evaluated on VoiceBank-DEMAND and LibriMix, it achieves a consistent 0.4 improvement in PESQ over unconditioned diffusion baselines.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time communication enhancement, telephony noise suppression, and preprocessing pipelines for automatic speech recognition (ASR) systems operating in highly degraded acoustic environments.
+
+## Institutions / 機構
+
+University of Maryland
 
 ## Related
 

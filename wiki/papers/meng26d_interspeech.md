@@ -1,6 +1,7 @@
 ---
 id: meng26d_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/meng26d_interspeech.pdf
 *Taiyu Meng, Wenbin Jiang, Haoyi Zhang, Yuhan Zhou, Haoyi Yin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/meng26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/meng26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1797)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `robustness-noise`
 
 **TL;DR** — GSU-DBNet is a dual-branch, dual-path spiking neural network for speech enhancement that uses gated spiking units to jointly model magnitude and complex spectra, achieving a 3.04 PESQ with only 394K parameters.
 
@@ -66,6 +69,12 @@ Read this paper if you are designing energy-efficient speech enhancement front-e
 ## Applications
 
 Low-power edge devices, real-time communication systems, and hearing aid front-ends requiring high-fidelity speech enhancement under tight computational and energy constraints.
+
+## Institutions / 機構
+
+Hangzhou Dianzi University
+
+**Funding / 經費:** Yangtze River Delta Science and Technology Innovation Community Joint Research, Zhejiang Provincial Natural Science Foundation of China, Zhejiang Provincial College Student Innovation and Entrepreneurship Training Program
 
 ## Related
 

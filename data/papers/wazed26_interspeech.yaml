@@ -11,6 +11,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wazed26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wazed26_interspeech.pdf
 session: Acoustic Event Detection 3
 topics: [speech-enhancement, source-separation, self-supervised]
+category: enhancement-separation
+labels:
+  - "self-supervised"
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "Chonnam National University"
+  - "Ritsumeikan University"
+funding:
+  - "National Research Foundation of Korea"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Korea Creative Content Agency"
 code:
     url: ""
     license: ""

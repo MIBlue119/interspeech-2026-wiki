@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/pasha26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pasha26_interspeech.pdf
 session: Dereverberation, Bandwidth Extension and Restoration
 topics: [speech-enhancement, self-supervised]
+category: enhancement-separation
+labels:
+  - "low-resource"
+  - "robustness-noise"
+institutions:
+  - "University of Western Australia"
+  - "University of Southampton"
+  - "University of Wollongong"
 code:
     url: https://github.com/ShahabP/DeepRIRnet
     license: ""

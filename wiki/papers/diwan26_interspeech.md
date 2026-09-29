@@ -1,6 +1,7 @@
 ---
 id: diwan26_interspeech
 category: tts
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/diwan26_interspeech.pdf
 *Anuj Diwan, Eunsol Choi, David Harwath*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/diwan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/diwan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1437)
+
+**Category:** `tts` · **Labels:** `self-supervised`
 
 **TL;DR** — ParaSpeechCLAP is a dual-encoder speech-text model family that maps speech waveforms and free-form style captions spanning both intrinsic (speaker-level) and situational (utterance-level) attributes into a shared embedding space. It outperforms existing baselines on style retrieval and classification, and enables training-free best-of-N guidance for style-prompted text-to-speech (TTS).
 
@@ -69,6 +72,10 @@ Speech and ML engineers building expressive text-to-speech systems or audio-text
 ## Applications
 
 Style-prompted text-to-speech, expressive speech retrieval, speech style captioning, and expressive spoken dialogue systems.
+
+## Institutions / 機構
+
+University of Texas at Austin, New York University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: mizumoto26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mizumoto26_interspeech.pdf
 *Tomoya Mizumoto, Yusuke Fujita*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mizumoto26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mizumoto26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3241)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates how incorporating bidirectional speech translation into speech encoder pre-training bridges the representational gap between audio encoders and text-based LLMs, leading to superior downstream performance in Speech LLMs. The bidirectional translation pre-training configuration achieves substantial error reductions in ASR and boosts translation BLEU scores across both seen and unseen languages.
 
@@ -62,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual Speech LLMs, spoken dialogue agents, real-time speech translation systems, and cross-lingual spoken language understanding applications.
+
+## Institutions / 機構
+
+SB Intuitions
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: gonzalezmachorro26_interspeech
-category: health
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gonzalezmachorro26_interspeec
 *Monica Gonzalez-Machorro, Ricarda von Heynitz, Justin Hanslmeier, Finja Grimm, Alexandra-Iulia Deac, Anne Gründel, Isabell Cordts, Bjoern Schuller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gonzalezmachorro26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gonzalezmachorro26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1052)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper investigates automated speech impairment prediction for German-speaking individuals with amyotrophic lateral sclerosis (ALS) using clinical scores, achieving a Concordance Correlation Coefficient (CCC) of up to 0.86 in a within-speaker setting.
 
@@ -65,6 +67,10 @@ Speech and ML researchers focusing on health applications and atypical speech pr
 ## Applications
 
 Automated clinical support tools for remote or in-clinic continuous monitoring of ALS progression via routine speech tasks.
+
+## Institutions / 機構
+
+Technical University of Munich, audEERING, Munich Center for Machine Learning, Imperial College London
 
 ## Related
 

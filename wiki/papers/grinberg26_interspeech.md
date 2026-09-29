@@ -1,6 +1,7 @@
 ---
 id: grinberg26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/grinberg26_interspeech.pdf
 *Petr Grinberg, Hassan Shahmohammadi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/grinberg26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/grinberg26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-759)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — ALARM is a 4B-parameter audio-language model (ALM) that adapts reasoning LLMs for multimodal audio understanding using a two-stage self-rephrasing target generation pipeline and a multi-encoder fusion strategy. It ranks third on MMSU and achieves top open-source performance on MMAU-speech while keeping the LLM backbone frozen to prevent catastrophic forgetting.
 
@@ -65,6 +68,10 @@ Researchers building audio-language models with reasoning or chain-of-thought ca
 ## Applications
 
 Multimodal voice assistants, automated medical diagnostic transcription analysis, complex environmental acoustic scene monitoring, and general multimedia content captioning.
+
+## Institutions / 機構
+
+EPFL, Sony
 
 ## Related
 

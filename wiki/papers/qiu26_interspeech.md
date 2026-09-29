@@ -1,6 +1,7 @@
 ---
 id: qiu26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/qiu26_interspeech.pdf
 *Yaxuan Qiu, Zhe Li, Mieradilijiang Maimaiti, Zunwang Ke, Wushour Silamu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/qiu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/qiu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-661)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper proposes an audio deepfake detection framework that combines an explicit magnitude-phase frequency audio encoder with a Mixture of Spectral Experts (MoSE) for SVD-domain parameter-efficient fine-tuning of WavLM, achieving a state-of-the-art 0.29% EER on ASVspoof 2019 LA.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated voice biometric security systems, real-time telephony fraud prevention, and social media content moderation pipelines filtering synthetic speech.
+
+## Institutions / 機構
+
+Xinjiang University, University of Hong Kong
+
+**Funding / 經費:** National Natural Science Foundation of China, Xinjiang "Tianchi Talent" Recruitment and Introduction Program
 
 ## Related
 

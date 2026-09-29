@@ -14,6 +14,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26g_interspeech.pdf
 session: Spoofing and Deepfake Detection 2
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+institutions:
+  - "Tianjin University"
+  - "Tianjin Renai College"
+  - "Tianjin Electronic Information College"
+  - "Tianjin University of Technology"
+  - "Tianjin Beiyang Rongke Intelligent Technology Co., Ltd"
+funding:
+  - "Key R&D Program of the Nanning Science Research and Technology Development Plan"
+  - "Tianjin Science and Technology Program, Special Project for High-Quality Development of Manufacturing Industry"
 code:
     url: ""
     license: ""

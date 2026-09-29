@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/otani26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/otani26_interspeech.pdf
 session: Articulatory, EMG, and Visual Speech Generation
 topics: [tts, self-supervised, multimodal]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Tokyo University of Science"
+  - "Nippon Institute of Technology"
+funding:
+  - "JSPS KAKENHI"
+  - "JST SPRING"
 code:
     url: https://github.com/y-otn/m2s-code
     license: ""

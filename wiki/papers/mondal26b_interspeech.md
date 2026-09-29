@@ -1,6 +1,7 @@
 ---
 id: mondal26b_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mondal26b_interspeech.pdf
 *Anindita Mondal, Priyanka Kommagouni*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mondal26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mondal26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2640)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper presents a data-centric methodology and corpus development framework for Dakhini, a low-resource Southern Indo-Aryan contact variety, utilizing telephonic conversational recordings from 160 speakers and a semi-automated dialect-aware annotation pipeline. It successfully addresses sociolinguistic challenges like the Observer's Effect to capture authentic spontaneous dialect speech.
 
@@ -56,6 +59,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of dialect-sensitive ASR, speech translation, and conversational spoken language understanding models for under-documented Indo-Aryan languages.
+
+## Institutions / 機構
+
+International Institute of Information Technology Hyderabad
 
 ## Related
 

@@ -19,6 +19,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dai26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dai26b_interspeech.pdf
 session: Speaker Diarization 1
 topics: [speech-llm, speaker-diarization, asr]
+category: speaker
+institutions:
+  - "Northwestern Polytechnical University"
+  - "Soul AI"
+  - "Shanghai Jiao Tong University"
 code:
     url: ""
     license: ""

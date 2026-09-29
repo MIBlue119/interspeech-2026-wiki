@@ -1,6 +1,7 @@
 ---
 id: liu26o_interspeech
-category: voice-conversion
+category: tts
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26o_interspeech.pdf
 *Dong Liu, Juan Liu, Wei Ju, Yao Tian, Ming Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26o_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26o_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2002)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — WhisperVC is a three-stage, decoupled framework for whisper-to-normal (W2N) speech conversion that uses a Conformer-based VAE with soft-DTW for domain alignment and an optimal-transport flow matching residual generator, achieving a CER of 16.93% and DNSMOS of 3.07 on Mandarin data.
 
@@ -69,6 +72,12 @@ Speech engineers and researchers building low-resource style transfer or voice r
 ## Applications
 
 Privacy-preserving whispered communication in noise-sensitive zones, nonvocal communication aids, and speech rehabilitation tools for post-surgical vocal-fold patients.
+
+## Institutions / 機構
+
+Wuhan University, Chinese University of Hong Kong, Shenzhen, OPPO
+
+**Funding / 經費:** National Natural Science Foundation of China, Yangtze River Delta Science and Technology Innovation Community Joint Research Project, OPPO
 
 ## Related
 

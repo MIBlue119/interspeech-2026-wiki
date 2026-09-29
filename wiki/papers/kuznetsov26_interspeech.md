@@ -1,6 +1,7 @@
 ---
 id: kuznetsov26_interspeech
-category: speech-enhancement
+category: speech-coding
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kuznetsov26_interspeech.pdf
 *Nikita Kuznetsov, Maksim Kaledin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kuznetsov26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kuznetsov26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2721)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — FastWave is an optimized diffusion-based audio super-resolution model that scales any input sample rate to 48 kHz using only 1.3 million parameters and ~12.87 GFLOPs per second of audio. By combining EDM training formulations with ConvNeXtV2-inspired architectural blocks, it achieves competitive reconstruction quality while requiring significantly reduced training compute and 4-8 NFE inference.
 
@@ -64,6 +67,10 @@ Speech and ML engineers looking to build lightweight, edge-deployable generative
 ## Applications
 
 On-device speech enhancement, real-time telephony bandwidth extension, and streaming audio upsampling for consumer hardware.
+
+## Institutions / 機構
+
+HSE University, VK LLC
 
 ## Related
 

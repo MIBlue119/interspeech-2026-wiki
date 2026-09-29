@@ -1,6 +1,7 @@
 ---
 id: ghosh26e_interspeech
-category: speech-llm
+category: applications-other
+labels: [low-resource, efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ghosh26e_interspeech.pdf
 *Sourav Ghosh, Yash Bhatia, Keshav Goyal, Sahil Singh Bagri, Mohamed Akram Ulla Shariff, Saravana Balaji Shanmugam*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ghosh26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ghosh26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1316)
+
+**Category:** `applications-other` · **Labels:** `low-resource`, `efficient-on-device`
 
 **TL;DR** — ANYSIMLITE is a lightweight similarity encoder combining word and character embedding channels that solves diverse speech-adjacent text classification tasks via reduction to nuanced text similarity (NTS). It achieves state-of-the-art competitive performance in few-shot settings while using less than 1/2500th of the parameters of a large LoRA baseline.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device intent detection, spam filtering, sentiment analysis, and few-shelf document classification for mobile voice assistants and edge SDK runtimes.
+
+## Institutions / 機構
+
+Samsung
 
 ## Related
 

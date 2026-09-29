@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/simic26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/simic26_interspeech.pdf
 session: Robust Audio-Visual Speech Recognition
 topics: [asr, self-supervised, speaker-verification]
+category: asr
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "Technische Hochschule Nuernberg"
 code:
     url: ""
     license: ""

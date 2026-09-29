@@ -1,6 +1,7 @@
 ---
 id: lee26i_interspeech
-category: voice-conversion
+category: tts
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26i_interspeech.pdf
 *Seolhee Lee, Minsu Kang, Yangsun Lee, Woosun Min, Choonghyeon Lee, Namhyun Cho*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-932)
+
+**Category:** `tts` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — The paper introduces the Designed Vocalizations Dataset, a public resource of 231,800 paired and non-paired sound-designed audio samples, along with a benchmark for human-to-non-human voice conversion (H2NH-VC). Using a CVAE-based baseline, the authors establish standardized seen/unseen splits over source timbres and professional DSP preset styles, yielding MOS scores between 3.49 and 3.81.
 
@@ -65,6 +68,12 @@ Researchers and engineers working on non-natural voice conversion, stylized char
 ## Applications
 
 Automated voice generation for video games, films, animation, virtual reality, and interactive media requiring monster, robotic, or stylized character voices.
+
+## Institutions / 機構
+
+NC AI, Sogang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea Creative Content Agency
 
 ## Related
 

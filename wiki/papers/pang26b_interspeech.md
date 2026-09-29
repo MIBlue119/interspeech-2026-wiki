@@ -1,6 +1,7 @@
 ---
 id: pang26b_interspeech
-category: speech-llm
+category: paralinguistics-emotion
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pang26b_interspeech.pdf
 *Zi Haur Pang, Xiaoxue Gao, Tatsuya Kawahara, Nancy Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3143)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — We introduce a multilingual multimodal speech-LLM benchmark for speech emotion recognition (SER) demonstrating that gender bias is heavily language-dependent, and propose ERM-MinMaxGAP to improve recognition while minimizing worst-subgroup gender gaps, boosting multimodal SER performance by 5.0% W-F1 while reducing overall gender bias gaps.
 
@@ -65,6 +68,12 @@ Researchers and engineers building deployment-ready speech-LLM agents will learn
 ## Applications
 
 Fair and inclusive affective conversational agents, emotionally-aware customer call-center analytics, and unbiased automated mental health assessments.
+
+## Institutions / 機構
+
+Kyoto University, Agency for Science, Technology, and Research
+
+**Funding / 經費:** Japan Science and Technology Agency, A*STAR, National Research Foundation, Singapore
 
 ## Related
 

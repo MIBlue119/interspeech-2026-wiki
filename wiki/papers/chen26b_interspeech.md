@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26b_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-66)
 
+**Category:** `tts`
+
 **TL;DR** — This paper investigates gender bias in Instruction Text-to-Speech (ITTS) models by modeling prompts as compositional combinations of social status, career stereotypes, and personality traits, uncovering a "binding effect" where multi-dimensional cues interact non-linearly rather than independently.
 
 ## Key contributions
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing and mitigating latent demographic biases in generative text-to-speech systems, and improving fairness in instruction-following audio generation models.
+
+## Institutions / 機構
+
+National Taiwan University, Inventec Corporation, University of Southern California
 
 ## Related
 

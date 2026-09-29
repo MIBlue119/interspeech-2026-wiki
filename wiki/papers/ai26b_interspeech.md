@@ -1,6 +1,7 @@
 ---
 id: ai26b_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ai26b_interspeech.pdf
 *Jiabao Ai, Minghui Zhao, Anton Ragni*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ai26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ai26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2875)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper proposes a jump-diffusion framework for text-to-speech that unifies discrete temporal alignment jumps and continuous spectral diffusion, achieving a 3.37% WER compared to 4.38% for Grad-TTS on LJSpeech.
 
@@ -64,6 +67,12 @@ Speech researchers and developers working on generative TTS, prosody modeling, o
 ## Applications
 
 Expressive text-to-speech synthesis, speech generation under varying time constraints, and audiobook narration requiring natural adaptive pausing.
+
+## Institutions / 機構
+
+University of Sheffield
+
+**Funding / 經費:** UK Research and Innovation, UKRI AI Centre for Doctoral Training in Speech and Language Technologies (SLT) and their Applications
 
 ## Related
 

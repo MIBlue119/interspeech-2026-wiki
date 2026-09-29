@@ -8,6 +8,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kagoshima26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/kagoshima26_interspeech.pdf
 session: Acoustic Event Detection 3
 topics: [few-shot, sound-event-detection, self-supervised]
+category: audio-understanding
+labels:
+  - "low-resource"
+  - "robustness-noise"
+institutions:
+  - "Toshiba"
 code:
     url: ""
     license: ""

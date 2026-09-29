@@ -15,6 +15,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tsoi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tsoi26_interspeech.pdf
 session: Audio segmentation
 topics: [speech-llm, self-supervised, on-device]
+category: speech-llm-dialogue
+labels:
+  - "streaming-real-time"
+institutions:
+  - "Huawei"
+  - "Chinese University of Hong Kong"
+  - "Nanyang Technological University"
 code:
     url: ""
     license: ""

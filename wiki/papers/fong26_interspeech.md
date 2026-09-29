@@ -1,6 +1,7 @@
 ---
 id: fong26_interspeech
-category: keyword-spotting
+category: asr
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fong26_interspeech.pdf
 *Stuart Fong, Sky Qiao, Xuecong Sun, Seyed Shahabeddin Nabavi, Huanzhang Zhu, Jinran Zhu, Siqi Zhang, Amirhossein Hajavi, Rasoul Mohammadi Nasiri, Shuangliang Sun, Longshuai Xiao, Yuanhao Yu, Irina Kezele*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-224)
+
+**Category:** `asr` · **Labels:** `robustness-noise`
 
 **TL;DR** — Ada-Mic introduces an orientation-adaptive plug-in module for smartphone close-to-mic speech detection that uses Generalized Cross-Correlation (GCC) features to disentangle device distance from orientation. It achieves up to 24% accuracy improvements over prior baselines across challenging postures and background noise conditions.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device voice assistant activation, hands-free smartphone wake-word bypass, and orientation-robust proxemic speech interfaces.
+
+## Institutions / 機構
+
+Huawei Technologies
 
 ## Related
 

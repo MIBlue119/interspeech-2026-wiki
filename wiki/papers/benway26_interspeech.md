@@ -1,6 +1,6 @@
 ---
 id: benway26_interspeech
-category: evaluation
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/benway26_interspeech.pdf
 *Nina R Benway, Beckett Frey, Tristan Mahr, Michael McAuliffe, Prad Kadambi, Visar Berisha, Katherine Hustad*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/benway26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/benway26_interspeech.html)
+
+**Category:** `applications-other`
 
 **TL;DR** — VoxKit is an extensible desktop workbench integrating forced alignment and goodness of pronunciation analysis into a single cross-platform application for speech and clinical researchers. It streamlines pipelines from raw audio to frame-level phoneme log-posterior scoring without requiring command-line programming.
 
@@ -59,6 +61,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech quality assessment, clinical speech analysis for pathological or child populations, and phonetic research requiring streamlined alignment and pronunciation scoring pipelines.
+
+## Institutions / 機構
+
+University of Maryland, College Park, University of Wisconsin - Madison, Arizona State University
+
+**Funding / 經費:** National Institute on Deafness and Other Communication Disorders
 
 ## Related
 

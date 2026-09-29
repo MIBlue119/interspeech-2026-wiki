@@ -1,6 +1,7 @@
 ---
 id: kovalev26_interspeech
-category: speech-llm
+category: paralinguistics-emotion
+labels: [efficient-on-device, self-supervised, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kovalev26_interspeech.pdf
 *Vsevolod Kovalev, Pranay Manocha*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kovalev26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kovalev26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1480)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `efficient-on-device`, `self-supervised`, `streaming-real-time`
 
 **TL;DR** — SEAM is a shortcut-aware real-time framework for detecting scripted versus spontaneous speech in job interviews, achieving 0.971 ROC-AUC on external interview data using a compact 23M-parameter DistilHuBERT backbone.
 
@@ -66,6 +69,10 @@ Speech and ML engineers building real-time audio guardrails should read this pap
 ## Applications
 
 Real-time AI interview guardrails, conversational system integrity checks, and speaking-style corpus curation.
+
+## Institutions / 機構
+
+Symbal AI, Princeton University
 
 ## Related
 

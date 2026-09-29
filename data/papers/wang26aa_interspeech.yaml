@@ -20,6 +20,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26aa_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26aa_interspeech.pdf
 session: Speech and Audio Quality Assessment
 topics: [speech-enhancement, tts, evaluation]
+category: resources-evaluation
+labels:
+  - "robustness-noise"
+institutions:
+  - "Shanghai Jiao Tong University"
+  - "Carnegie Mellon University"
+  - "Technische Universitat Braunschweig"
+  - "Meta"
+  - "Waseda University"
+  - "VUI Labs"
+funding:
+  - "National Key Research and Development Program of China"
+  - "China NSFC Project"
+  - "SJTU Med-X Translational Research Grant"
 code:
     url: https://github.com/vvwangvv/URGENT-MOS
     license: ""

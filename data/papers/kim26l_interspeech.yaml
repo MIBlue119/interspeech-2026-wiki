@@ -9,6 +9,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26l_interspeech.pdf
 session: Spoofing and Deepfake Detection 2
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "robustness-noise"
+institutions:
+  - "Incheon National University"
+funding:
+  - "KOITA"
+  - "Ministry of Science and ICT"
+  - "Incheon National University"
 code:
     url: ""
     license: ""

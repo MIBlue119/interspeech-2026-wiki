@@ -16,6 +16,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kuzmin26b_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/kuzmin26b_interspeech.pdf
 session: Speaker Privacy and Anonymization
 topics: [speech-llm, speaker-verification, low-resource]
+category: deepfake-security
+labels:
+  - "streaming-real-time"
+  - "generative-model"
+institutions:
+  - "Nanyang Technological University"
+  - "A*STAR"
+  - "Huawei"
+  - "Leibniz Research Center"
+  - "Chinese University of Hong Kong"
+  - "Hong Kong Polytechnic University"
 code:
     url: https://github.com/Plachtaa/StreamVoiceAnon
     license: ""

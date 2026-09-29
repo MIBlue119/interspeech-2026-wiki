@@ -1,6 +1,7 @@
 ---
 id: yuan26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [self-supervised, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yuan26b_interspeech.pdf
 *Xin Yuan, Junling Lv, Zezhou Xu, Xingjun Tan, Liangliang Li, Yanqiang Lei*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yuan26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yuan26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-232)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`, `generative-model`, `robustness-noise`
 
 **TL;DR** — DelayGSE is a text-aware generative speech enhancement framework that models multi-codebook discrete tokens in a delayed manner to suppress speech-like hallucinations. It achieves a 15.8% relative word error rate reduction while maintaining state-of-the-art perceptual quality across denoising, dereverberation, and superresolution tasks.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time communication systems, smart conferencing hardware, and hearing assistance devices requiring high intelligibility and natural audio restoration under severe ambient noise and reverberation.
+
+## Institutions / 機構
+
+Guangzhou Shiyuan Electronic Technology Company Limited, Shanghai University of Finance and Economics
 
 ## Related
 

@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/krysinska26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/krysinska26_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
 topics: [asr, self-supervised, phonetics]
+category: asr
+institutions:
+  - "Poznan University of Technology"
+  - "Pearson Central Europe"
+funding:
+  - "National Science Centre, Poland"
 code:
     url: ""
     license: ""

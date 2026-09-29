@@ -1,6 +1,7 @@
 ---
 id: geng26b_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/geng26b_interspeech.pdf
 *Yizhong Geng, Kecan Mao, Qifei Li, Cong Wang, Yingming Gao, Ruimin Wang, Chunfeng Wang, Hao Li, Ya Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/geng26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/geng26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1227)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — Over 40% of unconstrained LLM rewrites in Instruct-TTS label-to-instruction pipelines contain semantic drift, corrupting training supervision; the authors propose a data-centric stabilization recipe that raises instruction-following accuracy from 34.5% (no SFT) to 56.4% on the Chinese split of InstructTTSEval.
 
@@ -65,6 +68,12 @@ Speech researchers and engineers building Instruct-TTS systems will learn how to
 ## Applications
 
 Building robust natural-language-controlled text-to-speech engines for audiobooks, conversational AI assistants, and expressive media content creation.
+
+## Institutions / 機構
+
+Beijing University of Posts and Telecommunications, Li Auto
+
+**Funding / 經費:** National Key R&D Program of China, National Natural Science Foundation of China, National Language Commission, National Social Science Fund of China
 
 ## Related
 

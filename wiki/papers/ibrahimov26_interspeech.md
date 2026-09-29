@@ -1,6 +1,6 @@
 ---
 id: ibrahimov26_interspeech
-category: speech-enhancement
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ibrahimov26_interspeech.pdf
 *Ibrahim Ibrahimov, Gábor Gosztolya, Csaba Zainkó*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ibrahimov26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ibrahimov26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1071)
+
+**Category:** `applications-other`
 
 **TL;DR** — This paper investigates the core assumption of silent speech interfaces that tongue motion is the primary driver in ultrasound-to-acoustic mapping, revealing via input manipulation and cross-attention architectures that single-frame CNNs do not critically rely on tongue-region pixels for reconstruction accuracy.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Silent speech interfaces, augmentative and alternative communication (AAC) devices for laryngectomees or speech-impaired individuals, and silent communication in noisy or sound-sensitive environments.
+
+## Institutions / 機構
+
+Budapest University of Technology and Economics, HUN-REN-SZTE Research Group on Artificial Intelligence, University of Szeged
+
+**Funding / 經費:** Ministry of Culture and Innovation of Hungary, National Research, Development and Innovation Fund
 
 ## Related
 

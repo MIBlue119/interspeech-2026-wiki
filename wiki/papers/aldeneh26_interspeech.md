@@ -1,6 +1,7 @@
 ---
 id: aldeneh26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/aldeneh26_interspeech.pdf
 *Zakaria Aldeneh, Skyler Seto, Maureen de Seyssel, Jie Chi, Zijin Gu, Takuya Higuchi, Jee-weon Jung, Shinji Watanabe, David Grangier, Barry-John Theobald, Tatiana Likhomanenko*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/aldeneh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/aldeneh26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3073)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates embedding-based data selection to curate small, highly relevant training subsets from 100k+ hours of in-the-wild audio, enabling specialist ASR models to outperform models trained on the full dataset by up to 36.8% relative Word Error Rate (WER) reduction.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Training efficient, domain-adapted ASR models for edge deployment, specialized medical/legal transcription services, or low-resource accent adaptation.
+
+## Institutions / 機構
+
+Apple, Carnegie Mellon University
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: zhang26q_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26q_interspeech.pdf
 *Xiaofang Zhang, Infat Lo, Yao Lu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1200)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study analyzes the acoustic realization of aspirated fricatives in Shaxi Bai across 30 speakers, demonstrating that aspiration is encoded multidimensionally through temporal, spectral, and phonatory cues with notable intergenerational reorganization among young speakers.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Acoustic phonetic analysis, dialectology documentation, and historical sound change modeling.
+
+## Institutions / 機構
+
+University of Macau, Peking University
+
+**Funding / 經費:** National Social Science Fund of China
 
 ## Related
 

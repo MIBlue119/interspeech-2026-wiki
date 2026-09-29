@@ -1,6 +1,7 @@
 ---
 id: lugo26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lugo26_interspeech.pdf
 *Haljan Lugo, Ernst Seidel, Pejman Mowlaee, Ziyue Zhao, Tim Fingscheidt*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lugo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lugo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2337)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `generative-model`, `robustness-noise`
 
 **TL;DR** — DiffVQE is the first fully reproducible, single-step hybrid diffusion-based acoustic echo control and noise reduction model, outperforming Microsoft's discriminative DeepVQE in speech quality and intelligibility while using significantly less computational complexity (4.32 GFLOPS).
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Hands-free communication systems, smart speakers, automotive speakerphones, and teleconferencing software requiring simultaneous acoustic echo cancellation and background noise suppression.
+
+## Institutions / 機構
+
+Technische Universitat Braunschweig, GN Advanced Science
 
 ## Related
 

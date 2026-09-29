@@ -9,6 +9,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kilpatrick26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/kilpatrick26_interspeech.pdf
 session: Modeling L1 Acquisition
 topics: [phonetics, evaluation, dataset]
+category: phonetics-linguistics
+institutions:
+  - "University of Aizu"
+  - "University of Melbourne"
 code:
     url: ""
     license: ""

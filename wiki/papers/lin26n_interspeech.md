@@ -1,6 +1,7 @@
 ---
 id: lin26n_interspeech
-category: self-supervised
+category: speech-llm-dialogue
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26n_interspeech.pdf
 *Mingda Lin, Lei Ding, Xinyue Zhou, Tiantian Xiong, Hanchen Pei, Gongping Huang, Hao Zhang, Jingdong Chen, Jacob Benesty*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3228)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — WQ-Fusion is a dual-encoder framework that integrates Whisper-large and Qwen2-Audio-7B via adaptive feature modulation and element-wise gated attention, achieving an overall score of 0.836 across 15 diverse audio datasets.
 
@@ -65,6 +68,12 @@ Researchers building universal audio representation systems or tackling multimod
 ## Applications
 
 Universal acoustic scene classification, multi-domain speech and music processing pipelines, and robust human-computer interaction systems.
+
+## Institutions / 機構
+
+Wuhan University, Tencent, Northwestern Polytechnical University, Université du Québec
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

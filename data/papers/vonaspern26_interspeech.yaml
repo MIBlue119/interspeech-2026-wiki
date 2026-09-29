@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.pdf
 session: Audio segmentation
 topics: [speech-llm, self-supervised, evaluation]
+category: audio-understanding
+labels:
+  - "self-supervised"
+institutions:
+  - "Technische Universitat Braunschweig"
+  - "NXP Semiconductors"
 code:
     url: https://github.com/OptimusPrimus/salsa
     license: ""

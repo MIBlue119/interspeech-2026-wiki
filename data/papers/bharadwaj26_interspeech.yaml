@@ -14,6 +14,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bharadwaj26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/bharadwaj26_interspeech.pdf
 session: Low-Resource & Endangered Language Speech Processing
 topics: [asr, phonetics, multilingual]
+category: asr
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Carnegie Mellon University"
+  - "University of Texas at Austin"
 code:
     url: https://github.com/changelinglab/PhoneticXeus
     license: ""

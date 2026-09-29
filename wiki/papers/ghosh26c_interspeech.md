@@ -1,6 +1,6 @@
 ---
 id: ghosh26c_interspeech
-category: speech-translation
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ghosh26c_interspeech.pdf
 *Souvik Ghosh, C. V. Jawahar, Vinay Namboodiri*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ghosh26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ghosh26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-560)
+
+**Category:** `asr`
 
 **TL;DR** — V-Align is a visual forced alignment framework that formulates timestamp localization in silent talking-face videos as an optimal monotonic path traversal over a frame-phoneme compatibility lattice. It achieves state-of-the-art word-level Mean Absolute Error (MAE) of 32.9 ms on LRS2 and 56.9 ms on LRS3.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated subtitle synchronization for silent, archival, or privacy-masked videos, noisy-environment video captioning, and multimodal speech dataset curation.
+
+## Institutions / 機構
+
+IIIT Hyderabad, University of Bath
+
+**Funding / 經費:** MeitY, Government of India
 
 ## Related
 

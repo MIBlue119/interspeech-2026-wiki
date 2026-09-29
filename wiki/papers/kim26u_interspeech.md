@@ -1,6 +1,7 @@
 ---
 id: kim26u_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26u_interspeech.pdf
 *Gaeun Kim, Jaeuk Lee, Joon-Hyuk Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26u_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26u_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3088)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — ETC-TTS models emotional intensity as continuous latent trajectories learned during training using RVQ prototypes and rectified flow matching, achieving stable intensity control without heuristic inference-time scaling.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Expressive audiobook narration, conversational AI assistants, video game character voice generation, and interactive dubbing.
+
+## Institutions / 機構
+
+Hanyang University
+
+**Funding / 經費:** Institute of Information & communications Technology Planning & Evaluation (IITP), Korea government (MSIT), Artificial Intelligence Graduate School Program (Hanyang University)
 
 ## Related
 

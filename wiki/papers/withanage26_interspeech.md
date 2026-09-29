@@ -1,6 +1,6 @@
 ---
 id: withanage26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/withanage26_interspeech.pdf
 *Thanushi Withanage, Carol Espy-Wilson, Elizabeth Redcay, Desi Jones, Noah Sasson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/withanage26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/withanage26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2855)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper introduces a speaker-independent, non-invasive framework using acoustic-to-articulatory speech inversion to measure articulatory entrainment and coordination complexity in spontaneous dyadic conversations across autistic and non-autistic adults. The authors find that non-autistic and same-neurotype dyads exhibit increasing articulatory coordination complexity and robust entrainment over time—which correlates positively with perceived conversational success—whereas mixed-neurotype dyads show patterns reflecting sustained or increased articulatory effort.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated analysis of conversational quality, computer-mediated communication profiling, social skills coaching, and developing empathetic conversational AI agents sensitive to neurodiverse interaction styles.
+
+## Institutions / 機構
+
+University of Maryland, University of Texas at Dallas
+
+**Funding / 經費:** Grand Challenge grant from University of Maryland
 
 ## Related
 

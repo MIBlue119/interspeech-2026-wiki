@@ -1,6 +1,7 @@
 ---
 id: angus26_interspeech
 category: asr
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/angus26_interspeech.pdf
 *Dylan Angus, Chen Cen, Berkin Durmus, Arda Ibis, Brian Keene, Andrey Leonov, Blaise Munyampirwa, Zach Nagengast, Arda Okan, Atila Orhon, Eduardo Pacheco*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/angus26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/angus26_interspeech.html)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — Argmax Pro is a unified real-time on-device speech-to-text system orchestrating three billion-scale transformer models to deliver cloud-equivalent accuracy, streaming diarization, and support for up to 3,000 custom vocabulary words on mobile NPUs.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time mobile dictation, offline meeting transcription apps, healthcare documentation, and on-device voice assistants requiring strict data privacy.
+
+## Institutions / 機構
+
+Argmax
 
 ## Related
 

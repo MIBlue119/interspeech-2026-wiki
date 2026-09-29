@@ -1,6 +1,7 @@
 ---
 id: fiedler26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [multilingual, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fiedler26_interspeech.pdf
 *Tobias Fiedler, Mariam Fouad, Marcus Hott, Leonhard Riehle, Felix Hohendanner, Bruce Johnson, Nicholas Cummins, Bert Arnrich*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fiedler26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fiedler26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-424)
+
+**Category:** `health-clinical` · **Labels:** `multilingual`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — The paper introduces Contrastive Time-Proximity (CTP), a self-supervised pre-training method that learns heart failure-predictive representations from natural speech without clinical labels. It achieves robust cross-center and cross-language acute decompensated heart failure ranking accuracy, outperforming classical handcrafted acoustic features and human raters.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Remote, non-invasive telemonitoring of chronic heart failure decompensation via standard smartphone voice recordings.
+
+## Institutions / 機構
+
+Noah Labs, University of Potsdam, German Heart Center of the Charite, Mayo Clinic, King's College London
 
 ## Related
 

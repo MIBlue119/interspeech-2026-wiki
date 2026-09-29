@@ -11,6 +11,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26fa_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26fa_interspeech.pdf
 session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
 topics: [speaker-verification, multilingual, self-supervised]
+category: speaker
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Wuhan University"
+  - "Chinese University of Hong Kong, Shenzhen"
+  - "Duke Kunshan University"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Yangtze River Delta Science and Technology Innovation Community Joint Research Project"
 code:
     url: https://github.com/ZXHY-82/LI-MSV-TidyVoice2026
     license: ""

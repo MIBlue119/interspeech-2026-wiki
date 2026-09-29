@@ -1,6 +1,7 @@
 ---
 id: viakhirev26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/viakhirev26_interspeech.pdf
 *Ivan Viakhirev, Kirill Borodin, Grach Mkrtchian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/viakhirev26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/viakhirev26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1420)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper introduces the Spectral Sensitivity Theorem to explain ASR hallucinations, revealing a scale-dependent phase transition where small models suffer from signal dispersion in cross-attention while large models enter a rank-1 attractor state that suppresses acoustic evidence.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving safety guardrails, developing real-time hallucination detectors, and designing spectral regularization techniques to prevent low-rank collapse in large speech transformers.
+
+## Institutions / 機構
+
+Information Technologies, Mechanics and Optics University, Moscow Technical University of Communications and Informatics, BitmanagerAI
 
 ## Related
 

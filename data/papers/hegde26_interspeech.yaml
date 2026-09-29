@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hegde26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hegde26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [audio-captioning, self-supervised, evaluation]
+category: audio-understanding
+labels:
+  - "self-supervised"
+institutions:
+  - "Qualcomm"
 code:
     url: ""
     license: ""

@@ -14,6 +14,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/klimi26_interspeech.pdf
 session: Multilingual & Low-Resource ASR
 topics: [asr, multilingual, self-supervised]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Athena Research Center"
+funding:
+  - "European High-Performance Computing Joint Undertaking"
+  - "Greek Ministry of Digital Governance and Artificial Intelligence"
 code:
     url: https://github.com/athena-ilsp/Dialect-Adaptation
     license: ""

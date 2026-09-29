@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bui26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bui26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
 topics: [code-switching, asr, evaluation]
+category: resources-evaluation
+labels:
+  - "multilingual"
+institutions:
+  - "Viettel Group"
+  - "Thuyloi University"
 code:
     url: https://github.com/vincentbui-ai/CSER-Benchmark/
     license: ""

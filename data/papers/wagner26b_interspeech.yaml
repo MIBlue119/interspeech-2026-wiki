@@ -8,6 +8,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wagner26b_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/wagner26b_interspeech.pdf
 session: Audio Understanding and Representation Learning
 topics: [self-supervised, speech-coding, speech-llm]
+category: speech-coding
+labels:
+  - "self-supervised"
+institutions:
+  - "nyra health"
 code:
     url: https://github.com/nyrahealth/PINT
     license: ""

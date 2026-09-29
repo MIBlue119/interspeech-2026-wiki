@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26l_interspeech.pdf
 session: Multi-Channel, Beamforming and Spatial Speech Enhancement
 topics: [speech-enhancement, source-separation, multilingual]
+category: enhancement-separation
+institutions:
+  - "Chinese Academy of Sciences"
+  - "University of Chinese Academy of Sciences"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

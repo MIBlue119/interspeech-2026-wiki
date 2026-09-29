@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26da_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26da_interspeech.pdf
 session: Audio Foundation Models and Generation
 topics: [tts, self-supervised, evaluation]
+category: audio-understanding
+labels:
+  - "generative-model"
+institutions:
+  - "Hong Kong University of Science and Technology"
+  - "Tencent"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Guangdong Basic and Applied Basic Research Foundation"
+  - "Tencent AI Lab Rhino-Bird Program"
 code:
     url: https://anonymous.4open.science/w/GACA-DiT/
     license: ""

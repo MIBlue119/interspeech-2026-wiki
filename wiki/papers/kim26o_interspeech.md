@@ -1,6 +1,7 @@
 ---
 id: kim26o_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26o_interspeech.pdf
 *Dabin Kim, Junwon Lee, Juhan Nam*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26o_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26o_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1828)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — AdaTT is a target-adaptive text-guided timbre transfer system that dynamically scales frame-wise pitch and loudness controls to harmonize source expressive details with target instrument identities. It achieves a superior CLAP score of 0.490 and subjective naturalness while preserving core musical content.
 
@@ -67,6 +70,12 @@ Researchers and audio engineers working on generative music editing and text-to-
 ## Applications
 
 Music production, composition assistance, and automated instrumental arrangement for non-proficient creators.
+
+## Institutions / 機構
+
+KAIST
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea government (MSIT), Artificial Intelligence Graduate School Program (KAIST), National Research Foundation of Korea
 
 ## Related
 

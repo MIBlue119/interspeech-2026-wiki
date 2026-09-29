@@ -1,6 +1,6 @@
 ---
 id: reitsema26_interspeech
-category: prosody
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/reitsema26_interspeech.pdf
 *Ariëlle Reitsema, Matthijs Westera, Yiya Chen, Johanneke Caspers*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/reitsema26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/reitsema26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3530)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates whether backchannels in Dutch conversations pattern more like turn-holds or turn-changes based on preceding syntactic completion and final boundary tones. Using a multinomial mixed regression model, the study finds that backchannels differ significantly from both categories but show a statistically significant closer resemblance to turn-changes (Jensen-Shannon divergence of 0.070 vs 0.187).
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Conversational AI, spoken dialogue systems, embodied conversational agents, and turn-taking models for interactive speech assistants.
+
+## Institutions / 機構
+
+Leiden University
+
+**Funding / 經費:** Dutch Research Council
 
 ## Related
 

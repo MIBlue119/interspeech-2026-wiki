@@ -13,6 +13,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mosner26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/mosner26_interspeech.pdf
 session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
 topics: [speaker-verification, multilingual, self-supervised]
+category: speaker
+labels:
+  - "multilingual"
+institutions:
+  - "Brno University of Technology"
+  - "Universidad Autonoma de Madrid"
+  - "Politecnico di Torino"
+  - "Hong Kong Polytechnic University"
+funding:
+  - "Ministry of Education, Youth and Sports of the Czech Republic"
+  - "Digital Europe Programme"
+  - "MICIU/AEI"
+  - "Comunidad de Madrid"
 code:
     url: https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md
     license: ""

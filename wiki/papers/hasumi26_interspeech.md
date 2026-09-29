@@ -1,6 +1,6 @@
 ---
 id: hasumi26_interspeech
-category: speech-llm
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hasumi26_interspeech.pdf
 *Takuya Hasumi, Welly Naptali*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hasumi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hasumi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2293)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper investigates aligning Music Large Language Models (MusicLLMs) for continuous emotion regression (arousal and valence) using instruction tuning and feedback-driven alignment via group relative policy optimization (GRPO) with numerical rewards, outperforming zero-shot models and standard instruction tuning while preserving general MusicQA capabilities.
 
@@ -61,6 +63,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Mood-based music playlist generation, emotion-aware music retrieval systems, and conversational multimodal assistants capable of explaining music emotions.
+
+## Institutions / 機構
+
+LY Corporation
 
 ## Related
 

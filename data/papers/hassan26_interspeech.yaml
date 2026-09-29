@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hassan26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/hassan26_interspeech.pdf
 session: Brain Studies and Speech
 topics: [speech-llm, self-supervised, evaluation]
+category: applications-other
+institutions:
+  - "Ohio State University"
+funding:
+  - "National Science Foundation"
 code:
     url: ""
     license: ""

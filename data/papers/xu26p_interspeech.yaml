@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26p_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26p_interspeech.pdf
 session: Spatial Audio 2
 topics: [self-supervised, dataset, speech-enhancement]
+category: enhancement-separation
+labels:
+  - "generative-model"
+institutions:
+  - "International Audio Laboratories Erlangen"
+  - "Fraunhofer Institute for Integrated Circuits"
+  - "Friedrich-Alexander-Universitat Erlangen-Nurnberg"
+funding:
+  - "German Research Foundation"
 code:
     url: ""
     license: ""

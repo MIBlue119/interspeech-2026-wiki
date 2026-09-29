@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/camara26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/camara26_interspeech.pdf
 session: Emotion, Prosody, and Articulation
 topics: [speech-enhancement, phonetics, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "Universidad Politecnica de Madrid"
+  - "Massachusetts Institute of Technology"
+funding:
+  - "Ministry of Economy and Competitiveness of Spain"
+  - "Fundacion Santander"
+  - "MISTI MIT Global Experiences"
 code:
     url: https://huggingface.co/datasets/mcamara/all-words-in-english-with-pink-trombone
     license: ""

@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26x_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26x_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [speech-enhancement, evaluation, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "National Institute of Informatics"
+funding:
+  - "New Energy and Industrial Technology Development Organization"
 code:
     url: https://github.com/nii-yamagishilab/VoxEffects
     license: ""

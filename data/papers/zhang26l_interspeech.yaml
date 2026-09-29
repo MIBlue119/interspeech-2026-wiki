@@ -12,6 +12,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26l_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26l_interspeech.pdf
 session: Singing Voice and Music Generation
 topics: [tts, self-supervised, dataset]
+category: audio-understanding
+labels:
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "Hunan University"
+  - "Yuelushan Center for Industrial Innovation"
+funding:
+  - "National Natural Science Foundation of China"
+  - "National Science and Technology Major Project of China"
+  - "Science and Technology Innovation Program of Hunan Province"
+  - "Guangdong Basic and Applied Basic Research Foundation"
+  - "Shenzhen Natural Science Foundation"
+  - "Project of Yuelushan Center for Industrial Innovation"
 code:
     url: https://frei-2.github.io/CTMusic
     license: ""

@@ -12,6 +12,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/correa26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/correa26_interspeech.pdf
 session: Articulatory, EMG, and Visual Speech Generation
 topics: [speech-llm, evaluation, self-supervised]
+category: tts
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "State University of Campinas"
+  - "Grenoble Alpes University"
+  - "National Centre for Scientific Research"
+  - "Grenoble Institute of Technology"
+  - "Inria"
+funding:
+  - "Sao Paulo Research Foundation"
+  - "Brazilian Institute of Data Science"
+  - "Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior"
 code:
     url: https://github.com/uuembodiedsocialai/FaceDiffuser
     license: ""

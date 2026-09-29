@@ -14,6 +14,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26m_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26m_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
 topics: [tts, speech-llm, self-supervised]
+category: tts
+labels:
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "ZuoYeBang Technology"
 code:
     url: https://zhangjh915.github.io/PolyInstructTTS-demo/
     license: ""

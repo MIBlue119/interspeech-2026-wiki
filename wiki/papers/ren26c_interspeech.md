@@ -1,6 +1,7 @@
 ---
 id: ren26c_interspeech
-category: speaker-verification
+category: speaker
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ren26c_interspeech.pdf
 *Yiming Ren, Xuenan Xu, Shuai Wang, Chao Zhang, Baoxiang Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ren26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ren26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1117)
+
+**Category:** `speaker` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates adapting Audio Large Language Models (ALLMs) for text-independent and text-dependent speaker verification by reformulating the task as audio question answering, demonstrating that supervised fine-tuning with hard pair sampling dramatically improves zero-shot deficits while retaining general audio capabilities.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Unified conversational voice assistants that authenticate user identity simultaneously with spoken dialogue interaction, smart home security systems, and personalized multi-user interactive audio interfaces.
+
+## Institutions / 機構
+
+Shanghai Artificial Intelligence Laboratory, Nanjing University, Tsinghua University
+
+**Funding / 經費:** Shanghai Artificial Intelligence Laboratory
 
 ## Related
 

@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kashyap26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/kashyap26_interspeech.pdf
 session: Speech and Language Representation
 topics: [self-supervised, evaluation, speech-llm]
+category: resources-evaluation
+institutions:
+  - "Deakin University"
+  - "Technical University of Munich"
+  - "Imperial College London"
+funding:
+  - "Networked Sensing and Biomedical Engineering Research Lab, Deakin University"
 code:
     url: https://github.com/avrpixel-design/P1
     license: ""

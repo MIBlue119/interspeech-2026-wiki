@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zheng26b_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zheng26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zheng26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1124)
 
+**Category:** `asr`
+
 **TL;DR** — This paper presents a 0.7B parameter end-to-end multi-talker ASR and diarization model that balances tasks via dual-encoder temporal interleaving, a length-aware speaker ID loss, and an adaptive loss mask, achieving relative cpCER improvements of 18% on AliMeeting and 24% on Aishell4 compared to baselines.
 
 ## Key contributions
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Meeting transcription, multi-talker subtitle generation, and conversational dialogue understanding.
+
+## Institutions / 機構
+
+Huawei Technologies
 
 ## Related
 

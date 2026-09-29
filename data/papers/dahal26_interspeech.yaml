@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dahal26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dahal26_interspeech.pdf
 session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
 topics: [asr, self-supervised, multilingual]
+category: asr
+institutions:
+  - "Universidad Politecnica de Madrid"
+  - "National University of Singapore"
+funding:
+  - "BRAINS"
+  - "MCIN"
+  - "AEI"
+  - "European Regional Development Fund"
+  - "European Union"
+  - "Comunidad de Madrid"
 code:
     url: ""
     license: ""

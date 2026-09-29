@@ -1,6 +1,7 @@
 ---
 id: girish26b_interspeech
-category: speech-llm
+category: health-clinical
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/girish26b_interspeech.pdf
 *Girish, Mohd Mujtaba Akhtar, Farhan Sheth, Muskaan Singh, Juliana Gerard, Paula McClean, Kongfatt Wong-Lin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/girish26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/girish26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2756)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — The paper introduces ORBIT, a zero-shot cross-lingual speech-based Alzheimer’s disease detection framework that fuses multilingual audio and text PTMs using multi-tap adversarial learning and bi-geometric (spherical-hyperbolic) projections. It achieves up to 86.98% accuracy and 85.29% macro-F1 on held-out languages.
 
@@ -66,6 +69,12 @@ Speech and ML researchers focusing on cross-lingual transfer, adversarial repres
 ## Applications
 
 Automated, non-invasive remote cognitive screening and longitudinal telehealth monitoring for Alzheimer's disease across diverse linguistic populations.
+
+## Institutions / 機構
+
+Ulster University, Manipal University
+
+**Funding / 經費:** Alzheimer's Research UK, United States-Ireland-Northern Ireland R&D Partnership Programme, EPSRC
 
 ## Related
 

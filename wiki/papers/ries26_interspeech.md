@@ -1,6 +1,7 @@
 ---
 id: ries26_interspeech
-category: multilingual
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ries26_interspeech.pdf
 *Jennifer Jane Ries, Debasmita Bhattacharya, Julia Hirschberg*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ries26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ries26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2492)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This paper investigates acoustic-prosodic and semantic entrainment in semi-spontaneous, multilingual parliamentary speech using the Canadian Hansard corpus, discovering that speakers entrain across languages following primacy and recency memory effects. Cross-lingual exchanges exhibit a unique, staggered two-stage planning mechanism where initial semantic entrainment predicts final acoustic-prosodic entrainment.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving multi-turn conversational agents, spoken dialogue systems, and computer-assisted translation or interpretation tools by modeling cross-lingual speaker accommodation.
+
+## Institutions / 機構
+
+Columbia University
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

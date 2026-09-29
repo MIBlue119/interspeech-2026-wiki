@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yan26c_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yan26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yan26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1278)
 
+**Category:** `asr`
+
 **TL;DR** — AudioSLM is a compact speech-augmented language model framework designed to mitigate ASR hallucinations by introducing CTC-based temporal gating and cross-modal attention layers, dramatically reducing hallucination error rates from 52.01% to 8.69% on LibriSpeech dev-clean.
 
 ## Key contributions
@@ -65,6 +67,12 @@ Speech and ML researchers working on modality fusion and hallucination reduction
 ## Applications
 
 Robust automatic speech recognition systems, voice-controlled virtual assistants, and real-time audio transcription interfaces operating in noisy acoustic environments.
+
+## Institutions / 機構
+
+National Taiwan Normal University
+
+**Funding / 經費:** Realtek Semiconductor Corporation
 
 ## Related
 

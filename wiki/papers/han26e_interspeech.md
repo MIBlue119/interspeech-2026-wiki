@@ -1,6 +1,6 @@
 ---
 id: han26e_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/han26e_interspeech.pdf
 *Seongkyu Han, Yowon Lee, Thien-Phuc Doan, Thien An Nguyen, Souhwan Jung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/han26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/han26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2294)
+
+**Category:** `speaker`
 
 **TL;DR** — A training-free soft-gating score-level fusion framework dynamically scales ASV and CM subsystem contributions using margins from development EER thresholds, achieving up to a 90% relative a-DCF improvement over static baselines.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Secure speaker verification systems, voice-biometric banking, and mobile authentication pipelines requiring defense against synthetic speech spoofing.
+
+## Institutions / 機構
+
+Soongsil University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Information Technology Research Center, Ministry of Science and ICT, National Research Foundation of Korea
 
 ## Related
 

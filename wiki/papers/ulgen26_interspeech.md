@@ -1,6 +1,7 @@
 ---
 id: ulgen26_interspeech
-category: voice-conversion
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ulgen26_interspeech.pdf
 *Ismail Rasim Ulgen, John Hansen, Carlos Busso, Berrak Sisman*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ulgen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ulgen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-942)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper proposes a sub-center modeling framework for speaker embeddings to bridge the gap between recognition-driven compactness and generation-oriented variability, improving naturalness and pitch diversity in zero-shot voice conversion.
 
@@ -63,6 +66,12 @@ Speech and ML researchers building personalization or zero-shot generation syste
 ## Applications
 
 Zero-shot voice conversion, expressive text-to-speech, and personalized multi-speaker audio generation systems.
+
+## Institutions / 機構
+
+Johns Hopkins University, University of Texas at Dallas, Carnegie Mellon University
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

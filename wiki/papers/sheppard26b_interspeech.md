@@ -1,6 +1,6 @@
 ---
 id: sheppard26b_interspeech
-category: self-supervised
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sheppard26b_interspeech.pdf
 *Brooklyn Sheppard, Anaelia Ovalle, Adina Williams, Levent Sagun*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sheppard26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sheppard26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2908)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper establishes a conceptual and normative framework for participatory speech dataset curation using the LGBTQIA+ (queer) community as a high-stakes case study. It proposes moving beyond traditional top-down crowdsourcing to a cyclical, bidirectional co-design model that balances individual autonomy with community representation.
 
@@ -60,6 +62,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of inclusive text-to-speech voice customization options, ethical speech recognition and speaker verification systems, and sensitive data governance frameworks for marginalized speech communities.
+
+## Institutions / 機構
+
+University of Calgary, Meta
 
 ## Related
 

@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26o_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26o_interspeech.pdf
 session: Self-supervised Speech Representation Learning
 topics: [asr, self-supervised, low-resource]
+category: asr
+labels:
+  - "low-resource"
+  - "self-supervised"
+institutions:
+  - "University of California, Los Angeles"
+funding:
+  - "National Science Foundation"
+  - "Institute of Education Sciences"
+  - "U.S. Department of Education"
 code:
     url: https://github.com/Zilai-WANG/Gumbel_Beard
     license: ""

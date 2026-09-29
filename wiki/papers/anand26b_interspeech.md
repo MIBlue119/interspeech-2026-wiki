@@ -1,6 +1,7 @@
 ---
 id: anand26b_interspeech
 category: tts
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/anand26b_interspeech.pdf
 *Srija Anand, Ashwin Sankar, Ishvinder Sethi, Aaditya Pareek, Kartik Rajput, Gaurav Yadav, Nikhil Narasimhan, Adish Pandya, Deepon Halder, Mohammed Safi Ur Rahman Khan, Praveen Srinivasa Varadhan, Shobhit Banga, Mitesh M Khapra*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/anand26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/anand26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3357)
+
+**Category:** `tts` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — The paper presents a large-scale, multidimensional pairwise evaluation framework for multilingual text-to-speech (TTS) in 10 Indian languages, leveraging over 120K human comparisons from 1,900+ native raters. Through Bradley-Terry modeling and SHAP analysis, the study reveals that human preference is primarily driven by expressiveness and intelligibility once basic noise and hallucination robustness are met.
 
@@ -65,6 +68,12 @@ Speech researchers and ML engineers building multilingual or low-resource TTS sy
 ## Applications
 
 Benchmarking and iterative development of multilingual text-to-speech models, conversational AI assistants, digital accessibility tools, and localized voice interfaces.
+
+## Institutions / 機構
+
+Indian Institute of Technology Madras, AI4Bharat, Josh Talks
+
+**Funding / 經費:** EkStep Foundation, Nilekani Philanthropies
 
 ## Related
 

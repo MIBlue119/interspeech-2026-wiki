@@ -1,6 +1,7 @@
 ---
 id: yang26d_interspeech
 category: tts
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26d_interspeech.pdf
 *Seongyeon Yang, Juyeob Lee, Eunil Park*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-616)
+
+**Category:** `tts` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — K-DIALECT is a multimodal, face-conditioned text-to-speech framework designed to synthesize low-resource regional Korean dialects without requiring reference audio. It achieves superior dialectal fluency and lower word error rates compared to state-of-the-art voice-based baselines like XTTS-v2.
 
@@ -63,6 +66,12 @@ Researchers building multimodal zero-shot TTS systems for low-resource or dialec
 ## Applications
 
 Culturally faithful regional voice assistants, local media localization, interactive digital avatars, and low-resource dialect preservation.
+
+## Institutions / 機構
+
+Sungkyunkwan University, Jaume I University
+
+**Funding / 經費:** MSIT, Korea, Global Research Support Program, ICAN, ITRC, IITP
 
 ## Related
 

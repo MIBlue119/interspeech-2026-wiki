@@ -1,6 +1,7 @@
 ---
 id: lee26f_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26f_interspeech.pdf
 *Yongjoon Lee, Jung-Woo Choi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-665)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — SEMamba++ is a general speech restoration framework that introduces speech-specific frequency inductive biases into State-Space Models, achieving state-of-the-art perceptual quality across multiple out-of-domain datasets with only 2.7M parameters.
 
@@ -65,6 +68,12 @@ Speech and audio researchers building real-time, resource-constrained general sp
 ## Applications
 
 Real-time communication enhancement, robust speech recognition front-ends, hearing aid audio processing, and multi-distortion restoration for archival or telephony recordings.
+
+## Institutions / 機構
+
+Korea Advanced Institute of Science and Technology
+
+**Funding / 經費:** National Research Foundation of Korea, Ministry of Science and ICT of Korea, Ministry of Education of Korea, Ministry of Trade, Industry and Energy, Korea Evaluation Institute of Industrial Technology
 
 ## Related
 

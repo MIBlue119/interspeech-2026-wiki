@@ -1,6 +1,6 @@
 ---
 id: cui26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cui26b_interspeech.pdf
 *Zihao Cui, Jinwei Huang, Tao Li, Rongxiu Zhong, Yingying Gao, Shilei Zhang, Chao Deng, Junlan Feng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cui26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cui26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2881)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — The paper introduces Dictionary-Free Discrete Attention (DFDA), a data-driven quantization module applied to the keys and values of self-attention to improve speech enhancement. Combined with TFGridNet, the proposed approach improves PESQ by up to 0.19 and SISNR by up to 1.58 dB over the baseline.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Telephony noise suppression, hearing aid front-ends, and pre-processing front-ends for automatic speech recognition and speaker verification.
+
+## Institutions / 機構
+
+China Mobile Jiutian Artificial Intelligence Technology (Beijing) Co., Ltd, Peking University
 
 ## Related
 

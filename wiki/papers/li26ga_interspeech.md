@@ -1,6 +1,6 @@
 ---
 id: li26ga_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26ga_interspeech.pdf
 *Jinyu Li, Xiao Wei, Bin Wen, Kai Li, Yuqin Lin, Xiaobao Wang, Longbiao Wang, Jianwu Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26ga_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26ga_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2578)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper proposes a Multi-View Gated Graph Attention Network that models spontaneous speech via a 'content-structure-flow' framework to detect Alzheimer's Disease, achieving 90.00% accuracy on the ADReSSo test set.
 
@@ -69,6 +71,12 @@ Researchers and speech engineers working on computer-aided diagnosis of cognitiv
 ## Applications
 
 Automated, non-invasive digital screening and longitudinal monitoring of Alzheimer's Disease and related dementias using spontaneous speech.
+
+## Institutions / 機構
+
+Tianjin University, Chinese Academy of Sciences, Fuzhou University, Huiyan Technology
+
+**Funding / 經費:** National Natural Science Foundation of China, National Talent Program
 
 ## Related
 

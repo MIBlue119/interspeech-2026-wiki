@@ -1,6 +1,6 @@
 ---
 id: yalegama26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yalegama26_interspeech.pdf
 *Oshan A. B. Yalegama, Wageesha N. Manamperi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yalegama26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yalegama26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2524)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This paper introduces three deep learning frameworks—SCoNet, FuSNet, and LAeNet—for estimating the Relative Transfer Matrix (ReTM) in multi-source, multi-microphone environments, consistently outperforming traditional covariance-based methods in estimation accuracy and downstream speech enhancement.
 
@@ -64,6 +66,12 @@ Speech and audio researchers working on multi-microphone array processing and sp
 ## Applications
 
 Multi-source speech enhancement, teleconferencing systems, hearing aids, robot and drone audition, and acoustic echo cancellation.
+
+## Institutions / 機構
+
+University of Moratuwa, Australian National University
+
+**Funding / 經費:** Accelerating Higher Education Expansion and Development, World Bank
 
 ## Related
 

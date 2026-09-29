@@ -1,6 +1,7 @@
 ---
 id: you26_interspeech
 category: tts
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/you26_interspeech.pdf
 *Heejo You, Sungwoo Moon*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/you26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/you26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-887)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`
 
 **TL;DR** — This paper introduces a high-speed, high-precision rule-based Korean Grapheme-to-Phoneme (G2P) engine that integrates deep morphological pointer structures and recursive rule re-evaluation, achieving an 8.7x speedup and 85.7% accuracy over the g2pk baseline while demonstrating through 96 VITS models that high-precision G2P eliminates label noise to improve TTS intelligibility.
 
@@ -62,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Deploying low-latency, high-fidelity Korean text-to-speech systems and bootstrapping reliable phonetic training data for neural speech synthesis models.
+
+## Institutions / 機構
+
+Hyundai Motor Group
+
+**Funding / 經費:** Robotics Lab at Hyundai Motor Group
 
 ## Related
 

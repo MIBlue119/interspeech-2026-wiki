@@ -1,6 +1,7 @@
 ---
 id: niu26b_interspeech
-category: speech-separation
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/niu26b_interspeech.pdf
 *Shutong Niu, Ruo-Yu Wang, Gao-Bin Yang, Ya Jiang, Tian Gao, Jia Pan, Jun Du*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/niu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/niu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1539)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — MCA-DCF-DS integrates spatial information at both the system and data adaptation levels into a unified diarization and separation framework, outperforming the CHiME-8 Task 2 champion system with a tcpWER of 17.86% on the NOTSOFAR-1 evaluation set.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multi-speaker meeting transcription, multi-channel automatic speech recognition systems, smart speakers, and automated conference room recording analysis.
+
+## Institutions / 機構
+
+University of Science and Technology of China, iFLYTEK Research
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

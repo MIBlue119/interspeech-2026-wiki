@@ -1,6 +1,6 @@
 ---
 id: nath26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nath26_interspeech.pdf
 *Saurabh Nath, Rosey Billington, Danielle Barth*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nath26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nath26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3034)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study provides a systematic acoustic investigation of mid front vowel harmony (/E/-raising) across three major dialect regions of Assamese, confirming significant and consistent vowel height (F1) and frontness (F2) shifts in harmonic (/CECi/) versus non-harmonic (/CECa/) contexts. The magnitude of the F1 raising effect varies significantly across dialect-style combinations, demonstrating an acoustic asymmetry where vowel height shows a complex three-way interaction while frontness remains stable.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving acoustic modeling, pronunciation dictionaries, and forced alignment tools for low-resource Indo-Aryan languages like Assamese by accounting for dialect-specific phonological variation and vowel harmony.
+
+## Institutions / 機構
+
+Australian National University
+
+**Funding / 經費:** Australian Linguistic Society Research Grant, Bhati Family India Travel Grant, South Asian Research Institute Student Support Grant
 
 ## Related
 

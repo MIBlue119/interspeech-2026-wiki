@@ -10,6 +10,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/koshino26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/koshino26_interspeech.pdf
 session: Speech Synthesis, Voice Conversion and Audio Generation
 topics: [speech-synthesis, speech-llm, multimodal]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Keio University"
+  - "National Institute of Advanced Industrial Science and Technology"
+funding:
+  - "AIST policy-budget project \"Research and Development of Generative AI Foundation Models for the Physical Domain\""
+  - "JSPS KAKENHI"
+  - "JST FOREST Program"
 code:
     url: ""
     license: ""

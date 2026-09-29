@@ -17,6 +17,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jiang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26_interspeech.pdf
 session: Generative Audio and Music
 topics: [tts, speech-llm, self-supervised]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Northwestern Polytechnical University"
+  - "Xiaomi"
 code:
     url: https://github.com/xiaomi-research/diffrhythm2
     license: ""

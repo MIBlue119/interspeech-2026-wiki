@@ -1,6 +1,7 @@
 ---
 id: okocha26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/okocha26_interspeech.pdf
 *Chibuzor Okocha, Christan Grant, Zoey Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/okocha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/okocha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2909)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates how state-of-the-art Audio-Language Models (ALMs) perform semantic reasoning and summarization on disfluent child speech within mixed-speaker interviews without explicit source separation. Results show that while models like Audio Flamingo 3 and Kimi-Audio extract high-level meaning, most ALMs suffer from a severe entailment prediction bias and degrade under dense disfluency and speaker interference.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical screening tools for speech-language pathologists, educational monitoring systems for children who stutter, and instruction-guided audio analytics for multi-speaker child-adult interactions.
+
+## Institutions / 機構
+
+University of Florida
 
 ## Related
 

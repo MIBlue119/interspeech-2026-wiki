@@ -1,6 +1,6 @@
 ---
 id: kumar26g_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kumar26g_interspeech.pdf
 *Dheeraj Harish Kumar, Sanjana MC, Perumal Keerthi Priya, K V Nikhath Khanam, Uma Maheshwari Krishnaswamy, Prasanta Kumar Ghosh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kumar26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kumar26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2602)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This study investigates how the expiratory-to-inspiratory (E/I) spectral power ratio correlates with spirometric airflow limitation (FEV1/FVC) in asthma patients across different posterior auscultation sites, age groups, and genders. Results reveal that mid-frequency bands (100-400 Hz) yield significant correlations, with optimal auscultation locations shifting systematically across age and gender subgroups.
 
@@ -31,7 +33,8 @@ Spirometry is the clinical gold standard for monitoring asthma severity by measu
 
 Respiratory sounds were recorded using a Littmann CORE digital stethoscope at 4 kHz across four posterior chest auscultation locations (Left Upper, Left Lower, Right Upper, Right Lower), capturing 5 breath cycles per location per participant. Manual annotations segmented recordings into inspiration and expiration phases. Short-Time Fourier Transform (STFT) was applied using a 2048-sample Hanning window ($N=2048$) and a 512-sample hop length ($H=512$). Band-limited spectral power was calculated across four frequency ranges (0-800 Hz, 100-200 Hz, 200-400 Hz, and 400-800 Hz) by averaging squared STFT magnitudes over time frames and frequency bins within each band. The expiratory-to-inspiratory (E/I) ratio was computed per breath cycle, and subject-level representations were derived by taking the median of five breath cycles to mitigate motion artifacts and posture variations.
 
-Spearman's rank correlation coefficient ($ho$) was used to evaluate the monotonic relationship between the median E/I ratio and clinical FEV1/FVC values across age brackets (20-30, 30-40, 40-50, 50-60 years) and genders. Mid-frequency bands (100-400 Hz) were emphasized because 0-100 Hz contains cardiac and muscle noise while frequencies above 400 Hz feature reduced airflow-dependent acoustic energy. The spatial shifts observed with aging are attributed to physiological changes such as reduced lung elastic recoil and increased closing volume, leading to premature small airway closure in lower lung bases.
+Spearman's rank correlation coefficient ($
+ho$) was used to evaluate the monotonic relationship between the median E/I ratio and clinical FEV1/FVC values across age brackets (20-30, 30-40, 40-50, 50-60 years) and genders. Mid-frequency bands (100-400 Hz) were emphasized because 0-100 Hz contains cardiac and muscle noise while frequencies above 400 Hz feature reduced airflow-dependent acoustic energy. The spatial shifts observed with aging are attributed to physiological changes such as reduced lung elastic recoil and increased closing volume, leading to premature small airway closure in lower lung bases.
 
 ## Experimental setup
 
@@ -51,7 +54,8 @@ Across all participants, the Left Lower site showed the strongest correlations w
 
 ## Limitations
 
-The study is limited by a moderate sample size ($n=141$) concentrated in a single clinical center, restricting broad demographic generalization. The observed Spearman correlations are moderate ($ho = 0.2$ to $0.4$), meaning E/I ratios serve as exploratory indicators rather than a direct replacement for clinical spirometry. Furthermore, age-group comparisons represent within-group trends as formal cross-age statistical comparisons were not conducted, and the dataset lacks longitudinal tracking of disease progression.
+The study is limited by a moderate sample size ($n=141$) concentrated in a single clinical center, restricting broad demographic generalization. The observed Spearman correlations are moderate ($
+ho = 0.2$ to $0.4$), meaning E/I ratios serve as exploratory indicators rather than a direct replacement for clinical spirometry. Furthermore, age-group comparisons represent within-group trends as formal cross-age statistical comparisons were not conducted, and the dataset lacks longitudinal tracking of disease progression.
 
 ## Why read this
 
@@ -64,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of non-effort-dependent, age- and gender-aware digital stethoscope screening tools and machine learning classifiers for automated asthma severity assessment.
+
+## Institutions / 機構
+
+Indian Institute of Science, St. Johns National Academy of Health Sciences
+
+**Funding / 經費:** Department of Science and Technology
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: xu26c_interspeech
-category: spatial-audio
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26c_interspeech.pdf
 *Shaoheng Xu, Chunyi Sun, Jihui Zhang, Amy Bastine, Prasanga N. Samarasinghe, Thushara D. Abhayapala, Hongdong Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-702)
+
+**Category:** `applications-other`
 
 **TL;DR** — HRIR-Former is a time-domain, grid-free binaural Transformer that up-samples head-related impulse responses (HRIRs) from sparse per-listener measurements to arbitrary spatial directions, achieving an ITD error of 16.4 µs and ILD error of 1.10 dB under 5-measurement sparsity.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Binaural audio rendering for virtual reality (VR), augmented reality (AR), and object-based spatial audio production in films.
+
+## Institutions / 機構
+
+Australian National University, University of Queensland
+
+**Funding / 經費:** ANU PhD Scholarship, ANU HDR Fee Merit Scholarship
 
 ## Related
 

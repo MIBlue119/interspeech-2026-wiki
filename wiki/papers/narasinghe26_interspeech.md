@@ -1,6 +1,7 @@
 ---
 id: narasinghe26_interspeech
-category: self-supervised
+category: applications-other
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/narasinghe26_interspeech.pdf
 *Patalee Narasinghe, Kasindu Bandara, Vilash Nawagamuwa, Janak Senevirathne, Uthayasanker Thayasivam*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/narasinghe26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/narasinghe26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3316)
+
+**Category:** `applications-other` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates internal feature encoding in WavLM and discovers a "Hydra effect" where discrete neuron or sparse autoencoder latent ablations fail to suppress acoustic features due to massive representational redundancy. To achieve targeted feature removal, the authors show that Iterative Null-space Projection (INLP) must be used to erase entire continuous linear subspaces.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Targeted editing, debiasing, or disentangling of continuous acoustic attributes in speech generation, voice conversion, and speech representation learning pipelines.
+
+## Institutions / 機構
+
+University of Moratuwa
 
 ## Related
 

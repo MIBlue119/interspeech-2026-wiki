@@ -17,6 +17,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/deng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/deng26_interspeech.pdf
 session: Speech and Language Technologies in Healthcare
 topics: [asr, self-supervised, multilingual]
+category: asr
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+  - "streaming-real-time"
+institutions:
+  - "Chinese University of Hong Kong"
+  - "Institute of Software, Chinese Academy of Sciences"
+  - "National Research Council Canada"
+funding:
+  - "Hong Kong RGC GRF"
+  - "Basic Research Project of Institute of Software, Chinese Academy of Sciences"
+  - "Youth Innovation Promotion Association CAS"
 code:
     url: ""
     license: ""

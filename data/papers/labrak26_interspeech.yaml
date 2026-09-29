@@ -21,6 +21,31 @@ isca_url: https://www.isca-archive.org/interspeech_2026/labrak26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/labrak26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [speech-llm, dataset, spoken-language-understanding]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "Idiap Research Institute"
+  - "University of Zurich"
+  - "Ohio State University"
+  - "Universite de Toulon"
+  - "Aix Marseille Univ"
+  - "LIS"
+  - "CNRS"
+  - "Stenograf"
+  - "Johns Hopkins University Bloomberg School of Public Health"
+  - "Colorado School of Mines"
+  - "Allegheny Health Network"
+  - "University of Pittsburgh Medical Center"
+  - "ILLS"
+  - "Solventum"
+  - "Carnegie Mellon University"
+funding:
+  - "Jelinek Memorial Summer Workshop on Speech and Language Technologies"
+  - "European Union Horizon 2020"
+  - "Agence de l’Innovation Defense"
+  - "French National Research Agency"
 code:
     url: https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo
     license: ""

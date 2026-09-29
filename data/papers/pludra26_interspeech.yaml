@@ -10,6 +10,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/pludra26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/pludra26_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
 topics: [speech-enhancement, evaluation, low-resource]
+category: applications-other
+institutions:
+  - "Pearson Central Europe"
+  - "Adam Mickiewicz University"
 code:
     url: ""
     license: ""

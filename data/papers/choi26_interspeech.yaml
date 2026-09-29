@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/choi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/choi26_interspeech.pdf
 session: Resource Constrained Speech Recognition
 topics: [asr, self-supervised, on-device]
+category: asr
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "LG Electronics"
+  - "Sogang University"
 code:
     url: ""
     license: ""

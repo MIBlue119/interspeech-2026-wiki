@@ -1,6 +1,7 @@
 ---
 id: fang26b_interspeech
-category: speech-enhancement
+category: tts
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fang26b_interspeech.pdf
 *Zihao Fang, Yingda Shen, Zifan Guan, Tongtong Song, Zhenyi Liu, Zhizheng Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1827)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — WhispEar is a bidirectional whispered speech conversion framework that uses unified semantic representations and zero-shot normal-to-whisper generation to scale training data, improving whisper-to-normal Word Error Rate (WER) on English to 22.44%.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving speech communication and voice restoration for whispered or pathological speech.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Shenzhen, Honor Device Co., Ltd, Shenzhen Research Institute of Big Data, Shenzhen Loop Area Institute, Amphion Technology Co., Ltd
+
+**Funding / 經費:** Shenzhen Research Institute of Big Data, Program for Guangdong Introducing Innovative and Enterpreneurial Teams
 
 ## Related
 

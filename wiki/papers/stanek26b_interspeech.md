@@ -1,6 +1,6 @@
 ---
 id: stanek26b_interspeech
-category: audio-deepfake
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/stanek26b_interspeech.pdf
 *Vojtěch Staněk, Eva Trnovská, Kamil Malinka, Anton Firc*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/stanek26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/stanek26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-124)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — A comprehensive dataset-level audit of 39 deepfake speech datasets reveals that widespread demographic metadata omission prevents fairness evaluation, and heavy reliance on shared underlying source corpora undermines true cross-dataset generalization claims.
 
@@ -63,6 +65,12 @@ Speech and ML researchers building deepfake detectors or evaluation benchmarks m
 ## Applications
 
 Auditing and designing robust, unbiased deepfake speech detection systems for digital forensics, speaker verification security, and regulatory compliance.
+
+## Institutions / 機構
+
+Brno University of Technology
+
+**Funding / 經費:** Brno University of Technology internal project FIT-S-26-9011, Ministry of Education, Youth and Sports of the Czech Republic
 
 ## Related
 

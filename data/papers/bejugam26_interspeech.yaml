@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bejugam26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/bejugam26_interspeech.pdf
 session: Generative and Self-Supervised Speech Enhancement
 topics: [speech-enhancement, self-supervised, unsupervised]
+category: enhancement-separation
+labels:
+  - "self-supervised"
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "Indian Institute of Technology Hyderabad"
+  - "Eternal Limited"
 code:
     url: https://siplab-iith.github.io/UFLGAN/
     license: ""

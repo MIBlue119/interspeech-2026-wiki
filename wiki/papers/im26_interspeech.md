@@ -1,6 +1,7 @@
 ---
 id: im26_interspeech
-category: speech-llm
+category: audio-understanding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/im26_interspeech.pdf
 *Jaekwon Im, Natalia Polouliakh, Taketo Akama*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/im26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/im26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-248)
+
+**Category:** `audio-understanding` · **Labels:** `generative-model`
 
 **TL;DR** — PF-D2M is a pose-free diffusion model for universal dance-to-music generation that uses video visual features and a progressive multi-stage training recipe, achieving state-of-the-art performance on rhythm alignment and music quality.
 
@@ -66,6 +69,10 @@ Researchers and audio-video engineers should read this paper to see how replacin
 ## Applications
 
 Automated choreography sound-tracking, video content creation tools, and real-time interactive performance systems for digital avatars and human dancers.
+
+## Institutions / 機構
+
+KAIST, Sony Computer Science Laboratories
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: udeogu26_interspeech
-category: speech-enhancement
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/udeogu26_interspeech.pdf
 *Chigozie Uzochukwu Udeogu, Carol Espy-Wilson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/udeogu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/udeogu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2464)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper presents a supervised multi-scale spectral learning framework that generates subglottal accelerometer waveforms directly from speech signals, coupled with an adaptive LPC algorithm to automatically estimate and track subglottal resonances (SGRs) from continuous speech. The proposed pipeline achieves low estimation RMSEs (~30 Hz, ~50 Hz, and ~80 Hz for Sgr1, Sgr2, and Sgr3) and enables speaker height estimation on TIMIT with an RMSE under 7 cm using only 35 training speakers.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automatic speaker normalization, speaker height estimation, low-resource speech recognition, and lung health monitoring.
+
+## Institutions / 機構
+
+University of Maryland
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: camara26c_interspeech
-category: phonetics
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.pdf
 *Mateo Cámara, José Luis Blanco, Juan Ignacio Godino-Llorente, Jeung-Yoon Choi, Stefanie Shattuck-Hufnagel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1386)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper evaluates Conformer-based acoustic landmark detection across 14 configurations and introduces Gaussian soft labels to model human annotation variability, achieving an F1@20 ms of 0.77 using frozen HuBERT features.
 
@@ -66,6 +69,12 @@ Speech and machine learning researchers working on temporal speech event localiz
 ## Applications
 
 Acoustic landmark detection can be integrated into automatic speech recognition pipelines, pronunciation training systems, clinical speech assessment tools, and linguistic timing analyses.
+
+## Institutions / 機構
+
+Universidad Politecnica de Madrid, Massachusetts Institute of Technology
+
+**Funding / 經費:** Ministry of Economy and Competitiveness of Spain, Fundacion Santander, MISTI MIT Global Experiences
 
 ## Related
 

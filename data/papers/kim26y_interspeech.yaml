@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26y_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26y_interspeech.pdf
 session: Multimodal Spoken Dialogue Systems
 topics: [speech-llm, evaluation, multilingual]
+category: audio-understanding
+institutions:
+  - "Chung-Ang University"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "National Research Foundation of Korea"
 code:
     url: ""
     license: ""

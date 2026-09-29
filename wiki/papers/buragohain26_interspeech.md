@@ -1,6 +1,7 @@
 ---
 id: buragohain26_interspeech
-category: speech-synthesis
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/buragohain26_interspeech.pdf
 *Rantu Buragohain, Saket Maheshwari, Karan Nathwani*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/buragohain26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/buragohain26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-377)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper presents a speech synthesis framework that reconstructs log-Mel spectrograms directly from invasive stereotactic EEG (sEEG) high-gamma band recordings using a causal dilated WaveNet decoder, achieving a mean Pearson correlation coefficient (PCC) of 0.9349. By leveraging gated activation units and stacked residual convolutional blocks, the model outperforms prior linear and recurrent architectures in both reconstruction fidelity and computational efficiency.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Direct brain-computer interface (BCI) speech neuroprosthetics for restoring vocal communication in patients with severe motor or neuromuscular impairments such as ALS.
+
+## Institutions / 機構
+
+Indian Institute of Technology Jammu, GLA University
+
+**Funding / 經費:** TIH IIT Guwahati
 
 ## Related
 

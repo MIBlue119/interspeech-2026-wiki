@@ -1,6 +1,7 @@
 ---
 id: schlicher26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/schlicher26_interspeech.pdf
 *Michelle D Schlicher, Andreas Triantafyllopoulos, Nadine N Schmitt, Johanna Löchner, Bjoern Schuller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/schlicher26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/schlicher26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2383)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — This paper investigates how well acoustic and linguistic models can infer daily mood and stress from a new longitudinal speech-based journaling corpus of university students. It finds that linguistic models (such as zero-shot Mistral-7B-Instruct) clearly dominate population-level predictions—reaching a concordance correlation coefficient of 0.466 for valence—while acoustic models perform near zero.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech-based journaling applications for remote mental health monitoring, ecological momentary assessment augmentation, and clinical tracking of daily stress and mood trajectories.
+
+## Institutions / 機構
+
+Technical University of Munich, University Hospital of Tubingen, University of Erlangen-Nuremberg, Imperial College London
 
 ## Related
 

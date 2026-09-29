@@ -1,6 +1,7 @@
 ---
 id: gangwar26_interspeech
-category: speech-llm
+category: speech-coding
+labels: [efficient-on-device, self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gangwar26_interspeech.pdf
 *Arjun Gangwar, S Umesh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gangwar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gangwar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3393)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `self-supervised`, `generative-model`
 
 **TL;DR** — HybridCodec combines a dual-stream neural audio codec with semantic distillation from a frozen SSL model during training, eliminating heavyweight SSL encoders at inference while achieving superior RVQ-1 semantic specialization and a 3x speedup over DualCodec.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multimodal Large Language Models, speech tokenization, text-to-speech, and zero-shot cross-lingual speech generation.
+
+## Institutions / 機構
+
+Indian Institute of Technology, Madras
 
 ## Related
 

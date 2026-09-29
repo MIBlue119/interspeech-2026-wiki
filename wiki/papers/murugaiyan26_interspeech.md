@@ -1,6 +1,7 @@
 ---
 id: murugaiyan26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/murugaiyan26_interspeech.pdf
 *Someshwaran Murugaiyan, Jhansi Mallela, Chiranjeevi Yarra*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/murugaiyan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/murugaiyan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3236)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — WhiSSDapt introduces an adaptive layer fusion framework over a frozen Whisper model to jointly leverage multi-layer acoustic and contextual representations for sentence stress detection, achieving up to 6.09% relative F1 improvement over fixed-layer baselines.
 
@@ -60,6 +63,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving prosodic naturalness, emphasis handling, and spoken language understanding in conversational Human-Computer Interaction (HCI) systems and text-to-speech dialog agents.
+
+## Institutions / 機構
+
+Vellore Institute of Technology, International Institute of Information Technology Hyderabad
 
 ## Related
 

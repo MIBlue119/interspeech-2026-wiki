@@ -1,6 +1,7 @@
 ---
 id: hartmann26_interspeech
-category: speech-enhancement
+category: health-clinical
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hartmann26_interspeech.pdf
 *Theresa Hartmann, Ian C. Bruce, Benjamin Lentz, Rainer Martin, Anil Nagathil*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hartmann26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hartmann26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1872)
+
+**Category:** `health-clinical` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — This paper introduces a hierarchical VQ-VAE-2 network that approximates computationally heavy cochlear implant auditory models while capturing stochastic neural response variability via differentiable Gamma distribution sampling, achieving a speedup of several orders of magnitude over MATLAB-based solvers.
 
@@ -60,6 +63,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time cochlear implant fitting, perception-based speech and music enhancement algorithms for hearing devices, and large-scale auditory simulation studies.
+
+## Institutions / 機構
+
+Ruhr University Bochum, McMaster University
 
 ## Related
 

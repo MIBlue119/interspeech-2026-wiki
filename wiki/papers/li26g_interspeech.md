@@ -1,6 +1,7 @@
 ---
 id: li26g_interspeech
-category: anti-spoofing
+category: deepfake-security
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26g_interspeech.pdf
 *Jin Li, Man-Wai Mak, Johan Rohdin, Oldřich Plchot, Kong Aik Lee, Bo Wen, Yunfeng Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-582)
+
+**Category:** `deepfake-security` · **Labels:** `robustness-noise`
 
 **TL;DR** — Aleatoric Style Uncertainty (ASU) models multi-modal feature styles using an online Gaussian mixture model (GMM) during training, significantly improving domain generalization for speech anti-spoofing and spoofing-aware speaker verification (SASV).
 
@@ -67,6 +70,12 @@ Speech and ML researchers focusing on domain generalization, anti-spoofing, or r
 ## Applications
 
 High-security voice authentication systems, automated speech anti-spoofing detectors, and spoofing-aware speaker verification pipelines deployed in telephony or hostile acoustic environments.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University, Brno University of Technology, Shenzhen Zhuiyi Technology
+
+**Funding / 經費:** Innovation and Technology Fund of the Hong Kong SAR, National Key R&D Program of China, Digital Europe Programme, Ministry of Education, Youth and Sports of the Czech Republic
 
 ## Related
 

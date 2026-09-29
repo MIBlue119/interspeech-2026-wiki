@@ -7,6 +7,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hansen26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/hansen26_interspeech.pdf
 session: 'Keynote1 - John Hansen: Balancing Speech, Language and Hearing Science with Machine Learning Modeling in the Age of AI: “Know your Problem, Data, and Solution”'
 topics: [evaluation]
+category: resources-evaluation
+institutions:
+  - "University of Texas at Dallas"
 code:
     url: ""
     license: ""

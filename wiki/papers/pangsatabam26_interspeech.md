@@ -1,6 +1,7 @@
 ---
 id: pangsatabam26_interspeech
 category: tts
+labels: [low-resource, multilingual, dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pangsatabam26_interspeech.pdf
 *Hoomexsun Pangsatabam, Khumanthem Chanchanbi, Kansham Tungran Maring, Yambem Jina Chanu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pangsatabam26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pangsatabam26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2304)
+
+**Category:** `tts` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — This paper presents the first text-to-speech corpora and baseline models for two endangered, Latin-script Tibeto-Burman languages of Northeast India (Tangkhul and Maring), demonstrating that Style MelGAN substantially outperforms Griffin-Lim vocoders across objective and subjective metrics.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Educational content generation, linguistic preservation of endangered languages, and accessibility tools for tribal communities in Northeast India.
+
+## Institutions / 機構
+
+National Institute of Technology Manipur
 
 ## Related
 

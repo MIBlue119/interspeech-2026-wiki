@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/okocha26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/okocha26_interspeech.pdf
 session: Child Speech and Health
 topics: [speech-llm, paralinguistics, evaluation]
+category: speech-llm-dialogue
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Florida"
 code:
     url: ""
     license: ""

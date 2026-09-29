@@ -1,6 +1,7 @@
 ---
 id: mi26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mi26_interspeech.pdf
 *Jinyi Mi, Ding Ma, Tomoki Toda*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1170)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — This paper introduces a zero-shot cross-lingual speech emotion recognition (SER) framework combining language-weighted supervised contrastive learning and speaker-adversarial debiasing, achieving an average UAR of 82.26% across nine language transfer pairs without requiring target language emotion labels.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual affective computing, multilingual voice assistants, sentiment analysis in customer service, and digital health monitoring across diverse language populations.
+
+## Institutions / 機構
+
+Nagoya University
+
+**Funding / 經費:** JST CREST, JSPS KAKENHI, JST SPRING
 
 ## Related
 

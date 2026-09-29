@@ -1,6 +1,6 @@
 ---
 id: ren26_interspeech
-category: speech-enhancement
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ren26_interspeech.pdf
 *Wenze Ren, Yi-Cheng Lin, Wen-Chin Huang, Erica Cooper, Ryandhimas Zezario, Hsin-Min Wang, Hung-yi Lee, Yu Tsao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ren26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ren26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-67)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper presents the first systematic analysis of gender bias in Mean Opinion Score (MOS) evaluations, revealing that male listeners consistently assign higher scores than female listeners, especially on low-quality speech. To combat the inherited male-leaning bias in automated models, the authors propose a gender-aware architecture using abstract binary group embeddings that improves both overall and group-specific prediction accuracy.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech quality assessment for Text-to-Speech, Voice Conversion, and Speech Enhancement systems, focusing on fair and equitable evaluation metrics.
+
+## Institutions / 機構
+
+National Taiwan University, Nagoya University, National Institute of Information and Communications Technology, Academia Sinica
 
 ## Related
 

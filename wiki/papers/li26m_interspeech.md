@@ -1,6 +1,7 @@
 ---
 id: li26m_interspeech
-category: target-speaker-extraction
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26m_interspeech.pdf
 *Haoyang Li, Xuyi Zhuang, Azmat Adnan, Ye Ni, Wei Rao, Shreyas Gopal, Eng Siong Chng, Boon Siew Han, Yuanjin Zheng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-893)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — GenTSE is a two-stage decoder-only generative language model for target speaker extraction that separates coarse semantic prediction from fine acoustic generation. On Libri2Mix clean, it outperforms prior LM-based methods across speech quality, speaker consistency, and intelligibility.
 
@@ -65,6 +68,12 @@ Speech and ML researchers working on generative speech extraction will appreciat
 ## Applications
 
 Real-time communication tools, hearing enhancement devices, robust speaker diarization front-ends, and multi-speaker transcription systems.
+
+## Institutions / 機構
+
+Nanyang Technological University, Southeast University, Schaeffler
+
+**Funding / 經費:** RIE2025 Industry Alignment Fund - Industry Collaboration Projects, A*STAR, Schaeffler (Singapore) PTE. LTD, NTU Singapore, Schaeffler-NTU Corporate Lab: Intelligent Mechatronics Hub
 
 ## Related
 

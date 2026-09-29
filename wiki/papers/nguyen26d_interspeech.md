@@ -1,6 +1,7 @@
 ---
 id: nguyen26d_interspeech
 category: tts
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nguyen26d_interspeech.pdf
 *Son Nguyen, Thanh Tran, Nghia Huynh, Son Hy, Van Nguyen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nguyen26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nguyen26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1043)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — DiFlow-TTS is a compact zero-shot text-to-speech framework built on discrete flow matching that simultaneously generates prosody and acoustic token streams, achieving state-of-the-art naturalness while running up to 34× faster than baselines.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-latency zero-shot text-to-speech systems, on-device voice cloning assistants, and resource-constrained conversational agents.
+
+## Institutions / 機構
+
+FPT Software, University of Alabama at Birmingham
 
 ## Related
 

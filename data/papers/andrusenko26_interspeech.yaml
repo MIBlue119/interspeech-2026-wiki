@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/andrusenko26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/andrusenko26_interspeech.pdf
 session: New Training Methods for ASR
 topics: [asr, self-supervised, streaming-inference]
+category: asr
+labels:
+  - "streaming-real-time"
+institutions:
+  - "NVIDIA"
 code:
     url: https://huggingface.co/nvidia/parakeet-unified-en-0.6b
     license: ""

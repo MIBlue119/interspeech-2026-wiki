@@ -1,6 +1,7 @@
 ---
 id: bralios26_interspeech
 category: speech-coding
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bralios26_interspeech.pdf
 *Dimitrios Bralios, Paris Smaragdis, Minje Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bralios26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bralios26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3031)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — Elastic Time is a plug-in Re-Bottleneck module for neural audio autoencoders that enables deployment-time dynamic frame-rate control using a lightweight learned latent predictor. It achieves superior efficiency-quality tradeoffs compared to fixed-rate and prior dynamic chunking baselines without needing external semantic supervision.
 
@@ -65,6 +68,12 @@ Speech and ML engineers working on long-context audio generation or latent diffu
 ## Applications
 
 Efficient audio compression, long-context audio generation, and reducing sequence lengths for latent diffusion and autoregressive speech LLMs.
+
+## Institutions / 機構
+
+University of Illinois Urbana-Champaign, Massachusetts Institute of Technology
+
+**Funding / 經費:** Electronics and Telecommunications Research Institute
 
 ## Related
 

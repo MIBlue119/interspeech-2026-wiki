@@ -1,6 +1,7 @@
 ---
 id: beck26_interspeech
-category: asr
+category: resources-evaluation
+labels: [dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/beck26_interspeech.pdf
 *Eugen Beck, Sarah Beranek, Uma Moothiringote, Daniel Mann, Wilfried Michel, Katie Nguyen, Taylor Tragemann*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/beck26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/beck26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2047)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — The AppTek Call-Center Dialogues corpus is a 129-hour multi-accent, long-form conversational English ASR benchmark designed to prevent training-data contamination. Benchmarking 12 open-source ASR models reveals severe performance drops across diverse accents and strong sensitivity to segmentation strategies.
 
@@ -67,6 +70,10 @@ Speech researchers and conversational AI engineers should read this paper to und
 ## Applications
 
 Automated call-center speech recognition, voice-driven customer service automation, and robust multi-accent conversational AI systems.
+
+## Institutions / 機構
+
+AppTek
 
 ## Related
 

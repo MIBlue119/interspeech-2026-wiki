@@ -1,6 +1,7 @@
 ---
 id: huang26o_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26o_interspeech.pdf
 *Weilong Huang, Emanuël A. P. Habets*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26o_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26o_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2234)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`
 
 **TL;DR** — Neural Directional Coding (NDC) jointly compresses microphone array spatial cues and estimates a configurable spatial filter, achieving superior speech quality at 0.25 kbps with 1.4M parameters compared to a 7.5 kbps baseline with 90.8M parameters.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Ultra-low-bitrate spatial audio teleconferencing, hearing aids, augmented reality spatial communication, and smart-speaker directional beamforming.
+
+## Institutions / 機構
+
+International Audio Laboratories Erlangen, Fraunhofer IIS, Friedrich-Alexander-Universitat Erlangen-Nurnberg
+
+**Funding / 經費:** German Research Foundation
 
 ## Related
 

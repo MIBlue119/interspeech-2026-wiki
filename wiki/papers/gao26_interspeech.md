@@ -1,6 +1,7 @@
 ---
 id: gao26_interspeech
-category: speaker-verification
+category: speaker
+labels: [efficient-on-device, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gao26_interspeech.pdf
 *Dai Gao, Chen Jiang, Sizhe Liu, Peng Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-64)
+
+**Category:** `speaker` · **Labels:** `efficient-on-device`, `robustness-noise`
 
 **TL;DR** — NoiseLoRA-SV is a dynamic, parameter-efficient adaptation framework for noise-robust speaker verification that uses a CRN-based hypernetwork and local gating to modulate backbone weights on-the-fly, achieving an average EER of 3.05% on seen noisy conditions.
 
@@ -68,6 +71,10 @@ Researchers and engineers working on noise-robust speaker verification and param
 ## Applications
 
 Robust biometric speaker authentication, secure voice-controlled edge devices, and forensic speaker recognition in adverse acoustic environments.
+
+## Institutions / 機構
+
+Soochow University, Beijing Jiaotong University, Renmin University of China, Qilu University of Technology, Shandong Academy of Sciences
 
 ## Related
 

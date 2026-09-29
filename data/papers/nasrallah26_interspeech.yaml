@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nasrallah26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/nasrallah26_interspeech.pdf
 session: Emotional Speech Synthesis
 topics: [speech-anonymization, self-supervised, paralinguistics]
+category: deepfake-security
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+  - "generative-model"
+institutions:
+  - "Texas A&M University"
+funding:
+  - "Intelligence Advanced Research Projects Activity"
+  - "Department of Interior/Interior Business Center"
 code:
     url: ""
     license: ""

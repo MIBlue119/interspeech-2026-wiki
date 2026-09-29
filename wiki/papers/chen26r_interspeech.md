@@ -1,6 +1,6 @@
 ---
 id: chen26r_interspeech
-category: speech-llm
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.pdf
 *Youjun Chen, Xurong Xie, Mengzhe Geng, Zengrui Jin, Jiajun Deng, Guinan Li, Shujie Hu, Huimeng Wang, Haoning Xu, Chengxi Deng, Bowen Zhang, Xunying Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1683)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper introduces a confidence-score-based data selection method and a reinforcement-learning-driven on-the-fly SED (speech emotion descriptor) controller to improve explainable speech emotion recognition (SER), achieving absolute accuracy gains of 2.9% on IEMOCAP and 3.3% on MELD over full-data baselines.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Explainable conversational agents, empathetic virtual assistants, and psychiatric or customer-service analytics platforms requiring interpretable emotional intelligence.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Institute of Software, Chinese Academy of Sciences, National Research Council Canada, Tsinghua University
+
+**Funding / 經費:** Hong Kong RGC GRF, National Natural Science Foundation of China, Beijing Natural Science Foundation-Xiaomi Innovation Joint Fund, Youth Innovation Promotion Association CAS
 
 ## Related
 

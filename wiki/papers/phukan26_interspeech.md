@@ -1,6 +1,7 @@
 ---
 id: phukan26_interspeech
-category: speech-deepfake
+category: deepfake-security
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/phukan26_interspeech.pdf
 *Orchid Chetia Phukan, Girish, Mohd Mujtaba Akhtar, Chi-Chun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/phukan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/phukan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2283)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces the Elderly CodecFake Detection (ECFD) task and dataset to address the severe generalization failure of current speech deepfake detectors on older adult voices, proposing a novel Jensen-Shannon Divergence foundation model fusion framework called BONSAI that achieves a state-of-the-art 1.66% EER.
 
@@ -67,6 +70,12 @@ Researchers and engineers building robust speech deepfake detectors should read 
 ## Applications
 
 Elderly-inclusive speech deepfake detection, scam and impersonation fraud prevention for vulnerable populations, and multimodal audio security systems.
+
+## Institutions / 機構
+
+National Tsing Hua University, University of Petroleum and Energy Studies, Veer Bahadur Singh Purvanchal University
+
+**Funding / 經費:** National Science and Technology Council
 
 ## Related
 

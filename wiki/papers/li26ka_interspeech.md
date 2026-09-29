@@ -1,6 +1,7 @@
 ---
 id: li26ka_interspeech
 category: asr
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26ka_interspeech.pdf
 *Zhihan Li, Hankun Wang, Yiwei Guo, Bohan Li, Xie Chen, Kai Yu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26ka_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26ka_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3434)
+
+**Category:** `asr` · **Labels:** `generative-model`
 
 **TL;DR** — READ (Reference-free Hypothesis Evaluation with Acoustic Discrepancy) evaluates ASR hypotheses directly from speech audio using an off-the-shelf autoregressive TTS model, achieving up to 21.46% relative error reduction via n-best rescoring and segment-level combination.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Unsupervised ASR hypothesis selection, n-best list rescoring, robust multi-system combination under noisy conditions, and error localization.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University
+
+**Funding / 經費:** China NSFC Project
 
 ## Related
 

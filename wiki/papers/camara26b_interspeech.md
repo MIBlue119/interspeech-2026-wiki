@@ -1,6 +1,7 @@
 ---
 id: camara26b_interspeech
-category: prosody
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/camara26b_interspeech.pdf
 *Mateo Cámara, José Luis Blanco, Juan Ignacio Godino-Llorente, Jeung-Yoon Choi, Stefanie Shattuck-Hufnagel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/camara26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/camara26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1379)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — A multi-corpus empirical study demonstrating that turn-final words are significantly lengthened compared to mid-sentence words across English and Spanish, providing a robust prosodic cue for conversational turn projection.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computational turn-taking models, spoken dialogue systems, conversational agents, and expressive text-to-speech synthesis.
+
+## Institutions / 機構
+
+Universidad Politecnica de Madrid, Massachusetts Institute of Technology
+
+**Funding / 經費:** Ministry of Economy and Competitiveness of Spain, Fundacion Santander, MISTI MIT Global Experiences program
 
 ## Related
 

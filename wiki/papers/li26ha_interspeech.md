@@ -1,6 +1,6 @@
 ---
 id: li26ha_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26ha_interspeech.pdf
 *Shubo Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26ha_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26ha_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2832)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study provides the first quantitative acoustic evidence confirming a phonemic voicing contrast between coronal plosives in the Tongoa variety of Nakanamanga, demonstrating that /t”/ is a short-lag voiceless dental plosive and /ⁿ d/ is a fully voiced prenasalised postalveolar stop.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Field linguistics, historical language reconstruction, acoustic phonetic analysis, and multi-dialect documentation of endangered Oceanic languages.
+
+## Institutions / 機構
+
+Australian National University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: sepanta26_interspeech
-category: speech-llm
+category: paralinguistics-emotion
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sepanta26_interspeech.pdf
 *Sia Vosh Sepanta, Roberto Zamparelli, Alessio Brutti*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sepanta26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sepanta26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2459)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces the Actor's Challenge (AC), a game-based crowdsourced prosodic speech corpus with built-in human validation, and uses it to evaluate automatic speech emotion recognition (ASER) and privacy leakage of demographic traits in speech-LLM pipelines. Results show that AC yields robust, contextually realistic emotion recognition models while revealing that age and emotion attributes persist in intermediate representations.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automatic speech emotion recognition, trustworthy speech-LLM development, privacy-preserving speech representation learning, and crowdsourced affective dataset generation.
+
+## Institutions / 機構
+
+Fondazione Bruno Kessler, University of Trento
+
+**Funding / 經費:** European Union
 
 ## Related
 

@@ -14,6 +14,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sun26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sun26e_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
 topics: [paralinguistics, emotion-recognition, self-supervised]
+category: health-clinical
+institutions:
+  - "Nanjing University of Posts and Telecommunications"
+  - "Wuxi University"
+  - "Graz University of Technology"
+  - "University of Bremen"
+  - "Technische Universitat Munchen"
+  - "Imperial College London"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Primary Research & Development Plan of Jiangsu Province"
+  - "Humanities and Social Science Foundation of China Ministry of Education"
+  - "China Postdoctoral Science Foundation"
+  - "DFG"
 code:
     url: https://github.com/zhou123122/SLLC
     license: ""

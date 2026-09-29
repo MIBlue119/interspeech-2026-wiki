@@ -1,6 +1,7 @@
 ---
 id: baranski26_interspeech
-category: asr
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/baranski26_interspeech.pdf
 *Mateusz Barański, Jan Jasiński, Julitta Bartolewska, Marcin Witkowski, Konrad Kowalczyk*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/baranski26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/baranski26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-337)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — HALAS is the first human-annotated dataset of naturally occurring ASR hallucinations across seven state-of-the-art models on real earnings call recordings, establishing a rigorous benchmark where current detection methods achieve a maximum F1 score of 56.1%.
 
@@ -66,6 +69,12 @@ Speech researchers and ML engineers should read this paper to understand the tru
 ## Applications
 
 ASR system auditing, reliable real-time speech transcription safety layers, and robust error-detection pipelines for financial or medical dictation.
+
+## Institutions / 機構
+
+AGH University of Krakow
+
+**Funding / 經費:** National Science Centre, Poland, National Centre for Research and Development, Poland, Excellence initiative – research university
 
 ## Related
 

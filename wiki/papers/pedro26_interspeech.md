@@ -1,6 +1,7 @@
 ---
 id: pedro26_interspeech
-category: self-supervised
+category: phonetics-linguistics
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pedro26_interspeech.pdf
 *Ailín Pollio San Pedro, Tomi H. Kinnunen, Alexandre Nikolaev, Ruchi Pandey*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pedro26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pedro26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1324)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates how self-supervised speech models encode physical articulatory movements across languages, using electromagnetic articulography (EMA) data from bilingual Finnish-Russian speakers. It demonstrates that intermediate network layers predict articulatory trajectories with strong correlations (Pearson r up to 0.78) using only 5 minutes of data, with multilingual and fine-tuned models outperforming monolingual counterparts.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-resource articulatory modeling, acoustic-to-articulatory inversion, clinical speech analysis, and computer-assisted pronunciation training for L2 learners.
+
+## Institutions / 機構
+
+University Grenoble Alpes, CNRS, Grenoble INP, University of Eastern Finland
+
+**Funding / 經費:** THERADIA
 
 ## Related
 

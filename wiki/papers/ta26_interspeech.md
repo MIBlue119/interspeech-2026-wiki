@@ -1,6 +1,6 @@
 ---
 id: ta26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ta26_interspeech.pdf
 *Van Dat Ta, Baoya Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ta26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ta26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1167)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates the perception of vowel length contrasts in Northern Vietnamese (Hoang Van variety) across older and younger generations, revealing that duration serves as the primary cue while F1/F2 act as secondary cues. The findings suggest an ongoing sound change where younger listeners exhibit higher sensitivity to duration than older listeners.
 
@@ -61,6 +63,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving multi-cue speech recognition and synthesis systems by modeling human perceptual weighting and cognitive processing penalties of acoustic cue mismatches.
+
+## Institutions / 機構
+
+Peking University
+
+**Funding / 經費:** National Social Science Fund of China
 
 ## Related
 

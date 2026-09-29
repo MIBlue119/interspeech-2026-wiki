@@ -1,6 +1,7 @@
 ---
 id: sharma26_interspeech
-category: asr
+category: speaker
+labels: [low-resource, multilingual, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sharma26_interspeech.pdf
 *Shubham Sharma, Padmanabhan Rajan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sharma26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sharma26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2502)
+
+**Category:** `speaker` · **Labels:** `low-resource`, `multilingual`, `robustness-noise`
 
 **TL;DR** — Semi-positive Contrastive Learning (SpCL) introduces a bi-modal audio-text framework with a controlled target weighting loss to tackle domain shifts in low-resource spoken language identification, achieving 91.42% accuracy on unseen YouTube data.
 
@@ -67,6 +70,12 @@ Researchers building robust, low-resource spoken language identification systems
 ## Applications
 
 Multilingual automatic speech recognition pipelines, spoken language translation systems, and voice-activated assistant language routing.
+
+## Institutions / 機構
+
+Indian Institute of Technology Mandi
+
+**Funding / 經費:** Ministry of Electronics and Information Technology
 
 ## Related
 

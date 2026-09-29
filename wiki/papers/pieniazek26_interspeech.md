@@ -1,6 +1,7 @@
 ---
 id: pieniazek26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pieniazek26_interspeech.pdf
 *Wojciech Pieniążek, Oliwia Skórzewska, Maria Filipek, Zuzanna Miodońska*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pieniazek26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pieniazek26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2624)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`
 
 **TL;DR** — This paper proposes a convolutional autoencoder framework combined with support vector machines to detect incorrect place of articulation in children's Polish sibilant productions, achieving up to 84.32% sensitivity.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech-language pathology screening tools, computer-aided pronunciation training (CAPT) systems for children, and clinical diagnostic assistants.
+
+## Institutions / 機構
+
+Silesian University of Technology
+
+**Funding / 經費:** National Science Centre, Poland, European Union, Ministry of Science and Higher Education, Poland, National Centre for Research and Development
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: yamauchi26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yamauchi26_interspeech.pdf
 *Shogo Yamauchi, Hideaki Tamori, Makoto Sakai, Yosuke Yamano, Tohru Nitta*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yamauchi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yamauchi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-889)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `generative-model`, `robustness-noise`
 
 **TL;DR** — QC-GAN introduces a parameter-efficient speech enhancement framework combining a Quaternion Conformer generator with a metric-learning discriminator, achieving a PESQ of 3.48 with 0.89M parameters on VoiceBank+DEMAND.
 
@@ -65,6 +68,10 @@ Researchers and engineers designing lightweight or on-device speech enhancement 
 ## Applications
 
 On-device speech enhancement for hearing aids, mobile phones, and edge communications where memory and compute budgets are severely restricted.
+
+## Institutions / 機構
+
+Asahi Shimbun Company, Tokyo Woman's Christian University
 
 ## Related
 

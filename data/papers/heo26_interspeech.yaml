@@ -12,6 +12,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/heo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/heo26_interspeech.pdf
 session: Speaker Diarization 1
 topics: [speaker-verification, speaker-diarization, speech-enhancement]
+category: speaker
+institutions:
+  - "NAVER Cloud Corporation"
 code:
     url: ""
     license: ""

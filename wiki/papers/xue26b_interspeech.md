@@ -1,6 +1,7 @@
 ---
 id: xue26b_interspeech
-category: speech-llm
+category: paralinguistics-emotion
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xue26b_interspeech.pdf
 *Xiangyuan Xue, Jiajun Lu, Yan Gao, Gongping Huang, Ting Dang, Hong Jia*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xue26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xue26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-901)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — The paper introduces Uncertainty-Guided Speculative Decoding (UGSD), an edge-cloud collaborative framework for speech emotion captioning that uses token-level entropy to selectively offload uncertain token blocks to a cloud verifier. This approach achieves a 62.7% BLEU improvement, 1.4x lower latency, and 8.5x higher token throughput compared to an edge-only model while keeping raw waveforms strictly local.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time empathetic AI assistants, on-device affective computing tools, and privacy-preserving accessibility applications requiring fine-grained speech emotion descriptions.
+
+## Institutions / 機構
+
+University of Auckland, University of Melbourne, University of Cambridge, Wuhan University
 
 ## Related
 

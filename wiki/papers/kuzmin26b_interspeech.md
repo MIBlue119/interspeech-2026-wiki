@@ -1,6 +1,7 @@
 ---
 id: kuzmin26b_interspeech
-category: speech-llm
+category: deepfake-security
+labels: [streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kuzmin26b_interspeech.pdf
 *Nikita Kuzmin, Tao Zhong, Jiajun Deng, Yingke Zhu, Tristan Tsoi, Tianxiang Cao, Simon Lui, Kong Aik Lee, Eng Siong Chng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kuzmin26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kuzmin26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3181)
+
+**Category:** `deepfake-security` · **Labels:** `streaming-real-time`, `generative-model`
 
 **TL;DR** — End-to-end full-duplex speech dialogue models leak speaker identity through their always-on LLM hidden states, but applying the Stream-Voice-Anon front-end raises the speaker verification Equal Error Rate (EER) up to 41.0%, near the random-chance ceiling.
 
@@ -69,6 +72,10 @@ Speech and ML engineers building always-on, full-duplex conversational agents sh
 ## Applications
 
 Privacy-preserving real-time conversational agents, voice assistants, and full-duplex spoken dialogue systems requiring GDPR compliance.
+
+## Institutions / 機構
+
+Nanyang Technological University, A*STAR, Huawei, Leibniz Research Center, Chinese University of Hong Kong, Hong Kong Polytechnic University
 
 ## Related
 

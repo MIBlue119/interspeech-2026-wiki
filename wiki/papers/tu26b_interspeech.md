@@ -1,6 +1,6 @@
 ---
 id: tu26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tu26b_interspeech.pdf
 *Wenming Tu, Jian Gao, Yanru Huo, Yixuan Wang, Jing Peng, Bohan Li, Ziyang Ma, Tao Liu, Shuai Fan, Kai Yu, Xie Chen, Zilong Zheng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2381)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — VISA is a multi-modal agent framework that enhances large audio language models with auxiliary acoustic descriptors, sound event detection, and spectrogram-based visual clues, achieving a top accuracy of 77.40% on the MMAR benchmark.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Complex multimedia content analysis, automated audio-visual surveillance, educational audio QA systems, and advanced conversational agents requiring multi-step logical reasoning over mixed acoustic scenes.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, Shanghai Innovation Institute, AISpeech, Beijing Institute of General Artificial Intelligence
+
+**Funding / 經費:** Science and Technology Innovation 2030-Major Project, National Natural Science Foundation of China, Shanghai Municipal Science and Technology Major Project, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

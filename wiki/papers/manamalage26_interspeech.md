@@ -1,6 +1,6 @@
 ---
 id: manamalage26_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/manamalage26_interspeech.pdf
 *Dushanthi Madhushika Manamalage, Frederick Sundram, Partha S. Roop, Seyed Reza Shahamiri*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/manamalage26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/manamalage26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-586)
+
+**Category:** `health-clinical`
 
 **TL;DR** — FedMPA is a Federated Multimodal Prototype Alignment framework for decentralized speech-based depression detection that jointly optimizes classification utility and privacy. It achieves a Privacy-Performance Score (PPS) of 0.92 and a UAR of 0.89 on the E-DAIC dataset.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Decentralized mental health screening, privacy-preserving speech-based biomarker analysis, and secure federated multimodal diagnostics.
+
+## Institutions / 機構
+
+DeepNet Discovery Network, University of Auckland
 
 ## Related
 

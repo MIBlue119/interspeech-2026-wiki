@@ -1,6 +1,7 @@
 ---
 id: lan26_interspeech
-category: speaker-diarization
+category: paralinguistics-emotion
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lan26_interspeech.pdf
 *Zekun Lan, Wangyou Zhang, Yanmin Qian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2486)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — SA-UAED introduces a speaker-attributed unified audio event detection framework that jointly models sound events, speaker activities, and paralinguistic events like laughter and coughing using task-specific representation subspaces. Trained on a new 500-hour simulated dataset (LibriPara), it significantly improves frame-level paralinguistic detection (SB-F1 for laughter rising from 0.371 to 0.476) without hurting diarization accuracy.
 
@@ -64,6 +67,12 @@ Speech and ML researchers working on multi-talker audio understanding or convers
 ## Applications
 
 Intelligent multi-party meeting transcription, emotion-aware spoken dialogue systems, and remote clinical health monitoring environments.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, VUI Labs
+
+**Funding / 經費:** China NSFC, SJTU Med-X (Medicine & Engineering) Translational Research Grant
 
 ## Related
 

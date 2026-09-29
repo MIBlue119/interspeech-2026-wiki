@@ -1,6 +1,7 @@
 ---
 id: chen26o_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26o_interspeech.pdf
 *Jing-Han Chen, Ya-Tse Wu, Bo-Hao Su, Xin-Yu Chen, Krishna Somandepalli, Chi-Chun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26o_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26o_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1271)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`
 
 **TL;DR** — The paper introduces Contrastive Empathetic Chain-of-Thought (CE-CoT), a training strategy for speech LLMs that decomposes responses into emotion recognition, neutral baselines, and emotion-aligned revisions to improve emotional consensus. Across four datasets, CE-CoT boosts emotion consensus (EC) by up to 35.2% over vanilla baselines and pretrained models.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Empathetic virtual assistants, mental health support chat systems, and AI-driven educational or social companion tools requiring emotionally aligned speech responses.
+
+## Institutions / 機構
+
+National Tsing Hua University, Google DeepMind
 
 ## Related
 

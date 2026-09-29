@@ -1,6 +1,6 @@
 ---
 id: xia26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xia26_interspeech.pdf
 *Shifeng Xia, Shanpeng Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xia26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xia26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1544)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — An eye-tracking perception study investigating how native Mandarin speakers use facial cues (eyes vs. mouth) to decode ironic blame versus ironic praise across different sensory modalities, revealing asymmetric processing strategies and cue weighting.
 
@@ -62,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multimodal conversational agents, social robotics, automated affective computing systems, and intelligent tutoring systems requiring pragmatic intent and sarcasm detection.
+
+## Institutions / 機構
+
+Nanjing University of Science and Technology
+
+**Funding / 經費:** Ministry of Education Humanities and Social Sciences Research Youth Fund Project, Jiangsu Social Science Fund Youth Project
 
 ## Related
 

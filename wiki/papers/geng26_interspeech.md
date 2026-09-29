@@ -1,6 +1,6 @@
 ---
 id: geng26_interspeech
-category: speech-recognition
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/geng26_interspeech.pdf
 *Haopeng Geng, Longfei Yang, Xi Chen, Haitong Sun, Daisuke Saito, Nobuaki Minematsu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/geng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/geng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-711)
+
+**Category:** `asr`
 
 **TL;DR** — The paper introduces CROTTC-IF, a prompt-free framework for Mispronunciation Detection and Diagnosis (MDD) that decouples acoustic modeling from explicit canonical prompts, achieving a 71.77% F1-score on L2-ARCTIC.
 
@@ -64,6 +66,10 @@ Speech and ML researchers working on CAPT or fine-grained sequence diagnosis sho
 ## Applications
 
 Computer-Aided Pronunciation Training (CAPT) systems for L2 language learners and religious recitation evaluation platforms (e.g., Qur'anic Tajweed assessment).
+
+## Institutions / 機構
+
+University of Tokyo
 
 ## Related
 

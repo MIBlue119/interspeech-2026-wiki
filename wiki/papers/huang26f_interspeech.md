@@ -1,6 +1,7 @@
 ---
 id: huang26f_interspeech
-category: tts
+category: resources-evaluation
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26f_interspeech.pdf
 *Wen-Chin Huang, Nicholas Sanders, Erica Cooper*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1273)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — The paper introduces CodecMOS-Accent, a large-scale MOS benchmark evaluating 24 neural audio codec resynthesis and LLM-based TTS systems across 10 English accents via 19,600 annotations. It reveals high correlation between speaker and accent similarity, significant same-accent perceptual bias, and the surprising system-level predictive power of older objective metrics like UTMOS on modern models.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Zero-shot voice cloning, accented text-to-speech synthesis, speech quality assessment (SQA) model development, and neural codec design.
+
+## Institutions / 機構
+
+Nagoya University, University of Edinburgh, National Institute of Information and Communications Technology
+
+**Funding / 經費:** JSPS KAKENHI
 
 ## Related
 

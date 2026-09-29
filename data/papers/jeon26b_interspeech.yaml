@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jeon26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jeon26b_interspeech.pdf
 session: Multi-Channel Processing and Specialized Acquisition (UAV, Radar, Hearables)
 topics: [speech-enhancement, spatial-filtering, adaptive-beamforming]
+category: enhancement-separation
+labels:
+  - "robustness-noise"
+institutions:
+  - "Sungkyunkwan University"
+  - "University of Illinois Urbana-Champaign"
+funding:
+  - "National Research Foundation"
+  - "IITP"
+  - "KIAT"
 code:
     url: ""
     license: ""

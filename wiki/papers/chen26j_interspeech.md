@@ -1,6 +1,7 @@
 ---
 id: chen26j_interspeech
 category: tts
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26j_interspeech.pdf
 *Yukun Chen, Zhaoxi Mu, Andong Li, Peilin Li, Xingyu Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1086)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — Spiking Vocos adapts the non-autoregressive frequency-domain Vocos architecture into a Spiking Neural Network (SNN) using Parametric Leaky Integrate-and-Fire (PLIF) neurons, a Temporal Shift Module, and self-architectural distillation. It matches the perceptual quality of its ANN counterpart (UTMOS 3.74 vs 3.82) while consuming only 14.7% of its energy.
 
@@ -65,6 +68,10 @@ Speech and ML engineers looking to deploy high-fidelity generative audio models 
 ## Applications
 
 On-device speech synthesis, low-resource audio generation, and energy-efficient real-time voice conversion or speech enhancement.
+
+## Institutions / 機構
+
+Xi'an Jiaotong University, Chinese Academy of Sciences
 
 ## Related
 

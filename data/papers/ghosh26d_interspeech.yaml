@@ -12,6 +12,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ghosh26d_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/ghosh26d_interspeech.pdf
 session: Speaker Diarization 2
 topics: [asr, speaker-diarization, self-supervised]
+category: speaker
+institutions:
+  - "Solventum Health Information Systems"
 code:
     url: ""
     license: ""

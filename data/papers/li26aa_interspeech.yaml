@@ -14,6 +14,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26aa_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26aa_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
 topics: [asr, speech-translation, self-supervised]
+category: asr
+labels:
+  - "robustness-noise"
+institutions:
+  - "Inner Mongolia University"
+  - "National Computer Network Emergency Response Technical Team Coordination Center"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Science and Technology Major Project of Inner Mongolia"
+  - "Natural Science Foundation of Inner Mongolia"
+  - "Science and Technology Program of Inner Mongolia"
+  - "Inner Mongolia Autonomous Region First-Class Discipline Research Special Project"
 code:
     url: https://anonymous.4open.science/status/Speech-Model-Adaptation-8D45
     license: ""

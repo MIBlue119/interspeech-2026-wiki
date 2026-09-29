@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/annamdevula26_interspeec
 pdf_url: https://www.isca-archive.org/interspeech_2026/annamdevula26_interspeech.pdf
 session: Controllable and Expressive Speech Synthesis
 topics: [tts, speech-llm, multilingual]
+category: tts
+labels:
+  - "multilingual"
+  - "generative-model"
+institutions:
+  - "Sony"
 code:
     url: https://research.sri-media-analysis.com/interspeech26-cross-accent-tts/
     license: ""

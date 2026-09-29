@@ -1,6 +1,7 @@
 ---
 id: hilmes26_interspeech
 category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hilmes26_interspeech.pdf
 *Benedikt Hilmes, Nick Rossenbach, Ralf Schlüter*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hilmes26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hilmes26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-683)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — This paper investigates why relative positional encodings (PEs) degrade automatic speech recognition performance when executed on simulated memristor-based analog hardware, and proposes ADC bit-allocation and architectural modifications that recover ~50% of the relative execution degradation.
 
@@ -67,6 +70,12 @@ Hardware and speech engineers working on neuromorphic or memristor-based acceler
 ## Applications
 
 On-device energy-efficient automatic speech recognition using emerging memristor hardware accelerators.
+
+## Institutions / 機構
+
+RWTH Aachen University, AppTek
+
+**Funding / 經費:** NeuroSys, Federal Ministry of Research, Technology and Space BMFTR, RESCALE, Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection, Federal Ministry of Education and Research
 
 ## Related
 

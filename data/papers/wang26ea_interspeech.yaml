@@ -10,6 +10,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26ea_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26ea_interspeech.pdf
 session: Long-Form Speech Synthesis
 topics: [tts, evaluation, phonetics]
+category: tts
+institutions:
+  - "University of Tuebingen"
+  - "Tongji University"
 code:
     url: ""
     license: ""

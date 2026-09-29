@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.pdf
 session: Neural Audio Codec Architectures
 topics: [speech-coding, self-supervised, voice-conversion]
+category: speech-coding
+labels:
+  - "generative-model"
+institutions:
+  - "Zhejiang University"
+  - "StepFun"
 code:
     url: ""
     license: ""

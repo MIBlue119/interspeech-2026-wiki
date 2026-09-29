@@ -11,6 +11,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shang26_interspeech.pdf
 session: Generative and Self-Supervised Speech Enhancement
 topics: [speech-enhancement, voice-conversion, self-supervised]
+category: enhancement-separation
+labels:
+  - "self-supervised"
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "Institute of Acoustics"
+  - "University of Chinese Academy of Sciences"
+funding:
+  - "National Natural Science Foundation of China"
+  - "CPSF Postdoctoral Fellowship"
 code:
     url: https://github.com/shangqwe123/Seed-Enh
     license: ""

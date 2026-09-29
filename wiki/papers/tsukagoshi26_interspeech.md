@@ -1,6 +1,6 @@
 ---
 id: tsukagoshi26_interspeech
-category: spoken-language-understanding
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tsukagoshi26_interspeech.pdf
 *Toshihiro Tsukagoshi, Natsuo Yamashita, Kota Dohi, Hiroaki Kokubo, Masaaki Yamamoto*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tsukagoshi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tsukagoshi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1540)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — Reasoning-Guided Fine-Tuning (RG-FT) distills structured reasoning trajectories from DeepSeek-R1 into SpeechLLMs as a multitask auxiliary regularizer, improving intent accuracy by up to +2.4% and SLU-F1 by up to +2.8 points on SLURP and Speech-MASSIVE without any inference-time overhead.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Commercial voice assistants, contact center customer-service automation, and spoken dialogue systems requiring precise intent classification and slot filling.
+
+## Institutions / 機構
+
+Shizuoka University, Hitachi
 
 ## Related
 

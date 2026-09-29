@@ -1,6 +1,7 @@
 ---
 id: ulgen26b_interspeech
-category: voice-conversion
+category: deepfake-security
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ulgen26b_interspeech.pdf
 *Ismail Rasim Ulgen, Zexin Cai, Nicholas Andrews, Philipp Koehn, Berrak Sisman*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ulgen26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ulgen26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1331)
+
+**Category:** `deepfake-security` · **Labels:** `generative-model`
 
 **TL;DR** — DiffAnon is a diffusion-based voice anonymization framework that uses classifier-free guidance to enable explicit, continuous, inference-time control over prosody preservation. By adjusting prosody conditioning weights within a single model, it navigates the utility-privacy trade-off, achieving competitive EER privacy while preserving word error and emotion recognition utility.
 
@@ -66,6 +69,12 @@ Speech and machine learning researchers working on privacy-preserving generative
 ## Applications
 
 Privacy-preserving voice modification software, anonymized speech data collection for conversational AI training, and secure voice communication tools.
+
+## Institutions / 機構
+
+Johns Hopkins University
+
+**Funding / 經費:** National Science Foundation, Office of the Director of National Intelligence
 
 ## Related
 

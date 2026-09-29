@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zheng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zheng26_interspeech.pdf
 session: 'Speech Synthesis: Speech Features, Codec and Representations'
 topics: [speech-coding, voice-conversion, self-supervised]
+category: speech-coding
+labels:
+  - "multilingual"
+  - "generative-model"
+institutions:
+  - "University of Science and Technology of China"
+  - "University of Edinburgh"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Speech Generation for Indigenous Language Education project"
 code:
     url: https://zhengrachel.github.io/CycleCodec/
     license: ""

@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liang26c_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/liang26c_interspeech.pdf
 session: 'Speaker Verification: Architectures, Losses, and LLMs'
 topics: [speaker-verification, self-supervised, speech-coding]
+category: speaker
+institutions:
+  - "Hong Kong Polytechnic University"
+funding:
+  - "Research Grants Council of the Hong Kong SAR"
+  - "The Hong Kong Polytechnic University"
 code:
     url: ""
     license: ""

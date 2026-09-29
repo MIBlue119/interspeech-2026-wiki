@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kashiwagi26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/kashiwagi26_interspeech.pdf
 session: Multi-Talker ASR & Speaker Diarization
 topics: [asr, speaker-verification, self-supervised]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Sony"
+  - "Carnegie Mellon University"
 code:
     url: ""
     license: ""

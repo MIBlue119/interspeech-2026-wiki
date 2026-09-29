@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/song26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/song26b_interspeech.pdf
 session: Speech Emotion Recognition and Representation 1
 topics: [speech-emotion-recognition, self-supervised, on-device]
+category: paralinguistics-emotion
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Singapore Institute of Technology"
+  - "Duke Kunshan University"
+  - "NVIDIA"
 code:
     url: ""
     license: ""

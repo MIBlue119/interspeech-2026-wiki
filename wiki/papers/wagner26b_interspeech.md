@@ -1,6 +1,7 @@
 ---
 id: wagner26b_interspeech
-category: self-supervised
+category: speech-coding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wagner26b_interspeech.pdf
 *Laurin Wagner*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wagner26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wagner26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2817)
+
+**Category:** `speech-coding` · **Labels:** `self-supervised`
 
 **TL;DR** — PINT (Parallel INvariant Tokenization) fine-tunes a HuBERT encoder using parallel-utterance alignment losses and aggressive augmentations to eliminate non-linguistic nuisance variation, achieving a 98.7% relative reduction in speaker probe accuracy, a 42% lower ABX error rate, and a 27–30% lower language model perplexity versus baselines.
 
@@ -66,6 +69,10 @@ Speech and ML engineers building autoregressive speech generators, audio codecs,
 ## Applications
 
 Neural audio codecs, autoregressive speech generation, expressive text-to-speech, voice and accent conversion, and speech language models.
+
+## Institutions / 機構
+
+nyra health
 
 ## Related
 

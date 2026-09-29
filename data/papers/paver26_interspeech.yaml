@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/paver26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/paver26_interspeech.pdf
 session: Voice Quality Aspects of Speech
 topics: [paralinguistics, phonetics, speaker-verification]
+category: phonetics-linguistics
+institutions:
+  - "University of Cambridge"
+funding:
+  - "Arts and Humanities Research Council"
+  - "Open-Oxford-Cambridge Doctoral Training Partnership"
 code:
     url: ""
     license: ""

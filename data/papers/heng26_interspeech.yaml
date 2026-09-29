@@ -16,6 +16,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/heng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/heng26_interspeech.pdf
 session: Code-Switching ASR
 topics: [speech-recognition, self-supervised, multilingual]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "generative-model"
+institutions:
+  - "Nanyang Technological University"
+  - "Agency for Science, Technology and Research"
+  - "Johns Hopkins University"
+  - "Google"
 code:
     url: ""
     license: ""

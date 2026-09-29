@@ -16,6 +16,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lin26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lin26f_interspeech.pdf
 session: Multimodal Speech Processing and Speech LLM Systems
 topics: [speech-recognition, speech-translation, speaker-diarization]
+category: speaker
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "Meta"
 code:
     url: ""
     license: ""

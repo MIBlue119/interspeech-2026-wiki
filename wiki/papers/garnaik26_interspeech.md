@@ -1,6 +1,7 @@
 ---
 id: garnaik26_interspeech
-category: accent-adaptive-tts
+category: speech-llm-dialogue
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/garnaik26_interspeech.pdf
 *Shubhangi S. R. Garnaik, JiHyun Jeong, Jihoon Ryoo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/garnaik26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/garnaik26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2197)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`
 
 **TL;DR** — LocalMATE is an end-to-end accent-adaptive airport conversational agent that matches user accents via confidence-gated speech synthesis and talking-face video. Correct accent adaptation significantly improves user trust and confidence (p < 0.05) while reducing repair attempts.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Public-facing conversational kiosks, airport information desks, and multilingual customer service touchpoints.
+
+## Institutions / 機構
+
+State University of New York, Korea, Stony Brook University
+
+**Funding / 經費:** Ministry of Science and ICT, National Research Foundation of Korea
 
 ## Related
 

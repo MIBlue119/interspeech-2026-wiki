@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26h_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26h_interspeech.pdf
 session: Gender- and Age-Related Speech Characteristics
 topics: [phonetics, prosody, multilingual]
+category: phonetics-linguistics
+institutions:
+  - "City University of Hong Kong"
+funding:
+  - "City University of Hong Kong"
 code:
     url: ""
     license: ""

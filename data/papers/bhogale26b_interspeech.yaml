@@ -13,6 +13,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bhogale26b_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/bhogale26b_interspeech.pdf
 session: Multilingual & Low-Resource ASR
 topics: [asr, multilingual, evaluation]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "Indian Institute of Technology Madras"
+  - "Sarvam AI"
+funding:
+  - "Digital India Bhashini"
+  - "MeitY"
+  - "EkStep Foundation"
+  - "Nilekani Philanthropies"
 code:
     url: https://github.com/AI4Bharat/Vimarsha
     license: ""

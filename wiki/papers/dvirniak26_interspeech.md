@@ -1,6 +1,7 @@
 ---
 id: dvirniak26_interspeech
-category: speech-deepfake-detection
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dvirniak26_interspeech.pdf
 *Artem Dvirniak, Evgeny Kushnir, Dmitrii Tarasov, Artem Iudin, Oleg Kiriukhin, Mikhail Pautov, Dmitrii Korzh, Oleg Rogov*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dvirniak26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dvirniak26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1289)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — HIR-SDD is a framework combining Large Audio Language Models with human-inspired chain-of-thought reasoning and reinforcement learning to improve both speech deepfake detection and interpretability, achieving 93.6% accuracy on the ASVspoof 5 test evaluation.
 
@@ -67,6 +70,12 @@ Researchers and engineers building trustworthy, interpretable speech security sy
 ## Applications
 
 Deploying verifiable speech anti-spoofing and deepfake detection systems in high-security environments like voice-biometric banking, call center authentication, and forensic media verification.
+
+## Institutions / 機構
+
+MIRAI, AXXX, HSE University, Applied AI Institute, Fusion Brain Lab, MTUCI, City University of Hong Kong, Trusted AI Research Center
+
+**Funding / 經費:** Ministry of Economic Development of the Russian Federation
 
 ## Related
 

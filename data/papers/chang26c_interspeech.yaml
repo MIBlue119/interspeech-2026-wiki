@@ -14,6 +14,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chang26c_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/chang26c_interspeech.pdf
 session: Target Speaker Extraction, Speech Separation and Audio Understanding
 topics: [self-supervised, multilingual, speech-llm]
+category: audio-understanding
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Massachusetts Institute of Technology"
+  - "Amazon"
 code:
     url: https://hf.co/collections/MIT-SLS/usad2
     license: ""

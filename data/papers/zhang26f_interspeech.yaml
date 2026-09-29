@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26f_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26f_interspeech.pdf
 session: Reasoning with Speech/Audio Language Models
 topics: [speech-llm, evaluation, self-supervised]
+category: audio-understanding
+institutions:
+  - "Xi'an Jiaotong-Liverpool University"
+funding:
+  - "Jiangsu Provincial Major Science and Technology Project"
 code:
     url: ""
     license: ""

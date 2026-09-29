@@ -1,6 +1,6 @@
 ---
 id: foo26_interspeech
-category: evaluation
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/foo26_interspeech.pdf
 *Leonardo Haw-Yang Foo, Chih-Kai Yang, Chen-An Li, Ke-Han Lu, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/foo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/foo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-913)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper presents a diagnostic evaluation framework to audit Large Audio-Language Models (LALMs) for shortcut behaviors, revealing that models retain 60–72% of their full-audio accuracy without any audio input and that 96% of audio-dependent questions can be answered using isolated local fragments rather than holistic context.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing audio-language dataset quality, designing robust multimodal evaluation benchmarks, and developing audio-language models with true acoustic grounding.
+
+## Institutions / 機構
+
+National Taiwan University
+
+**Funding / 經費:** Ministry of Education, Taiwan Centers of Excellence in Artificial Intelligence, NTU Artificial Intelligence Center of Research Excellence
 
 ## Related
 

@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/patman26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/patman26_interspeech.pdf
 session: Phonetic Aspects of TTS and ASR Systems
 topics: [speaker-verification, evaluation, paralinguistics]
+category: speaker
+institutions:
+  - "University of Cambridge"
+  - "Oxford Wave Research"
+funding:
+  - "Harding Distinguished Postgraduate Scholarship"
 code:
     url: ""
     license: ""

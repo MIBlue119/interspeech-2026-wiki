@@ -1,6 +1,7 @@
 ---
 id: zhang26w_interspeech
-category: speech-enhancement
+category: speech-coding
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26w_interspeech.pdf
 *Zixing Zhang, Xiaojun Mo, Zhongren Dong, Bin Wang, Jing Han*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26w_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26w_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1588)
+
+**Category:** `speech-coding` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — BACH is the first systematic benchmark evaluating eight neural audio codecs across five bio-acoustic health datasets, revealing a fundamental misalignment between signal reconstruction fidelity and downstream diagnostic classification performance.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Remote patient monitoring, automated auscultation analysis, wearable health diagnostic devices, and ultra-low-bandwidth telemedicine transmission.
+
+## Institutions / 機構
+
+Hunan University, Xiaomi, Yuelushan Center for Industrial Innovation
+
+**Funding / 經費:** Beijing Xiaomi Mobile Software Co., Ltd, National Natural Science Foundation of China, National Science and Technology Major Project of China, Science and Technology Innovation Program of Hunan Province
 
 ## Related
 

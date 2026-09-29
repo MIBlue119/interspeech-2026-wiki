@@ -1,6 +1,7 @@
 ---
 id: polok26b_interspeech
-category: speech-recognition
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/polok26b_interspeech.pdf
 *Alexander Polok, Samuele Cornell, Sathvik Udupa, Honza Černocký, Shinji Watanabe, Lukáš Burget*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/polok26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/polok26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-445)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — Dixtral extends Spoken Large Language Models (SLMs) to far-field multi-talker audio by conditioning a Whisper-based acoustic encoder on diarization masks while keeping the LLM decoder frozen. It outperforms Gemini 3.0 Flash, VibeVoice, and Voxtral Mini Transcribe V2 on speaker-attributed transcription by 29.0%, 19.8%, and 16.0% absolute cpWER respectively.
 
@@ -64,6 +67,12 @@ Speech and ML researchers working on far-field multi-talker audio or Spoken LLMs
 ## Applications
 
 Automated meeting transcription and minutes generation, multi-speaker conversational AI assistants, far-field smart home voice interfaces, and multi-talker audio question-answering systems.
+
+## Institutions / 機構
+
+Brno University of Technology, Carnegie Mellon University
+
+**Funding / 經費:** Ministry of Education, Youth and Sports of the Czech Republic, Brno Ph.D. Talent Scholarship Programme, e-INFRA CZ
 
 ## Related
 

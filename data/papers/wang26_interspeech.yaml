@@ -12,6 +12,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26_interspeech.pdf
 session: 'Robust ASR: Hallucinations and Biases'
 topics: [asr, dataset, multilingual]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Nankai University"
+funding:
+  - "NSF China"
 code:
     url: https://github.com/NKU-HLT/WildElder
     license: ""

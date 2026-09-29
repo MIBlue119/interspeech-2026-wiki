@@ -1,6 +1,7 @@
 ---
 id: chen26n_interspeech
-category: speech-enhancement
+category: health-clinical
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26n_interspeech.pdf
 *Xin-Yu Chen, Jing-Tong Tzeng, Carlos Busso, Chi-Chun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1217)
+
+**Category:** `health-clinical` · **Labels:** `generative-model`
 
 **TL;DR** — The paper introduces Formant-Aligned Speech Repair (FAST), a modular speech-in, speech-out framework that explicitly regularizes distorted vowel formants prior to neural TTS synthesis, achieving a 72.4% relative reduction in character error rate on Mandarin dysarthric speech.
 
@@ -67,6 +70,10 @@ Researchers and engineers building speech-to-speech assistive communication syst
 ## Applications
 
 Assistive communication devices for individuals with motor speech disorders, smart-home voice assistants adapted for pathological speech, and real-time conversational speech repair interfaces.
+
+## Institutions / 機構
+
+National Tsing Hua University, Carnegie Mellon University
 
 ## Related
 

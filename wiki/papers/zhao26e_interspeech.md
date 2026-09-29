@@ -1,6 +1,7 @@
 ---
 id: zhao26e_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhao26e_interspeech.pdf
 *Minghui Zhao, Anton Ragni*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhao26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhao26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1339)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper investigates how generation order affects autoregressive speech synthesis using a masked diffusion framework and scalar-quantised Mel-spectrograms. Results demonstrate that the traditional left-to-right order is suboptimal, with right-to-left and confidence-based adaptive strategies achieving significantly higher perceptual quality (MOS).
 
@@ -65,6 +68,12 @@ Speech and ML engineers building autoregressive speech generators should read th
 ## Applications
 
 High-fidelity neural text-to-speech generation, order-agnostic generative audio modeling, and speech synthesis post-processing.
+
+## Institutions / 機構
+
+University of Sheffield
+
+**Funding / 經費:** UK Research and Innovation, UKRI AI Centre for Doctoral Training in Speech and Language Technologies (SLT) and their Applications
 
 ## Related
 

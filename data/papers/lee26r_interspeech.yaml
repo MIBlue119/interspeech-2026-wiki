@@ -10,6 +10,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26r_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26r_interspeech.pdf
 session: Articulatory, EMG, and Visual Speech Generation
 topics: [speech-enhancement, self-supervised, dataset]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Seoul National University"
+funding:
+  - "National Research Foundation of Korea"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Ministry of Science and ICT"
+  - "National IT Industry Promotion Agency"
 code:
     url: https://jiwonlee-0218.github.io/GETS_demo-page/
     license: ""

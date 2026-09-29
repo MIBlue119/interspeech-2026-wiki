@@ -1,6 +1,6 @@
 ---
 id: lietz26_interspeech
-category: evaluation
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lietz26_interspeech.pdf
 *Rebecca Lietz, Jingjin Li, Peiyao Liu, Jennifer Chien, Norman Makoto Su, Shaomei Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lietz26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lietz26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2962)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper presents a 50-year retrospective scoping review of 117 Interspeech and ICASSP papers (1976–2025) concerning neurodivergent speech, revealing a dominant medicalized, deficit-based framing and a lack of direct stakeholder engagement. The authors find that 78% of surveyed papers focus on diagnosis and detection, 62% of new data annotations are done solely by researchers, and fewer than 2% directly solicit feedback from people with disabilities (PWD).
 
@@ -66,6 +68,10 @@ Speech engineers, dataset curators, and researchers building speech recognition,
 ## Applications
 
 Guidance for speech technology researchers, dataset creators, and conference organizers to design inclusive evaluation frameworks, participatory data collection protocols, and anti-ableist communication standards.
+
+## Institutions / 機構
+
+University of California, Santa Cruz, AImpower.org, Stanford University
 
 ## Related
 

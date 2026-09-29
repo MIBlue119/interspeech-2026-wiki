@@ -1,6 +1,7 @@
 ---
 id: ma26c_interspeech
-category: voice-conversion
+category: tts
+labels: [efficient-on-device, self-supervised, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ma26c_interspeech.pdf
 *Guobin Ma, Yuxuan Xia, Yuepeng Jiang, Dake Guo, Hanke Xie, Jingbin Hu, Yanbo Wang, Lei Xie, Pengcheng Zhu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ma26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ma26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1961)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `self-supervised`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — MeanVC 2 is a lightweight, low-latency streaming zero-shot voice conversion system that uses future-receptive chunking and a universal timbre token encoder to achieve high fidelity. It reduces end-to-end pipeline latency to 110 ms while outperforming prior streaming models on speaker similarity and speech quality metrics.
 
@@ -68,6 +71,10 @@ Speech and ML engineers building ultra-low-latency real-time voice conversion sy
 ## Applications
 
 Real-time voice chat in multiplayer games, live broadcasting, online meeting voice conversion, and communication aids for speech-impaired individuals.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University, University of New South Wales, WeNet Open Source Community
 
 ## Related
 

@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26u_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26u_interspeech.pdf
 session: Speech Emotion Recognition and Representation 1
 topics: [speech-emotion-recognition, self-supervised, paralinguistics]
+category: paralinguistics-emotion
+labels:
+  - "self-supervised"
+institutions:
+  - "Xiangjiang Laboratory"
+  - "University of Exeter"
 code:
     url: https://github.com/secret-code-source/SOC
     license: ""

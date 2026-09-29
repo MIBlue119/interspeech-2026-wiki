@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/pratiwi26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/pratiwi26_interspeech.pdf
 session: Assistive Technologies 1
 topics: [speech-enhancement, paralinguistics, evaluation]
+category: health-clinical
+labels:
+  - "robustness-noise"
+institutions:
+  - "University of Auckland"
 code:
     url: ""
     license: ""

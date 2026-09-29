@@ -1,6 +1,6 @@
 ---
 id: yoshinaga26_interspeech
-category: tts
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yoshinaga26_interspeech.pdf
 *Tsukasa Yoshinaga, Takeshi Ikuma, Brad H. Story*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yoshinaga26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yoshinaga26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-559)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study evaluates the turbulence noise scaling factor in 1D acoustic voice production models by benchmarking them against 3D compressible computational fluid dynamics (CFD) simulations for vowels /a/ and /u/. The results demonstrate that the conventional 1D noise scaling factor ($4 \times 10^{-6}$) is valid for normal phonation of /a/ with complete glottal closure, but fails for incomplete closures or constricted vocal tracts like /u/, requiring values up to $14 \times 10^{-6}$ or zero.
 
@@ -68,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Physically-informed text-to-speech synthesis, pathological voice simulation (e.g., breathy voice disorders), and computationally efficient digital waveguide speech models.
+
+## Institutions / 機構
+
+Osaka University, Louisiana State University Health Sciences Center, University of Arizona
+
+**Funding / 經費:** JSPS KAKENHI
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: kim26z_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26z_interspeech.pdf
 *Mingi Kim, Minchol Kwon, Junyeong Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26z_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26z_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3467)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — AudioGround is a lightweight extension of the SALMONN large audio language model that introduces time-aware Q-Former sliding-window compression and absolute time embeddings, achieving state-of-the-art zero-shot temporal grounding via a new 49.9K-sample deterministic instruction-tuning dataset.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated security surveillance auditing, meeting assistant timeline indexing, smart home sound event detection, and multi-modal video/audio moment retrieval.
+
+## Institutions / 機構
+
+Chung-Ang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea government
 
 ## Related
 

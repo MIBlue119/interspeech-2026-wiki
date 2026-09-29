@@ -1,6 +1,7 @@
 ---
 id: someki26_interspeech
 category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/someki26_interspeech.pdf
 *Masao Someki, Alexander Polok, Carlos Carvalho, Chyi-Jiunn Lin, Da-Hee Yang, Jiatong Shi, Jinchuan Tian, Nelson Enrique Yalta Soplin, Samuele Cornell, Siddhant Arora, Francisco Teixeira, Wei Wang, William Chen, Alberto Abad, Chenda Li, Shinji Watanabe, Wangyou Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/someki26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/someki26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2698)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — ESPnet3 is a modernized speech and audio research framework featuring configuration-driven data organization, dataset sharding, and modular Python workflows, reducing OWSM per-epoch training time by 21.1 minutes compared to ESPnet2 while scaling past 80% GPU utilization.
 
@@ -61,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Scalable pre-training of multi-task speech foundation models and parameter-efficient fine-tuning (PEFT) of external models on custom domain corpora.
+
+## Institutions / 機構
+
+Carnegie Mellon University, Brno University of Technology, Instituto Superior Técnico, Hanyang University, Hitachi Astemo, Shanghai Jiao Tong University
+
+**Funding / 經費:** Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support, National Science Foundation, Ministry of Education, Youth and Sports of the Czech Republic
 
 ## Related
 

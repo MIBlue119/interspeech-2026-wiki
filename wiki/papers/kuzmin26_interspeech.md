@@ -1,6 +1,7 @@
 ---
 id: kuzmin26_interspeech
-category: speaker-anonymization
+category: deepfake-security
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kuzmin26_interspeech.pdf
 *Nikita Kuzmin, Kong Aik Lee, Eng Siong Chng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kuzmin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kuzmin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3105)
+
+**Category:** `deepfake-security` · **Labels:** `streaming-real-time`
 
 **TL;DR** — StreamVoiceAnon+ is a streaming speaker anonymization method that uses supervised finetuning on neutral-emotion pairs and frame-level acoustic emotion distillation to achieve state-of-the-art emotion preservation without adding inference latency.
 
@@ -67,6 +70,10 @@ Speech and ML researchers building real-time voice conversion or speaker anonymi
 ## Applications
 
 Privacy-preserving real-time teleconferencing, customer call center anonymization, voice assistants, and online mental health counseling.
+
+## Institutions / 機構
+
+Nanyang Technological University, Agency for Science, Technology and Research, Hong Kong Polytechnic University
 
 ## Related
 

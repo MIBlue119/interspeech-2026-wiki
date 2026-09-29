@@ -16,6 +16,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26x_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26x_interspeech.pdf
 session: LLM Based Speech Synthesis
 topics: [tts, self-supervised, speech-llm]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "University of Science and Technology of China"
 code:
     url: https://wsmzzz.github.io/llm_attn/index.html
     license: ""

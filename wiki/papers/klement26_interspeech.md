@@ -1,6 +1,7 @@
 ---
 id: klement26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/klement26_interspeech.pdf
 *Dominik Klement, Matthew Maciejewski, Sanjeev Khudanpur, Honza Černocký, Lukáš Burget*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/klement26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/klement26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2511)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — This paper presents a dual-branch unsupervised GAN-based speech enhancement framework that explicitly models both clean speech and noise to prevent source leakage. Utilizing aligned in-domain noise priors achieves a superior COVL of 3.08 and PESQ of 2.58 compared to prior single-branch unsupervised baselines.
 
@@ -65,6 +68,12 @@ Speech and ML researchers working on unsupervised or zero-shot speech enhancemen
 ## Applications
 
 Real-time speech communication pipelines, hearing aids, and voice call enhancement systems operating without paired clean speech training data.
+
+## Institutions / 機構
+
+Brno University of Technology, Johns Hopkins University
+
+**Funding / 經費:** National Science Foundation, Technology Agency of the Czech Republic, Czech Ministry of Education, Youth and Sports
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: lahtinen26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lahtinen26_interspeech.pdf
 *Kalle Lahtinen, Liisa Mustanoja, Okko Räsänen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lahtinen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lahtinen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2452)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper investigates the relative contributions of text- and audio-based features in predicting perceived emotional valence and arousal in spontaneous Finnish speech, finding that multimodal feature combination substantially improves valence regression while arousal remains primarily driven by acoustics. The best valence model achieves a CCC of 0.428, and the best arousal model reaches 0.688.
 
@@ -63,6 +65,12 @@ Speech and ML researchers studying multimodal affective computing will learn how
 ## Applications
 
 Speech emotion recognition systems, empathetic conversational agents, and computational social science tools analyzing affective content in spontaneous dialogue.
+
+## Institutions / 機構
+
+Tampere University
+
+**Funding / 經費:** Jane and Aatos Erkko Foundation
 
 ## Related
 

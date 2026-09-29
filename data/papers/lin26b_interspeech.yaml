@@ -9,6 +9,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lin26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lin26b_interspeech.pdf
 session: Cross-Linguistic and L2 Phonetic Studies
 topics: [paralinguistics, prosody, evaluation]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+institutions:
+  - "Nanjing University of Science and Technology"
+funding:
+  - "Ministry of Education Humanities and Social Sciences Research Youth Fund Project"
+  - "Jiangsu Social Science Fund Youth Project"
+  - "Research Project of Philosophy and Social Sciences in Higher Education of the Jiangsu Provincial Department of Education"
 code:
     url: ""
     license: ""

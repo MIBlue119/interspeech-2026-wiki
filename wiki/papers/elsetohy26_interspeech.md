@@ -1,6 +1,7 @@
 ---
 id: elsetohy26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [multilingual, dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/elsetohy26_interspeech.pdf
 *Mohamed Elsetohy, Alhassan Ehab, Ali Mekky, Besher Hassan, Shady Shehata*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/elsetohy26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/elsetohy26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2665)
+
+**Category:** `deepfake-security` · **Labels:** `multilingual`, `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — ARFAKE is an end-to-end framework and benchmark for multi-dialect Arabic audio deepfake generation and detection, spanning eight dialects and four TTS systems with evaluation reaching up to 98.30% accuracy on unseen generators.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Audio deepfake detection, speech security systems, telecommunication fraud prevention, and automated multi-dialect verification.
+
+## Institutions / 機構
+
+Mohamed bin Zayed University of Artificial Intelligence, Queen's University, University of Waterloo
 
 ## Related
 

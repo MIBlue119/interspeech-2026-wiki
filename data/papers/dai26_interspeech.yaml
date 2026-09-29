@@ -14,6 +14,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dai26_interspeech.pdf
 session: Acoustic Event Detection 2
 topics: [sound-event-detection, self-supervised, dataset]
+category: audio-understanding
+institutions:
+  - "University of Science and Technology of China"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

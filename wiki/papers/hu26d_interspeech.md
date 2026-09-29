@@ -1,6 +1,7 @@
 ---
 id: hu26d_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hu26d_interspeech.pdf
 *Qinzhe Hu, Chenda Li, Wangyou Zhang, Shujie Liu, Yan Lu, Yanmin Qian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hu26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hu26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1307)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`
 
 **TL;DR** — TF-MoE is a sparse Mixture-of-Experts time-frequency framework for speech separation that scales model capacity without increasing inference cost, outperforming BSRNN by +3.8 dB SDR on Libri2Mix at 4.1 GMACs/s.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time on-device speech separation, edge-based hearing aids, and local offline communication tools.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, Microsoft
+
+**Funding / 經費:** China STI 2030–Major Projects, National Natural Science Foundation of China, SJTU Med-X Translational Research Grant
 
 ## Related
 

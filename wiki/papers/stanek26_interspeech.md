@@ -1,6 +1,7 @@
 ---
 id: stanek26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/stanek26_interspeech.pdf
 *Vojtěch Staněk, Veronika Jirmusová, Anton Firc, Kamil Malinka, Jakub Reš, Martin Perešíni*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/stanek26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/stanek26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-123)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper presents an audio-native explainability pipeline using Integrated Gradients on time-aligned self-supervised WavLM representations to uncover what deepfake speech detectors actually learn. The authors discover that detectors with similar performance rely on fundamentally distinct cues—such as non-speech noise, localized phonemes, or spectral integrity—while sharing a common vulnerability to lossy audio compression.
 
@@ -62,6 +65,12 @@ Audio forensics researchers and speech security engineers should read this to un
 ## Applications
 
 Explainable audio forensics, trustworthy deepfake speech detection, and informed multimodal or ensemble anti-spoofing system design.
+
+## Institutions / 機構
+
+Brno University of Technology
+
+**Funding / 經費:** Brno University of Technology internal project
 
 ## Related
 

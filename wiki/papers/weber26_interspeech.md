@@ -1,6 +1,7 @@
 ---
 id: weber26_interspeech
-category: speech-alignment
+category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/weber26_interspeech.pdf
 *Roy Weber, Meidan Zehavi, Rotem Rousso, Joseph Keshet*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/weber26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/weber26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-296)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — The paper introduces Multilingual Word-Aligned (MWA), a forced alignment framework that fuses self-supervised phoneme boundary detectors (UnSupSeg) and Massively Multilingual Speech (MMS) representations using an alignment encoder and learned dynamic programming. It outperforms the Montreal Forced Aligner (MFA) on English test sets and generalizes to unseen languages without retraining.
 
@@ -69,6 +72,12 @@ Speech and ML researchers building cross-lingual forced alignment pipelines with
 ## Applications
 
 Automatic speech recognition evaluation, phonetic and prosodic linguistic research, corpus annotation, and speech dataset segmentation.
+
+## Institutions / 機構
+
+Technion – Israel Institute of Technology
+
+**Funding / 經費:** NSF, BSF
 
 ## Related
 

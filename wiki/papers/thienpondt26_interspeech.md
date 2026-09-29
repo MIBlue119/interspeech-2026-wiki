@@ -1,6 +1,6 @@
 ---
 id: thienpondt26_interspeech
-category: speaker-diarization
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/thienpondt26_interspeech.pdf
 *Jenthe Thienpondt, Kris Demuynck*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/thienpondt26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/thienpondt26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2471)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper introduces a weakly supervised multi-speaker embedding model and training strategy that simultaneously extracts frame-level voice activity, speaker activity, and speaker-specific embeddings, achieving a 13.7% average relative improvement in confusion error rate across standard diarization benchmarks.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated meeting transcription, multi-speaker conversational speech analysis, and streamlined diarization pipelines for telephony and clinical audio recordings.
+
+## Institutions / 機構
+
+Ghent University, imec
+
+**Funding / 經費:** Research Foundation Flanders
 
 ## Related
 

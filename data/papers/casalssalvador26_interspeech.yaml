@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/casalssalvador26_intersp
 pdf_url: https://www.isca-archive.org/interspeech_2026/casalssalvador26_interspeech.pdf
 session: Speech Emotion Recognition and Representation 2
 topics: [speech-emotion-recognition, self-supervised, evaluation]
+category: paralinguistics-emotion
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Barcelona Supercomputing Center"
+  - "Universitat Politecnica de Catalunya"
+funding:
+  - "MICIU/AEI"
+  - "Red.es, Ministerio para la Transformacion Digital y de la Funcion Publica"
+  - "NextGenerationEU"
 code:
     url: https://github.com/marccasals98/AttentionAlternatives
     license: ""

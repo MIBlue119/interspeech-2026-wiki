@@ -1,6 +1,7 @@
 ---
 id: li26w_interspeech
-category: voice-conversion
+category: tts
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26w_interspeech.pdf
 *Yudong Li, Zihao Fang, Junwen Qiu, Ruihai Jing, Ruixiang Hang, Yingda Shen, Zhizheng Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26w_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26w_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1340)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — Zero-VC is a strictly causal, zero-lookahead streaming voice conversion system that uses Speaker Anonymization (SA) as a perturbation mechanism to eliminate timbre leakage while preserving prosody, achieving an algorithmic latency of 20 ms.
 
@@ -68,6 +71,12 @@ Speech engineers and audio researchers building hard-real-time streaming communi
 ## Applications
 
 Real-time voice changing, live streaming anonymization, secure real-time communication, and ultra-low latency interactive voice response systems.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Shenzhen, Shenzhen Loop Area Institute, Shenzhen Transsion Holdings Co., Ltd, Amphion Technology Co., Ltd
+
+**Funding / 經費:** Internal Project Fund from Shenzhen Research Institute of Big Data, Program for Guangdong Introducing Innovative and Enterpreneurial Teams
 
 ## Related
 

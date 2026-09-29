@@ -14,6 +14,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zheng26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zheng26b_interspeech.pdf
 session: 'Robust ASR: Hallucinations and Biases'
 topics: [asr, speaker-diarization, speech-llm]
+category: asr
+institutions:
+  - "Huawei Technologies"
 code:
     url: ""
     license: ""

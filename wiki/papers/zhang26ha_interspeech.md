@@ -1,6 +1,7 @@
 ---
 id: zhang26ha_interspeech
-category: keyword-spotting
+category: asr
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26ha_interspeech.pdf
 *Hanwen Zhang, Guosong Zhu, Zhen Qin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26ha_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26ha_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3545)
+
+**Category:** `asr` · **Labels:** `streaming-real-time`
 
 **TL;DR** — Margin-Aware Contrastive Regularization (MACR) is a zero-inference-overhead training auxiliary objective for streaming keyword spotting that reduces false rejection rates by over 40% at strict false-alarm operating points.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Always-on edge voice assistants, smart-home appliance speech controllers, and wearable audio sensor interfaces.
+
+## Institutions / 機構
+
+Network and Data Security Key Laboratory of Sichuan Province, University of Electronic Science and Technology of China
+
+**Funding / 經費:** National Natural Science Foundation of China, Sichuan Science and Technology Support Plan
 
 ## Related
 

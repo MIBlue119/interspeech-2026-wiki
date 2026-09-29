@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26y_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26y_interspeech.pdf
 session: Multi-Speaker Processing, Personalization, and Adaptation
 topics: [keyword-spotting, self-supervised, multilingual]
+category: asr
+institutions:
+  - "Hangzhou Dianzi University"
+funding:
+  - "Yangtze River Delta Science and Technology Innovation Community Joint Research Project"
+  - "Key R&D Program Project of Zhejiang Province"
 code:
     url: https://github.com/gusrud1103/LibriPhrase.git
     license: ""

@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nozaki26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/nozaki26_interspeech.pdf
 session: Source Separation 2
 topics: [speech-separation, speaker-diarization, self-supervised]
+category: enhancement-separation
+labels:
+  - "robustness-noise"
+institutions:
+  - "National Institute of Advanced Industrial Science and Technology"
+  - "Keio University"
+  - "Waseda University"
+funding:
+  - "JST FOREST"
 code:
     url: https://ybando.jp/projects/na_neural-fcasa/
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: qi26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/qi26_interspeech.pdf
 *Haotian Qi, Gabriel Skantze*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/qi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/qi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1381)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `streaming-real-time`
 
 **TL;DR** — MuVAP is a causal, multimodal turn-taking framework that predicts when and who will speak next in unconstrained multiparty conversations using only a single monaural audio stream and a single camera view. It outperforms unimodal and MLP baselines on Shift-Hold and Next Speaker Prediction tasks across 2- and 3-speaker settings.
 
@@ -64,6 +67,12 @@ Researchers and engineers building real-time interactive conversational agents o
 ## Applications
 
 Real-time human-robot interaction, multiparty virtual assistants, social robotics, and interactive conversational agents.
+
+## Institutions / 機構
+
+KTH Royal Institute of Technology
+
+**Funding / 經費:** Wallenberg AI, Autonomous Systems and Software Program (WASP), Knut and Alice Wallenberg Foundation, Swedish Research Council
 
 ## Related
 

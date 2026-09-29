@@ -1,6 +1,7 @@
 ---
 id: zorila26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.pdf
 *Catalin Zorilă, Qingxiuxiong Dong, Rama Doddipatla*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zorila26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3291)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — The paper introduces a training-free, offline embedding-steering method that uses LLMs to generate diverse synthetic queries per API, enriching tool representations to drastically improve speech-to-API retrieval under noisy conditions. Across multiple models and datasets, embedding steering yields consistent NDCG gains, such as raising average N@1 from 52.7 to 60.5 on clean queries using bge-large-en-v1.5.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice assistants, conversational function-calling agents, and speech-driven software integration tools.
+
+## Institutions / 機構
+
+Toshiba
 
 ## Related
 

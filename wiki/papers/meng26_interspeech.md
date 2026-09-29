@@ -1,6 +1,6 @@
 ---
 id: meng26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/meng26_interspeech.pdf
 *Ying Meng, Zhihua Fang, Liang He*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/meng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/meng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-25)
+
+**Category:** `speaker`
 
 **TL;DR** — FedDCH introduces dual classification heads (local and global) into federated speaker recognition to directly integrate cross-client knowledge and mitigate data heterogeneity, achieving an average EER improvement of up to 68.8% over local training on combined VoxCeleb and CN-Celeb benchmarks.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving multi-institutional speaker verification and forensic voice biometric systems deployed across secure enterprise or governmental networks.
+
+## Institutions / 機構
+
+Xinjiang University, Xinjiang Multimodal Information Technology Engineering Research Center, Tsinghua University, AGIBOT
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

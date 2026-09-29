@@ -1,6 +1,7 @@
 ---
 id: girish26_interspeech
-category: paralinguistics
+category: deepfake-security
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/girish26_interspeech.pdf
 *Girish, Orchid Chetia Phukan, Mohd Mujtaba Akhtar, Bhavinkumar Vinodbhai Kuwar, Swarup Ranjan Behera, Arun Balaji Buduru*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/girish26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/girish26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2116)
+
+**Category:** `deepfake-security` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces Synthetic Heart Sound Detection (SHAC) to counter neural audio codec (NAC) spoofing attacks on heart sound biometrics, releasing the CARDIOFAKE dataset and the GROOT fusion framework which achieves state-of-the-art performance.
 
@@ -65,6 +68,10 @@ Read this paper if you work on audio deepfake detection, spoofing countermeasure
 ## Applications
 
 Secure phonocardiogram-based biometric authentication systems, healthcare patient identity verification, and medical IoT anti-spoofing defense software.
+
+## Institutions / 機構
+
+UPES, National Tsing Hua University, VBSPU, Indraprastha Institute of Information Technology Delhi
 
 ## Related
 

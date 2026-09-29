@@ -11,6 +11,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/singh26e_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/singh26e_interspeech.pdf
 session: Emotion, Prosody, and Articulation
 topics: [paralinguistics, self-supervised, evaluation]
+category: paralinguistics-emotion
+institutions:
+  - "Thapar Institute of Engineering and Technology"
+  - "Ulster University"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: bargum26_interspeech
-category: voice-conversion
+category: tts
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bargum26_interspeech.pdf
 *Anders R. Bargum, Simon Lajboschitz, Stefania Serafin, Cumhur Erkut*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bargum26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bargum26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-796)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — A low-latency, real-time voice conversion framework that improves zero-shot speaker similarity and prosody preservation by explicitly injecting an excitation signal and utilizing a complementary time-varying speaker encoder. It achieves an 80.83% Speaker Embedding Cosine Similarity (SECS) while operating with a total latency of 64.9 ms on a CPU.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time voice conversion, low-latency cross-lingual dubbing, interactive streaming media, and real-time voice modification for communication software.
+
+## Institutions / 機構
+
+Aalborg University, Khora & Heka VR, Technical University of Denmark
 
 ## Related
 

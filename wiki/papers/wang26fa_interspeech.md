@@ -1,6 +1,7 @@
 ---
 id: wang26fa_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26fa_interspeech.pdf
 *Yuzhe Wang, Thomas Thebaud, Jennifer Hu, Jesús Villalba-Lopez, Venkatesh Ravichandran, Georgi Tinchev, Najim Dehak, Laureano Moro-Velázquez*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26fa_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26fa_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2938)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — StanceBench is a standardized benchmark for evaluating audio LLMs as automated judges of interpersonal stance in conversational speech across 9 fine-grained dimensions, revealing that commercial audio-native models like GPT-Audio achieve strong separability (AUROC up to 0.96 for empathy) while open end-to-end models suffer from higher failure rates and modality vulnerabilities.
 
@@ -64,6 +67,12 @@ Researchers and engineers building speech-to-speech dialogue models or automated
 ## Applications
 
 Evaluating speech-to-speech dialogue models, automated conversational coaching systems, and interactive voice agents for social intelligence, empathy, and conflict resolution.
+
+## Institutions / 機構
+
+Johns Hopkins University, Amazon
+
+**Funding / 經費:** Amazon
 
 ## Related
 

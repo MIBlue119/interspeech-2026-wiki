@@ -1,6 +1,6 @@
 ---
 id: wei26c_interspeech
-category: source-separation
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wei26c_interspeech.pdf
 *Huihui Wei, Dengke Deng, Pengcheng Luo, Weiyu You, Xiaojuan Zhang, Genke Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wei26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wei26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1191)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This paper proposes a perceptually weighted multi-user MIMO (MU-MIMO) precoding framework for in-vehicle personal sound zones (PSZ) that integrates psychoacoustic masking into the WMMSE criterion. Evaluated on real car cabin impulse responses, the method achieves improved speech intelligibility and perceived quality over traditional spatial audio baselines.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart cockpit audio systems, in-vehicle personal sound zones, and multi-listener spatial audio reproduction.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, Ningbo Artificial Intelligence Institute, Institute of Advanced Intelligence and Computing
 
 ## Related
 

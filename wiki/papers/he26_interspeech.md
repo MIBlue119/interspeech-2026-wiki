@@ -1,6 +1,7 @@
 ---
 id: he26_interspeech
-category: spatial-audio
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/he26_interspeech.pdf
 *Changjun He, Lianyu Zhou, Yukun Qian, Shiyun Xu, Wenjie Zhang, Mingjiang Wang, Weiping Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/he26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/he26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-602)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — TTBA is an end-to-end text-to-binaural audio generation model that jointly models semantic content and spatial trajectories via a cross-arranged discrete token representation and a spatial prompt encoder, outperforming baseline models on multi-source spatial audio datasets.
 
@@ -67,6 +70,12 @@ Speech and ML researchers working on generative spatial audio and audio language
 ## Applications
 
 Virtual reality (VR), augmented reality (AR), spatial sound design in gaming, and automated 360-degree video production.
+
+## Institutions / 機構
+
+Harbin Institute of Technology
+
+**Funding / 經費:** National Natural Science Foundation of China, Guangdong Basic and Applied Basic Research Foundation, Shenzhen Higher Education Institutions Stability Support Program, Key Research and Development Program of Xinjiang Uygur Autonomous Region
 
 ## Related
 

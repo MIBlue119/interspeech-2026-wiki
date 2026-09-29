@@ -14,6 +14,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26g_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
 topics: [anti-spoofing, speaker-verification, self-supervised]
+category: deepfake-security
+labels:
+  - "robustness-noise"
+institutions:
+  - "Hong Kong Polytechnic University"
+  - "Brno University of Technology"
+  - "Shenzhen Zhuiyi Technology"
+funding:
+  - "Innovation and Technology Fund of the Hong Kong SAR"
+  - "National Key R&D Program of China"
+  - "Digital Europe Programme"
+  - "Ministry of Education, Youth and Sports of the Czech Republic"
 code:
     url: https://github.com/happyjin/ASU
     license: ""

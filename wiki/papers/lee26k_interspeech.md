@@ -1,6 +1,7 @@
 ---
 id: lee26k_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26k_interspeech.pdf
 *Dongheon Lee, Ashutosh Pandey, Sanjeel Parekh, Daniel Wong, Jacob Donley, Buye Xu, Juan Azcarreta*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1477)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — Spatial-Magnifier introduces a dedicated GAN-based architecture for virtual microphone estimation and spatial upsampling, paired with Spatial Audio Representation Learning (SARL) to condition downstream speech enhancement systems. It nearly recovers oracle multichannel performance from sparse physical sensors while lowering computational costs relative to prior neural-VME baselines.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Augmented reality glasses, hearing aids, true wireless stereo earbuds, and multi-microphone communication edge devices.
+
+## Institutions / 機構
+
+Meta, Korea Advanced Institute of Science and Technology
 
 ## Related
 

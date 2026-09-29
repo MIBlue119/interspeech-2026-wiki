@@ -1,6 +1,7 @@
 ---
 id: kuan26_interspeech
 category: tts
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kuan26_interspeech.pdf
 *Chun-Yi Kuan, Siwon Kim, Byeonggeun Kim, Suyoun Kim, Bo-Ru Lu, Qingming Tang, Ankur Gandhe, Hung-yi Lee, Chieh-Chi Kao, Chao Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kuan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kuan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1111)
+
+**Category:** `tts` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — The paper proposes AJPO (ALLM-Judged Preference Optimization), which uses audio-aware large language models as structured judges to evaluate multi-event presence and temporal order in generated audio, creating preference pairs for DPO. This significantly improves text-to-audio instruction-following accuracy—raising joint accuracy on the new S3Bench narrative benchmark from 35.3% to 49.9%—while preserving audio fidelity.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Controllable sound effect generation for video production, immersive game audio design, and narrative-driven Foley sound synthesis.
+
+## Institutions / 機構
+
+National Taiwan University, Amazon
 
 ## Related
 

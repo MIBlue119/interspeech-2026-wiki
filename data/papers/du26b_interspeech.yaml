@@ -8,6 +8,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/du26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/du26b_interspeech.pdf
 session: Voice Quality Aspects of Speech
 topics: [phonetics, prosody, dataset]
+category: phonetics-linguistics
+institutions:
+  - "University of Cambridge"
+funding:
+  - "Cambridge Trust"
+  - "China Scholarship Council"
 code:
     url: ""
     license: ""

@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yang26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26g_interspeech.pdf
 session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
 topics: [tts, speech-llm, low-resource]
+category: speech-coding
+labels:
+  - "multilingual"
+institutions:
+  - "National Tsing Hua University"
 code:
     url: https://github.com/Jie-shiang/Pitch-Injected-Residual-Adapter
     license: ""

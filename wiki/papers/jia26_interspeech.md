@@ -1,6 +1,7 @@
 ---
 id: jia26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jia26_interspeech.pdf
 *Kaimeng Jia, Minzhu Tu, Zengrui Jin, Siyin Wang, Chao Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jia26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jia26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1300)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`
 
 **TL;DR** — This paper demonstrates that augmenting limited dysarthric speech training data with human-annotated Mean Opinion Score (MOS) labels from a speech synthesis evaluation corpus (QualiSpeech) significantly improves automatic assessment of dysarthric speech intelligibility and naturalness. Sequential fine-tuning achieves the strongest performance, yielding up to a 43.7% relative MSE reduction.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical speech monitoring tools, objective speech therapy evaluation systems, and pre-training data pipelines for dysarthric speech recognition and disordered speech reconstruction.
+
+## Institutions / 機構
+
+Tsinghua University, Beijing University of Posts and Telecommunications
 
 ## Related
 

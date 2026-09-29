@@ -1,6 +1,7 @@
 ---
 id: wu26_interspeech
-category: speaker-verification
+category: speaker
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26_interspeech.pdf
 *Xiaoliang Wu, Chong-xin Gan, Ke Liu, Peter Bell, Jennifer Williams*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-537)
+
+**Category:** `speaker` · **Labels:** `self-supervised`
 
 **TL;DR** — LISE is a label-free post-hoc framework that decomposes pretrained speaker embeddings into a compact set of orthogonal, non-negative components, achieving human-verified perceptual interpretability (83.9% listening discrimination accuracy) with negligible automatic speaker verification performance degradation.
 
@@ -69,6 +72,12 @@ Speech researchers and ML engineers looking to unpack opaque speaker embeddings 
 ## Applications
 
 Controllable text-to-speech voice synthesis, model bias diagnosis, speaker embedding visualization, and auditory voice analysis.
+
+## Institutions / 機構
+
+University of Southampton, Hong Kong Polytechnic University, University of Edinburgh
+
+**Funding / 經費:** Engineering and Physical Sciences Research Council, National Edge AI Hub for Real Data: Edge Intelligence for Cyberdisturbances and Data Quality, Responsible AI UK
 
 ## Related
 

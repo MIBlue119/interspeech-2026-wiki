@@ -1,6 +1,7 @@
 ---
 id: xue26d_interspeech
-category: speech-llm
+category: audio-understanding
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xue26d_interspeech.pdf
 *Haiwei Xue, Zichao Nie, Zhiyong Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xue26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xue26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3512)
+
+**Category:** `audio-understanding` · **Labels:** `efficient-on-device`
 
 **TL;DR** — Flash-VAReason is a multimodal video reasoning framework that integrates raw audio features alongside visual frames using an information-uniqueness-driven token compression pipeline, achieving top-tier accuracy while cutting audio inference latency by 42.8%.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multimodal video understanding assistants, egocentric video analysis, video question-answering systems requiring acoustic event and speaker emotion comprehension.
+
+## Institutions / 機構
+
+Tsinghua University, Hong Kong University of Science and Technology, Chinese University of Hong Kong
+
+**Funding / 經費:** National Natural Science Foundation of China, Shenzhen Science and Technology Program
 
 ## Related
 

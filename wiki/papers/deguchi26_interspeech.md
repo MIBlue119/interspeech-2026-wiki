@@ -1,6 +1,7 @@
 ---
 id: deguchi26_interspeech
 category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/deguchi26_interspeech.pdf
 *Hiroyuki Deguchi, Takatomo Kano, Katsuki Chousa, Marc Delcroix*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/deguchi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/deguchi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2971)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — The paper introduces NAR-MBR decoding, a novel non-autoregressive minimum Bayes' risk decoding framework for automatic speech recognition that eliminates the accuracy gap with autoregressive models without requiring extra model training. It achieves up to a 43.1x speedup over autoregressive beam search while significantly outperforming standard NAR decoding.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time speech recognition systems, edge or on-device transcription tools, and high-throughput offline batch processing of long-form audio lectures and meetings.
+
+## Institutions / 機構
+
+NTT
 
 ## Related
 

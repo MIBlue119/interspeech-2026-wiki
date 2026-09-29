@@ -1,6 +1,7 @@
 ---
 id: lu26b_interspeech
-category: multilingual
+category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lu26b_interspeech.pdf
 *Xun Lu, Xuyang Wang, Fan Feng, Gaofeng Cheng, Pengyuan Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1185)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper proposes an alignment-aware continued pre-training framework for multilingual speech foundation models that jointly optimizes SSL and CTC objectives, achieving up to a 15% relative WER reduction on the FLEURS benchmark.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 ['Multilingual automatic speech recognition (ASR) systems targeting low-resource and cross-lingual deployment scenarios.', 'Cross-lingual speech representation learning and acoustic model adaptation.']
+
+## Institutions / 機構
+
+Chinese Academy of Sciences, University of Chinese Academy of Sciences
+
+**Funding / 經費:** National Key Research and Development Program of China, Xinjiang Uygur Autonomous Region Key Research and Development Project
 
 ## Related
 

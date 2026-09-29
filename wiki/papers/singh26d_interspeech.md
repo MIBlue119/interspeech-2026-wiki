@@ -1,6 +1,6 @@
 ---
 id: singh26d_interspeech
-category: spoken-language-understanding
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/singh26d_interspeech.pdf
 *Akanksha Singh, Vinod Kumar Kurmi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/singh26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/singh26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3349)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — The paper introduces Binding Subspace Unlearning (BSU), a representation-level machine unlearning framework for end-to-end spoken language understanding that eliminates intent-conditioned slot generation without retraining from scratch. BSU achieves an average reduction of ~60% in BRR@10 and ~56% in semantic similarity on forgotten intents while preserving performance on retained intents.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Post-deployment safety filtering, regulatory compliance for voice assistants (e.g., removing financial or health domain capabilities), and privacy-preserving spoken language understanding.
+
+## Institutions / 機構
+
+Indian Institute of Science Education and Research Bhopal
 
 ## Related
 

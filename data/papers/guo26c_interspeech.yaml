@@ -14,6 +14,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/guo26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/guo26c_interspeech.pdf
 session: Self-supervised Speech Representation Learning
 topics: [self-supervised, speech-llm, low-resource]
+category: speech-llm-dialogue
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "Wuhan University"
+  - "University of Auckland"
+  - "University of Melbourne"
+  - "University of Cambridge"
+  - "Flower Labs"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

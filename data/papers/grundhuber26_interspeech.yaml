@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/grundhuber26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/grundhuber26_interspeech.pdf
 session: Quality, Intelligibility and Evaluation of Speech and Codecs
 topics: [self-supervised, speech-enhancement, evaluation]
+category: speech-coding
+institutions:
+  - "Fraunhofer Institute for Integrated Circuits"
+  - "International Audio Laboratories Erlangen"
+  - "Friedrich-Alexander-Universität Erlangen-Nürnberg"
+funding:
+  - "German Research Foundation"
 code:
     url: ""
     license: ""

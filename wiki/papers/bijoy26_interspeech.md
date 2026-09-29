@@ -1,6 +1,7 @@
 ---
 id: bijoy26_interspeech
 category: asr
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bijoy26_interspeech.pdf
 *Mehedi Hasan Bijoy, Yaroslav Getman, Tamás Grósz, Mikko Kurimo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bijoy26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bijoy26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1373)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — The paper introduces Mixture-of-Accent-Adapters (MoAA), an adaptation framework for Whisper that injects soft accent cues and routes lightweight bottleneck adapters via a pooled-state control bottleneck. Combined with a deterministic hallucination filter (DHF), MoAA achieves a headline 7.49% WER on the AESRC benchmark while training only ~2.51M parameters.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust automated transcription for international call centers, multi-accent voice assistants, and inclusive speech-to-text systems.
+
+## Institutions / 機構
+
+Aalto University, South East Technological University
+
+**Funding / 經費:** Business Finland, Finnish Cultural Foundation
 
 ## Related
 

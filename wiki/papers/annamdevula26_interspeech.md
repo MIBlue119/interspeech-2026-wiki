@@ -1,6 +1,7 @@
 ---
 id: annamdevula26_interspeech
 category: tts
+labels: [multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/annamdevula26_interspeech.pdf
 *Ram Annamdevula, Ankit Tatawat, Ashishkumar P. Gudmalwar, Nirmesh J. Shah, Pankaj Wasnik*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/annamdevula26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/annamdevula26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1744)
+
+**Category:** `tts` · **Labels:** `multilingual`, `generative-model`
 
 **TL;DR** — CrossAccent-TTS introduces an Accent Intensity Controller and an adversarial Accent Suppression Module within a Qwen2.5-based LLM speech synthesizer to enable continuous, fine-grained accent modulation and cross-lingual accent conversion while preserving speaker identity. It achieves lower accent leakage and superior accent similarity compared to baseline systems on both Indic and L2-ARCTIC benchmarks.
 
@@ -67,6 +70,10 @@ Read this paper if you are building multilingual or cross-lingual LLM-based TTS 
 ## Applications
 
 Personalized conversational bots, localized multi-accent voice dubbing, and expressive foreign-language computer-assisted language learning (CALL) tools.
+
+## Institutions / 機構
+
+Sony
 
 ## Related
 

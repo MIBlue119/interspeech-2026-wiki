@@ -1,6 +1,7 @@
 ---
 id: granda26_interspeech
-category: low-resource
+category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/granda26_interspeech.pdf
 *Elizabeth Granda, Edson A. Luna, Andres F. Gonzalez*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/granda26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/granda26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2886)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — Family-aware multilingual data selection for continued pretraining improves low-resource speech SSL transfer, achieving a general task score of 0.50 compared to 0.04 for random selection under strict data constraints.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving automatic speech recognition, language identification, and speaker clustering for underrepresented and low-resource languages.
+
+## Institutions / 機構
+
+Factored AI
 
 ## Related
 

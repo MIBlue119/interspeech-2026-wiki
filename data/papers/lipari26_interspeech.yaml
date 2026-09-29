@@ -10,6 +10,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lipari26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/lipari26_interspeech.pdf
 session: Cross-Linguistic and L2 Phonetic Studies
 topics: [phonetics, prosody, dataset]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "McGill University"
+funding:
+  - "Social Sciences and Humanities Research Council"
+  - "Fonds de recherche du Quebec - Societe et culture"
+  - "Canada Research Chairs"
+  - "Natural Sciences and Engineering Research Council of Canada"
 code:
     url: https://osf.io/m58e3/
     license: ""

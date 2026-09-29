@@ -10,6 +10,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/subedi26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/subedi26_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
 topics: [self-supervised, multilingual, speaker-verification]
+category: speaker
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Howard University"
+funding:
+  - "Office of Naval Research"
+  - "Department of the Navy"
+  - "NIH Common Fund"
+  - "Amazon Research Award"
 code:
     url: ""
     license: ""

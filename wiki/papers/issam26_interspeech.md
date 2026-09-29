@@ -1,6 +1,7 @@
 ---
 id: issam26_interspeech
-category: speech-translation
+category: translation
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/issam26_interspeech.pdf
 *Abderrahmane Issam, Yusuf Can Semerci, Jan Scholtes, Gerasimos Spanakis*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/issam26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/issam26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2278)
+
+**Category:** `translation` · **Labels:** `multilingual`
 
 **TL;DR** — Cross-Modal Robustness Transfer (CMRT) improves end-to-end speech translation (E2E-ST) robustness against morphological variations by 3.4 BLEU points on average using only adversarial text, bypassing the need for costly synthetic speech generation.
 
@@ -67,6 +70,12 @@ Researchers and engineers working on spoken language translation and robustness 
 ## Applications
 
 Robust end-to-end speech translation systems deployed in real-world scenarios involving heavy non-native, accented, or dialectal speech with morphological variations.
+
+## Institutions / 機構
+
+Maastricht University
+
+**Funding / 經費:** European Union Horizon Europe program, SURF Cooperative
 
 ## Related
 

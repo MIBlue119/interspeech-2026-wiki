@@ -1,6 +1,6 @@
 ---
 id: azzouz26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/azzouz26_interspeech.pdf
 *Sofiane Azzouz*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/azzouz26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/azzouz26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-734)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates acoustic-to-articulatory inversion using clean speech instead of noisy MRI-recorded audio, introducing a phonetic-hierarchical alignment method that achieves a competitive mean RMSE of 1.56 mm.
 
@@ -68,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-world silent speech interfaces, computer-assisted language and pronunciation learning, speech therapy, and articulatory-aware speech animation systems.
+
+## Institutions / 機構
+
+Universite de Lorraine, CNRS, Inria
 
 ## Related
 

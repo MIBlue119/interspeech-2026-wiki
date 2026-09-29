@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/drimalla26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/drimalla26_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
 topics: [paralinguistics, emotion-recognition, dataset]
+category: paralinguistics-emotion
+institutions:
+  - "Bielefeld University"
+  - "Ruhr University Bochum"
+funding:
+  - "Deutsche Forschungsgemeinschaft"
 code:
     url: https://github.com/mbp-lab/tsst-speech-stress
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: alyafeai26_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/alyafeai26_interspeech.pdf
 *Mohammed Alyafeai, Hamza Alobeidli, Omar Alkaabi, Shaikha Alsuwaidi, Leen AlQadi, Ahmed Alzubaidi, Maitha Alhammadi, Basma El Amel Boussaha, Hakim Hacid*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/alyafeai26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/alyafeai26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1049)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces Hamsa, an 11-hour manually transcribed and validated monolingual Emirati Arabic speech corpus, and demonstrates that fine-tuning multilingual ASR models on it reduces Word Error Rate from over 40% to 24.46% for Whisper-v2.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Dialect-aware ASR systems, automatic subtitling, call center automation, and local LLM voice interfaces for the UAE market.
+
+## Institutions / 機構
+
+Technology Innovation Institute
 
 ## Related
 

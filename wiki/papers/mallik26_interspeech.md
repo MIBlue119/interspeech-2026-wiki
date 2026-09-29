@@ -1,6 +1,7 @@
 ---
 id: mallik26_interspeech
-category: speech-enhancement
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mallik26_interspeech.pdf
 *Bruhanth Mallik, Chintan Tundia, Kumud Tripathi, Shreyas Nagoor, Pankaj Wasnik*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mallik26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mallik26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-384)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — MAC-VAD is a modality-aligned, cross-attentive audio-visual voice activity detection framework that combines wavelet-based acoustic encoding, EfficientViT visual features, and self-supervised knowledge distillation to achieve 93.52% accuracy and an 86.39% F1-score on a newly adapted multimodal benchmark.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust voice activity detection for video conferencing systems, automated meeting transcription pipelines, and voice-activated smart home assistants operating in noisy acoustic environments.
+
+## Institutions / 機構
+
+Sony
 
 ## Related
 

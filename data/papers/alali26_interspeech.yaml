@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/alali26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/alali26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
 topics: [asr, self-supervised, evaluation]
+category: deepfake-security
+institutions:
+  - "Mohamed bin Zayed University of Artificial Intelligence"
+  - "Maastricht University"
+  - "University of Groningen"
+  - "University of Edinburgh"
 code:
     url: ""
     license: ""

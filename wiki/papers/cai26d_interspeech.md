@@ -1,6 +1,7 @@
 ---
 id: cai26d_interspeech
-category: asr
+category: audio-understanding
+labels: [dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cai26d_interspeech.pdf
 *Yiqiang Cai, Bohan Hu, Yu Yang, Pengwei Lu, Shengchen Li, Xi Shao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cai26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cai26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2350)
+
+**Category:** `audio-understanding` · **Labels:** `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — The paper introduces the Event-Shifted Acoustic Scene (ESAS) dataset to evaluate Acoustic Scene Classification (ASC) robustness against unknown foreground sounds, revealing a severe classification accuracy drop (up to 22%) when models face out-of-distribution event shifts.
 
@@ -65,6 +68,12 @@ Speech and ML researchers focusing on acoustic scene classification or environme
 ## Applications
 
 Robust environmental monitoring, smart-city surveillance systems, context-aware mobile hearing aids, and autonomous vehicle acoustic scene perception.
+
+## Institutions / 機構
+
+Xi'an Jiaotong-Liverpool University, Zhongdian Zhiheng Information Technology Service Co., Ltd, China Telecom Jiangsu Branch, Nanjing University of Posts and Telecommunications
+
+**Funding / 經費:** Jiangsu Provincial Major Science and Technology Project
 
 ## Related
 

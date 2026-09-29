@@ -1,6 +1,7 @@
 ---
 id: tanner26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tanner26_interspeech.pdf
 *James Tanner, Morgan Sonderegger, Jane Stuart-Smith, Tyler Kendall, Jeff Mielke*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tanner26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tanner26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-743)
+
+**Category:** `phonetics-linguistics` · **Labels:** `self-supervised`
 
 **TL;DR** — wav2VOT adapts the wav2vec2 architecture to automatically estimate voice onset time (VOT), closure duration, and burst realisation at a 1ms temporal resolution. Evaluated across multiple speech datasets, it achieves high predictive fidelity comparable to existing domain-specific tools like AutoVOT while handling a broader set of stop consonant features.
 
@@ -64,6 +67,12 @@ Phoneticians, speech scientists, and ML researchers building automated speech an
 ## Applications
 
 Automated acoustic phonetic annotation, clinical speech analysis, large-scale sociolinguistic corpus processing, and phonetic feature extraction for speech corpora.
+
+## Institutions / 機構
+
+University of Glasgow, McGill University, University of Oregon, North Carolina State University
+
+**Funding / 經費:** Economic and Social Research Council, Natural Sciences and Engineering Research Council of Canada, Social Sciences and Humanities Research Council, National Science Foundation, Canada Research Chairs, British Academy, University of Glasgow
 
 ## Related
 

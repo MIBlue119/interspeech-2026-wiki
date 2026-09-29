@@ -1,6 +1,7 @@
 ---
 id: mou26_interspeech
-category: tts
+category: deepfake-security
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mou26_interspeech.pdf
 *Zhenwei Mou, Weili Jiang, Liping Chen, Zhen-Hua Ling, Kong Aik Lee, Kai Gao, Boyu Zhao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mou26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mou26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2298)
+
+**Category:** `deepfake-security` · **Labels:** `generative-model`
 
 **TL;DR** — DuraMark is an information-level speech watermarking framework for LLM-based TTS that embeds watermarks via syllable duration editing, achieving a mean TPR of 99.3% across diverse generative attacks.
 
@@ -66,6 +69,10 @@ Researchers building robust speech attribution systems against generative neural
 ## Applications
 
 Tracing deepfake speech misuse, content authenticity verification for AI-generated synthetic voice services, and broadcast media provenance tracking.
+
+## Institutions / 機構
+
+University of Science and Technology of China, Institute of Forensic Science, Ministry of Public Security, Hong Kong Polytechnic University
 
 ## Related
 

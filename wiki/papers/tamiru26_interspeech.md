@@ -1,6 +1,7 @@
 ---
 id: tamiru26_interspeech
 category: tts
+labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tamiru26_interspeech.pdf
 *Rahel Mekonen Tamiru, Solomon Teferra Abate, Martha Yifiru Tachbelie, Abel Mulat Alemu, Samuel Rahimeto Kebede, Rosa Tsegaye Aga*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tamiru26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tamiru26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2658)
+
+**Category:** `tts` · **Labels:** `low-resource`, `multilingual`, `self-supervised`, `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — This paper presents high-quality text-to-speech (TTS) systems for Amharic and Afan Oromo by fine-tuning SpeechT5 on a newly collected 200-hour studio-quality multi-speaker corpus, achieving human mean opinion scores (MOS) of 4.65 and 4.43, respectively.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Screen readers, virtual assistants, and accessibility tools for Ethiopian languages.
+
+## Institutions / 機構
+
+Ethiopian Artificial Intelligence Institute, Addis Ababa University
 
 ## Related
 

@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/marttila26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/marttila26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/marttila26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2043)
 
+**Category:** `tts`
+
 **TL;DR** — The paper introduces a differentiable, perceptually-informed auditory pitch distance metric using computational auditory models to provide informative gradients for DDSP models without external fundamental frequency estimators, achieving up to 96.9% coarse gradient accuracy on complex synthetic signals.
 
 ## Key contributions
@@ -67,6 +69,12 @@ Speech and audio researchers working on DDSP and end-to-end generative models sh
 ## Applications
 
 End-to-end training of DDSP-based neural speech and singing synthesis systems without external pitch estimators.
+
+## Institutions / 機構
+
+Queen Mary University of London
+
+**Funding / 經費:** UK Research and Innovation
 
 ## Related
 

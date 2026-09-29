@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26m_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26m_interspeech.pdf
 session: Multimodal Speech Processing and Speech LLM Systems
 topics: [paralinguistics, emotion-recognition, self-supervised]
+category: paralinguistics-emotion
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Auckland"
+  - "Indian Institute of Technology Jammu"
 code:
     url: https://github.com/MaoriEnglish-Codeswitch/MultiEmoVec
     license: ""

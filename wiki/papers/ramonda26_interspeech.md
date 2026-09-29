@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ramonda26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ramonda26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ramonda26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2439)
 
+**Category:** `asr`
+
 **TL;DR** — This study demonstrates that modern end-to-end ASR models exhibit near-perfect orthogonality between text readability and transcription error (WER), showing no artificial cognitive load despite challenging acoustic degradations.
 
 ## Key contributions
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Design of digital accessibility tools, such as text-optimized audio guides for museums tailored for individuals with cognitive disabilities, utilizing modular script pre-processing without risking downstream ASR interference.
+
+## Institutions / 機構
+
+IRIT, CNRS, Université de Toulouse, Queensland University of Technology
 
 ## Related
 

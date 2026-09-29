@@ -1,6 +1,7 @@
 ---
 id: alizadeh26_interspeech
 category: asr
+labels: [low-resource, multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/alizadeh26_interspeech.pdf
 *Hadi Alizadeh, Mohammad Asgari, Mohammad Sadegh Mehrabikia, Amir Koohnavard*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/alizadeh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/alizadeh26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2454)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces the Toorintan-Persian Informal Dataset (T-PID), a 36.77-hour parallel informal Persian-English corpus, and demonstrates that fine-tuning models on informal conversational speech dramatically improves ASR and speech translation accuracy across both informal and formal domains.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-world conversational speech recognition, voice assistants, and speech-to-text translation systems handling informal, colloquial Persian media and dialogue.
+
+## Institutions / 機構
+
+Toorintan, Islamic Republic of Iran Broadcasting University
+
+**Funding / 經費:** Toorintan Company
 
 ## Related
 

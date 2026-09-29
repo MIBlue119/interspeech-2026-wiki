@@ -1,6 +1,7 @@
 ---
 id: gu26b_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gu26b_interspeech.pdf
 *Hujian Gu, Li Tao, Fei Jiang, Ying Wang, Jingwei Qu, Zhaofang Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1303)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — ProWhistress is a dual-stream alignment-free transcription and sentence stress detection architecture that combines a frozen Whisper semantic backbone with a trainable explicit acoustic encoder via bottleneck cross-attention and gated residual fusion, achieving an F1 score of 0.959 on TinyStress-15k.
 
@@ -67,6 +70,12 @@ Speech and ML researchers working on paralinguistics, prosody modeling, or end-t
 ## Applications
 
 Rich transcription in automatic speech recognition, automated prosodic feedback in computer-assisted language learning (CALL), and expressive text-to-speech (TTS) synthesis.
+
+## Institutions / 機構
+
+Southwest University, Chongqing Academy of Science and Technology
+
+**Funding / 經費:** Chongqing Academy of Science and Technology Basic Research Funding
 
 ## Related
 

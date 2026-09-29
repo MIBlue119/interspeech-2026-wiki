@@ -1,6 +1,7 @@
 ---
 id: rautenberg26_interspeech
-category: voice-conversion
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rautenberg26_interspeech.pdf
 *Frederik Rautenberg, Fritz Seebauer, Petra Wagner, Reinhold Haeb-Umbach*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rautenberg26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rautenberg26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1341)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper proposes a hierarchical conditional continuous normalizing flow architecture that structurally disentangles high-level speaker attributes from low-level voice qualities to edit creaky voice without altering speaker identity. It achieves improved speaker similarity in subjective tests compared to flat baseline flows.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Training data augmentation for speech therapy educational tools, fine-grained expressive text-to-speech synthesis, and precise voice style editing.
+
+## Institutions / 機構
+
+Paderborn University, Bielefeld University
 
 ## Related
 

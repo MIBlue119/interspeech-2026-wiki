@@ -1,6 +1,7 @@
 ---
 id: borodin26_interspeech
-category: tts
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/borodin26_interspeech.pdf
 *Kirill Borodin, Nikita Vasiliev, Vasiliy Kudryavtsev, Maxim Maslov, Mikhail Gorodnichev, Grach Mkrtchian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/borodin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/borodin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-83)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — Balalaika is a data-centric, modular open-source pipeline for processing raw Russian audio into a 5,100-hour prosody-aware corpus, yielding consistent performance gains in speech denoising and TTS under equalized training budgets.
 
@@ -65,6 +68,10 @@ Researchers and engineers building Russian speech generation systems or looking 
 ## Applications
 
 Training high-naturalness text-to-speech (TTS) systems, robust speech denoising models, and automated large-scale speech corpus mining pipelines for morphologically complex languages.
+
+## Institutions / 機構
+
+Moscow Technical University of Communications and Informatics, BitmanagerAI
 
 ## Related
 

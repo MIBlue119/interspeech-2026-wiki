@@ -1,6 +1,7 @@
 ---
 id: dinh26_interspeech
-category: speech-separation
+category: enhancement-separation
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dinh26_interspeech.pdf
 *Nhu Minh Phuong Dinh, Roland Hartanto, Koichi Shinoda*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dinh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dinh26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2296)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`
 
 **TL;DR** — RVQ-Grid is a speech separation model operating in the compressed latent space of Neural Audio Codecs that preserves the coarse-to-fine acoustic hierarchy by stacking Residual Vector Quantization layers into a 3D grid, achieving a +3.6 dB SI-SDRi improvement over prior codec-based methods while requiring 6x fewer MACs than waveform transformers.
 
@@ -65,6 +68,12 @@ Speech and ML researchers working on compressed-domain audio processing should r
 ## Applications
 
 On-device speech enhancement and separation, bandwidth-efficient cloud-edge audio transmission, and preprocessing for downstream ASR systems in telecommunications.
+
+## Institutions / 機構
+
+Institute of Science Tokyo
+
+**Funding / 經費:** JSPS KAKENHI
 
 ## Related
 

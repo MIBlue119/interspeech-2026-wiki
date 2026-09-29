@@ -1,6 +1,6 @@
 ---
 id: stasica26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/stasica26_interspeech.pdf
 *Elio Stasica, Clément Joly, Amandine Lecomte, Vincent P. Martin, Romain Serizel, Emmanuel Vincent, Tahar Chouihed*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/stasica26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/stasica26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1265)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper evaluates whether speech emotion recognition (SER) adds predictive value to automatic emergency call triage using 250 real French emergency calls. Results show that categorical and dimensional emotions fail to outperform or reliably augment basic metadata (age, sex, and speaker role) in predicting clinically grounded priority levels.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Emergency call center analytics, clinical triage decision-support systems, and robust speech affective computing evaluation.
+
+## Institutions / 機構
+
+University of Lorraine, CNRS, Inria, CHRU-Nancy, INSERM
+
+**Funding / 經費:** Grand Est ENACT AI Cluster
 
 ## Related
 

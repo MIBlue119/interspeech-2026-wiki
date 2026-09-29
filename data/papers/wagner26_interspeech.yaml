@@ -8,6 +8,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wagner26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/wagner26_interspeech.pdf
 session: Robust and Efficient ASR
 topics: [asr, self-supervised, low-resource]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "nyra health"
 code:
     url: https://github.com/nyrahealth/CrisperWhisper
     license: ""

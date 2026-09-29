@@ -1,6 +1,7 @@
 ---
 id: yu26d_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yu26d_interspeech.pdf
 *Hogeon Yu, SeongHun Noh, Hyunsik Choi, Sihyun Joo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yu26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yu26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1631)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — Sweep-RSE is a lightweight, strictly causal region-of-interest speech extraction framework that replaces implicit spatial conditioning with an explicit Align & Sweep mechanism, achieving an SI-SDR of 12.88 dB on realistic multi-talker stress tests while requiring only 1.66M parameters.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time smart hearing aids, AR/VR spatial audio communication systems, and edge-based directional voice command interfaces.
+
+## Institutions / 機構
+
+Hyundai Motor Company
 
 ## Related
 

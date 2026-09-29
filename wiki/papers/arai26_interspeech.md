@@ -1,6 +1,6 @@
 ---
 id: arai26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/arai26_interspeech.pdf
 *Takayuki Arai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/arai26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/arai26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-840)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper evaluates the VTM-UT30-D9 physical dynamic vocal-tract model controlled via linear and rotating cams to simulate articulatory phonology, demonstrating natural coarticulation and vowel epenthesis phenomena. Acoustic measurements and ASR evaluations show that temporal gesture offsets cause abrupt perceptual transitions and targetless schwa insertion.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Educational tools in phonetics and speech science, speech pathology rehabilitation models, and physical acoustic validation of speech synthesis algorithms.
+
+## Institutions / 機構
+
+Sophia University
+
+**Funding / 經費:** JSPS KAKENHI, Sophia University
 
 ## Related
 

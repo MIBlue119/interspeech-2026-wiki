@@ -1,6 +1,7 @@
 ---
 id: sultana26_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [efficient-on-device, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sultana26_interspeech.pdf
 *Subrina Sultana, Donald S. Williamson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sultana26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sultana26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1607)
+
+**Category:** `resources-evaluation` · **Labels:** `efficient-on-device`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — The paper introduces FASQA, a parameter-efficient, fine-grained acoustically-aware self-supervised speech encoder designed for speech quality assessment (MOS prediction) that explicitly incorporates noise and reverberation characteristics. Despite having only 15M parameters, the large-dataset variant achieves performance competitive with massive 86M-parameter models like Dasheng.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech quality assessment, real-time voice communication monitoring, and telecom network testing on resource-constrained devices.
+
+## Institutions / 機構
+
+Ohio State University
+
+**Funding / 經費:** National Science Foundation, Ohio Supercomputer Center
 
 ## Related
 

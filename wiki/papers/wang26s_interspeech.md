@@ -1,6 +1,7 @@
 ---
 id: wang26s_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26s_interspeech.pdf
 *Haoxu Wang, Biao Tian, Weiqing Li, Xiang Lv, Han Zhao, Xiangang Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26s_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26s_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1102)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — FlowTTS-GRPO is an online reinforcement learning framework that fine-tunes flow-matching (FM) text-to-speech models by converting ODE trajectories into stochastic differential equation paths, achieving state-of-the-art speaker similarity on Seed-TTS-Eval-zh.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Zero-shot voice cloning, expressive text-to-speech generation, multi-lingual dubbing, and high-fidelity speech synthesis.
+
+## Institutions / 機構
+
+Alibaba Group
 
 ## Related
 

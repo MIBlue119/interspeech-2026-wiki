@@ -1,6 +1,7 @@
 ---
 id: seo26_interspeech
 category: asr
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/seo26_interspeech.pdf
 *Jean Seo, Minkyu Kim, Jeonguk Lee, Jisoo Jung, Wooseok Han, Eunho Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/seo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/seo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1126)
+
+**Category:** `asr` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — MultiClin is a new clinical ASR benchmark designed to evaluate non-English speech recognition systems under multiscript variability, where English medical terms can be written in native phonetic loanwords or Roman script. The authors show that multiscript-aware evaluation and 100% script unification during fine-tuning dramatically improve model accuracy.
 
@@ -69,6 +72,10 @@ Speech and ML researchers building ASR systems for non-English, domain-specific 
 ## Applications
 
 Clinical dictation systems, automated medical scribe applications, and multilingual healthcare speech recognition workflows.
+
+## Institutions / 機構
+
+AITRICS, University of Copenhagen, KAIST
 
 ## Related
 

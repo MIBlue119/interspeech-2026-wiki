@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wiechmann26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/wiechmann26_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 1
 topics: [speech-enhancement, evaluation, paralinguistics]
+category: health-clinical
+labels:
+  - "generative-model"
+institutions:
+  - "Bielefeld University"
+  - "Paderborn University"
+funding:
+  - "Deutsche Forschungsgemeinschaft"
 code:
     url: ""
     license: ""

@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/takizawa26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/takizawa26_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
 topics: [self-supervised, multilingual, asr]
+category: asr
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "National Institute of Advanced Industrial Science and Technology"
+  - "Carnegie Mellon University"
+funding:
+  - "Programs for Bridging the gap between R&D and the IDeal society (society 5.0) and Generating Economic and social value (BRIDGE)"
+  - "R&D on Generative AI Foundation Models for the Physical Domain"
 code:
     url: ""
     license: ""

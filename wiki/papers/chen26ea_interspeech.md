@@ -1,6 +1,6 @@
 ---
 id: chen26ea_interspeech
-category: spoken-language-understanding
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26ea_interspeech.pdf
 *Po-Yen Chen, Berlin Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26ea_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26ea_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3369)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — Semantic Frame-Level Multi-Task Self-Consistency (SFL-MTSC) is a structured inference aggregation framework that resolves decoding stochasticity in multi-intent spoken language understanding (SLU) by filtering and re-integrating intent-specific semantic frames across multiple paths. It improves end-to-end overall accuracy by up to 1.75% and slot F1 by up to 28.86% in zero-shot settings.
 
@@ -69,6 +71,12 @@ Speech and NLP engineers working on zero-shot multi-intent spoken language under
 ## Applications
 
 Smart home voice assistants, in-vehicle infotainment control systems, and task-oriented dialogue agents requiring robust multi-intent semantic extraction from speech or text.
+
+## Institutions / 機構
+
+National Taiwan Normal University
+
+**Funding / 經費:** Realtek Semiconductor Corporation
 
 ## Related
 

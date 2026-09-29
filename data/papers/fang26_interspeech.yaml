@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/fang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/fang26_interspeech.pdf
 session: 'Speaker Verification: Architectures, Losses, and LLMs'
 topics: [speaker-verification, self-supervised, dataset]
+category: speaker
+labels:
+  - "robustness-noise"
+institutions:
+  - "Xinjiang University"
+  - "Tsinghua University"
+  - "AGIBOT"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

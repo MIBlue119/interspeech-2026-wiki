@@ -1,6 +1,6 @@
 ---
 id: gong26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gong26_interspeech.pdf
 *Chen Gong, Lei Zhou, Chen Huang, Hongqing Liu, Liming Shi, Lu Gan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-182)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — NCPSZ is a nonlinear control network designed for personal sound zones that suppresses acoustic sound leakage from miniature smartphone loudspeakers, achieving a 3.78 dB acoustic contrast improvement over linear baselines.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smartphone privacy screen technologies, personal sound zones, hands-free telephony sound leakage prevention, and directional acoustic devices.
+
+## Institutions / 機構
+
+Chongqing University of Posts and Telecommunications, Brunel University
 
 ## Related
 

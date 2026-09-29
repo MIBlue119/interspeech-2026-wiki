@@ -15,6 +15,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/fu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/fu26_interspeech.pdf
 session: Quality, Intelligibility and Evaluation of Speech and Codecs
 topics: [paralinguistics, evaluation, self-supervised]
+category: resources-evaluation
+labels:
+  - "self-supervised"
+institutions:
+  - "Tsinghua University"
+  - "Institute of Forensic Science, Ministry of Public Security"
 code:
     url: https://cadenzachallenge.org/docs/clip1/baseline
     license: ""

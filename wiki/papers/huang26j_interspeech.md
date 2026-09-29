@@ -1,6 +1,7 @@
 ---
 id: huang26j_interspeech
-category: tts
+category: applications-other
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26j_interspeech.pdf
 *Rongjie Huang, Weidong Chen, Helen Meng, Xixin Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1546)
+
+**Category:** `applications-other` · **Labels:** `generative-model`
 
 **TL;DR** — SignMatch is a unified sign language video generation framework that combines an LLM-guided pose-latent diffusion model with a motion-aware video renderer, optimized via multi-dimensional Flow-GRPO to improve semantic and visual faithfulness. On RWTH-2014T, it raises BLEU-4 from 7.9 to 11.3 and improves FVD from 967 to 914 compared to the strongest baseline.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Assistive communication systems for deaf and hard-of-hearing individuals, educational content creation, and automated translation interfaces for spoken-to-sign language.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong
+
+**Funding / 經費:** Centre for Perceptual and Interactive Intelligence, InnoHK
 
 ## Related
 

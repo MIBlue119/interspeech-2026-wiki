@@ -1,6 +1,7 @@
 ---
 id: park26d_interspeech
-category: speech-enhancement
+category: deepfake-security
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26d_interspeech.pdf
 *Sungho Park, Thien An Nguyen, Souhwan Jung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-953)
+
+**Category:** `deepfake-security` · **Labels:** `robustness-noise`
 
 **TL;DR** — A codec-aware adaptive restoration framework uses a ConvNeXt-based U-Net and a classifier to reconstruct spectrograms degraded by neural audio codecs, raising watermark bitwise accuracy from random guessing to over 98% for multi-codebook RVQ codecs.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Audio content verification, deepfake detection tracking, tracing ownership of synthetic speech, and intellectual property protection for generative text-to-speech outputs.
+
+## Institutions / 機構
+
+Soongsil University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea government, Korea Internet & Security Agency
 
 ## Related
 

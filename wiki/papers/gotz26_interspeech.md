@@ -1,6 +1,7 @@
 ---
 id: gotz26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gotz26_interspeech.pdf
 *Georg Götz, Alessia Milo, Steinar Guðjónsson, Daniel Gert Nielsen, Jesper Pedersen, Finnur Pind*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gotz26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gotz26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2512)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper investigates how the fidelity of room-acoustic simulation data augmentation impacts multichannel speech enhancement, showing that training SpatialNet on high-fidelity hybrid wave-geometrical simulations yields up to a 38% relative reduction in median word error rate on measured data compared to standard uninformed geometrical acoustics.
 
@@ -61,6 +64,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart speakers, conference room hardware, automotive voice assistants, and hearing aids operating in reverberant environments with background noise and overlapping speakers.
+
+## Institutions / 機構
+
+Treble Technologies
 
 ## Related
 

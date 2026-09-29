@@ -16,6 +16,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/srivastav26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/srivastav26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
 topics: [asr, multilingual, evaluation]
+category: resources-evaluation
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Hugging Face"
+  - "NVIDIA"
+  - "University of Cambridge"
+  - "Mistral AI"
+  - "OpenAI"
 code:
     url: https://github.com/huggingface/open_asr_
     license: ""

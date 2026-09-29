@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sanjotra26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/sanjotra26_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
 topics: [tts, evaluation, self-supervised]
+category: resources-evaluation
+labels:
+  - "self-supervised"
+institutions:
+  - "Indian Institute of Technology Indore"
+  - "University of Groningen"
+funding:
+  - "IEEE Signal Processing Society Signal Processing Mentorship Academy"
 code:
     url: ""
     license: ""

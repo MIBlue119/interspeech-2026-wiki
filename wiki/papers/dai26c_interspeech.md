@@ -1,6 +1,7 @@
 ---
 id: dai26c_interspeech
 category: tts
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dai26c_interspeech.pdf
 *Zheqi Dai, Guangyan Zhang, Zhen Ye, Jingyu Li, Haolin He, Chunyat Wu, Yiwen Guo, Qiuqiang Kong*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dai26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dai26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-791)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — The paper introduces a latent-space MeanFlow token-to-waveform decoder that eliminates multi-step iterative sampling, achieving a 17x real-time factor speedup with minimal perceptual quality loss.
 
@@ -65,6 +68,10 @@ Speech and ML engineers working on real-time interactive voice assistants or on-
 ## Applications
 
 Real-time interactive text-to-speech, edge and on-device voice generation, and low-latency LLM-based multimodal spoken dialog systems.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Tencent, Hong Kong University of Science and Technology
 
 ## Related
 

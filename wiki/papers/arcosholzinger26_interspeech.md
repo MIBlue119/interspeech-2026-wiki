@@ -1,6 +1,7 @@
 ---
 id: arcosholzinger26_interspeech
-category: self-supervised
+category: asr
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/arcosholzinger26_interspeech.
 *Sandra Arcos-Holzinger, Sarah M. Erfani, James Bailey, Sanjeev Khudanpur*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/arcosholzinger26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/arcosholzinger26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2719)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — GRIDS is a framework that uses layer-wise Local Intrinsic Dimensionality (LID) to analyze geometric deformations in self-supervised speech models under perturbation, achieving 0.78 to 1.00 AUROC for transcript-free anomaly detection.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Transcript-free anomaly and adversarial attack detection for deployed self-supervised speech recognition systems and online audio security monitoring pipelines.
+
+## Institutions / 機構
+
+University of Melbourne, Monash University, Johns Hopkins University
+
+**Funding / 經費:** Australian Government Research Training Program Scholarship
 
 ## Related
 

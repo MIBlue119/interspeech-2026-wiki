@@ -22,6 +22,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.pdf
 session: Datasets
 topics: [asr, tts, speaker-identification]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Alibaba Group"
+  - "Nankai University"
+  - "Fudan University"
+funding:
+  - "Alibaba Innovative Research Program"
 code:
     url: https://github.com/RVC-Boss/GPT-SoVITS
     license: ""

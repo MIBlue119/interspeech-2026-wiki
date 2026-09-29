@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nema26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nema26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nema26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-907)
 
+**Category:** `asr`
+
 **TL;DR** — A post-ASR proper noun grounding framework combines fine-grained G2P, coarse Soundex, and contextual semantic embeddings to link noisy ASR entity mentions to a predefined lexicon via normalized score fusion. This ASR-agnostic multi-view retrieval boosts Recall@1 by 36.4 percentage points for Whisper-large-v3 and 23.55 points for Qwen3-ASR-1.7B without modifying the base models.
 
 ## Key contributions
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Post-processing medical, legal, or technical ASR transcripts to accurately ground named entities for clinical decision support, electronic health record indexing, and human verification pipelines.
+
+## Institutions / 機構
+
+Augnito
 
 ## Related
 

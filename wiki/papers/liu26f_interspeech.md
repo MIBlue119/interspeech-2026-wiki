@@ -1,6 +1,7 @@
 ---
 id: liu26f_interspeech
-category: speech-llm
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.pdf
 *Jun Liu, Pengfei Cai, Yanfeng Shi, Qing Gu, Nan Jiang, Lirong Dai, Yan Song*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-731)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — A semantic-anchor-based framework for open-vocabulary sound event detection uses learnable reference tokens and bidirectional attention to robustly detect novel sound classes. It achieves a state-of-the-art 34.9 PSDS_r on rare classes of AudioSet-Strong and 44.1 zero-shot PSDS1 on DESED.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart home monitoring systems, acoustic anomaly detection in intelligent driving, and environmental perception modules for multimodal audio-language LLMs.
+
+## Institutions / 機構
+
+University of Science and Technology of China
+
+**Funding / 經費:** Anhui Province Major Science and Technology Research Project
 
 ## Related
 

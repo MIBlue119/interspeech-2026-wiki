@@ -1,6 +1,7 @@
 ---
 id: sato26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sato26_interspeech.pdf
 *Hiroshi Sato, Takafumi Moriya, Tsubasa Ochiai, Marc Delcroix*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sato26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sato26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2997)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — The paper introduces Latency-Controllable Speech Enhancement, a framework that uses lightweight Latency Control Adapters (LCAs) on a shared backbone to support multiple streaming latency budgets in a single model. This approach reduces stored parameters by 76% compared to maintaining separate models while improving average speech enhancement quality through intra-batch multi-latency training.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time teleconferencing apps, VoIP clients, hearing aids, and voice-controlled IoT devices that require dynamic adjustment of audio processing delay depending on network conditions or hardware constraints.
+
+## Institutions / 機構
+
+NTT
 
 ## Related
 

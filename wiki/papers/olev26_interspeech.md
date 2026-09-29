@@ -1,6 +1,6 @@
 ---
 id: olev26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/olev26_interspeech.pdf
 *Aivo Olev, Tanel Alumäe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/olev26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/olev26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3297)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — A multi-source ensemble framework combining dual speech LLMs and 25 reliability-tiered acoustic tools achieved first place in the Interspeech 2026 Audio Reasoning Challenge, scoring 69.8 on reasoning quality and 76.9% accuracy on the MMAR benchmark.
 
@@ -65,6 +67,12 @@ Read this paper to learn how to construct agentic speech pipelines that combine 
 ## Applications
 
 Verifiable audio question answering, multi-modal educational tutoring systems, and auditable audio content moderation.
+
+## Institutions / 機構
+
+Tallinn University of Technology
+
+**Funding / 經費:** Estonian Centre of Excellence in Artificial Intelligence (EXAI), Estonian Ministry of Education and Research, National Program for Estonian Language Technology Program, Estonian Language Data Research Infrastructure (KeTA)
 
 ## Related
 

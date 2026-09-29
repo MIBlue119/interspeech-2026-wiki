@@ -1,6 +1,7 @@
 ---
 id: ilerisoy26_interspeech
-category: zero-shot
+category: health-clinical
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.pdf
 *Mustafa Talha İlerisoy, Hung Manh Pham, Mathias Funk, Mykola Pechenizkiy, Aaqib Saeed*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2235)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — REACH aligns pre-trained unimodal respiratory encoders with medical text using LLM-synthesized reports and similarity-aware negative sampling, achieving a 61.3% mean zero-shot AUC across 9 tasks on 6 datasets while using 57% less training data than full-scale baselines.
 
@@ -65,6 +68,12 @@ Researchers and engineers working on clinical audio foundation models will learn
 ## Applications
 
 Automated zero-shot screening and diagnostic support for respiratory pathologies using acoustic auscultation and cough recordings in low-resource clinical settings.
+
+## Institutions / 機構
+
+Eindhoven University of Technology, Singapore Management University
+
+**Funding / 經費:** NWO AiNed Fellowship Grant, Google.org, Google Cloud Research Credits program
 
 ## Related
 

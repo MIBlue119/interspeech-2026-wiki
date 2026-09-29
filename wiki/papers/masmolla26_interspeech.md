@@ -1,6 +1,7 @@
 ---
 id: masmolla26_interspeech
 category: asr
+labels: [self-supervised, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/masmolla26_interspeech.pdf
 *Gerard Mas Mollà, Albert Sanchis, Alfons Juan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/masmolla26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/masmolla26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3358)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `streaming-real-time`
 
 **TL;DR** — A model-agnostic, training-free streaming ASR pipeline wraps around black-box speech foundation models using sliding windows, timestamp filtering, and text-only emission policies, achieving near-offline transcription quality.
 
@@ -65,6 +68,12 @@ Speech and ML engineers looking to deploy large off-the-shelf speech foundation 
 ## Applications
 
 Real-time automatic speech recognition, live captioning, and simultaneous speech transcription using black-box foundation models.
+
+## Institutions / 機構
+
+Universitat Politecnica de Valencia
+
+**Funding / 經費:** Government of Spain
 
 ## Related
 

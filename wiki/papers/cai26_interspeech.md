@@ -1,6 +1,6 @@
 ---
 id: cai26_interspeech
-category: speech-enhancement
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cai26_interspeech.pdf
 *Ying Cai, Yuting Ding, Xuefei Wang, Fei Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cai26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cai26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-143)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper investigates how individual formant trajectories (F1, F2, F3) contribute to the intelligibility of cochlear implant (CI) simulated speech using sine-wave vocoding, demonstrating that while F2 is generally most critical, CI processor settings like the number of frequency bands can flip this hierarchy.
 
@@ -67,6 +69,12 @@ Speech engineers and audiologists designing next-generation cochlear implant pro
 ## Applications
 
 Optimization of cochlear implant speech processor algorithms, channel allocation strategies, and speech testing protocols.
+
+## Institutions / 機構
+
+Southern University of Science and Technology
+
+**Funding / 經費:** National Key Research and Development Program of China, National Natural Science Foundation of China
 
 ## Related
 

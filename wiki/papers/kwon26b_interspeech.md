@@ -1,6 +1,7 @@
 ---
 id: kwon26b_interspeech
 category: asr
+labels: [low-resource, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kwon26b_interspeech.pdf
 *Jinuk Kwon, Beiming Cao, Carl Sigmond, Kristin Teplansky, Jun Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kwon26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kwon26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1326)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper investigates automatic speech recognition for severely dysarthric speech with very low intelligibility using a unique 100-hour single-speaker dataset, showing that fine-tuned Whisper and BLSTM-HMM models achieve word error rates below 14% in speaker-dependent settings. Furthermore, fine-tuning Whisper on severe dysarthria yields a 6.4 percentage point WER improvement for other severe speakers on the TORGO dataset without degrading performance on mild or moderate cases.
 
@@ -70,6 +73,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice-driven assistive communication devices, silent speech interfaces, and text-to-speech pipelines for individuals with severe motor speech disorders.
+
+## Institutions / 機構
+
+University of Texas at Austin
+
+**Funding / 經費:** National Institute on Deafness and Other Communication Disorders, National Institutes of Health
 
 ## Related
 

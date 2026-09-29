@@ -10,6 +10,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lanzendoerfer26_interspe
 pdf_url: https://www.isca-archive.org/interspeech_2026/lanzendoerfer26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [evaluation, speech-enhancement, self-supervised]
+category: resources-evaluation
+institutions:
+  - "ETH Zurich"
 code:
     url: ""
     license: ""

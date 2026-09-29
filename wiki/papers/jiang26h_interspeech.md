@@ -1,6 +1,7 @@
 ---
 id: jiang26h_interspeech
 category: speech-coding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jiang26h_interspeech.pdf
 *Xiao-Hang Jiang, Yang Ai, Fei Liu, Rui-Chen Zheng, Jian-Qing Gao, Zhen-Hua Ling, Ji Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jiang26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jiang26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3506)
+
+**Category:** `speech-coding` · **Labels:** `generative-model`
 
 **TL;DR** — P2PSynCodec is an ultra-low-bitrate neural speech codec that uses a plain-to-pseudo synergistic vector quantizer (P2PSVQ) to transmit a single basic token while using decoder-side neural predictors to generate zero-bitrate auxiliary tokens, matching the quality of 2.0 kbps codecs at just 0.5 kbps.
 
@@ -68,6 +71,12 @@ Speech and audio compression researchers targeting ultra-low bandwidth settings 
 ## Applications
 
 Satellite communications, emergency radio links, IoT voice interfaces, and extreme on-device audio storage.
+
+## Institutions / 機構
+
+University of Science and Technology of China, iFLYTEK, Tsinghua University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

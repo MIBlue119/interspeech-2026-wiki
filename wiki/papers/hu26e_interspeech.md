@@ -1,6 +1,6 @@
 ---
 id: hu26e_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hu26e_interspeech.pdf
 *Chia-Yu Hu, Xuanjun Chen, Sung-Feng Huang, Haibin Wu, Hung-yi Lee, Jyh-Shing Roger Jang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hu26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hu26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1614)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — Sing-HiResNet introduces a joint fullband-subband modeling framework operating on 44.1 kHz high-resolution audio to detect singing voice deepfakes, achieving state-of-the-art Equal Error Rates (EER) of 1.58% on Test A and 7.45% on Test B.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Singing voice deepfake detection for content moderation, copyright protection, and media authenticity verification in music streaming platforms.
+
+## Institutions / 機構
+
+National Taiwan University, NVIDIA
+
+**Funding / 經費:** Ministry of Education of Taiwan, Taiwan Centers of Excellence in Artificial Intelligence
 
 ## Related
 

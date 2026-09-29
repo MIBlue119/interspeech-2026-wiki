@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhao26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26i_interspeech.pdf
 session: Language-Model and Codec-Token Speech Enhancement
 topics: [speech-enhancement, self-supervised, generative-model]
+category: enhancement-separation
+labels:
+  - "generative-model"
+institutions:
+  - "Ghent University"
+  - "imec"
 code:
     url: https://aspire.ugent.be/demos/INTERSPEECH2026HZ/
     license: ""

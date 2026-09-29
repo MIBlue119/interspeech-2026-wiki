@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mylvaganam26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/mylvaganam26_interspeech.pdf
 session: Speech and Language Representation
 topics: [asr, low-resource, multilingual]
+category: speaker
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "University of New South Wales"
+  - "University of Melbourne"
+  - "Massachusetts Institute of Technology"
+funding:
+  - "School of Electrical Engineering and Telecommunications at UNSW Sydney"
 code:
     url: ""
     license: ""

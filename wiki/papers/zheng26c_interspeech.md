@@ -1,6 +1,7 @@
 ---
 id: zheng26c_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zheng26c_interspeech.pdf
 *Zhisheng Zheng, Xiaohang Sun, Zhu Liu, Caren Chen, Rohith Kumar, Manoj Aggarwal, Gerard Medioni, David Harwath*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zheng26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zheng26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1760)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — CtrlSpeech is a text-to-speech framework that integrates global speaker embeddings with phone-aligned pitch, loudness, and duration signals on a diffusion-autoregressive backbone, achieving strong zero-shot voice cloning and precise fine-grained prosody control. On Seed-TTS, the 0.6B model reaches 2.58% WER and 0.63 speaker similarity (SIM-o).
 
@@ -67,6 +70,12 @@ Speech synthesis researchers building controllable or diffusion-autoregressive T
 ## Applications
 
 Interactive audio production suites, voice dubbing tools requiring precise pitch and pacing alterations, and audiobook editing systems.
+
+## Institutions / 機構
+
+University of Texas at Austin, Amazon
+
+**Funding / 經費:** Amazon.com
 
 ## Related
 

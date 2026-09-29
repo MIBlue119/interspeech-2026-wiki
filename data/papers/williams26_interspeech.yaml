@@ -8,6 +8,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/williams26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/williams26_interspeech.pdf
 session: 'Safeguards for Synthetic Speech: Ethical, Technical, and Legal Perspectives'
 topics: [speech-llm, speaker-verification, voice-conversion]
+category: deepfake-security
+institutions:
+  - "University of Southampton"
+funding:
+  - "EPSRC National EdgeAI Hub"
+  - "EPSRC Responsible AI UK"
+  - "Research England Higher Education Innovation Fund WSI Knowledge Exchange Fund"
 code:
     url: ""
     license: ""

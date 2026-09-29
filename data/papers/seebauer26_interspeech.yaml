@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/seebauer26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/seebauer26_interspeech.pdf
 session: Speech Synthesis Evaluation 1
 topics: [tts, evaluation, spoken-language-understanding]
+category: resources-evaluation
+institutions:
+  - "Bielefeld University"
+funding:
+  - "Ministry of Culture and Science of the State of North Rhine-Westphalia"
+  - "Netzwerke 2021"
+  - "SAIL: SustAInable Life-cycle of Intelligent Socio-Technical Systems"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: mcguire26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mcguire26_interspeech.pdf
 *Paul McGuire, Michael Proctor, Feng-fan Hsieh, Yueh-chin Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mcguire26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mcguire26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3116)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This paper investigates how L1 Taiwanese Mandarin speakers produce English lexical stress in the supralaryngeal articulation of the syllable /flIkt/, finding that 4 out of 6 speakers successfully achieve stress-conditioned separation using multivariate functional principal component analysis (FPCA). Results indicate that successful stress production relies on joint spatiotemporal reorganisation—specifically greater jaw lowering and temporal expansion—rather than duration alone, and failure to separate correlates with higher foreign accent ratings and constriction target ordering errors.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic tools for computer-aided pronunciation training (CAPT) and speech therapy targeting L2 articulatory gestural timing and coordination.
+
+## Institutions / 機構
+
+Macquarie University, National Tsing Hua University
 
 ## Related
 

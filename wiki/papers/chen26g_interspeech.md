@@ -1,6 +1,7 @@
 ---
 id: chen26g_interspeech
-category: asr
+category: applications-other
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26g_interspeech.pdf
 *Jinghao Chen, Mostafa Shahin, Beena Ahmed*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-869)
+
+**Category:** `applications-other` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper proposes a unified Wav2Vec2-CTC framework for Mandarin mispronunciation detection and diagnosis (MDD) that decomposes phonemes into binary segmental and tonal attributes. Compared to a phoneme-only baseline, the approach reduces False Acceptance Rate by 10.1% and Diagnostic Error Rate by 23.6%.
 
@@ -65,6 +68,10 @@ Speech researchers and EdTech engineers building computer-aided pronunciation le
 ## Applications
 
 Computer-Aided Pronunciation Learning (CAPL) software, L2 Mandarin mispronunciation detection and automated diagnostic feedback generation.
+
+## Institutions / 機構
+
+UNSW
 
 ## Related
 

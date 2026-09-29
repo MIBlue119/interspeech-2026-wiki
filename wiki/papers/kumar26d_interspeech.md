@@ -1,6 +1,6 @@
 ---
 id: kumar26d_interspeech
-category: asr
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kumar26d_interspeech.pdf
 *Aounon Kumar, Sudipta Paul, Vivek Kulkarni, Vijay Srinivasan, Srinivas Chappidi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kumar26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kumar26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2006)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — Guided Retrieval Training (GRT) restricts the retrieval corpus during reinforcement learning using ground truth information, mitigating sparse reward issues and improving search agents' multi-hop question answering performance by over 40% compared to Search-R1.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated educational tools, advanced enterprise customer support search engines, and complex medical or technical research assistants.
+
+## Institutions / 機構
+
+Samsung Electronics
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: meng26b_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/meng26b_interspeech.pdf
 *Ying Meng, Zhihua Fang, Liang He*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/meng26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/meng26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-196)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper proposes a federated speaker recognition framework that uses the Fisher Information Matrix (FIM) to identify and align critical embedding dimensions between global and local models, mitigating data heterogeneity and reducing performance degradation. Across VoxCeleb partitions, the method improves Equal Error Rate (EER) significantly over standard federated baselines like FedAvg, FedProx, and MOON.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving distributed voice biometrics, multi-institution speaker verification systems, and federated voice assistants deployed on edge hardware.
+
+## Institutions / 機構
+
+Xinjiang University, Tsinghua University, AGIBOT
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

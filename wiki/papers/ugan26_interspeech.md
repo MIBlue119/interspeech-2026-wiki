@@ -1,6 +1,7 @@
 ---
 id: ugan26_interspeech
 category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ugan26_interspeech.pdf
 *Enes Yavuz Ugan, Alexander Waibel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ugan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ugan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1099)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates how to add code-switching capabilities to an already strong multilingual ASR model (Whisper-large v3 turbo) without degrading its powerful monolingual baselines, showing that standard LoRA causes catastrophic forgetting while Bayesian Low-Rank Adaptation (BLoRA) successfully integrates switching knowledge. Using only synthetic text and TTS, BLoRA reduces code-switching errors (PIER) by 32.87% and overall WER by 5.31% on CSFleurs.
 
@@ -68,6 +71,12 @@ Researchers and engineers working with large foundation models will learn why st
 ## Applications
 
 Deploying robust multilingual voice assistants, transcription services, and communication tools that seamlessly understand code-switched conversational speech without losing high-accuracy monolingual performance.
+
+## Institutions / 機構
+
+Karlsruhe Institute of Technology, Carnegie Mellon University
+
+**Funding / 經費:** European Union, Federal Ministry of Education and Research, Ministry of Science, Research and the Arts of Baden-Wurttemberg, DFG
 
 ## Related
 

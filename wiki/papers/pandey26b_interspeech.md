@@ -1,6 +1,7 @@
 ---
 id: pandey26b_interspeech
-category: speech-recognition
+category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pandey26b_interspeech.pdf
 *Ayushi Pandey, Pamir Gogoi, Kevin Tang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pandey26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pandey26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2179)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — This paper evaluates forced alignment of Hindi-English code-mixed speech using the Montreal Forced Aligner, tackling orthographic inconsistencies (missing nuqta diacritics) and acoustic model selection. Acoustic models trained on sentence-level code-mixed data achieve a mean phoneme midpoint error of 4.15 ms—ten times lower than monolingual alternatives.
 
@@ -67,6 +70,10 @@ Speech researchers and engineers building pipelines for bilingual or code-mixed 
 ## Applications
 
 Building robust speech recognition, alignment tools, and voice interfaces for bilingual communities and multilingual markets.
+
+## Institutions / 機構
+
+Karya, Heinrich Heine University Düsseldorf, University of Florida
 
 ## Related
 

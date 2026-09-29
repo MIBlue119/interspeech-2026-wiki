@@ -1,6 +1,6 @@
 ---
 id: ou26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ou26_interspeech.pdf
 *Shu-Chen Ou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ou26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ou26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-234)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates how syllable shortening position affects speech segmentation in Mandarin listeners using an artificial language paradigm, finding that middle-syllable shortening significantly improves word segmentation while final-syllable shortening impairs it.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving computational speech segmentation models, acoustic-phonetic frontend training for spoken language understanding systems, and cross-linguistic studies on human speech perception.
+
+## Institutions / 機構
+
+National Sun Yat-sen University
+
+**Funding / 經費:** National Science and Technology Council
 
 ## Related
 

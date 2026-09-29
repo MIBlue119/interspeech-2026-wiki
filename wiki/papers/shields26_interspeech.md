@@ -1,6 +1,7 @@
 ---
 id: shields26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shields26_interspeech.pdf
 *Isabella Shields, Hiraia Haami-Wells, C. T. Justine Hui, Peter J Keegan, C. I. Watson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shields26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shields26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1456)
+
+**Category:** `phonetics-linguistics` · **Labels:** `low-resource`
 
 **TL;DR** — This study presents a preliminary acoustic analysis of stop-vowel coarticulation in Te reo Māori using Generalized Additive Mixed Models, revealing that oral stop contexts significantly alter vowel backness (F2) while leaving vowel height (F1) relatively invariant.
 
@@ -60,6 +63,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Acoustic phonetic analysis, documentation of indigenous and low-resource languages, and speech technology adaptations for Te reo Māori pronunciation modeling.
+
+## Institutions / 機構
+
+University of Auckland
+
+**Funding / 經費:** Royal Society of New Zealand Marsden Fast-Start Fund
 
 ## Related
 

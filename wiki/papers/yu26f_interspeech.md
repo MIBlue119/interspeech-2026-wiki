@@ -1,6 +1,6 @@
 ---
 id: yu26f_interspeech
-category: emotion-recognition
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yu26f_interspeech.pdf
 *Xiaofeng Yu, Jiaheng Dong, Jean Honorio, Abhirup Ghosh, Hong Jia, Ting Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yu26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yu26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2031)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper reformulates speech emotion recognition as a distributional reasoning task for large audio-language models (LALMs), introducing an ambiguity-aware objective and structured chain-of-thought (CoT) supervision. Using these components across SFT, DPO, and GRPO strategies significantly improves prediction of human perceptual emotion distributions on IEMOCAP and CREMA-D.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building empathetic conversational agents, advanced mental health monitoring systems, and human-computer interaction interfaces that account for emotional ambiguity.
+
+## Institutions / 機構
+
+University of Auckland, University of Melbourne, University of Birmingham, ARC OPTIMA
 
 ## Related
 

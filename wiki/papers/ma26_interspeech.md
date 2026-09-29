@@ -1,6 +1,7 @@
 ---
 id: ma26_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ma26_interspeech.pdf
 *Ziyang Ma, Ruiyang Xu, Yinghao Ma, Chao-Han Huck Yang, Bohan Li, Jaeyeon Kim, Jin Xu, Jinyu Li, Carlos Busso, Kai Yu, Eng Siong Chng, Xie Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ma26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ma26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-118)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The Interspeech 2026 Audio Reasoning Challenge establishes the first shared task for evaluating Chain-of-Thought (CoT) reasoning quality in Large Audio Language Models using a novel instance-level rubric protocol, with agentic tool-use systems outperforming end-to-end models on reasoning rigor.
 
@@ -67,6 +70,12 @@ Speech and ML researchers focusing on multi-modal reasoning and explainable audi
 ## Applications
 
 Building explainable voice assistants, audio analytics platforms, automated music transcription tools, and diagnostic hearing or acoustic monitoring systems that require verifiable multi-step logical deductions.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, Nanyang Technological University, Queen Mary University of London, NVIDIA, Carnegie Mellon University, Alibaba Group, Microsoft Corporation
+
+**Funding / 經費:** National Natural Science Foundation of China, Shanghai Municipal Science and Technology Major Project, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

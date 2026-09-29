@@ -1,6 +1,6 @@
 ---
 id: fan26c_interspeech
-category: paralinguistics
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fan26c_interspeech.pdf
 *Zixia Fan, Ronny Kurniawan Ibrahim, Joshua Penney, Felicity Cox*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fan26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fan26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2750)
+
+**Category:** `applications-other`
 
 **TL;DR** — This study evaluates how temporal downsampling affects Bayesian Generalized Additive Multilevel Model (GAMM) estimates of event-related potential (ERP) latencies, showing that moderate downsampling preserves early component (MMN) timing while extreme downsampling (100 Hz) causes MCMC convergence failure and wide credible intervals.
 
@@ -63,6 +65,12 @@ Speech and cognitive neuroscientists utilizing Bayesian GAMMs for time-series EE
 ## Applications
 
 Optimizing computational workflows for single-trial EEG/ERP latency estimation, statistical parametric mapping of neural time courses, and automated ERP component analysis.
+
+## Institutions / 機構
+
+Macquarie University
+
+**Funding / 經費:** China Scholarship Council, Macquarie University, Australian Research Council
 
 ## Related
 

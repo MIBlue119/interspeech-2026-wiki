@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26l_interspeech.pdf
 session: Generative and Self-Supervised Speech Enhancement
 topics: [speech-enhancement, self-supervised, prosody]
+category: enhancement-separation
+labels:
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "Wuhan University"
+funding:
+  - "National Nature Science Foundation of China"
+  - "Hubei Provincial Science and Technology Plan Project"
 code:
     url: https://github.com/xxnhq/HFSE
     license: ""

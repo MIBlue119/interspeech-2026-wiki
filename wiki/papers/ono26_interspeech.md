@@ -1,6 +1,7 @@
 ---
 id: ono26_interspeech
-category: source-separation
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ono26_interspeech.pdf
 *Ryosuke Ono, Aditya Arie Nugraha, Yoshiaki Bando, Kazuyoshi Yoshii*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ono26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ono26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2139)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — The paper introduces directivity-regularized FastMNMF for DOA-informed speech separation, incorporating soft von Mises angular weights into full-rank spatial covariance matrix diagonalization to achieve robust separation. It yields a striking 4.4 dB SDR improvement over standard FastMNMF for single-source separation in reverberant environments.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart glasses, wearable audio enhancement, hearing aids, and distant-speech recognition front-ends operating in noisy multi-talker environments.
+
+## Institutions / 機構
+
+Kyoto University, RIKEN, National Institute of Advanced Industrial Science and Technology
 
 ## Related
 

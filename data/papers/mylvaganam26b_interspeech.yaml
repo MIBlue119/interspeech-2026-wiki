@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mylvaganam26b_interspeec
 pdf_url: https://www.isca-archive.org/interspeech_2026/mylvaganam26b_interspeech.pdf
 session: Indigenous Voices in Speech Science and Technology
 topics: [asr, low-resource, multilingual]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "University of New South Wales"
+  - "University of Melbourne"
+  - "University of Sydney"
+funding:
+  - "University of New South Wales"
 code:
     url: ""
     license: ""

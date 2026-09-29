@@ -1,6 +1,6 @@
 ---
 id: hou26b_interspeech
-category: spoken-language-understanding
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hou26b_interspeech.pdf
 *Shuwei Hou, Wei Bo, Varun Shijo, Chuhui Liu, Manav Kanaganapalli, Ling-Yu Guo, Wenyao Xu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hou26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hou26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2593)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — We propose a zero-shot framework for automated Finite Verb Morphology Composite (FVMC) annotation—a key metric for Developmental Language Disorder—by decomposing the task into verb-focused grammar correction followed by Universal Dependencies parsing and minimum-edit-distance alignment. Evaluated on the ENNI child narrative dataset, the best configuration achieves F1 scores of 97.05%, 60.15%, and 70.23% for correct, incorrect, and omitted obligatory contexts, outperforming top reasoning LLMs by up to 6.21 points.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical screening for Developmental Language Disorder (DLD) in telehealth, computer-assisted speech-language pathology training, and scalable educational language sample analysis.
+
+## Institutions / 機構
+
+University at Buffalo
+
+**Funding / 經費:** National Science Foundation, U.S. Department of Education
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: wang26x_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26x_interspeech.pdf
 *Shiming Wang, Zhihao Du, Yang Xiang, Tianyu Zhao, Han Zhao, Qian Chen, Xiangang Li, Hanjie Guo, Zhen-Hua Ling*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26x_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26x_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1345)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper resolves stability hallucinations (repetitions and omissions) in LLM-based TTS models like CosyVoice2 by introducing an Optimal Alignment Score (OAS) metric and a teacher-guided chain-of-thought (CoT) training recipe, reducing hard-text Word Error Rate by up to 3.5% absolute.
 
@@ -63,6 +66,10 @@ Speech and ML researchers working on autoregressive LLM-based speech generation 
 ## Applications
 
 Robust zero-shot text-to-speech generation, audiobook synthesis, and conversational AI agents handling complex or repetitive text inputs.
+
+## Institutions / 機構
+
+University of Science and Technology of China
 
 ## Related
 

@@ -10,6 +10,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/singh26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/singh26b_interspeech.pdf
 session: Paralinguistics
 topics: [speech-llm, self-supervised, paralinguistics]
+category: paralinguistics-emotion
+institutions:
+  - "New York Institute of Technology"
+  - "New York University"
 code:
     url: ""
     license: ""

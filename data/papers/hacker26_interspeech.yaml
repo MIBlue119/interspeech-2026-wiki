@@ -9,6 +9,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hacker26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/hacker26_interspeech.pdf
 session: Pathological Speech Assessment 1
 topics: [speaker-verification, paralinguistics, health]
+category: speaker
+labels:
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "Otto von Guericke University Magdeburg"
+  - "University Hospital Magdeburg"
+funding:
+  - "BMFTR"
+  - "European Union"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: francis26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/francis26_interspeech.pdf
 *Juliana Francis, Robin Netzorg, Joakim Gustafson, Éva Székely*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/francis26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/francis26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-709)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — An evaluation of six zero-shot TTS models on queer and transgender (Gender Expansive, GE) versus cisgender (Non Gender Expansive, N-GE) voices reveals that human perceptual ratings and automated metrics yield conflicting results, exposing major blind spots in current speech synthesis evaluation pipelines. LinaSpeech and XTTS performed significantly worse on GE voices, whereas F5TTS, E2TTS, and CosyVoice2 showed higher similarity scores for GE voices.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing and improving zero-shot text-to-speech fairness, developing inclusive speech evaluation benchmarks, and designing ethical data collection protocols for marginalized speaker communities.
+
+## Institutions / 機構
+
+KTH Royal Institute of Technology, University of California, Berkeley
+
+**Funding / 經費:** WASP
 
 ## Related
 

@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/si26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/si26b_interspeech.pdf
 session: Acoustic Event Detection 2
 topics: [audio-classification, self-supervised, few-shot-learning]
+category: audio-understanding
+labels:
+  - "low-resource"
+  - "robustness-noise"
+institutions:
+  - "South China University of Technology"
+funding:
+  - "National Natural Science Foundation of China"
+  - "China-Croatia Science and Technology Cooperation Committee"
 code:
     url: https://github.com/YongjieSi/ACL
     license: ""

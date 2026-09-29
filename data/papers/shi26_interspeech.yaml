@@ -14,6 +14,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shi26_interspeech.pdf
 session: Post-Training of Speech Foundation Models
 topics: [asr, speech-llm, self-supervised]
+category: asr
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "SB Intuitions"
 code:
     url: ""
     license: ""

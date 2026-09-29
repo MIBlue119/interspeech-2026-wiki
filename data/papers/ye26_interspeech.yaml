@@ -20,6 +20,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ye26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ye26_interspeech.pdf
 session: Speech Representations and Alignment
 topics: [speech-llm, self-supervised, spoken-language-understanding]
+category: speech-llm-dialogue
+labels:
+  - "self-supervised"
+institutions:
+  - "Hong Kong University of Science and Technology"
+  - "Tencent"
+  - "University of Surrey"
+  - "Chinese University of Hong Kong"
+  - "Hong Kong Baptist University"
+  - "Hong Kong Polytechnic University"
 code:
     url: ""
     license: ""

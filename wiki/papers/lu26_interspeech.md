@@ -1,6 +1,7 @@
 ---
 id: lu26_interspeech
-category: tts
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lu26_interspeech.pdf
 *Chunhui Lu, Rui Zhou, Feifan Chen, Liming Song, YoonChoon Hwang, Junkwang Oh, Gunu Jho*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-998)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — PolyBench is a comprehensive benchmark for evaluating Chinese polyphone disambiguation in LLM-TTS systems, revealing that even the top-performing SOTA system achieves only 82.02% pronunciation accuracy across 494 characters.
 
@@ -63,6 +66,10 @@ Speech and ML researchers building or fine-tuning Chinese LLM-TTS models should 
 ## Applications
 
 Improving text-to-speech synthesis pipelines, audiobook generation, virtual assistants, and text normalization modules for Mandarin Chinese speech generation.
+
+## Institutions / 機構
+
+Samsung, Samsung Electronics
 
 ## Related
 

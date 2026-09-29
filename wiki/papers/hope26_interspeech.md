@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hope26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hope26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hope26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2663)
 
+**Category:** `tts`
+
 **TL;DR** — A qualitative needs assessment of nonbinary speech-generating device (SGD) users reveals how technical and social constraints limit voice sovereignty, pointing to modern neural TTS systems as a path toward identity-aligned assistive technology.
 
 ## Key contributions
@@ -58,6 +60,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of customizable, promptable, and identity-aligned text-to-speech engines and assistive communication devices for nonbinary and speech-disabled users.
+
+## Institutions / 機構
+
+University of Delaware, KTH Royal Institute of Technology
+
+**Funding / 經費:** WASP
 
 ## Related
 

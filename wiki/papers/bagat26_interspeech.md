@@ -1,6 +1,7 @@
 ---
 id: bagat26_interspeech
 category: asr
+labels: [low-resource, self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bagat26_interspeech.pdf
 *Raphaël Bagat, Zhe Zhang, Junichi Yamagishi, Irina Illina, Emmanuel Vincent*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bagat26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bagat26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2422)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`, `generative-model`
 
 **TL;DR** — This paper presents a generative data augmentation pipeline for Air Traffic Control (ATC) automatic speech recognition that uses Text-to-Speech, Voice Conversion, and a novel L1-to-L2 accent conversion module to overcome severe domain data scarcity. When combined with real data, fine-tuning Whisper-small on this synthetic data improves word error rate over real-data-only baselines.
 
@@ -67,6 +70,12 @@ Speech researchers and ML engineers tackling low-resource or safety-critical dom
 ## Applications
 
 Automatic speech recognition for aviation, safety-critical radio communication systems, and low-resource domain adaptation for accented speech.
+
+## Institutions / 機構
+
+Universite de Lorraine, CNRS, Inria, National Institute of Informatics
+
+**Funding / 經費:** DeepMAUVES project, DGA of french MoD, CNRS, Inria-NII TrustedSpeech Associate Team, MEXT KAKENHI
 
 ## Related
 

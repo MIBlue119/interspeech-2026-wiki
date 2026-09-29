@@ -1,6 +1,7 @@
 ---
 id: liu26m_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26m_interspeech.pdf
 *Junchen Liu, Jesin James, Karan Nathwani, Michael Witbrock*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1563)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — MultiEmoVec is an unsupervised pre-training framework for multimodal emotion recognition that combines momentum contrastive learning with dual-task reconstruction and adaptive loss scaling, achieving a 55.31% 7-class accuracy on CMU-MOSEI—a 3% absolute improvement over prior state-of-the-art baselines.
 
@@ -66,6 +69,10 @@ Speech and ML researchers working on self-supervised multimodal representation l
 ## Applications
 
 Unsupervised multimodal representation learning for customer service analytics, mental health monitoring, and interactive conversational agents.
+
+## Institutions / 機構
+
+University of Auckland, Indian Institute of Technology Jammu
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: rust26_interspeech
-category: prosody
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rust26_interspeech.pdf
 *Olivier Rüst, Sabine Stoll*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rust26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rust26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2356)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This paper investigates whether prosodic features of child-directed speech emerge from interactional alignment by measuring fundamental frequency contour similarity via Dynamic Time Warping in longitudinal corpora across English, Japanese, and Russian. Bayesian mixed-effects analyses reveal that caregiver-child pitch-contour similarity reliably decreases as child age increases across all three languages, supporting a social accommodation hypothesis.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Analyzing human conversational dynamics, computational psycholinguistics, and designing socially adaptive interactive spoken dialogue systems.
+
+## Institutions / 機構
+
+University of Zurich
 
 ## Related
 

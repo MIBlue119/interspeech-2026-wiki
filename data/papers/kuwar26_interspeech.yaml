@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kuwar26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kuwar26_interspeech.pdf
 session: Audio-Visual Grounding, Synchronization & Video Understanding
 topics: [speech-llm, multilingual, self-supervised]
+category: paralinguistics-emotion
+labels:
+  - "multilingual"
+institutions:
+  - "Plaksha University"
+  - "Indraprastha Institute of Information Technology Delhi"
+  - "National Tsing Hua University"
+  - "University of Tartu"
 code:
     url: https://bhavin-19.github.io/vinayaka-interspeech26/
     license: ""

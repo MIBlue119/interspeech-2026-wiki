@@ -1,6 +1,7 @@
 ---
 id: moon26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/moon26_interspeech.pdf
 *Seokhoon Moon, Kyudan Jung, Jaegul Choo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/moon26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/moon26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1715)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — The paper introduces SLICE, a speech enhancement framework that handles compound corruptions (additive noise, reverberation, and nonlinear distortion) by injecting multi-task degradation embeddings layer-wise via the timestep embedding of a score-based diffusion model. It achieves an ESTOI of 0.80 and SI-SDR of 3.7 dB on multi-degradation test sets, outperforming shallow input conditioning which degrades performance below unconditioned models.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust speech enhancement for telephony, VoIP conferencing systems, smart speakers, and hearing aids operating in severely corrupted acoustic environments.
+
+## Institutions / 機構
+
+KAIST
+
+**Funding / 經費:** Institute for Information & Communications Technology Planning & Evaluation, Korea government (MSIT), National Research Foundation of Korea
 
 ## Related
 

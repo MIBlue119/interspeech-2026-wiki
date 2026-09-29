@@ -1,6 +1,7 @@
 ---
 id: zhang26ga_interspeech
 category: speech-coding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.pdf
 *Boyang Zhang, Yechang Huang, Xuerui Yang, Ziyue Jiang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26ga_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3314)
+
+**Category:** `speech-coding` · **Labels:** `generative-model`
 
 **TL;DR** — DySTCodec is a low-bitrate dual-stream discrete speech codec that combines a single content stream with similarity-based dynamic frame aggregation and fixed-length global speaker tokens, achieving high-fidelity reconstruction at 0.57–0.70 kbps.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-bitrate speech compression, generative speech language modeling, and cross-dataset voice conversion.
+
+## Institutions / 機構
+
+Zhejiang University, StepFun
 
 ## Related
 

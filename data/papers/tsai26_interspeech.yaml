@@ -15,6 +15,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tsai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tsai26_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
 topics: [evaluation, speech-generation, self-supervised]
+category: resources-evaluation
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "National Taiwan University"
+  - "University of Southern California"
+funding:
+  - "Ministry of Education"
+  - "NSTC Taiwan"
+  - "US NSF"
+  - "ODNI IARPA ARTS"
 code:
     url: ""
     license: ""

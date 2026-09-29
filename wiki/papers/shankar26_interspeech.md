@@ -1,6 +1,7 @@
 ---
 id: shankar26_interspeech
 category: asr
+labels: [efficient-on-device, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shankar26_interspeech.pdf
 *Natarajan Balaji Shankar, Zilai Wang, Kaiyuan Zhang, Mohan Shi, Abeer Alwan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shankar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shankar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-822)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — GC-LoRA introduces Gated Convolutional Low-Rank Adaptation to inject Conformer-style local acoustic modeling into frozen Transformer speech foundation models, achieving WER reductions of up to 10.9% across mismatched acoustic domains while using 46% fewer trainable parameters than standard LoRA.
 
@@ -67,6 +70,12 @@ Speech researchers and ML engineers looking to adapt Transformer speech foundati
 ## Applications
 
 Robust automatic speech recognition for telephony, smart toys/educational tools for children, dialect-inclusive transcription services, and distant-microphone meeting transcription systems.
+
+## Institutions / 機構
+
+University of California, Los Angeles
+
+**Funding / 經費:** National Science Foundation, Institute of Education Sciences, U.S. Department of Education
 
 ## Related
 

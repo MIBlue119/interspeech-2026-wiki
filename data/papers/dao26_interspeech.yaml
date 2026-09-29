@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dao26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dao26_interspeech.pdf
 session: Speaker Verification and Anti-Spoofing
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+institutions:
+  - "Avignon Universite"
+  - "EURECOM"
+funding:
+  - "ANR BRUEL"
 code:
     url: ""
     license: ""

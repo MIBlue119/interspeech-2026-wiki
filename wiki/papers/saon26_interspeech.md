@@ -1,6 +1,7 @@
 ---
 id: saon26_interspeech
 category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/saon26_interspeech.pdf
 *George Saon, Samuel Thomas, Takashi Fukuda, Tohru Nagano, Avihu Dekel, Luis Lastras*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/saon26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/saon26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2680)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — The paper introduces self-speculative decoding (SSD) for speech-aware language models (SLMs), using the model's own frozen CTC encoder as a draft to accelerate autoregressive inference while simultaneously improving ASR accuracy. On the HuggingFace Open ASR benchmark, SSD achieves a record 5.58% WER and a 4.4x speedup in inverse real-time factor (RTFx) with only a 12% relative WER increase over standard autoregressive search.
 
@@ -64,6 +67,10 @@ Speech and ML engineers building production-ready speech LLMs should read this p
 ## Applications
 
 Real-time speech transcription systems, automated meeting transcription, and low-latency multilingual voice-to-text cloud services.
+
+## Institutions / 機構
+
+IBM
 
 ## Related
 

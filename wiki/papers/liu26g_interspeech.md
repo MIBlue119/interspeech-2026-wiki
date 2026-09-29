@@ -1,6 +1,6 @@
 ---
 id: liu26g_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26g_interspeech.pdf
 *Zhuodong Liu, Hugen Lv, Xiangyu Li, Chunhong Yuan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-836)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — A lightweight dual-granularity orthogonal disentanglement framework (2.1M parameters) is proposed to prevent implicit identity leakage in audio deepfake detection by enforcing sample-level cosine orthogonality and batch-level cross-covariance regularization under a curriculum schedule, achieving 7.88% EER on ASVspoof 2021 DF and 21.58% on In-the-Wild datasets.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice biometric security, anti-spoofing verification for conversational AI systems, and automated detection of audio deepfakes in telephony and social media.
+
+## Institutions / 機構
+
+Beijing Jiaotong University, Shanghai Jiao Tong University, ITMO University
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: lentz26_interspeech
-category: source-separation
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lentz26_interspeech.pdf
 *Benjamin Lentz, Theresa Hartmann, Anil Nagathil, Ian Bruce, Rainer Martin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lentz26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lentz26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2713)
+
+**Category:** `health-clinical`
 
 **TL;DR** — BeatGain is a rhythmic pattern enhancement algorithm for cochlear implant music listening that amplifies metrically strong beats and suppresses weak off-beat events, achieving significant improvements in perceived rhythmic clarity over standard stem remixing baselines.
 
@@ -65,6 +67,10 @@ Speech and audio engineers working on auditory prostheses or music enhancement a
 ## Applications
 
 Cochlear implant sound processors, real-time music enhancement apps for hearing-impaired listeners, and rhythm-guided speech pre-processing algorithms.
+
+## Institutions / 機構
+
+Ruhr-Universität Bochum, McMaster University
 
 ## Related
 

@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/marew26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/marew26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/marew26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3220)
 
+**Category:** `asr`
+
 **TL;DR** — The paper proposes a constrained CTC decoding method for efficient Arabic speech-to-text diacritic restoration by forcing base characters from undiacritized transcripts while predicting diacritics via character-level decoding lattices, achieving significant Diacritic Error Rate (DER) reductions over multi-modal baselines.
 
 ## Key contributions
@@ -64,6 +66,10 @@ Speech and ML researchers working on constrained decoding, structured output gen
 ## Applications
 
 Automated curation of large-scale diacritized speech corpora for Arabic ASR training, and text-to-speech (TTS) frontend preprocessing to resolve pronunciation ambiguities.
+
+## Institutions / 機構
+
+Mohamed bin Zayed University of Artificial Intelligence
 
 ## Related
 

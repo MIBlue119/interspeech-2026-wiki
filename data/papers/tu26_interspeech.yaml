@@ -12,6 +12,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tu26_interspeech.pdf
 session: Speech Deepfake Detection, Attribution and Characterization
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+institutions:
+  - "Hong Kong Polytechnic University"
+  - "University of Science and Technology of China"
+  - "iFLYTEK"
+funding:
+  - "Innovation and Technology Fund"
+  - "National Key R&D Program of China"
 code:
     url: ""
     license: ""

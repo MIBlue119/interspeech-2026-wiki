@@ -1,6 +1,7 @@
 ---
 id: li26n_interspeech
-category: source-separation
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26n_interspeech.pdf
 *Zixuan Li, Xueliang Zhang, Lei Miao, Zhipeng Yan, Ying Sun, Chong Zhu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-948)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — This paper introduces an online audio-visual target speaker extraction system guided by viseme representations obtained via lightweight cross-modal distillation, achieving top-tier separation quality at the lowest computational cost (7.7G MACs total).
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time communication tools, smart-home speaker identification, hearing assistive devices, and multi-speaker video conferencing systems.
+
+## Institutions / 機構
+
+Inner Mongolia University, Lenovo
+
+**Funding / 經費:** Inner Mongolia Natural Science Foundation, Hohhot R&D Investment Incentive Program, Inner Mongolia Postgraduate Research Project, CCF-Lenovo Research Fund
 
 ## Related
 

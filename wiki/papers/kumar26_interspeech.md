@@ -1,6 +1,7 @@
 ---
 id: kumar26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kumar26_interspeech.pdf
 *Ravi Kumar, Utkarsh Grover, Xiaomin Lin, Agoritsa Polyzou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kumar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kumar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-593)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — LEAF-X is a model-intrinsic explainable AI framework for transformer ASR that combines entropy-guided attention weighting, multi-layer attention rollout, and causal reweighting to produce faithful token-to-frame attributions. It achieves superior faithfulness and stability compared to black-box and gradient baselines on Whisper and Canary models.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing and debugging automatic speech recognition models in safety-critical domains such as medical dictation, legal transcription, and emergency response.
+
+## Institutions / 機構
+
+Florida International University, University of South Florida
 
 ## Related
 

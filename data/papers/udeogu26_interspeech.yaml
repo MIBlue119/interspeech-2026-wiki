@@ -9,6 +9,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/udeogu26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/udeogu26_interspeech.pdf
 session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
 topics: [speech-enhancement, phonetics, self-supervised]
+category: phonetics-linguistics
+institutions:
+  - "University of Maryland"
 code:
     url: ""
     license: ""

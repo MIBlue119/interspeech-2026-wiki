@@ -1,6 +1,7 @@
 ---
 id: camara26_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/camara26_interspeech.pdf
 *Mateo Cámara, José Luis Blanco, Juan Ignacio Godino-Llorente, Jeung-Yoon Choi, Stefanie Shattuck-Hufnagel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/camara26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/camara26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1374)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — The paper introduces ALLIE-PT, a large-scale English lexicon of over 200,000 synthesized words with deterministic, time-aligned acoustic landmark annotations generated via the Pink Trombone physical vocal-tract model. The dataset achieves an average Short-Time Objective Intelligibility (STOI) score of 0.75 compared to clean human reference speech.
 
@@ -63,6 +66,12 @@ Speech researchers and ML engineers building event-based ASR or automatic landma
 ## Applications
 
 Training and benchmarking automatic acoustic landmark detectors, event-driven ASR systems, clinical speech pathology assessment, and low-resource language documentation.
+
+## Institutions / 機構
+
+Universidad Politecnica de Madrid, Massachusetts Institute of Technology
+
+**Funding / 經費:** Ministry of Economy and Competitiveness of Spain, Fundacion Santander, MISTI MIT Global Experiences
 
 ## Related
 

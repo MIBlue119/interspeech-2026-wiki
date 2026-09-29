@@ -1,6 +1,6 @@
 ---
 id: pang26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pang26_interspeech.pdf
 *Ruizhe Pang, Shulin He, Jingqi Sun, Zhong-Qiu Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2044)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — USDnet++ enhances unsupervised single-speaker speech dereverberation by incorporating signal-processing-based dereverberation (SPD) results as weak supervision and auxiliary input features, improving SI-SDR from 3.1 dB (vanilla USDnet) to 3.9 dB.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust front-ends for automatic speech recognition, hearing aids, and hands-free smart speakers operating in highly reverberant rooms.
+
+## Institutions / 機構
+
+Southern University of Science and Technology
 
 ## Related
 

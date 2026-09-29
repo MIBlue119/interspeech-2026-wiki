@@ -1,6 +1,6 @@
 ---
 id: yamagishi26_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-28
 confidence: abstract-only
 source: https://www.isca-archive.org/interspeech_2026/yamagishi26_interspeech.html
@@ -9,6 +9,8 @@ source: https://www.isca-archive.org/interspeech_2026/yamagishi26_interspeech.ht
 # Countermeasures Against Misuse of Speech Generative AI
 
 [ISCA page](https://www.isca-archive.org/interspeech_2026/yamagishi26_interspeech.html) *(keynote — no PDF in the archive)*
+
+**Category:** `deepfake-security`
 
 **TL;DR** — Keynote surveying how the speech community can defend against misuse of generative speech AI, combining passive defenses (deepfake detection) with proactive ones, toward a comprehensive security ecosystem.
 
@@ -31,6 +33,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Anyone deploying speech generation responsibly, and teams building deepfake detection, watermarking, or provenance pipelines.
+
+## Institutions / 機構
+
+National Institute of Informatics
 
 ## Related
 

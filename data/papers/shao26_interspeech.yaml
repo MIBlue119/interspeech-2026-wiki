@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shao26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shao26_interspeech.pdf
 session: Audio Watermarking and Source Verification
 topics: [speech-watermarking, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "streaming-real-time"
+institutions:
+  - "Beijing University of Posts and Telecommunications"
+  - "Beijing Institute of Technology"
 code:
     url: https://github.com/Silence-ai423/phoneme-aware-mamba-watermark
     license: ""

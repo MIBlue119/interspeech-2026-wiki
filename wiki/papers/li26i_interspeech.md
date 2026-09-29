@@ -1,6 +1,7 @@
 ---
 id: li26i_interspeech
-category: self-supervised
+category: deepfake-security
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26i_interspeech.pdf
 *Yingdong Li, Chengxin Chen, Nanli Zeng, Jianguo Hu, Kun Zeng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-643)
+
+**Category:** `deepfake-security` · **Labels:** `robustness-noise`
 
 **TL;DR** — DAR-Boost is a fully differentiable, adaptive raw waveform data augmentation framework that replaces static heuristic noise with learnable adversarial perturbations and dynamic instance-aware routing. It achieves superior generalization across both speech and non-speech environmental sound deepfake detection domains.
 
@@ -66,6 +69,12 @@ Speech and ML researchers focusing on audio forensics and robust representation 
 ## Applications
 
 Audio deepfake detection, voice anti-spoofing systems, and environmental sound integrity verification.
+
+## Institutions / 機構
+
+Sun Yat-sen University, China Mobile Internet Co., Ltd
+
+**Funding / 經費:** National Key Research and Development Program of China
 
 ## Related
 

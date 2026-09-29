@@ -1,6 +1,6 @@
 ---
 id: kostenok26_interspeech
-category: speech-enhancement
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kostenok26_interspeech.pdf
 *Elizaveta Kostenok, Mathieu Salzmann, Milos Cernak*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kostenok26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kostenok26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2362)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — A two-stage post-training framework combining a calibration phase with dimension-specific reinforcement learning (GRPO) enables Audio Large Language Models to accurately assess, describe, and temporally localize speech quality issues, achieving a state-of-the-art mean PCC of 0.71 and a 13% improvement in MOS prediction.
 
@@ -68,6 +70,10 @@ Speech and ML engineers building explainable audio evaluation models should read
 ## Applications
 
 Automated diagnostic evaluation of speech generation systems, telephony quality monitoring, and fine-grained acoustic artifact detection for synthetic speech verification.
+
+## Institutions / 機構
+
+EPFL, Logitech
 
 ## Related
 

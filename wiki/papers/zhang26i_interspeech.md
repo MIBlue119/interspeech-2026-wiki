@@ -1,6 +1,6 @@
 ---
 id: zhang26i_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26i_interspeech.pdf
 *Yi Zhang, Aini Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-693)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — A multidimensional acoustic analysis of Kaihui Xiang Chinese reveals that the extreme high-pitch tone (T4) is produced with a tense modal voice (characterized by flattened lower-frequency spectral tilt) rather than falsetto, and this tension is an F0-specific physiological byproduct.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving speech synthesis and voice conversion systems for tonal languages by accurately modeling the physiological voice quality changes associated with extreme high-pitch tones.
+
+## Institutions / 機構
+
+City University of Hong Kong
+
+**Funding / 經費:** CityU StartUp Grant
 
 ## Related
 

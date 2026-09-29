@@ -1,6 +1,7 @@
 ---
 id: suzuki26_interspeech
-category: evaluation
+category: resources-evaluation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/suzuki26_interspeech.pdf
 *Shuntaro Suzuki, Kento Tokura, Daichi Yashima, Kanon Amemiya, Komei Sugiura, Shinnosuke Takamichi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/suzuki26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/suzuki26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-914)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`
 
 **TL;DR** — ELSA is a reference-free automatic evaluation metric for text-to-audio (TTA) generation that decomposes text queries into distinct acoustic events and evaluates fine-grained event-level alignment using LASS and CLAP features. It achieves consistently higher correlation with human subjective relevance ratings than existing reference-based and reference-free metrics across four major benchmarks.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated evaluation, hyperparameter tuning, and reward modeling for text-to-audio generation, sound effect synthesis, and multimedia generation systems.
+
+## Institutions / 機構
+
+Keio University
 
 ## Related
 

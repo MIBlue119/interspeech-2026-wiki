@@ -1,6 +1,7 @@
 ---
 id: pokel26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pokel26_interspeech.pdf
 *Niclas Pokel, Pehuén Moure, Roman Böehringer, Yingqiang Gao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pokel26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pokel26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-776)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — The paper introduces a data-efficient ASR personalization method for non-normative speech by leveraging Variational Low-Rank Adaptation (VI LoRA) to estimate epistemic uncertainty and guide phoneme-targeted oversampling. Evaluated on English and German datasets, it achieves error reductions of up to 15.12% in WER while demonstrating strong alignment with longitudinal clinical logopedic reports.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Personalized assistive ASR systems for individuals with severe speech impairments, dysarthria, or atypical anatomical speech conditions, as well as computational support tools for clinical logopedic assessments.
+
+## Institutions / 機構
+
+University of Zurich, ETH Zurich, Technical University of Munich
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: tipaksorn26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tipaksorn26_interspeech.pdf
 *Pattara Tipaksorn, Wayupuk Sommuang, Kwanchiva Thangthai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tipaksorn26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tipaksorn26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1960)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — AV-FlowSep is an audio-visual target speaker separation system based on conditional flow matching and a Diffusion Transformer that achieves high-quality separation in as few as a single inference step. It matches or exceeds prior diffusion models while requiring far fewer steps and demonstrating strong cross-dataset generalization.
 
@@ -68,6 +71,12 @@ Speech and ML researchers working on generative speech enhancement or audio-visu
 ## Applications
 
 Real-time audio-visual speech enhancement, hearing assistive devices, video conferencing noise suppression, and robust automatic speech recognition in noisy environments.
+
+## Institutions / 機構
+
+NECTEC, Thammasat University
+
+**Funding / 經費:** NECTEC, NSTDA
 
 ## Related
 

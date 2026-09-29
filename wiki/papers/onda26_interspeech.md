@@ -1,6 +1,7 @@
 ---
 id: onda26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/onda26_interspeech.pdf
 *Kentaro Onda, Satoru Fukayama, Daisuke Saito, Nobuaki Minematsu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/onda26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/onda26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1668)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — Applying posterior-based soft assignment to self-supervised discrete speech tokens exclusively during downstream inference improves both recognition and reconstruction performance while maintaining training-time compression efficiency. Notably, it outperforms continuous feature representations on non-native speech ASR.
 
@@ -64,6 +67,12 @@ Speech researchers and engineers working with discrete token pipelines who want 
 ## Applications
 
 Robust automatic speech recognition (ASR), text-to-speech (TTS) resynthesis, and voice conversion across mismatched or out-of-domain acoustic environments.
+
+## Institutions / 機構
+
+University of Tokyo, National Institute of Advanced Industrial Science and Technology
+
+**Funding / 經費:** AIST, Japan Science and Technology Agency
 
 ## Related
 

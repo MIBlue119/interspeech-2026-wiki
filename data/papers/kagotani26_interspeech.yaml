@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kagotani26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/kagotani26_interspeech.pdf
 session: Model of Speech Perception
 topics: [paralinguistics, phonetics, prosody]
+category: phonetics-linguistics
+institutions:
+  - "University of Tsukuba"
+  - "University of Amsterdam"
+funding:
+  - "JSPS KAKENHI"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: chowdhury26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chowdhury26_interspeech.pdf
 *Tahiya Chowdhury*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chowdhury26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chowdhury26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3052)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper investigates predicting continuous perceived cognitive load in dyadic conversations using speech acoustics and interaction dynamics, achieving a dyad-level CCC of 0.51 for temporal demand.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time cognitive load monitoring for remote meeting platforms, adaptive voice-mediated collaboration tools, and safety-critical communication systems.
+
+## Institutions / 機構
+
+Colby College
+
+**Funding / 經費:** Henry Luce Foundation
 
 ## Related
 

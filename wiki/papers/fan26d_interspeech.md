@@ -1,6 +1,7 @@
 ---
 id: fan26d_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fan26d_interspeech.pdf
 *Xulin Fan, Juan Azcarreta, Ashutosh Pandey, Jesus Alvarez, Ke Tan, Jacob Donley, Ritwik Giri, Buye Xu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fan26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fan26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2774)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`
 
 **TL;DR** — A collaborative cloud-edge speech enhancement framework combines delayed server outputs, layerwise feature boosting, and collaborative multichannel Wiener filtering to improve low-compute on-device models. It achieves a 3.77 dB SI-SDR improvement on standard test conditions with only a 1.5% increase in edge parameters.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time communication on smart glasses, hearables, and other resource-constrained edge audio devices operating under noisy and reverberant conditions.
+
+## Institutions / 機構
+
+University of Illinois Urbana-Champaign, Meta
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: chen26y_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26y_interspeech.pdf
 *Minchuan Chen, Chenchen Wan, Junjie Li, Peng Qi, Shaojun Wang, Jing Xiao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26y_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26y_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2412)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper presents a zero-shot text-to-speech (TTS) framework built on flow matching that combines a dual-model direct preference optimization (DPO) strategy with improved classifier-free guidance (CFG), reducing word error rate (WER) from 4.24 to 2.87 on Chinese test sets.
 
@@ -68,6 +71,10 @@ Speech and ML engineers building zero-shot generative TTS systems should read th
 ## Applications
 
 Personalized zero-shot text-to-speech assistants, expressive dubbing, and audiobook generation requiring high speaker similarity and robust handling of challenging phonetics.
+
+## Institutions / 機構
+
+Ping An Technology, Shanghai Jiao Tong University, Shanghai Jiao Tong University Chongqing Artificial Intelligence Research Institute
 
 ## Related
 

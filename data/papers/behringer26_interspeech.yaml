@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/behringer26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/behringer26_interspeech.pdf
 session: Quality, Intelligibility and Evaluation of Speech and Codecs
 topics: [speech-coding, evaluation, speech-enhancement]
+category: speech-coding
+labels:
+  - "robustness-noise"
+institutions:
+  - "Fraunhofer Institute for Integrated Circuits"
+funding:
+  - "Free State of Bavaria"
 code:
     url: ""
     license: ""

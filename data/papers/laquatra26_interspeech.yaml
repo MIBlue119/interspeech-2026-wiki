@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/laquatra26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/laquatra26_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
 topics: [asr, speech-llm, low-resource]
+category: asr
+institutions:
+  - "Kore University of Enna"
+  - "Sony Group Corporation"
+  - "Universita degli Studi di Palermo"
+funding:
+  - "D.A.R.E. - Digital Lifelong Prevention"
 code:
     url: https://github.com/MorenoLaQuatra/dysarthric-asr
     license: ""

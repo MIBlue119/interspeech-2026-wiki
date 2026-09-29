@@ -1,6 +1,6 @@
 ---
 id: friedrichs26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/friedrichs26_interspeech.pdf
 *Daniel Friedrichs, Valeriia Vyshnevetska*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/friedrichs26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/friedrichs26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1883)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — The paper introduces an auditable, pharyngometry-anchored normalization method for electromagnetic articulography (EMA) that reduces cross-speaker trajectory dispersion by 16.5% but fails to improve leave-one-speaker-out formant prediction.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-speaker articulatory analysis, phonetic comparison, and phonetic corpus standardization.
+
+## Institutions / 機構
+
+Zurich Forensic Science Institute, University of Zurich
+
+**Funding / 經費:** Swiss National Science Foundation
 
 ## Related
 

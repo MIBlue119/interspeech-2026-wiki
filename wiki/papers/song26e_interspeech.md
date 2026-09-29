@@ -1,6 +1,6 @@
 ---
 id: song26e_interspeech
-category: emotion-recognition
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/song26e_interspeech.pdf
 *Heying Song, Jing Han, Yandi Zheng, Zixing Zhang, Ziping Zhao, Bjoern Schuller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/song26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/song26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2282)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — The paper introduces the Speaker-Filtered Heterogeneous Graph Network (SF-HGN) for multimodal dialogue emotion recognition, which structurally preserves speaker privacy and prevents future information leakage by restricting graph message propagation to single-speaker subgraphs. It achieves state-of-the-art weighted F1 scores of 68.73% on IEMOCAP and 65.65% on MELD while reducing inference time significantly.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-aware smart assistants, customer service conversation analytics, and real-time multi-party emotion monitoring systems.
+
+## Institutions / 機構
+
+Tianjin Normal University, Hunan University, Yuelushan Center for Industrial Innovation, Technische Universitat Munchen, Imperial College London
+
+**Funding / 經費:** Project of Yuelushan Center for Industrial Innovation, National Natural Science Foundation of China
 
 ## Related
 

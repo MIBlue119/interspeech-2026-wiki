@@ -1,6 +1,6 @@
 ---
 id: kim26d_interspeech
-category: speaker-verification
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26d_interspeech.pdf
 *Hanseul Kim, Nam In Park, Chanjun Chun*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-437)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper proposes a privacy-preserving speaker verification framework that explicitly discards linguistic content via FAcodec and applies a hierarchical multi-granularity feature obfuscation strategy to prosody, achieving an EER of 2.35% on VoxCeleb1-O while heavily suppressing linguistic recoverability.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Financial authentication systems, voice-based access control, secure IoT voice assistants, and privacy-preserving biometric verification services.
+
+## Institutions / 機構
+
+Chosun University, National Forensic Service, Glosori Inc
+
+**Funding / 經費:** Innopolis Foundation, Commercialization Promotion Agency for R&D Outcomes
 
 ## Related
 

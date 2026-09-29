@@ -1,6 +1,6 @@
 ---
 id: liu26r_interspeech
-category: speech-emotion-diarization
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26r_interspeech.pdf
 *Yumeng Liu, Yukun Sun, Jian Peng, Lixu Sun, Nurmemet Yolwas*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26r_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26r_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2388)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — P-SED is a weakly supervised speech emotion diarization framework that uses learnable orthogonal emotion prototypes, class-aware contrastive loss, and Top-K salient instance mining to achieve fine-grained temporal emotion localization using only utterance-level labels, reaching a 47.00% EDER on the ZED dataset.
 
@@ -67,6 +69,10 @@ Researchers working on weakly supervised temporal segmentation, multiple instanc
 ## Applications
 
 Mental health monitoring, real-time affective agents, conversational AI, and intelligent customer service quality analysis.
+
+## Institutions / 機構
+
+Xinjiang University
 
 ## Related
 

@@ -11,6 +11,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wu26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26l_interspeech.pdf
 session: Beyond Speech Technologies in Healthcare
 topics: [speech-enhancement, voice-conversion, low-resource]
+category: tts
+labels:
+  - "low-resource"
+  - "generative-model"
+institutions:
+  - "RIKEN"
+  - "University of Osaka"
+  - "Advanced Telecommunications Research Institute International"
+  - "National Institute of Informatics"
+funding:
+  - "RIKEN Special Postdoctoral Researcher Program"
+  - "JST Moonshot R&D"
 code:
     url: ""
     license: ""

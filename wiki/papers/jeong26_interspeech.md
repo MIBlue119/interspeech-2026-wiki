@@ -1,6 +1,7 @@
 ---
 id: jeong26_interspeech
-category: evaluation
+category: resources-evaluation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jeong26_interspeech.pdf
 *Wonwoo Jeong*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jeong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jeong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1549)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`
 
 **TL;DR** — Fréchet Audio Distance (FAD) inherits severe task-induced biases from its underlying feature extractor, forcing a four-axis trade-off between Recall, Precision, Semantic Alignment, and Structural Alignment. Evaluating six encoders across speech and general audio datasets reveals that no single model functions as a universal perceptual evaluator.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing and selecting automated evaluation metrics for text-to-audio generation, speech synthesis, and audio enhancement pipelines.
+
+## Institutions / 機構
+
+Sogang University
 
 ## Related
 

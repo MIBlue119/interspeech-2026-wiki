@@ -1,6 +1,6 @@
 ---
 id: han26c_interspeech
-category: spoken-language-understanding
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/han26c_interspeech.pdf
 *Seunghoon Han, Minyoung Kyoung, Hyungbae Jeon*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/han26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/han26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1869)
+
+**Category:** `applications-other`
 
 **TL;DR** — This paper challenges the conventional spoken GEC pipeline of stripping disfluencies as noise, instead introducing a hesitation-aware approach with special marker tokens and type embeddings that improves F0.5 by up to 2.05 percentage points over standard removal.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated spoken language tutoring systems, computer-assisted language learning (CALL) interfaces, and spoken grammatical error correction pipelines for L2 learners.
+
+## Institutions / 機構
+
+Tutorus Labs
+
+**Funding / 經費:** Culture, Sports and Tourism R&D Program, Korea Creative Content Agency, Ministry of Culture, Sports and Tourism
 
 ## Related
 

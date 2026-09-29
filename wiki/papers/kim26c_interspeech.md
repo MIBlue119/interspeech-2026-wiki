@@ -1,6 +1,7 @@
 ---
 id: kim26c_interspeech
-category: speaker-verification
+category: speaker
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26c_interspeech.pdf
 *Seung-bin Kim, Chan-yeong Lim, Jungwoo Heo, Hyun-seo Shin, Kyo-Won Koo, Jisoo Son, Kyung-Wha Kim, Ha-Jin Yu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-364)
+
+**Category:** `speaker` · **Labels:** `robustness-noise`
 
 **TL;DR** — The Mixture Consistency Learning–based Speaker Verification (MCL-SV) system eliminates the need for predefined clean reference signals in front-end speech enhancement by using a dual-decoder architecture governed by a mixture consistency loss, reducing average EER on noisy VoxCeleb1 to 1.19% (a 12.5% relative drop vs. baselines).
 
@@ -65,6 +68,12 @@ Researchers and engineers building noise-robust speaker verification systems sho
 ## Applications
 
 Robust speaker verification and biometric authentication systems deployed in harsh acoustic environments such as smart home devices, in-car voice assistants, and forensic audio analysis.
+
+## Institutions / 機構
+
+University of Seoul, Supreme Prosecutor’s Office
+
+**Funding / 經費:** Supreme Prosecutors' Office
 
 ## Related
 

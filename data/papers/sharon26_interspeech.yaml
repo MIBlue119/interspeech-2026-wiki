@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sharon26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/sharon26_interspeech.pdf
 session: Turn-taking
 topics: [asr, prosody, speech-llm]
+category: speech-llm-dialogue
+labels:
+  - "streaming-real-time"
+institutions:
+  - "Uniphore"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: jasinski26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jasinski26_interspeech.pdf
 *Jan Jasiński, Mateusz Barański, Julitta Bartolewska, Marcin Witkowski, Konrad Kowalczyk*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jasinski26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jasinski26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-338)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper evaluates automatic speech recognition (ASR) hallucination detection across text-based, LLM-based, and decoder internal-state probing paradigms using Whisper large v3. It demonstrates that probing intermediate decoder states yields strong reference-free detection (F1 62.1%), which can be further boosted to an F1 of 68.3% via a late-fusion meta-classifier combining text and internal signals.
 
@@ -64,6 +67,12 @@ Researchers and engineers building safety filters for deployment of speech found
 ## Applications
 
 Real-time speech-to-text safety filtering, ASR error mitigation, and hallucination detection for downstream conversational agents.
+
+## Institutions / 機構
+
+AGH University of Krakow
+
+**Funding / 經費:** National Science Centre, Excellence initiative - research university
 
 ## Related
 

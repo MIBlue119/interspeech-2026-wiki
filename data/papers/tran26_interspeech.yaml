@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tran26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tran26_interspeech.pdf
 session: 'Speech Deepfake Detection: Robustness, Generalization, Attribution'
 topics: [speech-anti-spoofing, deepfake-detection, asr]
+category: deepfake-security
+labels:
+  - "self-supervised"
+institutions:
+  - "Universite de Rennes"
+  - "National Institute of Informatics"
+funding:
+  - "JST"
+  - "PRESTO"
+  - "NII International Internship Program"
 code:
     url: https://github.com/nii-yamagishilab/Whisper-deepfake-word-detection
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: shigabeev26_interspeech
-category: tts
+category: resources-evaluation
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shigabeev26_interspeech.pdf
 *Ilya Shigabeev, Ilia Latyshev*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shigabeev26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shigabeev26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-809)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — The paper introduces Dialogs, a 20.6-hour studio-quality expressive conversational Russian speech corpus featuring 12 style/emotion categories across 3 professional actors, and validates its utility by training a VITS2 expressive TTS model.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Training expressive text-to-speech models, emotional conversational assistants, and interactive voice-bot systems for the Russian language.
+
+## Institutions / 機構
+
+Langswap
 
 ## Related
 

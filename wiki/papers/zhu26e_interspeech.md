@@ -1,6 +1,7 @@
 ---
 id: zhu26e_interspeech
 category: tts
+labels: [low-resource, multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhu26e_interspeech.pdf
 *Han Zhu, Lingxuan Ye, Wei Kang, Zengwei Yao, Liyong Guo, Fangjun Kuang, Zhifeng Han, Weiji Zhuang, Long Lin, Daniel Povey*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhu26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhu26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3256)
+
+**Category:** `tts` · **Labels:** `low-resource`, `multilingual`, `generative-model`
 
 **TL;DR** — OmniVoice is a massively multilingual zero-shot text-to-speech model spanning over 600 languages that uses a single-stage diffusion language model architecture to map text directly to multi-codebook acoustic tokens, achieving a word error rate of 1.30 on LibriSpeech-PC test-clean.
 
@@ -67,6 +70,10 @@ Read this if you want to understand how to scale non-autoregressive discrete dif
 ## Applications
 
 Massively multilingual cross-lingual voice cloning, zero-shot audio prompt denoising, attribute-controlled voice design, and low-resource speech synthesis.
+
+## Institutions / 機構
+
+Xiaomi
 
 ## Related
 

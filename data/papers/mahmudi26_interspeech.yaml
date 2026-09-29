@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.pdf
 session: Corpus Creation, Summarization and Understanding
 topics: [asr, low-resource, self-supervised]
+category: asr
+labels:
+  - "low-resource"
+  - "self-supervised"
+institutions:
+  - "University of Melbourne"
+funding:
+  - "Australian Research Council"
+  - "Language Data Commons of Australia"
+  - "Petascale Campus Initiative"
 code:
     url: https://github.com/Aso-UniMelb/Easper
     license: ""

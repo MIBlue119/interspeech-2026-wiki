@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hovsepyan26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/hovsepyan26_interspeech.pdf
 session: Acoustic Event Detection 3
 topics: [paralinguistics, self-supervised, evaluation]
+category: audio-understanding
+institutions:
+  - "Idiap Research Institute"
+  - "University of Zurich"
+funding:
+  - "NCCR Evolving Language"
+  - "Swiss National Science Foundation"
 code:
     url: ""
     license: ""

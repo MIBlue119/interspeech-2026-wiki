@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26z_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26z_interspeech.pdf
 session: Reasoning with Speech/Audio Language Models
 topics: [speech-llm, evaluation, dataset]
+category: speech-llm-dialogue
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Chung-Ang University"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Korea government"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: fang26_interspeech
-category: speaker-verification
+category: speaker
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fang26_interspeech.pdf
 *Zhihua Fang, Shumei Tao, Liang He*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-11)
+
+**Category:** `speaker` · **Labels:** `robustness-noise`
 
 **TL;DR** — TET-LM is a robust speaker verification training framework that uses a temporally ensembled GMM threshold for clean/noisy sample selection and a neighbor-aware label mixup mechanism for open-set label correction, reducing EER by up to 54% over standard noisy training baselines.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust speaker verification deployment using uncurated or web-mined audio corpora containing high rates of mislabeled data and out-of-domain background speakers.
+
+## Institutions / 機構
+
+Xinjiang University, Tsinghua University, AGIBOT
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

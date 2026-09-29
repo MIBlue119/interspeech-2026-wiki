@@ -1,6 +1,7 @@
 ---
 id: xiao26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xiao26_interspeech.pdf
 *Yang Xiao, Aso Mahmudi, Nick Thieberger, Eliathamby Ambikairajah, Eun-Jung Holden, Ting Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xiao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xiao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2215)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates speech foundation model adaptation for low-resource Pacific Indigenous languages, discovering that their linguistic distance induces severe internal representational drift and catastrophic forgetting. It evaluates full fine-tuning and parameter-efficient methods (LoRA, DoRA, O-LoRA) across cross-lingual and sequential learning setups, exposing an unresolved plasticity-stability dilemma.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of robust speech recognition interfaces for endangered, low-resource, and Indigenous Pacific languages in education and public services.
+
+## Institutions / 機構
+
+University of Melbourne, UNSW Sydney
 
 ## Related
 

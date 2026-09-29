@@ -1,6 +1,6 @@
 ---
 id: giovannini26_interspeech
-category: tts
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/giovannini26_interspeech.pdf
 *Anna Maria Giovannini, Zihan Wang, Ailbhe Ní Chasaide, Christer Gobl*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/giovannini26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/giovannini26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1363)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper investigates how visual facial expressions interact with affect-conditioned synthetic voice source parameters in an Irish (Gaelic) TTS voice. While congruent visual contexts did not significantly enhance affect perception compared to voice-only stimuli, they successfully enabled better differentiation among high- and low-activation affective states.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Augmentative and Alternative Communication (AAC) systems for non-verbal users, expressive text-to-speech synthesis, and animated conversational virtual agents.
+
+## Institutions / 機構
+
+Trinity College Dublin
+
+**Funding / 經費:** Irish Research Council, Department of Rural and Community Development and the Gaeltacht, National Library
 
 ## Related
 

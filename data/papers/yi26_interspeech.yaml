@@ -15,6 +15,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yi26_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
 topics: [speech-enhancement, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "robustness-noise"
+institutions:
+  - "Wuhan University"
+funding:
+  - "Natural Science Foundation of China"
 code:
     url: ""
     license: ""

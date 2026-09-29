@@ -1,6 +1,7 @@
 ---
 id: boo26_interspeech
-category: deepfake-detection
+category: deepfake-security
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/boo26_interspeech.pdf
 *Hyemin Boo, Eunsang Lee, Jiyoung Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/boo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/boo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1246)
+
+**Category:** `deepfake-security` · **Labels:** `multilingual`
 
 **TL;DR** — Referee is a reference-aware audiovisual deepfake detection framework that leverages learnable identity bottleneck queries and cross-modal biometric alignment to catch unseen manipulations, achieving 99.4% AUC on cross-lingual KoDF evaluation.
 
@@ -65,6 +68,12 @@ Researchers and engineers tackling robust deepfake detection under cross-lingual
 ## Applications
 
 Automated media forensics for verifying authentic human speech and video in news broadcasting, legal evidence authentication, and social media platform moderation.
+
+## Institutions / 機構
+
+Ewha Womans University
+
+**Funding / 經費:** National Research Foundation of Korea, Ministry of Education
 
 ## Related
 

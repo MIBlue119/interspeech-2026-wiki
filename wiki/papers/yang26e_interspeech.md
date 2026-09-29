@@ -1,6 +1,7 @@
 ---
 id: yang26e_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26e_interspeech.pdf
 *Jing Yang, Sirui Wang, Chao Wu, Lei Guo, Fan Fan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-682)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `generative-model`, `robustness-noise`
 
 **TL;DR** — Schrödinger Bridge Mamba (SBM) integrates Schrödinger Bridge (SB) trajectory training with a selective state-space Mamba backbone to achieve one-step speech enhancement and dereverberation, outperforming multi-step generative and discriminative baselines while maintaining a tiny real-time factor.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time edge speech enhancement, teleconferencing hardware, hearing aids, and streaming communication pipelines operating under strict latency constraints.
+
+## Institutions / 機構
+
+Huawei
 
 ## Related
 

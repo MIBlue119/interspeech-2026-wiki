@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhong26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhong26b_interspeech.pdf
 session: Pathological Speech Assessment 4
 topics: [paralinguistics, dataset, evaluation]
+category: health-clinical
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Radboud University"
+  - "Radboud University Medical Center"
+funding:
+  - "Dutch Research Council"
+  - "SURF"
 code:
     url: https://github.com/terryyizhongru/B-EarlyPD-Speech
     license: ""

@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26e_interspeech.pdf
 session: Active Noise and Echo Control, Sound Zones and Packet-Loss Concealment
 topics: [speech-enhancement, self-supervised, on-device]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "Nanyang Technological University"
+  - "Northwestern Polytechnical University"
+funding:
+  - "Ministry of Education, Singapore"
 code:
     url: https://github.com/Wang-Boxiang/PD-SFANC
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: wang26v_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26v_interspeech.pdf
 *Ren Wang, Zhiyu Cui, Shun Lei, Jiawei Jin, Dongfu Song, Zhiyong Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26v_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26v_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1242)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — The paper introduces Trajectory Confidence-Guided Dynamic Block Inference (TC-DBI), a training-free decoding strategy for continuous block flow matching text-to-speech models that dynamically adjusts block sizes by detecting and regenerating unreliable trajectories. It achieves superior Naturalness MOS and lower Word Error Rate on the Seed-eval benchmark with only a 1.08x relative runtime overhead.
 
@@ -66,6 +69,12 @@ Speech researchers and engineers working on continuous flow matching or diffusio
 ## Applications
 
 High-fidelity, robust text-to-speech synthesis for dialogue systems, voice assistants, and audiobook narration requiring natural prosody and strict error control.
+
+## Institutions / 機構
+
+Tsinghua University, Ant Group
+
+**Funding / 經費:** National Natural Science Foundation of China, Ant Group
 
 ## Related
 

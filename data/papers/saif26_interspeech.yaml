@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/saif26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/saif26_interspeech.pdf
 session: Multilingual, Cross-lingual & Low-Resource ASR
 topics: [asr, multilingual, self-supervised]
+category: asr
+labels:
+  - "multilingual"
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "Rensselaer Polytechnic Institute"
+  - "IBM"
+  - "Cornell Tech"
 code:
     url: ""
     license: ""

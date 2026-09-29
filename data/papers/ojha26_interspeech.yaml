@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ojha26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ojha26_interspeech.pdf
 session: Generative and Self-Supervised Speech Enhancement
 topics: [speech-enhancement, self-supervised, asr]
+category: enhancement-separation
+labels:
+  - "self-supervised"
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "University of Maryland"
 code:
     url: ""
     license: ""

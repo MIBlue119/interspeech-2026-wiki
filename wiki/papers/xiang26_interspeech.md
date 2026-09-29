@@ -1,6 +1,7 @@
 ---
 id: xiang26_interspeech
-category: self-supervised
+category: enhancement-separation
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xiang26_interspeech.pdf
 *Yang Xiang, Philipp Götz, Emanuël A. P. Habets, Andreas Walther, Wenwu Wang, Philip J.B. Jackson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xiang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xiang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1357)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — This paper proposes a three-stage framework to learn robust task-agnostic room embeddings from reverberant speech and a lightweight uncertainty score that predicts embedding reliability under corruptions. The method achieves an RIR verification average precision of 0.99 and a global uncertainty-dispersion Spearman correlation of 0.90.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust speech processing, acoustic environment monitoring, and selective prediction filtering for downstream room parameter estimation.
+
+## Institutions / 機構
+
+University of Surrey, International Audio Laboratories Erlangen, Fraunhofer Institute for Integrated Circuits IIS
+
+**Funding / 經費:** Fraunhofer IIS
 
 ## Related
 

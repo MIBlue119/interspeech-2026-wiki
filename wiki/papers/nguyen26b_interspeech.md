@@ -1,6 +1,7 @@
 ---
 id: nguyen26b_interspeech
-category: speaker-diarization
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nguyen26b_interspeech.pdf
 *Le Thien Phuc Nguyen, Zhuoran Yu, Khoa Quang Nhat Cao, Yuwei Guo, Tu Ho Manh Pham, Tuan Tai Nguyen, Toan Ngo Duc Vo, Lucas Poon, Tuan Khai Nguyen, Soochahn Lee, Yong Jae Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nguyen26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nguyen26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-581)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — The paper introduces UniTalk, a large-scale, in-the-wild active speaker detection benchmark featuring crowded scenes, background noise, and underrepresented languages, demonstrating that state-of-the-art models near-perfect on AVA drop significantly in performance (e.g., TalkNCE drops from >95 to 83.2 mAP).
 
@@ -64,6 +67,12 @@ Researchers and engineers building active speaker detection systems for real-wor
 ## Applications
 
 Speaker diarization, audiovisual speech recognition, human-robot interaction, video conferencing systems, and live media production.
+
+## Institutions / 機構
+
+University of Wisconsin - Madison, Oregon State University, University of Sydney, Kookmin University
+
+**Funding / 經費:** National Science Foundation, IBM, Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: rahman26_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rahman26_interspeech.pdf
 *Hanif Rahman, Shafeeq ur Rehman*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rahman26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rahman26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1432)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper presents the Pashto Common Voice corpus, the first large-scale, openly licensed speech dataset for Pashto, growing to 147 total hours and 1,483 contributors across ten Mozilla Common Voice releases. Fine-tuning Whisper Base on this data achieves a 13.4% word error rate on the test split, down from 99.0% zero-shot performance.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech recognition, screen readers, and voice-controlled digital assistants for Pashto speakers, particularly benefiting non-literate or visually impaired users.
+
+## Institutions / 機構
+
+Pashto DAO
 
 ## Related
 

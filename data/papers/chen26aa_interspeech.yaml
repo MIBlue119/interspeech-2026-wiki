@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26aa_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26aa_interspeech.pdf
 session: Post-Training of Speech Foundation Models
 topics: [speech-llm, source-separation, evaluation]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Harbin University of Science and Technology"
+  - "University of Melbourne"
+  - "KAIST"
+  - "University of Surrey"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: mitra26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mitra26_interspeech.pdf
 *Soumyajit Mitra, Prabhat Pandey, Abhinav Jain, Shanmukha Sahith, K V Vijay Girish*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mitra26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mitra26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2493)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `streaming-real-time`, `generative-model`
 
 **TL;DR** — ModeratorLM is a role-conditioned speech LLM designed for real-time turn-taking in multi-party conversations, improving precision by over 40% and recall by more than 70% compared to non-role-conditioned baselines.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multi-party voice assistants, automated meeting moderators, and role-playing conversational companions.
+
+## Institutions / 機構
+
+Amazon, IIT Kharagpur
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: yang26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26b_interspeech.pdf
 *Yiming Yang, Guangyong Wang, Haixin Guan, Yanhua Long*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-259)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper introduces the Enroll-on-Wakeup (EoW) target speech extraction paradigm, which automatically uses natural wake-word utterances as speaker enrollment references to enable zero-effort human-machine interaction, and evaluates it across five real-world acoustic scenarios.
 
@@ -63,6 +66,10 @@ Researchers building real-time, hands-free conversational assistants should read
 ## Applications
 
 Smart speakers, voice-controlled home automation devices, in-car infotainment systems, and hands-free conversational agents operating in noisy, multi-talker environments.
+
+## Institutions / 機構
+
+Shanghai Normal University, Unisound AI Technology Co., Ltd
 
 ## Related
 

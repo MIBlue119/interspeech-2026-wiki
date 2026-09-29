@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/susac26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/susac26_interspeech.pdf
 session: Speech and Language Technologies in Healthcare
 topics: [paralinguistics, self-supervised, evaluation]
+category: health-clinical
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Zagreb"
+  - "Rosenheim Technical University of Applied Sciences"
+funding:
+  - "European Union NextGenerationEU"
+  - "NPOO VISTAHealth"
 code:
     url: ""
     license: ""

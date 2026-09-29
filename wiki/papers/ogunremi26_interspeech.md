@@ -1,6 +1,7 @@
 ---
 id: ogunremi26_interspeech
-category: multilingual
+category: speech-llm-dialogue
+labels: [multilingual, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ogunremi26_interspeech.pdf
 *Tolúlọpẹ́ Ògúnrẹ̀mí, Dan Jurafsky, Christopher D. Manning, Ahnmet Üstün, Martijn Bartelds*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ogunremi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ogunremi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2584)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `multilingual`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — MULTISPEECHQA is a 9,200-hour, synthetically generated and human-verified multilingual spoken question-answering dataset covering 23 languages, which enables open-weight speech language models like Qwen2.5-Omni to achieve state-of-the-art multilingual performance after LoRA fine-tuning.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual voice assistants, cross-lingual spoken question-answering systems, and open-ended voice-based conversational agents for low-resource languages.
+
+## Institutions / 機構
+
+Stanford University, Cohere Labs, Cohere
+
+**Funding / 經費:** Stanford Interdisciplinary Graduate Fellowship, Google
 
 ## Related
 

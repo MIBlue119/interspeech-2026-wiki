@@ -1,6 +1,7 @@
 ---
 id: le26b_interspeech
 category: asr
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/le26b_interspeech.pdf
 *Khanh Le, Kiet Anh Hoang, Bao Nguyen, Duy Vo, Dung Vo, Thai Tran, Linh Pham, Khoa D Doan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/le26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/le26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1077)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — ViP-VL is a 78M-parameter Vietnamese speech SSL model that integrates an 8x subsampled ChunkFormer encoder with the BEST-RQ vector-quantization framework, establishing new state-of-the-art results across ASR, emotion recognition, dialect classification, and speaker verification.
 
@@ -66,6 +69,10 @@ Researchers and engineers working on low-resource speech SSL should read this pa
 ## Applications
 
 Multilingual and low-resource speech recognition systems, voice-activated smart devices, speech emotion monitoring, and speaker verification pipelines.
+
+## Institutions / 機構
+
+VinUniversity, UNEY
 
 ## Related
 

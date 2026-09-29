@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/awobade26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/awobade26_interspeech.pdf
 session: Translation
 topics: [asr, multilingual, low-resource]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Intron"
 code:
     url: https://huggingface.co/datasets/intronhealth/afrivox-v2
     license: ""

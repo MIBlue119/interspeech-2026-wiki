@@ -14,6 +14,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/asaka26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/asaka26_interspeech.pdf
 session: Speaker Diarization 2
 topics: [speaker-diarization, self-supervised, multilingual]
+category: speaker
+labels:
+  - "self-supervised"
+institutions:
+  - "Institute of Science Tokyo"
+  - "Honda Research Institute Japan"
 code:
     url: ""
     license: ""

@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jia26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jia26b_interspeech.pdf
 session: Evaluation, Benchmarking, and Reliability of Audio Systems
 topics: [evaluation, speech-llm, self-supervised]
+category: resources-evaluation
+labels:
+  - "self-supervised"
+institutions:
+  - "Nankai University"
+funding:
+  - "National Key R&D Program of China"
+  - "NSF China"
 code:
     url: ""
     license: ""

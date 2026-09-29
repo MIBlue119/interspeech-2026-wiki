@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kwon26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kwon26b_interspeech.pdf
 session: Assistive Technologies 2
 topics: [asr, low-resource, self-supervised]
+category: asr
+labels:
+  - "low-resource"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "University of Texas at Austin"
+funding:
+  - "National Institute on Deafness and Other Communication Disorders"
+  - "National Institutes of Health"
 code:
     url: ""
     license: ""

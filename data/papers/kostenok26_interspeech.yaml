@@ -10,6 +10,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kostenok26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/kostenok26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [speech-enhancement, evaluation, self-supervised]
+category: resources-evaluation
+institutions:
+  - "EPFL"
+  - "Logitech"
 code:
     url: https://github.com/KostenokLisa/calibration-reasoning-framework
     license: ""

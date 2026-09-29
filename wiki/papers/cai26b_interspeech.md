@@ -1,6 +1,6 @@
 ---
 id: cai26b_interspeech
-category: acoustic-scene-classification
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cai26b_interspeech.pdf
 *Yiqiang Cai, Yizhou Tan, Peihong Zhang, Yuxuan Liu, Shengchen Li, Xi Shao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cai26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cai26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1955)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — This paper identifies temporal prediction inconsistency as the root cause of performance collapse in short-duration acoustic scene classification (ASC) and proposes a Semantic Adversarial Training (SAT) framework, improving 1-second segment classification accuracy to 63.5% on TAU20.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Responsive edge-AI environmental sensing systems, real-time context-aware wearable devices, and smart-city surveillance.
+
+## Institutions / 機構
+
+Xi'an Jiaotong-Liverpool University, Nanjing University of Posts and Telecommunications
+
+**Funding / 經費:** Jiangsu Provincial Major Science and Technology Project
 
 ## Related
 

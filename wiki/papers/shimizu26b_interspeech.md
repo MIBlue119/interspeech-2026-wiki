@@ -1,6 +1,7 @@
 ---
 id: shimizu26b_interspeech
-category: prosody
+category: phonetics-linguistics
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shimizu26b_interspeech.pdf
 *Kosuke Shimizu, Keiichi Zempo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shimizu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shimizu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-250)
+
+**Category:** `phonetics-linguistics` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — The Auditory Contrast Network (ACN) uses just 238 parameters and three acoustic features to match a 94.6M-parameter wav2vec2 baseline on word-level prominence detection at 120× lower latency. By encoding psychoacoustic principles like pairwise contrast and forward dominance, ACN achieves r = 0.412 acoustically and r = 0.451 with text features on cross-corpus transfer.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time subtitle prosody markup, on-device pronunciation feedback for language learning, hearing aids, and lightweight text-to-speech frontends.
+
+## Institutions / 機構
+
+University of Tsukuba
 
 ## Related
 

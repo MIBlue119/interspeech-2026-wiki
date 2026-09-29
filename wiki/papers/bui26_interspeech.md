@@ -1,6 +1,7 @@
 ---
 id: bui26_interspeech
-category: code-switching
+category: resources-evaluation
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bui26_interspeech.pdf
 *Tien Dat Bui, Duy Le-Tuan Nguyen, Nhat Minh Le, Van Hai Do*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bui26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bui26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3390)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`
 
 **TL;DR** — The paper introduces Code-Switching Semantic Error Rate (CSER), an end-to-end evaluation metric and framework designed to quantify whether ASR errors in code-switched speech disrupt downstream LLM intent preservation. Experiments across commercial and in-house models demonstrate that traditional lexical metrics (WER, CER, PIER) severely overpenalize phonetic transliterations that downstream pipelines easily recover.
 
@@ -64,6 +67,10 @@ Speech and ML engineers building ASR-LLM spoken language pipelines should read t
 ## Applications
 
 Evaluating code-switching speech recognition and voice assistant pipelines where ASR outputs feed into downstream LLM NLU modules for intent execution.
+
+## Institutions / 機構
+
+Viettel Group, Thuyloi University
 
 ## Related
 

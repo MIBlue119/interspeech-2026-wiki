@@ -1,6 +1,6 @@
 ---
 id: zhang26t_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26t_interspeech.pdf
 *Siyuan Zhang, Jian Zong, Junyu Wang, Peiyuan Jiang, Jiahao Yan, Jingyu Zhang, Tianrui Wang, Xiaobao Wang, Longbiao Wang, Jianwu Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26t_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26t_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1313)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — EChO-Agent is a modular tool-augmented framework that reformulates complex audio question answering into a four-stage pipeline of tool execution, evidence integration, reasoning, and verification, achieving 71.0% accuracy on the MMAR benchmark.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Complex audio question answering, multimedia content analysis, educational audio assessment, and auditable spoken language understanding systems.
+
+## Institutions / 機構
+
+Tianjin University, Chinese Academy of Sciences
 
 ## Related
 

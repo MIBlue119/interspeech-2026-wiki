@@ -14,6 +14,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yan26_interspeech.pdf
 session: Language-Model and Codec-Token Speech Enhancement
 topics: [speech-enhancement, speech-separation, speaker-verification]
+category: enhancement-separation
+labels:
+  - "self-supervised"
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "Alibaba"
 code:
     url: https://github.com/alibaba/unifiedaudio
     license: ""

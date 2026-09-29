@@ -1,6 +1,6 @@
 ---
 id: chen26u_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26u_interspeech.pdf
 *Yen-Shan Chen, Shih-Yu Lai, Ying-Jung Tsou, Yi-Cheng Lin, Bing-Yu Chen, Yun-Nung Chen, Hung-yi Lee, Shang-Tse Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26u_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26u_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1979)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — Latent-Mark is the first zero-bit audio watermarking framework designed to survive neural codec compression by optimizing audio waveforms to induce a detectable, manifold-aligned directional shift in the codec's latent space, achieving over 58-93% survivability where prior methods drop to near-zero.
 
@@ -64,6 +66,12 @@ Researchers and engineers building audio watermarking, ownership verification, o
 ## Applications
 
 Intellectual property protection for AI-generated audio assets, deepfake audio detection, and provenance tracking across neural codec communication and distribution pipelines.
+
+## Institutions / 機構
+
+National Taiwan University, CyCraft, RIKEN, MoonShine Animation Studio
+
+**Funding / 經費:** National Science and Technology Council
 
 ## Related
 

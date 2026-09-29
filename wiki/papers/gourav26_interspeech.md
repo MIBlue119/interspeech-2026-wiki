@@ -1,6 +1,6 @@
 ---
 id: gourav26_interspeech
-category: tts
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gourav26_interspeech.pdf
 *Vishal Gourav, Phanindra Mankale*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gourav26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gourav26_interspeech.html)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — DsNA (Digital sigNature for Audios) is a lightweight post-generation framework that embeds verifiable cryptographic provenance directly into text-to-speech audio by interleaving signature shards with audio chunks, achieving identical signal-to-noise ratios (45.2 dB) compared to original outputs.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Tracing the provenance of synthetic speech in content moderation platforms, preventing deepfake audio dissemination, and embedding copyright verification in enterprise text-to-speech generation tools.
+
+## Institutions / 機構
+
+Oracle
 
 ## Related
 

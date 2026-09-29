@@ -1,6 +1,6 @@
 ---
 id: saini26_interspeech
-category: speech-recognition
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/saini26_interspeech.pdf
 *Neelam Saini, Sourav Ghosh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/saini26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/saini26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-912)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — MUSICJUDGE is a block-aligned multimodal framework for automated singing quality assessment that jointly evaluates lyric correctness and pitch-rhythm fidelity using a fine-tuned ASR model with Modality-Guided LoRA, achieving a Spearman correlation of 0.683 with human expert judgments.
 
@@ -66,6 +68,10 @@ Speech and ML researchers working on multimodal audio evaluation, singing proces
 ## Applications
 
 Automated music education systems, interactive singing tutoring software, scalable judging support for talent competitions, and synthetic singing evaluation.
+
+## Institutions / 機構
+
+Samsung
 
 ## Related
 

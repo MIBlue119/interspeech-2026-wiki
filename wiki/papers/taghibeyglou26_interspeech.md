@@ -1,6 +1,7 @@
 ---
 id: taghibeyglou26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/taghibeyglou26_interspeech.pd
 *Behrad TaghiBeyglou, Fatemeh Bagheri, Ervin Sejdic*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/taghibeyglou26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/taghibeyglou26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-844)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — A subject-level graph learning framework transforms multiple short phonation and DDK recordings into a single kNN graph over frozen SSL embeddings, achieving macro-F1 of 0.73 on dysarthria severity and 0.69 on disease progression prediction.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated remote monitoring systems for neurodegenerative diseases, clinical speech assessment tools, and low-resource digital biomarkers for disease progression tracking.
+
+## Institutions / 機構
+
+University of Toronto, North York General Hospital
 
 ## Related
 

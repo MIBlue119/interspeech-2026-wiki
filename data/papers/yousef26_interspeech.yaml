@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yousef26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/yousef26_interspeech.pdf
 session: Speech, Voice and Language Disorders
 topics: [paralinguistics, health, speech-enhancement]
+category: health-clinical
+institutions:
+  - "Massachusetts General Hospital"
+  - "Harvard Medical School"
+  - "Northeastern University"
+  - "MIT Lincoln Laboratory"
+funding:
+  - "National Institutes of Health"
+  - "National Institute on Deafness and Other Communication Disorders"
 code:
     url: ""
     license: ""

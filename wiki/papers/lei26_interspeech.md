@@ -1,6 +1,7 @@
 ---
 id: lei26_interspeech
-category: speech-enhancement
+category: audio-understanding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lei26_interspeech.pdf
 *Wentao Lei, Li Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lei26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lei26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-561)
+
+**Category:** `audio-understanding` · **Labels:** `generative-model`
 
 **TL;DR** — ARCHES is a multi-agent framework that automates sound effect synthesis for variety shows using retrieval-augmented generation and iterative refinement, outperforming existing video-to-audio models with an FAD of 7.04 and an onset difference of 0.048 seconds.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated post-production for comedy and variety shows, interactive video editing software suites, and stylized sound design generation for content creators.
+
+## Institutions / 機構
+
+Hong Kong University of Science and Technology
 
 ## Related
 

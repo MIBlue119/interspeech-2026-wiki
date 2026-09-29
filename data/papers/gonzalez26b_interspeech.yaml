@@ -17,6 +17,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gonzalez26b_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/gonzalez26b_interspeech.pdf
 session: New Architecture and Analyses for ASR and Speech LMs
 topics: [self-supervised, phonetics, multilingual]
+category: phonetics-linguistics
+labels:
+  - "self-supervised"
+institutions:
+  - "Defence Science and Technology Group"
 code:
     url: ""
     license: ""

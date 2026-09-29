@@ -25,8 +25,14 @@ type Paper struct {
 	PDFURL  string   `yaml:"pdf_url,omitempty"`
 	Session string   `yaml:"session,omitempty"`
 	Topics  []string `yaml:"topics"`
-	Arxiv   string   `yaml:"arxiv,omitempty"`
-	Code    Code     `yaml:"code"`
+	// Category is one of the 14 canonical categories; Labels are cross-cutting
+	// tags. Both are assigned via TypeSafe (Jev) judgments and editable by PR.
+	Category     string   `yaml:"category,omitempty"`
+	Labels       []string `yaml:"labels,omitempty"`
+	Institutions []string `yaml:"institutions,omitempty"`
+	Funding      []string `yaml:"funding,omitempty"`
+	Arxiv        string   `yaml:"arxiv,omitempty"`
+	Code         Code     `yaml:"code"`
 	// Author opt-in fields, filled by the paper's own authors via PR.
 	Contact             string `yaml:"contact,omitempty"`
 	Lab                 string `yaml:"lab,omitempty"`
@@ -101,7 +107,18 @@ func validatePaper(path string, p *Paper) []string {
 	if p.Code.URL != "" && !strings.HasPrefix(p.Code.URL, "https://") {
 		errs = append(errs, "code.url must be an https URL")
 	}
+	if p.Category != "" && !canonicalCategories[p.Category] {
+		errs = append(errs, fmt.Sprintf("category %q is not one of the canonical categories", p.Category))
+	}
 	return errs
+}
+
+var canonicalCategories = map[string]bool{
+	"asr": true, "tts": true, "speaker": true, "speech-llm-dialogue": true,
+	"enhancement-separation": true, "translation": true, "paralinguistics-emotion": true,
+	"health-clinical": true, "phonetics-linguistics": true, "audio-understanding": true,
+	"deepfake-security": true, "speech-coding": true, "resources-evaluation": true,
+	"applications-other": true,
 }
 
 func cmdValidate(_ []string) error {

@@ -14,6 +14,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26m_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26m_interspeech.pdf
 session: Phonetic Aspects of TTS and ASR Systems
 topics: [paralinguistics, tts, phonetics]
+category: phonetics-linguistics
+institutions:
+  - "Chinese University of Hong Kong"
+  - "University College Dublin"
+  - "Chinese University of Hong Kong, Shenzhen"
+funding:
+  - "Hong Kong RGC GRF"
+  - "CUHK Research Committee Postdoctoral Fellowship Scheme"
+  - "Hong Kong RGC Postdoctoral Fellowship"
 code:
     url: ""
     license: ""

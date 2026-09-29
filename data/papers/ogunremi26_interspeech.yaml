@@ -12,6 +12,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ogunremi26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/ogunremi26_interspeech.pdf
 session: Multilingual Speech 1
 topics: [multilingual, speech-llm, self-supervised]
+category: speech-llm-dialogue
+labels:
+  - "multilingual"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Stanford University"
+  - "Cohere Labs"
+  - "Cohere"
+funding:
+  - "Stanford Interdisciplinary Graduate Fellowship"
+  - "Google"
 code:
     url: ""
     license: ""

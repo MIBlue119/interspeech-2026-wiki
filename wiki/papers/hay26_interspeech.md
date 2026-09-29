@@ -1,12 +1,14 @@
 ---
 id: hay26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-28
 confidence: abstract-only
 source: https://www.isca-archive.org/interspeech_2026/hay26_interspeech.html
 ---
 
 # What does it mean to 'know a word'?
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — A keynote talk arguing that word knowledge spans a far wider continuum than usually assumed, from implicit awareness of words in a language one doesn't speak to richly detailed phonetic/social memory for highly familiar words.
 
@@ -29,6 +31,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Relevant to psycholinguists and phonologists studying lexical representation, language exposure effects, and models of speech perception that go beyond simple word-meaning mappings.
+
+## Institutions / 機構
+
+University of Canterbury
 
 ## Related
 

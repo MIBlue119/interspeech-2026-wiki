@@ -1,6 +1,7 @@
 ---
 id: tokuma26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tokuma26_interspeech.pdf
 *Shinichi Tokuma*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tokuma26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tokuma26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-211)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study investigates how Japanese listeners perceive the English /iː/–/ɪ/ vowel contrast under silent-centre (SC) and devoiced vowel (DEV) conditions, revealing that L1 phonological biases heavily outweigh acoustic cues like aspiration or high-frequency devoicing remnants.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving computer-assisted pronunciation training (CAPT) systems and targeted listening curricula for Japanese learners of English.
+
+## Institutions / 機構
+
+Chuo University
+
+**Funding / 經費:** Chuo University Personal Research Grant
 
 ## Related
 

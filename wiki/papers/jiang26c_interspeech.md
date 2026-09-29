@@ -1,6 +1,7 @@
 ---
 id: jiang26c_interspeech
-category: asr
+category: resources-evaluation
+labels: [dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jiang26c_interspeech.pdf
 *Xiao-Hang Jiang, Hanjie Guo, Ying-Si Liang, Yang Ai, Zhen-Hua Ling, Lei Jiang, Zhi-Yang He*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jiang26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jiang26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-606)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — The paper introduces a paired acoustic stress test to evaluate how acoustic noise in ASR-to-LLM clinical scribes causes downstream safety failures, discovering that stationary ambient noise can double unsafe outputs while inflating Word Error Rate by less than 1 percentage point.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated ambient clinical documentation, medical speech-to-text safety auditing, and healthcare conversational AI assistants.
+
+## Institutions / 機構
+
+University of Science and Technology of China, iFLYTEK
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: ieong26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ieong26_interspeech.pdf
 *Lok-Lam Ieong, Chia-Chien Chen, Chih-Kai Yang, Yu-Han Huang, An-Yu Cheng, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ieong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ieong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-554)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — This paper introduces a training-free model steering framework that manipulates hidden states to enhance Chain-of-Thought (CoT) reasoning in large audio-language models (LALMs), achieving up to 4.4% absolute accuracy gains over standard CoT prompting. It demonstrates that generalized steering vectors extracted from text-only data can successfully and data-efficiently transfer to spoken reasoning tasks.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Enhancing mathematical and scientific reasoning in voice assistants, interactive spoken tutoring systems, and on-device audio-language applications.
+
+## Institutions / 機構
+
+National Taiwan University, NTU Artificial Intelligence Center of Research Excellence
+
+**Funding / 經費:** Ministry of Education, Taiwan Centers of Excellence in Artificial Intelligence project, NTU Artificial Intelligence Center of Research Excellence
 
 ## Related
 

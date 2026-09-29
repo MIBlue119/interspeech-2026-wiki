@@ -1,6 +1,7 @@
 ---
 id: ye26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ye26_interspeech.pdf
 *Zhen Ye, Xu Tan, Yiming Li, Guangyan Zhang, Chimin Chan, Haohe Liu, Zhengxi Liu, Hongzhan Lin, Zheqi Dai, Xinshen Zhang, Peiwen Sun, Qiuqiang Kong, Wei Xue*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ye26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ye26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-21)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates how speech token design and temporal frame rate impact cross-modal reasoning in a frozen text LLM. By combining factorized FSQ with a non-autoregressive audio head and intermediate-layer contrastive alignment, the model achieves competitive speech-to-speech QA using only ~2.5k hours of training data.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 End-to-end spoken dialogue agents, real-time voice assistants, and low-resource speech-to-speech translation systems.
+
+## Institutions / 機構
+
+Hong Kong University of Science and Technology, Tencent, University of Surrey, Chinese University of Hong Kong, Hong Kong Baptist University, Hong Kong Polytechnic University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: sharma26b_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sharma26b_interspeech.pdf
 *Aastha Sharma, Guangjing Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sharma26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sharma26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2712)
+
+**Category:** `deepfake-security` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — VoxENES 2026 is a new bilingual benchmark evaluating speech spoofing detectors against LLM-era TTS, voice conversion, and realistic post-processing, revealing that eight popular pretrained detectors suffer massive performance degradation with the best model achieving only 28.98% EER.
 
@@ -67,6 +70,10 @@ Researchers and engineers building production speech authentication or deepfake 
 ## Applications
 
 Audio deepfake detection, voice biometric security, and robust speech countermeasure deployment against LLM-driven audio spoofing.
+
+## Institutions / 機構
+
+University of South Florida
 
 ## Related
 

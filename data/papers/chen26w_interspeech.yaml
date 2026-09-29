@@ -11,6 +11,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26w_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26w_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
 topics: [paralinguistics, self-supervised, evaluation]
+category: paralinguistics-emotion
+institutions:
+  - "Tianjin Foreign Studies University"
+  - "Beijing Language and Culture University"
 code:
     url: ""
     license: ""

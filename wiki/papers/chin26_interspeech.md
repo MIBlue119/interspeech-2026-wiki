@@ -1,6 +1,7 @@
 ---
 id: chin26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
+labels: [multilingual, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chin26_interspeech.pdf
 *Jessica Chin, Laurence Bruggeman, Mark Antoniou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2950)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `robustness-noise`
 
 **TL;DR** — This study investigates how listener language experience, masker language, and cognitive load impact speech-in-speech recognition using an English word monitoring task. Results show that an English masker causes the poorest accuracy and response times, while bilingual familiarity with the masker and varying cognitive load via digit preload do not significantly disrupt word monitoring performance.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Insights inform the design of robust speech enhancement algorithms, hearing aid signal processing strategies, and multi-talker auditory interfaces in noisy environments.
+
+## Institutions / 機構
+
+Western Sydney University
 
 ## Related
 

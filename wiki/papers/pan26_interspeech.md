@@ -1,6 +1,7 @@
 ---
 id: pan26_interspeech
-category: speech-deepfake-detection
+category: deepfake-security
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pan26_interspeech.pdf
 *Zihan Pan, Sailor Hardik, Jinyang Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-908)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — The paper introduces Mix-Frames Post-Training (MFPT), a perturbation-driven intermediate training strategy with frame-level supervision that adapts speech foundation models for robust deepfake detection. It achieves a state-of-the-art single-model EER of 4.50% on ASVspoof5 without data augmentation and high cross-condition stability on ASVspoof2021.
 
@@ -68,6 +71,10 @@ Researchers and practitioners working on audio deepfake detection or speech foun
 ## Applications
 
 Automated voice biometric security systems, media forensics tools, and online trust and safety software designed to detect synthetic speech and voice conversion attacks across diverse compression codecs.
+
+## Institutions / 機構
+
+Agency for Science, Technology and Research
 
 ## Related
 

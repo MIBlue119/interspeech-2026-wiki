@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mahapatra26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/mahapatra26_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
 topics: [audio-deepfake, self-supervised, prosody]
+category: deepfake-security
+labels:
+  - "self-supervised"
+institutions:
+  - "Johns Hopkins University"
+  - "Hong Kong Polytechnic University"
+funding:
+  - "National Science Foundation"
+  - "Office of the Director of National Intelligence"
+  - "Intelligence Advanced Research Projects Activity"
 code:
     url: https://prosdd.github.io/ProSDD_website/
     license: ""

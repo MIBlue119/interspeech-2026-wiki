@@ -14,6 +14,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/leal26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/leal26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
 topics: [asr, dataset, evaluation]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Venturus"
+  - "University of São Paulo"
+  - "NVIDIA"
+  - "São Paulo State University"
+funding:
+  - "Ministry of Science, Technology, and Innovations"
+  - "PPI-SOFTEX"
+  - "Softex"
 code:
     url: https://github.com/nilc-nlp/tarsila-asr
     license: ""

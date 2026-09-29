@@ -1,6 +1,7 @@
 ---
 id: tiwari26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tiwari26_interspeech.pdf
 *Shyamji Tiwari*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tiwari26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tiwari26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2102)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `generative-model`
 
 **TL;DR** — NovaDiffusion conditions a distilled latent diffusion model on emotion-correlated prosodic features extracted from speech, achieving 71.3% emotion classification accuracy on RAVDESS (surpassing SonicDiffusion by 23.1pp).
 

@@ -1,6 +1,7 @@
 ---
 id: chen26k_interspeech
-category: self-supervised
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26k_interspeech.pdf
 *Wei-Chih Chen, Chien-yu Huang, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1118)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper adapts causal tracing to Large Audio Language Models (LALMs) to reveal their internal multi-modal integration dynamics, showing that DeSTA uses progressive fusion, Qwen uses abrupt late-stage fusion, and the final sequence token acts as an informational bottleneck for audio retrieval.
 
@@ -56,6 +59,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Optimizing inference efficiency in late-fusion LALMs by bypassing redundant early-layer computations, and monitoring internal query mechanisms to detect and mitigate audio-text hallucinations.
+
+## Institutions / 機構
+
+National Taiwan University, Carnegie Mellon University
+
+**Funding / 經費:** Ministry of Education, Taiwan Centers of Excellence in Artificial Intelligence, NTU Artificial Intelligence Center of Research Excellence
 
 ## Related
 

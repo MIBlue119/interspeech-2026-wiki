@@ -1,6 +1,7 @@
 ---
 id: oliveira26b_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/oliveira26b_interspeech.pdf
 *Danilo Oliveira, Tal Peer, Timo Gerkmann*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/oliveira26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/oliveira26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2597)
+
+**Category:** `resources-evaluation` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper investigates how modern automatic speech recognition (ASR) models correlate with human recognition of speech enhancement (SE) outputs, revealing that large-scale noisy-trained transducer and attention models best track human trends but can be uninformative for acoustics-focused evaluations. It demonstrates that choice of ASR architecture, text normalization, and handling of hallucination outliers dramatically alter SE system rankings.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Standardizing automated evaluation pipelines for speech enhancement, noise suppression challenges, and telecommunication audio quality assessment.
+
+## Institutions / 機構
+
+University of Hamburg
 
 ## Related
 

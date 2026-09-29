@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/s26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/s26_interspeech.pdf
 session: 'Robust ASR: Hallucinations and Biases'
 topics: [asr, self-supervised, evaluation]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Indian Institute of Science"
+funding:
+  - "Defence Research and Development Organisation"
 code:
     url: https://asr.iitm.ac.in/models
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: zou26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zou26_interspeech.pdf
 *Dinghao Zou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zou26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zou26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1552)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — PoolingVQ uses a VQ-VAE codebook and variance-aware adaptive pooling to compress redundant audio feature sequences (~75 Hz to ~25 Hz), resolving the information density imbalance in bimodal music emotion recognition and achieving new state-of-the-art macro-F1 on EMOPIA (0.8955) and VGMIDI (0.6018).
 
@@ -66,6 +68,12 @@ Researchers working on multimodal fusion and sequence compression in speech and 
 ## Applications
 
 Automated music recommendation, affective music generation, and mood-based playlist curation.
+
+## Institutions / 機構
+
+Wuhan University of Science and Technology
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

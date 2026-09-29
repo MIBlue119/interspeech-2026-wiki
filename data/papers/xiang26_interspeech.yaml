@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xiang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xiang26_interspeech.pdf
 session: Spatial Audio 4
 topics: [self-supervised, speech-enhancement, evaluation]
+category: enhancement-separation
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "University of Surrey"
+  - "International Audio Laboratories Erlangen"
+  - "Fraunhofer Institute for Integrated Circuits IIS"
+funding:
+  - "Fraunhofer IIS"
 code:
     url: ""
     license: ""

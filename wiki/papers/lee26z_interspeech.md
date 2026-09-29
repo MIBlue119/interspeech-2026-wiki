@@ -1,6 +1,6 @@
 ---
 id: lee26z_interspeech
-category: paralinguistics
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26z_interspeech.pdf
 *Kanghwi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26z_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26z_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3557)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — Trajectory variance uses counterfactual age-conditioned latent shifts to quantify vocal developmental plasticity without type labels, successfully separating learned zebra finch song syllables from innate calls (AUC = 0.58–0.67).
 
@@ -67,6 +69,12 @@ Researchers and engineers working on unsupervised developmental modeling, repres
 ## Applications
 
 Unsupervised analysis of animal vocal learning, tracking acoustic development and plasticity in bioacoustics, and evaluating developmental trajectories in low-resource longitudinal speech corpora.
+
+## Institutions / 機構
+
+University of Zurich, ETH Zurich
+
+**Funding / 經費:** Swiss National Science Foundation
 
 ## Related
 

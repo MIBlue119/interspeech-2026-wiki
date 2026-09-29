@@ -13,6 +13,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/huang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26_interspeech.pdf
 session: Spoken Language Understanding
 topics: [spoken-language-understanding, self-supervised, multilingual]
+category: speech-llm-dialogue
+institutions:
+  - "University of Shanghai for Science and Technology"
+  - "Chinese Academy of Sciences"
+  - "University of Minnesota"
+  - "University of Leeds"
+funding:
+  - "Shenzhen Medical Research Fund"
+  - "National Key Laboratory of the CAS on Medical Imaging Science and Technology System"
+  - "Key Research and Development Program of Guangdong Province"
+  - "Shenzhen STIB programs"
+  - "Xisike Clinical Oncology Research Foundation"
 code:
     url: ""
     license: ""

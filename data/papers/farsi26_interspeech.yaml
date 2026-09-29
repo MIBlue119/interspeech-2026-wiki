@@ -12,6 +12,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/farsi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/farsi26_interspeech.pdf
 session: Multilingual Speech 1
 topics: [asr, low-resource, multilingual]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Amirkabir University of Technology"
+  - "King's College London"
+  - "Kartal OL Foundation"
+funding:
+  - "Kartal Ol Foundation"
+  - "YoYo research group"
 code:
     url: https://github.com/Kartalol/Kartalol-azb-asr
     license: ""

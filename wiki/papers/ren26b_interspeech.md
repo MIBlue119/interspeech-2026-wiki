@@ -1,6 +1,7 @@
 ---
 id: ren26b_interspeech
-category: speech-llm
+category: audio-understanding
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ren26b_interspeech.pdf
 *Peiwei Ren, Jinbo Hu, Fang Kang, Shan Liang, Yin Cao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ren26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ren26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1110)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — CoSTALA is an audio-language alignment training paradigm designed to transition from coarse global representations to fine-grained spatio-temporal reasoning for multi-event spatial audio. It achieves an absolute text-to-audio Recall@1 of 8.10% (vs. 5.66% for T-CLAP) on a newly constructed spatial audio-text benchmark.
 
@@ -64,6 +67,12 @@ Speech and ML researchers working on spatial audio understanding and multi-modal
 ## Applications
 
 Complex acoustic scene monitoring, spatially aware conversational agents, and multi-event augmented reality sound indexing.
+
+## Institutions / 機構
+
+Xi'an Jiaotong-Liverpool University, Xiaomi, University of Oulu, Chinese Academy of Sciences
+
+**Funding / 經費:** Xi'an Jiaotong-Liverpool University
 
 ## Related
 

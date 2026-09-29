@@ -1,6 +1,7 @@
 ---
 id: ren26d_interspeech
-category: speech-llm
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ren26d_interspeech.pdf
 *Yiming Ren, Ziyang Zhang, Wen Wu, Baoxiang Li, Chao Zhang, Xuenan Xu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ren26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ren26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1180)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — AuDirector is a self-reflective closed-loop multi-agent framework for long-form audio storytelling that coordinates voice casting, hierarchical synthesis, critic-led self-correction, and natural language interactive refinement, outperforming baseline agent systems in voice-role matching and acoustic fidelity.
 
@@ -65,6 +68,12 @@ Speech and ML researchers building multi-agent generative systems will find this
 ## Applications
 
 Automated production of immersive podcasts, multi-character audiobooks, and interactive radio dramas from text prompts.
+
+## Institutions / 機構
+
+Shanghai Artificial Intelligence Laboratory, Tsinghua University
+
+**Funding / 經費:** Shanghai Artificial Intelligence Laboratory
 
 ## Related
 

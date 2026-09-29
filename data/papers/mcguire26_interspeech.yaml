@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mcguire26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/mcguire26_interspeech.pdf
 session: Speech Production and Perception 2
 topics: [phonetics, prosody, evaluation]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+institutions:
+  - "Macquarie University"
+  - "National Tsing Hua University"
 code:
     url: ""
     license: ""

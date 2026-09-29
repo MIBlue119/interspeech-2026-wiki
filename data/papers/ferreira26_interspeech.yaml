@@ -15,6 +15,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ferreira26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/ferreira26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [evaluation, self-supervised, paralinguistics]
+category: resources-evaluation
+labels:
+  - "self-supervised"
+institutions:
+  - "Advanced Knowledge Center in Immersive Technologies"
+  - "Federal University of Goias"
+  - "Federal University of Rio Grande do Norte"
+  - "Federal University of Technology"
+funding:
+  - "Advanced Knowledge Center in Immersive Technologies"
+  - "PPI IoT of the MCTI"
+  - "EMBRAPII"
 code:
     url: ""
     license: ""

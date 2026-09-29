@@ -1,6 +1,7 @@
 ---
 id: guo26e_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/guo26e_interspeech.pdf
 *Haotian Guo, Jing Han, Yongfeng Tu, Shihao Gao, Weihao Gan, Zixing Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/guo26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/guo26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3146)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — DEBATE is a public Mandarin speech-text dataset of 9.66 hours across 10,010 utterances designed to evaluate disambiguation through speech (DTS), revealing that current large speech-language models achieve only 51-68% accuracy compared to near-perfect human performance.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving large speech-language models for smart assistants, voice-controlled interfaces, and dialogue systems to accurately capture speaker intent, prosodic stress, and homograph pronunciation.
+
+## Institutions / 機構
+
+Hunan University, Malanshan Audio & Video Laboratory, Yuelushan Center for Industrial Innovation
+
+**Funding / 經費:** Malanshan Audio & Video Laboratory, National Natural Science Foundation of China, National Science and Technology Major Project of China, Science and Technology Innovation Program of Hunan Province, Guangdong Basic and Applied Basic Research Foundation, Shenzhen Natural Science Foundation
 
 ## Related
 

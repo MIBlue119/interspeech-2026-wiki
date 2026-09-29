@@ -1,6 +1,7 @@
 ---
 id: song26g_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/song26g_interspeech.pdf
 *Yonghun Song, Yeongmin Kim, Yunsik Kim, Yeeun Kim, Yoonyoung Chung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/song26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/song26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3119)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`, `robustness-noise`
 
 **TL;DR** — LAU-NetV2 is a lightweight, multimodal speech enhancement network that uses skin-attachable accelerometer (ACC) cues to modulate an acoustic microphone (AM) U-Net via Feature-wise Linear Modulation (FiLM), improving PESQ from 1.78 to 2.78 on extremely noisy data while running in 48.66 ms on a microcontroller.
 
@@ -67,6 +70,12 @@ Researchers and edge-AI engineers building wearable speech interfaces should rea
 ## Applications
 
 Real-time speech enhancement on resource-constrained wearable hardware such as smart glasses, hearing aids, and specialized earbuds operating in extremely noisy environments.
+
+## Institutions / 機構
+
+Pohang University of Science and Technology, Intus
+
+**Funding / 經費:** National Research Foundation, Institute of Information & Communications Technology Planning & Evaluation, High-Performance Computing Support Project, Regional Innovation System & Education project
 
 ## Related
 

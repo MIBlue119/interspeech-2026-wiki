@@ -1,6 +1,6 @@
 ---
 id: lu26c_interspeech
-category: speech-llm
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lu26c_interspeech.pdf
 *Qihang Lu, Wenbing Yang, Bingsong Bai, Zihan Sun, Yueran Hou, Peilei Jia, Ya Li, Jun Gao, Yingming Gao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lu26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lu26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1925)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — The paper introduces a zero-human-annotation pipeline called Semantic Drift and Discriminative Re-ranking to fix the "neutral bias" in Large Audio Language Models (LALMs), achieving a 66.15% win rate in LLM-as-a-judge evaluations over unrefined baselines.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Supervised fine-tuning of Large Audio Language Models (LALMs) for empathetic spoken dialogue systems, conversational AI, and expressive speech understanding.
+
+## Institutions / 機構
+
+Beijing University of Posts and Telecommunications, Hello Group Inc
+
+**Funding / 經費:** National Key R&D Program of China, National Natural Science Foundation of China, National Language Commission, National Social Science Fund of China
 
 ## Related
 

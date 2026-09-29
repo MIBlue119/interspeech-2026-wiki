@@ -8,6 +8,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wong26_interspeech.pdf
 session: Queer and Trans Speech Science and Technology
 topics: [paralinguistics, dataset, evaluation]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "University of Otago"
+  - "Te Punaha Matatini"
+funding:
+  - "UC College of Arts"
+  - "School of Language, Social and Political Science"
+  - "Te Punaha Matatini"
 code:
     url: https://osf.io/tg8bc/
     license: ""

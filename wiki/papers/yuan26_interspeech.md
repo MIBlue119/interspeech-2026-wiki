@@ -1,6 +1,7 @@
 ---
 id: yuan26_interspeech
-category: speech-enhancement
+category: speech-coding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yuan26_interspeech.pdf
 *Jiajun Yuan, Xiaochen Wang, Yulin Wu, Chenhao Hu, Xueyang Lv*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yuan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yuan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-27)
+
+**Category:** `speech-coding` · **Labels:** `generative-model`
 
 **TL;DR** — STSR is a vocoder-free, single-stage MDCT-domain speech super-resolution framework that combines hierarchical spectral-context attention and a sparse-aware regularization strategy, achieving superior 48 kHz reconstruction quality with fewer parameters than prior models.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Bandwidth extension for legacy archival audio recordings, telecommunication speech intelligibility enhancement, and single-stage 48 kHz audio upsampling for voice assistants and streaming.
+
+## Institutions / 機構
+
+Wuhan University, Jianghan University, Xiaomi Corporation
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

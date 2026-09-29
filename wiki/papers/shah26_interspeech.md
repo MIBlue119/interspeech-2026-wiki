@@ -1,6 +1,7 @@
 ---
 id: shah26_interspeech
-category: speech-enhancement
+category: deepfake-security
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shah26_interspeech.pdf
 *Arth J. Shah, Devanshi K. Trivedi, Himanshi U. Borad, Hemant A. Patil*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shah26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shah26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2573)
+
+**Category:** `deepfake-security` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — SingFox is a large-scale, multilingual singing deepfake detection corpus spanning 126.32 hours across 20 languages and 1,150 singers, featuring specialized tracks for alternative fakes and source tracing. Cross-testing models trained on various datasets yielded a highest accuracy of 77.84%.
 
@@ -62,6 +65,10 @@ Researchers and engineers building robust singing deepfake detectors or investig
 ## Applications
 
 Singing deepfake detection, audio forensics, voice copyright protection, and source attribution systems for music streaming platforms.
+
+## Institutions / 機構
+
+Dhirubhai Ambani University, Sarvajanik College of Engineering and Technology
 
 ## Related
 

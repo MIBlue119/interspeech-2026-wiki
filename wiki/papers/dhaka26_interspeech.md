@@ -1,6 +1,7 @@
 ---
 id: dhaka26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dhaka26_interspeech.pdf
 *Aditya Dhaka, Aarush Mathur, Dena Mujtaba, Hope Gerlach-Houck, Caryn Herring, Chelsea Johnson, J. Scott Yaruss, Nihar Mahapatra*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dhaka26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dhaka26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3522)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper provides the first leaderboard-anchored evaluation of leading open ASR models on nonstandard speech (stuttered and dysarthric speech), revealing a 2–5x inflation in average WER compared to standard benchmarks. Among tested systems, Whisper-Large-v3 generalizes most robustly, while Parakeet demonstrates complementary strengths on dysarthric speech conditions.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Accessibility-focused automatic speech recognition, healthcare dictation tools for patients with speech disorders, and inclusive voice-controlled digital assistants.
+
+## Institutions / 機構
+
+Michigan State University, Western Michigan University, Friends: The National Association of Young People Who Stutter
+
+**Funding / 經費:** U.S. National Science Foundation
 
 ## Related
 

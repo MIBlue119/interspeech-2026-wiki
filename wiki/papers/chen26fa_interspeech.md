@@ -1,6 +1,6 @@
 ---
 id: chen26fa_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26fa_interspeech.pdf
 *Yunda Chen, Nengheng Zheng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26fa_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26fa_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3494)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper evaluates a Bayesian observer model for sagittal-plane sound localization that jointly integrates an ecological source prior and five spatial priors, calibrated against human responses across cochlear implant-like spectral resolution reductions. The models successfully replicate the monotonic decrease in polar and quadrant errors as spectral resolution improves (mean Pearson r > 0.93), though asymmetric spatial priors capture human behavior better than symmetric ones.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving spatial audio rendering for augmented reality, optimizing sound localization algorithms for hearing aids and cochlear implants, and developing advanced spatial cue integration models for machine hearing.
+
+## Institutions / 機構
+
+Shenzhen University
 
 ## Related
 

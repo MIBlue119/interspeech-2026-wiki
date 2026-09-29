@@ -1,6 +1,7 @@
 ---
 id: jang26_interspeech
 category: speech-coding
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jang26_interspeech.pdf
 *Inseon Jang, Minje Kim, Wootaek Lim, Seungkwon Beack*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-878)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`
 
 **TL;DR** — The paper introduces Personalized DAC (PDAC), an end-to-end speaker-aware model compression framework for neural speech codecs that clusters speakers by perceptual similarity to train group-specific encoders and decoders. PDAC achieves a 96% reduction in model size and 50% lower bitrate (1 kbps instead of 2 kbps) while maintaining the perceptual quality of the uncompressed state-of-the-art Descript Audio Codec (DAC).
 
@@ -64,6 +67,12 @@ Speech and ML engineers building ultra-low-bitrate and resource-constrained on-d
 ## Applications
 
 Low-power real-time voice communication apps, satellite communications, IoT audio edge devices, and bandwidth-constrained speech transmission channels.
+
+## Institutions / 機構
+
+Electronics and Telecommunications Research Institute, University of Illinois Urbana-Champaign
+
+**Funding / 經費:** Electronics and Telecommunications Research Institute
 
 ## Related
 

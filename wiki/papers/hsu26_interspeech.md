@@ -1,6 +1,6 @@
 ---
 id: hsu26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hsu26_interspeech.pdf
 *Ming-Hao Hsu, Xiaohai Tian, Jun Zhang, Zhizheng Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hsu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hsu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-640)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — Speech Large Language Models (SLLMs) suffer from severe reasoning gaps exclusively on tasks requiring entity tracking due to continuous feature downsampling, which can be mitigated via an explicit Entity-Aware Chain-of-Thought (EA-CoT) prompt yielding up to a 24.4 percentage-point gain.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Deploying robust speech assistants and spoken dialogue systems capable of complex multi-entity reasoning and logical tracking.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, ByteDance, Shenzhen Loop Area Institute, Amphion Technology Co., Ltd
+
+**Funding / 經費:** Shenzhen Science and Technology Program, Internal Project Fund from Shenzhen Research Institute of Big Data
 
 ## Related
 

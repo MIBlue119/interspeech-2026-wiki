@@ -1,6 +1,6 @@
 ---
 id: banerjee26_interspeech
-category: speech-tokenization
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/banerjee26_interspeech.pdf
 *Adhiraj Banerjee, Vipul Arora*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/banerjee26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/banerjee26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-141)
+
+**Category:** `asr`
 
 **TL;DR** — wav2tok 2.0 is a scalable audio tokenizer designed for query-by-example spoken term detection that combines a BEST-STD backbone with explicit CTC and DTW-aligned framewise token prediction objectives, outperforming general-purpose tokenizers and achieving state-of-the-art retrieval accuracy.
 
@@ -67,6 +69,10 @@ Speech researchers and engineers working on spoken term detection, audio retriev
 ## Applications
 
 Query-by-example spoken term detection, voice search, audio indexing, podcast retrieval, and discrete token generation for speech large language models.
+
+## Institutions / 機構
+
+Indian Institute of Technology Kanpur, KU Leuven
 
 ## Related
 

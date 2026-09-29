@@ -1,6 +1,7 @@
 ---
 id: hoffner26_interspeech
-category: paralinguistics
+category: resources-evaluation
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hoffner26_interspeech.pdf
 *Dirk Eike Hoffner, Hartmut Schoon, Rainer Huber, Jan Rennies, Bernd T. Meyer*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hoffner26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hoffner26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1891)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — This paper evaluates two deep learning-based speech perception models—PHOBI (phone-posterior entropy) and HASA-Net+ (teacher-student WavLM model)—on predicting subjective listening effort (LE) and speech intelligibility (SI) across spatial, enhanced, synthetic, and binaural acoustic conditions, achieving overall correlation coefficients above 0.88 across over 10,500 listener ratings.
 
@@ -61,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Evaluation and automatic tuning of hearing-aid speech enhancement algorithms, quality control for text-to-speech synthesis systems, and non-intrusive monitoring of spatial audio communication channels.
+
+## Institutions / 機構
+
+Carl von Ossietzky Universitat Oldenburg, Cluster of Excellence Hearing4all, Fraunhofer Institute for Digital Media Technology
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

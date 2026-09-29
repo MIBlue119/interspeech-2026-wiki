@@ -1,6 +1,7 @@
 ---
 id: metzger26_interspeech
 category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/metzger26_interspeech.pdf
 *Alexander Metzger, Aruna Srivastava, Ruslan Mukhamedvaleev*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/metzger26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/metzger26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3271)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates the scaling behaviors of human versus Grapheme-to-Phoneme (G2P) supervision for phonetic transcription, discovering a quality threshold where G2P scaling becomes redundant beyond 20-30 hours of diverse human annotation. By combining Wav2Vec2 XLSR pretraining, multilingual ASR finetuning, and 40 hours of human phonetic labels, the authors achieve a 2.3x reduction in weighted phone feature error rate over prior systems.
 
@@ -66,6 +69,12 @@ Speech and ML researchers building phonetic transcriptors for clinical, non-nati
 ## Applications
 
 Computer-assisted pronunciation training, speech disorder and dementia assessment, clinical speech pathology, and inclusive speech technology design.
+
+## Institutions / 機構
+
+Koel Labs
+
+**Funding / 經費:** Mozilla, Google
 
 ## Related
 

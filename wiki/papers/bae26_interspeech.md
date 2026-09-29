@@ -1,6 +1,7 @@
 ---
 id: bae26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [low-resource, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bae26_interspeech.pdf
 *Jaesung Bae, Xiuwen Zheng, Minje Kim, Chang D. Yoo, Mark Hasegawa-Johnson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bae26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bae26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1390)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — A three-stage framework leveraging pseudo-labeling, contrastive representation learning, and external typical speech achieves robust dysarthric speech quality assessment (DSQA), reaching an average SRCC of 0.761 on unseen cross-domain test sets. By combining 232.9 hours of unlabeled dysarthric data (Speech Accessibility Project) with 921.7 hours of clean typical speech (LibriSpeech) under a coarse binary contrastive objective, it substantially outperforms existing SQA baselines.
 
@@ -65,6 +68,12 @@ Read this paper to learn how to effectively combine limited domain-specific labe
 ## Applications
 
 Automated clinical screening of motor speech disorders, continuous speech rehabilitation monitoring, and data filtering/augmentation for pathological automatic speech recognition (ASR) and speech synthesis.
+
+## Institutions / 機構
+
+University of Illinois Urbana-Champaign, Korea Advanced Institute of Science & Technology
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, National Science Foundation
 
 ## Related
 

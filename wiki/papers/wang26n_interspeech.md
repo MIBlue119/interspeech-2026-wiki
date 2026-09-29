@@ -1,6 +1,6 @@
 ---
 id: wang26n_interspeech
-category: self-supervised
+category: speech-coding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26n_interspeech.pdf
 *Shih-Heng Wang, Tiantian Feng, Aditya Kommineni, Thanathai Lertpetchpun, Bowen Yi, Xuan Shi, Shrikanth Narayanan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-811)
+
+**Category:** `speech-coding`
 
 **TL;DR** — This paper introduces a Sparse Autoencoder (SAE) framework to quantify and compare the task-level interpretability of Neural Audio Codecs (NACs) using accent classification as a case study. The results reveal that acoustic-oriented codecs (like DAC) encode accent via activation magnitudes, whereas phonetic-oriented codecs (like SpeechTokenizer) rely on activation positions.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing and improving neural audio codec representations for trustworthy speech generation, voice cloning, and healthcare assistive technologies where model transparency is legally or ethically required.
+
+## Institutions / 機構
+
+University of Southern California
+
+**Funding / 經費:** Office of the Director of National Intelligence, Intelligence Advanced Research Projects Activity, ARTS Program
 
 ## Related
 

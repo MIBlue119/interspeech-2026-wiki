@@ -9,6 +9,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26e_interspeech.pdf
 session: Text-to-Speech Synthesis
 topics: [tts, voice-conversion, self-supervised]
+category: tts
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Korea Advanced Institute of Science and Technology"
+funding:
+  - "National Research Foundation of Korea"
+  - "Ministry of Science and ICT of Korea government"
+  - "Ministry of Education of Korea government"
+  - "Industrial Technology Innovation R&D program of MOTIE/KEIT"
 code:
     url: https://github.com/infected4098/Relativistic-Adversarial-Feedback
     license: ""

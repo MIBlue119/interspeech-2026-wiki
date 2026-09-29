@@ -1,6 +1,7 @@
 ---
 id: ijjada26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.pdf
 *Deepika Ijjada, Charan Kumar Reddy B, Ashwini Hanaganti, Priyanka Devrao Jadhav, Varsha Uppalanchi, Balaji Padmanaban, Nivedita Chennupati, Karunakar Reddy Pucchakayala, Harish Rajamani, Naveen Ambati*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2115)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — WaveNorm is a fully time-domain, causal neural adaptive gain control (AGC) model that normalizes speech loudness directly from raw waveforms using dilated grouped convolutions and a GRU bottleneck, achieving level-invariant outputs compliant with ITU-T P.56 and P.79 using only 49M MACs and 55 KB of memory.
 
@@ -65,6 +68,10 @@ Speech and ML engineers building real-time, low-latency audio pipelines on resou
 ## Applications
 
 Real-time edge speech enhancement, automatic speech recognition front-ends, teleconferencing systems, hearing assistance devices, and voice activity detection preprocessing.
+
+## Institutions / 機構
+
+Meeami Technologies
 
 ## Related
 

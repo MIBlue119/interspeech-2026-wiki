@@ -1,6 +1,7 @@
 ---
 id: charlot26_interspeech
-category: self-supervised
+category: speaker
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/charlot26_interspeech.pdf
 *Théo Charlot, Tarek Kunze, Maxime Poli, Alejandrina Cristia, Emmanuel Dupoux, Marvin Lavechin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/charlot26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/charlot26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2772)
+
+**Category:** `speaker` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — BabyHuBERT is a multilingual self-supervised speech representation model trained on 13,164 hours of child-centered daylong recordings across 40+ languages, achieving a state-of-the-art average F1-score of 66.9% on Voice Type Classification (approaching human annotator performance of 69.8%).
 
@@ -67,6 +70,12 @@ Speech and ML researchers building systems for noisy, resource-constrained, or c
 ## Applications
 
 Automated developmental psychology research, voice type classification in child-centered home environments, peer interaction analysis, and downstream speech processing for underrepresented languages.
+
+## Institutions / 機構
+
+École Normale Supérieure, École des Hautes Études en Sciences Sociales, CNRS, PSL University, Aix-Marseille University
+
+**Funding / 經費:** Agence Nationale pour la Recherche, European Research Council, Simons Foundation International, Agence de l'Innovation de Défense
 
 ## Related
 

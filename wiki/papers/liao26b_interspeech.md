@@ -1,6 +1,6 @@
 ---
 id: liao26b_interspeech
-category: prosody
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liao26b_interspeech.pdf
 *Hanyu Liao, Xiaoluan Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liao26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liao26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-209)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper presents a weakly supervised framework that uses acoustic cues and positive-unlabeled (PU) learning to predict continuous prosodic boundary strengths without requiring manual ToBI labels, achieving a Prec@1% of 0.956 against punctuation proxies on Japanese speech.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving prosodic phrasing in text-to-speech (TTS) synthesis, automatic punctuation restoration, and acoustic modeling for spoken language understanding.
+
+## Institutions / 機構
+
+East China Normal University
 
 ## Related
 

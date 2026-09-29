@@ -1,6 +1,7 @@
 ---
 id: ali26c_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [low-resource, multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ali26c_interspeech.pdf
 *Zien Sheikh Ali, Hamdy Mubarak, Soon-Gyo Jung, Hunzalah Hassan Bhatti, Firoj Alam, Shammur Absar Chowdhury*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ali26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ali26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2694)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — WASIL is a new dataset of 9,304 in-the-wild Arabic spoken interaction prompts covering Modern Standard Arabic and four major dialects, paired with explicit user feedback, post-edited gold transcripts, and intrinsic answerability labels to isolate ASR errors from LLM reasoning failures.
 
@@ -65,6 +68,10 @@ Speech and ML researchers building Arabic voice assistants or studying multimoda
 ## Applications
 
 Development and evaluation of dialect-inclusive Arabic speech-to-text and speech-LLM conversational voice assistants.
+
+## Institutions / 機構
+
+Qatar Computing Research Institute
 
 ## Related
 

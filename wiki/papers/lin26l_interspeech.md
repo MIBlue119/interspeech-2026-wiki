@@ -1,6 +1,7 @@
 ---
 id: lin26l_interspeech
-category: tts
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26l_interspeech.pdf
 *Zhiyu Lin, Jingwen Yang, Jiale Zhao, Meng Liu, Sunzhu Li, Zhengjun Yue, Benyou Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2408)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — DeEAR is a framework that maps human perception of speech expressiveness to objective scores across three dimensions (Emotion, Prosody, Spontaneity) using a modular four-stage pipeline. Using DeEAR, the authors curate a 51-hour bilingual dataset that boosts baseline speech-to-speech expressiveness scores from 2.0 to 23.4.
 
@@ -70,6 +73,12 @@ Researchers and engineers building expressive speech-to-speech models or voice a
 ## Applications
 
 Automated benchmarking of expressive speech-to-speech models, reward modeling for reinforcement learning alignment, and data filtering/curation for expressive text-to-speech and dialogue systems.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Li Auto, Shenzhen Loop Area Institution
+
+**Funding / 經費:** Shenzhen Medical Academy of Research and Translation, Shenzhen Medical Research Fund, National Natural Science Foundation of China, CUHK-CUHK(SZ)-GDSTC Joint Collaboration Fund, Guangdong Provincial Key Laboratory of Mathematical Foundations for Artificial Intelligence, Ministry of Science and Technology of China
 
 ## Related
 

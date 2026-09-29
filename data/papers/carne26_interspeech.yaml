@@ -8,6 +8,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/carne26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/carne26_interspeech.pdf
 session: Speaker Recognition and Verification
 topics: [speaker-verification, evaluation, paralinguistics]
+category: speaker
+institutions:
+  - "Australian National University"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: bhogale26_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bhogale26_interspeech.pdf
 *Kaushal Bhogale, Manas Dhir, Amritansh Walecha, Manmeet Kaur, Vanshika Chhabra, Aaditya Pareek, Hanuman Sidh, Sagar Jain, Bhaskar Singh, Utkarsh Singh, Tahir Javed, Shobhit Banga, Mitesh M Khapra*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bhogale26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bhogale26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3189)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — Voice of India is a large-scale ASR benchmark built from 536 hours of unscripted, spontaneous telephonic conversations across 15 Indian languages, using an orthographically-informed evaluation metric to handle code-mixing and spelling variations. Evaluations show that even top systems struggle in low-resource regional variants, with performance dropping significantly compared to clean, public leaderboards like FLEURS.
 
@@ -67,6 +70,10 @@ Speech and ML engineers building production ASR systems for multilingual or low-
 ## Applications
 
 Benchmarking and stress-testing production automatic speech recognition systems for low-resource, code-mixed, and telephony environments.
+
+## Institutions / 機構
+
+Indian Institute of Technology Madras, Josh Talks
 
 ## Related
 

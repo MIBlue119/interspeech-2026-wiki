@@ -1,6 +1,6 @@
 ---
 id: masuyama26_interspeech
-category: spatial-audio
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/masuyama26_interspeech.pdf
 *Yoshiki Masuyama, Gordon Wichern, Christoph Boeddeker, Julius Richter, Takahiro Edo, Swapnil Bhosale, Jonathan Le Roux*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/masuyama26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/masuyama26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1391)
+
+**Category:** `applications-other`
 
 **TL;DR** — The paper introduces Sim-to-Real Neural Field (S2RNF), a measurement-free HRTF personalization method that maps physics-simulated head-related transfer functions to realistic ones, outperforming baseline simulations and prior neural refinement models.
 
@@ -65,6 +67,10 @@ Speech and audio researchers building accessible immersive spatial audio pipelin
 ## Applications
 
 Virtual reality, augmented reality, immersive gaming, and personal audio listening devices requiring customized binaural sound rendering.
+
+## Institutions / 機構
+
+Mitsubishi Electric Research Laboratories, University of Surrey
 
 ## Related
 

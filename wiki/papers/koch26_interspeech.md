@@ -1,6 +1,7 @@
 ---
 id: koch26_interspeech
-category: paralinguistic
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/koch26_interspeech.pdf
 *Timo K. Koch, Florian Bemmann, Ramona Schoedel, Markus Buehner, Clemens Stachl*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/koch26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koch26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2417)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces a privacy-first smartphone protocol that standardizes semantic content via read-aloud sentences and extracts prosodic features on-device before immediately deleting raw audio, successfully evaluated on 9,877 in-the-wild recordings from 560 participants. The extracted features achieve strong speaker sex classification (92% balanced accuracy) but weak momentary affect prediction.
 
@@ -60,6 +63,12 @@ Researchers building smartphone-based speech collection apps or studying everyda
 ## Applications
 
 Privacy-preserving ecological momentary assessment of vocal biomarkers, large-scale remote mental health monitoring, and longitudinal field studies of speaker traits.
+
+## Institutions / 機構
+
+University of St. Gallen, LMU Munich, University of Mannheim, Charlotte Fresenius Hochschule
+
+**Funding / 經費:** Leibniz Institute for Psychology, Swiss National Science Foundation, German Academic Scholarship Foundation
 
 ## Related
 

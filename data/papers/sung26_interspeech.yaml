@@ -14,6 +14,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sung26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sung26_interspeech.pdf
 session: Brain Studies and Speech
 topics: [speech-enhancement, self-supervised, evaluation]
+category: enhancement-separation
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "National Taiwan University"
+  - "Academia Sinica"
+  - "Johns Hopkins University"
+  - "National Yang Ming Chiao Tung University"
 code:
     url: https://github.com/JohnSung0501/fMRI-Decoding
     license: ""

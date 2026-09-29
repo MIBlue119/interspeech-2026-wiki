@@ -1,6 +1,7 @@
 ---
 id: lee26w_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [multilingual, self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26w_interspeech.pdf
 *Shi-wook Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26w_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26w_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2996)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `multilingual`, `self-supervised`, `generative-model`
 
 **TL;DR** — Diffusion Bridge Learning is a representation-space adaptation framework that connects early-stage (underfitted) and late-stage (overfitted) encoder representations via a conditional denoising diffusion process, achieving up to +6.42 percentage points in cross-lingual speech emotion recognition weighted average recall.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual speech emotion recognition, empathic conversational agents, and robust paralinguistic analysis systems operating under domain shifts.
+
+## Institutions / 機構
+
+National Institute of Advanced Industrial Science and Technology
 
 ## Related
 

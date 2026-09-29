@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/park26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26e_interspeech.pdf
 session: Multi-Talker ASR & Speaker Diarization
 topics: [asr, speaker-diarization, self-supervised]
+category: asr
+labels:
+  - "streaming-real-time"
+institutions:
+  - "NVIDIA"
 code:
     url: ""
     license: ""

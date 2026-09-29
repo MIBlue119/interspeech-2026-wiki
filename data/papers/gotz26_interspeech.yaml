@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gotz26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gotz26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [speech-enhancement, self-supervised, evaluation]
+category: enhancement-separation
+labels:
+  - "robustness-noise"
+institutions:
+  - "Treble Technologies"
 code:
     url: ""
     license: ""

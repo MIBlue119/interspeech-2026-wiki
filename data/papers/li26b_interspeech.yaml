@@ -10,6 +10,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26b_interspeech.pdf
 session: Speech Production and Perception 1
 topics: [speech-enhancement, paralinguistics, evaluation]
+category: enhancement-separation
+institutions:
+  - "Huawei"
 code:
     url: ""
     license: ""

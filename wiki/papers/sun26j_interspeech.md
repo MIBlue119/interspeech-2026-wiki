@@ -1,6 +1,7 @@
 ---
 id: sun26j_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26j_interspeech.pdf
 *Zhaokai Sun, Shuai Wang, Zhennan Lin, Chengyou Wang, Dehui Gao, Yuang Cao, Chunjiang He, Pan Zhou, Lei Xie*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3344)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — MSU-Bench is a diagnostic benchmark designed to evaluate large audio language models on speaker-centric understanding across realistic multi-speaker conversations, covering 16 tasks and 2,300 verified QA instances. Evaluation of nine models reveals a performance range from 0.19 to 0.77 exact-match accuracy, highlighting major bottlenecks in temporal grounding and speaker attribution.
 
@@ -70,6 +73,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic evaluation of conversational speech foundation models, multi-speaker meeting assistant refinement, and robust audio-language model architectural development.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University, Nanjing University, Shenzhen Loop Area Institute, Li Auto
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

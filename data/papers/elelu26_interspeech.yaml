@@ -13,6 +13,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/elelu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/elelu26_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
 topics: [tts, voice-conversion, evaluation]
+category: resources-evaluation
+institutions:
+  - "Michigan State University"
+  - "Clemson University"
+funding:
+  - "Michigan Translational Research and Commercialization Program"
+  - "Michigan Strategic Fund"
+  - "Michigan Economic Development Corporation"
+  - "21st Century Jobs Trust Fund"
+  - "State of Michigan"
+  - "U.S. Economic Development Administration"
+  - "U.S. Department of Commerce"
 code:
     url: ""
     license: ""

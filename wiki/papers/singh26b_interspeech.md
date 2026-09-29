@@ -1,6 +1,6 @@
 ---
 id: singh26b_interspeech
-category: speech-llm
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/singh26b_interspeech.pdf
 *Ankush Pratap Singh, Houwei Cao, Yong Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/singh26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/singh26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1591)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — CHUCKLE is a perception-driven curriculum learning framework for speech emotion recognition that sequences training samples using crowdsourced annotator agreement and label alignment, achieving up to 3% relative accuracy gains and up to 40% fewer gradient updates.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust speech emotion recognition systems for call centers, affective computing, conversational AI agents, and mental health monitoring.
+
+## Institutions / 機構
+
+New York Institute of Technology, New York University
 
 ## Related
 

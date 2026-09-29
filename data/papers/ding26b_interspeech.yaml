@@ -14,6 +14,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ding26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ding26b_interspeech.pdf
 session: Spoofing, Deepfake Detection and Watermarking
 topics: [speech-enhancement, evaluation, self-supervised]
+category: deepfake-security
+institutions:
+  - "University of Missouri-Kansas City"
+  - "University of Hawaii at Manoa"
+  - "University of South Florida"
+  - "Michigan State University"
+  - "University of Miami"
+funding:
+  - "National Science Foundation"
 code:
     url: ""
     license: ""

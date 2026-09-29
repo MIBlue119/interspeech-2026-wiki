@@ -1,6 +1,7 @@
 ---
 id: sun26f_interspeech
-category: speech-translation
+category: translation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.pdf
 *Shinyoung Sun, Taehoon Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1821)
+
+**Category:** `translation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — The paper investigates the latency-stability trade-off in LLM-based cloud speech translation cascades, demonstrating that aggressive endpointing causes a backlog regime (median RTF > 1) where queueing delay overrides per-request speed.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time cross-lingual meeting translation, live multilingual lecture subtitling, and broadcast speech translation systems utilizing cloud APIs.
+
+## Institutions / 機構
+
+Sogang University
+
+**Funding / 經費:** Institute for Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT, Republic of Korea, Ministry of Culture, Sports and Tourism, Republic of Korea, Korea Creative Content Agency, National Research Foundation of Korea, Sogang University
 
 ## Related
 

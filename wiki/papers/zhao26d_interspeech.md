@@ -1,6 +1,7 @@
 ---
 id: zhao26d_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhao26d_interspeech.pdf
 *Mengjie Zhao, Lianbo Liu, Yusuke Fujita, Hao Shi, Yuan Gao, Roman Koshkin, Yui Sudo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhao26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhao26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-976)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — The paper adapts Japanese SpeechLLMs to generate concise, conversational, and TTS-friendly "speech-worthy" outputs using Direct Preference Optimization (DPO), and introduces SpokenElyza, a human-verified benchmark for Japanese speech-worthiness.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time Japanese voice assistants, speech-to-speech translation systems, and conversational AI agents requiring natural audio synthesis.
+
+## Institutions / 機構
+
+SB Intuitions
 
 ## Related
 

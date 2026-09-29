@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/laquatra26b_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/laquatra26b_interspeech.pdf
 session: Information Extraction and Retrieval
 topics: [audio-information-retrieval, self-supervised, spoken-language-understanding]
+category: audio-understanding
+labels:
+  - "self-supervised"
+institutions:
+  - "Kore University of Enna"
+  - "Politecnico di Torino"
+  - "Università degli Studi di Palermo"
 code:
     url: https://github.com/MorenoLaQuatra/SSL-AIR
     license: ""

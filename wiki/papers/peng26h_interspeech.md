@@ -1,6 +1,7 @@
 ---
 id: peng26h_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/peng26h_interspeech.pdf
 *Jing Peng, Zichao Nie, Zhisheng Zhang, Jingran Xie, Zhiyong Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/peng26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/peng26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2074)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — A systematic benchmark evaluating continuous (SSL/Whisper) and discrete (codecs/K-means) audio representations across speech, sound, and music in Large Audio Language Models (LALMs) demonstrates that semantic alignment of features is far more critical for understanding tasks than acoustic fidelity or LLM backbone scaling.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Universal audio assistants, spoken language understanding pipelines, multi-domain acoustic monitoring, and automated audio captioning systems.
+
+## Institutions / 機構
+
+Tsinghua University
+
+**Funding / 經費:** National Natural Science Foundation of China, Shenzhen Science and Technology Program
 
 ## Related
 

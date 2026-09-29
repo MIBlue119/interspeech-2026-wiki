@@ -16,6 +16,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ward26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ward26_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
 topics: [speech-translation, prosody, evaluation]
+category: translation
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "University of Texas at El Paso"
+  - "Ben Gurion University"
+  - "Northeastern University"
+  - "Chinese University of Hong Kong"
+funding:
+  - "National Science Foundation"
 code:
     url: https://www.cs.utep.edu/topi/
     license: ""

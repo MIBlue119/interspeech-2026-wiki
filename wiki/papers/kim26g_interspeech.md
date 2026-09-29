@@ -1,6 +1,7 @@
 ---
 id: kim26g_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26g_interspeech.pdf
 *Yunsik Kim, Yoonyoung Chung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-817)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — LaCo-SENet introduces asymmetric temporal padding and dual-buffer streaming to configure algorithmic latency continuously in a convolutional speech enhancement model, achieving PESQ 3.35 at a fully causal 12.5 ms latency.
 
@@ -67,6 +70,12 @@ Speech and ML engineers building real-time audio systems should read this to lea
 ## Applications
 
 Real-time telephony, web conferencing, hearing aids, and on-device voice assistant pipelines requiring configurable streaming speech enhancement.
+
+## Institutions / 機構
+
+Pohang University of Science and Technology, Intus
+
+**Funding / 經費:** National Research Foundation of Korea, Ministry of Science and ICT, Institute of Information & Communications Technology Planning & Evaluation, Regional Innovation System & Education project, High-Performance Computing Support Project
 
 ## Related
 

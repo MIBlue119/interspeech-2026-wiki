@@ -1,6 +1,7 @@
 ---
 id: ko26_interspeech
 category: asr
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ko26_interspeech.pdf
 *Tsai-Hsiu Ko, You-Cyuan Jhuo, Chung-Hsien Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ko26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ko26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-891)
+
+**Category:** `asr` · **Labels:** `low-resource`
 
 **TL;DR** — This paper presents a dysarthric speech data augmentation framework that combines phonetic posteriorgram (PPG)-based phone editing, speaking style conversion, and phonetic-level speed perturbation, achieving a word error rate of 19.53% on the UASpeech corpus.
 
@@ -61,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Dysarthric speech recognition assistants, accessible communication interfaces for individuals with motor speech disorders.
+
+## Institutions / 機構
+
+National Cheng Kung University
+
+**Funding / 經費:** National Science and Technology Council of Taiwan
 
 ## Related
 

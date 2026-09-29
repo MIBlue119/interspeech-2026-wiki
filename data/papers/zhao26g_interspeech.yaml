@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhao26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26g_interspeech.pdf
 session: Spoofing and Deepfake Detection 3
 topics: [tts, speech-llm, self-supervised]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "National University of Singapore"
 code:
     url: https://github.com/neuphonic/neutts
     license: ""

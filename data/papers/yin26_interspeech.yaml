@@ -12,6 +12,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yin26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yin26_interspeech.pdf
 session: Evaluation, Benchmarking, and Reliability of Audio Systems
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "low-resource"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "KAIST"
+  - "University of Melbourne"
+  - "Fortemedia Singapore"
+  - "Xi'an University of Posts & Telecommunications"
+  - "Xi'an Lianfeng Acoustic Technologies Co., Ltd"
 code:
     url: https://github.com/apple-yinhan/ESDD-Review
     license: ""

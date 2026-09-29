@@ -1,6 +1,6 @@
 ---
 id: sanchez26_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sanchez26_interspeech.pdf
 *Ariadna Sanchez, Christoph Minixhofer, Korin Richmond, Ondřej Klejch, Peter Bell, Simon King*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sanchez26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sanchez26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2600)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper establishes a rigorous evaluation framework for TTS-based voice reconstruction by combining situationally-framed Best-Worst Scaling (BWS) subjective tests with a novel dual-reference distributional objective measure, evaluating 17 zero-shot TTS systems across 193 disordered speakers.
 
@@ -65,6 +67,12 @@ Speech and ML researchers developing personalized text-to-speech or voice restor
 ## Applications
 
 Personalized voice output communication aids (VOCAs) and assistive speech reconstruction technologies for individuals with neurodegenerative or speech-impairing conditions.
+
+## Institutions / 機構
+
+University of Edinburgh
+
+**Funding / 經費:** UKRI Centre for Doctoral Training in Natural Language Processing, UKRI
 
 ## Related
 

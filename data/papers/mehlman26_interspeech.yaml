@@ -12,6 +12,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.pdf
 session: Entrainment and Dialogue Coordination
 topics: [paralinguistics, dataset, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "University of Southern California"
 code:
     url: ""
     license: ""

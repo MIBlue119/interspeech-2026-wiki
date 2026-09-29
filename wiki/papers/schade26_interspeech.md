@@ -1,6 +1,6 @@
 ---
 id: schade26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/schade26_interspeech.pdf
 *Leonie Schade, Daniel Duran, Florian Kankowski, Joana Cholin, Petra Wagner, Christine Mooshammer*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/schade26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/schade26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2247)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates how phonaesthetics and sound symbolism govern human-crafted names for fictional heroes and villains in German, revealing a systematic preference for high-sonority syllables for heroes and low-sonority syllables combined with alternating profiles for villains. Findings demonstrate that speakers reliably exploit sonority indices to encode character alignment, though gender effects did not reach statistical significance in syllable selection.
 
@@ -62,6 +64,12 @@ Speech and ML researchers studying sound symbolism, linguistic creativity, or co
 ## Applications
 
 Automated character naming in video game generation, fantasy text-to-speech style adaptation, and expressive speech synthesis systems requiring emotionally or perceptually aligned pseudowords.
+
+## Institutions / 機構
+
+Bielefeld University, Humboldt-Universität zu Berlin
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

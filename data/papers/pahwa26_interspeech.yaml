@@ -14,6 +14,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/pahwa26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pahwa26_interspeech.pdf
 session: 'Audio & Speech Language Models: Evaluation, Representations, and Emerging Capabilities'
 topics: [speech-llm, spoken-language-understanding, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Rivian and Volkswagen Group Technologies"
 code:
     url: ""
     license: ""

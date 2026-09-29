@@ -1,6 +1,7 @@
 ---
 id: naini26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/naini26_interspeech.pdf
 *Abinay Reddy Naini, Jaeyeon Kim, Chao-Han Huck Yang, Shinji Watanabe, Carlos Busso*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/naini26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/naini26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2935)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — This paper introduces a reasoning-guided ordinal speech emotion recognition framework that adapts large audio-language models (LALMs) for pairwise emotional comparisons, achieving superior preference accuracy while using only 5% of the training data required by conventional self-supervised baselines.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech emotion recognition, psychiatric assessment tools, empathetic conversational agents, and multi-utterance affective analysis.
+
+## Institutions / 機構
+
+Carnegie Mellon University, University of Texas at Dallas, NVIDIA
 
 ## Related
 

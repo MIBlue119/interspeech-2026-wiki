@@ -1,6 +1,7 @@
 ---
 id: jiang26g_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jiang26g_interspeech.pdf
 *Jingjing Jiang, Atsumoto Ohashi, Ryuichiro Higashinaka*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jiang26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jiang26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3114)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `streaming-real-time`, `generative-model`
 
 **TL;DR** — Moshi-Face extends the Moshi full-duplex spoken dialogue model to jointly process and generate 3D facial expressions and speech simultaneously. Trained on 180 hours of dialogue data, it achieves low-latency audiovisual alignment without degrading the core dialogue quality of the audio-only base model.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time interactive avatars, full-duplex virtual assistants, and embodied conversational AI agents with realistic facial expressions and lip synchronization.
+
+## Institutions / 機構
+
+Nagoya University
+
+**Funding / 經費:** JST Moonshot R&D
 
 ## Related
 

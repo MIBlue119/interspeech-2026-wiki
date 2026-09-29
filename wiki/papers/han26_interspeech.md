@@ -1,6 +1,7 @@
 ---
 id: han26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/han26_interspeech.pdf
 *Minsu Han, Insung Lee, Taeyoung Jeong, Myoung-Wan Koo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/han26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/han26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-534)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper presents a transcript-anchored pipeline utilizing fine-tuned Whisper, Montreal Forced Aligner (MFA), VAD timestamp fusion, and LLMs to detect and classify inappropriate pauses in dysarthric speech, achieving an overall alignment F1-score of 72.8% and boosting dysarthria detection macro-accuracy by 8.4 percentage points.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical screening tools for stroke and neurological disorder assessment, speech-language pathology training applications, and objective remote monitoring of motor speech disorders.
+
+## Institutions / 機構
+
+LG Electronics, Sogang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: chuprina26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chuprina26_interspeech.pdf
 *Anastasia Chuprina*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chuprina26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chuprina26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3400)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study analyzes the positional distribution and entropy of consonant clusters across word positions in child speech versus adult models using longitudinal CHILDES data across six languages, revealing that medial positions exhibit the highest entropy while edge stability emerges early. Vocabulary growth acts as a primary driving force that reduces child speech uncertainty and bridges the gap to adult phonotactics.
 
@@ -63,6 +66,10 @@ Phoneticians, speech acquisition researchers, and computational linguists studyi
 ## Applications
 
 Computational models of child language acquisition, automated speech evaluation tools for pediatric speech therapy, and cross-linguistic speech segmentation systems.
+
+## Institutions / 機構
+
+University of Cambridge
 
 ## Related
 

@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26da_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26da_interspeech.pdf
 session: Audio Understanding and Representation Learning
 topics: [spoken-language-understanding, speech-llm, dataset]
+category: audio-understanding
+institutions:
+  - "University of Surrey"
+funding:
+  - "Bang & Olufsen A/S"
+  - "AURIC Project"
 code:
     url: https://github.com/PennyZhang9/MultiAct
     license: ""

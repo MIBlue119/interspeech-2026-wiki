@@ -1,6 +1,6 @@
 ---
 id: rahman26b_interspeech
-category: speech-anonymization
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rahman26b_interspeech.pdf
 *Mehtab Ur Rahman, Martha Larson, Cristian Tejedor-Garcia*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rahman26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rahman26b_interspeech.html)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper introduces an attribute-based perspective to voice privacy by evaluating speaker uniqueness and re-identification risks using categorical profiles (gender, age, accent, profession). It demonstrates that imperfect attribute inference on original and anonymized speech does not consistently improve privacy, as correlated classification errors can actually reduce anonymity set sizes and compromise re-identification resistance.
 
@@ -67,6 +69,12 @@ Speech and ML researchers working on voice privacy and anonymization should read
 ## Applications
 
 Auditing voice anonymization systems for attribute leakage, developing privacy-preserving speech transformations, and evaluating regulatory compliance under GDPR singling-out provisions.
+
+## Institutions / 機構
+
+Radboud University
+
+**Funding / 經費:** Dutch Research Council, NGF AiNed Fellowship Grants
 
 ## Related
 

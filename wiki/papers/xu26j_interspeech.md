@@ -1,6 +1,7 @@
 ---
 id: xu26j_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.pdf
 *Ke Xu, Lihan Xu, Jiayi Lin, Bin Zhang, Yunfei Chu, Shuting Yuan, Ruiye Lv, Guangxuan Zheng, Qi Han, Jin Xu, Bing Zhao, Hu Wei, Yang Bai, Ziyi Cheng, Qibin Ran*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1128)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `dataset-or-benchmark-release`
 
 **TL;DR** — GLAD-CSpeech is a linguistically grounded benchmark corpus containing over 163 hours of genuine Chinese dialect speech across 16 dialect divisions and 23 locations, supporting ASR, TTS, and dialect identification. Baseline evaluations reveal severe performance drops on non-Mandarin dialects like Wu and Hakka (e.g., ASR character error rates reaching up to 108.14%), proving that accent-robust models fail on true dialectal divergence.
 
@@ -67,6 +70,12 @@ Speech researchers and engineers building multilingual or dialect-robust speech 
 ## Applications
 
 Building robust regional ASR systems, localized conversational agents and smart assistants, and accent-authentic text-to-speech synthesis for diverse Chinese dialects.
+
+## Institutions / 機構
+
+Alibaba Group, Nankai University, Fudan University
+
+**Funding / 經費:** Alibaba Innovative Research Program
 
 ## Related
 

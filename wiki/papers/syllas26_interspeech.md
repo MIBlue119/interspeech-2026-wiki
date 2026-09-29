@@ -1,6 +1,7 @@
 ---
 id: syllas26_interspeech
 category: tts
+labels: [low-resource, multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.pdf
 *Georgios Syllas, Efthymios Georgiou, Kosmas Kritsis, Alexandros Potamianos*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/syllas26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2481)
+
+**Category:** `tts` · **Labels:** `low-resource`, `multilingual`, `generative-model`
 
 **TL;DR** — This paper proposes a two-stage adaptation recipe combining full fine-tuning on curated multilingual data with speaker-specific LoRA and deterministic prompting to build a high-quality Modern Greek text-to-speech model from limited data. The best configuration achieves a 10.7% word error rate and near-human speaker consistency (MOS-C 4.24).
 
@@ -64,6 +67,12 @@ Speech researchers and engineers tackling low-resource TTS will learn how to eff
 ## Applications
 
 Low-resource synthetic voice generation, audiobook narration, and localized speech assistants for Modern Greek.
+
+## Institutions / 機構
+
+Athena R.C, University of Bern, National Technical University of Athens
+
+**Funding / 經費:** European High-Performance Computing Joint Undertaking, Greek Ministry of Digital Governance and Artificial Intelligence
 
 ## Related
 

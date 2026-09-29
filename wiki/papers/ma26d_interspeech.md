@@ -1,6 +1,7 @@
 ---
 id: ma26d_interspeech
 category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ma26d_interspeech.pdf
 *Seunghee Ma, Junseok Oh, Ji-Hwan Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ma26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ma26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2309)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — A strict rehearsal-free continual learning method for encoder-decoder ASR models (Whisper) that uses entropy-guided token-level distillation and retention-preserving gradient projection, achieving a 7.2% relative reduction in mean WER and a 51.5% reduction in multilingual degradation compared to Learning without Forgetting (LwF).
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Incremental on-device deployment of automatic speech recognition models for streaming conversational apps, custom enterprise terminology adaptation, and multilingual voice assistants.
+
+## Institutions / 機構
+
+Sogang University, LOTTE INNOVATE
+
+**Funding / 經費:** National Research Foundation of Korea
 
 ## Related
 

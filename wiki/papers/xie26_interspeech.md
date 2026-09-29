@@ -1,6 +1,7 @@
 ---
 id: xie26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xie26_interspeech.pdf
 *Zeyu Xie, Yaoyun Zhang, Xuenan Xu, Yongkang Yin, Chenxing Li, Mengyue Wu, Yuexian Zou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xie26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xie26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1157)
+
+**Category:** `deepfake-security` · **Labels:** `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — FakeSound2 is a diagnostic benchmark designed to push deepfake sound detection beyond binary classification by evaluating models across temporal localization, source traceability, and out-of-domain generalization. Experiments reveal that state-of-the-art detectors achieve strong in-domain localization (95.10% accuracy) but collapse on unseen generation sources, with manipulation-type accuracy dropping from 93.10% to 32.35%.
 
@@ -67,6 +70,12 @@ Speech and ML researchers working on audio forensics or trustworthy AI should re
 ## Applications
 
 Audio forensics, legal content verification, automated disinformation detection, and secure media authentication systems.
+
+## Institutions / 機構
+
+Guangdong Provincial Key Laboratory of Ultra High Definition Immersive Media Technology, Peking University, Tencent AI Lab, Shanghai Jiao Tong University
+
+**Funding / 經費:** National Natural Science Foundation of China, Tencent AI Lab Rhino-Bird Program
 
 ## Related
 

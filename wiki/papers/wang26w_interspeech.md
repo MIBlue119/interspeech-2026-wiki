@@ -1,6 +1,7 @@
 ---
 id: wang26w_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26w_interspeech.pdf
 *Haoran Wang, Jinchuan Tian, Siddhant Arora, Shinji Watanabe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26w_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26w_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1244)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — This paper presents a vLLM-based inference pipeline for unified speech language models that natively handles multi-stream delay-pattern codebooks, on-GPU acoustic decoding, and efficient Classifier-Free Guidance (CFG). By co-scheduling conditional and unconditional requests, it achieves up to a 108x speedup over sequential PyTorch baselines while retaining 80% of non-CFG throughput.
 
@@ -65,6 +68,12 @@ Speech and ML engineers building real-time voice assistants or speech-to-speech 
 ## Applications
 
 Real-time speech-to-speech dialogue agents, unified audio-text language models, and high-throughput streaming text-to-speech or audio generation servers.
+
+## Institutions / 機構
+
+Carnegie Mellon University, Shanghai Jiao Tong University
+
+**Funding / 經費:** ACCESS program, National Science Foundation
 
 ## Related
 

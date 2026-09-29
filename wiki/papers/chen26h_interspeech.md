@@ -1,6 +1,7 @@
 ---
 id: chen26h_interspeech
-category: source-separation
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26h_interspeech.pdf
 *Changda Chen, Yichen Yang, Wei Liu, Bing Zhu, Gongping Huang, Shoji Makino, Shuai Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1037)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — The paper introduces Geometrically Constrained Decentralized Independent Vector Analysis (GC-Dec-IVA), a blind source separation method for distributed microphone arrays that integrates direction-of-arrival (DOA) priors and a sub-frequency-band source model to eliminate cross-array permutation mismatches. Under noisy conditions with 4 arrays, the proposed GC-Dec-IVA II method improves SDRi to 3.41 dB (compared to 1.18 dB for standard Dec-IVA I) and achieves near-perfect permutation consistency.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart space audio processing, multi-room teleconferencing systems, and distributed meeting transcription.
+
+## Institutions / 機構
+
+Waseda University, Nanjing University, Northwestern Polytechnical University, Wuhan University
+
+**Funding / 經費:** Ministry of Education of China, National Natural Science Foundation of China
 
 ## Related
 

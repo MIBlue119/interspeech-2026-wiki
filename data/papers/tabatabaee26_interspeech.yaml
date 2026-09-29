@@ -12,6 +12,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tabatabaee26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/tabatabaee26_interspeech.pdf
 session: Methods and Data for Vocal Tract Shape and Articulation Analysis
 topics: [phonetics, self-supervised, multilingual]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "University of Maryland"
+  - "Yale University"
+  - "University of Cincinnati"
 code:
     url: ""
     license: ""

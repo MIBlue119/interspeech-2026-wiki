@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wu26n_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26n_interspeech.pdf
 session: Spoofing and Deepfake Detection 3
 topics: [speech-deepfake-detection, self-supervised, audio-codec]
+category: deepfake-security
+labels:
+  - "self-supervised"
+institutions:
+  - "Agency for Science, Technology and Research"
+  - "University of New South Wales"
+funding:
+  - "National Research Foundation, Prime Minister’s Office, Singapore"
+  - "Ministry of Digital Development and Information"
+  - "Online Trust and Safety Research Programme"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: wang26z_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26z_interspeech.pdf
 *Binghao Wang, Xinyuan Li, Yao Lu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26z_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26z_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1602)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study investigates the categorical perception of Mandarin tones by native Jingpo speakers using 12 synthesized tone continua, discovering that Jingpo speakers exhibit categorical perception for most tone pairs except T2-T3, which is perceived continuously. Compared to native Mandarin speakers, Jingpo participants display significantly weaker categorical perception across several tone contrasts.
 
@@ -67,6 +70,12 @@ Phoneticians and speech researchers studying cross-linguistic speech perception 
 ## Applications
 
 Designing targeted second-language pronunciation training systems and accent-reduction curricula for ethnic minority Mandarin learners.
+
+## Institutions / 機構
+
+Peking University
+
+**Funding / 經費:** National Social Science Fund of China
 
 ## Related
 

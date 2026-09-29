@@ -1,6 +1,7 @@
 ---
 id: geng26c_interspeech
-category: self-supervised
+category: audio-understanding
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/geng26c_interspeech.pdf
 *Hui Geng, Tianjiao Wan, Yi Su, Qisheng Xu, Hengzhu Liu, Kele Xu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/geng26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/geng26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1719)
+
+**Category:** `audio-understanding` · **Labels:** `low-resource`
 
 **TL;DR** — Temporal-Spectral Active Learning (TSAL) is an active learning framework for audio that models soft-loss distributions and feature-gradient similarity to select informative samples, achieving 82.65% accuracy on ESC-50 with a 40% annotation budget.
 
@@ -62,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Reducing annotation costs for domain-specific audio classification datasets, environmental noise monitoring, and acoustic scene analysis.
+
+## Institutions / 機構
+
+National University of Defense Technology
+
+**Funding / 經費:** National Science and Technology Major Project, National University of Defense Technology
 
 ## Related
 

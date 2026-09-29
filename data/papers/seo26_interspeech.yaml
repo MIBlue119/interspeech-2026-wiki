@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/seo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/seo26_interspeech.pdf
 session: 'Spoken Language Processing: Evaluation and Metrics'
 topics: [asr, multilingual, dataset]
+category: asr
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "AITRICS"
+  - "University of Copenhagen"
+  - "KAIST"
 code:
     url: https://github.com/aitrics-ronaldo/Interspeech_MultiClin
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: kishi26_interspeech
-category: speaker-verification
+category: speaker
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kishi26_interspeech.pdf
 *Minoru Kishi, Hayato Yagi, Shinnosuke Takamichi, Yuki Saito*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kishi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kishi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1172)
+
+**Category:** `speaker` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates whether internal speaker embeddings from 43 speech foundation models align with human perceptual speaker similarity, finding substantial variance where encoder-based, large-scale supervised models correlate best.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving perceptual fidelity in text-to-speech, voice conversion, and speaker modeling pipelines by aligning latent embedding distances with human cognitive similarity judgments.
+
+## Institutions / 機構
+
+Keio University, University of Tokyo
+
+**Funding / 經費:** JST FOREST, JSPS KAKENHI, Moonshot R&D
 
 ## Related
 

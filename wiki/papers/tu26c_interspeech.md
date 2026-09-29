@@ -1,6 +1,7 @@
 ---
 id: tu26c_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tu26c_interspeech.pdf
 *Yanhui Tu, Runxiang Yu, Yi Fang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tu26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tu26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3227)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — AV-SNINet is a multi-channel audio-visual target speaker extraction network that combines an AV-guided beamformer with a dual-branch cross-beam attention mechanism for mutual-exclusion speech-noise suppression, achieving a 28.23% relative word error rate reduction on real-world recordings.
 
@@ -57,6 +60,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart interactive kiosks, automated teller machines (ATMs), and distant-microphone conferencing systems operating in high-noise environments.
+
+## Institutions / 機構
+
+Anhui University, iFLYTEK, Acousnet Technology Company, Chinese Academy of Sciences
+
+**Funding / 經費:** State Key Laboratory of Optoelectronic Information Acquisition and Protection, Anhui University, Anhui University
 
 ## Related
 

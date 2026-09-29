@@ -1,6 +1,7 @@
 ---
 id: ahn26_interspeech
-category: audio-captioning
+category: audio-understanding
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ahn26_interspeech.pdf
 *Seyun Ahn, Joon-Hyuk Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ahn26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ahn26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2897)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — A context-adaptive automated audio captioning framework using a symmetric dual mixture-of-experts (MoE) architecture and Group Relative Policy Optimization (GRPO) achieves state-of-the-art semantic alignment and human preference scores on benchmark datasets.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated audio captioning for video accessibility, acoustic monitoring, digital media indexing, and smart home context-awareness systems.
+
+## Institutions / 機構
+
+Hanyang University
+
+**Funding / 經費:** National Research Foundation of Korea
 
 ## Related
 

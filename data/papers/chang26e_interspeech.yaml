@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chang26e_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/chang26e_interspeech.pdf
 session: Beyond Speech Technologies in Healthcare
 topics: [voice-conversion, speech-enhancement, low-resource]
+category: tts
+labels:
+  - "low-resource"
+  - "generative-model"
+institutions:
+  - "Academia Sinica"
+  - "National Cheng Kung University Hospital"
+funding:
+  - "National Science and Technology Council"
 code:
     url: https://devchang918.github.io/IS2026_one_shot_personalized_ELVC/
     license: ""

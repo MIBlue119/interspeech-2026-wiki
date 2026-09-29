@@ -1,6 +1,7 @@
 ---
 id: zhang26m_interspeech
 category: tts
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26m_interspeech.pdf
 *Junhui Zhang, Qianhui Xu, Qingxiang Guo, Dawei Yang, Ling Miao, Qiangqiang Wang, Yang Song*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-930)
+
+**Category:** `tts` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — Poly-InstructTTS is a text-to-speech model that follows open-ended natural language instructions for expressive speech synthesis, trained on a newly curated 1,000-hour in-the-wild cinematic dataset. It achieves competitive instruction adherence and high role-play performance on the InstructTTSEval benchmark.
 
@@ -67,6 +70,10 @@ Speech and ML researchers building instruction-controllable TTS models should re
 ## Applications
 
 Generating highly expressive, emotionally nuanced, and stylized speech voices for conversational agents, video game characters, audiobooks, and interactive media via open-ended natural language descriptions.
+
+## Institutions / 機構
+
+ZuoYeBang Technology
 
 ## Related
 

@@ -10,6 +10,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/toyin26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/toyin26_interspeech.pdf
 session: Assistive Technologies 2
 topics: [asr, evaluation, low-resource]
+category: resources-evaluation
+institutions:
+  - "Mohamed bin Zayed University of Artificial Intelligence"
+  - "Indian Institute of Technology Madras"
 code:
     url: https://github.com/Theehawau/usecase_asr
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: kim26q_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26q_interspeech.pdf
 *Inho Kim, Sumyeong Ahn*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2154)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — STEREO is a cross-modal reranker designed to orchestrate heterogeneous speech and text retrieval databases for retrieval-augmented generation, improving downstream QA Exact Match accuracy by up to 12.3% absolute over Z-score baselines.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multimodal Retrieval-Augmented Generation (RAG) systems, spoken document question-answering agents, and voice-interactive assistant search backends.
+
+## Institutions / 機構
+
+Korea Institute of Energy Technology
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

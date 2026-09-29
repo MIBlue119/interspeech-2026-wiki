@@ -1,6 +1,6 @@
 ---
 id: kagotani26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kagotani26_interspeech.pdf
 *Haruki Kagotani, Hiroko Terasawa, Makiko Sadakata*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kagotani26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kagotani26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2956)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates how phonological distributional bias (in vowels and consonants) and instructional priming (song vs. rap) influence the Speech-to-Song illusion, finding that biased phoneme distributions significantly enhance perceived musicalization and that rap instructions yield higher transformation ratings than song instructions.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving computational models of musicality perception in speech, designing audio content for speech-to-music artistic transformations, and advancing text-to-speech prosody generation for rhythmic styles like rap.
+
+## Institutions / 機構
+
+University of Tsukuba, University of Amsterdam
+
+**Funding / 經費:** JSPS KAKENHI
 
 ## Related
 

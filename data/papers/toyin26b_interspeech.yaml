@@ -16,6 +16,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/toyin26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/toyin26b_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
 topics: [asr, speech-llm, evaluation]
+category: asr
+institutions:
+  - "MBZUAI"
+  - "SpeechCare"
+  - "SLAI"
+  - "Chinese University of Hong Kong, Shenzhen"
+  - "University of Edinburgh"
+  - "University of Aveiro"
 code:
     url: https://github.com/Theehawau/stutterresearch_survey
     license: ""

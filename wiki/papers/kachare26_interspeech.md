@@ -1,6 +1,6 @@
 ---
 id: kachare26_interspeech
-category: speech-enhancement
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kachare26_interspeech.pdf
 *Pramod H. Kachare, Chetana Amancharla*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kachare26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kachare26_interspeech.html)
+
+**Category:** `health-clinical`
 
 **TL;DR** — ClinAware is an interactive demonstration system that explores how standard speech enhancement methods unintentionally alter neurological voice biomarkers and downstream risk scores. It reveals that optimizing speech enhancement purely for perceptual intelligibility does not guarantee the preservation of health-relevant acoustic features.
 
@@ -56,6 +58,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Telehealth preprocessing pipelines, remote neurological health monitoring applications, and clinically-aware speech enhancement model design.
+
+## Institutions / 機構
+
+Infosys
 
 ## Related
 

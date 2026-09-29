@@ -12,6 +12,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liyanarachchi26_interspe
 pdf_url: https://www.isca-archive.org/interspeech_2026/liyanarachchi26_interspeech.pdf
 session: Child Speech and Health
 topics: [speech-disorder, self-supervised, health]
+category: health-clinical
+institutions:
+  - "University of New South Wales"
+  - "Resourced Music Therapy"
+  - "Western Sydney University"
 code:
     url: ""
     license: ""

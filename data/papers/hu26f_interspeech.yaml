@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hu26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hu26f_interspeech.pdf
 session: Speech Enhancement and Restoration
 topics: [speech-enhancement, on-device, self-supervised]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Inner Mongolia University"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Natural Science Foundation of Inner Mongolia Autonomous Region"
 code:
     url: https://github.com/Bream101/ABSE-NET
     license: ""

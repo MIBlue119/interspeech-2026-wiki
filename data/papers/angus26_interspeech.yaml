@@ -17,6 +17,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/angus26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/angus26_interspeech.pdf
 session: Speech Recognition, Enhancement and Real-Time Systems
 topics: [asr, speaker-diarization, on-device]
+category: asr
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "Argmax"
 code:
     url: ""
     license: ""

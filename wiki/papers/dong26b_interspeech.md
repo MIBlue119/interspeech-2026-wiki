@@ -1,6 +1,7 @@
 ---
 id: dong26b_interspeech
-category: speech-llm
+category: phonetics-linguistics
+labels: [multilingual, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dong26b_interspeech.pdf
 *Wenwei Dong, Alif Silpachai, Catia Cucchiarini, Helmer Strik*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dong26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dong26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-966)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — This paper investigates whether multilingual neural models (Whisper and speech LLM Qwen2.5-Omni-7B) mirror second-language (L2) human listeners in perceptual vowel training under multitalker babble. The speech LLM demonstrates trends and noise robustness most closely aligned with human L2 listeners, achieving up to 90.62% accuracy under speech-shaped noise.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-assisted language learning (CALL) systems, automated second-language pronunciation training, and robust spoken language interface evaluation.
+
+## Institutions / 機構
+
+Radboud University
+
+**Funding / 經費:** China Scholarship Council
 
 ## Related
 

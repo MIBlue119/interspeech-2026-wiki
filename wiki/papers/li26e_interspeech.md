@@ -1,6 +1,7 @@
 ---
 id: li26e_interspeech
-category: speech-enhancement
+category: speech-coding
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26e_interspeech.pdf
 *Shaokai Li, Weiping Tu, Yuhong Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-512)
+
+**Category:** `speech-coding` · **Labels:** `robustness-noise`
 
 **TL;DR** — FocalSE is a neural speech codec adaptation method that performs feature denoising, noise feature separation, and noise recognition within the continuous embedding space, improving reconstruction under low-bitrate and low-SNR conditions. It achieves a PESQ of 2.116 and an SI-SDR of 5.403 dB at 6 kbps and -5 dB SNR, outperforming existing baselines.
 
@@ -65,6 +68,12 @@ Speech and ML engineers building robust neural speech codecs for noisy communica
 ## Applications
 
 Robust low-bitrate VoIP communications, satellite telephony, and speech compression pipelines deployed in acoustically challenging, high-noise environments.
+
+## Institutions / 機構
+
+Wuhan University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

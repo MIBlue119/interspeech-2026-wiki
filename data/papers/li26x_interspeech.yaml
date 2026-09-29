@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26x_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26x_interspeech.pdf
 session: Speaker Identity, States, and Traits in Paralinguistics
 topics: [paralinguistics, speech-llm, evaluation]
+category: paralinguistics-emotion
+labels:
+  - "generative-model"
+institutions:
+  - "University of Groningen"
 code:
     url: ""
     license: ""

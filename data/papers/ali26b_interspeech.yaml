@@ -10,6 +10,22 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ali26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ali26b_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 1
 topics: [asr, self-supervised, low-resource]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "Universite de Montreal"
+  - "Imperial College London"
+  - "Concordia University"
+  - "Mila – Quebec AI Institute"
+funding:
+  - "NSERC"
+  - "Digital Research Alliance of Canada"
+  - "Translated"
+  - "Apple"
 code:
     url: https://github.com/salman-ha/MambAdapter
     license: ""

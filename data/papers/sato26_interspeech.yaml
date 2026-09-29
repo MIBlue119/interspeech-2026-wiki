@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sato26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sato26_interspeech.pdf
 session: Real-Time, Low-Latency and Edge Speech Enhancement
 topics: [speech-enhancement, streaming, low-resource]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "NTT"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: fukuda26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fukuda26b_interspeech.pdf
 *Ryo Fukuda, Takatomo Kano, Siddhant Arora, Marc Delcroix, Naohiro Tawara, Atsunori Ogawa, Yuya Chiba, Atsushi Ando, William Chen, Shinji Watanabe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fukuda26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fukuda26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2923)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper establishes a unified online evaluation framework for multi-party conversation turn-taking—comprising addressee detection, turn-change prediction, and next speaker prediction—and discovers that text-based LLMs outperform both supervised models and humans in next speaker prediction while multimodal LLMs struggle to effectively leverage raw audiovisual signals.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building real-time conversational agents, meeting assistant bots, and multi-party dialogue management systems that require turn prediction and addressee tracking.
+
+## Institutions / 機構
+
+NTT, Carnegie Mellon University
 
 ## Related
 

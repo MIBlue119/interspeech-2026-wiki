@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/khan26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/khan26b_interspeech.pdf
 session: New Architecture and Analyses for ASR and Speech LMs
 topics: [self-supervised, speech-llm, evaluation]
+category: deepfake-security
+labels:
+  - "generative-model"
+institutions:
+  - "RMIT University"
 code:
     url: https://github.com/ahmedsohair/SAPTA26
     license: ""

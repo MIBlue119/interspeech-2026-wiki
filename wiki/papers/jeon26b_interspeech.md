@@ -1,6 +1,7 @@
 ---
 id: jeon26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jeon26b_interspeech.pdf
 *Chanhong Jeon, Jeongmin Lee, Hyungjoo Seo, Kyuhong Shim, Taewook Kang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jeon26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jeon26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1530)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper presents a lightweight, model-free speech enhancement framework tailored for UAV audition systems operating under extreme ego-noise, achieving 98.12% DoA accuracy at -25 dB SNR. It uses an ego-noise-aware spatial filtering pipeline that jointly optimizes DoA estimation, crossover-based hybrid noise covariance matrix estimation, and a variance-modulated post-filter.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-board speech recognition, emergency communication, and acoustic human-robot interaction for unmanned aerial vehicles in noisy outdoor environments.
+
+## Institutions / 機構
+
+Sungkyunkwan University, University of Illinois Urbana-Champaign
+
+**Funding / 經費:** National Research Foundation, IITP, KIAT
 
 ## Related
 

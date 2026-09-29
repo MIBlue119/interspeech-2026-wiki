@@ -1,6 +1,7 @@
 ---
 id: havare26_interspeech
-category: speech-recognition
+category: speech-llm-dialogue
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/havare26_interspeech.pdf
 *Jayant Havare, Srikanth Tamilselvam, Ashish Mittal, Shalaka Thorat, Soham Jadia, Varsha Apte, Ganesh Ramakrishnan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/havare26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/havare26_interspeech.html)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — CodeVaani is a multilingual, voice-enabled programming assistant integrated into an LMS that helps non-English proficient students explore coding concepts via native speech, achieving a WER of 8.1% on Gujarati queries.
 
@@ -65,6 +68,10 @@ Researchers and developers building vertical speech-to-text-to-intent pipelines 
 ## Applications
 
 Voice-activated educational coding assistants, multilingual programming learning management systems, and accessible software engineering tools for non-native English speakers.
+
+## Institutions / 機構
+
+Indian Institute of Technology Bombay, IBM, Google DeepMind
 
 ## Related
 

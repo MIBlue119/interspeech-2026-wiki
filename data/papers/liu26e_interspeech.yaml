@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26e_interspeech.pdf
 session: Streaming Speech Synthesis
 topics: [tts, self-supervised, speech-llm]
+category: tts
+labels:
+  - "streaming-real-time"
+  - "generative-model"
+institutions:
+  - "Xinjiang University"
+  - "Tsinghua University"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: https://github.com/thu-spmi/CTC-TTS
     license: ""

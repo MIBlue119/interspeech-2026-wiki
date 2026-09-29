@@ -1,6 +1,6 @@
 ---
 id: daoxuanquang26_interspeech
-category: speech-llm
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/daoxuanquang26_interspeech.pd
 *Minh Dao-Xuan-Quang, Son Dinh-Nguyen, Thi-Mai-Anh Bui, Phi-Le Nguyen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/daoxuanquang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/daoxuanquang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1542)
+
+**Category:** `applications-other`
 
 **TL;DR** — M-LAMA is a structured cross-modal framework for automated long-form speech assessment that integrates raw audio, ASR transcripts, and question prompts through dual encoders and a discourse-aware fusion decoder, reducing MAE by up to 29.8% over open-source baselines.
 
@@ -68,6 +70,10 @@ Speech and ML engineers building automated assessment pipelines or complex multi
 ## Applications
 
 Automated language proficiency testing platforms, intelligent computer-assisted language learning (CALL) software, and standardized oral exam scoring systems.
+
+## Institutions / 機構
+
+Hanoi University of Science and Technology
 
 ## Related
 

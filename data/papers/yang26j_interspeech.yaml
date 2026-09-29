@@ -15,6 +15,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yang26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26j_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
 topics: [asr, low-resource, self-supervised]
+category: asr
+labels:
+  - "low-resource"
+  - "self-supervised"
+institutions:
+  - "Wuhan University"
+  - "University of Melbourne"
+  - "Northwestern Polytechnical University"
+  - "University of Quebec"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: https://hf.co/spaces/IqraEval
     license: ""

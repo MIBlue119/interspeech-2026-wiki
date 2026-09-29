@@ -14,6 +14,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/taguchi26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/taguchi26_interspeech.pdf
 session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
 topics: [asr, low-resource, self-supervised]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "University of Notre Dame"
+  - "University at Buffalo"
+  - "Tokyo University of Foreign Studies"
+  - "Reitaku University"
+  - "Boston College"
+funding:
+  - "National Science Foundation"
+  - "JSPS KAKENHI"
 code:
     url: ""
     license: ""

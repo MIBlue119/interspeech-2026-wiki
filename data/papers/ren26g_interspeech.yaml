@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ren26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ren26g_interspeech.pdf
 session: Multilingual & Low-Resource ASR
 topics: [asr, multilingual, self-supervised]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Tsinghua University"
 code:
     url: ""
     license: ""

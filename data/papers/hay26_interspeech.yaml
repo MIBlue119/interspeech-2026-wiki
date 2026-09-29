@@ -7,6 +7,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hay26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hay26_interspeech.pdf
 session: 'Keynote3 - Jennifer Hay: What does it mean to ‘know a word’?'
 topics: [phonetics, low-resource]
+category: phonetics-linguistics
+institutions:
+  - "University of Canterbury"
 code:
     url: ""
     license: ""

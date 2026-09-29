@@ -33,6 +33,8 @@ func main() {
 		err = cmdWiki(os.Args[2:])
 	case "toc":
 		err = cmdToc(os.Args[2:])
+	case "orgs":
+		err = cmdOrgs(os.Args[2:])
 	case "fetch":
 		err = cmdFetch(os.Args[2:])
 	default:
@@ -55,6 +57,7 @@ commands:
   validate  schema-check every data/papers/*.yaml
   wiki <id> create wiki/papers/<id>.md stub from its yaml
   toc       regenerate wiki/index.md grouped by primary topic
+  orgs      regenerate wiki/institutions.md grouped by institution/funder
   fetch     download paper PDFs into sources/ (gitignored)
             flags: --insecure --only <id>
 `)

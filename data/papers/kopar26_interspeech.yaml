@@ -16,6 +16,25 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kopar26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kopar26_interspeech.pdf
 session: Clinically Useful Speech Representations 1
 topics: [paralinguistics, self-supervised, health]
+category: health-clinical
+labels:
+  - "self-supervised"
+institutions:
+  - "Hertie Institute for AI in Brain Health"
+  - "Tübingen AI Center"
+  - "Humboldt-Universität zu Berlin"
+  - "Tübingen University Hospital"
+  - "Tübingen Center for Mental Health"
+  - "German Center for Mental Health"
+  - "University Medical Center Schleswig-Holstein"
+  - "Hertie Institute for Clinical Brain Research"
+  - "Friedrich-Alexander-Universität Erlangen-Nürnberg"
+  - "Charité–Universitätsmedizin"
+funding:
+  - "Gemeinnützigen Hertie-Stiftung"
+  - "Deutsche Forschungsgemeinschaft"
+  - "Germany's Excellence Strategy"
+  - "International Max Planck Research School for Intelligent Systems"
 code:
     url: https://github.com/neselidondurma/beyond-binary-mci
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: li26v_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26v_interspeech.pdf
 *Mingxing Li, Pauline Bolin Liu, Yufeng Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26v_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26v_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1215)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates how Chinese Xiang dialects realize tonal contrasts across different heights, vowel contexts, and inventory sizes using multi-dimensional acoustic measurements and XGBoost-SHAP modeling. Results show that high tones exhibit shorter durations, higher intensity, and greater periodicity (HNR, CPP), while high-front vowels [i] expand the F0 range and voice quality variation more than apical [ɹ̩] or low-back [a] vowels.
 
@@ -56,6 +58,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving acoustic modeling and multi-cue utilization in tone-dependent automatic speech recognition (ASR) and expressive text-to-speech (TTS) synthesis systems.
+
+## Institutions / 機構
+
+Hong Kong Baptist University, Shandong University
+
+**Funding / 經費:** Hong Kong University Grants Committee General Research Fund, Hong Kong Baptist University Faculty of Arts and Social Sciences Digital Humanities Pilot Grant
 
 ## Related
 

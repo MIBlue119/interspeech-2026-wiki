@@ -1,6 +1,7 @@
 ---
 id: arora26b_interspeech
 category: asr
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/arora26b_interspeech.pdf
 *Piyush Arora, Navlika Singh, Umberto Cappellazzo, Stavros Petridis, Maja Pantic*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/arora26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/arora26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1903)
+
+**Category:** `asr` · **Labels:** `robustness-noise`
 
 **TL;DR** — VIB-AVSR integrates Variational Information Bottleneck layers into targeted intermediate positions of an LLM-based audio-visual speech recognition backbone to suppress acoustic noise, reducing Word Error Rate (WER) across diverse SNR levels and noise types without extra training data.
 
@@ -63,6 +66,10 @@ Researchers building multimodal speech LLMs will find this a pragmatic, computat
 ## Applications
 
 Robust automated speech recognition and transcription systems deployed in acoustically challenging, noisy real-world environments.
+
+## Institutions / 機構
+
+Imperial College London, NatWest AI Research
 
 ## Related
 

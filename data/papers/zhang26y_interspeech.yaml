@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26y_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26y_interspeech.pdf
 session: Assistive Technologies 1
 topics: [asr, self-supervised, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Cornell University"
+funding:
+  - "National Science Foundation"
+  - "Qualcomm Innovation Fellowship"
 code:
     url: https://doi.org/10.7298/xjjr-9m85
     license: ""

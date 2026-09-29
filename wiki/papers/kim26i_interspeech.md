@@ -1,6 +1,7 @@
 ---
 id: kim26i_interspeech
-category: speaker-verification
+category: speaker
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26i_interspeech.pdf
 *Seunghwan Kim, Jinyong Kim, Sooyoung Yang, Youngjin Ko, Myungjoo Kang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1146)
+
+**Category:** `speaker` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper presents a label-free speaker embedding enhancement method using a von Mises-Fisher profile likelihood (vMF-PL) objective on the unit hypersphere, yielding robust mismatch improvements without modifying frozen backbones. It achieves consistent Equal Error Rate reductions across challenging benchmarks like CN-Celeb and VOiCES while maintaining training stability under broad single-view recipes.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Deploying lightweight, robust post-processing layers on edge devices or telephony servers to clean up speaker verification embeddings under noisy real-world acoustic mismatches without retraining upstream feature extractors.
+
+## Institutions / 機構
+
+Seoul National University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea government, National Research Foundation of Korea
 
 ## Related
 

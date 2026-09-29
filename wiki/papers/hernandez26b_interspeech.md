@@ -1,6 +1,7 @@
 ---
 id: hernandez26b_interspeech
-category: self-supervised
+category: phonetics-linguistics
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hernandez26b_interspeech.pdf
 *Abner Hernandez, Tomás Arias-Vergara, Daiqi Liu, Andreas Maier, Paula Andrea Pérez-Toro*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hernandez26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hernandez26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2735)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — PhonoQ-2.0 is a multilingual frame-level phonological feature recognizer that directly predicts a structured 22-dimensional articulatory vector from self-supervised speech representations, outperforming strong phoneme-to-feature baselines by an average of +8.8 macro-F1 in-domain.
 
@@ -69,6 +72,10 @@ Speech and ML researchers focusing on multilingual representations or pronunciat
 ## Applications
 
 Pronunciation assessment, computer-assisted language learning, clinical speech analysis, and low-resource speech processing pipelines.
+
+## Institutions / 機構
+
+Friedrich-Alexander-Universitat Erlangen-Nurnberg, Universidad de Antioquia
 
 ## Related
 

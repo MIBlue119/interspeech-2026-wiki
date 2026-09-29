@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cai26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cai26b_interspeech.pdf
 session: Acoustic Event Detection 2
 topics: [acoustic-scene-classification, self-supervised, evaluation]
+category: audio-understanding
+institutions:
+  - "Xi'an Jiaotong-Liverpool University"
+  - "Nanjing University of Posts and Telecommunications"
+funding:
+  - "Jiangsu Provincial Major Science and Technology Project"
 code:
     url: ""
     license: ""

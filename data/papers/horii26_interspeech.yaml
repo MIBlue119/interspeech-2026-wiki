@@ -11,6 +11,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/horii26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/horii26_interspeech.pdf
 session: 'CHILDSPACE: Child Home Interaction & Language Dynamics: Speech, Psychology, Affect, Computation, and Environments'
 topics: [self-supervised, phonetics, dataset]
+category: phonetics-linguistics
+institutions:
+  - "NTT"
 code:
     url: ""
     license: ""

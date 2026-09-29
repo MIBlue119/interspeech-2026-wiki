@@ -16,6 +16,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/spang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/spang26_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 1
 topics: [paralinguistics, dataset, multilingual]
+category: health-clinical
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Bauhaus-Universitat Weimar"
+  - "Technische Universitat Berlin"
+  - "German Research Center for Artificial Intelligence"
+  - "Senseven Health GmbH"
+  - "University of Technology Chemnitz"
+funding:
+  - "German Federal Ministry of Education and Research"
 code:
     url: https://osf.io/k4z2v/
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: kando26_interspeech
-category: tts
+category: speech-llm-dialogue
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kando26_interspeech.pdf
 *Shunsuke Kando, Wataru Nakata, Shinnosuke Takamichi, Yusuke Miyao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kando26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kando26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-999)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — Investigating Generative Spoken Language Modeling (GSLM) across various bitrates reveals that wider segmentation and larger cluster sizes reduce sequence length and bitrate without degrading speech resynthesis or continuation quality. LLM-as-a-judge metrics correlate better with human subjective scores than traditional perplexity/diversity metrics, though overall correlation remains low.
 
@@ -65,6 +68,12 @@ Speech and ML engineers building generative spoken language models or textless a
 ## Applications
 
 Efficient generative spoken language models, textless speech-to-speech translation systems, and zero-shot spoken dialogue agents.
+
+## Institutions / 機構
+
+University of Tokyo, Keio University
+
+**Funding / 經費:** JST ACT-X, JSPS KAKENHI
 
 ## Related
 

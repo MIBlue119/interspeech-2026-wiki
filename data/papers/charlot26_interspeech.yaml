@@ -13,6 +13,21 @@ isca_url: https://www.isca-archive.org/interspeech_2026/charlot26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/charlot26_interspeech.pdf
 session: 'CHILDSPACE: Child Home Interaction & Language Dynamics: Speech, Psychology, Affect, Computation, and Environments'
 topics: [self-supervised, speaker-diarization, multilingual]
+category: speaker
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "École Normale Supérieure"
+  - "École des Hautes Études en Sciences Sociales"
+  - "CNRS"
+  - "PSL University"
+  - "Aix-Marseille University"
+funding:
+  - "Agence Nationale pour la Recherche"
+  - "European Research Council"
+  - "Simons Foundation International"
+  - "Agence de l'Innovation de Défense"
 code:
     url: https://github.com/LAAC-LSCP/VTC
     license: ""

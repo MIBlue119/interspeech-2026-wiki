@@ -1,6 +1,6 @@
 ---
 id: ozkan26_interspeech
-category: speech-production
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ozkan26_interspeech.pdf
 *Beliz Ozkan, Jonas Michael, Thomas Hueber, Olivier Perrotin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ozkan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ozkan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1288)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates why silent speech interfaces can predict fundamental frequency (fo) from articulatory data despite source-filter independence, finding that accuracy depends on capturing local articulatory-fo couplings during prominent words rather than global trajectories. Using bimodal ultrasound tongue and lip imaging, models achieve utterance-level Spearman correlations up to 0.68 on read speech, but generalization degrades severely on spontaneous speech.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Silent speech interfaces, expressive speech synthesis, voice restoration for laryngectomees, and articulatory-to-acoustic inversion models.
+
+## Institutions / 機構
+
+Univ. Grenoble Alpes, CNRS, Grenoble INP
+
+**Funding / 經費:** ANR SilentPitch, MIAI Cluster
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: maxwell26_interspeech
-category: dataset
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/maxwell26_interspeech.pdf
 *Olga Maxwell, Uy Thinh Quang, Debbie Loakes, Adele Gregory, Robert Turnbull*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/maxwell26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/maxwell26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2830)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces PRISM (Pronunciation and Intonation Structured Markup), an open dataset and linguistically grounded annotation framework for Australian English pronunciation feedback containing 859 expert-annotated errors across three learner accent groups. It reveals an even split between segmental (49.9%) and prosodic (46.1%) pronunciation differences, addressing critical sociophonetic gaps in existing commercial AI tools.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-assisted language learning (CALL) applications, automated pronunciation scoring engines, and targeted AI feedback tools for academic and professional English communication.
+
+## Institutions / 機構
+
+University of Melbourne
+
+**Funding / 經費:** Melbourne Data Analytics Program Collaboration Grant, Learning and Teaching Initiatives Grant
 
 ## Related
 

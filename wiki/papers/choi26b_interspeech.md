@@ -1,6 +1,7 @@
 ---
 id: choi26b_interspeech
 category: tts
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/choi26b_interspeech.pdf
 *Youngwon Choi, Jinwoo Oh, Hwayeon Kim, Hyeonyu Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/choi26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/choi26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1269)
+
+**Category:** `tts` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — ZeSTA is a domain-conditioned training framework that stabilizes low-resource personalized text-to-speech (TTS) fine-tuning using zero-shot synthetic speech augmentation, improving speaker embedding cosine similarity by up to 0.05 over naive mixing while preserving intelligibility gains.
 
@@ -64,6 +67,12 @@ Speech researchers and practitioners building on-device or lightweight personali
 ## Applications
 
 Personalized voice assistants, custom voice cloning for text-to-speech, and low-resource synthetic data augmentation.
+
+## Institutions / 機構
+
+Maum AI, Humelo
+
+**Funding / 經費:** Culture, Sports and Tourism R&D Program, Startup Growth Technology Development Program
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: alshubaily26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/alshubaily26_interspeech.pdf
 *Nisreen Alshubaily, Emily O'Hara, Tanaya Guha, Alessandro Vinciarelli*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/alshubaily26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/alshubaily26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-383)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces the SSPNet Speaker Personality Corpus Version 2 (SPC V2) for automatic personality perception, adding automatic transcriptions, 100-point scale ratings, and dual-rater groups (language-comprehending vs. non-comprehending) alongside reproducible multimodal baselines.
 
@@ -64,6 +67,12 @@ Researchers and engineers working on automatic personality perception, paralingu
 ## Applications
 
 Building socially intelligent conversational agents, virtual assistants, and affective computing systems capable of estimating human personality traits and adjusting interaction styles accordingly.
+
+## Institutions / 機構
+
+University of Glasgow, Imam Mohammad Ibn Saud Islamic University
+
+**Funding / 經費:** UKRI Centre for Doctoral Training in Socially Intelligent Artificial Agents
 
 ## Related
 

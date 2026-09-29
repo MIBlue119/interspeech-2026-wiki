@@ -1,6 +1,7 @@
 ---
 id: tseng26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [efficient-on-device, self-supervised, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tseng26b_interspeech.pdf
 *Liang-Hsuan Tseng, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tseng26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tseng26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1686)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `self-supervised`, `streaming-real-time`
 
 **TL;DR** — TASTE-S is a streamable text-aligned speech tokenization and embedding framework designed for low-latency spoken language modeling, achieving performance parity with non-streamable baselines while cutting encoder real-time factor (RTF) down to 0.002.
 
@@ -66,6 +69,10 @@ Speech and ML engineers building real-time, text-aligned spoken language models 
 ## Applications
 
 Real-time conversational AI agents, low-latency speech-to-speech translation systems, and semantically grounded spoken language assistants.
+
+## Institutions / 機構
+
+National Taiwan University
 
 ## Related
 

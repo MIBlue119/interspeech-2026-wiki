@@ -1,6 +1,7 @@
 ---
 id: jiang26d_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jiang26d_interspeech.pdf
 *Yuxuan Jiang, Mingyang Han, Yusheng Dai, Andong Wang, Tianhong Zhou, Jiaxin Ye, Dongxiao Wang, Haoxiang Shi, Boyu Li, Jun Song, Cheng Yu, Bo Zheng, Weibei Dou, Zehua Chen, Jun Zhu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jiang26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jiang26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1121)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — FreeSonic is a training-free audio editing framework built on the Rectified Flow-based TangoFlux model that uses scheduled attention decoupling and task-oriented noise injection to achieve precise localized modifications while preserving temporal consistency and background acoustics. It outperforms existing training-free and training-based baselines across addition, removal, and replacement benchmarks.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Post-production sound design, automated audio track remixing, movie sound effect editing, and content-based audio modification.
+
+## Institutions / 機構
+
+Tsinghua University, Alibaba Group, Monash University, Renmin University of China, Fudan University
+
+**Funding / 經費:** Ministry of Education of China, National Natural Science Foundation of China
 
 ## Related
 

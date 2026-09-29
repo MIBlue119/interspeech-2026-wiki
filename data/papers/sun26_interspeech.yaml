@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sun26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sun26_interspeech.pdf
 session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
 topics: [prosody, self-supervised, evaluation]
+category: resources-evaluation
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "University of Tokyo"
+  - "University of Texas at Austin"
 code:
     url: https://github.com/stephenmac7/prosodic-abx
     license: ""

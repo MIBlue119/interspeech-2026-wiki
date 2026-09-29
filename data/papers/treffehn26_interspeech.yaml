@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/treffehn26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/treffehn26_interspeech.pdf
 session: Quality, Intelligibility and Evaluation of Speech and Codecs
 topics: [speech-coding, evaluation, dataset]
+category: resources-evaluation
+institutions:
+  - "Fraunhofer-Gesellschaft"
+funding:
+  - "Free State of Bavaria"
 code:
     url: ""
     license: ""

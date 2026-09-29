@@ -1,6 +1,7 @@
 ---
 id: lyu26_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lyu26_interspeech.pdf
 *Hong Lyu, Mingru Yang, Qianhua He, Yanxiong Li, Jinxin Huang, Zhengyu Pei*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lyu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lyu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-995)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces the TriA Pipeline, a four-stage automatic audio annotation system that converts raw platform audio into high-quality training datasets, resulting in a 2130-hour dataset and average relative gains of 3.97% in accuracy and 3.35% in Macro-F1 across domestic audio classification tasks when combined with manual data.
 
@@ -67,6 +70,12 @@ Speech and machine learning engineers building audio classification or event det
 ## Applications
 
 Automated dataset generation for smart home sound event detection, domestic safety monitoring, and acoustic surveillance systems.
+
+## Institutions / 機構
+
+South China University of Technology
+
+**Funding / 經費:** National Natural Science Foundation of China, China-Croatia Science and Technology Cooperation Committee
 
 ## Related
 

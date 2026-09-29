@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26t_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26t_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
 topics: [paralinguistics, emotion-recognition, evaluation]
+category: paralinguistics-emotion
+labels:
+  - "robustness-noise"
+institutions:
+  - "University of Twente"
+  - "Radboud University"
+funding:
+  - "European Union"
 code:
     url: https://doi.org/10.5281/zenodo.20729215
     license: ""

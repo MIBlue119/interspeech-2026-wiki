@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26ea_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26ea_interspeech.pdf
 session: Spoken Language Understanding
 topics: [spoken-language-understanding, speech-llm, self-supervised]
+category: speech-llm-dialogue
+institutions:
+  - "National Taiwan Normal University"
+funding:
+  - "Realtek Semiconductor Corporation"
 code:
     url: https://github.com/boyan1001/SFL-MTSC
     license: ""

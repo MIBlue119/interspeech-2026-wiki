@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yaish26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yaish26_interspeech.pdf
 session: Active Noise and Echo Control, Sound Zones and Packet-Loss Concealment
 topics: [speech-enhancement, self-supervised]
+category: enhancement-separation
+labels:
+  - "robustness-noise"
+institutions:
+  - "Ben-Gurion University of the Negev"
+  - "Tel Aviv University"
 code:
     url: https://github.com/ofiryaish/ASE-TM
     license: ""

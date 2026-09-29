@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/alharthi26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/alharthi26_interspeech.pdf
 session: Voice Editing
 topics: [voice-conversion, self-supervised, speaker-verification]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Carnegie Mellon University"
 code:
     url: https://github.com/DareenHarthi/rivet
     license: ""

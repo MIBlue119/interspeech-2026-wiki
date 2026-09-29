@@ -1,6 +1,7 @@
 ---
 id: peng26c_interspeech
-category: self-supervised
+category: phonetics-linguistics
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/peng26c_interspeech.pdf
 *Zhen Peng, Jiahong Yuan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/peng26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/peng26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-975)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — A geometric probing analysis of Wav2Vec 2.0 (XLSR-53) across five Chinese dialects reveals a three-stage evolutionary trajectory where intermediate layers best preserve fine-grained phonetic details while deep layers undergo manifold collapse to highlight macroscopic linguistic taxonomies.
 
@@ -58,6 +61,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Fine-grained accent recognition, dialect classification, and cross-dialectal speech representation learning.
+
+## Institutions / 機構
+
+University of Science and Technology of China
+
+**Funding / 經費:** USTC
 
 ## Related
 

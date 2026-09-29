@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shen26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shen26c_interspeech.pdf
 session: SE Architectures, Adaptation and Audio Front-Ends
 topics: [asr, speech-enhancement, self-supervised]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "Concordia University"
+  - "McGill University"
+  - "Shenzhen University of Advanced Technology"
 code:
     url: ""
     license: ""

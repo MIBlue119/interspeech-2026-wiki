@@ -1,6 +1,7 @@
 ---
 id: mou26b_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mou26b_interspeech.pdf
 *Zhenwei Mou, Liping Chen, Yajun Hu, Zhen-Hua Ling, Xin Fang, Jian-Qing Gao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mou26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mou26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2312)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper introduces a dynamic syllable-level prosody prediction mechanism for LLM-based text-to-speech (TTS) that conditions current prosody on previously generated speech tokens, significantly improving speaker style transfer and speaker similarity.
 
@@ -62,6 +65,10 @@ Speech researchers and engineers working on LLM-based TTS should read this paper
 ## Applications
 
 Personalized text-to-speech, expressive voice cloning, and emotionally adaptive conversational agents.
+
+## Institutions / 機構
+
+University of Science and Technology of China, iFLYTEK
 
 ## Related
 

@@ -13,6 +13,22 @@ isca_url: https://www.isca-archive.org/interspeech_2026/poli26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/poli26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
 topics: [self-supervised, multilingual, evaluation]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "École Normale Supérieure"
+  - "École des Hautes Études en Sciences Sociales"
+  - "Centre National de la Recherche Scientifique"
+  - "Université PSL"
+  - "University of Toronto"
+funding:
+  - "Agence Nationale de la Recherche"
+  - "Agence de l’Innovation de Défense"
+  - "European Research Council"
 code:
     url: https://benchmarks.cognitive-ml.fr/discophon
     license: ""

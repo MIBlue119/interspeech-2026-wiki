@@ -1,6 +1,6 @@
 ---
 id: xie26d_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xie26d_interspeech.pdf
 *Huangyang Xie, Xiuwei Zeng, Weijun Zhang, Peggy Pik Ki Mok*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xie26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xie26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2138)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study acoustically investigates citation and sandhi tones across three generations of Xiamen Southern Min speakers, uncovering subphonemic divergences obscured by the traditional "tone sandhi circle" and a striking generational split where teenagers enhance sandhi contrasts while seniors neutralize them.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving text-to-speech (TTS) systems and acoustic pronunciation models for Southern Min and tone-sandhi-heavy Chinese dialects by incorporating realistic, age-sensitive fine-grained phonetic sandhi variations rather than rigid categorical rules.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Hong Kong Metropolitan University
+
+**Funding / 經費:** Research Grants Council of Hong Kong
 
 ## Related
 

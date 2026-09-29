@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/munyampirwa26_interspeec
 pdf_url: https://www.isca-archive.org/interspeech_2026/munyampirwa26_interspeech.pdf
 session: Datasets
 topics: [asr, evaluation, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Argmax"
+  - "University of California, Los Angeles"
 code:
     url: https://github.com/argmaxinc/OpenBench
     license: ""

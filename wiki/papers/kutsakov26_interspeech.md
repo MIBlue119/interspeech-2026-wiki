@@ -1,6 +1,6 @@
 ---
 id: kutsakov26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kutsakov26_interspeech.pdf
 *Aleksandr Kutsakov, Mariia Sadovina, Georgii Gospodinov, Alexandr Maximenko, Oleg Kutuzov, Pavel Bogomolov, Fyodor Minkin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kutsakov26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kutsakov26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2343)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — GigaChat Audio is a 10B-parameter time-aware audio LLM that processes up to 120-minute recordings by interleaving periodic timestamp markers with continuous audio tokens, achieving 53.8 mIoU on 20-40 minute temporal grounding tasks.
 
@@ -64,6 +66,10 @@ Researchers and engineers building long-form audio assistants will learn how to 
 ## Applications
 
 Long-form meeting navigation, lecture timestamping, call center log analysis, and interactive audio question-answering interfaces.
+
+## Institutions / 機構
+
+SaluteDevices
 
 ## Related
 

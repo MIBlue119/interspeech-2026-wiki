@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chang26_interspeech.pdf
 session: Challenge - Audio Reasoning Challenge
 topics: [speech-llm, evaluation, self-supervised]
+category: audio-understanding
+institutions:
+  - "Information Engineering University"
+funding:
+  - "Henan Province Major Industrial “Challenge-Based Innovation”"
+  - "Natural Science Foundation of Henan"
+  - "Science and Technology Key Project Plan of Henan"
 code:
     url: https://github.com/Changhy26/TAD
     license: ""

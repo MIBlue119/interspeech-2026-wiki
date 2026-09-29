@@ -1,6 +1,7 @@
 ---
 id: yi26_interspeech
-category: speech-enhancement
+category: deepfake-security
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yi26_interspeech.pdf
 *Zhuolin Yi, Jun Xue, Yanzhen Ren, Yihuan Huang, Yi Chai, Daixian Li, Guanxiang Feng, Jiajun Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-157)
+
+**Category:** `deepfake-security` · **Labels:** `robustness-noise`
 
 **TL;DR** — This study challenges the 'scale-first' paradigm in speech anti-spoofing by showing that indiscriminately scaling training data under fixed generation methods yields diminishing returns and hurts cross-domain generalization, whereas prioritizing attack diversity significantly improves robustness.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust deepfake speech detection systems for voice authentication, cybersecurity, fraud prevention, and social media moderation.
+
+## Institutions / 機構
+
+Wuhan University
+
+**Funding / 經費:** Natural Science Foundation of China
 
 ## Related
 

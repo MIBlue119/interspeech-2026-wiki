@@ -1,6 +1,7 @@
 ---
 id: adebara26_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/adebara26_interspeech.pdf
 *Ife Adebara, Oluwaseun Nifemi, Olubayo Adekanmbi, Rashidat Sikiru, Ololade Anjuwon, Ronke Akinmosin, Faiza Sani*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/adebara26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/adebara26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3519)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — WazobiaSpeech is a 2,540.8-hour ethically governed speech corpus across four Nigerian languages (Hausa, Igbo, Naijã, and Yorùbá) designed to capture spontaneous conversational speech and real-world sociolinguistic variation. Fine-tuning Whisper Large-v3 on this data achieves competitive ASR performance, though deep error analysis reveals persistent challenges with tone mark loss and high-tone bias.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of robust ASR and speech-to-text transcription tools for Nigerian languages, supporting agricultural extension services, community health outreach, mobile financial literacy apps, and inclusive conversational AI.
+
+## Institutions / 機構
+
+University of Alberta, Data Science Nigeria, EqualyzAI, Alberta Machine Intelligence Institute, CIFAR
+
+**Funding / 經費:** Gates Foundation
 
 ## Related
 

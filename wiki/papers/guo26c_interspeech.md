@@ -1,6 +1,7 @@
 ---
 id: guo26c_interspeech
-category: self-supervised
+category: speech-llm-dialogue
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/guo26c_interspeech.pdf
 *Xin Guo, Chunrui Zhao, Hong Jia, Ting Dang, Gongping Huang, Xianrui Zheng, Yan Gao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/guo26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/guo26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2122)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — An adaptive federated fine-tuning framework for speech self-supervised models uses early exits and depth-aware layer-wise partial aggregation to handle system and task heterogeneity, matching or exceeding homogeneous federated performance while reducing memory overhead by up to 43.27%.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving on-device speech recognition, keyword spotting, and paralinguistic emotion/speaker analysis for mobile and IoT assistants.
+
+## Institutions / 機構
+
+Wuhan University, University of Auckland, University of Melbourne, University of Cambridge, Flower Labs
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

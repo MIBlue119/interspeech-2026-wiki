@@ -8,6 +8,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jeong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jeong26_interspeech.pdf
 session: Speech and Audio Quality Assessment
 topics: [evaluation, self-supervised, speech-enhancement]
+category: resources-evaluation
+labels:
+  - "self-supervised"
+institutions:
+  - "Sogang University"
 code:
     url: ""
     license: ""

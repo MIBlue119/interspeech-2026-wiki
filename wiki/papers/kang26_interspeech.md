@@ -1,6 +1,7 @@
 ---
 id: kang26_interspeech
-category: speaker-verification
+category: speaker
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kang26_interspeech.pdf
 *Hyunku Kang, Minkyu Cho, Chanwoo Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3192)
+
+**Category:** `speaker` · **Labels:** `self-supervised`
 
 **TL;DR** — VAM-ECAPA introduces a learnable Vector Archive Mapping mechanism to enrich sparse frame-level features from short audio segments, achieving a 54.8% relative error reduction on 1-second trials compared to a strong WavLM+ECAPA-TDNN baseline.
 
@@ -65,6 +68,12 @@ Speech researchers and engineers tackling short-duration speaker recognition (e.
 ## Applications
 
 Voice-activated device commands, phone-based automated authentication, and real-time short-segment speaker verification systems.
+
+## Institutions / 機構
+
+Korea University
+
+**Funding / 經費:** Institute of Information Communications Technology Planning Evaluation, National Research Foundation of Korea, Ministry of Science and ICT, Ministry of SMEs and Startups, Supreme Prosecutor’s Office
 
 ## Related
 

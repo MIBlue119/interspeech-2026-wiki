@@ -1,6 +1,7 @@
 ---
 id: lopez26b_interspeech
 category: asr
+labels: [low-resource, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lopez26b_interspeech.pdf
 *Fernando López, Fernando Ibañez, Ana Martínez, Iván Alonso, Pablo Gómez, Santosh Kesiraju, Jordi Luque*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lopez26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lopez26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2529)
+
+**Category:** `asr` · **Labels:** `low-resource`, `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces S-DiverSe, a 3.2-hour in-the-wild Spanish speech corpus featuring 22 speakers with neurological conditions (ALS, Parkinson's, stroke), and demonstrates that simple text post-processing outperforms fine-tuning for out-of-domain pathological Spanish ASR.
 
@@ -67,6 +70,12 @@ Speech and ML researchers working on pathological speech or robust ASR adaptatio
 ## Applications
 
 Development of assistive communication technologies, hands-free transcription interfaces, and robust automatic speech recognition systems for individuals with neuromotor and speech disorders.
+
+## Institutions / 機構
+
+Telefonica, Universidad Autonoma de Madrid, Brno University of Technology
+
+**Funding / 經費:** European Union's Horizon 2020 RIA ELOQUENCE project, Ministry of Education, Youth and Sports of the Czech Republic, OP JAK project 'Linguistics, Artificial Intelligence and Language and Speech Technologies: from Research to Applications'
 
 ## Related
 

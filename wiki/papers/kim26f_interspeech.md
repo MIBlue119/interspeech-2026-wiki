@@ -1,6 +1,7 @@
 ---
 id: kim26f_interspeech
-category: asr
+category: phonetics-linguistics
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26f_interspeech.pdf
 *Hyung Kyu Kim, Byungchan Hwang, Hak Gu Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-664)
+
+**Category:** `phonetics-linguistics` · **Labels:** `low-resource`
 
 **TL;DR** — ArtBoost is a novel data augmentation framework for acoustic-to-articulatory inversion (AAI) that leverages large-scale speech-mesh datasets to extract pseudo-articulatory trajectories for pre-training, yielding up to a +45.3% relative improvement in Pearson correlation on low-resource EMA benchmarks.
 
@@ -65,6 +68,12 @@ Speech and ML researchers working on acoustic-to-articulatory inversion or speec
 ## Applications
 
 Production-aware speech synthesis, articulatory-based speech analysis, speech pathology assessment, and speech-driven 3D facial animation.
+
+## Institutions / 機構
+
+Chung-Ang University
+
+**Funding / 經費:** Ministry of Science and ICT, Institute for Information & Communications Technology Planning & Evaluation, Ministry of Culture, Sports and Tourism, Korea Creative Content Agency
 
 ## Related
 

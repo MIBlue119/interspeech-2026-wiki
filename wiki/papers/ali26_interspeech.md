@@ -1,6 +1,7 @@
 ---
 id: ali26_interspeech
 category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ali26_interspeech.pdf
 *Mohamed Nabih Ali, Daniele Falavigna, Alessio Brutti*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ali26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ali26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-689)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — Fed-SpeechLLM is the first federated learning framework for multilingual SpeechLLM-based automatic speech recognition that freezes speech encoders and LLM backbones while selectively aggregating trainable projectors and LoRA adapters. Evaluated on English and Italian, the method achieves Word Error Rates closely matching centralized training under non-IID conditions.
 
@@ -65,6 +68,12 @@ Speech and ML engineers building privacy-preserving, multilingual speech systems
 ## Applications
 
 Privacy-preserving multilingual voice assistants, distributed clinical speech transcription, and on-device cross-lingual speech recognition for regulated enterprise environments.
+
+## Institutions / 機構
+
+Fondazione Bruno Kessler
+
+**Funding / 經費:** Ministero delle Imprese e del Made in Italy, European Union
 
 ## Related
 

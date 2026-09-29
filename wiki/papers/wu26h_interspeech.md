@@ -1,6 +1,7 @@
 ---
 id: wu26h_interspeech
-category: evaluation
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26h_interspeech.pdf
 *Dapeng Wu, Shun Lei, Wei Tan, Guangzheng Li, Yunzhe Wang, Huaicheng Zhang, Lishi Zuo, Zhiyong Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1985)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — SongBench is a fine-grained, multi-aspect benchmark and expert-annotated dataset designed for song quality assessment across seven aesthetic dimensions, overcoming the rating saturation and ceiling effects of prior music evaluation frameworks. It achieves strong correlation with expert ratings (system-level LCC > 0.95) and successfully captures incremental quality gains across state-of-the-art text-to-song models.
 
@@ -65,6 +68,12 @@ Researchers and engineers developing text-to-song generation models should read 
 ## Applications
 
 Diagnostic evaluation, hyperparameter tuning, and automated reward modeling for text-to-song generation systems.
+
+## Institutions / 機構
+
+Tsinghua University, Tencent
+
+**Funding / 經費:** National Natural Science Foundation of China, Shenzhen Science and Technology Program
 
 ## Related
 

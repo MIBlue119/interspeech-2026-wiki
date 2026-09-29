@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26p_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26p_interspeech.pdf
 session: Brain Studies and Speech
 topics: [speech-enhancement, self-supervised, spoken-language-understanding]
+category: enhancement-separation
+labels:
+  - "streaming-real-time"
+institutions:
+  - "Southern University of Science and Technology"
+  - "Capital Medical University"
+funding:
+  - "National Key Research and Development Program of China"
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

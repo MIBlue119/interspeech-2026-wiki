@@ -14,6 +14,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhong26c_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhong26c_interspeech.pdf
 session: Speech and Language Technologies in Healthcare
 topics: [paralinguistics, speech-enhancement, self-supervised]
+category: health-clinical
+institutions:
+  - "DeepNet Discovery Network"
+  - "University of Auckland"
+  - "University of Illinois Urbana-Champaign"
 code:
     url: https://github.com/Kanelmis/PED
     license: ""

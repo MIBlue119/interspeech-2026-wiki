@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/viakhirev26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/viakhirev26_interspeech.pdf
 session: 'Robust ASR: Hallucinations and Biases'
 topics: [asr, self-supervised, evaluation]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Information Technologies, Mechanics and Optics University"
+  - "Moscow Technical University of Communications and Informatics"
+  - "BitmanagerAI"
 code:
     url: ""
     license: ""

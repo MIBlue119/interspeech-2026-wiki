@@ -1,6 +1,7 @@
 ---
 id: sun26h_interspeech
 category: asr
+labels: [low-resource, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26h_interspeech.pdf
 *Jinuo Sun, Yang Xiao, Sung Kyun Chung, Qiuchi Hu, Gongping Huang, Eun-Jung Holden, Ting Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2166)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — This paper introduces a parameter-free activation steering method to adapt Large Audio Language Models (LALMs) to regional and non-native accents at inference time, achieving relative Word Error Rate (WER) reductions of up to 90.7% on data-scarce accents without modifying model weights.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice assistants, automated call centers, educational technology software, and multilingual speech recognition systems requiring fair and robust performance across diverse regional and non-native accents without retraining weights.
+
+## Institutions / 機構
+
+University of Melbourne, Wuhan University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: louro26_interspeech
 category: asr
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/louro26_interspeech.pdf
 *Celeste Rodríguez Louro, Glenys Dale Collard, Hope Narrier, Katrina Cox, Lily Hayward, Daniel Colbung, Ben Hutchinson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/louro26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/louro26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1595)
+
+**Category:** `asr` · **Labels:** `low-resource`
 
 **TL;DR** — This study presents the first empirical investigation into the experiences of Australian Aboriginal English speakers using voice technologies, revealing that systemic ASR failures force users to modify their speech to sound non-Indigenous.
 
@@ -56,6 +59,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of inclusive, community-governed speech recognition systems and culturally safe voice technologies for minoritised indigenous language varieties.
+
+## Institutions / 機構
+
+University of Western Australia, Google
 
 ## Related
 

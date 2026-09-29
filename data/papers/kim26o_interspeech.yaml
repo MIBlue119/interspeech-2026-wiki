@@ -10,6 +10,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26o_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26o_interspeech.pdf
 session: Acoustic Signal Analysis and Generation
 topics: [tts, speech-enhancement, self-supervised]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "KAIST"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Korea government (MSIT)"
+  - "Artificial Intelligence Graduate School Program (KAIST)"
+  - "National Research Foundation of Korea"
 code:
     url: https://dabinkim0.github.io/adatt/
     license: ""

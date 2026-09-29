@@ -1,6 +1,7 @@
 ---
 id: zhou26i_interspeech
-category: self-supervised
+category: resources-evaluation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhou26i_interspeech.pdf
 *Wangjin Zhou, Yizhou Zhang, Yichi Wang, Tatsuya Kawahara*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhou26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhou26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2436)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`
 
 **TL;DR** — Supervised fine-tuning (SFT) outcomes for speech self-supervised models depend heavily on the specific pretrained instance and random seed rather than universal architectural ceilings, revealing that reported recipe gains often reflect "elicitation match."
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Guidelines for robust evaluation of speech representation learning, downstream adaptation of self-supervised models for classification tasks.
+
+## Institutions / 機構
+
+Kyoto University
+
+**Funding / 經費:** JST BOOST
 
 ## Related
 

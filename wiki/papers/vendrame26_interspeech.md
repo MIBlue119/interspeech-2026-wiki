@@ -1,6 +1,7 @@
 ---
 id: vendrame26_interspeech
-category: spoken-language-understanding
+category: speech-llm-dialogue
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/vendrame26_interspeech.pdf
 *Katia Vendrame, Bolaji Yusuf, Santosh Kesiraju, Šimon Sedláček, Oldřich Plchot, Honza Černocký*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/vendrame26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/vendrame26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2769)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `low-resource`
 
 **TL;DR** — This paper proposes jointly training end-to-end speech-to-DST models on paired spoken data from a source domain and unpaired text data from target domains, using a shared connector and LLM with a text encoder. This approach bridges up to 79% of the cross-domain dialogue state tracking performance gap without needing expensive domain-specific speech collection.
 
@@ -65,6 +68,12 @@ Speech and ML engineers building end-to-end spoken dialogue agents should read t
 ## Applications
 
 Task-oriented dialogue systems, voice assistants, and spoken dialogue state tracking for automotive, smart home, and customer service applications.
+
+## Institutions / 機構
+
+Brno University of Technology
+
+**Funding / 經費:** PRINS, European Union, Horizon Europe, MoE
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: thahmid26_interspeech
-category: self-supervised
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/thahmid26_interspeech.pdf
 *Munim Thahmid, Sadia Sharmin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/thahmid26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/thahmid26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2199)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates where Bengali phone-like units become linearly separable across Whisper's encoder layers, revealing that while small and medium models peak in the mid-to-late layers, Whisper-large-v3 maintains a broad late-layer plateau with minimal degradation compared to self-supervised models like wav2vec2-XLSR.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Feature extraction selection for downstream spoken language processing tasks, acoustic model interpretability, and cross-lingual representation analysis.
+
+## Institutions / 機構
+
+Bangladesh University of Engineering and Technology
 
 ## Related
 

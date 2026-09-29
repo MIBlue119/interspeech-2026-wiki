@@ -1,6 +1,7 @@
 ---
 id: tran26_interspeech
-category: speech-anti-spoofing
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tran26_interspeech.pdf
 *Hoan My Tran, Xin Wang, Wanying Ge, Xuechen Liu, Junichi Yamagishi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tran26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tran26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-628)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper proposes fine-tuning the pre-trained Whisper ASR model for simultaneous text transcription and synthetic word detection via next-token prediction, using text tokens as boundary markers. On in-domain audiobook data, the fine-tuned Whisper achieves competitive detection performance compared to a dedicated ResNet-152 model while preserving low word error rates.
 
@@ -69,6 +72,12 @@ Speech and ML engineers looking to build resource-efficient multi-task speech mo
 ## Applications
 
 Real-time moderation of transcribed audio streams, forensic verification of spoken media, and defense against LLM-based speech editing attacks in conversational assistants.
+
+## Institutions / 機構
+
+Universite de Rennes, National Institute of Informatics
+
+**Funding / 經費:** JST, PRESTO, NII International Internship Program
 
 ## Related
 

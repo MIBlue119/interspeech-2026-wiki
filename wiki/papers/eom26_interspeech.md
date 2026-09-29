@@ -1,6 +1,7 @@
 ---
 id: eom26_interspeech
 category: tts
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/eom26_interspeech.pdf
 *SooHwan Eom, Hee Suk Yoon, Eunseop Yoon, Mark Hasegawa-Johnson, Chang D. Yoo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/eom26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/eom26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3190)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — RTFree-F5 replaces text-based reference conditioning in flow-matching text-to-speech with continuous self-supervised speech features, eliminating the need for reference transcripts and reducing Word Error Rate on dysarthric speech from 24.6% to 10.4%.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Accessibility communication tools for dysarthric speakers, accent-normalized speech translation, and robust zero-shot voice cloning.
+
+## Institutions / 機構
+
+Korea Advanced Institute of Science and Technology, University of Illinois Urbana-Champaign
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: kumar26e_interspeech
 category: tts
+labels: [low-resource, multilingual, efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kumar26e_interspeech.pdf
 *Tarun Kumar, Keshav Agarwal, Pawan Goyal, Laxmidhar Behera, Hema A. Murthy*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kumar26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kumar26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2050)
+
+**Category:** `tts` · **Labels:** `low-resource`, `multilingual`, `efficient-on-device`, `generative-model`
 
 **TL;DR** — A lightweight, non-autoregressive cross-lingual voice adaptation pipeline for Indic text-to-speech requires only a 10-second reference sample and achieves a 53× speedup over flow-matching baselines while reducing word error rates by 18% to 22%.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-resource personalized text-to-speech, cross-lingual voice cloning, on-device multilingual assistants, and expressive conversational speech generation.
+
+## Institutions / 機構
+
+Indian Institute of Technology Mandi, Indian Institute of Technology Madras, Indian Institute of Technology Kharagpur
+
+**Funding / 經費:** Ministry of Electronics and Information Technology
 
 ## Related
 

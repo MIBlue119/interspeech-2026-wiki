@@ -1,6 +1,7 @@
 ---
 id: ye26d_interspeech
-category: tts
+category: speech-coding
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ye26d_interspeech.pdf
 *Lingxuan Ye, Han Zhu, Liyong Guo, Zengwei Yao, Wei Kang, Fangjun Kuang, Zhifeng Han, Long Lin, Daniel Povey*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ye26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ye26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2941)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — ZipCodec is a single-stage speech tokenizer that replaces massive pretrained encoders with an ultra-lightweight 4.4M-parameter Zipformer encoder and a flow-matching decoder, achieving state-of-the-art reconstruction and zero-shot TTS performance.
 
@@ -67,6 +70,10 @@ Researchers building speech LLMs or zero-shot TTS systems should read this paper
 ## Applications
 
 Speech language modeling, zero-shot text-to-speech generation, and low-bitrate discrete audio tokenization for unified speech-text architectures.
+
+## Institutions / 機構
+
+Xiaomi
 
 ## Related
 

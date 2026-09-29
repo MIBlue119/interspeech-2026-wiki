@@ -1,6 +1,7 @@
 ---
 id: mylvaganam26b_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mylvaganam26b_interspeech.pdf
 *Pravina Mylvaganam, Eliathamby Ambikairajah, Ting Dang, Vidhyasaharan Sethu, Tünde Szalay*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mylvaganam26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mylvaganam26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1837)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates how multi-level language similarity—combining acoustic embeddings and linguistic features—can optimize source language selection for cross-lingual ASR transfer to Warlpiri, an extremely low-resource Australian Aboriginal language. By fine-tuning Whisper using Assamese as a source language, the authors achieve a headline reduction to 32.6% Word Error Rate (WER), outperforming standard multilingual baselines.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual automatic speech recognition for endangered, Indigenous, and extremely low-resource languages.
+
+## Institutions / 機構
+
+University of New South Wales, University of Melbourne, University of Sydney
+
+**Funding / 經費:** University of New South Wales
 
 ## Related
 

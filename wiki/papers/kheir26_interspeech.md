@@ -1,6 +1,7 @@
 ---
 id: kheir26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kheir26_interspeech.pdf
 *Yassine El Kheir, Arnab Das, Yixuan Xiao, Xin Wang, Feidi Kallel, Enes Erdem Erdogan, Ngoc Thang Vu, Tim Polzehl, Sebastian Möller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kheir26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kheir26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1366)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — DeepFense is an open-source PyTorch toolkit for speech deepfake detection that unifies over 100 recipes and 400 pre-trained models. A large-scale evaluation of 96 systems across 13 datasets reveals that self-supervised front-end selection and training data composition dominate performance variance and fairness gaps.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-world voice biometric security, synthetic speech moderation in communication platforms, and trustworthy verification systems across telephony and media streaming.
+
+## Institutions / 機構
+
+German Research Center for Artificial Intelligence, University of Stuttgart, National Institute of Informatics, Technical University of Berlin
+
+**Funding / 經費:** Federal Ministry of Research, Technology and Space, Investitionsbank Berlin, JST PRESTO
 
 ## Related
 

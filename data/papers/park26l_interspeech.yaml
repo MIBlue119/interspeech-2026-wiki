@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/park26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26l_interspeech.pdf
 session: Self-supervised Speech Representation Learning
 topics: [speech-emotion-recognition, self-supervised, paralinguistics]
+category: paralinguistics-emotion
+labels:
+  - "self-supervised"
+institutions:
+  - "Hanyang University"
+  - "Pusan National University"
 code:
     url: ""
     license: ""

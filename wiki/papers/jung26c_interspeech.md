@@ -1,6 +1,7 @@
 ---
 id: jung26c_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jung26c_interspeech.pdf
 *Jinwoo Jung, Gihun Son, Won-Gook Choi, Joon-Hyuk Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jung26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jung26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3044)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — EMKR is an instruction-driven latent diffusion framework built on Stable Audio Open that enables precise time-localized audio editing (adding, removing, replacing, moving, extending) in polyphonic mixtures with 100 ms precision. It achieves a clip-level Fréchet Audio Distance of 3.05 and an F1 segment score of 65.3 at a 0.1 s resolution, outperforming prior instruction-based audio editors.
 
@@ -67,6 +70,12 @@ Speech and ML researchers focusing on generative audio editing should read this 
 ## Applications
 
 Automated post-production of film and podcast soundtracks, time-synchronized sound effect insertion, and precise audio cleanup or object rearrangement in complex acoustic environments.
+
+## Institutions / 機構
+
+Hanyang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

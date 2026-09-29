@@ -1,6 +1,7 @@
 ---
 id: he26f_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/he26f_interspeech.pdf
 *Miao He, Peng Cheng, Zhongjie Ba, Qing Wen, Li Lu, Xin Yang, Kui Ren*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/he26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/he26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1766)
+
+**Category:** `deepfake-security` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — This paper introduces a task-aware joint pruning and distillation framework to compress large self-supervised speech models for on-device deepfake detection, achieving a 10x parameter reduction (31.9M) with only a 1.30% average performance drop.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device audio deepfake detection, real-time voice cloning countermeasures for mobile operating systems, secure telephony fraud prevention, and edge-based speaker verification guardrails.
+
+## Institutions / 機構
+
+Zhejiang University, Hangzhou High-Tech Zone (Binjiang) Institute of Blockchain and Data Security, Shanghai Institute for Advanced Study, China University of Petroleum (East China)
+
+**Funding / 經費:** Shanghai Municipal Special Program for Basic Research on General AI Foundation Models, National Natural Science Foundation of China, Zhejiang Provincial Natural Science Foundation of China
 
 ## Related
 

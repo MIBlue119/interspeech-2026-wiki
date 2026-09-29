@@ -1,6 +1,7 @@
 ---
 id: park26j_interspeech
-category: asr
+category: audio-understanding
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26j_interspeech.pdf
 *Minhee Park, Hyowon Ahn, Chanwoo Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3273)
+
+**Category:** `audio-understanding` · **Labels:** `efficient-on-device`
 
 **TL;DR** — SpecAugment-Patch Merging reformulates SpecAugment mask regions into token-reduction candidates for Audio Spectrogram Transformers, increasing training throughput by up to 13.9% with negligible accuracy change. It provides a simple token-dropping and merging strategy that bypasses the need for auxiliary similarity modules.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Efficient on-device or cloud-scale acoustic event classification, environmental sound recognition, and keyword spotting.
+
+## Institutions / 機構
+
+Korea University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, National Research Foundation of Korea, Technology Development Program, Supreme Prosecutor's Office Research Grant
 
 ## Related
 

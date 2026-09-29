@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lan26_interspeech.pdf
 session: Audio Understanding and Representation Learning
 topics: [speaker-diarization, paralinguistics, speech-enhancement]
+category: paralinguistics-emotion
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Shanghai Jiao Tong University"
+  - "VUI Labs"
+funding:
+  - "China NSFC"
+  - "SJTU Med-X (Medicine & Engineering) Translational Research Grant"
 code:
     url: https://github.com/originallover/SA-UAED
     license: ""

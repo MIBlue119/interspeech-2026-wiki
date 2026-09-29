@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yokota26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/yokota26_interspeech.pdf
 session: Modeling Articulation
 topics: [speech-production, self-supervised, tts]
+category: phonetics-linguistics
+institutions:
+  - "Nagaoka University of Technology"
+  - "McGill University"
+  - "University of British Columbia"
+funding:
+  - "JSPS KAKENHI"
+  - "JSPS Program for Forming Japan's Peak Research Universities"
+  - "Ono Charitable Trust for Acoustics"
 code:
     url: ""
     license: ""

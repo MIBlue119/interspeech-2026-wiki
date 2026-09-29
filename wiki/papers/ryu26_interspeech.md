@@ -1,6 +1,6 @@
 ---
 id: ryu26_interspeech
-category: speech-llm
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ryu26_interspeech.pdf
 *Jiyeon Ryu, SeongHun Noh, Jin-Hyuk Hong, Woojin Kang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ryu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ryu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1399)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper demonstrates that multimodal emotion recognition is a dynamic process where modality importance changes over time, proposing an emotion-query gating mechanism that outperforms static fusion and heavy Transformers while using a fraction of the parameters.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Customer service analytics, mental health monitoring platforms, and emotionally intelligent conversational agents.
+
+## Institutions / 機構
+
+Gwangju Institute of Science and Technology
+
+**Funding / 經費:** Ministry of Trade, Industry and Energy, Korea Institute for Advancement of Technology, Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: kuzmenko26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kuzmenko26_interspeech.pdf
 *Andrei Kuzmenko, Alexandr Maximenko, Aleksandr Kutsakov, Georgii Gospodinov, Dmitrii Bolotov, Oleg Kutuzov, Pavel Bogomolov, Fyodor Minkin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kuzmenko26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kuzmenko26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2483)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — GigaAM Multilingual is a 600M-parameter Conformer ASR encoder pretrained on 2 million hours of audio, featuring cluster-level pretraining balancing and domain-aware fine-tuning sampling to drastically improve low-resource speech recognition. It outperforms much larger models like Whisper Large v3 and Omnilingual-1B on Central Asian languages (Kazakh, Kyrgyz, Uzbek).
 
@@ -67,6 +70,10 @@ Researchers and engineers tackling low-resource speech recognition will find a r
 ## Applications
 
 Automated speech recognition and voice-driven applications for underrepresented Central Asian languages, including transcription of spontaneous speech and development of localized voice interfaces.
+
+## Institutions / 機構
+
+SaluteDevices
 
 ## Related
 

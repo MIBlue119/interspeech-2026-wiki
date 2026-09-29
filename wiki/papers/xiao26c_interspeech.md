@@ -1,6 +1,7 @@
 ---
 id: xiao26c_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xiao26c_interspeech.pdf
 *Yixuan Xiao, Cheng-Wei Lin, Xin Wang, Yassine El Kheir, Arnab Das, Tim Polzehl, Sebastian Möller, Ngoc Thang Vu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xiao26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xiao26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3210)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — The paper introduces Evidence Subspace Projection (ESP), a method that maps SSL model neuron activations and classification decisions into a shared space to quantify how much specific metadata and signal-level factors explain audio deepfake detection. The analysis reveals that while fine-tuning reduces within-spoof biases and diverse training data decorrelates signal-level artifacts, shortcuts like leading/trailing silence remain persistently embedded in the decision axis.
 
@@ -63,6 +66,10 @@ Speech researchers and security engineers working on deepfake detection should r
 ## Applications
 
 Auditing audio deepfake detectors for generalization failure, guiding robust architecture and dataset design to eliminate shortcut learning, and interpreting black-box SSL front-ends in security-critical speech applications.
+
+## Institutions / 機構
+
+University of Stuttgart, National Institute of Informatics, German Research Center for Artificial Intelligence, Technical University of Berlin
 
 ## Related
 

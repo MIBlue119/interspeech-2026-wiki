@@ -1,6 +1,6 @@
 ---
 id: xuan26_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xuan26_interspeech.pdf
 *Xi Xuan, Wenxin Zhang, Zhiyu Li, Jennifer Williams, Ville Hautamäki, Tomi H. Kinnunen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xuan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xuan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-36)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper investigates speaker entanglement in speech deepfake source verification and introduces a speaker-disentangled metric learning (SDML) framework using Chebyshev polynomials and Riemannian geometry to learn robust, speaker-invariant source embeddings, reducing average equal error rate (EER) from 5.19% down to 4.13% on the MLAAD benchmark.
 
@@ -66,6 +68,12 @@ Read this paper if you work on speech deepfake attribution, source tracing, or m
 ## Applications
 
 Forensic audio analysis, speech deepfake source tracing, automated speaker-agnostic attribution of synthetic speech generators.
+
+## Institutions / 機構
+
+University of Eastern Finland, University of Illinois Urbana-Champaign, University of Southampton, University of Chinese Academy of Sciences, University of Science and Technology of China
+
+**Funding / 經費:** Finnish AI-DOC project, Research Council of Finland
 
 ## Related
 

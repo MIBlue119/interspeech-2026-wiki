@@ -1,6 +1,7 @@
 ---
 id: ahn26b_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ahn26b_interspeech.pdf
 *Hoseong Ahn, Jeongyun Chae, Yoonji Park, Kyuhong Shim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ahn26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ahn26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3058)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — Whisper-CD is a training-free contrastive decoding framework for long-form speech recognition that contrasts clean-audio logits against multi-negative perturbations to suppress hallucinations, reducing Word Error Rate by up to 24.3 percentage points on CORAAL.
 
@@ -64,6 +67,12 @@ Researchers and practitioners deploying large encoder-decoder ASR models like Wh
 ## Applications
 
 Robust long-form transcription systems, offline meeting transcription, lecture captioning, and archive speech processing where audio contains prolonged silences or background noise.
+
+## Institutions / 機構
+
+Sungkyunkwan University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT
 
 ## Related
 

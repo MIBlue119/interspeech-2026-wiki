@@ -1,6 +1,6 @@
 ---
 id: drimalla26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/drimalla26_interspeech.pdf
 *Hanna Drimalla, Wieland R. Cremer, Christine Kraus, Oliver T. Wolf*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/drimalla26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/drimalla26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-671)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper investigates automatic stress detection and the prediction of physiological/affective stress responses from speech using a controlled between-participant Trier Social Stress Test (TSST) and friendly-TSST (f-TSST) dataset, achieving 82% classification accuracy with XGBoost. It demonstrates that acoustic-prosodic features can reliably distinguish stressed speech and predict cortisol reactivity and negative affect changes.
 
@@ -66,6 +68,12 @@ Researchers and engineers building speech-based affective computing systems will
 ## Applications
 
 Unobtrusive digital biomarker screening for psychological stress in clinical assessments, remote behavioral monitoring, and workplace wellness applications.
+
+## Institutions / 機構
+
+Bielefeld University, Ruhr University Bochum
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

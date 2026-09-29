@@ -1,6 +1,7 @@
 ---
 id: bauer26_interspeech
 category: asr
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bauer26_interspeech.pdf
 *Stephen Bauer, Sheila Seidel, Shanza Iftikhar, Scott Veidenheimer, Gorkem Ulkar*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bauer26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bauer26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2523)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — kiloVAD is an ultra-compact, convolutional-only voice activity detection model designed for edge deployment that achieves 0.850 AUC on AVA-Speech with just 2.1k parameters and a 200 ms causal context.
 
@@ -67,6 +70,10 @@ Speech and embedded ML engineers building always-on edge devices should read thi
 ## Applications
 
 Always-on smart speakers, wearables, hearables, and battery-powered IoT devices requiring low-latency, low-power frontend voice activity triggers.
+
+## Institutions / 機構
+
+Analog Devices, University of California, Los Angeles
 
 ## Related
 

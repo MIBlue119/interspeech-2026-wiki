@@ -1,6 +1,7 @@
 ---
 id: aghniya26_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/aghniya26_interspeech.pdf
 *Ghaida Fathin Aghniya, Dyah A. M. G. Wisnu, Stefano Rini, Yu Tsao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/aghniya26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/aghniya26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1842)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — We introduce GRATS, the first naturally recorded parallel multi-speed Mandarin speech dataset consisting of 25 speakers across five speaking rates (0.5x to 1.5x) to benchmark speech time-scale modification (STSM). Benchmarks reveal that extreme rates degrade temporal rhythm and pitch-timing coordination, which cannot be captured by artificial time-scaling references.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech playback control, computer-assisted language learning (CALL) for Mandarin, hearing assistance devices, and robust data augmentation for speech processing models.
+
+## Institutions / 機構
+
+National Yang Ming Chiao Tung University, Academia Sinica
+
+**Funding / 經費:** Bio-ASP Lab at Academia Sinica, National Science and Technology Council
 
 ## Related
 

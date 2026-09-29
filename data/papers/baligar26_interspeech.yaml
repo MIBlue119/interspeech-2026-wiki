@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/baligar26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/baligar26_interspeech.pdf
 session: Multimodal and Non-Speech Healthcare Applications
 topics: [paralinguistics, speech-enhancement, evaluation]
+category: health-clinical
+institutions:
+  - "Massachusetts General Hospital"
+funding:
+  - "Voice Health Institute"
+  - "National Institutes of Health"
 code:
     url: ""
     license: ""

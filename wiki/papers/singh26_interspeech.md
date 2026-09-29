@@ -1,6 +1,7 @@
 ---
 id: singh26_interspeech
 category: asr
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/singh26_interspeech.pdf
 *Satwinder Singh, Qianli Wang, Zihan Zhong, Clarion Mendes, Mark Hasegawa-Johnson, Waleed Abdulla, Seyed Reza Shahamiri*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/singh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/singh26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1501)
+
+**Category:** `asr` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — Zero-shot voice cloning using Higgs Audio V2 from a single reference utterance per speaker successfully generates synthetic training data for dysarthric ASR, reducing Word Error Rate from 31.62% to 26.00% on the TORGO dataset.
 
@@ -63,6 +66,10 @@ Speech and ML researchers building inclusive ASR systems for pathological speech
 ## Applications
 
 Personalized and robust automatic speech recognition systems for individuals with motor speech impairments, neurological conditions, and dysarthria.
+
+## Institutions / 機構
+
+DeepNet Discovery Network, University of Auckland, University of Illinois Urbana-Champaign
 
 ## Related
 

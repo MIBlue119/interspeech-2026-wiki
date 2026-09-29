@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/pandey26b_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/pandey26b_interspeech.pdf
 session: Multilingual Speech 2
 topics: [speech-recognition, low-resource, multilingual]
+category: asr
+labels:
+  - "multilingual"
+institutions:
+  - "Karya"
+  - "Heinrich Heine University Düsseldorf"
+  - "University of Florida"
 code:
     url: https://github.com/Ayushi113/mfa-hindi-code-mixed
     license: ""

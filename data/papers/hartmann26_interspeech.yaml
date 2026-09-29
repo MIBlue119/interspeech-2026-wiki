@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hartmann26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/hartmann26_interspeech.pdf
 session: Assistive Technologies 2
 topics: [speech-enhancement, self-supervised, health]
+category: health-clinical
+labels:
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "Ruhr University Bochum"
+  - "McMaster University"
 code:
     url: ""
     license: ""

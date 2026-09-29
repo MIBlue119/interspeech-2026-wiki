@@ -1,6 +1,7 @@
 ---
 id: bouziane26_interspeech
-category: self-supervised
+category: speaker
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bouziane26_interspeech.pdf
 *Maryem Bouziane, Salima Mdhaffar, Yannick Estève*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bouziane26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bouziane26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3350)
+
+**Category:** `speaker` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper proposes a unified post-training framework that allows a single speech foundation model to simultaneously generate multiple utterance-level attribute representations (such as semantics and speaker identity) using task-specific projection branches. The multi-task model achieves strong performance nearly matching single-task specialists, recording an Equal Error Rate of 0.91% on VoxCeleb1-O speaker verification while retaining high multilingual retrieval R@1 scores.
 
@@ -67,6 +70,10 @@ Speech and ML researchers building unified multi-task audio backbones should rea
 ## Applications
 
 Multimodal cross-lingual conversational agents, multilingual speech translation search, and voice-biometric enabled speech retrieval systems.
+
+## Institutions / 機構
+
+Avignon Universite
 
 ## Related
 

@@ -16,6 +16,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sun26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sun26j_interspeech.pdf
 session: Spoken Language Understanding
 topics: [speech-llm, speaker-diarization, spoken-language-understanding]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Northwestern Polytechnical University"
+  - "Nanjing University"
+  - "Shenzhen Loop Area Institute"
+  - "Li Auto"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

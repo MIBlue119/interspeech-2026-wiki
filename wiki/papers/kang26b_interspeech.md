@@ -1,6 +1,7 @@
 ---
 id: kang26b_interspeech
-category: source-separation
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kang26b_interspeech.pdf
 *Yaozhong Kang, Jiang Wang, Runwu Shi, Takeshi Ashizawa, Benjamin Yen, Kazuhiro Nakadai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3246)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — A probing study across MLP, CNN, and Transformer architectures reveals that neural networks for TDOA estimation learn cross-power computation but consistently bypass PHAT whitening, adopting a magnitude-aware frequency weighting instead that makes PHAT an information bottleneck. Removing PHAT from classical and neural GCC pipelines improves additive noise performance by up to 52%, while end-to-end models achieve lower error on reverberant real-world data.
 
@@ -64,6 +67,10 @@ Speech and ML engineers building sound source localization or acoustic front-end
 ## Applications
 
 Sound source localization for hearing aids, smart speakers, meeting transcription systems, and mobile robotics platforms.
+
+## Institutions / 機構
+
+Institute of Science Tokyo
 
 ## Related
 

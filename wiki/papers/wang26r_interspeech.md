@@ -1,6 +1,6 @@
 ---
 id: wang26r_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26r_interspeech.pdf
 *Yike Wang, Kaile Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26r_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26r_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1018)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — An fMRI study investigating how the human brain processes different speaker identity traits reveals a "core-plus-extension" neural model, where a shared auditory core in the superior temporal cortex handles basic acoustic extraction while distinct cortical regions manage trait-specific demands (gender, age, accent). Accent processing proved most cognitively demanding, eliciting significantly stronger bilateral STG/STS activation and recruiting widespread frontal networks compared to gender and age.
 
@@ -60,6 +62,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multi-task speech representation learning, neural speaker adaptation in automatic speech recognition (ASR), and context-aware text-to-speech (TTS) synthesis.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

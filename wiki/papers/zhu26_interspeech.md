@@ -1,6 +1,7 @@
 ---
 id: zhu26_interspeech
 category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhu26_interspeech.pdf
 *Huifeng Zhu, Bingqian Wang, Shaoxun Xiu, Xingqun Jiang, Bin Lv*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-230)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — The paper introduces a content-aware dynamic acoustic mapping method using Continuous Integrate-and-Fire (CIF) to replace fixed-rate downsampling in speech-enabled LLMs, achieving 12-26% relative error reduction and over 45% sequence length reduction.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Efficient speech recognition, real-time on-device speech transcription, and multi-modal speech-language models.
+
+## Institutions / 機構
+
+BOE Technology Group
 
 ## Related
 

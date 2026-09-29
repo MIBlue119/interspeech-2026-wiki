@@ -1,6 +1,6 @@
 ---
 id: zhang26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26b_interspeech.pdf
 *Yuxin Zhang, Daijiao Liu, Haoyang Zhang, Xiangyu Zhang, Yuxin Li, Fei Tian, Yayue Deng, Donghang Wu, Jun Chen, Liang Zhao, Chengyuan Yao, Gaolei Li, Quanhai Zhang, Qiquan Zhang, Hexin Liu, Eng Siong Chng, Xuerui Yang, Xiangyu Zhang, Daxin Jiang, Gang Yu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-256)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — Step-Audio-R1 introduces Modality-Grounded Reasoning Distillation (MGRD) to solve the inverted reasoning scaling problem in audio LLMs, achieving an average score of 83.6% on speech-to-text benchmarks that outperforms Gemini 2.5 Pro.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time conversational speech assistants, complex acoustic scene analysis, and multi-modal dialogue systems requiring deep audio reasoning.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, University of New South Wales, Nanyang Technological University, StepFun
 
 ## Related
 

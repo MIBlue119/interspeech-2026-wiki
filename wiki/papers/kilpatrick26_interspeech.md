@@ -1,6 +1,6 @@
 ---
 id: kilpatrick26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kilpatrick26_interspeech.pdf
 *Alexander Kilpatrick, Rikke Bundgaard-Nielsen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kilpatrick26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kilpatrick26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1551)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates the developmental dissociation between word iconicity and phonological surprisal in predicting age of acquisition (AoA) versus adult processing outcomes. Using regression and XGBoost models, it demonstrates that iconicity robustly predicts earlier word acquisition, whereas information-theoretic surprisal measures strongly drive adult psycholinguistic processing efficiency.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving computational models of language acquisition, vocabulary growth simulation, cognitive modeling of psycholinguistic processing, and text-to-speech or lexical generation systems that factor in human-like processing efficiency.
+
+## Institutions / 機構
+
+University of Aizu, University of Melbourne
 
 ## Related
 

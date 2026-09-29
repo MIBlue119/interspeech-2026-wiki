@@ -15,6 +15,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/anand26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/anand26_interspeech.pdf
 session: Paralinguistics
 topics: [paralinguistics, speech-llm, self-supervised]
+category: paralinguistics-emotion
+labels:
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Adobe Research"
+  - "University of Maryland, College Park"
+  - "OpenAI"
 code:
     url: https://nishitanand.github.io/paralinguistic-understanding-llm
     license: ""

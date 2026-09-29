@@ -1,6 +1,7 @@
 ---
 id: chen26z_interspeech
 category: tts
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26z_interspeech.pdf
 *Ziqi Chen, Gongyu Chen, Yihua Wang, Zihao Chen, Wei-Qiang Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26z_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26z_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2447)
+
+**Category:** `tts` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — DiaMoE-TTS is a unified, low-resource dialect text-to-speech framework built on F5-TTS that utilizes a shared IPA front-end, a dialect-aware Mixture-of-Experts text encoder, parameter-efficient fine-tuning, and Flow-GRPO reinforcement learning. It enables high-quality speech generation across diverse Chinese dialects using only 1.1k hours of total training data.
 
@@ -67,6 +70,10 @@ Speech researchers and engineers working on low-resource and multi-dialect TTS w
 ## Applications
 
 Regional language preservation, localized voice assistants, cultural heritage speech synthesis (e.g., regional opera generation), and low-resource multilingual conversational interfaces.
+
+## Institutions / 機構
+
+Tsinghua University, Giant Network
 
 ## Related
 

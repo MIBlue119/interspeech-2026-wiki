@@ -1,6 +1,7 @@
 ---
 id: bharadwaj26_interspeech
 category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bharadwaj26_interspeech.pdf
 *Shikhar Bharadwaj, Chin-Jou Li, Kwanghee Choi, Eunjung Yeo, William Chen, Shinji Watanabe, David R. Mortensen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bharadwaj26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bharadwaj26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1462)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — PhoneticXEUS is a state-of-the-art universal phone recognition system that combines massively multilingual speech SSL (XEUS) with self-conditioned CTC training on 17k hours of data, achieving 17.7% PFER on multilingual sets and 10.6% on accented English.
 
@@ -68,6 +71,10 @@ Speech researchers and engineers building multilingual speech processing pipelin
 ## Applications
 
 Cross-lingual transfer for zero text-resource languages, computer-assisted language learning (CALL), atypical speech assessment, and linguistic fieldwork transcription.
+
+## Institutions / 機構
+
+Carnegie Mellon University, University of Texas at Austin
 
 ## Related
 

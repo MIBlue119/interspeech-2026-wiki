@@ -9,6 +9,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/banerjee26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/banerjee26_interspeech.pdf
 session: Information Extraction and Retrieval / Survey Talk
 topics: [speech-tokenization, audio-retrieval, spoken-language-understanding]
+category: asr
+institutions:
+  - "Indian Institute of Technology Kanpur"
+  - "KU Leuven"
 code:
     url: https://github.com/adhiraj69/wav2tok2
     license: ""

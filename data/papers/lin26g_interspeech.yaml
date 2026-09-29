@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lin26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lin26g_interspeech.pdf
 session: Reasoning with Speech/Audio Language Models
 topics: [speech-llm, self-supervised, evaluation]
+category: speech-llm-dialogue
+institutions:
+  - "National Taiwan University"
+  - "ASUS"
+funding:
+  - "Ministry of Education"
+  - "Taiwan Centers of Excellence in Artificial Intelligence"
+  - "NTU Artificial Intelligence Center of Research Excellence"
 code:
     url: ""
     license: ""

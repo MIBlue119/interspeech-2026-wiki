@@ -1,6 +1,6 @@
 ---
 id: li26la_interspeech
-category: speaker-diarization
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26la_interspeech.pdf
 *Li Li, Ming Cheng, Juan Liu, Ming Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26la_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26la_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3473)
+
+**Category:** `speaker`
 
 **TL;DR** — The paper introduces SA-S2SND, a spatially-augmented sequence-to-sequence neural diarization framework that injects direction-of-arrival (DOA) estimates into an S2SND backbone, achieving a 7.4% relative DER reduction in offline mode on the AliMeeting dataset.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated meeting transcription pipelines, multi-speaker conversational analytics, and real-time speech conferencing systems.
+
+## Institutions / 機構
+
+Wuhan University, Chinese University of Hong Kong, Shenzhen
+
+**Funding / 經費:** National Natural Science Foundation of China, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

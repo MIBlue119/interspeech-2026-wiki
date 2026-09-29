@@ -1,6 +1,7 @@
 ---
 id: zheng26_interspeech
 category: speech-coding
+labels: [multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zheng26_interspeech.pdf
 *Rui-Chen Zheng, Nicholas Sanders, Jinzuomu Zhong, Yang Ai, Zhen-Hua Ling, Korin Richmond*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zheng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zheng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-806)
+
+**Category:** `speech-coding` · **Labels:** `multilingual`, `generative-model`
 
 **TL;DR** — CycleCodec is a distillation-free, factorized neural speech codec trained from scratch that uses cycle-consistent speaker swapping to eliminate the need for pretrained teacher models, outperforming distillation-free baselines across in-domain and unseen languages.
 
@@ -67,6 +70,12 @@ Speech researchers and audio engineers working on low-resource speech generation
 ## Applications
 
 Cross-lingual and zero-shot voice conversion, controllable speech synthesis, and discrete tokenization for low-resource speech language models.
+
+## Institutions / 機構
+
+University of Science and Technology of China, University of Edinburgh
+
+**Funding / 經費:** National Natural Science Foundation of China, Speech Generation for Indigenous Language Education project
 
 ## Related
 

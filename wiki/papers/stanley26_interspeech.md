@@ -1,6 +1,6 @@
 ---
 id: stanley26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/stanley26_interspeech.pdf
 *Keerthana Stanley, Jun Wang, Paul Ferrari*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/stanley26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/stanley26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2995)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study uses magnetoencephalography (MEG) on five healthy adults to investigate post-movement beta rebound (PMBR) during natural speech production, finding that phrases with higher articulatory complexity elicit a stronger PMBR with dominant-hemisphere lateralization. The results provide preliminary evidence that PMBR can index speech motor control and support future speech-BCI development.
 
@@ -56,6 +58,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of non-invasive speech brain-computer interfaces (BCIs), pre-surgical motor cortex mapping, and clinical diagnosis of neurodegenerative motor speech disorders such as ALS.
+
+## Institutions / 機構
+
+University of Texas at Austin, Helen DeVos Children's Hospital, Corewell Health, Michigan State University
+
+**Funding / 經費:** University of Texas System Brain Initiative, National Institutes of Health
 
 ## Related
 

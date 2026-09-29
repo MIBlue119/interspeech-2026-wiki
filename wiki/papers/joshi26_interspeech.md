@@ -1,6 +1,7 @@
 ---
 id: joshi26_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/joshi26_interspeech.pdf
 *Sakshi Joshi, Dhruv Subhash Rathi, Sanskar Singh, Eldho Ittan George, R J Hari, Kaushal Bhogale, Mitesh M Khapra*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/joshi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/joshi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3272)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — IndicContextEval is a 56-hour multilingual benchmark with a 7-level prompting framework (L0-L6) for evaluating contextual grounding in AudioLLMs across 8 Indian languages and 23 professional domains. Evaluating five models reveals that native-script entity prompts yield the strongest gains (Gemini 3 Flash achieving 17.39% NEER), while models diverge significantly in adversarial robustness and context utilization.
 
@@ -68,6 +71,12 @@ Speech and ML researchers building context-aware AudioLLMs should read this pape
 ## Applications
 
 Multi-domain automated meeting transcription, medical dictation systems, and voice assistants requiring contextual domain biasing for low-resource Indic languages.
+
+## Institutions / 機構
+
+Indian Institute of Technology Madras, Sarvam AI
+
+**Funding / 經費:** EkStep Foundation, Nilekani Philanthropies
 
 ## Related
 

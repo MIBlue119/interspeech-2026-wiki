@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sohn26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sohn26_interspeech.pdf
 session: Audio Coding and Signal Analysis
 topics: [speech-coding, self-supervised, low-resource]
+category: speech-coding
+institutions:
+  - "KAIST"
+funding:
+  - "National Research Foundation of Korea"
 code:
     url: https://github.com/hoyso48/DTM-Codec
     license: ""

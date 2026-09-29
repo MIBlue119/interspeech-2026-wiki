@@ -1,6 +1,7 @@
 ---
 id: wang26ga_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26ga_interspeech.pdf
 *Jiaqi Wang, Guanghua Xu, Hongjie Zhou, Shuwen Bai, Sicong Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26ga_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26ga_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3043)
+
+**Category:** `health-clinical` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — A parameter-efficient adaptation framework for WavLM that uses a clinically-supervised, hierarchical LoRA-MoE architecture to assess dysarthria severity, achieving an F1 score of 61.55% on 5-class classification and 94.54% on binary detection on the UA-Speech corpus.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical dysarthria severity assessment, speech therapy progress tracking, and robust speech recognition front-ends for atypical speakers.
+
+## Institutions / 機構
+
+Xi'an Jiaotong University
+
+**Funding / 經費:** Scientific and Technological Innovation 2030 Major Project, Key Research and Development Program of Shaanxi Province
 
 ## Related
 

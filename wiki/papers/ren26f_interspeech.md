@@ -1,6 +1,6 @@
 ---
 id: ren26f_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ren26f_interspeech.pdf
 *Jinyang Ren, Bingliang Zhao, Jiangping Kong, Xiyu Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ren26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ren26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1807)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates Kaxi, a Chinese folk art where a reed serves as the sound source and hand movements act as an external resonator, demonstrating through kinematic, acoustic, and perceptual analyses that hands can effectively articulate intelligible vowels with an average listener identification accuracy of 83.7%.
 
@@ -61,6 +63,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Non-invasive clinical speech rehabilitation tools for patients with severe vocal tract impairments such as glossectomy or cleft palate.
+
+## Institutions / 機構
+
+Peking University
+
+**Funding / 經費:** National Social Science Foundation of China
 
 ## Related
 

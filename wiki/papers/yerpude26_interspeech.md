@@ -1,6 +1,6 @@
 ---
 id: yerpude26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yerpude26_interspeech.pdf
 *Kiran Yerpude, Seung Gyu Jeong, Seong-Eun Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yerpude26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yerpude26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2355)
+
+**Category:** `health-clinical`
 
 **TL;DR** — A dual-branch stacking architecture combining a subject-level CatBoost model on day-aggregated distributional statistics and a deep multiple-instance learning (MIL) model with gated attention pooling achieves official test AUCs of 0.891 for PVH and 0.861 for NPVH on the NeckVibe Challenge 2026.
 
@@ -68,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated ambulatory health monitoring systems for early detection and continuous tracking of vocal hyperfunction disorders.
+
+## Institutions / 機構
+
+Seoul National University of Science and Technology, Medisensing
+
+**Funding / 經費:** National Research Foundation of Korea, AI Seoul Tech Research Support Program, Seoul Future Foundation
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: zhu26c_interspeech
 category: asr
+labels: [multilingual, efficient-on-device, self-supervised, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhu26c_interspeech.pdf
 *Hongxu Zhu, Lahiru Samarakoon, Ivan Fung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhu26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhu26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2455)
+
+**Category:** `asr` · **Labels:** `multilingual`, `efficient-on-device`, `self-supervised`, `streaming-real-time`
 
 **TL;DR** — The paper introduces token-independent language representations for configurable multilingual automatic speech recognition, decoupling language identity from the autoregressive decoder to eliminate per-token inference overhead. This achieves accuracy parity with original mixture-of-experts/LSM designs while reducing peak inference latency by over 90% for long utterances.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device and cloud-based multilingual speech recognition systems requiring low-latency configurable language subset selection.
+
+## Institutions / 機構
+
+Fano
 
 ## Related
 

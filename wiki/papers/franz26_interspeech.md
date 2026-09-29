@@ -1,6 +1,7 @@
 ---
 id: franz26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/franz26_interspeech.pdf
 *Sven Franz, Tanja Grewe, Bernd T. Meyer, Jörg Bitzer*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/franz26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/franz26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2608)
+
+**Category:** `health-clinical` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — This paper investigates whether blind unsupervised diffusion-based dereverberation (BUDDy) can make objective voice quality assessment (via Smoothed Cepstral Peak Prominence, CPPS) room-independent for speech and language therapy. Using 35 real-room impulse responses across two voice databases, the authors demonstrate that dereverberation successfully restores CPPS levels and voice quality rankings for continuous speech, while sustained vowels show much weaker recovery due to their stationarity and out-of-domain training.
 
@@ -65,6 +68,12 @@ Speech and ML engineers building clinical voice-assessment tools will take away 
 ## Applications
 
 Automated remote voice disorder screening, continuous speech-based vocal pathology monitoring during speech therapy sessions, and robust clinical speech telemetry.
+
+## Institutions / 機構
+
+Jade University of Applied Sciences, Carl von Ossietzky Universitat Oldenburg
+
+**Funding / 經費:** Lower Saxony Ministry for Science and Culture, Volkswagen Foundation, Deutsche Forschungsgemeinschaft
 
 ## Related
 

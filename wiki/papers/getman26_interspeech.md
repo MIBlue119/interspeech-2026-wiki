@@ -1,6 +1,7 @@
 ---
 id: getman26_interspeech
-category: self-supervised
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/getman26_interspeech.pdf
 *Yaroslav Getman, Tamás Grósz, Tommi Lehtonen, Mikko Kurimo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/getman26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/getman26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-50)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — A controlled study on unconstrained Finnish broadcast audio compares four self-supervised pretraining data filtering pipelines, revealing that neural VAD with language identification cuts downstream ASR word error rates by up to 12.7% absolute while dropping general audio classification accuracy by up to 9 percentage points.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building robust monolingual speech recognition systems from unconstrained, noisy broadcast archives and audio corpora.
+
+## Institutions / 機構
+
+Aalto University, South East Technological University, Finnish Arts and Culture Agency
+
+**Funding / 經費:** Business Finland, Foundation for Aalto University Science and Technology
 
 ## Related
 

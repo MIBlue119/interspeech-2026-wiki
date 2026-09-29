@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kamath26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/kamath26_interspeech.pdf
 session: Spatial Audio 4
 topics: [spatial-audio, evaluation, self-supervised]
+category: resources-evaluation
+labels:
+  - "robustness-noise"
+institutions:
+  - "New York University"
+  - "Sony AI"
+  - "Sony Group Corporation"
+funding:
+  - "NYU / SONY Audio Institute for Music Business and Technology"
 code:
     url: https://github.com/pkamath2/sa_sensitivity
     license: ""

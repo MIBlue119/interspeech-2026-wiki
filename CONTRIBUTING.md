@@ -18,10 +18,11 @@ go run ./cmd/iswiki wiki <id>
 
 # 3. Write the summary sections in wiki/papers/<id>.md
 
-# 4. Validate + regenerate the README table and wiki index
+# 4. Validate + regenerate the README table and the indexes
 go run ./cmd/iswiki validate
 go run ./cmd/iswiki readme
 go run ./cmd/iswiki toc
+go run ./cmd/iswiki orgs
 ```
 
 Open a PR with those files. CI runs `validate` and checks the README table is regenerated.
@@ -37,6 +38,10 @@ doi: 10.21437/Interspeech.2026-1444
 isca_url: https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.pdf
 topics: [keyword-spotting, asr]    # kebab-case tags
+category: asr                      # one of 14 canonical categories (see cmd/iswiki/paper.go)
+labels: [multilingual]             # cross-cutting tags (low-resource, multilingual, on-device…)
+institutions: ["Priberam Labs"]    # authors' orgs, canonical English names
+funding: []                        # funding sponsors from the acknowledgments
 arxiv: ""                          # optional arXiv URL
 code:
   url: ""                          # GitHub/GitLab URL if the paper has open code

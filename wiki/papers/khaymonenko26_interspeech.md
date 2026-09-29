@@ -1,6 +1,7 @@
 ---
 id: khaymonenko26_interspeech
-category: keyword-spotting
+category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/khaymonenko26_interspeech.pdf
 *Viktor Khaymonenko, Dzmitry Saladukha, Aliaksei Rak, Alexander Rostov*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/khaymonenko26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/khaymonenko26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-987)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — This paper presents a modular neural network expansion method for embedded keyword spotting that adds new trigger words without requiring original training data or causing regressions on existing keywords, reducing average new-keyword false reject rate (FRR) from 6.46% to 4.37% compared to a separate-model baseline.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smartphones, IoT devices, wearables, and always-on voice-controlled embedded systems requiring safe, on-device vocabulary updates.
+
+## Institutions / 機構
+
+Yandex
 
 ## Related
 

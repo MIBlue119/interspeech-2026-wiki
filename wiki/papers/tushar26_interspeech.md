@@ -1,6 +1,7 @@
 ---
 id: tushar26_interspeech
-category: speech-enhancement
+category: deepfake-security
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tushar26_interspeech.pdf
 *Pranav Tushar, Xiaoxiao Miao, Rong Tong*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tushar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tushar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2191)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — This paper investigates child-centric voice anonymization by fine-tuning an SSL-based architecture (HuBERT encoder and HiFi-GAN vocoder) and a controlled child speaker pool on the MyST corpus, improving intelligibility and age preservation while achieving strong privacy protection (EER of 45.09% in-domain). It also extends the pipeline to multi-speaker mixtures using Conformer-based target speaker extraction, showing that privacy is stable across overlaps while downstream utility is bounded by extraction errors.
 
@@ -67,6 +70,12 @@ Speech and ML engineers building privacy-preserving pipelines for minors should 
 ## Applications
 
 Deploying privacy-preserving speech technologies in child-centered environments such as smart classrooms, educational software, pediatric telehealth, and automated speech-based developmental screening.
+
+## Institutions / 機構
+
+Singapore Institute of Technology, Duke Kunshan University
+
+**Funding / 經費:** Singapore Ministry of Education Academic Research Fund Tier 1
 
 ## Related
 

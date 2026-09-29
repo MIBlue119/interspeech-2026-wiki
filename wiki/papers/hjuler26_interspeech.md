@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hjuler26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hjuler26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hjuler26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-894)
 
+**Category:** `tts`
+
 **TL;DR** — This study evaluates how different linguistic registers in Text-to-Speech (TTS) input—ranging from conversational talkback radio transcripts to LLM-generated text and formal Wikipedia articles—affect listener effort and comprehension. The findings demonstrate that synthesized conversational transcripts impose over twice the mental effort and yield lower recall compared to written and LLM sources, while LLM-generated text performs as listenable as Wikipedia sources.
 
 ## Key contributions
@@ -61,6 +63,12 @@ Speech and ML engineers building conversational agents or text-to-speech pipelin
 ## Applications
 
 Optimizing text-generation pipelines for conversational virtual assistants, audiobook narration generators, and assistive text-to-speech technologies.
+
+## Institutions / 機構
+
+Queensland University of Technology, University Grenoble Alpes, CNRS, Grenoble INP
+
+**Funding / 經費:** Australian Research Council, European Union, Marie Skłodowska-Curie
 
 ## Related
 

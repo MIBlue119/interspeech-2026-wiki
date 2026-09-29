@@ -1,6 +1,7 @@
 ---
 id: kim26_interspeech
 category: tts
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26_interspeech.pdf
 *Jihwan Kim, Nam Soo Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-185)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — ZipL-Dialog shifts conditional flow-matching for long-form dialog synthesis into a 4x time-compressed (25 Hz) continuous latent space, reducing maximum peak GPU memory by up to 11.22x and accelerating inference by 2.23x compared to uncompressed baselines.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multi-turn conversational AI, interactive voice agents, automated podcast generation, and long-form spoken dialog synthesis.
+
+## Institutions / 機構
+
+Seoul National University, KT Corporation
 
 ## Related
 

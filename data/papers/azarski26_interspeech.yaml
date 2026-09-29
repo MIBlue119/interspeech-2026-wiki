@@ -14,6 +14,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/azarski26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/azarski26_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
 topics: [paralinguistics, health, evaluation]
+category: health-clinical
+institutions:
+  - "Samsung"
 code:
     url: ""
     license: ""

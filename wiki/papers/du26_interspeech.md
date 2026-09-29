@@ -1,6 +1,7 @@
 ---
 id: du26_interspeech
 category: tts
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/du26_interspeech.pdf
 *Muyang Du, Jason Roche, Junjie Lai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/du26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/du26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-235)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — S5-TTS is an encoder-decoder streaming text-to-speech model that enables low-latency, word-by-word incremental speech generation using limited lookahead-causal masking and multi-source distillation, reducing end-to-end conversational AI latency by over 50% compared to full-context baselines.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time conversational AI, low-latency voice assistants, duplex spoken dialogue systems.
+
+## Institutions / 機構
+
+NVIDIA
 
 ## Related
 

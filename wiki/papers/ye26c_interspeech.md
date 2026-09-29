@@ -1,6 +1,7 @@
 ---
 id: ye26c_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ye26c_interspeech.pdf
 *Ziwei Ye, Peter Vickers*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ye26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ye26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2667)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — The paper proposes Reinforcement Learning with Verifiable Rewards (RLVR) using Group Relative Policy Optimization (GRPO) to adapt audio-language models for code-switched ASR, matching full-dataset LoRA SFT using only 10-20% of the training data.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual automatic speech recognition systems, voice assistants, and audio transcription services targeting code-switched and multilingual user populations.
+
+## Institutions / 機構
+
+Spotify
 
 ## Related
 

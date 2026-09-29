@@ -8,6 +8,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kachare26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/kachare26_interspeech.pdf
 session: Speech and Language Processing for Health and Accessibility
 topics: [speech-enhancement, health, evaluation]
+category: health-clinical
+institutions:
+  - "Infosys"
 code:
     url: ""
     license: ""

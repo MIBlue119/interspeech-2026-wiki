@@ -1,6 +1,7 @@
 ---
 id: jiang26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jiang26_interspeech.pdf
 *Yuepeng Jiang, Huakang Chen, Ziqian Ning, Jixun Yao, zerui Han, Di Wu, Meng Meng, Jian Luan, Zhonghua Fu, Lei Xie*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jiang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jiang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-128)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — DiffRhythm 2 is an end-to-end semi-autoregressive song generation framework utilizing block flow matching, a 5 Hz music VAE, and cross-pair preference optimization to produce 210-second songs with faithful lyric alignment and strong open-source benchmark performance.
 
@@ -67,6 +70,10 @@ Read this if you want to understand how block flow matching and cross-pair prefe
 ## Applications
 
 Full-length controllable song generation, interactive music creation platforms, and multi-track audio generation.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University, Xiaomi
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: shin26b_interspeech
-category: audio-captioning
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shin26b_interspeech.pdf
 *Junghwa Shin, Yeonwoo Kim, HyungJune Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shin26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shin26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2320)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — EchoLoc is an audio-aware object grounding framework that jointly trains a heatmap prediction module and a query-based object box detector to localize sound-producing visual regions without explicit bounding-box annotations, achieving a +17.08% relative improvement in AUC (adap) on Flickr-SoundNet-Test over state-of-the-art baselines.
 
@@ -68,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Audio-visual scene analysis, automated video editing, robotics sound source localization, and multi-modal surveillance systems requiring the identification of sound-producing objects in complex visual environments.
+
+## Institutions / 機構
+
+Ewha Womans University
 
 ## Related
 

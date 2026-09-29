@@ -1,6 +1,7 @@
 ---
 id: li26ba_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26ba_interspeech.pdf
 *Xiquan Li, Junxi Liu, Wenxi Chen, Haina Zhu, Ziyang Ma, Xie Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26ba_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26ba_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1823)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — Resonate introduces online Group Relative Policy Optimization (Flow-GRPO) and Large Audio Language Model (LALM) feedback for text-to-audio generation, establishing a new SOTA on TTA-Bench with 470M parameters.
 
@@ -66,6 +69,12 @@ Researchers building text-to-audio or speech generation systems should read this
 ## Applications
 
 Automated sound effect generation for film, gaming, virtual reality, and multimedia content creation.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, Shanghai Innovation Institute
+
+**Funding / 經費:** Science and Technology Innovation (STI) 2030-Major Project, National Natural Science Foundation of China, Shanghai Municipal Science and Technology Major Project, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

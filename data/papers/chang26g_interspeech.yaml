@@ -10,6 +10,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chang26g_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/chang26g_interspeech.pdf
 session: Modeling L1 Acquisition
 topics: [phonetics, speech-perception, spoken-language-understanding]
+category: phonetics-linguistics
+institutions:
+  - "University of California, Irvine"
 code:
     url: ""
     license: ""

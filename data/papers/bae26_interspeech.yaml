@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bae26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bae26_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
 topics: [paralinguistics, speech-enhancement, self-supervised]
+category: health-clinical
+labels:
+  - "low-resource"
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "University of Illinois Urbana-Champaign"
+  - "Korea Advanced Institute of Science & Technology"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "National Science Foundation"
 code:
     url: https://github.com/JaesungBae/DA-DSQA
     license: ""

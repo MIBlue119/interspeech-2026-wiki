@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26g_interspeech.pdf
 session: 'Speech Deepfake Detection: Robustness, Generalization, Attribution'
 topics: [audio-deepfake, speaker-verification, self-supervised]
+category: deepfake-security
+institutions:
+  - "Beijing Jiaotong University"
+  - "Shanghai Jiao Tong University"
+  - "ITMO University"
 code:
     url: ""
     license: ""

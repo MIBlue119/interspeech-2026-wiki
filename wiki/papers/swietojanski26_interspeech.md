@@ -1,6 +1,7 @@
 ---
 id: swietojanski26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/swietojanski26_interspeech.pd
 *Pawel Swietojanski, Xinwei Li, Mingbin Xu, Takaaki Hori, Dogan Can, Xiaodan Zhuang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/swietojanski26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/swietojanski26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-341)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper resolves the fundamental failure of attention encoder-decoder (AED) speech models on long-form audio by introducing explicit cross-attention positional encodings, acoustic context expansion, segment concatenation, and CTC-based semantic segmentation, achieving long-form parity with short-form decoding and matching or beating Whisper baselines.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device speech recognition, live translation, real-time meeting transcription, system-wide live captions, and long-form audio editing suites.
+
+## Institutions / 機構
+
+Apple
 
 ## Related
 

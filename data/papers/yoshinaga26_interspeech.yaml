@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yoshinaga26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/yoshinaga26_interspeech.pdf
 session: Speech Production and Perception 1
 topics: [tts, phonetics, prosody]
+category: phonetics-linguistics
+institutions:
+  - "Osaka University"
+  - "Louisiana State University Health Sciences Center"
+  - "University of Arizona"
+funding:
+  - "JSPS KAKENHI"
 code:
     url: ""
     license: ""

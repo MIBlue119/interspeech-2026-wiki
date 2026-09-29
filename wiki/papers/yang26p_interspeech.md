@@ -1,6 +1,7 @@
 ---
 id: yang26p_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26p_interspeech.pdf
 *Jinhyeok Yang, Hyeongju Kim, Yechan Yu, Joon Byun, Frederik Bous, Juheon Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26p_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26p_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3086)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — RobustSpeechFlow introduces a contrastive flow matching training strategy that uses length-preserving repeat and skip latent augmentations to fix TTS alignment errors. It achieves top-tier intelligibility (Seed-TTS-eval WER 1.38) at a compact scale of 0.06B parameters.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device or low-latency zero-shot text-to-speech generation requiring high content stability and resilience to skip/repeat errors.
+
+## Institutions / 機構
+
+Supertone, Out of Set
 
 ## Related
 

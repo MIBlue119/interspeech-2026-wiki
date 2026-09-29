@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/maruyama26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/maruyama26_interspeech.pdf
 session: Speech and Language Learning Technologies
 topics: [speech-enhancement, evaluation, low-resource]
+category: applications-other
+labels:
+  - "streaming-real-time"
+institutions:
+  - "University of New South Wales"
+  - "Augusta University"
+  - "Georgia Institute of Technology"
 code:
     url: https://github.com/google/carfac
     license: ""

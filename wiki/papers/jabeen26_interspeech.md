@@ -1,6 +1,7 @@
 ---
 id: jabeen26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jabeen26_interspeech.pdf
 *Farhat Jabeen, Ákos Buza, Ella Reimann*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jabeen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jabeen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-707)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study investigates cross-linguistic perception of prosodic prominence and Intonation Phrase (IP) boundaries by presenting spoken Urdu extracts to native German and Hungarian listeners. The findings challenge the alleged universality of acoustic cues, demonstrating that listener L1 backgrounds and speaker variability significantly shape how pitch contours and boundaries are interpreted.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual speech understanding, multilingual text-to-speech prosody transfer, and acoustic modeling for under-documented languages.
+
+## Institutions / 機構
+
+Bielefeld University
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

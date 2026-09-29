@@ -1,6 +1,6 @@
 ---
 id: dai26b_interspeech
-category: speech-llm
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dai26b_interspeech.pdf
 *Yuhang Dai, Haopeng Lin, Jiale Qian, Ruiqi Yan, Hao Meng, Hanke Xie, Hanlin Wen, Shunshun Yin, Ming Tao, Xie Chen, Lei Xie, Xinsheng Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dai26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dai26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-774)
+
+**Category:** `speaker`
 
 **TL;DR** — GLSC-SDR introduces a hierarchical Global-Local Speaker Classification joint-training paradigm for Large Audio-Language Models, improving end-to-end speaker diarization and recognition without requiring massive real conversational datasets. It achieves superior performance on benchmarks like AliMeeting, AISHELL-4, and AMI-SDM compared to multi-encoder and simulation-heavy baselines.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated multi-speaker conversational transcription, meeting minute generation, courtroom transcription, and clinical encounter logging systems.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University, Soul AI, Shanghai Jiao Tong University
 
 ## Related
 

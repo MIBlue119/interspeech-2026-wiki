@@ -1,6 +1,7 @@
 ---
 id: zhou26e_interspeech
 category: tts
+labels: [multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhou26e_interspeech.pdf
 *Wangzixi Zhou, Bagus Tris Atmaja, Sakriani Sakti*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhou26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhou26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1696)
+
+**Category:** `tts` · **Labels:** `multilingual`, `generative-model`
 
 **TL;DR** — This paper introduces a lightweight post-training personalization and cultural adaptation framework for emotional Text-to-Speech (TTS) that optimizes individual arousal-valence (A-V) perception spaces using an Interactive Genetic Algorithm (IGA). Evaluated across Japanese, Chinese, and Indonesian participants, the proposed emotion controller improves MOS from 3.37 to 3.75, reduces WER from 21% to 17%, and achieves a 76% preference rate over one-size-fits-all U.S.-data baselines.
 
@@ -64,6 +67,12 @@ Speech and ML researchers focusing on affective computing, personalization, or h
 ## Applications
 
 Personalized conversational agents, empathetic virtual assistants, culturally adaptive digital tutors, and video game NPC voice generation requiring fine-grained user-specific emotional tuning.
+
+## Institutions / 機構
+
+Nara Institute of Science and Technology
+
+**Funding / 經費:** JSPS KAKENHI, JST NEXUS
 
 ## Related
 

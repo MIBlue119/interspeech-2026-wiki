@@ -1,6 +1,7 @@
 ---
 id: martinez26_interspeech
-category: speech-tokenization
+category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/martinez26_interspeech.pdf
 *Héctor Javier Vázquez Martínez*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/martinez26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/martinez26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-820)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — The paper introduces findsylls, a modular, language-agnostic open-source toolkit that unifies classical amplitude-envelope syllable detectors and neural syllabifiers (e.g., Sylber, VG-HuBERT) under a common interface for segmentation, embedding, and evaluation. Benchmarked across seven corpora in English, Spanish, and Kono, the toolkit demonstrates that recombining components (such as applying peakdetect to Sylber's cosine-similarity cue) achieves superior boundary F1 (69.9%) while producing efficient low-rate tokens (3.1–5.8 tok/s).
 
@@ -64,6 +67,10 @@ Speech and machine learning researchers working on low-resource spoken language 
 ## Applications
 
 Unsupervised spoken language modeling, low-resource speech tokenization, and efficient long-context speech representation learning.
+
+## Institutions / 機構
+
+University of Pennsylvania
 
 ## Related
 

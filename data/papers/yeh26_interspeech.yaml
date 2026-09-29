@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yeh26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yeh26_interspeech.pdf
 session: Pathological Speech Assessment 1
 topics: [paralinguistics, self-supervised, evaluation]
+category: health-clinical
+institutions:
+  - "Johns Hopkins University"
+  - "University of Michigan"
+funding:
+  - "Johns Hopkins University Data Science and AI Institute"
 code:
     url: https://github.com/jen900704/Speech-Depression-Speaker-Leakage
     license: ""

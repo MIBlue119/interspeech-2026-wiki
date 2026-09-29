@@ -1,6 +1,7 @@
 ---
 id: ghosh26f_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ghosh26f_interspeech.pdf
 *Subhankar Ghosh, Jason Li, Paarth Neekhara, Shehzeen Hussain, Ryan Langman, Xuesong Yang, Roy Fejgin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ghosh26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ghosh26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1461)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — MagpieTTS-LF is an inference-time algorithm that enables encoder-decoder TTS models to generate coherent, multi-minute long-form speech without requiring model retraining, achieving a Word Error Rate of 0.025 on a 1-hour HiFiTTS subset. It utilizes soft attention priors, stateful chunk generation, and history-aware text encoding to eliminate prosodic drift and boundary artifacts.
 
@@ -65,6 +68,10 @@ Speech researchers and engineers working with autoregressive or encoder-decoder 
 ## Applications
 
 Audiobook narration, long-form podcast generation, automated news reading, and long-form conversational speech synthesis in speech LLMs.
+
+## Institutions / 機構
+
+NVIDIA
 
 ## Related
 

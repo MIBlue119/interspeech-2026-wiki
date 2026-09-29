@@ -1,6 +1,7 @@
 ---
 id: aparin26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/aparin26_interspeech.pdf
 *Georgii Aparin, Vadim Popov, Tasnima Sadekova, Assel Yermekova*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/aparin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/aparin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1989)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates Whisper's internal representations to detect and mitigate non-speech hallucinations using activation steering and Sparse AutoEncoders (SAEs), dropping the hallucination rate from 86.88% to 27.33% on large-v3 without fine-tuning.
 
@@ -66,6 +69,12 @@ Researchers studying mechanistic interpretability, activation steering, and ASR 
 ## Applications
 
 Robust streaming ASR, long-form speech transcription transcription pipelines, and filtering noisy audio inputs for downstream speech LLMs.
+
+## Institutions / 機構
+
+National University of Science and Technology MISIS, Higher School of Economics
+
+**Funding / 經費:** Basic Research Program at HSE University
 
 ## Related
 

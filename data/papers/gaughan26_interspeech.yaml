@@ -9,6 +9,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gaughan26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/gaughan26_interspeech.pdf
 session: Speech and Language Representation
 topics: [multilingual, self-supervised, evaluation]
+category: speaker
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "University of Edinburgh"
+funding:
+  - "UK Research and Innovation"
 code:
     url: ""
     license: ""

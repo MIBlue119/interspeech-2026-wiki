@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ji26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ji26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [source-separation, dataset, self-supervised]
+category: enhancement-separation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Xiaomi"
+  - "Central Conservatory of Music"
 code:
     url: https://github.com/scottishfold0621/ACMID
     license: ""

@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/penney26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/penney26_interspeech.pdf
 session: Tools and Techniques for Phonetic Analysis
 topics: [phonetics, evaluation, dataset]
+category: phonetics-linguistics
+institutions:
+  - "Macquarie University"
+funding:
+  - "Early Career Researcher Enabling Scheme"
 code:
     url: ""
     license: ""

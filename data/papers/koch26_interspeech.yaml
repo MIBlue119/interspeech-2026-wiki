@@ -12,6 +12,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/koch26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/koch26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [paralinguistic, self-supervised, evaluation]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "University of St. Gallen"
+  - "LMU Munich"
+  - "University of Mannheim"
+  - "Charlotte Fresenius Hochschule"
+funding:
+  - "Leibniz Institute for Psychology"
+  - "Swiss National Science Foundation"
+  - "German Academic Scholarship Foundation"
 code:
     url: https://github.com/Timo-Ko/prosody_in_the_wild
     license: ""

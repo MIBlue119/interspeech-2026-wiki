@@ -1,6 +1,7 @@
 ---
 id: yang26_interspeech
 category: asr
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26_interspeech.pdf
 *Yufeng Yang, Yiteng Huang, Yong Xu, Li Wan, Suwon Shon, Yang Liu, Yifeng Fan, Zhaojun Yang, Olivier Siohan, Yue Liu, Ming Sun, Florian Metze*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-127)
+
+**Category:** `asr` · **Labels:** `robustness-noise`
 
 **TL;DR** — The paper introduces multi-channel differential automatic speech recognition (ASR) for smart glasses to robustly transcribe wearer speech in the presence of bystander side-talk, achieving up to an 18.0% relative reduction in word error rate over beamforming-only baselines.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust on-device automatic speech recognition for smart glasses, augmented reality headsets, and continuous voice-controlled wearable assistants.
+
+## Institutions / 機構
+
+Ohio State University, Meta
 
 ## Related
 

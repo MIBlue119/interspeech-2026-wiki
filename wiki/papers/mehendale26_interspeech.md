@@ -1,6 +1,7 @@
 ---
 id: mehendale26_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [low-resource, multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mehendale26_interspeech.pdf
 *Deovrat Mehendale, Aditya Mehndiratta, Dhruv Subhash Rathi, Kaushal Bhogale, Mitesh M Khapra*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mehendale26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mehendale26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2484)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — Indic DiarBench is a 108-hour multilingual benchmark spanning all 22 scheduled Indian languages to evaluate joint speaker diarization and ASR, revealing that current commercial and multimodal LLM systems struggle heavily with high speaker overlap and low-resource dialects.
 
@@ -67,6 +70,10 @@ Speech and ML engineers building conversational agents or transcription pipeline
 ## Applications
 
 Multi-speaker meeting transcription assistants, courtroom and legislative proceedings documentation, and automated customer support call analytics for multilingual Indian markets.
+
+## Institutions / 機構
+
+Sarvam AI, IIT Madras
 
 ## Related
 

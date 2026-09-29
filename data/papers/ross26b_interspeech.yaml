@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ross26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ross26b_interspeech.pdf
 session: Queer and Trans Speech Science and Technology
 topics: [tts, paralinguistics, evaluation]
+category: tts
+institutions:
+  - "University of Edinburgh"
+  - "KTH Royal Institute of Technology"
+funding:
+  - "UK Research and Innovation"
+  - "Swedish Research Council"
 code:
     url: https://ariadnasc.github.io/synth-personas
     license: ""

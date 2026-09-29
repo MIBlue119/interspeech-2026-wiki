@@ -1,6 +1,7 @@
 ---
 id: meng26f_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/meng26f_interspeech.pdf
 *Boyang Meng, Mengkai Sun, Haojie Zhang, Kun Qian, Wei Xue, Bin Hu, Bjoern Schuller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/meng26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/meng26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2153)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — An explainable Siamese framework is proposed for four-class snore sound classification (based on the VOTE taxonomy) that treats similarity as evidence, improving clean-condition macro-recall from 0.401 (wav2vec2) to 0.638.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical screening and longitudinal monitoring of sleep-related breathing disorders, computer-aided diagnosis for upper-airway obstruction localization, and interpretable biomedical sound classification.
+
+## Institutions / 機構
+
+Beijing Institute of Technology, Hong Kong University of Science and Technology, TUM University Hospital
+
+**Funding / 經費:** National Key R&D Program of China, National Natural Science Foundation of China, Beijing Natural Science Foundation, Ministry of Science and Technology of the People's Republic of China, Teli Young Fellow Program
 
 ## Related
 

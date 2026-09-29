@@ -1,6 +1,7 @@
 ---
 id: zhang26l_interspeech
-category: tts
+category: audio-understanding
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26l_interspeech.pdf
 *Zixing Zhang, Yimin Cao, Haotian Guo, Bin Wang, Jing Han*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-882)
+
+**Category:** `audio-understanding` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — CTMusic introduces the first text-audio paired dataset for traditional Chinese instrumental music (741 pairs, 42.7 hours), and proposes SA-TTT, which integrates Test-Time Training layers into Stable Audio Open to significantly improve genre fidelity and text alignment.
 
@@ -69,6 +72,12 @@ Read this paper if you are working on domain adaptation or architectural modific
 ## Applications
 
 Culturally nuanced text-to-music generation engines, video scoring tools for traditional Chinese media, and educational platforms for Chinese musical composition.
+
+## Institutions / 機構
+
+Hunan University, Yuelushan Center for Industrial Innovation
+
+**Funding / 經費:** National Natural Science Foundation of China, National Science and Technology Major Project of China, Science and Technology Innovation Program of Hunan Province, Guangdong Basic and Applied Basic Research Foundation, Shenzhen Natural Science Foundation, Project of Yuelushan Center for Industrial Innovation
 
 ## Related
 

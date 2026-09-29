@@ -1,6 +1,7 @@
 ---
 id: pal26_interspeech
 category: asr
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pal26_interspeech.pdf
 *Priyanshi Pal, Yaroslav Getman, Kristiina Ojala, Tamás Grósz, Mikko Kurimo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pal26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pal26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2497)
+
+**Category:** `asr` · **Labels:** `low-resource`
 
 **TL;DR** — This paper investigates semi-supervised learning and pseudo-labeling for Northern Sámi ASR, demonstrating that a two-stage fine-tuning strategy (unfiltered pseudo-labels followed by human-labeled data) substantially improves a smaller model's out-of-domain generalization without extra manual labels. It achieves a drop in word error rate down to 28.52% on the 282utt test set compared to 32.06% for the supervised baseline.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated transcription and speech recognition pipelines for endangered, low-resource, or morphologically rich minority languages.
+
+## Institutions / 機構
+
+Aalto University, INESC-ID, Instituto Superior Técnico, Walton Institute, South East Technological University
+
+**Funding / 經費:** Business Finland, Finnish Cultural Foundation
 
 ## Related
 

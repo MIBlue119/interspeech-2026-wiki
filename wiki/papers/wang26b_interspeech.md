@@ -1,6 +1,7 @@
 ---
 id: wang26b_interspeech
-category: speech-enhancement
+category: audio-understanding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26b_interspeech.pdf
 *Shiyao Wang, Xijuan Zeng, Hui Wang, Shiwan Zhao, Feng Deng, Chen Zhang, Yong Qin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-112)
+
+**Category:** `audio-understanding` · **Labels:** `generative-model`
 
 **TL;DR** — FoleyGenEx is a unified video-to-audio generation framework built on a Multi-modal Diffusion Transformer that integrates multi-modal control, frame-level temporal alignment, and fine-grained adverbial semantics, achieving an OnsetSyncAP of 69.71% and a VGGSound Fréchet Distance of 0.73.
 
@@ -68,6 +71,10 @@ Researchers and audio engineers working on generative multimodal audio should re
 ## Applications
 
 Automated silent film dubbing, post-production Foley sound effect generation, damaged audio track restoration, and fine-grained video-to-audio editing.
+
+## Institutions / 機構
+
+Nankai University, Kuaishou Technology
 
 ## Related
 

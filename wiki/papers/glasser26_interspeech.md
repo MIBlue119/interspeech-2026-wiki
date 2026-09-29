@@ -1,6 +1,6 @@
 ---
 id: glasser26_interspeech
-category: asr
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/glasser26_interspeech.pdf
 *Abraham Glasser, Christian Vogler, Raja Kushalnagar*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/glasser26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/glasser26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3001)
+
+**Category:** `applications-other`
 
 **TL;DR** — This position paper highlights how current speech AI technologies (STT, TTS, and STS) fail Deaf and Hard of Hearing (DHH) users due to atypical "deaf accents" and lack of non-auditory verification mechanisms. It proposes two core design frameworks, UVG (Usability, Verifiability, Graceful Degradation) and FATE (Fairness, Accountability, Transparency, Ethics), to bridge the accessibility gap.
 
@@ -56,6 +58,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of inclusive, accessible speech-to-text transcription tools, personalized voice cloning for assistive text-to-speech, and real-time speech-to-speech revoicing systems for inclusive meetings.
+
+## Institutions / 機構
+
+Gallaudet University
+
+**Funding / 經費:** National Institute on Disability, Independent Living, and Rehabilitation Research, National Science Foundation
 
 ## Related
 

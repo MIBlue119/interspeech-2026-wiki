@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ren26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ren26c_interspeech.pdf
 session: 'Speaker Verification: Architectures, Losses, and LLMs'
 topics: [speaker-verification, speech-llm, self-supervised]
+category: speaker
+labels:
+  - "self-supervised"
+institutions:
+  - "Shanghai Artificial Intelligence Laboratory"
+  - "Nanjing University"
+  - "Tsinghua University"
+funding:
+  - "Shanghai Artificial Intelligence Laboratory"
 code:
     url: ""
     license: ""

@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/koh26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/koh26_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
 topics: [speech-llm, spoken-language-understanding, evaluation]
+category: applications-other
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Manchester"
 code:
     url: ""
     license: ""

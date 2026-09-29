@@ -1,6 +1,6 @@
 ---
 id: neumann26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/neumann26_interspeech.pdf
 *Michael Neumann, Hardik Kothare, Diego Cadavid, Robert H. Scannevin, Anil Tarachandani, Ines Hoffmann, Tara Haley, Shane Raines, Vikram Ramanarayanan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/neumann26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/neumann26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2841)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper evaluates interpretable composite speech index scores to reduce measurement noise and improve longitudinal monitoring of amyotrophic lateral sclerosis (ALS) in clinical trials. By aggregating multi-domain speech features, the proposed index scores achieve excellent test-retest reliability (ICC > 0.9) and reduce minimal detectable change below patient standard deviations.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Remote patient monitoring, digital endpoints for neurodegenerative clinical trials, and objective assessment of bulbar disease progression in ALS.
+
+## Institutions / 機構
+
+Modality.AI, Verge Genomics, 2b Analytics, University of California, San Francisco
 
 ## Related
 

@@ -18,6 +18,21 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nguyen26b_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/nguyen26b_interspeech.pdf
 session: LLMs and Conversational Interaction
 topics: [speaker-diarization, evaluation, dataset]
+category: resources-evaluation
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "University of Wisconsin - Madison"
+  - "Oregon State University"
+  - "University of Sydney"
+  - "Kookmin University"
+funding:
+  - "National Science Foundation"
+  - "IBM"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Ministry of Science and ICT"
 code:
     url: https://github.com/plnguyen2908/UniTalk-ASD-code
     license: ""

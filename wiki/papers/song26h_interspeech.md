@@ -1,6 +1,7 @@
 ---
 id: song26h_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [efficient-on-device, self-supervised, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/song26h_interspeech.pdf
 *Haoyu Song, Xiaoxiao Miao, Pai Chet Ng, Timothy Liu, Aik Beng Ng, Ian McLoughlin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/song26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/song26h_interspeech.html)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `efficient-on-device`, `self-supervised`, `streaming-real-time`
 
 **TL;DR** — MER-Live is an interactive browser-based multimodal emotion recognition demo powered by a lightweight 6.77M-parameter masked auto-encoder speech emotion recognition (SER) backbone that achieves sub-millisecond inference latencies. It processes prosody over a 3-second sliding window and combines voice, video, and text using confidence-driven late fusion.
 
@@ -61,6 +64,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time interactive browser applications, live call-center sentiment monitoring, conversational AI analytics, and educational emotion-awareness tools.
+
+## Institutions / 機構
+
+Singapore Institute of Technology, Duke Kunshan University, NVIDIA
 
 ## Related
 

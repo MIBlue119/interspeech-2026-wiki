@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26c_interspeech.pdf
 session: Tones
 topics: [phonetics, speech-enhancement, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "Peking University"
+funding:
+  - "National Social Science Foundation of China"
 code:
     url: https://github.com/Dzaau/pingdingshanIS2026
     license: ""

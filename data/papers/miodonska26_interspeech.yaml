@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/miodonska26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/miodonska26_interspeech.pdf
 session: Gender- and Age-Related Speech Characteristics
 topics: [phonetics, paralinguistics, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "Silesian University of Technology"
+  - "University of Silesia in Katowice"
+funding:
+  - "National Science Centre, Poland"
+  - "European Funds for Silesia"
+  - "Just Transition Fund"
+  - "National Centre for Research and Development"
 code:
     url: ""
     license: ""

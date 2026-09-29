@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/geng26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/geng26c_interspeech.pdf
 session: Acoustic Event Detection 4
 topics: [self-supervised, speech-enhancement, dataset]
+category: audio-understanding
+labels:
+  - "low-resource"
+institutions:
+  - "National University of Defense Technology"
+funding:
+  - "National Science and Technology Major Project"
+  - "National University of Defense Technology"
 code:
     url: ""
     license: ""

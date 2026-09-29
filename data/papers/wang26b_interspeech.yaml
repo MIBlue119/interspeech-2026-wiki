@@ -14,6 +14,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26b_interspeech.pdf
 session: Generative Audio and Music
 topics: [speech-enhancement, multilingual, self-supervised]
+category: audio-understanding
+labels:
+  - "generative-model"
+institutions:
+  - "Nankai University"
+  - "Kuaishou Technology"
 code:
     url: https://foleygenex.github.io/FoleyGenEx
     license: ""

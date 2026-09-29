@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26s_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26s_interspeech.pdf
 session: Text-to-Speech Synthesis
 topics: [tts, self-supervised, evaluation]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Alibaba Group"
 code:
     url: ""
     license: ""

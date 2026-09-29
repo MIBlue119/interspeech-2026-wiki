@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/weber26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/weber26_interspeech.pdf
 session: Speech signal analysis
 topics: [speech-alignment, self-supervised, multilingual]
+category: asr
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Technion – Israel Institute of Technology"
+funding:
+  - "NSF"
+  - "BSF"
 code:
     url: https://github.com/MLSpeech/Multilingual-Word-Aligner
     license: ""

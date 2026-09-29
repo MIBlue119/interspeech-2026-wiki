@@ -1,6 +1,7 @@
 ---
 id: kim26h_interspeech
 category: asr
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26h_interspeech.pdf
 *YoungChae Kim, Da-Hee Yang, Joon-Hyuk Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-929)
+
+**Category:** `asr` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper introduces attention-guided reliability scaling for contrastive decoding in LLM-based audio-visual speech recognition (AVSR), achieving consistent Word Error Rate reductions across clean and severely noisy environments without any model fine-tuning.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust audio-visual speech recognition systems for edge devices, noisy automotive environments, and multi-modal meeting transcription.
+
+## Institutions / 機構
+
+Hanyang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea government (MSIT), Artificial Intelligence Graduate School Program (Hanyang University)
 
 ## Related
 

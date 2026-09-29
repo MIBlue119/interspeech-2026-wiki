@@ -1,6 +1,7 @@
 ---
 id: shen26b_interspeech
-category: speaker-verification
+category: speaker
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shen26b_interspeech.pdf
 *Xu Shen, Yihao Zhao, Xinwei Wu, Hao Liang, Yujie Zhu, Yujin Wang, Wei Liu, Gongping Huang, Shoji Makino*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shen26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shen26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1255)
+
+**Category:** `speaker` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — LaS-LCA adapts a frozen w2v-BERT 2.0 backbone using selective top-layer feature extraction, shared latent cross-attention, local 1D convolutions, and embedding-level margin-mixup, achieving an EER of 1.40% on the TidyVoiceX benchmark.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual speaker verification, multilingual speaker recognition, and voice biometrics systems deployed across diverse linguistic populations.
+
+## Institutions / 機構
+
+Waseda University, Wuhan University
 
 ## Related
 

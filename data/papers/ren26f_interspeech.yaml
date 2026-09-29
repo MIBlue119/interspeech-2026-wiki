@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ren26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ren26f_interspeech.pdf
 session: Perception and Appraisal of Prosody
 topics: [phonetics, evaluation, speech-enhancement]
+category: phonetics-linguistics
+institutions:
+  - "Peking University"
+funding:
+  - "National Social Science Foundation of China"
 code:
     url: ""
     license: ""

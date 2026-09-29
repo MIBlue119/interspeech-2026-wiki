@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ashikawa26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ashikawa26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ashikawa26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-363)
 
+**Category:** `asr`
+
 **TL;DR** — The paper introduces an incremental ASR post-correction framework using open-vocabulary Audio-KWS-gated retrieval to fetch utterance-relevant historical error correction records, achieving ~70% prompt length reduction while improving WER, CER, and Bias-F1.
 
 ## Key contributions
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Streaming and batch conversational transcription, financial earnings call indexing, contact-center transcription post-processing, and domain-specific terminology correction.
+
+## Institutions / 機構
+
+Toshiba
 
 ## Related
 

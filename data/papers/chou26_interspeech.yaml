@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chou26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chou26_interspeech.pdf
 session: Speaker Identity, States, and Traits in Paralinguistics
 topics: [speech-llm, emotion-recognition, self-supervised]
+category: paralinguistics-emotion
+labels:
+  - "self-supervised"
+institutions:
+  - "National Tsing Hua University"
+  - "Google"
 code:
     url: ""
     license: ""

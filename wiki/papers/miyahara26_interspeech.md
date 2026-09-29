@@ -1,6 +1,7 @@
 ---
 id: miyahara26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/miyahara26_interspeech.pdf
 *Genzo Miyahara, Tsuneo Kato, Akihiro Tamura*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/miyahara26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/miyahara26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1886)
+
+**Category:** `health-clinical` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates extracting self-attention weights from temporal acoustic vector sequences (SAWF) for zero-shot cross-lingual stuttering event detection, achieving F1 scores reaching 77-98% of monolingual settings across English, Mandarin, and German corpora. It outperforms traditional baselines on cross-lingual tasks and beats state-of-the-art models by 20 percentage points on word repetition.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical screening tools to quantify stuttering severity and frequencies (e.g., assisting SSI-4 diagnoses), and speech recognition frontend adaptation to improve ASR usability for persons who stutter (PWS).
+
+## Institutions / 機構
+
+Doshisha University
+
+**Funding / 經費:** JST SPRING
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: dai26_interspeech
-category: sound-event-detection
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dai26_interspeech.pdf
 *Lipeng Dai, Qing Wang, Wu Guo, Peng Gao, Zhijun Zhang, Kuiliang Li, Jinjie Fu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dai26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dai26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-353)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — This paper presents a consistency-regularized dual-branch network combined with a performance-aware mean teacher framework for sound event detection, achieving a state-of-the-art official score of 1.309 on the DCASE 2024 Challenge Task 4 dataset. The key innovations are a temporal topology consistency loss that aligns self-similarity patterns across feature branches and an adaptive exponential moving average update strategy for semi-supervised learning.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart home audio monitoring, industrial acoustic fault detection, automated security surveillance, and environmental sound logging.
+
+## Institutions / 機構
+
+University of Science and Technology of China
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

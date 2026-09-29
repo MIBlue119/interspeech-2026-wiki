@@ -1,6 +1,7 @@
 ---
 id: ding26d_interspeech
-category: spoken-language-understanding
+category: applications-other
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ding26d_interspeech.pdf
 *Yuting Ding, Xuefei Wang, Ximin Chen, Chunlin Li, Fei Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ding26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ding26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1815)
+
+**Category:** `applications-other` · **Labels:** `streaming-real-time`
 
 **TL;DR** — The paper introduces the State-Guided Adaptive Decision (SGAD) framework to resolve the stability-latency trade-off in EEG-based auditory attention switch decoding, boosting switch-F1 score by over 13 percentage points over exponential moving average baselines. It also establishes six hierarchical evaluation protocols to rigorously test generalization across audio content, speaker identity, and subject boundaries.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Neuro-steered hearing aids, brain-computer interfaces (BCIs), and cognitive load monitoring systems.
+
+## Institutions / 機構
+
+Southern University of Science and Technology, Capital Medical University
+
+**Funding / 經費:** National Key Research and Development Program of China, National Natural Science Foundation of China
 
 ## Related
 

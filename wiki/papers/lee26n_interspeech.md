@@ -1,6 +1,7 @@
 ---
 id: lee26n_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26n_interspeech.pdf
 *Jeongmin Lee, Chanhong Jeon, Hyungjoo Seo, Kyuhong Shim, Taewook Kang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1620)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`, `robustness-noise`
 
 **TL;DR** — DroFiT is a lightweight, incremental single-microphone speech enhancement network designed to suppress severe UAV ego-noise while consuming minimal memory and compute. It achieves state-of-the-art perceived speech quality (DNSMOS OVL 1.64) with only 168k parameters and 2.14 GigaMACs, outperforming heavier models like DCU-net and SMoLNet-T under extreme low-SNR drone noise.
 
@@ -69,6 +72,12 @@ Speech and ML engineers building on-device audio systems for micro-UAVs or resou
 ## Applications
 
 On-device speech enhancement, UAV voice command interfaces, search-and-rescue acoustic monitoring, and real-time noise suppression for edge hardware.
+
+## Institutions / 機構
+
+Sungkyunkwan University, University of Illinois Urbana-Champaign
+
+**Funding / 經費:** National Research Foundation, IITP, AI Semiconductor Innovation Research Center, Sungkyunkwan University, KIAT
 
 ## Related
 

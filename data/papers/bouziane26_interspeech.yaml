@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bouziane26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/bouziane26_interspeech.pdf
 session: Post-Training of Speech Foundation Models
 topics: [self-supervised, multilingual, speaker-verification]
+category: speaker
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Avignon Universite"
 code:
     url: https://github.com/speechbrain/speechbrain/tree/develop/recipes/CommonVoice/SENSE
     license: ""

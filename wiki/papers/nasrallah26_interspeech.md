@@ -1,6 +1,7 @@
 ---
 id: nasrallah26_interspeech
-category: speech-anonymization
+category: deepfake-security
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nasrallah26_interspeech.pdf
 *Ghady Nasrallah, Waris Quamer, Mu-Ruei Tseng, Ricardo Gutierrez-Osuna*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nasrallah26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nasrallah26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2927)
+
+**Category:** `deepfake-security` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — DECRA is a real-time streaming voice conversion and anonymization system that performs closed-loop, time-varying prosody control using continuous valence-arousal trajectories with less than 80 ms GPU latency. It achieves strong emotion steering (CCC arousal of 0.81 for neutralization) and high speaker anonymization (EER of 46.64%) while maintaining a low Word Error Rate (4.90%).
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time voice anonymization for privacy-preserving communications, interactive conversational agents with dynamic emotional prosody adaptation, and secure streaming voice changers.
+
+## Institutions / 機構
+
+Texas A&M University
+
+**Funding / 經費:** Intelligence Advanced Research Projects Activity, Department of Interior/Interior Business Center
 
 ## Related
 

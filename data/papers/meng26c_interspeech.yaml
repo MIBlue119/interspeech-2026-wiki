@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/meng26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/meng26c_interspeech.pdf
 session: Spatial Audio 1
 topics: [speaker-diarization, self-supervised, paralinguistics]
+category: enhancement-separation
+labels:
+  - "robustness-noise"
+institutions:
+  - "University of New South Wales"
+  - "Alibaba Group"
+  - "Chinese University of Hong Kong, Shenzhen"
+funding:
+  - "ARC Discovery Grant"
 code:
     url: https://github.com/Hanyu-Meng/BiEAR
     license: ""

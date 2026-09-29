@@ -1,6 +1,7 @@
 ---
 id: masztalski26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.pdf
 *Piotr Masztalski, Michał K. Grzeszczyk, Olaf Sikorski*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/masztalski26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-763)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — Samsone is a family of small audio language models (SALMs) under 1B parameters designed for real-time on-device inference, with the core Samsone-134M establishing a new state-of-the-art among sub-billion models by outperforming prior architectures like Mellow by 15% on MMAU while reducing parameter count.
 
@@ -66,6 +69,10 @@ Speech and ML engineers building on-device audio intelligence assistants will fi
 ## Applications
 
 Real-time on-device audio question answering, offline environmental sound monitoring, and privacy-preserving smartphone speech assistants.
+
+## Institutions / 機構
+
+Samsung, AGH University of Krakow
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: yu26e_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yu26e_interspeech.pdf
 *Cheng Yu, Vahid A. Kalkhorani, Ashutosh Pandey, Daniel Wong, Jacob Donley, Buye Xu, DeLiang Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yu26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yu26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1999)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — This paper presents Visual Knowledge Distillation (VKD) for causal audiovisual speaker separation, compressing a pre-trained visual front-end by 48.6x in parameters and 7.5x in MACs while setting new state-of-the-art results for online AVSS systems.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time hearing aids, live video conferencing enhancement, augmented reality glasses, and causal speech separation on edge devices.
+
+## Institutions / 機構
+
+Ohio State University, Meta, Chinese University of Hong Kong, Shenzhen
+
+**Funding / 經費:** Meta, National Science Foundation
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: vonaspern26_interspeech
-category: speech-llm
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.pdf
 *Julian Miguel von Aspern, Bruno Defraene, Anastasios Vafeiadis, Oleksiy Kutscher, Ernst Seidel, Tim Fingscheidt*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/vonaspern26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3300)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — The paper adapts intra-modal similarity supervision from vision-language models to audio-text contrastive learning, using text-text and audio-audio cosine similarities as soft targets alongside an MSE loss. This achieves competitive performance with SOTA CLAP models while using a fraction of the training data (0.5M vs 4.6M samples) and batch size (64 vs 1,536).
 
@@ -67,6 +70,10 @@ Speech and ML researchers working on multi-modal audio-text representation learn
 ## Applications
 
 Zero-shot audio classification, text-to-audio retrieval, and speech/audio search engines operating under resource-constrained training regimes.
+
+## Institutions / 機構
+
+Technische Universitat Braunschweig, NXP Semiconductors
 
 ## Related
 

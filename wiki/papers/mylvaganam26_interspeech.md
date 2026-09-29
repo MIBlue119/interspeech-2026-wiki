@@ -1,6 +1,7 @@
 ---
 id: mylvaganam26_interspeech
-category: asr
+category: speaker
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mylvaganam26_interspeech.pdf
 *Pravina Mylvaganam, Ting Dang, Eliathamby Ambikairajah, Vidhyasaharan Sethu, Jingyao Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mylvaganam26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mylvaganam26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1789)
+
+**Category:** `speaker` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper proposes two hybrid continual learning frameworks—Replay-Augmented Elastic Weight Consolidation (RA-EWC) and Constraint-Guided Knowledge Distillation (CG-KD)—to adapt pretrained multilingual speech models for extremely low-resource Australian Aboriginal languages while preventing catastrophic forgetting, achieving up to 93.38% overall F1-score.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building inclusive language identification systems, speech archiving pipelines, and digital preservation tools for endangered and indigenous languages.
+
+## Institutions / 機構
+
+University of New South Wales, University of Melbourne, Massachusetts Institute of Technology
+
+**Funding / 經費:** School of Electrical Engineering and Telecommunications at UNSW Sydney
 
 ## Related
 

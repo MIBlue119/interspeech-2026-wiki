@@ -1,6 +1,7 @@
 ---
 id: sun26_interspeech
-category: prosody
+category: resources-evaluation
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26_interspeech.pdf
 *Haitong Sun, Stephen McIntosh, Kwanghee Choi, Eunjung Yeo, Daisuke Saito, Nobuaki Minematsu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-478)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — The paper introduces "prosodic ABX," a training-free framework for evaluating lexical prosody encoding in self-supervised speech models (S3Ms) using minimal pairs and dynamic time warping. Experiments across English stress, Japanese pitch accent, and Mandarin tone show that S3Ms achieve error rates comparable to human listeners (e.g., best S3M error rate of 5% on Mandarin vs 2% for humans).
 
@@ -63,6 +66,10 @@ Speech and representation learning researchers seeking a rigorous, training-free
 ## Applications
 
 Visual pronunciation feedback tools for language learners, unsupervised prosodic token discovery for speech language models, and model/layer selection for prosody-sensitive downstream tasks.
+
+## Institutions / 機構
+
+University of Tokyo, University of Texas at Austin
 
 ## Related
 

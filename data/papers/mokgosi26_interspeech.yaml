@@ -13,6 +13,23 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mokgosi26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/mokgosi26_interspeech.pdf
 session: Indigenous Voices in Speech Science and Technology
 topics: [asr, low-resource, multilingual]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Technological University Dublin"
+  - "University of Pretoria"
+  - "Lelapa AI"
+funding:
+  - "Gates Foundation"
+  - "Meta"
+  - "International Development Research Centre"
+  - "Foreign, Commonwealth & Development Office"
+  - "AI4D Africa Program"
+  - "Research Ireland"
+  - "ADAPT Research Ireland Centre for AI-Driven Digital Content Technology"
 code:
     url: ""
     license: ""

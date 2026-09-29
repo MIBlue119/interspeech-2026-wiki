@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/huang26p_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26p_interspeech.pdf
 session: Speech Emotion Recognition and Representation 2
 topics: [paralinguistics, emotion-recognition, self-supervised]
+category: paralinguistics-emotion
+institutions:
+  - "Hong Kong Polytechnic University"
+funding:
+  - "Research Platform for Advanced Audio and Speech Signal Processing"
 code:
     url: ""
     license: ""

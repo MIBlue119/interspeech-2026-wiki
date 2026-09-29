@@ -14,6 +14,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lakshmi26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/lakshmi26_interspeech.pdf
 session: Queer and Trans Speech Science and Technology
 topics: [speech-llm, paralinguistics, dataset]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "Amrita Vishwa Vidyapeetham"
+  - "University of Auckland"
 code:
     url: ""
     license: ""

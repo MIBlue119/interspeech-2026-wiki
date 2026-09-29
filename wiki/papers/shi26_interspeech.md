@@ -1,6 +1,7 @@
 ---
 id: shi26_interspeech
 category: asr
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shi26_interspeech.pdf
 *Hao Shi, Yusuke Fujita, Roman Koshkin, Mengjie Zhao, Yuan Gao, Lianbo Liu, Yui Sudo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-612)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — This paper presents an encoder-only multi-talker ASR framework that distills semantic priors from a frozen LLM teacher into the speech encoder during training while using serialized CTC for fast, non-autoregressive decoding. By incorporating a Talker-Count Head for dynamic branch routing, the system achieves comparable performance to LLM decoders on two-talker mixtures and substantially outperforms them on three-talker mixtures with a massive speedup.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time multi-speaker transcription for meeting assistants, courtroom recording analysis, multi-participant teleconferencing systems, and smart home audio separation.
+
+## Institutions / 機構
+
+SB Intuitions
 
 ## Related
 

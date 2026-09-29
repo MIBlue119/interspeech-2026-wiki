@@ -1,6 +1,6 @@
 ---
 id: li26d_interspeech
-category: speech-enhancement
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26d_interspeech.pdf
 *Naiyuan Li, Xiaoxun Wu, Yuheng Huang, Diqun Yan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-476)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — CAQA-Net is a continual learning framework for audio quality assessment that handles sequential speech and music tasks without catastrophic forgetting, achieving a mean Spearman rank correlation coefficient (mSRCC) of 0.754—within 4.6% of the joint-learning upper bound.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated monitoring of streaming audio, text-to-speech generation pipelines, voice conversion systems, and online meeting platform quality control.
+
+## Institutions / 機構
+
+Ningbo University, Ningbo University of Finance and Economics
+
+**Funding / 經費:** National Natural Science Foundation of China, Zhejiang Provincial Collaborative Innovation Center for Digital Supply Chain and Artificial Intelligence of Bulk Commodities
 
 ## Related
 

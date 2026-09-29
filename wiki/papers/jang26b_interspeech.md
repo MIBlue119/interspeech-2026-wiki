@@ -1,6 +1,6 @@
 ---
 id: jang26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jang26b_interspeech.pdf
 *Jin Yea Jang, Saim Shin, Gahgene Gweon*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3216)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — DP-BCT is a dual-path model for predicting backchannel timing and functional categories that decouples fast and slow behavioral groups, improving Macro-F1 from 0.4862 to 0.6254 over single-path baselines.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Spoken dialogue systems, voice assistants, and interactive conversational agents requiring natural, human-like timing and functional feedback generation.
+
+## Institutions / 機構
+
+Seoul National University, Korea Electronics Technology Institute
+
+**Funding / 經費:** Ministry of Science and ICT, Republic of Korea, Artificial Intelligence Graduate School Program, Seoul National University, Ministry of Culture, Sports and Tourism, Republic of Korea, Korea Electronics Technology Institute
 
 ## Related
 

@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yang26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26b_interspeech.pdf
 session: Target Speaker Extraction, Speech Separation and Audio Understanding
 topics: [speech-enhancement, speaker-verification, asr]
+category: enhancement-separation
+labels:
+  - "robustness-noise"
+institutions:
+  - "Shanghai Normal University"
+  - "Unisound AI Technology Co., Ltd"
 code:
     url: https://github.com/Yym-line/EoW-TSE
     license: ""

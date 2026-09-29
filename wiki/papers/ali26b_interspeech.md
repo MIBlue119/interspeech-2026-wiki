@@ -1,6 +1,7 @@
 ---
 id: ali26b_interspeech
 category: asr
+labels: [low-resource, multilingual, efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ali26b_interspeech.pdf
 *Salman Hussain Ali, Umberto Cappellazzo, Mirco Ravanelli*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ali26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ali26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1522)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `efficient-on-device`, `self-supervised`
 
 **TL;DR** — MambAdapter integrates lightweight Mamba state-space modules into low-rank bottleneck adapters with shared projections, matching or outperforming strong PETL baselines on audio classification and multilingual ASR while using a fraction of the parameters.
 
@@ -64,6 +67,12 @@ Speech and ML engineers looking for an efficient state-space model based transfe
 ## Applications
 
 Efficient domain adaptation of large speech recognition and audio classification foundation models under strict compute or parameter constraints.
+
+## Institutions / 機構
+
+Universite de Montreal, Imperial College London, Concordia University, Mila – Quebec AI Institute
+
+**Funding / 經費:** NSERC, Digital Research Alliance of Canada, Translated, Apple
 
 ## Related
 

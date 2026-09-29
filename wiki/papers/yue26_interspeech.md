@@ -1,6 +1,6 @@
 ---
 id: yue26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yue26_interspeech.pdf
 *Zhiyuan Yue, De Hu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yue26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yue26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1733)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — G2C-NET is a grid-to-continuous neural network for sound source localization in distributed microphone arrays that resolves the conflict between spatial resolution and computational complexity, achieving an RMSE of 25.52 cm and 78.63% accuracy on simulated data.
 
@@ -65,6 +67,12 @@ Speech and ML engineers building distributed microphone array systems will learn
 ## Applications
 
 Smart home audio front-ends, video conferencing room tracking, robot auditory navigation, and multi-microphone smart speakers.
+
+## Institutions / 機構
+
+Inner Mongolia University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

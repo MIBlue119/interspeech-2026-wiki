@@ -1,6 +1,7 @@
 ---
 id: heng26_interspeech
-category: speech-recognition
+category: asr
+labels: [low-resource, multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/heng26_interspeech.pdf
 *Yeo Yue Heng, Haoyang Li, Yizhou Peng, Shreyas Gopal, Hexin Liu, Leibny Paola Garcia-Perera, Sailor Hardik, Jeremy H. M. Wong, Eng Siong Chng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/heng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/heng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-642)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `generative-model`
 
 **TL;DR** — This paper introduces a code-mixing guided preference-learning framework (CMIspeech and multi-critic DPO) for text-to-speech synthesis to improve data augmentation for code-switching ASR, reducing the Mixed Error Rate (MER) on Whisper Large from 12.1%/17.8% to 8.9%/14.2% on SEAME DevMAN and DevSGE.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving code-switching automatic speech recognition systems, bilingual conversational voice assistants, and low-resource multilingual speech data augmentation pipelines.
+
+## Institutions / 機構
+
+Nanyang Technological University, Agency for Science, Technology and Research, Johns Hopkins University, Google
 
 ## Related
 

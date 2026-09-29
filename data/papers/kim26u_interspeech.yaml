@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26u_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26u_interspeech.pdf
 session: Emotional Speech Synthesis
 topics: [tts, paralinguistics, emotion-recognition]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Hanyang University"
+funding:
+  - "Institute of Information & communications Technology Planning & Evaluation (IITP)"
+  - "Korea government (MSIT)"
+  - "Artificial Intelligence Graduate School Program (Hanyang University)"
 code:
     url: ""
     license: ""

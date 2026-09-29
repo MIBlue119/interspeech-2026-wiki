@@ -1,6 +1,6 @@
 ---
 id: valentinibotinhao26_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/valentinibotinhao26_interspee
 *Cassia Valentini-Botinhao, Andrea Lorena Aldana Blanco, Dan Wells, Aidan Pine, Korin Richmond*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/valentinibotinhao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/valentinibotinhao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-446)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper evaluates active sampling strategies for pairwise and tuple-based speech synthesis evaluation, showing that the information-gain-based ASAP method combined with Best-Worst Scaling (BWS) dramatically reduces listening test duration while outperforming traditional random selection and sorting methods.
 
@@ -58,6 +60,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech synthesis evaluation, automated TTS leaderboards, and low-resource speech technology assessment.
+
+## Institutions / 機構
+
+University of Edinburgh, National Research Council Canada
+
+**Funding / 經費:** UK Research and Innovation, National Research Council Canada
 
 ## Related
 

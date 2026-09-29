@@ -14,6 +14,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mou26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mou26_interspeech.pdf
 session: Audio Watermarking and Source Verification
 topics: [tts, self-supervised, speech-llm]
+category: deepfake-security
+labels:
+  - "generative-model"
+institutions:
+  - "University of Science and Technology of China"
+  - "Institute of Forensic Science, Ministry of Public Security"
+  - "Hong Kong Polytechnic University"
 code:
     url: https://muzw.github.io/duramark_demo/
     license: ""

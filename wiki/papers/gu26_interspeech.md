@@ -1,6 +1,7 @@
 ---
 id: gu26_interspeech
-category: speech-perception
+category: phonetics-linguistics
+labels: [multilingual, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gu26_interspeech.pdf
 *Yixin Gu, Yan Tang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1290)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `robustness-noise`
 
 **TL;DR** — This study investigates how informational masking (IM) and modulation masking (MM) interact with energetic masking (EM) in cross-language speech perception, finding that releasing modulation masking can cancel out increased energetic masking to improve intelligibility. Word recognition rates (WRR) improved by up to 5.6 percentage points when masking with Mandarin competing speech compared to English at low EM levels.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving speech enhancement and noise-suppression algorithms for communication devices by targeting modulation masking rather than just global energetic SNR.
+
+## Institutions / 機構
+
+University of Illinois Urbana-Champaign, Beckman Institute for Advanced Science and Technology
 
 ## Related
 

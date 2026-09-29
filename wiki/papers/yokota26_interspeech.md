@@ -1,6 +1,6 @@
 ---
 id: yokota26_interspeech
-category: speech-production
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yokota26_interspeech.pdf
 *Kazuya Yokota, Xinmeng Luan, Debasish Ray Mohapatra, Gary Scavone, Sidney Fels*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yokota26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yokota26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2023)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper introduces the first physics-informed neural operator (PINO) for speech production analysis, enabling self-supervised simulation of vocal-fold dynamics and acoustic wave propagation across multiple vowel geometries with an average error of 0.8% for glottal volume flow and 3.2% for speech waveforms.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Fast speech production simulation, biomechanical voice disorder diagnosis, computer-aided surgical treatment planning, and articulatory-to-acoustic forward/inverse modeling.
+
+## Institutions / 機構
+
+Nagaoka University of Technology, McGill University, University of British Columbia
+
+**Funding / 經費:** JSPS KAKENHI, JSPS Program for Forming Japan's Peak Research Universities, Ono Charitable Trust for Acoustics
 
 ## Related
 

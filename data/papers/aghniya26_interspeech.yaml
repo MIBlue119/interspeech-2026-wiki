@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/aghniya26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/aghniya26_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
 topics: [speech-enhancement, evaluation, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "National Yang Ming Chiao Tung University"
+  - "Academia Sinica"
+funding:
+  - "Bio-ASP Lab at Academia Sinica"
+  - "National Science and Technology Council"
 code:
     url: ""
     license: ""

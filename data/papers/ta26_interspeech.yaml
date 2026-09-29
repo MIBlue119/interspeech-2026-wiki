@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ta26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ta26_interspeech.pdf
 session: Gender- and Age-Related Speech Characteristics
 topics: [phonetics, evaluation, speech-perception]
+category: phonetics-linguistics
+institutions:
+  - "Peking University"
+funding:
+  - "National Social Science Fund of China"
 code:
     url: ""
     license: ""

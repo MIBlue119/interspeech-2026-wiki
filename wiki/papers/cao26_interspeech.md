@@ -1,6 +1,7 @@
 ---
 id: cao26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cao26_interspeech.pdf
 *Di Cao, Dongjie Fu, Hai Yu, Siqi Zheng, Xu Tan, Tao Jin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-861)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`
 
 **TL;DR** — X-OPD is a cross-modal on-policy distillation framework designed to close the intelligence gap between speech LLMs and text-based LLMs through self-exploration rollouts and dual-advantage token feedback, reducing the average speech performance drop from 11.29% to 3.43% on Qwen3-Omni-A3B.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building end-to-end spoken dialogue agents, real-time voice assistants, and low-latency multilingual speech-language models with advanced reasoning capabilities.
+
+## Institutions / 機構
+
+Tencent, Zhejiang University
 
 ## Related
 

@@ -10,6 +10,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mi26_interspeech.pdf
 session: Multilingual and Cross-Lingual Paralinguistic Analysis and Processing
 topics: [speech-emotion-recognition, self-supervised, multilingual]
+category: paralinguistics-emotion
+labels:
+  - "low-resource"
+  - "multilingual"
+institutions:
+  - "Nagoya University"
+funding:
+  - "JST CREST"
+  - "JSPS KAKENHI"
+  - "JST SPRING"
 code:
     url: ""
     license: ""

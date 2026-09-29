@@ -1,6 +1,7 @@
 ---
 id: cho26b_interspeech
-category: asr
+category: translation
+labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cho26b_interspeech.pdf
 *Cheng-Hsiu Cho, Chih-Chung Kuo, Yu-Siang Lan, Chao-Shih Huang, Yan-Ming Lin, Yuan-Fu Liao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cho26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cho26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2096)
+
+**Category:** `translation` · **Labels:** `low-resource`, `multilingual`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper presents a multimodal semi-supervised framework that combines an Audio-Visual-Language Model (AVLM) and Vision-Language Model (VLM) fusion to automatically build an 860-hour Taigi speech-Chinese subtitle corpus from unlabeled videos, reducing subtitle recognition CER from 36.8% to 9.3%.
 
@@ -65,6 +68,10 @@ Researchers building low-resource speech corpora or cross-lingual speech-transla
 ## Applications
 
 Cross-lingual automatic speech recognition, machine translation, and low-resource speech dataset construction for educational and archival media.
+
+## Institutions / 機構
+
+National Yang Ming Chiao Tung University
 
 ## Related
 

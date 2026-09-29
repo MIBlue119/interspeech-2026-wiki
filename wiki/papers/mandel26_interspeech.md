@@ -1,6 +1,7 @@
 ---
 id: mandel26_interspeech
-category: voice-conversion
+category: tts
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.pdf
 *Moshe Mandel, Shlomi E. Chazan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1663)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — We propose a zero-shot, any-to-any voice conversion framework using a palindromic training strategy with WavLM features and a waveform-level speaker loss, outperforming baselines in speaker similarity while being trained exclusively on 960 hours of English data.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time or offline zero-shot voice conversion, cross-lingual dubbing, personalized text-to-speech voice cloning, and audio anonymization.
+
+## Institutions / 機構
+
+OriginAI
 
 ## Related
 

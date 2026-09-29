@@ -1,6 +1,7 @@
 ---
 id: xu26g_interspeech
 category: asr
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26g_interspeech.pdf
 *Gaopeng Xu, Zhenyu Wang, Zheng Xue, Yinfeng Xia, Haitao Yao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-879)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — The Whisper-Aware LLM framework teaches an Audio-LLM to explicitly quantify and react to the physical signal uncertainties of whispered speech, achieving a state-of-the-art 1.31% character error rate on AISHELL6-Whisper while cutting noise hallucination rates from over 25% down to 4.5%.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Secure or private speech recognition assistants, wearable devices operating in quiet environments requiring whispered voice commands, and robust transcription systems deployed in high-ambient-noise industrial or outdoor environments.
+
+## Institutions / 機構
+
+Alibaba
 
 ## Related
 

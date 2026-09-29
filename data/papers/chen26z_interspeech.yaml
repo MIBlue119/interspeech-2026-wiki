@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26z_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26z_interspeech.pdf
 session: Text Processing for Speech Synthesis
 topics: [tts, low-resource, multilingual]
+category: tts
+labels:
+  - "low-resource"
+  - "generative-model"
+institutions:
+  - "Tsinghua University"
+  - "Giant Network"
 code:
     url: https://github.com/GiantAILab/DiaMoE-TTS
     license: ""

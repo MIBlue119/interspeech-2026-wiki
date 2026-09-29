@@ -1,6 +1,6 @@
 ---
 id: kamel26_interspeech
-category: speech-enhancement
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kamel26_interspeech.pdf
 *Kamel Kamel, Hridoy Sankar Dutta, Keshav Sood, Sunil Aryal*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kamel26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kamel26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2736)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — The paper introduces the Spectral Masking and Interpolation Attack (SMIA), a black-box adversarial method that manipulates inaudible frequency regions of AI-generated audio to simultaneously bypass voice authentication systems (VAS) and anti-spoofing countermeasures (CM), achieving up to 100% attack success rate (ASR).
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Security auditing of voice biometrics, adversarial robustness benchmarking for speech systems, and development of resilient anti-spoofing countermeasures via adversarial training.
+
+## Institutions / 機構
+
+Deakin University
+
+**Funding / 經費:** Air Force Office of Scientific Research, Deakin University
 
 ## Related
 

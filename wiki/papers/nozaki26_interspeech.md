@@ -1,6 +1,7 @@
 ---
 id: nozaki26_interspeech
-category: speech-separation
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nozaki26_interspeech.pdf
 *Yuto Nozaki, Kohei Saijo, Yoshiaki Bando, Masaki Onishi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nozaki26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nozaki26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3308)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper introduces a semi-supervised joint speech separation and diarization framework for multichannel noisy mixtures that trains noise suppression using clean speech mixtures and environmental noise recordings without requiring isolated source signals. Compared to baseline neural FCASA, it improves signal-to-noise ratio (SDR) from 12.3 dB to 14.0 dB and lowers the diarization error rate (DER) from 4.2% to 3.1%.
 
@@ -66,6 +69,12 @@ Speech researchers and audio engineers working on multichannel front-ends will f
 ## Applications
 
 Distant automatic speech recognition front-ends, smart speaker multichannel meeting transcription, and multi-speaker teleconferencing systems operating in noisy environments.
+
+## Institutions / 機構
+
+National Institute of Advanced Industrial Science and Technology, Keio University, Waseda University
+
+**Funding / 經費:** JST FOREST
 
 ## Related
 

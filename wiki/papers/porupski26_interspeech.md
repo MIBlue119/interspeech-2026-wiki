@@ -1,6 +1,7 @@
 ---
 id: porupski26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/porupski26_interspeech.pdf
 *Ivan Porupski, Branimir Dropuljić, Nikola Ljubešić*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/porupski26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/porupski26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3262)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `multilingual`
 
 **TL;DR** — This paper investigates filled pause (FP) usage across roughly 4,000 hours of parliamentary speech in four Slavic languages using transformer-based detection and Mundlak-corrected GEE models, revealing that male speakers produce significantly fewer FPs in South Slavic parliaments (a reversal of common conversational trends) and that speech rate within speakers is the strongest predictor of FP rate.
 
@@ -66,6 +69,12 @@ Speech and ML researchers studying paralinguistics, disfluencies, or cross-cultu
 ## Applications
 
 Computational paralinguistics, automated speech analytics for political science, and speaker-trait profiling in parliamentary corpora.
+
+## Institutions / 機構
+
+Jožef Stefan Institute, TransUnion, University of Zagreb, University of Ljubljana, Institute of Contemporary History
+
+**Funding / 經費:** ARIS Slovenian Research and Innovation Agency
 
 ## Related
 

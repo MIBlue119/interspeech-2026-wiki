@@ -1,6 +1,6 @@
 ---
 id: orepic26_interspeech
-category: speech-enhancement
+category: tts
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/orepic26_interspeech.pdf
 *Pavo Orepic, Steven Moran, Volker Dellwo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/orepic26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/orepic26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1395)
+
+**Category:** `tts`
 
 **TL;DR** — SELFIX is a browser-based interactive system that uses perceptually motivated acoustic dimensions to model natural self-voice approximation, demonstrating that users consistently boost low-frequency energy by 6.68 dB while males additionally lower pitch and increase vocal-tract length.
 
@@ -63,6 +65,10 @@ Researchers and engineers building voice cloning, real-time voice modification, 
 ## Applications
 
 Perceptually calibrated AI voice cloning, real-time voice transformation tools, gender-affirming voice therapy support, and clinical interventions for auditory-verbal hallucinations or neuroprostheses.
+
+## Institutions / 機構
+
+University of Zurich, University of Neuchâtel
 
 ## Related
 

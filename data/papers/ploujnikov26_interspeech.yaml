@@ -11,6 +11,23 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ploujnikov26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/ploujnikov26_interspeech.pdf
 session: Audio Language Models
 topics: [tts, asr, self-supervised]
+category: speech-llm-dialogue
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Mila, Quebec AI Institute"
+  - "Concordia University"
+  - "Sapienza University of Rome"
+  - "Inria"
+  - "Universite Grenoble Alpes CNRS"
+funding:
+  - "NSERC"
+  - "Digital Research Alliance of Canada"
+  - "Translated"
+  - "Apple"
+  - "VisaSpeech Inria Associated Team"
 code:
     url: ""
     license: ""

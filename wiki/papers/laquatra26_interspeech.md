@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/laquatra26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/laquatra26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/laquatra26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1773)
 
+**Category:** `asr`
+
 **TL;DR** — The paper introduces etiology-aware speech language models that explicitly generate a speaker's neurological condition as text within the autoregressive stream before transcription, achieving a state-of-the-art 7.77% WER on the Speech Accessibility Project dataset.
 
 ## Key contributions
@@ -67,6 +69,12 @@ Speech and ML researchers working on speech language models or pathological spee
 ## Applications
 
 Automated clinical transcription software, assistive communication devices, and robust speech recognition pipelines for individuals with severe motor-speech disorders.
+
+## Institutions / 機構
+
+Kore University of Enna, Sony Group Corporation, Universita degli Studi di Palermo
+
+**Funding / 經費:** D.A.R.E. - Digital Lifelong Prevention
 
 ## Related
 

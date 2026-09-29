@@ -1,6 +1,7 @@
 ---
 id: wen26b_interspeech
-category: spoken-language-understanding
+category: resources-evaluation
+labels: [low-resource, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wen26b_interspeech.pdf
 *Yajie Wen, Ziwei Gong, Chengyan Wu, Xiyun Gong, Yun Xue, Julia Hirschberg, Bolei Ma*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wen26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wen26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-289)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `dataset-or-benchmark-release`
 
 **TL;DR** — YUE-PUB-Speech is the first multimodal pragmatic speech dataset for Cantonese, containing 10.87 hours of paired text-audio across 1,680 dialogue instances. Experiments show that incorporating speech signals significantly boosts pragmatic reasoning accuracy, with openSMILE feature concatenation achieving a peak 77.62% average accuracy.
 
@@ -65,6 +68,12 @@ Speech and ML researchers building spoken language understanding or audio-langua
 ## Applications
 
 Improving spoken dialogue systems, smart assistants, and interactive voice response (IVR) agents in low-resource languages by enabling accurate detection of speaker intent, implicature, and sarcasm from speech.
+
+## Institutions / 機構
+
+South China Normal University, Columbia University, Sun Yat-sen University, Guangzhou College of Commerce, LMU Munich, Munich Center for Machine Learning
+
+**Funding / 經費:** National Science Foundation, Guangdong Basic and Applied Basic Research Foundation, National Natural Science Foundation of China, Characteristic Innovation Projects of Guangdong Colleges and Universities, Guangdong Provincial Key Laboratory
 
 ## Related
 

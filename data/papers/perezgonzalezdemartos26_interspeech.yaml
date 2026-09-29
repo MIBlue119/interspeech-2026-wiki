@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/perezgonzalezdemartos26_
 pdf_url: https://www.isca-archive.org/interspeech_2026/perezgonzalezdemartos26_interspeech.pdf
 session: Articulatory, EMG, and Visual Speech Generation
 topics: [tts, speech-translation, multilingual]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "AppTek"
 code:
     url: https://alexdemartos.github.io/NQMT_IS26
     license: ""

@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/papi26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/papi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/papi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-40)
 
+**Category:** `asr`
+
 **TL;DR** — This paper presents the first systematic evaluation of cross-attention as an explanatory proxy for speech-to-text (S2T) models, comparing attention scores against input and encoder saliency maps. The analysis reveals that cross-attention captures only ~50% of input relevance and up to 52-75% of encoder output saliency, demonstrating that it is an incomplete explanation tool.
 
 ## Key contributions
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving the robustness of attention-based timestamp prediction, guiding simultaneous speech recognition and translation architectures, and developing attention-regularized training objectives for speech models.
+
+## Institutions / 機構
+
+Fondazione Bruno Kessler
+
+**Funding / 經費:** European Union
 
 ## Related
 

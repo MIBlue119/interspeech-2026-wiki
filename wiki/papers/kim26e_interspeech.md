@@ -1,6 +1,6 @@
 ---
 id: kim26e_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26e_interspeech.pdf
 *Yunsu Kim, Juyeob Lee, Eunil Park*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-474)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper introduces a transition-aware framework for partially spoofed audio localization that explicitly models directional frame-to-frame transitions (Real-to-Fake and Fake-to-Real) alongside frame authenticity. Evaluated at a challenging 20 ms resolution, it achieves a state-of-the-art frame-level equal error rate of 6.45% on the PartialSpoof Dataset and down to 3.85% on PartialEdit-E2.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated voice security screening, forensic audio analysis, and synthetic speech segment localization in telephony or broadcast media.
+
+## Institutions / 機構
+
+Sungkyunkwan University, University of Toronto, Jaume I University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea government (MSIT)
 
 ## Related
 

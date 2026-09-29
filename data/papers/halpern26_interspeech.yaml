@@ -11,6 +11,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/halpern26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/halpern26_interspeech.pdf
 session: Pathological Speech Assessment 4
 topics: [speech-recognition, paralinguistics, evaluation]
+category: resources-evaluation
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Nagoya University"
+  - "University of Groningen"
+  - "University of Cologne"
+funding:
+  - "Dutch Research Council"
+  - "JSPS KAKENHI"
+  - "BRIDGE Program"
 code:
     url: https://github.com/karkirowle/pathbench
     license: ""

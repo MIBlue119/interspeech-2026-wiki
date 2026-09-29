@@ -1,6 +1,7 @@
 ---
 id: gichamba26_interspeech
 category: speech-coding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gichamba26_interspeech.pdf
 *Alex Gichamba, Moise Busogi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gichamba26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gichamba26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3493)
+
+**Category:** `speech-coding` · **Labels:** `generative-model`
 
 **TL;DR** — A controlled ablation reveals that the quality cliff in low frame rate neural audio codecs is caused by a training misconfiguration (fixed clip duration starving the decoder of context) rather than phonemic collisions or codebook saturation, enabling intelligible speech down to 1.6 Hz (192 bps).
 
@@ -65,6 +68,12 @@ Speech LLM and TTS researchers designing low-latency autoregressive generation p
 ## Applications
 
 Extremely low-latency autoregressive text-to-speech, real-time spoken dialogue systems, and bandwidth-constrained speech communication.
+
+## Institutions / 機構
+
+Carnegie Mellon University
+
+**Funding / 經費:** African Engineering and Technology Network, Mastercard Foundation, Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support, U.S. National Science Foundation
 
 ## Related
 

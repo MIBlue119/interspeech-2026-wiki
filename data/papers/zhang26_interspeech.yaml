@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26_interspeech.pdf
 session: Spatial Audio 3
 topics: [source-separation, self-supervised, evaluation]
+category: enhancement-separation
+labels:
+  - "generative-model"
+institutions:
+  - "Harbin Institute of Technology"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Key Research and Development Program of Xinjiang Uygur Autonomous Region"
+  - "Shenzhen Higher Education Institutions Stability Support Program"
+  - "Guangdong Basic and Applied Basic Research Foundation"
 code:
     url: https://ethuil.github.io/AURA/
     license: ""

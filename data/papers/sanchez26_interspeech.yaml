@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sanchez26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/sanchez26_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
 topics: [tts, evaluation, speaker-verification]
+category: resources-evaluation
+institutions:
+  - "University of Edinburgh"
+funding:
+  - "UKRI Centre for Doctoral Training in Natural Language Processing"
+  - "UKRI"
 code:
     url: https://minixc.github.io/sap/
     license: ""

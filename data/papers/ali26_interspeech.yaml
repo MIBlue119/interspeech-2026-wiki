@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ali26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ali26_interspeech.pdf
 session: Robust and Real-World ASR Systems
 topics: [asr, speech-llm, multilingual]
+category: asr
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Fondazione Bruno Kessler"
+funding:
+  - "Ministero delle Imprese e del Made in Italy"
+  - "European Union"
 code:
     url: https://github.com/mnabihali/Fed-SpeechLLM
     license: ""

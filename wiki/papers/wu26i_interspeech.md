@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26i_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2029)
 
+**Category:** `asr`
+
 **TL;DR** — AFG-Bias is a plug-and-play contextual biasing framework that grounds hotwords in continuous acoustic representations without modifying frozen LLM-ASR parameters, achieving up to 74.1% relative CER reduction on domain-specific benchmarks.
 
 ## Key contributions
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Domain-specific voice assistants, medical dictation systems, and financial transcription engines requiring real-time, hallucination-free customization of rare vocabulary.
+
+## Institutions / 機構
+
+Qifu Technology
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: wu26m_interspeech
-category: speech-deepfake-detection
+category: deepfake-security
+labels: [low-resource, multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26m_interspeech.pdf
 *Jinyang Wu, Nana Hou, Zihan Pan, Qiquan Zhang, Sailor Hardik, Soumik Mondal*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3019)
+
+**Category:** `deepfake-security` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — SEA-Spoof is the first large-scale audio deepfake detection dataset for six South-East Asian languages, comprising 711 hours of paired real and synthetic speech. Benchmarking reveals that top models trained on Western data collapse on SEA languages (up to 61.4% EER), but fine-tuning on SEA-Spoof restores performance to 0.2% EER.
 
@@ -63,6 +66,12 @@ Researchers and security engineers building deployable speech anti-spoofing syst
 ## Applications
 
 Development of fraud-resilient audio biometric security systems, secure conversational banking interfaces, and automated telephony scam-detection pipelines for South-East Asia.
+
+## Institutions / 機構
+
+Agency for Science, Technology and Research, Nanyang Technological University, University of New South Wales
+
+**Funding / 經費:** National Research Foundation, Ministry of Digital Development and Information
 
 ## Related
 

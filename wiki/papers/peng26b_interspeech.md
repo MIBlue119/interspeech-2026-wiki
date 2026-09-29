@@ -1,6 +1,7 @@
 ---
 id: peng26b_interspeech
 category: asr
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/peng26b_interspeech.pdf
 *Jing Peng, Chenghao Wang, Yi Yang, Lirong Qian, Junjie Li, Yu Xi, Shuai Wang, Kai Yu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/peng26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/peng26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-866)
+
+**Category:** `asr` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — TASU2 introduces a controllable text-to-CTC posterior simulation framework that generates pseudo acoustic distributions under specified WER error ranges, enabling zero-audio speech LLM post-training and low-resource domain adaptation that outperforms TTS augmentation while preventing source degradation.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-resource speech recognition adaptation, domain-specific speech LLM post-training, and zero-audio data augmentation for voice interfaces.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, AISpeech Ltd, Nanjing University
+
+**Funding / 經費:** China NSFC Projects, YangtzeRiver Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

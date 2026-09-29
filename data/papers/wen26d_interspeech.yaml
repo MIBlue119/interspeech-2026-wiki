@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wen26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wen26d_interspeech.pdf
 session: Speech Production and Perception 2
 topics: [silent-speech-recognition, self-supervised, dataset]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "National University of Defense Technology"
+  - "Chinese Academy of Sciences"
+funding:
+  - "National Science and Technology Major Project"
+  - "National University of Defense Technology"
 code:
     url: ""
     license: ""

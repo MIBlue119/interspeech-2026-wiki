@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/arcosholzinger26_intersp
 pdf_url: https://www.isca-archive.org/interspeech_2026/arcosholzinger26_interspeech.pdf
 session: Speech Representations and Alignment
 topics: [self-supervised, evaluation, asr]
+category: asr
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "University of Melbourne"
+  - "Monash University"
+  - "Johns Hopkins University"
+funding:
+  - "Australian Government Research Training Program Scholarship"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: lamba26_interspeech
-category: speech-enhancement
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lamba26_interspeech.pdf
 *Ada Lamba, Donald S. Williamson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lamba26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lamba26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2382)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper investigates what frequency bands drive speech quality assessment models (MOSNet, DNSMOS, SCOREQ) using SHAP, partial dependence plots, and perturbation analysis, and compares these findings against a human listening study. Results show that both networks and humans are substantially more sensitive to detrimental factors (like audio distortion and noise) than beneficial ones, and that top-performing models leverage broader input representations than underperforming ones.
 
@@ -62,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech enhancement evaluation, robust telecommunications quality monitoring, generative speech synthesis benchmarking, and acoustic model data curation.
+
+## Institutions / 機構
+
+Ohio State University
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

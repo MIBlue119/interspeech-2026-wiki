@@ -1,6 +1,6 @@
 ---
 id: xiang26b_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xiang26b_interspeech.pdf
 *Jian Xiang, Jingyao Wu, Ting Dang, Vidhyasaharan Sethu, Eliathamby Ambikairajah*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xiang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xiang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3030)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper introduces Accumulated Delay Compensation (ADC), which replaces traditional explicit label shifting with feature-level temporal moving averages to account for human annotation lag in continuous emotion recognition. ADC achieves competitive Concordance Correlation Coefficients (CCC of 0.820 for arousal and 0.493 for valence) on RECOLA while offering significantly greater robustness to temporal parameter selection.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time continuous emotion recognition, dimensional affect analysis, and dynamic affective computing systems for human-computer interaction.
+
+## Institutions / 機構
+
+University of New South Wales, Massachusetts Institute of Technology, University of Melbourne
 
 ## Related
 

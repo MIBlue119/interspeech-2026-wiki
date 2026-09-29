@@ -1,6 +1,7 @@
 ---
 id: shimizu26_interspeech
-category: target-speaker-extraction
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.pdf
 *Riki Shimizu, Xilin Jiang, Nima Mesgarani*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shimizu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-109)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — MeanFlow-TSE is a one-step generative target speaker extraction framework that uses mean-flow objectives and mixing-ratio-aware initialization, achieving state-of-the-art SI-SDR (18.80 dB on Libri2Mix Clean) in a single inference step.
 
@@ -67,6 +70,12 @@ Researchers and audio engineers building real-time, low-latency speech extractio
 ## Applications
 
 Real-time hearing aids, live telecommunications, and robust front-ends for downstream automatic speech recognition in noisy environments.
+
+## Institutions / 機構
+
+Columbia University
+
+**Funding / 經費:** National Institutes of Health, Marie-Josée and Henry R. Kravis
 
 ## Related
 

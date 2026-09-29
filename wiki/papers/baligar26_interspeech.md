@@ -1,6 +1,6 @@
 ---
 id: baligar26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/baligar26_interspeech.pdf
 *Shrishail Baligar, Ahmed Yousef, Daryush Mehta*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/baligar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/baligar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-159)
+
+**Category:** `health-clinical`
 
 **TL;DR** — The paper introduces the Articulatory Weakness Index (AWI), an interpretable, audio-estimable scalar metric derived from EMA kinematics that quantifies articulatory hypokinesia. AWI successfully separates Parkinson's disease (PD) speech from healthy controls and correlates with clinical motor scores while remaining invariant to laryngeal pathology.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical screening, remote telehealth monitoring of motor disease progression in Parkinson's disease, and subsystem-specific speech therapy targeting.
+
+## Institutions / 機構
+
+Massachusetts General Hospital
+
+**Funding / 經費:** Voice Health Institute, National Institutes of Health
 
 ## Related
 

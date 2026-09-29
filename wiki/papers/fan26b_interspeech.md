@@ -1,6 +1,7 @@
 ---
 id: fan26b_interspeech
-category: speech-llm
+category: speaker
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fan26b_interspeech.pdf
 *Xulin Fan, Jialu Li, Mohammad Nur Hossain Khan, Kexin Hu, Bashima Islam, Mark Hasegawa-Johnson, Nancy L. McElwain*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fan26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fan26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2746)
+
+**Category:** `speaker` · **Labels:** `self-supervised`
 
 **TL;DR** — A multi-tier audio tagging framework for naturalistic infant-centered home recordings combines a LoRA-finetuned Whisper encoder with a target-speaker-aware Transformer to jointly perform diarization and vocalization classification. It achieves an average Macro-F1 of 74.88% across four speaker tiers, outperforming prior SSL and adaptation baselines.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated behavioral analysis of infant-caregiver interactions in home and clinical environments using wearable audio devices.
+
+## Institutions / 機構
+
+University of Illinois Urbana-Champaign, University of Arizona, Worcester Polytechnic Institute
+
+**Funding / 經費:** National Institute on Drug Abuse
 
 ## Related
 

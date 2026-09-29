@@ -19,6 +19,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.pdf
 session: Explainability for Compliance and Trust in Speech AI
 topics: [speech-llm, emotion-recognition, self-supervised]
+category: paralinguistics-emotion
+institutions:
+  - "Chinese University of Hong Kong"
+  - "Institute of Software, Chinese Academy of Sciences"
+  - "National Research Council Canada"
+  - "Tsinghua University"
+funding:
+  - "Hong Kong RGC GRF"
+  - "National Natural Science Foundation of China"
+  - "Beijing Natural Science Foundation-Xiaomi Innovation Joint Fund"
+  - "Youth Innovation Promotion Association CAS"
 code:
     url: ""
     license: ""

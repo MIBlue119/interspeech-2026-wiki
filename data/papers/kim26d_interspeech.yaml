@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26d_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
 topics: [speaker-verification, voice-conversion, self-supervised]
+category: deepfake-security
+institutions:
+  - "Chosun University"
+  - "National Forensic Service"
+  - "Glosori Inc"
+funding:
+  - "Innopolis Foundation"
+  - "Commercialization Promotion Agency for R&D Outcomes"
 code:
     url: ""
     license: ""

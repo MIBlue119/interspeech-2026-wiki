@@ -1,6 +1,7 @@
 ---
 id: cheng26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cheng26_interspeech.pdf
 *Bo Cheng, Songjun Cao, Xiaoming Zhang, Jie Chen, Long Ma, Fei Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cheng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cheng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-158)
+
+**Category:** `deepfake-security` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — This paper proposes a diffusion-based audio reconstruction framework combined with multi-layer feature aggregation and Regularization-Assisted Contrastive Learning (RACL) to dramatically improve cross-domain generalization in audio deepfake detection, reducing average EER from 15.79% to 8.25% across five test sets.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Deploying robust audio forensic verification tools for spotting telecommunication fraud, deepfake voice impersonation, and unverified social media audio clips.
+
+## Institutions / 機構
+
+Southern University of Science and Technology, Tencent Youtu Lab
+
+**Funding / 經費:** Shenzhen Key Technology Program Funding, Center for Computational Science and Engineering at Southern University of Science and Technology
 
 ## Related
 

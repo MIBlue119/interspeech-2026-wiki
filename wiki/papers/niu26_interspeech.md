@@ -1,6 +1,7 @@
 ---
 id: niu26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/niu26_interspeech.pdf
 *Zhikang Niu, Shujie Hu, Jeongsoo Choi, Yushen Chen, Peining Chen, Pengcheng Zhu, Yunting Yang, Bowen Zhang, Jian Zhao, Chunhui Wang, Xie Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/niu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/niu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-533)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — Semantic-VAE introduces semantic alignment regularization to VAE latent spaces for non-autoregressive speech synthesis, resolving the reconstruction-generation dilemma and achieving a state-of-the-art 2.10% WER on LibriSpeech-PC.
 
@@ -67,6 +70,12 @@ Speech researchers and engineers working on non-autoregressive TTS or latent dif
 ## Applications
 
 Zero-shot text-to-speech, personalized voice cloning, and high-efficiency on-device speech synthesis systems.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, Shanghai Innovation Institute, Chinese University of Hong Kong, KAIST, Geely
+
+**Funding / 經費:** National Natural Science Foundation of China, Shanghai Municipal Science and Technology Major Project, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

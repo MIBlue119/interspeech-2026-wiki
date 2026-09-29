@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26j_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-753)
 
+**Category:** `tts`
+
 **TL;DR** — This paper presents a geometric vocal fold model for articulatory speech synthesis featuring biomechanically-motivated soft contacting and de-contacting phases, achieving a significant preference of 58.1% in A/B tests and a mean opinion score (MOS) of 3.02 compared to 2.68 for the baseline.
 
 ## Key contributions
@@ -63,6 +65,12 @@ Speech researchers and TTS engineers working on articulatory speech synthesis wi
 ## Applications
 
 Articulatory text-to-speech systems, low-resource language speech synthesis, and basic phonetic and speech production research.
+
+## Institutions / 機構
+
+TU Dresden
+
+**Funding / 經費:** German Research Foundation, German Federal Ministry for Economic Affairs and Energy, Zentrales Innovationsprogramm Mittelstand
 
 ## Related
 

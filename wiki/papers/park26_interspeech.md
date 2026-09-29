@@ -1,6 +1,6 @@
 ---
 id: park26_interspeech
-category: speech-enhancement
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26_interspeech.pdf
 *Chanwoo Park, Chanwoo Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-130)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — ACF-SED proposes a framework that injects per-frame confidence maps from a Multi-Resolution Adaptive Line Enhancer (MRAB) directly into Transformer attention and feature modulation for sleep sound event detection, achieving a state-of-the-art Event-F1 of 0.7105 on the APSAA dataset.
 
@@ -66,6 +68,12 @@ Researchers and engineers building audio-based biomedical screening or adaptive 
 ## Applications
 
 Noninvasive, low-cost home screening for obstructive sleep apnea and automated acoustic front-end for multimodal neurocognitive or sleep-disordered breathing monitoring systems.
+
+## Institutions / 機構
+
+Korea University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, National Research Foundation of Korea, Ministry of Science and ICT, Ministry of SMEs and Startups, Supreme Prosecutor's Office
 
 ## Related
 

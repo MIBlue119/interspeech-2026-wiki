@@ -8,6 +8,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/azzouz26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/azzouz26_interspeech.pdf
 session: Speech Production and Perception 2
 topics: [phonetics, speech-enhancement, dataset]
+category: phonetics-linguistics
+institutions:
+  - "Universite de Lorraine"
+  - "CNRS"
+  - "Inria"
 code:
     url: ""
     license: ""

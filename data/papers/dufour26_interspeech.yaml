@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dufour26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/dufour26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
 topics: [speech-anonymization, speaker-verification, evaluation]
+category: deepfake-security
+institutions:
+  - "Universite de Lorraine"
+  - "CNRS"
+  - "Inria"
+  - "Avignon University"
+funding:
+  - "Agence Nationale de la Recherche"
+  - "SpeechPrivacy"
 code:
     url: https://github.com/OraneD/Speaker-Linkability
     license: ""

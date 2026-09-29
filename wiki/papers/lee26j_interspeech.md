@@ -1,6 +1,7 @@
 ---
 id: lee26j_interspeech
 category: tts
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26j_interspeech.pdf
 *Hanna Lee, Tan Dat Nguyen, Jaehoon Kang, Kyuhong Shim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-943)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — WAND adapts pretrained autoregressive text-to-speech models to use constant-complexity windowed attention and knowledge distillation, achieving up to 66.2% KV cache reduction and length-invariant latency with negligible quality loss.
 
@@ -60,6 +63,12 @@ Speech and ML engineers building real-time or streaming neural TTS systems will 
 ## Applications
 
 Real-time streaming text-to-speech, conversational voice assistants, and long-form audiobook generation on memory-constrained edge devices.
+
+## Institutions / 機構
+
+Korea Advanced Institute of Science and Technology, Sungkyunkwan University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

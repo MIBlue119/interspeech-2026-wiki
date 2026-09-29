@@ -14,6 +14,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
 topics: [asr, speech-llm, evaluation]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "NVIDIA"
 code:
     url: https://github.com/nithinraok/preference-asr-bench
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: s26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/s26_interspeech.pdf
 *Seshan S, Murali Kadambi, Amartya Veer, Prasanta Kumar Ghosh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/s26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/s26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3047)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — A controlled evaluation of 132 experimental conditions reveals that fine-tuning pretrained ASR models on gender-balanced data fails to systematically alter gender disparity, whereas models trained entirely from scratch show dramatic, predictable shifts in recognition error rates based on training gender ratios.
 
@@ -67,6 +70,12 @@ Speech researchers and fair-ML engineers should read this paper to avoid wasting
 ## Applications
 
 Auditing and improving fairness in automatic speech recognition systems, building equitable speech interfaces, and guiding data curation strategies for foundation speech models.
+
+## Institutions / 機構
+
+Indian Institute of Science
+
+**Funding / 經費:** Defence Research and Development Organisation
 
 ## Related
 

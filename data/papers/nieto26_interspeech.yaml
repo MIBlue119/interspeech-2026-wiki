@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nieto26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/nieto26_interspeech.pdf
 session: Language and Dialect Recognition
 topics: [asr, multilingual, evaluation]
+category: asr
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Stanford University"
+  - "Google"
 code:
     url: https://doi.org/10.5281/zenodo.20575155
     license: ""

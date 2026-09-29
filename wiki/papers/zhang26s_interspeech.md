@@ -1,6 +1,7 @@
 ---
 id: zhang26s_interspeech
 category: asr
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26s_interspeech.pdf
 *Tao Zhang, haiyang Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26s_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26s_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1228)
+
+**Category:** `asr` · **Labels:** `low-resource`
 
 **TL;DR** — DASR-CPO is a reference-free contrastive preference optimization method that corrects Mandarin semantic drift in low-resource Chinese dialect ASR by penalizing mined Mandarin homophone confusions on local spans. On 4.53 hours of Sichuanese data, it reduces CER from 24.85% to 22.58% and increases dialect-entity F1 from 72.82 to 74.15 with zero inference-time overhead.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-resource speech recognition, regional dialect transcription, and entity-critical voice-controlled assistants.
+
+## Institutions / 機構
+
+Beijing University of Posts and Telecommunications
 
 ## Related
 

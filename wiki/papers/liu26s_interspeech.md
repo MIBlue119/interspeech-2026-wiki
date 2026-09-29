@@ -1,6 +1,7 @@
 ---
 id: liu26s_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26s_interspeech.pdf
 *Biao Liu, Haoyuan Xie, Zengqiang Shang, Mou Wang, Xin Liu, Pengyuan Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26s_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26s_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3478)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `robustness-noise`
 
 **TL;DR** — This paper presents a lightweight two-stage framework for real-world far-field speech enhancement that bridges the distribution gap between simulated and real recordings via latent representation alignment, achieving 2.94 in P.835 OVRL and 3.35 in P.808 with 0.8 GMAC/s complexity.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart speakers, far-field voice interaction systems, and teleconferencing hardware deployed on resource-constrained edge devices.
+
+## Institutions / 機構
+
+Chinese Academy of Sciences, University of Chinese Academy of Sciences, OPPO
+
+**Funding / 經費:** OPPO Research Fund, National Natural Science Foundation of China, CPSF Postdoctoral Fellowship
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: mokshagundam26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mokshagundam26_interspeech.pd
 *Namrata Mokshagundam, Sai Harshitha Aluru, Chiranjeevi Yarra*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mokshagundam26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mokshagundam26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3144)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — A fully boundary-independent architecture uses a hierarchical CNN to convert frame-level self-supervised speech representations directly into syllable-level representations, achieving up to 94.86% (GER) and 96.24% (ITA) accuracy on lexical stress detection for L2 learners.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-Assisted Language Learning (CALL) systems, automated pronunciation scoring, and L2 speech diagnostic tools.
+
+## Institutions / 機構
+
+International Institute of Information Technology Hyderabad
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: polak26_interspeech
-category: speech-translation
+category: translation
+labels: [multilingual, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/polak26_interspeech.pdf
 *Peter Polák, Sara Papi, Luisa Bentivogli, Ondřej Bojar*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/polak26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/polak26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-575)
+
+**Category:** `translation` · **Labels:** `multilingual`, `streaming-real-time`
 
 **TL;DR** — This paper presents the first comprehensive meta-evaluation of latency metrics for simultaneous speech-to-text translation (SimulST), uncovering structural segmentation biases and introducing YAAL, LongYAAL, and SOFTSEGMENTER within the OMNISTEVAL toolkit. Through extensive analysis of IWSLT shared task systems, the authors demonstrate that while traditional metrics suffer from anomalies caused by tail words and degenerate policies, the proposed methods achieve over 93-98% accuracy in approximating true latency.
 
@@ -68,6 +71,12 @@ Speech translation researchers and ML engineers building streaming systems shoul
 ## Applications
 
 Simultaneous speech translation system evaluation, benchmark design for real-time speech-to-text pipelines, and diagnostic auditing of commercial translation latency.
+
+## Institutions / 機構
+
+Charles University, Fondazione Bruno Kessler, AppTek
+
+**Funding / 經費:** Project OP JAK Mezisektorová spolupráce, European Union's Horizon research and innovation programme
 
 ## Related
 

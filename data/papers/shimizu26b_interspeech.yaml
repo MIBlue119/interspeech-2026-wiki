@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shimizu26b_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/shimizu26b_interspeech.pdf
 session: Prominence, Stress and Focus
 topics: [prosody, self-supervised, on-device]
+category: phonetics-linguistics
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "University of Tsukuba"
 code:
     url: ""
     license: ""

@@ -11,6 +11,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nkouanga26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/nkouanga26_interspeech.pdf
 session: Multi-Speaker Processing, Personalization, and Adaptation
 topics: [asr, speaker-diarization, source-separation]
+category: asr
+institutions:
+  - "Portland State University"
+  - "US Army Research Laboratory"
 code:
     url: ""
     license: ""

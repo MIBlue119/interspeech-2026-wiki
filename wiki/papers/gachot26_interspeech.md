@@ -1,6 +1,7 @@
 ---
 id: gachot26_interspeech
-category: self-supervised
+category: speech-llm-dialogue
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gachot26_interspeech.pdf
 *Julia Gachot, Philipp Allgeuer, Marie S. Bauer, Stefan Wermter*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gachot26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gachot26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2768)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`
 
 **TL;DR** — This paper establishes a unified theoretical formalism for auto-regressive decoding in speech and sequence processing, framing generation as a stochastic integer problem under probabilistic constraints (SIPC). It provides explicit inclusion criteria and a modular four-step architecture (Estimation, Decision, Prior Update, Termination) to categorize search strategies and enable targeted ablation studies.
 
@@ -58,6 +61,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Standardizing inference algorithm design, building task-agnostic decoding benchmarks, and optimizing speech generation pipelines for speed, diversity, and accuracy.
+
+## Institutions / 機構
+
+University of Hamburg
+
+**Funding / 經費:** Horizon Europe, German Research Foundation
 
 ## Related
 

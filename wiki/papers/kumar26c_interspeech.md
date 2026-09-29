@@ -1,6 +1,7 @@
 ---
 id: kumar26c_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kumar26c_interspeech.pdf
 *Chowdam Venkata Kumar, Kumud Tripathi, Pankaj Wasnik*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kumar26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kumar26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1007)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper addresses Whisper's high Word Error Rates on morphologically rich, low-resource Dravidian languages by introducing two decoder enhancements: Weighted-Attention for balancing attention sources and a Self-Conditioning module for token consistency. Together, they reduce average WER by up to 3.00% on challenging languages like Malayalam.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual speech recognition systems, voice interfaces for low-resource and agglutinative regional languages, and robust transcription pipelines for morphologically rich linguistic families.
+
+## Institutions / 機構
+
+Sony
 
 ## Related
 

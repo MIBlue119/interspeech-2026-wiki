@@ -16,6 +16,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/burdisso26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/burdisso26_interspeech.pdf
 session: Multi-Speaker Processing, Personalization, and Adaptation
 topics: [asr, speech-llm, self-supervised]
+category: asr
+institutions:
+  - "Idiap Research Institute"
+  - "EPFL"
+  - "University of Zurich"
+  - "Uniphore"
+  - "Brno University of Technology"
+funding:
+  - "Idiap Research Institute and Uniphore collaboration project"
+  - "EU Horizon 2020 project ELOQUENCE"
 code:
     url: https://github.com/idiap/llm-asr-text-only-adaptation
     license: ""

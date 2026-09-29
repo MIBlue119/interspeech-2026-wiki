@@ -1,6 +1,7 @@
 ---
 id: cortes26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cortes26_interspeech.pdf
 *Elísabet Eir Cortes, Lisa Gustavsson, Ellen Marklund*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cortes26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cortes26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2647)
+
+**Category:** `phonetics-linguistics` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The ArtComp dataset provides time-aligned acoustic, electromagnetic articulography (EMA), EGG, and video recordings from 7 Swedish speakers uttering 18 vowels under natural jaw perturbations caused by variable vocal effort. It captures 3,000 total tokens (1,100 fully analyzed) to support research on compensatory articulation.
 
@@ -56,6 +59,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Acoustic-to-articulatory inversion, articulatory speech synthesis, speech motor control modeling, and clinical assessments of speech production.
+
+## Institutions / 機構
+
+Stockholm University
+
+**Funding / 經費:** The L3WOproject, The Marcus and Amalia Wallenberg Foundation
 
 ## Related
 

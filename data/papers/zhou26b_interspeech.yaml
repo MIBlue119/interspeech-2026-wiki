@@ -14,6 +14,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhou26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26b_interspeech.pdf
 session: Phonetic Aspects of TTS and ASR Systems
 topics: [evaluation, voice-conversion, prosody]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Chinese Academy of Sciences"
+  - "Capital Normal University"
+funding:
+  - "National Key R&D Program of China"
+  - "NSFC"
+  - "China Disabled Persons Federation"
+  - "Youth Innovation Promotion Association CAS Grant"
+  - "China Postdoctoral Science Foundation"
 code:
     url: https://github.com/Plachtaa/seed-vc
     license: ""

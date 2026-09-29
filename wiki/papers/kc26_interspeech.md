@@ -1,6 +1,6 @@
 ---
 id: kc26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kc26_interspeech.pdf
 *Bhasi K.C., Rajeev Rajan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kc26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kc26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1535)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper proposes a voice mimicry assessment framework that uses attention-augmented ECAPA-TDNN speaker embeddings derived from both spectral and prosodic features, achieving a top-1 hit rate of 75% on the MIMICz dataset via score fusion.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice biometric security, anti-spoofing systems for speaker verification, and forensic audio analysis.
+
+## Institutions / 機構
+
+Government Engineering College Barton Hill, Government Engineering College Idukki, APJ Abdul Kalam Technological University
 
 ## Related
 

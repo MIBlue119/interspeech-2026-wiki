@@ -1,6 +1,7 @@
 ---
 id: popescu26_interspeech
-category: low-resource
+category: applications-other
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.pdf
 *Anisia Popescu, Serban Din, Marinela Axinte*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/popescu26_interspeech.html)
+
+**Category:** `applications-other` · **Labels:** `low-resource`
 
 **TL;DR** — We introduce lisero, a freely accessible mobile application designed to provide structured lessons and interactive practice exercises for learning Romanian Sign Language (LSR). The app features approximately 1,000 dictionary signs, two parallel curricula, and three distinct exercise types.
 
@@ -58,6 +61,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Accessible mobile-based L2 language learning, early childhood bimodal bilingual education for deaf infants, and foundational training support for sign language interpreters.
+
+## Institutions / 機構
+
+Université Paris 8, Solid Technologies, Babeș-Bolyai University, CODA - Farmecul Tăcerii Foundation
+
+**Funding / 經費:** Fundatia CODA - Farmecul Tacerii
 
 ## Related
 

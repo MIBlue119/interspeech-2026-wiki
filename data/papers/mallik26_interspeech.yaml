@@ -12,6 +12,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mallik26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/mallik26_interspeech.pdf
 session: Audio Understanding and Representation Learning
 topics: [speech-enhancement, self-supervised, dataset]
+category: audio-understanding
+labels:
+  - "self-supervised"
+institutions:
+  - "Sony"
 code:
     url: ""
     license: ""

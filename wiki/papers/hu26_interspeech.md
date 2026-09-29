@@ -1,6 +1,7 @@
 ---
 id: hu26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hu26_interspeech.pdf
 *Zeqian Hu, Fuliang Weng, Shu Shang, Yaqian Zhou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-304)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — ArtNet introduces a JEPA-like articulatory predictive framework with a variational information bottleneck to suppress language-specific variations, achieving a 20.56% relative phoneme error rate reduction in zero-shot cross-lingual transfer.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-resource zero-shot automatic speech recognition and cross-lingual phonetic transfer for unwritten or under-resourced languages.
+
+## Institutions / 機構
+
+Fudan University, Logos & Dialogos
 
 ## Related
 

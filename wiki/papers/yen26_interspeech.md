@@ -1,6 +1,7 @@
 ---
 id: yen26_interspeech
 category: asr
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yen26_interspeech.pdf
 *Hao Yen, Pin-Jui Ku, Ante Jukić, Sabato Marco Siniscalchi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-488)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — MDM-ASR introduces an audio-conditioned masked diffusion non-autoregressive (NAR) decoding framework for ASR, achieving a 1B parameter model that outperforms prior NAR models and matches strong autoregressive baselines with a ~4.1x speedup in RTFx over prior diffusion models.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time speech transcription, interactive voice assistants, and low-latency multilingual automatic speech recognition.
+
+## Institutions / 機構
+
+Georgia Institute of Technology, Universita degli Studi di Palermo, NVIDIA
 
 ## Related
 

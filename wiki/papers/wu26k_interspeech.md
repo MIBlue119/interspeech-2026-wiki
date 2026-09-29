@@ -1,6 +1,7 @@
 ---
 id: wu26k_interspeech
 category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26k_interspeech.pdf
 *Yi Wu, Guibin Zheng, Chenhao Jing, Jiqing Han, Jiarui Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2124)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — The paper introduces Key-Value Pooling Attention (KV-Pooling) to mitigate self-attention quadratic complexity in ASR by downsampling Key and Value tensors via parameter-free average pooling while keeping Queries at full resolution. This achieves up to a 10% inference speedup (RTF) alongside absolute error reductions of 0.2% CER on AISHELL-1 and 0.3% WER on LibriSpeech.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-latency streaming automatic speech recognition, on-device voice interfaces, and compute-constrained acoustic modeling environments.
+
+## Institutions / 機構
+
+Harbin Institute of Technology
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: dinh26b_interspeech
 category: speech-coding
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dinh26b_interspeech.pdf
 *Son Dang Dinh, Nguyen Thi Minh Anh, Nhat Tran Hong, Huyen Ngo Thi Thu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dinh26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dinh26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3474)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — LitCodec is a semantic-aware, low-latency streaming neural speech codec that injects ASR supervision prior to Finite Scalar Quantization to produce a unified, single-codebook token stream. It achieves state-of-the-art PESQ (2.56) and STOI (0.925) alongside a 2.8% WER among streaming codecs at 800 bps and 50 tokens per second.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time live captioning, streaming speech-to-speech translation, and speech-language model tokenization.
+
+## Institutions / 機構
+
+Torilab AI, Viettel Group, Hanoi University of Science and Technology
 
 ## Related
 

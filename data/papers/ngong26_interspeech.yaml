@@ -14,6 +14,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ngong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ngong26_interspeech.pdf
 session: Speaker Privacy and Anonymization
 topics: [speaker-verification, voice-conversion, evaluation]
+category: deepfake-security
+institutions:
+  - "University of Vermont"
+  - "Galois"
+funding:
+  - "Intelligence Advanced Research Projects Activity"
+  - "Department of Interior/Interior Business Center"
 code:
     url: https://github.com/uvm-plaid/dpvc
     license: ""

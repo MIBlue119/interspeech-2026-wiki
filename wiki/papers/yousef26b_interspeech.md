@@ -1,6 +1,7 @@
 ---
 id: yousef26b_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yousef26b_interspeech.pdf
 *Ahmed Yousef, Robert Hillman, Jarrad Van Stan, Matías Zañartu, Hamzeh Ghasemzadeh, Ben Kevelson, Daryush Mehta*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yousef26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yousef26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3049)
+
+**Category:** `health-clinical` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The Interspeech 2026 NeckVibe Challenge released 46,400 hours of week-long ambulatory smartphone-accelerometer voice data to detect vocal hyperfunction, yielding test AUCs up to 0.93 for phonotraumatic voice disorders and 0.86 for nonphonotraumatic disorders.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated remote screening, personalized diagnostic tracking, and real-time biofeedback systems for vocal hyperfunction and occupational voice disorders.
+
+## Institutions / 機構
+
+Massachusetts General Hospital, Harvard Medical School, Universidad Tecnica Federico Santa Maria, University of Central Florida
+
+**Funding / 經費:** National Institutes of Health, National Institute on Deafness and Other Communication Disorders
 
 ## Related
 

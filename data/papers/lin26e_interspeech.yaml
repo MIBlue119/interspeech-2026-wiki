@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lin26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lin26e_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
 topics: [speech-llm, evaluation, self-supervised]
+category: applications-other
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "National Taiwan Normal University"
+funding:
+  - "Language Training and Testing Center, Taiwan"
 code:
     url: ""
     license: ""

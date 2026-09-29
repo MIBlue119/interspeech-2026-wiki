@@ -14,6 +14,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/myrgyyassov26_interspeec
 pdf_url: https://www.isca-archive.org/interspeech_2026/myrgyyassov26_interspeech.pdf
 session: Speech Production and Perception 2
 topics: [phonetics, evaluation, health]
+category: phonetics-linguistics
+institutions:
+  - "Hong Kong Polytechnic University"
+funding:
+  - "Young Innovative Researcher Award Scheme"
+  - "Research Grants Council of Hong Kong"
 code:
     url: ""
     license: ""

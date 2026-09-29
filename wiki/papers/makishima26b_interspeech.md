@@ -1,6 +1,6 @@
 ---
 id: makishima26b_interspeech
-category: audio-visual-speech-recognition
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/makishima26b_interspeech.pdf
 *Naoki Makishima, Suzuka Yamada, Taiga Yamane, Mana Ihori, Tanaka Tomohiro, Satoshi Suzuki, Shota Orihashi, Ryo Masumura*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/makishima26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/makishima26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1592)
+
+**Category:** `asr`
 
 **TL;DR** — This paper proposes a unified audio-visual speaker-attributed speech recognition method that handles both on-screen and off-screen speakers in multi-talker conversations by introducing a dedicated [None] video token. It significantly outperforms conventional cascading and joint baselines in visual word and time error rates when off-screen participants are present.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated meeting transcription, multi-speaker conversational analysis, and smart-room video conferencing systems with partial camera visibility.
+
+## Institutions / 機構
+
+NTT
 
 ## Related
 

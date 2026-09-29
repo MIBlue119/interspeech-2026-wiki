@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/arefeen26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/arefeen26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
 topics: [speaker-verification, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "self-supervised"
+institutions:
+  - "Singapore Institute of Technology"
+  - "Duke Kunshan University"
+  - "NVIDIA"
+funding:
+  - "Singapore Ministry of Education Academic Research Fund Tier 1"
 code:
     url: https://github.com/monkeyDarefeen/DAST
     license: ""

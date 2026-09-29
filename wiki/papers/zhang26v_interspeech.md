@@ -1,6 +1,6 @@
 ---
 id: zhang26v_interspeech
-category: speech-production
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26v_interspeech.pdf
 *Yubin Zhang, Xuan Shi, Kevin Huang, Prakash Kumar, Kevin Lee, Louis Goldstein, Krishna Nayak, Shrikanth Narayanan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26v_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26v_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1402)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper introduces a Mask2Former-based deep learning pipeline for automated larynx segmentation in low-field (0.55T) real-time speech MRI, demonstrating that 33-79 annotations per participant are sufficient before hitting diminishing returns. It uses this pipeline to conduct a phonetic study on Mandarin tones, revealing fine-grained spatiotemporal dynamics of intrinsic and extrinsic pitch control.
 
@@ -65,6 +67,12 @@ Speech researchers and machine learning engineers working on biomedical image se
 ## Applications
 
 Automated analysis of laryngeal dynamics for phonetic research, speech pathology diagnostics, and computational modeling of linguistic tone, voicing, and phonation.
+
+## Institutions / 機構
+
+University of Southern California
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

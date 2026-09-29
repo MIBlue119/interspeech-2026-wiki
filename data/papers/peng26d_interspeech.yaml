@@ -21,6 +21,21 @@ isca_url: https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/peng26d_interspeech.pdf
 session: Spoken Language Understanding
 topics: [speech-llm, spoken-language-understanding, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Shanghai Jiao Tong University"
+  - "Central South University"
+  - "AISpeech Co., Ltd"
+  - "Shanghai Innovation Institute"
+  - "Harbin Institute of Technology"
+  - "Shanghai Aviation Electric Co., Ltd"
+  - "National University of Defense Technology"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Shanghai Municipal Science and Technology Major Project"
+  - "Yangtze River Delta Science and Technology Innovation Community Joint Research Project"
 code:
     url: https://github.com/Gatsby-web/MAC_SLU
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: kirkham26_interspeech
-category: speech-production
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kirkham26_interspeech.pdf
 *Sam Kirkham*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kirkham26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kirkham26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1804)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — PyPhonPlan is a Python toolkit that unifies dynamic neural fields (DNFs) with task dynamic simulations to model speech planning, perception, and memory. It demonstrates emergent interactive speech phenomena like phonetic convergence and articulatory accommodation in a shadowing task.
 
@@ -60,6 +62,12 @@ Speech researchers and computational phoneticians interested in biologically-gro
 ## Applications
 
 Simulating speech motor control, modeling phonetic accommodation and shadowing experiments, and studying agent-based interactive spoken communication.
+
+## Institutions / 機構
+
+Lancaster University
+
+**Funding / 經費:** Arts and Humanities Research Council, The Royal Society, The Leverhulme Trust
 
 ## Related
 

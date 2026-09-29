@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cai26_interspeech.pdf
 session: Assistive Technologies 2
 topics: [speech-enhancement, evaluation, phonetics]
+category: health-clinical
+institutions:
+  - "Southern University of Science and Technology"
+funding:
+  - "National Key Research and Development Program of China"
+  - "National Natural Science Foundation of China"
 code:
     url: https://www.haskinslaboratories.org/sws
     license: ""

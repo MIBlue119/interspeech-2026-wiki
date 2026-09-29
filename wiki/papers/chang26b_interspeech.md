@@ -1,6 +1,6 @@
 ---
 id: chang26b_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chang26b_interspeech.pdf
 *Yi Chang, Sofiane Laridi, Zhao Ren, Gregory Palmer, Björn W. Schuller, Marco Fisichella*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1125)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper proposes a two-stage defense framework combining adversarial federated learning during training and feature randomisation at inference to protect speech emotion recognition (SER) models against data privacy leaks and white-box adversarial attacks, achieving an unweighted average recall (UAR) of up to 90.15% under FGSM attacks.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Secure voice-operated smart assistants, privacy-preserving mental health monitoring and depression pre-screening in decentralized healthcare networks, and emotion-aware human-computer interaction platforms.
+
+## Institutions / 機構
+
+Imperial College London, Leibniz University Hannover, University of Bremen
+
+**Funding / 經費:** DFG, German Research Foundation, BMBF, KI-Servicezentrum für sensible und kritische Infrastrukturen (KISSKI)
 
 ## Related
 

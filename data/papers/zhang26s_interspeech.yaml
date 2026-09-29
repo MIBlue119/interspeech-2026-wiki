@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26s_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26s_interspeech.pdf
 session: Language and Dialect Recognition
 topics: [asr, low-resource, self-supervised]
+category: asr
+labels:
+  - "low-resource"
+institutions:
+  - "Beijing University of Posts and Telecommunications"
 code:
     url: ""
     license: ""

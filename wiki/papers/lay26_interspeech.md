@@ -1,6 +1,7 @@
 ---
 id: lay26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lay26_interspeech.pdf
 *Bunlong Lay, Timo Gerkmann*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lay26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lay26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2582)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — This paper introduces a general mathematical formalism for interpolating Stochastic Differential Equations (iSDEs) and proposes a fast exponential Runge-Kutta solver that achieves competitive speech restoration quality with only 10 neural network evaluations (NFEs).
 
@@ -66,6 +69,12 @@ Speech and audio researchers building conditional diffusion models should read t
 ## Applications
 
 Real-time or low-latency speech enhancement, dereverberation, bandwidth extension, and artifact removal on edge devices or telephony pipelines.
+
+## Institutions / 機構
+
+University of Hamburg, HITeC-Hamburg
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft, Federal Ministry for Economic Affairs and Climate Action, Zentrales Innovationsprogramm Mittelstand, German Federal Ministry of Research, Technology and Space
 
 ## Related
 

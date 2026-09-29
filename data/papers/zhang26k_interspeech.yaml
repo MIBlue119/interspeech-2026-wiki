@@ -13,6 +13,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26k_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26k_interspeech.pdf
 session: Source Separation 1
 topics: [speech-enhancement, self-supervised, multilingual]
+category: enhancement-separation
+institutions:
+  - "Chinese University of Hong Kong, Shenzhen"
+  - "Nanjing University"
+  - "Shenzhen Loop Area Institute"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Yangtze River Delta Science and Technology Innovation Community Joint Research Project"
+  - "Shenzhen Science and Technology Program"
+  - "Program for Guangdong Introducing Innovative and Enterpreneurial Teams"
+  - "Shenzhen Stability Science Program"
 code:
     url: https://github.com/wenet-e2e/WeSep
     license: ""

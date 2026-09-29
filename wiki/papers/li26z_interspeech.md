@@ -1,6 +1,6 @@
 ---
 id: li26z_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26z_interspeech.pdf
 *Shubo Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26z_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26z_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1597)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper presents the first acoustic phonetic investigation of Nakanamanga, demonstrating that vowel duration provides robust evidence for a phonological length contrast across all five monophthong qualities with long vowels averaging 2.08 times the length of short vowels.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Field linguistics documentation, phonetic analysis tools for underdescribed languages, and improvement of pronunciation dictionaries for Oceanic languages.
+
+## Institutions / 機構
+
+Australian National University
 
 ## Related
 

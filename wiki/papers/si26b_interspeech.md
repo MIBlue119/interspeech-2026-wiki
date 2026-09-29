@@ -1,6 +1,7 @@
 ---
 id: si26b_interspeech
-category: audio-classification
+category: audio-understanding
+labels: [low-resource, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/si26b_interspeech.pdf
 *Yongjie Si, Yanxiong Li, Sen Huang, Beibei Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/si26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/si26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1250)
+
+**Category:** `audio-understanding` · **Labels:** `low-resource`, `robustness-noise`
 
 **TL;DR** — This paper introduces Cross-Domain Few-Shot Class-Incremental Audio Classification (CD-FCAC), a task where a model must continually learn new classes from an unseen target domain using very few samples without forgetting base classes from a source domain. The authors propose an adversarial contrastive learning strategy that achieves state-of-the-art average accuracy across six cross-domain dataset pairs.
 
@@ -65,6 +68,12 @@ Speech and machine learning researchers working on lifelong or continual audio l
 ## Applications
 
 Smart home voice assistants and autonomous mobile robots incrementally learning to recognize new sound events, musical instruments, and voice commands across varying acoustic environments.
+
+## Institutions / 機構
+
+South China University of Technology
+
+**Funding / 經費:** National Natural Science Foundation of China, China-Croatia Science and Technology Cooperation Committee
 
 ## Related
 

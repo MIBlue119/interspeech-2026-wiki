@@ -1,6 +1,7 @@
 ---
 id: keetha26_interspeech
-category: speaker-verification
+category: speaker
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/keetha26_interspeech.pdf
 *Nikhil Keetha, Hima Jyothi R, Nivedita Chennupati, Balaji Padmanaban, Harish Rajamani, Naveen Ambati*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/keetha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/keetha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2097)
+
+**Category:** `speaker` · **Labels:** `multilingual`
 
 **TL;DR** — A two-stage progressive training framework combining backbone fine-tuning and metric learning is proposed to build language-invariant speaker embeddings, reducing Equal Error Rate (EER) from 3.07% to 1.58% on the TidyVoice benchmark.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual speaker verification, speaker diarization, target speaker extraction, and secure multi-language voice authentication systems.
+
+## Institutions / 機構
+
+Meeami Technologies
 
 ## Related
 

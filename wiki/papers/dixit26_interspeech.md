@@ -1,6 +1,7 @@
 ---
 id: dixit26_interspeech
-category: evaluation
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dixit26_interspeech.pdf
 *Satvik Dixit, Soham Deshmukh, Bhiksha Raj*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dixit26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dixit26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3185)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces AQEval, a 10k-sample human-annotated benchmark for Audio Question Answering (AQA) evaluation, and proposes AURA, a metric combining LLM reasoning with CLAP audio entailment that outperforms traditional n-gram and captioning metrics.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated benchmarking of audio-language models, continuous evaluation pipelines for conversational speech assistants, and data quality filtering for speech-text dataset curation.
+
+## Institutions / 機構
+
+Carnegie Mellon University
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

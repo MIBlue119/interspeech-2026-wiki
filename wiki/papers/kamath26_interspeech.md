@@ -1,6 +1,7 @@
 ---
 id: kamath26_interspeech
-category: spatial-audio
+category: resources-evaluation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kamath26_interspeech.pdf
 *Purnima Kamath, Adrian S. Roman, Koichi Saito, Yuki Mitsufuji, Juan P. Bello*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kamath26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kamath26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-252)
+
+**Category:** `resources-evaluation` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper establishes a meta-evaluation framework to assess how generative spatial audio metrics respond to continuous spatial trajectory changes, finding that localization-informed embeddings (F-PSELD) and acoustic maps (MVDR-AM) outperform standard phase or intensity metrics in responsiveness, smoothness, and noise robustness.
 
@@ -65,6 +68,12 @@ Speech and audio researchers building or evaluating generative spatial audio mod
 ## Applications
 
 Benchmarking generative spatial audio models, spatial speech enhancement, immersive virtual reality audio synthesis, and interactive machine listening.
+
+## Institutions / 機構
+
+New York University, Sony AI, Sony Group Corporation
+
+**Funding / 經費:** NYU / SONY Audio Institute for Music Business and Technology
 
 ## Related
 

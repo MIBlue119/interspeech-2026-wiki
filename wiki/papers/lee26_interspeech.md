@@ -1,6 +1,7 @@
 ---
 id: lee26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26_interspeech.pdf
 *Chia-Yu Lee, Huang-Cheng Chou, Tzu-Quan Lin, Yuanchao Li, Ya-Tse Wu, Shrikanth Narayanan, Chi-Chun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-80)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — AdaLTM introduces an adaptive layer-wise task vector merging framework that combines in-domain ASR and SER models into a frozen WavLM-Large backbone, achieving a Macro-F1 of 35.20% and eliminating multi-task optimization conflicts.
 
@@ -69,6 +72,12 @@ Researchers and ML engineers working on multi-task speech processing will learn 
 ## Applications
 
 Speech emotion recognition systems, call center analytics, conversational agents, and affective computing applications requiring robust modeling of both text semantics and acoustic prosody.
+
+## Institutions / 機構
+
+National Tsing Hua University, University of Southern California, National Taiwan University, University of Edinburgh
+
+**Funding / 經費:** NSTC, Taiwan, NSF, ODNI IARPA ARTS
 
 ## Related
 

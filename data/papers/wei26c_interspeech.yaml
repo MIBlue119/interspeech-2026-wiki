@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wei26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wei26c_interspeech.pdf
 session: Spatial Audio 3
 topics: [source-separation, speech-enhancement, evaluation]
+category: enhancement-separation
+institutions:
+  - "Shanghai Jiao Tong University"
+  - "Ningbo Artificial Intelligence Institute"
+  - "Institute of Advanced Intelligence and Computing"
 code:
     url: ""
     license: ""

@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gong26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gong26b_interspeech.pdf
 session: Voice Editing
 topics: [speech-editing, self-supervised, speech-llm]
+category: speech-llm-dialogue
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Shanghai Jiao Tong University"
+  - "Carnegie Mellon University"
+funding:
+  - "China NSFC"
+  - "SJTU Med-X (Medicine & Engineering) Translational Research Grant"
 code:
     url: ""
     license: ""

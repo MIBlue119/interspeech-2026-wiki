@@ -1,6 +1,7 @@
 ---
 id: lin26e_interspeech
-category: speech-llm
+category: applications-other
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26e_interspeech.pdf
 *Hong-Yun Lin, Fu-An Chao, Bi-Cheng Yan, Berlin Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1346)
+
+**Category:** `applications-other` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — The paper introduces LOPA (Latent Ordinal Prototype Alignment) combined with SALR (Semantic-Anchored Layer Routing) to build a lightweight, frozen-backbone Spoken Language Assessment (SLA) model using Whisper. It achieves competitive performance (RMSE 0.361, PCC 0.828) against billion-parameter multimodal LLMs without requiring any backbone fine-tuning.
 
@@ -62,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated computer-assisted language learning (CALL) platforms, automated oral proficiency testing, and real-time educational speech feedback.
+
+## Institutions / 機構
+
+National Taiwan Normal University
+
+**Funding / 經費:** Language Training and Testing Center, Taiwan
 
 ## Related
 

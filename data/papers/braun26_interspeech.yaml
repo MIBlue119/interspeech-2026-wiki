@@ -14,6 +14,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/braun26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/braun26_interspeech.pdf
 session: Pathological Speech Assessment 2
 topics: [health, speech-llm, evaluation]
+category: health-clinical
+labels:
+  - "self-supervised"
+institutions:
+  - "Technische Hochschule Nurnberg"
+  - "Geromed GmbH"
+  - "PMU Klinikum Nurnberg"
+funding:
+  - "Deutsche Forschungsgemeinschaft"
 code:
     url: ""
     license: ""

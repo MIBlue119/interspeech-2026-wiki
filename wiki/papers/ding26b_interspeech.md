@@ -1,6 +1,6 @@
 ---
 id: ding26b_interspeech
-category: speech-enhancement
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ding26b_interspeech.pdf
 *Weikang Ding, Hanqing Guo, Rui Duan, Guangjing Wang, Yuanda Wang, Mingzhe Chen, Qiben Yan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ding26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ding26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-814)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper presents AWM, an adaptive audio watermarking attack framework that uses a two-stage optimization procedure and distribution-matching strategies to bypass state-of-the-art outlier detection defenses while preserving perceptual audio quality.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Testing the robustness and reliability of copyright protection systems, audio watermarking verification services, and forensic deepfake detection frameworks.
+
+## Institutions / 機構
+
+University of Missouri-Kansas City, University of Hawaii at Manoa, University of South Florida, Michigan State University, University of Miami
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

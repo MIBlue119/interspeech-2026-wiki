@@ -1,6 +1,7 @@
 ---
 id: qin26b_interspeech
-category: speech-deepfake-detection
+category: deepfake-security
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/qin26b_interspeech.pdf
 *Siqing Qin, Zhe Li, Kong Aik Lee, Man-Wai Mak*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/qin26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/qin26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1778)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — The paper introduces DADGMoE, a domain-adaptive dual-gating Mixture of Experts framework that processes both raw audio waveforms and self-supervised representations to improve speech deepfake detection under unseen conditions, achieving up to a 40.8% relative EER reduction.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech deepfake detection systems for telephony security, automated media verification, and audio forensics against unseen voice cloning attacks.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University, University of Hong Kong
+
+**Funding / 經費:** Innovation and Technology Fund of the Hong Kong SAR, National Key R&D Program of China
 
 ## Related
 

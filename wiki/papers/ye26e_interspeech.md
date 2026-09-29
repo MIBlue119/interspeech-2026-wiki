@@ -1,6 +1,6 @@
 ---
 id: ye26e_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ye26e_interspeech.pdf
 *Fengwei Ye, Kun Zeng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ye26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ye26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3341)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — OPERA-Net is a dual-stream singing voice deepfake detection architecture that combines phase-consistent time-frequency representations with semantic-guided gating to neutralize background music interference and expose neural vocoder artifacts, achieving a state-of-the-art pooled EER of 1.54% on CtrSVDD.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Singing voice deepfake detection, audio forensics, copyright protection for digital music creation platforms, and automated content moderation against voice impersonation.
+
+## Institutions / 機構
+
+Sun Yat-sen University
 
 ## Related
 

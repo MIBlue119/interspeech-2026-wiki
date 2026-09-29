@@ -1,6 +1,7 @@
 ---
 id: jiang26b_interspeech
 category: speech-coding
+labels: [streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jiang26b_interspeech.pdf
 *Xiao-Hang Jiang, Yang Ai, Rui-Chen Zheng, Lirong Dai, Zhen-Hua Ling, Ji Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jiang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jiang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-466)
+
+**Category:** `speech-coding` · **Labels:** `streaming-real-time`, `generative-model`
 
 **TL;DR** — VoCodec is a fully causal, low-bitrate neural speech codec that employs a voicing-driven quantization strategy, allocating higher bitrates to perceptually sensitive voiced frames and lower bitrates to unvoiced frames. It achieves competitive perceptual quality at 1.1 kbps on 16 kHz audio while reducing bitrates by approximately 27% compared to uniform quantization baselines.
 
@@ -65,6 +68,12 @@ Speech and ML engineers building real-time, low-latency communication systems wi
 ## Applications
 
 Real-time speech communication, mobile VoIP, satellite communication, low-bandwidth audio storage, and streamable neural text-to-speech backends.
+
+## Institutions / 機構
+
+University of Science and Technology of China, Tsinghua University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

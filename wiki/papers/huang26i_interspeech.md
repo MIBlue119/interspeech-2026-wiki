@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26i_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1471)
 
+**Category:** `asr`
+
 **TL;DR** — Align-Consistency extends consistency regularization (CR) to the Align-Refine non-autoregressive ASR framework, improving both supervised training and online pseudo-labeling for semi-supervised learning. It reduces test Word Error Rate (WER) on LibriSpeech-100 from 12.2 to 10.0 (fully supervised) and down to 3.8 with unlabeled data.
 
 ## Key contributions
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building high-throughput, low-latency automatic speech recognition systems for voice assistants, transcription services, and low-resource speech environments using semi-supervised learning.
+
+## Institutions / 機構
+
+University of Iowa
 
 ## Related
 

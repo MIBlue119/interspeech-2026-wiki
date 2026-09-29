@@ -1,6 +1,7 @@
 ---
 id: sadok26_interspeech
-category: self-supervised
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sadok26_interspeech.pdf
 *Samir Sadok, Xavier Alameda-Pineda*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sadok26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sadok26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-733)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — INSIDESSL is a task-agnostic, model-centric framework that analyzes speech self-supervised learning (SSL) models across layer depth using entropy, manifold curvature, perturbation robustness, and a novel Generative Compatibility Matrix (GCM), uncovering distinct optimization regimes like Wav2Vec2's deep-layer entropy collapse.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Guiding the design of next-generation speech SSL architectures, multi-task layer selection, and efficient on-device model pruning based on intrinsic layer-wise topology.
+
+## Institutions / 機構
+
+Inria, Universite Grenoble Alpes, CNRS
 
 ## Related
 

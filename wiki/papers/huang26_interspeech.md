@@ -1,6 +1,6 @@
 ---
 id: huang26_interspeech
-category: spoken-language-understanding
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26_interspeech.pdf
 *Haofeng Huang, Bin Li, Yifei Han, Long Zhang, Yangfan He, Yaxin Xue*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-267)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — MVCL-DAF++ is a multimodal intent recognition framework combining prototype-aware contrastive alignment with coarse-to-fine dynamic attention fusion, achieving a new state-of-the-art weighted F1 score of 75.66% on MIntRec and 59.23% on MIntRec2.0.
 
@@ -68,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Intelligent conversational agents, virtual assistants, and human-centered AI systems requiring robust multimodal intent understanding.
+
+## Institutions / 機構
+
+University of Shanghai for Science and Technology, Chinese Academy of Sciences, University of Minnesota, University of Leeds
+
+**Funding / 經費:** Shenzhen Medical Research Fund, National Key Laboratory of the CAS on Medical Imaging Science and Technology System, Key Research and Development Program of Guangdong Province, Shenzhen STIB programs, Xisike Clinical Oncology Research Foundation
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: choi26g_interspeech
-category: speaker-diarization
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/choi26g_interspeech.pdf
 *Yongseok Choi, Davin Kim, Joon-Hyuk Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/choi26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/choi26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3131)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — SpkGuideDOA enhances multi-speaker direct-path inter-channel phase difference (DP-IPD) localization by injecting implicit speaker-wise representations—generated via an auxiliary VAD-supervised guidance branch—into the spatial cue estimator through residual modulation, achieving superior directional accuracy and lower miss rates with minimal compute overhead.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time multi-speaker tracking, smart conferencing systems, acoustic surveillance, and robust front-end spatial preprocessing for conversational speech recognition.
+
+## Institutions / 機構
+
+Hanyang University
+
+**Funding / 經費:** National Research Foundation of Korea
 
 ## Related
 

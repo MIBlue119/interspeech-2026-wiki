@@ -1,6 +1,7 @@
 ---
 id: ohmura26_interspeech
 category: tts
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ohmura26_interspeech.pdf
 *Junki Ohmura, Yuki Ito, Emiru Tsunoo, Toshiyuki Sekiya, Toshiyuki Kumakura*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ohmura26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ohmura26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2231)
+
+**Category:** `tts` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — LibriTTS-VI introduces a public speech corpus and disentanglement/reference-free training methods to solve impression leakage and control errors in numerical voice impression (VI) text-to-speech synthesis, reducing 11-dimensional VI mean squared error from 0.61 to 0.41 objectively.
 
@@ -64,6 +67,10 @@ Researchers building fine-grained controllable speech synthesis systems will lea
 ## Applications
 
 Fine-grained voice style manipulation in text-to-speech systems, expressive audiobook narration, character voice generation for gaming and animation, and interactive voice design tools.
+
+## Institutions / 機構
+
+Sony Group Corporation
 
 ## Related
 

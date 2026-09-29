@@ -1,6 +1,7 @@
 ---
 id: zhang26ca_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26ca_interspeech.pdf
 *Mengke Zhang, Yanda Shao, Tianhe Wu, Kai Feng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26ca_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26ca_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2134)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces ACR-Net, a dual-stream architecture with a contrastive decoupling loss that mitigates 'Semantic Dominance' in speech emotion recognition when vocal tones contradict textual semantics, achieving 76.5% acoustic accuracy on a new adversarial benchmark.
 
@@ -67,6 +70,10 @@ Researchers and engineers building speech-language models or emotion recognition
 ## Applications
 
 Improving conversational agents, customer service analytics, and voice assistants to accurately detect sarcasm, irony, and suppressed emotions when vocal tone contradicts textual content.
+
+## Institutions / 機構
+
+Beijing University of Posts and Telecommunications
 
 ## Related
 

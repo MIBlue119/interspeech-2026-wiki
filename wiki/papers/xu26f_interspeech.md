@@ -1,6 +1,7 @@
 ---
 id: xu26f_interspeech
-category: speaker-verification
+category: speaker
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26f_interspeech.pdf
 *Tianze Xu, Xiyang Li, Xiaoming Jiang, Volker Dellwo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-858)
+
+**Category:** `speaker` · **Labels:** `multilingual`
 
 **TL;DR** — Evaluating 18 state-of-the-art deep neural speaker embedding models on Cantonese-English bilingual speech reveals robust cross-language generalisation that closely mirrors human perceptual similarity patterns and acoustic cue weightings. Mean machine-perceptual RSA correlation coefficients reached r = 0.44 across conditions.
 
@@ -68,6 +71,12 @@ Speech researchers and ML engineers building cross-lingual speaker recognition o
 ## Applications
 
 Cross-lingual speaker verification, zero-shot voice cloning, and speaker adaptation for low-resource automatic speech recognition.
+
+## Institutions / 機構
+
+University of Zurich, Shanghai International Studies University
+
+**Funding / 經費:** Marie Skłodowska-Curie Actions Doctoral Networks, European Union, Swiss State Secretariat for Education, Research and Innovation
 
 ## Related
 

@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/marttila26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/marttila26_interspeech.pdf
 session: Audio signal analysis
 topics: [tts, speech-enhancement, self-supervised]
+category: tts
+institutions:
+  - "Queen Mary University of London"
+funding:
+  - "UK Research and Innovation"
 code:
     url: https://github.com/google/carfac
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: kheir26b_interspeech
-category: low-resource
+category: applications-other
+labels: [low-resource, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kheir26b_interspeech.pdf
 *Yassine El Kheir, Ahmed Ali, Ahmed Ali, Ahmed Ali, Ahmed Ali, Ahmed Ali, Ahmed Ali, Ahmed Ali*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kheir26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kheir26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2445)
+
+**Category:** `applications-other` · **Labels:** `low-resource`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — The IQRA 2026 Interspeech Challenge benchmarked automatic Mispronunciation Detection and Diagnosis (MDD) for Modern Standard Arabic, achieving an F1-score of 0.7201 (a 0.28 jump over the previous edition) by combining authentic human error data with advanced SSL architectures and generative models.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-Aided Pronunciation Training (CAPT) software for Modern Standard Arabic second-language learners and automated Qur'anic recitation assessment tools.
+
+## Institutions / 機構
+
+German Research Center for Artificial Intelligence, Technical University of Berlin, University of Sheffield, University of New South Wales, Alexandria University, Qatar Computing Research Institute, Taibah University, HUMAIN
 
 ## Related
 

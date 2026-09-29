@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26ba_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26ba_interspeech.pdf
 session: Spatial Audio 4
 topics: [source-separation, evaluation, speech-enhancement]
+category: enhancement-separation
+institutions:
+  - "Inner Mongolia University"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Natural Science Foundation of Inner Mongolia Autonomous Region"
 code:
     url: ""
     license: ""

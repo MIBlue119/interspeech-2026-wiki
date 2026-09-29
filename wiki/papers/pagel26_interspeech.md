@@ -1,6 +1,6 @@
 ---
 id: pagel26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pagel26_interspeech.pdf
 *Lena Pagel, Doris Mücke, Simon Roessig*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pagel26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pagel26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2444)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates multidimensional and multimodal convergence in face-to-face dyadic conversations, revealing that acoustic-prosodic cues exhibit the strongest interpersonal alignment compared to head motion and tongue articulation. Using 15 dyads and 2,230 controlled target tokens, the authors demonstrate that convergence strength is systematically governed by perceptual saliency, motor flexibility, and interactional exposure.
 
@@ -63,6 +65,12 @@ Speech scientists and phoneticians seeking a rigorous, multimodal blueprint for 
 ## Applications
 
 Improving conversational agents, social robotics, and spoken dialogue systems that need to model human-like interactive entrainment and prosodic adaptation.
+
+## Institutions / 機構
+
+University of Cologne
+
+**Funding / 經費:** German Research Foundation, SFB1252 Prominence in Language, a.r.t.e.s. Graduate School for the Humanities Cologne
 
 ## Related
 

@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/vaaras26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/vaaras26_interspeech.pdf
 session: Speech Analysis, Data Resources and Research Tools
 topics: [evaluation, dataset, self-supervised]
+category: resources-evaluation
+institutions:
+  - "Tampere University"
+  - "University of Helsinki"
+funding:
+  - "Research Council of Finland"
+  - "Sigrid Juselius Foundation"
 code:
     url: https://github.com/SPEECHCOG/TSExplorer
     license: ""

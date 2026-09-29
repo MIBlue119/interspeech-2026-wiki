@@ -1,6 +1,7 @@
 ---
 id: charlot26b_interspeech
-category: speech-llm
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/charlot26b_interspeech.pdf
 *Théo Charlot, Tarek Kunze, Kaveri K. Sheth, Alejandrina Cristia, Marvin Lavechin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/charlot26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/charlot26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2780)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates automatic child-directed speech (CDS) detection in long-form recordings by benchmarking self-supervised speech models and introducing context-aware fine-tuning, achieving a 13.8% absolute F1 gain using 10 seconds of conversational context.
 
@@ -65,6 +68,12 @@ Speech researchers and engineers building tools for developmental psychology or 
 ## Applications
 
 Automated child language environment analysis, day-long audio diary mining for developmental psychology, and cross-cultural quantification of infant-directed speech input.
+
+## Institutions / 機構
+
+École Normale Supérieure, École des Hautes Études en Sciences Sociales, Centre National de la Recherche Scientifique, Université PSL, Aix-Marseille University
+
+**Funding / 經費:** Agence Nationale pour la Recherche, European Research Council, Simons Foundation
 
 ## Related
 

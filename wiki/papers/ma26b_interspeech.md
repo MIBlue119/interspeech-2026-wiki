@@ -1,6 +1,6 @@
 ---
 id: ma26b_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ma26b_interspeech.pdf
 *Matthew King-Hang Ma, Yun Feng, Cloris Pui-Hang Li, Manson Cheuk-Man Fong*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ma26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ma26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-527)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This study demonstrates that greater subjective cognitive decline (SCD) severity in older adults is associated with weaker cortical tracking of subsyllabic linguistic features and prosodically flat speech, while acoustic tracking and tracking of prosodically rich speech remain preserved. The cortical tracking of higher-level linguistic features during prosodically flat speech emerges as a potential neural marker for early-stage cognitive decline.
 
@@ -65,6 +67,12 @@ Speech and ML researchers investigating neural markers of cognitive decline or s
 ## Applications
 
 Early-stage non-invasive neurological screening tools for cognitive decline, hearing-aid adaptive processing algorithms, and voice-based digital biomarkers for elderly healthcare.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University
+
+**Funding / 經費:** HKRGC Postdoctoral Fellowship Scheme
 
 ## Related
 

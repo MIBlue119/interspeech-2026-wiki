@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dixit26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dixit26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [evaluation, speech-llm, self-supervised]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Carnegie Mellon University"
+funding:
+  - "National Science Foundation"
 code:
     url: ""
     license: ""

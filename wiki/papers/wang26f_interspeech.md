@@ -1,6 +1,7 @@
 ---
 id: wang26f_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26f_interspeech.pdf
 *Jianrong Wang, Shengjie Zhou, Ju Zhang, Dengcheng Hu, Qi Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-409)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — Dual-Space Constrained TTS (DSC-TTS) is a modular face-based zero-shot text-to-speech framework that mitigates training-inference identity drift by enforcing consistency in both the speech speaker embedding space and a face-voice shared latent space. It achieves a superior speaker embedding cosine similarity (SECS) of 0.677 on VoxCeleb2 and 0.653 on LRS2 while reducing Word Error Rate.
 
@@ -64,6 +67,12 @@ Researchers and engineers building zero-shot modular TTS systems or cross-modal 
 ## Applications
 
 Automated film dubbing, silent film voice restoration, personalized virtual avatar generation, and expressive face-driven human-computer interaction.
+
+## Institutions / 機構
+
+Tianjin University, Tianjin University of Technology
+
+**Funding / 經費:** Key R&D Program of the Nanning Science Research and Technology Development Plan, Tianjin Science and Technology Program, Special Project for High-Quality Development of Manufacturing Industry
 
 ## Related
 

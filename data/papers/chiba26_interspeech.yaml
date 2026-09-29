@@ -12,6 +12,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chiba26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chiba26_interspeech.pdf
 session: Medical Dialogue and Conversational Understanding
 topics: [paralinguistics, speech-llm, health]
+category: health-clinical
+institutions:
+  - "Tsinghua University"
+  - "Peking University Huilongguan Clinical Medical School"
+  - "WHO Collaborating Centre for Research and Training in Suicide Prevention"
 code:
     url: ""
     license: ""

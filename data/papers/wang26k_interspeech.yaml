@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26k_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26k_interspeech.pdf
 session: Speech Deepfake Detection, Attribution and Characterization
 topics: [speech-anti-spoofing, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "National Institute of Informatics"
+funding:
+  - "Japan Science and Technology Agency"
+  - "New Energy and Industrial Technology Development Organization"
 code:
     url: https://github.com/nii-yamagishilab/AntiDeepfake
     license: ""

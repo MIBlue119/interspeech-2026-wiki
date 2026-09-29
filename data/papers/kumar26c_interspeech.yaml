@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kumar26c_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26c_interspeech.pdf
 session: Multilingual, Cross-lingual & Low-Resource ASR
 topics: [asr, multilingual, low-resource]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Sony"
 code:
     url: ""
     license: ""

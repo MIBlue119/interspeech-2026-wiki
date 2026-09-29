@@ -1,6 +1,7 @@
 ---
 id: manohar26_interspeech
-category: asr
+category: resources-evaluation
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/manohar26_interspeech.pdf
 *Kavya Manohar, Arghya Bhattacharya, Kush Juvekar, Kumarmanas Nethil*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/manohar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/manohar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3436)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`
 
 **TL;DR** — SCRIBE is a diagnostic evaluation framework and open-weight rich transcription model suite for Indic languages that decomposes errors into lexical, punctuation, numeral, and domain-entity rates using sandhi-tolerant alignment. It reveals that standard Word Error Rate (WER) inflates error counts by up to 30% relative due to morphological word-boundary merges in agglutinative Dravidian languages.
 
@@ -69,6 +72,10 @@ Researchers and engineers building speech recognition systems for morphologicall
 ## Applications
 
 Development and evaluation of professional dictation tools, legal transcription systems, and medical note-taking platforms for low-resource and agglutinative languages.
+
+## Institutions / 機構
+
+Adalat AI
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: chang26e_interspeech
-category: voice-conversion
+category: tts
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chang26e_interspeech.pdf
 *Devin Chang, Hsin-Te Hwang, Ming-Chi Yen, Shu-Wei Tsai, Yu Tsao, Hsin-Min Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chang26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chang26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1942)
+
+**Category:** `tts` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — This paper establishes a benchmark for one-shot personalized electrolaryngeal voice conversion using only a single pre-operative reference utterance, showing that a feature-level cascaded framework with supervised refinement outperforms traditional supervised baselines in speaker similarity and intelligibility.
 
@@ -67,6 +70,12 @@ Speech researchers and engineers working on voice restoration or zero-shot voice
 ## Applications
 
 Biomedical speech restoration, voice banking for pre-laryngectomy patients, and assistive communication devices for laryngectomees.
+
+## Institutions / 機構
+
+Academia Sinica, National Cheng Kung University Hospital
+
+**Funding / 經費:** National Science and Technology Council
 
 ## Related
 

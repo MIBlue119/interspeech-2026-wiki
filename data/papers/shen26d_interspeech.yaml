@@ -15,6 +15,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shen26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shen26d_interspeech.pdf
 session: Text-to-Speech Synthesis
 topics: [tts, evaluation, self-supervised]
+category: resources-evaluation
+labels:
+  - "generative-model"
+institutions:
+  - "Nanjing University"
+  - "Xiaomi"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Yangtze River Delta Science and Technology Innovation Community Joint Research Project"
 code:
     url: https://ssf-1103.github.io/I2D-Bench/
     license: ""

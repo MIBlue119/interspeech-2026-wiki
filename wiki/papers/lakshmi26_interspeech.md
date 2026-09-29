@@ -1,6 +1,7 @@
 ---
 id: lakshmi26_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lakshmi26_interspeech.pdf
 *K N Lakshmi, K Hemavardhan Reddy, A Venkata Satya, Kota Venkata Vamshidhar Reddy, Jyothish Lal G, Premjith B, Jesin James*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lakshmi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lakshmi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2368)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `self-supervised`, `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — This paper presents the first annotated speech datasets for homophobic and transphobic hate speech in the Dravidian languages Telugu and Malayalam, featuring both elicited and social media audio corpora, alongside a Wav2Vec 2.0 and IndicBERT multimodal fusion baseline. The multimodal approach achieves high in-domain F1 scores (0.9566 in Malayalam) but experiences severe performance degradation under domain shift.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated content moderation on audio-centric social media platforms, toxic speech detection for under-resourced languages, and speech safety toolkits.
+
+## Institutions / 機構
+
+Amrita Vishwa Vidyapeetham, University of Auckland
 
 ## Related
 

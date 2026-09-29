@@ -1,6 +1,7 @@
 ---
 id: wagner26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wagner26_interspeech.pdf
 *Laurin Wagner*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wagner26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wagner26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2792)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — The paper introduces coverage-aware decoder mode tags and supervised cross-attention to resolve transcription policy ambiguity (verbatim vs. intended) in large ASR models, raising German disfluency F1 from 10% to 79% zero-shot with frozen model weights and improving word-level timing past forced alignment baselines.
 
@@ -68,6 +71,10 @@ Speech and ML researchers working on controllable ASR, disfluency modeling, or w
 ## Applications
 
 Clinical speech analysis for neurological and speech disorders, expressive text-to-speech data curation, and scalable cost-efficient speech corpus enrichment via automated verbatim recovery.
+
+## Institutions / 機構
+
+nyra health
 
 ## Related
 

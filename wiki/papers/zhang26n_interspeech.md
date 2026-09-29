@@ -1,6 +1,7 @@
 ---
 id: zhang26n_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26n_interspeech.pdf
 *Jinming Zhang, Wei Rao, Xionghu Zhong, Eng Siong Chng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1023)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — SE-AGCNet is an end-to-end framework for jointly optimizing speech enhancement and automatic gain control in meeting scenarios, achieving target loudness alongside consistent improvements in speech quality and ASR accuracy.
 
@@ -64,6 +67,10 @@ Speech and ML engineers dealing with far-field meeting audio or variable-volume 
 ## Applications
 
 Meeting transcription front-ends, conference systems, hearing assistive devices, and robust ASR pipelines operating under variable speaker-to-microphone distances.
+
+## Institutions / 機構
+
+Zhejiang University, Nanyang Technological University, Hunan University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: farsi26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/farsi26_interspeech.pdf
 *Farhan Farsi, Shayan Bali, Jalil Nourmohammadi Khiarak, Mohammad Hossein Aref, Taher Akbari Saeed*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/farsi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/farsi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1516)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces the first comprehensive community-driven ASR datasets and benchmarks for South Azerbaijani, a severely low-resource Turkic language written in Arabic script. By benchmarking MMS and various Whisper models, the authors demonstrate that full-dataset fine-tuning significantly improves generalization, with fine-tuned MMS achieving the best GoldSet performance (0.63 WER) despite remaining orthographic and script ambiguity challenges.
 
@@ -66,6 +69,12 @@ Speech and ML researchers building low-resource ASR systems will find this paper
 ## Applications
 
 Building speech-to-text transcription tools, voice search engines, and archiving systems for South Azerbaijani and other underrepresented Arabic-script Turkic languages.
+
+## Institutions / 機構
+
+Amirkabir University of Technology, King's College London, Kartal OL Foundation
+
+**Funding / 經費:** Kartal Ol Foundation, YoYo research group
 
 ## Related
 

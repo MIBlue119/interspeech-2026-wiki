@@ -1,6 +1,6 @@
 ---
 id: elelu26_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/elelu26_interspeech.pdf
 *Kehinde Elelu, Joshua E. Siegel, Mohammadali Saffary, Tashfain Ahmed, Simeon Babatunde, Ebuka Okpala*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/elelu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/elelu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-572)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — ConformalMOS integrates split conformal prediction and ordinal-aware Gaussian label smoothing into speech MOS predictors, achieving a system-level MSE of 0.080 while providing statistically valid uncertainty intervals.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated quality assurance, risk-aware model selection, and deployment gating for text-to-speech (TTS) and voice conversion (VC) production systems.
+
+## Institutions / 機構
+
+Michigan State University, Clemson University
+
+**Funding / 經費:** Michigan Translational Research and Commercialization Program, Michigan Strategic Fund, Michigan Economic Development Corporation, 21st Century Jobs Trust Fund, State of Michigan, U.S. Economic Development Administration, U.S. Department of Commerce
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: magoshi26_interspeech
 category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/magoshi26_interspeech.pdf
 *Ryo Magoshi, Takashi Maekaku, Yusuke Shinohara*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/magoshi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/magoshi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-977)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — The paper introduces Text-Embedding-to-Speech-Latent (TE2SL), a framework for text-only domain adaptation in LLM-based ASR that uses a learnable Conformer module to transform text embeddings into modality-aligned pseudo-audio prompts. It achieves significant error rate reductions and out-of-vocabulary recovery gains across English and Japanese benchmarks compared to heuristic or LLM-only baselines.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Rapid domain adaptation of production ASR systems for specialized vocabularies (e.g., financial earnings calls, academic presentations) using only text corpora.
+
+## Institutions / 機構
+
+Kyoto University, LY Corporation
 
 ## Related
 

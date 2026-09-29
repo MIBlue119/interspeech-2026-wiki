@@ -1,6 +1,6 @@
 ---
 id: zhang26f_interspeech
-category: speech-llm
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26f_interspeech.pdf
 *Peihong Zhang, Zhixin Li, Yuxuan Liu, Yiqiang Cai, Yizhou Tan, Shengchen Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-656)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — CoRE is a training-free, test-time option re-scoring framework that mitigates modality bias in Large Audio-Language Models for multiple-choice Audio Question Answering by contrasting predictions against counterfactual audio; it improves Qwen2-Audio-7B top-1 accuracy by up to 10.7% absolute on bioacoustic tasks.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust audio question answering systems, acoustic scene analysis, and multi-modal voice assistants deployed in complex acoustic environments.
+
+## Institutions / 機構
+
+Xi'an Jiaotong-Liverpool University
+
+**Funding / 經費:** Jiangsu Provincial Major Science and Technology Project
 
 ## Related
 

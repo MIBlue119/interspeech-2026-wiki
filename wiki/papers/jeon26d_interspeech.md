@@ -1,6 +1,7 @@
 ---
 id: jeon26d_interspeech
-category: evaluation
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jeon26d_interspeech.pdf
 *Jisu Jeon, Seungyeon Jwa, Joosung Lee, Jinhyeon Kim, Woojin Chung, Hwiyeol Jo, Jeonghoon Kim, Jonghyun Choi, Soyoon Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jeon26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jeon26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2021)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — PARAPAIRAUDIOBENCH evaluates Large Audio-Language Models (LALMs) as judges across 5,175 pairwise audio comparisons spanning five paralinguistic dimensions, revealing that even top models lag humans by 17.7%p–32%p and fail severely on calibration and position bias.
 
@@ -69,6 +72,10 @@ Speech and ML engineers building or deploying LALMs as automated evaluation judg
 ## Applications
 
 Automated evaluation pipelines for Text-to-Speech (TTS), speech-to-speech translation, and voice conversion systems seeking fine-grained paralinguistic diagnostic feedback.
+
+## Institutions / 機構
+
+Hongik University, Seoul National University, NAVER Cloud, KAIST
 
 ## Related
 

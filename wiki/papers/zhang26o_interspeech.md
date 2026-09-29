@@ -1,6 +1,7 @@
 ---
 id: zhang26o_interspeech
-category: speech-translation
+category: resources-evaluation
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26o_interspeech.pdf
 *Ziyu Zhang, Satoshi Nakamura*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26o_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26o_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1105)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`
 
 **TL;DR** — This paper introduces a rubric-aligned segment-level evaluation framework for human simultaneous interpreting (SI) that addresses the collapse of analytic dimensions in LLM prompts and scalar metrics by using a dual-head LoRA-adapted COMET-KIWI encoder. The proposed model achieves Pearson correlations of 0.388 for meaning transfer and 0.301 for delivery quality, approaching human-human consistency ceilings.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated formative assessment pipelines for simultaneous interpreting training, real-time diagnostic feedback systems for professional interpreters, and rubric-aligned benchmarking for speech translation models.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Shenzhen Loop Area Institute
+
+**Funding / 經費:** National Natural Science Foundation of China, Program for Guangdong Introducing Innovative and Entrepreneurial Teams
 
 ## Related
 

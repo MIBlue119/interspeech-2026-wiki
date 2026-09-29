@@ -1,6 +1,7 @@
 ---
 id: fortier26_interspeech
-category: speech-llm
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fortier26_interspeech.pdf
 *Alexandrine Fortier, Thomas Thebaud, Jesús Villalba-Lopez, Najim Dehak, Patrick Cardinal, Peter West*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fortier26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fortier26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2813)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates how audio backdoors propagate through modular Speech Language Models (SLMs) and how they manifest in multitask embedding spaces. It demonstrates that backdoors can survive component-level isolation and evade standard activation clustering defenses due to dilution by dominant task features.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing open-source pretrained speech encoders and multimodal speech language model pipelines for supply-chain vulnerabilities, data poisoning resilience, and secure component integration.
+
+## Institutions / 機構
+
+University of British Columbia, Ecole de technologie superieure, Johns Hopkins University
 
 ## Related
 

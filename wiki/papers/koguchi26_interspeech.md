@@ -1,6 +1,7 @@
 ---
 id: koguchi26_interspeech
-category: paralinguistics
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/koguchi26_interspeech.pdf
 *Junya Koguchi, Tomoki Koriyama*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/koguchi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koguchi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3202)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper formulates instantaneous pitch estimation (IPE) as a speech enhancement task, employing a modified Wave-U-Net to directly extract fundamental waveforms from complex audio without heuristic channel selection. It achieves a raw pitch accuracy of 88.47% under clean conditions and maintains 86.40% at 0 dB SNR.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust prosody analysis, singing voice transcription, musical instrument pitch tracking, and speech frontend processing in adverse acoustic environments.
+
+## Institutions / 機構
+
+CyberAgent
 
 ## Related
 

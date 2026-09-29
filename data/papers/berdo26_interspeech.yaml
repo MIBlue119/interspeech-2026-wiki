@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/berdo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/berdo26_interspeech.pdf
 session: Language-Model and Codec-Token Speech Enhancement
 topics: [speech-enhancement, self-supervised, speech-llm]
+category: enhancement-separation
+labels:
+  - "self-supervised"
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "ETH Zurich"
 code:
     url: ""
     license: ""

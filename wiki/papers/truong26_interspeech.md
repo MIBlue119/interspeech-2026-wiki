@@ -1,6 +1,6 @@
 ---
 id: truong26_interspeech
-category: speech-deepfake-detection
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/truong26_interspeech.pdf
 *Duc-Tuan Truong, Tianchi Liu, Ruijie Tao, Junjie Li, Kong Aik Lee, Eng Siong Chng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/truong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/truong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1098)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — QAMO improves speech deepfake detection by replacing single-centroid one-class learning with multiple quality-aware centroids, achieving a 5.21% Equal Error Rate (EER) on the In-the-Wild dataset.
 
@@ -67,6 +69,10 @@ Speech anti-spoofing researchers looking to improve one-class learning generaliz
 ## Applications
 
 Speech deepfake detection, audio forensics, speaker anti-spoofing systems for voice-controlled interfaces.
+
+## Institutions / 機構
+
+Nanyang Technological University, National University of Singapore, Hong Kong Polytechnic University
 
 ## Related
 

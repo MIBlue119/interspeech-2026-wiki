@@ -1,6 +1,6 @@
 ---
 id: walczak26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/walczak26_interspeech.pdf
 *Joanna Walczak, Oliwia Skórzewska, Zuzanna Miodońska*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/walczak26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/walczak26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1936)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This pilot study investigates word-position effects on the spectral properties of perceptually normative Polish /s/ produced by 102 preschool children, finding significant positional variations driven primarily by initial-medial contrasts across spectral centroid, flux, kurtosis, and skewness.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech-language pathology assessment tools, children's speech recognition systems, and developmental phonetics research.
+
+## Institutions / 機構
+
+Silesian University of Technology
+
+**Funding / 經費:** National Science Centre, Poland, European Funds for Silesia, Just Transition Fund
 
 ## Related
 

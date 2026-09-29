@@ -7,6 +7,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/minematsu26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/minematsu26_interspeech.pdf
 session: Speech and Language Learning Technologies
 topics: [spoken-language-understanding, dataset, evaluation]
+category: applications-other
+institutions:
+  - "University of Tokyo"
 code:
     url: https://bit.ly/4nbE6Jf
     license: ""

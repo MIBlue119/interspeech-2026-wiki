@@ -1,6 +1,6 @@
 ---
 id: li26_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26_interspeech.pdf
 *Yupei Li, Qiyang Sun, Xiaoliang Wu, Chenxi Wang, Berrak Sisman, Bjoern Schuller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-161)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper presents XGEG, a training-free framework that integrates conventional XAI attribution maps with multimodal large language models to generate grounded, low-level speech deepfake explanations, increasing inside localization accuracy by over 45%.
 
@@ -69,6 +71,10 @@ Speech and ML engineers building trustworthy deepfake detectors should read this
 ## Applications
 
 Deploying trustworthy and explainable speech deepfake detection systems in forensics, media verification, and audio security platforms.
+
+## Institutions / 機構
+
+Imperial College London, Technical University of Munich, University of Southampton, Mohamed bin Zayed University of Artificial Intelligence, Johns Hopkins University
 
 ## Related
 

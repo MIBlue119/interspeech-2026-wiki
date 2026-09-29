@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wu26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26d_interspeech.pdf
 session: Methods and Data for Vocal Tract Shape and Articulation Analysis
 topics: [phonetics, prosody, dataset]
+category: phonetics-linguistics
+institutions:
+  - "University of Tsukuba"
+  - "Konan University"
+funding:
+  - "JSPS KAKENHI"
+  - "Kawai Foundation for Sound & Music"
 code:
     url: ""
     license: ""

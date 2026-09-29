@@ -1,6 +1,6 @@
 ---
 id: moon26b_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/moon26b_interspeech.pdf
 *Jaden Moon, Arvind Pillai, Andrew Campbell*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/moon26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/moon26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2989)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — The paper investigates whether quality-aware multimodal fusion models actually use estimated reliability scores during inference or if the improvements are coincidental. Using a leakage-safe diagnostic that shuffles test-time quality values while keeping evidence frozen, the authors demonstrate that native quality estimates produce near-zero performance changes, proving that current reliability signals have minimal decision-level influence.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust multimodal affect recognition, stress detection, and sentiment analysis systems requiring reliable decision-making under noisy or degraded sensor conditions.
+
+## Institutions / 機構
+
+Dartmouth College
 
 ## Related
 

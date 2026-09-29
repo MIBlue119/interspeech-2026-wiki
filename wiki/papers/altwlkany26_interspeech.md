@@ -1,6 +1,7 @@
 ---
 id: altwlkany26_interspeech
-category: self-supervised
+category: resources-evaluation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/altwlkany26_interspeech.pdf
 *Kemal Altwlkany, Elmedin Selmanovic*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/altwlkany26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/altwlkany26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1436)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper demonstrates that self-supervised neural audio fingerprinting models, despite being trained on music, produce embeddings that capture speech acoustic properties better than WavLM, enabling a 50% reduction in annotation workload via deduplication and farthest point sampling.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Efficient telephony dataset curation, privacy-compliant enterprise data cleaning, automated robocall/voicemail filtering pipeline preparation, and active learning subset selection.
+
+## Institutions / 機構
+
+Infobip, University of Sarajevo
+
+**Funding / 經費:** Infobip Global Communication Platform, Important Project of Common European Interest on Next Generation Cloud Infrastructure and Services
 
 ## Related
 

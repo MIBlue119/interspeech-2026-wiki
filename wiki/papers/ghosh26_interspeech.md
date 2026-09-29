@@ -1,6 +1,7 @@
 ---
 id: ghosh26_interspeech
-category: speech-anonymisation
+category: deepfake-security
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ghosh26_interspeech.pdf
 *Suhita Ghosh, Yamini Sinha, Melanie Jouaiti, Tim Wansiedler, Kim Hakenberg, Julian Karcher, Ingo Siegert, Sebastian Stober*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ghosh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ghosh26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-378)
+
+**Category:** `deepfake-security` · **Labels:** `generative-model`
 
 **TL;DR** — Phy-VC is a physics-informed voice conversion framework for anonymising pathological and atypical speech while preserving clinical diagnostic markers. It integrates a differentiable vocal tract resonance model as an inductive bias, outperforming state-of-the-art baselines in intelligibility, prosody preservation, and clinical attribute retention.
 
@@ -68,6 +71,12 @@ Researchers and engineers working on speech anonymisation, privacy-preserving ma
 ## Applications
 
 Privacy-preserving clinical data sharing, clinical speech anonymisation for telemedicine, and voice conversion for neurological or affective speech assessment.
+
+## Institutions / 機構
+
+Otto-von-Guericke University, University of Birmingham
+
+**Funding / 經費:** Federal Ministry of Education and Research of Germany
 
 ## Related
 

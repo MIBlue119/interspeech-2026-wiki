@@ -1,6 +1,7 @@
 ---
 id: wang26_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26_interspeech.pdf
 *Hui Wang, Jiaming Zhou, Jiabei He, Haoqin Sun, Yong Qin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-102)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `dataset-or-benchmark-release`
 
 **TL;DR** — WildElder is a real-world Mandarin Chinese elderly speech dataset containing 33.7 hours across 23,701 manually segmented and annotated utterances from online videos, serving as a challenging benchmark where fine-tuned Conformer-WenetSpeech achieves a 13.54% character error rate.
 
@@ -66,6 +69,12 @@ Researchers building inclusive speech recognition systems and speech-to-text mod
 ## Applications
 
 Voice-controlled assistive interfaces, automated healthcare monitoring systems, and inclusive human-computer interaction tools designed for senior citizens.
+
+## Institutions / 機構
+
+Nankai University
+
+**Funding / 經費:** NSF China
 
 ## Related
 

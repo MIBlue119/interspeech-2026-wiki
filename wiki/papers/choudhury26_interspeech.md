@@ -1,6 +1,7 @@
 ---
 id: choudhury26_interspeech
-category: self-supervised
+category: deepfake-security
+labels: [self-supervised, dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/choudhury26_interspeech.pdf
 *Nitin Choudhury, Bikrant Bikram Pratap Maurya, Arun Balaji Buduru, Orchid Chetia Phukan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/choudhury26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/choudhury26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3500)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — This paper investigates the robustness of speech representation learning models for acoustic side-channel attacks (ASCA) on keyboards and introduces KEYAC, a multi-channel dataset capturing cross-device and VoIP codec variations. By replacing conventional classification heads with Kolmogorov-Arnold Networks (KAN), the proposed method establishes a new state-of-the-art, raising WavLM in-domain keyboard accuracy from 58.34% to 68.47%.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Acoustic side-channel attack security auditing, threat modeling for remote meeting software, and robust fine-tuning of pretrained speech models for transient sound event classification.
+
+## Institutions / 機構
+
+IIIT-Delhi, NTHU
 
 ## Related
 

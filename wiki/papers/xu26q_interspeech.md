@@ -1,6 +1,6 @@
 ---
 id: xu26q_interspeech
-category: self-supervised
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26q_interspeech.pdf
 *Qisheng Xu, Shanhao Han, Hui Geng, Yulu Fang, Yunsheng Xiong, Yutao Dou, Kele Xu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2614)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — This paper introduces an audio-oriented Continual Generalized Category Discovery (C-GCD) framework that uses instance-adaptive regularization and a GMM-driven dynamic teacher to discover novel sound classes in streaming unlabeled data while preventing catastrophic forgetting. On the ShipsEar underwater acoustic benchmark, it achieves a cumulative average accuracy of 74.14%, outperforming vision-centric baselines by 4.84 percentage points.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Open-vocabulary acoustic monitoring, underwater surveillance, autonomous vehicle audio perception, and incremental speech recognition systems.
+
+## Institutions / 機構
+
+National University of Defense Technology, Hunan University
+
+**Funding / 經費:** National Science and Technology Major Project, National University of Defense Technology
 
 ## Related
 

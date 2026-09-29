@@ -1,6 +1,7 @@
 ---
 id: weng26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/weng26_interspeech.pdf
 *Yi Weng, Junjie Zhang, Yanyuan Ye, Gang Peng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/weng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/weng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1274)
+
+**Category:** `phonetics-linguistics` · **Labels:** `robustness-noise`
 
 **TL;DR** — This study investigates whether non-linguistic pitch training improves native Cantonese lexical tone perception in noise, demonstrating successful psychophysical near-transfer and noise-dependent far-transfer that is constrained by tone-space crowding. Results show significant just-noticeable difference reductions alongside marked tone identification improvements in multitalker babble noise.
 
@@ -62,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditory rehabilitation protocols, computer-aided speech training software for tonal languages, and hearing-aid algorithm design for adverse signal-to-noise ratios.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University
+
+**Funding / 經費:** Research Grants Council of the Hong Kong SAR, China
 
 ## Related
 

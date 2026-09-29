@@ -1,6 +1,7 @@
 ---
 id: cho26_interspeech
-category: self-supervised
+category: speech-llm-dialogue
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cho26_interspeech.pdf
 *Hyebin Cho, Jaehyuk Jang, Changick Kim, Joon Son Chung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cho26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cho26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-885)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — The paper introduces Audio-Side Prompt Learning (ASPL), a plug-and-play parameter-efficient framework that injects lightweight continuous acoustic prompts into the audio encoder of audio-language models, yielding an average top-1 accuracy gain of ~1.1% across 11 datasets in a 16-shot setting.
 
@@ -64,6 +67,12 @@ Researchers and engineers working on parameter-efficient adaptation of audio fou
 ## Applications
 
 Resource-constrained or few-shot audio classification applications such as acoustic scene monitoring, environmental sound recognition, and emotion detection.
+
+## Institutions / 機構
+
+Korea Advanced Institute of Science and Technology
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

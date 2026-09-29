@@ -1,6 +1,7 @@
 ---
 id: huo26_interspeech
-category: self-supervised
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huo26_interspeech.pdf
 *Robin Huo, Ewan Dunbar*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2676)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates whether speech foundation models genuinely learn word-level representations or merely encode local phonetic form. Using a ridge regression residualization technique on LibriSpeech, the authors show that HuBERT and wav2vec 2.0 encode word identity independently of local phonemes in their later transformer layers, and that removing phonemic information improves unsupervised word discovery.
 
@@ -64,6 +67,12 @@ Speech and ML researchers investigating interpretability and self-supervised rep
 ## Applications
 
 Unsupervised lexicon discovery, low-resource spoken language processing, and representation engineering for textless language models.
+
+## Institutions / 機構
+
+University of Toronto
+
+**Funding / 經費:** Natural Sciences and Engineering Research Council of Canada, Data Sciences Institute, Linguistics Graduate Research Award at the University of Toronto
 
 ## Related
 

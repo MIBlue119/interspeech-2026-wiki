@@ -1,6 +1,7 @@
 ---
 id: tseng26c_interspeech
-category: voice-conversion
+category: tts
+labels: [efficient-on-device, self-supervised, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tseng26c_interspeech.pdf
 *Mu-Ruei Tseng, Waris Quamer, Ghady Nasrallah, Ricardo Gutierrez-Osuna*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tseng26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tseng26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2763)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `self-supervised`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — VOSSA is a streaming voice conversion framework that extracts speaker embeddings directly from intermediate layers of a frozen content encoder rather than using a separate speaker encoder, improving target-speaker similarity and F0/formant dynamics while reducing model size by 19%.
 
@@ -68,6 +71,12 @@ Speech and ML engineers building real-time, low-latency voice conversion systems
 ## Applications
 
 Real-time voice conversion, speech anonymization, and secure VoIP communication.
+
+## Institutions / 機構
+
+Texas A&M University
+
+**Funding / 經費:** Intelligence Advanced Research Projects Activity, Department of Interior, Interior Business Center
 
 ## Related
 

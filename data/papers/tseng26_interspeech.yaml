@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tseng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tseng26_interspeech.pdf
 session: Tools and Techniques for Phonetic Analysis
 topics: [phonetics, self-supervised, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "University of Tubingen"
+funding:
+  - "European Research Council"
 code:
     url: ""
     license: ""

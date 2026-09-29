@@ -1,6 +1,6 @@
 ---
 id: edraki26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/edraki26_interspeech.pdf
 *Amin Edraki, Amirhossein Hajavi, Irina Kezele, Yuanhao Yu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/edraki26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/edraki26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-319)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This paper proposes a near-end listening enhancement (NELE) framework that redistributes speech energy in the spectro-temporal modulation (STM) domain using a globally learned mask optimized via a differentiable ESTOI loss, achieving consistent intelligibility and ASR word error rate improvements over time-frequency baselines. Across all evaluated conditions, the separable STM method yields an average ESTOI gain of 0.096 and STGI gain of 0.240.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Public address systems, consumer listening devices, and hearing assistive technology operating in loud acoustic environments.
+
+## Institutions / 機構
+
+Huawei
 
 ## Related
 

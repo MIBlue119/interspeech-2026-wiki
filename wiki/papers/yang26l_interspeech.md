@@ -1,6 +1,7 @@
 ---
 id: yang26l_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.pdf
 *Wenbing Yang, Qihang Lu, Bingsong Bai, Zihan Sun, Yueran Hou, Peilei Jia, Yingming Gao, Ya Li, Jun Gao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2018)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — CraftTTS introduces a three-stage alignment framework (compute-driven data generation, SFT+DPO, and GRPO with multi-dimensional prosody rewards) to achieve stable word-level prosody and tempo control in LLM-based zero-shot text-to-speech models without sacrificing global fluency or speaker identity. It achieves a state-of-the-art prosodic naturalness MOS (NMOS) of 3.87 and speed matching MOS (SPMOS) of 3.35.
 
@@ -65,6 +68,12 @@ Researchers and audio engineers working on controllable speech synthesis, LLM-ba
 ## Applications
 
 Expressive audiobook narration, conversational AI avatars, dynamic character voice acting in video games, and fine-grained emotional text-to-speech generation.
+
+## Institutions / 機構
+
+Beijing University of Posts and Telecommunications, Hello Group Inc
+
+**Funding / 經費:** National Key R&D Program of China, National Natural Science Foundation of China, National Language Commission, National Social Science Fund of China
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: yang26h_interspeech
 category: asr
+labels: [streaming-real-time, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26h_interspeech.pdf
 *Yufeng Yang, Cheng Yu, Vahid A. Kalkhorani, DeLiang Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1503)
+
+**Category:** `asr` · **Labels:** `streaming-real-time`, `robustness-noise`
 
 **TL;DR** — The paper proposes a decoupled framework for robust streaming ASR that pairs an online speech separation frontend with a clean-trained streaming ASR backend, outperforming standard multi-condition training baselines without degrading clean speech performance. It also introduces FastMambaformer, a novel streaming ASR model integrating Mamba into a FastConformer backbone.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time voice assistants, live captioning, multi-talker meeting transcription, and streaming spoken dialogue systems operating in noisy acoustic environments.
+
+## Institutions / 機構
+
+Ohio State University, Chinese University of Hong Kong
+
+**Funding / 經費:** National Science Foundation, Ohio Supercomputer Center
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: le26_interspeech
-category: speaker-anonymization
+category: deepfake-security
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/le26_interspeech.pdf
 *Ngoc Hung Le, Thien-Phuc Doan, Thien An Nguyen, Kyujin Kim, Souhwan Jung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/le26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/le26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-497)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — VerAno is a speaker anonymization framework that uses a constrained VQ-VAE tokenizer on self-supervised WavLM features combined with a conditional flow-matching transformer to balance privacy and utility, achieving top rankings on the VoicePrivacy Challenge 2024 benchmarks.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving voice assistants, secure telephony, anonymized multi-party audio logging, and medical speech data sharing.
+
+## Institutions / 機構
+
+Soongsil University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: sara26_interspeech
-category: speech-enhancement
+category: applications-other
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sara26_interspeech.pdf
 *Syeda Faiza Ahmed Sara, Shammur Absar Chowdhury*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sara26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sara26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1153)
+
+**Category:** `applications-other` · **Labels:** `self-supervised`
 
 **TL;DR** — A lightweight, unsupervised pronunciation assessment framework leveraging self-supervised discrete speech token surprisal and transcript-guided DTW alignment trained exclusively on native speech data. It achieves competitive accuracy on SpeechOcean762 (PCC 0.66) and strong cross-dataset transfer to L2-ARCTIC without requiring forced alignment or labeled non-native data.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-Assisted Language Learning (CALL) applications, automated second-language speech evaluation, and on-device pronunciation tutoring in low-resource classrooms.
+
+## Institutions / 機構
+
+Qatar Computing Research Institute
+
+**Funding / 經費:** HBKU flagship research grant
 
 ## Related
 

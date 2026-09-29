@@ -15,6 +15,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yu26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yu26g_interspeech.pdf
 session: Speaker Diarization and Recognition
 topics: [speech-llm, speaker-diarization, asr]
+category: speaker
+institutions:
+  - "Tsinghua University"
+  - "ModelBest"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26m_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26m_interspeech.pdf
 session: Spoofing and Deepfake Detection 2
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+institutions:
+  - "KAIST"
+  - "POSTECH"
+funding:
+  - "IITP"
+  - "Ministry of Science and ICT"
+  - "KAIST Undergraduate Research Program"
 code:
     url: https://byulharang.github.io/PADD/
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: oliveira26_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/oliveira26_interspeech.pdf
 *Guilherme C. Oliveira, Dominic Dwyer, Stephanie Fong, Leandro A. Passos, Dan Mo, Benjamin Dixon, Phillip Wolff, Scott W. Woods, Martha Shenton, Barnaby Nelson, Zongyuan Ge*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/oliveira26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/oliveira26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1489)
+
+**Category:** `health-clinical`
 
 **TL;DR** — DIALOG-DeID is a modular pipeline for clinical dialogue that integrates ASR, diarization, LLM-based role mapping, and PII redaction, evaluated via speaker-attributed WER (sWER) and semantic cue preservation (QTP-F1) rather than standard WER alone. The best system (Amazon Transcribe) achieves a 13.3 aggregate WER but a much higher role-attributed sWER of 33.1.
 
@@ -63,6 +65,12 @@ Speech and ML researchers building pipelines for sensitive medical or meeting do
 ## Applications
 
 Automated clinical documentation, psychiatric intake and risk interview analysis, secure telehealth transcription, and privacy-preserving conversational analytics.
+
+## Institutions / 機構
+
+Monash University, University of Melbourne, Sao Paulo State University, Emory University, Yale University, Harvard Medical School
+
+**Funding / 經費:** Medical Research Future Fund, National Critical Research Infrastructure, National Health and Medical Research Council, FAPESP
 
 ## Related
 

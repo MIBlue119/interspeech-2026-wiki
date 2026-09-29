@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26r_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26r_interspeech.pdf
 session: Empathetic Dialogue and Interaction Dynamics
 topics: [speech-llm, tts, asr]
+category: speech-llm-dialogue
+labels:
+  - "generative-model"
+institutions:
+  - "Northeastern University"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Fundamental Research Funds for the Central Universities"
 code:
     url: https://github.com/Bxzfrm/PRISM
     license: ""

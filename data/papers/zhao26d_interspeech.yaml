@@ -14,6 +14,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhao26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26d_interspeech.pdf
 session: Text Processing for Speech Synthesis
 topics: [speech-llm, spoken-language-understanding, multilingual]
+category: speech-llm-dialogue
+labels:
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "SB Intuitions"
 code:
     url: ""
     license: ""

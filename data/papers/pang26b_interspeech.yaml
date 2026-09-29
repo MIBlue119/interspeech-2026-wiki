@@ -11,6 +11,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/pang26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pang26b_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
 topics: [speech-llm, paralinguistic, evaluation]
+category: paralinguistics-emotion
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Kyoto University"
+  - "Agency for Science, Technology, and Research"
+funding:
+  - "Japan Science and Technology Agency"
+  - "A*STAR"
+  - "National Research Foundation, Singapore"
 code:
     url: https://github.com/zihaurpang/ERM-MinMaxGAP
     license: ""

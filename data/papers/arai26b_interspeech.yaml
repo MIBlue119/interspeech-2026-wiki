@@ -7,6 +7,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/arai26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/arai26b_interspeech.pdf
 session: Speech Synthesis, Voice Conversion and Audio Generation
 topics: [speech-production, phonetics, prosody]
+category: tts
+institutions:
+  - "Sophia University"
+funding:
+  - "JSPS KAKENHI"
+  - "Sophia University Special Grant for Academic Research"
 code:
     url: ""
     license: ""

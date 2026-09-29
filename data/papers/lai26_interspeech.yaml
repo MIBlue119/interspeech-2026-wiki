@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lai26_interspeech.pdf
 session: Pathological Speech Assessment 1
 topics: [paralinguistics, self-supervised, health]
+category: health-clinical
+institutions:
+  - "Hebei University of Technology"
+  - "Macao Polytechnic University"
+funding:
+  - "National Natural Science Foundation"
+  - "Hebei Province Natural Science Foundation Funded Project"
 code:
     url: https://github.com/ben100118/Lung-CL
     license: ""

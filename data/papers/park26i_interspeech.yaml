@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/park26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26i_interspeech.pdf
 session: Emotional Speech Synthesis
 topics: [tts, paralinguistics, self-supervised]
+category: tts
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Hanyang University"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Ministry of Science and ICT"
 code:
     url: https://jjhh0210.github.io/EmoRes-tts-demo/
     license: ""

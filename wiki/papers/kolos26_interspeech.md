@@ -1,6 +1,7 @@
 ---
 id: kolos26_interspeech
-category: speech-enhancement
+category: deepfake-security
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kolos26_interspeech.pdf
 *Ekaterina Kolos, Sarina Meyer, Ngoc Thang Vu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kolos26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kolos26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1464)
+
+**Category:** `deepfake-security` · **Labels:** `generative-model`
 
 **TL;DR** — This paper extends voice anonymization frameworks by introducing attribute-controlled generative models (conditional WGAN-QC and diffusion with classifier guidance) to synthesize pseudo-speaker vectors while maintaining privacy and utility. Evaluated on the Voice Privacy Challenge 2024 suite, the conditional WGAN-QC achieves 100% attribute control accuracy for gender while preserving competitive downstream EER and WER.
 
@@ -66,6 +69,12 @@ Researchers and engineers building voice anonymization pipelines or controllable
 ## Applications
 
 Privacy-preserving speech technologies, whistle-blowing tools, medical data anonymization, and secure multi-speaker text-to-speech synthesis.
+
+## Institutions / 機構
+
+University of Stuttgart
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/parmonangan26_interspeec
 pdf_url: https://www.isca-archive.org/interspeech_2026/parmonangan26_interspeech.pdf
 session: Audio signal analysis
 topics: [paralinguistics, emotion-recognition, self-supervised]
+category: paralinguistics-emotion
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "Queensland University of Technology"
 code:
     url: ""
     license: ""

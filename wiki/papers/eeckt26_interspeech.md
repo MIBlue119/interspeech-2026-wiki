@@ -1,6 +1,7 @@
 ---
 id: eeckt26_interspeech
 category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/eeckt26_interspeech.pdf
 *Steven Vander Eeckt, Hugo Van hamme*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/eeckt26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/eeckt26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3169)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — The paper introduces Continual Structured Singular Value Decomposition (CSSVD), a parameter-efficient continual learning method for speech recognition that restricts weight updates to low-energy tail subspaces and applies weight averaging, reducing forgetting and outperforming vision/NLP baselines.
 
@@ -67,6 +70,12 @@ Speech and ML researchers focusing on parameter-efficient adaptation of foundati
 ## Applications
 
 On-device speech recognition systems requiring continual adaptation to user accents, local dialects, or domain-specific vocabulary streams without cloud data retention or catastrophic forgetting of base models.
+
+## Institutions / 機構
+
+KU Leuven
+
+**Funding / 經費:** Research Foundation Flanders
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: lo26_interspeech
-category: asr
+category: applications-other
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lo26_interspeech.pdf
 *Tien-Hong Lo, Fong-Chun Tsai, Ting-An Hung, Yu-Hsuan Hsieh, Yao-Ting Sung, Berlin Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1494)
+
+**Category:** `applications-other` · **Labels:** `self-supervised`
 
 **TL;DR** — We propose STRAW, an automatic pronunciation assessment framework built on a frozen Whisper backbone that unifies sentence stress detection (SSD) and word stress detection (WSD) via a novel word-span stress regularizer (WSR), achieving an F1 score of 0.934 on the TinyStress-15K benchmark.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-assisted language learning (CALL) systems, automated pronunciation scoring, and prosody feedback tools for second-language learners.
+
+## Institutions / 機構
+
+National Taiwan Normal University
 
 ## Related
 

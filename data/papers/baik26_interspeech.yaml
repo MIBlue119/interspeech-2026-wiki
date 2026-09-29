@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/baik26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/baik26_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
 topics: [asr, self-supervised, speech-enhancement]
+category: asr
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "Sogang University"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "National Research Foundation of Korea"
 code:
     url: ""
     license: ""

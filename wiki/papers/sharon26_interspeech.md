@@ -1,6 +1,7 @@
 ---
 id: sharon26_interspeech
-category: asr
+category: speech-llm-dialogue
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sharon26_interspeech.pdf
 *Rini Sharon, Manickavela A, Kadri Hacioglu, Andreas Stolcke*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sharon26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sharon26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1705)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `streaming-real-time`
 
 **TL;DR** — A systematic ablation of acoustic, prosodic, and text modalities in a streaming end-of-turn (EOT) detector reveals that adding text features actually increases false alarms, while the acoustic-prosodic combination (A+P) achieves the best overall balance of accuracy and latency.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time conversational AI agents, voice assistants, and telephony customer service bots requiring robust, low-latency turn-taking.
+
+## Institutions / 機構
+
+Uniphore
 
 ## Related
 

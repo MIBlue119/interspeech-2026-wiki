@@ -17,6 +17,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gonzalez26c_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/gonzalez26c_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
 topics: [asr, multilingual, evaluation]
+category: asr
+labels:
+  - "multilingual"
+institutions:
+  - "Defence Science and Technology Group"
 code:
     url: ""
     license: ""

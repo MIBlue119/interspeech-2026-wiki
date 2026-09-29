@@ -1,6 +1,7 @@
 ---
 id: mcghee26_interspeech
-category: asr
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mcghee26_interspeech.pdf
 *Charles McGhee, Mark J.F. Gales, Kate Knill*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mcghee26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mcghee26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-694)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper investigates how auxiliary feature inputs and generative modeling approaches impact deep articulatory speech synthesis, revealing that source and speaker features can distort phonetic content. Using a Flow Matching (DiT) generative setup alongside cascaded Conformer models, the authors demonstrate trade-offs between phonetic consistency and perceptual speech quality.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Evaluating acoustic-to-articulatory inversion models, pronunciation training systems, speech therapy tools, and explainable speech synthesis.
+
+## Institutions / 機構
+
+University of Cambridge
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: shi26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shi26b_interspeech.pdf
 *Yanfeng Shi, Pengfei Cai, Jun Liu, Qing Gu, Nan Jiang, Lirong Dai, Ian McLoughlin, Yan Song*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shi26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shi26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-745)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — TimePro-RL equips large audio-language models with fine-grained temporal perception by interleaving timestamp embeddings into audio features and applying reinforcement learning with adaptive rewards, boosting R@0.9 audio grounding accuracy to 39.8%.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated audio event localization, video/audio content indexing, dense audio captioning, and timestamp-grounded conversational assistants.
+
+## Institutions / 機構
+
+University of Science and Technology of China, Singapore Institute of Technology
+
+**Funding / 經費:** Anhui Province Major Science and Technology Research Project
 
 ## Related
 

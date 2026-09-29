@@ -1,6 +1,6 @@
 ---
 id: shea26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shea26_interspeech.pdf
 *Timothy Shea, Hannah White, Joshua Penney, Anita Szakay, Felicity Cox*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shea26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shea26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1906)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study examines how sexual orientation, orientation toward traditional masculinity, and conversational topic affect fundamental frequency (f0) variations among Australian English-speaking men, finding that local f0 is unaffected by these social factors while f0 dynamicity and range vary through complex interactions with age and topic.
 
@@ -58,6 +60,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Forensic speaker comparison, cultural sensitivity training, and sociolinguistic profiling.
+
+## Institutions / 機構
+
+Macquarie University, LMU Munich
+
+**Funding / 經費:** Australian Research Council
 
 ## Related
 

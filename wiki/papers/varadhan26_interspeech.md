@@ -1,6 +1,7 @@
 ---
 id: varadhan26_interspeech
 category: tts
+labels: [low-resource, multilingual, self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/varadhan26_interspeech.pdf
 *Praveen Srinivasa Varadhan, Srija Anand, Siddhartha Soma, Mitesh M Khapra*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/varadhan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/varadhan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3366)
+
+**Category:** `tts` · **Labels:** `low-resource`, `multilingual`, `self-supervised`, `generative-model`
 
 **TL;DR** — IN-F5 adapts a 100K-hour English F5-TTS checkpoint into a multilingual model for 11 Indian languages using under 2% of the original data scale, achieving a MUSHRA score of 80.5 and outperforming prior Indian TTS systems.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Inclusive, multilingual voice assistants, code-mixed conversational agents, personalized zero-shot voice cloning, and synthetic dataset bootstrapping for under-resourced and zero-resource languages.
+
+## Institutions / 機構
+
+Indian Institute of Technology Madras, Saryps Labs
+
+**Funding / 經費:** Digital India Bhashini, MeitY, Government of India, EkStep Foundation, Nilekani Philanthropies
 
 ## Related
 

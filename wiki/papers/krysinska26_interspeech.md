@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/krysinska26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/krysinska26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/krysinska26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1040)
 
+**Category:** `asr`
+
 **TL;DR** — Transitional Objective Learning (TOL) is a curriculum-learning framework that dynamically shifts training objectives from coarse-grained phonetic categories to fine-grained phonemes, mitigating CTC blank-token dominance and achieving relative Phoneme Error Rate reductions between 9.5% and 14.3%.
 
 ## Key contributions
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improved low-resource and standard phoneme recognition, phonetic analysis tools, and robust acoustic model pre-training initialization for downstream automatic speech recognition systems.
+
+## Institutions / 機構
+
+Poznan University of Technology, Pearson Central Europe
+
+**Funding / 經費:** National Science Centre, Poland
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: gonzalez26b_interspeech
-category: self-supervised
+category: phonetics-linguistics
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gonzalez26b_interspeech.pdf
 *Simon Gonzalez, Tao Hoang, Hayden Ooi, Chloe Dean, Bradley Donnelly, Myung Kim, Latchman Singh, Jason Littlefield, Tim Cawley, Jennifer Biggs*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gonzalez26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gonzalez26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-905)
+
+**Category:** `phonetics-linguistics` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates how pretrained speech embeddings encode linguistic, phonetic, and acoustic features via sparse linear regression, discovering that signal-level properties are strongly represented while higher-level syntactic and morphological structures are largely inaccessible linearly. Shimmer ($R^2=0.59$), spectral flatness ($R^2=0.56$), and duration ($R^2=0.51$) exhibit the strongest associations with W2V-BERT 2.0 embeddings.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual acoustic analysis, clinical voice assessment, automatic speech recognition representation tuning, and low-resource speech processing.
+
+## Institutions / 機構
+
+Defence Science and Technology Group
 
 ## Related
 

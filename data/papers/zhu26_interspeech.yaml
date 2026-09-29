@@ -12,6 +12,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhu26_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 1
 topics: [asr, speech-llm, self-supervised]
+category: asr
+labels:
+  - "efficient-on-device"
+institutions:
+  - "BOE Technology Group"
 code:
     url: ""
     license: ""

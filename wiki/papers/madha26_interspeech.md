@@ -1,6 +1,7 @@
 ---
 id: madha26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/madha26_interspeech.pdf
 *Wasim Madha, Nityanand Mathur, Hamees Sayed, Apoorv Singh, Sameer Khurana, Akshat Mandloi, Sudarshan Kamath*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/madha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/madha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-788)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — DLLM-TTS frames text-to-speech synthesis as conditional block discrete diffusion over X-Codec2 neural audio codec tokens, combining parallel intra-block generation with sequential inter-block dependencies. A 0.6B-parameter model trained on 20K hours achieves competitive performance on the Seed-TTS benchmark with a real-time factor of 0.15.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time conversational agents, streaming text-to-speech services, and zero-shot voice cloning applications requiring low latency and high intelligibility.
+
+## Institutions / 機構
+
+Smallest.ai
 
 ## Related
 

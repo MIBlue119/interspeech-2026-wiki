@@ -1,6 +1,6 @@
 ---
 id: du26b_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/du26b_interspeech.pdf
 *Xiaojing Du*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/du26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/du26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1368)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study examines tonal convergence and glottalisation in Huoji Jin Chinese, demonstrating that while fundamental frequency (f0) alone compresses the distinction between checked tone T5 and level tone T1 across various pitch trackers, incorporating phonation-sensitive acoustic cues successfully separates them.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving automated tone recognition and speech technology systems for low-resource Sinitic languages, as well as acoustic analysis toolkits for dialectological fieldwork.
+
+## Institutions / 機構
+
+University of Cambridge
+
+**Funding / 經費:** Cambridge Trust, China Scholarship Council
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: gupta26_interspeech
-category: self-supervised
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gupta26_interspeech.pdf
 *Shubham Gupta, Siva Reddy, Perouz Taslakian, Valentina Zantedeschi, Cem Subakan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gupta26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gupta26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2849)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — Replacing the standard spherical embedding domain with a probability simplex via lightweight softmax adapters eliminates 97-99% of the multimodal embedding gap across five retrieval benchmarks without hurting retrieval performance.
 
@@ -65,6 +68,12 @@ Speech and ML researchers seeking a lightweight, geometrically principled method
 ## Applications
 
 Cross-modal speech-text retrieval, zero-shot audio classification, and multi-modal embedding alignment for downstream speech-language models.
+
+## Institutions / 機構
+
+Mila – Québec AI Institute, ServiceNow, McGill University, Université Laval
+
+**Funding / 經費:** Natural Sciences and Engineering Research Council of Canada, Digital Research Alliance of Canada
 
 ## Related
 

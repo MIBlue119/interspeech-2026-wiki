@@ -10,6 +10,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/khaloo26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/khaloo26_interspeech.pdf
 session: Phonetic Aspects of TTS and ASR Systems
 topics: [tts, paralinguistics, evaluation]
+category: paralinguistics-emotion
+institutions:
+  - "University of California, San Diego"
+  - "University of California, Berkeley"
 code:
     url: ""
     license: ""

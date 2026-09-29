@@ -1,6 +1,7 @@
 ---
 id: carson26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/carson26_interspeech.pdf
 *Merlin Carson, Suyash Dandekar*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/carson26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/carson26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-794)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — The paper introduces Dual-Asymmetric Loss, a novel training objective with an adjustable parameter to continuously trade off speech reconstruction against noise suppression, achieving strong Pearson correlations of 0.95 (speech quality) and -0.96 (noise suppression) across 13 parameter settings.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Deploying customizable real-time speech enhancement on edge devices, mobile operating systems, communication headsets, and teleconferencing tools where use-cases demand dynamically tuning models for either aggressive noise elimination or pristine speech intelligibility.
+
+## Institutions / 機構
+
+Skyworks Solutions, Georgia Institute of Technology
 
 ## Related
 

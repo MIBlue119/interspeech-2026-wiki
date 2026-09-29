@@ -16,6 +16,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sanchez26b_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/sanchez26b_interspeech.pdf
 session: Multimodal and Non-Speech Healthcare Applications
 topics: [paralinguistics, evaluation, health]
+category: phonetics-linguistics
+institutions:
+  - "Harvard University"
+  - "Massachusetts General Hospital Institute of Health Professions"
+  - "Modality.AI"
+  - "University of California San Francisco"
+  - "Sunnybrook Research Institute"
+  - "University of Toronto"
+funding:
+  - "National Institute on Deafness and Other Communication Disorders"
+  - "Autism Science Foundation"
 code:
     url: ""
     license: ""

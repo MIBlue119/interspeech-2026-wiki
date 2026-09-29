@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sharma26b_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/sharma26b_interspeech.pdf
 session: Spoofing and Deepfake Detection 3
 topics: [audio-deepfake, evaluation, dataset]
+category: deepfake-security
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "University of South Florida"
 code:
     url: https://www.kaggle.com/datasets/interspeech2712/voxenes-2026
     license: ""

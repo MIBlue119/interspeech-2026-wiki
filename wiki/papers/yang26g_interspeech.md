@@ -1,6 +1,7 @@
 ---
 id: yang26g_interspeech
-category: tts
+category: speech-coding
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26g_interspeech.pdf
 *Jie-Shiang Yang, Ya-Tse Wu, Chi-Chun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1224)
+
+**Category:** `speech-coding` · **Labels:** `multilingual`
 
 **TL;DR** — The Pitch-Injected Residual Adapter (PIRA) is a lightweight, plug-and-play module that restores fundamental frequency and tonal information in frozen neural audio codecs, reducing codec-induced Tone Error Rate (dTER) by 35.7% across three tonal languages and five codecs.
 
@@ -65,6 +68,10 @@ Speech engineers and researchers working on neural audio codecs or speech langua
 ## Applications
 
 Low-resource speech generation, discrete tokenization for LLM-based speech synthesis, and cross-lingual voice conversion involving tonal languages.
+
+## Institutions / 機構
+
+National Tsing Hua University
 
 ## Related
 

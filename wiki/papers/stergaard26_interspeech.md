@@ -1,6 +1,7 @@
 ---
 id: stergaard26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/stergaard26_interspeech.pdf
 *Mads Østergaard, Alexander Neergaard Zahid, Karl Ulbæk, Andreas Bagge, Kenny Falkær Olsen, Rasmus Lindrup*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/stergaard26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/stergaard26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3430)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — The paper introduces own-voice cancellation (OVC) to remove an enrolled speaker's voice from a far-field audio stream, eliminating latency-induced distortion, and proposes a compute-efficient Mamba-MinGRU time-domain model that matches ConvTasNet performance at a fraction of the compute while maintaining a 2 ms algorithmic latency.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart speakers, conference room hardware, far-field telecommunication systems, and hearing assistive devices requiring real-time streaming own-voice suppression.
+
+## Institutions / 機構
+
+WS Audiology, Technical University of Denmark, Verth
 
 ## Related
 

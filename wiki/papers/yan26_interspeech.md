@@ -1,6 +1,7 @@
 ---
 id: yan26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [self-supervised, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yan26_interspeech.pdf
 *Haoyin Yan, Chengwei Liu, Shaofei Xue, Xiaotao Liang, Yinghao Liu, Yuxiang Kong, Zheng Xue*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-192)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`, `generative-model`, `robustness-noise`
 
 **TL;DR** — UniSE is a unified decoder-only autoregressive language model framework that handles multiple speech enhancement sub-tasks (speech restoration, target speaker extraction, and speech separation) by predicting discrete audio codec tokens conditioned on pretrained feature extractors. It achieves state-of-the-art DNSMOS overall quality (OVRL 3.64 with reinforcement learning) on the DNS 2020 Challenge test set.
 
@@ -69,6 +72,10 @@ Speech and machine learning researchers working on generative audio models and m
 ## Applications
 
 Universal audio preprocessing pipelines, conference communication systems, hearing aids, and multi-speaker transcription front-ends.
+
+## Institutions / 機構
+
+Alibaba
 
 ## Related
 

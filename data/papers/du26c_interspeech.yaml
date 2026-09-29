@@ -17,6 +17,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/du26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/du26c_interspeech.pdf
 session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
 topics: [speaker-verification, self-supervised, multilingual]
+category: speaker
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Beijing Fosafer Information Technology Co., Ltd"
+  - "University of Electronic Science and Technology of China"
+  - "Institute of Forensic Science, Ministry of Public Security"
+funding:
+  - "Basic Scientific Research Special Funds for Central-level Public Welfare Research Institutions"
 code:
     url: ""
     license: ""

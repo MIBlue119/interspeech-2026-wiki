@@ -1,6 +1,7 @@
 ---
 id: shen26d_interspeech
-category: tts
+category: resources-evaluation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shen26d_interspeech.pdf
 *Shengfan Shen, Di Wu, Xingchen Song, Dinghao Zhou, Liumeng Xue, Meng Meng, Jian Luan, Shuai Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shen26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shen26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2414)
+
+**Category:** `resources-evaluation` · **Labels:** `generative-model`
 
 **TL;DR** — Iterate to Differentiate (I2D) is a zero-shot text-to-speech evaluation framework that recursively uses synthesized outputs as subsequent references to amplify performance gaps, increasing system-level Spearman correlation for UTMOSv2 from 0.118 to 0.464.
 
@@ -69,6 +72,12 @@ Speech researchers and TTS engineers building zero-shot voice cloning systems sh
 ## Applications
 
 Automated zero-shot TTS model benchmarking, continuous integration quality assurance for speech generation pipelines, and robustness stress-testing for voice cloning systems.
+
+## Institutions / 機構
+
+Nanjing University, Xiaomi
+
+**Funding / 經費:** National Natural Science Foundation of China, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

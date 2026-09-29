@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nihal26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/nihal26_interspeech.pdf
 session: Acoustic Event Detection 1
 topics: [self-supervised, multilingual, dataset]
+category: audio-understanding
+labels:
+  - "self-supervised"
+institutions:
+  - "Institute of Science Tokyo"
+  - "RIKEN"
+funding:
+  - "Japan Society for the Promotion of Science"
+  - "Research Organization of Information and Systems"
 code:
     url: https://ragib-amin-nihal.github.io/BioAcousticArithmetic/
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: ta26b_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ta26b_interspeech.pdf
 *Bao Thang Ta, Huynh Thi Thanh Binh, Van Hai Do*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ta26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ta26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1587)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — Progressive Weak Supervision (PWS) dynamically relaxes cross-entropy supervision during early speech emotion recognition training by accepting top-k soft targets that decay to standard hard targets, achieving 78.08% unweighted accuracy on IEMOCAP and 85.70% on ViSEC.
 
@@ -67,6 +69,12 @@ Researchers and engineers working on speech emotion recognition or classificatio
 ## Applications
 
 Mental health monitoring, call-center analytics, interactive dialogue systems, and affective computing.
+
+## Institutions / 機構
+
+Viettel AI, Viettel Group, Hanoi University of Science and Technology, Thuyloi University
+
+**Funding / 經費:** Vingroup Innovation Foundation
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: rathnayake26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [low-resource, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rathnayake26_interspeech.pdf
 *Himashi Rathnayake, Jesin James, Sally Akevai Nicholas, Gianna Leoni, C. I. Watson, Peter J Keegan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rathnayake26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rathnayake26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1543)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `low-resource`, `dataset-or-benchmark-release`
 
 **TL;DR** — P¯a-Kakare introduces the first emotional speech database for te reo M¯aori, capturing 16 culturally grounded emotion categories across 3,840 high-quality utterances. Preliminary acoustic analysis demonstrates that fundamental frequency, intensity, and speech rate systematically differentiate these categories (ANOVA p < 0.001).
 
@@ -65,6 +68,12 @@ Researchers building speech emotion recognition systems for low-resource or Indi
 ## Applications
 
 Development of culturally sensitive speech-emotion recognition technologies, voice assistants, and computer-assisted language learning platforms for te reo M¯aori and other Indigenous Pacific languages.
+
+## Institutions / 機構
+
+University of Auckland, Te Hiku Media
+
+**Funding / 經費:** Science for Technological Innovation National Science Challenge, Ministry of Business, Innovation and Employment, Te Hiku Media, University of Auckland
 
 ## Related
 

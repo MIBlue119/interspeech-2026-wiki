@@ -1,6 +1,6 @@
 ---
 id: nan26_interspeech
-category: dataset
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nan26_interspeech.pdf
 *Zheng Nan, Tharmakulasingam Sirojan, Mostafa Shahin, Tünde Szalay, Vidhyasaharan Sethu, Beena Ahmed*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nan26_interspeech.html)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — SpeechBench is an open, containerized speech annotation and analysis platform featuring a visual pipeline builder for chaining pretrained models (VAD, diarization, ASR) and interactive tier editing for human-in-the-loop refinement.
 
@@ -55,6 +57,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building domain-specific speech corpora, cleaning and transcribing sensitive clinical or children's speech datasets, and interactive phonetic analysis.
+
+## Institutions / 機構
+
+UNSW, University of Sydney
 
 ## Related
 

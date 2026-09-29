@@ -1,6 +1,7 @@
 ---
 id: subedi26_interspeech
-category: self-supervised
+category: speaker
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/subedi26_interspeech.pdf
 *Prakriti Subedi, Howard Prioleau, Saurav Aryal*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/subedi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/subedi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2966)
+
+**Category:** `speaker` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — A 47.88M-parameter bidirectional Mamba-2 encoder trained via HuBERT-style masked discrete-unit prediction on 250 hours of multilingual speech achieves an official speaker clustering Adjusted Rand Index of 0.735, outperforming several standard challenge baselines.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Unsupervised multilingual speech processing, low-resource speech representation learning, and speaker clustering.
+
+## Institutions / 機構
+
+Howard University
+
+**Funding / 經費:** Office of Naval Research, Department of the Navy, NIH Common Fund, Amazon Research Award
 
 ## Related
 

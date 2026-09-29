@@ -1,6 +1,7 @@
 ---
 id: fu26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fu26b_interspeech.pdf
 *Yihui Fu, Wouter Tirry, Tim Fingscheidt*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2465)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — EffDiffSE+ is an efficient single-iteration Schrödinger bridge (SB) speech enhancement model combining a discriminative condition DNN with a generative bridge DNN and a learned initialization. It achieves a top subjective MOS of 3.95 and an overall rank of 1.27 while requiring only 3.84 GMAC/s.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time communication systems, hearing aids, voice assistants, and on-device speech enhancement running under strict compute budgets.
+
+## Institutions / 機構
+
+TU Braunschweig, Goodix Technology
 
 ## Related
 

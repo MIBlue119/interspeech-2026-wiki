@@ -1,6 +1,7 @@
 ---
 id: park26k_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26k_interspeech.pdf
 *Yoonjeong Park, Jaekwon Im, Juhan Nam*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3285)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — MeloDISinger is a flow-matching-based singing voice editing model that leverages a melody-aware duration-ratio predictor (MeloDRP) and audio infilling to modify lyrics while strictly preserving total duration and melody. It achieves state-of-the-art objective and subjective performance, reducing word error rates significantly compared to existing baselines.
 
@@ -62,6 +65,12 @@ Read this paper if you build audio editing or generative voice systems and need 
 ## Applications
 
 Professional music production tools for pitch correction, mispronunciation fixes, lyric insertion, and vocal phrase replacement without altering backing tracks.
+
+## Institutions / 機構
+
+KAIST
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

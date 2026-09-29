@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yuen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yuen26_interspeech.pdf
 session: Speech Production and Perception 2
 topics: [phonetics, prosody, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "Saarland University"
+funding:
+  - "Deutsche Forschungsgemeinschaft"
 code:
     url: ""
     license: ""

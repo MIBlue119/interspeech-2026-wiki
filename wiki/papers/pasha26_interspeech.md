@@ -1,6 +1,7 @@
 ---
 id: pasha26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [low-resource, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pasha26_interspeech.pdf
 *Shahab Pasha, Jiahong Zhao, Hualin Ren, Christian Ritz*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pasha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pasha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-31)
+
+**Category:** `enhancement-separation` · **Labels:** `low-resource`, `robustness-noise`
 
 **TL;DR** — A novel transfer learning framework for room impulse response (RIR) estimation adapts models from data-rich rectangular rooms to complex L-shaped and irregular geometries by freezing a geometry-aware encoder and fine-tuning a physics-informed decoder, achieving a 56% lower mean squared error on unseen spaces with only 10 training rooms.
 
@@ -64,6 +67,10 @@ Speech and ML researchers focusing on acoustic simulation or transfer learning w
 ## Applications
 
 Speech dereverberation, acoustic echo cancellation, and spatial audio reproduction in geometrically diverse environments.
+
+## Institutions / 機構
+
+University of Western Australia, University of Southampton, University of Wollongong
 
 ## Related
 

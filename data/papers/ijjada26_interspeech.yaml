@@ -17,6 +17,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/ijjada26_interspeech.pdf
 session: Generative and Self-Supervised Speech Enhancement
 topics: [speech-enhancement, on-device, self-supervised]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "Meeami Technologies"
 code:
     url: https://github.com/wavenorm123/WaveNorm_AGC
     license: ""

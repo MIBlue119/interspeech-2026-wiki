@@ -1,6 +1,6 @@
 ---
 id: williams26_interspeech
-category: speech-llm
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/williams26_interspeech.pdf
 *Jennifer Williams*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/williams26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/williams26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-210)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper analyzes the mismatch between global AI regulatory frameworks and the actual technical architecture of modern speech synthesis, highlighting how laws targeting static outputs overlook portable speaker embedding models and complex multi-stage workflows.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Informing the drafting of technically sound AI regulations, speech watermarking standards, and provenance-tracking frameworks for synthetic voice generation.
+
+## Institutions / 機構
+
+University of Southampton
+
+**Funding / 經費:** EPSRC National EdgeAI Hub, EPSRC Responsible AI UK, Research England Higher Education Innovation Fund WSI Knowledge Exchange Fund
 
 ## Related
 

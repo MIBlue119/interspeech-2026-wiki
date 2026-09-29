@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hope26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hope26_interspeech.pdf
 session: Queer and Trans Speech Science and Technology
 topics: [tts, speech-llm, evaluation]
+category: tts
+institutions:
+  - "University of Delaware"
+  - "KTH Royal Institute of Technology"
+funding:
+  - "WASP"
 code:
     url: ""
     license: ""

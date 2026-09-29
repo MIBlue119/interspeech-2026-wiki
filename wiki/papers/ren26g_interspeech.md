@@ -1,6 +1,7 @@
 ---
 id: ren26g_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ren26g_interspeech.pdf
 *Ziang Ren, Guodong Lin, Yuchen Ai, Kaize Tan, Wei-Qiang Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ren26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ren26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1915)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — Unified Gradient Projection (UGP) is a continual learning framework for multilingual ASR that combines language-balanced gradient regulation with experience replay, achieving near-zero average forgetting (0.04% FWER) on Whisper-large-v3.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Universal multilingual automatic speech recognition, on-device or server-side continual adaptation for low-resource languages, and incremental speech foundation model updates.
+
+## Institutions / 機構
+
+Tsinghua University
 
 ## Related
 

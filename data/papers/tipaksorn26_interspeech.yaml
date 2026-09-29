@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tipaksorn26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/tipaksorn26_interspeech.pdf
 session: Source Separation 2
 topics: [speech-enhancement, self-supervised, multilingual]
+category: enhancement-separation
+labels:
+  - "generative-model"
+institutions:
+  - "NECTEC"
+  - "Thammasat University"
+funding:
+  - "NECTEC"
+  - "NSTDA"
 code:
     url: https://github.com/CAI-NECTEC/AV-FlowSep
     license: ""

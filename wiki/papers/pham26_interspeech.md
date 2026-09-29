@@ -1,6 +1,7 @@
 ---
 id: pham26_interspeech
-category: speaker-verification
+category: speaker
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pham26_interspeech.pdf
 *Viet Hoang Pham, Tran Trung Nguyen, Bao Thu Ho, Phuong Tuan Dat, Trang Thu Thi Nguyen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pham26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pham26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3449)
+
+**Category:** `speaker` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — VieSpeaker is a large-scale, face-independent Vietnamese speaker recognition dataset comprising 902 hours of speech across 4,715 speakers, constructed by leveraging LLM reasoning over metadata and transcripts rather than facial cues. Models trained on VieSpeaker achieve robust verification performance, dropping Equal Error Rates down to 1.81% on easy evaluation subsets and 9.83% on hard cross-session splits when initialized with large-scale pretraining.
 
@@ -66,6 +69,12 @@ Speech and ML engineers building speaker verification systems for low-resource o
 ## Applications
 
 Speaker verification, speaker diarization, and forensic audio analysis for Vietnamese and other text-rich, visually constrained multimedia environments.
+
+## Institutions / 機構
+
+Hanoi University of Science and Technology
+
+**Funding / 經費:** Ministry of Education and Training of Vietnam
 
 ## Related
 

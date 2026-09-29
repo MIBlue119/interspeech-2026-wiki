@@ -9,6 +9,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yadav26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yadav26_interspeech.pdf
 session: Translation
 topics: [speech-translation, low-resource, multilingual]
+category: translation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "Indraprastha Institute of Information Technology Delhi"
+funding:
+  - "Nebius Research Grant"
+  - "Infosys Foundation"
 code:
     url: https://sites.google.com/view/artist-demo/
     license: ""

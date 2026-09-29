@@ -1,6 +1,6 @@
 ---
 id: penney26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/penney26_interspeech.pdf
 *Joshua Penney, Jae Hyun Kim, Dijana Dragicevich, Prue Gourley*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/penney26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/penney26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2610)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — By combining electroglottography (EGG) and flexible nasolaryngoscopy in Australian English, this study confirms that pre-sonorant voiceless coda /t/ uses glottal/laryngeal constriction while /k/ uses glottal spreading, whereas all phrase-final voiceless stops (/p, t, k/) exhibit glottal constriction.
 
@@ -58,6 +60,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Phonetic research, speech pathology, laryngeal physiology analysis, and multi-modal speech data acquisition methodology.
+
+## Institutions / 機構
+
+Macquarie University
+
+**Funding / 經費:** Early Career Researcher Enabling Scheme
 
 ## Related
 

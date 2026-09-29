@@ -17,6 +17,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26v_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26v_interspeech.pdf
 session: Acoustic Signal Analysis and Generation
 topics: [tts, self-supervised, evaluation]
+category: tts
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Xiamen University"
+  - "DiDi Global Inc"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Innovation of Policing Science and Technology, Fujian province"
 code:
     url: https://pppjchen.github.io/SARA
     license: ""

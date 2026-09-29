@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kishi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kishi26_interspeech.pdf
 session: Speech Production and Perception 1
 topics: [speaker-verification, self-supervised, evaluation]
+category: speaker
+labels:
+  - "self-supervised"
+institutions:
+  - "Keio University"
+  - "University of Tokyo"
+funding:
+  - "JST FOREST"
+  - "JSPS KAKENHI"
+  - "Moonshot R&D"
 code:
     url: ""
     license: ""

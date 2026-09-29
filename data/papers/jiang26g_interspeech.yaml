@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jiang26g_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26g_interspeech.pdf
 session: Spoken Dialogue Systems
 topics: [speech-llm, multimodal, dataset]
+category: speech-llm-dialogue
+labels:
+  - "streaming-real-time"
+  - "generative-model"
+institutions:
+  - "Nagoya University"
+funding:
+  - "JST Moonshot R&D"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: chen26l_interspeech
-category: speech-translation
+category: translation
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26l_interspeech.pdf
 *Qixu Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1148)
+
+**Category:** `translation` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — The paper introduces a two-stage Rank→Distill self-bootstrapping framework using audio-language models to filter noisy speech-to-speech translation (S2ST) training data, yielding up to a +1.4 ASR-BLEU improvement. It directly evaluates raw paired source and target speech for keep/drop decisions, jointly capturing acoustic fidelity and cross-lingual semantic consistency.
 
@@ -67,6 +70,12 @@ Speech and ML researchers working on multi-modal data curation and end-to-end sp
 ## Applications
 
 Data cleaning and filtering pipelines for large-scale speech-to-speech translation, voice conversion, and cross-lingual spoken corpora.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Shenzhen
+
+**Funding / 經費:** National Natural Science Foundation of China, Program for Guangdong Introducing Innovative and Entrepreneurial Teams
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: guan26b_interspeech
-category: asr
+category: speech-llm-dialogue
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/guan26b_interspeech.pdf
 *Wenhao Guan, Zhikang Niu, Ziyue Jiang, Kaidi Wang, Peijie Chen, Qingyang Hong, Xie Chen, Lin Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/guan26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/guan26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2194)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`
 
 **TL;DR** — UniVoice is a unified 360M-parameter LLM that integrates autoregressive ASR and flow-matching TTS within a single continuous-space Transformer backbone, achieving a 4.06 WER on zero-shot TTS and competitive ASR performance.
 
@@ -67,6 +70,12 @@ Researchers and engineers building unified speech LLMs should read this paper to
 ## Applications
 
 Unified speech assistants, real-time voice-to-voice conversational agents, zero-shot voice cloning systems, and edge devices requiring low-latency joint speech recognition and synthesis.
+
+## Institutions / 機構
+
+Xiamen University, Shanghai Innovation Institute, Shanghai Jiao Tong University, Zhejiang University
+
+**Funding / 經費:** National Natural Science Foundation of China, Innovation of Policing Science and Technology, Fujian province
 
 ## Related
 

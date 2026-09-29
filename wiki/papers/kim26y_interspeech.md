@@ -1,6 +1,6 @@
 ---
 id: kim26y_interspeech
-category: speech-llm
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26y_interspeech.pdf
 *Mingi Kim, Jaehoon Go, Jinkwon Hwang, Sangyeon Cho, Sunjae Yoon, Junyeong Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26y_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26y_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3442)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — VividAC is a training-free framework that uses natural-language communication between a Visual Agent and an Audial Agent to generate visually contextualized audio captions, boosting zero-shot AVQA accuracy by up to 11.01%p.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Zero-shot audio-visual question answering, video understanding assistants, and multimodal retrieval systems.
+
+## Institutions / 機構
+
+Chung-Ang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, National Research Foundation of Korea
 
 ## Related
 

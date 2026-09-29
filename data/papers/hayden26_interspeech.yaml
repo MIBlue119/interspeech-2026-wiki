@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hayden26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/hayden26_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
 topics: [tts, evaluation, paralinguistics]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "University of Edinburgh"
 code:
     url: ""
     license: ""

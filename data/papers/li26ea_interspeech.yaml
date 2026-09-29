@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26ea_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26ea_interspeech.pdf
 session: Spatial Audio 2
 topics: [speech-enhancement, evaluation]
+category: enhancement-separation
+institutions:
+  - "Nanjing University"
+  - "Samsung Electronics"
+  - "Horizon Robotics"
 code:
     url: ""
     license: ""

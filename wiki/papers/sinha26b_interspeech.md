@@ -1,6 +1,7 @@
 ---
 id: sinha26b_interspeech
 category: asr
+labels: [low-resource, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sinha26b_interspeech.pdf
 *Abhijit Sinha, Hemant Kumar Kathania, Paban Sapkota, Mikko Kurimo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sinha26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sinha26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2666)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — An empirical analysis of intermediate SSL representations (Wav2Vec2, HuBERT, Data2Vec) under zero-shot adult-to-child ASR reveals that layers with identical word error rates exhibit distinct error structures and complementary acoustic behaviors. Oracle selection proves that per-utterance representation diversity can yield absolute WER gains of up to 5-6% under severe domain mismatch, outperforming LLM-based post-recognition correction.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Zero-shot domain adaptation for children's speech interfaces, educational voice applications with limited labeled training data, and dynamic acoustic feature fusion strategies.
+
+## Institutions / 機構
+
+NIT Sikkim, Aalto University
 
 ## Related
 

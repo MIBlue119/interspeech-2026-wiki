@@ -1,6 +1,6 @@
 ---
 id: ling26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ling26_interspeech.pdf
 *Tongtao Ling, Shulin He, Zhong-Qiu Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ling26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ling26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1710)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — TGTSE introduces a token-guided paradigm for audio-visual target speaker extraction by mapping visual lip movements to discrete semantic tokens, achieving a state-of-the-art SDR of 15.2 dB on VoxCeleb2-2Mix. It bridges the cross-modal gap by replacing continuous lip embeddings with causally grounded speech tokens as temporal guidance.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Online meeting systems, smart hearing aids, and interactive robotics operating in noisy and multi-speaker environments.
+
+## Institutions / 機構
+
+Southern University of Science and Technology
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: zhang26ba_interspeech
-category: speech-perception
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26ba_interspeech.pdf
 *Kaile Zhang, Gang Peng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26ba_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26ba_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1940)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates the neural oscillatory mechanisms of speaker normalization in Cantonese tone perception under cognitive load using EEG, finding that behavioral performance remains resilient despite substantial neural resource reallocations via alpha and delta band modulations.
 
@@ -62,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving speech recognition interfaces, auditory prosthetics, and cognitive load management systems in multi-modal environments.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

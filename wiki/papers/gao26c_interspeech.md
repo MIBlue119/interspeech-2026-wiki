@@ -1,6 +1,7 @@
 ---
 id: gao26c_interspeech
-category: paralinguistics
+category: audio-understanding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gao26c_interspeech.pdf
 *Pengxiang Gao, Yu Qiu, Yanzhi Song*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gao26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gao26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-482)
+
+**Category:** `audio-understanding` · **Labels:** `generative-model`
 
 **TL;DR** — UD-ASD is a unified conditional diffusion model for anomalous sound detection that eliminates the need for separate models per machine type, achieving a state-of-the-art Hmean of 62.80% on the DCASE2022 Task 2 dataset.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Industrial predictive maintenance, automated factory acoustic surveillance, real-time machinery fault diagnosis, and edge-based acoustic monitoring.
+
+## Institutions / 機構
+
+University of Science and Technology of China
+
+**Funding / 經費:** NSF of China, Major Project of Science and Technology Innovation Tackling Plan of Anhui Province, Fundamental Research Funds for the Central Universities
 
 ## Related
 

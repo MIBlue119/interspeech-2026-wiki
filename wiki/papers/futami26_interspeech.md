@@ -1,6 +1,7 @@
 ---
 id: futami26_interspeech
 category: asr
+labels: [multilingual, efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/futami26_interspeech.pdf
 *Hayato Futami, Tatsuya Kawahara*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/futami26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/futami26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2561)
+
+**Category:** `asr` · **Labels:** `multilingual`, `efficient-on-device`, `self-supervised`
 
 **TL;DR** — The paper introduces Language Model (LM) Merging, a cross-modal parameter arithmetic technique that directly combines text-only domain-specific language models into an LLM-based ASR model using LoRA adapters, avoiding any inference latency or memory overhead. It yields consistent domain adaptation gains in Japanese and English while matching the inference speed of the base ASR model.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Zero-latency domain adaptation for production ASR systems, voice assistants, and enterprise transcription engines operating under strict latency constraints.
+
+## Institutions / 機構
+
+Kyoto University
 
 ## Related
 

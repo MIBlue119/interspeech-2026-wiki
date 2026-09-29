@@ -1,6 +1,7 @@
 ---
 id: zhang26fa_interspeech
-category: keyword-spotting
+category: asr
+labels: [efficient-on-device, self-supervised, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26fa_interspeech.pdf
 *Jue Zhang, Guibin Zheng, Jiarui Zhang, Jiqing Han, Chenhao Jing*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26fa_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26fa_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2485)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `self-supervised`, `streaming-real-time`
 
 **TL;DR** — MPA-KWS is a streaming multimodal open-vocabulary keyword spotting framework that leverages W-CTC forced alignment and phoneme-level contrastive learning to achieve state-of-the-art performance on confusable words. On the challenging LibriPhrase-Hard dataset, it achieves an EER of 8.21% under text-audio enrollment and 9.53% under text-only enrollment with a compact 4.0M parameter footprint.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device voice assistants, hands-free wake-word detection, smart home appliances, and wearable voice-controlled hardware.
+
+## Institutions / 機構
+
+Harbin Institute of Technology
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: jung26b_interspeech
-category: speaker-diarization
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jung26b_interspeech.pdf
 *Bongsu Jung, Wooil Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jung26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jung26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1198)
+
+**Category:** `speaker`
 
 **TL;DR** — The paper introduces Continuous Influence Permutation Invariant Training (CI-PIT) to resolve hierarchical permutation inconsistency in self-conditioned end-to-end speaker diarization, achieving a lower Diarization Error Rate (DER) of 7.52% on CALLHOME 2-speaker compared to 8.30% for the baseline.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speaker diarization systems for multi-speaker conversational transcription, meeting transcription, and call center analytics.
+
+## Institutions / 機構
+
+Incheon National University
+
+**Funding / 經費:** KOITA, MSIT
 
 ## Related
 

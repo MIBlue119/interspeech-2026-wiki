@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shridhar26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/shridhar26_interspeech.pdf
 session: Acoustic Event Detection 1
 topics: [paralinguistics, self-supervised, low-resource]
+category: health-clinical
+labels:
+  - "self-supervised"
+institutions:
+  - "MODULABS"
+  - "Wonkwang University"
+funding:
+  - "Regional Innovation System & Education program"
+  - "National Research Foundation of Korea"
 code:
     url: https://github.com/RSC-Toolkit/Lung-SRAD
     license: ""

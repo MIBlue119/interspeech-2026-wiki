@@ -1,6 +1,6 @@
 ---
 id: boeddeker26_interspeech
-category: speech-separation
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/boeddeker26_interspeech.pdf
 *Christoph Boeddeker, Yoshiki Masuyama, Julius Richter, Takahiro Edo, Gordon Wichern, Jonathan Le Roux*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/boeddeker26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/boeddeker26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2620)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This paper introduces Speaker-Identity Supervision (SIS), a training strategy for monaural speech separation that uses a contrastive speaker-embedding objective instead of waveform- or spectrogram-level reconstruction losses. Trained from scratch on Libri2Mix, the proposed method achieves an SDR of 8.1 dB on clean mixtures and can be used to adapt pretrained models to noisy conditions.
 
@@ -69,6 +71,10 @@ Speech and ML researchers working on weak supervision, self-supervised learning,
 ## Applications
 
 Monaural speech separation and domain adaptation of speech enhancement models for telephony, meeting transcription, and hearing assistive devices using weak speaker metadata.
+
+## Institutions / 機構
+
+Mitsubishi Electric Research Laboratories
 
 ## Related
 

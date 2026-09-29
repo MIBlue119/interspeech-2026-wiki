@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cappellazzo26_interspeec
 pdf_url: https://www.isca-archive.org/interspeech_2026/cappellazzo26_interspeech.pdf
 session: Audio-Visual and Multimodal Perception
 topics: [speech-llm, evaluation, self-supervised]
+category: asr
+labels:
+  - "robustness-noise"
+institutions:
+  - "Imperial College London"
+  - "NatWest AI Research"
 code:
     url: https://umbertocappellazzo.github.io/Dr-SHAP-AV
     license: ""

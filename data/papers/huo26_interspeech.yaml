@@ -9,6 +9,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/huo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/huo26_interspeech.pdf
 session: New Architecture and Analyses for ASR and Speech LMs
 topics: [self-supervised, evaluation, phonetics]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Toronto"
+funding:
+  - "Natural Sciences and Engineering Research Council of Canada"
+  - "Data Sciences Institute"
+  - "Linguistics Graduate Research Award at the University of Toronto"
 code:
     url: https://github.com/facebookresearch/fairseq
     license: ""

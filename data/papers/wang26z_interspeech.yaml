@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26z_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26z_interspeech.pdf
 session: Tones
 topics: [phonetics, prosody, evaluation]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+institutions:
+  - "Peking University"
+funding:
+  - "National Social Science Fund of China"
 code:
     url: https://github.com/wbh-XC/Interspeech2026
     license: ""

@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/choi26f_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/choi26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/choi26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2221)
 
+**Category:** `asr`
+
 **TL;DR** — The paper proposes an IPA-guided dual transcription framework for speech corpus refinement and text normalization that uses a phoneme intermediate conditional speech-to-text model and a fine-tuned LLM to resolve spoken-written ambiguities, achieving an 88.7% sentence accuracy on Google TN and a 69.8% WER reduction on domain-specific dental speech data.
 
 ## Key contributions
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech corpus cleaning, domain-adapted automatic speech recognition (ASR) data curation, and robust text normalization for text-to-speech systems.
+
+## Institutions / 機構
+
+DenComm, Catholic University of Korea
 
 ## Related
 

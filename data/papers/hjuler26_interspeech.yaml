@@ -10,6 +10,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hjuler26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/hjuler26_interspeech.pdf
 session: Text Processing for Speech Synthesis
 topics: [tts, evaluation, speech-llm]
+category: tts
+institutions:
+  - "Queensland University of Technology"
+  - "University Grenoble Alpes"
+  - "CNRS"
+  - "Grenoble INP"
+funding:
+  - "Australian Research Council"
+  - "European Union"
+  - "Marie Skłodowska-Curie"
 code:
     url: https://github.com/MajaHjuler/TTS_Listenability
     license: ""

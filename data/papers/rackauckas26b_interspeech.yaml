@@ -7,6 +7,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/rackauckas26b_interspeec
 pdf_url: https://www.isca-archive.org/interspeech_2026/rackauckas26b_interspeech.pdf
 session: Speech and Language Learning Technologies
 topics: [tts, spoken-language-understanding, speech-llm]
+category: speech-llm-dialogue
+labels:
+  - "generative-model"
+institutions:
+  - "RoleGaku"
 code:
     url: ""
     license: ""

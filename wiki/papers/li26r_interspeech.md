@@ -1,6 +1,7 @@
 ---
 id: li26r_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26r_interspeech.pdf
 *Chen-An Li, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26r_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26r_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1026)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — We introduce INSPIRE, the first benchmark for instruction-aware speech retrieval that evaluates models across semantic, speaker, style, and environmental relevance constraints. The empirical study reveals that current text-centric models excel at semantic tasks while self-supervised speech models capture acoustic traits, but no single model handles multi-attribute composition.
 
@@ -67,6 +70,12 @@ Researchers building next-generation multimodal speech LLMs or unified speech-te
 ## Applications
 
 Advanced voice assistants, archival audio search engines, automated customer service call analysis, and context-aware media retrieval systems.
+
+## Institutions / 機構
+
+National Taiwan University, NTU Artificial Intelligence Center of Research Excellence
+
+**Funding / 經費:** National Science and Technology Council, Ministry of Education, Taiwan Centers of Excellence in Artificial Intelligence
 
 ## Related
 

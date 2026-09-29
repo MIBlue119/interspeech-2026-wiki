@@ -1,6 +1,7 @@
 ---
 id: chou26_interspeech
-category: speech-llm
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chou26_interspeech.pdf
 *Hsing-Hang Chou, Bo-Hao Su, Krishna Somandepalli, Chi-Chun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chou26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chou26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1238)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates how textual speaker-identity descriptors (accent, country, language) injected into prompts systematically bias emotion perception in speech LLMs despite fixed audio, and demonstrates that lightweight LoRA fine-tuning effectively eliminates this vulnerability.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building robust, fair, and bias-resistant speech emotion recognition systems, empathetic voice assistants, and affective conversational agents deployed across diverse demographic populations.
+
+## Institutions / 機構
+
+National Tsing Hua University, Google
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: gao26b_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gao26b_interspeech.pdf
 *Shenghan Gao, Xueshuai Zhang, Pengyuan Zhang, Yonghong Yan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gao26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gao26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-244)
+
+**Category:** `speaker`
 
 **TL;DR** — HistoMatch introduces a Dual-state History-based Stability Evaluator (DHSE) that combines transient confidence with steady-state historical prediction stability to filter pseudo-labels for semi-supervised speaker verification, achieving state-of-the-art EERs down to 0.91% on VoxCeleb1-O.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building production-grade speaker verification and biometric authentication systems under low-resource, label-scarce conditions.
+
+## Institutions / 機構
+
+Chinese Academy of Sciences, University of Chinese Academy of Sciences
 
 ## Related
 

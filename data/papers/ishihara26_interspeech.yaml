@@ -10,6 +10,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ishihara26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/ishihara26_interspeech.pdf
 session: Speech and Language Representation
 topics: [speaker-verification, phonetics, evaluation]
+category: speaker
+institutions:
+  - "Australian National University"
 code:
     url: ""
     license: ""

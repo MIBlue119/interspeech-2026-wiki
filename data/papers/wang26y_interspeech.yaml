@@ -20,6 +20,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26y_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26y_interspeech.pdf
 session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
 topics: [self-supervised, speech-coding, voice-conversion]
+category: speech-coding
+labels:
+  - "generative-model"
+institutions:
+  - "Amazon"
 code:
     url: ""
     license: ""

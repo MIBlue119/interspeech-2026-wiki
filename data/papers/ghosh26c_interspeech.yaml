@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ghosh26c_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/ghosh26c_interspeech.pdf
 session: Speech signal analysis
 topics: [speech-translation, self-supervised, evaluation]
+category: asr
+institutions:
+  - "IIIT Hyderabad"
+  - "University of Bath"
+funding:
+  - "MeitY, Government of India"
 code:
     url: ""
     license: ""

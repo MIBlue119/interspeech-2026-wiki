@@ -9,6 +9,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gichamba26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/gichamba26_interspeech.pdf
 session: Quality, Intelligibility and Evaluation of Speech and Codecs
 topics: [speech-coding, self-supervised, evaluation]
+category: speech-coding
+labels:
+  - "generative-model"
+institutions:
+  - "Carnegie Mellon University"
+funding:
+  - "African Engineering and Technology Network"
+  - "Mastercard Foundation"
+  - "Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support"
+  - "U.S. National Science Foundation"
 code:
     url: https://wakandaai.github.io/low-frame-rate-codec/
     license: ""

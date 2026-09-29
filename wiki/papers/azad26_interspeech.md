@@ -1,6 +1,6 @@
 ---
 id: azad26_interspeech
-category: asr
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/azad26_interspeech.pdf
 *Asif Azad, MD Sadik Hossain Shanto, Mohammad Sadat Hossain, Bdour Alwuqaysi, Sabri Boughorbel, Yahya Bokhari, Abdulrhman Aljouie, Ayah Othman Sindi, Ehsan Hoque*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/azad26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/azad26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3472)
+
+**Category:** `health-clinical`
 
 **TL;DR** — Harf-Speech is a modular, open-source framework for clinically aligned phoneme-level Arabic pronunciation assessment that achieves an 8.92% phoneme error rate and a 0.791 Pearson correlation with expert speech-language pathologist scores.
 
@@ -61,6 +63,10 @@ Speech and ML researchers building clinical AI tools will find a reproducible bl
 ## Applications
 
 Automated speech therapy platforms, computer-assisted language learning (CALL) tools, and clinical articulation deficit screening.
+
+## Institutions / 機構
+
+Ministry of Defense, Ability Center, University of Rochester
 
 ## Related
 

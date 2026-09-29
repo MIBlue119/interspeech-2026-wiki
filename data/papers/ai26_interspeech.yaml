@@ -13,6 +13,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ai26_interspeech.pdf
 session: Speaker Recognition and Verification
 topics: [speaker-verification, keyword-spotting, dataset]
+category: speaker
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Shanghai University"
+  - "Xi'an Jiaotong-Liverpool University"
+  - "Hithink RoyalFlush AI Research Institute"
+funding:
+  - "Shanghai Municipal Science and Technology Commission"
+  - "National High Quality Program"
+  - "Xi'an Jiaotong-Liverpool University"
 code:
     url: ""
     license: ""

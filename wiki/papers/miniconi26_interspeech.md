@@ -1,6 +1,6 @@
 ---
 id: miniconi26_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/miniconi26_interspeech.pdf
 *Natacha Miniconi, Meysam Shamsi, Anthony Larcher*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/miniconi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/miniconi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-449)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — TDScore is a zero-human-annotation framework that trains automatic speech quality predictors by exploiting the training dynamics (checkpoint iterations and loss values) of text-to-speech models, achieving out-of-domain system-level Spearman correlations up to 0.73 on BVCC.
 
@@ -68,6 +70,12 @@ Speech researchers and ML engineers building automatic evaluation metrics or TTS
 ## Applications
 
 Automated text-to-speech development monitoring, hyperparameter tuning, checkpoint selection, and zero-human-annotation quality control for speech synthesis pipelines.
+
+## Institutions / 機構
+
+Le Mans Universite
+
+**Funding / 經費:** European Union
 
 ## Related
 

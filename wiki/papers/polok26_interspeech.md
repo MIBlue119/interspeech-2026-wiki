@@ -1,6 +1,7 @@
 ---
 id: polok26_interspeech
-category: asr
+category: resources-evaluation
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/polok26_interspeech.pdf
 *Alexander Polok, Ivan Medennikov, Honza Černocký, Shinji Watanabe, Lukáš Burget, Samuele Cornell*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/polok26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/polok26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-443)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — This paper investigates how synthetic conversation simulation choices impact multi-talker ASR (DiCoW) and speaker diarization (Sortformer), releasing an open-source toolkit (FastMSS) that generates 1,000 hours of annotated audio in under five minutes. It reveals that optimal recipes are task-dependent (e.g., speech overlap helps ASR but hurts diarization), and two-stage synthetic pre-training followed by real-data fine-tuning significantly outperforms real-only training.
 
@@ -66,6 +69,12 @@ Speech and ML engineers building conversational AI systems or multi-speaker pipe
 ## Applications
 
 Multi-talker automatic speech recognition, end-to-end speaker diarization, meeting transcription systems, and spoken dialogue agents.
+
+## Institutions / 機構
+
+Brno University of Technology, Carnegie Mellon University, NVIDIA
+
+**Funding / 經費:** Ministry of Education, Youth and Sports of the Czech Republic, Brno Ph.D. Talent Scholarship Programme
 
 ## Related
 

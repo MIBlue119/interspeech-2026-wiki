@@ -1,6 +1,7 @@
 ---
 id: wang26da_interspeech
-category: tts
+category: audio-understanding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26da_interspeech.pdf
 *Jinting Wang, Yan Rong, Chenxing Li, Li Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26da_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26da_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2348)
+
+**Category:** `audio-understanding` · **Labels:** `generative-model`
 
 **TL;DR** — GACA-DiT is a diffusion transformer-based framework for dance-to-music generation that combines a genre-adaptive rhythm extraction module and a context-aware temporal alignment module to achieve superior beat synchronization and audio quality. It outperforms prior state-of-the-art models on the AIST++ and TikTok datasets while requiring significantly fewer parameters (56M).
 
@@ -66,6 +69,12 @@ Researchers and audio-generative engineers working on conditional music synthesi
 ## Applications
 
 Automated background music generation for short-form user video platforms, interactive dance choreography companion software, and cross-modal rhythm conditioning systems.
+
+## Institutions / 機構
+
+Hong Kong University of Science and Technology, Tencent
+
+**Funding / 經費:** National Natural Science Foundation of China, Guangdong Basic and Applied Basic Research Foundation, Tencent AI Lab Rhino-Bird Program
 
 ## Related
 

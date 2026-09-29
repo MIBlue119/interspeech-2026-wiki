@@ -1,6 +1,6 @@
 ---
 id: mohapatra26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mohapatra26_interspeech.pdf
 *Debasish Ray Mohapatra, Sidney Fels*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mohapatra26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mohapatra26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2325)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — A 3D finite element analysis reveals that vocal tract curvature has a negligible effect on uniform tubes but excites higher-order transverse modes and induces noticeable anti-resonances above 8 kHz in non-uniform vocal tracts (like vowel [A]).
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 High-fidelity articulatory speech synthesis, physics-based acoustic simulators, and advanced voice production modeling.
+
+## Institutions / 機構
+
+University of British Columbia
+
+**Funding / 經費:** Natural Sciences and Engineering Research Council of Canada, UBC Graduate and Postdoctoral Studies
 
 ## Related
 

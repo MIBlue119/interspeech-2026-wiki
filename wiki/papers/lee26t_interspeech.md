@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26t_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26t_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26t_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2132)
 
+**Category:** `asr`
+
 **TL;DR** — InterAligner introduces progressive intermediate alignment and CTC objectives to Aligner-Encoder ASR to prevent late-layer alignment bottlenecks, reducing LibriSpeech test-other WER from 7.8 to 5.6.
 
 ## Key contributions
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Offline automatic speech recognition, long-form audio transcription, and efficient sequence-to-sequence speech processing pipelines.
+
+## Institutions / 機構
+
+NTT
 
 ## Related
 

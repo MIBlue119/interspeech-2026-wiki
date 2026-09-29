@@ -1,6 +1,6 @@
 ---
 id: yan26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yan26b_interspeech.pdf
 *Lecheng Yan, Chenyang Lyu, Haoqin Sun, Wenxi Li, Mohamed Fazli Imam, Jiahui Geng, Qing Li, Shaochen Jiang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yan26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yan26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-619)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — The paper introduces $C^2$AVLM, a framework for consistent audio-visual understanding featuring rotary position encoding with frequency injection, cross-frame patch differential attention, and temporally aligned cross-modal attention, achieving a state-of-the-art 50.30% accuracy on the AVSD benchmark.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multimodal video dialogue systems, audio-visual event localization, video moment retrieval, and automated cross-modal hallucination detection for surveillance or content moderation.
+
+## Institutions / 機構
+
+University of Science and Technology of China, Alibaba Group, East China Normal University, Mohamed bin Zayed University of Artificial Intelligence, Linkoping University, University of Groningen, Xinjiang University
 
 ## Related
 

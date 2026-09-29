@@ -1,6 +1,7 @@
 ---
 id: dudek26_interspeech
-category: speech-enhancement
+category: health-clinical
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dudek26_interspeech.pdf
 *Milosz Dudek, Daria Hemmerling, Kamil Kwarciak, Maciej Stroinski, Maria Pensko, Mateusz Kowalewski, Leonid Pavlovskyi, Sebastian Jurczak, Anna-Mariia Vitkovska, Zuzanna Miodonska, Natalia Mocko, Michal Krecichwost*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dudek26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dudek26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1416)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — A phoneme-level mispronunciation screening pipeline for Polish-speaking children combines a fine-tuned wav2vec2 recognizer with bracketed substitution tokens and a template-grounded caregiver assistant, achieving an 88.7% exact sequence match on held-out children.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech screening tools for early detection of speech sound disorders and caregiver-guided speech therapy practice outside the clinic.
+
+## Institutions / 機構
+
+AGH University of Krakow, SoftServe, Silesian University of Technology, University of Silesia in Katowice
+
+**Funding / 經費:** National Centre for Research and Development
 
 ## Related
 

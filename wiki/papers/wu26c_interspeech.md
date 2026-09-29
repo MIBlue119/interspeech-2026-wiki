@@ -1,6 +1,7 @@
 ---
 id: wu26c_interspeech
-category: mdd
+category: asr
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26c_interspeech.pdf
 *Minglin Wu, Helen Meng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-856)
+
+**Category:** `asr` · **Labels:** `low-resource`
 
 **TL;DR** — SEA-MDD introduces a self-adapting mispronunciation detection and diagnosis framework via Test-Time Training (TTT), dynamically updating model weights on a single test sentence to achieve an 8.03% phoneme error rate and an 81.54% F1 score on L2 English speech.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-assisted language learning (CALL) software, automated pronunciation scoring and tutoring systems, and real-time L2 speech feedback tools.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong
+
+**Funding / 經費:** Centre for Perceptual and Interactive Intelligence, Innovation and Technology Commission of the Hong Kong Special Administrative Region Government
 
 ## Related
 

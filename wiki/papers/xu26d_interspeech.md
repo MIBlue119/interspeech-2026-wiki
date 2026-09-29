@@ -1,6 +1,7 @@
 ---
 id: xu26d_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26d_interspeech.pdf
 *Liang Xu, Diego Caviedes-Nozal, W. Bastiaan Kleijn, Longfei Felix Yan, Rasmus Kongsgaard Olsson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-833)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — DriftSE frames speech enhancement as a distributional equilibrium problem using a learned latent drifting field, achieving high-fidelity single-step (1-NFE) denoising without iterative sampling.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time speech communication systems, hearing aids, and telephony pipelines requiring low-latency single-step noise suppression.
+
+## Institutions / 機構
+
+Victoria University of Wellington, Lincoln University, GN Advanced Science
 
 ## Related
 

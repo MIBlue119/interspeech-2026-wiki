@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kamel26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kamel26_interspeech.pdf
 session: Speaker Verification and Anti-Spoofing
 topics: [speech-enhancement, speaker-verification, evaluation]
+category: deepfake-security
+institutions:
+  - "Deakin University"
+funding:
+  - "Air Force Office of Scientific Research"
+  - "Deakin University"
 code:
     url: ""
     license: ""

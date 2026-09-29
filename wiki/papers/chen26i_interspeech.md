@@ -1,6 +1,7 @@
 ---
 id: chen26i_interspeech
 category: tts
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26i_interspeech.pdf
 *Feifan Chen, Chunhui Lu, Rui Zhou, Liming Song, Hongjun Kil, YoonChoon Hwang, Junkwang Oh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1064)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`
 
 **TL;DR** — g2pO is a lightweight, open-vocabulary Mandarin polyphone disambiguation framework that uses a tiny RoBERTa encoder and a lexicon adapter to achieve 99.15% accuracy on CPP with only 3.99M parameters.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device Chinese Text-to-Speech (TTS) front-ends, embedded speech assistants, and smart speaker pronunciation normalization.
+
+## Institutions / 機構
+
+Samsung
 
 ## Related
 

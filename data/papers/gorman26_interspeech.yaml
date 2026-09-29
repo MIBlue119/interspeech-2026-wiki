@@ -9,6 +9,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gorman26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/gorman26_interspeech.pdf
 session: Paralinguistics
 topics: [self-supervised, paralinguistics, speech-llm]
+category: paralinguistics-emotion
+labels:
+  - "self-supervised"
+institutions:
+  - "Nurobodi"
+funding:
+  - "CSIRO"
+  - "Innovate to Grow"
+  - "ON Prime"
 code:
     url: ""
     license: ""

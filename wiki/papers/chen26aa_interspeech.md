@@ -1,6 +1,7 @@
 ---
 id: chen26aa_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26aa_interspeech.pdf
 *Yuanjian Chen, Yang Xiao, Han Yin, Xubo Liu, Jinjie Huang, Ting Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26aa_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26aa_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2466)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — PolyBench is a new multi-task evaluation benchmark for Large Audio Language Models (LALMs) focusing on compositional reasoning in polyphonic (overlapping) audio, revealing severe performance degradation in state-of-the-art models on counting and detection tasks.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of robust audio question-answering systems, smart home monitoring devices, and multimodal embodied agents capable of parsing complex, overlapping soundscapes.
+
+## Institutions / 機構
+
+Harbin University of Science and Technology, University of Melbourne, KAIST, University of Surrey
 
 ## Related
 

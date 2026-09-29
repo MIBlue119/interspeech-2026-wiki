@@ -1,6 +1,6 @@
 ---
 id: loweimi26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/loweimi26_interspeech.pdf
 *Erfan Loweimi, Mengjie Qian, Kate Knill, Guanfeng Wu, Chi-Ho Chan, Abbas Haider, Muhammad Awan, Josef Kittler, Hui Wang, Mark Gales*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/loweimi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/loweimi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-790)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper proposes a query-adaptive audio-visual person retrieval framework that detects active modalities using cross-modal score consistency before applying score-level fusion. On the BBC Rewind corpus, it achieves 94.2% P@1, outperforming fixed fusion (90.0%) and recovering 64% of the performance gap to an oracle with ground-truth modality labels.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Journalistic archives, historical media indexing, legal forensics, and large-scale video retrieval systems.
+
+## Institutions / 機構
+
+University of Cambridge, Queen's University Belfast, University of Surrey, Cisco, Southwest Jiaotong University, Teesside University
+
+**Funding / 經費:** Engineering and Physical Sciences Research Council, Cambridge University Press & Assessment
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: kothari26_interspeech
 category: tts
+labels: [multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kothari26_interspeech.pdf
 *Naman Kothari, Arjun Gangwar, Adarsh Arigala, S Umesh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kothari26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kothari26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3330)
+
+**Category:** `tts` · **Labels:** `multilingual`, `generative-model`
 
 **TL;DR** — This paper investigates BigVGAN-based discrete unit vocoders across four Indian languages, demonstrating that cluster size dictates intelligibility via phonetic resolution while ECAPA-TDNN speaker conditioning prevents identity collapse. Larger cluster inventories (up to 10k) successfully resolve cross-lingual phoneme sharing and reduce word error rates.
 
@@ -66,6 +69,10 @@ Speech and ML engineers building multilingual Audio LLMs or speech-to-speech tra
 ## Applications
 
 Multilingual speech-to-speech translation systems, audio language models, zero-shot voice conversion, and low-resource textless speech generation pipelines.
+
+## Institutions / 機構
+
+National Institute of Technology, Tiruchirappalli, Indian Institute of Technology, Madras
 
 ## Related
 

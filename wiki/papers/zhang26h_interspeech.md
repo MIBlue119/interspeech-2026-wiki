@@ -1,6 +1,6 @@
 ---
 id: zhang26h_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26h_interspeech.pdf
 *Yi Zhang, Aini Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-691)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper provides the first acoustic profile of the checked tone (T6) in Kaihui Xiang, revealing that it occupies a late stage of de-checking (rusheng shuhua) with complete coda loss, stable F0 contours, and leftward-shifted laryngealization. Female speakers exhibit attenuated duration contrasts and innovative phonatory dynamics, indicating they lead an ongoing sound change.
 
@@ -61,6 +63,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Fieldwork documentation and sociolinguistic archiving of recessive or endangered Chinese dialect varieties.
+
+## Institutions / 機構
+
+City University of Hong Kong
+
+**Funding / 經費:** City University of Hong Kong
 
 ## Related
 

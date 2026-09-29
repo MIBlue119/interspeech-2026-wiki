@@ -1,6 +1,7 @@
 ---
 id: seki26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/seki26_interspeech.pdf
 *Shogo Seki, Shaoxiang Dang, Li Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/seki26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/seki26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1833)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — This paper proposes DC-Hydra, replacing the FAVOR+ linear attention mechanism in DF-Conformer with the Hydra bidirectional state-space model to improve generative speech enhancement on discrete codec tokens. The proposed Hydra model surpasses both FAVOR+ and Bi-Mamba baselines across non-intrusive and downstream metrics while retaining linear time complexity.
 
@@ -65,6 +68,10 @@ Read this paper if you are building state-space model backbones for speech gener
 ## Applications
 
 High-fidelity generative speech enhancement, noise suppression, and dereverberation for telecommunications and downstream speech recognition pipelines.
+
+## Institutions / 機構
+
+CyberAgent
 
 ## Related
 

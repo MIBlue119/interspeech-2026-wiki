@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26v_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26v_interspeech.pdf
 session: Flow Matching for Speech Synthesis
 topics: [tts, self-supervised, evaluation]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Tsinghua University"
+  - "Ant Group"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Ant Group"
 code:
     url: https://thuhcsi.github.io/interspeech2026-TC-DBI/
     license: ""

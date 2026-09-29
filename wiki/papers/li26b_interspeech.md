@@ -1,6 +1,6 @@
 ---
 id: li26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26b_interspeech.pdf
 *Ruoyan Li, Yuhao Sun, Fan Fan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-170)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This study demonstrates that neck skin vibrations during self-voicing generate secondary airborne acoustic components that significantly contaminate periauricular microphones, revealing a major blind spot in mouth-only simulation models. By comparing dummy-head experiments and human recordings against Boundary Element Method (BEM) simulations, the authors show that microphones closest to the neck experience severe low-frequency magnitude excesses (>10 dB) not predicted by oral-radiation models.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Wearable hearables, hearing aids, directional voice pickup, self-voice separation algorithms, and speech enhancement systems.
+
+## Institutions / 機構
+
+Huawei
 
 ## Related
 

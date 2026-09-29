@@ -1,6 +1,6 @@
 ---
 id: gnevsheva26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gnevsheva26_interspeech.pdf
 *Ksenia Gnevsheva, Canaan Lan, Gerard Docherty, Catherine Travis*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gnevsheva26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gnevsheva26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2861)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper applies Generalised Additive Mixed Models (GAMMs) to spontaneous speech corpora to analyse full formant trajectories of five Australian English diphthongs across gender and location, revealing that traditional static onset/offset analyses miss critical non-parallel shape and timing changes.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Sociophonetic analysis tools, automated dialectology assessment systems, and advanced phonetic research pipelines requiring fine-grained trajectory modeling rather than static target measurements.
+
+## Institutions / 機構
+
+Australian National University, University of Melbourne, Griffith University
+
+**Funding / 經費:** Voices of Regional Australia, ARC Centre of Excellence for the Dynamics of Language
 
 ## Related
 

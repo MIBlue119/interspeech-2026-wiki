@@ -1,6 +1,7 @@
 ---
 id: higuchi26_interspeech
-category: spoken-language-understanding
+category: speech-llm-dialogue
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/higuchi26_interspeech.pdf
 *Tomoya Higuchi, Michimasa Inaba*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/higuchi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/higuchi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-592)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper proposes an incremental end-to-end spoken dialogue state tracking (DST) method using Qwen2.5-Omni-7B that predicts symbolic slot-level edit operations instead of full belief states, achieving a state-of-the-art JGA of 49.20% on SpokenWOZ when trained with SFT followed by GRPO.
 
@@ -65,6 +68,10 @@ Speech and dialogue researchers will find a clear blueprint for integrating rein
 ## Applications
 
 Real-time task-oriented spoken dialogue systems, voice assistants, and in-car conversational agents.
+
+## Institutions / 機構
+
+University of Electro-Communications
 
 ## Related
 

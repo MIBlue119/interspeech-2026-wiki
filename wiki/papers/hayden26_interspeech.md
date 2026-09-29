@@ -1,6 +1,7 @@
 ---
 id: hayden26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hayden26_interspeech.pdf
 *Matthew Hayden, Jinzuomu Zhong, Korin Richmond*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hayden26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hayden26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2749)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — The paper identifies "accent-emotion entanglement," a phenomenon where emotion conditioning in zero-shot TTS systems unintentionally alters the speaker's accent, revealing that standard speaker similarity metrics fail to capture these synthesis errors.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing zero-shot text-to-speech systems for geographic and demographic bias, designing robust multi-modal evaluation pipelines for affective TTS, and developing bias-free instruction-tuned speech generation models.
+
+## Institutions / 機構
+
+University of Edinburgh
 
 ## Related
 

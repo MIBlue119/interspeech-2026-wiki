@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26y_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26y_interspeech.pdf
 session: Flow Matching for Speech Synthesis
 topics: [tts, self-supervised, evaluation]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Ping An Technology"
+  - "Shanghai Jiao Tong University"
+  - "Shanghai Jiao Tong University Chongqing Artificial Intelligence Research Institute"
 code:
     url: https://minchuan2025.github.io/interspeech2026
     license: ""

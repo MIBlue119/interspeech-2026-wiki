@@ -1,6 +1,6 @@
 ---
 id: lee26m_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26m_interspeech.pdf
 *Che Hyun Lee, Heeseung Kim, Sungroh Yoon*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1589)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — The paper introduces an audio-adapted Context-Aware Decoding (CAD) method for multi-round spoken dialogue systems that dynamically highlights critical conversation history by penalizing general parametric priors during inference, boosting Average Pass Ratio by up to 13.30%.
 
@@ -66,6 +68,12 @@ Speech and ML engineers building multi-turn spoken dialogue systems will learn h
 ## Applications
 
 Voice assistants, smart speakers, real-time spoken translation systems, and multi-round conversational agents.
+
+## Institutions / 機構
+
+Seoul National University, University of Seoul
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea government, National Research Foundation of Korea, BK21 FOUR Program, Samsung Electronics Co., Ltd
 
 ## Related
 

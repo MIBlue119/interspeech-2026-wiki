@@ -10,6 +10,17 @@ doi: 10.21437/Interspeech.2026-1444
 isca_url: https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.pdf
 topics: [asr, keyword-spotting, self-supervised]
+category: asr
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+  - "streaming-real-time"
+institutions:
+  - "Priberam Labs"
+  - "Instituto Superior Tecnico"
+  - "Instituto de Telecomunicacoes"
+funding:
+  - "Portuguese Recovery and Resilience Plan"
 arxiv: ""
 code:
   url: https://github.com/Priberam/Enhance-CB-Whisper

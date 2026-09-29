@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/loweimi26b_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/loweimi26b_interspeech.pdf
 session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
 topics: [asr, phonetics, self-supervised]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Edinburgh"
+  - "Cisco"
+  - "SLAI"
+  - "Chinese University of Hong Kong, Shenzhen"
+  - "King's College London"
 code:
     url: ""
     license: ""

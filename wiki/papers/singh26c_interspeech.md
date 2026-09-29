@@ -1,6 +1,7 @@
 ---
 id: singh26c_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/singh26c_interspeech.pdf
 *Harshit Singh, Ayush Pratap Singh, Nityanand Mathur*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/singh26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/singh26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2764)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — FlowEdit is a lifelong pronunciation adaptation framework for frozen flow-matching TTS that optimizes text embedding perturbations and stores them in a Modern Hopfield Network. It reduces target-word Phoneme Error Rate by 92.7% while maintaining zero forgetting on general speech.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Personalized voice assistants, screen readers, and accessibility tools requiring dynamic, zero-retraining correction of proper nouns and foreign loan-words.
+
+## Institutions / 機構
+
+University of Maryland, TU Darmstadt, Smallest AI
 
 ## Related
 

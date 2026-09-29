@@ -1,6 +1,7 @@
 ---
 id: ghosh26b_interspeech
-category: speech-synthesis
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ghosh26b_interspeech.pdf
 *Souvik Ghosh, C. V. Jawahar, Vinay Namboodiri*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ghosh26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ghosh26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-518)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — LipAdapter is a modular framework that converts a frozen pre-trained Text-to-Speech model into a lip-synchronized speech generator using a lightweight text-to-video alignment module, achieving state-of-the-art results on English benchmarks while using 15x less training data (30 hours) than prior end-to-end approaches.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Assistive technologies for speech impairments, communication in noisy environments, video dubbing, and speech restoration in silent or corrupted archival videos.
+
+## Institutions / 機構
+
+International Institute of Information Technology Hyderabad, University of Bath
+
+**Funding / 經費:** MeitY, Government of India
 
 ## Related
 

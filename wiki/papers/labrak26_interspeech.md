@@ -1,6 +1,7 @@
 ---
 id: labrak26_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/labrak26_interspeech.pdf
 *Yanis Labrak, David Grünert, Severin Baroudi, Jiyun Chun, Pawel Cyrta, Sergio Burdisso, Ahmed Hassoon, David Liu, Adam Rothschild, Reed Van Deusen, Petr Motlicek, Andrew Perrault, Ricard Marxer, Thomas Schaaf*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/labrak26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/labrak26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2901)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — The paper introduces Synth-DoPaCo, a fully synthetic pipeline built on open-weight models that generates 8,800 doctor-patient conversations totaling 1,329 hours of audio along with reference SOAP notes. Evaluation of open-weight systems reveals that cascaded ASR-to-text models still substantially outperform end-to-end models by achieving lower hallucination rates and higher faithfulness.
 
@@ -63,6 +66,12 @@ Researchers and engineers building long-context audio language models or automat
 ## Applications
 
 Automated clinical documentation, long-form speech summarization, and training data generation for end-to-end spoken language understanding systems.
+
+## Institutions / 機構
+
+Idiap Research Institute, University of Zurich, Ohio State University, Universite de Toulon, Aix Marseille Univ, LIS, CNRS, Stenograf, Johns Hopkins University Bloomberg School of Public Health, Colorado School of Mines, Allegheny Health Network, University of Pittsburgh Medical Center, ILLS, Solventum, Carnegie Mellon University
+
+**Funding / 經費:** Jelinek Memorial Summer Workshop on Speech and Language Technologies, European Union Horizon 2020, Agence de l’Innovation Defense, French National Research Agency
 
 ## Related
 

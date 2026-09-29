@@ -1,6 +1,6 @@
 ---
 id: tang26_interspeech
-category: keyword-spotting
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tang26_interspeech.pdf
 *Nianhang Tang, Chaoyi Sun, Chao Cai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-493)
+
+**Category:** `asr`
 
 **TL;DR** — ADALA is a wake-up word detection framework that combines an RL-optimized large language model for dynamic hard-negative generation with semi-supervised consistency training, achieving a 90.43% wake-up rate and a 3.19% false activation rate.
 
@@ -61,6 +63,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice assistants, smart speakers, wearable devices, automotive infotainment systems, and always-on IoT speech interfaces.
+
+## Institutions / 機構
+
+Huazhong University of Science and Technology
 
 ## Related
 

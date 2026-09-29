@@ -1,6 +1,7 @@
 ---
 id: park26b_interspeech
-category: emotion-recognition
+category: paralinguistics-emotion
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26b_interspeech.pdf
 *Ka Hyun Park, Junghun Kim, U Kang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-371)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — MOCHEE is a source-free model merging framework for speech classification that combines multiple pretrained source models using limited target supervision via soft-permutation alignment and meta-reweighted target-centric scoring, outperforming baselines by up to 14.5 points in Macro-F1.
 
@@ -65,6 +68,12 @@ Researchers and practitioners working on source-free domain adaptation, cross-li
 ## Applications
 
 Deploying privacy-preserving speech emotion recognition systems, voice command classifiers, and speaker identification models in unseen target languages or acoustic environments using only pretrained vendor models and minimal target data.
+
+## Institutions / 機構
+
+Seoul National University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea government (MSIT), AI Star Fellowship Support Program, Global AI Frontier Lab, Artificial Intelligence Graduate School Program
 
 ## Related
 

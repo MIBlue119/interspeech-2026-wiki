@@ -1,6 +1,7 @@
 ---
 id: arora26_interspeech
-category: tts
+category: resources-evaluation
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/arora26_interspeech.pdf
 *Arjun Arora, Anshul Jain, Gubbala Mohith Nukesh, Bikash Dutta, Richa Singh, Mayank Vatsa*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/arora26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/arora26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1756)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — Text-to-audio (T2A) models suffer from a severe "affirmation bias," systematically ignoring negative constraints (e.g., "no gunshots") and producing acoustic outputs virtually identical to affirmative prompts, with an Audio Question Answering recall below 0.05. To diagnose this, the authors introduce the Audio Negation Benchmark with 1 million negated prompts.
 
@@ -64,6 +67,12 @@ Read this paper if you build multimodal text-to-audio systems and want to unders
 ## Applications
 
 Development of safe, controllable text-to-audio generators for interactive simulations, assistive audio applications, and movie sound design where precise exclusion of unwanted audio artifacts is mandatory.
+
+## Institutions / 機構
+
+Indian Institute of Technology Jodhpur
+
+**Funding / 經費:** IndiaAI Mission, Meta
 
 ## Related
 

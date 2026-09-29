@@ -15,6 +15,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kothare26b_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/kothare26b_interspeech.pdf
 session: Multimodal and Non-Speech Healthcare Applications
 topics: [paralinguistics, health, evaluation]
+category: health-clinical
+institutions:
+  - "Modality.AI"
+  - "CLINTREX"
+  - "Cerevance"
+  - "University of California, San Francisco"
 code:
     url: ""
     license: ""

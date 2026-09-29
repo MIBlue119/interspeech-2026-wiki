@@ -12,6 +12,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kausar26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/kausar26_interspeech.pdf
 session: Neurophysiology of Speech
 topics: [asr, self-supervised, health]
+category: asr
+institutions:
+  - "Chinese University of Hong Kong, Shenzhen"
+  - "Harbin Institute of Technology"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Shenzhen Science and Technology Program"
+  - "Program for Guangdong Introducing Innovative and Enterpreneurial Teams"
+  - "Shenzhen Stability Science Program"
+  - "Shenzhen Key Lab of Multi-Modal Cognitive Computing"
+  - "German Research Foundation"
+  - "Guangdong Provincial Key Laboratory of Big Data Computing"
+  - "The Chinese University of Hong Kong, Shenzhen"
 code:
     url: https://github.com/hello1233-maker/DisenEEG-Net
     license: ""

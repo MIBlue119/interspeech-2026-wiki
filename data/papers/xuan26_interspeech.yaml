@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xuan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xuan26_interspeech.pdf
 session: Spoofing and Deepfake Detection 3
 topics: [audio-deepfake, speaker-verification, self-supervised]
+category: deepfake-security
+institutions:
+  - "University of Eastern Finland"
+  - "University of Illinois Urbana-Champaign"
+  - "University of Southampton"
+  - "University of Chinese Academy of Sciences"
+  - "University of Science and Technology of China"
+funding:
+  - "Finnish AI-DOC project"
+  - "Research Council of Finland"
 code:
     url: https://github.com/xxuan-acoustics/RiemannSD-Net
     license: ""

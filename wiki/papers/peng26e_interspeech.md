@@ -1,6 +1,6 @@
 ---
 id: peng26e_interspeech
-category: speech-llm
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/peng26e_interspeech.pdf
 *Jing Peng, Junhao Du, Chenghao Wang, Hanqi Li, Yi Yang, Xiaoyu Gu, Guanyu Chen, Yixuan Wang, Haoyu Li, Zhangjie Zhao, Li Jiang, Haoran Wang, Wenming Tu, Yucheng Wang, Jiaqi Guo, Hui Zhang, Shuai Fan, Wenbin Jiang, Shuai Wang, Kai Yu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/peng26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/peng26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1225)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — SURE is a unified experimentation and evaluation framework designed for deployment-oriented model selection in speech understanding, addressing inconsistencies in scoring, data scales, and training pipelines. It introduces scenario stress tests, a horizontal multi-task evaluation suite, and an agent-assisted workflow for controlled, reproducible training from scratch.
 
@@ -64,6 +66,12 @@ Researchers and deployment engineers building speech understanding systems or se
 ## Applications
 
 Deployment-oriented model selection for speech recognition, spoken language understanding, speech translation, and paralinguistic analysis in robust real-world environments.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, AISpeech Ltd, ETH Zurich, Nanjing University, Hangzhou Dianzi University
+
+**Funding / 經費:** China NSFC Projects, YangtzeRiver Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

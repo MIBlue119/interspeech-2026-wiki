@@ -1,6 +1,7 @@
 ---
 id: yano26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yano26_interspeech.pdf
 *Kazuki Yano, Jun Suzuki, Shinji Watanabe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yano26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yano26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2099)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — Multimodal depth up-scaling inserts trainable transformer or E-Branchformer layers into frozen text LLMs during speech continual pre-training, matching full fine-tuning ASR performance while reducing text task degradation by over 75%.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech-enabled conversational LLMs, voice assistants, and on-device automatic speech recognition systems.
+
+## Institutions / 機構
+
+Tohoku University, Carnegie Mellon University
+
+**Funding / 經費:** JST Moonshot R&D
 
 ## Related
 

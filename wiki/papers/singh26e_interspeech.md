@@ -1,6 +1,6 @@
 ---
 id: singh26e_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/singh26e_interspeech.pdf
 *Prathamjyot Singh, Ashima Sood, Sahil Sharma, Jasmeet Singh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/singh26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/singh26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3451)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — ProSarc is an audio-only sarcasm recognition framework that models temporal prosodic incongruity between local frame-level dynamics and utterance-level emotional baselines, achieving a headline F1 score of 75.3 on MUStARD++.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated content moderation, conversational agent affect analysis, and uncertainty-aware routing for multimodal dialogue systems.
+
+## Institutions / 機構
+
+Thapar Institute of Engineering and Technology, Ulster University
 
 ## Related
 

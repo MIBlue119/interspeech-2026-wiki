@@ -1,6 +1,7 @@
 ---
 id: mcintosh26_interspeech
-category: evaluation
+category: resources-evaluation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mcintosh26_interspeech.pdf
 *Stephen McIntosh, Daisuke Saito, Nobuaki Minematsu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mcintosh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mcintosh26_interspeech.html)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`
 
 **TL;DR** — Speech Playground is an interactive web-based visualization and comparison tool that bridges classical acoustic analysis (like Praat) with modern deep learning representations, featuring single-utterance analysis and multi-utterance diff modes.
 
@@ -56,6 +59,10 @@ Speech and ML engineers building custom representations, SSL features, or CAPT s
 ## Applications
 
 Computer-aided pronunciation training (CAPT), speech representation debugging, and exploratory linguistic analysis.
+
+## Institutions / 機構
+
+University of Tokyo
 
 ## Related
 

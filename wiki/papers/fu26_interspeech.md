@@ -1,6 +1,7 @@
 ---
 id: fu26_interspeech
-category: paralinguistics
+category: resources-evaluation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fu26_interspeech.pdf
 *Yuxiang Fu, Guodong Lin, Da Shen, Wenlin Huang, Weili Jiang, Kai Gao, Boyu Zhao, Wei-Qiang Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1014)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`
 
 **TL;DR** — A multi-dimensional feature fusion framework for lyric intelligibility prediction combines acoustic features and Whisper encoder representations with gradient-boosted trees, achieving an RMSE of 27.367 and a Pearson correlation of 0.654 on the Cadenza dataset.
 
@@ -65,6 +68,10 @@ Researchers and engineers tackling paralinguistic scoring or subjective audio qu
 ## Applications
 
 Automated music production evaluation, language learning tools, and music streaming recommendation platforms optimizing for vocal clarity and lyric accessibility.
+
+## Institutions / 機構
+
+Tsinghua University, Institute of Forensic Science, Ministry of Public Security
 
 ## Related
 

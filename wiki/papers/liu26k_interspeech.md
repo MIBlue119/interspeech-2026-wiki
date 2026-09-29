@@ -1,6 +1,7 @@
 ---
 id: liu26k_interspeech
-category: speech-enhancement
+category: speech-coding
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26k_interspeech.pdf
 *Xin Liu, Xueliang Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1498)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`
 
 **TL;DR** — HWB-plus is a lightweight speech bandwidth extension (BWE) model for edge devices that decouples vowel and consonant modeling using a Dual-WGMM architecture, achieving state-of-the-art perceptual quality (DNSMOS 3.55, PESQ 3.83) with only 194K parameters and 12.39M MACs/s.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time telephony, smart speakers, hearing aids, and voice communication on resource-constrained edge microcontrollers and mobile devices.
+
+## Institutions / 機構
+
+Inner Mongolia University
+
+**Funding / 經費:** Inner Mongolia Natural Science Foundation, Hohhot R&D Investment Incentive Program
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: lee26v_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26v_interspeech.pdf
 *Jiwon Lee, Injune Hwang, Jaejun Lee, Eungbeom Kim, Dongyub Han, Kyogu Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26v_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26v_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2931)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — The paper introduces Silent-Voiced Alignment (SVA), a multi-level representation loss that utilizes utterance-parallel silent and voiced facial EMG pairs to guide silent-to-speech mapping, achieving a statistically significant relative Word Error Rate (WER) reduction of 6.0% on standard benchmarks.
 
@@ -61,6 +64,12 @@ Read this paper if you build silent speech interfaces or multi-modal representat
 ## Applications
 
 Silent speech communication interfaces for individuals with laryngeal injuries or neurodegenerative disorders, and covert secure communication in acoustically constrained or sensitive environments.
+
+## Institutions / 機構
+
+Seoul National University
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT, National IT Industry Promotion Agency
 
 ## Related
 

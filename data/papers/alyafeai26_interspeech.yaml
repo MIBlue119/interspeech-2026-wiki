@@ -16,6 +16,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/alyafeai26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/alyafeai26_interspeech.pdf
 session: Speech and Language Representation
 topics: [asr, low-resource, multilingual]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Technology Innovation Institute"
 code:
     url: ""
     license: ""

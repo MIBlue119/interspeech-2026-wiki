@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bijoy26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bijoy26_interspeech.pdf
 session: Domain Adaptation & Accented ASR
 topics: [asr, self-supervised, multilingual]
+category: asr
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "Aalto University"
+  - "South East Technological University"
+funding:
+  - "Business Finland"
+  - "Finnish Cultural Foundation"
 code:
     url: ""
     license: ""

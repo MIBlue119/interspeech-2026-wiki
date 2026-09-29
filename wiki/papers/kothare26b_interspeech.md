@@ -1,6 +1,6 @@
 ---
 id: kothare26b_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kothare26b_interspeech.pdf
 *Hardik Kothare, Oliver Roesler, Lakshmi Arbatti, Michael Neumann, Karl Kieburtz, Andrew McGarry, Craig Thompson, Vikram Ramanarayanan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kothare26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kothare26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2850)
+
+**Category:** `health-clinical`
 
 **TL;DR** — Audiovisual and motor digital biomarkers (speech, facial expression, and finger-tapping) extracted via remote smartphone/computer assessments exhibit strong baseline correlations with clinician-rated MDS-UPDRS subscores, but demonstrate significantly lower within-subject variability and complete resistance to placebo and Hawthorne effects.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Remote patient monitoring, decentralized clinical trials for neurodegenerative disorders, and automated digital endpoint generation for Parkinson's disease therapeutics.
+
+## Institutions / 機構
+
+Modality.AI, CLINTREX, Cerevance, University of California, San Francisco
 
 ## Related
 

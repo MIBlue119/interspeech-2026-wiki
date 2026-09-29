@@ -1,6 +1,6 @@
 ---
 id: sun26c_interspeech
-category: prosody
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26c_interspeech.pdf
 *Kun Sun, Rong Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1062)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates how semantic relevance—the contextual semantic fit between a target word and its 3-word local context—predicts word duration in spontaneous conversational speech, discovering a U-shaped non-linear effect and frequency-dependent modulation. Using generalized additive mixed models (GAMMs) on the Buckeye Corpus (262,342 tokens), the study shows that moderate semantic relevance facilitates articulation (shorter duration), while high relevance lengthens duration, particularly for low-frequency words.
 
@@ -68,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Expressive Text-to-Speech (TTS), cognitive speech timing simulation, and computational psycholinguistics modeling.
+
+## Institutions / 機構
+
+Tongji University, University of Tubingen
 
 ## Related
 

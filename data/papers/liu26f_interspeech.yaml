@@ -14,6 +14,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26f_interspeech.pdf
 session: Acoustic Event Detection 2
 topics: [speech-llm, self-supervised, multilingual]
+category: audio-understanding
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Science and Technology of China"
+funding:
+  - "Anhui Province Major Science and Technology Research Project"
 code:
     url: ""
     license: ""

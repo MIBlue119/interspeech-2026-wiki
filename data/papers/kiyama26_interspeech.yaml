@@ -9,6 +9,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kiyama26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/kiyama26_interspeech.pdf
 session: Speech, Voice and Language Disorders
 topics: [phonetics, evaluation, paralinguistics]
+category: phonetics-linguistics
+labels:
+  - "streaming-real-time"
+institutions:
+  - "Peking University"
+funding:
+  - "National Social Science Fund of China"
+  - "Beijing Social Science Foundation"
 code:
     url: ""
     license: ""

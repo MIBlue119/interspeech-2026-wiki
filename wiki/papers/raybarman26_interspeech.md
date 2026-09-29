@@ -1,6 +1,7 @@
 ---
 id: raybarman26_interspeech
 category: tts
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/raybarman26_interspeech.pdf
 *Sneha Ray Barman, Neeraj Kumar Sharma, Shakuntala Mahanta*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/raybarman26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/raybarman26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3311)
+
+**Category:** `tts` · **Labels:** `multilingual`
 
 **TL;DR** — The paper proposes a classifier-based phonological audit framework to detect systematic sound contrast failures in neural TTS, revealing that Meta's MMS TTS underproduces [+ATR] mid vowels in Assamese in one-third of tokens despite sounding natural.
 
@@ -68,6 +71,10 @@ Speech researchers and TTS engineers working on low-resource or multilingual spe
 ## Applications
 
 Targeted diagnostic evaluation of multilingual and low-resource text-to-speech systems, linguistic diversity auditing, and improvement of phonological faithfulness in speech generation.
+
+## Institutions / 機構
+
+Indian Institute of Technology Guwahati
 
 ## Related
 

@@ -14,6 +14,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ghosh26f_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/ghosh26f_interspeech.pdf
 session: Long-Form Speech Synthesis
 topics: [tts, speech-llm, evaluation]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "NVIDIA"
 code:
     url: https://github.com/NVIDIA-NeMo/NeMo
     license: ""

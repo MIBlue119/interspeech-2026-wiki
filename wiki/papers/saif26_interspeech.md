@@ -1,6 +1,7 @@
 ---
 id: saif26_interspeech
 category: asr
+labels: [multilingual, efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/saif26_interspeech.pdf
 *A F M Saif, Xiaodong Cui, Brian Kingsbury, Tianyi Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/saif26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/saif26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2771)
+
+**Category:** `asr` · **Labels:** `multilingual`, `efficient-on-device`, `self-supervised`
 
 **TL;DR** — BELLA is an efficient multilingual ASR framework that couples a pre-trained speech encoder with an LLM decoder via a bilevel optimization strategy, utilizing mixture-of-experts LoRA modules to eliminate cross-language interference. It achieves consistent Word Error Rate (WER) reductions across five CoVoST 2 languages compared to standard adapter baselines.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual speech recognition systems and cross-lingual spoken translation engines requiring robust deployment across diverse linguistic resources without full model fine-tuning.
+
+## Institutions / 機構
+
+Rensselaer Polytechnic Institute, IBM, Cornell Tech
 
 ## Related
 

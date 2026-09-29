@@ -1,6 +1,7 @@
 ---
 id: srirag26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/srirag26_interspeech.pdf
 *Dipankar Srirag, Quoc Dung Nguyen, Aditya Joshi, Padmanesan Narasimhan, Salil Kanhere*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/srirag26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/srirag26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-819)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — TriageSim is a multi-agent simulation framework that generates persona-conditioned emergency department triage dialogues (text and audio) from structured EHR seed data, producing 814 conversations (26.14 hours) to benchmark conversational triage classification. It demonstrates that clinical reasoning complexity, rather than ASR transcription noise, is the dominant bottleneck in automated triage.
 
@@ -66,6 +69,12 @@ Speech and NLP researchers building spoken dialogue models for high-stakes healt
 ## Applications
 
 Automated healthcare triage dialogue systems, robust clinical speech recognition testing under accented and disfluent conditions, and conversational AI safety evaluation for emergency medicine.
+
+## Institutions / 機構
+
+University of New South Wales
+
+**Funding / 經費:** NHMRC Ideas Grant
 
 ## Related
 

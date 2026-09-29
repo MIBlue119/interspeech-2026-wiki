@@ -10,6 +10,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/porupski26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/porupski26_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
 topics: [paralinguistics, self-supervised, evaluation]
+category: paralinguistics-emotion
+labels:
+  - "multilingual"
+institutions:
+  - "Jožef Stefan Institute"
+  - "TransUnion"
+  - "University of Zagreb"
+  - "University of Ljubljana"
+  - "Institute of Contemporary History"
+funding:
+  - "ARIS Slovenian Research and Innovation Agency"
 code:
     url: https://clarinsi.github.io/parlaspeech/
     license: ""

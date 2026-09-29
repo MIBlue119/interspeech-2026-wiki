@@ -1,6 +1,7 @@
 ---
 id: sirbu26_interspeech
 category: asr
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sirbu26_interspeech.pdf
 *Oana Sirbu, Alexandra Diaconu, Sergiu Nisioi, Bogdan Alexe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sirbu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sirbu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3454)
+
+**Category:** `asr` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — This paper presents the first empirical study and benchmark for Inverse Text Normalization (ITN) in Romanian, comparing rule-based, neural, and large language model approaches across 24k annotated pairs. Few-shot proprietary LLM prompting achieves near-human performance (2.57% Mean WER), while traditional deterministic grammars remain competitive (4.56% Mean WER) at significantly higher throughput.
 
@@ -64,6 +67,12 @@ Speech and ML engineers building production speech pipelines for non-English lan
 ## Applications
 
 Post-processing automatic speech recognition transcripts for subtitle generation, text search indexing, and downstream natural language processing pipelines in Romanian.
+
+## Institutions / 機構
+
+University of Bucharest, Romanian Academy
+
+**Funding / 經費:** Romanian Hub for Artificial Intelligence - HRIA, Smart Growth, Digitization and Financial Instruments Program, CNCS - UEFISCDI
 
 ## Related
 

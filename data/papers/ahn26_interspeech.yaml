@@ -9,6 +9,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ahn26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ahn26_interspeech.pdf
 session: Audio Understanding and Representation Learning
 topics: [audio-captioning, self-supervised, speech-llm]
+category: audio-understanding
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Hanyang University"
+funding:
+  - "National Research Foundation of Korea"
 code:
     url: ""
     license: ""

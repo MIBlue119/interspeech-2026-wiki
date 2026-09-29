@@ -1,6 +1,6 @@
 ---
 id: ham26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ham26_interspeech.pdf
 *Seongwook Ham, Thien-Phuc Doan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ham26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ham26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-963)
+
+**Category:** `speaker`
 
 **TL;DR** — The Continuous 2D Spectral–Temporal Transformer (C2D-ST) preserves the explicit 2D time-frequency grid structure throughout its feature extraction backbone rather than collapsing the frequency axis prematurely, achieving a competitive 0.507 average EER on VoxCeleb with only 6.9M parameters.
 
@@ -66,6 +68,10 @@ Researchers building high-efficiency speaker verification models should read thi
 ## Applications
 
 Speaker verification, speaker recognition, and voice biometrics systems requiring high accuracy under constrained parameter budgets.
+
+## Institutions / 機構
+
+Soongsil University
 
 ## Related
 

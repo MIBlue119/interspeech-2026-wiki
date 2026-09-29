@@ -1,6 +1,6 @@
 ---
 id: khaloo26_interspeech
-category: tts
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/khaloo26_interspeech.pdf
 *Noah Khaloo, Nicole Holliday, Sarah Creel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/khaloo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/khaloo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1479)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This study investigates how listeners perceive racial identity in commercial text-to-speech (TTS) voices, demonstrating that listeners can categorize synthetic voices by race and exhibit racial stereotyping while showing a bias toward rating voices as White. An XGBoost acoustic classifier achieves 65% accuracy distinguishing Black-rated from White-rated voices using psychoacoustic voice quality and formant features.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing and mitigating racial bias in commercial text-to-speech pipelines, designing socially responsible voice generation tools, and improving fairness evaluations for conversational AI agents.
+
+## Institutions / 機構
+
+University of California, San Diego, University of California, Berkeley
 
 ## Related
 

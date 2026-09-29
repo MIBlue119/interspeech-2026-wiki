@@ -1,6 +1,6 @@
 ---
 id: yu26g_interspeech
-category: speech-llm
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yu26g_interspeech.pdf
 *Renjie Yu, Yixuan Zhou, Shun Lei, Xiang Li, Runchuan Ye, Yikai Huang, Guoyang Zeng, Zhiyong Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yu26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yu26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2854)
+
+**Category:** `speaker`
 
 **TL;DR** — SDR-LLM is an end-to-end speech-LLM framework that jointly performs speaker diarization, speech recognition, and millisecond-level timestamp prediction using a FIFO output sequence and a two-stage training strategy, outperforming prior end-to-end models on AISHELL-4, AliMeeting, and OleSpeech.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multi-speaker meeting transcription, podcast analysis, automated minutes generation, and conversational AI diarization pipelines.
+
+## Institutions / 機構
+
+Tsinghua University, ModelBest
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

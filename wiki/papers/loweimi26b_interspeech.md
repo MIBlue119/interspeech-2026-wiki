@@ -1,6 +1,7 @@
 ---
 id: loweimi26b_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/loweimi26b_interspeech.pdf
 *Erfan Loweimi, Zhengjun Yue, Andrea Carmantini, Zoran Cvetkovic, Steve Renals, Peter Bell*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/loweimi26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/loweimi26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-798)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper performs a granular phonetic error analysis of raw waveform acoustic models on TIMIT, establishing new state-of-the-art phone error rates (PER) of 13.9%/15.3% (Dev/Test) without transfer learning and 11.3%/12.3% with WSJ pre-training, which surpass standard filterbank baselines.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Targeted speech recognition model design, class-specific data augmentation strategies, loss function re-weighting for phone and acoustic modeling, and phonetic error diagnosis.
+
+## Institutions / 機構
+
+University of Edinburgh, Cisco, SLAI, Chinese University of Hong Kong, Shenzhen, King's College London
 
 ## Related
 

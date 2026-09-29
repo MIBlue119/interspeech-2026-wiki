@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/choi26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/choi26c_interspeech.pdf
 session: Spoken Dialogue Systems
 topics: [speech-llm, spoken-language-understanding, streaming]
+category: speech-llm-dialogue
+labels:
+  - "streaming-real-time"
+institutions:
+  - "Electronics and Telecommunications Research Institute"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
 code:
     url: ""
     license: ""

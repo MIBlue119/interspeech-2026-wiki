@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shim26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shim26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shim26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3075)
 
+**Category:** `tts`
+
 **TL;DR** — This paper investigates how manipulating prosody and indexical machine-likeness in text-to-speech (TTS) avatar voices affects human syntactic disambiguation, finding that machine-like voice quality unexpectedly increases listener intelligibility on ambiguous punctuated sentences. Pitch variations (affective vs. monotonic) improve perceived naturalness but do not aid comprehension.
 
 ## Key contributions
@@ -63,6 +65,10 @@ Speech researchers and conversational AI engineers building virtual assistants o
 ## Applications
 
 Design of conversational agents, social robots, and text-to-speech navigation systems where syntactic clarity and disambiguation of complex sentences are critical to preventing user misunderstandings.
+
+## Institutions / 機構
+
+Simon Fraser University, University of Massachusetts Amherst, Enchanted Tools, CNRS, Universite Paris Cite
 
 ## Related
 

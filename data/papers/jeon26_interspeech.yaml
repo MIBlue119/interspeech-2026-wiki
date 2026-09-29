@@ -15,6 +15,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jeon26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jeon26_interspeech.pdf
 session: Clinically Useful Speech Representations 1
 topics: [paralinguistics, emotion-recognition, health]
+category: health-clinical
+institutions:
+  - "Sogang University"
+  - "Hallym University"
+  - "Sungshin Women's University"
+funding:
+  - "Ministry of Education of the Republic of Korea"
+  - "National Research Foundation of Korea"
+  - "Artificial Intelligence Innovation Graduate School grant funded by the Korea government (MSIT)"
+  - "National Information Society Agency funded by the Ministry of Science, ICT through the Big Data Platform and Center Construction Project"
 code:
     url: ""
     license: ""

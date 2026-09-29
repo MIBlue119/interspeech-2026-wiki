@@ -1,6 +1,6 @@
 ---
 id: rong26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rong26b_interspeech.pdf
 *Yan Rong, Jinting Wang, Tianxin Xie, Xiang He, Chenxing Li, Dong Yu, Li Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rong26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rong26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2273)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — AsymAudio is a capability-aware, asymmetric multi-agent framework designed for complex audio deep reasoning that achieves state-of-the-art results (74.80% on MMAR and 79.10% on MMAU-mini) by resolving agent performance bottlenecks and internal instability.
 
@@ -58,6 +60,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Complex audio intelligence systems, autonomous driving perceptual debugging, interactive diagnostic assistants, and multi-modal conversational agents requiring expert audio perception and step-by-step logic.
+
+## Institutions / 機構
+
+Hong Kong University of Science and Technology, Tencent
+
+**Funding / 經費:** National Natural Science Foundation of China, Guangdong Basic and Applied Basic Research Foundation, Tencent AI Lab Rhino-Bird Program
 
 ## Related
 

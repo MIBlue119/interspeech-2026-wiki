@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhao26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhao26f_interspeech.pdf
 session: Spatial Audio 3
 topics: [spatial-audio, self-supervised, evaluation]
+category: applications-other
+labels:
+  - "low-resource"
+institutions:
+  - "Inner Mongolia University"
+funding:
+  - "Natural Science Foundation of Inner Mongolia Autonomous Region"
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

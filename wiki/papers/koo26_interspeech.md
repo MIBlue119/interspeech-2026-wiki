@@ -1,6 +1,7 @@
 ---
 id: koo26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/koo26_interspeech.pdf
 *Sujin Koo, Sangyoon Kim, Ji Sub Um, Hoirin Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/koo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-712)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — VeRe-Flow is a clean-guided flow matching framework for noise-robust bandwidth expansion that uses velocity contrastive regularization and representation alignment to suppress noise and restore high frequencies, achieving state-of-the-art LSD (1.10) and DNSMOS OVRL (3.12).
 
@@ -65,6 +68,12 @@ Speech and generative modeling researchers should read this paper to learn how t
 ## Applications
 
 Noise-robust telephony, hearing aids, and legacy audio archiving where low-resolution, noisy speech must be restored to wideband studio quality.
+
+## Institutions / 機構
+
+MAGO, KAIST
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

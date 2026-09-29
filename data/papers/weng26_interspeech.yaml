@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/weng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/weng26_interspeech.pdf
 session: Tones
 topics: [phonetics, evaluation, low-resource]
+category: phonetics-linguistics
+labels:
+  - "robustness-noise"
+institutions:
+  - "Hong Kong Polytechnic University"
+funding:
+  - "Research Grants Council of the Hong Kong SAR, China"
 code:
     url: ""
     license: ""

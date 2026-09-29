@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ieong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ieong26_interspeech.pdf
 session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
 topics: [speech-llm, spoken-language-understanding, multilingual]
+category: speech-llm-dialogue
+institutions:
+  - "National Taiwan University"
+  - "NTU Artificial Intelligence Center of Research Excellence"
+funding:
+  - "Ministry of Education"
+  - "Taiwan Centers of Excellence in Artificial Intelligence project"
+  - "NTU Artificial Intelligence Center of Research Excellence"
 code:
     url: ""
     license: ""

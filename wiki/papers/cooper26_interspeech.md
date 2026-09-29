@@ -1,6 +1,7 @@
 ---
 id: cooper26_interspeech
-category: tts
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cooper26_interspeech.pdf
 *Erica Cooper, Xiaoxue Gao, Takuma Okamoto, Tomoki Toda, Nancy Chen, Hisashi Kawai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cooper26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cooper26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1521)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces the first large-scale human-rated dataset for emotional text-to-speech (TTS) quality assessment containing 18,208 samples across five emotional styles, and evaluates zero-shot prediction models against these human judgments.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Training automatic speech quality estimators, developing reward models for emotional text-to-speech preference optimization, and establishing automated CI/CD evaluation pipelines for conversational AI voice generation.
+
+## Institutions / 機構
+
+National Institute of Information and Communications Technology, Agency for Science, Technology and Research, Nagoya University
+
+**Funding / 經費:** National Research Foundation, Singapore, Infocomm Media Development Authority, Singapore, National Large Language Models Funding Initiative, A*STAR, Japan Science and Technology Agency
 
 ## Related
 

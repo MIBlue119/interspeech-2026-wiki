@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jiang26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26b_interspeech.pdf
 session: 'Neural Speech Codecs: Low-Bitrate and Disentangled Coding'
 topics: [speech-coding, self-supervised]
+category: speech-coding
+labels:
+  - "streaming-real-time"
+  - "generative-model"
+institutions:
+  - "University of Science and Technology of China"
+  - "Tsinghua University"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: https://pb20000090.github.io/VoCodec/
     license: ""

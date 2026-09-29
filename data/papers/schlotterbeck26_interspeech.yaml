@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/schlotterbeck26_interspe
 pdf_url: https://www.isca-archive.org/interspeech_2026/schlotterbeck26_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
 topics: [self-supervised, multilingual, asr]
+category: asr
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Factored AI"
+funding:
+  - "Factored AI"
 code:
     url: https://github.com/dannersm/ups-continuous-pretraining
     license: ""

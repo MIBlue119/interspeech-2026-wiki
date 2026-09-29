@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26h_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26h_interspeech.pdf
 session: Singing Voice and Music Generation
 topics: [voice-conversion, tts, self-supervised]
+category: tts
+labels:
+  - "multilingual"
+  - "generative-model"
+institutions:
+  - "Harbin Institute of Technology"
 code:
     url: https://mrwho729.github.io/SRF-SVB/
     license: ""

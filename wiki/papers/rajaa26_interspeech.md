@@ -1,6 +1,7 @@
 ---
 id: rajaa26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rajaa26_interspeech.pdf
 *Shangeth Rajaa*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rajaa26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rajaa26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2424)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — DualTurn introduces a dual-channel generative speech pretraining method for modular ASR-LLM-TTS pipelines, outperforming VAP on agent action weighted F1 (0.633 vs. 0.389) and a 3.1B audio-text model on word-level turn prediction AUC (0.930 vs. 0.880).
 
@@ -65,6 +68,10 @@ Speech and ML engineers building low-latency conversational AI should read this 
 ## Applications
 
 Real-time spoken dialogue systems, voice assistants, and full-duplex conversational agents requiring low-latency turn-taking and backchannel generation.
+
+## Institutions / 機構
+
+Anyreach AI
 
 ## Related
 

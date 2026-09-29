@@ -1,6 +1,7 @@
 ---
 id: deng26b_interspeech
-category: speaker-verification
+category: speaker
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/deng26b_interspeech.pdf
 *Guangmou Deng, Bruce Xiao Wang, Vincent Hughes*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/deng26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/deng26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1004)
+
+**Category:** `speaker` · **Labels:** `robustness-noise`
 
 **TL;DR** — This study evaluates how lossy speech codecs and speech duration jointly impact forensic automatic speaker recognition (FASR) at both the system and individual levels, revealing that aggregate metrics mask severe, speaker-dependent vulnerability to compression artifacts. Opus causes minimal degradation, whereas low-bitrate AMR-NB causes severe drops and exposes substantial individual-level instability.
 
@@ -58,6 +61,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Forensic automatic speaker recognition, voice comparison casework validation, and robust speaker verification in low-bitrate telecommunication channels.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University, University of York
+
+**Funding / 經費:** Hong Kong Polytechnic University, Research Grants Council of the Hong Kong Special Administrative Region
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: tran26b_interspeech
-category: paralinguistics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tran26b_interspeech.pdf
 *Ha Chi Tran, Minh Anh Tran, Mai Linh Tran, Weicong Li, Paola Escudero*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tran26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tran26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3213)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This paper presents a longitudinal quantitative analysis of language input and output in a bilingual (English-Vietnamese) preschool program in Melbourne, Australia, comparing two implementation years across 30 children using manual Praat annotations and Bayesian regression. The study finds that children's total speech output more than doubled from the first implementation (10.9%) to the second (25.3%), driven by returning participants and greater overall engagement, though English remained the dominant language.
 
@@ -61,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Designing bilingual preschool curricula, automated classroom acoustic monitoring tools, and language intervention programs for heritage language preservation in early childhood education.
+
+## Institutions / 機構
+
+Western Sydney University, Deakin University
+
+**Funding / 經費:** Australian Research Council, Australian Government Research Training Program Scholarship, ViêtSpeak
 
 ## Related
 

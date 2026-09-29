@@ -1,6 +1,7 @@
 ---
 id: silverman26_interspeech
-category: self-supervised
+category: enhancement-separation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/silverman26_interspeech.pdf
 *Yotam Silverman, Bracha Laufer-Goldshtein*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/silverman26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/silverman26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-641)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper introduces the Soft Acoustic Contrastive (SAC) loss, a self-supervised objective that aligns the latent space of binaural audio encoders with analytical acoustic priors to improve room parameter estimation. Combining SAC with cross-channel signal reconstruction reduces mean absolute error across five spatial tasks compared to reconstruction-only baselines.
 
@@ -64,6 +67,12 @@ Researchers and engineers working on spatial audio representation learning or bl
 ## Applications
 
 Autonomous robotics, immersive AR/VR spatial audio rendering, and advanced hearing aid algorithms requiring blind room acoustic parameter estimation.
+
+## Institutions / 機構
+
+Tel Aviv University
+
+**Funding / 經費:** Israel Science Foundation, Israeli Ministry of Innovation, Science and Technology
 
 ## Related
 

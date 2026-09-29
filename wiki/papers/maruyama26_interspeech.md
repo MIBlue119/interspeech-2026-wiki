@@ -1,6 +1,7 @@
 ---
 id: maruyama26_interspeech
-category: speech-enhancement
+category: applications-other
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/maruyama26_interspeech.pdf
 *Yuka Maruyama, Jason Orlosky, Chris Lee, Flora Salim, Thad Starner, Benjamin Tag*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/maruyama26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/maruyama26_interspeech.html)
+
+**Category:** `applications-other` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper presents a Computer-Assisted Pronunciation Training (CAPT) system for Mandarin Chinese tones that replaces conventional spectrograms with a CARFAC/SAI-derived pitchogram to provide intuitive, real-time visual feedback. The system features dual-screen tone production and perception interfaces built for self-guided learners.
 
@@ -58,6 +61,10 @@ Speech and ML engineers building interactive CAPT tools or auditory front-ends s
 ## Applications
 
 Computer-assisted language learning software, speech therapy applications, and real-time visual feedback tools for tonal language acquisition.
+
+## Institutions / 機構
+
+University of New South Wales, Augusta University, Georgia Institute of Technology
 
 ## Related
 

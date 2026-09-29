@@ -1,6 +1,7 @@
 ---
 id: lameris26b_interspeech
-category: voice-conversion
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lameris26b_interspeech.pdf
 *Harm Lameris, Alan Villamil, Nigel G. Ward*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lameris26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lameris26b_interspeech.html)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — VoiceQualityGUI is a Streamlit-based interactive tool enabling word-level modifications of breathiness, creakiness, and nasality using a fine-tuned VoiceQualityVC model. It streamlines the exploration of pragmatic functions in synthesized speech using a dataset of roughly 17 hours and 20 minutes.
 
@@ -58,6 +61,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Interactive voice conversion tools, expressive video game character voice post-editing, and linguistic studies on pragmatic intent.
+
+## Institutions / 機構
+
+KTH Royal Institute of Technology, University of Texas at El Paso
+
+**Funding / 經費:** Air Force Office of Scientific Research
 
 ## Related
 

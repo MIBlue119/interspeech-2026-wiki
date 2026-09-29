@@ -1,6 +1,7 @@
 ---
 id: zhou26c_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhou26c_interspeech.pdf
 *Jiaming Zhou, Haoqin Sun, Hui Wang, Jinghua Zhao, Yuhang Jia, Shiyao Wang, Enzhi Wang, Shiwan Zhao, Yong Qin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhou26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhou26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1517)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — UG-Bench is a unified, decoupled evaluation framework assessing Large Audio-Language Models (LALMs) across 19 tasks and 36 datasets (153,485 test samples). Evaluating 11 LALMs and 5 specialized generation models reveals major gaps in instruction-following, generation quality, and spoken language understanding.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Standardized evaluation, model selection, and progress tracking for multimodal speech and audio assistant development.
+
+## Institutions / 機構
+
+Nankai University
+
+**Funding / 經費:** National Key R&D Program of China, NSF China
 
 ## Related
 

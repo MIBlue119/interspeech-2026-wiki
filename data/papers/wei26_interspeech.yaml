@@ -9,6 +9,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wei26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wei26_interspeech.pdf
 session: Pathological Speech Assessment 3
 topics: [paralinguistics, evaluation, health]
+category: health-clinical
+institutions:
+  - "Hunan University"
 code:
     url: https://github.com/stylerw/styler_praat_
     license: ""

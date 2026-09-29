@@ -1,6 +1,6 @@
 ---
 id: takaki26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/takaki26_interspeech.pdf
 *Ken Takaki, Kouei Yamaoka, Yoshihiro Kawahara*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/takaki26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/takaki26_interspeech.html)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This paper proposes a head-worn dipole microphone array embedded in smart glasses to enhance lateral speech intelligibility for individuals with single-sided deafness (SSD). Using an MVDR beamformer combining two dipoles and one omnidirectional microphone, the system improves lateral speech SDR by 0.78 dB and ESTOI by 0.04 over a 3-channel omnidirectional array baseline.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart glasses and specialized hearing aids for single-sided deafness (SSD) rehabilitation.
+
+## Institutions / 機構
+
+University of Tokyo
+
+**Funding / 經費:** JSPS KAKENHI
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: barreiros26_interspeech
 category: asr
+labels: [efficient-on-device, self-supervised, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.pdf
 *Leonor Barreiros, Raul Monteiro, Afonso Mendes, Gonçalo M. Correia*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/barreiros26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1444)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `self-supervised`, `streaming-real-time`
 
 **TL;DR** — This paper proposes a three-stage embedding compression pipeline for open-vocabulary keyword spotting combined with contextual biasing in ASR, reducing memory footprint by 128x and latency by 6x without sacrificing entity recall.
 
@@ -64,6 +67,12 @@ Speech and ML engineers scaling ASR systems to production environments with larg
 ## Applications
 
 Domain-specific automatic speech recognition systems for legal, financial, air traffic control, and clinical medical consultations requiring massive open-vocabulary keyword biasing.
+
+## Institutions / 機構
+
+Priberam Labs, Instituto Superior Tecnico, Instituto de Telecomunicacoes
+
+**Funding / 經費:** Portuguese Recovery and Resilience Plan
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: hirose26_interspeech
-category: uncategorized
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hirose26_interspeech.pdf
 *Takumi Hirose, Zhiyang Li, Nakamasa Inoue*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hirose26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hirose26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3059)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — The paper introduces the Delta Loss Lower Bound (DELLBO) to theoretically analyze and resolve gradient conflicts across timesteps in continuous-time diffusion models, proposing a lightweight Self-adaptive Gradient Conflict Mitigator (SGCM) that improves speech enhancement quality.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech enhancement, noise suppression, and robust audio restoration using continuous-time diffusion models.
+
+## Institutions / 機構
+
+Institute of Science Tokyo
+
+**Funding / 經費:** JSPS KAKENHI
 
 ## Related
 

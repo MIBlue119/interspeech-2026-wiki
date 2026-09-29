@@ -14,6 +14,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhou26h_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26h_interspeech.pdf
 session: Voice Editing
 topics: [tts, self-supervised, speech-llm]
+category: tts
+labels:
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "Tsinghua University"
+  - "Inner Mongolia University"
+  - "Tencent"
+funding:
+  - "National Natural Science Foundation of China"
+  - "National Social Science Foundation of China"
 code:
     url: https://thuhcsi.github.io/interspeech2026-FineCombo-TTS
     license: ""

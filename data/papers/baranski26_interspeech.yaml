@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/baranski26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/baranski26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
 topics: [asr, evaluation, self-supervised]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "AGH University of Krakow"
+funding:
+  - "National Science Centre, Poland"
+  - "National Centre for Research and Development, Poland"
+  - "Excellence initiative – research university"
 code:
     url: https://github.com/DSP-AGH/HALAS/tree/main
     license: ""

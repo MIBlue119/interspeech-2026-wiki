@@ -1,6 +1,7 @@
 ---
 id: xu26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [streaming-real-time, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26_interspeech.pdf
 *Hengwei Xu, Hongqing Liu, Liming Shi, Lu Gan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-122)
+
+**Category:** `enhancement-separation` · **Labels:** `streaming-real-time`, `robustness-noise`
 
 **TL;DR** — This paper proposes a sparsity-aware robust nonlinear active noise control algorithm that incorporates a reweighted zero-attracting regularization into the MOV-FsLMP framework to suppress parameter redundancy in functional link network expansions, achieving a 1–2 dB improvement in steady-state MSE and a >50% expansion in the stability margin.
 
@@ -60,6 +63,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart headphones, hearing aids, and consumer electronic devices operating near transducer saturation limits in environments contaminated by impulsive noise.
+
+## Institutions / 機構
+
+Chongqing University of Posts and Telecommunications, Brunel University
 
 ## Related
 

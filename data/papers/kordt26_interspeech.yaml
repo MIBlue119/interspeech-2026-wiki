@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kordt26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kordt26_interspeech.pdf
 session: Speech, Voice and Language Disorders
 topics: [asr, self-supervised, health]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Hamburg"
+funding:
+  - "Horizon Europe"
+  - "German Research Foundation"
+  - "National Institutes of Health"
 code:
     url: ""
     license: ""

@@ -14,6 +14,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/koudounas26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/koudounas26_interspeech.pdf
 session: Pathological Speech Assessment 3
 topics: [speech-enhancement, self-supervised, health]
+category: health-clinical
+labels:
+  - "low-resource"
+  - "generative-model"
+institutions:
+  - "Sony Group Corporation"
+  - "Kore University of Enna"
+  - "Universita degli Studi di Palermo"
+funding:
+  - "D.A.R.E. - Digital Lifelong Prevention"
 code:
     url: https://github.com/koudounasalkis/Pathology-F5TTS
     license: ""

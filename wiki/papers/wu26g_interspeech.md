@@ -1,6 +1,7 @@
 ---
 id: wu26g_interspeech
 category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26g_interspeech.pdf
 *Long Wu, Lingchao Zhao, Yuanzhong Zheng, Haojun Fei, Qing Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1953)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — Semi-Autoregressive Speculative Decoding (SASD) accelerates end-to-end ASR by using CTC greedy search as a fast drafting mechanism and selectively invoking an autoregressive attention decoder only for low-confidence tokens, matching attention-rescoring accuracy while delivering a 2.8x to 3.5x speedup.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-latency real-time automatic speech recognition, cloud transcription services, live meeting assistants, and on-device voice control systems.
+
+## Institutions / 機構
+
+Qifu Technology
 
 ## Related
 

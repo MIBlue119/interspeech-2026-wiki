@@ -1,6 +1,7 @@
 ---
 id: zhang26x_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26x_interspeech.pdf
 *Zhe Zhang, Yigitcan Özer, Junichi Yamagishi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26x_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26x_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1621)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — VoxEffects introduces a speech-oriented audio effects dataset and multi-task benchmark (AudioMAE-Fx) to infer applied post-production chains and parameters, achieving up to 95.58% macro presence accuracy under robust degradation training.
 
@@ -65,6 +68,12 @@ Researchers and engineers tackling speech forensics, content understanding, or a
 ## Applications
 
 Audio forensics, production-aware speech content understanding, automated audio engineering assistance, and educational ear-training tools for sound engineers.
+
+## Institutions / 機構
+
+National Institute of Informatics
+
+**Funding / 經費:** New Energy and Industrial Technology Development Organization
 
 ## Related
 

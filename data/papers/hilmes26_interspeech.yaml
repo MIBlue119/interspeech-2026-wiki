@@ -10,6 +10,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hilmes26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/hilmes26_interspeech.pdf
 session: Resource Constrained Speech Recognition
 topics: [asr, self-supervised, on-device]
+category: asr
+labels:
+  - "efficient-on-device"
+institutions:
+  - "RWTH Aachen University"
+  - "AppTek"
+funding:
+  - "NeuroSys"
+  - "Federal Ministry of Research, Technology and Space BMFTR"
+  - "RESCALE"
+  - "Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection"
+  - "Federal Ministry of Education and Research"
 code:
     url: https://github.com/rwth-i6/returnn-experiments/tree/master/2026-memristor-pe
     license: ""

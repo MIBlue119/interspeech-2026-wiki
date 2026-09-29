@@ -16,6 +16,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shen26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shen26b_interspeech.pdf
 session: 'Challenge - TidyVoice Challenge: Cross-Lingual Speaker Verification'
 topics: [speaker-verification, multilingual, self-supervised]
+category: speaker
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Waseda University"
+  - "Wuhan University"
 code:
     url: ""
     license: ""

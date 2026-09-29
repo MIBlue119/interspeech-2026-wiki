@@ -1,6 +1,7 @@
 ---
 id: bhosale26b_interspeech
-category: self-supervised
+category: enhancement-separation
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bhosale26b_interspeech.pdf
 *Swapnil Bhosale, Gordon Wichern, Yoshiki Masuyama, Moitreya Chatterjee, Christoph Boeddeker, Julius Richter, Xiatian Zhu, Jonathan Le Roux*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bhosale26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bhosale26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2630)
+
+**Category:** `enhancement-separation` · **Labels:** `low-resource`
 
 **TL;DR** — Janus-RIR is a temporally gated, dual-geometry aggregation model that matches latent acoustic geometry to physical room evolution, reducing late reverberation ($T_{60}$) error by 26% over Euclidean baselines.
 
@@ -68,6 +71,10 @@ Researchers working on spatial audio, few-shot acoustic modeling, or non-Euclide
 ## Applications
 
 Spatial audio rendering, augmented reality acoustic simulation, binaural synthesis, and cross-scene room impulse response prediction.
+
+## Institutions / 機構
+
+Mitsubishi Electric Research Laboratories, University of Surrey
 
 ## Related
 

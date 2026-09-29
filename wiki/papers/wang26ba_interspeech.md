@@ -1,6 +1,6 @@
 ---
 id: wang26ba_interspeech
-category: source-separation
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26ba_interspeech.pdf
 *Xu Wang, Qintuya Si, Qingying Zhao, De Hu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26ba_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26ba_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1691)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This paper presents an optimal source placement strategy using a mobile robot to improve the time-difference-of-arrival (TDoA) based geometry calibration of distributed microphone arrays, significantly reducing self-localization mean squared error compared to random placement. By minimizing the Cramer-Rao lower bound (CRLB) of microphone positions and capture time offsets (CTOs), the approach achieves superior geometric conditioning.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Distributed microphone array geometry calibration, wireless acoustic sensor networks, smart speaker spatial configuration.
+
+## Institutions / 機構
+
+Inner Mongolia University
+
+**Funding / 經費:** National Natural Science Foundation of China, Natural Science Foundation of Inner Mongolia Autonomous Region
 
 ## Related
 

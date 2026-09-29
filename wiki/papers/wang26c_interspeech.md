@@ -1,6 +1,6 @@
 ---
 id: wang26c_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26c_interspeech.pdf
 *Pengyu Wang, Xiaofei Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-217)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — Rec-RIR proposes a multi-task deep neural network for blind room impulse response (RIR) identification that formulates the task as supervised reverberant speech spectrum reconstruction via convolutive transfer function (CTF) approximation, achieving state-of-the-art accuracy on long RIR estimation without iterative computation.
 
@@ -72,6 +74,10 @@ Researchers and audio engineers working on blind system identification, dereverb
 ## Applications
 
 Speech enhancement, robust automatic speech recognition, and acoustic parameter estimation for augmented and virtual reality.
+
+## Institutions / 機構
+
+Zhejiang University, Westlake University, Westlake Institute for Advanced Study
 
 ## Related
 

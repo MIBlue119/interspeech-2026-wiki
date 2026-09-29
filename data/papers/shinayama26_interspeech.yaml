@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shinayama26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/shinayama26_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 1
 topics: [asr, multilingual, self-supervised]
+category: asr
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "NTT"
 code:
     url: ""
     license: ""

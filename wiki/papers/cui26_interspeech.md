@@ -1,6 +1,7 @@
 ---
 id: cui26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cui26_interspeech.pdf
 *Wenqian Cui, Lei Zhu, Xiao-Hui Li, Zhihan Guo, Haoli Bai, Lu Hou, Irwin King*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cui26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cui26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1141)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `streaming-real-time`, `generative-model`
 
 **TL;DR** — TurnGuide is a turn-level text-speech interleaved framework for end-to-end full-duplex speech language models that dynamically segments assistant speech into turns and jointly generates text and speech tokens, achieving over 30% performance gains in semantic coherence over speech-only baselines.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time spoken dialogue systems, voice assistants, and multi-speaker podcast generation.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Huawei Technologies
+
+**Funding / 經費:** Research Grants Council of the Hong Kong Special Administrative Region, China
 
 ## Related
 

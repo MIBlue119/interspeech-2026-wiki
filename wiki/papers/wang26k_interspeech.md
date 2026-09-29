@@ -1,6 +1,7 @@
 ---
 id: wang26k_interspeech
-category: speech-anti-spoofing
+category: deepfake-security
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26k_interspeech.pdf
 *Xin Wang, Wanying Ge, Junichi Yamagishi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-589)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — The paper investigates applying Group Relative Policy Optimization (GRPO) instead of Supervised Fine-Tuning (SFT) to post-trained speech foundation models for binary deepfake detection, achieving better out-of-domain generalization while preserving in-domain performance.
 
@@ -65,6 +68,12 @@ Speech and ML engineers building robust speech deepfake detectors should read th
 ## Applications
 
 Robust speech anti-spoofing systems, telephony fraud detection pipelines, and automated media verification tools operating across diverse, unseen acoustic environments.
+
+## Institutions / 機構
+
+National Institute of Informatics
+
+**Funding / 經費:** Japan Science and Technology Agency, New Energy and Industrial Technology Development Organization
 
 ## Related
 

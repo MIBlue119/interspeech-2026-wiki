@@ -1,6 +1,7 @@
 ---
 id: gong26b_interspeech
-category: speech-editing
+category: speech-llm-dialogue
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gong26b_interspeech.pdf
 *Xun Gong, Jinchuan Tian, Haoran Wang, William Chen, Shinji Watanabe, Yanmin Qian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gong26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gong26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-631)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — Bagpiper-Edit reformulates open-ended audio editing across speech, sound, and music as a text-space rich-caption rewriting task, achieving zero-shot editing without paired training data.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-domain audio editing assistants for film post-production, podcast authoring, and multi-modal content creation supporting simultaneous speech, sound effect, and music modifications via natural language.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, Carnegie Mellon University
+
+**Funding / 經費:** China NSFC, SJTU Med-X (Medicine & Engineering) Translational Research Grant
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: baik26_interspeech
 category: asr
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/baik26_interspeech.pdf
 *Jaeeun Baik, Ui-Hyeop Shin, Jiwon Lee, Woocheol Jeong, Hyung-Min Park*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/baik26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/baik26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3232)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — DASH is a dual-view self-distillation framework that learns noise-invariant speech representations across multiple intermediate layers using an EMA teacher and prototype KL divergence, eliminating the robustness-clean tradeoff in ASR.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust automated speech recognition for in-vehicle voice assistants, smart home devices, and open-world acoustic environments.
+
+## Institutions / 機構
+
+Sogang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, National Research Foundation of Korea
 
 ## Related
 

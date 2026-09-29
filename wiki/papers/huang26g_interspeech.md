@@ -1,6 +1,7 @@
 ---
 id: huang26g_interspeech
-category: self-supervised
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26g_interspeech.pdf
 *Zikang Huang, Meng Ge, Tianrui Wang, Xuanchen Li, Xiaobao Wang, Longbiao Wang, Jianwu Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1354)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — MSRHuBERT introduces a multi-sampling-rate adaptive convolutional downsampling module to speech self-supervised learning, enabling unified mixed-rate pre-training without resampling while improving full-band speech reconstruction and maintaining robust ASR performance.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Unified speech pre-training models, multi-rate automatic speech recognition, and high-fidelity full-band speech generation or neural vocoding.
+
+## Institutions / 機構
+
+Tianjin University, Huiyan Technology Company, Shenzhen Institute of Advanced Technology
 
 ## Related
 

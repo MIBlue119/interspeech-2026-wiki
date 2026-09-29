@@ -12,6 +12,22 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bagat26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bagat26_interspeech.pdf
 session: Multilingual, Cross-lingual & Low-Resource ASR
 topics: [asr, low-resource, self-supervised]
+category: asr
+labels:
+  - "low-resource"
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Universite de Lorraine"
+  - "CNRS"
+  - "Inria"
+  - "National Institute of Informatics"
+funding:
+  - "DeepMAUVES project"
+  - "DGA of french MoD"
+  - "CNRS"
+  - "Inria-NII TrustedSpeech Associate Team"
+  - "MEXT KAKENHI"
 code:
     url: https://gitlab.inria.fr/rbagat/atc_generation
     license: ""

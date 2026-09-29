@@ -1,6 +1,6 @@
 ---
 id: haghbin26_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/haghbin26_interspeech.pdf
 *Yasaman Haghbin, Sina Rashidi, Ali Zolnour, Fatemeh Taherinezhad, Ali Fartoot, Hossein Azadmaleki, James M. Noble, Maryam Dadkhah, Maryam Zolnoori*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/haghbin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/haghbin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1252)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper proposes a multi-stage explainability framework that translates black-box transformer predictions for cognitive impairment into structured clinical narratives using hierarchical SHAP, linguistic features, and a 4-stage LLaMA-3.1-70B pipeline, achieving an F1-score of 72.11% on the NIA PREPARE benchmark.
 
@@ -62,6 +64,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated non-invasive screening and explainable diagnostic decision support for Alzheimer's disease and mild cognitive impairment in primary care workflows.
+
+## Institutions / 機構
+
+Columbia University, Chalmers University of Technology
 
 ## Related
 

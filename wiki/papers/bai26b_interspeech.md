@@ -1,6 +1,7 @@
 ---
 id: bai26b_interspeech
-category: speech-translation
+category: tts
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bai26b_interspeech.pdf
 *Qibing Bai, Yuhan Du, Tom Ko, Shuai Wang, Yannan Wang, Haizhou Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bai26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bai26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1056)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — DLM-AN is a controllable accent normalization system utilizing masked discrete diffusion over self-supervised speech tokens, achieving a word error rate (WER) of 10.64% while allowing smooth accent strength and duration control.
 
@@ -65,6 +68,12 @@ Speech researchers and engineers working on controllable voice conversion and ge
 ## Applications
 
 Pronunciation training for language learners, authentic multimedia dubbing, and personalized text-to-speech systems with adjustable accent retention.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Nanjing University, Tencent, Shenzhen Loop Area Institute
+
+**Funding / 經費:** National Natural Science Foundation of China, Program for Guangdong Introducing Innovative and Entrepreneurial Teams, Yangtze River Delta Science and Technology Innovation Community Joint Research Project, Shenzhen Science and Technology Program, Shenzhen Stability Science Program, Shenzhen Key Lab of MultiModal Cognitive Computing, Guangdong Provincial Key Laboratory of Big Data Computing, The Chinese University of Hong Kong, Shenzhen
 
 ## Related
 

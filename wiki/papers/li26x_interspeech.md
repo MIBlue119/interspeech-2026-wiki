@@ -1,6 +1,7 @@
 ---
 id: li26x_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26x_interspeech.pdf
 *Zhu Li, Shekhar Nayak, Matt Coler*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26x_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26x_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1487)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `generative-model`
 
 **TL;DR** — The paper investigates the causal roles of individual prosodic dimensions in sarcasm perception using neural text-to-speech synthesis, finding that human listeners rely primarily on loudness while foundational multimodal models rely on speech rate.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving the pragmatic alignment of conversational AI agents, speech-to-speech translation systems, and affective text-to-speech synthesis.
+
+## Institutions / 機構
+
+University of Groningen
 
 ## Related
 

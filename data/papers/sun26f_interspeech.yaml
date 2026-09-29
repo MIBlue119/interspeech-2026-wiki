@@ -9,6 +9,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.pdf
 session: Robust and Real-World ASR Systems
 topics: [speech-translation, asr, evaluation]
+category: translation
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "Sogang University"
+funding:
+  - "Institute for Information & Communications Technology Planning & Evaluation"
+  - "Ministry of Science and ICT, Republic of Korea"
+  - "Ministry of Culture, Sports and Tourism, Republic of Korea"
+  - "Korea Creative Content Agency"
+  - "National Research Foundation of Korea"
+  - "Sogang University"
 code:
     url: ""
     license: ""

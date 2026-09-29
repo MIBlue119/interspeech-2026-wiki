@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/song26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/song26e_interspeech.pdf
 session: Speaker Identity, States, and Traits in Paralinguistics
 topics: [emotion-recognition, speech-llm, evaluation]
+category: paralinguistics-emotion
+institutions:
+  - "Tianjin Normal University"
+  - "Hunan University"
+  - "Yuelushan Center for Industrial Innovation"
+  - "Technische Universitat Munchen"
+  - "Imperial College London"
+funding:
+  - "Project of Yuelushan Center for Industrial Innovation"
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

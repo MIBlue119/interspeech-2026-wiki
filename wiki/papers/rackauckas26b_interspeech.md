@@ -1,6 +1,7 @@
 ---
 id: rackauckas26b_interspeech
-category: tts
+category: speech-llm-dialogue
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rackauckas26b_interspeech.pdf
 *Zackary Rackauckas*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rackauckas26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rackauckas26b_interspeech.html)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`
 
 **TL;DR** — We present Jouzu, a mobile Show & Tell demonstration of expressive persona-conditioned spoken interaction for Japanese language practice featuring style-conditioned LLM dialogue and voice synthesis.
 
@@ -58,6 +61,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-Assisted Language Learning (CALL) mobile applications, expressive character-based dialogue systems, and interactive spoken language practice tools.
+
+## Institutions / 機構
+
+RoleGaku
 
 ## Related
 

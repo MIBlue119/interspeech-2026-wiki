@@ -1,6 +1,7 @@
 ---
 id: banerasroux26_interspeech
 category: asr
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/banerasroux26_interspeech.pdf
 *Thibault Bañeras-Roux, Sergio Burdisso, Esaú Villatoro-Tello, Dairazalia Sánchez-Cortés, Shiran Liu, Severin Baroudi, Shashi Kumar, Hasindri Watawana, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/banerasroux26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/banerasroux26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3383)
+
+**Category:** `asr` · **Labels:** `low-resource`
 
 **TL;DR** — This paper investigates domain adaptation for LLM-based ASR when target-domain audio is scarce but text is abundant, proposing a mixed batching strategy that combines text-only data with a small fraction of speech. Using only 10% target-domain speech (under 4 hours) in mixed batches achieves word error rates comparable to or better than conventional fine-tuning with 100% of the speech data.
 
@@ -65,6 +68,12 @@ Speech and ML engineers tackling low-resource domain adaptation for LLM-based AS
 ## Applications
 
 Low-resource domain adaptation of speech recognition systems for specialized verticals such as banking, legal, and healthcare transcription where text documents are plentiful but audio recordings are rare.
+
+## Institutions / 機構
+
+Idiap Research Institute, Laboratoire d’Informatique et des Systèmes, EPFL, Uniphore, Brno University of Technology
+
+**Funding / 經費:** Idiap Research Institute, Uniphore, EU Horizon 2020
 
 ## Related
 

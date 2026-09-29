@@ -1,6 +1,6 @@
 ---
 id: huang26d_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26d_interspeech.pdf
 *Ying-Hsuan Huang, Woan-Shiuan Chien, Huan-Yu Chen, Chi-Chun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1243)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — This paper investigates continuous 3D skeletal kinematics in dyadic interactions to show that conversational intent operates on asynchronous timelines, where upper-body posture enables stable turn predictions up to 3.0s prior to speech onset. Specifically, floor-claiming exhibits a 1.5s preparatory kinematic buildup, whereas floor-holding triggers an explosive burst precisely at the speech collision boundary.
 
@@ -67,6 +69,10 @@ Speech and ML researchers working on proactive conversational agents and turn-ta
 ## Applications
 
 Proactive conversational agents, full-duplex spoken dialogue systems, human-robot interaction, and immersive virtual avatars.
+
+## Institutions / 機構
+
+National Tsing Hua University, National Yang Ming Chiao Tung University
 
 ## Related
 

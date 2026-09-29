@@ -1,6 +1,6 @@
 ---
 id: meng26e_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/meng26e_interspeech.pdf
 *David Meng, Marisa Poulos, Erin O'Neill, Qi Yang, Ivan Iotzov, Jorge Mejia*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/meng26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/meng26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2022)
+
+**Category:** `health-clinical`
 
 **TL;DR** — A field study using consumer Apple Watches to collect ecological momentary assessments (EMAs), passive physiology, and acoustic context from adults with hearing loss demonstrates that wearable-informed models can classify high listening effort (F1: 84.6%) and daily fatigue (76.2% accuracy).
 
@@ -62,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time adaptive hearing aids that dynamically adjust processing strategies based on inferred user fatigue and listening effort, and longitudinal mobile health tools for tracking communication burden in daily life.
+
+## Institutions / 機構
+
+National Acoustic Laboratories, GN Store Nord
+
+**Funding / 經費:** GN-NAL Research Alliance Fund
 
 ## Related
 

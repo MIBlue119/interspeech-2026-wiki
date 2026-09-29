@@ -16,6 +16,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26l_interspeech.pdf
 session: Long-Form Speech Synthesis
 topics: [tts, speech-llm, prosody]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Beijing University of Posts and Telecommunications"
+  - "Hello Group Inc"
+funding:
+  - "National Key R&D Program of China"
+  - "National Natural Science Foundation of China"
+  - "National Language Commission"
+  - "National Social Science Fund of China"
 code:
     url: https://ywbn.github.io/CraftTTS/
     license: ""

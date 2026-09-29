@@ -1,6 +1,6 @@
 ---
 id: paver26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/paver26_interspeech.pdf
 *Alice Paver, Kirsty McDougall*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/paver26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/paver26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2053)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates whether acoustic correlates of laryngeal and supralaryngeal voice quality (VQ) settings are universal or speaker-contingent, demonstrating via linear mixed-effects modeling that significant speaker x quality interactions undermine the assumption of one-to-one acoustic-to-articulatory mappings.
 
@@ -56,6 +58,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Forensic speech comparison, automated voice disguise detection, and speech pathology assessment.
+
+## Institutions / 機構
+
+University of Cambridge
+
+**Funding / 經費:** Arts and Humanities Research Council, Open-Oxford-Cambridge Doctoral Training Partnership
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: park26g_interspeech
-category: speaker-verification
+category: deepfake-security
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26g_interspeech.pdf
 *Seoyoung Park, Seungmin Kim, Sohee Park, Dain Kim, Thien An Nguyen, Thien-Phuc Doan, Souhwan Jung, Daeseon Choi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2944)
+
+**Category:** `deepfake-security` · **Labels:** `generative-model`
 
 **TL;DR** — NaVo is a generative proactive defense framework that injects natural-sounding universal adversarial ambient audio via a single forward pass, achieving a 76% defense success rate against commercial voice cloning systems.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time voice anti-spoofing protection for social media voice posts, secure conversational assistants, and identity fraud prevention APIs.
+
+## Institutions / 機構
+
+Soongsil University
+
+**Funding / 經費:** Korea Internet & Security Agency, Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

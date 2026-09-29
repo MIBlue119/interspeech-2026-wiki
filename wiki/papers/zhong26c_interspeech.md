@@ -1,6 +1,6 @@
 ---
 id: zhong26c_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhong26c_interspeech.pdf
 *Zihan Zhong, Qianli Wang, Satwinder Singh, Clarion Mendes, Mark Hasegawa-Johnson, Waleed Abdulla, Seyed Reza Shahamiri*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhong26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhong26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1138)
+
+**Category:** `health-clinical`
 
 **TL;DR** — The paper introduces the Phoneme Error Decomposition (PED) feature family—combining phoneme error rates and posterior uncertainty features extracted from a frozen CTC recognizer—to achieve interpretable, utterance-level dysarthric speech assessment that matches black-box SSL models on primary dimensions with a mean binary AUROC of 0.80.
 
@@ -64,6 +66,10 @@ Speech and ML engineers building clinical-grade assistive tools will find this p
 ## Applications
 
 Automated clinical speech assessment, computer-aided speech therapy evaluation tools, and objective multi-dimensional dysarthria screening systems.
+
+## Institutions / 機構
+
+DeepNet Discovery Network, University of Auckland, University of Illinois Urbana-Champaign
 
 ## Related
 

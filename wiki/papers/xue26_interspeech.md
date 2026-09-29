@@ -1,6 +1,6 @@
 ---
 id: xue26_interspeech
-category: speaker-verification
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xue26_interspeech.pdf
 *Chenlong Xue, Meng Sun, Qiang Zhang, Xiongwei Zhang, Kunyuan Li, Yuan Liao, Xiaoyi Ge, Kui Yao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xue26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xue26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-105)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — A two-stage adversarial protection framework isolates speaker identity from linguistic content via an information bottleneck and injects imperceptible perturbations into the speaker embedding space, achieving an 87.2% defense success rate against voice cloning while maintaining high audio quality (MOS 4.18).
 
@@ -65,6 +67,12 @@ Speech and security researchers looking to balance adversarial defense efficacy 
 ## Applications
 
 Voice data privacy protection, pre-emptive defense against zero-shot voice cloning, and anti-spoofing watermarking for personal audio.
+
+## Institutions / 機構
+
+Army Engineering University of PLA, Chinese University of Hong Kong, Information Support Force Engineering University
+
+**Funding / 經費:** National Natural Science Foundation of China, Natural Science Foundation of Jiangsu Province, China Postdoctoral Science Foundation
 
 ## Related
 

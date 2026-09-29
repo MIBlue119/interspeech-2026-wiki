@@ -1,6 +1,7 @@
 ---
 id: kim26n_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26n_interspeech.pdf
 *Yeeun Kim, Yonghun Song, Yunsik Kim, Yoonyoung Chung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1548)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — The paper introduces cross-modal consistency-aware structured pruning (CCAP) to compress multimodal speech enhancement models combining air- and bone-conduction microphones, improving PESQ by up to 0.20 over baselines at an 80% pruning ratio while reducing microcontroller latency by 43.1%.
 
@@ -65,6 +68,12 @@ Speech and ML engineers looking to deploy multimodal speech enhancement models o
 ## Applications
 
 Real-time on-device multimodal speech enhancement for hearables, smart glasses, and wearable communication devices operating in extremely noisy environments.
+
+## Institutions / 機構
+
+Pohang University of Science and Technology, Intus
+
+**Funding / 經費:** National Research Foundation, Institute of Information & Communications Technology Planning & Evaluation, High-Performance Computing Support Project, Regional Innovation System & Education project
 
 ## Related
 

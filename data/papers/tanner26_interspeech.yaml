@@ -12,6 +12,22 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tanner26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/tanner26_interspeech.pdf
 session: Tools and Techniques for Phonetic Analysis
 topics: [phonetics, self-supervised, dataset]
+category: phonetics-linguistics
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Glasgow"
+  - "McGill University"
+  - "University of Oregon"
+  - "North Carolina State University"
+funding:
+  - "Economic and Social Research Council"
+  - "Natural Sciences and Engineering Research Council of Canada"
+  - "Social Sciences and Humanities Research Council"
+  - "National Science Foundation"
+  - "Canada Research Chairs"
+  - "British Academy"
+  - "University of Glasgow"
 code:
     url: https://github.com/james-tanner/wav2VOT
     license: ""

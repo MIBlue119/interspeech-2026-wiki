@@ -1,6 +1,7 @@
 ---
 id: shridhar26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shridhar26_interspeech.pdf
 *Hemansh Shridhar, Miika Toikkanen, June-Woo Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shridhar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shridhar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-550)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — Lung-SRAD adapts a distilled audio state space model (DASS) for respiratory sound classification, using spectral-aware layer regularization and dual-axis patch-mix contrastive learning to achieve a 64.48% score on the ICBHI benchmark.
 
@@ -66,6 +69,12 @@ Researchers and engineers working on bioacoustic classification or efficient non
 ## Applications
 
 Automated respiratory disease screening, smart stethoscope diagnostics, and on-device continuous health monitoring for conditions like asthma, COPD, and pneumonia.
+
+## Institutions / 機構
+
+MODULABS, Wonkwang University
+
+**Funding / 經費:** Regional Innovation System & Education program, National Research Foundation of Korea
 
 ## Related
 

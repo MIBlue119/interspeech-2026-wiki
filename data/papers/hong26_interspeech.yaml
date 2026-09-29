@@ -9,6 +9,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hong26_interspeech.pdf
 session: New Architecture and Analyses for ASR and Speech LMs
 topics: [asr, self-supervised, evaluation]
+category: asr
+institutions:
+  - "Carnegie Mellon University"
+  - "University of Pittsburgh"
 code:
     url: ""
     license: ""

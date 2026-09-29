@@ -9,6 +9,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shahin26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/shahin26_interspeech.pdf
 session: Speech and Language Learning Technologies
 topics: [health, evaluation, self-supervised]
+category: health-clinical
+institutions:
+  - "University of New South Wales"
+  - "University of Sydney"
 code:
     url: ""
     license: ""

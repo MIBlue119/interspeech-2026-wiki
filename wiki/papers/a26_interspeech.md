@@ -1,6 +1,7 @@
 ---
 id: a26_interspeech
 category: asr
+labels: [multilingual, efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/a26_interspeech.pdf
 *Lusi A, Zhiyong Duan, Jiang Li, Feilong Bao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/a26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/a26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-266)
+
+**Category:** `asr` · **Labels:** `multilingual`, `efficient-on-device`
 
 **TL;DR** — MTC-AVSR is a multitask audio-visual speech framework that uses an ultra-compressed rate of 3.5 tokens per second to perform both English ASR and multilingual speech translation without retraining the upstream encoder, achieving 0.74% WER on LRS3 and state-of-the-art BLEU scores on MuAViC.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual video captioning, real-time cross-lingual audio-visual speech translation systems, and on-device noise-robust speech recognition assistants.
+
+## Institutions / 機構
+
+Inner Mongolia University, Inner Mongolia Arts University
+
+**Funding / 經費:** National Natural Science Foundation, Inner Mongolia Autonomous Region Major Special Science and Technology Project, Inner Mongolia Autonomous Region Natural Science Foundation Project, Inner Mongolia Autonomous Region Science and Technology Plan Project, Inner Mongolia Autonomous Region First-Class Discipline Scientific Research Special Project
 
 ## Related
 

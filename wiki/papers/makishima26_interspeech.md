@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/makishima26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/makishima26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/makishima26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1582)
 
+**Category:** `asr`
+
 **TL;DR** — The paper introduces a speaker-change token masking technique for autoregressive multi-talker ASR and diarization models that prevents performance degradation when handling more speaker changes than seen during training. It matches oracle performance on 3-speaker-change test data while trained on data with at most 2 speaker changes.
 
 ## Key contributions
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Meeting transcription systems, multi-speaker conversational speech recognition, and real-time audio stream diarization.
+
+## Institutions / 機構
+
+NTT
 
 ## Related
 

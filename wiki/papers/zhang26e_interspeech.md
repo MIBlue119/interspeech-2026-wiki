@@ -1,6 +1,7 @@
 ---
 id: zhang26e_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26e_interspeech.pdf
 *Ziyu Zhang, Chunyu Qiang, Xiaopeng Wang, Yuxin Guo, Kang Yin, Wenjie Tian, Jingbin Hu, Tianlun Zuo, Zhao Guo, Teng Ma, Yuzhe Liang, Chen Zhang, Lei Xie*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-481)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — UniSinger is the first end-to-end multi-modal diffusion transformer framework that unifies zero-shot speaker cloning song generation and accompaniment co-generation singing voice conversion (SVC). It achieves state-of-the-art performance across both tasks (e.g., 19.61% song generation PER, 68.85% speaker similarity) by leveraging mutual task priors and a progressive curriculum learning strategy.
 
@@ -65,6 +68,10 @@ Researchers and audio engineers working on unified multimodal generative modelin
 ## Applications
 
 Automated intelligent music production systems, zero-shot singer voice cloning, and text-guided singing voice conversion with synchronized background music co-generation.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University, Kuaishou Technology, Beijing Institute of Technology, Chinese Academy of Sciences
 
 ## Related
 

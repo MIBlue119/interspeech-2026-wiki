@@ -1,6 +1,6 @@
 ---
 id: dao26_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dao26_interspeech.pdf
 *Anh-Tuan DAO, Driss Matrouf, Mickael Rouvier, Nicholas Evans*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-676)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — The paper introduces a linguistic-invariant teacher-student framework using gradient reversal and a variational information bottleneck to mitigate linguistic shortcuts in spoofing detection, achieving a 36.2% relative EER reduction across nine out-of-domain datasets.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice biometrics security, synthetic speech detection, and robust anti-spoofing systems for conversational AI deployment.
+
+## Institutions / 機構
+
+Avignon Universite, EURECOM
+
+**Funding / 經費:** ANR BRUEL
 
 ## Related
 

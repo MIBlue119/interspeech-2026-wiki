@@ -1,6 +1,7 @@
 ---
 id: lavechin26_interspeech
-category: child-speech
+category: asr
+labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lavechin26_interspeech.pdf
 *Marvin Lavechin, Elika Bergelson, Roger Levy*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lavechin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lavechin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1132)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — BabAR is a cross-linguistic phoneme recognition system for young children trained on TinyVox, a newly curated standardized corpus of over 500,000 IPA-transcribed child vocalizations. It achieves a phoneme error rate (PER) of 42.1% by leveraging multilingual child-centered pretraining and a 20-second context window.
 
@@ -65,6 +68,12 @@ Speech researchers and ML engineers building automatic child speech analysis too
 ## Applications
 
 Automated developmental speech screening, large-scale longitudinal phonetic tracking for child psychology research, and clinical assessment of language delays.
+
+## Institutions / 機構
+
+Aix-Marseille University, CNRS, Harvard University, Massachusetts Institute of Technology
+
+**Funding / 經費:** Simons Foundation International, National Institutes of Health
 
 ## Related
 

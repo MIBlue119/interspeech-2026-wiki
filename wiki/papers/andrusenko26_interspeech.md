@@ -1,6 +1,7 @@
 ---
 id: andrusenko26_interspeech
 category: asr
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/andrusenko26_interspeech.pdf
 *Andrei Andrusenko, Vladimir Bataev, Lilit Grigoryan, Nune Tadevosyan, Vitaly Lavrukhin, Boris Ginsburg*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/andrusenko26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/andrusenko26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1195)
+
+**Category:** `asr` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper presents a unified Automatic Speech Recognition (ASR) framework for Transducers (RNNT) that supports both offline and low-latency streaming inference using shared parameters. By introducing a Triton-accelerated mode-consistency regularization loss (MCR-RNNT) alongside chunk-limited attention and dynamic convolutions, the approach achieves a state-of-the-art 5.76% average WER on the Open ASR Leaderboard while maintaining robust streaming performance.
 
@@ -67,6 +70,10 @@ Speech engineers and researchers struggling to deploy separate offline and strea
 ## Applications
 
 Real-time speech transcription, interactive voice assistants, and dual-mode transcription services requiring both high-accuracy batch processing and low-latency live streaming.
+
+## Institutions / 機構
+
+NVIDIA
 
 ## Related
 

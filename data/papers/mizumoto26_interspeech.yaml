@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mizumoto26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/mizumoto26_interspeech.pdf
 session: Multilingual Speech 2
 topics: [speech-llm, speech-translation, self-supervised]
+category: speech-llm-dialogue
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "SB Intuitions"
 code:
     url: ""
     license: ""

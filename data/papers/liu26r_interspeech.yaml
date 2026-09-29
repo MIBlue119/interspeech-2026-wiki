@@ -12,6 +12,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26r_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26r_interspeech.pdf
 session: Paralinguistics
 topics: [speech-emotion-diarization, weakly-supervised, self-supervised]
+category: paralinguistics-emotion
+institutions:
+  - "Xinjiang University"
 code:
     url: https://github.com/LiuYumeng-Lemon/P-SED
     license: ""

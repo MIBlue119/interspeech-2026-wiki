@@ -1,6 +1,7 @@
 ---
 id: goto26_interspeech
 category: asr
+labels: [self-supervised, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/goto26_interspeech.pdf
 *Keita Goto, Takashi Maekaku, Jin Sakuma, Jinchuan Tian, Yusuke Shinohara, Shinji Watanabe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/goto26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/goto26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1997)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `streaming-real-time`
 
 **TL;DR** — This paper introduces Online Predictive Coding (OPC) and dual-mode Layer Normalization to bridge the performance gap between streaming and non-streaming speech models, cutting word error rates on LibriSpeech test-clean at 160 ms latency from 3.65% to 3.40%.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time streaming automatic speech recognition, voice assistants, and on-device live captioning.
+
+## Institutions / 機構
+
+LY Corporation, Carnegie Mellon University
 
 ## Related
 

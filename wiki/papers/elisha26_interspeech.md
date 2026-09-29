@@ -1,6 +1,6 @@
 ---
 id: elisha26_interspeech
-category: speech-paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/elisha26_interspeech.pdf
 *Shahar Elisha, Mariano Beguerisse-Díaz, Emmanouil Benetos*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/elisha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/elisha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-453)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper presents the first systematic computational study linking audiobook narration acoustic features to real-world consumption and engagement data across genres and alternative recordings of the same title, achieving a pseudo-R² of up to 0.16 when predicting listener return-rates.
 
@@ -67,6 +69,10 @@ Speech and ML engineers building audiobook recommendation, personalization, or n
 ## Applications
 
 Audiobook recommendation engines, automated narrator casting systems, personalized audiobook search, and text-to-speech stylistic conditioning.
+
+## Institutions / 機構
+
+Spotify, Queen Mary University of London
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: wan26b_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wan26b_interspeech.pdf
 *Chenchen Wan, Minchuan Chen, Yan Shi, Peng Qi, Shaojun Wang, Jing Xiao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wan26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wan26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1798)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper introduces EO-LoRA and Flow-DGPO to achieve continuous, time-varying Valence-Arousal-Dominance (VAD) emotion control in zero-shot flow-matching text-to-speech without requiring massive emotional training corpora. The proposed approach outperforms prior baseline models on emotion similarity and prosody metrics while substantially reducing word error rates.
 
@@ -62,6 +65,10 @@ Researchers and engineers working on expressive text-to-speech and flow-matching
 ## Applications
 
 Dynamic emotional text-to-speech for conversational AI assistants, video game character voice generation, audiobook narration with continuous affective shifts, and cross-lingual dubbing.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, Ping An Technology, Shanghai Jiao Tong University Chongqing Artificial Intelligence Research Institute
 
 ## Related
 

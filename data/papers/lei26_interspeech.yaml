@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lei26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lei26_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
 topics: [speech-enhancement, evaluation, speech-llm]
+category: audio-understanding
+labels:
+  - "generative-model"
+institutions:
+  - "Hong Kong University of Science and Technology"
 code:
     url: ""
     license: ""

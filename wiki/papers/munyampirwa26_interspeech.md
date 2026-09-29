@@ -1,6 +1,7 @@
 ---
 id: munyampirwa26_interspeech
-category: asr
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/munyampirwa26_interspeech.pdf
 *Blaise Munyampirwa, Arda Ibis, Zach Nagengast, Brian Keene, Dylan Angus*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/munyampirwa26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/munyampirwa26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1375)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — Contextual Earnings-22 is a new public benchmark for speech-to-text context biasing built on Earnings-22, pairing 760 context-dense 15-second audio clips with realistic custom-vocabulary entity lists to evaluate keyword prompting and boosting methods.
 
@@ -58,6 +61,10 @@ Speech researchers and ML engineers building contextual speech recognition syste
 ## Applications
 
 Financial transcription services, voice assistants, enterprise meeting transcription systems, and medical or legal dictation tools requiring high-accuracy custom vocabulary recognition.
+
+## Institutions / 機構
+
+Argmax, University of California, Los Angeles
 
 ## Related
 

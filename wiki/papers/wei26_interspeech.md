@@ -1,6 +1,6 @@
 ---
 id: wei26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wei26_interspeech.pdf
 *Yilan Wei, Qi Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wei26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wei26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-46)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper evaluates vowel nasalization acoustic measures (A1–P0 and A1–P1) on the CUCO database to analyze speech changes in upper airway disease patients before and after surgery, finding that A1–P0 and the high-vowel /u/ are significantly more sensitive to pathology and surgical intervention.
 
@@ -60,6 +62,10 @@ Speech and medical researchers investigating clinical voice pathology will learn
 ## Applications
 
 Clinical speech assessment, post-operative monitoring of upper airway surgeries, and objective voice pathology diagnostics.
+
+## Institutions / 機構
+
+Hunan University
 
 ## Related
 

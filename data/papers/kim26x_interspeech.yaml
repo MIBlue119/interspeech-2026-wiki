@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26x_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26x_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
 topics: [paralinguistics, health, evaluation]
+category: health-clinical
+institutions:
+  - "Wonkwang University"
+  - "Gwangju Institute of Science and Technology"
+  - "KAIST"
+funding:
+  - "InnoCORE program of the Ministry of Science and ICT"
+  - "Regional Innovation System and Education program through the Jeonbuk RISE Center"
 code:
     url: ""
     license: ""

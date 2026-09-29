@@ -1,6 +1,7 @@
 ---
 id: zhang26z_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26z_interspeech.pdf
 *Wen Zhang, Wenbin Jiang, Yang Zhang, Xiaofei Zhou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26z_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26z_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1679)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — The paper introduces Autonomous Rectified Flow (ARF), a time-unconditional generative speech enhancement framework that eliminates explicit time-step conditioning. It achieves competitive speech quality (PESQ 3.11 at NFE=5) and state-of-the-art single-step inference efficiency with a real-time factor (RTF) of 0.02 at NFE=1.
 
@@ -64,6 +67,12 @@ Speech researchers and audio engineers working on real-time generative speech en
 ## Applications
 
 Real-time on-device speech enhancement for telephony, hearing aids, and voice communication pipelines.
+
+## Institutions / 機構
+
+Hangzhou Dianzi University
+
+**Funding / 經費:** Yangtze River Delta Science and Technology Innovation Community Joint Research, Zhejiang Provincial Natural Science Foundation of China
 
 ## Related
 

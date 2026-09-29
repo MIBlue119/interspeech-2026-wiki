@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/qin26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/qin26_interspeech.pdf
 session: Speech Deepfake Detection, Attribution and Characterization
 topics: [speech-deepfake-detection, self-supervised, speaker-verification]
+category: deepfake-security
+labels:
+  - "robustness-noise"
+institutions:
+  - "Hong Kong Polytechnic University"
+  - "Nanyang Technological University"
+funding:
+  - "Innovation and Technology Fund of the Hong Kong SAR"
+  - "National Key R&D Program of China"
 code:
     url: ""
     license: ""

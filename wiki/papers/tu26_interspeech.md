@@ -1,6 +1,6 @@
 ---
 id: tu26_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tu26_interspeech.pdf
 *Youzhi Tu, Xin Fang, Liping Chen, Zhen-Hua Ling, Kong Aik Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2200)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — The paper introduces duration-aware self-attention (DASA), which incorporates audio duration and segment offset timing embeddings into self-attention to mitigate performance degradation caused by training-evaluation duration mismatches in speech deepfake detection. Using the relative positional encoding (RPE) variant with a ConFusionformer backend, DASA improves generalization across variable-length audio and achieves superior EER on ASVspoof21-DF, In-the-Wild, and CodecFake benchmarks.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-world speech deepfake detection systems, telecommunication security filters, and audio forensics pipelines handling variable-length intercepted audio streams.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University, University of Science and Technology of China, iFLYTEK
+
+**Funding / 經費:** Innovation and Technology Fund, National Key R&D Program of China
 
 ## Related
 

@@ -9,6 +9,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26v_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26v_interspeech.pdf
 session: Neural Audio Codec Architectures
 topics: [speech-codec, voice-conversion, self-supervised]
+category: speech-coding
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "KAIST"
+funding:
+  - "National Research Foundation of Korea"
 code:
     url: https://github.com/hanshounsu/sdpcodec-open/
     license: ""

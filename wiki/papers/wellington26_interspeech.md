@@ -1,6 +1,7 @@
 ---
 id: wellington26_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wellington26_interspeech.pdf
 *Scott Wellington, Oliver Watts, Damien Coyle, Benjamin Metcalfe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wellington26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wellington26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2683)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces the Corpus of Heard and Imagined Natural Speech (CHINS), containing over 22 hours of single-participant surface EEG data for continuous heard and imagined sentences, and demonstrates a robust one-to-one mapping and phonetic-level neural alignment between auditory perception and imagined speech production.
 
@@ -56,6 +59,12 @@ Speech and ML researchers building non-invasive speech neuroprostheses or transf
 ## Applications
 
 Non-invasive brain-computer interfaces (BCIs), assistive communication devices, and speech neuroprostheses for individuals with neurodegenerative conditions like motor neurone disease.
+
+## Institutions / 機構
+
+University of Bath, SpeakUnique
+
+**Funding / 經費:** United Kingdom Research Institute
 
 ## Related
 

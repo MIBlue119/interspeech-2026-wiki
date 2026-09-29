@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhou26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26d_interspeech.pdf
 session: Speaker Verification and Anti-Spoofing
 topics: [speaker-verification, self-supervised]
+category: speaker
+institutions:
+  - "Tianjin University"
+  - "Hong Kong Polytechnic University"
+  - "Huiyan Technology (Tianjin) Co., Ltd"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

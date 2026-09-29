@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liang26_interspeech.pdf
 session: Speech and Audio Quality Assessment
 topics: [speech-enhancement, evaluation, self-supervised]
+category: resources-evaluation
+institutions:
+  - "KTH Royal Institute of Technology"
+  - "Google"
+funding:
+  - "Digital Futures Center"
+  - "European Defence Fund"
+  - "Wallenberg AI, Autonomous Systems and Software Program"
+  - "Knut and Alice Wallenberg Foundation"
 code:
     url: https://github.com/Hope-Liang/DNSMOS-C
     license: ""

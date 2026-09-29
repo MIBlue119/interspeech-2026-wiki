@@ -1,6 +1,6 @@
 ---
 id: filippakopoulos26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/filippakopoulos26_interspeech
 *Alexios Filippakopoulos, Elias Kallioras, Nikolaos Xiros, Efthymios Georgiou, Alexandros Potamianos*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/filippakopoulos26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/filippakopoulos26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1299)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — The paper introduces SeRIn, a multimodal language model fusion scheme that enforces interaction topology through structural segregation, achieving state-of-the-art sentiment analysis results on CH-SIMS and CMU-MOSEI across all metrics.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Affective computing, conversational agents, mental health assessment, and social media opinion mining.
+
+## Institutions / 機構
+
+National Technical University of Athens, Athena Research Center, University of Bern, Archimedes AI, Synaptic Bloom PBC
+
+**Funding / 經費:** National Recovery and Resilience Plan Greece 2.0, European Union, NextGenerationEU Program
 
 ## Related
 

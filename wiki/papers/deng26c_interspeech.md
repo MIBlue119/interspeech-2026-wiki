@@ -1,6 +1,7 @@
 ---
 id: deng26c_interspeech
 category: asr
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.pdf
 *Chengxi Deng, Xurong Xie, Shujie Hu, Jiajun Deng, Mengzhe Geng, Youjun Chen, Huimeng Wang, Haoning Xu, Guinan Li, Xunying Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1611)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — This paper proposes a confidence-score guided incremental and speaker-adaptive pseudo-labeling framework for semi-supervised elderly speech recognition, achieving statistically significant WER/CER reductions of 1.45% and 2.27% absolute on English and Cantonese elderly datasets.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech recognition for elderly care, dementia screening interview transcription, tele-health clinical documentation, and low-resource medical dictation.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Chinese Academy of Sciences, National Research Council Canada
+
+**Funding / 經費:** Hong Kong RGC GRF, Basic Research Project of Institute of Software, Chinese Academy of Sciences, Youth Innovation Promotion Association CAS
 
 ## Related
 

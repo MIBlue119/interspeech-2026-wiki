@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hosseinikivanani26_inter
 pdf_url: https://www.isca-archive.org/interspeech_2026/hosseinikivanani26_interspeech.pdf
 session: Multilingual and Cross-Lingual Paralinguistic Analysis and Processing
 topics: [paralinguistics, multilingual, phonetics]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+institutions:
+  - "Radio Television Luxembourg"
+  - "University of Luxembourg"
+  - "Shiraz University"
+  - "University of Southern Denmark"
+funding:
+  - "Luxembourg National Research Fund"
 code:
     url: ""
     license: ""

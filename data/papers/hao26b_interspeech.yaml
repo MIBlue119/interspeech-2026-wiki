@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hao26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/hao26b_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 1
 topics: [asr, speech-llm, evaluation]
+category: asr
+labels:
+  - "low-resource"
+institutions:
+  - "University of Groningen"
+funding:
+  - "China Scholarship Council"
 code:
     url: ""
     license: ""

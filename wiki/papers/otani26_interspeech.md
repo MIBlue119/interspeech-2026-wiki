@@ -1,6 +1,7 @@
 ---
 id: otani26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/otani26_interspeech.pdf
 *Yuto Otani, Shun Sawada, Hidefumi Ohmura, Kouichi Katsurada*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/otani26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/otani26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3379)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — A speaker-independent speech synthesis method generates speech waveforms from real-time MRI (rtMRI) videos using EfficientNetV2, E-Branchformer, and BigVGAN-v2, guided by cross-modal training with speaker embeddings. It achieves strong linguistic intelligibility (read speech dWER down to 4.5%) and captures relative prosodic patterns from visual articulatory data alone.
 
@@ -65,6 +68,12 @@ Speech and ML researchers working on multi-modal synthesis or articulatory inver
 ## Applications
 
 Computer-assisted pronunciation training (CAPT) systems and speech rehabilitation tools for individuals with motor speech disorders.
+
+## Institutions / 機構
+
+Tokyo University of Science, Nippon Institute of Technology
+
+**Funding / 經費:** JSPS KAKENHI, JST SPRING
 
 ## Related
 

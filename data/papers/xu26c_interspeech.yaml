@@ -14,6 +14,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26c_interspeech.pdf
 session: Spatial Audio 1
 topics: [spatial-audio, binaural-rendering, self-supervised]
+category: applications-other
+institutions:
+  - "Australian National University"
+  - "University of Queensland"
+funding:
+  - "ANU PhD Scholarship"
+  - "ANU HDR Fee Merit Scholarship"
 code:
     url: ""
     license: ""

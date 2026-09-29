@@ -9,6 +9,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/altwlkany26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/altwlkany26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [self-supervised, speaker-verification, dataset]
+category: resources-evaluation
+labels:
+  - "self-supervised"
+institutions:
+  - "Infobip"
+  - "University of Sarajevo"
+funding:
+  - "Infobip Global Communication Platform"
+  - "Important Project of Common European Interest on Next Generation Cloud Infrastructure and Services"
 code:
     url: ""
     license: ""

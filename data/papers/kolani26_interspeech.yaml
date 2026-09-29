@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.pdf
 session: Text Processing for Speech Synthesis
 topics: [tts, asr, low-resource]
+category: tts
+labels:
+  - "low-resource"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Reichman University"
+  - "Cisco Systems"
+  - "Tel Aviv University"
+  - "Carnegie Mellon University"
 code:
     url: ""
     license: ""

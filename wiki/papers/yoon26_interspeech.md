@@ -1,6 +1,7 @@
 ---
 id: yoon26_interspeech
-category: acoustic-scene-classification
+category: audio-understanding
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yoon26_interspeech.pdf
 *Hoyoung Yoon, U Kang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yoon26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yoon26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-370)
+
+**Category:** `audio-understanding` · **Labels:** `robustness-noise`
 
 **TL;DR** — FASOLA is a robust multi-source-free domain adaptation framework for acoustic scene classification that corrects device-induced prediction biases and weights models via label agreement, improving average accuracy to 54.43% on DCASE 2020 Task 1A.
 
@@ -67,6 +70,12 @@ Researchers working on source-free domain adaptation and multi-model ensembling 
 ## Applications
 
 Deploying robust acoustic scene classification models on edge devices with heterogeneous microphones without accessing raw user audio data.
+
+## Institutions / 機構
+
+Seoul National University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea government (MSIT), XVoice: Multi-Modal Voice Meta Learning, AI Star Fellowship Support Program, Global AI Frontier Lab, Artificial Intelligence Graduate School Program
 
 ## Related
 

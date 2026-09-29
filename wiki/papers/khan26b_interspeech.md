@@ -1,6 +1,7 @@
 ---
 id: khan26b_interspeech
-category: self-supervised
+category: deepfake-security
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/khan26b_interspeech.pdf
 *Ahmed Sohair Khan, Estrid He, Monica Wachowicz, Elham Naghizade*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/khan26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/khan26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3175)
+
+**Category:** `deepfake-security` · **Labels:** `generative-model`
 
 **TL;DR** — This paper proposes a prompt-driven, style-aware text anonymization framework that neutralizes author-specific stylometric fingerprints using large language models, reducing authorship attribution F1 by 60–70% while preserving high semantic utility and readability.
 
@@ -65,6 +68,10 @@ Researchers and engineers working on text and speech privacy will find this a co
 ## Applications
 
 Privacy-preserving publishing of user reviews, blogs, and ASR transcripts of meetings and call-center conversations to prevent authorship re-identification.
+
+## Institutions / 機構
+
+RMIT University
 
 ## Related
 

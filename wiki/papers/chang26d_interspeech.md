@@ -1,6 +1,7 @@
 ---
 id: chang26d_interspeech
-category: spoken-language-understanding
+category: resources-evaluation
+labels: [low-resource, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chang26d_interspeech.pdf
 *Kai-Wei Chang, Yi-Cheng Lin, Huang-Cheng Chou, Wenze Ren, Yu-Han Huang, Yun-Shao Tsai, Chien-Cheng Chen, Yu Tsao, Yuan-Fu Liao, Shrikanth Narayanan, James Glass, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chang26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chang26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1511)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `dataset-or-benchmark-release`
 
 **TL;DR** — TaigiSpeech is a new 6.1-hour spoken intent dataset of Taiwanese Hokkien from 21 elderly speakers covering 8 healthcare and home-assistant intents, exposing major domain gaps when models are trained purely on in-the-wild web data.
 
@@ -57,6 +60,12 @@ Speech researchers and engineers building voice assistants for low-resource or u
 ## Applications
 
 Smart home emergency response systems, elderly care monitoring, hands-free assistive home devices, and spoken language understanding tools for low-resource dialects.
+
+## Institutions / 機構
+
+Massachusetts Institute of Technology, National Taiwan University, National Taiwan University Artificial Intelligence Center of Research Excellence, Academia Sinica, National Yang Ming Chiao Tung University, University of Southern California
+
+**Funding / 經費:** National Science and Technology Council, Ministry of Education, National Science Foundation, Intelligence Advanced Research Projects Activity
 
 ## Related
 

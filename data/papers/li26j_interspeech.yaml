@@ -16,6 +16,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26j_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 1
 topics: [speech-llm, paralinguistics, emotion-recognition]
+category: health-clinical
+institutions:
+  - "Shanghai Artificial Intelligence Laboratory"
+  - "Tsinghua University"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

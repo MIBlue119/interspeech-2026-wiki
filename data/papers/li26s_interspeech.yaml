@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26s_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26s_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
 topics: [asr, speech-enhancement]
+category: asr
+labels:
+  - "robustness-noise"
+institutions:
+  - "Nanyang Technological University"
+  - "Nara Institute of Science and Technology"
 code:
     url: ""
     license: ""

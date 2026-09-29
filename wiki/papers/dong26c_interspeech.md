@@ -1,6 +1,6 @@
 ---
 id: dong26c_interspeech
-category: paralinguistics
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dong26c_interspeech.pdf
 *Wenwei Dong, Catia Cucchiarini, Roeland van Hout, Helmer Strik*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dong26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dong26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1991)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper investigates whether the speech large language model Qwen3-Omni-30B-Instruct can automatically approximate human ratings of accentedness and comprehensibility in second-language (L2) English speech. Using zero-shot and few-shot prompting, the model achieves moderate correlations with expert human ratings (Spearman's rank correlation up to 0.505) and successfully captures pre-to-post-test learner progress.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated computer-assisted language learning (CALL) platforms, pronunciation training apps, and scalable second-language oral proficiency testing.
+
+## Institutions / 機構
+
+Radboud University
+
+**Funding / 經費:** China Scholarship Council
 
 ## Related
 

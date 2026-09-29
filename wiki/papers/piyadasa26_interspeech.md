@@ -1,6 +1,6 @@
 ---
 id: piyadasa26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/piyadasa26_interspeech.pdf
 *Tharinda Piyadasa, Michael Proctor, Tünde Szalay, Joan Glaunès, Amelia Gully, Kirrie Ballard, Emily Kiff, Naeim Sanaei, Sheryl Foster, David Waddington, Craig Jin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/piyadasa26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/piyadasa26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1890)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper presents a proof-of-concept pipeline combining rtMRI-constrained Large Deformation Diffeomorphic Metric Mapping (LDDMM) with 3D finite element method (FEM) acoustic simulations to model dynamic vocal tract geometries and their time-varying formants during an Australian English VCV sequence. The offset-aligned FEM simulations successfully track acoustic formant trajectories and capture key phonetic features like rhotic F3 lowering, achieving residual dispersions of 78 Hz for F1 and 74 Hz for F2 across landmarks.
 
@@ -60,6 +62,12 @@ Speech production researchers and computational phoneticians will find this pape
 ## Applications
 
 Foundational modeling for physiological speech synthesis, computer animation of talking heads, and clinical assessment of speech motor disorders.
+
+## Institutions / 機構
+
+University of Sydney, Macquarie University, Universite Paris Cite, University of York, Westmead Hospital
+
+**Funding / 經費:** Australian Research Council, National Health and Medical Research Council
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: chen26_interspeech
-category: speech-translation
+category: translation
+labels: [multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26_interspeech.pdf
 *Szu-Chi Chen, I-Ning Tsai, Yi-Cheng Lin, Sung-Feng Huang, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-42)
+
+**Category:** `translation` · **Labels:** `multilingual`, `generative-model`
 
 **TL;DR** — MoVE introduces a Mixture-of-LoRA-Experts architecture with a dynamic soft-weighting router to preserve non-verbal vocalizations (laughter and crying) and emotional nuances in speech-to-speech translation (S2ST), successfully replicating target NVs in 76% of test cases.
 
@@ -65,6 +68,12 @@ Researchers and engineers building expressive, multi-modal speech-to-speech tran
 ## Applications
 
 Cross-language real-time communication systems, cross-lingual dubbing, immersive conversational AI, and empathetic voice assistants.
+
+## Institutions / 機構
+
+National Taiwan University, NVIDIA
+
+**Funding / 經費:** Ministry of Education
 
 ## Related
 

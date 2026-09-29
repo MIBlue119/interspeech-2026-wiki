@@ -11,6 +11,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sheppard26b_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/sheppard26b_interspeech.pdf
 session: Queer and Trans Speech Science and Technology
 topics: [self-supervised, evaluation, dataset]
+category: resources-evaluation
+institutions:
+  - "University of Calgary"
+  - "Meta"
 code:
     url: ""
     license: ""

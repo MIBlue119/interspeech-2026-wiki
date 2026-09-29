@@ -1,6 +1,7 @@
 ---
 id: udupa26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/udupa26_interspeech.pdf
 *Sathvik Udupa, Shinji Watanabe, Petr Schwarz, Honza Černocký*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/udupa26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/udupa26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2196)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — Endpoint Anticipation (EPA) shifts turn-taking from reactive endpointing to proactive forecasting of end-of-turn signals up to 2.56 seconds early, allowing speculative execution in cascaded dialogue systems. Integrated into the Unmute framework, EPA cuts average system latency by 505 ms with a 28.4% increase in speculative computation.
 
@@ -65,6 +68,12 @@ Researchers and engineers building low-latency, modular spoken dialogue systems 
 ## Applications
 
 Real-time speech-to-speech conversational agents, voice assistants, and low-latency interactive spoken dialogue systems.
+
+## Institutions / 機構
+
+Brno University of Technology, Carnegie Mellon University
+
+**Funding / 經費:** Technology Agency of the Czech Republic, Czech Ministry of Education, Youth and Sports
 
 ## Related
 

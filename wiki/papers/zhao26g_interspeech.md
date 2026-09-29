@@ -1,6 +1,7 @@
 ---
 id: zhao26g_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhao26g_interspeech.pdf
 *Junchuan Zhao, Minh Duc Vu, Ye Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhao26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhao26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2159)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — MSpoofTTS is a training-free inference framework that integrates multi-resolution token-level spoof detectors into autoregressive neural codec language model decoding, improving perceptual naturalness and reducing artifacts without altering model weights.
 
@@ -65,6 +68,10 @@ Researchers and practitioners working on neural codec language models or decodin
 ## Applications
 
 Zero-shot text-to-speech, audiobook narration, and voice cloning applications requiring high perceptual fidelity and robustness against repetition artifacts.
+
+## Institutions / 機構
+
+National University of Singapore
 
 ## Related
 

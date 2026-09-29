@@ -1,6 +1,7 @@
 ---
 id: shi26f_interspeech
 category: tts
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shi26f_interspeech.pdf
 *Renzheng Shi, Simon Welker, Timo Gerkmann, Tim Fingscheidt*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shi26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shi26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2407)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — EffVOC is a causal, low-delay (20 ms) speech vocoder that reconstructs wideband and fullband speech waveforms from either amplitude spectra or Mel coefficients, achieving a new state of the art in subjective MOS (up to 4.17 WB and 4.14 FB) while operating in real-time.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time speech synthesis, streaming text-to-speech, real-time voice conversion, and low-latency audio communication pipelines.
+
+## Institutions / 機構
+
+Technische Universitat Braunschweig, Universitat Hamburg
 
 ## Related
 

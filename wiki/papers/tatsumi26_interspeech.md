@@ -1,6 +1,7 @@
 ---
 id: tatsumi26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tatsumi26_interspeech.pdf
 *Yuka Tatsumi, Nathan Roll, Robert D. Hawkins, Meghan Sumner, Dan Jurafsky*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tatsumi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tatsumi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3061)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This study compares cross-language speech emotion recognition in 101 English monolingual humans and two frozen ASR models (Whisper and HuBERT), demonstrating that SLMs achieve human-level or superior "universality" (well above chance on French, Japanese, Greek, and Thai) despite operating under fundamentally different error profiles and response biases.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual speech emotion recognition, affective spoken dialogue systems, and psychoacoustic evaluation benchmarks for self-supervised speech encoders.
+
+## Institutions / 機構
+
+Stanford University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: monir26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/monir26_interspeech.pdf
 *Nasser-Eddine Monir, Paul Magron, Romain Serizel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/monir26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/monir26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3416)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper proposes a time-frequency (TF) weighted SDR loss for multichannel speech enhancement that modulates loss contributions based on local speech-to-interference ratio (SIR), speech presence, and transient spectral flux. By emphasizing TF bins with high speech-noise competition, the method improves consonant reconstruction and phoneme accuracy under white and speech-shaped noise.
 
@@ -69,6 +72,12 @@ Speech enhancement and audio researchers seeking to move beyond uniform global l
 ## Applications
 
 Hearing-aid signal processing, real-time telephony speech enhancement, and robust frontend speech processing for ASR systems in noisy environments.
+
+## Institutions / 機構
+
+Universite de Lorraine, CNRS, Inria, LORIA
+
+**Funding / 經費:** French National Research Agency, REFINED project
 
 ## Related
 

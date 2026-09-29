@@ -16,6 +16,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ijjada26b_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/ijjada26b_interspeech.pdf
 session: Speech Recognition, Enhancement and Real-Time Systems
 topics: [speech-enhancement, on-device, self-supervised]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+  - "robustness-noise"
+institutions:
+  - "Meeami Technologies"
 code:
     url: https://github.com/CARNIVAL-IITP/Automatic
     license: ""

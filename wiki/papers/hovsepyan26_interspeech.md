@@ -1,6 +1,6 @@
 ---
 id: hovsepyan26_interspeech
-category: paralinguistics
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hovsepyan26_interspeech.pdf
 *Sevada Hovsepyan, Imen Ben Mahmoud, Vanessa Rüegg, Marta Manser, Mathew Magimai Doss*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hovsepyan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hovsepyan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2168)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — This paper presents an exploratory analysis of yellow mongoose vocalization detection and call classification, showing that human speech-derived handcrafted spectrotemporal features combined with a Random Forest classifier outperform raw waveform CNNs for categorization.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Semi-automated bioacoustic annotation pipelines, wildlife monitoring systems for behavioral ecology, and automated vocal repertoire cataloging for social animals.
+
+## Institutions / 機構
+
+Idiap Research Institute, University of Zurich
+
+**Funding / 經費:** NCCR Evolving Language, Swiss National Science Foundation
 
 ## Related
 

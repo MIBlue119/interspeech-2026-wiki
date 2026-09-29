@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26f_interspeech.pdf
 session: Multilingual and Cross-Lingual Paralinguistic Analysis and Processing
 topics: [speaker-verification, multilingual, self-supervised]
+category: speaker
+labels:
+  - "multilingual"
+institutions:
+  - "University of Zurich"
+  - "Shanghai International Studies University"
+funding:
+  - "Marie Skłodowska-Curie Actions Doctoral Networks"
+  - "European Union"
+  - "Swiss State Secretariat for Education, Research and Innovation"
 code:
     url: https://github.com/xiyangg12/wespeaker
     license: ""

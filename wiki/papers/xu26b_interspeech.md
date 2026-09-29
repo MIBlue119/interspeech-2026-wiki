@@ -1,6 +1,7 @@
 ---
 id: xu26b_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26b_interspeech.pdf
 *Jingjing Xu, Zijian Yang, Mohammad Zeineldeen, Eugen Beck, Ralf Schlüter, Hermann Ney*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-650)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper proposes three online refinement modifications to the BEST-RQ self-supervised speech representation learning method—incremental PCA projection, iterative codebook centroid updates, and intermediate-layer codebook distillation—achieving a 12% relative word error rate reduction on Librispeech test-other.
 
@@ -69,6 +72,12 @@ Speech researchers and engineers working on self-supervised representation learn
 ## Applications
 
 Automatic speech recognition, particularly in scenarios with limited supervised transcript data.
+
+## Institutions / 機構
+
+RWTH Aachen University, AppTek
+
+**Funding / 經費:** Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection, RESCALE
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: li26c_interspeech
-category: tts
+category: speech-coding
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26c_interspeech.pdf
 *Jingyu Li, Guangyan Zhang, Zhen Ye, Yiwen Guo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-301)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — MSR-Codec introduces a multi-stream residual neural audio codec that factorizes speech into semantic, timbre, prosody, and residual streams at low bitrates (424-612 bps), enabling a lightweight 0.2B two-stage TTS model that outperforms larger models in speaker similarity while running significantly faster.
 
@@ -68,6 +71,10 @@ Speech and ML engineers building low-bitrate generative speech models should rea
 ## Applications
 
 Low-bitrate speech transmission, zero-shot text-to-speech generation, and disentangled voice or prosody conversion.
+
+## Institutions / 機構
+
+LIGHTSPEED, Hong Kong University of Science and Technology
 
 ## Related
 

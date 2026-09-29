@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mehralian26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mehralian26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mehralian26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3333)
 
+**Category:** `asr`
+
 **TL;DR** — This paper introduces Predict-Then-Adapt, a two-pass inference pipeline that removes the requirement for speaker coordinate metadata in geo-conditioned ASR by appending a lightweight Coordinate Regression Head to a frozen encoder. On Dutch dialect data, the combined CRH+GLoRIA system achieves an average Word Error Rate (WER) of 32.62% using 10-second utterances, outperforming rank-matched LoRA by 3.05% and closely approaching oracle-coordinate adaptation performance within 0.58% absolute WER.
 
 ## Key contributions
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Dialect-aware automatic speech transcription, regional voice assistants, geographic spoken language understanding, and sociolinguistic analysis tools.
+
+## Institutions / 機構
+
+KU Leuven
+
+**Funding / 經費:** Flemish Government
 
 ## Related
 

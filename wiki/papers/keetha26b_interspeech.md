@@ -1,6 +1,7 @@
 ---
 id: keetha26b_interspeech
-category: speaker-verification
+category: speaker
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/keetha26b_interspeech.pdf
 *Nikhil Keetha, Hima Jyothi R, Nivedita Chennupati, Balaji Padmanaban, Harish Rajamani, Naveen Ambati*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/keetha26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/keetha26b_interspeech.html)
+
+**Category:** `speaker` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — A real-time continuous speaker verification system using a two-stage ReDimNet-B1 and projection network architecture achieves a 2.08% EER with a computational footprint of 318 M MACs and an RTF of 0.05.
 
@@ -62,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time continuous speaker authentication and agent alerting for contact centers, banking applications, and medical insurance portals.
+
+## Institutions / 機構
+
+Meeami Technologies
 
 ## Related
 

@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mondal26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/mondal26_interspeech.pdf
 session: Multilingual, Cross-lingual & Low-Resource ASR
 topics: [asr, low-resource, multilingual]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Samsung"
 code:
     url: ""
     license: ""

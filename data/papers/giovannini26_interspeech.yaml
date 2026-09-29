@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/giovannini26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/giovannini26_interspeech.pdf
 session: Multimodal Emotion Recognition
 topics: [tts, paralinguistics, evaluation]
+category: paralinguistics-emotion
+institutions:
+  - "Trinity College Dublin"
+funding:
+  - "Irish Research Council"
+  - "Department of Rural and Community Development and the Gaeltacht"
+  - "National Library"
 code:
     url: ""
     license: ""

@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26f_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [speech-enhancement, self-supervised, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Duke Kunshan University"
+  - "Chinese University of Hong Kong"
+  - "Wuhan University"
+funding:
+  - "Science and Technology Program of Suzhou City"
 code:
     url: https://github.com/yucongzh/SSCC-Fault-Benchmark
     license: ""

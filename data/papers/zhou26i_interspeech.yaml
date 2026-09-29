@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhou26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26i_interspeech.pdf
 session: Audio Foundation Models and Generation
 topics: [self-supervised, evaluation, speech-classification]
+category: resources-evaluation
+labels:
+  - "self-supervised"
+institutions:
+  - "Kyoto University"
+funding:
+  - "JST BOOST"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: wu26j_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26j_interspeech.pdf
 *Fan Wu, Tsai-Ning Wang, Nicolas Zumarraga, Ning Wang, Markus Kreft, Kevin O'Sullivan, Paula Manso Zorrilla, Elgar Fleisch, Oliver Aalami, Paul Schmiedmayer, Robert Jakob, Patrick Langer*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2037)
+
+**Category:** `health-clinical`
 
 **TL;DR** — AuscuTSLM is a patient-level multimodal clinical question-answering framework that aligns multi-site physiological auscultation audio with a frozen LLM via gated cross-attention. It achieves state-of-the-art performance on the CaReSound benchmark with a 0.865 F1-macro and 0.952 BERTScore.
 
@@ -69,6 +71,10 @@ Researchers and engineers working on medical audio-language models and multi-ins
 ## Applications
 
 Automated clinical decision support, telemedicine screening, and interactive diagnostic question-answering for cardiopulmonary auscultation in resource-limited environments.
+
+## Institutions / 機構
+
+ETH Zurich, Eindhoven University of Technology, University of St. Gallen, Stanford University
 
 ## Related
 

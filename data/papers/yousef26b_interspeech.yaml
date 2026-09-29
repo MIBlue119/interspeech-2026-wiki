@@ -14,6 +14,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yousef26b_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/yousef26b_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
 topics: [paralinguistics, dataset, self-supervised]
+category: health-clinical
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Massachusetts General Hospital"
+  - "Harvard Medical School"
+  - "Universidad Tecnica Federico Santa Maria"
+  - "University of Central Florida"
+funding:
+  - "National Institutes of Health"
+  - "National Institute on Deafness and Other Communication Disorders"
 code:
     url: ""
     license: ""

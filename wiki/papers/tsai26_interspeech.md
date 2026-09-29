@@ -1,6 +1,7 @@
 ---
 id: tsai26_interspeech
-category: evaluation
+category: resources-evaluation
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tsai26_interspeech.pdf
 *Yun-Shao Tsai, Yi-Cheng Lin, Huang-Cheng Chou, Tzu-Wen Hsu, Yun-Man Hsu, Chun Wei Chen, Shrikanth Narayanan, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tsai26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tsai26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-39)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — A critical evaluation of emotion embedding similarity (EMO-SIM) metrics used in speech generation reveals that current encoders like emotion2vec fail to align with human perception, yielding near-chance performance under acoustic distractors.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic evaluation frameworks for text-to-speech, emotional voice conversion, and automated speech quality assessment toolkits.
+
+## Institutions / 機構
+
+National Taiwan University, University of Southern California
+
+**Funding / 經費:** Ministry of Education, NSTC Taiwan, US NSF, ODNI IARPA ARTS
 
 ## Related
 

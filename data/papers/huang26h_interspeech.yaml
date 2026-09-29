@@ -15,6 +15,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/huang26h_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26h_interspeech.pdf
 session: 'Spoken Language Processing: Evaluation and Metrics'
 topics: [asr, multilingual, evaluation]
+category: asr
+labels:
+  - "multilingual"
+institutions:
+  - "Shanghai Jiao Tong University"
+funding:
+  - "China NSFC Project"
 code:
     url: https://github.com/HartmannPsi/Reliability-Aware-Score
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: takagi26_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/takagi26_interspeech.pdf
 *Masato Takagi, Masaya Kawamura, Reo Shimizu, Yuma Shirahata*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/takagi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/takagi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1478)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper investigates the discrepancy between human listeners and automatic MOS prediction models when evaluating speech quality across acoustic, prosodic, and speaker-specific perturbations. The findings reveal that while models track acoustic degradation well, they are completely insensitive to prosodic errors and exhibit heavy, unhuman-like biases toward mean fundamental frequency.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing and improving automated speech evaluation pipelines, guiding the design of multidimensional speech quality metrics for text-to-speech, and refining self-supervised representation learning objectives.
+
+## Institutions / 機構
+
+Nagoya Institute of Technology, LY Corporation
 
 ## Related
 

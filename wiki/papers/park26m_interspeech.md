@@ -1,6 +1,7 @@
 ---
 id: park26m_interspeech
-category: speech-enhancement
+category: audio-understanding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26m_interspeech.pdf
 *Hyeonwoo Park, Dayeon Ku, Hong Kook Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26m_interspeech.html)
+
+**Category:** `audio-understanding` · **Labels:** `generative-model`
 
 **TL;DR** — VisionSFX is a training-free video-to-audio workflow that decomposes silent videos into editable, spatially rendered binaural audio tracks using vision-language models, optical flow, and HRTF rendering in about one minute.
 
@@ -56,6 +59,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Film post-production, game audio design, AR/VR environment generation, and interactive media authoring.
+
+## Institutions / 機構
+
+Gwangju Institute of Science and Technology, AunionAI
+
+**Funding / 經費:** Technology Development Programs, Korea MSS, MOTIE, Science and Technology Opens the Future of the Region program, MSIT, Gwangju Metropolitan City
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: arumugam26_interspeech
 category: asr
+labels: [self-supervised, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/arumugam26_interspeech.pdf
 *Shiva Shankar Arumugam, Ameyaditya Achar J, Aashraya Sachdeva*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/arumugam26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/arumugam26_interspeech.html)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `streaming-real-time`
 
 **TL;DR** — MACE is a closed-loop multi-agent contact-center architecture that recycles human agent UI corrections into streaming ASR biasing entries and post-ASR substitution rules without acoustic retraining. On Whisper-large-v3, it reduces Named Entity Word Error Rate (NE-WER) by 17.1% and EditRate by 18.6% over a no-biasing baseline.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time contact center voice assistants, customer relationship management (CRM) auto-fill systems, and streaming ASR error correction.
+
+## Institutions / 機構
+
+Observe.AI
 
 ## Related
 

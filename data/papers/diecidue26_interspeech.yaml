@@ -12,6 +12,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/diecidue26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/diecidue26_interspeech.pdf
 session: Acoustic Event Detection 4
 topics: [asr, speech-translation, self-supervised]
+category: audio-understanding
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Politecnico di Milano"
+  - "University of Turin"
+  - "Telecom Paris"
+  - "Institut Polytechnique de Paris"
+funding:
+  - "French National Research Agency"
+  - "Hi! PARIS"
+  - "ANR/France 2030 program"
+  - "Italian Ministry of University and Research"
+  - "European Union"
 code:
     url: ""
     license: ""

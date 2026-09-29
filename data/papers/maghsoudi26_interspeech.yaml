@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/maghsoudi26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/maghsoudi26_interspeech.pdf
 session: Neurophysiology of Speech
 topics: [speech-decoding, brain-computer-interface, self-supervised]
+category: applications-other
+institutions:
+  - "University of Maryland"
+funding:
+  - "Airforce Office of Scientific Research"
+  - "NIH"
 code:
     url: ""
     license: ""

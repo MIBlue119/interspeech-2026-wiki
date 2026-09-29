@@ -1,6 +1,6 @@
 ---
 id: guan26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/guan26_interspeech.pdf
 *Qing Guan, C. I. Watson, C. T. Justine Hui*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/guan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/guan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1545)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates how static body position (supine, sitting, standing) affects vowel formants F1 and F2 in New Zealand English, finding small, non-uniform shifts that are most pronounced in high-front vowels for female speakers.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-modal speech data harmonization, MRI-based articulatory-acoustic phonetics, and acoustic vowel-space normalization.
+
+## Institutions / 機構
+
+University of Auckland
 
 ## Related
 

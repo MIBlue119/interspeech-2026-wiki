@@ -1,6 +1,7 @@
 ---
 id: park26e_interspeech
 category: asr
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26e_interspeech.pdf
 *Taejin Park, Ivan Medennikov, Kunal Dhawan, Weiqing Wang, Jagadeesh Balam, Boris Ginsburg*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2005)
+
+**Category:** `asr` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper presents a systematic architectural study of streaming multi-speaker ASR, categorizing existing methods into four paradigms and introducing a Permutation-Invariant Dynamic Time Warping (PI-DTW) algorithm to make word-level Serialized Output Training (WL-SOT) scale for long-form audio.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time conversational voice agents, multi-talker duplex communication systems, meeting transcription pipelines, and streaming speech-to-speech translation.
+
+## Institutions / 機構
+
+NVIDIA
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: tuncay26_interspeech
-category: self-supervised
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tuncay26_interspeech.pdf
 *Ludovic Tuncay, Étienne Labbé, Thomas Pellegrini*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tuncay26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tuncay26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2488)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — BEST-RQ-2 introduces a two-step contextualize-then-predict self-supervised pretraining approach using a Vision Transformer, combining frozen random-projection targets with a lightweight predictor that is discarded at inference. It achieves an overall X-ARES linear-probing score of 0.49 (up from 0.45 for original BEST-RQ) while keeping inference compute identical.
 
@@ -66,6 +69,12 @@ Speech and audio ML engineers should read this to understand how factorizing mas
 ## Applications
 
 Universal audio frontend feature extraction for downstream classification, acoustic event detection, music tagging, and large audio language models.
+
+## Institutions / 機構
+
+IRIT, Universite de Toulouse, CNRS, Toulouse INP
+
+**Funding / 經費:** ANR-3IA Artificial and Natural Intelligence Toulouse Institute ANITI
 
 ## Related
 

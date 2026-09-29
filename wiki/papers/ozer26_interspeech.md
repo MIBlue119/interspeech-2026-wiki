@@ -1,6 +1,6 @@
 ---
 id: ozer26_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ozer26_interspeech.pdf
 *Yigitcan Özer, Zhe Zhang, Wanying Ge, Xin Wang, Junichi Yamagishi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ozer26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ozer26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1822)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper introduces a training-free, proactive steganographic defense against partial speech manipulation by embedding a self-referential compressed neural codec representation into the audio waveform. It achieves an equal error rate (EER) of 4.4% to 5.1% under two-word swapping attacks, significantly outperforming passive deepfake detectors.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Secure media distribution pipelines, broadcast authentication, and proactive forensics for verifying the authenticity of speech recordings.
+
+## Institutions / 機構
+
+National Institute of Informatics
+
+**Funding / 經費:** JSPS MEXT KAKENHI
 
 ## Related
 

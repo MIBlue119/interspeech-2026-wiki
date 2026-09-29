@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cheng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cheng26_interspeech.pdf
 session: 'Speech Deepfake Detection: Robustness, Generalization, Attribution'
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "Southern University of Science and Technology"
+  - "Tencent Youtu Lab"
+funding:
+  - "Shenzhen Key Technology Program Funding"
+  - "Center for Computational Science and Engineering at Southern University of Science and Technology"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: rathore26_interspeech
-category: multilingual
+category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rathore26_interspeech.pdf
 *Vaibhav Rathore, Siddhant Gole, Dadhichi Telwadkar, Rooshil Bhatia, Maulik Ruparel, Siddharth Surekha, Neha Bhargava*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rathore26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rathore26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-291)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — SuTRA is a morphology-aware subword tokenization framework for morphologically rich Indic languages that prevents root-affix fragmentation through script-aware grouping and boundary-penalized merging. It achieves an average +8.08 chrF2 improvement in machine translation and a +34% gain in semantic recoverability for Hindi over standard BPE.
 
@@ -65,6 +68,12 @@ Researchers and engineers building large language models for morphologically ric
 ## Applications
 
 Large language model pre-training, machine translation, and speech-to-text systems handling morphologically complex Indic languages.
+
+## Institutions / 機構
+
+Motilal Oswal Financial Services, Indian Institute of Technology Bombay
+
+**Funding / 經費:** Motilal Oswal Financial Services
 
 ## Related
 

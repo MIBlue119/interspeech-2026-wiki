@@ -1,6 +1,7 @@
 ---
 id: braun26_interspeech
-category: health
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/braun26_interspeech.pdf
 *Franziska Braun, Christopher Witzl, Andreas Erzigkeit, Hartmut Lehfeld, Thomas Hillemacher, Tobias Bocklet, Korbinian Riedhammer*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/braun26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/braun26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2806)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — This study automates the German Syndrom-Kurz-Test (SKT) for dementia screening by fusing rule-based transcript scores with Whisper encoder-decoder embeddings to correct transcription errors and compensate for omitted motor subtests. The proposed models achieve strong correlations with expert-derived overall ratings and robustly discriminate between healthy controls, mild cognitive impairment, and dementia.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical decision support systems for non-invasive, efficient early dementia screening and cognitive impairment monitoring in elderly care.
+
+## Institutions / 機構
+
+Technische Hochschule Nurnberg, Geromed GmbH, PMU Klinikum Nurnberg
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

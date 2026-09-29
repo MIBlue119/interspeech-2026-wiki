@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26f_interspeech.pdf
 session: Perception and Appraisal of Prosody
 topics: [phonetics, prosody, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "Hong Kong Polytechnic University"
+  - "Shanghai Jiao Tong University"
+funding:
+  - "Research Grants Council of the Hong Kong SAR"
+  - "Shanghai Planning Project of Philosophy and Social Science"
 code:
     url: ""
     license: ""

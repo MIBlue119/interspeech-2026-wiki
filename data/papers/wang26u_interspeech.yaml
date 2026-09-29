@@ -17,6 +17,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26u_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26u_interspeech.pdf
 session: Speech Emotion Recognition and Representation 2
 topics: [speech-emotion-recognition, self-supervised, paralinguistics]
+category: paralinguistics-emotion
+institutions:
+  - "Beijing University of Posts and Telecommunications"
+  - "Li Auto"
+funding:
+  - "National Key R&D Program of China"
+  - "National Natural Science Foundation of China"
+  - "National Language Commission"
+  - "National Social Science Fund of China"
 code:
     url: ""
     license: ""

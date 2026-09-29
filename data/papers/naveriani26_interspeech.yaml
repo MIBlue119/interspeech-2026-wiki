@@ -11,6 +11,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/naveriani26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/naveriani26_interspeech.pdf
 session: New Architecture and Analyses for ASR and Speech LMs
 topics: [asr, self-supervised]
+category: asr
+labels:
+  - "generative-model"
+institutions:
+  - "RWTH Aachen University"
+  - "AppTek"
+funding:
+  - "NeuroSys"
+  - "Federal Ministry of Research, Technology and Space BMFTR"
+  - "RESCALE"
+  - "Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection"
+  - "Federal Ministry of Education and Research"
 code:
     url: ""
     license: ""

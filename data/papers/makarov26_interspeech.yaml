@@ -9,6 +9,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.pdf
 session: Acoustic Signal Analysis and Generation
 topics: [tts, self-supervised, dataset]
+category: tts
+labels:
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "University of Hamburg"
+funding:
+  - "Deutsche Forschungsgemeinschaft"
 code:
     url: https://sp-uhh.github.io/classifier-to-diffusion/
     license: ""

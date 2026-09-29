@@ -1,6 +1,7 @@
 ---
 id: cao26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cao26b_interspeech.pdf
 *Liang Cao, Xize Cheng, Dongjie Fu, Weihao Wu, Fuming You, Zhiyong Wu, Haifeng Hu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cao26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cao26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1737)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — Audio-NSP enables zero-overhead, semi-autoregressive parallel generation in large audio-language models (LALMs) via blockwise SFT and a modality-aware dynamic truncation strategy, achieving up to 3.42x speedups while preserving generation quality.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time conversational AI assistants, low-latency spoken dialogue systems, and high-throughput speech synthesis and recognition services.
+
+## Institutions / 機構
+
+Tsinghua University, Zhejiang University, Tencent
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

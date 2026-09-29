@@ -1,6 +1,6 @@
 ---
 id: ishihara26b_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ishihara26b_interspeech.pdf
 *Shunichi Ishihara, Satoru Tsuge, Frantz Clermont*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ishihara26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ishihara26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1028)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper investigates the distribution of speaker-discriminative information across different frequency sub-bands using Band-Limited Cepstral Coefficients (BLCCs) for forensic voice comparison, finding that the 0–0.6 kHz and 4–6 kHz regions provide the strongest speaker cues while frequencies above 7 kHz are the least informative.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Forensic voice comparison, speaker verification, and multi-band acoustic feature weighting for speaker recognition.
+
+## Institutions / 機構
+
+Australian National University, Daido University
 
 ## Related
 

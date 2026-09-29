@@ -1,6 +1,7 @@
 ---
 id: lipari26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lipari26_interspeech.pdf
 *Massimo Lipari, Morgan Sonderegger, Meghan Clayards*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lipari26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lipari26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2975)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper investigates whether gender differences in /s/ sibilant acoustics are driven by physical vocal tract length (VTL) or social performance, using causal mediation analysis on a new multilingual database of 12 languages and 1,386 speakers. The results show that while VTL reliably predicts /s/ peak frequency across nearly all languages, the relative contributions of anatomy and social performance vary drastically—revealing hidden social effects or cancelling effects in specific languages like Mandarin.
 
@@ -64,6 +67,12 @@ Phoneticians, sociolinguists, and speech researchers should read this paper to u
 ## Applications
 
 Improving sociolinguistic speech analysis, building more robust and culturally aware speaker normalization algorithms, and designing unbiased speech recognition systems that distinguish physiological anatomy from stylistic speech variation.
+
+## Institutions / 機構
+
+McGill University
+
+**Funding / 經費:** Social Sciences and Humanities Research Council, Fonds de recherche du Quebec - Societe et culture, Canada Research Chairs, Natural Sciences and Engineering Research Council of Canada
 
 ## Related
 

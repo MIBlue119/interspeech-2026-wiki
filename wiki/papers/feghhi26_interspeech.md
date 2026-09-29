@@ -1,6 +1,7 @@
 ---
 id: feghhi26_interspeech
-category: speech-llm
+category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/feghhi26_interspeech.pdf
 *Ebrahim Feghhi, Junlin Hu, Nima Hadidi, Jonathan Kao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/feghhi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/feghhi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2947)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — LightBeam is an accurate and memory-efficient non-WFST CTC decoder for speech neuroprostheses that integrates an LLM into the first-pass beam search via delayed fusion, reducing RAM consumption from ~320 GB to ~10 GB while setting a new state-of-the-art Word Error Rate.
 
@@ -66,6 +69,12 @@ Speech/ML engineers and researchers building brain-computer interfaces or resour
 ## Applications
 
 Local, patient-facing speech neuroprostheses for individuals with paralysis, ALS, and anarthria requiring privacy-preserving, low-latency, and memory-efficient decoding.
+
+## Institutions / 機構
+
+University of California Los Angeles
+
+**Funding / 經費:** National Science Foundation, National Institutes of Health
 
 ## Related
 

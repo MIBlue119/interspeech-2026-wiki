@@ -1,6 +1,6 @@
 ---
 id: li26f_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26f_interspeech.pdf
 *Jiaxin LI, Yi Weng, Yicheng Rong, Gang Peng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-576)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates whether the Ganong effect (lexical bias in speech perception) generalizes across segmental and suprasegmental levels by comparing Mandarin consonants and lexical tones within 57 subjects. It reveals that while individual processing capacities do not correlate across levels, individuals universally apply a reliability-based weighting trade-off where poorer acoustic-phonetic processing leads to greater lexical reliance.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving computational speech recognition and spoken language understanding models by dynamically weighting acoustic-phonetic confidence against top-down language model probabilities, and designing diagnostic tests for auditory processing disorders.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University, Shanghai Jiao Tong University
+
+**Funding / 經費:** Research Grants Council of the Hong Kong SAR, Shanghai Planning Project of Philosophy and Social Science
 
 ## Related
 

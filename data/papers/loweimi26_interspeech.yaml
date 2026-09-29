@@ -17,6 +17,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/loweimi26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/loweimi26_interspeech.pdf
 session: Information Extraction and Retrieval
 topics: [speaker-verification, multimodal, dataset]
+category: speaker
+institutions:
+  - "University of Cambridge"
+  - "Queen's University Belfast"
+  - "University of Surrey"
+  - "Cisco"
+  - "Southwest Jiaotong University"
+  - "Teesside University"
+funding:
+  - "Engineering and Physical Sciences Research Council"
+  - "Cambridge University Press & Assessment"
 code:
     url: ""
     license: ""

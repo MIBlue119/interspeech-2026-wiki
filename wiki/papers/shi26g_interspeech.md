@@ -1,6 +1,7 @@
 ---
 id: shi26g_interspeech
-category: speech-llm
+category: speech-coding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shi26g_interspeech.pdf
 *Xuan Shi, Chang Zeng, Tiantian Feng, Shih-Heng Wang, Jianbo Ma, Shrikanth Narayanan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shi26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shi26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3135)
+
+**Category:** `speech-coding` · **Labels:** `self-supervised`
 
 **TL;DR** — A systematic probing study of four representative speech codecs (EnCodec, DAC, MIMI, MIMO) reveals that current speech tokenizers predominantly encode phonetic and articulatory information rather than lexical-semantic meaning, exhibiting very weak cross-modal alignment with text. This challenges the common practice of calling SSL-distilled codec layers 'semantic tokens' and highlights the need for explicit semantic objectives in speech MLLMs.
 
@@ -67,6 +70,12 @@ Speech and MLLM researchers should read this paper to dispel the common misconce
 ## Applications
 
 Guiding the architectural design of next-generation speech tokenizers and multimodal large language models for conversational AI, speech-to-speech translation, and spoken language understanding.
+
+## Institutions / 機構
+
+University of Southern California, Dolby Laboratories
+
+**Funding / 經費:** National Science Foundation, IARPA ARTS, Dolby
 
 ## Related
 

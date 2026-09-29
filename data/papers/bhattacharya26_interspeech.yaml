@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bhattacharya26_interspee
 pdf_url: https://www.isca-archive.org/interspeech_2026/bhattacharya26_interspeech.pdf
 session: Modeling L1 Acquisition
 topics: [multilingual, prosody, dataset]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+institutions:
+  - "Columbia University"
+  - "University of Michigan"
+funding:
+  - "National Science Foundation"
 code:
     url: ""
     license: ""

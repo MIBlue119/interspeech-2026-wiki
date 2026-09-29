@@ -1,6 +1,6 @@
 ---
 id: sheth26c_interspeech
-category: speaker-diarization
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sheth26c_interspeech.pdf
 *Kaveri K. Sheth, Loann Peurey, Sho Tsuji, Alejandrina Cristia*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sheth26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sheth26c_interspeech.html)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — ELSI is a web-based, open-source interface that standardizes child-centered long-form audio recordings and enables non-technical researchers to run machine learning models and extract developmental metrics. It bridges the gap between complex naturalistic audio pipelines and developmental psychology labs.
 
@@ -58,6 +60,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Analyzing naturalistic child-language acquisition corpora, automated developmental metric extraction, and multi-site collaborative speech data standardization.
+
+## Institutions / 機構
+
+CNRS, EHESS, ENS, PSL University
+
+**Funding / 經費:** Agence Nationale de la Recherche, PSL, J. S. McDonnell Foundation, European Research Council
 
 ## Related
 

@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/turk26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/turk26_interspeech.pdf
 session: Entrainment and Dialogue Coordination
 topics: [spoken-language-understanding, paralinguistics, multilingual]
+category: paralinguistics-emotion
+institutions:
+  - "Bielefeld University"
+  - "Paderborn University"
+  - "SFB/Transregio 318 ‘Constructing Explainability’"
+funding:
+  - "Deutsche Forschungsgemeinschaft"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: xie26b_interspeech
 category: tts
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xie26b_interspeech.pdf
 *Hanke Xie, Xiaming Ren, Dake Guo, Ruonan You, Wenhao Li, Jingbin Hu, Guobin Ma, Huakang Chen, Kejie Xu, Rui Huang, Weiguo Tan, Xianrong Wang, Lei Xie*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xie26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xie26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1692)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — FlashTTS is a fast, low-latency streaming text-to-speech framework built on Qwen2.5-0.5B that eliminates sentence-level buffering using a lagged multi-track architecture and accelerates generation to 2 neural function evaluations (2-NFE) via parallel Multi-Token Prediction (MTP) and X-pred mean flow distillation, achieving a First-Packet Latency of 325ms.
 
@@ -68,6 +71,10 @@ Speech and ML engineers building real-time conversational dialogue systems shoul
 ## Applications
 
 Real-time conversational speech agents, interactive voice response (IVR) systems, low-latency multilingual voice bots, and real-time speech-to-speech translation pipelines.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University, Huawei Technologies
 
 ## Related
 

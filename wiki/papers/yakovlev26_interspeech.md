@@ -1,6 +1,7 @@
 ---
 id: yakovlev26_interspeech
-category: speaker-verification
+category: speaker
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yakovlev26_interspeech.pdf
 *Ivan Yakovlev, Anton Okhotnikov*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yakovlev26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yakovlev26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1447)
+
+**Category:** `speaker` · **Labels:** `efficient-on-device`
 
 **TL;DR** — ReDimNet2 introduces time-dimension pooling into the ReDimNet dimension-reshaping framework, improving the compute-versus-accuracy Pareto front across a 1.1M to 12.3M parameter model family. The top-tier B6 configuration achieves 0.287% EER on Vox1-O using only 12.3M parameters and 13 GMACs.
 
@@ -69,6 +72,10 @@ Speech researchers and ML engineers looking for an extremely efficient, high-per
 ## Applications
 
 Zero-shot text-to-speech speaker conditioning, speech enhancement evaluation, personal voice activity detection, and biometric speaker verification.
+
+## Institutions / 機構
+
+Palabra AI
 
 ## Related
 

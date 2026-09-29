@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yang26h_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26h_interspeech.pdf
 session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
 topics: [asr, speech-enhancement, self-supervised]
+category: asr
+labels:
+  - "streaming-real-time"
+  - "robustness-noise"
+institutions:
+  - "Ohio State University"
+  - "Chinese University of Hong Kong"
+funding:
+  - "National Science Foundation"
+  - "Ohio Supercomputer Center"
 code:
     url: ""
     license: ""

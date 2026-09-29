@@ -15,6 +15,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/park26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26g_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
 topics: [speaker-verification, self-supervised, speech-enhancement]
+category: deepfake-security
+labels:
+  - "generative-model"
+institutions:
+  - "Soongsil University"
+funding:
+  - "Korea Internet & Security Agency"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
 code:
     url: ""
     license: ""

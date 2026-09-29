@@ -1,6 +1,7 @@
 ---
 id: weller26_interspeech
-category: paralinguistics
+category: resources-evaluation
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/weller26_interspeech.pdf
 *Niklas Weller, Marc Grau, Ivo Blohm*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/weller26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/weller26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3304)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — HaessigDB is a curated database of 1,068 acted customer service speech snippets annotated with ordinal intensity ratings (1-10) for annoyance, frustration, and aggression, preserving temporal dialogue trajectories. Fine-tuning pretrained speech encoders like XLSR-wav2vec on this dataset achieves a Pearson correlation of r = 0.710 for aggression intensity prediction.
 
@@ -61,6 +64,12 @@ Researchers and engineers building escalation-aware conversational agents or voi
 ## Applications
 
 Automated customer service call routing, proactive voicebot escalation management, and customer frustration tracking.
+
+## Institutions / 機構
+
+University of St. Gallen
+
+**Funding / 經費:** Innosuisse
 
 ## Related
 

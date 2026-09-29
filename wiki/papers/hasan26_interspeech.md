@@ -1,6 +1,7 @@
 ---
 id: hasan26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hasan26_interspeech.pdf
 *Kazi Reyazul Hasan, Muhammad Abdullah Adnan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hasan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hasan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3374)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `low-resource`
 
 **TL;DR** — A 1.1M-parameter dual-stream DNN-KAN network combining MFCC spectral features with statistically optimized prosodic descriptors achieves 92.12% speaker-independent accuracy on the SUBESCO Bangla SER dataset.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Empathetic human-computer interaction, mental health monitoring, and automated customer service systems.
+
+## Institutions / 機構
+
+Bangladesh University of Engineering and Technology
+
+**Funding / 經費:** Basic Research Grant from Bangladesh University of Engineering and Technology
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: diecidue26_interspeech
-category: asr
+category: audio-understanding
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/diecidue26_interspeech.pdf
 *Andrea Diecidue, Carlo Alberto Barbano, Piero Fraternali, Mathieu Fontaine, Enzo Tartaglione*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/diecidue26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/diecidue26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2026)
+
+**Category:** `audio-understanding` · **Labels:** `efficient-on-device`
 
 **TL;DR** — This paper introduces a structured per-head channel pruning strategy combined with Fisher information scoring for attention-based audio architectures, preserving performance within 1% even at 50% sparsity.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Deploying resource-constrained automatic speech recognition (ASR) and audio classification models on edge or on-device hardware.
+
+## Institutions / 機構
+
+Politecnico di Milano, University of Turin, Telecom Paris, Institut Polytechnique de Paris
+
+**Funding / 經費:** French National Research Agency, Hi! PARIS, ANR/France 2030 program, Italian Ministry of University and Research, European Union
 
 ## Related
 

@@ -11,6 +11,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26n_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26n_interspeech.pdf
 session: Multi-Channel Processing and Specialized Acquisition (UAV, Radar, Hearables)
 topics: [speech-enhancement, multilingual, on-device]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "Pohang University of Science and Technology"
+  - "Intus"
+funding:
+  - "National Research Foundation"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "High-Performance Computing Support Project"
+  - "Regional Innovation System & Education project"
 code:
     url: https://github.com/KYE-Postech/CCAP
     license: ""

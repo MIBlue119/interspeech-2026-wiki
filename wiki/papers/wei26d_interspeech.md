@@ -1,6 +1,6 @@
 ---
 id: wei26d_interspeech
-category: paralinguistics
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wei26d_interspeech.pdf
 *Yilan Wei, Kumiko Long, Arielle Granston, Adrian Rodriguez-Contreras*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wei26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wei26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1492)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — USV-DETR is an end-to-end transformer-based model optimized for detecting rodent ultrasonic vocalizations in spectrograms, achieving an AP of 78.7 on the SqueakOut dataset by combining a high-resolution P2 feature layer with the DEIM training framework.
 
@@ -69,6 +71,10 @@ Researchers and engineers building bioacoustic detection or fine-grained object 
 ## Applications
 
 Automated rodent behavioral screening, neurological disorder indexing via vocalization biomarkers, and high-throughput bioacoustic analysis.
+
+## Institutions / 機構
+
+Northwestern University
 
 ## Related
 

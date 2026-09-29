@@ -1,6 +1,7 @@
 ---
 id: sun26b_interspeech
-category: self-supervised
+category: health-clinical
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26b_interspeech.pdf
 *Qi Sun, Junhao Fan, Boao Jing, Ziqi Chen, Guodong Lin, Wei-Qiang Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1006)
+
+**Category:** `health-clinical` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — PAN-Mask is a pathology-aware regularization framework for clinical speech classification that replaces random masking in self-supervised models with end-to-end learnable, disease-directed temporal masking. Evaluated across six datasets and five languages, it yields an average accuracy gain of 13.82 percentage points over conventional random masking.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated digital health screening and computer-aided early detection of neurological and psychiatric disorders (such as Alzheimer's, Parkinson's, and depression) from voice recordings.
+
+## Institutions / 機構
+
+Tsinghua University, Georgetown University
 
 ## Related
 

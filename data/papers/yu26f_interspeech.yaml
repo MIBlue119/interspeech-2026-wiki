@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yu26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yu26f_interspeech.pdf
 session: Speech Emotion Recognition and Representation 3
 topics: [emotion-recognition, speech-llm, self-supervised]
+category: paralinguistics-emotion
+institutions:
+  - "University of Auckland"
+  - "University of Melbourne"
+  - "University of Birmingham"
+  - "ARC OPTIMA"
 code:
     url: ""
     license: ""

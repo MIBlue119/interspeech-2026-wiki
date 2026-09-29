@@ -14,6 +14,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/girish26b_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/girish26b_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
 topics: [speech-llm, self-supervised, multilingual]
+category: health-clinical
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Ulster University"
+  - "Manipal University"
+funding:
+  - "Alzheimer's Research UK"
+  - "United States-Ireland-Northern Ireland R&D Partnership Programme"
+  - "EPSRC"
 code:
     url: https://github.com/Helixometry/ORBIT.git
     license: ""

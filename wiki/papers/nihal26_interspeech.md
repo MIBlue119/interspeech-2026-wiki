@@ -1,6 +1,7 @@
 ---
 id: nihal26_interspeech
-category: self-supervised
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nihal26_interspeech.pdf
 *Ragib Amin Nihal, Benjamin Yen, Runwu Shi, Takeshi Ashizawa, Kazuhiro Nakadai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nihal26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nihal26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2629)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — The paper demonstrates that independently fine-tuned bioacoustic models can be composed into a unified 661-species classifier via task vector arithmetic without sharing any training data, achieving 59.2% accuracy (86% of a jointly-trained baseline). It also uncovers that bioacoustic task vectors are near-orthogonal and their geometry aligns with the acoustic niche hypothesis.
 
@@ -65,6 +68,12 @@ Speech and ML researchers working on decentralized model merging, federated lear
 ## Applications
 
 Privacy-preserving collaborative biodiversity monitoring across fragmented global institutions and decentralized ecological surveying.
+
+## Institutions / 機構
+
+Institute of Science Tokyo, RIKEN
+
+**Funding / 經費:** Japan Society for the Promotion of Science, Research Organization of Information and Systems
 
 ## Related
 

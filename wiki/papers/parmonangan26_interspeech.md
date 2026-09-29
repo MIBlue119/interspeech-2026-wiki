@@ -1,6 +1,7 @@
 ---
 id: parmonangan26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/parmonangan26_interspeech.pdf
 *Ivan Halim Parmonangan, Tharindu Fernando, Simon Denman*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/parmonangan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/parmonangan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-605)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — This paper proposes a Mamba2 state-space model with a two-stage self-supervised cross-attention reconstruction pretraining strategy to learn noise-robust audiovisual representations for emotion recognition. The approach improves noisy audio emotion recognition accuracy by 4.6% to 5.8% over unimodal pretraining baselines.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust human-computer interaction, affective computing, customer service analytics, and educational software operating in noisy real-world acoustic environments.
+
+## Institutions / 機構
+
+Queensland University of Technology
 
 ## Related
 

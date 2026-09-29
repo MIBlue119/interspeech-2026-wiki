@@ -1,6 +1,7 @@
 ---
 id: tian26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tian26_interspeech.pdf
 *Jinchuan Tian, Haoran Wang, Siddhant Arora, Takashi Maekaku, Keita Goto, Jin Sakuma, Yusuke Shinohara, Chao-Han Huck Yang, Shinji Watanabe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tian26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tian26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-873)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — Bagpiper-TTS replaces rigid metadata slots with a natural language interface, using a three-stage text planning and rich captioning workflow to handle diverse speech synthesis tasks with a competitive 1.7% Word Error Rate on Seed-TTS-Eval.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Universal speech generation supporting classical text-to-speech, multi-talker dialogues, intent-to-speech, character role-play, and singing voice synthesis via natural language instructions.
+
+## Institutions / 機構
+
+Carnegie Mellon University, LY Corporation, NVIDIA
+
+**Funding / 經費:** ACCESS program, National Science Foundation
 
 ## Related
 

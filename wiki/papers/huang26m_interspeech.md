@@ -1,6 +1,7 @@
 ---
 id: huang26m_interspeech
-category: speaker-verification
+category: speaker
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26m_interspeech.pdf
 *Chuanqi Huang, Wei Xie, Xilu Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1796)
+
+**Category:** `speaker` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper investigates the cross-domain robustness of six pre-trained speaker embedding models for large-scale speaker retrieval (SR) and demonstrates that a training-free Adaptive Symmetric Normalization (ASN) backend successfully restores ranking consistency.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Large-scale audio archive indexing, forensic voice tracking, personalized media services, and high-throughput vector database search.
+
+## Institutions / 機構
+
+Guangxi University, Guangxi Key Laboratory of Multimedia Communications and Network Technology, University of Surrey
+
+**Funding / 經費:** Guangxi Natural Science Foundation, Guangxi Science and Technology Base and Talent Special Project, Project for Enhancing Young and Middle-aged Teacher’s Research Basis Ability in Universities of Guangxi
 
 ## Related
 

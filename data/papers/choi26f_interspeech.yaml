@@ -11,6 +11,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/choi26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/choi26f_interspeech.pdf
 session: Corpus Creation, Summarization and Understanding
 topics: [asr, tts, dataset]
+category: asr
+institutions:
+  - "DenComm"
+  - "Catholic University of Korea"
 code:
     url: ""
     license: ""

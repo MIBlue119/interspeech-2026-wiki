@@ -1,6 +1,7 @@
 ---
 id: mojarad26_interspeech
-category: asr
+category: phonetics-linguistics
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mojarad26_interspeech.pdf
 *Hamid Mojarad, Kevin Tang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mojarad26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mojarad26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-808)
+
+**Category:** `phonetics-linguistics` · **Labels:** `self-supervised`
 
 **TL;DR** — This study conducts speaker-independent layer-wise probing of wav2vec2-base and Whisper-small to investigate how speech encoders represent consonant cluster reduction (CCR) in African American English (AAE). Results show that models encode CCR not as simple segmental deletion, but as structured gradient phonological variation, with reduced tokens retaining robust cues to underlying stop identities (peak restoration accuracy of 93-96%).
 
@@ -65,6 +68,10 @@ Speech researchers and ML engineers building bias-aware ASR or interpretability 
 ## Applications
 
 Improving fairness and acoustic model robustness in automatic speech recognition (ASR) systems for non-Mainstream American English dialects.
+
+## Institutions / 機構
+
+Heinrich Heine University Dusseldorf, University of Florida
 
 ## Related
 

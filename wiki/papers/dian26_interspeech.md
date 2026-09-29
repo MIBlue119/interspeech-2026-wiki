@@ -1,6 +1,6 @@
 ---
 id: dian26_interspeech
-category: prosody
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dian26_interspeech.pdf
 *Angelo Dian, Mary Baltazani, Spyros Armostis, Elinor Payne*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dian26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dian26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2585)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper evaluates and compares Legendre Polynomial modelling and Generalized Additive Mixed Modelling (GAMM) for analyzing contact-induced intonational variation in Cypriot Greek versus Athenian Greek, demonstrating that both methods converge on identifying two distinct Cypriot Greek continuation-rise patterns.
 
@@ -64,6 +66,12 @@ Phoneticians and speech researchers studying language contact or intonational va
 ## Applications
 
 Analyzing intonational variation, prosodic contact phenomena, and dynamic acoustic trajectories in multilingual or dialectal speech corpora.
+
+## Institutions / 機構
+
+University of Oxford, University of Cyprus
+
+**Funding / 經費:** Oxford University John Fell Fund, Economic and Social Research Council
 
 ## Related
 

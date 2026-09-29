@@ -1,6 +1,7 @@
 ---
 id: marcinek26_interspeech
-category: tts
+category: paralinguistics-emotion
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/marcinek26_interspeech.pdf
 *Lubos Marcinek, Jonas Beskow, Joakim Gustafson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/marcinek26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/marcinek26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2747)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper provides the first formal clustering of inter-speaker vocal effort strategies, identifying three stable types (High Modulators, Spectro-Temporal speakers, and Conservative Modulators) via linear acoustic slopes across effort levels, and demonstrates their impact on noise robustness and ASR performance.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speaker-adaptive and effort-controllable text-to-speech synthesis, cluster-stratified data augmentation for robust automatic speech recognition, and conversational agent speech style adaptation.
+
+## Institutions / 機構
+
+KTH Royal Institute of Technology
+
+**Funding / 經費:** WASP, Digital Futures
 
 ## Related
 

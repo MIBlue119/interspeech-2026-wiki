@@ -1,6 +1,7 @@
 ---
 id: wang26j_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26j_interspeech.pdf
 *Minggang Wang, Shohei Kato, Wen Gu, Fenghui Ren, Jun Yan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-465)
+
+**Category:** `health-clinical` · **Labels:** `robustness-noise`
 
 **TL;DR** — The paper introduces Layer-wise Multi-factor Adaptive Disentanglement (LMAD), a framework that uses layer-wise Hilbert-Schmidt Independence Criterion (HSIC) constraints and gradient-aware adaptive weights to suppress speaker and corpus bias across network hierarchies while preserving depression-related cues, improving cross-corpus speech depression detection macro-F1 from 0.39 to 0.62 on DAIC-WoZ to Androids.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated cross-corpus mental health screening, remote speech-based depression monitoring, and robust paralinguistic diagnostic tools for clinical deployment.
+
+## Institutions / 機構
+
+Nagoya Institute of Technology, University of Wollongong
+
+**Funding / 經費:** Ministry of Education, Culture, Sports, Science and Technology-Japan, National Institute of Information and Communications Technology
 
 ## Related
 

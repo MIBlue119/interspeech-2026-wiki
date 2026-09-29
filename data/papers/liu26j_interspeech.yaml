@@ -10,6 +10,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.pdf
 session: Generative and Self-Supervised Speech Enhancement
 topics: [speech-enhancement, asr, self-supervised]
+category: enhancement-separation
+labels:
+  - "low-resource"
+  - "robustness-noise"
+institutions:
+  - "Inner Mongolia University"
+  - "Southern University of Science and Technology"
+funding:
+  - "Inner Mongolia Natural Science Foundation"
+  - "Hohhot R&D Investment Incentive Program"
 code:
     url: ""
     license: ""

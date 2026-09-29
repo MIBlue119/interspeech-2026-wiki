@@ -1,6 +1,7 @@
 ---
 id: lemerle26_interspeech
-category: tts
+category: speech-coding
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lemerle26_interspeech.pdf
 *Théodor Lemerle, Diego Torres, Téo Guichoux, Nicolas Obin, Axel Roebel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lemerle26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lemerle26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2863)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — Z-Codec is a two-stage latent speech tokenizer that achieves low-bitrate, semantically rich 12.5 Hz speech representations (continuous or 1.1 kbps FSQ discrete) while remaining fully trainable on consumer-grade hardware.
 
@@ -67,6 +70,10 @@ Speech and ML engineers looking to train state-of-the-art low-framerate speech t
 ## Applications
 
 Text-to-speech synthesis, low-bitrate audio compression, speech tokenization for generative language-audio models.
+
+## Institutions / 機構
+
+IRCAM, Sorbonne Universite, CNRS
 
 ## Related
 

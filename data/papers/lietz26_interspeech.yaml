@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lietz26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lietz26_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
 topics: [evaluation, dataset, speech-llm]
+category: health-clinical
+institutions:
+  - "University of California, Santa Cruz"
+  - "AImpower.org"
+  - "Stanford University"
 code:
     url: https://doi.org/10.5281/zenodo.20754795
     license: ""

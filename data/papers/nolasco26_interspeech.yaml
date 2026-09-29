@@ -18,6 +18,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nolasco26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/nolasco26_interspeech.pdf
 session: Acoustic Event Detection 1
 topics: [self-supervised, evaluation, multilingual]
+category: audio-understanding
+labels:
+  - "self-supervised"
+institutions:
+  - "Earth Species Project"
 code:
     url: ""
     license: ""

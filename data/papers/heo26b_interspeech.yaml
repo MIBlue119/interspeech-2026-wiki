@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/heo26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/heo26b_interspeech.pdf
 session: Speech and Language Representation
 topics: [audio-deepfake, evaluation, self-supervised]
+category: deepfake-security
+institutions:
+  - "DGIST"
+funding:
+  - "National Research Foundation of Korea"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
 code:
     url: ""
     license: ""

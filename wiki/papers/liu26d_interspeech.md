@@ -1,6 +1,7 @@
 ---
 id: liu26d_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26d_interspeech.pdf
 *Zhenglong Liu, Wangyou Zhang, Chenda Li, Yanmin Qian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-548)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — The paper introduces Geometry-Aware Dynamic Convolution (Geo-DConv), a framework that injects explicit microphone array coordinate priors into fixed-array speech enhancement models, turning them into array-invariant systems that generalize across arbitrary microphone counts and layouts. Evaluated on the RealMAN dataset, the proposed SpatialNet-Geo-DConv and TF-GridNet-Geo-DConv achieve robust multi-channel speech enhancement without requiring device-specific retraining.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multi-microphone smart speakers, hearing aids, wearable audio devices, and teleconferencing hardware requiring robust speech enhancement across diverse, unconstrained array geometries.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, VUI Labs
+
+**Funding / 經費:** China NSFC, SJTU Med-X Translational Research Grant
 
 ## Related
 

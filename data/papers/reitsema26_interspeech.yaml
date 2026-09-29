@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/reitsema26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/reitsema26_interspeech.pdf
 session: Perception and Appraisal of Prosody
 topics: [prosody, evaluation, phonetics]
+category: phonetics-linguistics
+institutions:
+  - "Leiden University"
+funding:
+  - "Dutch Research Council"
 code:
     url: ""
     license: ""

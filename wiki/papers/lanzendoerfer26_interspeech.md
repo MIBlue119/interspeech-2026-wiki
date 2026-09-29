@@ -1,6 +1,6 @@
 ---
 id: lanzendoerfer26_interspeech
-category: evaluation
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lanzendoerfer26_interspeech.p
 *Luca A. Lanzendöerfer, Florian Grötschla, Roger Wattenhofer*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lanzendoerfer26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lanzendoerfer26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1809)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper evaluates the reliability of objective quality metrics for assessing modern neural audio codecs on speech and mixed-audio datasets using a MUSHRA listening test. The results identify SCOREQ and legacy PESQ as the strongest predictors of human perceptual quality, while non-intrusive metrics and PEAQ exhibit poor correlation.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated evaluation and validation pipelines for neural audio codecs, text-to-speech systems, and speech generative models.
+
+## Institutions / 機構
+
+ETH Zurich
 
 ## Related
 

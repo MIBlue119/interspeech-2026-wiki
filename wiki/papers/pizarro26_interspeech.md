@@ -1,6 +1,6 @@
 ---
 id: pizarro26_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pizarro26_interspeech.pdf
 *Matías Pizarro, Mike Laszkiewicz, Dorothea Kolossa, Asja Fischer*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pizarro26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pizarro26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1361)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — The paper introduces Residual Statistical Fingerprints (RSFs)—a training-free, distance-based forensic method that isolates model-specific spectral artifacts using simple filters to perform synthetic speech detection, open-world single-model attribution, and out-of-domain rejection with an AUROC up to 1.00.
 
@@ -67,6 +69,12 @@ Speech forensics and deepfake security researchers should read this to understan
 ## Applications
 
 Applied speech forensics, legal chain-of-evidence verification for forged audio, automated synthetic voice moderation in communications platforms, and speaker attribution for security auditing.
+
+## Institutions / 機構
+
+Ruhr University Bochum, LKA NRW, Technische Universität Berlin
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft, Ministry of Culture and Science of North Rhine-Westphalia
 
 ## Related
 

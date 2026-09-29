@@ -1,6 +1,7 @@
 ---
 id: su26_interspeech
 category: asr
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/su26_interspeech.pdf
 *Fei Su, Cancan Li, Juan Liu, Wei Ju, Hongbin Suo, Ming Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/su26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/su26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1277)
+
+**Category:** `asr` · **Labels:** `robustness-noise`
 
 **TL;DR** — AVUR-LLM is an audio-visual speech recognition framework that uses sparse cross-modal alignment, confidence-aware decoding, and discrete visual unit-guided LLM rescoring, achieving a 37% relative WER reduction over baselines at 0 dB SNR.
 
@@ -67,6 +70,12 @@ Researchers building multi-modal speech LLMs will find valuable design patterns 
 ## Applications
 
 Robust automatic speech recognition for noisy environments, video conferencing enhancement, hearing assistive devices, and audio-visual transcription systems.
+
+## Institutions / 機構
+
+Wuhan University, Chinese University of Hong Kong, Shenzhen, OPPO
+
+**Funding / 經費:** National Natural Science Foundation of China, Yangtze River Delta Science and Technology Innovation Community Joint Research Project, OPPO
 
 ## Related
 

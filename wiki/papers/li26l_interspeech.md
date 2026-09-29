@@ -1,6 +1,7 @@
 ---
 id: li26l_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26l_interspeech.pdf
 *Jizhen Li, Weiping Tu, Yuhong Yang, Xinhong Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-722)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — HFMSE is a harmonic-guided flow-matching speech enhancement framework that uses a soft fundamental frequency pitch-harmonic conversion matrix to provide noise-robust structural conditioning, achieving state-of-the-art performance on the DNS Challenge 2020 dataset.
 
@@ -64,6 +67,12 @@ Researchers and audio engineers working on generative speech enhancement or voco
 ## Applications
 
 Real-time communication enhancement, hearing aids, teleconference noise suppression, and preprocessing for downstream automatic speech recognition systems.
+
+## Institutions / 機構
+
+Wuhan University
+
+**Funding / 經費:** National Nature Science Foundation of China, Hubei Provincial Science and Technology Plan Project
 
 ## Related
 

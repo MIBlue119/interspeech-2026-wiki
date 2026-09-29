@@ -1,6 +1,7 @@
 ---
 id: omidi26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/omidi26_interspeech.pdf
 *Zahra Omidi, John Hansen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/omidi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/omidi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2992)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates distribution-based supervision for 9-class speech emotion recognition (SER) using a WavLM-Base multitask model, demonstrating that training on annotator vote distributions instead of hard consensus labels significantly improves human vote alignment and reduces distribution divergence.
 
@@ -67,6 +70,10 @@ Researchers and engineers building SER systems should read this to understand th
 ## Applications
 
 Robust speech emotion recognition, affective computing, conversational agents, and mental health monitoring systems requiring nuanced modeling of emotional ambiguity.
+
+## Institutions / 機構
+
+University of Texas at Dallas
 
 ## Related
 

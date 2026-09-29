@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/getman26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/getman26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [self-supervised, asr, multilingual]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Aalto University"
+  - "South East Technological University"
+  - "Finnish Arts and Culture Agency"
+funding:
+  - "Business Finland"
+  - "Foundation for Aalto University Science and Technology"
 code:
     url: ""
     license: ""

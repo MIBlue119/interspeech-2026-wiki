@@ -1,6 +1,6 @@
 ---
 id: wu26d_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26d_interspeech.pdf
 *Qi Wu, Tatsuya Kitamura*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1593)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study uses real-time magnetic resonance imaging (rtMRI) to quantify the articulatory correlates of the Mandarin alveolar-retroflex contrast, revealing that retroflexion is reliably characterized by posterior constriction displacement and anterior cavity expansion rather than stereotyped tongue-tip curling.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Pronunciation training software, computer-aided language learning (CALL) systems for L2 Mandarin, and clinical speech therapy for coronal misarticulations.
+
+## Institutions / 機構
+
+University of Tsukuba, Konan University
+
+**Funding / 經費:** JSPS KAKENHI, Kawai Foundation for Sound & Music
 
 ## Related
 

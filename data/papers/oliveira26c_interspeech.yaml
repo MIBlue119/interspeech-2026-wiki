@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/oliveira26c_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/oliveira26c_interspeech.pdf
 session: Speech and Language Processing for Health and Accessibility
 topics: [spoken-language-understanding, self-supervised, dataset]
+category: resources-evaluation
+institutions:
+  - "Cardiff University"
+  - "University of Surrey"
+funding:
+  - "James S. McDonnell Foundation"
+  - "UKRI Future Leaders Fellowship"
 code:
     url: https://cardiffbabylab.github.io/tinyexplorer-detection-app/
     license: ""

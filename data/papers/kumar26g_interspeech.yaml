@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kumar26g_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26g_interspeech.pdf
 session: Pathological Speech Assessment 1
 topics: [paralinguistics, health, evaluation]
+category: health-clinical
+institutions:
+  - "Indian Institute of Science"
+  - "St. Johns National Academy of Health Sciences"
+funding:
+  - "Department of Science and Technology"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: jiang26f_interspeech
-category: asr
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jiang26f_interspeech.pdf
 *Denglin Jiang, Haoran Zhou, Anshul Wadhawan, Brendan Fahy, Vinay Ramesh, David Weisberg, Dmitriy Derkachevskiy, Helen Sheehan, Srivas Prasad, Michele Franceschini*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jiang26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jiang26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2642)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — Earnings25 is a 500-hour finance-domain ASR benchmark comprising full and industry-stratified earnings calls from 2025, enabling fine-grained speaker- and industry-aware evaluations. Baseline tests reveal that while NVIDIA Parakeet-TDT-0.6B achieves a 10.84% WER on full calls, specialized sectors like biotech spike to over 15% WER.
 
@@ -66,6 +69,10 @@ Speech and ML researchers focusing on domain adaptation, long-form conversationa
 ## Applications
 
 Automated financial transcription, corporate earnings analytics, and domain-specific ASR evaluation for telephony and meeting environments.
+
+## Institutions / 機構
+
+Bloomberg
 
 ## Related
 

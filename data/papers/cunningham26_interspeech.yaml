@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cunningham26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/cunningham26_interspeech.pdf
 session: Multilingual Speech 1
 topics: [asr, self-supervised, evaluation]
+category: asr
+labels:
+  - "multilingual"
+institutions:
+  - "DePaul University"
+  - "York University"
 code:
     url: ""
     license: ""

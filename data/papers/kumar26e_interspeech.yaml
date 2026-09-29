@@ -12,6 +12,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kumar26e_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26e_interspeech.pdf
 session: Low-Resource Speech Synthesis
 topics: [tts, speaker-verification, low-resource]
+category: tts
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "Indian Institute of Technology Mandi"
+  - "Indian Institute of Technology Madras"
+  - "Indian Institute of Technology Kharagpur"
+funding:
+  - "Ministry of Electronics and Information Technology"
 code:
     url: ""
     license: ""

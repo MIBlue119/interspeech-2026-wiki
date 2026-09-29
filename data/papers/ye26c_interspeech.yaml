@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ye26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ye26c_interspeech.pdf
 session: Code-Switching ASR
 topics: [asr, self-supervised, multilingual]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Spotify"
 code:
     url: ""
     license: ""

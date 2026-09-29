@@ -1,6 +1,6 @@
 ---
 id: yuen26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yuen26_interspeech.pdf
 *Ivan Yuen, Bernd Möbius, Bistra Andreeva, Mitko Sabev*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yuen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yuen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1080)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates how word frequency and syllable surprisal interact to affect speech initiation response times and acoustic vowel duration in German, finding selective interaction patterns that challenge traditional serial models of speech production. Contrary to additive hypotheses, cross-level interactions reveal distinct behaviors for monosyllabic versus disyllabic words.
 
@@ -58,6 +60,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving cognitive and computational models of human speech production, text-to-speech prosody generation, and psycholinguistic stimulus design.
+
+## Institutions / 機構
+
+Saarland University
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

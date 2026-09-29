@@ -1,6 +1,6 @@
 ---
 id: liu26q_interspeech
-category: speaker-verification
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26q_interspeech.pdf
 *Zeyan Liu, Weili Jiang, Liping Chen, Kong Aik Lee, Boyu Zhao, Kai Gao, Zhen-Hua Ling*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2346)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper proposes a pinhole loss fine-tuning strategy for voice anonymization models to suppress residual speaker attributes across feature streams, boosting Equal Error Rates (EER) on speaker verification while preserving linguistic and emotional utility.
 
@@ -67,6 +69,10 @@ Speech and ML researchers working on voice privacy and speaker de-identification
 ## Applications
 
 Privacy-preserving speech technologies, forensic voice masking, secure conversational agents, and anonymized data collection for speech recognition training.
+
+## Institutions / 機構
+
+University of Science and Technology of China, Hong Kong Polytechnic University, Institute of Forensic Science, Ministry of Public Security
 
 ## Related
 

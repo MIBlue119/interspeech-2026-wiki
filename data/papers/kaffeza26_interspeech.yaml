@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kaffeza26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/kaffeza26_interspeech.pdf
 session: Audio-Visual and Multimodal Perception
 topics: [paralinguistics, self-supervised, evaluation]
+category: paralinguistics-emotion
+institutions:
+  - "Mines Paris-PSL University"
+  - "University of Bern"
+  - "National Technical University of Athens"
+  - "Archimedes AI"
+  - "Synaptic Bloom"
 code:
     url: ""
     license: ""

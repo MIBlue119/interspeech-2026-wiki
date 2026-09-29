@@ -1,6 +1,7 @@
 ---
 id: peng26g_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/peng26g_interspeech.pdf
 *Yizhou Peng, Yukun Ma, Chong Zhang, Yi-Wen Chao, Chongjia Ni, Bin Ma, Eng Siong Chng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/peng26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/peng26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1986)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — The paper introduces Cross-modal Consistency Guided Classifier-Free Guidance (CCG-CFG) and a subsequent DPO distillation strategy to resolve emotional degradation when target emotions conflict with textual semantics in auto-regressive TTS models, achieving up to a 12% absolute improvement in emotion-recognition accuracy.
 
@@ -65,6 +68,12 @@ Speech researchers and engineers working on auto-regressive emotional TTS or Cla
 ## Applications
 
 Expressive virtual assistants, audiobook narration systems, and digital avatar voice generation requiring natural language emotional control under semantic-emotional conflict.
+
+## Institutions / 機構
+
+Nanyang Technological University, Alibaba, Alibaba-NTU Global e-Sustainability CorpLab
+
+**Funding / 經費:** Agency for Science, Technology and Research, Alibaba Group, Nanyang Technological University
 
 ## Related
 

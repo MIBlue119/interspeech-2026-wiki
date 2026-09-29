@@ -1,6 +1,7 @@
 ---
 id: goes26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/goes26_interspeech.pdf
 *Nina Goes, Lars Meyer, Katrin Neumann, Paula Andrea Pérez-Toro, Andreas M. Kist*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/goes26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/goes26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2277)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — PhonemeCVAE is a phoneme-conditioned variational autoencoder that combines class-conditional Gaussian priors and supervised contrastive learning to structure a continuous latent space for controllable phoneme interpolation. It achieves clear phonological transitions on minimal pairs while maintaining competitive perceptual naturalness ratings (3.14 vs 3.45 for originals).
 
@@ -64,6 +67,12 @@ Speech and ML researchers focusing on controllable generative audio will appreci
 ## Applications
 
 Fine-grained speech editing, mispronunciation detection, computer-aided language learning (CALL), dialect compensation, and therapeutic speech generation.
+
+## Institutions / 機構
+
+Friedrich-Alexander-Universitaet Erlangen-Nuernberg, Max Planck Institute for Human Cognitive and Brain Sciences, University Hospital Muenster
+
+**Funding / 經費:** German Research Foundation, Leopold-Klinge-Stiftung
 
 ## Related
 

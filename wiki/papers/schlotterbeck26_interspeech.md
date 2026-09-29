@@ -1,6 +1,7 @@
 ---
 id: schlotterbeck26_interspeech
-category: self-supervised
+category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/schlotterbeck26_interspeech.p
 *Danner Schlotterbeck, Alessandro Huaman, Juan Gomez*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/schlotterbeck26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/schlotterbeck26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2946)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — A controlled empirical study across SSL paradigms reveals that continued pre-training (CPT) on multilingual speech systematically trades speaker-discriminative information for linguistic content gains in discrete-unit models. CPT improves content metrics like character error rate with high run-to-run variance, while speaker diarization degrades consistently.
 
@@ -67,6 +70,12 @@ Speech and ML researchers working on self-supervised domain adaptation will find
 ## Applications
 
 Adapting speech recognition models to low-resource or domain-shifted audio environments while mitigating catastrophic forgetting.
+
+## Institutions / 機構
+
+Factored AI
+
+**Funding / 經費:** Factored AI
 
 ## Related
 

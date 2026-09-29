@@ -9,6 +9,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cox26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cox26_interspeech.pdf
 session: Post-Training of Speech Foundation Models
 topics: [self-supervised, speaker-verification, keyword-spotting]
+category: speaker
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Sheffield"
+funding:
+  - "UK Research and Innovation"
+  - "Meta"
 code:
     url: https://github.com/mjukus/interventional-post-training-speech
     license: ""

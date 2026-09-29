@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ren26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ren26d_interspeech.pdf
 session: Long-Form Speech Synthesis
 topics: [speech-llm, tts, audio-captioning]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Shanghai Artificial Intelligence Laboratory"
+  - "Tsinghua University"
+funding:
+  - "Shanghai Artificial Intelligence Laboratory"
 code:
     url: https://github.com/Riddae/AuDirector
     license: ""

@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wei26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wei26e_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
 topics: [prosody, multilingual, self-supervised]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Adobe Research"
+  - "Brown University"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: rong26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rong26_interspeech.pdf
 *Xiaobin Rong, Jun Gao, Zheng Wang, Mansur Yesilbursa, Kamil Wojcicki, Jing Lu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-837)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — StuPASE is a generative speech enhancement framework that combines dry-target finetuning with a diffusion transformer (DiT) flow-matching module to achieve studio-quality speech generation while suppressing hallucinations.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Studio-quality speech restoration, telecommunication enhancement, podcast mastering, and high-fidelity archival audio cleaning.
+
+## Institutions / 機構
+
+Nanjing University, Cisco Systems, Horizon Robotics
+
+**Funding / 經費:** National Natural Science Foundation of China, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

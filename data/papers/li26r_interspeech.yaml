@@ -9,6 +9,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26r_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26r_interspeech.pdf
 session: Benchmarking Foundation Models
 topics: [speech-llm, evaluation, dataset]
+category: resources-evaluation
+labels:
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "National Taiwan University"
+  - "NTU Artificial Intelligence Center of Research Excellence"
+funding:
+  - "National Science and Technology Council"
+  - "Ministry of Education"
+  - "Taiwan Centers of Excellence in Artificial Intelligence"
 code:
     url: https://github.com/lca0503/INSPIRE
     license: ""

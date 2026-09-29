@@ -1,6 +1,7 @@
 ---
 id: dong26_interspeech
-category: speech-llm
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dong26_interspeech.pdf
 *Jia-Kai Dong, Yu-Xiang Lin, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-514)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper presents the first systematic membership inference attack (MIA) evaluation of Large Audio Language Models (LALMs), revealing that reported privacy leaks are often illusions caused by train/test acoustic distribution shifts rather than genuine model memorization.
 
@@ -69,6 +72,12 @@ Speech and machine learning researchers auditing multimodal privacy risks should
 ## Applications
 
 Auditing open-source and proprietary Large Audio Language Models for regulatory compliance, privacy preservation, copyright infringement detection, and designing privacy-aware data curation pipelines.
+
+## Institutions / 機構
+
+National Taiwan University
+
+**Funding / 經費:** Ministry of Education, Taiwan Centers of Excellence in Artificial Intelligence, NTU Artificial Intelligence Center of Research Excellence
 
 ## Related
 

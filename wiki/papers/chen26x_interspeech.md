@@ -1,6 +1,6 @@
 ---
 id: chen26x_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26x_interspeech.pdf
 *Fukun Chen, Xionghu Zhong, Minjie Cai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26x_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26x_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2358)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — This paper proposes a multimodal conversational context framework for the egocentric Talking-to-Me (TTM) task that integrates speaker-aware multi-round dialogue history with gaze-aware visual cues, achieving 72.40% mAP on the Ego4D benchmark.
 
@@ -65,6 +67,10 @@ Researchers and engineers working on egocentric perception, multimodal conversat
 ## Applications
 
 Assistive robotics, augmented reality social wearables, and smart human-computer interaction devices.
+
+## Institutions / 機構
+
+Hunan University
 
 ## Related
 

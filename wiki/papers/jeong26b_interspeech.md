@@ -1,6 +1,7 @@
 ---
 id: jeong26b_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jeong26b_interspeech.pdf
 *Taeyoung Jeong, Insung Lee, Du-Seong Chang, Myoung-Wan Koo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jeong26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jeong26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2697)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — The paper introduces Cross-lingual Retrieval-Augmented Classification (CRAC) to tackle severe low-resource data scarcity in dysarthria severity assessment, using an align-retrieve-fuse pipeline to leverage labeled pathological speech from a different language. CRAC achieves balanced accuracies of 87.3% on Korean and 86.7% on Italian, outperforming monolingual baselines by up to 20 percentage points.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical screening tools, computer-aided longitudinal monitoring for motor speech disorders, and speech therapy assistive software.
+
+## Institutions / 機構
+
+Sogang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

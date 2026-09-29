@@ -10,6 +10,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shen26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shen26e_interspeech.pdf
 session: Source Separation 1
 topics: [speech-separation, self-supervised]
+category: enhancement-separation
+institutions:
+  - "Inner Mongolia University"
+  - "Southern University of Science and Technology"
 code:
     url: ""
     license: ""

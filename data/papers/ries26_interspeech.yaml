@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ries26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ries26_interspeech.pdf
 session: Entrainment and Dialogue Coordination
 topics: [multilingual, paralinguistics, dataset]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+institutions:
+  - "Columbia University"
+funding:
+  - "National Science Foundation"
 code:
     url: ""
     license: ""

@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26k_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1759)
 
+**Category:** `speech-coding`
+
 **TL;DR** — HARP is a training strategy for neural audio codecs that partitions residual vector quantization (RVQ) stages into frequency-ordered groups using cumulative decoding and soft subband supervision, outperforming standard RVQ and parallel band decomposition across speech, music, and general audio without changing inference architecture.
 
 ## Key contributions
@@ -68,6 +70,10 @@ Speech and audio ML researchers working on neural codecs or downstream generativ
 ## Applications
 
 Low-bitrate neural audio compression, variable-bitrate audio streaming, and discrete token extraction for speech and music generative language models.
+
+## Institutions / 機構
+
+Georgia Institute of Technology, Chinese University of Hong Kong, Tencent Music Entertainment
 
 ## Related
 

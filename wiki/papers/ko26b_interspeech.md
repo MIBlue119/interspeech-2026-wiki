@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ko26b_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ko26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ko26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3243)
 
+**Category:** `asr`
+
 **TL;DR** — SCOLoRA is a rehearsal-free continual speaker adaptation method for ASR that uses speaker embedding similarity and signed orthogonal constraints to selectively align subspaces for similar speakers and separate them for dissimilar speakers, achieving a 4.11% average WER on TEDLIUM3.
 
 ## Key contributions
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Streaming automatic speech recognition, real-time speaker adaptation, and personalized on-device voice assistants.
+
+## Institutions / 機構
+
+Hanyang University, Hankuk University of Foreign Studies
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

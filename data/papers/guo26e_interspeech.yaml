@@ -13,6 +13,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/guo26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/guo26e_interspeech.pdf
 session: Spoken Language Understanding
 topics: [speech-llm, evaluation, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Hunan University"
+  - "Malanshan Audio & Video Laboratory"
+  - "Yuelushan Center for Industrial Innovation"
+funding:
+  - "Malanshan Audio & Video Laboratory"
+  - "National Natural Science Foundation of China"
+  - "National Science and Technology Major Project of China"
+  - "Science and Technology Innovation Program of Hunan Province"
+  - "Guangdong Basic and Applied Basic Research Foundation"
+  - "Shenzhen Natural Science Foundation"
 code:
     url: ""
     license: ""

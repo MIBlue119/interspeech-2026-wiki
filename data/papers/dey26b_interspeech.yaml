@@ -16,6 +16,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dey26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dey26b_interspeech.pdf
 session: Information Extraction and Retrieval / Survey Talk
 topics: [speech-llm, self-supervised, dataset]
+category: asr
+institutions:
+  - "Samsung"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: tian26b_interspeech
-category: speech-enhancement
+category: speech-coding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tian26b_interspeech.pdf
 *Hao Tian, Yonghui Liu, Jianbing Liu, Kai Niu, Zhiqiang He*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tian26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tian26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1295)
+
+**Category:** `speech-coding`
 
 **TL;DR** — The paper proposes DDSN, a packet loss concealment network that decouples magnitude and phase modeling to prevent phase misalignment, achieving superior perceptual quality and robustness during burst losses.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice over IP (VoIP) systems, real-time audio communication platforms, and teleconferencing hardware experiencing network packet jitter and loss.
+
+## Institutions / 機構
+
+Beijing University of Posts and Telecommunications, Fanvil Link Technology Co., Ltd
 
 ## Related
 

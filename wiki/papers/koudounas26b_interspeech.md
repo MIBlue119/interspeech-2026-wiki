@@ -1,6 +1,7 @@
 ---
 id: koudounas26b_interspeech
-category: asr
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/koudounas26b_interspeech.pdf
 *Alkis Koudounas, Moreno La Quatra, Manuel Giollo, Sabato Marco Siniscalchi, Elena Baralis*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/koudounas26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koudounas26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2347)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — SHALLOW is the first comprehensive evaluation benchmark for automatic speech recognition (ASR) hallucinations that categorizes errors across four distinct dimensions—lexical, phonetic, morphological, and semantic—demonstrating that standard Word Error Rate (WER) fails to capture critical semantic and polarity-flipping errors in high-stakes domains.
 
@@ -64,6 +67,10 @@ Speech and ML engineers building ASR deployment pipelines for high-stakes domain
 ## Applications
 
 Automated quality assurance and safety auditing for ASR systems deployed in clinical transcription, legal proceedings, educational assessment, and voice assistants.
+
+## Institutions / 機構
+
+Politecnico di Torino, Kore University of Enna, Amazon, Universita degli Studi di Palermo
 
 ## Related
 

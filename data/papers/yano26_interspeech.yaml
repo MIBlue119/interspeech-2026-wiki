@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yano26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yano26_interspeech.pdf
 session: Post-Training of Speech Foundation Models
 topics: [asr, speech-llm, self-supervised]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Tohoku University"
+  - "Carnegie Mellon University"
+funding:
+  - "JST Moonshot R&D"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: lee26p_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26p_interspeech.pdf
 *Seung Suk Lee, Morgan Sonderegger, Meghan Clayards*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26p_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26p_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1786)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This paper investigates word-medial continuity lenition across nine languages using Functional Principal Component Analysis (FPCA) on intensity contours, revealing a near-universal tendency for intervocalic stops to be weaker (shorter and/or less intense) word-medially than word-initially.
 
@@ -64,6 +67,12 @@ Speech researchers and phoneticians studying prosody and speech segmentation sho
 ## Applications
 
 Improving acoustic-phonetic feature representations for speech recognition, text-to-speech prosody modeling, and cross-linguistic phonetic analysis tools.
+
+## Institutions / 機構
+
+McGill University
+
+**Funding / 經費:** Canada Research Chair, NSERC, SSHRC
 
 ## Related
 

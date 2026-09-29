@@ -1,6 +1,7 @@
 ---
 id: song26_interspeech
-category: voice-conversion
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/song26_interspeech.pdf
 *FeiBao Song*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/song26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/song26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-48)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — CFLOW-VC is an unsupervised, end-to-end voice conversion framework that integrates normalizing flows into a StarGAN-style cycle training strategy to resolve train-test content-timbre mismatch, achieving a top speaker similarity (SIM) of 73.5% on clean evaluation data.
 
@@ -66,6 +69,10 @@ Researchers building non-parallel voice conversion pipelines should read this to
 ## Applications
 
 Cross-speaker voice conversion, anonymous speech generation, and personalized text-to-speech style transfer.
+
+## Institutions / 機構
+
+Anhui University
 
 ## Related
 

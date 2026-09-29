@@ -1,6 +1,6 @@
 ---
 id: baumann26_interspeech
-category: speech-llm
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/baumann26_interspeech.pdf
 *Ilja Baumann, Korbinian Riedhammer, Tobias Bocklet*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/baumann26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/baumann26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3378)
+
+**Category:** `asr`
 
 **TL;DR** — PhonLLM introduces phonological process inference, a task and model that jointly predicts canonical phone sequences and phonological process tags from child speech by fusing audio and expected pronunciations. It achieves an average process tagging F1 of 75.9 and reduces phone error rate to 23.5 compared to 58.0 for standard ASR baselines.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech-language pathology screening tools, speech therapy support applications, and Computer-Assisted Pronunciation Training (CAPT) systems for children.
+
+## Institutions / 機構
+
+Technische Hochschule Nurnberg
+
+**Funding / 經費:** Bavarian Ministry of Health, Care and Prevention, European Union
 
 ## Related
 

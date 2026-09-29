@@ -1,6 +1,7 @@
 ---
 id: qin26_interspeech
-category: speech-deepfake-detection
+category: deepfake-security
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/qin26_interspeech.pdf
 *Siqing Qin, Kong Aik Lee, Youzhi Tu, Eng Siong Chng, Man-Wai Mak*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/qin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/qin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1042)
+
+**Category:** `deepfake-security` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper proposes Domain Gradient Surgery Meta-Learning (DGS-MLDG) and its layer-wise variant (LW-DGS-MLDG) to resolve gradient conflicts between meta-train and meta-test objectives in speech deepfake detection, achieving an average relative EER reduction of 5.29% over strong ERM baselines.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust automated speaker verification security wrappers and real-time deepfake speech filtering systems deployed against unseen codecs, synthesis algorithms, and in-the-wild acoustic environments.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University, Nanyang Technological University
+
+**Funding / 經費:** Innovation and Technology Fund of the Hong Kong SAR, National Key R&D Program of China
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: krzywdziak26_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/krzywdziak26_interspeech.pdf
 *Justyna Krzywdziak, Władysław Średniawa, Agnieszka Pruszek, Wojciech Szecówka, Michał K. Grzeszczyk, Teresa Brzozka, Bartłomiej Eljasiak, Zofia Marciniak, Łukasz Łazarski, Mateusz Matuszewski, Daria Hemmerling*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/krzywdziak26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/krzywdziak26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1424)
+
+**Category:** `health-clinical`
 
 **TL;DR** — A multimodal framework for estimating clinical cognitive scores (MoCA and MMSE) from speech and images achieves a picture-description RMSE of 2.11 for MoCA and 1.85 for MMSE using task-conditioned cross-attention and a mixture-of-experts architecture.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated screening tools for early-stage mild cognitive impairment and Alzheimer's disease using smartphone-based speech and visual description tasks.
+
+## Institutions / 機構
+
+AGH University of Krakow, Samsung
+
+**Funding / 經費:** Excellence Initiative - Research University program
 
 ## Related
 

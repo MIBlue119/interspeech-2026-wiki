@@ -18,6 +18,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/piyadasa26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/piyadasa26_interspeech.pdf
 session: Methods and Data for Vocal Tract Shape and Articulation Analysis
 topics: [phonetics, evaluation, dataset]
+category: phonetics-linguistics
+institutions:
+  - "University of Sydney"
+  - "Macquarie University"
+  - "Universite Paris Cite"
+  - "University of York"
+  - "Westmead Hospital"
+funding:
+  - "Australian Research Council"
+  - "National Health and Medical Research Council"
 code:
     url: https://github.com/TharindaDilshan/vocal-tract-acoustics-comsol-fem
     license: ""

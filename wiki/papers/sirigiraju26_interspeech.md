@@ -1,6 +1,7 @@
 ---
 id: sirigiraju26_interspeech
-category: speech-enhancement
+category: applications-other
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sirigiraju26_interspeech.pdf
 *Meenakshi Sirigiraju, Nevin K Mathew, Reni K Cherian, Chiranjeevi Yarra*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sirigiraju26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sirigiraju26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3247)
+
+**Category:** `applications-other` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — ALFreeD is a segmentation-free automatic pronunciation assessment framework that evaluates L2 learner speech by computing Dynamic Time Warping (DTW) deviations against text-matched teacher utterances in a pre-trained HuBERT space, achieving a 0.74 Pearson correlation on SpeechOcean762 using minimal labeled data.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-assisted language learning (CALL) systems, automated second-language spoken proficiency testing, and real-time pronunciation feedback tools.
+
+## Institutions / 機構
+
+International Institute of Information Technology Hyderabad, Saintgits College of Engineering
 
 ## Related
 

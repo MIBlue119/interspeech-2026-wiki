@@ -1,6 +1,7 @@
 ---
 id: lu26d_interspeech
-category: speech-llm
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lu26d_interspeech.pdf
 *Wenhuan Lu, Xinyue Song, Wenjun Ke, Zhizhi Yu, Wenhao Yang, Jianguo Wei*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lu26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lu26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2183)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — Speech2See is an end-to-end framework for speech-driven open-world object detection that bypasses intermediate text generation by coupling HuBERT speech features with Grounding DINO visual representations via a progressive pre-training and fine-tuning paradigm, achieving 56.2 AP on closed-set COCO-val and 42.7 AP on zero-shot COCO.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robotic manipulation, voice-guided navigation, and multimodal human-computer interaction where users query visual scenes directly via speech commands.
+
+## Institutions / 機構
+
+Tianjin University, PipeChina Institute of Science and Technology
 
 ## Related
 

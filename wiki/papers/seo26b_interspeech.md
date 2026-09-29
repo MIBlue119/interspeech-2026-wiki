@@ -1,6 +1,7 @@
 ---
 id: seo26b_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/seo26b_interspeech.pdf
 *Jiwon Seo, Inho Kim, Seongkyu Han, Thien-Phuc Doan, Souhwan Jung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/seo26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/seo26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2167)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — This paper addresses audio deepfake detection (ADD) robustness degradation under neural codec (NC) processing, showing that errors stem primarily from NC-processed bonafide speech shifting toward the spoof region. By introducing a hard positive-targeted mini-batch sampling and auxiliary loss strategy, the authors reduce total equal error rate (EER) from 24.36% to 10.93% on SSL-Conformer.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust audio deepfake detection systems deployed in telephony, media verification pipelines, and conversational AI security filters.
+
+## Institutions / 機構
+
+Soongsil University
+
+**Funding / 經費:** Ministry of Science and ICT, Institute of Information & Communications Technology Planning & Evaluation, Korea Institute of Police Technology, Korean National Police Agency
 
 ## Related
 

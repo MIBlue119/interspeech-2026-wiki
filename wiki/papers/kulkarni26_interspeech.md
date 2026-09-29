@@ -1,6 +1,7 @@
 ---
 id: kulkarni26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kulkarni26_interspeech.pdf
 *Apoorva Kulkarni, Kaousheik Jayakumar, Sreyan Ghosh, Sarah Wiegreffe, Dinesh Manocha, Ramani Duraiswami*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kulkarni26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kulkarni26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3070)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper investigates why Large Audio Language Models (LALMs) fail at temporal reasoning by introducing a controlled 1,657-question benchmark and conducting the first causal mechanistic analysis of attention mechanisms. The authors demonstrate that redistributing attention via scaling outperforms simply increasing audio attention, improving average model accuracy from 55.9% to 59.1% without fine-tuning.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving fine-grained temporal grounding, sound-event detection, and audio diarization in large multimodal speech models.
+
+## Institutions / 機構
+
+University of Maryland, College Park
 
 ## Related
 

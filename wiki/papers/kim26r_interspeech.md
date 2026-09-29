@@ -1,6 +1,7 @@
 ---
 id: kim26r_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26r_interspeech.pdf
 *Inho Kim, Thien-Phuc Doan, Souhwan Jung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26r_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26r_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2216)
+
+**Category:** `deepfake-security` · **Labels:** `robustness-noise`
 
 **TL;DR** — GradHarmony introduces a Clean-referenced Gradient Alignment (CGA) and EMA-based Magnitude Normalization (EMA-MN) strategy to stabilize multi-augmentation training in audio deepfake detection, achieving an average 22% reduction in equal error rate (EER) on out-of-domain datasets across state-of-the-art models.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Audio deepfake detection systems, voice biometrics security, forensic audio authentication, and robust anti-spoofing modules for conversational speech interfaces.
+
+## Institutions / 機構
+
+Soongsil University
+
+**Funding / 經費:** Korea Institute of Police Technology, Korean National Police Agency, National Research Foundation of Korea, Ministry of Science and ICT
 
 ## Related
 

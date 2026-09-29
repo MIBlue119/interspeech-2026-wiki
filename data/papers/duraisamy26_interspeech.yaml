@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/duraisamy26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/duraisamy26_interspeech.pdf
 session: Neurophysiology of Speech
 topics: [asr, self-supervised, health]
+category: asr
+institutions:
+  - "University of Luxembourg"
+funding:
+  - "Pathfinder program of the European Innovation Council"
 code:
     url: ""
     license: ""

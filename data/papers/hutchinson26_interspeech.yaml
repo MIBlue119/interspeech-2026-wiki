@@ -16,6 +16,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/hutchinson26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/hutchinson26_interspeech.pdf
 session: 'Pacific Voices: Speech Science and Technology for the Languages of the Pacific Ocean'
 topics: [tts, low-resource, multilingual]
+category: tts
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "generative-model"
+institutions:
+  - "Google"
+  - "Te Taura Whiri i te Reo Māori"
 code:
     url: ""
     license: ""

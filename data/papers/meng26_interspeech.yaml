@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/meng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/meng26_interspeech.pdf
 session: Speaker Recognition and Verification
 topics: [speaker-verification, self-supervised]
+category: speaker
+institutions:
+  - "Xinjiang University"
+  - "Xinjiang Multimodal Information Technology Engineering Research Center"
+  - "Tsinghua University"
+  - "AGIBOT"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

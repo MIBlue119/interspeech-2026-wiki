@@ -1,6 +1,7 @@
 ---
 id: meng26c_interspeech
-category: speaker-diarization
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/meng26c_interspeech.pdf
 *Hanyu Meng, Eliathamby Ambikairajah, Vidhyasaharan Sethu, Qiquan Zhang, Haizhou Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/meng26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/meng26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1618)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — BiEAR is a human auditory-inspired adaptive binaural front-end that uses neural feedback controllers to dynamically modulate cochlear filterbank Q-factors, improving multi-speaker localization and distance estimation under unseen acoustic conditions.
 
@@ -67,6 +70,12 @@ Speech and ML engineers building spatial audio systems or robust machine hearing
 ## Applications
 
 Binaural speech enhancement, robotic speaker tracking, hearing aids, and computational auditory scene analysis.
+
+## Institutions / 機構
+
+University of New South Wales, Alibaba Group, Chinese University of Hong Kong, Shenzhen
+
+**Funding / 經費:** ARC Discovery Grant
 
 ## Related
 

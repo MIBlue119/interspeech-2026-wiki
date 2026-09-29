@@ -1,6 +1,7 @@
 ---
 id: lin26k_interspeech
-category: sound-event-detection
+category: audio-understanding
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26k_interspeech.pdf
 *Zongmu Lin, Zhongxin Bai, Jisheng Bai, Zhenru Li, Ting Dang, Gongping Huang, Jingdong Chen, Jacob Benesty*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2019)
+
+**Category:** `audio-understanding` · **Labels:** `robustness-noise`
 
 **TL;DR** — BG-CRNN introduces a boundary-guided dynamic attention mechanism for sound event detection (SED) that restricts self-attention to within event segments and uses boundary features for gating weights, achieving a PSDS1 of 0.191 under an extreme -5 dB noise condition.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart city acoustic surveillance, automated home health monitoring, and noise-resilient environmental audio event detection.
+
+## Institutions / 機構
+
+Wuhan University, Harbin Engineering University, Xi'an University of Posts and Telecommunications, University of Melbourne, Northwestern Polytechnical University, University of Quebec
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: eljasiak26_interspeech
-category: speech-llm
+category: health-clinical
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/eljasiak26_interspeech.pdf
 *Bartłomiej Eljasiak, Wojciech Szecówka, Piotr Masztalski, Agnieszka Pruszek, Teresa Brzozka, Zofia Marciniak, Justyna Krzywdziak, Michał K. Grzeszczyk, Łukasz Łazarski, Mateusz Matuszewski, Daria Hemmerling*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/eljasiak26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/eljasiak26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2587)
+
+**Category:** `health-clinical` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — A systematic evaluation of speech foundational models (Wav2Vec 2.0, HuBERT, WavLM, Whisper) for multilingual dementia prediction shows that multilingual training creates a synergistic "boost effect" across languages, achieving an F1 score of 0.854 on English datasets and 0.761 in a challenging multilingual setting.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated, non-invasive digital screening tools for early detection of dementia and cognitive impairment in clinical or telehealth settings.
+
+## Institutions / 機構
+
+Samsung R&D Institute, AGH University of Kraków, Harvard Medical School, Kozminski University
 
 ## Related
 

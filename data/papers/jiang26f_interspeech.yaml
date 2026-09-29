@@ -17,6 +17,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jiang26f_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/jiang26f_interspeech.pdf
 session: Datasets
 topics: [asr, evaluation, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Bloomberg"
 code:
     url: https://doi.org/10.5281/zenodo.18762168
     license: ""

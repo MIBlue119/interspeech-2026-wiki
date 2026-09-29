@@ -1,6 +1,6 @@
 ---
 id: yu26_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yu26_interspeech.pdf
 *Jiawei Yu, Yun Hao, Heysem Kaya*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-456)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper investigates how large language models (LLMs) behave under in-context learning (ICL) for depression severity prediction, finding that increasing demonstration shot count yields negligible gains, whereas filtering transcripts for symptom relevance improves Concordance Correlation Coefficient (CCC) while reducing token usage by 80%.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cost-effective clinical decision support tools for automated mental health screening, depression severity tracking, and psychiatric interview analysis from conversational text.
+
+## Institutions / 機構
+
+Utrecht University, University of Groningen
+
+**Funding / 經費:** China Scholarship Council
 
 ## Related
 

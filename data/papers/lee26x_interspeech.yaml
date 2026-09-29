@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26x_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26x_interspeech.pdf
 session: Speaker Verification and Anti-Spoofing
 topics: [speaker-verification, evaluation, self-supervised]
+category: deepfake-security
+institutions:
+  - "Soongsil University"
+funding:
+  - "Cyber Investigation Support Technology Development Program"
+  - "Korea Institute of Police Technology"
+  - "National Research Foundation of Korea"
 code:
     url: https://github.com/2oil/AGENT.git
     license: ""

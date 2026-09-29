@@ -1,6 +1,7 @@
 ---
 id: sharma26c_interspeech
-category: speech-enhancement
+category: speech-coding
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sharma26c_interspeech.pdf
 *Yatharth Sharma*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sharma26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sharma26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2839)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — LavaSR is a Vocos-based neural bandwidth extension system that recovers 48 kHz audio from low-rate inputs (8-48 kHz) using a single ConvNeXt backbone and a Linkwitz-Riley crossover refiner. It matches competitive spectral quality while reaching an extreme throughput of 0.0001 real-time factor on an NVIDIA A100 GPU and 0.0053 on an 8-core CPU.
 

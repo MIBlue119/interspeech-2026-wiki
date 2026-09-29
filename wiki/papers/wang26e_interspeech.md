@@ -1,6 +1,7 @@
 ---
 id: wang26e_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26e_interspeech.pdf
 *Boxiang Wang, Zhengding Luo, Dongyuan Shi, Junwei Ji, Xiruo Su, Woon-Seng Gan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-271)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — The paper introduces Predictive Directional Selective Fixed-Filter Active Noise Control (PD-SFANC), which uses a lightweight convolutional recurrent neural network to forecast the next-frame direction-of-arrival of moving noise sources and proactively select pre-trained control filters, achieving stable noise reduction above 15 dB across various trajectories.
 
@@ -63,6 +66,12 @@ Researchers and audio engineers working on active noise control for non-stationa
 ## Applications
 
 Active noise control systems for vehicles, drones, and robotic vacuum cleaners operating in environments with moving noise sources.
+
+## Institutions / 機構
+
+Nanyang Technological University, Northwestern Polytechnical University
+
+**Funding / 經費:** Ministry of Education, Singapore
 
 ## Related
 

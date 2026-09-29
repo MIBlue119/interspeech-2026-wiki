@@ -1,6 +1,7 @@
 ---
 id: kim26l_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26l_interspeech.pdf
 *Donghee Kim, Wooil Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1483)
+
+**Category:** `deepfake-security` · **Labels:** `robustness-noise`
 
 **TL;DR** — The paper proposes an orthogonality-constrained feature decorrelation method for speech deepfake detectors to prevent overfitting to dataset-specific artifacts, reducing Equal Error Rates (EER) on challenging cross-corpus datasets like ASVspoof 2021 DF (from 6.64% to 3.67%) and In-the-Wild (from 11.22% to 8.84%).
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Deploying robust speech deepfake detectors in real-world conversational systems, biometric authentication security gates, and automated fraud/voice phishing detection tools.
+
+## Institutions / 機構
+
+Incheon National University
+
+**Funding / 經費:** KOITA, Ministry of Science and ICT, Incheon National University
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: ishihara26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ishihara26_interspeech.pdf
 *Shunichi Ishihara, Frantz Clermont, Can Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ishihara26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ishihara26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-303)
+
+**Category:** `speaker`
 
 **TL;DR** — This study investigates how speaker-discriminative information is distributed across frequency sub-bands for Japanese segments /s/, /a/, and /N/ using Band-Limited Cepstral Coefficients (BLCCs) in a forensic voice comparison (FVC) framework. The vowel /a/ and nasal /N/ outperformed the fricative /s/, and fusing just four optimal sub-bands approached full-band FVC performance.
 
@@ -62,6 +64,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Forensic voice comparison, speaker verification, and phonetic profiling of speech segments.
+
+## Institutions / 機構
+
+Australian National University
 
 ## Related
 

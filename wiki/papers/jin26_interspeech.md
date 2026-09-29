@@ -1,6 +1,6 @@
 ---
 id: jin26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jin26_interspeech.pdf
 *Zezhong Jin, Xiaoyu Wang, Zhe Li, Chong-xin Gan, Zilong Huang, Man-Wai Mak, Kong Aik Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-634)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper introduces Manifold-Constrained Hyper-Connections (mHC) to speaker recognition, replacing single-path residual identity shortcuts with a multi-stream information-mixing protocol stabilized by Sinkhorn-Knopp iterations, achieving consistent EER reductions across multiple backbones with negligible computational overhead.
 
@@ -67,6 +69,12 @@ Speech and ML engineers building speaker recognition systems will learn how to s
 ## Applications
 
 Biometric speaker authentication, secure voice-driven financial transactions, and forensic speaker identification.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University, Baidu, University of Hong Kong
+
+**Funding / 經費:** Research Grants Council of the Hong Kong SAR, The Hong Kong Polytechnic University
 
 ## Related
 

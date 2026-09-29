@@ -1,6 +1,7 @@
 ---
 id: fujita26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fujita26_interspeech.pdf
 *Kenichi Fujita, Yusuke Ijima*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fujita26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fujita26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-919)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper introduces direction-following TTS to modify a reference utterance's speaking style based on a natural language direction, solving data scarcity via a scalable pseudo-triplet construction pipeline that combines impression-controlled TTS and LLMs.
 
@@ -62,6 +65,10 @@ Read this paper if you are working on fine-grained emotional or stylistic contro
 ## Applications
 
 Automated voice-acting direction tools, dynamic video game character dialogue re-reading, and expressive audiobook narration generation.
+
+## Institutions / 機構
+
+NTT
 
 ## Related
 

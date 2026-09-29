@@ -1,6 +1,7 @@
 ---
 id: laquatra26b_interspeech
-category: audio-information-retrieval
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/laquatra26b_interspeech.pdf
 *Moreno La Quatra, Alkis Koudounas, Sabato Marco Siniscalchi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/laquatra26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/laquatra26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2369)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates fully unsupervised audio-to-audio retrieval by pairing frozen self-supervised learning (SSL) representations with domain-dependent sequence matching methods. It demonstrates that dynamic time warping (DTW) excels for music query-by-humming (reaching 76.5% accuracy), while discrete token clustering combined with TF-IDF excels for spoken query-by-example (reaching 63.3% accuracy).
 
@@ -67,6 +70,10 @@ Speech and audio researchers should read this paper to understand the fundamenta
 ## Applications
 
 Unsupervised query-by-humming music search engines, spoken term detection, query-by-example spoken document retrieval, and audio indexing in low-resource environments.
+
+## Institutions / 機構
+
+Kore University of Enna, Politecnico di Torino, Università degli Studi di Palermo
 
 ## Related
 

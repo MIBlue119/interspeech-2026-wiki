@@ -1,6 +1,6 @@
 ---
 id: ross26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ross26_interspeech.pdf
 *Brooke Ross, C. I. Watson, Elaine Ballard, Miriam Meyerhoff*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ross26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ross26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1526)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper traces 100 years of sound change in New Zealand English (NZE) through an acoustic and statistical analysis of Auckland speakers, revealing a rise and subsequent fall of front vowels /e/ and /æ/ alongside early phonologically conditioned centralisation of /ɪ/.
 
@@ -62,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Sociophonetic analysis, historical linguistics documentation, and automated speech recognition adaptation for regional New Zealand English dialects.
+
+## Institutions / 機構
+
+University of Auckland, University of Oxford
+
+**Funding / 經費:** Marsden Fund Council
 
 ## Related
 

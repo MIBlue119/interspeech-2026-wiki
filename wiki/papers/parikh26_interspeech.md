@@ -1,6 +1,6 @@
 ---
 id: parikh26_interspeech
-category: speech-llm
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/parikh26_interspeech.pdf
 *Aditya Kamlesh Parikh, Cristian Tejedor-Garcia, Catia Cucchiarini, Helmer Strik*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/parikh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/parikh26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2335)
+
+**Category:** `applications-other`
 
 **TL;DR** — This paper proposes a rubric-guided end-to-end SpeechLLM that jointly predicts multi-granular L2 speech proficiency labels and generates natural-language rationales, using a hybrid supervised fine-tuning and bounded preference optimization objective. It achieves strong sentence-level correlations (e.g., PCC 0.73 on fluency) on the SpeechOcean762 dataset while maintaining competitive fine-grained assessment.
 
@@ -65,6 +67,12 @@ Speech and ML engineers building educational voice assistants will learn how to 
 ## Applications
 
 Automated language learning (CALL) software, computer-assisted pronunciation training systems, and interpretable automated spoken proficiency testing platforms.
+
+## Institutions / 機構
+
+Radboud University
+
+**Funding / 經費:** Dutch Research Council, NGF AiNed Fellowship Grants
 
 ## Related
 

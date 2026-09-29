@@ -10,6 +10,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26r_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26r_interspeech.pdf
 session: Spoofing and Deepfake Detection 3
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "robustness-noise"
+institutions:
+  - "Soongsil University"
+funding:
+  - "Korea Institute of Police Technology"
+  - "Korean National Police Agency"
+  - "National Research Foundation of Korea"
+  - "Ministry of Science and ICT"
 code:
     url: ""
     license: ""

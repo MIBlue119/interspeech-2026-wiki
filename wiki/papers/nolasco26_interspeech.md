@@ -1,6 +1,7 @@
 ---
 id: nolasco26_interspeech
-category: self-supervised
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nolasco26_interspeech.pdf
 *Ines Nolasco, Jules Cauzinille, Marius Miron, Gagan Narula, Milad Alizadeh, Emmanuel Fernandez, Matthieu Geist, Ellen Gilsenan-McMahon, Olivier Pietquin, Emmanuel Chemla, Sara Keen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nolasco26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nolasco26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2759)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates what interpretable acoustic features (eGeMAPS) are encoded inside six pretrained bioacoustic and speech embedding models using linear and non-linear regression probes across six taxonomic groups, revealing a "no free lunch" pattern where loudness is easily recovered ($R^2=0.76$) but $F_0$ is poorly captured ($R^2=0.33$).
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Principled model selection for automated species classification, bioacoustic monitoring, acoustic conservation, and multi-taxa environmental audio analysis.
+
+## Institutions / 機構
+
+Earth Species Project
 
 ## Related
 

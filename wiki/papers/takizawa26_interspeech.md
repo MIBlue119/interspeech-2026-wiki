@@ -1,6 +1,7 @@
 ---
 id: takizawa26_interspeech
-category: self-supervised
+category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/takizawa26_interspeech.pdf
 *Daigo Takizawa, Tomohiko Nakamura, Samuele Cornell, William Chen, Satoru Fukayama, Shinji Watanabe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/takizawa26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/takizawa26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3002)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — A systematic cross-lingual analysis of codec-based self-supervised speech learning reveals that downstream task performance is insensitive to the neural audio codec (NAC) training language, but heavily dependent on the SSL pre-training language. This demonstrates that a single acoustic NAC can be safely reused across languages without retraining, provided the SSL model is aligned with the target language.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building efficient, multilingual speech recognition and emotion recognition pipelines using shared neural audio codebook representations.
+
+## Institutions / 機構
+
+National Institute of Advanced Industrial Science and Technology, Carnegie Mellon University
+
+**Funding / 經費:** Programs for Bridging the gap between R&D and the IDeal society (society 5.0) and Generating Economic and social value (BRIDGE), R&D on Generative AI Foundation Models for the Physical Domain
 
 ## Related
 

@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/fujita26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/fujita26_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
 topics: [tts, self-supervised, evaluation]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "NTT"
 code:
     url: https://ntt-hilab-gensp.github.io/IS2026pseudo/
     license: ""

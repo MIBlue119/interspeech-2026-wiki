@@ -1,6 +1,7 @@
 ---
 id: bhogale26b_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, multilingual, dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bhogale26b_interspeech.pdf
 *Kaushal Bhogale, Srija Anand, Sadakopa Ramakrishnan Thothathiri, Tahir Javed, Sshubam Verma, Mitesh M Khapra*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bhogale26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bhogale26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3348)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — Vimarsha is a 100-hour benchmark spanning all 22 scheduled Indian languages that evaluates ASR robustness using demographically diverse field recordings, hard in-the-wild audio, and a lattice-of-variations framework to eliminate optimistic and pessimistic evaluation biases. It demonstrates that top-performing models like IndicConformer degrade from ~10-15% WER on clean data to 27-34% on realistic audio.
 
@@ -65,6 +68,12 @@ Speech and ML researchers building multilingual or low-resource ASR systems shou
 ## Applications
 
 Robust multilingual speech recognition development, acoustic robustness evaluation, and linguistic bias auditing for AI systems deployed in linguistically diverse regions.
+
+## Institutions / 機構
+
+Indian Institute of Technology Madras, Sarvam AI
+
+**Funding / 經費:** Digital India Bhashini, MeitY, EkStep Foundation, Nilekani Philanthropies
 
 ## Related
 

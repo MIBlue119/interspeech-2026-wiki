@@ -1,6 +1,7 @@
 ---
 id: tse26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tse26_interspeech.pdf
 *Timothy Tin-Long Tse, Jian Zhu, Aidan Pine, Mengzhe Geng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tse26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2165)
+
+**Category:** `deepfake-security` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — AudioNoisePrints is a training-free, model-free watermarking framework for flow-matching and diffusion-based speech synthesis models that leverages spatial correlations between initial Gaussian noise and generated outputs, outperforming AudioSeal under strong augmentations like speed changes and cropping without affecting generation quality.
 
@@ -64,6 +67,10 @@ Speech and machine learning researchers working on generative audio security, pr
 ## Applications
 
 Deepfake detection, generative speech provenance tracking, audio copyright protection, and forensic verification of synthetic speech outputs.
+
+## Institutions / 機構
+
+National Research Council Canada, University of British Columbia
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: yang26r_interspeech
 category: asr
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26r_interspeech.pdf
 *Yinchang Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26r_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26r_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3380)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — This paper presents a 123M-parameter fully-open hybrid RNNT/CTC FastConformer model for Japanese ASR that supports cache-aware streaming, achieving an average CER of 12.4% while outperforming models 5-8x larger.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time on-device speech transcription, streaming voice assistants, IoT voice interfaces, and live meeting captioning for Japanese.
+
+## Institutions / 機構
+
+Kyoto College of Graduate Studies for Informatics
 
 ## Related
 

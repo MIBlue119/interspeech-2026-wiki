@@ -1,6 +1,7 @@
 ---
 id: zhang26aa_interspeech
 category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26aa_interspeech.pdf
 *Pei Zhang, Andong Chen, Xi Chen, Baosong Yang, Derek F. Wong, Fei Huang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26aa_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26aa_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1734)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — PART is a multi-stage, multi-task training framework for multilingual speech large models that uses progressive encoder unfreezing and task-dependent LLM activation to prevent language collapse, achieving state-of-the-art results on FLEURS, Common Voice 15, and CoVoST2.
 
@@ -66,6 +69,12 @@ Speech-language model researchers should read this to understand how multi-stage
 ## Applications
 
 Multilingual automatic speech recognition and real-time speech-to-text translation systems deployed in global assistant applications.
+
+## Institutions / 機構
+
+Alibaba Group, University of Macau, Chinese University of Hong Kong
+
+**Funding / 經費:** Science and Technology Development Fund of Macau SAR, UM and UMDF
 
 ## Related
 

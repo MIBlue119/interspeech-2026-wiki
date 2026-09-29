@@ -1,6 +1,7 @@
 ---
 id: park26l_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26l_interspeech.pdf
 *Yeonwoo Park, Chioh Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3486)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper demonstrates that speech-to-text encoders like Whisper suppress prosody during semantic abstraction, failing on pragmatically ambiguous emotion recognition; explicitly injecting F0 and energy into the hidden representations improves subset accuracy by 13.93%p and outperforms text-based LLM inference.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Emotion-aware subtitle generation, spoken dialogue systems, and affective speech translation.
+
+## Institutions / 機構
+
+Hanyang University, Pusan National University
 
 ## Related
 

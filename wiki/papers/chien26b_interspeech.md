@@ -1,6 +1,7 @@
 ---
 id: chien26b_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chien26b_interspeech.pdf
 *Jen-Tzung Chien, Yu-Chun Lin, Xiaodong Cui*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chien26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chien26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1738)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper introduces TL-SUD, a trilevel optimization framework for ASR that jointly trains a shared backbone on supervised, unsupervised, and knowledge distillation objectives using a sequential penalty-based gradient descent method, achieving a Word Error Rate (WER) of 15.9% on LibriSpeech test-other using 100h of labeled data.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-resource automatic speech recognition, acoustic model pre-training, and knowledge distillation for edge-deployable speech systems.
+
+## Institutions / 機構
+
+National Yang Ming Chiao Tung University, IBM
 
 ## Related
 

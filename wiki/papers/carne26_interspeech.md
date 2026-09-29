@@ -1,6 +1,6 @@
 ---
 id: carne26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/carne26_interspeech.pdf
 *Michael Carne*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/carne26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/carne26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3166)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper investigates topic bias in likelihood ratio-based forensic speaker comparison systems using word n-grams, demonstrating that a topic-independent feature set restricted to function words combined with ANOVA F-ratio feature selection can mitigate topic confounding while reducing dimensionality.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Forensic speaker comparison, automated authorship attribution, and text-independent speaker recognition systems operating on conversational transcripts.
+
+## Institutions / 機構
+
+Australian National University
 
 ## Related
 

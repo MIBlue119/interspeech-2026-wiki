@@ -1,6 +1,6 @@
 ---
 id: pludra26_interspeech
-category: speech-enhancement
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pludra26_interspeech.pdf
 *Agnieszka Pludra, Izabela Krysińska, Matuesz Jekiel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pludra26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pludra26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2522)
+
+**Category:** `applications-other`
 
 **TL;DR** — This paper introduces an intelligibility-centered computer-assisted pronunciation training (CAPT) approach that uses an AdaBoost regression model over phoneme substitution errors to predict L2 speech intelligibility and rank errors by communicative impact. The proposed AdaBoost Decision Tree model achieves a 0.74 Pearson correlation with human intelligibility ratings, outperforming standard ASR Word Error Rate baselines.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-assisted pronunciation training (CAPT) platforms, automated language testing, and personalized ESL feedback applications.
+
+## Institutions / 機構
+
+Pearson Central Europe, Adam Mickiewicz University
 
 ## Related
 

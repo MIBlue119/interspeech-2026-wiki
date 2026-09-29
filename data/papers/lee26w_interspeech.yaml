@@ -8,6 +8,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26w_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26w_interspeech.pdf
 session: Speech Emotion Recognition and Representation 3
 topics: [speech-emotion-recognition, self-supervised, multilingual]
+category: paralinguistics-emotion
+labels:
+  - "multilingual"
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "National Institute of Advanced Industrial Science and Technology"
 code:
     url: ""
     license: ""

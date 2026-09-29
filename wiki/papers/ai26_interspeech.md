@@ -1,6 +1,7 @@
 ---
 id: ai26_interspeech
-category: speaker-verification
+category: speaker
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ai26_interspeech.pdf
 *Zhiqi Ai, Cheng Han, Shiyi Mu, Zhiyong Chen, Yongjin Zhou, Shugong Xu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ai26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ai26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-228)
+
+**Category:** `speaker` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces VoxPhrase, a large-scale corpus for short-duration speaker verification (SDSV), and proposes a hybrid-enrollment neural re-scoring framework that combines text-dependent and text-independent utterances to improve verification robustness. Evaluated across multiple backbone models, the hybrid approach consistently reduces Equal Error Rate (EER), achieving a best EER of 1.60% under hard-example evaluation.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Personalized user-defined keyword spotting, secure voice-activated assistant authentication, and short-utterance access control systems.
+
+## Institutions / 機構
+
+Shanghai University, Xi'an Jiaotong-Liverpool University, Hithink RoyalFlush AI Research Institute
+
+**Funding / 經費:** Shanghai Municipal Science and Technology Commission, National High Quality Program, Xi'an Jiaotong-Liverpool University
 
 ## Related
 

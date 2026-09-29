@@ -1,6 +1,7 @@
 ---
 id: jia26b_interspeech
-category: evaluation
+category: resources-evaluation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jia26b_interspeech.pdf
 *Yuhang Jia, Xu Zhang, Yang Chen, Hui Wang, Enzhi Wang, Yong Qin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jia26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jia26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3176)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper introduces a natural language-based automated evaluation framework for audio editing built on Qwen2-Audio, using difference-commonality reasoning and a 7-step Chain-of-Thought prompting strategy to align with human judgments.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated evaluation, model selection, and reinforcement learning reward modeling for generative audio editing systems.
+
+## Institutions / 機構
+
+Nankai University
+
+**Funding / 經費:** National Key R&D Program of China, NSF China
 
 ## Related
 

@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mehralian26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/mehralian26_interspeech.pdf
 session: Language and Dialect Recognition
 topics: [asr, low-resource, multilingual]
+category: asr
+institutions:
+  - "KU Leuven"
+funding:
+  - "Flemish Government"
 code:
     url: ""
     license: ""

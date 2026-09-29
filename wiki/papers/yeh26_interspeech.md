@@ -1,6 +1,6 @@
 ---
 id: yeh26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yeh26_interspeech.pdf
 *Hsiang-Chen Yeh, Luqi Sun, Aurosweta Mahapatra, Shreeram Suresh Chandra, Emily Mower Provost, Berrak Sisman*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yeh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yeh26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1394)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This study investigates speaker leakage in speech-based depression detection models, demonstrating that high accuracies exceeding 90% rely heavily on speaker identity memorization rather than clinical biomarkers. When evaluated under strict speaker-independent conditions, classification accuracy plummets from 97.65% to near-random levels (58.74%).
 
@@ -65,6 +67,12 @@ Speech and ML researchers building clinical mental health screening tools must r
 ## Applications
 
 Automated mental health screening, objective depression monitoring tools, and clinical speech biomarker auditing.
+
+## Institutions / 機構
+
+Johns Hopkins University, University of Michigan
+
+**Funding / 經費:** Johns Hopkins University Data Science and AI Institute
 
 ## Related
 

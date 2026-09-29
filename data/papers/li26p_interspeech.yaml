@@ -21,6 +21,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26p_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26p_interspeech.pdf
 session: Child Speech and Health
 topics: [paralinguistics, prosody, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "Hong Kong Polytechnic University"
+  - "Chinese University of Hong Kong"
+  - "First Affiliated Hospital of Jinan University"
+  - "Hong Kong Metropolitan University"
+  - "City University of Hong Kong"
+  - "University of Florida"
+funding:
+  - "General Research Fund"
 code:
     url: ""
     license: ""

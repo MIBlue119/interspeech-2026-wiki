@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chang26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/chang26b_interspeech.pdf
 session: Emotion, Prosody, and Articulation
 topics: [speech-emotion-recognition, self-supervised, evaluation]
+category: paralinguistics-emotion
+institutions:
+  - "Imperial College London"
+  - "Leibniz University Hannover"
+  - "University of Bremen"
+funding:
+  - "DFG, German Research Foundation"
+  - "BMBF"
+  - "KI-Servicezentrum für sensible und kritische Infrastrukturen (KISSKI)"
 code:
     url: ""
     license: ""

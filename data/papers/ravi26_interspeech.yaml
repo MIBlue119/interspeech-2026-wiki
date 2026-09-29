@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ravi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ravi26_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
 topics: [asr, evaluation, self-supervised]
+category: asr
+labels:
+  - "multilingual"
+  - "robustness-noise"
+institutions:
+  - "CSIR Fourth Paradigm Institute"
+funding:
+  - "Council of Scientific and Industrial Research"
+  - "Anusandhan National Research Foundation"
 code:
     url: https://github.com/Nagarathna-R/2026_RanDiS_Interspeech
     license: ""

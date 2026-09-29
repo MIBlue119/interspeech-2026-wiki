@@ -1,6 +1,6 @@
 ---
 id: nguyen26g_interspeech
-category: asr
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nguyen26g_interspeech.pdf
 *Hanh Nguyen, Tuong Tu Huu, Huan Vu, Thien Van Luong, Tien Cuong Nguyen, Trang Thu Thi Nguyen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nguyen26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nguyen26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3239)
+
+**Category:** `applications-other`
 
 **TL;DR** — This paper introduces MDD-LSSG, a Mispronunciation Detection and Diagnosis framework that constructs directed, language-specific statistical phoneme confusion graphs to capture empirical L1 error tendencies. Evaluated on the L2-ARCTIC benchmark, it achieves a headline F1-score of 59.52%, outperforming competitive baseline models.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-Assisted Language Learning (CALL), Computer-Assisted Pronunciation Training (CAPT), automated second-language speech assessment and diagnostic feedback systems.
+
+## Institutions / 機構
+
+Hanoi University of Science and Technology, VNPT Group, National Economics University
 
 ## Related
 

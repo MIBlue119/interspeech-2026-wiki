@@ -18,6 +18,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/aldeneh26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/aldeneh26_interspeech.pdf
 session: Robust and Efficient ASR
 topics: [asr, self-supervised, dataset]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Apple"
+  - "Carnegie Mellon University"
 code:
     url: ""
     license: ""

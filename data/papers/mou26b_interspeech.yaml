@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mou26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mou26b_interspeech.pdf
 session: Long-Form Speech Synthesis
 topics: [tts, speech-llm, prosody]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "University of Science and Technology of China"
+  - "iFLYTEK"
 code:
     url: https://muzw.github.io/dynapros/
     license: ""

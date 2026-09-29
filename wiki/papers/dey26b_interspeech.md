@@ -1,6 +1,6 @@
 ---
 id: dey26b_interspeech
-category: speech-llm
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dey26b_interspeech.pdf
 *Spandan Dey, Nidhi Mantri, Sambit Behera, Hirak Mondal, Sanjay Kurmi, Sreyasree Mandal, Atharv Joshi, Premjeet Singh, Gopal Agrawal*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dey26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dey26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3115)
+
+**Category:** `asr`
 
 **TL;DR** — This paper presents an end-to-end acoustic named entity recognition (NER) framework that addresses poor organization entity recognition using a structure-constrained entity learning objective and LLM-based targeted semantic augmentation, improving organization F1-score from 19.04% to 51.40% over baseline.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice-driven assistants, smart home devices, and conversational voice applications requiring real-time named entity extraction directly from speech.
+
+## Institutions / 機構
+
+Samsung
 
 ## Related
 

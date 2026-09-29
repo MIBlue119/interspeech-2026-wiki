@@ -1,6 +1,6 @@
 ---
 id: nanni26_interspeech
-category: evaluation
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nanni26_interspeech.pdf
 *Matilde Nanni*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nanni26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nanni26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2379)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper critically analyzes current contractual consent models in voice synthesis and proposes adopting 'dynamic consent' from bioethics as a governance solution to protect personal identity and prevent identity-based harms. It demonstrates how static one-time authorization fails due to the dual nature of voice as both data and an immutable marker of personal identity.
 
@@ -56,6 +58,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Ethical AI governance, voice cloning platform design, creator-consent management portals, and regulatory compliance frameworks for synthetic media.
+
+## Institutions / 機構
+
+University of Inland Norway
 
 ## Related
 

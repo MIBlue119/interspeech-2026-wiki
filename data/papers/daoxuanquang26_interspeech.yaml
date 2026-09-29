@@ -11,6 +11,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/daoxuanquang26_interspee
 pdf_url: https://www.isca-archive.org/interspeech_2026/daoxuanquang26_interspeech.pdf
 session: Long-form Audio & New Attention Approaches
 topics: [speech-llm, evaluation, paralinguistics]
+category: applications-other
+institutions:
+  - "Hanoi University of Science and Technology"
 code:
     url: https://github.com/cssi87m/M-LAMA
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: guo26d_interspeech
-category: asr
+category: health-clinical
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/guo26d_interspeech.pdf
 *Yuchu Guo, Leslie M. Collins, Boyla O. Mainsah*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/guo26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/guo26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2689)
+
+**Category:** `health-clinical` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — This paper investigates lightweight, causal convolutional front-ends paired with sequence backends for real-time framewise phoneme classification in cochlear implants, achieving up to 36.98% accuracy while maintaining sub-10ms latency on an STM32 microcontroller.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cochlear implant sound processors, real-time low-power hearing aids, and edge-device causal speech enhancement systems.
+
+## Institutions / 機構
+
+Duke Kunshan University, Duke University
+
+**Funding / 經費:** Duke Summer Research Program for Duke Kunshan University Undergraduates
 
 ## Related
 

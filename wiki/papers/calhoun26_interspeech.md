@@ -1,6 +1,6 @@
 ---
 id: calhoun26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/calhoun26_interspeech.pdf
 *Sasha Calhoun, Paul Warren, Sara Gilbert*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/calhoun26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/calhoun26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1642)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates how listeners' gendered experiences and ideological beliefs modulate iconic pitch-size associations (the Frequency Code), demonstrating through a priming and Implicit Association Task (IAT) that these associations are malleable and vary significantly by listener and voice gender.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving synthetic voice design, expressive text-to-speech modeling, and socially aware speech interface agents by accounting for listener gender stereotypes and iconic pitch associations.
+
+## Institutions / 機構
+
+Victoria University of Wellington
+
+**Funding / 經費:** Faculty Strategic Research Grant from Te Herenga Waka – Victoria University of Wellington
 
 ## Related
 

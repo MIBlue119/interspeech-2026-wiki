@@ -1,6 +1,7 @@
 ---
 id: borodin26b_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [low-resource, multilingual, dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/borodin26b_interspeech.pdf
 *Kirill Borodin, Vasiliy Kudryavtsev, Maxim Maslov, Mikhail Gorodnichev, Grach Mkrtchian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/borodin26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/borodin26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-345)
+
+**Category:** `deepfake-security` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — The paper introduces LRLspoof, a 2,732-hour multilingual corpus spanning 66 languages (45 low-resource) and 24 TTS systems, revealing through zero-shot threshold transfer that language mismatch is an independent source of domain shift causing severe performance disparities in spoof detection.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing and improving the robustness of speech-driven security systems, speaker verification pipelines, and audio deepfake detectors against multilingual and low-resource spoofing attacks.
+
+## Institutions / 機構
+
+Moscow Technical University of Communications and Informatics, BitmanagerAI
 
 ## Related
 

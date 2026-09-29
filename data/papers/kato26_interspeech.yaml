@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kato26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kato26_interspeech.pdf
 session: Speech Synthesis, Voice Conversion and Audio Generation
 topics: [speech-enhancement, voice-conversion, self-supervised]
+category: tts
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "SoftBank"
+  - "University of Tokyo"
+  - "Keio University"
 code:
     url: ""
     license: ""

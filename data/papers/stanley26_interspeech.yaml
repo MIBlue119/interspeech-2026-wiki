@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/stanley26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/stanley26_interspeech.pdf
 session: Brain Studies and Speech
 topics: [paralinguistics, speech-llm, health]
+category: phonetics-linguistics
+institutions:
+  - "University of Texas at Austin"
+  - "Helen DeVos Children's Hospital"
+  - "Corewell Health"
+  - "Michigan State University"
+funding:
+  - "University of Texas System Brain Initiative"
+  - "National Institutes of Health"
 code:
     url: ""
     license: ""

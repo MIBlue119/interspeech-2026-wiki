@@ -1,6 +1,7 @@
 ---
 id: yang26i_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26i_interspeech.pdf
 *Yifei Yang, Zheng Wang, Yu Sun, Wentao Hua, Xiaobin Rong, Kai Chen, Jing Lu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1524)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`
 
 **TL;DR** — The paper introduces Dynamic Spatial-aware Knowledge Distillation (D-SKD), a training framework that uses a single-channel teacher model to mitigate spatial ambiguity in lightweight dual-channel speech enhancement without adding inference overhead. D-SKD improves PESQ and STOI for closely-spaced sources (0°-15°) while preserving performance elsewhere.
 
@@ -67,6 +70,12 @@ Researchers and engineers building edge-deployed multi-channel speech enhancemen
 ## Applications
 
 Real-time edge speech enhancement for teleconferencing hardware, smart glasses, hearing aids, and front-end acoustic noise suppression for ASR systems.
+
+## Institutions / 機構
+
+Nanjing University, Horizon Robotics, Samsung Electronics
+
+**Funding / 經費:** National Natural Science Foundation of China, AI & AI for Science Project of Nanjing University
 
 ## Related
 

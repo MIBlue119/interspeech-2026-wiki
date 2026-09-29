@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yen26_interspeech.pdf
 session: Robust and Efficient ASR
 topics: [asr, multilingual, self-supervised]
+category: asr
+labels:
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "Georgia Institute of Technology"
+  - "Universita degli Studi di Palermo"
+  - "NVIDIA"
 code:
     url: ""
     license: ""

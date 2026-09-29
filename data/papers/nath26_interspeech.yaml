@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nath26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/nath26_interspeech.pdf
 session: Speaker-Specific, Forensic and Segmental Characteristics of Typical and Atypical Speech
 topics: [phonetics, low-resource, multilingual]
+category: phonetics-linguistics
+institutions:
+  - "Australian National University"
+funding:
+  - "Australian Linguistic Society Research Grant"
+  - "Bhati Family India Travel Grant"
+  - "South Asian Research Institute Student Support Grant"
 code:
     url: ""
     license: ""

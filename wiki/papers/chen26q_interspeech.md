@@ -1,6 +1,7 @@
 ---
 id: chen26q_interspeech
-category: keyword-spotting
+category: asr
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26q_interspeech.pdf
 *Xi Chen, Haichuan Bai, Liming Song*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1676)
+
+**Category:** `asr` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper presents a streaming open-vocabulary keyword spotting (KWS) framework using a novel cross-attention data flow where streaming speech acts as the Query and text enrollment as the Key/Value. Evaluated on LibriPhrase, the 0.8M-parameter model achieves an EER of 28.21% and AUC of 79.19% on hard negatives.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device voice wake-up and hands-free voice interaction systems for smartphones, wearables, and IoT appliances requiring open-vocabulary personalization.
+
+## Institutions / 機構
+
+Samsung
 
 ## Related
 

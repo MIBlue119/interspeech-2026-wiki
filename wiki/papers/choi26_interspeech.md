@@ -1,6 +1,7 @@
 ---
 id: choi26_interspeech
 category: asr
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/choi26_interspeech.pdf
 *Woosuk Choi, Dohyeon Lee, Taehyung Kim, Hyukjun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/choi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/choi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-698)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — A systematic post-training quantization study of Whisper ASR models across 80+ configurations reveals that activation bit-width is the dominant accuracy factor, and that NVFP4 W4A16 achieves near-lossless compression (within 0.07% of full-precision WER at 6.4x reduction).
 
@@ -70,6 +73,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device speech recognition, mobile voice assistants, edge transcription devices, and hearing aids.
+
+## Institutions / 機構
+
+LG Electronics, Sogang University
 
 ## Related
 

@@ -9,6 +9,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/qi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/qi26_interspeech.pdf
 session: LLMs and Conversational Interaction
 topics: [speech-llm, self-supervised, multilingual]
+category: speech-llm-dialogue
+labels:
+  - "streaming-real-time"
+institutions:
+  - "KTH Royal Institute of Technology"
+funding:
+  - "Wallenberg AI, Autonomous Systems and Software Program (WASP)"
+  - "Knut and Alice Wallenberg Foundation"
+  - "Swedish Research Council"
 code:
     url: https://github.com/Haotian-Qi/MuVAP
     license: ""

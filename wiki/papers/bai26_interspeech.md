@@ -1,6 +1,7 @@
 ---
 id: bai26_interspeech
 category: tts
+labels: [low-resource, dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bai26_interspeech.pdf
 *Peng Bai, Chenyang Lyu, Yue Zhou, Wujin Sun, Longyue Wang, Weihua Luo, Xiaodong Shi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bai26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bai26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-131)
+
+**Category:** `tts` · **Labels:** `low-resource`, `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — This paper establishes the first benchmark for Chinese Yue Opera Singing Voice Synthesis (SVS) by introducing the Yue Opera Audio-Text (YOAT) dataset, three targeted data augmentation strategies, and YueOpera-Singer, a conditional flow-matching baseline model achieving a subjective MOS of 3.92.
 
@@ -66,6 +69,12 @@ Speech and ML researchers working on low-resource singing voice synthesis, tradi
 ## Applications
 
 Digital preservation of endangered traditional operas, interactive cultural heritage entertainment systems, and localized Wu dialect singing voice generation.
+
+## Institutions / 機構
+
+Xiamen University, Alibaba Group
+
+**Funding / 經費:** Major Scientific Research Project of the State Language Commission in the 13th Five-Year Plan
 
 ## Related
 

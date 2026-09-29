@@ -1,6 +1,7 @@
 ---
 id: he26b_interspeech
-category: source-separation
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/he26b_interspeech.pdf
 *Changjun He, Wenjie Zhang, Shiyun Xu, Lianyu Zhou, Weiping Chen, Mingjiang Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/he26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/he26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-607)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — Spec2Spatial is a time-frequency spatial attention network for binaural audio synthesis that explicitly models interaural level and time differences, achieving state-of-the-art DILD (1.250 dB) and DITD (0.034 ms) on the Binaural Speech dataset.
 
@@ -69,6 +72,12 @@ Researchers and audio engineers working on spatial audio rendering, VR, or neura
 ## Applications
 
 Virtual reality (VR) audio rendering, immersive online conference systems, and real-time binaural speech/music transmission.
+
+## Institutions / 機構
+
+Harbin Institute of Technology
+
+**Funding / 經費:** National Natural Science Foundation of China, Guangdong Basic and Applied Basic Research Foundation, Shenzhen Higher Education Institutions Stability Support Program, Key Research and Development Program of Xinjiang Uygur Autonomous Region
 
 ## Related
 

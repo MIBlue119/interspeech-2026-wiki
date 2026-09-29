@@ -11,6 +11,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/franz26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/franz26_interspeech.pdf
 session: Pathological Speech Assessment 2
 topics: [paralinguistics, speech-enhancement, evaluation]
+category: health-clinical
+labels:
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "Jade University of Applied Sciences"
+  - "Carl von Ossietzky Universitat Oldenburg"
+funding:
+  - "Lower Saxony Ministry for Science and Culture"
+  - "Volkswagen Foundation"
+  - "Deutsche Forschungsgemeinschaft"
 code:
     url: https://svenfranz.github.io/Room-Acoustics-and-Objective-Voice-Quality-in-SLT/
     license: ""

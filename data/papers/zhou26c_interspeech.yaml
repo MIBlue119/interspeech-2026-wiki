@@ -16,6 +16,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhou26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26c_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [speech-llm, evaluation, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Nankai University"
+funding:
+  - "National Key R&D Program of China"
+  - "NSF China"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: horiguchi26_interspeech
-category: speaker-diarization
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/horiguchi26_interspeech.pdf
 *Shota Horiguchi, Marc Delcroix, Naohiro Tawara, Takanori Ashihara, Atsushi Ando*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/horiguchi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/horiguchi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-45)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper proposes a co-training framework that uses causal and anticausal speaker diarization models to iteratively transform loose multi-talker ASR annotations into tight pseudo labels, recovering about 70% of the tightening effect of ideal supervised training.
 
@@ -68,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Guided source separation, conversational spoken dialogue system data curation, and multi-talker automatic speech recognition preprocessing.
+
+## Institutions / 機構
+
+NTT
 
 ## Related
 

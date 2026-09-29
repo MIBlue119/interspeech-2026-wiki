@@ -1,6 +1,7 @@
 ---
 id: perezgonzalezdemartos26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/perezgonzalezdemartos26_inter
 *Alejandro Pérez-González-de-Martos, Florian Lux, Angelina Elizarova, Milana Shkhanukova, Andreas Kellner, Mattia Antonino Di Gangi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/perezgonzalezdemartos26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/perezgonzalezdemartos26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1407)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper introduces Voice Activity Detection (VAD) conditioning for inpainting-based text-to-speech (TTS) to enable precise temporal alignment for automatic lip-synchronous dubbing without requiring paired video data. The approach achieves a VAD alignment accuracy of ~96% while maintaining natural prosody.
 
@@ -63,6 +66,10 @@ Speech researchers and dubbing engineers should read this to learn how to achiev
 ## Applications
 
 Automated cross-lingual movie dubbing, video localization, and speech-to-speech translation tools requiring strict temporal audio synchronization.
+
+## Institutions / 機構
+
+AppTek
 
 ## Related
 

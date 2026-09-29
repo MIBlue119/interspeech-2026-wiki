@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26ba_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26ba_interspeech.pdf
 session: Brain Studies and Speech
 topics: [speech-perception, paralinguistics, phonetics]
+category: phonetics-linguistics
+institutions:
+  - "Hong Kong Polytechnic University"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

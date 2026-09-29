@@ -1,6 +1,6 @@
 ---
 id: thebaud26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/thebaud26_interspeech.pdf
 *Thomas Thebaud, Yuzhe Wang, Laureano Moro-Velázquez, Jesús Villalba-Lopez, Najim Dehak*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/thebaud26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/thebaud26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2670)
+
+**Category:** `speaker`
 
 **TL;DR** — Off-the-shelf speech-aware LLMs show poor speaker verification capability (EERs >20%), but injecting frozen ECAPA-TDNN speaker embeddings via a linear projection and LoRA adapters enables TinyLLaMA-1.1B to achieve 1.03% EER on VoxCeleb1-Extended.
 
@@ -67,6 +69,10 @@ Researchers and engineers building multimodal speech LLMs or looking to integrat
 ## Applications
 
 Biometric authentication, personalized voice-interactive conversational agents, speaker-aware dialogue analysis, and healthcare diagnostics.
+
+## Institutions / 機構
+
+Johns Hopkins University
 
 ## Related
 

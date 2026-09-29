@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nguyen26e_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/nguyen26e_interspeech.pdf
 session: Acoustic Event Detection 3
 topics: [speech-llm, health, multilingual]
+category: health-clinical
+labels:
+  - "multilingual"
+institutions:
+  - "University of Massachusetts Lowell"
 code:
     url: ""
     license: ""

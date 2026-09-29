@@ -1,6 +1,7 @@
 ---
 id: leal26b_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/leal26b_interspeech.pdf
 *Samara S. Leal, Stavros Ntalampiras, Antonio Trabacca, Marcella Bellani, Roberto Sassi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/leal26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/leal26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-742)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates longitudinal vocal changes in hikikomori patients undergoing internet-based cognitive behavioral therapy, demonstrating that session-by-session speech trajectories predict treatment outcomes better than static pre-post comparisons. A feature fusion model combining Wav2vec 2.0 embeddings with traditional Mel-frequency cepstral coefficients and fundamental frequency achieves the highest F1-scores across age and gender groups.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated telepsychology monitoring tools, remote cognitive behavioral therapy support systems, and objective vocal biomarker tracking for depressive disorders and social withdrawal.
+
+## Institutions / 機構
+
+University of Milan, Scientific Institute IRCCS E. Medea, University of Verona, Azienda Ospedaliera Universitaria Integrata
+
+**Funding / 經費:** European Union
 
 ## Related
 

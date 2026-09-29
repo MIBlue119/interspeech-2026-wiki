@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26l_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1641)
 
+**Category:** `speech-coding`
+
 **TL;DR** — This paper proposes a unified neural speech codec that processes 16, 24, and 48 kHz audio within a single model and weight set, matching the performance of rate-specific specialists at 1.5 kbps. It eliminates external resampling and separate model maintenance by combining a shared backbone with lightweight temporal alignment, feature modulation, and a three-stage progressive training strategy.
 
 ## Key contributions
@@ -70,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time multi-platform VoIP communication, cloud audio streaming services, and bandwidth-constrained speech transmission systems supporting heterogeneous client sampling rates.
+
+## Institutions / 機構
+
+Nanjing University, Samsung
+
+**Funding / 經費:** National Natural Science Foundation of China, Fundamental Research Funds for the Central Universities, Interdisciplinary Research Center for Future Intelligent Chips, Yachen Foundation
 
 ## Related
 

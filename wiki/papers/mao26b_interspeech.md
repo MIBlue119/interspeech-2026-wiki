@@ -1,6 +1,6 @@
 ---
 id: mao26b_interspeech
-category: asr
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mao26b_interspeech.pdf
 *Zhongxuan Mao, Yan Feng, Chenyu Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mao26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mao26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1702)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — Older Mandarin speakers exhibit compressed tonal spaces, contour flattening, and increased F0 variability during lexical tone production, resulting in an SVM classification accuracy drop to 84.50% (compared to 94.35% for younger speakers), with severe bidirectional T2↔T3 confusion.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Age-adaptive automatic speech recognition (ASR) systems for elderly populations and clinical speech therapy/assessment tools targeting early laryngeal motor deterioration via tone production tasks.
+
+## Institutions / 機構
+
+Nanjing University of Science and Technology, Johns Hopkins University
+
+**Funding / 經費:** Ministry of Education of China
 
 ## Related
 

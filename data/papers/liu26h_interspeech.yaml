@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26h_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26h_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
 topics: [asr, low-resource, multilingual]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Xinjiang University"
+  - "Tsinghua University"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

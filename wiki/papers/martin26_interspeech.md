@@ -1,6 +1,7 @@
 ---
 id: martin26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/martin26_interspeech.pdf
 *Vincent P. Martin, Jean-Luc Rouas, Pierre Philip*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/martin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/martin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-777)
+
+**Category:** `health-clinical` · **Labels:** `efficient-on-device`
 
 **TL;DR** — This paper investigates sleep deprivation and related symptoms on French read speech using frugal acoustic features and simple classifiers, achieving up to 85.2% UAR on psychomotor vigilance test metrics while prioritizing interpretability and environmental sustainability.
 
@@ -66,6 +69,12 @@ Researchers and engineers building interpretable, low-resource, and environmenta
 ## Applications
 
 Automated monitoring of driver fatigue, workplace alertness tracking, and remote home-based health screening for sleep disorders via smartphone audio.
+
+## Institutions / 機構
+
+Université de Lorraine, CNRS, Inria, University of Mons, Université de Bordeaux, Bordeaux INP, CHU Bordeaux
+
+**Funding / 經費:** Labex BRAIN, French National Research Agency
 
 ## Related
 

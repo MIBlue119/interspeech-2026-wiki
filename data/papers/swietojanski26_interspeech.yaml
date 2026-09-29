@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/swietojanski26_interspee
 pdf_url: https://www.isca-archive.org/interspeech_2026/swietojanski26_interspeech.pdf
 session: Long-form Audio & New Attention Approaches
 topics: [asr, self-supervised, on-device]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Apple"
 code:
     url: ""
     license: ""

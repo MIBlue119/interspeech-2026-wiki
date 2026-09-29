@@ -1,6 +1,7 @@
 ---
 id: kolani26_interspeech
 category: tts
+labels: [low-resource, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.pdf
 *Yakov Kolani, Maxim Melichov, Cobi Calev, Morris Alper*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kolani26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-604)
+
+**Category:** `tts` · **Labels:** `low-resource`, `dataset-or-benchmark-release`
 
 **TL;DR** — Phonikud introduces an open-source Hebrew grapheme-to-phoneme (G2P) pipeline and the ILSpeech corpus to resolve phonetic underspecification, enabling small, local TTS models (<100M parameters) to approach the quality of large proprietary systems.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Screen readers, smart home voice assistants, local text-to-speech engines for Hebrew, and automated speech evaluation tools for low-resource languages.
+
+## Institutions / 機構
+
+Reichman University, Cisco Systems, Tel Aviv University, Carnegie Mellon University
 
 ## Related
 

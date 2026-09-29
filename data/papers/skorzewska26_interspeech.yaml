@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/skorzewska26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/skorzewska26_interspeech.pdf
 session: Modeling L1 Acquisition
 topics: [paralinguistics, phonetics, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "Silesian University of Technology"
+funding:
+  - "National Science Centre, Poland"
+  - "European Union"
+  - "Ministry of Science and Higher Education, Poland"
 code:
     url: ""
     license: ""

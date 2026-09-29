@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26aa_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26aa_interspeech.pdf
 session: Multilingual, Cross-lingual & Low-Resource ASR
 topics: [asr, speech-translation, speech-llm]
+category: asr
+labels:
+  - "multilingual"
+institutions:
+  - "Alibaba Group"
+  - "University of Macau"
+  - "Chinese University of Hong Kong"
+funding:
+  - "Science and Technology Development Fund of Macau SAR"
+  - "UM and UMDF"
 code:
     url: https://github.com/ChenX17/PART
     license: ""

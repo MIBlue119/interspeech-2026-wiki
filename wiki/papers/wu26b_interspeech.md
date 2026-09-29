@@ -1,6 +1,6 @@
 ---
 id: wu26b_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26b_interspeech.pdf
 *Xiaoliang Wu, Qiyang Sun, Yupei Li, Erfan Loweimi, Jennifer Williams, Zhengjun Yue*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-538)
+
+**Category:** `health-clinical`
 
 **TL;DR** — The paper introduces an instance-level, influence-based explainability framework for automatic dysarthria severity assessment that justifies predictions using supportive and competing training audio samples. Controlled deletion experiments validate that removing top influential samples drastically degrades accuracy (by up to 36.5 points), proving the framework's faithfulness.
 
@@ -62,6 +64,12 @@ Speech researchers and clinical ML engineers should read this paper to learn how
 ## Applications
 
 Clinical decision support systems for automated speech therapy planning, longitudinal disease monitoring, and dataset auditing for dysarthric speech corpora.
+
+## Institutions / 機構
+
+University of Southampton, Imperial College London, University of Edinburgh, King's College London
+
+**Funding / 經費:** Engineering and Physical Sciences Research Council, National Edge AI Hub for Real Data: Edge Intelligence for Cyberdisturbances and Data Quality, Responsible AI UK
 
 ## Related
 

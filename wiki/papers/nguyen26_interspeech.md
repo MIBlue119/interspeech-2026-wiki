@@ -1,6 +1,7 @@
 ---
 id: nguyen26_interspeech
 category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nguyen26_interspeech.pdf
 *Trung Nguyen, Cheng Yi Lewis Won, Minh Duc Pham, Yingxu He, Shuo Sun, Ai Ti Aw*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nguyen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nguyen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-110)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — This paper applies Direct Preference Optimization (DPO) to align multilingual Audio LLMs for English-Mandarin code-switching speech recognition, reducing Mixed Error Rate (MER) by up to 89.6% on in-distribution and 20.0% on out-of-distribution benchmarks. It constructs 100K preference pairs contrasting ground-truth transcripts with synthetically generated flawed ones that mimic translation, omission, and hallucination failure modes.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual conversational voice assistants, automatic meeting transcription systems in bilingual regions, and spoken translation platforms.
+
+## Institutions / 機構
+
+Agency for Science, Technology and Research, Nanyang Technological University
+
+**Funding / 經費:** National Research Foundation, Singapore
 
 ## Related
 

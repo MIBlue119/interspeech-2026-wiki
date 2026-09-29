@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26m_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26m_interspeech.pdf
 session: Speaker Identity, States, and Traits in Paralinguistics
 topics: [speaker-verification, evaluation, paralinguistics]
+category: speaker
+institutions:
+  - "University of Zurich"
+funding:
+  - "Marie Skłodowska-Curie Actions Doctoral Networks"
+  - "European Union"
+  - "Swiss State Secretariat for Education, Research and Innovation"
 code:
     url: ""
     license: ""

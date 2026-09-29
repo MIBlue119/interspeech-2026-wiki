@@ -18,6 +18,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/krzywdziak26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/krzywdziak26_interspeech.pdf
 session: Clinically Useful Speech Representations 2
 topics: [speech-llm, paralinguistics, health]
+category: health-clinical
+institutions:
+  - "AGH University of Krakow"
+  - "Samsung"
+funding:
+  - "Excellence Initiative - Research University program"
 code:
     url: ""
     license: ""

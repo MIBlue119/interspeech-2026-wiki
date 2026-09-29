@@ -20,6 +20,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/fong26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/fong26_interspeech.pdf
 session: Spatial Audio 1
 topics: [keyword-spotting, speech-llm, self-supervised]
+category: asr
+labels:
+  - "robustness-noise"
+institutions:
+  - "Huawei Technologies"
 code:
     url: ""
     license: ""

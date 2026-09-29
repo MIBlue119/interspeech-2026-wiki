@@ -1,6 +1,7 @@
 ---
 id: song26f_interspeech
-category: speech-translation
+category: translation
+labels: [multilingual, dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/song26f_interspeech.pdf
 *Yuchen Song, Xi Chen, Mingze Li, Satoshi Nakamura*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/song26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/song26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2321)
+
+**Category:** `translation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — This paper investigates English-to-Chinese speech-to-speech translation (S2ST) with a focus on preserving lexical stress, introducing a stress-annotated Mandarin dataset, a novel detector (Syl-BiLSTM), an objective metric (CETS), and a fine-tuned stress-aware TTS model that drastically improves emphasis transfer accuracy.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual speech translation, voice dubbing, interactive multilingual voice assistants, and expressive cross-lingual communication tools requiring precise speaker intent and emphasis preservation.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Shenzhen, Shenzhen Loop Area Institute
+
+**Funding / 經費:** National Natural Science Foundation of China, Program for Guangdong Introducing Innovative and Entrepreneurial Teams
 
 ## Related
 

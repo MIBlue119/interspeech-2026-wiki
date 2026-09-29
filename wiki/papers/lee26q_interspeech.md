@@ -1,6 +1,7 @@
 ---
 id: lee26q_interspeech
 category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26q_interspeech.pdf
 *Minsik Lee, Jihie Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1787)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — PhonePrune is a one-shot, phoneme-aware pruning framework for large-scale ASR models that preserves low-magnitude "phoneme tickets" critical for fine-grained phonetic distinctions, achieving an average WER of 11.50% at 50% sparsity.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device speech recognition, edge deployment of large-scale multilingual ASR models, and resource-constrained automatic transcription systems.
+
+## Institutions / 機構
+
+Dongguk University
+
+**Funding / 經費:** Ministry of Science and ICT, Information Technology Research Center, Institute for Information & Communications Technology Planning & Evaluation, Artificial Intelligence Convergence Innovation Human Resources Development
 
 ## Related
 

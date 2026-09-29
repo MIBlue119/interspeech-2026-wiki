@@ -1,6 +1,7 @@
 ---
 id: evans26_interspeech
-category: low-resource
+category: phonetics-linguistics
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/evans26_interspeech.pdf
 *Zoe E Evans, C. I. Watson, Peter J Keegan, Jesin James, Piata Allen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/evans26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/evans26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1561)
+
+**Category:** `phonetics-linguistics` · **Labels:** `low-resource`
 
 **TL;DR** — This paper maps the acceptable pronunciation ranges for te reo Māori vowels by triangulating acoustic measures, phonetician transcriptions, and fluent speaker evaluations using a bespoke tool called FRED. The study reveals a structural asymmetry where variants acceptable as monophthongs are penalised in diphthongs, challenging the view of diphthongs as mere vowel sequences.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-aided pronunciation training (CAPT) systems for te reo Māori and other indigenous languages undergoing revitalization, as well as pedagogical tool design for language teaching.
+
+## Institutions / 機構
+
+University of Auckland
 
 ## Related
 

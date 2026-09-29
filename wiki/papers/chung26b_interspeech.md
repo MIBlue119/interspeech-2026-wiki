@@ -1,6 +1,7 @@
 ---
 id: chung26b_interspeech
-category: speech-enhancement
+category: paralinguistics-emotion
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chung26b_interspeech.pdf
 *Hanwook Chung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chung26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chung26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2770)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper presents a convolutional transformer-based dual U-Net framework for robust audio-visual emotion recognition under severe noise and reverberation, achieving 89.14% UAR on CREMA-D.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time affective computing systems, healthcare patient monitoring, customer analytics call centers, and safety-critical human-machine interaction interfaces.
+
+## Institutions / 機構
+
+Faurecia IRYStec
 
 ## Related
 

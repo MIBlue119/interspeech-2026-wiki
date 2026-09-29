@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/fortier26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/fortier26_interspeech.pdf
 session: Speaker Diarization and Recognition
 topics: [speech-llm, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "self-supervised"
+institutions:
+  - "University of British Columbia"
+  - "Ecole de technologie superieure"
+  - "Johns Hopkins University"
 code:
     url: ""
     license: ""

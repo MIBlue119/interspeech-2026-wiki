@@ -1,6 +1,7 @@
 ---
 id: bartley26_interspeech
 category: asr
+labels: [low-resource, efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bartley26_interspeech.pdf
 *Christopher Bartley, Anton Ragni*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bartley26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bartley26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1302)
+
+**Category:** `asr` · **Labels:** `low-resource`, `efficient-on-device`, `self-supervised`
 
 **TL;DR** — This paper presents a low-compute, CPU-friendly approach to bootstrap ASR for endangered languages by using crowdsourced short-form audio to force-align unsegmented long-form archives. The resulting HMM and fine-tuned Whisper models substantially outperform massive zero-shot multilingual foundation models (OmniASR, MMS, Whisper) on out-of-domain endangered language evaluation.
 
@@ -66,6 +69,10 @@ Speech researchers and engineers working on low-resource or endangered languages
 ## Applications
 
 Revitalization and digital archiving of endangered, indigenous, and low-resource languages via accessible CPU-based speech recognition systems.
+
+## Institutions / 機構
+
+University of Sheffield
 
 ## Related
 

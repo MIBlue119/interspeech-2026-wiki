@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dahal26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dahal26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dahal26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-322)
 
+**Category:** `asr`
+
 **TL;DR** — MoPE-LoRA introduces a parameter-efficient adaptation framework for accented English speech recognition that routes frames through six phoneme-category low-rank experts instead of accent-specific modules, achieving 10.43% WER on L2-ARCTIC.
 
 ## Key contributions
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust multi-accent automatic speech recognition systems for voice assistants, transcription software, and telecommunication services operating in multilingual environments.
+
+## Institutions / 機構
+
+Universidad Politecnica de Madrid, National University of Singapore
+
+**Funding / 經費:** BRAINS, MCIN, AEI, European Regional Development Fund, European Union, Comunidad de Madrid
 
 ## Related
 

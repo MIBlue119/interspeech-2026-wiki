@@ -1,6 +1,7 @@
 ---
 id: ploujnikov26_interspeech
-category: tts
+category: speech-llm-dialogue
+labels: [efficient-on-device, self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ploujnikov26_interspeech.pdf
 *Artem Ploujnikov, Francesco Verdini, Samir Sadok, Mirco Ravanelli*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ploujnikov26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ploujnikov26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2784)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `self-supervised`, `generative-model`
 
 **TL;DR** — HybridCodec and HybridLM combine temporally compressed discrete tokens with a single-step non-autoregressive continuous residual stream, maintaining high-fidelity speaker identity and semantics at ultra-low frame rates down to 6.25 Hz while significantly reducing autoregressive generation steps.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Zero-shot text-to-speech, low-bandwidth neural speech coding, and unified multi-modal speech-text dialogue systems.
+
+## Institutions / 機構
+
+Mila, Quebec AI Institute, Concordia University, Sapienza University of Rome, Inria, Universite Grenoble Alpes CNRS
+
+**Funding / 經費:** NSERC, Digital Research Alliance of Canada, Translated, Apple, VisaSpeech Inria Associated Team
 
 ## Related
 

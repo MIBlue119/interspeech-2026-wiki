@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/muthu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/muthu26_interspeech.pdf
 session: Self-supervised Speech Representation Learning
 topics: [asr, stuttering-detection, self-supervised]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "SRM Institute of Science and Technology"
+funding:
+  - "Department of Science and Technology"
 code:
     url: https://github.com/mm0718-srmist/dysfluentnet
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: znotins26_interspeech
 category: asr
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/znotins26_interspeech.pdf
 *Arturs Znotins, Normunds Gruzitis, Andris Rozentals, Maris Golubovskis, Mikelis Gulbis, Roberts Dargis*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/znotins26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/znotins26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3469)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — This paper investigates low-resource rich medical ASR in Latvian, comparing end-to-end foundation models with a two-stage verbatim ASR + LLM post-editing pipeline. Using 50 hours of medical dictation and 75 hours of pseudo-labeled audio, fine-tuned Whisper-large-v3 achieves an error rate reduction of over 6x, bringing WER down to 10.6%.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical documentation, speech-to-text reporting for radiology and histopathology, and electronic health record (EHR) population in low-resource languages.
+
+## Institutions / 機構
+
+University of Latvia, Assistentis, DATI Group, Viroling Technology
+
+**Funding / 經費:** European Union's Recovery and Resilience Facility
 
 ## Related
 

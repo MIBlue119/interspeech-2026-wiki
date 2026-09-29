@@ -1,6 +1,7 @@
 ---
 id: gonzalez26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gonzalez26_interspeech.pdf
 *Philippe Gonzalez*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gonzalez26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gonzalez26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-659)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — ADDSE applies absorbing discrete diffusion to the latent space of a neural audio codec for non-autoregressive speech enhancement, achieving strong non-intrusive objective metrics especially at low signal-to-noise ratios with very few sampling steps.
 
@@ -67,6 +70,10 @@ Speech and audio ML researchers should read this paper to see how absorbing disc
 ## Applications
 
 Real-time communication software, hearing aids, and on-device speech cleanup modules requiring robust noise suppression under severe low-SNR conditions.
+
+## Institutions / 機構
+
+Technical University of Denmark
 
 ## Related
 

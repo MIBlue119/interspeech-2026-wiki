@@ -1,6 +1,7 @@
 ---
 id: park26i_interspeech
 category: tts
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26i_interspeech.pdf
 *Ji-Hyun Park, Nam-Seok Song, Joon-Hyuk Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3079)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — This paper introduces emotion residual vectors (ERVs) derived from self-supervised speech embeddings to enable word-level emotional intensity control in TTS while preserving naturalness, achieving an A/B preference win over baseline HED-TTS of 87.1%.
 
@@ -65,6 +68,12 @@ Speech synthesis researchers working on fine-grained prosody and emotion control
 ## Applications
 
 Interactive voice assistants, audiobook narration, and expressive character dubbing in video games requiring precise word-level emotional emphasis.
+
+## Institutions / 機構
+
+Hanyang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT
 
 ## Related
 

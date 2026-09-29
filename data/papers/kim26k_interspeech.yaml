@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26k_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26k_interspeech.pdf
 session: Acoustic Event Detection 3
 topics: [paralinguistics, self-supervised, evaluation]
+category: health-clinical
+labels:
+  - "robustness-noise"
+institutions:
+  - "MODULABS"
+  - "Wonkwang University"
+funding:
+  - "Ministry of Education"
+  - "Jeonbuk State"
+  - "National Research Foundation of Korea"
 code:
     url: https://github.com/RSC-Toolkit/QLung
     license: ""

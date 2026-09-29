@@ -1,6 +1,7 @@
 ---
 id: shen26c_interspeech
-category: asr
+category: enhancement-separation
+labels: [efficient-on-device, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shen26c_interspeech.pdf
 *Xingyu Shen, Runze Wang, Wei-Ping Zhu, Benoit Champagne*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shen26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shen26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1972)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — The paper introduces a sequence-parallel band-split speech enhancement front-end built on Parallel Time-Band Mixer (PTBM) blocks and learned Observation-Adding (LOA), reducing Word Error Rate (WER) across DNS Challenge and CHiME-4 using frozen Whisper back-ends while maintaining a lightweight footprint of 0.96M parameters and 0.58 GMAC/s.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust on-device automatic speech recognition, far-field smart speakers, and voice interfaces operating in noisy and reverberant environments.
+
+## Institutions / 機構
+
+Concordia University, McGill University, Shenzhen University of Advanced Technology
 
 ## Related
 

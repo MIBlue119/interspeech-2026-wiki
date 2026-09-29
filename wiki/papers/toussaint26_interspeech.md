@@ -1,6 +1,7 @@
 ---
 id: toussaint26_interspeech
-category: speech-synthesis
+category: tts
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/toussaint26_interspeech.pdf
 *Guillaume Toussaint, Deborah Pereg, Kevin Scheck, Tanja Schultz, Jürgen Schmidhuber, Michael Wand*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/toussaint26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/toussaint26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2499)
+
+**Category:** `tts` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates learned representations in surface EMG-based silent speech interfaces, demonstrating that phonetic representations spontaneously emerge in latent space even without explicit phonetic supervision during training. However, self-supervised contrastive pretraining alone fails to yield representations suitable for speech synthesis or phone classification.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech restoration devices, silent communication interfaces, and myoelectric vocal interaction systems.
+
+## Institutions / 機構
+
+SUPSI, University of Bremen, King Abdullah University of Science and Technology
+
+**Funding / 經費:** Swiss National Science Foundation, German Research Foundation
 
 ## Related
 

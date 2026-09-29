@@ -1,6 +1,7 @@
 ---
 id: xie26c_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.pdf
 *Tianxin Xie, Chenxing Li, Dong Yu, Li Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1757)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — VoiceTTA introduces a reinforcement learning-based test-time adaptation (TTA) framework that optimizes lightweight learnable prefixes via group relative preference optimization (GRPO) to improve zero-shot text-to-speech imitation on uncommon speaking styles, achieving a 0.64 speaker similarity while maintaining a 3.12 WER.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Personalized on-device text-to-speech assistants, real-time dialect conversion, and conversational agents handling diverse, noisy, or accented user voice prompts.
+
+## Institutions / 機構
+
+Hong Kong University of Science and Technology, Tencent
+
+**Funding / 經費:** National Natural Science Foundation of China, Guangdong Basic and Applied Basic Research Foundation, Tencent AI Lab Rhino-Bird Program
 
 ## Related
 

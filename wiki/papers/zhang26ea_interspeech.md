@@ -1,6 +1,6 @@
 ---
 id: zhang26ea_interspeech
-category: speech-llm
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26ea_interspeech.pdf
 *Liyun Zhang, Xuanmeng Sha, Shuqiong Wu, Fengkai Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26ea_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26ea_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2364)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — AcoustEmo is a time-sensitive multimodal large language model that replaces global audio pooling with an utterance-aware acoustic Q-Former to capture local micro-prosody and temporal dynamics, achieving an average score of 67.55% on the EMER-Fine emotion reasoning benchmark.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Empathetic conversational agents, mental health monitoring systems, and advanced human-computer interaction platforms requiring nuanced emotion perception.
+
+## Institutions / 機構
+
+University of Tokyo, University of Osaka
+
+**Funding / 經費:** Japan Society for the Promotion of Science
 
 ## Related
 

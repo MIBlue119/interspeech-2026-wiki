@@ -16,6 +16,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26m_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26m_interspeech.pdf
 session: Audio-Visual and Generative Target Speaker Extraction
 topics: [target-speaker-extraction, self-supervised, speech-enhancement]
+category: enhancement-separation
+labels:
+  - "generative-model"
+institutions:
+  - "Nanyang Technological University"
+  - "Southeast University"
+  - "Schaeffler"
+funding:
+  - "RIE2025 Industry Alignment Fund - Industry Collaboration Projects"
+  - "A*STAR"
+  - "Schaeffler (Singapore) PTE. LTD"
+  - "NTU Singapore"
+  - "Schaeffler-NTU Corporate Lab: Intelligent Mechatronics Hub"
 code:
     url: https://huggingface.co/yaoxunji/gen-se
     license: ""

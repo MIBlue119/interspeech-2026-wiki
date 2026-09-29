@@ -1,6 +1,7 @@
 ---
 id: dutta26_interspeech
-category: asr
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dutta26_interspeech.pdf
 *Bikash Dutta, Siddhant Gahankari, Abhinav Kumar, Siddarth Modugu, Shalini Kapoor, Mayank Vatsa, Richa Singh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dutta26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dutta26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1777)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — Spashta Audio-Bench is a modular, plug-and-play evaluation framework for ASR and TTS across 22 Indian languages and Indian-accented English that exposes critical divergences between model scale, naturalness, and linguistic intelligibility. Evaluating 10 public models across 7 corpora (644 hours), it demonstrates that parameter scaling does not guarantee cross-language robustness and that high-pMOS TTS models frequently fail objective intelligibility checks.
 
@@ -67,6 +70,12 @@ Speech researchers and engineers building multilingual or low-resource speech sy
 ## Applications
 
 Benchmarking and auditing multilingual ASR and TTS deployments for regional accessibility, telecommunications, and voice assistant applications across Indic languages.
+
+## Institutions / 機構
+
+Indian Institute of Technology Jodhpur, EkStep Foundation
+
+**Funding / 經費:** EkStep Foundation, IndiaAI, Meta
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: wang26m_interspeech
-category: target-speaker-extraction
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26m_interspeech.pdf
 *Yichi Wang, Junzhe Chen, Wangjin Zhou, Tatsuya Kawahara*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-787)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — PATSE is a multi-channel, position-aware target speaker extraction front-end that uses direction-of-arrival (DOA) spatial priors to directly generate speaker-attributed audio streams for multi-party conversations without needing explicit diarization, achieving a WER of 14.0% on LibriReplay-DOA.
 
@@ -61,6 +63,12 @@ Speech and ML researchers working on multi-speaker meeting transcription will fi
 ## Applications
 
 Automated meeting transcription, multi-party conversational speech recognition, smart-speaker voice assistants.
+
+## Institutions / 機構
+
+Kyoto University
+
+**Funding / 經費:** JST BOOST, JST Moonshot R&D
 
 ## Related
 

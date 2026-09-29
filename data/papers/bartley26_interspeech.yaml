@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bartley26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/bartley26_interspeech.pdf
 session: Low-Resource & Endangered Language Speech Processing
 topics: [asr, low-resource, multilingual]
+category: asr
+labels:
+  - "low-resource"
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "University of Sheffield"
 code:
     url: https://github.com/c-bartley/el-asr
     license: ""

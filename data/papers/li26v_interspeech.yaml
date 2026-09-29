@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26v_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26v_interspeech.pdf
 session: Tones
 topics: [phonetics, prosody, multilingual]
+category: phonetics-linguistics
+institutions:
+  - "Hong Kong Baptist University"
+  - "Shandong University"
+funding:
+  - "Hong Kong University Grants Committee General Research Fund"
+  - "Hong Kong Baptist University Faculty of Arts and Social Sciences Digital Humanities Pilot Grant"
 code:
     url: ""
     license: ""

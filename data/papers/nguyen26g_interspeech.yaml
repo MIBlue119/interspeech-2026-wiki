@@ -13,6 +13,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nguyen26g_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/nguyen26g_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
 topics: [asr, self-supervised, multilingual]
+category: applications-other
+institutions:
+  - "Hanoi University of Science and Technology"
+  - "VNPT Group"
+  - "National Economics University"
 code:
     url: ""
     license: ""

@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mohapatra26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/mohapatra26_interspeech.pdf
 session: Methods and Data for Vocal Tract Shape and Articulation Analysis
 topics: [phonetics, evaluation, speech-production]
+category: phonetics-linguistics
+institutions:
+  - "University of British Columbia"
+funding:
+  - "Natural Sciences and Engineering Research Council of Canada"
+  - "UBC Graduate and Postdoctoral Studies"
 code:
     url: ""
     license: ""

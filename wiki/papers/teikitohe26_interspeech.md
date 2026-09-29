@@ -1,6 +1,7 @@
 ---
 id: teikitohe26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/teikitohe26_interspeech.pdf
 *Marie Teikitohe, Rolando Coto-Solano, Sally Akevai Nicholas*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/teikitohe26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/teikitohe26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3276)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates Automatic Speech Recognition (ASR) for endangered Marquesan and Cook Islands Māori, establishing that fine-tuned Wav2Vec2 models combined with KenLM language models achieve a WER of 30.0% and accelerate human language documentation workflows by 0.7x to 2.4x.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Accelerating Indigenous language documentation workflows, community-driven language revitalization projects, and automated transcription pipelines for low-resource Austronesian languages.
+
+## Institutions / 機構
+
+University of French Polynesia, Dartmouth College, University of Auckland
 
 ## Related
 

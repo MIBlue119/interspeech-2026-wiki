@@ -1,6 +1,6 @@
 ---
 id: kaffeza26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kaffeza26_interspeech.pdf
 *Ioanna Kaffeza, Efthymios Georgiou, Alexandros Potamianos*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kaffeza26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kaffeza26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2556)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper reveals that optimization-based gradient and loss-balancing methods for multimodal sentiment analysis fail to outperform simple late concatenation because they confuse training fit speed with test-time discriminative utility. Evaluating these techniques on CMU-MOSI and CMU-MOSEI uncovers high hyperparameter sensitivity, near-zero consistent gains over strong baselines, and a structural accuracy headroom of up to 8.7% achievable only via sample-level valuation.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multimodal sentiment analysis, affect recognition systems, and robust multi-stream sensor fusion frameworks requiring reliable modality balancing.
+
+## Institutions / 機構
+
+Mines Paris-PSL University, University of Bern, National Technical University of Athens, Archimedes AI, Synaptic Bloom
 
 ## Related
 

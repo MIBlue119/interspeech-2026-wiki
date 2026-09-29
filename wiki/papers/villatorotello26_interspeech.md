@@ -1,6 +1,6 @@
 ---
 id: villatorotello26_interspeech
-category: speech-llm
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/villatorotello26_interspeech.
 *Esaú Villatoro-Tello, Sergio Burdisso, Shashi Kumar, Hasindri Watawana, Srikanth Madikeri, Manjunath K E, Jeena Prakash, Thibault Bañeras-Roux, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/villatorotello26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/villatorotello26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3326)
+
+**Category:** `asr`
 
 **TL;DR** — The paper introduces a hybrid context projector and keyword extraction module for LLM-based ASR that conditions on dialogue history while keeping the backbone frozen, achieving an average relative reduction of up to 2.5% in WER and 7.2% in BWER across contact-center domains.
 
@@ -62,6 +64,12 @@ Speech and ML engineers building spoken dialogue systems will learn how to injec
 ## Applications
 
 Real-time contact-center agent assist, spoken dialogue state tracking, and entity-aware speech transcription for customer support automation.
+
+## Institutions / 機構
+
+Idiap Research Institute, EPFL, University of Zurich, Uniphore, Brno University of Technology
+
+**Funding / 經費:** Idiap Research Institute, Uniphore, EU Horizon 2020
 
 ## Related
 

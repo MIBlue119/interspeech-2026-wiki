@@ -16,6 +16,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ramapuram26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/ramapuram26_interspeech.pdf
 session: Generative Audio and Music
 topics: [speech-llm, self-supervised, tts]
+category: speech-llm-dialogue
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Apple"
 code:
     url: https://github.com/apple/ml-diffuslm
     license: ""

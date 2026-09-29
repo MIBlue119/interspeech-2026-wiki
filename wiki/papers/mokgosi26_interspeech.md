@@ -1,6 +1,7 @@
 ---
 id: mokgosi26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mokgosi26_interspeech.pdf
 *Kesego Mokgosi, Vukosi Marivate, Sitwala Mundia, Unarine Netshifhefhe, Tsholofelo Mogale, Thapelo Sindane*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mokgosi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mokgosi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2905)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — A tone-conditioned curriculum framework was developed for low-resource Southern Bantu speech recognition, combining hybrid difficulty scoring with gated tone-conditioned adapters. Evaluating across Whisper, W2V-BERT, and MMS revealed that W2V-BERT achieved a 23.81% WER with tone conditioning, outperforming Whisper on Nguni languages while trailing on Sotho-Tswana systems.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building robust, community-governed automatic speech recognition systems for low-resource educational, civic, and digital services in sub-Saharan Africa.
+
+## Institutions / 機構
+
+Technological University Dublin, University of Pretoria, Lelapa AI
+
+**Funding / 經費:** Gates Foundation, Meta, International Development Research Centre, Foreign, Commonwealth & Development Office, AI4D Africa Program, Research Ireland, ADAPT Research Ireland Centre for AI-Driven Digital Content Technology
 
 ## Related
 

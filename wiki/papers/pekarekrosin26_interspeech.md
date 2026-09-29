@@ -1,6 +1,7 @@
 ---
 id: pekarekrosin26_interspeech
 category: asr
+labels: [dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pekarekrosin26_interspeech.pd
 *Theresa Pekarek Rosin, Matthias Kerzel, Stefan Wermter*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pekarekrosin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pekarekrosin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2111)
+
+**Category:** `asr` · **Labels:** `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — MoDiCoL is a modular diagnostic continual learning dataset and curriculum designed to systematically study ASR robustness under compounding distributional shifts. Experience Replay with a 10% buffer achieves a headline average WER of 17.31%, outperforming joint training baselines.
 
@@ -65,6 +68,12 @@ Speech researchers and ML engineers building adaptive or streaming ASR systems s
 ## Applications
 
 Adapting on-device speech recognition systems to evolving user accents, noisy environments, and specialized medical or aviation domains without catastrophic forgetting.
+
+## Institutions / 機構
+
+University of Hamburg
+
+**Funding / 經費:** Horizon Europe
 
 ## Related
 

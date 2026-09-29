@@ -14,6 +14,23 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wen26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wen26b_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
 topics: [spoken-language-understanding, low-resource, self-supervised]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "South China Normal University"
+  - "Columbia University"
+  - "Sun Yat-sen University"
+  - "Guangzhou College of Commerce"
+  - "LMU Munich"
+  - "Munich Center for Machine Learning"
+funding:
+  - "National Science Foundation"
+  - "Guangdong Basic and Applied Basic Research Foundation"
+  - "National Natural Science Foundation of China"
+  - "Characteristic Innovation Projects of Guangdong Colleges and Universities"
+  - "Guangdong Provincial Key Laboratory"
 code:
     url: https://huggingface.co/datasets/Multilingual-NLP/YUE-PUB-Speech
     license: ""

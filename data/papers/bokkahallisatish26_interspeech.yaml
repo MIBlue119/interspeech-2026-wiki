@@ -15,6 +15,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bokkahallisatish26_inter
 pdf_url: https://www.isca-archive.org/interspeech_2026/bokkahallisatish26_interspeech.pdf
 session: 'Spoken Language Processing: Evaluation and Metrics'
 topics: [speech-llm, evaluation, multilingual]
+category: speech-llm-dialogue
+institutions:
+  - "KTH Royal Institute of Technology"
+  - "University of Edinburgh"
+  - "Texas A&M University"
+funding:
+  - "Wallenberg AI, Autonomous Systems and Software Program"
+  - "Knut and Alice Wallenberg Foundation"
 code:
     url: https://shreeharsha-bs.github.io/interspeech-voice-behind-words-website/
     license: ""

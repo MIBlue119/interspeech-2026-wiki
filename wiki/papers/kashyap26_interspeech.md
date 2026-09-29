@@ -1,6 +1,6 @@
 ---
 id: kashyap26_interspeech
-category: self-supervised
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kashyap26_interspeech.pdf
 *Bipasha Kashyap, Bjoern Schuller, Pubudu N. Pathirana*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kashyap26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kashyap26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1654)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper introduces a bounded information-theoretic framework combining MINE, CLUB, and KSG estimators to quantify cross-dimension statistical dependence in speech. Across six corpora, emotional, linguistic, and pathological handcrafted feature sets exhibit near-zero mutual information (<0.15 nats), whereas source-filter coupling is substantially higher at 0.47 nats.
 
@@ -65,6 +67,12 @@ Speech and ML researchers building disentangled representation architectures or 
 ## Applications
 
 Guiding the design of multi-task speech encoders with separate pathways, setting principled regularization targets for disentanglement, and informing feature selection for emotion recognition and clinical speech assessment.
+
+## Institutions / 機構
+
+Deakin University, Technical University of Munich, Imperial College London
+
+**Funding / 經費:** Networked Sensing and Biomedical Engineering Research Lab, Deakin University
 
 ## Related
 

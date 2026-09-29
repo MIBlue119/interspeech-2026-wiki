@@ -1,6 +1,6 @@
 ---
 id: lopez26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lopez26_interspeech.pdf
 *Fernando López, Santosh Kesiraju, Jordi Luque*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lopez26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lopez26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2503)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — A systematic robustness evaluation of large audio language models (LALMs) under multiple-choice question answering (MCQA) reveals that models are highly sensitive to linguistic variations, choice ordering, and distractor phrasing, while text-only controls expose significant language bias.
 
@@ -67,6 +69,12 @@ Speech and ML researchers designing evaluation benchmarks or training multimodal
 ## Applications
 
 Improving the reliability and robustness of automated audio evaluation benchmarks, speech-based question-answering systems, and multi-modal conversational assistants.
+
+## Institutions / 機構
+
+Telefonica, Universidad Autonoma de Madrid, Brno University of Technology
+
+**Funding / 經費:** European Union's Horizon 2020, Ministry of Education, Youth and Sports of the Czech Republic
 
 ## Related
 

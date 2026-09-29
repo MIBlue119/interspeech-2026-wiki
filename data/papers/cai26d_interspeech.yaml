@@ -13,6 +13,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cai26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cai26d_interspeech.pdf
 session: Acoustic Event Detection 2
 topics: [asr, self-supervised, evaluation]
+category: audio-understanding
+labels:
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "Xi'an Jiaotong-Liverpool University"
+  - "Zhongdian Zhiheng Information Technology Service Co., Ltd"
+  - "China Telecom Jiangsu Branch"
+  - "Nanjing University of Posts and Telecommunications"
+funding:
+  - "Jiangsu Provincial Major Science and Technology Project"
 code:
     url: https://github.com/bohanhu118/Interspeech2026_ESAS
     license: ""

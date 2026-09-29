@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/nguyen26i_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/nguyen26i_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
 topics: [asr, multilingual, self-supervised]
+category: asr
+labels:
+  - "multilingual"
+institutions:
+  - "VinUniversity"
+  - "University of Technology Sydney"
+  - "Monash University"
+funding:
+  - "Center for AI Research at VinUniversity"
+  - "Vingroup Scholarship"
 code:
     url: ""
     license: ""

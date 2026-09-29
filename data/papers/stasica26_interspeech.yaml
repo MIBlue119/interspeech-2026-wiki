@@ -14,6 +14,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/stasica26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/stasica26_interspeech.pdf
 session: Speech and Language Technologies in Healthcare
 topics: [paralinguistics, emotion-recognition, evaluation]
+category: health-clinical
+institutions:
+  - "University of Lorraine"
+  - "CNRS"
+  - "Inria"
+  - "CHRU-Nancy"
+  - "INSERM"
+funding:
+  - "Grand Est ENACT AI Cluster"
 code:
     url: ""
     license: ""

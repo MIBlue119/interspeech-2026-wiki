@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/holt26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/holt26_interspeech.pdf
 session: 'CHILDSPACE: Child Home Interaction & Language Dynamics: Speech, Psychology, Affect, Computation, and Environments'
 topics: [phonetics, prosody, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "Macquarie University"
+funding:
+  - "Macquarie University"
+  - "Australian Linguistic Society"
 code:
     url: ""
     license: ""

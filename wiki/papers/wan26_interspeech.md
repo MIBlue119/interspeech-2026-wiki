@@ -1,6 +1,6 @@
 ---
 id: wan26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wan26_interspeech.pdf
 *Junjie Wan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-868)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — A dual-stream micro-gesture recognition framework uses multi-order motion differences to suppress background noise in pose heatmaps and a class-level fusion strategy to optimize modality weights, achieving 67.02% Top-1 accuracy on the MA-52 dataset.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multimodal conversational agents, responsive robotic systems, and empathetic human-computer interaction interfaces requiring robust non-verbal intent analysis.
+
+## Institutions / 機構
+
+Harbin Institute of Technology
 
 ## Related
 

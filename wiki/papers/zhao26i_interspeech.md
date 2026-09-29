@@ -1,6 +1,7 @@
 ---
 id: zhao26i_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhao26i_interspeech.pdf
 *Haixin Zhao, Nilesh Madhu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhao26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhao26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2564)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — This paper investigates continuous (cNAC-SE) versus discrete (dNAC-SE) latent space modeling within Vector Quantization-based Neural Audio Codec frameworks for speech enhancement, demonstrating that a fully fine-tuned continuous model with VQ-based clean-prior regularisation achieves leading DNS-MOS performance with lower compute.
 
@@ -65,6 +68,10 @@ Read this paper if you are designing generative speech enhancement systems or ne
 ## Applications
 
 Cloud-based telecommunications, real-time noise suppression, and robust speech preprocessing for downstream speech recognition engines.
+
+## Institutions / 機構
+
+Ghent University, imec
 
 ## Related
 

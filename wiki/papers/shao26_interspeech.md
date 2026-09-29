@@ -1,6 +1,7 @@
 ---
 id: shao26_interspeech
-category: speech-watermarking
+category: deepfake-security
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shao26_interspeech.pdf
 *Yanda Shao, Mengke Zhang, Zhixin Lin, Tianyi Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2105)
+
+**Category:** `deepfake-security` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper proposes a phoneme-aware active speech watermarking defense using a Multi-Head Mamba (MH-Mamba) architecture to embed traceable identity bitstrings that survive state-of-the-art diffusion-based purification attacks. It achieves 99.9% source tracing accuracy on cloned speech with an ultra-low latency of roughly 1.1 seconds and high perceptual quality (35.67 dB SNR).
 
@@ -65,6 +68,10 @@ Speech and security researchers looking to transition from reactive deepfake det
 ## Applications
 
 Proactive voice clone tracing, source attribution for audio forensics, and copy protection for biometric voice identities.
+
+## Institutions / 機構
+
+Beijing University of Posts and Telecommunications, Beijing Institute of Technology
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: chen26ba_interspeech
-category: self-supervised
+category: resources-evaluation
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26ba_interspeech.pdf
 *Chuyang Chen, Sivan Ding, Adrian S. Roman, Juan P. Bello*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26ba_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26ba_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2506)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces the Spatial Audio Representation Learning (SARL) benchmark to systematically probe source- and room-level spatial factors in frozen pretrained audio models, revealing that current models encode source properties far better than global room properties. First-order Ambisonics (FOA) and binaural inputs combined with self-supervised masked spectrogram reconstruction yield the most robust spatial representations.
 
@@ -64,6 +67,12 @@ Speech and audio ML researchers designing spatial audio encoders or self-supervi
 ## Applications
 
 Benchmarking and diagnosing spatial awareness in foundation audio models for robotics, embodied AI, acoustic scene analysis, and immersive spatial audio systems.
+
+## Institutions / 機構
+
+New York University
+
+**Funding / 經費:** NYU / SONY Audio Institute for Music Business and Technology
 
 ## Related
 

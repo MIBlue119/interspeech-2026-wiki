@@ -1,6 +1,7 @@
 ---
 id: zhang26ia_interspeech
-category: keyword-spotting
+category: asr
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26ia_interspeech.pdf
 *Hanwen Zhang, Guosong Zhu, Zhen Qin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26ia_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26ia_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3546)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — The paper introduces Causal Temporal Relation Distillation to resolve causality mismatch in cross-architecture streaming keyword spotting, reducing false rejection rate by half (8.52% to 4.15%) on continuous streams without adding inference overhead.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device voice assistants, edge-deployed smart home devices, and low-latency wake-word detection systems.
+
+## Institutions / 機構
+
+Network and Data Security Key Laboratory of Sichuan Province, University of Electronic Science and Technology of China
+
+**Funding / 經費:** National Natural Science Foundation of China, Sichuan Science and Technology Support Plan
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: hou26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hou26_interspeech.pdf
 *Yong-Jie Hou, Yun-Fei Shao, Wei-Qiang Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hou26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hou26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1577)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — UGPCB is a training-free, decode-time contextual biasing framework that uses an entropy-driven gating mechanism and a bimodal grapheme-phoneme contrastive penalty to improve hotword recognition in large speech models. Evaluated on the Dolphin base model using the SeACo Mandarin benchmark, it achieves a 16.04% recall improvement (reaching 90.81% F1) while limiting precision reduction to 0.78%.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice assistants, smart home command recognition, and domain-specific conversational transcription systems requiring accurate dynamic vocabulary injection.
+
+## Institutions / 機構
+
+Tsinghua University, Tiangong University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: galhotra26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/galhotra26_interspeech.pdf
 *Yashaswi Galhotra, Priyanka Khante, Anna Madden-Rusnak, Kaya de Barbaro*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/galhotra26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/galhotra26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3234)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces deBarbaroFussCry, the first real-world dataset annotated for graded infant distress (crying, fussing, and non-distress) from daylong home audio, and establishes robust classification benchmarks using YAMNet embeddings combined with an RBF-kernel SVM (binary macro F1 = 0.803, ternary macro F1 = 0.624).
 
@@ -67,6 +70,10 @@ Researchers building real-world paralinguistic or child-centered audio monitorin
 ## Applications
 
 Automated home audio monitoring for infant wellbeing, computational tracking of caregiver responsiveness, and scalable developmental psychology research tools.
+
+## Institutions / 機構
+
+University of Texas at Austin
 
 ## Related
 

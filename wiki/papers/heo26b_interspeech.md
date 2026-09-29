@@ -1,6 +1,6 @@
 ---
 id: heo26b_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/heo26b_interspeech.pdf
 *Wonje Heo, Shinee Youn, Yooshin Kim, Chuck Chae, Donghoon Shin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/heo26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/heo26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2354)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper investigates audio forensics in the era of neural audio codecs (NACs), proposing a Transformer-based framework that recovers legacy compression traces from residual vector quantization (RVQ) tokens with up to 99.99% accuracy. It demonstrates that legacy codec signatures survive non-linear neural transcoding.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Audio forensics, deepfake and media authenticity verification, copyright infringement tracking, and digital content provenance auditing in neural audio distribution networks.
+
+## Institutions / 機構
+
+DGIST
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

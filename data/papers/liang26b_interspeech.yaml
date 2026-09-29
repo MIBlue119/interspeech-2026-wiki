@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liang26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/liang26b_interspeech.pdf
 session: Spatial Audio 2
 topics: [spatial-audio, video-to-audio, self-supervised]
+category: audio-understanding
+labels:
+  - "generative-model"
+institutions:
+  - "Peking University"
+  - "South China University of Technology"
+  - "Tencent"
 code:
     url: ""
     license: ""

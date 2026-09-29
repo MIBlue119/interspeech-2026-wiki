@@ -1,6 +1,6 @@
 ---
 id: gotz26b_interspeech
-category: dataset
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.pdf
 *Georg Götz, Konstantinos Gkanos, Steinar Guðjónsson, Daniel Gert Nielsen, Jesper Pedersen, Finnur Pind*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gotz26b_interspeech.html)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — The Treble SDK Scene Generator provides an interactive workflow for constructing, serialising, and rendering realistic multi-speaker and acoustic scenes from physically accurate room simulations. It decouples lightweight scene recipes from on-demand audio rendering to scale dataset generation for spatial audio and speech tasks.
 
@@ -56,6 +58,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Training and evaluating robust far-field speech recognition, speech enhancement, speaker separation, and spatial audio systems in simulated environments.
+
+## Institutions / 機構
+
+Treble Technologies
 
 ## Related
 

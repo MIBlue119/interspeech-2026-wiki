@@ -1,6 +1,6 @@
 ---
 id: khanom26_interspeech
-category: health
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/khanom26_interspeech.pdf
 *Roksana Khanom, Shafia Supty, Nirupam Roy, Ashok Agrawala*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/khanom26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/khanom26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2571)
+
+**Category:** `health-clinical`
 
 **TL;DR** — SpiroPhonia introduces a machine learning framework for non-invasive Chronic Obstructive Pulmonary Disease (COPD) detection from unconstrained spontaneous speech, achieving 78% accuracy and an 87% AUC on a 201-speaker dataset.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Passive, continuous health monitoring and early screening for chronic respiratory conditions via smartphone apps and smart home voice assistants.
+
+## Institutions / 機構
+
+University of Maryland, DR. M R Khan Shishu Hospital & Institute of Child Health
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/pangsatabam26_interspeec
 pdf_url: https://www.isca-archive.org/interspeech_2026/pangsatabam26_interspeech.pdf
 session: Low-Resource Speech Synthesis
 topics: [tts, low-resource, multilingual]
+category: tts
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "National Institute of Technology Manipur"
 code:
     url: ""
     license: ""

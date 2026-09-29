@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ren26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ren26b_interspeech.pdf
 session: Spatial Audio 3
 topics: [speech-llm, self-supervised, dataset]
+category: audio-understanding
+labels:
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Xi'an Jiaotong-Liverpool University"
+  - "Xiaomi"
+  - "University of Oulu"
+  - "Chinese Academy of Sciences"
+funding:
+  - "Xi'an Jiaotong-Liverpool University"
 code:
     url: https://github.com/Cell778/CoSTALA26.git
     license: ""

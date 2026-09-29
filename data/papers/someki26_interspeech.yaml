@@ -24,6 +24,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/someki26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/someki26_interspeech.pdf
 session: Robust and Real-World ASR Systems
 topics: [asr, speech-llm, self-supervised]
+category: asr
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Carnegie Mellon University"
+  - "Brno University of Technology"
+  - "Instituto Superior Técnico"
+  - "Hanyang University"
+  - "Hitachi Astemo"
+  - "Shanghai Jiao Tong University"
+funding:
+  - "Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support"
+  - "National Science Foundation"
+  - "Ministry of Education, Youth and Sports of the Czech Republic"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: maghsoudi26_interspeech
-category: speech-decoding
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/maghsoudi26_interspeech.pdf
 *Maryam Maghsoudi, Rupesh Chillale, Shihab A Shamma*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/maghsoudi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/maghsoudi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2836)
+
+**Category:** `applications-other`
 
 **TL;DR** — This paper investigates how neural representations relate across vocalized, mimed, and imagined speech modes using stereotactic EEG (sEEG) recordings, demonstrating successful cross-condition decoder transfer that reveals a hierarchical relationship. Despite lower raw correlation scores, linear decoders preserve stimulus-specific structure and sentence discriminability better than a convolutional-recurrent neural network.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of speech brain-computer interfaces (BCIs) for locked-in patients or individuals who cannot produce overt speech.
+
+## Institutions / 機構
+
+University of Maryland
+
+**Funding / 經費:** Airforce Office of Scientific Research, NIH
 
 ## Related
 

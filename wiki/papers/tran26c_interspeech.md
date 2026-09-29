@@ -1,6 +1,7 @@
 ---
 id: tran26c_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tran26c_interspeech.pdf
 *Vu Long Tran, Long Duc Do, Vinh Quang Nguyen, Ngoc Minh Nguyen, Quang Minh Le Pham, Hieu Trung Nguyen, Trang Thu Thi Nguyen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tran26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tran26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3458)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces a reproducible multi-label speech emotion recognition (SER) benchmark derived from the MSP-Podcast V2.0 corpus alongside a dual-branch Mamba-based fusion model. The proposed Fusion-Gate model achieves a micro-F1 of approximately 0.50 on both held-out test partitions while maintaining a lightweight parameter footprint of 3.07M.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Affect-aware conversational agents, customer service monitoring, mental health screening, and multimedia analytics requiring simultaneous detection of multiple emotional states.
+
+## Institutions / 機構
+
+Hanoi University of Science and Technology
 
 ## Related
 

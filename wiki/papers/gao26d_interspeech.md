@@ -1,6 +1,6 @@
 ---
 id: gao26d_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gao26d_interspeech.pdf
 *Manning Gao, Tingyi Liu, Leheng Zhang, Haifeng Hu, Yuncheng Jiang, Sijie Mai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gao26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gao26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-535)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper proposes a fine-grained multimodal depression detection framework equipped with a Binary Advantage-weighting Ranking (BAR) Loss that recovers latent ordinal severity from binary vlog labels, achieving state-of-the-art F1 scores of 77.66 on D-vlog and 77.01 on LMVD.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Non-invasive mental health screening and automated depression risk assessment using user-generated audio-visual content.
+
+## Institutions / 機構
+
+South China Normal University, Sun Yat-sen University
+
+**Funding / 經費:** Guangdong Philosophy and Social Sciences Planning Project
 
 ## Related
 

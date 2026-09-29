@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tatsumi26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/tatsumi26_interspeech.pdf
 session: Multilingual and Cross-Lingual Paralinguistic Analysis and Processing
 topics: [speech-emotion-recognition, self-supervised, evaluation]
+category: paralinguistics-emotion
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Stanford University"
 code:
     url: ""
     license: ""

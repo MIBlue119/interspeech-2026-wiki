@@ -1,6 +1,6 @@
 ---
 id: ellinson26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ellinson26_interspeech.pdf
 *Yoav Ellinson, Sharon Gannot*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ellinson26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ellinson26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-807)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This paper introduces an HRTF-guided binaural target speaker extraction framework that conditions a deep source separation backbone on measured Head-Related Transfer Functions to extract speech while preserving spatial cues. Evaluated on 1,600 training hours/simulations and HATS real-world recordings, it achieves an SI-SDR improvement of 15.770 dB and a PESQ of 3.03, outperforming direction-of-arrival-based baselines.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Hearing aids, hearables, augmented reality headsets, and multi-microphone communication devices requiring spatial-aware target speaker extraction in noisy, reverberant environments.
+
+## Institutions / 機構
+
+Bar-Ilan University
+
+**Funding / 經費:** Israel Science Foundation, German Research Foundation
 
 ## Related
 

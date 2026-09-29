@@ -1,6 +1,7 @@
 ---
 id: ito26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ito26_interspeech.pdf
 *Yuki Ito, Junki Ohmura, Hayato Futami, Toshiyuki Sekiya, Toshiyuki Kumakura*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ito26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ito26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2942)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper formulates fine-grained prosody restoration as a unified linear inverse problem and introduces two diffusion-based models (supervised and unsupervised DPRs) that handle five distinct degradation tasks. Evaluated on Japanese emotional speech corpora, the unsupervised DPR achieves a subjective naturalness score of 4.74 out of 5 from severely degraded inputs, closely matching the ground truth.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Interactive expressive voice creation tools, film/animation dubbing platforms, and text-to-speech systems requiring fine-grained user control over emotion and intonation.
+
+## Institutions / 機構
+
+Sony Group Corporation
 
 ## Related
 

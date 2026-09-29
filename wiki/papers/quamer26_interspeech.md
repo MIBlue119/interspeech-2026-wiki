@@ -1,6 +1,7 @@
 ---
 id: quamer26_interspeech
-category: voice-conversion
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/quamer26_interspeech.pdf
 *Waris Quamer, Ricardo Gutierrez-Osuna*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/quamer26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/quamer26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2741)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper presents a systematic analysis of the privacy-quality trade-off in real-time speaker anonymization by performing parametric attribute editing of age and sex on speaker embeddings. The authors discover an optimal anonymization sweet spot at roughly 0.25 standard deviations of modification, where speaker identity is effectively suppressed while speech quality remains high.
 
@@ -68,6 +71,12 @@ Speech and ML engineers building real-time voice conversion or privacy-preservin
 ## Applications
 
 Real-time voice-based applications, secure conversational AI, streaming voice anonymization for privacy protection, and telecommunication scrambling.
+
+## Institutions / 機構
+
+Texas A&M University
+
+**Funding / 經費:** Intelligence Advanced Research Projects Activity, Department of Interior/Interior Business Center
 
 ## Related
 

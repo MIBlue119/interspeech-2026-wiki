@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/fukuda26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/fukuda26_interspeech.pdf
 session: Speech Production and Perception 1
 topics: [paralinguistics, evaluation, speech-enhancement]
+category: paralinguistics-emotion
+institutions:
+  - "Keio University"
+  - "University of Tokyo"
+funding:
+  - "JST Moonshot R&D"
+  - "JST FOREST Program"
 code:
     url: https://github.com/takamichi-lab/selfvoice-playback-imagery-gap
     license: ""

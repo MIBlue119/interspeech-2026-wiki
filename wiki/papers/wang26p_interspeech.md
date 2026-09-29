@@ -1,6 +1,7 @@
 ---
 id: wang26p_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26p_interspeech.pdf
 *Xuefei Wang, Ximin Chen, Yuting Ding, Chunlin Li, Fei Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26p_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26p_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-864)
+
+**Category:** `enhancement-separation` · **Labels:** `streaming-real-time`
 
 **TL;DR** — SAGE is a switch-aware EEG-guided soft gating framework for target speaker extraction that handles in-trial auditory attention shifts, achieving 8.67 dB SI-SDR and reducing average switching latency to 2.04 seconds.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart hearing aids, robust hands-free communication systems, and neuro-controlled auditory interfaces capable of tracking dynamic user attention shifts in multi-talker environments.
+
+## Institutions / 機構
+
+Southern University of Science and Technology, Capital Medical University
+
+**Funding / 經費:** National Key Research and Development Program of China, National Natural Science Foundation of China
 
 ## Related
 

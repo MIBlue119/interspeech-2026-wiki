@@ -9,6 +9,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/huang26i_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26i_interspeech.pdf
 session: 'Robust ASR: Uncertainty and Confidence'
 topics: [asr, self-supervised]
+category: asr
+institutions:
+  - "University of Iowa"
 code:
     url: ""
     license: ""

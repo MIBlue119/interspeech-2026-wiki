@@ -1,6 +1,7 @@
 ---
 id: mboungou26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mboungou26_interspeech.pdf
 *Colombe Mboungou, Mostafa Sadeghi, Jean-Eudes Ayilo, Romain Serizel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mboungou26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mboungou26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-766)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — This paper proposes augmenting the training objective of a diffusion-based unsupervised audio-visual speech enhancement model with an InfoNCE-based audio-visual contrastive loss, yielding a +5 dB improvement in signal-to-interference ratio on matched test data.
 
@@ -66,6 +69,10 @@ Speech and ML researchers focusing on multimodal generative speech enhancement s
 ## Applications
 
 Robust audio-visual speech enhancement for hearing aids, teleconferencing systems, and automatic speech recognition front-ends operating in noisy, non-stationary acoustic environments.
+
+## Institutions / 機構
+
+Universite de Lorraine, CNRS, Inria, LORIA
 
 ## Related
 

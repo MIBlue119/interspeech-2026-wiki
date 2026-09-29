@@ -10,6 +10,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/syed26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/syed26_interspeech.pdf
 session: Speech Analysis, Data Resources and Research Tools
 topics: [tts, asr, low-resource]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "multilingual"
+institutions:
+  - "Florida Institute of Technology"
+  - "Daffodil International University"
+  - "Deakin University"
 code:
     url: https://github.com/jemsbhai/corpusgen
     license: ""

@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dinh26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dinh26_interspeech.pdf
 session: Source Separation 2
 topics: [speech-separation, self-supervised, speech-llm]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Institute of Science Tokyo"
+funding:
+  - "JSPS KAKENHI"
 code:
     url: https://phuongdnm.github.io/rvqgrid
     license: ""

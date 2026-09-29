@@ -1,6 +1,7 @@
 ---
 id: huang26c_interspeech
 category: asr
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26c_interspeech.pdf
 *Wei-Ping Huang, Chee-En Yu, Guan-Ting Lin, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-944)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — This paper resolves theoretical fragmentation in test-time adaptation (TTA) for autoregressive models by deriving the exact entropy minimization gradient, which decomposes into a token-level policy gradient loss and a token-level entropy loss. Applied to Whisper ASR across 20+ domains, the proposed beam-search-guided variant reduces word error rate significantly compared to prior heuristics.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust online adaptation of automatic speech recognition (ASR) systems deployed in acoustically adverse, accented, or multilingual real-world environments.
+
+## Institutions / 機構
+
+National Taiwan University
+
+**Funding / 經費:** Ministry of Education, Taiwan Centers of Excellence in Artificial Intelligence, NTU Artificial Intelligence Center of Research Excellence
 
 ## Related
 

@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/he26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/he26b_interspeech.pdf
 session: Spatial Audio 3
 topics: [source-separation, evaluation, dataset]
+category: enhancement-separation
+labels:
+  - "generative-model"
+institutions:
+  - "Harbin Institute of Technology"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Guangdong Basic and Applied Basic Research Foundation"
+  - "Shenzhen Higher Education Institutions Stability Support Program"
+  - "Key Research and Development Program of Xinjiang Uygur Autonomous Region"
 code:
     url: https://SpatialAudioDemo.github.io/Spec2Spatial/
     license: ""

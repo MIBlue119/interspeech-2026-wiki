@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26_interspeech.pdf
 session: Long-Form Speech Synthesis
 topics: [tts, speech-llm, self-supervised]
+category: tts
+labels:
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "Seoul National University"
+  - "KT Corporation"
 code:
     url: ""
     license: ""

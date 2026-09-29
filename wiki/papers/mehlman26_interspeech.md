@@ -1,6 +1,6 @@
 ---
 id: mehlman26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.pdf
 *Nicholas Mehlman, Kaitlin Zareno, Kleanthis Avramidis, Anfeng Xu, Shrikanth Narayanan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mehlman26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2851)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates conversational entrainment in a multi-party setting involving humans and a digital agent, revealing that while adults show robust local human-to-human entrainment, global entrainment and entrainment with the agent are minimal and cohort-dependent. Only children demonstrate long-term semantic entrainment toward the digital agent.
 
@@ -58,6 +60,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Designing multi-party conversational virtual assistants, social robots, educational digital tutors, and interactive family-oriented entertainment systems.
+
+## Institutions / 機構
+
+University of Southern California
 
 ## Related
 

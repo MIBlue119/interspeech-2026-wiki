@@ -11,6 +11,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mcauliffe26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/mcauliffe26_interspeech.pdf
 session: Speech Representations and Alignment
 topics: [asr, phonetics, dataset]
+category: asr
+labels:
+  - "multilingual"
+institutions:
+  - "University of Wisconsin-Madison"
+  - "McGill University"
+  - "University of Oregon"
+funding:
+  - "Social Sciences and Humanities Research Council"
+  - "Fonds de recherche sur la societe et la culture"
+  - "Canada Foundation for Innovation"
+  - "Canada Research Chairs"
+  - "National Institutes of Health"
 code:
     url: https://github.com/MontrealCorpusTools/mfa-interspeech2026
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: toyin26_interspeech
-category: asr
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/toyin26_interspeech.pdf
 *Hawau Olamide Toyin, S Umesh, Hanan Aldarmaki*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/toyin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/toyin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-750)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper investigates the evaluation ambiguity in atypical ASR for stuttered speech by benchmarking 11 models against both verbatim (preserving disfluencies) and intended (canonical) reference transcripts. It reveals that model rankings shift drastically depending on the reference type, driven by architectural inductive biases.
 
@@ -67,6 +69,10 @@ Speech and ML engineers building voice applications for atypical speakers should
 ## Applications
 
 Dictation tools, voice assistants, and clinical speech-language pathology assessment software.
+
+## Institutions / 機構
+
+Mohamed bin Zayed University of Artificial Intelligence, Indian Institute of Technology Madras
 
 ## Related
 

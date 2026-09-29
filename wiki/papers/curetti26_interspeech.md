@@ -1,6 +1,6 @@
 ---
 id: curetti26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/curetti26_interspeech.pdf
 *Lorenza Zaira Curetti, Hae-Sung Jeon, Lauren V. Hadley*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/curetti26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/curetti26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2534)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This exploratory study investigates how older adults with and without hearing loss use prosodic cues to judge turn completion in declarative questions, finding that typical hearing listeners rely on duration and intensity while listeners with hearing loss rely on pitch movement. Both groups successfully classified utterance ends above chance despite overall modest accuracy.
 
@@ -59,6 +61,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving hearing aid processing strategies, designing conversational agents that adapt prosodic feedback for hearing-impaired users, and developing targeted auditory training for turn-taking dynamics.
+
+## Institutions / 機構
+
+University of Nottingham, University of Lancashire
 
 ## Related
 

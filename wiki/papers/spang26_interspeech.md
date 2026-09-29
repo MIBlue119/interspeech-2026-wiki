@@ -1,6 +1,7 @@
 ---
 id: spang26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/spang26_interspeech.pdf
 *Robert P. Spang, Wafaa Wardah, Hritik Sauw, Ole Möller-Nilsson, Etleva Gjoni, Stefan Brandenburg, Maria Kreußlein, Lana Mohr, Sebastian Möller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/spang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/spang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3523)
+
+**Category:** `health-clinical` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — GADVOX is the first openly accessible German-language speech dataset for depression and anxiety detection, containing spontaneous speech and validated continuous severity scores from 1,004 participants. It provides an average of 18.4 minutes of audio per participant paired with PHQ-9 and GAD-7 self-assessments.
 
@@ -58,6 +61,12 @@ Speech and ML researchers building multi-target, multilingual mental health scre
 ## Applications
 
 Automated mental health screening, joint depression and anxiety severity regression, and vocal biomarker analysis in telemonitoring applications.
+
+## Institutions / 機構
+
+Bauhaus-Universitat Weimar, Technische Universitat Berlin, German Research Center for Artificial Intelligence, Senseven Health GmbH, University of Technology Chemnitz
+
+**Funding / 經費:** German Federal Ministry of Education and Research
 
 ## Related
 

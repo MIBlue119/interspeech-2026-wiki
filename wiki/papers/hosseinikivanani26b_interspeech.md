@@ -1,6 +1,7 @@
 ---
 id: hosseinikivanani26b_interspeech
-category: prosody
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hosseinikivanani26b_interspee
 *Nina Hosseini-Kivanani, Nafiseh Taghva, Peter Gilles, Oliver Niebuhr*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hosseinikivanani26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hosseinikivanani26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1335)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — An acoustic analysis of 400 spontaneous sentences from ten bilingual politicians reveals that duration-based speech rhythm metrics sharply divide by category: vowel timing is dictated by language choice (French showing significantly longer and more variable vowels), whereas consonant timing preserves stable speaker-specific signatures.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual text-to-speech (TTS) synthesis, cross-lingual voice cloning, and spoken language analysis systems needing accurate modeling of language-dependent prosodic and temporal structures.
+
+## Institutions / 機構
+
+University of Luxembourg, Radio Television Luxembourg, Shiraz University, University of Southern Denmark
+
+**Funding / 經費:** Luxembourg National Research Fund
 
 ## Related
 

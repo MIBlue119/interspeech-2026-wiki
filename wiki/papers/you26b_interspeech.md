@@ -1,6 +1,7 @@
 ---
 id: you26b_interspeech
-category: speaker-diarization
+category: speaker
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/you26b_interspeech.pdf
 *Jian You, Xiangfeng Li, Tengfei Zhou, Erwan Zerhouni*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/you26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/you26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1032)
+
+**Category:** `speaker` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper proposes a speaker diarization segmentation model that replaces standard back ends with a bidirectional Retention Network (BiRetNet) stacked on top of a WavLM front end within an EEND-VC framework, achieving state-of-the-art Diarization Error Rates (DER) on AISHELL-4 and VoxConverse.
 
@@ -66,6 +69,10 @@ Speech and machine learning researchers working on streaming or long-form speake
 ## Applications
 
 Real-time and batch multi-speaker diarization for meeting transcription, judicial proceedings, customer service calls, and multi-party conversational analytics.
+
+## Institutions / 機構
+
+Cisco Systems
 
 ## Related
 

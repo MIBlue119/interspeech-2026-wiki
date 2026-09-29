@@ -1,6 +1,7 @@
 ---
 id: peng26f_interspeech
-category: speaker-verification
+category: speaker
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/peng26f_interspeech.pdf
 *Jinghan Peng, Yu Zheng, Weiqiang Wang, Jian Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/peng26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/peng26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1799)
+
+**Category:** `speaker` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper presents a cross-lingual speaker verification system leveraging a 580M-parameter w2v-BERT 2.0 front-end with multi-scale feature aggregation, achieving an equal error rate (EER) of 2.21% on partially mismatched evaluation and 2.99% on fully unseen language evaluations on the TidyVoice2026 benchmark.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual speaker verification, multilingual voice biometrics, and secure multi-language conversational AI user authentication.
+
+## Institutions / 機構
+
+Ant Group
 
 ## Related
 

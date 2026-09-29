@@ -1,6 +1,7 @@
 ---
 id: nguyen26h_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nguyen26h_interspeech.pdf
 *Tuan Nguyen, Corinne Fredouille, Alain Ghio, Muriel Lalain, Virginie Woisard*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nguyen26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nguyen26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3343)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates the interpretability of a Wav2Vec 2.0-based speech intelligibility assessment model for oral and oropharyngeal cancer patients by measuring layer-wise alignment with eGeMAPS handcrafted features using Projection-Weighted Canonical Correlation Analysis (PWCCA). The final model representations correlate most strongly with spectral (0.77) and prosodic (0.71) features, while MFCC 1 yields the highest individual correlation across all layers.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Clinical decision support systems for automated, interpretable assessment of speech intelligibility in post-operative cancer patients.
+
+## Institutions / 機構
+
+Avignon University, Hopital Larrey, Aix Marseille University, CNRS, Universite Toulouse II Jean Jaures
+
+**Funding / 經費:** Chair LIAvignon, French National Research Agency, OLINPIC
 
 ## Related
 

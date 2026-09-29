@@ -14,6 +14,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/meng26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/meng26f_interspeech.pdf
 session: Audio Coding and Signal Analysis
 topics: [paralinguistics, self-supervised, evaluation]
+category: health-clinical
+labels:
+  - "self-supervised"
+institutions:
+  - "Beijing Institute of Technology"
+  - "Hong Kong University of Science and Technology"
+  - "TUM University Hospital"
+funding:
+  - "National Key R&D Program of China"
+  - "National Natural Science Foundation of China"
+  - "Beijing Natural Science Foundation"
+  - "Ministry of Science and Technology of the People's Republic of China"
+  - "Teli Young Fellow Program"
 code:
     url: ""
     license: ""

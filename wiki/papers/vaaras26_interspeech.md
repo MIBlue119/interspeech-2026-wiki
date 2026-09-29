@@ -1,6 +1,6 @@
 ---
 id: vaaras26_interspeech
-category: evaluation
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/vaaras26_interspeech.pdf
 *Einari Vaaras, Manu Airaksinen, Okko Räsänen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/vaaras26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/vaaras26_interspeech.html)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — TSExplorer is a cross-platform Python GUI tool designed for interactive annotation, exploratory analysis, and feature visualization of high-dimensional time-series data like speech, video, and physiological signals. It integrates multi-modal widgets with dynamic 2D dimensionality reduction projections to bridge the gap between static summaries and granular data inspection.
 
@@ -67,6 +69,12 @@ Speech and ML engineers building custom datasets, cleaning noisy web-scraped cor
 ## Applications
 
 Interactive audio-visual dataset annotation, exploratory data analysis, outlier identification, data quality assurance, and comparative visualization of learned speech representations.
+
+## Institutions / 機構
+
+Tampere University, University of Helsinki
+
+**Funding / 經費:** Research Council of Finland, Sigrid Juselius Foundation
 
 ## Related
 

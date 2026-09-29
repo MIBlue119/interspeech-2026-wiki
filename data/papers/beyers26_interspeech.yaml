@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/beyers26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/beyers26_interspeech.pdf
 session: Efficient Inference for ASR and Speech LMs
 topics: [keyword-spotting, few-shot, self-supervised]
+category: asr
+labels:
+  - "low-resource"
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "Bytefuse"
 code:
     url: ""
     license: ""

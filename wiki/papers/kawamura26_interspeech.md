@@ -1,6 +1,6 @@
 ---
 id: kawamura26_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kawamura26_interspeech.pdf
 *Masaya Kawamura, Yuma Shirahata, Kentaro Mitsui, Reo Shimizu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kawamura26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kawamura26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1662)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — PASQA is a specialized speech quality assessment model explicitly designed to detect localized pitch-accent errors in synthetic Japanese speech, achieving an SRCC of 0.828 with human judgments compared to near-zero correlations for traditional utterance-level MOS predictors.
 
@@ -66,6 +68,10 @@ Speech and ML researchers building automated evaluation metrics for text-to-spee
 ## Applications
 
 Automated regression testing and real-time quality control for text-to-speech synthesis pipelines, specifically targeting prosodic accuracy and accent preservation.
+
+## Institutions / 機構
+
+LY Corporation
 
 ## Related
 

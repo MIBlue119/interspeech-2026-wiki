@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/grinberg26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/grinberg26_interspeech.pdf
 session: Speech Representations and Alignment
 topics: [speech-llm, self-supervised, multilingual]
+category: speech-llm-dialogue
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "EPFL"
+  - "Sony"
 code:
     url: https://github.com/Blinorot/ALARM
     license: ""

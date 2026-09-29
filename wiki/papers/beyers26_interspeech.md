@@ -1,6 +1,7 @@
 ---
 id: beyers26_interspeech
-category: keyword-spotting
+category: asr
+labels: [low-resource, efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/beyers26_interspeech.pdf
 *Louise Beyers, Batsirayi Mupamhi Ziki, Ruan van der Merwe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/beyers26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/beyers26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-408)
+
+**Category:** `asr` · **Labels:** `low-resource`, `efficient-on-device`, `self-supervised`
 
 **TL;DR** — This paper investigates scaling few-shot spoken word classification up to 1,000 classes using Generative Meta-Continual Learning (GeMCL), demonstrating accuracy within 3% of fully-tuned HuBERT while adapting 2,000 times faster with two orders of magnitude less training data and time.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Dynamic user-defined keyword spotting on edge devices and automated data labeling flywheels for low-resource languages.
+
+## Institutions / 機構
+
+Bytefuse
 
 ## Related
 

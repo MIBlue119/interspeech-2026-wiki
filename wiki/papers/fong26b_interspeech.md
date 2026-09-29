@@ -1,6 +1,7 @@
 ---
 id: fong26b_interspeech
-category: asr
+category: speech-llm-dialogue
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fong26b_interspeech.pdf
 *Seraphina Fong, Marco Matassoni, Alessio Brutti*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fong26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fong26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1229)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates how to adapt Speech-based Large Language Models (SpeechLLMs) to multiple languages and tasks using under 5 hours of labeled data per task-language pair, showing that high-resource ASR-pretrained projectors make low-resource multitask transfer possible. Using this approach, the system achieves strong performance across Automatic Speech Recognition (ASR), Speech Translation (ST), and Topic Identification (TID), outperforming models trained from scratch.
 
@@ -65,6 +68,12 @@ Speech and ML researchers building low-resource multilingual speech models shoul
 ## Applications
 
 On-device multilingual voice assistants and speech processing pipelines requiring simultaneous transcription, translation, and intent/topic classification for low-resource or regional dialects.
+
+## Institutions / 機構
+
+University of Trento, Fondazione Bruno Kessler
+
+**Funding / 經費:** European Union
 
 ## Related
 

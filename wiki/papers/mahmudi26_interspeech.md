@@ -1,6 +1,7 @@
 ---
 id: mahmudi26_interspeech
 category: asr
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.pdf
 *Aso Mahmudi, Ting Dang, Ekaterina Vylomova, Nick Thieberger*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mahmudi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2781)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — Easper is a no-code open-source pipeline that links ELAN annotations to cloud-based ASR fine-tuning, demonstrating that prioritizing lexically rich, repetitive narratives rather than acoustically clean audio accelerates early-stage model adaptation for endangered languages.
 
@@ -56,6 +59,12 @@ Field linguists, speech engineers, and researchers building human-in-the-loop sy
 ## Applications
 
 Accelerating language documentation, community archiving, and semi-automated transcription for endangered or low-resource languages using desktop-deployed ASR tools.
+
+## Institutions / 機構
+
+University of Melbourne
+
+**Funding / 經費:** Australian Research Council, Language Data Commons of Australia, Petascale Campus Initiative
 
 ## Related
 

@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26r_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26r_interspeech.pdf
 session: Brain Studies and Speech
 topics: [paralinguistics, speaker-verification, evaluation]
+category: paralinguistics-emotion
+institutions:
+  - "Hong Kong Polytechnic University"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: ""
     license: ""

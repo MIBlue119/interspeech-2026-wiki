@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/filippakopoulos26_inters
 pdf_url: https://www.isca-archive.org/interspeech_2026/filippakopoulos26_interspeech.pdf
 session: Emotion, Prosody, and Articulation
 topics: [paralinguistics, emotion-recognition, speech-llm]
+category: paralinguistics-emotion
+institutions:
+  - "National Technical University of Athens"
+  - "Athena Research Center"
+  - "University of Bern"
+  - "Archimedes AI"
+  - "Synaptic Bloom PBC"
+funding:
+  - "National Recovery and Resilience Plan Greece 2.0"
+  - "European Union"
+  - "NextGenerationEU Program"
 code:
     url: ""
     license: ""

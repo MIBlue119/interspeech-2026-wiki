@@ -16,6 +16,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/geng26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/geng26b_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
 topics: [tts, self-supervised, evaluation]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Beijing University of Posts and Telecommunications"
+  - "Li Auto"
+funding:
+  - "National Key R&D Program of China"
+  - "National Natural Science Foundation of China"
+  - "National Language Commission"
+  - "National Social Science Fund of China"
 code:
     url: https://piedpiperg.github.io/instruct-tts-stabilizer/
     license: ""

@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26d_interspeech.pdf
 session: Singing Voice and Music Generation
 topics: [self-supervised, speech-enhancement, evaluation]
+category: enhancement-separation
+labels:
+  - "generative-model"
+institutions:
+  - "Chinese Academy of Sciences"
+  - "Ear-LAB"
+  - "Initi-AI Ltd"
 code:
     url: https://github.com/Eps-Acoustic-Revolution-Lab/EAR_VAE
     license: ""

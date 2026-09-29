@@ -1,6 +1,7 @@
 ---
 id: wiechmann26_interspeech
-category: speech-enhancement
+category: health-clinical
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wiechmann26_interspeech.pdf
 *Jana Wiechmann, Frederik Rautenberg, Reinhold Haeb-Umbach, Petra Wagner*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wiechmann26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wiechmann26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2475)
+
+**Category:** `health-clinical` · **Labels:** `generative-model`
 
 **TL;DR** — Using deep learning-based speech synthesis to isolate voice characteristics during training significantly improves speech therapy students' perceptual sensitivity and gold-standard agreement compared to natural anchor voices. The synthesis group achieved a post-test sensitivity (d') of 1.03 versus 0.55 for the control group.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech therapy student training, clinical voice assessment software, computer-aided phonetic education tools, and interactive perceptual training modules for forensic phonetics.
+
+## Institutions / 機構
+
+Bielefeld University, Paderborn University
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

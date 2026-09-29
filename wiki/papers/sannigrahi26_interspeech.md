@@ -1,6 +1,7 @@
 ---
 id: sannigrahi26_interspeech
-category: asr
+category: speech-llm-dialogue
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sannigrahi26_interspeech.pdf
 *Sonal Sannigrahi, Giuseppe Attanasio, André F. T. Martins*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sannigrahi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sannigrahi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2753)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`
 
 **TL;DR** — AdaTS is an adaptive, parameter-free token sampling method for speech language models that merges temporally redundant speech tokens using pairwise cosine similarity. It achieves an average 2x token compression rate and reduces inference compute by roughly 34-40% while outperforming uniform downsampling across ASR, SQA, and speech translation tasks.
 
@@ -66,6 +69,12 @@ Speech and ML researchers working on multimodal LLMs and efficient long-context 
 ## Applications
 
 Efficient on-device speech assistants, real-time multilingual speech translation, and long-form conversational speech question-answering systems.
+
+## Institutions / 機構
+
+Universidade de Lisboa, Instituto de Telecomunicacoes, TransPerfect
+
+**Funding / 經費:** Portuguese Recovery and Resilience Plan, Center for ResponsibleAI, DECOLLAGE, ERC, FCT, MECI, EU funds, Instituto de Telecomunicacoes
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: han26b_interspeech
-category: asre
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/han26b_interspeech.pdf
 *Seung-Gyu Han, Jinwoo Jung, Pil Moo Byun, Won-Gook Choi, Joon-Hyuk Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/han26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/han26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-865)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — The paper introduces Branch-wise Complementary Attention (BCA), a module that assigns channel, time, frequency, and joint attention maps across parallel convolutional branches according to their receptive field properties. Integrated into Rep-Mobile, BCA achieves state-of-the-art acoustic scene classification accuracies of 72.03% on TAU 2020 and 63.24% on TAU 2022.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device acoustic monitoring, mobile context-aware sensing, smart home appliances, and embedded edge audio processing.
+
+## Institutions / 機構
+
+Hanyang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

@@ -18,6 +18,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/niu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/niu26_interspeech.pdf
 session: 'Speech Synthesis: Speech Features, Codec and Representations'
 topics: [tts, self-supervised, speech-llm]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Shanghai Jiao Tong University"
+  - "Shanghai Innovation Institute"
+  - "Chinese University of Hong Kong"
+  - "KAIST"
+  - "Geely"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Shanghai Municipal Science and Technology Major Project"
+  - "Yangtze River Delta Science and Technology Innovation Community Joint Research Project"
 code:
     url: https://zhikangniu.github.io/semantic-vae/
     license: ""

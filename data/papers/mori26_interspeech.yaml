@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mori26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mori26_interspeech.pdf
 session: Speech Synthesis Evaluation and Benchmarking
 topics: [speech-enhancement, speech-llm, paralinguistics]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Utsunomiya University"
 code:
     url: https://www.speech-lab.org/hiroki/IS2026/
     license: ""

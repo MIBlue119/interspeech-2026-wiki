@@ -1,6 +1,7 @@
 ---
 id: halmai26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/halmai26_interspeech.pdf
 *Dániel Halmai, Gábor Gosztolya*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/halmai26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/halmai26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2143)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates how well English Speech Emotion Recognition (SER) models transfer to low-resource Taiwanese Mandarin across emotional attributes (arousal, valence, dominance). By fine-tuning a WavLM-Large backbone, the authors show that adapter models trained on just 10-20 hours of target language data can match or exceed models trained from scratch on 100 hours.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual speech emotion recognition, computer-aided education, mental health monitoring, and empathetic spoken conversational agents.
+
+## Institutions / 機構
+
+University of Szeged, HUN-REN
+
+**Funding / 經費:** Ministry of Culture and Innovation of Hungary, National Research, Development and Innovation Fund
 
 ## Related
 

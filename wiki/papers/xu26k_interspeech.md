@@ -1,6 +1,7 @@
 ---
 id: xu26k_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26k_interspeech.pdf
 *Ke Xu, Yuhao Wang, Yu Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1160)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — ProVoice-Bench is the first evaluation framework designed to assess proactive voice agents across four distinct tasks, revealing severe over-triggering and reasoning gaps in current Multimodal LLMs. Overall, top-performing thinking models achieve a response accuracy of up to 75.9%.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Proactive digital assistants, context-aware smart home speakers, ambient conversation monitors, and hands-free productivity tools.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University
 
 ## Related
 

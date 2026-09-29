@@ -8,6 +8,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/rajaa26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/rajaa26_interspeech.pdf
 session: Turn-taking
 topics: [speech-llm, spoken-language-understanding, self-supervised]
+category: speech-llm-dialogue
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Anyreach AI"
 code:
     url: https://github.com/anyreachai/dualturn
     license: ""

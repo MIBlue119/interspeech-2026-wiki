@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xia26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xia26_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
 topics: [paralinguistics, evaluation, spoken-language-understanding]
+category: paralinguistics-emotion
+institutions:
+  - "Nanjing University of Science and Technology"
+funding:
+  - "Ministry of Education Humanities and Social Sciences Research Youth Fund Project"
+  - "Jiangsu Social Science Fund Youth Project"
 code:
     url: ""
     license: ""

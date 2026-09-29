@@ -14,6 +14,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/adebara26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/adebara26_interspeech.pdf
 session: Multilingual Speech 1
 topics: [asr, multilingual, dataset]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "University of Alberta"
+  - "Data Science Nigeria"
+  - "EqualyzAI"
+  - "Alberta Machine Intelligence Institute"
+  - "CIFAR"
+funding:
+  - "Gates Foundation"
 code:
     url: ""
     license: ""

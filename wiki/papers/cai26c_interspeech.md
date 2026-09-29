@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cai26c_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cai26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cai26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2297)
 
+**Category:** `asr`
+
 **TL;DR** — A two-stage generative framework combining Chain-of-Thought reasoning and GRPO reinforcement learning enables SpeechLLMs to jointly perform multi-talker ASR, speaker attribution, and time alignment under unknown speaker counts, yielding a 35% to 54% relative cpWER reduction over SFT-only baselines.
 
 ## Key contributions
@@ -63,6 +65,12 @@ Speech and ML researchers working on speech LLMs or joint multi-talker processin
 ## Applications
 
 Multi-talker meeting transcription, voice-controlled smart home devices in noisy environments, and automated multi-party conversation analysis.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Tsinghua University
+
+**Funding / 經費:** Centre for Perceptual and Interactive Intelligence, Innovation and Technology Commission of the Hong Kong Special Administrative Region Government
 
 ## Related
 

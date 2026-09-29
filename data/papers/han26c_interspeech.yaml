@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/han26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/han26c_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
 topics: [spoken-language-understanding, self-supervised, evaluation]
+category: applications-other
+institutions:
+  - "Tutorus Labs"
+funding:
+  - "Culture, Sports and Tourism R&D Program"
+  - "Korea Creative Content Agency"
+  - "Ministry of Culture, Sports and Tourism"
 code:
     url: ""
     license: ""

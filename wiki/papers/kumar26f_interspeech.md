@@ -1,6 +1,7 @@
 ---
 id: kumar26f_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kumar26f_interspeech.pdf
 *Vishal Kumar, Vinayak Abrol, Mathew Magimai Doss*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kumar26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kumar26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2442)
+
+**Category:** `deepfake-security` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — A few-shot, open-set framework for joint deepfake detection and generative source attribution uses a LoRA-adapted WavLM-Large backbone trained with dual-tier hierarchical metric learning, achieving 0.49% EER on ASVspoof 5.0 and 99% accuracy in tracing speech to its source.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Open-world synthetic speech detection, forensic speaker attribution, audio deepfake monitoring for automated speaker verification security, and zero-day model auditing.
+
+## Institutions / 機構
+
+IIIT-Delhi, IDIAP
+
+**Funding / 經費:** Swiss National Science Foundation, Nebius Research Grant, Infosys Foundation
 
 ## Related
 

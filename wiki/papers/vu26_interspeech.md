@@ -1,6 +1,7 @@
 ---
 id: vu26_interspeech
-category: paralinguistics
+category: applications-other
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/vu26_interspeech.pdf
 *Cong-Thanh Vu, Candy Olivia Mawalim, Hung Le, Chee Wee Leong, Guy Sivan, Shogo Okada*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/vu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/vu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1650)
+
+**Category:** `applications-other` · **Labels:** `low-resource`
 
 **TL;DR** — A meta-learning framework with a mixture-of-experts (MoE) architecture is proposed for automated spoken English assessment under data scarcity, achieving an F1-score of 84.88% and a 32.4% reduction in mean squared error compared to strong baselines.
 
@@ -68,6 +71,12 @@ Researchers and engineers working on multimodal speech assessment, low-resource 
 ## Applications
 
 Automated language testing platforms, AI-driven spoken English coaching tools, and objective interview scoring systems.
+
+## Institutions / 機構
+
+Japan Advanced Institute of Science and Technology, Educational Testing Service, Vericant
+
+**Funding / 經費:** JSPS KAKENHI, JST CREST, JST CRONOS, AMED
 
 ## Related
 

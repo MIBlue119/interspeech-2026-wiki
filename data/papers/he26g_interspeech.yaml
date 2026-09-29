@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/he26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/he26g_interspeech.pdf
 session: Audio-Visual and Multimodal Perception
 topics: [auditory-attention-decoding, dataset, self-supervised]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Columbia University"
+funding:
+  - "National Institute on Deafness and Other Communication Disorders"
+  - "Marie-Josee and Henry R. Kravis Foundation"
 code:
     url: https://github.com/naplab/MOV-AAD
     license: ""

@@ -14,6 +14,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chien26c_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/chien26c_interspeech.pdf
 session: Speech Emotion Recognition and Representation 2
 topics: [speech-llm, paralinguistics, emotion-recognition]
+category: paralinguistics-emotion
+institutions:
+  - "National Yang Ming Chiao Tung University"
+  - "National Institute of Advanced Industrial Science and Technology"
+  - "National Tsing Hua University"
 code:
     url: ""
     license: ""

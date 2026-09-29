@@ -1,6 +1,6 @@
 ---
 id: spiesberger26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/spiesberger26_interspeech.pdf
 *Anika A. Spiesberger, Andreas Triantafyllopoulos, Melanie Weirich, Bjoern Schuller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/spiesberger26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/spiesberger26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1878)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper investigates computational paralinguistics to predict menstrual cycle phases (ovulation vs. luteal) from read speech, achieving a maximum accuracy of 62.5% using handcrafted acoustic features while learned embeddings perform at chance level.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Non-invasive digital health tools for menstrual cycle tracking, continuous hormonal monitoring, and paralinguistic speaker state analysis.
+
+## Institutions / 機構
+
+Technical University of Munich, Munich Center for Machine Learning, Friedrich-Schiller-University Jena, Imperial College London, Munich Data Science Institute
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

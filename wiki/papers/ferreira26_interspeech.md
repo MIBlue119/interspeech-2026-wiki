@@ -1,6 +1,7 @@
 ---
 id: ferreira26_interspeech
-category: evaluation
+category: resources-evaluation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ferreira26_interspeech.pdf
 *Alef Iury Ferreira, Pedro Botelho, Fernanda Silva, Daniel Casanova, Rafael Faustino, Frederico Oliveira, Arlindo Galvão Filho, Anderson da Silva Soares*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ferreira26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ferreira26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2960)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper evaluates ten speech foundation models across four MOS datasets to study layer utilization for non-intrusive speech quality assessment, revealing that early-to-mid layers often outperform final layers. It proposes a layer-calibrated aggregation strategy using per-layer adapters that stabilizes multi-layer fusion while keeping backbones frozen.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated non-intrusive speech quality assessment for text-to-speech, speech enhancement, and voice conversion pipeline monitoring.
+
+## Institutions / 機構
+
+Advanced Knowledge Center in Immersive Technologies, Federal University of Goias, Federal University of Rio Grande do Norte, Federal University of Technology
+
+**Funding / 經費:** Advanced Knowledge Center in Immersive Technologies, PPI IoT of the MCTI, EMBRAPII
 
 ## Related
 

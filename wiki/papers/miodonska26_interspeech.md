@@ -1,6 +1,6 @@
 ---
 id: miodonska26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/miodonska26_interspeech.pdf
 *Zuzanna Miodońska, Oliwia Skórzewska, Natalia Mocko, Magdalena Krycha, Michal Krecichwost*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/miodonska26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/miodonska26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-799)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — An acoustic investigation of dental sibilants /s, z/ produced by 88 typically developing Polish children aged 5 to 8 years reveals age-dependent spectral shifts—specifically increased high-frequency energy and formant spacing—indicating improved articulatory precision. No significant sex differences were found in this age range.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech therapy diagnostic systems, objective computer-aided pronunciation scoring, and developmental speech monitoring tools for preschool children.
+
+## Institutions / 機構
+
+Silesian University of Technology, University of Silesia in Katowice
+
+**Funding / 經費:** National Science Centre, Poland, European Funds for Silesia, Just Transition Fund, National Centre for Research and Development
 
 ## Related
 

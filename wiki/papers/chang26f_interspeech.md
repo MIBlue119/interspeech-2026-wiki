@@ -1,6 +1,7 @@
 ---
 id: chang26f_interspeech
-category: multilingual
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chang26f_interspeech.pdf
 *Andrew Chang, Abhinay K Bodi, Wenxin Deng, Junrui Huang, Venu G Kadamba, Sumanth B H Karanam, Dhiwahar A Kennady, David Poeppel, Dustin Freeman*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chang26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chang26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2367)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — VIP-MINGLE is a 59-hour multimodal dataset featuring paired within-subject group conversations in both in-person and videoconferencing settings, demonstrating significant behavioral shifts across speech, syntax, and facial expressions.
 
@@ -58,6 +61,12 @@ Researchers building domain-aware multimodal dialogue models, conversational age
 ## Applications
 
 Development of cross-domain robust speech-language models, automated meeting summarization systems, and enhancement of future videoconferencing platforms.
+
+## Institutions / 機構
+
+New York University
+
+**Funding / 經費:** NYU Discovery Research Fund for Human Health, Leon Levy Foundation, New York Academy of Sciences
 
 ## Related
 

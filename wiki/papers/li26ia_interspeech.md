@@ -1,6 +1,7 @@
 ---
 id: li26ia_interspeech
-category: speech-llm
+category: health-clinical
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26ia_interspeech.pdf
 *Harrison Li, Kevin Wang, Cheol Jun Cho, Jiachen Lian, Rabab Rangwala, Chenxu Guo, Emma Yang, Lynn Kurteff, Zoe Ezzes, Willa Keegan-Rodewald, Jet Vonk, Siddarth Ramkrishnan, Giada Antonicelli, Zachary Miller, Marilu Gorno Tempini, Gopala Anumanchipalli*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26ia_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26ia_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3080)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — The paper introduces Hierarchical Aphasic Speech Simulation (HASS), a clinician-guided framework that models multi-level lexical and phonological deficits in logopenic variant primary progressive aphasia (lvPPA) to generate synthetic training data. Classifiers trained on HASS-generated data outperform those trained strictly on limited real-world clinical recordings, achieving an AUC of 0.892 and improved cross-site generalization.
 
@@ -60,6 +63,10 @@ Researchers building diagnostic speech models for low-resource clinical populati
 ## Applications
 
 Automated screening and longitudinal monitoring tools for primary progressive aphasia and related neurodegenerative language disorders.
+
+## Institutions / 機構
+
+UC Berkeley, UCSF, Zhejiang University, Columbia University, Basque Center on Cognition, Brain and Language
 
 ## Related
 

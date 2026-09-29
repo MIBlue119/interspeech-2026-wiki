@@ -1,6 +1,7 @@
 ---
 id: zhou26b_interspeech
-category: evaluation
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhou26b_interspeech.pdf
 *Hanrui Zhou, Gaoyuan Zhang, Yixiang Chen, Yujie Xing, Feng Xu, Xurong Xie, Hui Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhou26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhou26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-996)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — A pilot behavioral study investigating how human listeners perceive speaker identity similarity and intonation in natural vs. F0-conditioned singing voice conversion (SVC) synthetic speech, finding significant interactions between speech type, intonation, and speaker familiarity.
 
@@ -66,6 +69,12 @@ Speech and ML engineers building voice cloning or SVC models for educational cor
 ## Applications
 
 Language learning software, AI-powered speech therapy, and synthetic voice corpus generation.
+
+## Institutions / 機構
+
+Chinese Academy of Sciences, Capital Normal University
+
+**Funding / 經費:** National Key R&D Program of China, NSFC, China Disabled Persons Federation, Youth Innovation Promotion Association CAS Grant, China Postdoctoral Science Foundation
 
 ## Related
 

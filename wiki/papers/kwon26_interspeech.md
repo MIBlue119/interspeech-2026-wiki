@@ -1,6 +1,7 @@
 ---
 id: kwon26_interspeech
-category: speaker-diarization
+category: speaker
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kwon26_interspeech.pdf
 *Youngki Kwon, Hee-Soo Heo, Minjae Lee, Han-Gyu Kim, Bong-Jin Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kwon26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kwon26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-898)
+
+**Category:** `speaker` · **Labels:** `streaming-real-time`
 
 **TL;DR** — Delayed-Commitment Online Speaker Tracking (DC-OST) is a centroid-based online speaker diarization system that decouples immediate label emission from deferred speaker registration to eliminate arbitrary speaker caps and maintain consistent accuracy in many-speaker meetings. It achieves 9.53% DER on VoxConverse and 9.12% DER on VoxSRC-23 at 0.5s latency, nearly halving the error of baseline systems.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time meeting transcription, streaming multi-speaker diarization, and live teleconferencing systems.
+
+## Institutions / 機構
+
+NAVER Cloud Corporation
 
 ## Related
 

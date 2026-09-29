@@ -1,6 +1,6 @@
 ---
 id: bokkahallisatish26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bokkahallisatish26_interspeec
 *Shree Harsha Bokkahalli Satish, Christoph Minixhofer, Maria Teleki, James Caverlee, Ondřej Klejch, Peter Bell, Gustav Eje Henter, Éva Székely*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bokkahallisatish26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bokkahallisatish26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1918)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — This paper presents a large-scale evaluation of intersectional accent and gender bias in End-to-End Speech Large Language Models, revealing that Eastern European female-accented speech receives significantly less helpful and shorter text responses despite constant linguistic content and polite tone.
 
@@ -67,6 +69,12 @@ Speech and ML engineers building E2E SpeechLLMs must read this paper to understa
 ## Applications
 
 Auditing fairness in conversational voice assistants, commercial SpeechLLMs, and multimodal dialogue systems to prevent algorithmic discrimination based on accent and gender.
+
+## Institutions / 機構
+
+KTH Royal Institute of Technology, University of Edinburgh, Texas A&M University
+
+**Funding / 經費:** Wallenberg AI, Autonomous Systems and Software Program, Knut and Alice Wallenberg Foundation
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: wazed26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [self-supervised, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wazed26_interspeech.pdf
 *Eashita Wazed, Hieyong Jeong, Choonsung Shin, Shima Okada*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wazed26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wazed26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-883)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`, `generative-model`, `robustness-noise`
 
 **TL;DR** — CLEAR is a three-stage heart sound restoration framework combining a pretrained Whisper encoder, a Masked Graph Attention Network, and a Latent GAN to denoise clinical auscultation recordings, achieving a peak PESQ of 4.64 and SI-SDR of 64.35 dB under 10 dB SNR environmental noise.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart electronic stethoscopes, telemedicine diagnostic platforms, and robust frontend denoising for automated computer-aided cardiac disease classification systems.
+
+## Institutions / 機構
+
+Chonnam National University, Ritsumeikan University
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation, Korea Creative Content Agency
 
 ## Related
 

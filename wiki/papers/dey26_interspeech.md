@@ -1,6 +1,7 @@
 ---
 id: dey26_interspeech
-category: spoken-language-understanding
+category: speaker
+labels: [multilingual, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dey26_interspeech.pdf
 *Spandan Dey*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dey26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dey26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3091)
+
+**Category:** `speaker` · **Labels:** `multilingual`, `robustness-noise`
 
 **TL;DR** — This paper investigates adversarial vulnerability in spoken language identification (LID) and introduces Self-Defensive Adversarial Re-Training (SDART), a novel proactive defense combining adversarial sample mining, entropy-regularized online label smoothing, and language-specific consistency regularization. SDART consistently outperforms standard adversarial training and classical baselines across architectures and datasets on both clean and attacked speech.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust multilingual speech processing pipelines, secure voice-activated assistants, and multi-tenant audio moderation platforms vulnerable to malicious spoofing or adversarial evasion.
+
+## Institutions / 機構
+
+Samsung
 
 ## Related
 

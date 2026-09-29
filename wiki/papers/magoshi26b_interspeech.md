@@ -1,6 +1,7 @@
 ---
 id: magoshi26b_interspeech
-category: self-supervised
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/magoshi26b_interspeech.pdf
 *Ryo Magoshi, Jaeyoung Lee, Shinsuke Sakai, Tatsuya Kawahara*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/magoshi26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/magoshi26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2246)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — The paper investigates zero-shot phonetic classification for unseen phones and demonstrates that standard discrete IPA token-based models fail, whereas using continuous 24-dimensional Articulatory Feature (AF) vectors extracted from frame outputs significantly improves performance—achieving 95.4% balanced accuracy on Chinese aspiration and 72.6% on Japanese nasal classification.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated pronunciation evaluation for L2 language learners, diagnostic assessment of pathological or atypical speech, and acoustic documentation of endangered unwritten languages.
+
+## Institutions / 機構
+
+Kyoto University, NTT
+
+**Funding / 經費:** JST NEXUS
 
 ## Related
 

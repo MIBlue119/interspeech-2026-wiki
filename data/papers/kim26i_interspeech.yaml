@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26i_interspeech.pdf
 session: 'Speaker Verification: Advances in Speaker Embeddings'
 topics: [speaker-verification, self-supervised, speech-enhancement]
+category: speaker
+labels:
+  - "robustness-noise"
+institutions:
+  - "Seoul National University"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Korea government"
+  - "National Research Foundation of Korea"
 code:
     url: ""
     license: ""

@@ -12,6 +12,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/thebaud26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/thebaud26_interspeech.pdf
 session: 'Speaker Verification: Architectures, Losses, and LLMs'
 topics: [speaker-verification, speech-llm, self-supervised]
+category: speaker
+institutions:
+  - "Johns Hopkins University"
 code:
     url: https://github.com/thomasthebaud/ASV-with-SpeechLLMs
     license: ""

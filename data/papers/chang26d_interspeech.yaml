@@ -19,6 +19,22 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chang26d_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/chang26d_interspeech.pdf
 session: Benchmarking Foundation Models
 topics: [spoken-language-understanding, low-resource, self-supervised]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Massachusetts Institute of Technology"
+  - "National Taiwan University"
+  - "National Taiwan University Artificial Intelligence Center of Research Excellence"
+  - "Academia Sinica"
+  - "National Yang Ming Chiao Tung University"
+  - "University of Southern California"
+funding:
+  - "National Science and Technology Council"
+  - "Ministry of Education"
+  - "National Science Foundation"
+  - "Intelligence Advanced Research Projects Activity"
 code:
     url: https://kwchang.org/taigispeech
     license: ""

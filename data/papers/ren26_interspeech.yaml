@@ -15,6 +15,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ren26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ren26_interspeech.pdf
 session: Speech Synthesis Evaluation 2
 topics: [speech-enhancement, evaluation, self-supervised]
+category: resources-evaluation
+institutions:
+  - "National Taiwan University"
+  - "Nagoya University"
+  - "National Institute of Information and Communications Technology"
+  - "Academia Sinica"
 code:
     url: ""
     license: ""

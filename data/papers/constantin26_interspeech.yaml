@@ -23,6 +23,21 @@ isca_url: https://www.isca-archive.org/interspeech_2026/constantin26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/constantin26_interspeech.pdf
 session: Pathological Speech Assessment 3
 topics: [paralinguistics, evaluation, health]
+category: health-clinical
+labels:
+  - "multilingual"
+institutions:
+  - "University College Dublin"
+  - "Universidad de Burgos"
+  - "Hospital Universitario of Burgos"
+  - "Institute of Psychiatry and Neurology"
+  - "Military Institute of Aviation Medicine"
+  - "Cardiff University"
+  - "North Bristol NHS Trust"
+  - "King's College London"
+funding:
+  - "EU Joint Programme - Neurodegenerative Disease Research"
+  - "Research Ireland"
 code:
     url: ""
     license: ""

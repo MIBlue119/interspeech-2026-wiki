@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeec
 pdf_url: https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.pdf
 session: Acoustic Event Detection 1
 topics: [paralinguistics, dataset, evaluation]
+category: audio-understanding
+institutions:
+  - "Aalborg University"
+  - "Pioneer Centre for Artificial Intelligence"
+  - "Mitsubishi Electric Research Laboratories"
 code:
     url: ""
     license: ""

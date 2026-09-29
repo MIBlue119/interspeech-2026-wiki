@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yin26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yin26b_interspeech.pdf
 session: Modeling Articulation
 topics: [tts, speech-synthesis, self-supervised]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Carnegie Mellon University"
 code:
     url: https://github.com/Lab-MSP/STArK/
     license: ""

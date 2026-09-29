@@ -1,6 +1,7 @@
 ---
 id: turavecino26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/turavecino26_interspeech.pdf
 *Biel Tura-Vecino, Yoach Lacombe, Julian Weber, Zbigniew Latka, Haitong Zhang, Logan Hart, Eren Golge*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/turavecino26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/turavecino26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-803)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — Replacing traditional fixed zero embeddings with learnable null embeddings in classifier-free guidance (CFG) for text-to-speech improves speaker similarity, stability, and robustness, while decoupling text and speaker guidance scales enables fine-grained attribute control.
 
@@ -69,6 +72,10 @@ Speech researchers and engineers working on controllable generative TTS and clas
 ## Applications
 
 High-fidelity expressive text-to-speech, voice cloning, and fine-grained voice customisation systems requiring precise control over speaker identity and linguistic stability.
+
+## Institutions / 機構
+
+Cantina Labs
 
 ## Related
 

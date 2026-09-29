@@ -1,6 +1,7 @@
 ---
 id: shangguan26_interspeech
-category: speaker-verification
+category: speaker
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shangguan26_interspeech.pdf
 *Qituan Shangguan, Junhao Du, Kunyang Peng, Feng Xue, Hui Zhang, Xinsheng Wang, Kai Yu, Shuai Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shangguan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shangguan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2274)
+
+**Category:** `speaker` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — Dual-LoRA tackles cross-lingual speaker verification bottlenecks by injecting parallel parameter-efficient LoRA adapters and a language-anchored adversary into a frozen pre-trained backbone, achieving a 0.91% validation EER.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual voice authentication, multilingual speaker diarization, and speaker recognition pipelines deployed globally across diverse linguistic populations.
+
+## Institutions / 機構
+
+Nanjing University, Shanghai Jiao Tong University, AISpeech, Soul AI Lab
+
+**Funding / 經費:** National Natural Science Foundation of China, Yangtze River Delta Science and Technology Innovation Community Joint Research Project
 
 ## Related
 

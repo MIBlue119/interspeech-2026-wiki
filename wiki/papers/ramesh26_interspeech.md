@@ -1,6 +1,6 @@
 ---
 id: ramesh26_interspeech
-category: phonetics
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ramesh26_interspeech.pdf
 *Raghavan Ramesh, Meka Nani, Sri Rama Murty Kodukula*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ramesh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ramesh26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2568)
+
+**Category:** `asr`
 
 **TL;DR** — This paper proposes duration-aware soft targets to model phonetic transition uncertainty in text-independent supervised phone segmentation, achieving a state-of-the-art R-value of 91.53% on TIMIT using a simple BiGRU architecture. By softening ground-truth hard boundaries with duration-proportional Gaussian pulses, the method significantly reduces spurious peaks and improves cross-dataset and multilingual generalization.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improved phone segmentation and boundary localization for automatic speech recognition, keyword spotting, forced alignment, and low-resource speech processing systems.
+
+## Institutions / 機構
+
+Indian Institute of Technology Hyderabad
 
 ## Related
 

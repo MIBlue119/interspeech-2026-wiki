@@ -11,6 +11,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chan26_interspeech.pdf
 session: Speaker Privacy and Anonymization
 topics: [speech-enhancement, evaluation, paralinguistics]
+category: deepfake-security
+institutions:
+  - "Educational Testing Service"
+  - "Japan Advanced Institute of Science and Technology"
 code:
     url: ""
     license: ""

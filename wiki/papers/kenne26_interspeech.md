@@ -1,6 +1,6 @@
 ---
 id: kenne26_interspeech
-category: speech-enhancement
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kenne26_interspeech.pdf
 *Henriette Flore Kenne, Raphael Anaadumba, Mohammad Arif Ul Alam*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kenne26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kenne26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2868)
+
+**Category:** `health-clinical`
 
 **TL;DR** — A multi-level privacy-preserving framework for speech-based dementia detection neutralizes eavesdropping by combining keyword-aligned signal-level adversarial perturbation and feature-level mutual information-guided noise injection, achieving near-chance speaker identification (EER = 0.59) while maintaining strong diagnostic performance (Dementia F1 = 0.79, AUC = 0.86).
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving telemedicine, clinical voice data sharing under HIPAA/GDPR compliance, and secure automated dementia screening.
+
+## Institutions / 機構
+
+University of Massachusetts Lowell
 
 ## Related
 

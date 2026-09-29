@@ -1,6 +1,7 @@
 ---
 id: leoni26_interspeech
 category: tts
+labels: [low-resource, multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/leoni26_interspeech.pdf
 *Gianna Leoni, Peter-Lucas Jones, Tūreiti Keith, Suzanne Duncan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/leoni26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/leoni26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1443)
+
+**Category:** `tts` · **Labels:** `low-resource`, `multilingual`, `generative-model`
 
 **TL;DR** — This paper presents an Indigenous-led text-to-speech (TTS) development framework for te reo Māori and New Zealand English, demonstrating that meticulous data curation and quality assurance can produce superior models with under 33 total hours of audio data.
 
@@ -56,6 +59,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Language revitalisation tools, bilingual public transport announcements, pronunciation learning apps, and accessible screen-reading software for te reo Māori and New Zealand English speakers.
+
+## Institutions / 機構
+
+Te Hiku Media
+
+**Funding / 經費:** Te Puni Kokiri, Ministry for Business, Innovation and Employment
 
 ## Related
 

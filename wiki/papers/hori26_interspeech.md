@@ -1,6 +1,7 @@
 ---
 id: hori26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hori26_interspeech.pdf
 *Chiori Hori, Ryosuke Korekata, Motonari Kambara, Yoshiki Masuyama, Siddarth Jain, Radu Corcodel, Diego Romeres, Jonathan Le Roux*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hori26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hori26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2999)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — This paper extends a Q-Former-based multimodal robot action generation framework to support online streaming processing, achieving low-latency response generation with less than 10% accuracy degradation compared to offline processing.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time human-robot collaboration, proactive assistive robotics, streaming multi-modal scene understanding, and online task planning with natural language confirmation generation.
+
+## Institutions / 機構
+
+Mitsubishi Electric Research Laboratories, Keio University
 
 ## Related
 

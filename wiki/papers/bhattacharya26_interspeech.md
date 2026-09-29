@@ -1,6 +1,7 @@
 ---
 id: bhattacharya26_interspeech
-category: multilingual
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bhattacharya26_interspeech.pd
 *Debasmita Bhattacharya, Michela Marchini, Julia Hirschberg*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bhattacharya26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bhattacharya26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-249)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This paper presents a large-scale prosodic analysis of spontaneous Spanish-English code-switched speech, revealing that code-switching (CSW) is acoustically distinct from monolingual production—primarily driven by duration and energy differences—and is influenced more heavily by speaker proficiency and linguistic strategy than by switch direction.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving the naturalness and intonation profiles of synthesized code-switched speech in multilingual text-to-speech (TTS) engines and conversational virtual assistants.
+
+## Institutions / 機構
+
+Columbia University, University of Michigan
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

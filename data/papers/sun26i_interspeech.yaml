@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sun26i_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sun26i_interspeech.pdf
 session: Pathological Speech Assessment 1
 topics: [paralinguistics, speech-llm, evaluation]
+category: health-clinical
+institutions:
+  - "University of Chinese Academy of Sciences"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Key Scientific Research Program of Hangzhou"
+  - "Natural Science Foundation of Hangzhou"
+  - "Scientific Research Starting Foundation of Hangzhou Institute for Advanced Study"
+  - "Zhejiang Provincial Natural Science Foundation of China"
+  - "Key R&D Program of Zhejiang"
 code:
     url: ""
     license: ""

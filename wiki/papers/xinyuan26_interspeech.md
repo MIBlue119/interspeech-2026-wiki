@@ -1,6 +1,7 @@
 ---
 id: xinyuan26_interspeech
-category: voice-conversion
+category: tts
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xinyuan26_interspeech.pdf
 *Henry Li Xinyuan, Zexin Cai, Lin Zhang, Leibny Paola Garcia-Perera, Berrak Sisman, Sanjeev Khudanpur, Nicholas Andrews, Matthew Wiesner*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xinyuan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xinyuan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-198)
+
+**Category:** `tts` · **Labels:** `low-resource`
 
 **TL;DR** — Universal Speech Content Factorization (USCF) extends closed-set Speech Content Factorization to open-set settings by learning a universal linear mapping via least-squares optimization, achieving competitive zero-shot voice conversion using only 10 seconds of target speaker speech.
 
@@ -65,6 +68,12 @@ Researchers and engineers working on zero-shot voice conversion and efficient te
 ## Applications
 
 Zero-shot voice conversion and timbre-prompted text-to-speech model training.
+
+## Institutions / 機構
+
+Johns Hopkins University
+
+**Funding / 經費:** Office of the Director of National Intelligence, Intelligence Advanced Research Projects Activity, ARTS Program
 
 ## Related
 

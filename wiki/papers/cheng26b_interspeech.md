@@ -1,6 +1,6 @@
 ---
 id: cheng26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cheng26b_interspeech.pdf
 *Zhenhua Cheng, Yi Zhou, Yin Liu, Yu Zhao, Liming Shi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cheng26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cheng26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2202)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This paper proposes a fixed-filter active noise control (ANC) method with frequency-response gain constraints (ANC-FRC) to prevent mechanical over-excursion in micro-loudspeakers without introducing the group delay associated with cascaded filters. The approach achieves superior noise reduction across frequency bands compared to unconstrained Wiener filters and traditional high-pass cascading methods.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Active noise control systems for smartphones, smart glasses, portable audio devices, and consumer electronics utilizing compact micro-loudspeakers.
+
+## Institutions / 機構
+
+Chongqing University of Posts and Telecommunications
+
+**Funding / 經費:** National Key Research and Development Program of China, National Natural Science Foundation of China, Natural Science Foundation of Chongqing
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: sung26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sung26_interspeech.pdf
 *Ching-Chih Sung, Francis Pingfan Chien, Li-wei Chen, Berrak Sisman, Borching Su, Yu-Te Wang, Yu Tsao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sung26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sung26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1947)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — The paper introduces NeuroPAS-Net, a three-phase fMRI decoding framework that uses self-supervised learning, incremental learning, and fine-tuning to distinguish clean from noisy speech. It also proposes NeuroPAS, a continuous neural metric derived from the decoder to evaluate and rank speech enhancement algorithms against subjective intelligibility.
 
@@ -65,6 +68,10 @@ Speech and ML researchers building neural evaluation metrics or brain-computer i
 ## Applications
 
 Objective neural evaluation of speech enhancement algorithms, brain-computer interfaces for hearing aids, and neuro-guided speech processing systems.
+
+## Institutions / 機構
+
+National Taiwan University, Academia Sinica, Johns Hopkins University, National Yang Ming Chiao Tung University
 
 ## Related
 

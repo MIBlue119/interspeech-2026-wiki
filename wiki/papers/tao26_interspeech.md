@@ -1,6 +1,7 @@
 ---
 id: tao26_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tao26_interspeech.pdf
 *Zhuoyan Tao, Jiatong Shi, Hye-jin Shim, Shinji Watanabe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-927)
+
+**Category:** `resources-evaluation` · **Labels:** `streaming-real-time`
 
 **TL;DR** — ANCHOR reformulates speech quality estimation as a multi-resolution autoregressive prediction task to evaluate partial audio prefixes accurately, achieving a 48% reduction in PLCMOS error on 2-second prefixes. It introduces a resolution-aware decoding hierarchy that generates chunk-level scores before full-utterance scores within a unified sequence.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time streaming communication quality monitoring, generative speech model evaluation, and low-latency audio packet-loss tracking.
+
+## Institutions / 機構
+
+University of Southern California, Carnegie Mellon University
+
+**Funding / 經費:** Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support, National Science Foundation
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: lin26g_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26g_interspeech.pdf
 *Tsung-En Lin, Kuan-Yi Lee, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1421)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — The paper introduces Layer-Weighted Vector Steering (LWVS), a training-free inference-time intervention that mitigates audio hallucinations in Large Audio-Language Models by contrasting active audio against silence and concentrating steering strength in influential deep layers. This approach boosts the Total F1 score on Gemma by 6.9 points and improves general audio understanding accuracy on Qwen by 8% relative.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Deploying safer, more grounded Large Audio-Language Models for audio question-delimited QA, voice assistants, and audio captioning systems where factual reliability is critical.
+
+## Institutions / 機構
+
+National Taiwan University, ASUS
+
+**Funding / 經費:** Ministry of Education, Taiwan Centers of Excellence in Artificial Intelligence, NTU Artificial Intelligence Center of Research Excellence
 
 ## Related
 

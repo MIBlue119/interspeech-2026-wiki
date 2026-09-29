@@ -1,6 +1,7 @@
 ---
 id: karani26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/karani26_interspeech.pdf
 *JASH KARANI, Adithya Chittem, Deepan Roy, Sandeep Joshi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/karani26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/karani26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2330)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — RAD-GAN is a two-stage speech reconstruction and bandwidth extension pipeline designed for low-SNR (-5 dB to -1 dB) band-limited mmWave radar captures. It achieves superior perceptual and intelligibility scores (weighted score of 0.333 vs. 0.288 for standard HiFi-GAN) without requiring data augmentations or external pre-trained modules.
 
@@ -64,6 +67,12 @@ Researchers working on ultra-low-SNR sensor fusion, bandwidth extension, or non-
 ## Applications
 
 Contact-free speech capture in secure rooms, smart-home ambient sensing, and audio recovery through physical barriers using radar.
+
+## Institutions / 機構
+
+Birla Institute of Technology and Science, Pilani
+
+**Funding / 經費:** Anusandhan National Research Foundation
 
 ## Related
 

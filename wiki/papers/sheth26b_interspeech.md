@@ -1,6 +1,7 @@
 ---
 id: sheth26b_interspeech
-category: dataset
+category: resources-evaluation
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sheth26b_interspeech.pdf
 *Kaveri K. Sheth, Sebastien Christian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sheth26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sheth26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2489)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — The authors examine ELSI, a governance and data-management platform holding child-centered audio datasets from 10 indigenous communities, and publicly critique its current centralized European academic control, calling for a co-designed community custodianship framework.
 
@@ -56,6 +59,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of equitable, community-governed speech data repositories and ethical frameworks for processing sensitive indigenous recordings.
+
+## Institutions / 機構
+
+ENS, EHESS, CNRS, PSL University, UPF
+
+**Funding / 經費:** Agence Nationale pour la Recherche, European Research Council
 
 ## Related
 

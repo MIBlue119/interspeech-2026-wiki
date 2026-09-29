@@ -1,6 +1,7 @@
 ---
 id: kirby26_interspeech
-category: self-supervised
+category: phonetics-linguistics
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kirby26_interspeech.pdf
 *James Kirby, Ioana Krehan, Michele Gubian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kirby26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kirby26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2409)
+
+**Category:** `phonetics-linguistics` · **Labels:** `self-supervised`
 
 **TL;DR** — This study evaluates whether wav2vec2.0 models exhibit human-like perceptual compensation for tonal context in Mandarin Chinese, finding no evidence of compensation in purely self-supervised representations and only weak, non-human-like shifts in fine-tuned models.
 
@@ -61,6 +64,10 @@ Speech and ML researchers studying SSL model interpretability should read this t
 ## Applications
 
 Improving the phonological fidelity and perceptual alignment of speech representation models, speech recognition, and diagnostic evaluation of self-supervised speech architectures.
+
+## Institutions / 機構
+
+LMU Munich
 
 ## Related
 

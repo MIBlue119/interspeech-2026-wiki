@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/seo26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/seo26b_interspeech.pdf
 session: 'Speech Deepfake Detection: Robustness, Generalization, Attribution'
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "Soongsil University"
+funding:
+  - "Ministry of Science and ICT"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Korea Institute of Police Technology"
+  - "Korean National Police Agency"
 code:
     url: ""
     license: ""

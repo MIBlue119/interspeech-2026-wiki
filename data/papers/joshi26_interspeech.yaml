@@ -14,6 +14,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/joshi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/joshi26_interspeech.pdf
 session: Audio Language Models
 topics: [asr, multilingual, evaluation]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Indian Institute of Technology Madras"
+  - "Sarvam AI"
+funding:
+  - "EkStep Foundation"
+  - "Nilekani Philanthropies"
 code:
     url: https://github.com/AI4Bharat/IndicContextEval
     license: ""

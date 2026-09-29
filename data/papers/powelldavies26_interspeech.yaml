@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/powelldavies26_interspee
 pdf_url: https://www.isca-archive.org/interspeech_2026/powelldavies26_interspeech.pdf
 session: Voice Quality Aspects of Speech
 topics: [phonetics, prosody, dataset]
+category: phonetics-linguistics
+institutions:
+  - "Australian National University"
+funding:
+  - "Australian Government Research Training Program"
+  - "HDR funding from the School of Literature, Language and Linguistics at the Australian National University"
 code:
     url: ""
     license: ""

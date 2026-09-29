@@ -1,6 +1,6 @@
 ---
 id: jing26b_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jing26b_interspeech.pdf
 *Zixi Jing, C. T. Justine Hui, Karen Huang, C. I. Watson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jing26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jing26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1495)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study uses ultrasound tongue imaging and unsupervised clustering to reveal that Standard Mandarin retroflex sibilants are produced using three distinct tongue-shape super-strategies—domed, humped, and concave—with speakers exhibiting strong, individual-specific preferences.
 
@@ -55,6 +57,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving articulatory modeling in speech synthesis and computer-aided pronunciation training (CAPT) systems for second-language learners of Mandarin.
+
+## Institutions / 機構
+
+University of Auckland
 
 ## Related
 

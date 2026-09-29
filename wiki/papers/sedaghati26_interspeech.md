@@ -1,6 +1,7 @@
 ---
 id: sedaghati26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [multilingual, dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sedaghati26_interspeech.pdf
 *Farnaz Sedaghati, Yuxi Wang, Zicheng Weng, Wei Rao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sedaghati26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sedaghati26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1771)
+
+**Category:** `deepfake-security` · **Labels:** `multilingual`, `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — VoxWatermark is a massive audio watermarking benchmark spanning 126,513 hours across 25 languages, designed to evaluate detectors under rigorous no-box, black-box, and white-box perturbations. The authors also propose AudioWMD, a stochastic query-stability meta-detector that outperforms single-query baselines under white-box and clean OOD conditions.
 
@@ -67,6 +70,10 @@ Read this paper if you build synthetic speech attribution systems or AIGC proven
 ## Applications
 
 AI-generated speech detection, media source attribution, content provenance verification, and combating audio deepfakes in open-world transmission environments.
+
+## Institutions / 機構
+
+University of Tehran, Nanyang Technological University
 
 ## Related
 

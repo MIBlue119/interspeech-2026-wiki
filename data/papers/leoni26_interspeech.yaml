@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/leoni26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/leoni26_interspeech.pdf
 session: Indigenous Voices in Speech Science and Technology
 topics: [tts, low-resource, multilingual]
+category: tts
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "generative-model"
+institutions:
+  - "Te Hiku Media"
+funding:
+  - "Te Puni Kokiri"
+  - "Ministry for Business, Innovation and Employment"
 code:
     url: ""
     license: ""

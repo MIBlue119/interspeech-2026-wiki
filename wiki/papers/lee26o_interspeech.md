@@ -1,6 +1,7 @@
 ---
 id: lee26o_interspeech
-category: speech-llm
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26o_interspeech.pdf
 *Taehan Lee, Jaehan Jung, Hyukjun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26o_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26o_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1684)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — A large-scale sensitivity analysis reveals that as acoustic scene complexity increases, state-of-the-art audio LLMs suffer from a significant drop in true-positive rate (~29 percentage points) and a rise in false-positive rate (~8 percentage points).
 
@@ -63,6 +66,10 @@ Speech and ML researchers building audio LLMs or evaluation benchmarks should re
 ## Applications
 
 Improving the hallucination robustness, reliability, and acoustic grounding of audio-language models deployed in complex real-world listening environments.
+
+## Institutions / 機構
+
+Sogang University
 
 ## Related
 

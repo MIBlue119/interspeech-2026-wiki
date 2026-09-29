@@ -13,6 +13,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/romerodiaz26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/romerodiaz26_interspeech.pdf
 session: Translation
 topics: [speech-translation, speech-llm, self-supervised]
+category: translation
+labels:
+  - "robustness-noise"
+institutions:
+  - "Barcelona Supercomputing Center"
+  - "Universitat Politecnica de Catalunya"
+  - "DFKI"
+funding:
+  - "Ministerio para la Transformacion Digital y de la Funcion Publica"
+  - "Plan de Recuperacion, Transformacion y Resiliencia"
+  - "European Union"
+  - "MICIU/AEI"
+  - "Red.es"
 code:
     url: ""
     license: ""

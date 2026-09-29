@@ -1,6 +1,7 @@
 ---
 id: zhang26y_interspeech
-category: asr
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26y_interspeech.pdf
 *Ruidong Zhang, Jiacheng Liu, François Guimbretière, Cheng Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26y_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26y_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1625)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — SoniSpeech is the first large-scale, open-vocabulary, trimodal dataset for wearable silent speech interfaces using acoustic-sensing eyewear, achieving a 26.3% word error rate (WER) on open-vocabulary silent speech recognition with a ResNet-34 CTC baseline.
 
@@ -64,6 +67,12 @@ Speech and machine learning researchers building wearable, unobtrusive silent sp
 ## Applications
 
 Accessible and private hands-free communication devices, silent dictation for smart eyewear, and cross-modal speech enhancement or voice conversion.
+
+## Institutions / 機構
+
+Cornell University
+
+**Funding / 經費:** National Science Foundation, Qualcomm Innovation Fellowship
 
 ## Related
 

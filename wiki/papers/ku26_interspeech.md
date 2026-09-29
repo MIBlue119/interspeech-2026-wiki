@@ -1,6 +1,7 @@
 ---
 id: ku26_interspeech
-category: speech-translation
+category: resources-evaluation
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ku26_interspeech.pdf
 *Dayeon Ku, Hwayoung Park, Hong Kook Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ku26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ku26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2175)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`
 
 **TL;DR** — Audiovisual CXMI (AV-CXMI) extends text-only Conditional Cross-Mutual Information by incorporating scene-level acoustic and visual tags to reliably evaluate spoken language translation quality. Evaluated on Korean–English film translation, it achieves a statistically significant correlation with human judgment (r = 0.400) and resolves ranking inversions where text-only metrics incorrectly scored human translations below machine outputs.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Evaluating context-aware machine translation, subtitling systems, and multimodal spoken language translation pipelines in the entertainment and localization industries.
+
+## Institutions / 機構
+
+Gwangju Institute of Science and Technology, AunionAI
+
+**Funding / 經費:** Korea Ministry of SMEs and Startups, National Research Foundation of Korea, Korea Ministry of Trade, Industry & Energy, Ministry of Science and ICT, Korea, Gwangju Metropolitan City
 
 ## Related
 

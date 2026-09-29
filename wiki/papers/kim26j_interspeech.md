@@ -1,6 +1,7 @@
 ---
 id: kim26j_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26j_interspeech.pdf
 *Dohwan Kim, Jung-Woo Choi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1150)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — MeCo is a one-step generative corrector based on Mean Flows that maps imperfect multi-channel speech separation outputs directly onto the clean speech manifold in a single step. It achieves state-of-the-art signal fidelity and human listening quality simultaneously across in-domain and out-of-domain environments.
 
@@ -67,6 +70,12 @@ Researchers and audio engineers working on real-time multi-channel speech enhanc
 ## Applications
 
 Real-time multi-channel speech communication systems, smart speakers, hearing aids, and conferencing hardware requiring artifact-free speech separation with ultra-low latency.
+
+## Institutions / 機構
+
+KAIST
+
+**Funding / 經費:** National Research Foundation of Korea, Ministry of Science and ICT of Korea, Ministry of Education of Korea
 
 ## Related
 

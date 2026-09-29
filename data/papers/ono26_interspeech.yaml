@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ono26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ono26_interspeech.pdf
 session: Spatial Audio 4
 topics: [source-separation, speech-enhancement, self-supervised]
+category: enhancement-separation
+labels:
+  - "robustness-noise"
+institutions:
+  - "Kyoto University"
+  - "RIKEN"
+  - "National Institute of Advanced Industrial Science and Technology"
 code:
     url: ""
     license: ""

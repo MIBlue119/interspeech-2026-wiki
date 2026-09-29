@@ -1,6 +1,7 @@
 ---
 id: agarwal26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/agarwal26_interspeech.pdf
 *Prateek Agarwal, Saurabh Kumar, Priyanka Bhatt*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/agarwal26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/agarwal26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1314)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — The paper introduces "anchor audio"—prepending a short, acoustically distinct, and domain-orthogonal phrase to audio inputs—to completely suppress Whisper hallucinations on non-speech audio while enabling safe utterance batching for throughput optimization, all without model fine-tuning.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Production-ready real-time customer service conversational bots, call center audio transcription pipelines, and high-throughput offline ASR batch processing systems.
+
+## Institutions / 機構
+
+Walmart Global Tech
 
 ## Related
 

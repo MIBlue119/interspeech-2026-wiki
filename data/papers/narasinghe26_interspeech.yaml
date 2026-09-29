@@ -12,6 +12,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/narasinghe26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/narasinghe26_interspeech.pdf
 session: Self-supervised Speech Representation Learning
 topics: [self-supervised, evaluation, phonetics]
+category: applications-other
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Moratuwa"
 code:
     url: ""
     license: ""

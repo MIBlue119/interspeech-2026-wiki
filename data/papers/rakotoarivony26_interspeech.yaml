@@ -8,6 +8,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/rakotoarivony26_interspe
 pdf_url: https://www.isca-archive.org/interspeech_2026/rakotoarivony26_interspeech.pdf
 session: Acoustic Signal Analysis and Generation
 topics: [self-supervised, on-device, evaluation]
+category: applications-other
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "Thales"
 code:
     url: ""
     license: ""

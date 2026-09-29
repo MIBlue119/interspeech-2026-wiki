@@ -11,6 +11,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/thai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/thai26_interspeech.pdf
 session: Domain Adaptation & Accented ASR
 topics: [asr, self-supervised, multilingual]
+category: asr
+labels:
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "Nanyang Technological University"
+  - "VinUniversity"
+funding:
+  - "National Research Foundation, Singapore"
+  - "Civil Aviation Authority of Singapore"
+  - "Aviation Transformation Programme"
 code:
     url: https://github.com/thaivanphat95/robust-atc-asr
     license: ""

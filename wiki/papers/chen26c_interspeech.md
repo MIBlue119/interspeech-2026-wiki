@@ -1,6 +1,6 @@
 ---
 id: chen26c_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26c_interspeech.pdf
 *Zhuo Chen, Bingliang Zhao, Xiyu Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-361)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates the diachronic cue reweighting of two high-falling tones (T2 and T4) in Pingdingshan Mandarin across three generations using acoustic and EGG data, revealing a shift from pitch dominance to a multidimensional system incorporating creaky voice and duration. Results show that younger speakers compensate for narrowing pitch differences by significantly increasing the relative weights of phonation and duration, demonstrating a reverse pitch-to-phonation tonal evolution.
 
@@ -56,6 +58,12 @@ Phoneticians, historical linguists, and speech researchers should read this pape
 ## Applications
 
 Improving multi-cue modeling in automatic speech recognition and speech synthesis systems for dialectal and tone-shifting languages where traditional pitch-only models fail.
+
+## Institutions / 機構
+
+Peking University
+
+**Funding / 經費:** National Social Science Foundation of China
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: hu26f_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hu26f_interspeech.pdf
 *De Hu, Xue Du, Qingying Zhao, Qintuya Si*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hu26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hu26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1660)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`
 
 **TL;DR** — ABSE-NET is a lightweight neural model designed for active binaural speech enhancement in open-fit hearing aids that eliminates acoustic leakage without requiring an intrusive in-ear error microphone during deployment. It achieves an SI-SDR of 9.869 dB and a PESQ of 3.626 while using only 0.112M parameters and 0.184G FLOPs.
 
@@ -70,6 +73,12 @@ Speech and ML engineers building ultra-low-latency, edge-deployed audio enhancem
 ## Applications
 
 Open-fit hearing aids, hearables, and wearable communication devices requiring real-time active speech enhancement and acoustic leakage cancellation under extreme resource constraints.
+
+## Institutions / 機構
+
+Inner Mongolia University
+
+**Funding / 經費:** National Natural Science Foundation of China, Natural Science Foundation of Inner Mongolia Autonomous Region
 
 ## Related
 

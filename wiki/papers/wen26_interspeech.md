@@ -1,6 +1,6 @@
 ---
 id: wen26_interspeech
-category: spatial-audio
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wen26_interspeech.pdf
 *Xue Wen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-149)
+
+**Category:** `applications-other`
 
 **TL;DR** — The paper introduces the finite order centroid (FOC)—a translation derived by maximizing directional response energy within finite-order spatial harmonics—to eliminate random positioning uncertainty in measured microphone directional transfer functions (DTFs). This calibration improves downstream spatial audio tasks such as interpolation, smoothing, and direction-aware ambisonic encoding.
 
@@ -58,6 +60,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Acoustic calibration of irregular consumer microphone arrays, AR/VR spatial audio rendering, HRTF preprocessing for spatial audio, and data augmentation/normalization for data-driven spatial audio models.
+
+## Institutions / 機構
+
+Samsung
 
 ## Related
 

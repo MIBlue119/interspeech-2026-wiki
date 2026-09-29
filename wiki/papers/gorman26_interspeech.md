@@ -1,6 +1,7 @@
 ---
 id: gorman26_interspeech
-category: self-supervised
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gorman26_interspeech.pdf
 *Cy Gorman, Yihang Yao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gorman26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gorman26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2829)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper proposes shifting affective computing from an individual-state classification paradigm to a relational framework modeling interactional fields, demonstrating via WavLM representations on the AMI corpus that directional expressive coupling is regime-specific and concentrated at sub-second timescales under mutual co-presence. Grounded in affective resonance and vitality affects, the study introduces design frameworks (ARDO and AARI) for systems that participate in vocal interaction dynamics.
 
@@ -61,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Interactive social robotics, empathetic conversational agents, and real-time multi-party meeting analysis systems.
+
+## Institutions / 機構
+
+Nurobodi
+
+**Funding / 經費:** CSIRO, Innovate to Grow, ON Prime
 
 ## Related
 

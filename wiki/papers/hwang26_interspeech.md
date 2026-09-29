@@ -1,6 +1,6 @@
 ---
 id: hwang26_interspeech
-category: speech-llm
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hwang26_interspeech.pdf
 *Sooyeon Hwang, Eunseong Kwon, Gahgene Gweon*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hwang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hwang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1875)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — MF-EDM is a two-stage graph-based framework for multimodal Emotion Recognition in Conversation that addresses intra-utterance cross-modal fusion via an early-fused anchor node and inter-utterance emotional dynamics via specialized inertia and contagion GNNs, achieving state-of-the-art results (e.g., 74.24% weighted F1 on IEMOCAP).
 
@@ -68,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multi-party meeting analysis, empathetic conversational agents, customer service quality monitoring, and mental health session tracking.
+
+## Institutions / 機構
+
+Seoul National University
+
+**Funding / 經費:** Institute for Information & communications Technology Promotion, Ministry of Science and ICT
 
 ## Related
 

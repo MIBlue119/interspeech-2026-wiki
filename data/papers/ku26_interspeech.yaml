@@ -10,6 +10,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ku26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ku26_interspeech.pdf
 session: Multilingual Speech 2
 topics: [speech-translation, multilingual, evaluation]
+category: resources-evaluation
+labels:
+  - "multilingual"
+institutions:
+  - "Gwangju Institute of Science and Technology"
+  - "AunionAI"
+funding:
+  - "Korea Ministry of SMEs and Startups"
+  - "National Research Foundation of Korea"
+  - "Korea Ministry of Trade, Industry & Energy"
+  - "Ministry of Science and ICT, Korea"
+  - "Gwangju Metropolitan City"
 code:
     url: ""
     license: ""

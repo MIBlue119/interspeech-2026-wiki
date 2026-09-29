@@ -1,6 +1,7 @@
 ---
 id: elmerich26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/elmerich26_interspeech.pdf
 *Amélie Elmerich, Yao Dong, Louise McKeever, Katia Chirkova, Lise Crevier-Buchman, Claire Pillot-Loiseau, Angelique Amelot*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/elmerich26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/elmerich26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2560)
+
+**Category:** `phonetics-linguistics` · **Labels:** `low-resource`
 
 **TL;DR** — NewAppVoice is a reproducible acoustic analysis software tool that integrates multiple formant-calculation algorithms, fundamental frequency estimators, and voice-quality measures with synchronized waveform and spectral visualization to facilitate manual inspection and correction of under-documented languages. It provides standalone executables for macOS and Windows, eliminating the need for a MATLAB license.
 
@@ -56,6 +59,12 @@ Speech researchers, phoneticians, and speech technology engineers working on low
 ## Applications
 
 Field linguistics, documentary phonetics, clinical voice analysis, and acoustic phonetics research requiring high-precision formant and voice quality measurements.
+
+## Institutions / 機構
+
+CNRS, Sorbonne Nouvelle University, Foch Hospital, Paris-Saclay University
+
+**Funding / 經費:** French National Research Agency
 
 ## Related
 

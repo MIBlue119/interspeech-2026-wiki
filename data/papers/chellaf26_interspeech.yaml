@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chellaf26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/chellaf26_interspeech.pdf
 session: Corpus Creation, Summarization and Understanding
 topics: [speech-translation, self-supervised, multilingual]
+category: translation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "efficient-on-device"
+institutions:
+  - "Avignon Universite"
+  - "Lundi Matin"
 code:
     url: https://huggingface.co/datasets/cchellaf/ABT-SpeechSUM
     license: ""

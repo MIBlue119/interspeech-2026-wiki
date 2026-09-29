@@ -1,6 +1,7 @@
 ---
 id: agrawal26_interspeech
-category: prosody
+category: applications-other
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/agrawal26_interspeech.pdf
 *Mrigendra Agrawal, Ryan Tsui, Kyaw Maung Maung Tet Toe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/agrawal26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/agrawal26_interspeech.html)
+
+**Category:** `applications-other` · **Labels:** `streaming-real-time`
 
 **TL;DR** — Amadea is an interactive speech learning platform that integrates real-time fundamental-frequency (F0) pronunciation feedback for pitch-sensitive languages into both structured lessons and open-ended conversational dialogues.
 
@@ -58,6 +61,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-assisted language learning (CALL) platforms, interactive second-language tutoring applications, and real-time pronunciation feedback tools for pitch-accent and tonal languages.
+
+## Institutions / 機構
+
+Amadea, University of Queensland, University of Edinburgh
 
 ## Related
 

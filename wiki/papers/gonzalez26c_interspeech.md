@@ -1,6 +1,7 @@
 ---
 id: gonzalez26c_interspeech
 category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gonzalez26c_interspeech.pdf
 *Simon Gonzalez, Tao Hoang, Bradley Donnelly, Jason Littlefield, Myung Kim, Chloe Dean, Jennifer Biggs, Hayden Ooi, Latchman Singh, Tim Cawley*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gonzalez26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gonzalez26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-920)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — This paper investigates how linguistic dimension interactions shape semantic preservation in multilingual ASR, discovering through mixed-effects beta regression that sentence-level meaning emerges from interdependent morphosyntactic and phonological-syntactic combinations rather than isolated error rates.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving multilingual ASR evaluation pipelines, guiding architecture design for semantically sensitive downstream applications like spoken dialogue systems and cross-lingual information retrieval.
+
+## Institutions / 機構
+
+Defence Science and Technology Group
 
 ## Related
 

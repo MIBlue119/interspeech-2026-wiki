@@ -1,6 +1,6 @@
 ---
 id: huang26n_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26n_interspeech.pdf
 *Zilong Huang, Kong Aik Lee, Junjie Li, Zhe Li, Man-Wai Mak*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1996)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — EmoEUS is an explicit uncertainty supervision framework for multimodal emotion recognition in conversation that dynamically weights text, audio, and video modalities using learned variance estimates. It achieves state-of-the-art results, including 74.33% accuracy on IEMOCAP and 68.32% accuracy on MELD.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Human-computer interaction, intelligent affective healthcare, and customer service analytics.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University, University of Hong Kong
+
+**Funding / 經費:** Innovation Technology Co. Ltd
 
 ## Related
 

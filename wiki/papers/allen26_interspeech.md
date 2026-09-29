@@ -1,6 +1,7 @@
 ---
 id: allen26_interspeech
-category: multilingual
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/allen26_interspeech.pdf
 *Alyssa Allen, Kathryn Campbell-Kibler*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/allen26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/allen26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2391)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study examines whether Spanish-dominant bilingual speakers phonetically align (in vowel duration and voice onset time) when shadowing human versus synthetic voice assistant voices in Spanish and English. Results show robust convergence across both human and machine conditions, though modulated by social factors like speaker gender, dialect, and perceived system intelligibility.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving multilingual text-to-speech design, adapting ASR acoustic models to account for user phonetic accommodation and dialectal variation, and enhancing conversational AI social realism.
+
+## Institutions / 機構
+
+Ohio State University
 
 ## Related
 

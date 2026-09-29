@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/burdisso26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/burdisso26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/burdisso26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3422)
 
+**Category:** `asr`
+
 **TL;DR** — The paper introduces a multi-view noise-driven batching strategy for text-only domain adaptation in LLM-based ASR, preventing catastrophic forgetting by framing adaptation as a multi-view denoising task and achieving up to 25.4% relative WER improvement.
 
 ## Key contributions
@@ -66,6 +68,12 @@ Speech and ML researchers working on domain adaptation for LLM-based ASR will fi
 ## Applications
 
 Adapting conversational voice assistants, customer service transcription bots, and automated meeting minutes systems to new proprietary industrial domains using unlabelled transcript text alone.
+
+## Institutions / 機構
+
+Idiap Research Institute, EPFL, University of Zurich, Uniphore, Brno University of Technology
+
+**Funding / 經費:** Idiap Research Institute and Uniphore collaboration project, EU Horizon 2020 project ELOQUENCE
 
 ## Related
 

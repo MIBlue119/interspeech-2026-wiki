@@ -14,6 +14,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26n_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26n_interspeech.pdf
 session: Clinically Useful Speech Representations 1
 topics: [paralinguistics, speech-llm, health]
+category: health-clinical
+labels:
+  - "self-supervised"
+institutions:
+  - "Arizona State University"
+  - "University of Wisconsin-Madison"
+  - "University of Waterloo"
+funding:
+  - "NIH-NIA"
 code:
     url: ""
     license: ""

@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/vendrame26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/vendrame26_interspeech.pdf
 session: Spoken Language Understanding
 topics: [spoken-language-understanding, speech-llm, multilingual]
+category: speech-llm-dialogue
+labels:
+  - "low-resource"
+institutions:
+  - "Brno University of Technology"
+funding:
+  - "PRINS"
+  - "European Union"
+  - "Horizon Europe"
+  - "MoE"
 code:
     url: https://github.com/kackav/dialogue_state_tracking
     license: ""

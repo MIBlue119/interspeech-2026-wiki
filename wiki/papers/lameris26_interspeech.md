@@ -1,6 +1,7 @@
 ---
 id: lameris26_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lameris26_interspeech.pdf
 *Harm Lameris, Shree Harsha Bokkahalli Satish, Joakim Gustafson, Éva Székely*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lameris26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lameris26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-736)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces VQ-Bench, a controlled evaluation suite of parallel synthetic utterances featuring modal, breathy, creaky, and end-creak phonation types, to probe speech foundation models' (SFMs) sensitivity to non-lexical voice quality variations. Results reveal that leading SFMs and speech emotion recognition models exhibit systematic behavioural shifts in agency, empathy, leadership, and emotional classification, while mirroring human gender biases such as leadership and salary penalties for female voices.
 
@@ -58,6 +61,12 @@ Speech and ML engineers building spoken dialogue agents, conversational LLMs, or
 ## Applications
 
 Automated interview screening, AI-driven psychotherapy and counseling bots, voice assistants, and speech emotion recognition safety audits.
+
+## Institutions / 機構
+
+KTH Royal Institute of Technology
+
+**Funding / 經費:** Wallenberg AI, Autonomous Systems and Software Program, Knut and Alice Wallenberg Foundation, Swedish Research Council
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: liu26p_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26p_interspeech.pdf
 *Min Liu, JingJing Yin, Xiang Zhang, JianHao Ye, Siyu Hao, Siwei Xia, Hongbin Zhou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26p_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26p_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2125)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — Audiobook-CC is a context-aware and emotion-controllable speech synthesis framework designed for multicast audiobooks, achieving 4.25 M-MOS on chapter-level generation (a 14% relative gain over strongest baselines).
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated production of multicast audiobooks, dramatic multi-character podcast creation, and expressive long-form audio storytelling.
+
+## Institutions / 機構
+
+Shanghai Himalaya Technology Co., Ltd
 
 ## Related
 

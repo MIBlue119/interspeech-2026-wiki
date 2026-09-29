@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zafar26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zafar26_interspeech.pdf
 session: Clinically Useful Speech Representations 1
 topics: [paralinguistics, evaluation, health]
+category: health-clinical
+labels:
+  - "robustness-noise"
+institutions:
+  - "University of New South Wales"
+funding:
+  - "National Institutes of Health"
 code:
     url: ""
     license: ""

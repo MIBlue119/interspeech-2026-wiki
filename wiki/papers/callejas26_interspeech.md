@@ -1,6 +1,7 @@
 ---
 id: callejas26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/callejas26_interspeech.pdf
 *Sofia Callejas, Nahuel Gomez, Catherine Pelachaud, Brian Ravenet, Valentin Barriere*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/callejas26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/callejas26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2352)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — MultiLinguahah is an unsupervised multilingual laughter segmentation method that bypasses manual annotations by combining energy-based audio segmentation, self-supervised BYOL-A audio encoding, and Isolation Forest anomaly detection, outperforming English-centric supervised baselines in diverse cross-lingual and in-the-wild settings.
 
@@ -68,6 +71,10 @@ Speech and ML engineers working on cross-lingual paralinguistics or acoustic eve
 ## Applications
 
 Socially interactive agents, automated humor extraction, meeting analysis, and conversational analytics systems requiring language-agnostic laughter detection.
+
+## Institutions / 機構
+
+Universite Paris-Saclay, Universidad de Chile, Sorbonne University
 
 ## Related
 

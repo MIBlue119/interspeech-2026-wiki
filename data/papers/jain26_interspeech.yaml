@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jain26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jain26_interspeech.pdf
 session: Audio-Visual and Multimodal Perception
 topics: [visual-speech-recognition, evaluation, phonetics]
+category: asr
+institutions:
+  - "Trinity College Dublin"
+funding:
+  - "Research Ireland"
 code:
     url: ""
     license: ""

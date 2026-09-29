@@ -1,6 +1,7 @@
 ---
 id: sheth26_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [low-resource, multilingual, dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sheth26_interspeech.pdf
 *Kaveri K. Sheth, Lawrence Borst, Tarek Kunze, Marvin Lavechin, Okko Räsänen, Sho Tsuji, Loann Peurey, Alix Bourree, Alejandrina Cristia*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sheth26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sheth26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2363)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — This paper presents an integrated framework to solve cross-corpus heterogeneity, benchmark scarcity, and privacy constraints in child-centered long-form audio recordings (LFRs), demonstrated through a 27-dataset collection, replicable evaluation pipelines, and a role-based governance ecosystem (ELSI).
 
@@ -67,6 +70,12 @@ Speech and ML researchers building tools for naturalistic, low-resource, or sens
 ## Applications
 
 Automated child speech processing, early language acquisition tracking, developmental psychology research, and privacy-preserving ML pipelines for wearable sensor data.
+
+## Institutions / 機構
+
+PSL University, CNRS, EHESS, ENS, Universite Aix-Marseille, Tampere University
+
+**Funding / 經費:** Agence Nationale de la Recherche, PSL, J. S. McDonnell Foundation, European Research Council, Simons Foundation International
 
 ## Related
 

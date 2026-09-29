@@ -18,6 +18,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26n_interspeech.pdf
 session: Neural Audio Codec Architectures
 topics: [tts, speech-llm, self-supervised]
+category: speech-coding
+labels:
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "Peking University"
+  - "Tencent"
+  - "Shanghai Jiao Tong University"
+funding:
+  - "Guangdong Provincial Key Laboratory of Ultra High Definition Immersive Media Technology"
 code:
     url: https://anonymous666-speech.github.io/CodecFormer_5Hz/
     license: ""

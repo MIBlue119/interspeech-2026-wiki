@@ -9,6 +9,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26f_interspeech.pdf
 session: Speech Enhancement and Restoration
 topics: [speech-enhancement, self-supervised, on-device]
+category: enhancement-separation
+labels:
+  - "robustness-noise"
+institutions:
+  - "Korea Advanced Institute of Science and Technology"
+funding:
+  - "National Research Foundation of Korea"
+  - "Ministry of Science and ICT of Korea"
+  - "Ministry of Education of Korea"
+  - "Ministry of Trade, Industry and Energy"
+  - "Korea Evaluation Institute of Industrial Technology"
 code:
     url: https://sites.google.com/view/semambapp
     license: ""

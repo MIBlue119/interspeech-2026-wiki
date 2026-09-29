@@ -19,6 +19,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wu26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wu26j_interspeech.pdf
 session: Medical Dialogue and Conversational Understanding
 topics: [speech-llm, paralinguistics, health]
+category: health-clinical
+institutions:
+  - "ETH Zurich"
+  - "Eindhoven University of Technology"
+  - "University of St. Gallen"
+  - "Stanford University"
 code:
     url: https://github.com/Fan-loewe/AuscuTSLM
     license: ""

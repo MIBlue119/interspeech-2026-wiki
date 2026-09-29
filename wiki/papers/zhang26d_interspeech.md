@@ -1,6 +1,7 @@
 ---
 id: zhang26d_interspeech
-category: self-supervised
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26d_interspeech.pdf
 *Yucong Zhang, Zhang Chen, Juan Liu, Wei Ju, Hongbin Suo, Ming Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-463)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates dual-encoder fusion combining Whisper and Dasheng within the Large Audio Language Model framework for the Interspeech 2026 Audio Encoder Capability Challenge, achieving an overall Track A score of 0.712 via implicit adaptation. It demonstrates that a token-wise softmax-gated residual fusion augmented with an STFT spectral branch provides a stable and robust architecture.
 
@@ -64,6 +67,12 @@ Researchers building Large Audio Language Models or multi-encoder fusion archite
 ## Applications
 
 Unified audio foundation models, multi-task speech and audio understanding systems, and audio language assistants requiring robust generalization across both linguistic speech tasks and environmental acoustic classification.
+
+## Institutions / 機構
+
+Wuhan University, Chinese University of Hong Kong, Shenzhen, OPPO, Duke Kunshan University
+
+**Funding / 經費:** National Natural Science Foundation of China, Yangtze River Delta Science and Technology Innovation Community Joint Research Project, OPPO
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: kumar26b_interspeech
-category: asr
+category: speech-llm-dialogue
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kumar26b_interspeech.pdf
 *Ankit Kumar, Munir Georges*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kumar26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kumar26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-670)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — ML-KD-DRI-GAN is a teacher-guided adversarial denoising and knowledge distillation framework that maps noisy ASR embeddings onto a clean semantic manifold, achieving absolute intent classification accuracy improvements of 4.49% and 6.46% under moderate and severe ASR noise on the SLURP dataset.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust smart home voice assistants, telephony automated dialog systems, and downstream spoken language understanding modules operating in high-noise acoustic environments.
+
+## Institutions / 機構
+
+Galgotias University, Technische Hochschule Ingolstadt
 
 ## Related
 

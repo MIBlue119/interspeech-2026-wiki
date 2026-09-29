@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26p_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26p_interspeech.pdf
 session: Text Processing for Speech Synthesis
 topics: [tts, low-resource, self-supervised]
+category: tts
+labels:
+  - "low-resource"
+  - "generative-model"
+institutions:
+  - "CBS"
+  - "Sogang University"
+funding:
+  - "Institute of Information Communications Technology Planning Evaluation"
 code:
     url: ""
     license: ""

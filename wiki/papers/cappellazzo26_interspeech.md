@@ -1,6 +1,7 @@
 ---
 id: cappellazzo26_interspeech
-category: speech-llm
+category: asr
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cappellazzo26_interspeech.pdf
 *Umberto Cappellazzo, Stavros Petridis, Maja Pantic*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cappellazzo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cappellazzo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-417)
+
+**Category:** `asr` · **Labels:** `robustness-noise`
 
 **TL;DR** — Dr. SHAP-AV introduces a Shapley-value attribution framework to analyze modality contributions in Audio-Visual Speech Recognition (AVSR) across six state-of-the-art architectures, revealing a persistent audio bias even under severe noise.
 
@@ -63,6 +66,10 @@ Researchers and engineers building multimodal speech systems should read this to
 ## Applications
 
 Auditing and diagnosing multimodal speech recognition models, guiding the design of adaptive modality-weighting mechanisms, and improving robustness in noisy audio-visual conversational agents.
+
+## Institutions / 機構
+
+Imperial College London, NatWest AI Research
 
 ## Related
 

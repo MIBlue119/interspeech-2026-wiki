@@ -8,6 +8,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dey26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dey26_interspeech.pdf
 session: Language and Dialect Recognition
 topics: [spoken-language-understanding, self-supervised, evaluation]
+category: speaker
+labels:
+  - "multilingual"
+  - "robustness-noise"
+institutions:
+  - "Samsung"
 code:
     url: ""
     license: ""

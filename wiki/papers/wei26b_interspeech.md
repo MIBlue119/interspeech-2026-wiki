@@ -1,6 +1,6 @@
 ---
 id: wei26b_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wei26b_interspeech.pdf
 *Tzu-Chieh Wei, Yi-Cheng Lin, Huang-Cheng Chou, Kuan-Yu Chen, Hsin-Yen Sung, Shrikanth Narayanan, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wei26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wei26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-77)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper presents the first systematic evaluation of speaker verification (SV) across 10 non-verbal vocalization (NVV) types, introducing an inter-layer residual Mixture of Experts (IR-MoE) framework with conditional distillation to bridge the speech-NVV domain gap while preventing catastrophic forgetting. The proposed model reduces speech-NVV EER from 38.93% to 22.66% and improves speech verification EER from 13.17% to 9.24%.
 
@@ -66,6 +68,12 @@ Speech engineers and researchers building expressive text-to-speech or voice con
 ## Applications
 
 Objective automated evaluation of speaker identity consistency in expressive text-to-speech and voice conversion systems that generate non-verbal vocalizations.
+
+## Institutions / 機構
+
+University of Michigan, National Taiwan University, University of Southern California
+
+**Funding / 經費:** Ministry of Education, Taiwan Centers of Excellence in Artificial Intelligence, NTU Artificial Intelligence Center of Research Excellence, NSTC, US National Science Foundation, ODNI IARPA ARTS Program
 
 ## Related
 

@@ -1,12 +1,15 @@
 ---
 id: bird26_interspeech
-category: low-resource
+category: asr
+labels: [low-resource, multilingual]
 updated: 2026-09-28
 confidence: abstract-only
 source: https://www.isca-archive.org/interspeech_2026/bird26_interspeech.html
 ---
 
 # Speech Technology and Linguistic Diversity
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — A keynote-style talk arguing that speech technology should be redesigned around locally meaningful uses of vernacular languages rather than around maximizing training data.
 
@@ -29,6 +32,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Guides community-centered speech technology design for low-resource and Indigenous language communities.
+
+## Institutions / 機構
+
+Charles Darwin University
 
 ## Related
 

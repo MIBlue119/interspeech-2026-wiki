@@ -1,6 +1,7 @@
 ---
 id: joo26_interspeech
 category: asr
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/joo26_interspeech.pdf
 *Jeonghyeon Joo, Jiyoung Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/joo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/joo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1163)
+
+**Category:** `asr` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — CoCoVSR is a cross-lingual compositional learning framework that adapts pretrained multilingual visual speech recognition models to code-switched scenarios using synthetic pseudo-code-switched clips and shared adapters, achieving state-of-the-art results on the CSLR benchmark.
 
@@ -63,6 +66,12 @@ Speech and ML researchers working on multimodal tasks or low-resource visual spe
 ## Applications
 
 Multilingual video transcription, cross-lingual video subtitle generation, and inclusive human-computer interaction systems supporting natural code-switched speech.
+
+## Institutions / 機構
+
+Ewha Womans University
+
+**Funding / 經費:** National Research Foundation of Korea
 
 ## Related
 

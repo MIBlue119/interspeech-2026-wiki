@@ -1,6 +1,7 @@
 ---
 id: lee26b_interspeech
-category: speech-llm
+category: phonetics-linguistics
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26b_interspeech.pdf
 *Jihwan Lee, Parsa Razmara, Kevin Huang, Sean Foley, Aditya Kommineni, Haley Hsu, Woojae Jeong, Prakash Kumar, Xuan Shi, Yoonjeong Lee, Tiantian Feng, Takfarinas Medani, Ye Tian, Sudarsana Reddy Kadiri, Krishna Nayak, Dani Byrd, Louis Goldstein, Richard M. Leahy, Shrikanth Narayanan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-140)
+
+**Category:** `phonetics-linguistics` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper presents the first simultaneous acquisition framework for real-time MRI, EEG, and surface EMG during speech production, capturing the full speech chain from neural planning to physical articulation. A multi-stage artifact suppression pipeline successfully mitigates MRI gradient switching, cardiac, and myogenic artifacts, achieving an average temporal ERP correlation of 0.66 between inside- and outside-scanner conditions.
 
@@ -64,6 +67,12 @@ Speech and BCI researchers tackling multimodal biosignal integration, artifact s
 ## Applications
 
 Development of robust silent/imagined speech brain-computer interfaces (BCIs), neuromuscular speech decoders, and physiological investigations of speech motor control and speech disorders like stuttering or apraxia.
+
+## Institutions / 機構
+
+University of Southern California
+
+**Funding / 經費:** National Science Foundation, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health
 
 ## Related
 

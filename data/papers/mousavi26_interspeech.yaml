@@ -11,6 +11,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mousavi26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/mousavi26_interspeech.pdf
 session: Audio Language Models
 topics: [speech-llm, evaluation, self-supervised]
+category: speech-llm-dialogue
+institutions:
+  - "Concordia University"
+  - "Mila - Quebec AI Institute"
+  - "Universite Laval"
+  - "Birla Institute of Technology and Science, Pilani"
+funding:
+  - "Natural Sciences and Engineering Research Council of Canada"
+  - "Digital Research Alliance of Canada"
+  - "Translated Imminent Program"
+  - "Apple"
 code:
     url: https://poonehmousavi.github.io/faithfulness/
     license: ""

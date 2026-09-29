@@ -1,6 +1,7 @@
 ---
 id: luo26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/luo26b_interspeech.pdf
 *Qingyu Luo, Peng Zhang, Wenwu Wang, Philip J.B. Jackson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/luo26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/luo26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2577)
+
+**Category:** `enhancement-separation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces YT-SPEECH, an 8.9-hour dataset of speech-dominant 360-degree video and First-Order Ambisonics (FOA) audio, alongside a Localizer-Renderer framework that achieves superior spatial accuracy and speech quality via confidence-gated audio-visual priors.
 
@@ -66,6 +69,12 @@ Speech and audio researchers working on immersive 360-degree video, ambisonic sp
 ## Applications
 
 Immersive telepresence, virtual reality (VR) video players, panoramic streaming platforms, and interactive 360-degree media applications.
+
+## Institutions / 機構
+
+University of Surrey
+
+**Funding / 經費:** Bang & Olufsen A/S, AURIC
 
 ## Related
 

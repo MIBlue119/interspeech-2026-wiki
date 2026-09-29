@@ -15,6 +15,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kheir26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/kheir26b_interspeech.pdf
 session: Grand Special Challenges Poster Showcase
 topics: [low-resource, multilingual, self-supervised]
+category: applications-other
+labels:
+  - "low-resource"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "German Research Center for Artificial Intelligence"
+  - "Technical University of Berlin"
+  - "University of Sheffield"
+  - "University of New South Wales"
+  - "Alexandria University"
+  - "Qatar Computing Research Institute"
+  - "Taibah University"
+  - "HUMAIN"
 code:
     url: ""
     license: ""

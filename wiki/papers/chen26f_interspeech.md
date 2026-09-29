@@ -1,6 +1,7 @@
 ---
 id: chen26f_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26f_interspeech.pdf
 *Zhang Chen, Yucong Zhang, Xiaoxiao Miao, Ming Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-838)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces the SSCC dataset—a multimodal industrial condition monitoring benchmark featuring 6,669 synchronized audio and vibration clips from a chain conveyor system—and establishes unified kNN-based evaluation protocols for fault detection and classification.
 
@@ -69,6 +72,12 @@ Researchers and engineers working on industrial condition monitoring or multimod
 ## Applications
 
 Automated industrial production line monitoring, predictive maintenance, and real-time fault diagnosis in conveyor and transmission systems.
+
+## Institutions / 機構
+
+Duke Kunshan University, Chinese University of Hong Kong, Wuhan University
+
+**Funding / 經費:** Science and Technology Program of Suzhou City
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: yang26c_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26c_interspeech.pdf
 *Chih-Kai Yang, Yun-Shao Tsai, Yu-Kai Guo, Ping-Le Tsai, Yen-Ting Piao, Hung-Wei Chen, Ting-Lin Hsiao, Yun-Man Hsu, Ke-Han Lu, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-530)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — MUGEN is a new benchmark for evaluating multi-audio understanding in Large Audio-Language Models (LALMs) across 35 tasks, revealing that model performance severely degrades as concurrent audio inputs scale. Applying Audio-Permutational Self-Consistency (APSC) yields accuracy gains of up to 6.74%.
 
@@ -69,6 +72,12 @@ Speech and ML researchers building multi-audio agents or RAG systems should read
 ## Applications
 
 Multi-speaker analytics, audio-based in-context learning, speech retrieval-augmented generation (RAG), and cross-utterance acoustic event matching for voice agents.
+
+## Institutions / 機構
+
+National Taiwan University
+
+**Funding / 經費:** Ministry of Education, NTU Artificial Intelligence Center of Research Excellence, Taiwan Centers of Excellence in Artificial Intelligence
 
 ## Related
 

@@ -14,6 +14,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/rong26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/rong26b_interspeech.pdf
 session: Challenge - Audio Reasoning Challenge
 topics: [speech-llm, self-supervised, evaluation]
+category: speech-llm-dialogue
+institutions:
+  - "Hong Kong University of Science and Technology"
+  - "Tencent"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Guangdong Basic and Applied Basic Research Foundation"
+  - "Tencent AI Lab Rhino-Bird Program"
 code:
     url: ""
     license: ""

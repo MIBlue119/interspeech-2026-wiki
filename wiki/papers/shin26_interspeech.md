@@ -1,6 +1,6 @@
 ---
 id: shin26_interspeech
-category: target-speech-extraction
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shin26_interspeech.pdf
 *Wonchul Shin, Inyong Choi, Kyogu Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-595)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — TRUST-TSE is a two-stage training framework for EEG-guided target speech extraction that breaks shortcut learning caused by trial-specific EEG structures, raising cross-trial selection accuracy from 37.56% (NeuroHeed) to 62.27% on the KUL dataset.
 
@@ -65,6 +67,12 @@ Speech and ML researchers building neuro-steered hearing aids should read this p
 ## Applications
 
 Neuro-steered hearing aids, brain-computer interfaces, and selective auditory attention prosthetics.
+
+## Institutions / 機構
+
+Seoul National University, University of Iowa
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

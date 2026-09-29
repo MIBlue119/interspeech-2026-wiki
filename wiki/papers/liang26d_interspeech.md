@@ -1,6 +1,7 @@
 ---
 id: liang26d_interspeech
 category: speech-coding
+labels: [multilingual, self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liang26d_interspeech.pdf
 *Chengbin Liang, Wenqi Guo, Hao Cao, Zhijin Qin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liang26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liang26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3355)
+
+**Category:** `speech-coding` · **Labels:** `multilingual`, `self-supervised`, `generative-model`
 
 **TL;DR** — ContextCodec is a content-first, ultra-low-bitrate neural speech codec that uses a dual-branch encoder with CLIP-style phoneme alignment and stage-wise context injection, achieving strong intelligibility and perceptual quality down to 500 bps.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Satellite communications, bandwidth-constrained IoT voice links, emergency radio systems, and tokenization backbones for ultra-low-bitrate speech language models.
+
+## Institutions / 機構
+
+Tsinghua University
+
+**Funding / 經費:** National Key Research and Development Program of China, National Natural Science Foundation of China, Beijing Natural Science Foundation
 
 ## Related
 

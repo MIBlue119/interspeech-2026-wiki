@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/rahman26b_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/rahman26b_interspeech.pdf
 session: Speaker Privacy and Anonymization
 topics: [speech-anonymization, speaker-verification, paralinguistics]
+category: deepfake-security
+institutions:
+  - "Radboud University"
+funding:
+  - "Dutch Research Council"
+  - "NGF AiNed Fellowship Grants"
 code:
     url: https://github.com/Mehtab9/Voice-Privacy-from-an-Attribute-based-Perspective
     license: ""

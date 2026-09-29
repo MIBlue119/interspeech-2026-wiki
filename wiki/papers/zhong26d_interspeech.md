@@ -1,6 +1,7 @@
 ---
 id: zhong26d_interspeech
 category: asr
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhong26d_interspeech.pdf
 *Tao Zhong, Mengzhe Geng, Jiajun Deng, Shujie Hu, Xunying Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhong26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhong26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1559)
+
+**Category:** `asr` · **Labels:** `low-resource`
 
 **TL;DR** — This paper introduces two similarity-aware model aggregation strategies for personalized federated learning in dysarthric speech recognition, dividing models into speaker-independent and speaker-dependent components. It achieves statistically significant absolute Word Error Rate reductions of up to 0.99% on UASpeech and 0.56% on TORGO compared to regularized FedAvg.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving on-device speech recognition for individuals with severe speech impairments, dysarthria, or motor disabilities.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, National Research Council Canada
+
+**Funding / 經費:** Hong Kong RGC GRF
 
 ## Related
 

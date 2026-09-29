@@ -1,6 +1,6 @@
 ---
 id: patman26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/patman26_interspeech.pdf
 *Chloe Patman, Linda Gerlach, Anil Alexander, Finnian Kelly, Kirsty McDougall*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/patman26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/patman26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-444)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper investigates how volitional and synthetic pitch raising in female speakers impacts automatic speaker recognition (ASR) performance, finding that pitch increases degrade recognition accuracy (EER rising from 0.0% to 14.4%) with strong speaker-dependent variability. Synthetic pitch manipulations isolate the effect but fail to fully replicate the phonetic strategies of volitional disguise.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Forensic voice comparison, speaker verification security audits, and robust speaker embedding model evaluation.
+
+## Institutions / 機構
+
+University of Cambridge, Oxford Wave Research
+
+**Funding / 經費:** Harding Distinguished Postgraduate Scholarship
 
 ## Related
 

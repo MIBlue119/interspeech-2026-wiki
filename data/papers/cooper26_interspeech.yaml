@@ -13,6 +13,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cooper26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/cooper26_interspeech.pdf
 session: Emotional Speech Synthesis
 topics: [tts, evaluation, speech-quality-assessment]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "National Institute of Information and Communications Technology"
+  - "Agency for Science, Technology and Research"
+  - "Nagoya University"
+funding:
+  - "National Research Foundation, Singapore"
+  - "Infocomm Media Development Authority, Singapore"
+  - "National Large Language Models Funding Initiative"
+  - "A*STAR"
+  - "Japan Science and Technology Agency"
 code:
     url: ""
     license: ""

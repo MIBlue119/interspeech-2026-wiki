@@ -1,6 +1,6 @@
 ---
 id: chien26c_interspeech
-category: speech-llm
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chien26c_interspeech.pdf
 *Woan-Shiuan Chien, Tomohiko Nakamura, Huan-Yu Chen, Satoru Fukayama, Hitoshi Suda, Jun Ogata, Chi-Chun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chien26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chien26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3201)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — The paper introduces a two-stage framework to achieve two-sided (speaker- and rater-side) fairness in speech emotion recognition under partial attribute supervision by leveraging a parameter-space task vector called ATT2Fair. It successfully transfers fairness to target domains lacking attribute labels while keeping average F1-score drops to roughly 2.15%.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Deploying legally compliant, unbiased voice-assistants, mental health monitoring tools, and customer service analytics platforms that must ensure equal emotional interpretation performance across diverse speaker and rater demographics despite missing sensitive labels.
+
+## Institutions / 機構
+
+National Yang Ming Chiao Tung University, National Institute of Advanced Industrial Science and Technology, National Tsing Hua University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: yaish26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yaish26_interspeech.pdf
 *Ofir Yaish, Yehuda Mishaly, Eliya Nachmani*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yaish26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yaish26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-222)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — Active Speech Enhancement (ASE) unifies traditional speech enhancement and active noise control by using a loudspeaker to actively shape the physical acoustic environment, attenuating distortions while amplifying speech frequencies. The proposed Transformer-Mamba model (ASE-TM) achieves a PESQ of 2.98 on additive denoising, substantially outperforming traditional adapted ANC baselines.
 
@@ -64,6 +67,10 @@ Researchers and audio engineers working on active acoustic modification, smart s
 ## Applications
 
 Smart speakers, active noise-canceling headphones, and real-time acoustic communication hardware operating in reverberant or distorted environments.
+
+## Institutions / 機構
+
+Ben-Gurion University of the Negev, Tel Aviv University
 
 ## Related
 

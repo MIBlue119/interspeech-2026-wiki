@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mondal26b_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/mondal26b_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [asr, low-resource, dataset]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "International Institute of Information Technology Hyderabad"
 code:
     url: ""
     license: ""

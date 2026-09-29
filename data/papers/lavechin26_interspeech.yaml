@@ -10,6 +10,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lavechin26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/lavechin26_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
 topics: [child-speech, self-supervised, phoneme-recognition]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Aix-Marseille University"
+  - "CNRS"
+  - "Harvard University"
+  - "Massachusetts Institute of Technology"
+funding:
+  - "Simons Foundation International"
+  - "National Institutes of Health"
 code:
     url: https://github.com/MarvinLvn/BabAR
     license: ""

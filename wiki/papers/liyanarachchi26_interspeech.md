@@ -1,6 +1,6 @@
 ---
 id: liyanarachchi26_interspeech
-category: speech-disorder
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liyanarachchi26_interspeech.p
 *Rashini Liyanarachchi, Rachael Mackay, Alison Short, Aditya Joshi, Erik Meijering*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liyanarachchi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liyanarachchi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1131)
+
+**Category:** `health-clinical`
 
 **TL;DR** — Paediatric-HGNN is a heterogeneous graph neural network that models speech as hierarchical interactions between lexical word nodes and acoustic frame nodes, achieving 82.4% weighted accuracy in automated stuttering detection for children.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical screening tools for speech-language pathologists, computer-aided speech therapy applications, and early-intervention diagnostic systems for pediatric developmental disorders.
+
+## Institutions / 機構
+
+University of New South Wales, Resourced Music Therapy, Western Sydney University
 
 ## Related
 

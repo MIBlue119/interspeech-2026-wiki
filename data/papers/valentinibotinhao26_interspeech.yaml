@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/valentinibotinhao26_inte
 pdf_url: https://www.isca-archive.org/interspeech_2026/valentinibotinhao26_interspeech.pdf
 session: Speech Synthesis Evaluation 2
 topics: [tts, evaluation, low-resource]
+category: resources-evaluation
+institutions:
+  - "University of Edinburgh"
+  - "National Research Council Canada"
+funding:
+  - "UK Research and Innovation"
+  - "National Research Council Canada"
 code:
     url: ""
     license: ""

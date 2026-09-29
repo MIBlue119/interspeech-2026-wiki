@@ -10,6 +10,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26x_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26x_interspeech.pdf
 session: Multimodal Spoken Dialogue Systems
 topics: [speech-llm, multimodal, speaker-diarization]
+category: speech-llm-dialogue
+institutions:
+  - "Hunan University"
 code:
     url: https://github.com/cfk1009/EgoTTM
     license: ""

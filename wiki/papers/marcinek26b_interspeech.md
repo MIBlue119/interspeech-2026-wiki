@@ -1,6 +1,7 @@
 ---
 id: marcinek26b_interspeech
 category: asr
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/marcinek26b_interspeech.pdf
 *Lubos Marcinek, Jonas Beskow, Joakim Gustafson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/marcinek26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/marcinek26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2799)
+
+**Category:** `asr` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper investigates the optimal linguistic complexity for dialogue system speech in noise across 168,000 ASR transcriptions and a human listening pilot (N=15), revealing a U-shaped error curve where natural grammatical sentences (9–16 words) outperform telegraphic forms by 43–45% in word error rate.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Spoken dialogue systems, in-car voice assistants, and social robots operating in noisy environments.
+
+## Institutions / 機構
+
+KTH Royal Institute of Technology
+
+**Funding / 經費:** PerCorSo, AAIS, WASP, Digital Futures
 
 ## Related
 

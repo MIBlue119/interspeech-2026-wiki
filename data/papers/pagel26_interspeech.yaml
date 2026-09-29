@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/pagel26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pagel26_interspeech.pdf
 session: Entrainment and Dialogue Coordination
 topics: [paralinguistics, phonetics, prosody]
+category: phonetics-linguistics
+institutions:
+  - "University of Cologne"
+funding:
+  - "German Research Foundation"
+  - "SFB1252 Prominence in Language"
+  - "a.r.t.e.s. Graduate School for the Humanities Cologne"
 code:
     url: https://osf.io/3uebk
     license: ""

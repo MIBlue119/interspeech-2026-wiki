@@ -1,6 +1,6 @@
 ---
 id: zhou26d_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhou26d_interspeech.pdf
 *Yiqun Zhou, Kong Aik Lee, Ji Liu, Longbiao Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhou26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhou26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1532)
+
+**Category:** `speaker`
 
 **TL;DR** — BiSASV introduces a bidirectional feature modulation and dual-granularity fusion framework for spoofing-robust speaker verification (SASV), achieving an SASV-EER of 0.73% and a min a-DCF of 0.0153 on ASVspoof 2019 LA.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice biometric security systems, secure speaker verification, and anti-spoofing defense mechanisms for automated voice authentication services.
+
+## Institutions / 機構
+
+Tianjin University, Hong Kong Polytechnic University, Huiyan Technology (Tianjin) Co., Ltd
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

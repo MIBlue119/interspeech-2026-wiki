@@ -1,6 +1,6 @@
 ---
 id: sun26e_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26e_interspeech.pdf
 *Yanfei Sun, Yuanyuan Zhou, Xinzhou Xu, Jin Qi, Feiyi Xu, Zhao Ren, Bjoern Schuller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1716)
+
+**Category:** `health-clinical`
 
 **TL;DR** — The paper introduces Label Correction enhanced Dual-stream Multiple Instance Learning (LC-DMIL) to simultaneously address inaccurate training labels and inexact instance-level annotations in weakly-supervised speech-based depression detection, achieving a UAR of 0.651 and an F1-score of 0.642 on DAIC-WOZ.
 
@@ -67,6 +69,12 @@ Speech and ML researchers tackling noisy labels and fine-grained localization in
 ## Applications
 
 Automated mental health screening, telehealth voice diagnostic tools, and general affective computing under weakly-supervised conditions.
+
+## Institutions / 機構
+
+Nanjing University of Posts and Telecommunications, Wuxi University, Graz University of Technology, University of Bremen, Technische Universitat Munchen, Imperial College London
+
+**Funding / 經費:** National Natural Science Foundation of China, Primary Research & Development Plan of Jiangsu Province, Humanities and Social Science Foundation of China Ministry of Education, China Postdoctoral Science Foundation, DFG
 
 ## Related
 

@@ -13,6 +13,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/arora26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/arora26_interspeech.pdf
 session: Generative Audio and Music
 topics: [tts, evaluation, dataset]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "Indian Institute of Technology Jodhpur"
+funding:
+  - "IndiaAI Mission"
+  - "Meta"
 code:
     url: https://iab-rubric.org/resources/other-databases/audio-negation-benchmark
     license: ""

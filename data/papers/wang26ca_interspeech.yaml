@@ -12,6 +12,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26ca_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26ca_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
 topics: [audio-deepfake, speaker-verification, speech-enhancement]
+category: deepfake-security
+institutions:
+  - "Beijing Fosafer Information Technology"
+funding:
+  - "National Key Research and Development Program of China"
 code:
     url: ""
     license: ""

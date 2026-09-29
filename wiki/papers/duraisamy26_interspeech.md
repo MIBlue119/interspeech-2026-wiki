@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/duraisamy26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/duraisamy26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/duraisamy26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2884)
 
+**Category:** `asr`
+
 **TL;DR** — This paper proposes a subject-invariant dynamic graph modeling framework that integrates multi-view functional connectivity priors with adversarial subject disentanglement to improve cross-subject EEG imagined speech decoding. Evaluated under a strict leave-one-subject-out protocol across two 15-subject datasets, the method achieves average classification accuracies of 31.20% and 30.36%, outperforming standard fine-tuned EEG foundation models.
 
 ## Key contributions
@@ -71,6 +73,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Non-invasive brain-computer interfaces, silent communication aids for speech-impaired individuals, and general cross-subject neural decoding.
+
+## Institutions / 機構
+
+University of Luxembourg
+
+**Funding / 經費:** Pathfinder program of the European Innovation Council
 
 ## Related
 

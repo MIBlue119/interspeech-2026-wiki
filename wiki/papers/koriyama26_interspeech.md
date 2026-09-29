@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/koriyama26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/koriyama26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koriyama26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1800)
 
+**Category:** `tts`
+
 **TL;DR** — This paper benchmarks over 30 LLMs for Japanese grapheme-to-phoneme (G2P) conversion across 3,000 manually annotated sentences, showing that proprietary models achieve a kana character error rate (CER) below 0.52%, outperforming conventional morphological analyzers (1.03%).
 
 ## Key contributions
@@ -65,6 +67,10 @@ Speech synthesis researchers and engineers building controllable Japanese TTS sy
 ## Applications
 
 Controllable text-to-speech (TTS) systems, robust proper-noun pronunciation engines, and Japanese language preprocessing pipelines.
+
+## Institutions / 機構
+
+CyberAgent
 
 ## Related
 

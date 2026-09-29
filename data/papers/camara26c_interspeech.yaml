@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/camara26c_interspeech.pdf
 session: Acoustic Event Detection 1
 topics: [phonetics, self-supervised, evaluation]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Universidad Politecnica de Madrid"
+  - "Massachusetts Institute of Technology"
+funding:
+  - "Ministry of Economy and Competitiveness of Spain"
+  - "Fundacion Santander"
+  - "MISTI MIT Global Experiences"
 code:
     url: https://mateocamara.github.io/acoustic-landmarks/
     license: ""

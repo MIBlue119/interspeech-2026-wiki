@@ -1,6 +1,7 @@
 ---
 id: chang26c_interspeech
-category: self-supervised
+category: audio-understanding
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chang26c_interspeech.pdf
 *Heng-Jui Chang, Alexander Liu, Saurabhchand Bhati, Mrudula Athi, Anton Ratnarajah, Amit Chhetri, James Glass*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chang26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chang26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1296)
+
+**Category:** `audio-understanding` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — USAD 2.0 is a universal audio encoder scaling up to 1B parameters that integrates self-supervised and supervised multi-domain foundation models via domain-aware distillation and depth scaling. It achieves state-of-the-art performance across diverse probing and audio-LLM evaluations.
 
@@ -69,6 +72,10 @@ Speech and ML engineers building audio LLMs or multi-domain frontends should rea
 ## Applications
 
 Universal audio frontends for multimodal large language models, multi-domain acoustic classification, automatic speech recognition, audio captioning, and music understanding.
+
+## Institutions / 機構
+
+Massachusetts Institute of Technology, Amazon
 
 ## Related
 

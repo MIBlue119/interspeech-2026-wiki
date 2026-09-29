@@ -1,6 +1,7 @@
 ---
 id: romerodiaz26_interspeech
-category: speech-translation
+category: translation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/romerodiaz26_interspeech.pdf
 *Jacobo Romero-Díaz, Gerard I. Gállego, Oriol Pareras, Federico Costa, Javier Hernando, Cristina España-Bonet*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/romerodiaz26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/romerodiaz26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-800)
+
+**Category:** `translation` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper investigates whether Chain-of-Thought (CoT) Speech-to-Text Translation models actually use speech inputs or merely mimic text-only cascade models, revealing they overwhelmingly rely on transcripts and ignore acoustic cues. By introducing a training intervention that injects noisy transcripts, the authors significantly enhance acoustic reliance, error robustness, and prosody awareness without harming general translation quality.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust speech-to-text translation systems deployed in noisy acoustic environments, real-time cross-lingual transcription services requiring prosodic preservation, and multimodal speech-language model architectural design.
+
+## Institutions / 機構
+
+Barcelona Supercomputing Center, Universitat Politecnica de Catalunya, DFKI
+
+**Funding / 經費:** Ministerio para la Transformacion Digital y de la Funcion Publica, Plan de Recuperacion, Transformacion y Resiliencia, European Union, MICIU/AEI, Red.es
 
 ## Related
 

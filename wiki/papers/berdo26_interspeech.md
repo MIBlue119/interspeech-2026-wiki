@@ -1,6 +1,7 @@
 ---
 id: berdo26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [self-supervised, generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/berdo26_interspeech.pdf
 *Frédéric Berdoȥ, Luca A. Lanzendöerfer, Antonis Asonitis, Roger Wattenhofer*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/berdo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/berdo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3405)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`, `generative-model`, `robustness-noise`
 
 **TL;DR** — This paper introduces a reinforcement learning post-training stage for autoregressive speech enhancement language models using Group Sequence Policy Optimization (GSPO) with multimetric perceptual rewards, achieving state-of-the-art results on DNS2020 and DNS5 benchmarks while preventing reward hacking.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time communication enhancement, telephony noise suppression, and speech quality restoration for downstream speech recognition systems.
+
+## Institutions / 機構
+
+ETH Zurich
 
 ## Related
 

@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/arumugam26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/arumugam26_interspeech.pdf
 session: Speech Recognition, Enhancement and Real-Time Systems
 topics: [asr, speech-llm, evaluation]
+category: asr
+labels:
+  - "self-supervised"
+  - "streaming-real-time"
+institutions:
+  - "Observe.AI"
 code:
     url: ""
     license: ""

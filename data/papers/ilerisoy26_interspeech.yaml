@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/ilerisoy26_interspeech.pdf
 session: Multimodal and Non-Speech Healthcare Applications
 topics: [zero-shot, multilingual, self-supervised]
+category: health-clinical
+labels:
+  - "low-resource"
+  - "self-supervised"
+institutions:
+  - "Eindhoven University of Technology"
+  - "Singapore Management University"
+funding:
+  - "NWO AiNed Fellowship Grant"
+  - "Google.org"
+  - "Google Cloud Research Credits program"
 code:
     url: https://github.com/mtilerisoy/REACH
     license: ""

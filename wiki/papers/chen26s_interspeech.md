@@ -1,6 +1,6 @@
 ---
 id: chen26s_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26s_interspeech.pdf
 *Chih-Ning Chen, Jen-Cheng Hou, Hsin-Min Wang, Shao-Yi Chien, Yu Tsao, Fan-Gang Zeng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26s_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26s_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1816)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — The paper introduces LR-AVSE, an audio-visual speech enhancement framework that uses reinforcement learning guided by an audio Large Language Model and a sentiment analysis model to convert natural language speech quality descriptions into scalar rewards. Evaluated on the AVSEC-4 dataset, it outperforms supervised and DNSMOS-based RL baselines, achieving a PESQ of 1.25 and a 67.6% preference rate in subjective tests.
 
@@ -61,6 +63,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time communication systems, hearing aids, video conferencing software, and audio-visual speech restoration tools operating in noisy environments.
+
+## Institutions / 機構
+
+National Taiwan University, Academia Sinica, University of California Irvine
 
 ## Related
 

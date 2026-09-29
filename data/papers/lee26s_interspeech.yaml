@@ -13,6 +13,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26s_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26s_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
 topics: [speech-enhancement, self-supervised, on-device]
+category: deepfake-security
+labels:
+  - "low-resource"
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "Electronics and Telecommunications Research Institute"
+  - "University of Science and Technology"
+funding:
+  - "Institute of Information and Communications Technology Planning and Evaluation"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: palka26_interspeech
-category: speaker-diarization
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/palka26_interspeech.pdf
 *Petr Pálka, Jiangyu Han, Prachi Singh, Marc Delcroix, Naohiro Tawara, Lukáš Burget*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/palka26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/palka26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2224)
+
+**Category:** `speaker`
 
 **TL;DR** — SphereVBx replaces the Gaussian PLDA backend in VBx with Toroidal Probabilistic Spherical Discriminant Analysis (T-PSDA), providing a principled Bayesian clustering framework for hyperspherical embeddings that simplifies end-to-end neural diarization with vector clustering (EEND-VC) while improving diarization error rate (DER). It achieves an average DER of 12.48% across eight benchmarks compared to the 12.65% baseline, while eliminating ad-hoc heuristic post-processing steps.
 
@@ -63,6 +65,12 @@ Speech engineers and ML researchers working on speaker diarization or vector clu
 ## Applications
 
 Speaker diarization pipelines, multi-speaker conversational transcription systems, and acoustic meeting analysis tools.
+
+## Institutions / 機構
+
+Brno University of Technology, NTT
+
+**Funding / 經費:** European Union, Czech Ministry of Education, Youth and Sports
 
 ## Related
 

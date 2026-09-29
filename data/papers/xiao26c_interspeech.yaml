@@ -15,6 +15,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xiao26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xiao26c_interspeech.pdf
 session: Spoofing and Deepfake Detection 2
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Stuttgart"
+  - "National Institute of Informatics"
+  - "German Research Center for Artificial Intelligence"
+  - "Technical University of Berlin"
 code:
     url: https://github.com/XIAOYixuan/ESP
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: wang26i_interspeech
-category: speech-llm
+category: applications-other
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26i_interspeech.pdf
 *Jianrong Wang, Kaibin Bi, Jinghui Li, Ju Zhang, Qi Li, Ying Guo, Jing Zhao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-433)
+
+**Category:** `applications-other` · **Labels:** `generative-model`
 
 **TL;DR** — ES-3DF is a direct speech-driven 3D face reconstruction framework that decouples geometry and texture to achieve high-fidelity editable avatars with superior identity preservation and geometric accuracy compared to prior cascaded or 2D methods.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Personalized virtual avatar animation, immersive teleconferencing, interactive gaming characters, and speech-driven 3D facial modeling.
+
+## Institutions / 機構
+
+Tianjin University, Tianjin Renai College, Tianjin University of Technology, Tianjin Beiyang Rongke Intelligent Technology Co., Ltd
+
+**Funding / 經費:** Key R&D Program of the Nanning Science Research and Technology Development Plan, Tianjin Science and Technology Program, Special Project for High-Quality Development of Manufacturing Industry
 
 ## Related
 

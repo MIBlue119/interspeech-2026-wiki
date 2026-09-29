@@ -1,6 +1,7 @@
 ---
 id: sun26d_interspeech
-category: speech-translation
+category: translation
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26d_interspeech.pdf
 *Ruiyan Sun, Satoshi Nakamura*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1292)
+
+**Category:** `translation` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — The paper introduces a gradient-driven framework (GDPS) that automates parameter sharing configurations for multilingual speech-to-text translation, achieving consistent relative BLEU gains up to 14.4% and COMET gains up to 3.26% over unified fine-tuning on low-resource datasets.
 
@@ -62,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-resource multilingual speech translation systems, on-device translation assistants supporting endangered or indigenous languages, and multi-task speech foundation model adaptation.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong
+
+**Funding / 經費:** National Natural Science Foundation of China, Program for Guangdong Introducing Innovative and Entrepreneurial Teams
 
 ## Related
 

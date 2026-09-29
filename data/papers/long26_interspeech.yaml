@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/long26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/long26_interspeech.pdf
 session: Evaluation, Benchmarking, and Reliability of Audio Systems
 topics: [self-supervised, speech-coding, dataset]
+category: speech-coding
+labels:
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "University of California, San Diego"
+  - "Carnegie Mellon University"
 code:
     url: ""
     license: ""

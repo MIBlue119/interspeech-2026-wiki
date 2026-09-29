@@ -1,6 +1,6 @@
 ---
 id: wang26g_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26g_interspeech.pdf
 *Jianrong Wang, Hengyang Guo, Jie Liu, Ju Zhang, Qi Li, Ying Guo, Jing Zhao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-416)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — MS-GNN is a multi-scale graph neural network designed to detect localized audio-visual deepfakes by preventing transient manipulation cues from being diluted by global pooling. It achieves 98.12% accuracy on the LAV-DF dataset.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated multi-modal deepfake video screening, forensic verification of news media, and localized audio-visual tampering localization.
+
+## Institutions / 機構
+
+Tianjin University, Tianjin Renai College, Tianjin Electronic Information College, Tianjin University of Technology, Tianjin Beiyang Rongke Intelligent Technology Co., Ltd
+
+**Funding / 經費:** Key R&D Program of the Nanning Science Research and Technology Development Plan, Tianjin Science and Technology Program, Special Project for High-Quality Development of Manufacturing Industry
 
 ## Related
 

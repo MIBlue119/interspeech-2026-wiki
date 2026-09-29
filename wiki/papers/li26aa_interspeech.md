@@ -1,6 +1,7 @@
 ---
 id: li26aa_interspeech
 category: asr
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26aa_interspeech.pdf
 *Yuan Li, Yonghe Wang, Zhenjie Gao, Feilong Bao, Xiaodong Yang, Bo Pang, Yandong Guo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26aa_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26aa_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1767)
+
+**Category:** `asr` · **Labels:** `robustness-noise`
 
 **TL;DR** — The paper introduces Weakly Masked Residual Reliability Learning (WMR²L), an unsupervised domain adaptation framework that couples token-level residual dispersion confidence weighting with weak confidence masking and multi-perturbation consistency regularization to improve speech models in unseen domains. It achieves relative WER reductions of 13.8% on CHiME-4, 25.0% on SLURP, and 15.7% on CORAAL.
 
@@ -66,6 +69,12 @@ Speech and ML researchers working on unsupervised domain adaptation will appreci
 ## Applications
 
 Unsupervised domain adaptation for robust automatic speech recognition in noisy environments, accented speech, and voice-controlled human-machine interaction systems.
+
+## Institutions / 機構
+
+Inner Mongolia University, National Computer Network Emergency Response Technical Team Coordination Center
+
+**Funding / 經費:** National Natural Science Foundation of China, Science and Technology Major Project of Inner Mongolia, Natural Science Foundation of Inner Mongolia, Science and Technology Program of Inner Mongolia, Inner Mongolia Autonomous Region First-Class Discipline Research Special Project
 
 ## Related
 

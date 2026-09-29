@@ -1,6 +1,7 @@
 ---
 id: zhang26c_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26c_interspeech.pdf
 *Haoyu Zhang, Jiaxian Guo, Dong Yang, Yusuke Iwasawa, Yutaka Matsuo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-288)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — AQA-TTRL is a test-time reinforcement learning framework that enables Large Audio Language Models to autonomously self-adapt on unlabeled test data, yielding average accuracy gains of 4.42% for 7B models and 11.04% for 3B models.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-the-fly acoustic adaptation for smart speakers, edge voice assistants, and audio surveillance systems operating in changing acoustic environments without manual data relabeling.
+
+## Institutions / 機構
+
+University of Tokyo
 
 ## Related
 

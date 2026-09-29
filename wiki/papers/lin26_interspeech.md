@@ -1,6 +1,6 @@
 ---
 id: lin26_interspeech
-category: self-supervised
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26_interspeech.pdf
 *Yi-Xing Lin, Wen-Li Wei, Jia-Ching Wang, Jen-Chun Lin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-147)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — Progressive Learnable Counterfactual Attention (P-LCA) extends counterfactual attention learning into a multi-stage framework using stage-wise representation projection, improving music classification accuracy by systematically uncovering and removing residual latent biases.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated music tagging, music recommendation systems, artist identification, and music emotion recognition tools.
+
+## Institutions / 機構
+
+Academia Sinica, National Central University
+
+**Funding / 經費:** NSTC
 
 ## Related
 

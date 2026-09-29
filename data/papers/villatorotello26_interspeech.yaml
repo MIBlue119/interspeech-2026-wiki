@@ -18,6 +18,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/villatorotello26_intersp
 pdf_url: https://www.isca-archive.org/interspeech_2026/villatorotello26_interspeech.pdf
 session: Spoken Dialogue Systems
 topics: [speech-llm, asr, spoken-language-understanding]
+category: asr
+institutions:
+  - "Idiap Research Institute"
+  - "EPFL"
+  - "University of Zurich"
+  - "Uniphore"
+  - "Brno University of Technology"
+funding:
+  - "Idiap Research Institute"
+  - "Uniphore"
+  - "EU Horizon 2020"
 code:
     url: https://github.com/idiap/llm-asr-context-projector
     license: ""

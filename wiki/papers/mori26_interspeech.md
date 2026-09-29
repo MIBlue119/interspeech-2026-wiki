@@ -1,6 +1,7 @@
 ---
 id: mori26_interspeech
-category: speech-enhancement
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mori26_interspeech.pdf
 *Hiroki Mori, Hiroto Ueda*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mori26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mori26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2141)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper evaluates automatic laughter phone annotation for conversational laughter synthesis using both traditional statistical parametric speech synthesis (SPSS) and audio-LLM (Fish-Speech) approaches, discovering that audio-LLMs yield higher naturalness while SPSS achieves superior reproducibility of specific laughter styles.
 
@@ -69,6 +72,10 @@ Speech and ML engineers building conversational agents or reactive avatars shoul
 ## Applications
 
 Conversational AI agents, social robotics, virtual avatars, and interactive gaming companions requiring expressive nonverbal feedback.
+
+## Institutions / 機構
+
+Utsunomiya University
 
 ## Related
 

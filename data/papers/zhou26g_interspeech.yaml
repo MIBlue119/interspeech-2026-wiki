@@ -18,6 +18,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhou26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26g_interspeech.pdf
 session: Audio-Visual Grounding, Synchronization & Video Understanding
 topics: [self-supervised, evaluation, multimodal]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Alibaba Group"
+  - "Tsinghua University"
+  - "Fudan University"
 code:
     url: https://fgt7t6g.github.io/AV-SyncBench
     license: ""

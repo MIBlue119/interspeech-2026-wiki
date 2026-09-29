@@ -1,6 +1,7 @@
 ---
 id: makarov26_interspeech
 category: tts
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.pdf
 *Rostislav Makarov, Timo Gerkmann*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/makarov26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3448)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — This paper presents a parameter-efficient method to repurpose a conventionally trained noise-conditioned speech classifier as a backbone for diffusion generation by attaching a lightweight subnetwork trained via Denoising Score Matching. It achieves speech quality competitive with or exceeding a standard U-Net baseline on the SC09 benchmark while reducing trainable parameters and inference compute.
 
@@ -66,6 +69,12 @@ Speech and ML researchers working on efficient conditional generation or unified
 ## Applications
 
 Efficient class-conditional speech generation, resource-constrained spoken keyword synthesis, and unified discriminative-generative speech modeling.
+
+## Institutions / 機構
+
+University of Hamburg
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

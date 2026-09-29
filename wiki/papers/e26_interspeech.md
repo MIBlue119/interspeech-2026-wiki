@@ -1,6 +1,7 @@
 ---
 id: e26_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/e26_interspeech.pdf
 *Dhanya E, Ankita Meena, Manas Nanivadekar, Noumida A, Victor Azad, Ashwini Nagaraj Shenoy, Pratik Roy Chowdhuri, Shobhit Banga, Vanshika Chhabra, Chitralekha Bhati, Shareef babu Kalluri, Srikanth Raj Chetupalli, Deepu Vijayasenan, Sriram Ganapathy*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/e26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/e26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3255)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `dataset-or-benchmark-release`
 
 **TL;DR** — The DISPLACE-M challenge introduces a 40-hour Hindi benchmark dataset and evaluation framework for goal-oriented medical conversations between frontline health workers and care seekers, featuring four tracks: speaker diarization, ASR, topic identification, and dialogue summarization. Baseline and challenge submission evaluations show that domain adaptation and end-to-end models substantially outperform zero-shot systems, though dialogue summarization remains exceptionally difficult.
 
@@ -67,6 +70,10 @@ Researchers and engineers working on domain-adapted speech recognition, medical 
 ## Applications
 
 Automated clinical documentation, community healthcare analytics, and AI-assisted medical transcription for frontline health workers in multilingual developing regions.
+
+## Institutions / 機構
+
+Indian Institute of Science, National Institute of Technology Karnataka, Josh Talks, Manipal Academy of Higher Education, Indian Institute of Technology Bombay
 
 ## Related
 

@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/luo26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/luo26_interspeech.pdf
 session: Audio signal analysis
 topics: [speech-enhancement, voice-conversion, self-supervised]
+category: tts
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Fish Audio"
+  - "University of Science and Technology of China"
 code:
     url: ""
     license: ""

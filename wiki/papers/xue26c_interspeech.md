@@ -1,6 +1,7 @@
 ---
 id: xue26c_interspeech
-category: tts
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xue26c_interspeech.pdf
 *Liumeng Xue, Weizhen Bian, Jiahao Pan, Wenxuan Wu, Yilin Ren, Boyi Kang, Jingbin Hu, Ziyang Ma, Shuai Wang, Xinyuan Qian, Hung-yi Lee, Yike Guo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xue26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xue26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2513)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — NVV-SuperBench is a bilingual English/Chinese benchmark and multi-axis evaluation protocol for nonverbal vocalizations (NVVs) in speech generation, assessing 15 models across a unified 45-type taxonomy. It reveals that NVV controllability often decouples from speech quality, with low-SNR oral cues and long-duration affective states remaining major system bottlenecks.
 
@@ -65,6 +68,10 @@ Speech and machine learning researchers building controllable generative speech 
 ## Applications
 
 Expressive conversational agents, interactive AI voice assistants, immersive video game dubbing, and audiobook narration requiring dynamic emotional vocalizations.
+
+## Institutions / 機構
+
+Nanjing University, Hong Kong University of Science and Technology, Chinese University of Hong Kong, University of Science and Technology Beijing, Northwestern Polytechnical University, Shanghai Jiao Tong University, National Taiwan University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: joyce26_interspeech
-category: asr
+category: health-clinical
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/joyce26_interspeech.pdf
 *Jeremiah B Joyce, Erik Clemens, Sanjeev Mishra, Josh Boesche, David Johnson, Marie Reyes*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/joyce26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/joyce26_interspeech.html)
+
+**Category:** `health-clinical` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — This paper demonstrates an end-to-end embedded system using an NVIDIA Jetson AGX Orin for real-time clinical speech analysis in psychiatric settings, achieving faster-than-audio processing without cloud connectivity.
 
@@ -56,6 +59,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Bedside psychiatric evaluation, point-of-care clinical speech monitoring, and offline secure voice analysis in low-resource medical environments.
+
+## Institutions / 機構
+
+Mayo Clinic
 
 ## Related
 

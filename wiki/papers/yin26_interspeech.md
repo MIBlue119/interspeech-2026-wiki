@@ -1,6 +1,7 @@
 ---
 id: yin26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [low-resource, self-supervised, dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yin26_interspeech.pdf
 *Han Yin, Yang Xiao, Rohan Kumar Das, Jisheng Bai, Ting Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yin26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1599)
+
+**Category:** `deepfake-security` · **Labels:** `low-resource`, `self-supervised`, `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — This paper presents the benchmark results and analysis of the first Environmental Sound Deepfake Detection (ESDD) challenge, featuring 97 teams and 1,748 submissions across unseen generator and black-box low-resource tracks. Top-performing ensembles achieved Equal Error Rates (EER) as low as 0.30% by leveraging advanced self-supervised audio representations and domain-targeted data augmentations.
 
@@ -62,6 +65,10 @@ Researchers and engineers working on audio forensics and anti-spoofing should re
 ## Applications
 
 Public safety verification, surveillance audit systems, digital media forensics, and automated moderation for user-uploaded audio-visual platforms.
+
+## Institutions / 機構
+
+KAIST, University of Melbourne, Fortemedia Singapore, Xi'an University of Posts & Telecommunications, Xi'an Lianfeng Acoustic Technologies Co., Ltd
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: kwak26_interspeech
-category: speech-separation
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kwak26_interspeech.pdf
 *Doyeop Kwak, Suyeon Lee, Joon Son Chung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kwak26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kwak26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-706)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — Plug-and-Steer decouples audio-visual target speaker extraction by freezing a high-fidelity audio-only separation backbone and using a minimalist linear Latent Steering Matrix (LSM) controlled by a visual module to route the target speaker to a designated channel, achieving comparable perceptual quality to studio-trained models without fidelity degradation.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time audiovisual target speaker extraction for video conferencing, hearing aids, and smart devices operating in noisy cocktail-party environments.
+
+## Institutions / 機構
+
+Korea Advanced Institute of Science and Technology
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

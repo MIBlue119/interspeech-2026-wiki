@@ -1,6 +1,7 @@
 ---
 id: he26e_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/he26e_interspeech.pdf
 *Xiang He, Chenxing Li, Jinting Wang, Yan Rong, Tianxin Xie, Zeyu Xie, Wenfu Wang, Li Liu, Dong Yu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/he26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/he26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1720)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — Audio-DeepThinker introduces a progressive two-stage reinforcement learning framework that elicits grounded chain-of-thought reasoning in large audio-language models without supervised demonstrations, achieving state-of-the-art results with 74.0% accuracy on MMAR.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated spoken question answering, complex acoustic scene analysis, cross-modal multimedia indexing, and clinical or diagnostic audio event inspection.
+
+## Institutions / 機構
+
+Tencent, Hong Kong University of Science and Technology
+
+**Funding / 經費:** National Natural Science Foundation of China, Guangdong Basic and Applied Basic Research Foundation, Tencent AI Lab Rhino-Bird Program
 
 ## Related
 

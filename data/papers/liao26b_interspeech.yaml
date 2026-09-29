@@ -9,6 +9,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liao26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liao26b_interspeech.pdf
 session: Tools and Techniques for Phonetic Analysis
 topics: [prosody, self-supervised, dataset]
+category: phonetics-linguistics
+institutions:
+  - "East China Normal University"
 code:
     url: ""
     license: ""

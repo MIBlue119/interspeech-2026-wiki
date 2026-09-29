@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mousi26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mousi26_interspeech.pdf
 session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
 topics: [speech-llm, multilingual, evaluation]
+category: resources-evaluation
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Qatar Computing Research Institute"
+  - "Hamad Bin Khalifa University"
 code:
     url: https://huggingface.co/datasets/QCRI/M2CQA-S
     license: ""

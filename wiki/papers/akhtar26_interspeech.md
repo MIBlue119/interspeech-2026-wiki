@@ -1,6 +1,7 @@
 ---
 id: akhtar26_interspeech
-category: speech-llm
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.pdf
 *Mohd Mujtaba Akhtar, Girish, Sanjam Wadhwa, Muskaan Singh, Ning Ma*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/akhtar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2704)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — COBALT is a novel multimodal fusion framework that combines self-supervised speech foundation models with classical spectral features using codebook-aligned hyperbolic prototypes and bandit-style reliability weighting for cough-based tuberculosis screening, establishing a new state-of-the-art of 88.93% accuracy and 89.07% AUC on the CODA TB benchmark.
 
@@ -66,6 +69,12 @@ Researchers working on multimodal fusion, hyperbolic representation learning, or
 ## Applications
 
 Automated non-invasive screening for tuberculosis and respiratory pathologies via smartphone or clinical microphone recordings in decentralized health settings.
+
+## Institutions / 機構
+
+Ulster University, Thapar Institute of Engineering and Technology, University of Sheffield
+
+**Funding / 經費:** United States–Ireland–Northern Ireland R&D Partnership Programme, Engineering and Physical Sciences Research Council
 
 ## Related
 

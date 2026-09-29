@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/firc26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/firc26_interspeech.pdf
 session: Audio Watermarking and Source Verification
 topics: [audio-deepfake, evaluation, self-supervised]
+category: deepfake-security
+institutions:
+  - "Brno University of Technology"
+funding:
+  - "Brno University of Technology"
+  - "Ministry of Education, Youth and Sports of the Czech Republic"
+  - "e-INFRA CZ"
 code:
     url: https://github.com/Security-FIT/hidden-cost-pairwise-verification
     license: ""

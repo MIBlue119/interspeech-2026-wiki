@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26o_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26o_interspeech.pdf
 session: Acoustic Event Detection 4
 topics: [speech-llm, evaluation, self-supervised]
+category: audio-understanding
+labels:
+  - "self-supervised"
+institutions:
+  - "Sogang University"
 code:
     url: https://github.com/alm-evaluation/multi-event
     license: ""

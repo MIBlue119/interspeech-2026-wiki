@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/adelson26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/adelson26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/adelson26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2041)
 
+**Category:** `asr`
+
 **TL;DR** — This paper introduces an Assembly Calculus (AC) speech processing framework that models continuous speech via sparse neuronal assemblies, local Hebbian plasticity, and winner-take-all competition, achieving an F1 of 0.69 for phone boundaries and 47.5% phone classification accuracy without backpropagation.
 
 ## Key contributions
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-power on-device speech segmentation, data-efficient keyword spotting, and brain-inspired neuromorphic speech processing hardware.
+
+## Institutions / 機構
+
+University of Melbourne, University of New South Wales
 
 ## Related
 

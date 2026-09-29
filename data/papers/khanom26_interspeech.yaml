@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/khanom26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/khanom26_interspeech.pdf
 session: Child Speech and Health
 topics: [health, paralinguistics, evaluation]
+category: health-clinical
+institutions:
+  - "University of Maryland"
+  - "DR. M R Khan Shishu Hospital & Institute of Child Health"
+funding:
+  - "National Science Foundation"
 code:
     url: ""
     license: ""

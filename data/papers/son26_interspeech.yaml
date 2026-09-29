@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/son26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/son26_interspeech.pdf
 session: Acoustic Event Detection 4
 topics: [sound-event-detection, self-supervised, on-device]
+category: audio-understanding
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Hanyang University"
+funding:
+  - "National Research Foundation of Korea"
 code:
     url: ""
     license: ""

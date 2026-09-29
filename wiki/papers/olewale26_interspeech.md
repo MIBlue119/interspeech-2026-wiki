@@ -1,6 +1,7 @@
 ---
 id: olewale26_interspeech
-category: low-resource
+category: resources-evaluation
+labels: [low-resource, multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/olewale26_interspeech.pdf
 *Bri Olewale, Raphael Merx, Ekaterina Vylomova*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/olewale26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/olewale26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-815)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — We present Vavanagi, a community-run, crowdsourced platform for Hula—an Austronesian language of Papua New Guinea with ~10,000 speakers—that has generated over 12,000 English-Hula parallel text and voice sentences.
 
@@ -60,6 +63,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Downstream development of automated speech recognition (ASR), machine translation (MT), voice-enabled Hula-English commerce applications, and cultural heritage archiving.
+
+## Institutions / 機構
+
+Vula’a Kunenai Community, University of Melbourne
+
+**Funding / 經費:** Australian Research Council
 
 ## Related
 

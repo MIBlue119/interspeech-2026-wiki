@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shea26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shea26_interspeech.pdf
 session: Queer and Trans Speech Science and Technology
 topics: [paralinguistics, phonetics, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "Macquarie University"
+  - "LMU Munich"
+funding:
+  - "Australian Research Council"
 code:
     url: ""
     license: ""

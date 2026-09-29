@@ -1,6 +1,7 @@
 ---
 id: xu26n_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26n_interspeech.pdf
 *Lingfeng Xu, Si-Ioi Ng, Pranav S. Ambadi, Fan Lei, Kimberly D. Mueller, Julie Liss, Visar Berisha*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1233)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — An automated framework extracts Content Information Units (CIUs) from speech recordings using WhisperX and BERT, modeling narrative temporal dynamics as a directed graph to differentiate between cognitively normal and impaired speakers. The framework achieves a CIU identification F1 score of 0.865 on ASR transcripts and reveals significant differences in walk length, edge weight variability, and local jitter (Hedge's g up to 0.80 for unique nodes).
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated digital biomarker extraction for early clinical screening and longitudinal monitoring of Alzheimer's disease and mild cognitive impairment.
+
+## Institutions / 機構
+
+Arizona State University, University of Wisconsin-Madison, University of Waterloo
+
+**Funding / 經費:** NIH-NIA
 
 ## Related
 

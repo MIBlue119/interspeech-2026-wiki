@@ -1,6 +1,6 @@
 ---
 id: mao26_interspeech
-category: speaker-diarization
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mao26_interspeech.pdf
 *Sicheng Mao, Mathieu Fontaine, Anthony Larcher, Roland Badeau*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1248)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper proposes a fully Bayesian formulation for multichannel distant speaker diarization using a beta distribution prior over speaker activity tendencies, reducing Diarization Error Rate (DER) by at least 3% (16% relatively) on the AMI dataset.
 
@@ -67,6 +69,12 @@ Speech and ML researchers building joint separation and diarization systems will
 ## Applications
 
 Distant multi-microphone meeting transcription, smart conference room recording analysis, and multi-speaker conversational AI front-ends.
+
+## Institutions / 機構
+
+Telecom Paris, Institut Polytechnique de Paris, Universite du Mans
+
+**Funding / 經費:** ANR Project SAROUMANE
 
 ## Related
 

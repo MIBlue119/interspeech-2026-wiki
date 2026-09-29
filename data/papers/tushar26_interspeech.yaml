@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tushar26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/tushar26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
 topics: [speech-enhancement, speaker-verification, self-supervised]
+category: deepfake-security
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Singapore Institute of Technology"
+  - "Duke Kunshan University"
+funding:
+  - "Singapore Ministry of Education Academic Research Fund Tier 1"
 code:
     url: https://github.com/pranavtushar/SSL-CVA
     license: ""

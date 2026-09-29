@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/toyin26b_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/toyin26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/toyin26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1704)
 
+**Category:** `asr`
+
 **TL;DR** — This paper presents a scoping review of 228 stuttered-speech processing papers and a stakeholder survey of 40 people who stutter (PWS) and 30 speech-language pathologists (SLPs), revealing major misalignments between current AI research priorities and end-user needs. The study proposes a comprehensive task taxonomy and concrete guidelines to bridge the gap between technical metrics and human-centred requirements.
 
 ## Key contributions
@@ -66,6 +68,10 @@ Speech and ML engineers building atypical speech technologies should read this p
 ## Applications
 
 Development of user-centric speech recognition assistants, clinical decision-support software for speech-language pathologists, automated stuttering severity assessment tools, and real-time fluency monitoring applications.
+
+## Institutions / 機構
+
+MBZUAI, SpeechCare, SLAI, Chinese University of Hong Kong, Shenzhen, University of Edinburgh, University of Aveiro
 
 ## Related
 

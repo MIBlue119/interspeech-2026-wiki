@@ -1,6 +1,7 @@
 ---
 id: mousi26_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mousi26_interspeech.pdf
 *Basel Mousi, Fahim Dalvi, Shammur Absar Chowdhury, Firoj Alam, Nadir Durrani*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mousi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mousi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1980)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces a speech-augmented culturally grounded contrastive benchmark of 10,150 triplets and a new metric, Contrastive Instability (CI), revealing that speech inputs and non-English languages (specifically Arabic) substantially increase internal decision inconsistency in multimodal foundation models even when aggregate accuracy remains high.
 
@@ -65,6 +68,10 @@ Speech and ML researchers building spoken multimodal assistants should read this
 ## Applications
 
 Development and robust evaluation of speech-first multimodal virtual assistants, cross-lingual educational tools, and culturally grounded interactive AI systems.
+
+## Institutions / 機構
+
+Qatar Computing Research Institute, Hamad Bin Khalifa University
 
 ## Related
 

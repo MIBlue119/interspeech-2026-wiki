@@ -1,6 +1,6 @@
 ---
 id: yousef26c_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yousef26c_interspeech.pdf
 *Ahmed Yousef, Emma Willis, Vahni Tagirisa, Robert Hillman, Daryush Mehta*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yousef26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yousef26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3457)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper introduces ecological vocal efficiency (EVE)—defined as the ratio of microphone-derived sound pressure level (SPL) to accelerometer-estimated subglottal pressure (Ps)—to measure voice disorders in daily life. Ambulatory monitoring of 14 female participants revealed that patients with vocal nodules spent 92% of their voicing time outside the normative EVE range (vs. 36% for controls, p = 0.03, effect size r = 0.81).
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Continuous ambulatory monitoring of vocal health, remote tracking of phonotraumatic voice disorders, and objective evaluation of speech therapy or laryngeal surgery outcomes.
+
+## Institutions / 機構
+
+Massachusetts General Hospital, Harvard Medical School
+
+**Funding / 經費:** National Institutes of Health, National Institute on Deafness and Other Communication Disorders
 
 ## Related
 

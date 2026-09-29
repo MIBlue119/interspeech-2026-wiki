@@ -9,6 +9,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26j_interspeech.pdf
 session: Source Separation 2
 topics: [speech-enhancement, source-separation, self-supervised]
+category: enhancement-separation
+labels:
+  - "generative-model"
+  - "robustness-noise"
+institutions:
+  - "KAIST"
+funding:
+  - "National Research Foundation of Korea"
+  - "Ministry of Science and ICT of Korea"
+  - "Ministry of Education of Korea"
 code:
     url: https://github.com/rlaehghks5/MECO
     license: ""

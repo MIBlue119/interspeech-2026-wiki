@@ -1,6 +1,6 @@
 ---
 id: chan26_interspeech
-category: speech-enhancement
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chan26_interspeech.pdf
 *Amanda Chan, Chee Wee Leong, Candy Olivia Mawalim, Shogo Okada*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-751)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper investigates how phase vocoder time-scale modification (PV-TSM) affects acoustic and prosodic feature fidelity for automated communication assessment, demonstrating that downstream fine-tuning of ASR models on anonymized data can bridge the recognition and feature accuracy gap.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated workplace readiness assessments, educational speaking evaluations, and privacy-compliant speech corpus collection.
+
+## Institutions / 機構
+
+Educational Testing Service, Japan Advanced Institute of Science and Technology
 
 ## Related
 

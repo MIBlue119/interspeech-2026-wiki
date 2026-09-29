@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26j_interspeech.pdf
 session: Pathological Speech Assessment 3
 topics: [paralinguistics, emotion-recognition, self-supervised]
+category: health-clinical
+labels:
+  - "robustness-noise"
+institutions:
+  - "Nagoya Institute of Technology"
+  - "University of Wollongong"
+funding:
+  - "Ministry of Education, Culture, Sports, Science and Technology-Japan"
+  - "National Institute of Information and Communications Technology"
 code:
     url: ""
     license: ""

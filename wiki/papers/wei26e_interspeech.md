@@ -1,6 +1,7 @@
 ---
 id: wei26e_interspeech
-category: prosody
+category: phonetics-linguistics
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wei26e_interspeech.pdf
 *Megan Wei, Deepali Aneja, Jiaqi Su, Yunyun Wang, Haonan Chen, Zeyu Jin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wei26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wei26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2783)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces MMEE, a multilingual expressive speech corpus of 14.13 hours across 7 languages and 34 emotion categories with human-perceptual word-level emphasis annotations, and benchmarks state-of-the-art emphasis detectors to show that prosodic emphasis representations transfer robustly across arousal states and synthetic/human sources but degrade for typologically distant languages like Mandarin.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Expressive text-to-speech, speech-to-speech translation, and spoken language understanding systems requiring fine-grained prosodic intent modeling.
+
+## Institutions / 機構
+
+Adobe Research, Brown University
 
 ## Related
 

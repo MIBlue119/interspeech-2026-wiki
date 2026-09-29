@@ -1,6 +1,6 @@
 ---
 id: li26ea_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26ea_interspeech.pdf
 *Mengtong Li, Yu Sun, Jia-Xin Zhong, Jing Lu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26ea_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26ea_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2390)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — U2A-Net is a physics-motivated multi-rate neural framework that maps modulated ultrasonic driving signals directly to purified audible outputs for parametric array loudspeakers (PALs). It achieves an average nonlinear distortion modeling error below 1.62%, significantly outperforming audio-to-audio networks and Volterra filters.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Private speech communication systems, directional sound domes, spatial audio reproduction, and active acoustic control.
+
+## Institutions / 機構
+
+Nanjing University, Samsung Electronics, Horizon Robotics
 
 ## Related
 

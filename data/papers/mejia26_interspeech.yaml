@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mejia26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mejia26_interspeech.pdf
 session: Speech and Language Processing for Health and Accessibility
 topics: [speech-enhancement, evaluation, paralinguistics]
+category: health-clinical
+labels:
+  - "robustness-noise"
+institutions:
+  - "National Acoustic Laboratories"
+  - "Radboud University Medical Center"
+  - "University of Oxford"
 code:
     url: ""
     license: ""

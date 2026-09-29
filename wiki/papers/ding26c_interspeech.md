@@ -1,6 +1,6 @@
 ---
 id: ding26c_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ding26c_interspeech.pdf
 *Ruotong Ding, Zhi-Wei Tan, V.G. Reju, Andy W. H. Khong*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ding26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ding26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1034)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — The Cascaded Attention Fusion Transformer (CAF-Former) tackles through-wall radar speech recovery by combining progressive spectral expansion with a cascaded attention hierarchy, achieving superior intelligibility and perceptual scores over existing models under severe band limitation.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Non-acoustic speech enhancement, through-wall surveillance, search and rescue communications, and disaster recovery audio processing.
+
+## Institutions / 機構
+
+Nanyang Technological University, Cochin University of Science and Technology
 
 ## Related
 

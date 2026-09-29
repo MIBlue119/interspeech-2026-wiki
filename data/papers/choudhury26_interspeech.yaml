@@ -11,6 +11,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/choudhury26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/choudhury26_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
 topics: [self-supervised, evaluation, dataset]
+category: deepfake-security
+labels:
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+  - "robustness-noise"
+institutions:
+  - "IIIT-Delhi"
+  - "NTHU"
 code:
     url: ""
     license: ""

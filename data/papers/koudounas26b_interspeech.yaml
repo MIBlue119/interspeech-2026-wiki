@@ -12,6 +12,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/koudounas26b_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/koudounas26b_interspeech.pdf
 session: Benchmarking Foundation Models
 topics: [asr, evaluation, speech-llm]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Politecnico di Torino"
+  - "Kore University of Enna"
+  - "Amazon"
+  - "Universita degli Studi di Palermo"
 code:
     url: https://github.com/SALT-Research/SHALLOW
     license: ""

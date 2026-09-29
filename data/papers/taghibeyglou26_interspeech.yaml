@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/taghibeyglou26_interspee
 pdf_url: https://www.isca-archive.org/interspeech_2026/taghibeyglou26_interspeech.pdf
 session: Pathological Speech Assessment 3
 topics: [paralinguistics, self-supervised, health]
+category: health-clinical
+labels:
+  - "self-supervised"
+institutions:
+  - "University of Toronto"
+  - "North York General Hospital"
 code:
     url: ""
     license: ""

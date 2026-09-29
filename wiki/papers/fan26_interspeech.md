@@ -1,6 +1,6 @@
 ---
 id: fan26_interspeech
-category: speech-enhancement
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fan26_interspeech.pdf
 *Junyi Fan, Donald S. Williamson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1512)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — PrefSQA is an MOS-free pairwise preference prediction framework for speech quality assessment that combines dual semantic-acoustic encoders, uncertainty-aware Bradley-Terry logits, an impairment attention head, and an in-batch non-matching-reference (NMR) head, achieving 96.29% accuracy on simulated paired speech quality data.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech enhancement evaluation, text-to-speech system selection, and on-device speech quality monitoring.
+
+## Institutions / 機構
+
+Ohio State University
+
+**Funding / 經費:** Ohio Supercomputer Center, National Science Foundation
 
 ## Related
 

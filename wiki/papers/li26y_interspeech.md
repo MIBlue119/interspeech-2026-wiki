@@ -1,6 +1,6 @@
 ---
 id: li26y_interspeech
-category: keyword-spotting
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26y_interspeech.pdf
 *Jin Li, Wenbin Jiang, Ji Hu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26y_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26y_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1586)
+
+**Category:** `asr`
 
 **TL;DR** — KFC-KWS is a multimodal user-defined keyword spotting framework that uses CTC posterior peaks to select phoneme-aligned keyframes for cross-modal fusion, achieving 98.73% balanced AUC on LibriPhrase.
 
@@ -67,6 +69,12 @@ Researchers and engineers building open-vocabulary or user-defined keyword spott
 ## Applications
 
 On-device voice assistants, personalized wake-word engines, and interactive smart home devices supporting user-defined custom commands.
+
+## Institutions / 機構
+
+Hangzhou Dianzi University
+
+**Funding / 經費:** Yangtze River Delta Science and Technology Innovation Community Joint Research Project, Key R&D Program Project of Zhejiang Province
 
 ## Related
 

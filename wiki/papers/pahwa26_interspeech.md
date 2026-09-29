@@ -1,6 +1,7 @@
 ---
 id: pahwa26_interspeech
-category: speech-llm
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pahwa26_interspeech.pdf
 *Ramit Pahwa, Apoorva Beedu, Parivesh Priye, Rutu Gandhi, Saloni Takawale, Aruna Baijal, Zengli Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pahwa26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pahwa26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2857)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — Audio2Tool is a benchmark dataset of approximately 30,000 queries designed to evaluate speech-based tool-calling capabilities across smart car, smart home, and wearable domains. It demonstrates that state-of-the-art SpeechLMs excel at simple commands but experience severe performance drops below 35% exact match on compositional and multi-intent reasoning tasks.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automotive voice assistants, smart home IoT control hubs, wearable device hands-free navigation, and audio-native function-calling agent architectures.
+
+## Institutions / 機構
+
+Rivian and Volkswagen Group Technologies
 
 ## Related
 

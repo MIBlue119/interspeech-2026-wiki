@@ -1,6 +1,7 @@
 ---
 id: azeemi26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/azeemi26_interspeech.pdf
 *Abdul Hameed Azeemi, Ihsan Ayyub Qazi, Maryam Mustafa, Agha Ali Raza*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/azeemi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/azeemi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1382)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — Evaluating five multilingual ASR models across four South Asian languages using a novel 11-category error taxonomy reveals that script confusion drives up to 100%+ WER in Whisper, while Unicode ambiguity and cross-language contamination severely distort standard evaluations.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of robust speech technology for underrepresented regional languages, deployment of accessible voice interfaces for low-literacy populations in government and healthcare services, and enhancement of multi-script evaluation pipelines.
+
+## Institutions / 機構
+
+Lahore University of Management Sciences
 
 ## Related
 

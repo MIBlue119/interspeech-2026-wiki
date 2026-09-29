@@ -1,6 +1,7 @@
 ---
 id: yadav26_interspeech
-category: speech-translation
+category: translation
+labels: [low-resource, multilingual, efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yadav26_interspeech.pdf
 *Khushal Yadav, Vinayak Abrol*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yadav26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yadav26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2384)
+
+**Category:** `translation` · **Labels:** `low-resource`, `multilingual`, `efficient-on-device`, `generative-model`
 
 **TL;DR** — ARTIST is a 166M-parameter multilingual end-to-end Speech-to-Speech Translation framework mapping Indic languages to English through a universal articulatory space, outperforming the 1.2B-parameter SeamlessM4T baseline while using a fraction of the data and compute.
 
@@ -67,6 +70,12 @@ Researchers and engineers working on low-resource speech-to-speech translation o
 ## Applications
 
 Direct multilingual speech-to-speech translation systems for low-resource languages, on-device translation assistants, and robust offline voice communication tools.
+
+## Institutions / 機構
+
+Indraprastha Institute of Information Technology Delhi
+
+**Funding / 經費:** Nebius Research Grant, Infosys Foundation
 
 ## Related
 

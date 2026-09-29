@@ -11,6 +11,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.pdf
 session: Scaling and Zero-Shot Speech Synthesis
 topics: [tts, self-supervised, on-device]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Hong Kong University of Science and Technology"
+  - "Tencent"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Guangdong Basic and Applied Basic Research Foundation"
+  - "Tencent AI Lab Rhino-Bird Program"
 code:
     url: ""
     license: ""

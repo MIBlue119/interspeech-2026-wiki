@@ -1,6 +1,7 @@
 ---
 id: lin26m_interspeech
 category: asr
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26m_interspeech.pdf
 *Zhaofeng Lin, Stavros Petridis, Maja Pantic, Naomi Harte*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2583)
+
+**Category:** `asr` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — Evaluating five state-of-the-art audio-visual speech recognition (AVSR) architectures on a newly constructed, distribution-matched test set (MV2LRS3) reveals a universal performance collapse, proving that current systems suffer from severe adaptive overfitting to the standard LRS3 benchmark.
 
@@ -65,6 +68,12 @@ Speech and ML researchers building multimodal foundation models should read this
 ## Applications
 
 Benchmarking robust speech recognition architectures, developing reliable multimodal fusion models for noisy real-world environments, and guiding unbiased data curation for audio-visual speech datasets.
+
+## Institutions / 機構
+
+Trinity College Dublin, Imperial College London, NatWest AI Research
+
+**Funding / 經費:** Research Ireland Centre for Research Training in Digitally-Enhanced Reality
 
 ## Related
 

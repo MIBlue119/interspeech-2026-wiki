@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26i_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26i_interspeech.pdf
 session: Voice Quality Aspects of Speech
 topics: [phonetics, prosody, paralinguistics]
+category: phonetics-linguistics
+institutions:
+  - "City University of Hong Kong"
+funding:
+  - "CityU StartUp Grant"
 code:
     url: ""
     license: ""

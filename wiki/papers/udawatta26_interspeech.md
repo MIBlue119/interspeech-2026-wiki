@@ -1,6 +1,6 @@
 ---
 id: udawatta26_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/udawatta26_interspeech.pdf
 *Pasindu Udawatta, Jesin James, Sally Akevai Nicholas, B. T. Balamurali, C. I. Watson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/udawatta26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/udawatta26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1579)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — The paper proposes two phonetically grounded objective metrics—Vowel Space Overlap and Procrustes Normalised Disparity—to evaluate synthetic speech during TTS training, showing strong correlations with human perceived accent similarity across two distinct English accents.
 
@@ -66,6 +68,12 @@ Speech researchers and TTS engineers building accent adaptation or low-resource 
 ## Applications
 
 Monitoring accent adaptation during TTS training, automating early stopping criteria based on pronunciation accuracy, and integrating phonetic objectives directly into loss functions or attention mechanisms.
+
+## Institutions / 機構
+
+University of Auckland
+
+**Funding / 經費:** Marsden Fund
 
 ## Related
 

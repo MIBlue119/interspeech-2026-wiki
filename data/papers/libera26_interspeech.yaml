@@ -10,6 +10,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/libera26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/libera26_interspeech.pdf
 session: Streaming Speech Synthesis
 topics: [tts, speech-llm, self-supervised]
+category: speech-llm-dialogue
+labels:
+  - "self-supervised"
+  - "streaming-real-time"
+  - "generative-model"
+institutions:
+  - "Concordia University"
+  - "Mila-Quebec AI Institute"
+  - "Universite Laval"
+funding:
+  - "Natural Sciences and Engineering Research Council of Canada"
+  - "Digital Research Alliance of Canada"
+  - "Translated"
+  - "Apple"
 code:
     url: https://lucadellalib.github.io/wavslm-web/
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: alhammad26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/alhammad26_interspeech.pdf
 *Abeer Alhammad, Abdullah Aldahlawi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/alhammad26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/alhammad26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2250)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — BandMIL is an audio deepfake detection framework that combines explicit frequency-band analysis with WavLM self-supervised representations using gated fusion and multiple instance learning, achieving 1.28% EER on ASVspoof 2019 LA.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditable anti-spoofing countermeasures for biometric automatic speaker verification systems, telephony fraud detection, and forensic audio analysis.
+
+## Institutions / 機構
+
+Thaka
+
+**Funding / 經費:** Thaka
 
 ## Related
 

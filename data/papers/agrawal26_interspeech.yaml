@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/agrawal26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/agrawal26_interspeech.pdf
 session: Speech and Language Learning Technologies
 topics: [prosody, speech-feedback, conversational-ai]
+category: applications-other
+labels:
+  - "streaming-real-time"
+institutions:
+  - "Amadea"
+  - "University of Queensland"
+  - "University of Edinburgh"
 code:
     url: ""
     license: ""

@@ -13,6 +13,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/meng26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/meng26e_interspeech.pdf
 session: Assistive Technologies 2
 topics: [paralinguistics, emotion-recognition, evaluation]
+category: health-clinical
+institutions:
+  - "National Acoustic Laboratories"
+  - "GN Store Nord"
+funding:
+  - "GN-NAL Research Alliance Fund"
 code:
     url: ""
     license: ""

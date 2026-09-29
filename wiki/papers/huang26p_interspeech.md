@@ -1,6 +1,6 @@
 ---
 id: huang26p_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26p_interspeech.pdf
 *Zilong Huang, Kong Aik Lee, Chong-xin Gan, Zezhong Jin, Ruichen Zuo, Man-Wai Mak*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26p_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26p_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3532)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — The paper introduces EII-SCL, a supervised contrastive learning module that incorporates psychological emotional inertia within speaker-specific temporal windows to improve multimodal emotion recognition in conversation (MERC). When integrated into Transformer- and graph-based backbones, it achieves state-of-the-art accuracy and weighted F1 scores on IEMOCAP and MELD without requiring extra annotations.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Human-computer interaction systems, empathetic conversational agents, and intelligent mental health monitoring assistants.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University
+
+**Funding / 經費:** Research Platform for Advanced Audio and Speech Signal Processing
 
 ## Related
 

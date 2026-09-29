@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/juvekar26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/juvekar26_interspeech.pdf
 session: Multilingual & Low-Resource ASR
 topics: [asr, multilingual, self-supervised]
+category: asr
+labels:
+  - "multilingual"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Adalat AI"
 code:
     url: https://huggingface.co/collections/adalat-ai/vividh-asr
     license: ""

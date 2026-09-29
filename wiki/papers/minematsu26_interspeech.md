@@ -1,6 +1,6 @@
 ---
 id: minematsu26_interspeech
-category: spoken-language-understanding
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/minematsu26_interspeech.pdf
 *Nobuaki Minematsu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/minematsu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/minematsu26_interspeech.html)
+
+**Category:** `applications-other`
 
 **TL;DR** — AURORA is a web-based authoring system designed to bridge aural-oral language training and communicative practice, deployed in a two-month academic courseware where 832 learners practiced for 30 minutes daily. Pre- and post-tests demonstrated significant reductions in both listening disfluency (LD) and pronunciation deviation (PD).
 
@@ -58,6 +60,10 @@ Speech and ML engineers building educational technology (EdTech) or CALL systems
 ## Applications
 
 Computer-Assisted Language Learning (CALL), automated language assessment, spoken dialogue tutoring systems, and English-medium instruction (EMI) preparatory courseware.
+
+## Institutions / 機構
+
+University of Tokyo
 
 ## Related
 

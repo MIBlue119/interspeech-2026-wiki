@@ -1,6 +1,7 @@
 ---
 id: song26d_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/song26d_interspeech.pdf
 *Siqi Song, Fulin Wu, Zhong-Qiu Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/song26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/song26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1857)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — Augmented Reverberant-Target Training (ARTT) is a two-stage unsupervised monaural speech dereverberation framework that uses synthetic relative transfer functions and mean-teacher self-distillation to achieve state-of-the-art results without clean reference signals. It reaches 7.3 dB SI-SDR on the WSJ0CAM-DEREVERB test set, outperforming existing unsupervised and even supervised baselines.
 
@@ -67,6 +70,10 @@ Researchers and engineers tackling monaural unsupervised speech enhancement shou
 ## Applications
 
 Unsupervised speech preprocessing for automatic speech recognition (ASR), speaker verification, and hands-free communication devices operating in highly reverberant and noisy rooms.
+
+## Institutions / 機構
+
+Southern University of Science and Technology
 
 ## Related
 

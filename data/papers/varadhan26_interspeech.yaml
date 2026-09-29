@@ -11,6 +11,20 @@ isca_url: https://www.isca-archive.org/interspeech_2026/varadhan26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/varadhan26_interspeech.pdf
 session: Low-Resource Speech Synthesis
 topics: [tts, multilingual, low-resource]
+category: tts
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Indian Institute of Technology Madras"
+  - "Saryps Labs"
+funding:
+  - "Digital India Bhashini"
+  - "MeitY, Government of India"
+  - "EkStep Foundation"
+  - "Nilekani Philanthropies"
 code:
     url: ""
     license: ""

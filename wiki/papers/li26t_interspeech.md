@@ -1,6 +1,7 @@
 ---
 id: li26t_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26t_interspeech.pdf
 *Rong Li, Esther Janse, Dirk Heylen, Khiet Truong*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26t_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26t_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1178)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper investigates how multi-talker babble noise affects human auditory perception of amused versus mechanical spread-lip smiled speech. Increasing noise reduces perceptual sensitivity and triggers a systematic shift toward a more conservative decision strategy that downplays positive affect under uncertainty.
 
@@ -64,6 +67,12 @@ Speech and ML researchers building affective speech processing models or robust 
 ## Applications
 
 Design and evaluation of robust speech-emotion recognition systems, conversational agents, and contact-center audio enhancement filters operating in noisy real-world acoustic environments.
+
+## Institutions / 機構
+
+University of Twente, Radboud University
+
+**Funding / 經費:** European Union
 
 ## Related
 

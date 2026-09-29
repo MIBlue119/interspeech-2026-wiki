@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/park26h_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/park26h_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [paralinguistics, evaluation, self-supervised]
+category: resources-evaluation
+labels:
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Spellbrush"
 code:
     url: https://github.com/sizigi/animescore
     license: ""

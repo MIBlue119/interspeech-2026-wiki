@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/goto26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/goto26_interspeech.pdf
 session: From Self-Supervised Pre-training to Phonetic Analysis of Speech Models
 topics: [asr, self-supervised, low-resource]
+category: asr
+labels:
+  - "self-supervised"
+  - "streaming-real-time"
+institutions:
+  - "LY Corporation"
+  - "Carnegie Mellon University"
 code:
     url: ""
     license: ""

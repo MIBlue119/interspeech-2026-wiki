@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26g_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
 topics: [asr, speech-llm, low-resource]
+category: applications-other
+labels:
+  - "self-supervised"
+institutions:
+  - "UNSW"
 code:
     url: https://github.com/Evanchan1923/MDD_SpeechAttribute
     license: ""

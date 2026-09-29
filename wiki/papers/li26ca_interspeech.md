@@ -1,6 +1,7 @@
 ---
 id: li26ca_interspeech
-category: speaker-verification
+category: speaker
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26ca_interspeech.pdf
 *Yishuang Li, Yi Yu, Wanli Dong, Weihao Gan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26ca_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26ca_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1965)
+
+**Category:** `speaker` · **Labels:** `self-supervised`
 
 **TL;DR** — A self-supervised speaker verification method combining multi-layer pre-trained model clustering consensus for high-confidence pseudo-labeling with DINO-style teacher-student self-distillation for low-confidence data, achieving a 1.09% EER on VoxCeleb1-O.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving speaker verification, forensic audio analysis, and large-scale speaker diarization pipelines using unlabeled speech.
+
+## Institutions / 機構
+
+Malanshan Audio and Video Laboratory
 
 ## Related
 

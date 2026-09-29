@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hong26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1312)
 
+**Category:** `asr`
+
 **TL;DR** — Convolutional Dynamic Rotary Positional Encoding (CD-RoPE) warps rotary temporal indices dynamically via a lightweight depthwise-separable convolution, improving ASR word error rates across LibriSpeech sets while using 2.2M fewer parameters than RelPos.
 
 ## Key contributions
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust automatic speech recognition systems operating in acoustically challenging or temporally perturbed real-world environments.
+
+## Institutions / 機構
+
+Carnegie Mellon University, University of Pittsburgh
 
 ## Related
 

@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cai26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cai26c_interspeech.pdf
 session: Multi-Speaker Processing, Personalization, and Adaptation
 topics: [asr, speech-llm, self-supervised]
+category: asr
+institutions:
+  - "Chinese University of Hong Kong"
+  - "Tsinghua University"
+funding:
+  - "Centre for Perceptual and Interactive Intelligence"
+  - "Innovation and Technology Commission of the Hong Kong Special Administrative Region Government"
 code:
     url: https://github.com/caiyunrui/MT-GRPO
     license: ""

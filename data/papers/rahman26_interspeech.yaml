@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/rahman26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/rahman26_interspeech.pdf
 session: Indigenous Voices in Speech Science and Technology
 topics: [asr, low-resource, dataset]
+category: resources-evaluation
+labels:
+  - "low-resource"
+  - "self-supervised"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Pashto DAO"
 code:
     url: ""
     license: ""

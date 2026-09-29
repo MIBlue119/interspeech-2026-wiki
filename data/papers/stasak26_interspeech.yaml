@@ -12,6 +12,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/stasak26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/stasak26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [dataset, evaluation, speech-enhancement]
+category: resources-evaluation
+institutions:
+  - "University of Sydney"
 code:
     url: https://github.com/DrBrianStasak/CalliOpeNLP/
     license: ""

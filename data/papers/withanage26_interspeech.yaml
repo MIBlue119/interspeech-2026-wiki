@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/withanage26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/withanage26_interspeech.pdf
 session: Entrainment and Dialogue Coordination
 topics: [paralinguistics, evaluation, phonetics]
+category: phonetics-linguistics
+institutions:
+  - "University of Maryland"
+  - "University of Texas at Dallas"
+funding:
+  - "Grand Challenge grant from University of Maryland"
 code:
     url: ""
     license: ""

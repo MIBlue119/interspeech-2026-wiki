@@ -1,6 +1,7 @@
 ---
 id: ijjada26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ijjada26b_interspeech.pdf
 *Deepika Ijjada, Charan Kumar Reddy B, Ashwini Hanaganti, Priyanka Devrao Jadhav, Varsha Uppalanchi, Nivedita Chennupati, Karunakar Reddy Pucchakayala, Balaji Padmanaban, Harish Rajamani, Naveen Ambati*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ijjada26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ijjada26b_interspeech.html)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`, `robustness-noise`
 
 **TL;DR** — WaveNorm AGC is a lightweight, time-domain neural adaptive gain control and noise reduction system designed for edge devices, achieving stable loudness normalization across a dynamic range up to -70 dB with ~6 dB noise reduction while requiring only 55 KB of memory.
 
@@ -62,6 +65,10 @@ Audio and edge-AI engineers building real-time communication hardware or softwar
 ## Applications
 
 Real-time teleconferencing, hearing aids, edge-based speech communication devices, and robust front-ends for automatic speech recognition.
+
+## Institutions / 機構
+
+Meeami Technologies
 
 ## Related
 

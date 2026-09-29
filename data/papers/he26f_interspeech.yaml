@@ -14,6 +14,19 @@ isca_url: https://www.isca-archive.org/interspeech_2026/he26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/he26f_interspeech.pdf
 session: Spoofing and Deepfake Detection 2
 topics: [audio-deepfake, self-supervised, on-device]
+category: deepfake-security
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "Zhejiang University"
+  - "Hangzhou High-Tech Zone (Binjiang) Institute of Blockchain and Data Security"
+  - "Shanghai Institute for Advanced Study"
+  - "China University of Petroleum (East China)"
+funding:
+  - "Shanghai Municipal Special Program for Basic Research on General AI Foundation Models"
+  - "National Natural Science Foundation of China"
+  - "Zhejiang Provincial Natural Science Foundation of China"
 code:
     url: ""
     license: ""

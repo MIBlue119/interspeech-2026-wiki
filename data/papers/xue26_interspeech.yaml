@@ -15,6 +15,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xue26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xue26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
 topics: [speaker-verification, voice-conversion, self-supervised]
+category: deepfake-security
+institutions:
+  - "Army Engineering University of PLA"
+  - "Chinese University of Hong Kong"
+  - "Information Support Force Engineering University"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Natural Science Foundation of Jiangsu Province"
+  - "China Postdoctoral Science Foundation"
 code:
     url: https://cero529.github.io/voiceprint-protection-demo/
     license: ""

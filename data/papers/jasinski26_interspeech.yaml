@@ -12,6 +12,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jasinski26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/jasinski26_interspeech.pdf
 session: 'Robust ASR: Hallucinations and Biases'
 topics: [asr, self-supervised, evaluation]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "AGH University of Krakow"
+funding:
+  - "National Science Centre"
+  - "Excellence initiative - research university"
 code:
     url: https://github.com/DSP-AGH/asr_hallucination_detection_prompts
     license: ""

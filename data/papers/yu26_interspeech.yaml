@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yu26_interspeech.pdf
 session: Medical Dialogue and Conversational Understanding
 topics: [speech-llm, spoken-language-understanding, health]
+category: health-clinical
+institutions:
+  - "Utrecht University"
+  - "University of Groningen"
+funding:
+  - "China Scholarship Council"
 code:
     url: ""
     license: ""

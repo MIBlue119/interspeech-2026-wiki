@@ -1,6 +1,7 @@
 ---
 id: kopuklu26_interspeech
-category: speaker-diarization
+category: speaker
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kopuklu26_interspeech.pdf
 *Okan Köpüklü*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kopuklu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kopuklu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-448)
+
+**Category:** `speaker` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — RT-ASDNet is a unified, end-to-end audio-visual deep learning architecture that formulates active speaker detection as a single-stage, anchor-free detection problem, enabling constant-time inference per frame regardless of scene complexity. It achieves 77.3% mAP on the AVA-ActiveSpeaker benchmark while running in real-time.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time video conferencing, automated video editing, human-robot interaction, and live speaker diarization.
+
+## Institutions / 機構
+
+Microsoft
 
 ## Related
 

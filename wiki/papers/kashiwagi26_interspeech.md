@@ -1,6 +1,7 @@
 ---
 id: kashiwagi26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kashiwagi26_interspeech.pdf
 *Yosuke Kashiwagi, Osamu Take, Hayato Futami, Emiru Tsunoo, Siddhant Arora, Shinji Watanabe*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kashiwagi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kashiwagi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1604)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper integrates continuous speaker embeddings into Hypothesis Clustering and Merging (HCM) for multi-talker ASR, achieving up to 46% relative WER reduction under identical-content conditions and 23% in target-speaker selection.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-world meeting transcription systems, multi-speaker conversational transcription, and target-speaker extraction engines for smart home assistants.
+
+## Institutions / 機構
+
+Sony, Carnegie Mellon University
 
 ## Related
 

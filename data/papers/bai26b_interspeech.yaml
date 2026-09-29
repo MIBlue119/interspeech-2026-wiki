@@ -13,6 +13,24 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bai26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bai26b_interspeech.pdf
 session: Pronunciation Diversity
 topics: [speech-translation, self-supervised, voice-conversion]
+category: tts
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Chinese University of Hong Kong"
+  - "Nanjing University"
+  - "Tencent"
+  - "Shenzhen Loop Area Institute"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Program for Guangdong Introducing Innovative and Entrepreneurial Teams"
+  - "Yangtze River Delta Science and Technology Innovation Community Joint Research Project"
+  - "Shenzhen Science and Technology Program"
+  - "Shenzhen Stability Science Program"
+  - "Shenzhen Key Lab of MultiModal Cognitive Computing"
+  - "Guangdong Provincial Key Laboratory of Big Data Computing"
+  - "The Chinese University of Hong Kong, Shenzhen"
 code:
     url: https://P1ping.github.io/dlman-demo/
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: puggaardrode26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/puggaardrode26_interspeech.pd
 *Rasmus Puggaard-Rode, Joshua Penney*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/puggaardrode26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/puggaardrode26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1430)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — An automatic method for detecting modal-to-creaky voice transitions using F0 instability and REAPER pitch estimation achieves strong agreement with human annotators (ICC = 0.768) and yields functionally identical phonetic study outcomes.
 
@@ -61,6 +63,10 @@ Phoneticians and speech engineers seeking a fast, transparent, non-neural altern
 ## Applications
 
 Automated socio-phonetic corpus annotation, large-scale acoustic analysis of glottalization and voice quality, and data cleaning for pitch-tracking pipelines.
+
+## Institutions / 機構
+
+University of Oxford, Macquarie University
 
 ## Related
 

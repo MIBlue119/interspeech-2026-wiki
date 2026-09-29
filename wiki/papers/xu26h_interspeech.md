@@ -1,6 +1,7 @@
 ---
 id: xu26h_interspeech
 category: asr
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26h_interspeech.pdf
 *Haoning Xu, Zhaoqing Li, Huimeng Wang, Youjun Chen, Chengxi Deng, Mengzhe Geng, Xunying Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1010)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — A data-free and training-free model compression approach for speech foundation models replaces destructive magnitude pruning with k-means parameter clustering and fusion. It yields zero-shot performance comparable to uncompressed models, outperforming magnitude-based pruning by up to 68% absolute Word Error Rate reduction at 10% sparsity on Whisper-large-v3.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device speech recognition, resource-constrained edge transcription systems, and fast model compression in data-scarce environments.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, National Research Council Canada
+
+**Funding / 經費:** Hong Kong RGC GRF
 
 ## Related
 

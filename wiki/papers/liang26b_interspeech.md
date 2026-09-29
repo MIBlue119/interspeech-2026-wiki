@@ -1,6 +1,7 @@
 ---
 id: liang26b_interspeech
-category: spatial-audio
+category: audio-understanding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liang26b_interspeech.pdf
 *Liming Liang, Lingfeng Yang, Luo Chen, Chenxing Li, Yuexian Zou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-531)
+
+**Category:** `audio-understanding` · **Labels:** `generative-model`
 
 **TL;DR** — FoleyImmersive is a modular two-stage framework for generating first-order ambisonics (FOA) from silent videos by decoupling semantic generation ("what") from spatialization ("where"), achieving state-of-the-art semantic and spatial metrics.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automatic Foley generation for in-the-wild monocular videos, immersive XR media production, and 3D spatial audio synthesis.
+
+## Institutions / 機構
+
+Peking University, South China University of Technology, Tencent
 
 ## Related
 

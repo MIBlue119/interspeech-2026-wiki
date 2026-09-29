@@ -1,6 +1,7 @@
 ---
 id: polle26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [low-resource, multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/polle26_interspeech.pdf
 *Roseline Polle, Owen Parsons, George Fairs, Luis Miguel San Martin Fernandez, Cole Looney, Xiaoliang Wu, Alexandra Livia Georgescu, Stefano Goria*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/polle26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/polle26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2993)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `low-resource`, `multilingual`, `generative-model`
 
 **TL;DR** — This paper benchmarks eight voice cloning models across five paralinguistic and clinical speech tasks, demonstrating that modern cloning architectures preserve over 90% of discriminative paralinguistic signals and effectively augment low-resource cross-lingual datasets.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Augmenting low-resource clinical mental health datasets, cross-lingual affective computing, and privacy-preserving speech processing where identity is decoupled from paralinguistic content.
+
+## Institutions / 機構
+
+thymia, University of Edinburgh, University of Southampton
 
 ## Related
 

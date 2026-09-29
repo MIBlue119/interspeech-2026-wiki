@@ -11,6 +11,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/feng26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/feng26_interspeech.pdf
 session: Speech Synthesis Evaluation 2
 topics: [tts, evaluation, dataset]
+category: tts
+labels:
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "Renmin University of China"
+  - "Carnegie Mellon University"
+funding:
+  - "National Natural Science Foundation of China"
 code:
     url: https://fengjin1117.github.io/mmgenre-web/
     license: ""

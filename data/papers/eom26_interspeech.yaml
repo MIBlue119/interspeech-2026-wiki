@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/eom26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/eom26_interspeech.pdf
 session: 'Speech Synthesis: Speech Features, Codec and Representations'
 topics: [tts, self-supervised, low-resource]
+category: tts
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Korea Advanced Institute of Science and Technology"
+  - "University of Illinois Urbana-Champaign"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: li26p_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26p_interspeech.pdf
 *Zhuoran Li, Si Chen, Yitian Hong, Bingxin Liu, Ho-Yi Ku, Jiayue Gao, Chun-Sing Wong, Angel Chan, Zhuoming Chen, Haoyan Ge, Bin Li, Li Sheng, Po-yi Tempo Tang, Ratree Wayland*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26p_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26p_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1008)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study examines how co-speech gestures (deictic and iconic) modulate the acoustic realization of focus in Cantonese-speaking children with and without autism spectrum disorder (ASD), revealing that typically developing (TD) children use gestures to enhance prosodic contrast while autistic children exhibit distinct duration-shortening trade-offs indicative of multimodal integration difficulties.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Design of multimodal conversational agents, assistive technologies for children with autism, and automated diagnostic tools for evaluating speech-gesture integration anomalies.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University, Chinese University of Hong Kong, First Affiliated Hospital of Jinan University, Hong Kong Metropolitan University, City University of Hong Kong, University of Florida
+
+**Funding / 經費:** General Research Fund
 
 ## Related
 

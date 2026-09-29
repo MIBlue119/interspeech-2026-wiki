@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/choi26g_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/choi26g_interspeech.pdf
 session: Spatial Audio 4
 topics: [speaker-diarization, speech-enhancement, self-supervised]
+category: enhancement-separation
+institutions:
+  - "Hanyang University"
+funding:
+  - "National Research Foundation of Korea"
 code:
     url: ""
     license: ""

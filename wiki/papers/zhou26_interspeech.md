@@ -1,6 +1,6 @@
 ---
 id: zhou26_interspeech
-category: speech-enhancement
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhou26_interspeech.pdf
 *Yunjie Zhou, Yuheng Huang, Diqun Yan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhou26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhou26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-455)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — Ouroboros is a training-data-poisoning backdoor attack framework for speech enhancement systems that uses high-SNR natural clean audio as triggers to force silence or malicious content during inference. It achieves near-100% attack success rates with minimal degradation to standard denoising performance.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Safety-critical speech preprocessing pipelines, voice assistants, and cloud-based real-time communication meeting systems.
+
+## Institutions / 機構
+
+Ningbo University, Ningbo University of Finance and Economics
+
+**Funding / 經費:** National Natural Science Foundation of China, Zhejiang Provincial Collaborative Innovation Center for Digital Supply Chain and Artificial Intelligence of Bulk Commodities
 
 ## Related
 

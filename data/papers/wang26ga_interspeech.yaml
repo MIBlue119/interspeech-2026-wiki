@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wang26ga_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/wang26ga_interspeech.pdf
 session: Pathological Speech Assessment 3
 topics: [paralinguistics, self-supervised, low-resource]
+category: health-clinical
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "Xi'an Jiaotong University"
+funding:
+  - "Scientific and Technological Innovation 2030 Major Project"
+  - "Key Research and Development Program of Shaanxi Province"
 code:
     url: ""
     license: ""

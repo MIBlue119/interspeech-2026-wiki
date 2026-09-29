@@ -1,6 +1,7 @@
 ---
 id: lanzendoerfer26b_interspeech
-category: speaker-separation
+category: speaker
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lanzendoerfer26b_interspeech.
 *Luca A. Lanzendöerfer, Constantin Pinkl, Florian Grötschla, Roger Wattenhofer*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lanzendoerfer26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lanzendoerfer26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2864)
+
+**Category:** `speaker` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — LlaSep is an autoregressive audio language model that performs speaker separation and diarization in a single decoding pass by generating discrete codec tokens for up to four speakers, achieving superior perceptual audio quality and lower diarization error rates compared to continuous mask-based baselines.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust multi-speaker automatic speech recognition preprocessing, conversational speech diarization, and meeting transcription systems operating in heavy overlap environments.
+
+## Institutions / 機構
+
+ETH Zurich
 
 ## Related
 

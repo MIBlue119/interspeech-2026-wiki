@@ -1,6 +1,7 @@
 ---
 id: ramapuram26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ramapuram26_interspeech.pdf
 *Jason Ramapuram, Eeshan Gunesh Dhekane, Amitis Shidani, Dan Busbridge, Bogdan Mazoure, Zijin Gu, Russ Webb, Tatiana Likhomanenko, Navdeep Jaitly*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ramapuram26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ramapuram26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2980)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — This paper investigates continuous diffusion (CD) spoken language models as an alternative to discrete autoregressive SLMs, scaling them up to 16B parameters on 7 million hours of audio and showing that they follow predictable validation loss and phoneme-distribution scaling laws.
 
@@ -65,6 +68,10 @@ Read this if you are a speech or ML researcher investigating foundational scalin
 ## Applications
 
 Unsupervised spoken language model pretraining, expressive zero-shot multi-speaker textless speech generation, and multilingual conversational speech synthesis.
+
+## Institutions / 機構
+
+Apple
 
 ## Related
 

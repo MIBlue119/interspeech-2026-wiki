@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bralios26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/bralios26_interspeech.pdf
 session: Neural Audio Codec Architectures
 topics: [speech-coding, self-supervised, dataset]
+category: speech-coding
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "University of Illinois Urbana-Champaign"
+  - "Massachusetts Institute of Technology"
+funding:
+  - "Electronics and Telecommunications Research Institute"
 code:
     url: https://github.com/dbralios/elastic-time
     license: ""

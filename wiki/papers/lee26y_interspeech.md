@@ -1,6 +1,7 @@
 ---
 id: lee26y_interspeech
-category: keyword-spotting
+category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26y_interspeech.pdf
 *Jaewon Lee, Sang-Beom Lee, Bum-Hwi Kim, Kwang-Yong Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26y_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26y_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3372)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — A lightweight, factorized command-spotting model for surgical-assistant robots decomposes commands into direction, mode, and ordinal magnitude using head-wise attention and CORAL regression, achieving 95.36% joint success and a low catastrophic step error rate.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Voice control of surgical robots, clinical medical assistants, and high-stakes industrial machinery where large command errors carry catastrophic physical consequences.
+
+## Institutions / 機構
+
+Electronics and Telecommunications Research Institute
+
+**Funding / 經費:** Electronics and Telecommunications Research Institute, Commercialization Promotion Agency for R&D Outcomes, Korean government, Ministry of Science and ICT
 
 ## Related
 

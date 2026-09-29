@@ -1,6 +1,7 @@
 ---
 id: firc26b_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [efficient-on-device, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/firc26b_interspeech.pdf
 *Anton Firc, Vojtěch Staněk, Zbyněk Lička, Kamil Malinka, Martin Perešíni*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/firc26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/firc26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2430)
+
+**Category:** `deepfake-security` · **Labels:** `efficient-on-device`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — SpAArSIST streamlines the AASIST graph pooling backend for SSL-based audio anti-spoofing by replacing learned scoring and stack-node attention with explicit magnitude proxies and mean pooling. The optimized pipeline cuts backend compute by 20.7% and model size by 4.1% while improving out-of-domain In-the-Wild EER from 4.64% to 2.82%.
 
@@ -67,6 +70,12 @@ Speech and ML engineers building deployable anti-spoofing systems should read th
 ## Applications
 
 Real-time speech deepfake detection, audio forensics, voice biometrics security, and on-device speaker verification pipelines.
+
+## Institutions / 機構
+
+Brno University of Technology
+
+**Funding / 經費:** Brno University of Technology, Ministry of Education, Youth and Sports of the Czech Republic, e-INFRA CZ
 
 ## Related
 

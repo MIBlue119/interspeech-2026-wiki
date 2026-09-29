@@ -14,6 +14,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lopez26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/lopez26b_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 1
 topics: [asr, low-resource, evaluation]
+category: asr
+labels:
+  - "low-resource"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Telefonica"
+  - "Universidad Autonoma de Madrid"
+  - "Brno University of Technology"
+funding:
+  - "European Union's Horizon 2020 RIA ELOQUENCE project"
+  - "Ministry of Education, Youth and Sports of the Czech Republic"
+  - "OP JAK project 'Linguistics, Artificial Intelligence and Language and Speech Technologies: from Research to Applications'"
 code:
     url: https://github.com/ferugit/s-diverse
     license: ""

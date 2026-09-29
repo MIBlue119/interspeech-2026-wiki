@@ -1,6 +1,7 @@
 ---
 id: sapkota26_interspeech
 category: asr
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sapkota26_interspeech.pdf
 *Paban Sapkota, Hemant Kumar Kathania*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sapkota26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sapkota26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2375)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — The paper introduces IACC-HuBERT, a method that adapts a frozen HuBERT frontend for dysarthric speech recognition by applying intelligibility-aware channel conditioning via FiLM and Gated-FiLM mechanisms. This approach reduces the average Word Error Rate (WER) on the TORGO dataset from 28.9% (unadapted HuBERT) to 21.0% using only 15.78M trainable parameters.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of robust automatic speech recognition systems for individuals with motor speech disorders, dysarthria, and clinical voice pathologies.
+
+## Institutions / 機構
+
+National Institute of Technology Sikkim
 
 ## Related
 

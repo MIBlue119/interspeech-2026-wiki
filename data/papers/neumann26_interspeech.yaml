@@ -16,6 +16,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/neumann26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/neumann26_interspeech.pdf
 session: Clinically Useful Speech Representations 2
 topics: [paralinguistics, evaluation, health]
+category: health-clinical
+institutions:
+  - "Modality.AI"
+  - "Verge Genomics"
+  - "2b Analytics"
+  - "University of California, San Francisco"
 code:
     url: ""
     license: ""

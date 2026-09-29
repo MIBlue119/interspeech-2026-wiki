@@ -1,6 +1,6 @@
 ---
 id: liu26n_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26n_interspeech.pdf
 *Yi-Fen Liu, Xiang-Li Lu, Po-Yu Chiu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1747)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper proposes a core-auxiliary branched Transformer framework for Mandarin tone recognition that relies exclusively on suprasegmental F0 and duration features, achieving a headline tone accuracy of 97.5%.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-assisted pronunciation training (CAPT) systems, mispronunciation detection and diagnosis for L2 Mandarin learners, and tonal contour recognition.
+
+## Institutions / 機構
+
+Feng Chia University
+
+**Funding / 經費:** National Science and Technology Council
 
 ## Related
 

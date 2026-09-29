@@ -1,6 +1,6 @@
 ---
 id: noronha26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/noronha26_interspeech.pdf
 *Sujit Noronha, Steven Au, Kaushlendra Tripathi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/noronha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/noronha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2880)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — This paper evaluates structured prompt engineering, automated prompt optimization, and reinforced self-training for audio reasoning on the MMAR benchmark using Qwen3-Omni 30B. It demonstrates that a structured HEARD-ANALYSIS-ANSWER prompting strategy achieves a peak accuracy of 72.6% (+5.5% over baseline) at zero training cost, outperforming compute-intensive self-training and automated optimization methods.
 

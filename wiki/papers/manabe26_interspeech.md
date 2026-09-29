@@ -1,6 +1,7 @@
 ---
 id: manabe26_interspeech
-category: self-supervised
+category: audio-understanding
+labels: [multilingual, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/manabe26_interspeech.pdf
 *Toranosuke Manabe, Yuchi Ishikawa, Hokuto Munakata, Yoshimitsu Aoki, Tatsuya Komatsu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/manabe26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/manabe26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-845)
+
+**Category:** `audio-understanding` · **Labels:** `multilingual`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — ProLAP introduces probabilistic language-audio pre-training using Gaussian embeddings and hierarchical inclusion losses to capture many-to-many semantic hierarchies without hurting retrieval performance. It significantly outperforms deterministic CLAP baselines on a new audio traversal diagnostic dataset.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Open-vocabulary audio-text retrieval, hierarchical dataset curation, filtering ambiguous samples, and robust multi-granular audio understanding.
+
+## Institutions / 機構
+
+Keio University, LY Corporation
 
 ## Related
 

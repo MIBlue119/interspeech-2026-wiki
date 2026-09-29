@@ -1,6 +1,7 @@
 ---
 id: mejia26_interspeech
-category: speech-enhancement
+category: health-clinical
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mejia26_interspeech.pdf
 *Jorge Mejia, Jan-Willem Wasmann, Jane Gregory*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mejia26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mejia26_interspeech.html)
+
+**Category:** `health-clinical` · **Labels:** `robustness-noise`
 
 **TL;DR** — Sound Reactor Mission (SRM) is a browser-based, gamified 6-minute speech-in-noise assessment tool that quantifies how personally annoying sounds impact speech intelligibility. In a pilot test of 14 participants, it achieved a 100% completion rate and revealed that self-selected annoying maskers severely degrade speech intelligibility (59.2%) compared to synthetic (71.7%) and standard (86.3%) noise.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Scalable web-based digital health screening, remote audiological assessment tools, and adaptive hearing aid noise-reduction algorithm optimization.
+
+## Institutions / 機構
+
+National Acoustic Laboratories, Radboud University Medical Center, University of Oxford
 
 ## Related
 

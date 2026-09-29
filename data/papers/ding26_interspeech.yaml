@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ding26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ding26_interspeech.pdf
 session: Audio segmentation
 topics: [keyword-spotting, self-supervised, on-device]
+category: asr
+labels:
+  - "robustness-noise"
+institutions:
+  - "Jiangsu University"
+  - "University of Melbourne"
 code:
     url: https://github.com/dhyzy123/ImKWS
     license: ""

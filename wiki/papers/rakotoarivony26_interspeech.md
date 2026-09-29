@@ -1,6 +1,7 @@
 ---
 id: rakotoarivony26_interspeech
-category: self-supervised
+category: applications-other
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rakotoarivony26_interspeech.p
 *Lucas RAKOTOARIVONY*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rakotoarivony26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rakotoarivony26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-119)
+
+**Category:** `applications-other` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — The paper introduces Evolution Strategy-Based Calibration (ESC), a two-step local-global optimization method for per-layer activation scaling in post-training quantization of speech models. ESC achieves lossless performance at INT8 and near-lossless performance at INT4 across diverse speech tasks, alongside an average inference speedup of 2.31×.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device and resource-constrained deployment of speech recognition, speaker verification, speech enhancement, text-to-speech, and audio classification models.
+
+## Institutions / 機構
+
+Thales
 
 ## Related
 

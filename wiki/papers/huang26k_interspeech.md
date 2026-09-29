@@ -1,6 +1,7 @@
 ---
 id: huang26k_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26k_interspeech.pdf
 *Qixuan Huang, Khalid Zaman, Masashi Unoki*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1610)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces Noise-Aware In-Context Learning (NAICL), an inference-time calibration method that uses retrieved noise-description pairs to curb linguistic over-completion in Auditory Large Language Models (ALLMs), reducing overall hallucination rates from 26.53% to 16.98%. It also establishes the Clotho-1K benchmark with a 4-type hallucination taxonomy.
 
@@ -65,6 +68,12 @@ Researchers and engineers building production-grade audio understanding systems 
 ## Applications
 
 Robust audio captioning, automated acoustic surveillance, multimedia content indexing, and hallucination-resistant speech-language assistant applications.
+
+## Institutions / 機構
+
+Japan Advanced Institute of Science and Technology
+
+**Funding / 經費:** JSPS KAKENHI
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: so26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/so26_interspeech.pdf
 *Byoungjun So, Jaejun Lee, Kyogu Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/so26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/so26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3203)
+
+**Category:** `speaker`
 
 **TL;DR** — This paper proposes an open-set speaker attribute prediction framework that maps voice features into a continuous semantic space using LLM embeddings, outperforming closed-set benchmarks on LibriTTS-P with an F1 score of 0.7625.
 
@@ -62,6 +64,12 @@ Speech researchers and ML engineers working on interpretable speaker representat
 ## Applications
 
 Multi-speaker text-to-speech (TTS), voice conversion (VC), interpretable speaker recognition, and voice design interfaces.
+
+## Institutions / 機構
+
+Seoul National University
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation, Advanced GPU Utilization Support Program
 
 ## Related
 

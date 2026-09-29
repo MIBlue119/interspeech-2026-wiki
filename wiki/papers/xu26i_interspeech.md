@@ -1,6 +1,7 @@
 ---
 id: xu26i_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26i_interspeech.pdf
 *Feng Xu, Gaoyuan Zhang, Shanshan Xue, Yixiang Chen, Hanrui Zhou, Xurong Xie, Hui Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1038)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `generative-model`
 
 **TL;DR** — This study investigates how AI-generated synthetic voice and speaker familiarity affect Mandarin emotion prosody recognition, finding that human voices yield significantly higher accuracy and faster processing than AI voices, while familiarity with an AI voice provides compensatory benefits for happiness but causes delays for fear due to the uncanny valley effect.
 
@@ -64,6 +67,12 @@ Speech and ML engineers building personalized digital voice assistants or voice 
 ## Applications
 
 Personalized digital voice assistants, synthetic voice cloning systems, speech prostheses, and affective human-computer interaction design.
+
+## Institutions / 機構
+
+Chinese Academy of Sciences, Macquarie University
+
+**Funding / 經費:** National Key R&D Program of China, NSFC, China Disabled Persons Federation, Youth Innovation Promotion Association CAS Grant, China Postdoctoral Science Foundation
 
 ## Related
 

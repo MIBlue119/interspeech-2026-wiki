@@ -1,6 +1,7 @@
 ---
 id: hosseinikivanani26_interspeech
-category: paralinguistics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hosseinikivanani26_interspeec
 *Nina Hosseini-Kivanani, Nafiseh Taghva, Peter Gilles, Oliver Niebuhr*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hosseinikivanani26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hosseinikivanani26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-26)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study analyzes spontaneous bilingual political speech across Luxembourgish and French to determine whether speaker identity or language choice drives variance in charismatic prosody. The findings reveal that individual speaker identity dominates prosodic variance (median ICC of 0.56), while language accounts for less than 1% of variance but systematically modulates specific acoustic features.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-lingual voice conversion, text-to-speech style conditioning, and multilingual speaker recognition systems seeking to disentangle speaker identity from sociolinguistic style.
+
+## Institutions / 機構
+
+Radio Television Luxembourg, University of Luxembourg, Shiraz University, University of Southern Denmark
+
+**Funding / 經費:** Luxembourg National Research Fund
 
 ## Related
 

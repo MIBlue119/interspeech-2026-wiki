@@ -14,6 +14,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26p_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26p_interspeech.pdf
 session: Long-Form Speech Synthesis
 topics: [tts, speech-llm, multilingual]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Shanghai Himalaya Technology Co., Ltd"
 code:
     url: ""
     license: ""

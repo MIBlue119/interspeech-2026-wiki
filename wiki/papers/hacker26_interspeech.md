@@ -1,6 +1,7 @@
 ---
 id: hacker26_interspeech
-category: speaker-verification
+category: speaker
+labels: [dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hacker26_interspeech.pdf
 *Anabell Hacker, Ingo Siegert*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hacker26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hacker26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1188)
+
+**Category:** `speaker` · **Labels:** `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — The paper introduces the Common Cold Corpus to study how moderate upper respiratory tract infections affect speaker identification, showing that deep speaker embeddings experience measurable, directed displacement even when traditional acoustic features lose statistical significance.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Non-invasive digital health biomarkers for remote clinical monitoring, health-aware biometric normalization, and condition-adaptive fine-tuning of speaker recognition systems.
+
+## Institutions / 機構
+
+Otto von Guericke University Magdeburg, University Hospital Magdeburg
+
+**Funding / 經費:** BMFTR, European Union
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: kubo26_interspeech
 category: asr
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kubo26_interspeech.pdf
 *Yotaro Kubo, Richard Sproat, Chihiro Taguchi, Llion Jones*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kubo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kubo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1672)
+
+**Category:** `asr` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper presents a streamable CTC-based Japanese phonemic recognizer tailored for speaking assessment that outputs accent markers, reducing mora-label error rates from 12.3% to 7.1% on the CSJ core evaluation sets via multitask learning and finite-state transducer lattice fusion.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated language learning software, computer-assisted pronunciation training (CAPT), spoken language proficiency testing, and diagnostic speech pathology assessment.
+
+## Institutions / 機構
+
+Sakana AI
 
 ## Related
 

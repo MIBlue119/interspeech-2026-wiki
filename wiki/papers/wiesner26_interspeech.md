@@ -1,6 +1,7 @@
 ---
 id: wiesner26_interspeech
-category: multi-talker-asr
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wiesner26_interspeech.pdf
 *Matthew Wiesner, Samuele Cornell, Alexander Polok, Lucas Ondel-Yang, Lukáš Burget, Sanjeev Khudanpur*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wiesner26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wiesner26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2462)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — The paper introduces the shuffle product and partial order finite-state automata (FSAs) to model concurrent data streams, enabling end-to-end speaker-attributed transcription and the first single-pass Viterbi alignment for multi-talker overlapped speech. On LibriMix test sets, the proposed lightweight WavLM-based shuffle models achieve competitive multi-speaker word error rates (tcpWER) while offering a principled generalization of prior serialization strategies.
 
@@ -64,6 +67,12 @@ Speech and ML researchers working on multi-talker ASR or forced alignment will f
 ## Applications
 
 Multi-talker automatic speech recognition, automated corpus creation via multi-speaker forced alignment, diarization-free conversational transcription, and polyphonic music or multi-event audio parsing.
+
+## Institutions / 機構
+
+Johns Hopkins University, CNRS, Carnegie Mellon University, Brno University of Technology
+
+**Funding / 經費:** Jelinek Memorial Summer Workshop on Speech and Language Technologies, Advanced Cyberinfrastructure Coordination Ecosystem: Services Support, National Science Foundation, National Science and Technology Council, Ministry of Education, Youth and Sports of the Czech Republic
 
 ## Related
 

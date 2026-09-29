@@ -1,6 +1,7 @@
 ---
 id: ye26b_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ye26b_interspeech.pdf
 *Jiangnan Ye, Jiawei Jin, Pengfei Tan, Chao Yan, Xuerui Yang, Zhiyong Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ye26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ye26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2284)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper presents an emphasis-controllable non-autoregressive text-to-speech framework built by extending F5-TTS with a dedicated emphasis encoder and a three-stage training pipeline (SFT, DPO, and Flow-CPS reinforcement learning). The final model achieves a top WPT prominence score of 1.45 while maintaining a low Word Error Rate (1.63%) and high speaker similarity.
 
@@ -66,6 +69,12 @@ Researchers and engineers working on controllable speech synthesis and preferenc
 ## Applications
 
 Expressive audiobook narration, conversational voice assistants requiring precise focus and intent modulation, and dynamic character dubbing in gaming and animation.
+
+## Institutions / 機構
+
+Tsinghua University, StepFun
+
+**Funding / 經費:** National Natural Science Foundation of China, National Social Science Foundation of China
 
 ## Related
 

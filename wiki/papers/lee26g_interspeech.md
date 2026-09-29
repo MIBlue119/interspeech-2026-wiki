@@ -1,6 +1,7 @@
 ---
 id: lee26g_interspeech
-category: speech-translation
+category: tts
+labels: [efficient-on-device, self-supervised, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26g_interspeech.pdf
 *Sang-Hoon Lee, Heejin Choi, Joun Yeop Lee, Sangjun Park*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-710)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `self-supervised`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — AccentDrift is a real-time streaming accent conversion system using sparse speech tokenization and hierarchical style adaptation, achieving a low latency of 520 ms while outperforming prior parallel models.
 
@@ -66,6 +69,10 @@ Speech and ML engineers building real-time interactive voice translation or acce
 ## Applications
 
 Real-time computer-assisted language learning (CALL), cross-accent conversational AI assistants, and full-duplex spoken translation systems.
+
+## Institutions / 機構
+
+Ajou University, Samsung
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: jing26_interspeech
-category: paralinguistics
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jing26_interspeech.pdf
 *Xin Jing, Andreas Triantafyllopoulos, Jiadong Wang, Shahin Amiriparian, Jun Luo, Bjoern Schuller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jing26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jing26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1046)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — EmoSURA is a fine-grained evaluation framework for emotional speech captioning that decomposes long descriptions into Atomic Perceptual Units (APUs) and validates them against raw audio via an audio-grounded binary judge, achieving superior correlation with human judgments compared to traditional metrics.
 
@@ -64,6 +66,10 @@ Speech and ML researchers working on audio-language models and affective computi
 ## Applications
 
 Automated evaluation and reinforcement learning optimization for emotional speech captioning and audio-language models.
+
+## Institutions / 機構
+
+Technical University of Munich, Munich Center for Machine Learning, Huawei, Imperial College London
 
 ## Related
 

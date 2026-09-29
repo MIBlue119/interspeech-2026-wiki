@@ -1,6 +1,7 @@
 ---
 id: chongwhite26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chongwhite26_interspeech.pdf
 *Nicky Chong-White, Thomas Ho*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chongwhite26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chongwhite26_interspeech.html)
+
+**Category:** `health-clinical` · **Labels:** `robustness-noise`
 
 **TL;DR** — An immersive VR demonstration system built for the Apple Vision Pro that recreates spatial speech-in-noise challenges for clinical audiology counseling, evaluated via initial feedback from 8 clinicians. It allows clinicians to configure difficulty presets (signal-to-noise ratio, source count, and spatial separation) across three 3D environments (café, train station, living room) without requiring a sound-treated booth or loudspeaker array.
 
@@ -58,6 +61,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Clinical audiology counselling, hearing rehabilitation patient education, and spatial audio demonstration tools for hearing-aid and cochlear-implant candidates.
+
+## Institutions / 機構
+
+National Acoustic Laboratories
 
 ## Related
 

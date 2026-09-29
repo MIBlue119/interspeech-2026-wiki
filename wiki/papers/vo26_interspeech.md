@@ -1,6 +1,7 @@
 ---
 id: vo26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/vo26_interspeech.pdf
 *Duy Vo, Kiet Anh Hoang, Hao Do*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/vo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/vo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1208)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `efficient-on-device`
 
 **TL;DR** — SETEAB is a lightweight multiscale speech emotion recognition architecture that integrates depthwise convolution subsampling, SE-Res2Blocks, and Temporal Enhanced Aware Blocks with weighted bidirectional fusion to achieve high accuracy at a fraction of the compute of self-supervised models. It establishes strong intra-corpus results and superior cross-corpus generalization.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Healthcare monitoring, adaptive customer service, in-vehicle safety systems, and call-center analytics.
+
+## Institutions / 機構
+
+University of Science, Ho Chi Minh City, Vietnam National University, Ho Chi Minh City, UNEY
+
+**Funding / 經費:** University of Science, VNU-HCM
 
 ## Related
 

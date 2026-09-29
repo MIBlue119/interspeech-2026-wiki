@@ -12,6 +12,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/meng26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/meng26d_interspeech.pdf
 session: SE Architectures, Adaptation and Audio Front-Ends
 topics: [speech-enhancement, self-supervised, on-device]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+  - "robustness-noise"
+institutions:
+  - "Hangzhou Dianzi University"
+funding:
+  - "Yangtze River Delta Science and Technology Innovation Community Joint Research"
+  - "Zhejiang Provincial Natural Science Foundation of China"
+  - "Zhejiang Provincial College Student Innovation and Entrepreneurship Training Program"
 code:
     url: https://meng-taiyu.github.io/dpnet-demo/
     license: ""

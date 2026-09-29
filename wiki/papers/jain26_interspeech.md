@@ -1,6 +1,6 @@
 ---
 id: jain26_interspeech
-category: visual-speech-recognition
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jain26_interspeech.pdf
 *Rishabh Jain, Naomi Harte*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jain26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jain26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2498)
+
+**Category:** `asr`
 
 **TL;DR** — By evaluating state-of-the-art visual speech recognition (VSR) models on the MaFI isolated-word lipreading dataset, this paper demonstrates that machines achieve high benchmark accuracy not through human-like visual perception, but by exploiting memorized linguistic patterns and training word frequency. Despite outperforming humans in raw word and viseme accuracy, VSR models show weak correlation with human word-level difficulty and visual clarity.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic evaluation frameworks for speech perception models, improving audio-visual speech recognition robustness, and guiding the design of human-aligned training objectives for VSR.
+
+## Institutions / 機構
+
+Trinity College Dublin
+
+**Funding / 經費:** Research Ireland
 
 ## Related
 

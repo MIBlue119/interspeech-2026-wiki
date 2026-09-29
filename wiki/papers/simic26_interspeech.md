@@ -1,6 +1,7 @@
 ---
 id: simic26_interspeech
 category: asr
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/simic26_interspeech.pdf
 *Christopher Simic, Korbinian Riedhammer, Tobias Bocklet*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/simic26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/simic26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2081)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — This paper introduces adaptive mechanisms that integrate speaker and noise embeddings into a Whisper-based Audio-Visual Speech Recognition (AVSR) system, achieving a 13.4% relative WER reduction over AV-HuBERT on LRS3.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust hearing-aid speech enhancement, in-car automated voice assistants, security surveillance transcription, and audio-visual speech recognition in highly dynamic cocktail-party environments.
+
+## Institutions / 機構
+
+Technische Hochschule Nuernberg
 
 ## Related
 

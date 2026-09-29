@@ -1,6 +1,7 @@
 ---
 id: poli26_interspeech
-category: self-supervised
+category: resources-evaluation
+labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/poli26_interspeech.pdf
 *Maxime Poli, Manel Khentout, Angelo Ortiz Tandazo, Ewan Dunbar, Emmanuel Chemla, Emmanuel Dupoux*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/poli26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/poli26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2791)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — DiscoPhon is a new multilingual benchmark for evaluating unsupervised phoneme inventory discovery from discrete speech units across 12 languages using only 10 hours of unannotated target data. Baseline evaluations show that SpidR models outperform HuBERT, achieving a many-to-one phone error rate of 63.06% on dev languages and 61.67% on test languages after fine-tuning.
 
@@ -63,6 +66,12 @@ Speech and ML researchers building spoken language models or unsupervised tokeni
 ## Applications
 
 Unsupervised language documentation for endangered languages, zero-resource speech recognition, and downstream discrete speech modeling.
+
+## Institutions / 機構
+
+École Normale Supérieure, École des Hautes Études en Sciences Sociales, Centre National de la Recherche Scientifique, Université PSL, University of Toronto
+
+**Funding / 經費:** Agence Nationale de la Recherche, Agence de l’Innovation de Défense, European Research Council
 
 ## Related
 

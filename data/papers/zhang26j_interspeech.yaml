@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26j_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26j_interspeech.pdf
 session: Speech Production and Perception 1
 topics: [tts, phonetics, prosody]
+category: tts
+institutions:
+  - "TU Dresden"
+funding:
+  - "German Research Foundation"
+  - "German Federal Ministry for Economic Affairs and Energy"
+  - "Zentrales Innovationsprogramm Mittelstand"
 code:
     url: https://www.vocaltractlab.de/index.php?page=birkholz-supplements
     license: ""

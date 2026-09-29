@@ -1,6 +1,6 @@
 ---
 id: lai26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lai26_interspeech.pdf
 *Qinben Lai, Lukui Shi, Jiaxin Zhao, Wenjuan Wang, Shuai Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lai26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lai26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1199)
+
+**Category:** `health-clinical`
 
 **TL;DR** — Lung-CL is a buffer-free continual learning framework for respiratory sound classification that uses Class-Specific Latent Replay and Multi-Level Spectrum-Aware Distillation, achieving a backward transfer (BWT) of -4.00% on sequential clinical datasets.
 
@@ -66,6 +68,12 @@ Researchers and engineers working on privacy-preserving continual learning for m
 ## Applications
 
 Privacy-preserving automated respiratory disease screening and acoustic diagnostic tools deployed across heterogeneous hospital devices and portable edge hardware.
+
+## Institutions / 機構
+
+Hebei University of Technology, Macao Polytechnic University
+
+**Funding / 經費:** National Natural Science Foundation, Hebei Province Natural Science Foundation Funded Project
 
 ## Related
 

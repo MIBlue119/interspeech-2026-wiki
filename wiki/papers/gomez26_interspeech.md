@@ -1,6 +1,7 @@
 ---
 id: gomez26_interspeech
-category: self-supervised
+category: resources-evaluation
+labels: [low-resource, multilingual, self-supervised, dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gomez26_interspeech.pdf
 *Rafael Mosquera Gómez, Juan Felipe Rodríguez, Daniel Galvez, Sarah Luger*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gomez26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gomez26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3113)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `self-supervised`, `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — The Unsupervised Speech in the Wild (UPS) 2026 Challenge evaluates self-supervised speech representation learning on 522,000 speech hours of heterogeneous web audio, revealing that baseline systems achieve up to 0.949 Macro-F1 in language ID, 0.538 CER in few-shot ASR, and 0.947 ARI in speaker clustering.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust multilingual speech recognition, zero-shot language identification, and speaker diarization or clustering in uncurated acoustic environments.
+
+## Institutions / 機構
+
+Factored AI, MLCommons, NVIDIA
 
 ## Related
 

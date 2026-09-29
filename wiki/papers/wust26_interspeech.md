@@ -1,6 +1,6 @@
 ---
 id: wust26_interspeech
-category: sociophonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wust26_interspeech.pdf
 *Alessia Wüst, Adrian Leemann*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wust26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wust26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-329)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study presents the first perceptual investigation of vocal profiles across Swiss German dialects, using the Simplified Vocal Profile Analysis (SVPA) protocol on 127 speakers. Results reveal a distinct Northeastern 'nasality belt' (correlating with uvular /r/) and gender-based supralaryngeal patterns, alongside low-to-fair inter-rater reliability (Fleiss' kappa 0.09-0.39).
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Geographic sociophonetic mapping, automated voice quality auditing for dialect identification systems, and forensic speaker profiling.
+
+## Institutions / 機構
+
+University of Berne
+
+**Funding / 經費:** Swiss National Science Foundation
 
 ## Related
 

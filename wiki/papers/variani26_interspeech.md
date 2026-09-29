@@ -1,6 +1,7 @@
 ---
 id: variani26_interspeech
-category: self-supervised
+category: speech-coding
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/variani26_interspeech.pdf
 *Ehsan Variani, Tom Bagby, Georg Heigold, Ke Wu, Cyril Allauzen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/variani26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/variani26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2487)
+
+**Category:** `speech-coding` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — The paper introduces the Stability-Rate-Distortion (SRD) framework and Continuous Edit Distance (CED) to measure representational drift in audio encoders, revealing that neural codecs suffer from a catastrophic "Quantization Penalty" while semantic ASR models pay a cross-lingual "Language Tax."
 
@@ -65,6 +68,10 @@ Speech and machine learning engineers building audio-LLMs or decoupled multimoda
 ## Applications
 
 Improving the robustness of speech foundation models, audio-LLMs, speech-to-speech translation pipelines, and stable tokenization schemes for multi-modal generation.
+
+## Institutions / 機構
+
+Google
 
 ## Related
 

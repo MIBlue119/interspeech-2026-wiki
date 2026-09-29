@@ -1,6 +1,7 @@
 ---
 id: tanabu26_interspeech
-category: voice-conversion
+category: tts
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tanabu26_interspeech.pdf
 *Tomoya Tanabu, Hiroshi Nishijima, Daisuke Saito, Nobuaki Minematsu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tanabu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tanabu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1688)
+
+**Category:** `tts` · **Labels:** `self-supervised`
 
 **TL;DR** — SSL-GMMVC is an interpretable voice conversion method that replaces global linear mappings in self-supervised feature space with a mixture of locally linear affine transforms modeled via a Gaussian mixture model (GMM). It achieves higher speaker similarity than FreeVC and LinearVC while matching their intelligibility and naturalness.
 
@@ -65,6 +68,12 @@ Researchers and engineers working on voice conversion and self-supervised speech
 ## Applications
 
 Voice conversion, speaker anonymization, computer-assisted language learning, and speaking aids.
+
+## Institutions / 機構
+
+University of Tokyo
+
+**Funding / 經費:** JSPS KAKENHI
 
 ## Related
 

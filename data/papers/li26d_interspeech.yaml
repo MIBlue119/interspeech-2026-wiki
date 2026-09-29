@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26d_interspeech.pdf
 session: Evaluation, Benchmarking, and Reliability of Audio Systems
 topics: [speech-enhancement, self-supervised, evaluation]
+category: resources-evaluation
+institutions:
+  - "Ningbo University"
+  - "Ningbo University of Finance and Economics"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Zhejiang Provincial Collaborative Innovation Center for Digital Supply Chain and Artificial Intelligence of Bulk Commodities"
 code:
     url: ""
     license: ""

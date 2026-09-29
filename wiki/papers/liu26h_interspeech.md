@@ -1,6 +1,7 @@
 ---
 id: liu26h_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26h_interspeech.pdf
 *Jie Liu, Liang He, Longwei Li, Qingyuan Ma, Xuejian Zhao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1183)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — A parameter-efficient Whisper framework combining shared-private LoRA decoupling with confidence-gated mean-teacher consistency regularization reduces macro WER by 35.4% over standard LoRA on Kathbath. Notably, the small-scale model outperforms a Whisper-medium+LoRA baseline.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-resource multilingual automatic speech recognition systems, voice-activated applications for regional dialects, and on-device speech transcription infrastructure.
+
+## Institutions / 機構
+
+Xinjiang University, Tsinghua University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bhat26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bhat26_interspeech.pdf
 session: Audio segmentation
 topics: [speech-llm, self-supervised, paralinguistics]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Visvesvaraya National Institute of Technology Nagpur"
 code:
     url: ""
     license: ""

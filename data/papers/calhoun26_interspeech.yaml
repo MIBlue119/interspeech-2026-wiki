@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/calhoun26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/calhoun26_interspeech.pdf
 session: Gender- and Age-Related Speech Characteristics
 topics: [paralinguistics, prosody, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "Victoria University of Wellington"
+funding:
+  - "Faculty Strategic Research Grant from Te Herenga Waka – Victoria University of Wellington"
 code:
     url: ""
     license: ""

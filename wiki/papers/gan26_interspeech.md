@@ -1,6 +1,6 @@
 ---
 id: gan26_interspeech
-category: speech-enhancement
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gan26_interspeech.pdf
 *Nan Gan, Elisa Pellegrino*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2605)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates how second-language (L2) Mandarin learners accommodate to human versus modern neural TTS voices during sentence shadowing, finding that VOT convergence is stronger toward human speech while vowel duration and intensity rhythm adjustments are stronger toward the AI voice.
 
@@ -62,6 +64,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Design of AI-driven language learning applications, interactive voice agents, and customized text-to-speech pronunciation tutors for second-language acquisition.
+
+## Institutions / 機構
+
+University of Zurich
 
 ## Related
 

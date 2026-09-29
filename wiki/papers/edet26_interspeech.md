@@ -1,6 +1,7 @@
 ---
 id: edet26_interspeech
 category: tts
+labels: [low-resource, dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/edet26_interspeech.pdf
 *Offiong Bassey Edet, Emmanuel Oyo-Ita, Archibong Okon Archibong, David Effanga Bassey, Mbuotidem Sunday Awak*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/edet26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/edet26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1868)
+
+**Category:** `tts` · **Labels:** `low-resource`, `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — This paper presents the first end-to-end text-to-speech (TTS) study for Efik, a low-resource tonal African language, by introducing a curated 3-hour single-speaker corpus and benchmarking four neural architectures. MMS-TTS emerges as the top-performing model, achieving a mean opinion score (MOS) of 3.80 ± 0.63.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Digital language preservation, educational tools, and text-to-speech accessibility applications for the Efik-speaking community.
+
+## Institutions / 機構
+
+University of Cross River State, University of Calabar, ML Collective
 
 ## Related
 

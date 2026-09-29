@@ -15,6 +15,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/peng26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/peng26b_interspeech.pdf
 session: Post-Training of Speech Foundation Models
 topics: [asr, speech-llm, low-resource]
+category: asr
+labels:
+  - "low-resource"
+  - "generative-model"
+institutions:
+  - "Shanghai Jiao Tong University"
+  - "AISpeech Ltd"
+  - "Nanjing University"
+funding:
+  - "China NSFC Projects"
+  - "YangtzeRiver Delta Science and Technology Innovation Community Joint Research Project"
 code:
     url: ""
     license: ""

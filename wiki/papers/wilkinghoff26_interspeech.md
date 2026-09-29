@@ -1,6 +1,6 @@
 ---
 id: wilkinghoff26_interspeech
-category: paralinguistics
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.pdf
 *Kevin Wilkinghoff, Gordon Wichern, Jonathan Le Roux, Zheng-Hua Tan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wilkinghoff26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-177)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — The paper identifies that local density-based score normalization (LDN) in anomalous sound detection degrades with large neighborhoods because expansion crosses cluster boundaries, and introduces cluster exit detection (CED) to adaptively select neighborhood sizes.
 CED improves anomaly detection performance across five datasets and embedding models without requiring training or labels.
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Unsupervised industrial machine condition monitoring, acoustic anomaly detection, and robust out-of-domain audio verification systems.
+
+## Institutions / 機構
+
+Aalborg University, Pioneer Centre for Artificial Intelligence, Mitsubishi Electric Research Laboratories
 
 ## Related
 

@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lahtinen26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/lahtinen26_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
 topics: [speech-emotion-recognition, multilingual, paralinguistics]
+category: paralinguistics-emotion
+institutions:
+  - "Tampere University"
+funding:
+  - "Jane and Aatos Erkko Foundation"
 code:
     url: https://github.com/SPEECHCOG/LookingForAffect/
     license: ""

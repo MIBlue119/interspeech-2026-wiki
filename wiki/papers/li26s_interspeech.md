@@ -1,6 +1,7 @@
 ---
 id: li26s_interspeech
 category: asr
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26s_interspeech.pdf
 *Haoyang Li, Changsong Liu, Wei Rao, Hao Shi, Sakriani Sakti, Eng Siong Chng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26s_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26s_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1096)
+
+**Category:** `asr` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper proposes a training-free observation addition (OA) framework that blends noisy speech and speech enhancement (SE) outputs using fusion weights derived directly from backend ASR confidence scores, consistently outperforming existing quality- or classifier-based OA baselines across diverse test conditions.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust automatic speech recognition systems deployed in noisy environments (e.g., in-car voice assistants, distant-microphone smart home devices, and meeting transcription tools) utilizing off-the-shelf speech enhancement front-ends.
+
+## Institutions / 機構
+
+Nanyang Technological University, Nara Institute of Science and Technology
 
 ## Related
 

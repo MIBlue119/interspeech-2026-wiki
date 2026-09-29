@@ -1,6 +1,7 @@
 ---
 id: lee26h_interspeech
 category: tts
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26h_interspeech.pdf
 *Sangmin Lee, Eek Gyun Ahn, Woongjib Choi, Hong-Goo Kang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-909)
+
+**Category:** `tts` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — UR-BERT is a massively multilingual text encoder for TTS that scales to 495 languages by unifying writing systems through Romanization and incorporating a speech token prediction pretraining objective, outperforming prior phoneme-based models while using substantially less text data.
 
@@ -66,6 +69,12 @@ Speech researchers and TTS engineers working on massively multilingual or low-re
 ## Applications
 
 Massively multilingual text-to-speech systems, cross-lingual voice cloning, and low-resource speech generation toolkits.
+
+## Institutions / 機構
+
+Yonsei University
+
+**Funding / 經費:** National Research Foundation of Korea
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: zhou26g_interspeech
-category: self-supervised
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhou26g_interspeech.pdf
 *Tianhong Zhou, Mingyang Han, Boyu Li, Yuxuan Jiang, Jiaxin Ye, Dongxiao Wang, Haoxiang Shi, Kunpeng Wang, Jun Song, Cheng Yu, Bo Zheng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhou26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhou26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2177)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — AV-SyncBench is a decoupled benchmarking framework designed to independently evaluate temporal consistency and semantic consistency in audio-visual feature extractors, revealing a sharp trade-off where models excel at either temporal offset detection or semantic matching but rarely both.
 
@@ -66,6 +69,10 @@ Researchers building multimodal foundation models or audio-visual generation sys
 ## Applications
 
 Audio-visual generation (video-to-audio, text-to-audio-video), sound source localization, audio-visual event classification, and automated filtering of large-scale multimodal training datasets.
+
+## Institutions / 機構
+
+Alibaba Group, Tsinghua University, Fudan University
 
 ## Related
 

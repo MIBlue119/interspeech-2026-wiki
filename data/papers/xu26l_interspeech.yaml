@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26l_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26l_interspeech.pdf
 session: Audio Understanding and Representation Learning
 topics: [self-supervised, few-shot, speech-llm]
+category: audio-understanding
+labels:
+  - "low-resource"
+  - "self-supervised"
+institutions:
+  - "National University of Defense Technology"
+  - "Hunan Normal University"
+  - "Hunan University"
+funding:
+  - "National Science and Technology Major Project"
+  - "National University of Defense Technology"
 code:
     url: ""
     license: ""

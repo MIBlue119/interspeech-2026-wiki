@@ -1,6 +1,6 @@
 ---
 id: kim26m_interspeech
-category: audio-deepfake
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26m_interspeech.pdf
 *Kyeongrae Kim, Kim Sung-Bin, Oh Hyun-Bin, Tae-Hyun Oh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1541)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper proposes a physics-aware audio-visual deepfake detector that catches inconsistencies between visual speaker-to-camera distance and speech energy (SNR and C50), outperforming lip-sync-based models by 19.3% ROC-AUC on dynamic video subsets.
 
@@ -65,6 +67,12 @@ Read this paper if you work on audio-visual deepfake detection and need a robust
 ## Applications
 
 On-device or server-side video forensics, social media trust and safety filtering, and verification of unconstrained user-generated video content.
+
+## Institutions / 機構
+
+KAIST, POSTECH
+
+**Funding / 經費:** IITP, Ministry of Science and ICT, KAIST Undergraduate Research Program
 
 ## Related
 

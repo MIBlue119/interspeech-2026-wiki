@@ -1,6 +1,7 @@
 ---
 id: wang26o_interspeech
 category: asr
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26o_interspeech.pdf
 *Zilai Wang, Natarajan Balaji Shankar, Mohan Shi, Kaiyuan Zhang, Abeer Alwan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26o_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26o_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-825)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — Gumbel-BEARD is a domain adaptation framework for Whisper that automates intermediate encoder layer selection via a hard Gumbel-Softmax estimator for self-supervised BEST-RQ training, achieving state-of-the-art Word Error Rates (WER) of 8.21% on the MyST child speech corpus using Whisper-medium.
 
@@ -67,6 +70,12 @@ Speech researchers and ML engineers looking to adapt large pre-trained encoder-d
 ## Applications
 
 Automated domain adaptation for low-resource automatic speech recognition systems, child speech educational technology, and dialect-robust sociolinguistic transcription tools.
+
+## Institutions / 機構
+
+University of California, Los Angeles
+
+**Funding / 經費:** National Science Foundation, Institute of Education Sciences, U.S. Department of Education
 
 ## Related
 

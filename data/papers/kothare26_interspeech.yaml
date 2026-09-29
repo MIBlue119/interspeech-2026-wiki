@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kothare26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/kothare26_interspeech.pdf
 session: Clinically Useful Speech Representations 1
 topics: [paralinguistics, health, evaluation]
+category: health-clinical
+institutions:
+  - "Modality.AI"
+funding:
+  - "National Institutes of Health"
 code:
     url: ""
     license: ""

@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/futami26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/futami26_interspeech.pdf
 session: Efficient Inference for ASR and Speech LMs
 topics: [asr, self-supervised, multilingual]
+category: asr
+labels:
+  - "multilingual"
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "Kyoto University"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: yu26b_interspeech
 category: tts
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yu26b_interspeech.pdf
 *Zuda Yu, Qianhui Xu, Ting Chen, Junhui Zhang, Tao Fu, Hongjiang Yu, Qiangqiang Wang, Yang Song*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1015)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — A unified guidance framework for Flow Matching speech synthesis combines data-level heterogeneous perturbations with model-level intrinsic guidance distillation and trajectory rectification, achieving a 3.25× speedup (3 NFE) and improved speaker similarity.
 
@@ -69,6 +72,10 @@ Researchers and engineers building real-time, flow-matching-based speech generat
 ## Applications
 
 Real-time zero-speech text-to-speech, voice conversion, and high-fidelity speech generation backends for conversational audio-language models.
+
+## Institutions / 機構
+
+Zuoyebang
 
 ## Related
 

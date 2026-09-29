@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/mandel26_interspeech.pdf
 session: Voice Conversion
 topics: [voice-conversion, self-supervised, multilingual]
+category: tts
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "OriginAI"
 code:
     url: ""
     license: ""

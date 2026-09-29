@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ohmura26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/ohmura26_interspeech.pdf
 session: Controllable and Expressive Speech Synthesis
 topics: [tts, voice-conversion, dataset]
+category: tts
+labels:
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "Sony Group Corporation"
 code:
     url: https://github.com/sony/LibriTTS-VI
     license: ""

@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yalegama26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/yalegama26_interspeech.pdf
 session: Multi-Channel Processing and Specialized Acquisition (UAV, Radar, Hearables)
 topics: [speech-enhancement, source-separation, self-supervised]
+category: enhancement-separation
+institutions:
+  - "University of Moratuwa"
+  - "Australian National University"
+funding:
+  - "Accelerating Higher Education Expansion and Development"
+  - "World Bank"
 code:
     url: https://github.com/oshanyalegama/Denoised_ReTM_DL
     license: ""

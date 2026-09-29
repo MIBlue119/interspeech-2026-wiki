@@ -1,6 +1,7 @@
 ---
 id: rachumallu26_interspeech
-category: speech-enhancement
+category: asr
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rachumallu26_interspeech.pdf
 *Ramakrishna Chaitanya Rachumallu, Nivedita Chennupati, Ankit Gupta, Balaji Padmanaban, ParvathiPriyanka Bolla, Harish Rajamani, Naveen Ambati*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rachumallu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rachumallu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2009)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — QuadVAD is an ultra-lightweight, 25 KB voice activity detection model operating at a fine-grained 4 ms temporal resolution that achieves competitive or superior AUC-ROC while avoiding truncation of initial speech transients.
 
@@ -65,6 +68,10 @@ Speech and ML engineers building always-on, low-latency edge conversational syst
 ## Applications
 
 Always-on edge devices, smart speakers, real-time conversational AI, wake-word detection, and full-duplex barge-in/end-of-turn speech controllers.
+
+## Institutions / 機構
+
+Meeami Technologies
 
 ## Related
 

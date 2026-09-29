@@ -1,6 +1,7 @@
 ---
 id: nguyen26f_interspeech
-category: speech-translation
+category: translation
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nguyen26f_interspeech.pdf
 *Giang Son Nguyen, Tung X. Nguyen, Hieu Minh Truong, Nhu Vo, Wray Buntine, Dung D. Le*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nguyen26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nguyen26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1963)
+
+**Category:** `translation` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — PiDA introduces a phonetically-informed data augmentation method for robust Vietnamese speech translation by substituting words with phonetically similar alternatives using XPhoneBERT embeddings. It improves translation on erroneous ASR outputs by up to +2.04 BLEU while preserving or improving clean-text performance.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust cascaded speech translation systems, text-only data augmentation for low-resource spoken language translation domains, and robust machine translation front-ends.
+
+## Institutions / 機構
+
+VinUniversity, University of Technology Sydney, Monash University
+
+**Funding / 經費:** VinUniversity, Vingroup Scholarship
 
 ## Related
 

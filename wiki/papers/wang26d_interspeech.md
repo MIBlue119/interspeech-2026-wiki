@@ -1,6 +1,7 @@
 ---
 id: wang26d_interspeech
-category: self-supervised
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26d_interspeech.pdf
 *Kangdi Wang, Zhiyue Wu, Rui Lin, Junyu Dai, Tao Jiang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-219)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — The paper introduces ear-VAE, an open-source continuous musical audio VAE that achieves state-of-the-art reconstruction quality (11.00 dB SI-SDR and 4.70 MOS) by integrating K-weighting perceptual filters, phase-aware correlation loss, and a Mid/Side/Left/Right (MSLR) supervision scheme.
 
@@ -68,6 +71,10 @@ Speech and audio researchers building high-fidelity continuous VAEs for music ge
 ## Applications
 
 High-fidelity music compression, latent diffusion-based music generation, and professional audio editing pipelines.
+
+## Institutions / 機構
+
+Chinese Academy of Sciences, Ear-LAB, Initi-AI Ltd
 
 ## Related
 

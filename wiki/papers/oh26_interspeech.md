@@ -1,6 +1,7 @@
 ---
 id: oh26_interspeech
-category: speaker-verification
+category: speaker
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/oh26_interspeech.pdf
 *Hyung-Seok Oh, Deok-Hyeon Cho, Seung-Bin Kim, Seong-Whan Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/oh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/oh26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-410)
+
+**Category:** `speaker` · **Labels:** `multilingual`
 
 **TL;DR** — L-Proto is a language-aware episodic prototypical training strategy for multilingual speaker verification that enforces single-language episodes to eliminate speaker-language entanglement. It achieves substantial EER reductions over conventional fine-tuning across multiple backbone architectures on the TidyVoice benchmark.
 
@@ -67,6 +70,12 @@ Speech researchers and engineers tackling multilingual speaker verification and 
 ## Applications
 
 Cross-lingual speaker verification, multilingual biometric authentication systems, and zero-shot speaker recognition across diverse language environments.
+
+## Institutions / 機構
+
+Korea University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT
 
 ## Related
 

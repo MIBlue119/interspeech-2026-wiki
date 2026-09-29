@@ -1,6 +1,7 @@
 ---
 id: ward26_interspeech
-category: speech-translation
+category: translation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ward26_interspeech.pdf
 *Nigel G. Ward, Marcel de Korte, Javier Vazquez, Montserrat G. Molina, Vanessa Bolado, Carol Figueroa, Eliya Nachmani, John E. Ortega, Satoshi Nakamura*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ward26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ward26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-390)
+
+**Category:** `translation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — The Interspeech 2026 challenge benchmarked speech-to-speech translation (S2ST) systems on transferring pragmatic intent, revealing a massive 1.2-point gap on a 5-point scale between the best system and human re-enactments. Both top research systems and open-source models (like Seamless) default to neutral, read-style speech that omits over 70% of non-semantic pragmatic functions.
 
@@ -65,6 +68,12 @@ Speech and machine learning researchers building conversational speech-to-speech
 ## Applications
 
 Cross-lingual conversational assistants, real-time speech translation systems for interpersonal communication, and immersive multilingual conferencing tools requiring preservation of speaker emotion and pragmatic intent.
+
+## Institutions / 機構
+
+University of Texas at El Paso, Ben Gurion University, Northeastern University, Chinese University of Hong Kong
+
+**Funding / 經費:** National Science Foundation
 
 ## Related
 

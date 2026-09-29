@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chien26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chien26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chien26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1708)
 
+**Category:** `asr`
+
 **TL;DR** — Attentive Mamba integrates causal channel-wise local attention into state-space models to replace static convolutions, achieving superior speech recognition accuracy with fewer parameters than Conformer baselines.
 
 ## Key contributions
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automatic speech recognition for read and spontaneous speech domains.
+
+## Institutions / 機構
+
+National Yang Ming Chiao Tung University, Industrial Technology Research Institute
 
 ## Related
 

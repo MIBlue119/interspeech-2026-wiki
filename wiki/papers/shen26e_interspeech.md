@@ -1,6 +1,6 @@
 ---
 id: shen26e_interspeech
-category: speech-separation
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shen26e_interspeech.pdf
 *Pengjie Shen, Xueliang Zhang, Zhong-Qiu Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shen26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shen26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3139)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — A curriculum hard-pair sampling strategy for speech separation builds an online speaker-speaker difficulty matrix using exponential moving averages, shifting sampling from uniform to hard-biased via temperature-controlled Softmax. On Libri2Mix, it improves bottom-30% tail SDRi (e.g., TF-GridNet from 18.3 dB to 18.8 dB) while preserving or improving average performance without training overhead.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Meeting transcription, robust automatic speech recognition, and multi-speaker voice interaction systems.
+
+## Institutions / 機構
+
+Inner Mongolia University, Southern University of Science and Technology
 
 ## Related
 

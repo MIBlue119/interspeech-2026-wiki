@@ -1,6 +1,7 @@
 ---
 id: kuwar26_interspeech
-category: speech-llm
+category: paralinguistics-emotion
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kuwar26_interspeech.pdf
 *Bhavinkumar Vinodbhai Kuwar, Orchid Chetia Phukan, Rajesh Sharma*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kuwar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kuwar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2262)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `multilingual`
 
 **TL;DR** — VINAYAKA is a multilingual audio-visual hate speech detection framework that bypasses ASR errors by fusing paralinguistic speech and behavioral visual features in hyperbolic space, achieving state-of-the-art performance in in-distribution and out-of-distribution settings.
 
@@ -69,6 +72,10 @@ Researchers and engineers building robust, multi-modal content moderation system
 ## Applications
 
 Automated online video content moderation, multilingual and code-switched social media monitoring, and safety filters for user-generated streaming platforms.
+
+## Institutions / 機構
+
+Plaksha University, Indraprastha Institute of Information Technology Delhi, National Tsing Hua University, University of Tartu
 
 ## Related
 

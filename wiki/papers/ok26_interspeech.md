@@ -1,6 +1,6 @@
 ---
 id: ok26_interspeech
-category: asr
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ok26_interspeech.pdf
 *Seaone Ok, Seungu Han, Eungbeom Kim, Kyogu Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ok26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ok26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2458)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper introduces speaker-level machine unlearning for Automatic Speech Recognition (ASR) via feature-level identity dispersion at intermediate encoder layers, successfully matching gold-standard privacy metrics (52.6% MIA score) while preserving transcription utility.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving speech recognition systems in clinical, legal, and financial domains requiring compliance with the Right To Be Forgotten.
+
+## Institutions / 機構
+
+Seoul National University
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT
 
 ## Related
 

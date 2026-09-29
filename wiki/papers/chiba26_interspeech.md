@@ -1,6 +1,6 @@
 ---
 id: chiba26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chiba26_interspeech.pdf
 *Terumi Chiba, Yang Luo, Ziyun Cui, Yongsheng Tong, Chao Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chiba26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chiba26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-997)
+
+**Category:** `health-clinical`
 
 **TL;DR** — An LLM-based pipeline converts non-verbal acoustic cues from mental health hotline recordings into explicit textual markers (paralinguistic injection) and uses reasoning-enhanced auxiliary supervision, achieving a macro F1 of 0.802 on three-way crisis-level classification.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Decision support systems for psychological support hotline operators, automated triage triage-assistance tools, and real-time clinical monitoring of mental health distress.
+
+## Institutions / 機構
+
+Tsinghua University, Peking University Huilongguan Clinical Medical School, WHO Collaborating Centre for Research and Training in Suicide Prevention
 
 ## Related
 

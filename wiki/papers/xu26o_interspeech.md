@@ -1,6 +1,7 @@
 ---
 id: xu26o_interspeech
 category: asr
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26o_interspeech.pdf
 *Hainan Xu, Kunal Dhawan, Dongji Gao, Jagadeesh Balam*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26o_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26o_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1455)
+
+**Category:** `asr` · **Labels:** `streaming-real-time`
 
 **TL;DR** — Boundary-Aware CONvolution (BACON) replaces causal depthwise convolution in chunk-based streaming Conformers by splitting channels into causal and bidirectional groups, widening the effective receptive field without parameter inflation or latency penalties. It achieves up to a 9.3% relative WER reduction on LibriSpeech test-other and consistent gains across speech translation and multi-speaker ASR.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time speech recognition systems, simultaneous machine translation pipelines, voice assistants, and on-device streaming conversational speech transcription.
+
+## Institutions / 機構
+
+NVIDIA
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: nguyen26e_interspeech
-category: speech-llm
+category: health-clinical
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nguyen26e_interspeech.pdf
 *William Nguyen, Jiali Cheng, Hadi Amiri*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nguyen26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nguyen26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1353)
+
+**Category:** `health-clinical` · **Labels:** `multilingual`
 
 **TL;DR** — FMD is a multimodal and multilingual framework for detecting Mild Cognitive Impairment from speech, text, and images that uses cross-attention fusion and gradient-reversal unlearning to eliminate spurious demographic biases. It achieves an F1 score of 92.6 on TAUKADIAL and 60.1 on PREPARE while significantly closing performance gaps across sex and language subgroups.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Scalable, equitable AI-driven clinical screening tools for early detection of Mild Cognitive Impairment and dementia from spontaneous multimodal patient interactions.
+
+## Institutions / 機構
+
+University of Massachusetts Lowell
 
 ## Related
 

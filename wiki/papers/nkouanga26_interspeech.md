@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nkouanga26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nkouanga26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nkouanga26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3191)
 
+**Category:** `asr`
+
 **TL;DR** — The paper introduces a multimodal, pruning-based post-processing correction algorithm for cascaded multi-talker ASR that removes speaker leakage using a tripartite consensus of acoustic containment, lexical cross-validation, and temporal alignment, achieving up to a 29% relative cpWER reduction on high-leakage subsets.
 
 ## Key contributions
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multi-talker automatic speech recognition for meeting transcription, multi-speaker conversational AI systems, and automated court or lecture transcription.
+
+## Institutions / 機構
+
+Portland State University, US Army Research Laboratory
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: ly26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ly26_interspeech.pdf
 *Vinh-Thuan Ly*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ly26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ly26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-491)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — TinyGiantALM is a compact 1.5B audio-language model that uses an instruction-aware feature refinement framework with a query-guided projector and semantic gating to achieve 46.4% zero-shot accuracy on the MMAR benchmark, outperforming much larger 7B–13B models.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 On-device interactive virtual assistants, resource-constrained audio surveillance systems, and intent-aware edge audio reasoning hardware.
+
+## Institutions / 機構
+
+Zalo AI, University of Science, VNU-HCM, Vietnam National University
 
 ## Related
 

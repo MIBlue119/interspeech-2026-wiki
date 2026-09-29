@@ -1,6 +1,7 @@
 ---
 id: peng26_interspeech
 category: asr
+labels: [streaming-real-time, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/peng26_interspeech.pdf
 *Linkai Peng, Christian Brodbeck, Sahil Luthra, Kevin Brown, Jay Rueckl, Monty Escabi, David Gow, James S. Magnuson*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/peng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/peng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-401)
+
+**Category:** `asr` · **Labels:** `streaming-real-time`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces a temporal benchmark using visual-world paradigm eyetracking data to evaluate whether end-to-end ASR models exhibit human-like lexical activation and phonological competition. The results reveal a clear dissociation: causal models successfully replicate human-like early cohort and later rhyme competition dynamics, whereas non-causal models with look-ahead mechanisms fail.
 
@@ -67,6 +70,12 @@ Speech researchers and cognitive neuroscientists should read this paper to under
 ## Applications
 
 Guiding the architectural design of cognitive-aligned speech interfaces, neuromorphic speech processors, and psycholinguistic modeling tools.
+
+## Institutions / 機構
+
+University of Connecticut, McMaster University, Stony Brook University, Oregon State University, Massachusetts General Hospital, Basque Center on Cognition, Brain and Language, Ikerbasque
+
+**Funding / 經費:** Spanish State Research Agency, National Science Foundation, National Institutes of Health
 
 ## Related
 

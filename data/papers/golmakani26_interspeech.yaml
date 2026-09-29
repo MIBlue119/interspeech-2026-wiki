@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/golmakani26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/golmakani26_interspeech.pdf
 session: Speaker Privacy and Anonymization
 topics: [speech-privacy, voice-conversion, self-supervised]
+category: deepfake-security
+institutions:
+  - "Nijta"
+  - "Universite de Lorraine"
+  - "CNRS"
+  - "Inria"
+  - "LORIA"
 code:
     url: https://github.com/Nijta/acoustic-token-admixture
     license: ""

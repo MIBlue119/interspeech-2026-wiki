@@ -1,6 +1,7 @@
 ---
 id: liao26_interspeech
-category: speaker-diarization
+category: speaker
+labels: [low-resource, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liao26_interspeech.pdf
 *Zhen Liao, Gaole Dai, Weiwei Jiang, Mengting Wang, Wei Xu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-155)
+
+**Category:** `speaker` · **Labels:** `low-resource`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces a Mean Teacher-based semi-supervised domain adaptation framework for classroom speaker diarization, tackling role-based segregation and data scarcity with a new Mandarin dataset (TSSD) and a Role-Aware Union Loss. It achieves a Diarization Error Rate (DER) of 16.95%, substantially outperforming off-the-shelf pipelines.
 
@@ -67,6 +70,12 @@ Researchers tackling speaker diarization or conversational analysis in settings 
 ## Applications
 
 Automated classroom discourse analysis, educational meeting transcription, and role-based conversational audio mining.
+
+## Institutions / 機構
+
+Huazhong University of Science and Technology
+
+**Funding / 經費:** National Key Research and Development Program of China
 
 ## Related
 

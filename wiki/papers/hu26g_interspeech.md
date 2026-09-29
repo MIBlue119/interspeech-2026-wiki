@@ -1,6 +1,7 @@
 ---
 id: hu26g_interspeech
-category: voice-conversion
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.pdf
 *Yuye Hu, Ayiduosi Tuohan, Tianqi Ning, CuiCui Zhu, Hao Huang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hu26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2090)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — MinFlow-SVC is a singing voice conversion framework utilizing a shared speaker space via KNN mapping and conditional flow matching, enhanced by min-pooling adversarial training to eliminate timbre leakage while maintaining acoustic quality. It achieves a superior zero-shot naturalness NMOS of 3.83 with 10 steps.
 
@@ -65,6 +68,12 @@ Speech and audio researchers tackling timbre disentanglement without vector quan
 ## Applications
 
 Zero-shot singing voice conversion, cross-lingual/cross-singer timbre transfer, and virtual singer music production.
+
+## Institutions / 機構
+
+Xinjiang University, Xinjiang Key Laboratory of Multi-lingual Information Technology, Joint International Research Laboratory of Silk Road Multilingual Cognitive Computing
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

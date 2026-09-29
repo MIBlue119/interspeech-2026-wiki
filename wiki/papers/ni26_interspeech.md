@@ -1,6 +1,7 @@
 ---
 id: ni26_interspeech
-category: tts
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ni26_interspeech.pdf
 *Qinke Ni, Huan Liao, Dekun Chen, Yuxiang Wang, Zhizheng Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ni26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ni26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2211)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — NV-Bench is the first public, multi-lingual benchmark for nonverbal vocalization (NV) text-to-speech synthesis, featuring 1,651 human-paired in-the-wild utterances across 14 categories and a dual-dimensional evaluation protocol. It establishes that proposed objective metrics like Paralinguistic Character Error Rate strongly correlate with human perception.
 
@@ -64,6 +67,12 @@ Researchers and engineers building expressive, conversational TTS systems will l
 ## Applications
 
 Conversational speech assistants, expressive audiobook synthesis, digital avatar voice generation, and interactive voice-response systems requiring natural laughs, sighs, and hesitations.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong-Shenzhen, Shenzhen Loop Area Institute, Amphion Technology
+
+**Funding / 經費:** Internal Project Fund from Shenzhen Research Institute of Big Data, Program for Guangdong Introducing Innovative and Entrepreneurial Teams
 
 ## Related
 

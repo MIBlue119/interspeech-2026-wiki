@@ -1,6 +1,7 @@
 ---
 id: anand26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/anand26_interspeech.pdf
 *Nishit Anand, Jiaqi Su, Ke Chen, Yunyun Wang, Dinesh Manocha, Ramani Duraiswami, Rithesh Kumar, Zeyu Jin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/anand26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/anand26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3015)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — ParA-LLM is an Audio LLM trained with a two-stage curriculum on 1.2M simulated and annotated QA pairs to master 22 paralinguistic and acoustic characteristics, outperforming GPT-4o-Audio by 7.5% overall on the newly introduced ParA-Bench.
 
@@ -63,6 +66,10 @@ Speech and ML engineers working on expressive speech synthesis, acoustic editing
 ## Applications
 
 Scalable automatic metadata annotation for speech corpora, fine-grained attribute control for text-to-speech (TTS) systems, and acoustic space captioning for text-conditioned room impulse response generation (Text2IR).
+
+## Institutions / 機構
+
+Adobe Research, University of Maryland, College Park, OpenAI
 
 ## Related
 

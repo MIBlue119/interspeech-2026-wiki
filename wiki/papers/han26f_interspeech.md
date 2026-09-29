@@ -1,6 +1,7 @@
 ---
 id: han26f_interspeech
-category: speech-synthesis
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/han26f_interspeech.pdf
 *Dongyub Han, Injune Hwang, Jaejun Lee, Jiwon Lee, Kyogu Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/han26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/han26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3485)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — TAP-ETS introduces a time-aligned phoneme-guided framework for EMG-to-speech synthesis that explicitly conditions the decoder on frame-wise phoneme sequences via cross-attention, reducing Word Error Rate on the Gaddy silent EMG benchmark from 25.12% to 19.77%.
 
@@ -61,6 +64,12 @@ Speech and ML researchers working on silent speech interfaces or biosignal-to-sp
 ## Applications
 
 Silent speech interfaces for communication without vocalization, covert communication systems, and assistive speech restoration for individuals with speech impairments.
+
+## Institutions / 機構
+
+Seoul National University
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation, Advanced GPU Utilization Support Program
 
 ## Related
 

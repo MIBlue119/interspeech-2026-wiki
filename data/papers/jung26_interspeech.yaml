@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/jung26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/jung26_interspeech.pdf
 session: Pathological Speech Assessment 2
 topics: [speech-llm, paralinguistic, evaluation]
+category: health-clinical
+labels:
+  - "self-supervised"
+institutions:
+  - "Ewha Womans University"
+  - "NAVER Cloud"
 code:
     url: https://github.com/vivivic/is26dementia
     license: ""

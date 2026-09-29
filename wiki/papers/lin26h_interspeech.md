@@ -1,6 +1,7 @@
 ---
 id: lin26h_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [low-resource, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26h_interspeech.pdf
 *Guojian Lin, Xuefei Wang, Ryandhimas E. Zezario, Yu Tsao, Fei Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1567)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — CFA-SIPNet is a speech intelligibility prediction network for hearing-impaired listeners that combines source-domain pretraining with lightweight domain adapters and embedding contrastive learning, achieving an 8.5% relative RMSE reduction over SOTA cross-dataset baselines using under 20% of target-domain training data.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Evaluation and automated optimization of hearing aids, cochlear implants, and speech enhancement algorithms for hearing-impaired users.
+
+## Institutions / 機構
+
+Southern University of Science and Technology, Academia Sinica
+
+**Funding / 經費:** National Key Research and Development Program of China, National Natural Science Foundation of China, Shenzhen Key Technology Program Funding, Center for Computational Science and Engineering at Southern University of Science and Technology
 
 ## Related
 

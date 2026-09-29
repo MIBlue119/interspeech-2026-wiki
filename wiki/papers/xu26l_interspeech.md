@@ -1,6 +1,7 @@
 ---
 id: xu26l_interspeech
-category: self-supervised
+category: audio-understanding
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26l_interspeech.pdf
 *Qisheng Xu, Xiaoyi Tan, Wuyang Chen, Yutao Dou, Kele Xu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1173)
+
+**Category:** `audio-understanding` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — MALP introduces a multi-modal prompt learning framework that jointly optimizes audio-specific, text-specific, and shared prompts to overcome the limitations of text-centric prompt adaptation in audio-language models, achieving a new average accuracy of 78.35% under a 16-shot setting across eleven benchmarks.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Few-shot environmental sound classification, rare event detection, medical audio analysis, and acoustic scene recognition with limited labeled supervision.
+
+## Institutions / 機構
+
+National University of Defense Technology, Hunan Normal University, Hunan University
+
+**Funding / 經費:** National Science and Technology Major Project, National University of Defense Technology
 
 ## Related
 

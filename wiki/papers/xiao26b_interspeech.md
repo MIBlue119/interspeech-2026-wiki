@@ -1,6 +1,6 @@
 ---
 id: xiao26b_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xiao26b_interspeech.pdf
 *Yao Xiao, Fritz Peters, Madhurananda Pahar, Dorota A Braun, Caitlin H Illingworth, Stefan Goetze, Daniel Blackburn, Heidi Christensen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xiao26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xiao26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2266)
+
+**Category:** `health-clinical`
 
 **TL;DR** — Weighted Speech Graphs (WSGs) integrate clinically motivated semantic, phonological, spatial, and temporal attributes into speech graph edge weights for dementia detection, achieving competitive classification using only one or two features. Restricting graph construction to target task words rather than full transcripts yields substantial performance improvements.
 
@@ -65,6 +67,10 @@ Researchers and clinical NLP engineers working on automated cognitive screening 
 ## Applications
 
 Automated screening and longitudinal monitoring of dementia and cognitive decline via routine speech elicitation tasks in clinical or telehealth settings.
+
+## Institutions / 機構
+
+University of Sheffield
 
 ## Related
 

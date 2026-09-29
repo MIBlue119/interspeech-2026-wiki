@@ -1,6 +1,7 @@
 ---
 id: chao26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chao26_interspeech.pdf
 *Rong Chao, Sung-Feng Huang, Moreno La Quatra, Sabato Marco Siniscalchi, Wen-Huang Cheng, Szu-Wei Fu, Yu Tsao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3197)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — RT-SEMamba is a fully causal, real-time speech enhancement model using time-frequency Mamba blocks and progressive knowledge distillation to achieve memory-efficient streaming. The 8-layer teacher achieves 3.32 PESQ, while an 8-to-1 layer distilled student reaches 3.18 PESQ at 0.11 RTF with a strict 25 ms algorithmic latency.
 
@@ -58,6 +61,10 @@ Speech and machine learning engineers building real-time audio front-ends for ed
 ## Applications
 
 Real-time speech enhancement for hearing aids, cochlear implants, AR/VR communication devices, and live teleconferencing systems.
+
+## Institutions / 機構
+
+Academia Sinica, National Taiwan University, Kore University of Enna, University of Palermo, NVIDIA
 
 ## Related
 

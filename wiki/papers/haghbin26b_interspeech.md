@@ -1,6 +1,6 @@
 ---
 id: haghbin26b_interspeech
-category: speech-llm
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/haghbin26b_interspeech.pdf
 *Yasaman Haghbin, Sina Rashidi, Ali Zolnour, Margaret McDonald, Maryam Zolnoori*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/haghbin26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/haghbin26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1860)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper validates naturalistic conversational speech from phone check-ins and patient-nurse interactions as an early non-invasive biomarker for cognitive decline, achieving an AUC of 0.92 when fused with electronic health records.
 
@@ -69,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated non-invasive screening tools integrated into telehealth platforms and nursing workflows for early detection of Alzheimer's disease and related dementias.
+
+## Institutions / 機構
+
+Columbia University
 
 ## Related
 

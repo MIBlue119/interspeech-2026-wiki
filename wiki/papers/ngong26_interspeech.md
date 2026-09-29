@@ -1,6 +1,6 @@
 ---
 id: ngong26_interspeech
-category: speaker-verification
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ngong26_interspeech.pdf
 *Ivoline Ngong, Jack D'Iorio, Hailey Schoppe, Christopher Liberatore, Nichole Schimanski, Taisa Kushner, Joseph P. Near*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ngong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ngong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2910)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — DP-VOXLET introduces speaker differential privacy—a formal mathematical definition and mechanism for speaker anonymization using disentangled speech representations—achieving provable adversarial lower bounds on re-identification success (e.g., up to 41.2% Equal Error Rate) while maintaining high speech utility (3.4% Word Error Rate).
 
@@ -65,6 +67,12 @@ Speech and machine learning researchers seeking to transition speech anonymizati
 ## Applications
 
 Privacy-preserving speech data sharing, secure voice assistants, telephony anonymization, and protection against biometric voice profiling.
+
+## Institutions / 機構
+
+University of Vermont, Galois
+
+**Funding / 經費:** Intelligence Advanced Research Projects Activity, Department of Interior/Interior Business Center
 
 ## Related
 

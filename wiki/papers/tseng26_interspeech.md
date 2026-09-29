@@ -1,6 +1,6 @@
 ---
 id: tseng26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tseng26_interspeech.pdf
 *Yu-Hsiang Tseng, Harald Baayen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tseng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tseng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-793)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates whether English heterographic homophones are truly phonetically identical by analyzing 14,000 tokens using time-normalized spectrograms and Discriminative Lexicon Model (DLM) principles. The results reveal systematic segmental differences that are modulated by context-specific semantic distinctness.
 
@@ -61,6 +63,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Analyzing fine-grained phonetic variation for speech technology, phonetic research, and improving mental lexicon computational models.
+
+## Institutions / 機構
+
+University of Tubingen
+
+**Funding / 經費:** European Research Council
 
 ## Related
 

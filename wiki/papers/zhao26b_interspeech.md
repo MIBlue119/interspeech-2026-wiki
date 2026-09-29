@@ -1,6 +1,6 @@
 ---
 id: zhao26b_interspeech
-category: prosody
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhao26b_interspeech.pdf
 *Xinxian Zhao, Xiaohu Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhao26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhao26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-255)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates age-related variation in the F0 realization of prosodic focus across adulthood in Jianghuai Mandarin, demonstrating that the global tri-zone F0 pattern is preserved across age groups while fine-grained post-focus compression (PFC) is significantly enhanced in older speakers.
 
@@ -58,6 +60,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Development of age-robust text-to-speech (TTS) systems, clinical speech assessment tools for evaluating vocal aging and prosodic control, and automated speaker state monitoring.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, National Research Center for Language and Well-being, Tongji University
+
+**Funding / 經費:** China Postdoctoral Science Foundation
 
 ## Related
 

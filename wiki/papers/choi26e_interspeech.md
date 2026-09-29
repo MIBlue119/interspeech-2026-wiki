@@ -1,6 +1,7 @@
 ---
 id: choi26e_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/choi26e_interspeech.pdf
 *Eunseo Choi, Hyunku Kang, Chanwoo Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/choi26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/choi26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2186)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — SISER integrates wav2vec 2.0 with an ECAPA-TDNN speaker discriminator under an entropy-based adversarial training framework for speech emotion recognition, achieving an unweighted accuracy of 60.63% on IEMOCAP test sets without data augmentation.
 
@@ -65,6 +68,12 @@ Speech researchers tackling domain mismatch and speaker bias in affective comput
 ## Applications
 
 Cross-speaker speech emotion recognition systems, empathetic dialogue agents, and call-center affective monitoring.
+
+## Institutions / 機構
+
+Korea University
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

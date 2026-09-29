@@ -1,6 +1,7 @@
 ---
 id: wang26q_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26q_interspeech.pdf
 *Haoyu Wang, Guangyan Zhang, Jiale Chen, Jingyu Li, Yuehai Wang, Yiwen Guo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-984)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`
 
 **TL;DR** — Empathy Omni is an end-to-end speech large language model that explicitly predicts a token-synchronous emotion trajectory to control empathetic speech generation without massive pretraining. It achieves a top UTMOS speech quality score of 4.41 and an emotion MOS of 4.23 while maintaining strong general QA capabilities.
 
@@ -65,6 +68,10 @@ Speech and ML researchers building real-time conversational assistants who want 
 ## Applications
 
 Empathetic virtual assistants, mental health support chat systems, interactive educational tutoring, and customer service bots requiring high emotional intelligence and low latency.
+
+## Institutions / 機構
+
+Zhejiang University, LIGHTSPEED
 
 ## Related
 

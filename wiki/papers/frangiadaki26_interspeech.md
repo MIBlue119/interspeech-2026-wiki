@@ -1,6 +1,7 @@
 ---
 id: frangiadaki26_interspeech
 category: asr
+labels: [low-resource, self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/frangiadaki26_interspeech.pdf
 *Maria Frangiadaki, Dimitrios Damianos, Kosmas Kritsis, Vassilis Katsouros*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/frangiadaki26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/frangiadaki26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1371)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper establishes the first benchmark for Automatic Lyric Transcription (ALT) in Greek by curating the GAD-ALT dataset and evaluating Whisper adaptation strategies. A two-stage fine-tuning approach on Whisper Large-v3 achieves a word error rate (WER) of 27.2%.
 
@@ -64,6 +67,12 @@ Speech and ML engineers working on low-resource domain adaptation or music infor
 ## Applications
 
 Automatic lyric transcription, music information retrieval systems, karaoke synchronization, and cross-lingual alignment for under-resourced musical traditions.
+
+## Institutions / 機構
+
+Athena Research Center
+
+**Funding / 經費:** European High-Performance Computing Joint Undertaking, Pharos AI Factory, Greek Ministry of Digital Governance and Artificial Intelligence
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: jin26b_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jin26b_interspeech.pdf
 *Jiawei Jin, Ren Wang, Zhiyu Cui, Shun Lei, Yixuan Zhou, Zhiyong Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jin26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jin26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1069)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — ElasticDLM is a variable-length non-autoregressive diffusion language model for text-to-speech that eliminates reliance on accurate pre-calculated character-level durations by introducing learnable functional tokens and dynamic length scaling, matching or exceeding baseline synthesis quality even under severe initial length mispredictions.
 
@@ -64,6 +67,12 @@ Speech researchers and engineers working on non-autoregressive text-to-speech sh
 ## Applications
 
 High-fidelity text-to-speech generation, expressive audiobooks, and interactive voice assistants requiring dynamic speaking rates and robust handling of unconstrained text inputs.
+
+## Institutions / 機構
+
+Tsinghua University, Ant Group
+
+**Funding / 經費:** National Natural Science Foundation of China, National Social Science Foundation of China, Ant Group
 
 ## Related
 

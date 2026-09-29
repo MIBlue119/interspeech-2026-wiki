@@ -1,6 +1,7 @@
 ---
 id: hutchinson26_interspeech
 category: tts
+labels: [low-resource, multilingual, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hutchinson26_interspeech.pdf
 *Ben Hutchinson, Gabriella Conlon, Greg Duncum, Carrie Jones, Tāne Karamaina, Hautahi Kingi, Jamie Towler, Caroline Rainsford, Ngahiwi Apanui-Barr*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hutchinson26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hutchinson26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1573)
+
+**Category:** `tts` · **Labels:** `low-resource`, `multilingual`, `generative-model`
 
 **TL;DR** — This paper presents a collaborative case study between Te Taura Whiri i te Reo Māori and Google to develop a Text-to-Speech (TTS) voice for Aotearoa/New Zealand that fluently speaks English with a local accent and accurately pronounces te reo Māori place names. It details the cultural, epistemological, and structural challenges encountered and the co-developed frameworks used to overcome them.
 
@@ -54,6 +57,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Text-to-speech systems, navigation guidance, screen readers, and localized voice assistants in bilingual or Indigenous language contexts.
+
+## Institutions / 機構
+
+Google, Te Taura Whiri i te Reo Māori
 
 ## Related
 

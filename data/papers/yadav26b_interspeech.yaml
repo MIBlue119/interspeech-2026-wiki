@@ -14,6 +14,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yadav26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/yadav26b_interspeech.pdf
 session: Acoustic Event Detection 3
 topics: [audio-llm, speech-llm, streaming]
+category: speech-llm-dialogue
+labels:
+  - "streaming-real-time"
+institutions:
+  - "Meta"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: yang26q_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26q_interspeech.pdf
 *Shu-Wei Yang, Jung-yueh Tu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26q_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26q_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3292)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study investigates how Taiwan Mandarin speakers perceive Korean unreleased stop codas (/p, t, k/), revealing an accuracy hierarchy of /p/ > /t/ > /k/ that is heavily modulated by preceding vowel context but unaffected by intermediate course-based proficiency.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Design of computer-assisted pronunciation training (CAPT) software and targeted perceptual training curricula for L2 Korean learners focusing on vowel-conditioned stop-coda minimal pairs.
+
+## Institutions / 機構
+
+Seoul National University, National Chengchi University
 
 ## Related
 

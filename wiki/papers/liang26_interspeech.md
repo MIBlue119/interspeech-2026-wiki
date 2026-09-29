@@ -1,6 +1,6 @@
 ---
 id: liang26_interspeech
-category: speech-enhancement
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liang26_interspeech.pdf
 *Xinyu Liang, Fredrik Cumlin, Victor Ungureanu, Chandan K. A. Reddy, Christian Schüldt, Saikat Chatterjee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-342)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — DNSMOS-C is a compact end-to-end speech quality assessment model that integrates a MOS-guided triplet contrastive loss directly into intermediate representations, achieving improved correlation and generalization without extra inference overhead.
 
@@ -63,6 +65,12 @@ Speech and ML engineers building real-time, resource-constrained quality assessm
 ## Applications
 
 Real-time speech quality monitoring in VoIP systems, streaming services, and automatic evaluation metrics for generative text-to-speech or voice conversion models.
+
+## Institutions / 機構
+
+KTH Royal Institute of Technology, Google
+
+**Funding / 經費:** Digital Futures Center, European Defence Fund, Wallenberg AI, Autonomous Systems and Software Program, Knut and Alice Wallenberg Foundation
 
 ## Related
 

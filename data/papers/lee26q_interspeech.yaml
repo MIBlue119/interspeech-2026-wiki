@@ -9,6 +9,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26q_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26q_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 1
 topics: [asr, multilingual, self-supervised]
+category: asr
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Dongguk University"
+funding:
+  - "Ministry of Science and ICT"
+  - "Information Technology Research Center"
+  - "Institute for Information & Communications Technology Planning & Evaluation"
+  - "Artificial Intelligence Convergence Innovation Human Resources Development"
 code:
     url: ""
     license: ""

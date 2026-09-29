@@ -1,6 +1,7 @@
 ---
 id: feng26_interspeech
 category: tts
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/feng26_interspeech.pdf
 *Wenhao Feng, Yuxun Tang, Jiatong Shi, Qin Jin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/feng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/feng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-137)
+
+**Category:** `tts` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — MMGenre is a benchmark for evaluating genre generalization in singing voice synthesis (SVS), exposing that current models suffer from severe "genre collapse" and default to a pop-like style unless specifically fine-tuned.
 
@@ -64,6 +67,12 @@ Speech and ML engineers building generative singing systems will discover why cu
 ## Applications
 
 Multi-genre music production, genre-aware singing voice synthesis, and automated evaluation frameworks for audio generative models.
+
+## Institutions / 機構
+
+Renmin University of China, Carnegie Mellon University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

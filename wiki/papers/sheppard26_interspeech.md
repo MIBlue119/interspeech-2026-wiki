@@ -1,6 +1,7 @@
 ---
 id: sheppard26_interspeech
-category: dataset
+category: resources-evaluation
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sheppard26_interspeech.pdf
 *Brooklyn Sheppard, Anaelia Ovalle, Adina Williams, Levent Sagun*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sheppard26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sheppard26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2904)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`
 
 **TL;DR** — This paper audits six popular speech technology datasets and two community-designed queer speech datasets, revealing near-zero measurable LGBTQIA+ representation (0-1.4%) in mainstream corpora. It introduces a four-part taxonomy of tensions between standard AI data collection practices and marginalized community needs.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Ethical data collection framework design, socially responsible speech dataset curation, and fair speech technology auditing.
+
+## Institutions / 機構
+
+University of Calgary, Meta
 
 ## Related
 

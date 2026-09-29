@@ -1,6 +1,7 @@
 ---
 id: yang26j_interspeech
 category: asr
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26j_interspeech.pdf
 *Jing Yang, Shuqing Zhang, Yongyi Deng, Pan Li, Ting Dang, Gongping Huang, Jingdong Chen, Jacob Benesty*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1553)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — A fusion-aware two-stage framework for Modern Standard Arabic mispronunciation detection and diagnosis uses a pretrained acoustic encoder combined with causal dilated temporal convolutional networks and multi-checkpoint ensemble inference, achieving a phoneme-level F1-score of 0.7201 on the QuranMB.v2 test set.
 
@@ -67,6 +70,12 @@ Researchers building low-resource CAPT or fine-grained phonetic diagnostic syste
 ## Applications
 
 Computer-aided pronunciation training (CAPT), automated foreign language assessment, and phoneme-level mispronunciation detection in educational software.
+
+## Institutions / 機構
+
+Wuhan University, University of Melbourne, Northwestern Polytechnical University, University of Quebec
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

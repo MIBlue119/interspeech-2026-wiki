@@ -1,6 +1,7 @@
 ---
 id: lee26l_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26l_interspeech.pdf
 *Jooyoung Lee, Kakeru Yazawa, James Whang, Paola Escudero*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1574)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study investigates how different speaker normalization methods affect the computational modelling of non-native vowel perception, finding that Lobanov normalization achieves the highest fit to human listener data. This is interpreted through the L2LP framework as evidence that naive listeners transfer their L1 normalization strategy.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cross-linguistic speech perception modelling, second-language acquisition computer-assisted pronunciation training (CAPT) systems, and multilingual speech recognition front-end design.
+
+## Institutions / 機構
+
+Western Sydney University, University of Tsukuba, Seoul National University
 
 ## Related
 

@@ -15,6 +15,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gopal26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gopal26_interspeech.pdf
 session: Cross-Lingual and Multilingual Speech Recognition 2
 topics: [speech-llm, multilingual, self-supervised]
+category: speech-llm-dialogue
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Nanyang Technological University"
+  - "AI Singapore"
+  - "National University of Singapore"
+  - "Institute for Infocomm Research"
+  - "Agency for Science, Technology and Research"
+funding:
+  - "WeBank-NTU Joint Research Institute on FinTech"
 code:
     url: ""
     license: ""

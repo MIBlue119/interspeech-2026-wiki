@@ -1,6 +1,7 @@
 ---
 id: li26o_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26o_interspeech.pdf
 *Longhao Li, Hongjie Chen, Zehan Li, Qihan Hu, Jian Kang, Jie Li, Lei Xie, Yongxiang Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26o_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26o_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-988)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — Audio-Cogito is a 30B open-source large audio language model featuring explicit chain-of-thought audio reasoning, trained on 545k self-distilled samples curated via Cogito-Pipe to achieve new state-of-the-art results among open-source models on the MMAR benchmark (71.70% average accuracy).
 
@@ -67,6 +70,10 @@ Speech and ML engineers building reasoning-capable audio language models should 
 ## Applications
 
 Complex acoustic scene analysis, interactive voice assistants requiring multi-step logical deduction, automated multi-domain audio auditing, and explainable speech-to-text educational tools.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University, China Telecom Artificial Intelligence Technology (Beijing) Co., Ltd
 
 ## Related
 

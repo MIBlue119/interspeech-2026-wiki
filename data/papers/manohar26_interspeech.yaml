@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/manohar26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/manohar26_interspeech.pdf
 session: Robust and Real-World ASR Systems
 topics: [asr, evaluation, multilingual]
+category: resources-evaluation
+labels:
+  - "multilingual"
+institutions:
+  - "Adalat AI"
 code:
     url: https://github.com/adalat-ai-tech/scribe-eval
     license: ""

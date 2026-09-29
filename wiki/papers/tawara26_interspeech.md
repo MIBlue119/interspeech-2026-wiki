@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tawara26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tawara26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tawara26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2912)
 
+**Category:** `asr`
+
 **TL;DR** — This paper systematically evaluates LLM-based versus modular conversational ASR pipelines across diverse multi-speaker datasets and introduces tcpSemER, an embedding-based semantic error rate. Experiments show that task-specific LLMs are competitive in two-speaker settings but degrade sharply under high speaker overlap compared to modular pipelines.
 
 ## Key contributions
@@ -64,6 +66,12 @@ Speech researchers and engineers building multi-speaker conversational transcrip
 ## Applications
 
 Conversational transcription, meeting note automation, multi-speaker diarization pipelines, and semantic evaluation tooling for speech-to-text models.
+
+## Institutions / 機構
+
+NTT, Carnegie Mellon University, Brno University of Technology
+
+**Funding / 經費:** Ministry of Education, Youth and Sports of the Czech Republic
 
 ## Related
 

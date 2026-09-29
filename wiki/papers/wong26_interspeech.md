@@ -1,6 +1,7 @@
 ---
 id: wong26_interspeech
-category: paralinguistics
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wong26_interspeech.pdf
 *Sidney Wong*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2637)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The Transmasculine Attitudes and Speech Corpus (TMASC) is a crowd-sourced multimodal dataset featuring questionnaire responses and audio recordings from 196 transmasculine individuals to investigate community-level vocal health and socio-acoustic norms. The dataset reveals a weak linear relationship between self-perceived vocal masculinity and fundamental frequency (f0), highlighting that pitch alone does not capture voice gender congruence.
 
@@ -61,6 +64,12 @@ Speech researchers and health practitioners working on inclusive speech technolo
 ## Applications
 
 Development of inclusive, community-aligned speech technology, gender-affirming voice training applications, and clinical evaluation frameworks for transmasculine vocal health.
+
+## Institutions / 機構
+
+University of Otago, Te Punaha Matatini
+
+**Funding / 經費:** UC College of Arts, School of Language, Social and Political Science, Te Punaha Matatini
 
 ## Related
 

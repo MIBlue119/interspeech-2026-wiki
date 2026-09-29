@@ -16,6 +16,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ma26c_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ma26c_interspeech.pdf
 session: Streaming Speech Synthesis
 topics: [voice-conversion, streaming, self-supervised]
+category: tts
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+  - "streaming-real-time"
+  - "generative-model"
+institutions:
+  - "Northwestern Polytechnical University"
+  - "University of New South Wales"
+  - "WeNet Open Source Community"
 code:
     url: https://aslp-lab.github.io/MeanVC2/
     license: ""

@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ross26b_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ross26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ross26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2411)
 
+**Category:** `tts`
+
 **TL;DR** — A listening experiment evaluating commercial sexualised text-to-speech personas reveals that female-coded voices are disproportionately perceived as submissive and sexualised, whereas male-coded voices are associated with dominance and positive traits.
 
 ## Key contributions
@@ -63,6 +65,12 @@ Speech and ML researchers building emotional or conversational text-to-speech ag
 ## Applications
 
 Guidance for ethical design and auditing of generative text-to-speech platforms, conversational agents, and AI companion systems to prevent the reinforcement of harmful gender stereotypes.
+
+## Institutions / 機構
+
+University of Edinburgh, KTH Royal Institute of Technology
+
+**Funding / 經費:** UK Research and Innovation, Swedish Research Council
 
 ## Related
 

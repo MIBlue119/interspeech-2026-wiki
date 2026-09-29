@@ -1,6 +1,6 @@
 ---
 id: myrgyyassov26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/myrgyyassov26_interspeech.pdf
 *Alisher Myrgyyassov, Bruce Xiao Wang, Yu Sun, Shuming Huang, Zhen Song, Min Ney Wong, Yongping Zheng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/myrgyyassov26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/myrgyyassov26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1664)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — SMMA is a fully automated deep learning and skeleton-based framework that measures geniohyoid muscle thickness from ultrasound speech videos, achieving near-human segmentation accuracy (Dice 0.9037) and strong thickness correlation (r = 0.901).
 
@@ -62,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical assessment of speech and swallowing disorders (such as dysarthria), monitoring rehabilitation progress, and large-scale phonetic investigations of speech motor control.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University
+
+**Funding / 經費:** Young Innovative Researcher Award Scheme, Research Grants Council of Hong Kong
 
 ## Related
 

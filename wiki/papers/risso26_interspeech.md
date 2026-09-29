@@ -1,6 +1,7 @@
 ---
 id: risso26_interspeech
-category: keyword-spotting
+category: asr
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/risso26_interspeech.pdf
 *Matteo Risso, Alessio Burrello, Daniele Jahier Pagliari*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/risso26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/risso26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1253)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — OnDA couples weight adaptation with online structured channel pruning for personalized on-device keyword spotting, achieving up to 9.63x model compression at iso-task performance.
 
@@ -63,6 +66,12 @@ Researchers and embedded speech engineers working on on-device model personaliza
 ## Applications
 
 Always-on edge voice assistants, smart-home devices, and wake-word detectors requiring personalized acoustic adaptation under strict energy budgets.
+
+## Institutions / 機構
+
+Politecnico di Torino
+
+**Funding / 經費:** NEURAL research project, Fondazione Compagnia di San Paolo
 
 ## Related
 

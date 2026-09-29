@@ -1,6 +1,6 @@
 ---
 id: bhosale26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bhosale26_interspeech.pdf
 *Swapnil Bhosale, Yoshiki Masuyama, Moitreya Chatterjee, Christoph Boeddeker, Julius Richter, Gordon Wichern, Jonathan Le Roux*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bhosale26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bhosale26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2514)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — The paper introduces edit-conditioned Room Impulse Response (RIR) estimation, proposing PG-RIR to update a pre-edit RIR using simulated homogeneous proxy RIRs from 3D room meshes without requiring material annotations or post-edit acoustic measurements.
 
@@ -65,6 +67,10 @@ Researchers working on acoustic simulation, spatial audio, and neural acoustic m
 ## Applications
 
 Augmented reality, virtual reality, immersive teleconferencing, and dynamic acoustic simulation for smart home environments where furniture layouts frequently change.
+
+## Institutions / 機構
+
+Mitsubishi Electric Research Laboratories, University of Surrey
 
 ## Related
 

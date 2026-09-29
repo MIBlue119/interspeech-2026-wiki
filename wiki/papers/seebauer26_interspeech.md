@@ -1,6 +1,6 @@
 ---
 id: seebauer26_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/seebauer26_interspeech.pdf
 *Fritz Seebauer, Markus Rothgänger, Sven Wachsmuth, Petra Wagner*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/seebauer26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/seebauer26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-747)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — An empirical study of 80 participants across four TTS systems and four application contexts reveals that evaluation ratings change significantly depending on the scenario and the specific TTS system, while virtual reality (VR) digital twins yield statistically equivalent ratings to physical testing settings.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Standardizing ecological benchmarking protocols for commercial and research text-to-speech systems, dialogue agents, and virtual reality speech interfaces.
+
+## Institutions / 機構
+
+Bielefeld University
+
+**Funding / 經費:** Ministry of Culture and Science of the State of North Rhine-Westphalia, Netzwerke 2021, SAIL: SustAInable Life-cycle of Intelligent Socio-Technical Systems
 
 ## Related
 

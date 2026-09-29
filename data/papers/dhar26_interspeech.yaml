@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dhar26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dhar26_interspeech.pdf
 session: Emotional Speech Synthesis
 topics: [tts, self-supervised, prosody]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Sony"
 code:
     url: https://research.sri-media-analysis.com/interspeech26-oscilla-tts/
     license: ""

@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/allen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/allen26_interspeech.pdf
 session: Pronunciation Diversity
 topics: [multilingual, self-supervised, evaluation]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+institutions:
+  - "Ohio State University"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: tang26b_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/tang26b_interspeech.pdf
 *Wenqiu Tang, Zhen Wan, Takahiro Komamizu, Ichiro Ide*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/tang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/tang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1627)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `generative-model`
 
 **TL;DR** — DeSRPA is a training-free agentic framework that decouples speech role-playing into internal cognitive steering of a frozen LLM and external expressive rendering of a frozen TTS model via dual-level control vectors, achieving an open-source mean multimodal judge score of 0.8379.
 
@@ -65,6 +68,12 @@ Researchers and engineers building speech-based agents without massive GPU clust
 ## Applications
 
 Interactive video game non-player characters (NPCs), voice-based virtual assistants, and immersive conversational role-playing applications.
+
+## Institutions / 機構
+
+Nagoya University, National Institute of Informatics
+
+**Funding / 經費:** JSPS KAKENHI
 
 ## Related
 

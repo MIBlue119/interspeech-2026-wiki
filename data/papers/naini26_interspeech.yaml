@@ -12,6 +12,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/naini26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/naini26_interspeech.pdf
 session: Multimodal Emotion Recognition
 topics: [speech-emotion-recognition, speech-llm, self-supervised]
+category: paralinguistics-emotion
+labels:
+  - "low-resource"
+  - "self-supervised"
+institutions:
+  - "Carnegie Mellon University"
+  - "University of Texas at Dallas"
+  - "NVIDIA"
 code:
     url: ""
     license: ""

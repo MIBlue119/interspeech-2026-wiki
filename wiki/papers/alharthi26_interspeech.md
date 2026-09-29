@@ -1,6 +1,7 @@
 ---
 id: alharthi26_interspeech
-category: voice-conversion
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/alharthi26_interspeech.pdf
 *Dareen Alharthi, Bhuvan Koduru, Rita Singh, Bhiksha Ramakrishnan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/alharthi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/alharthi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-395)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — RIVET introduces an idempotency objective to regularize voice attribute editing models against noisy demographic labels, improving speaker identity preservation and editing success compared to standard baselines.
 
@@ -64,6 +67,10 @@ Read this paper if you build speech attribute editing or voice conversion pipeli
 ## Applications
 
 Voice conversion, personalized text-to-speech, anonymization, and robust demographic modification for conversational AI agents.
+
+## Institutions / 機構
+
+Carnegie Mellon University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: lee26e_interspeech
 category: tts
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26e_interspeech.pdf
 *Yongjoon Lee, Jung-Woo Choi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-646)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — Relativistic Adversarial Feedback (RAF) is a novel training objective for GAN vocoders that incorporates pretrained self-supervised speech representations and relativistic pairing to improve in-domain fidelity and zero-shot generalization. RAF-trained BigVGAN-base outperforms standard LSGAN BigVGAN in perceptual quality while using only 12% of its parameters.
 
@@ -69,6 +72,12 @@ Speech and ML researchers working on generative audio will find this a definitiv
 ## Applications
 
 Universal neural vocoding for Text-to-Speech (TTS), Voice Conversion (VC), speech enhancement, and cross-lingual speech generation systems.
+
+## Institutions / 機構
+
+Korea Advanced Institute of Science and Technology
+
+**Funding / 經費:** National Research Foundation of Korea, Ministry of Science and ICT of Korea government, Ministry of Education of Korea government, Industrial Technology Innovation R&D program of MOTIE/KEIT
 
 ## Related
 

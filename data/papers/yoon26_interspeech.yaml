@@ -9,6 +9,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yoon26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yoon26_interspeech.pdf
 session: Spatial Audio 1
 topics: [acoustic-scene-classification, self-supervised, multilingual]
+category: audio-understanding
+labels:
+  - "robustness-noise"
+institutions:
+  - "Seoul National University"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Korea government (MSIT)"
+  - "XVoice: Multi-Modal Voice Meta Learning"
+  - "AI Star Fellowship Support Program"
+  - "Global AI Frontier Lab"
+  - "Artificial Intelligence Graduate School Program"
 code:
     url: https://github.com/snudatalab/FASOLA
     license: ""

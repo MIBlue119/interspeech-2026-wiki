@@ -1,6 +1,6 @@
 ---
 id: nitsu26_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nitsu26_interspeech.pdf
 *Daichi Nitsu, Koichi Shinoda*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nitsu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nitsu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2027)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — The paper introduces pseudo-spatial conditioning for single-channel speech separation, using multi-channel mixtures as privileged training information to pretrain a spatial encoder via contrastive triplet loss. Combined with an MHCA+FiLM fusion module on TF-Locoformer, it improves SI-SNRi on WHAMR! from 18.6 to 18.9 dB (Medium model) with only a 1.2M parameter overhead.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Single-channel speech separation, hearing aids, robust automatic speech recognition front-ends, teleconferencing enhancement.
+
+## Institutions / 機構
+
+Institute of Science Tokyo
+
+**Funding / 經費:** JSPS KAKENHI
 
 ## Related
 

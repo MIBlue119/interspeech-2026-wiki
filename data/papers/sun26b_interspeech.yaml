@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sun26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sun26b_interspeech.pdf
 session: Pathological Speech Assessment 2
 topics: [self-supervised, health, paralinguistics]
+category: health-clinical
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Tsinghua University"
+  - "Georgetown University"
 code:
     url: ""
     license: ""

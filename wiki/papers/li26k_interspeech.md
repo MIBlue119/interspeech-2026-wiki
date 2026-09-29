@@ -1,6 +1,7 @@
 ---
 id: li26k_interspeech
-category: speech-translation
+category: translation
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26k_interspeech.pdf
 *Xuanchen Li, Chenrui Cui, Tianrui Wang, Meng Ge, Zikang Huang, Yizhou Peng, Jin Li, Yuheng Lu, Yu Jiang, Nyima Tashi, Longbiao Wang, Jianwu Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-695)
+
+**Category:** `translation` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — POTSA is a cross-lingual alignment framework for SpeechLLMs that combines coarse bias compensation with token-level optimal transport on parallel speech pairs, achieving state-of-the-art speech-to-text translation using only 10 hours of parallel speech per language.
 
@@ -67,6 +70,10 @@ Speech and ML researchers tackling multilingual speech-to-text translation and m
 ## Applications
 
 Real-world multilingual speech-to-text translation systems and cross-lingual spoken language understanding applications targeting low-resource languages.
+
+## Institutions / 機構
+
+Tianjin University, Nanyang Technological University, Huiyan Technology Company, Tibet University, Chinese Academy of Sciences
 
 ## Related
 

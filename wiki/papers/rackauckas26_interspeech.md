@@ -1,6 +1,6 @@
 ---
 id: rackauckas26_interspeech
-category: spoken-language-understanding
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rackauckas26_interspeech.pdf
 *Zackary Rackauckas*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rackauckas26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rackauckas26_interspeech.html)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — AdaptLingo is an open-source, speech-to-speech English conversational agent that adapts its vocabulary and TTS speaking rate based on the learner's predicted spoken fluency. While it achieved 95% macro F1 on a clean labeled fluency dataset, its in-the-wild accuracy dropped to 47% on noisy user-study speech.
 
@@ -65,6 +67,10 @@ Speech and ML engineers building conversational AI for education should read thi
 ## Applications
 
 Computer-assisted language learning (CALL), spoken dialogue systems, and interactive second-language tutoring platforms.
+
+## Institutions / 機構
+
+RoleGaku, Columbia University
 
 ## Related
 

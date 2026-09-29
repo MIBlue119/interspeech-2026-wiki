@@ -1,6 +1,6 @@
 ---
 id: yang26f_interspeech
-category: spoken-language-understanding
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26f_interspeech.pdf
 *Yiyuan Yang, Shitong Xu, Niki Trigoni, Andrew Markham*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-821)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — A distributed acoustic scene understanding framework uses topology-aware graph neural networks and a frozen LLM to fuse multi-room audio and generate physically consistent indoor narratives, achieving an 87% triplet F1-score and 88.2% spatial consistency under occlusion.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Indoor security monitoring, elderly care emergency detection, and multi-room smart home automation.
+
+## Institutions / 機構
+
+University of Oxford
 
 ## Related
 

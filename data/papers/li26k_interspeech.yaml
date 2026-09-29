@@ -19,6 +19,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/li26k_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/li26k_interspeech.pdf
 session: Multilingual Speech 2
 topics: [speech-translation, multilingual, self-supervised]
+category: translation
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Tianjin University"
+  - "Nanyang Technological University"
+  - "Huiyan Technology Company"
+  - "Tibet University"
+  - "Chinese Academy of Sciences"
 code:
     url: https://github.com/Sslnon/POTSA
     license: ""

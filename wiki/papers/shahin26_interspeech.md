@@ -1,6 +1,6 @@
 ---
 id: shahin26_interspeech
-category: health
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shahin26_interspeech.pdf
 *Mostafa Shahin, Kirrie Ballard, Beena Ahmed*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shahin26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shahin26_interspeech.html)
+
+**Category:** `health-clinical`
 
 **TL;DR** — SayCheck is an AI-powered speech therapy platform that combines a Mario-style gamified practice environment ("Say Bananas") with an attribute-based speech analysis system ("PhoneAid") for children. It moves beyond traditional phoneme-level mispronunciation detection to diagnose errors using fine-grained articulatory and phonological features.
 
@@ -56,6 +58,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated speech therapy platforms, computer-aided pronunciation training (CAPT) for children, and remote clinical speech monitoring tools.
+
+## Institutions / 機構
+
+University of New South Wales, University of Sydney
 
 ## Related
 

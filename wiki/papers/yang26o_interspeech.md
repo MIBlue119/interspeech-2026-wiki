@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yang26o_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yang26o_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yang26o_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2970)
 
+**Category:** `asr`
+
 **TL;DR** — The paper introduces Video-Guided Post-ASR Correction (VPC), a training-free framework that uses a Video-Large Multimodal Model (VLMM) and an LLM to refine ASR transcripts using video context, achieving up to a 20.75% relative WER reduction on TV series. 
 
 ## Key contributions
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Media transcription for TV and film archives, automated closed-captioning for entertainment streaming, and accessibility software for complex multimedia environments.
+
+## Institutions / 機構
+
+University of Texas at Dallas
 
 ## Related
 

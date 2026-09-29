@@ -1,6 +1,7 @@
 ---
 id: awobade26_interspeech
-category: asr
+category: resources-evaluation
+labels: [low-resource, multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/awobade26_interspeech.pdf
 *Busayo Awobade, Gabrial Ashungafac, Oluwatoni Otokiti, Tobi Olatunji*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/awobade26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/awobade26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3140)
+
+**Category:** `resources-evaluation` · **Labels:** `low-resource`, `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — AfriVox-v2 is a domain-verticalized, in-the-wild benchmark for African speech recognition covering 14+ languages across conversational datasets and 10 vertical sectors, demonstrating that region-optimized models (Sahara-v2) outperform massive multimodal speech LLMs (Gemini 3 Flash).
 
@@ -64,6 +67,10 @@ Speech researchers and engineers building localized voice AI for low-resource or
 ## Applications
 
 Localized conversational agents, voice-enabled healthcare documentation, automated customer support intent detection, and financial inclusion applications across Africa.
+
+## Institutions / 機構
+
+Intron
 
 ## Related
 

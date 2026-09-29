@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26u_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26u_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26u_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2149)
 
+**Category:** `asr`
+
 **TL;DR** — LLM-as-Joiner decouples monotonic speech-text alignment from language modeling by having an Aligner-Encoder produce U token-level speech states that are injected into a frozen pretrained LLM via gated fusion. This reduces inference context length from T+U to U, achieving a 3.2 / 5.6 WER on LibriSpeech test-clean/other.
 
 ## Key contributions
@@ -68,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-latency multilingual automatic speech recognition and deployable on-device speech transcription using hybrid large language model backbones.
+
+## Institutions / 機構
+
+NTT, Kyoto University
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: chen26p_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26p_interspeech.pdf
 *Jiale Chen, Jiaxun Li, Wei Li, Yuanpeng Wang, Yuehai Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26p_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26p_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1513)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — OTAFlow is a hierarchical framework for prompt-driven expressive TTS that combines optimal transport distribution alignment, contrastive learning, and conditional flow matching to resolve the cross-modal gap and one-to-many style mapping problem. It significantly outperforms baseline models in fine-grained style retrieval (Recall@1 of 0.135 vs 0.072 for InfoNCE-only) and synthesized emotion similarity.
 
@@ -67,6 +70,10 @@ Speech researchers and engineers building prompt-controlled expressive TTS syste
 ## Applications
 
 Building fine-grained, prompt-controllable expressive text-to-speech systems for audiobooks, virtual assistants, and interactive voice generation where users specify rich paralinguistic emotions via natural language.
+
+## Institutions / 機構
+
+Zhejiang University
 
 ## Related
 

@@ -13,6 +13,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ren26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ren26e_interspeech.pdf
 session: Voice Editing
 topics: [speech-editing, self-supervised, speech-llm]
+category: tts
+labels:
+  - "self-supervised"
+  - "generative-model"
+institutions:
+  - "Chinese Academy of Sciences"
+  - "University of Chinese Academy of Sciences"
+  - "Tsinghua University"
+funding:
+  - "National Natural Science Foundation of China"
+  - "China Postdoctoral Science Foundation"
 code:
     url: ""
     license: ""

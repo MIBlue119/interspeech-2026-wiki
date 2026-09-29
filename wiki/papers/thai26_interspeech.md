@@ -1,6 +1,7 @@
 ---
 id: thai26_interspeech
 category: asr
+labels: [self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/thai26_interspeech.pdf
 *Van-Phat Thai, Aradhya Dhruv, Duc-Thinh Pham, Sameer Alam*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/thai26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/thai26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-949)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `robustness-noise`
 
 **TL;DR** — The paper introduces supervised contrastive learning (SupCon) as an auxiliary, model-agnostic regularizer for self-supervised acoustic encoders during CTC fine-tuning, yielding up to a 25.8% relative WER reduction on unseen accents.
 
@@ -64,6 +67,12 @@ Speech researchers and engineers working on robust ASR or domain adaptation shou
 ## Applications
 
 Multi-accent speech recognition systems, global voice assistants, and international air traffic communication tools requiring robust transcription across diverse non-native accents.
+
+## Institutions / 機構
+
+Nanyang Technological University, VinUniversity
+
+**Funding / 經費:** National Research Foundation, Singapore, Civil Aviation Authority of Singapore, Aviation Transformation Programme
 
 ## Related
 

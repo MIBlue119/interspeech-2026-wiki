@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26_interspeech.pdf
 session: Multilingual Speech 2
 topics: [speech-translation, speech-llm, self-supervised]
+category: translation
+labels:
+  - "multilingual"
+  - "generative-model"
+institutions:
+  - "National Taiwan University"
+  - "NVIDIA"
+funding:
+  - "Ministry of Education"
 code:
     url: https://47zzz.github.io/MoVE/
     license: ""

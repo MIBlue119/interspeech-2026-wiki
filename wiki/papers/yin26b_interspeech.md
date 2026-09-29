@@ -1,6 +1,7 @@
 ---
 id: yin26b_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yin26b_interspeech.pdf
 *Xavier Yin, Carlos Busso*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yin26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yin26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2842)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — STArK is a non-autoregressive text-to-articulation synthesis model that generates electromagnetic articulography kinematics and speech directly from text, achieving competitive voice cloning and speech quality without requiring speaker embeddings during training.
 
@@ -67,6 +70,10 @@ Speech researchers and engineers working on interpretable speech representations
 ## Applications
 
 Scalable synthetic articulatory data generation, cross-linguistic analysis, disordered speech enhancement, phonetic research, and speech avatar simulation.
+
+## Institutions / 機構
+
+Carnegie Mellon University
 
 ## Related
 

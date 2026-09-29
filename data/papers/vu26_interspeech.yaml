@@ -13,6 +13,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/vu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/vu26_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
 topics: [paralinguistics, self-supervised, low-resource]
+category: applications-other
+labels:
+  - "low-resource"
+institutions:
+  - "Japan Advanced Institute of Science and Technology"
+  - "Educational Testing Service"
+  - "Vericant"
+funding:
+  - "JSPS KAKENHI"
+  - "JST CREST"
+  - "JST CRONOS"
+  - "AMED"
 code:
     url: https://github.com/cngthnh/meta_see
     license: ""

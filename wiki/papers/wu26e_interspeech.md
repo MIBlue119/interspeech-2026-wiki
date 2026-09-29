@@ -1,6 +1,7 @@
 ---
 id: wu26e_interspeech
-category: speech-enhancement
+category: asr
+labels: [low-resource, multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26e_interspeech.pdf
 *Hongchen Wu, Yixin Gu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1770)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`
 
 **TL;DR** — CrossPhon-Tonal extends cross-language forced alignment (CLFA) to under-resourced tonal languages by introducing an automated articulatory tone mapping module based on Chao tone scales, achieving alignment agreement rates comparable to or exceeding human expert mappings.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated forced alignment, speech corpus creation, and linguistic field data processing for under-resourced and tonal languages.
+
+## Institutions / 機構
+
+Georgia Institute of Technology, University of Illinois Urbana-Champaign
+
+**Funding / 經費:** Georgia Institute of Technology
 
 ## Related
 

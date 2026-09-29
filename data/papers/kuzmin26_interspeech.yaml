@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kuzmin26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/kuzmin26_interspeech.pdf
 session: Speaker Privacy Preservation and Anonymization
 topics: [speaker-anonymization, emotion-recognition, self-supervised]
+category: deepfake-security
+labels:
+  - "streaming-real-time"
+institutions:
+  - "Nanyang Technological University"
+  - "Agency for Science, Technology and Research"
+  - "Hong Kong Polytechnic University"
 code:
     url: https://paniquex.github.io/streamvoiceanon-plus/
     license: ""

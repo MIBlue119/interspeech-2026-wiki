@@ -1,6 +1,7 @@
 ---
 id: kim26t_interspeech
-category: self-supervised
+category: speech-llm-dialogue
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26t_interspeech.pdf
 *Eungbeom Kim, Kyogu Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26t_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26t_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3071)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — Interleaved Stacking accelerates speech foundation model knowledge distillation by progressively building model depth while preserving layer positions, achieving speedups up to 1.24x with little to no downstream performance degradation.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Efficient on-device deployment of speech foundation models, rapid prototyping of compressed ASR and spoken language understanding systems, and low-resource speech processing pipelines.
+
+## Institutions / 機構
+
+Seoul National University
+
+**Funding / 經費:** National Research Foundation of Korea, Institute of Information & Communications Technology Planning & Evaluation, National IT Industry Promotion Agency
 
 ## Related
 

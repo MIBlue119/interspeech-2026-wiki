@@ -1,6 +1,7 @@
 ---
 id: mukhituly26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mukhituly26_interspeech.pdf
 *Nurdaulet Mukhituly, Muhammad Cendekia Airlangga, Rifo Ahmad Genadi, Nhi Hoai Doan, Amirbek Djanibekov, Samuel Munachiso Nwadike, Zangir Iklassov, Kentaro Inui*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mukhituly26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mukhituly26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2797)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`
 
 **TL;DR** — Speech Language Models contain a shared, low-dimensional safety subspace across both text and audio modalities where refusal and jailbreak compliance are neatly separated. Applying a single linear steering vector derived from this subspace reliably flips model behavior between refusal and compliance without any retraining, reducing diverse jailbreak success rates from up to 98% down to under 7%.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time, zero-shot safety alignment and jailbreak mitigation filters for commercial speech-to-text and spoken conversational language models deployed on-device or in the cloud.
+
+## Institutions / 機構
+
+MBZUAI, Tohoku University, RIKEN
 
 ## Related
 

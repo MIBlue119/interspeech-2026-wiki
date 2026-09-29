@@ -1,6 +1,7 @@
 ---
 id: piao26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/piao26_interspeech.pdf
 *Ran Piao, Tsai-Ning Wang, Martijn den Dekker, Linda Moonen, Hareld Kemps, Yuan Lu, Aaqib Saeed*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/piao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/piao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-430)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — Federated Self-Contextualization (FSC) is a multimodal framework that uses semantically void pseudo-label episodes to teach audio-language models in-context clinical diagnosis across distributed hospitals, achieving 71.6% accuracy in a 2-way 2-shot evaluation.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving automated clinical auscultation and cardiopulmonary disease screening in decentralized hospital networks.
+
+## Institutions / 機構
+
+Eindhoven University of Technology, Erasmus MC, Rijnstate Hospital, Maxima MC Hospital
+
+**Funding / 經費:** NWO, Google.org, Google Cloud Research Credits program
 
 ## Related
 

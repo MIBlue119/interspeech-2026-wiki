@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chen26j_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chen26j_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
 topics: [tts, self-supervised, on-device]
+category: tts
+labels:
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "Xi'an Jiaotong University"
+  - "Chinese Academy of Sciences"
 code:
     url: https://github.com/pymaster17/Spiking-Vocos
     license: ""

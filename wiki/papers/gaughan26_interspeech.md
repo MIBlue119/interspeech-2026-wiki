@@ -1,6 +1,7 @@
 ---
 id: gaughan26_interspeech
-category: multilingual
+category: speaker
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gaughan26_interspeech.pdf
 *Emily Gaughan, Peter Bell*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gaughan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gaughan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2418)
+
+**Category:** `speaker` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper evaluates whether multilingual speech representation spaces encode meaningful language family structures (phylogenetic trees) compared to the Glottolog gold standard. It demonstrates that tree-based comparison methods capture hierarchical language relationships better than traditional probing classifiers, and finds that speech encoders (especially Whisper-LID) preserve family structures better than massive-coverage models like XEUS.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving cross-lingual transfer, phone inventory induction, and data augmentation for low-resource speech recognition and text-to-speech systems.
+
+## Institutions / 機構
+
+University of Edinburgh
+
+**Funding / 經費:** UK Research and Innovation
 
 ## Related
 

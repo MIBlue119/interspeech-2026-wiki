@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/han26f_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/han26f_interspeech.pdf
 session: Instruction-following and Controllable Speech Synthesis
 topics: [speech-synthesis, self-supervised, multilingual]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Seoul National University"
+funding:
+  - "National Research Foundation of Korea"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Advanced GPU Utilization Support Program"
 code:
     url: https://github.com/ongdyub/TAP-ETS
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: nguyen26i_interspeech
 category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nguyen26i_interspeech.pdf
 *Tung X. Nguyen, Hieu Minh Truong, Giang Son Nguyen, Nhu Vo, Wray Buntine, Dung D. Le*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nguyen26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nguyen26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3465)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — The paper introduces a point-of-interest (POI) aware contrastive training framework that combines ASR N-best decoding, offline LLM candidate expansion, and a tri-level filtering gate to generate hard negative transcripts for robust code-switching speech recognition, reducing both Word Error Rate and POI Error Rate by over 2% absolute on Mandarin-English and Vietnamese-English benchmarks.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual speech recognition systems, voice assistants, and domain-specific transcription tools (such as medical dictation) that encounter frequent code-switching or foreign entity insertions.
+
+## Institutions / 機構
+
+VinUniversity, University of Technology Sydney, Monash University
+
+**Funding / 經費:** Center for AI Research at VinUniversity, Vingroup Scholarship
 
 ## Related
 

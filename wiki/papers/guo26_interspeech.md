@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/guo26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/guo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/guo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1022)
 
+**Category:** `asr`
+
 **TL;DR** — GLAD introduces a global-local aware dynamic Mixture-of-Experts architecture for multi-talker ASR, fusing shallow speaker-aware global context with intermediate local acoustic features to guide expert routing. It achieves a state-of-the-art OA-WER of 21.5% on LibriSpeechMix-3mix (generalization) and 40.7% average WER on CH109.
 
 ## Key contributions
@@ -64,6 +66,12 @@ Speech researchers working on multi-talker ASR or cocktail-party problems should
 ## Applications
 
 Multi-speaker meeting transcription, multi-party dialogue analysis, and automatic speech recognition in heavy-overlap acoustic environments.
+
+## Institutions / 機構
+
+Nankai University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cheng26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/cheng26b_interspeech.pdf
 session: Active Noise and Echo Control, Sound Zones and Packet-Loss Concealment
 topics: [speech-enhancement]
+category: enhancement-separation
+institutions:
+  - "Chongqing University of Posts and Telecommunications"
+funding:
+  - "National Key Research and Development Program of China"
+  - "National Natural Science Foundation of China"
+  - "Natural Science Foundation of Chongqing"
 code:
     url: ""
     license: ""

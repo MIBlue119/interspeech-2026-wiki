@@ -1,6 +1,7 @@
 ---
 id: he26g_interspeech
-category: auditory-attention-decoding
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/he26g_interspeech.pdf
 *Xiaomin He, Vishal Choudhari, Tristan J. Spratt, Aarya Raghavan, Richard T. Lee, Nima Mesgarani*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/he26g_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/he26g_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3556)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — MOV-AAD is a large-scale multimodal dataset featuring 64-channel EEG and synchronized autonomic signals from 50 participants under dynamic moving-speaker conversational conditions, yielding baseline linear discriminant analysis AAD accuracy significantly above chance.
 
@@ -63,6 +66,12 @@ Speech and ML researchers building multimodal AAD systems or neuro-steered heari
 ## Applications
 
 Development of robust neuro-steered hearing aids, multimodal auditory attention decoding models, and cognitive listening-effort estimators operating in dynamic, multi-talker acoustic environments.
+
+## Institutions / 機構
+
+Columbia University
+
+**Funding / 經費:** National Institute on Deafness and Other Communication Disorders, Marie-Josee and Henry R. Kravis Foundation
 
 ## Related
 

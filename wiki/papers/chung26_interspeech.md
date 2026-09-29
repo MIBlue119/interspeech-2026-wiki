@@ -1,6 +1,7 @@
 ---
 id: chung26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chung26_interspeech.pdf
 *Sung Kyun Chung, Jiaheng Dong, Qiuchi Hu, Jinuo Sun, Gongping Huang, Hong Jia, Ting Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chung26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chung26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2066)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper presents the first audio benchmark and locate-then-edit framework for Large Audio-Language Models (LALMs), demonstrating that factual knowledge is jointly encoded across audio encoders and text backbones and can be precisely updated via speech-aware causal tracing.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Fine-grained factual correction and knowledge updating in voice assistants, spoken dialogue systems, and multimodal audio-language interfaces without costly retraining.
+
+## Institutions / 機構
+
+University of Melbourne, University of Auckland, Wuhan University
 
 ## Related
 

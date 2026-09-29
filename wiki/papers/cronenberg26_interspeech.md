@@ -1,6 +1,7 @@
 ---
 id: cronenberg26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cronenberg26_interspeech.pdf
 *Johanna Cronenberg, Lori Lamel, Ioana Chitoran*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cronenberg26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cronenberg26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2433)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study analyzes the duration and formant dynamics of the vowel sequence /ia/ across large corpora of Italian and Romanian to investigate the diphthong-hiatus contrast. Results reveal that while Romanian exhibits overall steeper formant trajectories and longer durations consistent with a preference for hiatus, both languages display substantial phonetic overlap, indicating a gradient realization driven by lexical stress and word position.
 
@@ -56,6 +59,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving forced alignment, cross-lingual acoustic modeling, and text-to-speech prosody generation for Romance languages.
+
+## Institutions / 機構
+
+Universite Paris Cite, CNRS, Universite Paris-Saclay, Institut Universitaire de France
+
+**Funding / 經費:** ANR, IdEx program
 
 ## Related
 

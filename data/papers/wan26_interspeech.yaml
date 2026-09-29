@@ -8,6 +8,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/wan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/wan26_interspeech.pdf
 session: Multimodal Emotion Recognition
 topics: [paralinguistics, self-supervised]
+category: paralinguistics-emotion
+institutions:
+  - "Harbin Institute of Technology"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: son26_interspeech
-category: sound-event-detection
+category: audio-understanding
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/son26_interspeech.pdf
 *Gihun Son, Pil Moo Byun, Joon-Hyuk Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/son26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/son26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-855)
+
+**Category:** `audio-understanding` · **Labels:** `efficient-on-device`
 
 **TL;DR** — The paper introduces Teacher-Agnostic Temporal Knowledge Distillation (TAT-KD), a framework that distills knowledge from high-capacity sound event detection (SED) teachers into compact student models using a common logit space, a conformer-based temporal context projector, and a confidence-aware loss. It achieves a polyphonic sound detection score (PSDS) of 0.574 with a 4.548M-parameter SE-CRNN student on the DESED dataset.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart home monitoring systems, acoustic anomaly detection, automated urban surveillance, and resource-constrained edge robotics.
+
+## Institutions / 機構
+
+Hanyang University
+
+**Funding / 經費:** National Research Foundation of Korea
 
 ## Related
 

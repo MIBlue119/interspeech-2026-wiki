@@ -1,6 +1,7 @@
 ---
 id: visser26_interspeech
-category: spoken-language-understanding
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/visser26_interspeech.pdf
 *Nicol Visser, Simon Malan, Danel Slabbert, Herman Kamper*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/visser26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/visser26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-315)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — ZeroSyl is a training-free unsupervised syllable tokenization method for spoken language modeling that extracts boundaries from the L2 norms of frozen WavLM features, outperforming complex multi-stage pipelines across lexical, syntactic, and narrative benchmarks. When scaled to 60,000 hours of audio, its coarser syllabic units surpass frame-level tokenizers on syntactic modeling tasks.
 
@@ -67,6 +70,12 @@ Speech and ML researchers building pure speech language models without text shou
 ## Applications
 
 Unsupervised speech language modeling, low-resource speech technology, and text-free spoken dialogue systems.
+
+## Institutions / 機構
+
+Stellenbosch University
+
+**Funding / 經費:** Google PhD Fellowship Program
 
 ## Related
 

@@ -14,6 +14,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/masuyama26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/masuyama26_interspeech.pdf
 session: Spatial Audio 1
 topics: [spatial-audio, self-supervised, evaluation]
+category: applications-other
+institutions:
+  - "Mitsubishi Electric Research Laboratories"
+  - "University of Surrey"
 code:
     url: https://github.com/MERL/S2RNF
     license: ""

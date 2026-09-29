@@ -1,6 +1,7 @@
 ---
 id: wen26d_interspeech
-category: silent-speech-recognition
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wen26d_interspeech.pdf
 *Hongyu Wen, Yi Su, Yudong Yang, Siwen Guo, Qisheng Xu, Kele Xu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wen26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wen26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2646)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — A physics-aware and context-rich representation learning framework is proposed for ultrasound tongue imaging-based silent speech recognition, achieving a relative word error rate reduction of over 50% on unseen speakers compared to strong spatiotemporal baselines.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Silent speech interfaces for assistive healthcare, hands-free communication in high-noise environments, and secure communication systems.
+
+## Institutions / 機構
+
+National University of Defense Technology, Chinese Academy of Sciences
+
+**Funding / 經費:** National Science and Technology Major Project, National University of Defense Technology
 
 ## Related
 

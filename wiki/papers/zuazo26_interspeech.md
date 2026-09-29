@@ -1,6 +1,7 @@
 ---
 id: zuazo26_interspeech
-category: self-supervised
+category: asr
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zuazo26_interspeech.pdf
 *Xabier de Zuazo, Vincenzo Verbeni, Eva Navas, Ibon Saratxaga, Mathieu Bourguignon, Nicola Molinaro*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zuazo26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zuazo26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-439)
+
+**Category:** `asr` · **Labels:** `low-resource`
 
 **TL;DR** — This paper presents the first demonstration of MEG-to-MEG transfer learning and cross-task decoding for speech perception and production, using 50 hours of single-subject pre-training followed by fine-tuning on just 5 minutes of data per subject across 18 participants. Pre-training yields consistent performance gains, improving in-task accuracy by 1-4% and cross-task generalization by up to 5-6%.
 
@@ -67,6 +70,12 @@ Speech and BCI researchers tackling low-resource neural decoding should read thi
 ## Applications
 
 Low-resource speech brain-computer interfaces, clinical neural speech restoration, and multi-task neuroimaging decoding pipelines.
+
+## Institutions / 機構
+
+University of the Basque Country, Basque Center on Cognition, Brain and Language, Ikerbasque, Universite libre de Bruxelles, WEL Research Institute
+
+**Funding / 經費:** Basque Government, Spanish Government, MICIU, AEI
 
 ## Related
 

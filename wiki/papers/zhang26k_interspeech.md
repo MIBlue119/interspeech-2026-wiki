@@ -1,6 +1,6 @@
 ---
 id: zhang26k_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26k_interspeech.pdf
 *Ke Zhang, Xiaoyang Yu, Haoyu Li, Shuai Wang, Shuhan Zhang, Haizhou Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26k_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26k_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-784)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — WeSep is a modular and cue-composable framework that reformulates target speaker extraction (TSE) into a heterogeneous cue-conditioned learning problem, unifying single- and multi-modal cues under a shared separation backbone. It achieves 16.56 dB SI-SDRi on Libri2Mix using combined speaker features and supports dynamic missing-cue training.
 
@@ -66,6 +68,12 @@ Speech researchers and audio engineers building multi-modal target speaker extra
 ## Applications
 
 Real-time hearing aids, multi-modal video conferencing isolation systems, smart home speaker tracking, and robust speech recognition frontends under dynamic acoustic environments.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Shenzhen, Nanjing University, Shenzhen Loop Area Institute
+
+**Funding / 經費:** National Natural Science Foundation of China, Yangtze River Delta Science and Technology Innovation Community Joint Research Project, Shenzhen Science and Technology Program, Program for Guangdong Introducing Innovative and Enterpreneurial Teams, Shenzhen Stability Science Program
 
 ## Related
 

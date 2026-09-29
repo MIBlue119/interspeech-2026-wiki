@@ -1,6 +1,7 @@
 ---
 id: zhao26c_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhao26c_interspeech.pdf
 *Jiadong Zhao, Dahan Wang, Yu Sun, Leyan Yang, Xiaobin Rong, Shiruo Sun, Yuxiang Hu, Jing Lu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhao26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhao26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-601)
+
+**Category:** `enhancement-separation` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — HALO is a causal plug-in module that halves the internal frame rate of STFT-based speech enhancement backbones via adaptive dynamic convolutions, recovering compute budget for channel widening and improving PESQ on DNS3 by up to 0.1.
 
@@ -64,6 +67,12 @@ Speech and ML researchers building edge-deployable real-time speech enhancement 
 ## Applications
 
 Real-time edge speech enhancement for mobile phones, hearables, communication platforms, and hearing aids.
+
+## Institutions / 機構
+
+Nanjing University, Horizon Robotics, Samsung Electronics
+
+**Funding / 經費:** National Natural Science Foundation of China, AI & AI for Science Project of Nanjing University
 
 ## Related
 

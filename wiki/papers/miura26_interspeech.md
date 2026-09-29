@@ -1,6 +1,6 @@
 ---
 id: miura26_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/miura26_interspeech.pdf
 *Takahiro Miura, Masatsugu Sakajiri, Masaki Matsuo, Keiichi Yasu, Junji Onishi, Ken-ichiro Yabu, Tohru Ifukube*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/miura26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/miura26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3096)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper introduces the first Bayesian Item Response Theory (IRT) framework to evaluate text-to-speech (TTS) comprehension across extreme speech rates (150–500 WPM) for Japanese visually impaired screen reader users. It reveals that individual ability variations and visual impairment status (total blindness vs. low-vision) dominate speech rate tolerance, exceeding speed-induced difficulty changes.
 
@@ -62,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Personalized screen reader speed configuration, adaptive Text-to-Speech evaluation tools, and accessibility software optimization for visually impaired users.
+
+## Institutions / 機構
+
+National Institute of Advanced Industrial Science and Technology, Tsukuba University of Technology, University of Tokyo
+
+**Funding / 經費:** Japan Science and Technology Agency, Japan Society for the Promotion of Science
 
 ## Related
 

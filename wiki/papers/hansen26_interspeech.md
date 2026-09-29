@@ -1,12 +1,14 @@
 ---
 id: hansen26_interspeech
-category: evaluation
+category: resources-evaluation
 updated: 2026-09-28
 confidence: abstract-only
 source: https://www.isca-archive.org/interspeech_2026/hansen26_interspeech.html
 ---
 
 # Balancing Speech, Language and Hearing Science with Machine Learning Modeling in the Age of AI: "Know your Problem, Data, and Solution"
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — A keynote-style talk argues that speech and hearing science principles need to stay central alongside machine learning advances, drawing on decades of research into speaker variability, human perception, and large-scale conversational corpora.
 
@@ -29,6 +31,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Framing research agendas and training for the next generation of speech, hearing, and human-communication AI systems that stay grounded in domain science.
+
+## Institutions / 機構
+
+University of Texas at Dallas
 
 ## Related
 

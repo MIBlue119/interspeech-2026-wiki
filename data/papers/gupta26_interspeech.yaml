@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/gupta26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/gupta26_interspeech.pdf
 session: Model of Speech Perception
 topics: [self-supervised, multilingual, speech-llm]
+category: speech-llm-dialogue
+labels:
+  - "self-supervised"
+institutions:
+  - "Mila – Québec AI Institute"
+  - "ServiceNow"
+  - "McGill University"
+  - "Université Laval"
+funding:
+  - "Natural Sciences and Engineering Research Council of Canada"
+  - "Digital Research Alliance of Canada"
 code:
     url: https://github.com/ServiceNow/retreever
     license: ""

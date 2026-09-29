@@ -1,6 +1,6 @@
 ---
 id: ryu26c_interspeech
-category: target-speech-extraction
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ryu26c_interspeech.pdf
 *Taewon Ryu, Joon-Hyuk Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ryu26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ryu26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3266)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — SPOT-TSE is a multi-channel point-guided target speech extraction framework that conditions separation on a continuous spatial point query (distance and azimuth) using spatial query encoding and Mamba-based TF-GridNet blocks, achieving an SDR of 11.05 dB and a WER of 0.22 on complex randomized simulation datasets.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Smart glasses, hearables, selective listening aids, and wearable AR/VR audio hardware.
+
+## Institutions / 機構
+
+Hanyang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT
 
 ## Related
 

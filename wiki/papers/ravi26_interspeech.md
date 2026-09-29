@@ -1,6 +1,7 @@
 ---
 id: ravi26_interspeech
 category: asr
+labels: [multilingual, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ravi26_interspeech.pdf
 *Nagarathna Ravi, Madduri Aiswarya Lakshmi, Ragesh M, Rajalakshmi Elangovan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ravi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ravi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1355)
+
+**Category:** `asr` · **Labels:** `multilingual`, `robustness-noise`
 
 **TL;DR** — The paper introduces RanD, a continuous target score for ASR confidence estimation that combines probability rank and distribution distance to prevent the probability-collapse issues seen in prior true-class methods. Evaluated across CTC, RNN-T, TDT, and AED architectures on Hindi and English datasets, RanD-CEM consistently outperforms state-of-the-art baselines under both in-domain and out-of-domain evaluation conditions.
 
@@ -63,6 +66,12 @@ Researchers and engineers building confidence-aware speech transcription pipelin
 ## Applications
 
 Automated ASR error correction, selective downstream ingestion for speech translation, disfluency detection, and voice assistant safety filtering.
+
+## Institutions / 機構
+
+CSIR Fourth Paradigm Institute
+
+**Funding / 經費:** Council of Scientific and Industrial Research, Anusandhan National Research Foundation
 
 ## Related
 

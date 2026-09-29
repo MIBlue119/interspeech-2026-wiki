@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/variani26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/variani26_interspeech.pdf
 session: Audio Coding and Signal Analysis
 topics: [self-supervised, multilingual, speech-llm]
+category: speech-coding
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Google"
 code:
     url: https://github.com/google-research/mseb/tree/main/mseb
     license: ""

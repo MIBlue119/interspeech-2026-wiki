@@ -1,6 +1,6 @@
 ---
 id: dang26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dang26_interspeech.pdf
 *Phuong Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1508)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates the rhythmic structure of Vietnamese quadrisyllabic reduplicative words and finds an iambic pattern in syllable duration (S2 > S1, S4 > S3), supporting word-level stress and a disyllabic foot domain.
 
@@ -61,6 +63,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving prosodic modeling and duration generation in text-to-speech (TTS) systems for Vietnamese and isolating tonal languages.
+
+## Institutions / 機構
+
+Ohio State University
+
+**Funding / 經費:** Ilse Lehiste Memorial Fund
 
 ## Related
 

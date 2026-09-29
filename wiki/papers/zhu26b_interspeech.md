@@ -1,6 +1,7 @@
 ---
 id: zhu26b_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhu26b_interspeech.pdf
 *Yike Zhu, Ziqian Wang, Zikai Liu, Xingchen Li, Zhuangqi Chen, Xianjun Xia, Chuanzeng Huang, Lei Xie*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhu26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhu26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2148)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — G-MaP-SE is a guided speech enhancement framework that refines noise-corrupted speaker embeddings by matching them to a precomputed clean-speech Gaussian Mixture Model (GMM) prior, recovering performance close to oracle clean-conditioning under domain shift without needing enrollment audio.
 
@@ -67,6 +70,10 @@ Speech enhancement and ML researchers working on personalized or conditioned spe
 ## Applications
 
 Real-time communication systems, mobile speech enhancement apps, and hearing assistive devices operating in noisy environments where enrollment utterances from target users are unavailable.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University
 
 ## Related
 

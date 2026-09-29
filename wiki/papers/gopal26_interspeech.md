@@ -1,6 +1,7 @@
 ---
 id: gopal26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gopal26_interspeech.pdf
 *Shreyas Gopal, Donghang Wu, Ashutosh Anshul, Yeo Yue Heng, Yizhou Peng, Haoyang Li, Hexin Liu, Eng Siong Chng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gopal26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gopal26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2446)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — A language-aware context distillation framework for multilingual speech LLMs uses a query bank and a gating network to eliminate language interference, outperforming matched multilingual baselines by 14% on instruction following while keeping the speech encoder and LLM frozen.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Multilingual voice assistants, cross-lingual spoken question answering, and on-device conversational agents supporting low-resource regional languages.
+
+## Institutions / 機構
+
+Nanyang Technological University, AI Singapore, National University of Singapore, Institute for Infocomm Research, Agency for Science, Technology and Research
+
+**Funding / 經費:** WeBank-NTU Joint Research Institute on FinTech
 
 ## Related
 

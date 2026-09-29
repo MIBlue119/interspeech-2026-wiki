@@ -11,6 +11,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kawamura26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/kawamura26_interspeech.pdf
 session: Speech and Audio Quality Assessment
 topics: [tts, speech-quality-estimation, self-supervised]
+category: resources-evaluation
+institutions:
+  - "LY Corporation"
 code:
     url: https://github.com/lycorp-jp/PASQA
     license: ""

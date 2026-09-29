@@ -1,6 +1,7 @@
 ---
 id: akti26_interspeech
 category: tts
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/akti26_interspeech.pdf
 *Seymanur Akti, Alexander Waibel*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/akti26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/akti26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1159)
+
+**Category:** `tts` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — A flow-matching-based TTS model uses dual-axis pseudo-label conditioning to achieve continuous, independent, and joint control over vocal effort and articulation, successfully simulating human Lombard speech intelligibility gains in noisy environments.
 
@@ -64,6 +67,12 @@ Researchers and engineers building conversational agents or accessibility tools 
 ## Applications
 
 Accessibility technologies for hearing-impaired listeners, robust conversational agents operating in noisy environments, and dynamic repair strategies for spoken dialogue systems.
+
+## Institutions / 機構
+
+Karlsruhe Institute of Technology, Carnegie Mellon University, KIT Campus Transfer
+
+**Funding / 經費:** European Union Horizon Europe programme, KIT Campus Transfer GmbH
 
 ## Related
 

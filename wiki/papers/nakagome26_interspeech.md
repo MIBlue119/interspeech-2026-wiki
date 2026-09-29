@@ -1,6 +1,7 @@
 ---
 id: nakagome26_interspeech
-category: self-supervised
+category: audio-understanding
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nakagome26_interspeech.pdf
 *Yu Nakagome, Jaesong Lee, Soo-Whan Chung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nakagome26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nakagome26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-360)
+
+**Category:** `audio-understanding` · **Labels:** `self-supervised`
 
 **TL;DR** — MixProLAP is a probabilistic audio-language pretraining framework that models many-to-many cross-modal alignment ambiguities using additive waveform mixing and multi-level inclusion losses, outperforming deterministic CLAP baselines on zero-shot audio-text retrieval.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust zero-shot audio retrieval, sound event localization in complex acoustic environments, and multimodal audio-text search engines.
+
+## Institutions / 機構
+
+LINE WORKS Corporation, NAVER Cloud Corporation
 
 ## Related
 

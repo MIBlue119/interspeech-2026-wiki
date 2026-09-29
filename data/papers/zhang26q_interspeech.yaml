@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26q_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26q_interspeech.pdf
 session: Gender- and Age-Related Speech Characteristics
 topics: [phonetics, prosody, dataset]
+category: phonetics-linguistics
+institutions:
+  - "University of Macau"
+  - "Peking University"
+funding:
+  - "National Social Science Fund of China"
 code:
     url: ""
     license: ""

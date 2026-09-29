@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/fan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/fan26_interspeech.pdf
 session: Evaluation of Speech and Audio Analysis
 topics: [speech-enhancement, evaluation, self-supervised]
+category: resources-evaluation
+institutions:
+  - "Ohio State University"
+funding:
+  - "Ohio Supercomputer Center"
+  - "National Science Foundation"
 code:
     url: ""
     license: ""

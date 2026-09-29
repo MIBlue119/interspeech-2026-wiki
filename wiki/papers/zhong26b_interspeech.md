@@ -1,6 +1,7 @@
 ---
 id: zhong26b_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhong26b_interspeech.pdf
 *Terry Yi Zhong, Cristian Tejedor-Garcia, Khiet Truong, Janna Maas, Louis ten Bosch, Bastiaan R. Bloem*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhong26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhong26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1057)
+
+**Category:** `health-clinical` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — This paper introduces the first standardized benchmark for speech-based early-stage Parkinson's disease (EarlyPD) detection, featuring speaker-independent 5-fold splits across public datasets and establishing comprehensive baselines. The benchmark achieves an average AUC of 0.67 and F1 of 0.66 across tasks, demonstrating that early-stage detection is notably harder than all-stage PD classification.
 
@@ -67,6 +70,12 @@ Speech and ML researchers building clinical voice biomarkers should read this pa
 ## Applications
 
 Automated, non-invasive digital health screening tools for early-stage neurological disorder detection via smartphone or clinical voice recordings.
+
+## Institutions / 機構
+
+Radboud University, Radboud University Medical Center
+
+**Funding / 經費:** Dutch Research Council, SURF
 
 ## Related
 

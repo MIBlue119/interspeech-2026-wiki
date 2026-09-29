@@ -1,6 +1,7 @@
 ---
 id: khan26_interspeech
-category: audio-deepfake
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/khan26_interspeech.pdf
 *Awais Khan, Kutub Uddin, Khalid Malik*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/khan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/khan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3008)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — A dual-branch gated fusion framework pairs a frozen XLSR-53 SSL encoder with a 66-dimensional handcrafted acoustic descriptor (CORES) to achieve robust open-set audio deepfake source tracing. On the MLAAD benchmark, it attains 97.6% in-domain accuracy, 4.9% EERc, and an 83.5% relative reduction in FPR95 over the 2025 baseline with only ~0.9M trainable parameters.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Audio deepfake forensics, voice biometrics security, automated voice cloning detection, and platform content moderation.
+
+## Institutions / 機構
+
+University of Michigan, ProbeTruth Inc
 
 ## Related
 

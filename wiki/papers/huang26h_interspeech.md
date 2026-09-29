@@ -1,6 +1,7 @@
 ---
 id: huang26h_interspeech
 category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26h_interspeech.pdf
 *Wenbin Huang, Yuhang Qiu, Bohan Li, Yiwei Guo, Jing Peng, Hankun Wang, Xie Chen, Kai Yu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1409)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — This paper introduces a fine-grained abstention framework for ASR that allows models to output a special placeholder token ($\text{PH}$) for uncertain segments, accompanied by a human-calibrated Reliability-Aware Score (RAS) and a two-stage training pipeline (placeholder supervision followed by reinforcement learning). The proposed approach improves RAS from $-0.1093$ to $0.4786$ on code-switched data (TALCS) and increases robustness in noisy environments.
 
@@ -66,6 +69,12 @@ Speech and ML researchers studying selective prediction, uncertainty quantificat
 ## Applications
 
 High-stakes automatic speech transcription systems in medical documentation and legal recording where avoiding plausible-but-wrong hallucinations is critical.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University
+
+**Funding / 經費:** China NSFC Project
 
 ## Related
 

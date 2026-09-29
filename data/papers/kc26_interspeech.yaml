@@ -9,6 +9,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kc26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kc26_interspeech.pdf
 session: Speech and Language Representation
 topics: [speaker-verification, paralinguistics, evaluation]
+category: speaker
+institutions:
+  - "Government Engineering College Barton Hill"
+  - "Government Engineering College Idukki"
+  - "APJ Abdul Kalam Technological University"
 code:
     url: ""
     license: ""

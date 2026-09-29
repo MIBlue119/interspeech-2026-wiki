@@ -10,6 +10,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/elisha26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/elisha26_interspeech.pdf
 session: Speaker Identity, States, and Traits in Paralinguistics
 topics: [speech-paralinguistics, dataset, evaluation]
+category: paralinguistics-emotion
+institutions:
+  - "Spotify"
+  - "Queen Mary University of London"
 code:
     url: https://github.com/spotify-research/audiobook-narrations-interspeech
     license: ""

@@ -9,6 +9,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kim26t_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kim26t_interspeech.pdf
 session: Post-Training of Speech Foundation Models
 topics: [self-supervised, speech-llm, low-resource]
+category: speech-llm-dialogue
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+institutions:
+  - "Seoul National University"
+funding:
+  - "National Research Foundation of Korea"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "National IT Industry Promotion Agency"
 code:
     url: ""
     license: ""

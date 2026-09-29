@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/cram26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/cram26_interspeech.pdf
 session: Speech Production and Perception 2
 topics: [phonetics, low-resource, evaluation]
+category: phonetics-linguistics
+labels:
+  - "low-resource"
+institutions:
+  - "UCLA"
 code:
     url: ""
     license: ""

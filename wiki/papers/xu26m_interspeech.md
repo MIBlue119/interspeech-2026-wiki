@@ -1,6 +1,6 @@
 ---
 id: xu26m_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26m_interspeech.pdf
 *Tianze Xu, Volker Dellwo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1174)
+
+**Category:** `speaker`
 
 **TL;DR** — This study investigates how conversational familiarisation and attentional focus affect human voice recognition, showing that dialogue context induces a more liberal response bias rather than improving overall perceptual sensitivity.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving the ecological validity of speech evaluation tests, informing human-in-the-loop voice biometrics, and designing more natural conversational AI interfaces.
+
+## Institutions / 機構
+
+University of Zurich
+
+**Funding / 經費:** Marie Skłodowska-Curie Actions Doctoral Networks, European Union, Swiss State Secretariat for Education, Research and Innovation
 
 ## Related
 

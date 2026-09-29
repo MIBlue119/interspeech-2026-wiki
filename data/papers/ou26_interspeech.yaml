@@ -8,6 +8,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ou26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ou26_interspeech.pdf
 session: Perception and Appraisal of Prosody
 topics: [phonetics, prosody, evaluation]
+category: phonetics-linguistics
+institutions:
+  - "National Sun Yat-sen University"
+funding:
+  - "National Science and Technology Council"
 code:
     url: ""
     license: ""

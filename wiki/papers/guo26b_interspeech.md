@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/guo26b_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/guo26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/guo26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1097)
 
+**Category:** `asr`
+
 **TL;DR** — COALA introduces a contextual biasing framework for speech-augmented language models using a discriminative scoring projector and two novel loss functions (MPD-Loss and DPD-Loss) that prevent gradient collapse in multi-entity scenarios, achieving a 99.09% Recall#20 on LibriSpeech test-clean.
 
 ## Key contributions
@@ -66,6 +68,12 @@ Speech and ML researchers working on E2E contextual biasing should read this pap
 ## Applications
 
 Voice assistants, command-and-control systems, and domain-specific speech recognition (e.g., medical, legal, or contact-list dialing) requiring robust recognition of rare or proprietary entity names.
+
+## Institutions / 機構
+
+National Taiwan Normal University
+
+**Funding / 經費:** Realtek Semiconductor Corporation
 
 ## Related
 

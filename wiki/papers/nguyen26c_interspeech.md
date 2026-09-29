@@ -1,6 +1,7 @@
 ---
 id: nguyen26c_interspeech
 category: tts
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nguyen26c_interspeech.pdf
 *Tan Dat Nguyen, Sangmin Bae, Joon Son Chung, Ji-Hoon Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nguyen26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nguyen26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1031)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — MamTra is an interleaved Mamba-Transformer architecture for text-to-speech that initializes Mamba blocks from pretrained Transformer weights using closed-form parameter transfer, cutting inference VRAM usage by 34% with only a 0.25% absolute increase in Word Error Rate.
 
@@ -69,6 +72,12 @@ Speech and ML engineers looking to deploy LLM-based TTS systems on resource-cons
 ## Applications
 
 On-device voice assistants, real-time streaming dialogue agents, long-form audiobook and podcast generation.
+
+## Institutions / 機構
+
+Korea Advanced Institute of Science and Technology, Chung-Ang University
+
+**Funding / 經費:** Ministry of Science and ICT, Korea
 
 ## Related
 

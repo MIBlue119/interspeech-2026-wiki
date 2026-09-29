@@ -1,6 +1,7 @@
 ---
 id: murata26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/murata26_interspeech.pdf
 *Masato Murata, Koichi Miyazaki, Tomoki Koriyama, Tomoki Toda*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/murata26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/murata26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-208)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This study investigates whether pre-trained phoneme knowledge helps text-to-speech models learn unseen phonemes during fine-tuning ("phoneme addition"), finding that while fine-tuning improves naturalness, it offers limited benefit for phoneme error rate compared to training from scratch.
 
@@ -60,6 +63,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-resource text-to-speech development, cross-lingual voice adaptation, and building TTS systems for endangered or under-resourced languages with unique phonetic inventories.
+
+## Institutions / 機構
+
+CyberAgent, Nagoya University
+
+**Funding / 經費:** JSPS KAKENHI, BRIDGE Program
 
 ## Related
 

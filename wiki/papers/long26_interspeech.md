@@ -1,6 +1,7 @@
 ---
 id: long26_interspeech
-category: self-supervised
+category: speech-coding
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/long26_interspeech.pdf
 *Phillip Long, Zachary Novack, Chris Donahue*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/long26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/long26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1748)
+
+**Category:** `speech-coding` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — The paper introduces Trilobyte, a hierarchical byte-level tokenization scheme that reduces autoregressive language model vocabulary scaling from exponential to constant, enabling the first tractable neural lossless compression of full-fidelity 24-bit audio.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Lossless audio archiving, on-device audio storage optimization, and general-purpose byte-stream neural compression.
+
+## Institutions / 機構
+
+University of California, San Diego, Carnegie Mellon University
 
 ## Related
 

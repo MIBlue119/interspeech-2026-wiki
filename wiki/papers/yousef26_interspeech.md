@@ -1,6 +1,6 @@
 ---
 id: yousef26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yousef26_interspeech.pdf
 *Ahmed Yousef, Trishul Chowdhury, Gregory Ciccarelli, Thomas F. Quatieri, Robert Hillman, Daryush Mehta*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yousef26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yousef26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2777)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This study analyzes ambulatory voice and environmental noise recordings from voice-disordered patients and healthy controls to model real-world Lombard effects, finding that cepstral peak prominence (CPP) and noise variability are superior predictors of disorder-specific vocal adaptations compared to traditional pitch and loudness measures.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Continuous ambulatory health monitoring systems, digital biomarkers for voice disorders, and wearable assistive devices for occupational vocal safety.
+
+## Institutions / 機構
+
+Massachusetts General Hospital, Harvard Medical School, Northeastern University, MIT Lincoln Laboratory
+
+**Funding / 經費:** National Institutes of Health, National Institute on Deafness and Other Communication Disorders
 
 ## Related
 

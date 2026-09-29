@@ -1,6 +1,6 @@
 ---
 id: sanchez26b_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sanchez26b_interspeech.pdf
 *Victoria Sanchez, Oliver Roesler, Michael Neumann, David Pautler, Brian Richburg, Karen Chenausky, Yana Yunusova, Vikram Ramanarayanan, Jordan Green*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sanchez26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sanchez26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3022)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper analytically validates a markerless, single-camera 3D speech kinematics pipeline using MediaPipe Face Mesh, achieving a mean 3D unbiased RMS error of 2.03 mm compared to optical motion capture gold standards. It demonstrates that standard laptop video and even 15 fps bandwidth-constrained feeds are sufficient for millimeter-scale articulatory tracking.
 
@@ -61,6 +63,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Remote clinical monitoring of neurodegenerative and neuropsychiatric conditions (e.g., ALS, Parkinson's disease), and motor speech tracking for populations with limited access to academic medical centers.
+
+## Institutions / 機構
+
+Harvard University, Massachusetts General Hospital Institute of Health Professions, Modality.AI, University of California San Francisco, Sunnybrook Research Institute, University of Toronto
+
+**Funding / 經費:** National Institute on Deafness and Other Communication Disorders, Autism Science Foundation
 
 ## Related
 

@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhou26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhou26e_interspeech.pdf
 session: Emotional Speech Synthesis
 topics: [tts, self-supervised, evaluation]
+category: tts
+labels:
+  - "multilingual"
+  - "generative-model"
+institutions:
+  - "Nara Institute of Science and Technology"
+funding:
+  - "JSPS KAKENHI"
+  - "JST NEXUS"
 code:
     url: https://37integer.github.io/Beyond-One-Size-Fits-All/
     license: ""

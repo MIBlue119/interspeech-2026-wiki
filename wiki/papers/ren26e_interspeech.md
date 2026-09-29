@@ -1,6 +1,7 @@
 ---
 id: ren26e_interspeech
-category: speech-editing
+category: tts
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ren26e_interspeech.pdf
 *Yong Ren, Jiangyan Yi, Jianhua Tao, Tao Wang, Le Xu, Zhengqi Wen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ren26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ren26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1186)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — A text-based speech editing framework that performs token-level modifications in a disentangled semantic space rather than raw acoustic space, yielding lower WER and higher naturalness than state-of-the-art autoregressive baselines.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Podcast correction, audiobook revision, post-production dialogue editing, and voice-activated script changes in speech generation pipelines.
+
+## Institutions / 機構
+
+Chinese Academy of Sciences, University of Chinese Academy of Sciences, Tsinghua University
+
+**Funding / 經費:** National Natural Science Foundation of China, China Postdoctoral Science Foundation
 
 ## Related
 

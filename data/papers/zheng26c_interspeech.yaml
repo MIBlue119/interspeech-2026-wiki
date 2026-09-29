@@ -15,6 +15,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zheng26c_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zheng26c_interspeech.pdf
 session: Controllable and Expressive Speech Synthesis
 topics: [tts, self-supervised, prosody]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "University of Texas at Austin"
+  - "Amazon"
+funding:
+  - "Amazon.com"
 code:
     url: https://www.modelscope.cn/models/iic/CosyVoice-300M/file/view/master/campplus.onnx
     license: ""

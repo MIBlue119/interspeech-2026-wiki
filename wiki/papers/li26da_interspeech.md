@@ -1,6 +1,6 @@
 ---
 id: li26da_interspeech
-category: spatial-audio
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/li26da_interspeech.pdf
 *Mengtong Li, Tao Zhuang, Yu Sun, Shaozhe Li, Xuxiang Wu, Jia-Xin Zhong, Jing Lu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/li26da_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/li26da_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2170)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This paper introduces a carrier-aware sound zone control framework for parametric array loudspeakers (PALs) that treats the ultrasonic carrier as an active control variable alongside sidebands, achieving an 11.2 dB improvement in acoustic contrast and a 7.0 dB boost in target-zone sound pressure level.
 
@@ -63,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Private personal audio systems, directional sound beaming, and spatial acoustic zone control in shared environments.
+
+## Institutions / 機構
+
+Nanjing University, Samsung Electronics, Horizon Robotics
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: si26_interspeech
-category: evaluation
+category: enhancement-separation
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/si26_interspeech.pdf
 *Chen Si, Qianyi Wu, Chaitanya Amballa, Romit Roy Choudhury*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/si26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/si26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-513)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — MiNAF is a neural implicit model for room impulse response (RIR) generation that uses explicit local geometry features extracted from rough room meshes via ray casting. It outperforms state-of-the-art baselines across T60, C50, and EDT metrics while exhibiting robust performance under data-scarce and noisy mesh conditions.
 
@@ -65,6 +68,10 @@ Researchers and engineers building spatial audio simulators, AR/XR audio engines
 ## Applications
 
 Augmented and virtual reality (AR/XR) spatial audio rendering, interactive video game sound propagation, virtual acoustic prototyping for architectural design, and digital twin simulation.
+
+## Institutions / 機構
+
+University of California San Diego, Monash University, University of Illinois Urbana-Champaign
 
 ## Related
 

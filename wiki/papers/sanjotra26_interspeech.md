@@ -1,6 +1,7 @@
 ---
 id: sanjotra26_interspeech
-category: tts
+category: resources-evaluation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sanjotra26_interspeech.pdf
 *Jasmer Sanjotra, Nagendra Kumar, Shekhar Nayak*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sanjotra26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sanjotra26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2203)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`
 
 **TL;DR** — Automated objective MOS (O-MOS) predictors completely lose correlation with human naturalness ratings when evaluated on in-the-wild (ITW) discrete-token TTS systems. Specifically, UTMOSv2 correlation drops from r = 0.51 on continuous clean speech to r = -0.01 (non-significant) on discrete ITW generative speech.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech synthesis evaluation pipelines, automated quality control for in-the-wild voice cloning, and the development of robust, semantic-aware speech quality metrics.
+
+## Institutions / 機構
+
+Indian Institute of Technology Indore, University of Groningen
+
+**Funding / 經費:** IEEE Signal Processing Society Signal Processing Mentorship Academy
 
 ## Related
 

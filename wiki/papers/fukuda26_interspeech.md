@@ -1,6 +1,6 @@
 ---
 id: fukuda26_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/fukuda26_interspeech.pdf
 *Koki Fukuda, Shinnosuke Takamichi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/fukuda26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/fukuda26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-973)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — A large-scale online study of Japanese participants (N = 459) reveals that listening to recorded self-voice (playback) evokes significantly greater negative affect and discomfort compared to auditory imagery, while identity-related self-likeness remains largely unaffected. The evaluation gap is modulated by order effects, block drift, and stable listener traits interacting with acoustic features.
 
@@ -65,6 +67,12 @@ Speech researchers and ML engineers building personalized voice interfaces, TTS 
 ## Applications
 
 Personalized text-to-speech systems, voice conversion feedback filters, speech therapy applications for speech anxiety, and user-adaptive synthetic voice design.
+
+## Institutions / 機構
+
+Keio University, University of Tokyo
+
+**Funding / 經費:** JST Moonshot R&D, JST FOREST Program
 
 ## Related
 

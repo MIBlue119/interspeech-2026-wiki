@@ -1,6 +1,7 @@
 ---
 id: liu26c_interspeech
-category: speech-translation
+category: tts
+labels: [self-supervised, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26c_interspeech.pdf
 *Yisi Liu, Nicholas Lee, Gopala Anumanchipalli*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-404)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — StyleStream is the first streamable zero-shot speech-to-speech voice style conversion system that jointly transfers timbre, accent, and emotion with an end-to-end latency of ~1.01 seconds. It achieves state-of-the-art objective and subjective conversion quality, significantly outperforming prior baselines like Vevo and CosyVoice 2.
 
@@ -67,6 +70,12 @@ Researchers building real-time speech-to-speech voice conversion or unified voic
 ## Applications
 
 Real-time dubbing, cross-lingual accent/emotion transfer in live communication, immersive real-time voice changers, and interactive speech-to-speech translation systems.
+
+## Institutions / 機構
+
+UC Berkeley
+
+**Funding / 經費:** IARPA ARTS program, Meta AI, Robert E. & Beverly A. Brooks Endowed Chair in EECS, UC Berkeley
 
 ## Related
 

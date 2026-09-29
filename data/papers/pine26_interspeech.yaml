@@ -8,6 +8,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/pine26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/pine26_interspeech.pdf
 session: Speech Synthesis, Voice Conversion and Audio Generation
 topics: [tts, low-resource, evaluation]
+category: tts
+labels:
+  - "low-resource"
+  - "generative-model"
+institutions:
+  - "National Research Council"
+  - "University of Edinburgh"
+funding:
+  - "National Research Council of Canada"
+  - "UK ESRC Impact Acceleration Award"
 code:
     url: https://github.com/EveryVoiceTTS/EveryVoice
     license: ""

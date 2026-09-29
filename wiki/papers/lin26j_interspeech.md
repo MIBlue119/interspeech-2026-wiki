@@ -1,6 +1,7 @@
 ---
 id: lin26j_interspeech
-category: keyword-spotting
+category: asr
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26j_interspeech.pdf
 *Zheyuan Lin, Sirui Li, Zeyang Song, Zhiqi Zhang, Siqi Cai, Haizhou Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1858)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — The paper introduces First-to-Spike (F2S), an early-exit framework for Spiking Neural Networks that terminates inference upon the first output spike from a competitive layer, setting a new accuracy state-of-the-art on keyword spotting and EEG tasks while reducing energy consumption.
 
@@ -69,6 +72,12 @@ Researchers and engineers working on low-power speech recognition and brain-comp
 ## Applications
 
 Real-time keyword spotting on edge devices, brain-computer interface (BCI) decoding, and ultra-low-power continuous streaming time-series classification.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, National University of Singapore, Harbin Institute of Technology, Tsinghua University
+
+**Funding / 經費:** Program for Guangdong Introducing Innovative and Entrepreneurial Teams, Deutsche Forschungsgemeinschaft, National Natural Science Foundation of China, Shenzhen Stability Science Program, Shenzhen Key Lab of Multi-Modal Cognitive Computing, Guangdong Provincial Key Laboratory of Big Data Computing
 
 ## Related
 

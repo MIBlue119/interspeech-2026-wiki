@@ -1,6 +1,7 @@
 ---
 id: rafat26_interspeech
 category: asr
+labels: [low-resource, multilingual, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rafat26_interspeech.pdf
 *Kazi Rafat, Afifa Imran, Md. Ismail Hossain, Md. Romzan Ali, Fuad Rahman, Sifat Momen, Shafin Rahman, Nabeel Mohammed*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rafat26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rafat26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3334)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `streaming-real-time`
 
 **TL;DR** — This paper introduces a Dynamic Block-Online streaming ASR framework for low-resource, agglutinative intra-sentential Bangla-English code-switching, achieving an Eroot error of 0.29 and Emorph of 0.35 by combining VAD-aligned global attention with Script-Anchored Loanword Injection.
 
@@ -62,6 +65,10 @@ Speech and ML researchers working on streaming ASR for low-resource agglutinativ
 ## Applications
 
 Real-time speech recognition for bilingual conversational agents, localized voice assistants, and medical transcription systems handling domain-specific code-switched terminology.
+
+## Institutions / 機構
+
+North South University, Apurba Technologies
 
 ## Related
 

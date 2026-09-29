@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yang26q_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26q_interspeech.pdf
 session: Perception and Appraisal of Prosody
 topics: [phonetics, speech-perception, low-resource]
+category: phonetics-linguistics
+labels:
+  - "multilingual"
+institutions:
+  - "Seoul National University"
+  - "National Chengchi University"
 code:
     url: ""
     license: ""

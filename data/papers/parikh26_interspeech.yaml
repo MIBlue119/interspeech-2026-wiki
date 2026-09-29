@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/parikh26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/parikh26_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
 topics: [speech-llm, paralinguistics, evaluation]
+category: applications-other
+institutions:
+  - "Radboud University"
+funding:
+  - "Dutch Research Council"
+  - "NGF AiNed Fellowship Grants"
 code:
     url: https://github.com/Aditya3107/speechllm-l2-assessment
     license: ""

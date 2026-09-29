@@ -1,6 +1,7 @@
 ---
 id: mondal26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mondal26_interspeech.pdf
 *Hirak Mondal, Spandan Dey, Gopal Agrawal*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mondal26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mondal26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1133)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates LoRA-to-LoRA cross-lingual transfer for low-resource ASR using Whisper, demonstrating that initializing a recipient LoRA from an orthographically and genealogically aligned donor yields up to 17% relative WER reduction over recipient-only adaptation.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Rapid speech recognition adaptation for endangered, dialectal, and extremely low-resource languages lacking pre-training data in foundation models.
+
+## Institutions / 機構
+
+Samsung
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: liang26c_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liang26c_interspeech.pdf
 *Zheng Liang, Junjie Li, Kong Aik Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liang26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liang26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1135)
+
+**Category:** `speaker`
 
 **TL;DR** — The paper introduces Cross-Feature Knowledge Distillation (CFKD) to bridge the speaker recognition performance gap between neural audio codec tokens and continuous spectral features, achieving a 49.5% relative EER reduction on VoxCeleb2 at high bitrates.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Privacy-preserving speaker verification, voice biometrics for generative speech systems, and speaker diarization using compressed audio streams.
+
+## Institutions / 機構
+
+Hong Kong Polytechnic University
+
+**Funding / 經費:** Research Grants Council of the Hong Kong SAR, The Hong Kong Polytechnic University
 
 ## Related
 

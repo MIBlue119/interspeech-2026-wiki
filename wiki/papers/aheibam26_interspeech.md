@@ -1,6 +1,7 @@
 ---
 id: aheibam26_interspeech
-category: speech-translation
+category: phonetics-linguistics
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/aheibam26_interspeech.pdf
 *John Aheibam, Joyshree Chakraborty, Priyankoo Sarmah, Rohit Sinha*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/aheibam26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/aheibam26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3462)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper investigates speech rhythm and latent acoustic embeddings across five Northeast Indian English varieties and two Hindi varieties, demonstrating that traditional rhythm metrics reveal high overlap among regional English accents while self-supervised representations capture finer acoustic and prosodic distinctions.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving accented automatic speech recognition (ASR) and dialect identification systems for low-resource multilingual regions like Northeast India.
+
+## Institutions / 機構
+
+Indian Institute of Technology Guwahati
 
 ## Related
 

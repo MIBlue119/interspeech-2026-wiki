@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/agarwal26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/agarwal26_interspeech.pdf
 session: 'Robust ASR: Hallucinations and Biases'
 topics: [asr, self-supervised, evaluation]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Walmart Global Tech"
 code:
     url: ""
     license: ""

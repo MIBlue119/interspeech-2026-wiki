@@ -1,6 +1,7 @@
 ---
 id: poncelet26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/poncelet26_interspeech.pdf
 *Jakob Poncelet, Hugo Van hamme*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/poncelet26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/poncelet26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1039)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates fusing multiple pre-trained acoustic encoders via learned gates and transformer layers to enhance speech-aware large language models for automatic speech recognition, achieving lower word error rates than single-encoder baselines with minimal computational overhead.
 
@@ -64,6 +67,12 @@ Speech and ML researchers building multimodal LLMs will find this paper a practi
 ## Applications
 
 Multilingual automatic speech recognition, speaker-attributed diarized transcription, and robust voice command processing systems.
+
+## Institutions / 機構
+
+KU Leuven
+
+**Funding / 經費:** Research Foundation Flanders, Flemish Government, Flanders AI Research Program
 
 ## Related
 

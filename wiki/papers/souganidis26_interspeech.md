@@ -1,6 +1,7 @@
 ---
 id: souganidis26_interspeech
-category: spoken-language-understanding
+category: applications-other
+labels: [low-resource, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/souganidis26_interspeech.pdf
 *Christoforos Souganidis, Aitor Bellanco, Andoni Sudupe, Inma Hernáez, Ibon Saratxaga, Eva Navas*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/souganidis26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/souganidis26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1948)
+
+**Category:** `applications-other` · **Labels:** `low-resource`, `self-supervised`
 
 **TL;DR** — This paper investigates automated speaking assessment for low-resource languages by using self-supervised speech representations to classify C1-level proficiency in Basque, finding that multilingual mHuBERT-147 outperforms wav2vec 2.0 xlsr.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-assisted language learning (CALL) platforms, automated oral proficiency placement tests, and computer-based CEFR certification grading systems.
+
+## Institutions / 機構
+
+University of the Basque Country UPV/EHU
+
+**Funding / 經費:** Department of Culture and Language Policy of the Basque Government
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: leal26_interspeech
-category: asr
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/leal26_interspeech.pdf
 *Sidney Leal, Ariadne Matos, Edresson Casanova, Frederico Gonçalves, Renato Moraes Silva, Arnaldo Cândido Jr, Sandra Aluísio*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/leal26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/leal26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-450)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — Tarsila-ASR is a new 72-hour benchmark suite for spontaneous Brazilian Portuguese speech recognition that exposes severe degradation in off-the-shelf models, while fine-tuning on an aggregated 1,156-hour corpus achieves a new state-of-the-art WER of 15.40%.
 
@@ -66,6 +69,12 @@ Speech and ML engineers building conversational AI or speech-to-speech systems f
 ## Applications
 
 Conversational AI, real-time speech-to-speech duplex models, automatic meeting summarization, voice chatbots, and call center customer service solutions.
+
+## Institutions / 機構
+
+Venturus, University of São Paulo, NVIDIA, São Paulo State University
+
+**Funding / 經費:** Ministry of Science, Technology, and Innovations, PPI-SOFTEX, Softex
 
 ## Related
 

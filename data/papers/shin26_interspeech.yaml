@@ -10,6 +10,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/shin26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/shin26_interspeech.pdf
 session: Clinical and Inclusive Speech Technology
 topics: [target-speech-extraction, self-supervised, evaluation]
+category: enhancement-separation
+institutions:
+  - "Seoul National University"
+  - "University of Iowa"
+funding:
+  - "National Research Foundation of Korea"
+  - "Institute of Information & Communications Technology Planning & Evaluation"
 code:
     url: https://github.com/argaaw/TRUST-TSE
     license: ""

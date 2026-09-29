@@ -9,6 +9,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/xu26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/xu26e_interspeech.pdf
 session: Speech Enhancement and Restoration
 topics: [tts, voice-conversion, self-supervised]
+category: tts
+labels:
+  - "generative-model"
+institutions:
+  - "Tencent"
+  - "University of Electronic Science and Technology of China"
 code:
     url: https://github.com/vspeech/SCNet
     license: ""

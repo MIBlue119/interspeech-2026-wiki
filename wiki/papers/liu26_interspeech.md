@@ -1,6 +1,7 @@
 ---
 id: liu26_interspeech
-category: speech-llm
+category: health-clinical
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26_interspeech.pdf
 *Yin-Long Liu, Yuanchao Li, Yiming Wang, Yue Li, Rui Feng, Jiaxin Chen, Shaobo Liu, Liu He, Yuang Chen, Jiahong Yuan, Zhen-Hua Ling*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-88)
+
+**Category:** `health-clinical` · **Labels:** `generative-model`
 
 **TL;DR** — CoSTA is a text-to-speech data augmentation framework that conditions synthesis on cognitive states (Alzheimer's vs. Healthy Control) using ASR transcripts rather than manual ground-truth text, achieving an audio-only accuracy of 85.83% on the ADReSS test set.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated clinical screening tools for Alzheimer's Disease and cognitive decline detection from audio recordings.
+
+## Institutions / 機構
+
+University of Science and Technology of China, University of Edinburgh
+
+**Funding / 經費:** National Social Science Foundation of China
 
 ## Related
 

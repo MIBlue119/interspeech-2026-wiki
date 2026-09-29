@@ -1,6 +1,6 @@
 ---
 id: stasak26_interspeech
-category: dataset
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/stasak26_interspeech.pdf
 *Brian Stasak, Rebecca Li, Antonia Chacon, Rebecca Black, Cate Madill*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/stasak26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/stasak26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1783)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — CalliOpeNLP is a free, open-source python software tool that automates the collection, labeling, and compliance monitoring of 18 clinically validated voice tasks to eliminate in-person interaction bias and reduce post-processing overhead.
 
@@ -58,6 +60,10 @@ Speech researchers, digital health engineers, and clinical investigators buildin
 ## Applications
 
 Automated clinical voice data collection for biomedical research, digital health biobanks, telehealth screening, and paralinguistic or speech pathology datasets.
+
+## Institutions / 機構
+
+University of Sydney
 
 ## Related
 

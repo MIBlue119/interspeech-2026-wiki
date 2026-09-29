@@ -14,6 +14,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dutta26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dutta26_interspeech.pdf
 session: Speech Benchmarks, Evaluation, and Resources
 topics: [asr, tts, multilingual]
+category: resources-evaluation
+labels:
+  - "multilingual"
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Indian Institute of Technology Jodhpur"
+  - "EkStep Foundation"
+funding:
+  - "EkStep Foundation"
+  - "IndiaAI"
+  - "Meta"
 code:
     url: https://iab-rubric.org/resources/codes/spashta-audio-bench
     license: ""

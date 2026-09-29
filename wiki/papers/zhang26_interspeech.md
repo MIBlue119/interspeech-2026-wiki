@@ -1,6 +1,7 @@
 ---
 id: zhang26_interspeech
-category: source-separation
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26_interspeech.pdf
 *Wenjie Zhang, Changjun He, Yinghan Cao, Shiyun Xu, Mingjiang Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-87)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — AURA is a two-stage monaural-to-binaural audio synthesis framework combining a hybrid Transformer-CNN U-Net for coarse estimation with conditional flow matching for fine-grained spatial-spectral refinement, achieving a Wave-L2 of 0.123 and an overall MOS of 3.82.
 
@@ -67,6 +70,12 @@ Speech and audio researchers working on spatial audio rendering should read this
 ## Applications
 
 Virtual reality, augmented reality, immersive telepresence, and spatial audio enhancement for mono recordings.
+
+## Institutions / 機構
+
+Harbin Institute of Technology
+
+**Funding / 經費:** National Natural Science Foundation of China, Key Research and Development Program of Xinjiang Uygur Autonomous Region, Shenzhen Higher Education Institutions Stability Support Program, Guangdong Basic and Applied Basic Research Foundation
 
 ## Related
 

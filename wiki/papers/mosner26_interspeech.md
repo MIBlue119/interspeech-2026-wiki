@@ -1,6 +1,7 @@
 ---
 id: mosner26_interspeech
-category: speaker-verification
+category: speaker
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mosner26_interspeech.pdf
 *Ladislav Mošner, Sara Barahona, Sandro Cumani, Johan Rohdin, Jin Li, Oldřich Plchot*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mosner26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mosner26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3367)
+
+**Category:** `speaker` · **Labels:** `multilingual`
 
 **TL;DR** — This paper investigates language-variability compensation across the entire speaker verification pipeline for the TidyVoice 2026 Challenge, showing that adversarial front-end training, specialized back-ends, and score-level calibration deliver complementary robustness. The final system fusion achieves an Equal Error Rate of 2.53% on the tv26 eval-A evaluation set.
 
@@ -67,6 +70,12 @@ Read this paper if you are building speaker verification systems for highly mult
 ## Applications
 
 Cross-lingual speaker verification, forensic speaker recognition, and multilingual voice biometrics.
+
+## Institutions / 機構
+
+Brno University of Technology, Universidad Autonoma de Madrid, Politecnico di Torino, Hong Kong Polytechnic University
+
+**Funding / 經費:** Ministry of Education, Youth and Sports of the Czech Republic, Digital Europe Programme, MICIU/AEI, Comunidad de Madrid
 
 ## Related
 

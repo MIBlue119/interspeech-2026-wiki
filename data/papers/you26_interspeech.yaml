@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/you26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/you26_interspeech.pdf
 session: Text Processing for Speech Synthesis
 topics: [tts, evaluation, low-resource]
+category: tts
+labels:
+  - "efficient-on-device"
+institutions:
+  - "Hyundai Motor Group"
+funding:
+  - "Robotics Lab at Hyundai Motor Group"
 code:
     url: ""
     license: ""

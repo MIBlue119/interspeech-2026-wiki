@@ -1,6 +1,7 @@
 ---
 id: hao26_interspeech
 category: tts
+labels: [dataset-or-benchmark-release, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hao26_interspeech.pdf
 *Chunbo Hao, Junjie Zheng, Guobin Ma, Yuepeng Jiang, Huakang Chen, Wenjie Tian, Gongyu Chen, Zihao Chen, Lei Xie*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1547)
+
+**Category:** `tts` · **Labels:** `dataset-or-benchmark-release`, `generative-model`
 
 **TL;DR** — YingMusic-Singer is a fully diffusion-based singing voice synthesis model that performs alignment-free lyric editing using three inputs—an optional timbre reference, a melody-providing singing clip, and modified lyrics—outperforming baselines in melody preservation and lyric adherence on a newly introduced benchmark.
 
@@ -65,6 +68,10 @@ Researchers and engineers working on generative audio and singing voice editing 
 ## Applications
 
 Personalized cover song generation, song lyric adaptation, rapid vocal arrangement prototyping, and cross-lingual song localization.
+
+## Institutions / 機構
+
+Northwestern Polytechnical University, Giant Network
 
 ## Related
 

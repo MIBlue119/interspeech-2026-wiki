@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lyu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lyu26_interspeech.pdf
 session: Acoustic Event Detection 1
 topics: [speech-enhancement, dataset, self-supervised]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "South China University of Technology"
+funding:
+  - "National Natural Science Foundation of China"
+  - "China-Croatia Science and Technology Cooperation Committee"
 code:
     url: https://github.com/huanxian/TriA
     license: ""

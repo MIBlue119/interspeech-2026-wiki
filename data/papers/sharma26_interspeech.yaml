@@ -9,6 +9,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sharma26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/sharma26_interspeech.pdf
 session: Language and Dialect Recognition
 topics: [asr, low-resource, multilingual]
+category: speaker
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "robustness-noise"
+institutions:
+  - "Indian Institute of Technology Mandi"
+funding:
+  - "Ministry of Electronics and Information Technology"
 code:
     url: https://github.com/HeisenBug-07/Interspeech2026_SpCL
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: chen26w_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26w_interspeech.pdf
 *Qi Chen, Junyi Chen, Jiabin Han, Hongjiao Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26w_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26w_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2222)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — T-ORR frames multimodal sarcasm detection as a signal separation problem, using orthogonal projection and dynamic alignment to isolate non-verbal contradictions from literal text semantics and achieving state-of-the-art F1 scores of 76.8% on MUStARD and 72.4% on MUStARD++.
 
@@ -67,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated content moderation, social media sentiment analysis, customer service analytics, and empathetic conversational agents.
+
+## Institutions / 機構
+
+Tianjin Foreign Studies University, Beijing Language and Culture University
 
 ## Related
 

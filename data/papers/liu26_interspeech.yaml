@@ -18,6 +18,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/liu26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/liu26_interspeech.pdf
 session: Speech and Language Technologies for Health Applications 2
 topics: [speech-llm, paralinguistics, dataset]
+category: health-clinical
+labels:
+  - "generative-model"
+institutions:
+  - "University of Science and Technology of China"
+  - "University of Edinburgh"
+funding:
+  - "National Social Science Foundation of China"
 code:
     url: ""
     license: ""

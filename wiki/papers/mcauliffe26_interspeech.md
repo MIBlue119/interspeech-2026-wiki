@@ -1,6 +1,7 @@
 ---
 id: mcauliffe26_interspeech
 category: asr
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/mcauliffe26_interspeech.pdf
 *Michael McAuliffe, Kaylynn Gunter, Michael Wagner, Morgan Sonderegger*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/mcauliffe26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/mcauliffe26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2734)
+
+**Category:** `asr` · **Labels:** `multilingual`
 
 **TL;DR** — The paper presents Montreal Forced Aligner (MFA) 3.0, a major update featuring expanded multilingual pretrained models trained on up to 3.5k hours of speech, harmonized IPA dictionaries, and new tools for model adaptation and corpus processing. MFA 3.0 achieves state-of-the-art performance across English, Japanese, and Korean benchmarks with mean boundary errors consistently below 15 ms.
 
@@ -64,6 +67,12 @@ Speech researchers and ML engineers should read this paper to understand how lar
 ## Applications
 
 Automated corpus creation, phonetic and sociolinguistic speech analysis, psychoacoustic experimentation, and high-precision subtitle or timestamp generation.
+
+## Institutions / 機構
+
+University of Wisconsin-Madison, McGill University, University of Oregon
+
+**Funding / 經費:** Social Sciences and Humanities Research Council, Fonds de recherche sur la societe et la culture, Canada Foundation for Innovation, Canada Research Chairs, National Institutes of Health
 
 ## Related
 

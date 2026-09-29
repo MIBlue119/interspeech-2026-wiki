@@ -8,6 +8,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/dang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/dang26_interspeech.pdf
 session: Perception and Appraisal of Prosody
 topics: [phonetics, prosody, dataset]
+category: phonetics-linguistics
+institutions:
+  - "Ohio State University"
+funding:
+  - "Ilse Lehiste Memorial Fund"
 code:
     url: ""
     license: ""

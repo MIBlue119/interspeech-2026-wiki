@@ -1,6 +1,7 @@
 ---
 id: casalssalvador26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/casalssalvador26_interspeech.
 *Marc Casals-Salvador, Federico Costa, Rodolfo Zevallos, Javier Hernando*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/casalssalvador26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/casalssalvador26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1907)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `efficient-on-device`
 
 **TL;DR** — This paper presents a systematic benchmark of optimized, sub-quadratic attention mechanisms (RetNet, LightNet, GSA, FoX, and KDA) for Speech Emotion Recognition, revealing that while standard softmax attention achieves the best generalizability on evaluation tests, efficient variants reduce inference latency and GPU memory by up to an order of magnitude on long sequences.
 
@@ -67,6 +70,12 @@ Speech and ML engineers building production-grade or real-time SER systems shoul
 ## Applications
 
 Real-time speech emotion recognition, affective computing, conversational agents, and call center analytics.
+
+## Institutions / 機構
+
+Barcelona Supercomputing Center, Universitat Politecnica de Catalunya
+
+**Funding / 經費:** MICIU/AEI, Red.es, Ministerio para la Transformacion Digital y de la Funcion Publica, NextGenerationEU
 
 ## Related
 

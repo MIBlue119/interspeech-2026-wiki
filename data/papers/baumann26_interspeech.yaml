@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/baumann26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/baumann26_interspeech.pdf
 session: Prosody, Pronunciation and Specialized Speech Processing
 topics: [speech-llm, low-resource, evaluation]
+category: asr
+institutions:
+  - "Technische Hochschule Nurnberg"
+funding:
+  - "Bavarian Ministry of Health, Care and Prevention"
+  - "European Union"
 code:
     url: ""
     license: ""

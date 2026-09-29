@@ -1,6 +1,7 @@
 ---
 id: niu26c_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/niu26c_interspeech.pdf
 *Shihao Niu, Jianguo Wei, Wenhuan Lu, Xianghu Yue, Wei Li, Ming Zhou, Ming Cai, Luo Si*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/niu26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/niu26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1881)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper proposes a post-training framework for codec-based text-to-speech (TTS) that combines an auxiliary reward model (ChatScorer) with margin-based preference construction, reducing undesirable machine-like outputs and improving generation stability.
 
@@ -65,6 +68,10 @@ Speech and ML researchers working on preference optimization or reinforcement le
 ## Applications
 
 Conversational speech synthesis systems, virtual assistants, and interactive voice-based AI agents requiring highly stable, natural, and human-like voice outputs.
+
+## Institutions / 機構
+
+Tianjin University, Banma Network Technology
 
 ## Related
 

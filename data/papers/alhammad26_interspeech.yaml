@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/alhammad26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/alhammad26_interspeech.pdf
 session: Spoofing and Deepfake Detection 3
 topics: [audio-deepfake, self-supervised, speaker-verification]
+category: deepfake-security
+labels:
+  - "self-supervised"
+institutions:
+  - "Thaka"
+funding:
+  - "Thaka"
 code:
     url: ""
     license: ""

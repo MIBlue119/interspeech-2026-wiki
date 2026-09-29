@@ -12,6 +12,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/mitra26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/mitra26_interspeech.pdf
 session: Turn-taking
 topics: [speech-llm, multilingual, self-supervised]
+category: speech-llm-dialogue
+labels:
+  - "streaming-real-time"
+  - "generative-model"
+institutions:
+  - "Amazon"
+  - "IIT Kharagpur"
 code:
     url: ""
     license: ""

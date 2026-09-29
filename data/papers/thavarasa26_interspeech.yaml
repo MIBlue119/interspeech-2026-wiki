@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/thavarasa26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/thavarasa26_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
 topics: [speech-emotion-recognition, multilingual, self-supervised]
+category: paralinguistics-emotion
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "University of Moratuwa"
 code:
     url: https://github.com/aaivu/KuralHub
     license: ""

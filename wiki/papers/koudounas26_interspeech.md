@@ -1,6 +1,7 @@
 ---
 id: koudounas26_interspeech
-category: speech-enhancement
+category: health-clinical
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/koudounas26_interspeech.pdf
 *Alkis Koudounas, Moreno La Quatra, Quentin Jodelet, Hayato Futami, Valerio Mario Salerno, Sabato Marco Siniscalchi, Emiru Tsunoo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/koudounas26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koudounas26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2313)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — This paper adapts F5-TTS with clinical status token conditioning to synthesize pathological and healthy sustained vowels for data augmentation, showing that classifiers trained on 100k synthetic samples outperform real-data baselines by +3.9% accuracy and +13.3% sensitivity.
 
@@ -63,6 +66,12 @@ Researchers and engineers working on medical speech processing or clinical data 
 ## Applications
 
 Automated voice disorder screening, early non-invasive neurodegenerative disease detection (e.g., Parkinson's), and clinical data augmentation for low-resource medical datasets.
+
+## Institutions / 機構
+
+Sony Group Corporation, Kore University of Enna, Universita degli Studi di Palermo
+
+**Funding / 經費:** D.A.R.E. - Digital Lifelong Prevention
 
 ## Related
 

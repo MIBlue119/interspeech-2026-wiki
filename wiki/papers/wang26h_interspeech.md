@@ -1,6 +1,6 @@
 ---
 id: wang26h_interspeech
-category: self-supervised
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26h_interspeech.pdf
 *Jianrong Wang, Kaibin Bi, Jinghui Li, Ju Zhang, Qi Li, Ying Guo, Jing Zhao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-432)
+
+**Category:** `speaker`
 
 **TL;DR** — GMOD is an unsupervised voice-face association framework that uses global graph mining with curriculum learning and orthogonal feature disentanglement to mitigate false-negative conflicts. It achieves a state-of-the-art verification AUC of 87.73% on VoxCeleb1 without leveraging ground-truth identity labels during training.
 
@@ -67,6 +69,12 @@ Researchers working on unsupervised cross-modal representation learning or biome
 ## Applications
 
 Cross-modal biometric matching, speaker-face verification pipelines, and open-set multimedia retrieval systems.
+
+## Institutions / 機構
+
+Tianjin University, Tianjin Renai College, Tianjin University of Technology, Tianjin Beiyang Rongke Intelligent Technology Co., Ltd
+
+**Funding / 經費:** Key R&D Program of the Nanning Science Research and Technology Development Plan, Tianjin Science and Technology Program, Special Project for High-Quality Development of Manufacturing Industry
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: liu26l_interspeech
 category: tts
+labels: [efficient-on-device, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26l_interspeech.pdf
 *Chenlin Liu, Jie Gao, Wei Zhou, Guangyan Zhang, Minghui Fang, Jiqing Han*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1531)
+
+**Category:** `tts` · **Labels:** `efficient-on-device`, `generative-model`
 
 **TL;DR** — SaVE-Beam is an efficient beam decoding framework for language model-based text-to-speech that decouples hypothesis search from sequence evaluation using a lightweight student model and chunk-wise expansion, achieving a 5.1× speedup over traditional beam search and up to a 50% reduction in word error rate compared to standard sampling.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time streaming text-to-speech assistants, conversational voice agents, and high-fidelity zero-shot voice cloning systems requiring deterministic maximization decoding.
+
+## Institutions / 機構
+
+Harbin Institute of Technology, Tsinghua University, Zhejiang University
 
 ## Related
 

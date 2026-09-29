@@ -1,6 +1,7 @@
 ---
 id: rao26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/rao26_interspeech.pdf
 *Li Rao, Xiaobin Rong, Yu Sun, Yiming He, Kai Chen, Haishan Zou, Jing Lu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/rao26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/rao26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1608)
+
+**Category:** `enhancement-separation` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper introduces a causal, low-latency Reference-Enhanced Keep-Speech Active Noise Control (RSE-KSANC) framework that uses a neural network to suppress speech in the reference microphone signal, improving speech intelligibility and quality compared to conventional ANC.
 
@@ -67,6 +70,12 @@ Read this paper if you work on real-time audio enhancement or active noise contr
 ## Applications
 
 ANC headphones, hear-through communication devices, and smart hearables operating in high-noise conversational environments.
+
+## Institutions / 機構
+
+Nanjing University, Nanjing Institute of Advanced Artificial Intelligence, Samsung Electronics
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

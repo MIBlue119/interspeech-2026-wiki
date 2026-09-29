@@ -1,6 +1,7 @@
 ---
 id: park26h_interspeech
-category: paralinguistics
+category: resources-evaluation
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26h_interspeech.pdf
 *Joonyong Park, Jerry Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26h_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26h_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3025)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — AnimeScore is a preference-based dataset and evaluation framework for automated assessment of anime-like speech styles, achieving up to 90.8% AUC using SSL-based ranking models compared to a 69.3% ceiling for handcrafted acoustic features.
 
@@ -66,6 +69,10 @@ Speech and ML researchers building generative anime or character-styled speech m
 ## Applications
 
 Automated quality screening for stylized speech generation systems and reinforcement learning reward signals for aligning text-to-speech models toward target voice aesthetics.
+
+## Institutions / 機構
+
+Spellbrush
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: zhang26p_interspeech
-category: speech-anti-spoofing
+category: deepfake-security
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26p_interspeech.pdf
 *Xueping Zhang, Zhenshan Zhang, Yechen Wang, Linxi Li, Liwei Jin, Ming Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26p_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26p_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1187)
+
+**Category:** `deepfake-security` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — The paper introduces MultiAPI Spoof, a 230-hour speech anti-spoofing dataset spanning 30 distinct APIs, and Nes2Net-LA, a local-attention enhanced model that achieves state-of-the-art detection and zero-shot API tracing performance.
 
@@ -62,6 +65,10 @@ Researchers building robust deepfake detectors or studying commercial API source
 ## Applications
 
 Automated security screening for telephone and media platforms, digital forensics, and fine-grained source attribution of deepfake audio.
+
+## Institutions / 機構
+
+Duke Kunshan University, Chinese University of Hong Kong, Shenzhen, OfSpectrum
 
 ## Related
 

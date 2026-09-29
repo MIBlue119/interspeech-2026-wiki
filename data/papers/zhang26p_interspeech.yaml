@@ -13,6 +13,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26p_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26p_interspeech.pdf
 session: Spoofing and Deepfake Detection 1
 topics: [speech-anti-spoofing, self-supervised, dataset]
+category: deepfake-security
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Duke Kunshan University"
+  - "Chinese University of Hong Kong, Shenzhen"
+  - "OfSpectrum"
 code:
     url: https://github.com/XuepingZhang/MultiAPI-Spoof
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: yadav26b_interspeech
-category: audio-llm
+category: speech-llm-dialogue
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/yadav26b_interspeech.pdf
 *Amit Kumar Singh Yadav, Ritvik Shrivastava, Xuan Zhang, Seungwhan Moon, Shashank Jain, Pinar Donmez, Babak Damavandi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/yadav26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/yadav26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2807)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This paper introduces proactive audio assistance for AudioLLMs, enabling them to autonomously monitor audio streams and decide when to alert users based on a single natural-language intent. Using a new Interrupt and Silent Modeling (ISM) paradigm, the approach achieves 99.6% interrupt F1 on ESC-50 and robust zero-shot transfer to Epic-Sounds.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time wearable assistive devices for Deaf and Hard of Hearing (DHH) individuals, automated audio event monitors, and proactive smart-home notification systems.
+
+## Institutions / 機構
+
+Meta
 
 ## Related
 

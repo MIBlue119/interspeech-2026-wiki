@@ -1,6 +1,6 @@
 ---
 id: kim26x_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26x_interspeech.pdf
 *June-Woo Kim, Kangwook Jang, Minu Kim, Hyunju Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26x_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26x_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3437)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper proposes a hierarchical feature engineering framework (static, dynamic, ratio, and coupling features) for classifying phonotraumatic and non-phonotraumatic vocal hyperfunction from ambulatory neck-surface acceleration, achieving an AUC of 0.917 for phonotraumatic detection on the challenge test set.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated ambulatory health monitoring, wearable vocal hygiene trackers, and computer-aided clinical screening for voice disorders.
+
+## Institutions / 機構
+
+Wonkwang University, Gwangju Institute of Science and Technology, KAIST
+
+**Funding / 經費:** InnoCORE program of the Ministry of Science and ICT, Regional Innovation System and Education program through the Jeonbuk RISE Center
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: chen26t_interspeech
-category: speech-enhancement
+category: tts
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26t_interspeech.pdf
 *Qi-Yan Chen, Ming-Chi Yen, Fo-Rui Li, Hsin-Te Hwang, Ching-Hung Lai, Shu-Wei Tsai, Ping-Cheng Yeh, Jyh-Shing Roger Jang, Yu Tsao, Hsin-Min Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26t_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26t_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1882)
+
+**Category:** `tts` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — This study presents the first systematic electrolaryngeal voice conversion (ELVC) system for a newly invented nasal electrolarynx (NEL), introducing an LLE-VC data augmentation method that improves Character Error Rate (CER) from 72.0% to 63.0%.
 
@@ -61,6 +64,12 @@ Speech engineers and medical audio researchers working on voice restoration shou
 ## Applications
 
 Assistive speech restoration, real-time voice conversion for laryngectomy patients using nasal electrolarynx hardware, and biomedical voice prosthetics.
+
+## Institutions / 機構
+
+Academia Sinica, National Taiwan University, National Central University, National Cheng Kung University Hospital
+
+**Funding / 經費:** Taiwan National Science and Technology Council
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: arai26b_interspeech
-category: speech-production
+category: tts
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/arai26b_interspeech.pdf
 *Takayuki Arai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/arai26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/arai26b_interspeech.html)
+
+**Category:** `tts`
 
 **TL;DR** — This paper introduces a purely mechanical, computer-free method for speech synthesis using dynamic physical vocal-tract models controlled by interchangeable linear and rotating cam mechanisms. It successfully demonstrates the synthesis of the phrase 'I love you' with comparable acoustic spectrograms across both mechanisms.
 
@@ -58,6 +60,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Educational physical exhibits for acoustics and speech production, interactive museum displays demonstrating articulatory phonology, and alternative mechanical speech output devices.
+
+## Institutions / 機構
+
+Sophia University
+
+**Funding / 經費:** JSPS KAKENHI, Sophia University Special Grant for Academic Research
 
 ## Related
 

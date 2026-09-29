@@ -14,6 +14,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26k_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26k_interspeech.pdf
 session: Multi-Channel, Beamforming and Spatial Speech Enhancement
 topics: [speech-enhancement, self-supervised, on-device]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+  - "generative-model"
+institutions:
+  - "Meta"
+  - "Korea Advanced Institute of Science and Technology"
 code:
     url: ""
     license: ""

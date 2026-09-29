@@ -1,6 +1,6 @@
 ---
 id: azarski26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/azarski26_interspeech.pdf
 *Łukasz Łazarski, Bartłomiej Eljasiak, Szymon Szmajdziński, Teresa Makuch, Iwan Ryżenkow, Anna Plęs, Władysław Średniawa*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/azarski26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/azarski26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1435)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper presents a 1st-place ensemble framework for detecting phonotraumatic and nonphonotraumatic vocal hyperfunction from long-term neck-surface accelerometer data by applying customized temporal data segmentation and feature engineering strategies.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated ambulatory screening, continuous daily voice monitoring, and clinical biofeedback interventions for vocal hyperfunction disorders.
+
+## Institutions / 機構
+
+Samsung
 
 ## Related
 

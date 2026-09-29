@@ -1,6 +1,6 @@
 ---
 id: zhou26f_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhou26f_interspeech.pdf
 *Haojie Zhou, Shunfei Liang, Chengze Li, Zhizhong Bai, Yicheng Feng, Ning Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhou26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhou26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2118)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — A conflict-aware pseudo-labeling framework for multi-task speech emotion recognition derives fine-grained frame-level supervision solely from acoustic signals, achieving state-of-the-art results across benchmark datasets without requiring text transcripts.
 
@@ -65,6 +67,10 @@ Researchers and engineers tackling speech emotion recognition without textual tr
 ## Applications
 
 Affective computing systems, real-time empathetic conversational agents, call center sentiment monitoring, and interactive human-computer interfaces.
+
+## Institutions / 機構
+
+Jiangnan University
 
 ## Related
 

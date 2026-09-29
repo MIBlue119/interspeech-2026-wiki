@@ -1,6 +1,6 @@
 ---
 id: lee26x_interspeech
-category: speaker-verification
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lee26x_interspeech.pdf
 *Yowon Lee, Seongkyu Han, Thien-Phuc Doan, Souhwan Jung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lee26x_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lee26x_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3207)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — AGENT is a black-box adversarial attack framework that jointly deceives both Automatic Speaker Verification (ASV) and countermeasure (CM) modules in Spoofing-Aware Speaker Verification (ASV) systems, achieving up to 99.62% Attack Success Rate (ASR).
 
@@ -65,6 +67,12 @@ Speech security researchers and biometric authentication engineers should read t
 ## Applications
 
 Robustness auditing and vulnerability assessment for voice-controlled smart assistants, biometric banking authentication, and secure access-control systems.
+
+## Institutions / 機構
+
+Soongsil University
+
+**Funding / 經費:** Cyber Investigation Support Technology Development Program, Korea Institute of Police Technology, National Research Foundation of Korea
 
 ## Related
 

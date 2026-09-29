@@ -1,6 +1,6 @@
 ---
 id: turk26_interspeech
-category: spoken-language-understanding
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/turk26_interspeech.pdf
 *Olcay Türk, Stefan Lazarov, Yu Wang, Angela Grimminger, Hendrik Buschmeier, Petra Wagner*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/turk26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/turk26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-713)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper investigates "incongruent backchannels"—conversational feedback signals like "mhm" or nods that imply understanding when the addressee is actually confused—and trains a gradient-boosted tree classifier to separate them from congruent ones with an average precision of 0.73.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving conversational agents, spoken dialogue systems, and computer-supported collaborative learning environments by enabling real-time detection of user confusion masked by polite or automatic feedback.
+
+## Institutions / 機構
+
+Bielefeld University, Paderborn University, SFB/Transregio 318 ‘Constructing Explainability’
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

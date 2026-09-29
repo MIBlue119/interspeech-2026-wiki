@@ -1,6 +1,7 @@
 ---
 id: sunder26_interspeech
 category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sunder26_interspeech.pdf
 *Vishal Sunder, Samuel Thomas, Xulin Fan, Brian Kingsbury, George Saon, Avihu Dekel, Luis Lastras*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sunder26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sunder26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2441)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — The paper introduces a parameter-efficient, two-step generation framework for speech recognition with timestamps (SRWT) in speech LLMs, achieving a state-of-the-art 27ms alignment error in English while maintaining a word error rate identical to the base model.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Closed captioning, automated transcript synchronization, keyword-based audio retrieval, and fine-grained speech-text alignment tools.
+
+## Institutions / 機構
+
+IBM, University of Illinois Urbana-Champaign
 
 ## Related
 

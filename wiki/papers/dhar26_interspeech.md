@@ -1,6 +1,7 @@
 ---
 id: dhar26_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/dhar26_interspeech.pdf
 *Sandipan Dhar, Nirmesh J. Shah, Ashishkumar P. Gudmalwar, Pankaj Wasnik*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/dhar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/dhar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1655)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — OscillaTTS integrates an adaptive oscillatory activation function into a StyleTTS2-based diffusion decoder to better capture sharp prosodic dynamics, improving MUSHRA speech quality to 86.67 and reducing Word Error Rate on LJSpeech to 1.85%.
 
@@ -64,6 +67,10 @@ Researchers and audio engineers working on expressive or diffusion-based text-to
 ## Applications
 
 Expressive text-to-speech generation, conversational AI agents, audiobook narration, and emotional voice synthesis.
+
+## Institutions / 機構
+
+Sony
 
 ## Related
 

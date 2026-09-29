@@ -1,6 +1,6 @@
 ---
 id: silva26_interspeech
-category: source-separation
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/silva26_interspeech.pdf
 *Dashanka De Silva, Saurav Pahuja, Siqi Cai, Tanja Schultz, Haizhou Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/silva26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/silva26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1120)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — NeuroMultiSpEx is the first neuro-guided target speaker extraction system designed for 4-speaker scenarios using wearable 20-channel ear-EEG, achieving a headline 9.613 dB SI-SDRi by adaptively fusing temporal synchronization and speaker identity cues.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Brain-computer interface-enhanced hearing aids, wearable cocktail-party noise suppression systems, and cognitive attention-aware speech separation devices.
+
+## Institutions / 機構
+
+University of Bremen, Chinese University of Hong Kong, Shenzhen, Harbin Institute of Technology
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft, Program for Guangdong Introducing Innovative and Entrepreneurial Teams
 
 ## Related
 

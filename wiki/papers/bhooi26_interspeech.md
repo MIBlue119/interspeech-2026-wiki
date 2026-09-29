@@ -1,6 +1,7 @@
 ---
 id: bhooi26_interspeech
 category: asr
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bhooi26_interspeech.pdf
 *Puneet Singh Bhooi, Vinayak Abrol*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bhooi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bhooi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2229)
+
+**Category:** `asr` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — The paper demonstrates that diffusion-based LLMs (dLLMs) coupled with frozen speech encoders via a strict adapter-only alignment significantly outperform autoregressive (AR) counterparts in ASR, achieving a 2.807% WER on LibriSpeech test-clean while improving throughput by 45%.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time automatic speech recognition, voice-controlled digital assistants, and low-resource speech transcription pipelines.
+
+## Institutions / 機構
+
+Indraprastha Institute of Information Technology Delhi
+
+**Funding / 經費:** ANRF Core Research Grant, Government of India, Nebius Research Grant, Infosys Foundation, Infosys Centre for AI, IIITD
 
 ## Related
 

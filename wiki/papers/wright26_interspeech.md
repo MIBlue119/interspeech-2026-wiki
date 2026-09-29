@@ -1,6 +1,7 @@
 ---
 id: wright26_interspeech
-category: spoken-language-understanding
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wright26_interspeech.pdf
 *Sarah M. Wright, Mark Antoniou, Michael Tyler*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wright26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wright26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3404)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study demonstrates that overall code-switching frequency is unrelated to young adults' executive function (EF), whereas lexically motivated switching positively correlates with updating and inhibition, and frequent language brokering negatively correlates with them.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Informing the design of cognitive-linguistic evaluations, adaptive dialogue systems, and multilingual communication models that account for functional communicative context and lexical retrieval constraints.
+
+## Institutions / 機構
+
+Western Sydney University
 
 ## Related
 

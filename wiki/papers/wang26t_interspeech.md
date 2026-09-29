@@ -1,6 +1,6 @@
 ---
 id: wang26t_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26t_interspeech.pdf
 *Junyu Wang, Jian Zong, Tianrui Wang, Zhengding Luo, Meng Ge, Xiaobao Wang, Longbiao Wang, Jianwu Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26t_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26t_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1212)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — MATA is a training-free inference-time intervention that combats cross-modal attention imbalance in Large Audio Language Models (LALMs) by dynamically amplifying attention weights toward audio tokens in intermediate decoder layers, improving average reasoning accuracy by up to 5.4% on MMAR and securing second place in the Interspeech 2026 Audio Reasoning Challenge.
 
@@ -69,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving explainable audio question answering, audio reasoning, complex soundscape interpretation, and speech-text multimodal conversational agents.
+
+## Institutions / 機構
+
+Tianjin University, Nanyang Technological University, Huiyan Technology, Shenzhen Institute of Advanced Technology
 
 ## Related
 

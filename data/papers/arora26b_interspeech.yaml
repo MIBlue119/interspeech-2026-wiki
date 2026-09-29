@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/arora26b_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/arora26b_interspeech.pdf
 session: Robust Audio-Visual Speech Recognition
 topics: [asr, speech-llm, self-supervised]
+category: asr
+labels:
+  - "robustness-noise"
+institutions:
+  - "Imperial College London"
+  - "NatWest AI Research"
 code:
     url: https://github.com/PiyushArora99/VIB-AVSR
     license: ""

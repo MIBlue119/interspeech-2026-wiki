@@ -1,6 +1,7 @@
 ---
 id: pandey26_interspeech
-category: self-supervised
+category: phonetics-linguistics
+labels: [multilingual, dataset-or-benchmark-release, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/pandey26_interspeech.pdf
 *Ruchi Pandey, Tomi H. Kinnunen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/pandey26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/pandey26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1914)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `dataset-or-benchmark-release`, `robustness-noise`
 
 **TL;DR** — This paper establishes the first systematic acoustic-to-articulatory inversion (AAI) benchmarks on the bilingual Finnish-Russian FROST-EMA corpus, demonstrating that cross-language domain shifts degrade inversion performance (Pearson r drops of 0.10–0.20) more severely than cross-gender shifts (0.05–0.10 drops).
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Pronunciation training tools, speech synthesis, and automatic speech recognition systems utilizing articulatory features.
+
+## Institutions / 機構
+
+University of Eastern Finland
 
 ## Related
 

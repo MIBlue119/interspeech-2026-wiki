@@ -12,6 +12,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/maxwell26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/maxwell26_interspeech.pdf
 session: Challenges in Speech Data Collection, Curation, and Annotation
 topics: [dataset, evaluation, prosody]
+category: resources-evaluation
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "University of Melbourne"
+funding:
+  - "Melbourne Data Analytics Program Collaboration Grant"
+  - "Learning and Teaching Initiatives Grant"
 code:
     url: ""
     license: ""

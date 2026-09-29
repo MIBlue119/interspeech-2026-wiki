@@ -10,6 +10,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ullah26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ullah26_interspeech.pdf
 session: Audio Understanding and Representation Learning
 topics: [speech-llm, audio-captioning, multilingual]
+category: audio-understanding
+labels:
+  - "generative-model"
+institutions:
+  - "Yeungnam University"
+  - "Univ. Artois"
+  - "CRIL CNRS"
+funding:
+  - "National Research Foundation of Korea"
+  - "Ministry of Science, ICT and Future Planning"
+  - "Yeungnam University"
+  - "ANR"
 code:
     url: https://github.com/uu95/MAC
     license: ""

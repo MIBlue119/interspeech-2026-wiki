@@ -1,6 +1,6 @@
 ---
 id: zhang26da_interspeech
-category: spoken-language-understanding
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhang26da_interspeech.pdf
 *Peng Zhang, Qingyu Luo, Philip J.B. Jackson, Wenwu Wang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhang26da_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhang26da_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2157)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — The paper introduces Hierarchical Activity Grammar (HAG) with grammar-guided Viterbi decoding to infer act-sub-event parse trees from long-form audio event detections, achieving strong temporal-order consistency (Edit score of 35.3 on Eval) without requiring sub-activity or activity training labels.
 
@@ -59,6 +61,12 @@ Researchers and engineers building long-form speech and audio understanding syst
 ## Applications
 
 Long-form audio activity monitoring, egocentric audio analysis, smart home activity logging, and procedural task tracking.
+
+## Institutions / 機構
+
+University of Surrey
+
+**Funding / 經費:** Bang & Olufsen A/S, AURIC Project
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: krishnan26_interspeech
-category: speech-llm
+category: speech-llm-dialogue
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/krishnan26_interspeech.pdf
 *Aravind Krishnan, Karolina Stańczak, Dietrich Klakow*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/krishnan26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/krishnan26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-309)
+
+**Category:** `speech-llm-dialogue`
 
 **TL;DR** — The paper introduces JAMA, a joint optimization framework combining Greedy Coordinate Gradient (GCG) and Projected Gradient Descent (PGD) to simultaneously perturb both text and audio modalities in Spoken Language Models, achieving a 1.5× to 20× increase in jailbreak success rates compared to unimodal attacks.
 
@@ -61,6 +63,12 @@ Speech and ML security researchers building alignment guardrails for audio-langu
 ## Applications
 
 Auditing and red-teaming safety alignment in spoken language models, conversational speech assistants, and multimodal dialogue systems prior to public deployment.
+
+## Institutions / 機構
+
+Saarland University, DFKI, ETH Zurich
+
+**Funding / 經費:** European Defence Fund, ETH AI Center
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: powelldavies26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/powelldavies26_interspeech.pd
 *Thomas Powell-Davies, Rosey Billington*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/powelldavies26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/powelldavies26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1555)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates post-stop breathiness following voiceless onset stops (/p, t, k/) in Australian English, revealing that complex release phases with breathy voicing occur in over 40% of tokens. It demonstrates that accounting for these breathy phases alters standard durational and sociophonetic metrics like Voice Onset Time (VOT).
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving acoustic-phonetic transcription guidelines, enhancing sociolinguistic speaker profiling models, and refining acoustic modeling for under-resourced phonation phenomena in English varieties.
+
+## Institutions / 機構
+
+Australian National University
+
+**Funding / 經費:** Australian Government Research Training Program, HDR funding from the School of Literature, Language and Linguistics at the Australian National University
 
 ## Related
 

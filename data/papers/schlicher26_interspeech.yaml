@@ -12,6 +12,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/schlicher26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/schlicher26_interspeech.pdf
 session: Multimodal Emotion Recognition
 topics: [paralinguistics, speech-llm, evaluation]
+category: paralinguistics-emotion
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Technical University of Munich"
+  - "University Hospital of Tubingen"
+  - "University of Erlangen-Nuremberg"
+  - "Imperial College London"
 code:
     url: ""
     license: ""

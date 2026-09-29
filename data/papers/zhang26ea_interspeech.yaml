@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26ea_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26ea_interspeech.pdf
 session: Speech Emotion Recognition and Representation 3
 topics: [speech-llm, paralinguistics, emotion-recognition]
+category: paralinguistics-emotion
+institutions:
+  - "University of Tokyo"
+  - "University of Osaka"
+funding:
+  - "Japan Society for the Promotion of Science"
 code:
     url: ""
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: sonkar26_interspeech
-category: speech-synthesis
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sonkar26_interspeech.pdf
 *Yash Sonkar, Yasaswi Kilaru, Sudheera Yelimeli, Neil Shah, Vineet Gandhi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sonkar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sonkar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3023)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — Tongue2Speech is a lightweight non-autoregressive framework that maps tongue ultrasound video directly to mel-spectrograms using 3D spatio-temporal convolutions and a Transformer encoder. It achieves a state-of-the-art 15.93% WER in single-speaker settings and 31.64% WER in multi-speaker settings on the TaL corpus.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Practical silent speech interfaces for individuals with voice impairments (e.g., laryngectomy patients) and auxiliary articulatory feature conditioning for speech recognition.
+
+## Institutions / 機構
+
+International Institute of Information Technology Hyderabad, TCS Research
+
+**Funding / 經費:** Anusandhan National Research Foundation
 
 ## Related
 

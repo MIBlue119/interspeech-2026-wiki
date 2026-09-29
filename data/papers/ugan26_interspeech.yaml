@@ -9,6 +9,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ugan26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ugan26_interspeech.pdf
 session: Code-Switching ASR
 topics: [asr, multilingual, self-supervised]
+category: asr
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Karlsruhe Institute of Technology"
+  - "Carnegie Mellon University"
+funding:
+  - "European Union"
+  - "Federal Ministry of Education and Research"
+  - "Ministry of Science, Research and the Arts of Baden-Wurttemberg"
+  - "DFG"
 code:
     url: https://github.com/enesyugan/robust-code-switching-asr
     license: ""

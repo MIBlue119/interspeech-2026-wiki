@@ -1,6 +1,7 @@
 ---
 id: nieto26_interspeech
 category: asr
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/nieto26_interspeech.pdf
 *Rodrigo Nieto, Maria Angelika-Nikita, Diane Sarkis, Diyi Yang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/nieto26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/nieto26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-458)
+
+**Category:** `asr` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — This paper investigates dialect bias in Spanish and French Automatic Speech Recognition across 10 varieties using a new 20-hour evaluation corpus, demonstrating that transcription errors are systematically driven by linguistic and acoustic distance from high-resource training distributions and originate primarily in the model decoder.
 
@@ -66,6 +69,10 @@ Speech and ML researchers building inclusive multilingual speech models should r
 ## Applications
 
 Improving equitable speech recognition systems, voice-activated assistants, and automated transcription tools for public services, legal, and medical domains across diverse global dialects.
+
+## Institutions / 機構
+
+Stanford University, Google
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: liu26i_interspeech
 category: tts
+labels: [streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26i_interspeech.pdf
 *Changsong Liu, Tianrui Wang, Ye Ni, Yizhou Peng, Eng Siong Chng*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1192)
+
+**Category:** `tts` · **Labels:** `streaming-real-time`, `generative-model`
 
 **TL;DR** — This paper proposes a prosodic-boundary-aware post-training strategy for streaming LLM-based text-to-speech using weakly time-aligned data, achieving a 66.2% absolute reduction in long-form word error rate compared to standard interleaved baselines.
 
@@ -62,6 +65,12 @@ Speech and ML engineers building real-time interactive voice agents or speech-to
 ## Applications
 
 Real-time conversational voice assistants, duplex dialogue agents, and low-latency speech-to-speech translation systems.
+
+## Institutions / 機構
+
+Nanyang Technological University, Tianjin University, Southeast University
+
+**Funding / 經費:** RIE2025 Industry Alignment Fund - Industry Collaboration Projects, A*STAR, Alibaba Group, NTU Singapore, Alibaba-NTU Global e-Sustainability CorpLab
 
 ## Related
 

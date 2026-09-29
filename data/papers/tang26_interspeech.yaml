@@ -10,6 +10,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/tang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/tang26_interspeech.pdf
 session: 'Audio Language Models: Reasoning, Reliability, and Multimodal Understanding'
 topics: [keyword-spotting, self-supervised, multilingual]
+category: asr
+institutions:
+  - "Huazhong University of Science and Technology"
 code:
     url: ""
     license: ""

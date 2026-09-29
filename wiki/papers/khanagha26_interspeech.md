@@ -1,6 +1,7 @@
 ---
 id: khanagha26_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/khanagha26_interspeech.pdf
 *Sina Khanagha, Timo Gerkmann*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/khanagha26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/khanagha26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2707)
+
+**Category:** `enhancement-separation` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates how U-Net based speech dereverberation models implicitly learn room impulse response (RIR) representations, and proposes explicitly conditioning them on pre-trained contrastive RIR embeddings to achieve up to 0.28 PESQ gains while requiring fewer inference steps.
 
@@ -63,6 +66,12 @@ Speech and ML researchers working on diffusion-based audio generation or acousti
 ## Applications
 
 Single-channel speech enhancement, robust automatic speech recognition front-ends, and teleconferencing systems operating in reverberant rooms.
+
+## Institutions / 機構
+
+University of Hamburg
+
+**Funding / 經費:** Deutsche Forschungsgemeinschaft
 
 ## Related
 

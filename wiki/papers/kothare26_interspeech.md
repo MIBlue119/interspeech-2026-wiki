@@ -1,6 +1,6 @@
 ---
 id: kothare26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kothare26_interspeech.pdf
 *Hardik Kothare, Michael Neumann, Vikram Ramanarayanan*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kothare26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kothare26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2847)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper demonstrates that speech and facial digital biomarkers identify functional decline in ALS significantly faster than the clinical gold-standard ALSFRS-R, enabling dramatic reductions in clinical trial sample sizes and durations. Across 144 participants, maximum lip width and acoustic features detected meaningful decline within 4 to 14 days for 20% of patients, compared to 208 to 660 days for ALSFRS-R subscores.
 
@@ -68,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Accelerating pharmaceutical clinical trials for neurodegenerative diseases and deploying remote, automated digital biomarker monitoring for ALS functional decline.
+
+## Institutions / 機構
+
+Modality.AI
+
+**Funding / 經費:** National Institutes of Health
 
 ## Related
 

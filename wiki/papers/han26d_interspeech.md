@@ -1,6 +1,7 @@
 ---
 id: han26d_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/han26d_interspeech.pdf
 *Dongrui Han, Weidong Chen, Jiawen Kang, Mingyu Cui, Helen Meng, Xixin Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/han26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/han26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2107)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — This paper proposes an imitation learning framework with a two-stage on-policy reward learning (OPRL) strategy for Group Relative Policy Optimization (GRPO) to synthesize elder-facing speech from expert demonstrations without reward hacking. The final model achieves a top subjective MOS of 3.78 from older adult listeners, outperforming baseline SFT and vanilla GRPO.
 
@@ -66,6 +69,12 @@ Speech and ML researchers tackling RL alignment in low-resource speech generatio
 ## Applications
 
 Elder-facing voice assistants, healthcare communication systems, automated announcement systems for senior care facilities, and inclusive speech synthesis interfaces.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Tencent
+
+**Funding / 經費:** National Natural Science Foundation of China, Centre for Perceptual and Interactive Intelligence, Innovation and Technology Commission of the Hong Kong Special Administrative Region Government
 
 ## Related
 

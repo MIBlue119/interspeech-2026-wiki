@@ -14,6 +14,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/bai26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/bai26_interspeech.pdf
 session: Singing Voice and Music Generation
 topics: [tts, low-resource, self-supervised]
+category: tts
+labels:
+  - "low-resource"
+  - "dataset-or-benchmark-release"
+  - "generative-model"
+institutions:
+  - "Xiamen University"
+  - "Alibaba Group"
+funding:
+  - "Major Scientific Research Project of the State Language Commission in the 13th Five-Year Plan"
 code:
     url: https://anonymous.4open.science/api/repo/YueOpera_Benchmark-6914/file/index.html
     license: ""

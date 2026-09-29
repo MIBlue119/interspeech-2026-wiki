@@ -1,6 +1,6 @@
 ---
 id: holt26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/holt26_interspeech.pdf
 *Rebecca Holt, Parisa McGirr, Chi Yhun Lo, Anita Szakay*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/holt26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/holt26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3053)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates talker discrimination and identification in 7-12-year-old typically-developing children, finding that phonological working memory predicts talker identification accuracy but not discrimination.
 
@@ -64,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Assessment design for clinical speech-language pathology, screening tools for developmental language disorders, and pediatric auditory training paradigms.
+
+## Institutions / 機構
+
+Macquarie University
+
+**Funding / 經費:** Macquarie University, Australian Linguistic Society
 
 ## Related
 

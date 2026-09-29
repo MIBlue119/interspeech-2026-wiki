@@ -1,6 +1,7 @@
 ---
 id: bhat26_interspeech
-category: speech-llm
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bhat26_interspeech.pdf
 *Manjiri Bhat, Ravindra B. Keskar*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bhat26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bhat26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-135)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — A multi-task framework built on the Whisper-small encoder jointly performs ASR, speech emotion recognition, and acoustic scene classification using a VAD-inspired gating mechanism that cuts ASR hallucinations on non-speech inputs from over 96% down to under 1%.
 
@@ -66,6 +69,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Assistive technologies, smart home monitoring systems, emergency alert dispatchers, and elder-care audio surveillance agents.
+
+## Institutions / 機構
+
+Visvesvaraya National Institute of Technology Nagpur
 
 ## Related
 

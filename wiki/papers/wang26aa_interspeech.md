@@ -1,6 +1,7 @@
 ---
 id: wang26aa_interspeech
-category: speech-enhancement
+category: resources-evaluation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26aa_interspeech.pdf
 *Wei Wang, Wangyou Zhang, Chenda Li, Jiahe Wang, Samuele Cornell, Marvin Sach, Kohei Saijo, Yihui Fu, Zhaoheng Ni, Mengxiao Bi, Tim Fingscheidt, Shinji Watanabe, Yanmin Qian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26aa_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26aa_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1671)
+
+**Category:** `resources-evaluation` · **Labels:** `robustness-noise`
 
 **TL;DR** — URGENT-MOS is a unified speech quality assessment framework that jointly models absolute multi-metric quality prediction and pairwise preference prediction under heterogeneous supervision, achieving state-of-the-art cross-domain robustness.
 
@@ -68,6 +71,12 @@ Researchers building modern generative speech evaluation pipelines should read t
 ## Applications
 
 Automated evaluation of text-to-speech, voice conversion, and speech enhancement systems, as well as reward modeling for generative speech alignment.
+
+## Institutions / 機構
+
+Shanghai Jiao Tong University, Carnegie Mellon University, Technische Universitat Braunschweig, Meta, Waseda University, VUI Labs
+
+**Funding / 經費:** National Key Research and Development Program of China, China NSFC Project, SJTU Med-X Translational Research Grant
 
 ## Related
 

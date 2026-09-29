@@ -1,6 +1,7 @@
 ---
 id: getman26b_interspeech
-category: self-supervised
+category: asr
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/getman26b_interspeech.pdf
 *Yaroslav Getman, Tamás Grósz, Mikko Kurimo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/getman26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/getman26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-566)
+
+**Category:** `asr` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper re-evaluates the informativeness of learned layer weights in self-supervised speech models, showing that they systematically reflect internal pretrained information structures (measured via adjusted mutual information with phone and word labels) rather than being arbitrary, especially for contrastive models under low-resource supervision.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic tool for auditing internal layer specialization, guiding architecture selection, and designing parameter-efficient adaptation layers in speech foundation model pipelines.
+
+## Institutions / 機構
+
+Aalto University, South East Technological University
+
+**Funding / 經費:** Business Finland, Foundation for Aalto University Science and Technology
 
 ## Related
 

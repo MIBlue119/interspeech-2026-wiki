@@ -1,6 +1,6 @@
 ---
 id: alali26_interspeech
-category: asr
+category: deepfake-security
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/alali26_interspeech.pdf
 *Hamdan Al-Ali, Ali Reza Ghavamipour, Tommaso Caselli, Fatih Turkmen, Zeerak Talat, Hanan Aldarmaki*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/alali26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/alali26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-327)
+
+**Category:** `deepfake-security`
 
 **TL;DR** — This paper investigates white-box attribute inference attacks against automatic speech recognition (ASR) models trained in a federated learning setting, revealing that underrepresented personal attributes such as accent and age can be reliably inferred from weight updates alone. The attack achieves up to 100% accuracy for certain traits without requiring access to raw user audio.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Auditing privacy vulnerabilities in federated ASR systems, designing demographically robust pre-training pipelines, and developing differentially private or secure aggregation protocols for speech applications.
+
+## Institutions / 機構
+
+Mohamed bin Zayed University of Artificial Intelligence, Maastricht University, University of Groningen, University of Edinburgh
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: koluguri26_interspeech
-category: asr
+category: resources-evaluation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.pdf
 *Nithin Rao Koluguri, Sasha Meister, Nikolay Karpov, Piotr Żelasko, Desh Raj, Jagadeesh Balam, Boris Ginsburg*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koluguri26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-728)
+
+**Category:** `resources-evaluation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — Preference-ASR is a new benchmark and preference-aware normalizer that evaluates speech LLMs on following natural-language instructions for ASR formatting across normalization, entities, disfluencies, and casing. Benchmarking four systems reveals that standard WER masks major instruction-following capabilities and failure modes, such as prompt-driven entity hallucination.
 
@@ -67,6 +70,10 @@ Speech researchers and engineers building instruction-following speech LLMs shou
 ## Applications
 
 Developing reliable instruction-aware speech transcription pipelines for diverse downstream use cases like database ITN ingestion, broadcast script TN formatting, verbatim pronunciation coaching, and clean meeting summarization.
+
+## Institutions / 機構
+
+NVIDIA
 
 ## Related
 

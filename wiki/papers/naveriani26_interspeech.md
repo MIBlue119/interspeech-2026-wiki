@@ -1,6 +1,7 @@
 ---
 id: naveriani26_interspeech
 category: asr
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/naveriani26_interspeech.pdf
 *Davyd Naveriani, Albert Zeyer, Ralf Schlüter, Hermann Ney*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/naveriani26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/naveriani26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2070)
+
+**Category:** `asr` · **Labels:** `generative-model`
 
 **TL;DR** — This paper investigates discrete diffusion language models—specifically Masked Diffusion Language Models (MDLM) and Uniform-State Diffusion Models (USDM)—for ASR rescoring and proposes a novel token-level joint CTC-USDM decoding framework, achieving a WER of 4.47% on LibriSpeech dev-other while reaching an RTF of 0.003.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automatic speech recognition, high-throughput speech transcription pipelines, and non-autoregressive speech-to-text decoding.
+
+## Institutions / 機構
+
+RWTH Aachen University, AppTek
+
+**Funding / 經費:** NeuroSys, Federal Ministry of Research, Technology and Space BMFTR, RESCALE, Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection, Federal Ministry of Education and Research
 
 ## Related
 

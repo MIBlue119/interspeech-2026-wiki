@@ -1,6 +1,7 @@
 ---
 id: song26c_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/song26c_interspeech.pdf
 *Haoyu Song, Ian McLoughlin, Yan Song, Lirong Dai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/song26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/song26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-969)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `self-supervised`
 
 **TL;DR** — A segment-wise speech embedding graph attention network (SSE-GAT) leverages a frozen HuBERT-large backbone and a post-trained 1D Swin-Transformer adaptor to capture fine-grained emotional dynamics, achieving 76.84% UA on IEMOCAP.
 
@@ -69,6 +72,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Human-computer interaction, affective computing, mental health monitoring, and customer service analytics.
+
+## Institutions / 機構
+
+Singapore Institute of Technology, University of Science and Technology of China
 
 ## Related
 

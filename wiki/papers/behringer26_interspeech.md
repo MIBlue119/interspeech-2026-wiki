@@ -1,6 +1,7 @@
 ---
 id: behringer26_interspeech
 category: speech-coding
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/behringer26_interspeech.pdf
 *Lyonel Behringer, Anna Leschanowsky, Anjana Rajasekhar, Emily Kratsch, Guillaume Fuchs*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/behringer26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/behringer26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1459)
+
+**Category:** `speech-coding` · **Labels:** `robustness-noise`
 
 **TL;DR** — A crowdsourced subjective evaluation of speech codecs reveals that classical codecs are significantly more noise-robust than neural codecs, though pre-processing with a speech enhancement model effectively bridges this performance gap. Furthermore, listening effort ratings successfully differentiate codec performance even when sentence-level intelligibility scores hit ceiling effects.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time communication systems, mobile VoIP applications, hearing aid speech processing pipelines, and ultra-low bitrate audio transmission.
+
+## Institutions / 機構
+
+Fraunhofer Institute for Integrated Circuits
+
+**Funding / 經費:** Free State of Bavaria
 
 ## Related
 

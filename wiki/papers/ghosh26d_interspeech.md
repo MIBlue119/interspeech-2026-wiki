@@ -1,6 +1,6 @@
 ---
 id: ghosh26d_interspeech
-category: asr
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ghosh26d_interspeech.pdf
 *Arindam Ghosh, Mark Fuhs, Bongjun Kim, Anurag Chowdhury, Monika Woszczyna*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ghosh26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ghosh26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-880)
+
+**Category:** `speaker`
 
 **TL;DR** — The paper adapts an ASR-synchronized dual-transducer architecture for joint speaker-role diarization (RD) by demonstrating that role prediction relies more on linguistic context than acoustic features. It introduces task-specific predictors, upper-layer ASR encoder features, and a 1-best cross-entropy loss, outperforming baseline models by up to 6.2% R-WDER on real-world medical data.
 
@@ -66,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated medical scribing, clinical documentation generation, multi-speaker conversational summarization, and meeting transcription systems requiring role-attributed logs.
+
+## Institutions / 機構
+
+Solventum Health Information Systems
 
 ## Related
 

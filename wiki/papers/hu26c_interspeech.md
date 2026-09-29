@@ -1,6 +1,6 @@
 ---
 id: hu26c_interspeech
-category: keyword-spotting
+category: asr
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/hu26c_interspeech.pdf
 *Ming-Hsiang Hu, Kuan-Tang Huang, Chien-Chun Wang, Hung-Shin Lee, Berlin Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/hu26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/hu26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1130)
+
+**Category:** `asr`
 
 **TL;DR** — ZP-KWS is a 1.55M-parameter framework for zero-shot personalized keyword spotting that uses a GE2E-pretrained speaker encoder and a phoneme-supervised audio encoder combined via multiplicative late fusion, reducing target-only FRR at 1% FAR by up to 60% relative to prior baselines.
 
@@ -69,6 +71,12 @@ Speech and ML engineers building on-device voice assistants should read this pap
 ## Applications
 
 Secure, personalized edge voice user interfaces, wake-word detection systems, and always-on smart home or mobile device assistants resistant to playback attacks and impostors.
+
+## Institutions / 機構
+
+National Taiwan Normal University, E.SUN Financial Holding Co., Ltd, United Link Co., Ltd
+
+**Funding / 經費:** Realtek Semiconductor Corporation
 
 ## Related
 

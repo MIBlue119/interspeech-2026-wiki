@@ -12,6 +12,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26w_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26w_interspeech.pdf
 session: Multimodal and Non-Speech Healthcare Applications
 topics: [speech-enhancement, evaluation, health]
+category: speech-coding
+labels:
+  - "dataset-or-benchmark-release"
+institutions:
+  - "Hunan University"
+  - "Xiaomi"
+  - "Yuelushan Center for Industrial Innovation"
+funding:
+  - "Beijing Xiaomi Mobile Software Co., Ltd"
+  - "National Natural Science Foundation of China"
+  - "National Science and Technology Major Project of China"
+  - "Science and Technology Innovation Program of Hunan Province"
 code:
     url: ""
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: lin26c_interspeech
-category: speech-llm
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26c_interspeech.pdf
 *Yu-Xiang Lin, Chen-An Li, Sheng-Lun Wei, Po-Chun Chen, Hsin-Hsi Chen, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1025)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper provides the first systematic study of position bias in Large Audio-Language Models (LALMs) on multiple-choice benchmarks, demonstrating that shuffling answer options causes accuracy fluctuations of up to 24% and alters model leaderboards. The authors show that permutation-based mitigation strategies effectively stabilize evaluation outcomes.
 
@@ -65,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Standardized evaluation frameworks for audio-language models, speech-based automated testing systems, and robust multi-modal benchmark design.
+
+## Institutions / 機構
+
+National Taiwan University
+
+**Funding / 經費:** Ministry of Education, Taiwan Centers of Excellence in Artificial Intelligence, NTU Artificial Intelligence Center of Research Excellence
 
 ## Related
 

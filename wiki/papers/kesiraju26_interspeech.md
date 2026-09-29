@@ -1,6 +1,7 @@
 ---
 id: kesiraju26_interspeech
-category: self-supervised
+category: applications-other
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kesiraju26_interspeech.pdf
 *Santosh Kesiraju, Bolaji Yusuf, Šimon Sedláček, Oldřich Plchot, Petr Schwarz*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kesiraju26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kesiraju26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3315)
+
+**Category:** `applications-other` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — The paper introduces Factorized Linear Projection (FLiP), a diagnostic model that recovers lexical content from sentence embeddings, showing that sentence encoders linearly preserve 75-80% of lexical information. Using FLiP to analyze SONAR, LaBSE, and Gemini reveals robust cross-modal alignment alongside a strong English bias in cross-lingual representations.
 
@@ -64,6 +67,12 @@ Speech and NLP engineers seeking a lightweight, mathematically grounded diagnost
 ## Applications
 
 Diagnosing representation failures in multilingual and multimodal sentence encoders, intrinsic evaluation of speech-text joint embedding spaces, and zero-search keyword/concept extraction.
+
+## Institutions / 機構
+
+Brno University of Technology
+
+**Funding / 經費:** Ministry of Education, Youth and Sports of the Czech Republic, European Union
 
 ## Related
 

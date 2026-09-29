@@ -1,6 +1,7 @@
 ---
 id: chen26e_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [efficient-on-device, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26e_interspeech.pdf
 *Chun Wei Chen, Tzu-Quan Lin, Ke-Han Lu, Wei-Ping Huang, Hung-yi Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-645)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`, `self-supervised`
 
 **TL;DR** — Contrastive Audio-Aware Distillation (CAAD) internalizes teacher-side contrastive decoding into a single-path student speech language model using a synchronized teacher-forcing strategy, achieving an 8% relative gain on Dynamic-SUPERB over standard knowledge distillation.
 
@@ -67,6 +70,12 @@ Speech and ML engineers looking to compress multimodal speech language models wh
 ## Applications
 
 Low-latency speech language assistants, spoken language understanding systems, and robust multimodal speech emotion recognition applications operating on resource-constrained edge devices.
+
+## Institutions / 機構
+
+National Taiwan University
+
+**Funding / 經費:** Ministry of Education, Taiwan, Taiwan Centers of Excellence in Artificial Intelligence
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: huang26b_interspeech
-category: paralinguistics
+category: applications-other
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26b_interspeech.pdf
 *Chen Huang, Lei Zhou, Hongqing Liu, Lu Gan, Liming Shi*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-366)
+
+**Category:** `applications-other`
 
 **TL;DR** — GISNO is a neural operator-based framework for head-related transfer function (HRTF) personalization that maps 3D head meshes directly to continuous boundary pressure fields using a differentiable Helmholtz renderer, achieving a mean log-spectral distortion of 2.92 dB on the HUTUBS dataset.
 
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Immersive VR/AR spatial audio rendering, personalized binaural synthesis, and hearing assistive devices.
+
+## Institutions / 機構
+
+Chongqing University of Posts and Telecommunications, Brunel University
 
 ## Related
 

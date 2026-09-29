@@ -1,6 +1,7 @@
 ---
 id: husain26_interspeech
 category: asr
+labels: [low-resource, self-supervised, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/husain26_interspeech.pdf
 *Fiza Husain, Ankit Pandey, Yash Singh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/husain26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/husain26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-786)
+
+**Category:** `asr` · **Labels:** `low-resource`, `self-supervised`, `robustness-noise`
 
 **TL;DR** — A three-stage data-centric pipeline combining heuristic SQL data curation and per-region LoRA adaptation on Qwen2.5-Omni-3B improves entity recall to 80-85% and filler recall to 76-86% for accented conversational English, matching a zero-shot 30B model with 10× fewer parameters.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Conversational language-learning platforms, automated fluency assessment tools, and speech-to-text pipelines requiring precise named entity recognition and disfluency tracking.
+
+## Institutions / 機構
+
+Stimuler
 
 ## Related
 

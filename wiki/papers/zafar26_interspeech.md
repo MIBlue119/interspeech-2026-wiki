@@ -1,6 +1,7 @@
 ---
 id: zafar26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zafar26_interspeech.pdf
 *Muhammad Abdullah Zafar, Mostafa Shahin, Beena Ahmed*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zafar26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zafar26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2862)
+
+**Category:** `health-clinical` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper demonstrates that near state-of-the-art classification performance on the benchmark ADReSS and ADReSSo dementia detection datasets can be achieved using just two low-level acoustic features, random label permutations, or even silence-only segments. These findings reveal that high benchmark scores often stem from spurious channel or environmental correlations rather than robust pathology-related speech cues.
 
@@ -61,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic screening support tools for neurodegenerative diseases and rigorous evaluation protocols for small-sample medical speech datasets.
+
+## Institutions / 機構
+
+University of New South Wales
+
+**Funding / 經費:** National Institutes of Health
 
 ## Related
 

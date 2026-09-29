@@ -1,6 +1,7 @@
 ---
 id: baek26_interspeech
-category: keyword-spotting
+category: asr
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/baek26_interspeech.pdf
 *Seung-Yeop Baek, Sangho Han, Joon-Hyuk Chang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/baek26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/baek26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3336)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`
 
 **TL;DR** — SPARK is the first spike-driven, end-to-end spiking neural network framework for user-defined keyword spotting that matches open-vocabulary text to audio. It achieves competitive accuracy on LibriPhrase while reducing parameter count by 2.1× and energy consumption by 21.7× compared to ANN baselines.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Always-on smart home appliances, wearable devices, and mobile handsets requiring low-latency, ultra-low-power customizable wake-word detection.
+
+## Institutions / 機構
+
+Hanyang University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation, Korea government
 
 ## Related
 

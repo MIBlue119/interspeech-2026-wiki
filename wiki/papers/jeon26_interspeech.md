@@ -1,6 +1,6 @@
 ---
 id: jeon26_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jeon26_interspeech.pdf
 *Woori Jeon, Seunghee Ha, Sang-Kyu Lee, Ji Hye Yoon, Tae-Jin Yoon, Seung Jin Lee, Woojae Han, Jungmin So*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jeon26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jeon26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1247)
+
+**Category:** `health-clinical`
 
 **TL;DR** — This paper presents a method for disentangling depression from cognitive decline in elderly speech by utilizing dual clinical assessments, demonstrating that formant features (specifically F1 and F2) provide robust depression signals while widely used F0 features carry no signal, achieving a UAR of 0.760.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated, non-invasive digital health screening tools for monitoring depression and cognitive health in elderly populations via clinical speech recordings.
+
+## Institutions / 機構
+
+Sogang University, Hallym University, Sungshin Women's University
+
+**Funding / 經費:** Ministry of Education of the Republic of Korea, National Research Foundation of Korea, Artificial Intelligence Innovation Graduate School grant funded by the Korea government (MSIT), National Information Society Agency funded by the Ministry of Science, ICT through the Big Data Platform and Center Construction Project
 
 ## Related
 

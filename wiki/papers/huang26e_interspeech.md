@@ -1,6 +1,6 @@
 ---
 id: huang26e_interspeech
-category: paralinguistics
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/huang26e_interspeech.pdf
 *Wei-Heng Huang, Woan-Shiuan Chien, Chi-Chun Lee*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/huang26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/huang26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1262)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper proposes a context-aware multimodal framework (Trajectory Speech Embedding, TSE) that integrates daily acoustic features and indoor mobility trajectories to detect occupational stress in hospital workers. It improves F1 score by 9.32% and MCC by 0.038 compared to audio-only baselines.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated mental health monitoring, continuous occupational stress tracking for healthcare personnel, and context-aware workplace wellness systems.
+
+## Institutions / 機構
+
+National Tsing Hua University, National Yang Ming Chiao Tung University
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 id: chen26m_interspeech
-category: paralinguistics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26m_interspeech.pdf
 *Xinyi Chen, Grace Wenling Cao, Yusheng Tian, Manson Chun Man Wong, Miko Hoi Tung Ng, Tan Lee, Peggy Pik Ki Mok*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26m_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26m_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1194)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This study investigates how interacting with human versus AI interlocutors and emotional stances modulate fine-grained phonetic realizations in Cantonese dialogue, finding shorter target word durations and tone-specific F0 shifts in AI interactions. By controlling the voice and speech rate of a customized DurIAN-based text-to-speech AI against a human model speaker, the authors reveal precise word-level phonetic adjustments rather than global acoustic changes.
 
@@ -56,6 +58,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Design of more natural and emotionally responsive conversational agents, voice user interface evaluation, and speech synthesis systems for tone languages.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, University College Dublin, Chinese University of Hong Kong, Shenzhen
+
+**Funding / 經費:** Hong Kong RGC GRF, CUHK Research Committee Postdoctoral Fellowship Scheme, Hong Kong RGC Postdoctoral Fellowship
 
 ## Related
 

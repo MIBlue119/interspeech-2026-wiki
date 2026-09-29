@@ -1,6 +1,7 @@
 ---
 id: koh26_interspeech
-category: speech-llm
+category: applications-other
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/koh26_interspeech.pdf
 *Hui Xin Koh, Yang Wang, Chenghua Lin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/koh26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/koh26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1417)
+
+**Category:** `applications-other` · **Labels:** `self-supervised`
 
 **TL;DR** — A multi-agent framework utilizing native multimodal SpeechLMs (bypassing text transcription) to automate IELTS Speaking assessment and feedback generation, achieving up to 0.598 Spearman correlation with human examiners.
 
@@ -64,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated language testing platforms, AI-powered spoken English tutors, and diagnostic feedback generation systems for high-stakes examinations.
+
+## Institutions / 機構
+
+University of Manchester
 
 ## Related
 

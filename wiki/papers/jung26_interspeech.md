@@ -1,6 +1,7 @@
 ---
 id: jung26_interspeech
-category: speech-llm
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jung26_interspeech.pdf
 *Olivier Jiyoun Jung, Jonghyeon Park, Myungwoo Oh*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jung26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jung26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-939)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — A multimodal dementia detection framework combines Whisper-derived acoustic embeddings with LLM-extracted linguistic features via a gated fusion network, achieving an F1-score of 90.14% on the ADReSSo benchmark.
 
@@ -65,6 +68,10 @@ Researchers and engineers building clinical speech AI will find a blueprint for 
 ## Applications
 
 Non-invasive computer-aided screening for Alzheimer's disease and dementia in clinical or telehealth settings.
+
+## Institutions / 機構
+
+Ewha Womans University, NAVER Cloud
 
 ## Related
 

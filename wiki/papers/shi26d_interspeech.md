@@ -1,6 +1,7 @@
 ---
 id: shi26d_interspeech
 category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shi26d_interspeech.pdf
 *Jiacheng Shi, Hongfei Du, Xinyuan Song, Y. Alicia Hong, Yanfu Zhang, Ye Gao*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shi26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shi26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1613)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — Emo-BPO is a bidirectional preference optimization framework for diffusion-based emotional TTS that jointly learns emotion-aligned and emotion-contrastive score functions from reordered same-text pairs, achieving a 99.23% emotion similarity score.
 
@@ -67,6 +70,10 @@ Speech researchers and ML engineers focusing on diffusion-based generative model
 ## Applications
 
 Conversational AI agents, expressive audiobooks, and interactive human-machine interfaces requiring fine-grained, controllable emotional speech synthesis.
+
+## Institutions / 機構
+
+College of William & Mary, Emory University, George Mason University
 
 ## Related
 

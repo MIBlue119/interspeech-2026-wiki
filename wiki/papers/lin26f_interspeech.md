@@ -1,6 +1,7 @@
 ---
 id: lin26f_interspeech
-category: speech-recognition
+category: speaker
+labels: [efficient-on-device, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26f_interspeech.pdf
 *Ju Lin, Ruizhi Li, Ruizhe Huang, Jing Pan, Xuan Zhang, Zili Huang, Jing Zheng, Ming Sun, Florian Metze*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1403)
+
+**Category:** `speaker` · **Labels:** `efficient-on-device`, `streaming-real-time`
 
 **TL;DR** — This paper proposes a two-stage streaming speaker diarization framework combining a Conformer-based source separation front-end with a gradient boosting classifier to enable robust, device-agnostic multi-talker speech recognition and translation on smart glasses. It achieves significant reductions in Word Error Rate and Speaker Attribution Error Rate while reducing model size from 20M to 5.5M parameters.
 
@@ -63,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time smart glasses captioning, multi-talker speech translation, wearable conversational assistants, and device-agnostic spatial audio parsing.
+
+## Institutions / 機構
+
+Meta
 
 ## Related
 

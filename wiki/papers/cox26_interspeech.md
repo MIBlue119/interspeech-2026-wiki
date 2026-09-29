@@ -1,6 +1,7 @@
 ---
 id: cox26_interspeech
-category: self-supervised
+category: speaker
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cox26_interspeech.pdf
 *Jack Cox, Jon P Barker*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cox26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cox26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2542)
+
+**Category:** `speaker` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper introduces interventional contrastive learning to post-train speech foundation models into distinct content and speaker subspaces using a synthetic zero-shot TTS dataset, yielding strong out-of-domain speaker verification performance.
 
@@ -69,6 +72,12 @@ Speech and ML researchers working on representation disentanglement and foundati
 ## Applications
 
 Speaker verification, speaker anonymization, speech disaggregation, and privacy-preserving speech processing.
+
+## Institutions / 機構
+
+University of Sheffield
+
+**Funding / 經費:** UK Research and Innovation, Meta
 
 ## Related
 

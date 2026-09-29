@@ -12,6 +12,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/firc26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/firc26b_interspeech.pdf
 session: Speaker Verification and Anti-Spoofing
 topics: [audio-deepfake, self-supervised, evaluation]
+category: deepfake-security
+labels:
+  - "efficient-on-device"
+  - "self-supervised"
+  - "robustness-noise"
+institutions:
+  - "Brno University of Technology"
+funding:
+  - "Brno University of Technology"
+  - "Ministry of Education, Youth and Sports of the Czech Republic"
+  - "e-INFRA CZ"
 code:
     url: https://github.com/Security-FIT/SpAArSIST
     license: ""

@@ -1,6 +1,7 @@
 ---
 id: lin26b_interspeech
-category: paralinguistics
+category: phonetics-linguistics
+labels: [multilingual]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26b_interspeech.pdf
 *Yinan Lin, Shanpeng Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-739)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`
 
 **TL;DR** — This study investigates how context and prosody jointly influence second-language (L2) irony comprehension among Chinese learners of English, finding that context plays a dominant role while prosody acts independently when contextual information is ambiguous. Results show that contextual incongruity dictates 83.8% of ironic responses on average, whereas language proficiency exhibits only a minor moderating effect.
 
@@ -69,6 +72,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Designing computer-assisted language learning (CALL) software, pragmatic diagnostic tests, and synthetic speech generation systems for affective text-to-speech that model irony.
+
+## Institutions / 機構
+
+Nanjing University of Science and Technology
+
+**Funding / 經費:** Ministry of Education Humanities and Social Sciences Research Youth Fund Project, Jiangsu Social Science Fund Youth Project, Research Project of Philosophy and Social Sciences in Higher Education of the Jiangsu Provincial Department of Education
 
 ## Related
 

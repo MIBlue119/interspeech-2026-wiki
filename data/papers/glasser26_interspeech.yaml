@@ -10,6 +10,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/glasser26_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/glasser26_interspeech.pdf
 session: Assistive Technologies 2
 topics: [asr, tts, speech-translation]
+category: applications-other
+institutions:
+  - "Gallaudet University"
+funding:
+  - "National Institute on Disability, Independent Living, and Rehabilitation Research"
+  - "National Science Foundation"
 code:
     url: ""
     license: ""

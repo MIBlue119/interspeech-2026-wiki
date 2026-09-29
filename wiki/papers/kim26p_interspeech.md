@@ -1,6 +1,7 @@
 ---
 id: kim26p_interspeech
 category: tts
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26p_interspeech.pdf
 *Kwangsung Kim, Cellik Adams, EunKyoung Jo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26p_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26p_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2055)
+
+**Category:** `tts` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — Selective Allophone-Level Tokenization (SALT) injects targeted linguistic inductive biases into Korean text-to-speech by tagging allophonic variants, reducing character error rate from 4.74% to 3.30% on a 12.75-hour dataset and breaking the 10% CER barrier in an extremely low-resource 1-hour setting.
 
@@ -64,6 +67,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Low-resource Korean text-to-speech synthesis, localized voice assistants, and phonologically-aware acoustic frontend design for neural speech generation.
+
+## Institutions / 機構
+
+CBS, Sogang University
+
+**Funding / 經費:** Institute of Information Communications Technology Planning Evaluation
 
 ## Related
 

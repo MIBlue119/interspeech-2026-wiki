@@ -12,6 +12,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/han26e_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/han26e_interspeech.pdf
 session: Spoofing and Deepfake Detection 3
 topics: [speaker-verification, evaluation, dataset]
+category: speaker
+institutions:
+  - "Soongsil University"
+funding:
+  - "Institute of Information & Communications Technology Planning & Evaluation"
+  - "Information Technology Research Center"
+  - "Ministry of Science and ICT"
+  - "National Research Foundation of Korea"
 code:
     url: ""
     license: ""

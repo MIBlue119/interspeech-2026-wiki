@@ -14,6 +14,16 @@ isca_url: https://www.isca-archive.org/interspeech_2026/chao26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/chao26_interspeech.pdf
 session: Real-Time, Low-Latency and Edge Speech Enhancement
 topics: [speech-enhancement, self-supervised, on-device]
+category: enhancement-separation
+labels:
+  - "efficient-on-device"
+  - "streaming-real-time"
+institutions:
+  - "Academia Sinica"
+  - "National Taiwan University"
+  - "Kore University of Enna"
+  - "University of Palermo"
+  - "NVIDIA"
 code:
     url: https://github.com/RoyChao19477/RT-SEMamba
     license: ""

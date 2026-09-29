@@ -1,6 +1,6 @@
 ---
 id: wen26c_interspeech
-category: speaker-diarization
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wen26c_interspeech.pdf
 *Zheng Wen, Huayang Wang, Zhongxin Bai, Xin Guo, Gongping Huang, Qiqi Tong, Yaling Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wen26c_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wen26c_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2156)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — This paper demonstrates that end-fire localization degradation in compact linear microphone arrays stems from an ill-conditioned TDOA-to-azimuth mapping, and proposes two training-free, reliability-aware methods—W-SRP-PHAT and GCC-WLS—that reduce end-fire root-mean-square error from 4.83° to 3.18° at a 1 m source distance.
 
@@ -69,6 +71,10 @@ Audio engineers and researchers working on resource-constrained edge hardware wi
 ## Applications
 
 Smart televisions, voice-controlled home appliances, and low-complexity edge devices requiring robust spatial audio capture and direction-of-arrival tracking.
+
+## Institutions / 機構
+
+Wuhan University, Harbin Engineering University, Guangdong Murora Intelligent Lighting Co., Ltd
 
 ## Related
 

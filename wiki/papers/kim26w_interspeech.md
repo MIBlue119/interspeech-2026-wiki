@@ -1,6 +1,7 @@
 ---
 id: kim26w_interspeech
-category: self-supervised
+category: speaker
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26w_interspeech.pdf
 *Minu Kim, Hoirin Kim, David R. Mortensen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26w_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26w_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3205)
+
+**Category:** `speaker` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — Scaling self-supervised speech models for language identification from 1,024 to 4,017 languages triggers a qualitative shift in embedding geometry, enabling the recovery of deep historical language relationships and a robust Pacific macro-cluster (adjusted rand index 0.47 to 0.74).
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computational historical linguistics, automated language relationship mapping, and genealogical clustering of low-resource languages.
+
+## Institutions / 機構
+
+KAIST, University of Southern California, Carnegie Mellon University
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

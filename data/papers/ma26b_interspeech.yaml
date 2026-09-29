@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/ma26b_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/ma26b_interspeech.pdf
 session: Neurophysiology of Speech
 topics: [paralinguistics, health, phonetics]
+category: health-clinical
+institutions:
+  - "Hong Kong Polytechnic University"
+funding:
+  - "HKRGC Postdoctoral Fellowship Scheme"
 code:
     url: https://doi.org/10.5281/zenodo.20748010
     license: ""

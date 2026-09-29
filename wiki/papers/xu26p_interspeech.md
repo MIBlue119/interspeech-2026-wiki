@@ -1,6 +1,7 @@
 ---
 id: xu26p_interspeech
-category: self-supervised
+category: enhancement-separation
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/xu26p_interspeech.pdf
 *Zeyu Xu, Andreas Brendel, Albert G. Prinn, Emanuël A. P. Habets*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/xu26p_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/xu26p_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2025)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`
 
 **TL;DR** — A diffusion-based room impulse response (RIR) completion method uses signal-prediction ($x$-prediction) and classifier-free guidance to generate full RIRs from order-limited, incomplete early reflections without temporal discontinuities. It achieves superior energy decay curve (EDC) reconstruction compared to baseline methods when bridging geometric and numerical wave simulation data.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Acoustic data augmentation for robust speech recognition, immersive spatial audio rendering, and virtual acoustics simulation.
+
+## Institutions / 機構
+
+International Audio Laboratories Erlangen, Fraunhofer Institute for Integrated Circuits, Friedrich-Alexander-Universitat Erlangen-Nurnberg
+
+**Funding / 經費:** German Research Foundation
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: jiang26e_interspeech
-category: health
+category: health-clinical
+labels: [low-resource, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/jiang26e_interspeech.pdf
 *Yu Jiang, Cheng Gong, Bin Wen, Ruihao Jing, Tianrui Wang, Shansong Liu, Boyu Zhu, Yuheng Lu, Xuanchen Li, Xiao Wei, Chunyu Qiang, Xiao-Lei Zhang, Longbiao Wang, Jianwu Dang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/jiang26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/jiang26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1724)
+
+**Category:** `health-clinical` · **Labels:** `low-resource`, `generative-model`
 
 **TL;DR** — This paper proposes a cognitive-heuristic guided multimodal data augmentation framework for speech-based Alzheimer's disease (AD) detection, combining RAG-enhanced text generation with attribute-guided TTS to reproduce authentic clinical markers of cognitive decline. On the ADReSSo benchmark, integrating this augmented data improves the accuracy of the CogniAlign model from 0.789 to 0.831.
 
@@ -69,6 +72,10 @@ Speech and ML researchers tackling data scarcity in clinical health monitoring w
 ## Applications
 
 Non-invasive early screening and continuous remote monitoring of Alzheimer's disease and related neurodegenerative cognitive disorders.
+
+## Institutions / 機構
+
+Tianjin University, China Telecom
 
 ## Related
 

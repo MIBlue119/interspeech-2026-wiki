@@ -1,6 +1,7 @@
 ---
 id: liu26e_interspeech
 category: tts
+labels: [streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26e_interspeech.pdf
 *Hanwen Liu, Saierdaer Yusuyin, Hao Huang, Zhijian Ou*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26e_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26e_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-653)
+
+**Category:** `tts` · **Labels:** `streaming-real-time`, `generative-model`
 
 **TL;DR** — CTC-TTS is a dual-streaming text-to-speech model that replaces heavy GMM-HMM forced-alignment pipelines with a lightweight CTC-based aligner and introduces a bi-word interleaving strategy. It achieves lower error rates and competitive naturalness compared to fixed-ratio and MFA-based baselines across streaming and zero-shot tasks.
 
@@ -64,6 +67,12 @@ Speech researchers and engineers building real-time, low-latency streaming TTS s
 ## Applications
 
 Real-time conversational voice assistants, streaming text-to-speech services, and zero-shot voice cloning applications.
+
+## Institutions / 機構
+
+Xinjiang University, Tsinghua University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

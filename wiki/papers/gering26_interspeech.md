@@ -1,6 +1,6 @@
 ---
 id: gering26_interspeech
-category: spoken-language-understanding
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/gering26_interspeech.pdf
 *Paul Gering, Roger K. Moore*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/gering26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/gering26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1152)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper evaluates a system-agnostic (SA) approach for predicting user interaction quality (IQ) in spoken dialogue systems using audio, text, and temporal features, demonstrating that end-to-end fine-tuning allows SA features to achieve performance comparable to traditional system-dependent (SD) log-based features. The fine-tuned SA model achieved a Macro-F1 of 0.454 and UAR of 0.453 on the CMU Let's Go corpus.
 
@@ -64,6 +66,12 @@ Researchers and engineers building scalable, portable dialogue evaluation metric
 ## Applications
 
 Real-time monitoring of user satisfaction and interaction quality in production spoken dialogue systems without requiring proprietary system-log access.
+
+## Institutions / 機構
+
+University of Sheffield
+
+**Funding / 經費:** UK Research and Innovation, UKRI AI Centre for Doctoral Training in Speech and Language Technologies (SLT) and their Applications
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: wu26n_interspeech
-category: speech-deepfake-detection
+category: deepfake-security
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wu26n_interspeech.pdf
 *Jinyang Wu, Zihan Pan, Qiquan Zhang, Sailor Hardik, Soumik Mondal*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wu26n_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wu26n_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3212)
+
+**Category:** `deepfake-security` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper proposes a quantizer-aware representation learning framework that leverages the residual vector quantization (RVQ) hierarchy of neural audio codecs for speech deepfake detection, achieving relative EER reductions of 46.2% on ASVspoof 2019 and 13.9% on ASVspoof 5 while keeping the SSL backbone frozen.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Speech deepfake detection, audio anti-spoofing systems for telephony security, and multi-view forensic verification tools.
+
+## Institutions / 機構
+
+Agency for Science, Technology and Research, University of New South Wales
+
+**Funding / 經費:** National Research Foundation, Prime Minister’s Office, Singapore, Ministry of Digital Development and Information, Online Trust and Safety Research Programme
 
 ## Related
 

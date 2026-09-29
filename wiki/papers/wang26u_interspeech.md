@@ -1,6 +1,6 @@
 ---
 id: wang26u_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26u_interspeech.pdf
 *Cong Wang, Yizhong Geng, Yuhua Wen, Qifei Li, Yingming Gao, Ruimin Wang, Chunfeng Wang, Hao Li, Wei Chen, Ya Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26u_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26u_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1219)
+
+**Category:** `paralinguistics-emotion`
 
 **TL;DR** — This paper proposes a speech emotion recognition framework integrating energy-adaptive mixup, frame-level attention, and a quadruple multi-loss strategy, achieving a state-of-the-art 79.14% unweighted accuracy on IEMOCAP.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated conversational agents, affective computing in healthcare, customer service quality monitoring, and online education platforms.
+
+## Institutions / 機構
+
+Beijing University of Posts and Telecommunications, Li Auto
+
+**Funding / 經費:** National Key R&D Program of China, National Natural Science Foundation of China, National Language Commission, National Social Science Fund of China
 
 ## Related
 

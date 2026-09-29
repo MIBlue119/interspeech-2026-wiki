@@ -1,6 +1,6 @@
 ---
 id: horii26_interspeech
-category: self-supervised
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/horii26_interspeech.pdf
 *Koharu Horii, Naohiro Tawara, Atsunori Ogawa, Shoko Araki*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/horii26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/horii26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3104)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper proposes a bottom-up framework using unsupervised syllable discovery (Sylber) to analyze pronunciation development across 957 children aged 5–15, revealing an initial acoustic expansion phase (ages 5–8) followed by stabilization toward adult-like speech. It avoids the bias of top-down ASR systems that forcibly map child speech to adult phoneme categories.
 
@@ -61,6 +63,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated child speech recognition, educational ICT pronunciation training tools, and developmental speech disorder screening systems.
+
+## Institutions / 機構
+
+NTT
 
 ## Related
 

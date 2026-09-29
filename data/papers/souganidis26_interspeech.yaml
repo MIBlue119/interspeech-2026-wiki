@@ -13,6 +13,14 @@ isca_url: https://www.isca-archive.org/interspeech_2026/souganidis26_interspeech
 pdf_url: https://www.isca-archive.org/interspeech_2026/souganidis26_interspeech.pdf
 session: Speech Technologies for Language Learning & Assessment
 topics: [spoken-language-understanding, self-supervised, low-resource]
+category: applications-other
+labels:
+  - "low-resource"
+  - "self-supervised"
+institutions:
+  - "University of the Basque Country UPV/EHU"
+funding:
+  - "Department of Culture and Language Policy of the Basque Government"
 code:
     url: ""
     license: ""

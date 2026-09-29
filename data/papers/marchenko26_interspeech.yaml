@@ -8,6 +8,10 @@ isca_url: https://www.isca-archive.org/interspeech_2026/marchenko26_interspeech.
 pdf_url: https://www.isca-archive.org/interspeech_2026/marchenko26_interspeech.pdf
 session: Behavioral, Cross-lingual, and Multimodal Speech Analysis
 topics: [paralinguistics, emotion-recognition, self-supervised]
+category: paralinguistics-emotion
+labels:
+  - "multilingual"
+  - "self-supervised"
 code:
     url: https://doi.org/10.5281/zenodo.20584918
     license: ""

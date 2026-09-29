@@ -1,6 +1,7 @@
 ---
 id: halpern26_interspeech
-category: speech-recognition
+category: resources-evaluation
+labels: [multilingual, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/halpern26_interspeech.pdf
 *Bence Mark Halpern, Thomas Tienkamp, Defne Abur, Tomoki Toda*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/halpern26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/halpern26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-946)
+
+**Category:** `resources-evaluation` · **Labels:** `multilingual`, `dataset-or-benchmark-release`
 
 **TL;DR** — PathBench is a unified benchmark for automatic pathological speech intelligibility assessment across six public datasets and four languages, evaluating 19 distinct protocols. It introduces Dual-ASR Articulatory Precision (DArtP), a reference-free metric achieving a top average speaker-level Pearson correlation of r = 0.66 among reference-free approaches.
 
@@ -66,6 +69,12 @@ Speech and ML researchers building automatic pathological speech assessment tool
 ## Applications
 
 Automated clinical screening, remote rehabilitation monitoring, and disease progression tracking for patients suffering from dysarthria, Parkinson's disease, and oral cancer.
+
+## Institutions / 機構
+
+Nagoya University, University of Groningen, University of Cologne
+
+**Funding / 經費:** Dutch Research Council, JSPS KAKENHI, BRIDGE Program
 
 ## Related
 

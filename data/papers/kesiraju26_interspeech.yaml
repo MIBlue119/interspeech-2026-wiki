@@ -12,6 +12,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kesiraju26_interspeech.h
 pdf_url: https://www.isca-archive.org/interspeech_2026/kesiraju26_interspeech.pdf
 session: Explainability for Compliance and Trust in Speech AI
 topics: [self-supervised, multilingual, speech-llm]
+category: applications-other
+labels:
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Brno University of Technology"
+funding:
+  - "Ministry of Education, Youth and Sports of the Czech Republic"
+  - "European Union"
 code:
     url: https://github.com/BUTSpeechFIT/FLiP
     license: ""

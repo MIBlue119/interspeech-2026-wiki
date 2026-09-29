@@ -1,6 +1,7 @@
 ---
 id: ni26b_interspeech
-category: source-separation
+category: enhancement-separation
+labels: [generative-model, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ni26b_interspeech.pdf
 *Youran Ni, Shihong Tan, Yuzhu Wang, Gongping Huang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ni26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ni26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2291)
+
+**Category:** `enhancement-separation` · **Labels:** `generative-model`, `robustness-noise`
 
 **TL;DR** — DTT-BSR+ is a two-stage cascade music source restoration system that decouples distribution fitting from signal reconstruction, improving multi-mel signal-to-noise ratio (MMSNR) from 1.38 dB to 4.35 dB average over single-stage DTT-BSR.
 
@@ -63,6 +66,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Professional music production mastering suites, stem separation software, audio archiving, and automated remixing systems.
+
+## Institutions / 機構
+
+Wuhan University, Tampere University
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

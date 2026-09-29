@@ -11,6 +11,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kumar26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kumar26_interspeech.pdf
 session: Long-form Audio & New Attention Approaches
 topics: [asr, self-supervised, evaluation]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Florida International University"
+  - "University of South Florida"
 code:
     url: ""
     license: ""

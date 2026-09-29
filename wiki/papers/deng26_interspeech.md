@@ -1,6 +1,7 @@
 ---
 id: deng26_interspeech
 category: asr
+labels: [efficient-on-device, self-supervised, streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/deng26_interspeech.pdf
 *Chengxi Deng, Xurong Xie, Shujie Hu, Mengzhe Geng, Tianzi Wang, Youjun Chen, Huimeng Wang, Haoning Xu, Jiajun Deng, Xunying Liu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/deng26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/deng26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-620)
+
+**Category:** `asr` · **Labels:** `efficient-on-device`, `self-supervised`, `streaming-real-time`
 
 **TL;DR** — This paper proposes a zero-shot, real-time online speaker adaptation method for elderly speech recognition that fuses cross-utterance speech and text history via a Q-Former and dual cross-modal attention. It achieves statistically significant WER/CER reductions over speaker-independent baselines while delivering up to a 9.83x speed-up compared to batch-mode adaptation.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time speech recognition for elderly users, assistive communication devices, and automated clinical transcription for neurodegenerative disorder screening.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Institute of Software, Chinese Academy of Sciences, National Research Council Canada
+
+**Funding / 經費:** Hong Kong RGC GRF, Basic Research Project of Institute of Software, Chinese Academy of Sciences, Youth Innovation Promotion Association CAS
 
 ## Related
 

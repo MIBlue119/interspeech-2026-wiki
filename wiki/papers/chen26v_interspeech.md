@@ -1,6 +1,7 @@
 ---
 id: chen26v_interspeech
 category: tts
+labels: [self-supervised, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26v_interspeech.pdf
 *Peijie Chen, Wenhao Guan, Weijie Wu, Kaidi Wang, Daiyu Huang, Zhuanling Zha, Junbo Li, Jun Fang, Qingyang Hong, Lin Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26v_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26v_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2082)
+
+**Category:** `tts` · **Labels:** `self-supervised`, `generative-model`
 
 **TL;DR** — SARA is a dual-stream VAE framework that fuses a frozen SSL semantic anchor with a residual acoustic encoder, resolving the fidelity-controllability trade-off in neural codecs and achieving a 1.79% WER on zero-shot TTS.
 
@@ -65,6 +68,12 @@ Speech researchers and engineers building zero-shot TTS systems should read this
 ## Applications
 
 Zero-shot text-to-speech synthesis, speech generation, and high-fidelity audio reconstruction.
+
+## Institutions / 機構
+
+Xiamen University, DiDi Global Inc
+
+**Funding / 經費:** National Natural Science Foundation of China, Innovation of Policing Science and Technology, Fujian province
 
 ## Related
 

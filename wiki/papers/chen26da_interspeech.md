@@ -1,6 +1,7 @@
 ---
 id: chen26da_interspeech
-category: self-supervised
+category: resources-evaluation
+labels: [self-supervised, dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chen26da_interspeech.pdf
 *Yuxuan Chen, Haoyuan Yu, Peize He*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chen26da_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chen26da_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2873)
+
+**Category:** `resources-evaluation` · **Labels:** `self-supervised`, `dataset-or-benchmark-release`
 
 **TL;DR** — A psychoacoustic benchmark based on binaural masking level difference (BMLD) reveals that general-purpose binaural self-supervised audio models fail to encode microsecond interaural phase fine structures, relying instead on per-channel spectro-temporal interference textures or broadband envelope heuristics.
 
@@ -68,6 +71,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic auditing of spatial audio models, improving spatial self-supervised learning objectives for immersive AR/VR audio, and developing biologically plausible binaural machine listening front-ends.
+
+## Institutions / 機構
+
+Chinese University of Hong Kong, Jilin University, Hunan University, University of Electronic Science and Technology of China
 
 ## Related
 

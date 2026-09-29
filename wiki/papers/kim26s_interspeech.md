@@ -1,6 +1,7 @@
 ---
 id: kim26s_interspeech
-category: speech-llm
+category: speech-llm-dialogue
+labels: [efficient-on-device]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kim26s_interspeech.pdf
 *Geewook Kim, Minjoon Seo*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kim26s_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kim26s_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2532)
+
+**Category:** `speech-llm-dialogue` · **Labels:** `efficient-on-device`
 
 **TL;DR** — The paper audits 10 video benchmarks to show that most can be solved using vision alone (e.g., GPT-4o gets 76% on AVQA muted), and introduces a causal Mamba-based audio token compressor that achieves 25-fold reduction to enable efficient, long-form audio-visual Video-LLM reasoning.
 
@@ -63,6 +66,10 @@ Read this paper if you build multimodal video LLMs or speech-language models and
 ## Applications
 
 Real-time streaming video assistant applications, automated meeting transcription and summarization, and interactive audio-visual lecture comprehension agents.
+
+## Institutions / 機構
+
+NAVER Cloud, KAIST
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: zhong26_interspeech
-category: paralinguistics
+category: health-clinical
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhong26_interspeech.pdf
 *Zihan Zhong, Qianli Wang, Satwinder Singh, Clarion Mendes, Mark Hasegawa-Johnson, Waleed Abdulla, Seyed Reza Shahamiri*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhong26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhong26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-692)
+
+**Category:** `health-clinical` · **Labels:** `self-supervised`
 
 **TL;DR** — This paper investigates layer-wise representation preferences in Wav2Vec2 for predicting 25 clinical Darley–Aronson–Brown (DAB) perceptual dimensions of dysarthric speech, showing that optimal layers vary widely by dimension and that learnable scalar mixing across layers improves assessment accuracy. The approach achieves a mean Spearman correlation of 0.47 and MAE of 0.43 on the Speech Accessibility Project benchmark.
 
@@ -69,6 +72,10 @@ Speech and ML researchers building automated clinical speech assessment tools sh
 ## Applications
 
 Automated clinical speech assessment tools, computer-aided diagnosis and progress tracking for speech-language pathologists (SLPs), and multi-dimensional profiling of motor speech disorders.
+
+## Institutions / 機構
+
+DeepNet Discovery Network, University of Auckland, University of Illinois Urbana-Champaign
 
 ## Related
 

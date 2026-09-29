@@ -1,6 +1,6 @@
 ---
 id: grundhuber26_interspeech
-category: self-supervised
+category: speech-coding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/grundhuber26_interspeech.pdf
 *Philipp Grundhuber, Emanuël A. P. Habets*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/grundhuber26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/grundhuber26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2406)
+
+**Category:** `speech-coding`
 
 **TL;DR** — This paper introduces a regression-based probing framework to measure information leakage across partition-level neural audio codecs (NACs), revealing a fundamental asymmetry where speaker identity is successfully isolated while room acoustics heavily leak into speech embeddings. Despite receiving zero room-parameter labels during training, the codec's acoustic embeddings achieve blind room-acoustic estimation within 0.02s RMSE of fully supervised baselines.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Acoustic teleportation, neural audio codec design, robust voice conversion, and blind room-acoustic estimation.
+
+## Institutions / 機構
+
+Fraunhofer Institute for Integrated Circuits, International Audio Laboratories Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg
+
+**Funding / 經費:** German Research Foundation
 
 ## Related
 

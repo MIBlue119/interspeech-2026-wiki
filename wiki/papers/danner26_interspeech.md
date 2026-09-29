@@ -1,6 +1,6 @@
 ---
 id: danner26_interspeech
-category: speaker-verification
+category: speaker
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/danner26_interspeech.pdf
 *Tiena Danner, Valeriia Vyshnevetska, Daniel Friedrichs, Steven Moran*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/danner26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/danner26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2627)
+
+**Category:** `speaker`
 
 **TL;DR** — This study applies geometric morphometrics to vocal tract MRI data and demonstrates that male speakers exhibit significantly greater morphological and articulatory shape disparity than females, offering a biological explanation for human and machine speaker recognition biases.
 
@@ -63,6 +65,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving fairness and bias mitigation in automatic speaker recognition, forensic voice comparison, and acoustic-phonetic modeling.
+
+## Institutions / 機構
+
+University of Neuchatel, University of Zurich, Zurich Forensic Science Institute
+
+**Funding / 經費:** Swiss National Science Foundation
 
 ## Related
 

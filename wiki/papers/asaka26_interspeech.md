@@ -1,6 +1,7 @@
 ---
 id: asaka26_interspeech
-category: speaker-diarization
+category: speaker
+labels: [self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/asaka26_interspeech.pdf
 *Shuhei Asaka, Muhammad Shakeel, Chikara Maeda, Benjamin Yen, Takeshi Ashizawa, Naoaki Sumida, Kazuhiro Nakadai*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/asaka26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/asaka26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1956)
+
+**Category:** `speaker` · **Labels:** `self-supervised`
 
 **TL;DR** — A two-level uncertainty suppression framework for meeting diarization combines OWSM-Encoder linguistic features into WavLM via Feature-wise Linear Modulation (FiLM) for segmentation and Known-Seed Guided Clustering (KSGC) for global assignment, reducing Diarization Error Rate (DER) by up to 1.8 points on WavLM-large and 2.62 points under mixed known/unknown conditions.
 
@@ -62,6 +65,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated meeting transcription, multi-speaker conversational analysis, speaker-attributed ASR systems, and corporate conferencing analytics.
+
+## Institutions / 機構
+
+Institute of Science Tokyo, Honda Research Institute Japan
 
 ## Related
 

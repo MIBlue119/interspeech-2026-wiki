@@ -1,6 +1,7 @@
 ---
 id: kiyama26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [streaming-real-time]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/kiyama26_interspeech.pdf
 *Yusuke Kiyama, Xiyu Wu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/kiyama26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/kiyama26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2907)
+
+**Category:** `phonetics-linguistics` · **Labels:** `streaming-real-time`
 
 **TL;DR** — This study investigates voice onset time (VOT) categorical perception in Mandarin-speaking people who stutter (PWS) using a nonword velar stop continuum and a high-sensitivity zoom-in design. Findings reveal that while PWS possess intact basic categorical perception ability, they exhibit atypical real-time category access and faster within-category reaction times linked to stuttering severity, pointing to right-hemisphere compensatory processing.
 
@@ -61,6 +64,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Diagnostic tool design for speech-language pathology, speech therapy monitoring systems, and speech recognition front-ends tailored for atypical speech patterns.
+
+## Institutions / 機構
+
+Peking University
+
+**Funding / 經費:** National Social Science Fund of China, Beijing Social Science Foundation
 
 ## Related
 

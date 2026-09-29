@@ -14,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/shahamiri26_interspeech.pdf
 
 [PDF](https://www.isca-archive.org/interspeech_2026/shahamiri26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/shahamiri26_interspeech.html)
 
+**Category:** `asr`
+
 **TL;DR** — BetterSpeak introduces a mobile ASR platform powered by a two-phase personalized Conformer adaptation pipeline to translate atypical dysarthric speech into typical speech, achieving word error rates of 21.5% on UASpeech and 12.7% on TORGO.
 
 ## Key contributions
@@ -64,6 +66,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Assistive communication devices, mobile speech translation apps for individuals with motor speech disorders, and speech therapy monitoring tools.
+
+## Institutions / 機構
+
+University of Auckland
 
 ## Related
 

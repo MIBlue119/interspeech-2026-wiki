@@ -1,6 +1,7 @@
 ---
 id: alhabshi26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/alhabshi26_interspeech.pdf
 *Abdulrahman Alhabshi, Beena Ahmed, Mostafa Shahin*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/alhabshi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/alhabshi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2914)
+
+**Category:** `phonetics-linguistics` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — This paper evaluates self-supervised learning (SSL) feature vectors combined with a two-stage Pre-net/Post-net classifier for multilingual and cross-lingual lexical stress detection in Arabic and English, achieving near-monolingual accuracy (~97% English, ~90% Arabic) under joint training. It demonstrates that cross-lingual transfer is asymmetric and benefits significantly from multilingual base representations (XLS-R) and word-level temporal modeling.
 
@@ -67,6 +70,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computer-Aided Pronunciation Learning (CAPL) systems, automated spoken language assessment tools, and prosody-aware multilingual speech analytics.
+
+## Institutions / 機構
+
+University of New South Wales
 
 ## Related
 

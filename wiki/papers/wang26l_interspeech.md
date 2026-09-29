@@ -1,6 +1,6 @@
 ---
 id: wang26l_interspeech
-category: speech-enhancement
+category: enhancement-separation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/wang26l_interspeech.pdf
 *Jiawei Wang, Xiaoqing Hu, Feiran Yang, Jianfei Tong, Guohua Sun*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/wang26l_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/wang26l_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-648)
+
+**Category:** `enhancement-separation`
 
 **TL;DR** — ANDFilter is an all-neural distributed filtering framework for wireless acoustic sensor networks (WASNs) that replaces classical iterative covariance optimization with end-to-end complex filter weight synthesis, achieving significant improvements in speech quality and intelligibility over state-of-the-art baselines.
 
@@ -69,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Distributed smart home assistant networks, multi-room acoustic surveillance, meeting room microphone arrays, and wearable sensor networks.
+
+## Institutions / 機構
+
+Chinese Academy of Sciences, University of Chinese Academy of Sciences
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

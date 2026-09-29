@@ -1,6 +1,7 @@
 ---
 id: liu26j_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [low-resource, robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.pdf
 *Xin Liu, Shulin He, Xueliang Zhang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/liu26j_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1259)
+
+**Category:** `enhancement-separation` · **Labels:** `low-resource`, `robustness-noise`
 
 **TL;DR** — SwitchSE is a clean-free domain adaptation framework that uses a switch-conditioned dual-learning mechanism to fine-tune speech enhancement models on real noisy speech with text transcriptions. It achieves substantial target-domain improvements using only 2.9 hours of CHiME-3 data while preserving source-domain performance.
 
@@ -65,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust speech enhancement for robust automatic speech recognition, mobile communications, and hearing aids operating in unobserved real-world acoustic environments.
+
+## Institutions / 機構
+
+Inner Mongolia University, Southern University of Science and Technology
+
+**Funding / 經費:** Inner Mongolia Natural Science Foundation, Hohhot R&D Investment Incentive Program
 
 ## Related
 

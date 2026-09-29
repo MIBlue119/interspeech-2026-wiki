@@ -1,6 +1,6 @@
 ---
 id: chang26_interspeech
-category: speech-llm
+category: audio-understanding
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/chang26_interspeech.pdf
 *Heyu Chang, Nianwen Si, Hao Zhang, Wenlin Zhang, Dan Qu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/chang26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/chang26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-637)
+
+**Category:** `audio-understanding`
 
 **TL;DR** — Token-Adaptive Decoding (TAD) is a training-free inference strategy that suppresses audio object hallucinations in large audio-language models by applying a confidence-guided penalty to affirmative tokens at the first decoding step. It improves F1 by up to 0.117 on AudioCaps-Hallucination compared to fixed-strength contrastive baselines.
 
@@ -64,6 +66,12 @@ Speech and ML engineers building deployment-ready audio question answering syste
 ## Applications
 
 Audio question answering systems, acoustic event detection validators, and reliable voice-controlled multimodal assistants.
+
+## Institutions / 機構
+
+Information Engineering University
+
+**Funding / 經費:** Henan Province Major Industrial “Challenge-Based Innovation”, Natural Science Foundation of Henan, Science and Technology Key Project Plan of Henan
 
 ## Related
 

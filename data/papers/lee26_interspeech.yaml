@@ -14,6 +14,18 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26_interspeech.pdf
 session: Speech Emotion Recognition and Representation 3
 topics: [speech-emotion-recognition, asr, self-supervised]
+category: paralinguistics-emotion
+labels:
+  - "self-supervised"
+institutions:
+  - "National Tsing Hua University"
+  - "University of Southern California"
+  - "National Taiwan University"
+  - "University of Edinburgh"
+funding:
+  - "NSTC, Taiwan"
+  - "NSF"
+  - "ODNI IARPA ARTS"
 code:
     url: https://anonymous.4open.science/r/AdaLTM-62A2/
     license: ""

@@ -1,6 +1,6 @@
 ---
 id: payne26_interspeech
-category: phonetics
+category: phonetics-linguistics
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/payne26_interspeech.pdf
 *Elinor Payne, Angelo Dian*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/payne26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/payne26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2691)
+
+**Category:** `phonetics-linguistics`
 
 **TL;DR** — This paper investigates intonational rise(-falls) in broad focus declaratives (BFDs) within gambellarese, a central-western Venetan dialect, finding them to be roughly as common as traditional falls (47% prevalence) and independent of lexical stress position. This challenges standard Italo-Romance assumptions and highlights an alternative unmarked rising nuclear tune.
 
@@ -66,6 +68,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Improving dialect-aware text-to-speech (TTS) synthesis and automated speech recognition (ASR) adaptation for regional Italo-Romance and minority languages.
+
+## Institutions / 機構
+
+University of Oxford
+
+**Funding / 經費:** Gladys Krieble Delmas Foundation, Economic and Social Research Council
 
 ## Related
 

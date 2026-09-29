@@ -1,6 +1,7 @@
 ---
 id: thavarasa26_interspeech
-category: speech-emotion-recognition
+category: paralinguistics-emotion
+labels: [multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/thavarasa26_interspeech.pdf
 *Luxshan Thavarasa, Jubeerathan Thevakumar, Thanikan Sivatheepan, Uthayasanker Thayasivam*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/thavarasa26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/thavarasa26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3502)
+
+**Category:** `paralinguistics-emotion` · **Labels:** `multilingual`, `self-supervised`
 
 **TL;DR** — KuralHub benchmarks 11 self-supervised speech models across 33 datasets in 29 languages, revealing that SER cross-lingual transferability is bottlenecked by structural linguistic typology rather than pre-training data volume or model parameter scale.
 
@@ -67,6 +70,10 @@ Speech and ML researchers building multilingual speech technologies should read 
 ## Applications
 
 Development of inclusive, typologically-aware spoken dialogue systems, cross-lingual affective computing, and emotionally intelligent human-computer interfaces for under-resourced languages.
+
+## Institutions / 機構
+
+University of Moratuwa
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: lin26i_interspeech
-category: speech-llm
+category: audio-understanding
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/lin26i_interspeech.pdf
 *Yueqian Lin, Qinsi Wang, Yudong Liu, Hancheng Ye, Hai Li, Yiran Chen*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/lin26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/lin26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1739)
+
+**Category:** `audio-understanding` · **Labels:** `generative-model`
 
 **TL;DR** — RAISE is a training-free framework that equips Audio LLMs with a semantic router, generative auditory imagination, and selective extraction to resolve perceptual ambiguities at inference time, yielding up to a 12.4% accuracy gain on MMAR and MMAU benchmarks.
 
@@ -68,6 +71,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust audio understanding systems, complex multimedia question answering, automated acoustic surveillance, and fine-grained speech/sound event analysis in noisy environments.
+
+## Institutions / 機構
+
+Duke University
+
+**Funding / 經費:** National Science Foundation, Army Research Office
 
 ## Related
 

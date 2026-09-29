@@ -1,6 +1,7 @@
 ---
 id: bhattacharya26b_interspeech
-category: speech-enhancement
+category: deepfake-security
+labels: [efficient-on-device, streaming-real-time, generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/bhattacharya26b_interspeech.p
 *Sameek Bhattacharya, Bharath Krishnamurthy, Ajita Rattani*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/bhattacharya26b_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/bhattacharya26b_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3055)
+
+**Category:** `deepfake-security` · **Labels:** `efficient-on-device`, `streaming-real-time`, `generative-model`
 
 **TL;DR** — A real-time generative adversarial attack framework operates directly in the continuous latent space of the Descript Audio Codec (DAC), achieving up to 99% targeted attack success with sub-7 ms inference. This bypasses the prohibitive computational overhead of traditional iterative waveform attacks.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Real-time security auditing, adversarial robustness benchmarking, and threat assessment for voice assistants and biometric authentication systems.
+
+## Institutions / 機構
+
+University of North Texas
 
 ## Related
 

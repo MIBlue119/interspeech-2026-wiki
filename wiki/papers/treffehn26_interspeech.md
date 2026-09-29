@@ -1,6 +1,6 @@
 ---
 id: treffehn26_interspeech
-category: speech-coding
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/treffehn26_interspeech.pdf
 *Anika Treffehn, Andrea Eichenseer, Emily Kratsch, Nicola Pia*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/treffehn26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/treffehn26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1387)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — A comparative study evaluating speech codecs via lab-controlled P.800 versus crowdsourced P.808 tests reveals that mid- and post-screening methods drastically reduce rating bias and align crowdsourced scores with laboratory benchmarks, improving MAE from 0.573 down to 0.230.
 
@@ -67,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Cost-effective subjective evaluation and quality benchmarking of classical and neural speech codecs during early-stage prototyping and deployment.
+
+## Institutions / 機構
+
+Fraunhofer-Gesellschaft
+
+**Funding / 經費:** Free State of Bavaria
 
 ## Related
 

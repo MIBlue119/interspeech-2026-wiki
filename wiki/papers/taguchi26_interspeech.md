@@ -1,6 +1,7 @@
 ---
 id: taguchi26_interspeech
 category: asr
+labels: [low-resource, multilingual, self-supervised]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/taguchi26_interspeech.pdf
 *Chihiro Taguchi, Éric Le Ferrand, Hirosi Nakagawa, Hitomi Ono, Kanji Kato, Emily Prud'hommeaux, David Chiang*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/taguchi26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/taguchi26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2848)
+
+**Category:** `asr` · **Labels:** `low-resource`, `multilingual`, `self-supervised`
 
 **TL;DR** — This paper evaluates whether pretrained self-supervised speech models can recognize rare click consonants in under-resourced Khoisan languages (G|ui and West !Xoon), finding that fine-tuned models actually recognize click phonemes more accurately than non-click phonemes. This demonstrates strong cross-lingual generalization to typologically unusual sounds despite their absence from pretraining distributions.
 
@@ -59,6 +62,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Building inclusive speech recognition tools for endangered and low-resource languages with complex, atypical phonological systems.
+
+## Institutions / 機構
+
+University of Notre Dame, University at Buffalo, Tokyo University of Foreign Studies, Reitaku University, Boston College
+
+**Funding / 經費:** National Science Foundation, JSPS KAKENHI
 
 ## Related
 

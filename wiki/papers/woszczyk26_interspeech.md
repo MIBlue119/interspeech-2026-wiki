@@ -1,6 +1,6 @@
 ---
 id: woszczyk26_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/woszczyk26_interspeech.pdf
 *Dominika Woszczyk, Andreas Triantafyllopoulos, Jura Miniota, Éva Székely, Bjoern Schuller*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/woszczyk26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/woszczyk26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3392)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — This paper investigates text-to-speech (TTS) evaluation across five distinct domains, demonstrating that perceived appropriateness varies independently of naturalness and that conventional evaluation metrics often fail to capture contextual suitability.
 
@@ -64,6 +66,10 @@ Speech and ML engineers building deployment-targeted TTS systems should read thi
 ## Applications
 
 Context-aware speech synthesis selection and domain-specific TTS evaluation pipelines for conversational AI, digital actors, and audiobooks.
+
+## Institutions / 機構
+
+Iconic, Technische Universitat Munchen, KTH Royal Institute of Technology, Imperial College London
 
 ## Related
 

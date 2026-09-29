@@ -10,6 +10,9 @@ isca_url: https://www.isca-archive.org/interspeech_2026/marew26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/marew26_interspeech.pdf
 session: Search Methods and Inference Algorithms
 topics: [asr, tts, self-supervised]
+category: asr
+institutions:
+  - "Mohamed bin Zayed University of Artificial Intelligence"
 code:
     url: https://github.com/rufaelfekadu/DiaCTC
     license: ""

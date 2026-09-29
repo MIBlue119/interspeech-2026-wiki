@@ -9,6 +9,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/sadok26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/sadok26_interspeech.pdf
 session: Speech Representations and Alignment
 topics: [self-supervised, asr, speaker-verification]
+category: asr
+labels:
+  - "self-supervised"
+institutions:
+  - "Inria"
+  - "Universite Grenoble Alpes"
+  - "CNRS"
 code:
     url: ""
     license: ""

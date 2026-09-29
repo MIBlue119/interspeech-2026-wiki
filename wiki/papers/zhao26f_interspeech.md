@@ -1,6 +1,7 @@
 ---
 id: zhao26f_interspeech
-category: spatial-audio
+category: applications-other
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/zhao26f_interspeech.pdf
 *Qingying Zhao, Siyuan Chen, De Hu*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/zhao26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/zhao26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-1995)
+
+**Category:** `applications-other` · **Labels:** `low-resource`
 
 **TL;DR** — SA-HRTF introduces a dual-branch architecture that combines database retrieval priors with sound-informed acoustic cues to personalize head-related transfer functions (HRTFs) from sparse spatial measurements. It achieves a state-of-the-art log-spectral distortion (LSD) of 3.76 with only 3 measurement points.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Personalized 3D audio rendering for virtual reality, augmented reality, and smart consumer headphones.
+
+## Institutions / 機構
+
+Inner Mongolia University
+
+**Funding / 經費:** Natural Science Foundation of Inner Mongolia Autonomous Region, National Natural Science Foundation of China
 
 ## Related
 

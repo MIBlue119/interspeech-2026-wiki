@@ -10,6 +10,15 @@ isca_url: https://www.isca-archive.org/interspeech_2026/zhang26ha_interspeech.ht
 pdf_url: https://www.isca-archive.org/interspeech_2026/zhang26ha_interspeech.pdf
 session: 'ASR Under Real-World Constraints: Streaming, Adaptation, and Efficiency'
 topics: [keyword-spotting, self-supervised, on-device]
+category: asr
+labels:
+  - "streaming-real-time"
+institutions:
+  - "Network and Data Security Key Laboratory of Sichuan Province"
+  - "University of Electronic Science and Technology of China"
+funding:
+  - "National Natural Science Foundation of China"
+  - "Sichuan Science and Technology Support Plan"
 code:
     url: ""
     license: ""

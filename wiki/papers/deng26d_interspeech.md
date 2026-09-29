@@ -1,6 +1,7 @@
 ---
 id: deng26d_interspeech
-category: speech-enhancement
+category: enhancement-separation
+labels: [robustness-noise]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/deng26d_interspeech.pdf
 *Yongyi Deng, Hanchen Pei, Jianbo Ma, Gongping Huang, Jingdong Chen, Jacob Benesty*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/deng26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/deng26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2212)
+
+**Category:** `enhancement-separation` · **Labels:** `robustness-noise`
 
 **TL;DR** — This paper proposes a data-driven MVDR beamforming framework that jointly predicts a time-frequency noise mask and a frequency-dependent white noise gain (WNG) threshold using a dual-branch neural network, achieving superior speech enhancement and robustness against array mismatches compared to fixed-WNG baselines.
 
@@ -67,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Robust multichannel speech enhancement, smart speakers, hands-free communication devices, and hearing aids operating in dynamic acoustic environments with sensor mismatch.
+
+## Institutions / 機構
+
+Wuhan University, Dolby Laboratories, Northwestern Polytechnical University, University of Quebec
+
+**Funding / 經費:** National Natural Science Foundation of China
 
 ## Related
 

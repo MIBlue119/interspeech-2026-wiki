@@ -1,6 +1,6 @@
 ---
 id: sun26i_interspeech
-category: paralinguistics
+category: health-clinical
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/sun26i_interspeech.pdf
 *Yuqing Sun, Jian Zhao, Haoxun Li, Leyuan Qu, Taihao Li*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/sun26i_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/sun26i_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3099)
+
+**Category:** `health-clinical`
 
 **TL;DR** — Moot-Court is a training-free reasoning engine for automated depression detection that uses adversarial multi-agent debate and a dynamic experience library to guide frozen LLMs, achieving an F1-score of 0.8856 on DAIC-WOZ.
 
@@ -68,6 +70,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated mental health screening, objective psychiatric risk assessment tools, and interpretable clinical decision-support systems.
+
+## Institutions / 機構
+
+University of Chinese Academy of Sciences
+
+**Funding / 經費:** National Natural Science Foundation of China, Key Scientific Research Program of Hangzhou, Natural Science Foundation of Hangzhou, Scientific Research Starting Foundation of Hangzhou Institute for Advanced Study, Zhejiang Provincial Natural Science Foundation of China, Key R&D Program of Zhejiang
 
 ## Related
 

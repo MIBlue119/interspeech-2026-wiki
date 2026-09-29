@@ -10,6 +10,17 @@ isca_url: https://www.isca-archive.org/interspeech_2026/kang26_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/kang26_interspeech.pdf
 session: 'Speaker Verification: Advances in Speaker Embeddings'
 topics: [speaker-verification, self-supervised]
+category: speaker
+labels:
+  - "self-supervised"
+institutions:
+  - "Korea University"
+funding:
+  - "Institute of Information Communications Technology Planning Evaluation"
+  - "National Research Foundation of Korea"
+  - "Ministry of Science and ICT"
+  - "Ministry of SMEs and Startups"
+  - "Supreme Prosecutor’s Office"
 code:
     url: https://github.com/slp-lab-research/vam_ecapa
     license: ""

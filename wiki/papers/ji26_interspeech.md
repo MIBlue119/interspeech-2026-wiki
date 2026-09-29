@@ -1,6 +1,7 @@
 ---
 id: ji26_interspeech
-category: source-separation
+category: enhancement-separation
+labels: [dataset-or-benchmark-release]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/ji26_interspeech.pdf
 *Yu Ji, Shuo Yang, Yuetonghui Xu, Mengmei Liu, Qiang Ji, zerui Han*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/ji26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/ji26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-190)
+
+**Category:** `enhancement-separation` · **Labels:** `dataset-or-benchmark-release`
 
 **TL;DR** — This paper presents ACMID, an automated pipeline that crawls and cleans web audio to construct a large-scale, 7-stem instrument source separation dataset, yielding a 1.16 dB average SDR improvement on standard benchmarks.
 
@@ -69,6 +72,10 @@ Speech and ML engineers working on music source separation or audio tagging shou
 ## Applications
 
 Multi-track music source separation, automated karaoke/remix stems generation, and intelligent music production tools.
+
+## Institutions / 機構
+
+Xiaomi, Central Conservatory of Music
 
 ## Related
 

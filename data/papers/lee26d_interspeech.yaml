@@ -10,6 +10,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/lee26d_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/lee26d_interspeech.pdf
 session: Audio Foundation Models and Generation
 topics: [speech-llm, self-supervised, multilingual]
+category: audio-understanding
+labels:
+  - "self-supervised"
+institutions:
+  - "Sogang University"
 code:
     url: https://github.com/sam-audio-language-model/sam
     license: ""

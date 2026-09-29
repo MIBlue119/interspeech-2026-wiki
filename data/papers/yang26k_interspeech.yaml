@@ -11,6 +11,11 @@ isca_url: https://www.isca-archive.org/interspeech_2026/yang26k_interspeech.html
 pdf_url: https://www.isca-archive.org/interspeech_2026/yang26k_interspeech.pdf
 session: Audio Coding and Signal Analysis
 topics: [speech-coding, self-supervised, tts]
+category: speech-coding
+institutions:
+  - "Georgia Institute of Technology"
+  - "Chinese University of Hong Kong"
+  - "Tencent Music Entertainment"
 code:
     url: https://github.com/QiaoyuYang/HARP
     license: ""

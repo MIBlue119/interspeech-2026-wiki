@@ -1,6 +1,6 @@
 ---
 id: park26f_interspeech
-category: tts
+category: resources-evaluation
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +13,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/park26f_interspeech.pdf
 *Younghan Park, Hoyeon Lee, Hawon Jeong, Jong-Hwan Kim*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/park26f_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/park26f_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2225)
+
+**Category:** `resources-evaluation`
 
 **TL;DR** — LLM-based Multi-Reference Evaluation (LMRE) solves the one-to-many prosodic phrasing problem in text-to-speech by generating multiple valid reference phrase break annotations via few-shot prompting, achieving significantly higher human correlation than single-reference baselines.
 
@@ -65,6 +67,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Automated evaluation of text-to-speech (TTS) frontend prosody modules, phrase break prediction systems, and corpus annotation quality control.
+
+## Institutions / 機構
+
+NAVER Cloud, Yonsei University, KAIST
 
 ## Related
 

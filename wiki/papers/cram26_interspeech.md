@@ -1,6 +1,7 @@
 ---
 id: cram26_interspeech
-category: phonetics
+category: phonetics-linguistics
+labels: [low-resource]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/cram26_interspeech.pdf
 *Coralie Cram, John McGahay, Megha Sundara*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/cram26_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/cram26_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-3107)
+
+**Category:** `phonetics-linguistics` · **Labels:** `low-resource`
 
 **TL;DR** — This paper investigates acoustic cues for distinguishing five-way stop place contrasts in Warlpiri using maximum-likelihood classification, demonstrating that consonant-intrinsic cues alone are insufficient and that adjacent vowel allophony (midpoint formants) significantly improves classification.
 
@@ -65,6 +68,10 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Computational speech perception modeling, automated acoustic analysis for low-resource languages, and linguistic fieldwork validation.
+
+## Institutions / 機構
+
+UCLA
 
 ## Related
 

@@ -1,6 +1,7 @@
 ---
 id: choi26d_interspeech
-category: voice-conversion
+category: tts
+labels: [generative-model]
 updated: 2026-09-29
 confidence: full-paper
 digest: v2
@@ -13,6 +14,8 @@ pdf: https://www.isca-archive.org/interspeech_2026/choi26d_interspeech.pdf
 *Jeongsoo Choi, Ji-Hoon Kim, Shujie Hu, Joon Son Chung*
 
 [PDF](https://www.isca-archive.org/interspeech_2026/choi26d_interspeech.pdf) · [ISCA page](https://www.isca-archive.org/interspeech_2026/choi26d_interspeech.html) · [DOI](https://doi.org/10.21437/Interspeech.2026-2146)
+
+**Category:** `tts` · **Labels:** `generative-model`
 
 **TL;DR** — ProsoCodec is a prosody-oriented neural speech codec that models prosody as a conditional residual using text and speaker prefix conditioning, achieving state-of-the-art zero-shot voice conversion with a Word Error Rate of 4.45% and a source timbre leakage score (SIMs) of 0.167.
 
@@ -66,6 +69,12 @@ None released (as of this page's `updated` date). If you are an author with a re
 ## Applications
 
 Zero-shot voice conversion, expressive text-to-speech, and spoken dialogue systems requiring precise prosody transfer across diverse speakers.
+
+## Institutions / 機構
+
+KAIST, Chung-Ang University, Chinese University of Hong Kong
+
+**Funding / 經費:** Institute of Information & Communications Technology Planning & Evaluation
 
 ## Related
 

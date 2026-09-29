@@ -11,6 +11,13 @@ isca_url: https://www.isca-archive.org/interspeech_2026/azeemi26_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/azeemi26_interspeech.pdf
 session: Multilingual & Low-Resource ASR
 topics: [asr, low-resource, multilingual]
+category: asr
+labels:
+  - "low-resource"
+  - "multilingual"
+  - "self-supervised"
+institutions:
+  - "Lahore University of Management Sciences"
 code:
     url: ""
     license: ""

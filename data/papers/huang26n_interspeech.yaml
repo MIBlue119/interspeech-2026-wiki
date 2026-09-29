@@ -12,6 +12,12 @@ isca_url: https://www.isca-archive.org/interspeech_2026/huang26n_interspeech.htm
 pdf_url: https://www.isca-archive.org/interspeech_2026/huang26n_interspeech.pdf
 session: Multimodal Spoken Dialogue Systems
 topics: [paralinguistics, emotion-recognition, multimodal]
+category: paralinguistics-emotion
+institutions:
+  - "Hong Kong Polytechnic University"
+  - "University of Hong Kong"
+funding:
+  - "Innovation Technology Co. Ltd"
 code:
     url: ""
     license: ""
