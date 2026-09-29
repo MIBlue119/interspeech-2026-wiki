@@ -22,11 +22,25 @@ func cmdReadme(_ []string) error {
 		return err
 	}
 	var withCode []*Paper
+	catCount := map[string]int{}
 	for _, p := range papers {
 		if p.Code.URL != "" {
 			withCode = append(withCode, p)
+			catCount[p.Category]++
 		}
 	}
+	// group rows by category — biggest categories first (matching the
+	// Browse-by-category table), then by title within a category
+	sort.SliceStable(withCode, func(i, j int) bool {
+		a, b := withCode[i], withCode[j]
+		if a.Category != b.Category {
+			if catCount[a.Category] != catCount[b.Category] {
+				return catCount[a.Category] > catCount[b.Category]
+			}
+			return a.Category < b.Category
+		}
+		return a.Title < b.Title
+	})
 
 	var b strings.Builder
 	fmt.Fprintf(&b, "\n_%d papers indexed · %d with open-source code — [add one](CONTRIBUTING.md)_\n\n", len(papers), len(withCode))
