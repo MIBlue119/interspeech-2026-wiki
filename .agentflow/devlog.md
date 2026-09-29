@@ -4,19 +4,19 @@ Project: interspeech-2026-wiki
 
 Notebook: .agentflow/devlog.md — root.
 
-Current commit: code display + stars at 2018b40/6d896e8 plus this closeout record on origin/main.
+Current commit: column reorder at 8bc7b20 plus this closeout record on origin/main.
 
-Tests/scenarios: go build/vet; validate 1379 OK; readme/toc/orgs byte-identical; live HTTP checks on repaired repos; stub functional test.
+Tests/scenarios: go build/vet; readme byte-identical regeneration; header/row alignment spot-check.
 
 Configuration: ag.json — schema v8; validated for claude-code this round.
 
-Proven: Code column shows repo names + stars; code URL in frontmatter of 596 pages; 36 dead links audited (10 repaired, 5 cleared, 22 kept); review all PASS.
+Proven: README table columns reordered as requested; review all PASS.
 
 Open: none.
 
 Next: await the owner.
 
-Artifacts: .agentflow/artifacts/A-007-code-display/review-007.md.
+Artifacts: .agentflow/artifacts/A-008-column-order/review-008.md.
 
 Archived eras: none.
 
@@ -425,5 +425,37 @@ Streams: none.
 ---
 
 # → Ask / A-008 (miblue119)
+
++ 同時可以讓這邊的column 順序換下 https://github.com/MIBlue119/interspeech-2026-wiki#papers-with-open-source-code  Paper/Authors/Organizations/Category/Code/ ....
+
+---
+
+## [RUN-001] Event — 2026-09-29 10:17:08 +0800 (A-008)
+
+- README code-table columns reordered to Paper / Authors / Organizations / Category / Code / Labels / Wiki (readme.go header + row argument swap; commit 8bc7b20); regeneration byte-stable, 596 rows unchanged. Review-008: all PASS.
+
+# ← Reply / A-008
+
+* _2026-09-29 10:17:08 +0800 (claude-code/unknown)_
+
+## [SUMMARY]
+
+- README 開源大表欄位順序已改為 Paper / Authors / Organizations / Category / Code / Labels / Wiki（Code 提前到 Category 後），已上 GitHub。
+
+## [FINAL REPORT]
+
+1. 調整大表欄位順序
+
+   - 成功。readme.go 表頭與資料列同步對調，README 重生成（596 列內容不變，僅欄序改變），CI byte-stable 檢查通過；獨立 review 四項 PASS（報告：.agentflow/artifacts/A-008-column-order/review-008.md）。
+
+
+## Questions (batched — each with a suggested default)
+
+- None.
+
+
+---
+
+# → Ask / A-009 (miblue119)
 
 +
