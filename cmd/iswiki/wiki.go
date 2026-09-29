@@ -23,11 +23,28 @@ func cmdWiki(args []string) error {
 		return fmt.Errorf("%s already exists — edit it directly", dst)
 	}
 
-	category := "uncategorized"
-	if len(p.Topics) > 0 {
+	category := p.Category
+	if category == "" && len(p.Topics) > 0 {
 		category = p.Topics[0]
-	} else if p.Session != "" {
-		category = strings.ToLower(strings.Join(strings.Fields(p.Session), "-"))
+	}
+	if category == "" {
+		category = "uncategorized"
+	}
+	labelsFront, labelsLine := "", ""
+	if len(p.Labels) > 0 {
+		labelsFront = fmt.Sprintf("labels: [%s]\n", strings.Join(p.Labels, ", "))
+		labelsLine = " · **Labels:** `" + strings.Join(p.Labels, "`, `") + "`"
+	}
+	orgSection := ""
+	if len(p.Institutions) > 0 || len(p.Funding) > 0 {
+		orgSection = "## Institutions / 機構\n\n"
+		if len(p.Institutions) > 0 {
+			orgSection += strings.Join(p.Institutions, ", ") + "\n"
+		}
+		if len(p.Funding) > 0 {
+			orgSection += "\n**Funding / 經費:** " + strings.Join(p.Funding, ", ") + "\n"
+		}
+		orgSection += "\n"
 	}
 	source := p.ISCAURL
 	if p.DOI != "" {
@@ -45,7 +62,7 @@ func cmdWiki(args []string) error {
 	page := fmt.Sprintf(`---
 id: %s
 category: %s
-updated: %s
+%supdated: %s
 confidence: abstract-only
 digest: v2
 source: %s
@@ -57,6 +74,8 @@ pdf: %s
 *%s*
 
 [PDF](%s) · [ISCA page](%s)
+
+**Category:** %s%s
 
 **TL;DR** — (1-2 sentences: what it does + headline quantified result)
 
@@ -96,11 +115,12 @@ pdf: %s
 
 (who could use this and for what)
 
-## Related
+%s## Related
 
 - (link related pages by id, e.g. %s)
-`, p.ID, category, time.Now().Format("2006-01-02"), source, pdfURL, p.Title,
-		strings.Join(p.Authors, ", "), pdfURL, p.ISCAURL, codeLine, "`barreiros26_interspeech`")
+`, p.ID, category, labelsFront, time.Now().Format("2006-01-02"), source, pdfURL, p.Title,
+		strings.Join(p.Authors, ", "), pdfURL, p.ISCAURL,
+		"`"+category+"`", labelsLine, codeLine, orgSection, "`barreiros26_interspeech`")
 
 	if err := os.MkdirAll(wikiDir, 0o755); err != nil {
 		return err
