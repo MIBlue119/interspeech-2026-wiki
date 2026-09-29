@@ -4,19 +4,19 @@ Project: interspeech-2026-wiki
 
 Notebook: .agentflow/devlog.md — root.
 
-Current commit: orgs metadata 562a00f + table sort 76ef81e + this closeout record on origin/main.
+Current commit: code display + stars at 2018b40/6d896e8 plus this closeout record on origin/main.
 
-Tests/scenarios: go build/vet; validate 1379 OK; readme byte-identical; stub functional test incl. empty-institutions edge; contiguous grouping verified.
+Tests/scenarios: go build/vet; validate 1379 OK; readme/toc/orgs byte-identical; live HTTP checks on repaired repos; stub functional test.
 
 Configuration: ag.json — schema v8; validated for claude-code this round.
 
-Proven: institutions in frontmatter of 1374 pages; README table has Organizations column and category-grouped rows; review all PASS.
+Proven: Code column shows repo names + stars; code URL in frontmatter of 596 pages; 36 dead links audited (10 repaired, 5 cleared, 22 kept); review all PASS.
 
 Open: none.
 
 Next: await the owner.
 
-Artifacts: .agentflow/artifacts/A-006-orgs-metadata/review-006.md.
+Artifacts: .agentflow/artifacts/A-007-code-display/review-007.md.
 
 Archived eras: none.
 
@@ -371,5 +371,59 @@ Streams: none.
 ---
 
 # → Ask / A-007 (miblue119)
+
++ 好啊，請你幫我（README code 欄顯示 repo 名稱），同時我也希望code相關資訊可以放在md檔的meta data
+
++ 假如是github我想說還可以顯示星星數
+
+---
+
+## [RUN-001] Event — 2026-09-29 09:32:04 +0800 (A-007)
+
+- Code column upgraded to repo display names (owner/repo; HF-tagged; hostname for demos) with GitHub ★ counts (new `iswiki stars` GraphQL refresher, code.stars in yaml; 228 rows show stars, top: RVC-Boss/GPT-SoVITS 62k → later cleared as backbone, NVIDIA-NeMo/NeMo 18.5k, k2-fsa/OmniVoice 14k). `code: <url>` frontmatter batch-added to all code-linked pages; stub + docs synced; stale sort comment reworded (commits 2018b40, 6d896e8).
+
+- Star resolution exposed 36 dead links; each audited against paper text: 10 repaired via GitHub API fuzzy match (open_asr_leaderboard, USE_DDP, unified-audio…), 5 cleared (2 third-party tools, 2 hallucinated URLs absent from text, 1 backbone GPT-SoVITS), 22 kept as self-announced-not-yet-public. Table now 596 verified code links.
+
+- Review-007: all PASS (reviewer added live HTTP checks on repaired repos; one cosmetic yaml field-order note, non-blocking).
+
+# ← Reply / A-007
+
+* _2026-09-29 09:32:04 +0800 (claude-code/unknown)_
+
+## [SUMMARY]
+
+- README 開源大表的 Code 欄現在顯示 repo 名稱（owner/repo；HF 標記；demo 頁顯示網域）＋ GitHub 星數（★），code URL 也進了每頁 md 的 frontmatter metadata，已上 GitHub。
+
+- 抓星數時順帶揪出 36 個失效連結並逐一稽核：修復 10、清除 5、保留 22（論文自宣但尚未公開），大表現為 596 篇經驗證的開源論文。
+
+## [FINAL REPORT]
+
+1. Code 欄顯示 repo 名稱
+
+   - 成功。github/gitlab/codeberg 顯示 owner/repo；Hugging Face 顯示 owner/repo (HF)（datasets/spaces 前綴正確處理）；demo 頁顯示網域名。
+
+2. GitHub 星數
+
+   - 成功。新增 `iswiki stars` 子指令：GitHub GraphQL 批次查詢（100 repo/請求，GITHUB_TOKEN 由 gh auth token 提供），星數存進 yaml 的 code.stars（CI 保持確定性、可定期重刷）；表上 228 列顯示 ★（最高 NVIDIA-NeMo/NeMo ★18521）。
+
+   - 額外收穫：星數解析暴露 36 個 404 連結。逐一對照論文原文＋GitHub API 模糊比對：10 筆是 PDF 換行截斷、已修復成真實 repo；5 筆清除（wei26/ijjada26b 引用第三方工具、arora26b/poncelet26 論文沒附 URL 屬幻覺、xu26j 的 GPT-SoVITS 明寫是 backbone）；22 筆保留（原文有自宣、repo 尚未公開）。
+
+3. code 資訊放進 md metadata
+
+   - 成功。596 頁 code-linked 的 frontmatter 都有 `code: <url>` 行（可 grep）；`iswiki wiki` stub 模板同步輸出；AGENTS/CONTRIBUTING 文件同步。
+
+4. 品質
+
+   - 獨立 review 四項全 PASS（reviewer 對修復的 repo 做了 live HTTP 驗證；附帶一個非阻斷的 yaml 欄位順序美觀備註）。上輪註解不精確的問題也一併修正。報告：.agentflow/artifacts/A-007-code-display/review-007.md。
+
+
+## Questions (batched — each with a suggested default)
+
+- None.
+
+
+---
+
+# → Ask / A-008 (miblue119)
 
 +
