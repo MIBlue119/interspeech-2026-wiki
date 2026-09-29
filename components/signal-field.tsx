@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { ResearchAreaLink } from "./research-area-link";
 import { ArrowDownRight } from "lucide-react";
 import { categories, categoryName } from "@/lib/catalog";
 
@@ -51,12 +51,10 @@ export function SignalField({
       </div>
       <div className="corpus-map" aria-label="Paper distribution by category">
         {counts.map((category, i) => (
-          <Link prefetch={false}
+          <ResearchAreaLink
             key={category.name}
-            href={`/?category=${category.name}#explore`}
-            title={`${categoryName(category.name)} · ${category.count} papers`}
-            aria-label={`Explore ${category.count} papers in ${categoryName(category.name)}`}
-            className="corpus-band"
+            category={category.name}
+            label={`${categoryName(category.name)} · ${category.count} papers`}
           >
             <span className="corpus-label">
               <span>{categories[category.name]?.short || categoryName(category.name)}</span>
@@ -69,7 +67,7 @@ export function SignalField({
                 <span key={j} className={i % 4 === 0 ? "hot" : ""} />
               ))}
             </span>
-          </Link>
+          </ResearchAreaLink>
         ))}
       </div>
       <div className="signal-caption bottom">

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowUpRight,
   Building2,
@@ -10,6 +10,7 @@ import {
 import { categories, number } from "@/lib/catalog";
 import { institutionTypes } from "@/lib/institutions";
 import { InstitutionPicker } from "./institution-picker";
+import { RESEARCH_AREA_NAVIGATION } from "./research-area-link";
 type Count = { name: string; count: number };
 export function ResearchFilters({
   counts,
@@ -34,13 +35,51 @@ export function ResearchFilters({
 }) {
   const [allAreas, setAllAreas] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const group = useRef<HTMLDivElement>(null);
+  const [navigation, setNavigation] = useState<{ category: string } | null>(null);
+  const handledNavigation = useRef<typeof navigation>(null);
+  useEffect(() => {
+    function navigate(event: Event) {
+      const category = (event as CustomEvent<unknown>).detail;
+      if (typeof category === "string" && Object.hasOwn(categories, category)) {
+        setNavigation({ category });
+      }
+    }
+    window.addEventListener(RESEARCH_AREA_NAVIGATION, navigate);
+    // A copied link or new tab should also reveal the selected mobile chip.
+    if (window.location.hash === "#research-areas") {
+      const category = new URLSearchParams(window.location.search).get("category");
+      if (category && Object.hasOwn(categories, category)) setNavigation({ category });
+    }
+    return () => window.removeEventListener(RESEARCH_AREA_NAVIGATION, navigate);
+  }, []);
+  useEffect(() => {
+    if (!navigation || navigation === handledNavigation.current || !selectedAreas.includes(navigation.category)) return;
+    const target = group.current?.querySelector<HTMLButtonElement>(`[data-research-area="${navigation.category}"]`);
+    if (!target || !group.current) return;
+    handledNavigation.current = navigation;
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const behavior = reducedMotion ? "instant" : "smooth";
+    target.focus({ preventScroll: true });
+    // Reveal the chosen chip inside the mobile horizontal list independently
+    // of the page scroll, keeping the RESEARCH AREAS heading in view.
+    const options = target.parentElement!;
+    options.scrollTo({ left: options.scrollLeft + target.getBoundingClientRect().left - options.getBoundingClientRect().left - (options.clientWidth - target.offsetWidth) / 2, behavior });
+    group.current.scrollIntoView({ block: "start", behavior });
+    const attention = !reducedMotion ? target.animate([
+      { boxShadow: "0 0 0 0px #55726000" },
+      { boxShadow: "0 0 0 4px #55726055", offset: 0.3 },
+      { boxShadow: "0 0 0 0px #55726000" },
+    ], { duration: 2200, easing: "ease-out" }) : undefined;
+    return () => attention?.cancel();
+  }, [navigation, selectedAreas.join("|")]);
   const visibleAreas = allAreas
     ? counts
     : counts.filter((c, i) => i < 6 || selectedAreas.includes(c.name));
   return (
     <aside className="filter-sidebar" aria-label="Research filters">
-      <div className="research-area-group">
-        <div className="filter-title">
+      <div className="research-area-group" id="research-areas" ref={group} role="group" aria-labelledby="research-area-heading">
+        <div className="filter-title" id="research-area-heading">
           <SlidersHorizontal size={15} /> RESEARCH AREAS
         </div>
         <button
@@ -65,6 +104,8 @@ export function ResearchFilters({
           {visibleAreas.map((c) => (
             <button
               key={c.name}
+              data-research-area={c.name}
+              aria-label={`${categories[c.name]?.name || c.name}, ${c.count} papers`}
               className={`category-filter ${selectedAreas.includes(c.name) ? "active" : ""}`}
               aria-pressed={selectedAreas.includes(c.name)}
               onClick={() => onUpdate("category", c.name)}
