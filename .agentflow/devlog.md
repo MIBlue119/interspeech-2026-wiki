@@ -4,19 +4,19 @@ Project: interspeech-2026-wiki
 
 Notebook: .agentflow/devlog.md — root.
 
-Current commit: metadata enrichment at 31b139b + template fix e2d09d6 + this closeout record on origin/main.
+Current commit: table sync at 4f28900 plus this closeout record on origin/main.
 
-Tests/scenarios: go build/vet; validate 1379 OK; readme/toc/orgs byte-identical; stub functional test; reviewer spot-checks vs paper affiliation text.
+Tests/scenarios: go build/vet; validate 1379 OK; readme/toc/orgs byte-identical; reviewer spot-checks of cleared/kept code links vs source text.
 
 Configuration: ag.json — schema v8; validated for claude-code this round.
 
-Proven: all 1379 papers carry TypeSafe-judged category+labels and verified institutions/funding in yaml+md; README category table and institutions index generated; review all PASS.
+Proven: README code table carries synced Category/Labels columns; 5 backbone links cleared with evidence; review all PASS.
 
 Open: none.
 
 Next: await the owner.
 
-Artifacts: .agentflow/artifacts/A-004-categories-orgs/ (tracker.md, review-004.md).
+Artifacts: .agentflow/artifacts/A-005-readme-table/review-005.md.
 
 Archived eras: none.
 
@@ -283,5 +283,43 @@ Streams: none.
 ---
 
 # → Ask / A-005 (miblue119)
+
++ why don't you sync the label, categories at here https://github.com/MIBlue119/interspeech-2026-wiki#papers-with-open-source-code
+
+---
+
+## [RUN-001] Event — 2026-09-29 09:10:17 +0800 (A-005)
+
+- README code table gained Category and Labels columns (readme.go, empty-safe); regeneration byte-stable. A sweep of well-known third-party repos caught 5 surviving backbone code links (openai/whisper, unilm wavlm, wenet, fairseq, speechbrain SENSE recipe) — cleared per the ownership rule with source-text evidence; keeps verified (zhu26e own OmniVoice repo, variani26 self-announced MSEB codebase, moumen26 announced SpeechBrain release). Table now 601 with code. Review-005: all PASS on 4f28900.
+
+# ← Reply / A-005
+
+* _2026-09-29 09:10:17 +0800 (claude-code/unknown)_
+
+## [SUMMARY]
+
+- README 的開源 code 大表現在每列都帶 Category 與 Labels 欄，和各頁 frontmatter 同步，已上 GitHub。
+
+- 順帶掃出並清掉 5 筆殘存的第三方 backbone code 連結（如 openai/whisper），大表現為 601 篇經驗證的開源論文。
+
+## [FINAL REPORT]
+
+1. 把 labels/categories 同步到 README 的 Papers with open-source code 大表
+
+   - 成功。`iswiki readme` 的表格新增 Category、Labels 兩欄（code-span 格式、空值安全），內容直接取自各論文 yaml 的 canonical category 與 labels，與每頁 frontmatter 一致；README 已重生成並通過 CI byte-stable 檢查。
+
+   - 驗證時抽查表格第一列即發現 ahn26b 的 code 連結指向 openai/whisper（backbone 而非自家發布），因此對知名第三方 repo 做了一輪掃描：清 5 筆（ahn26b、li26w、yu26c、huo26、bouziane26，皆有原文上下文佐證為依賴引用）、確認保留 3 筆有自宣文字的（zhu26e 論文即 OmniVoice、variani26 明文開源於 MSEB codebase、moumen26 宣布經 SpeechBrain 發布）。大表由 606 修正為 601。
+
+   - 獨立 review 四項全 PASS（報告：.agentflow/artifacts/A-005-readme-table/review-005.md）。
+
+
+## Questions (batched — each with a suggested default)
+
+- None.
+
+
+---
+
+# → Ask / A-006 (miblue119)
 
 +
